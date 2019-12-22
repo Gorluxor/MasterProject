@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6c68450e-6ba3-4e78-8ba2-7662591f56c3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>35</find>
+      <find>Јединствени</find>
+      <find>за израду пр</find>
+      <find>41/2009-99</find>
+      <find>glava_find_title</find>
+      <find>одељак</find>
+      <find>srb</find>
+      <find>1007.html</find>
+      <find>1034</find>
+      <find>1042.html</find>
+      <find>1034.html</find>
+      <find>1124.html</find>
+      <find>908.html</find>
+      <find>2019.html</find>
+      <find>upper</find>
+      <find>10.html</find>
+      <find>1059.html</find>
+      <find>table</find>
+      <find>ref</find>
+      <find>attribute</find>
+      <find>http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/reg/viewAct/f0d72ce3-dad2-4395-a2c1-c3d3226f22c2</find>
+      <find>file</find>
+      <find>open(</find>
+      <find>preprocessing</find>
+      <find>exeption_tag</find>
+      <find>strip_html</find>
+      <find>Č</find>
+      <find>fajl</find>
+      <find>aktovi</find>
+      <find>print</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1UnnAT1esFlOglMAxNyVP2kMLUK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/data" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Predator\PycharmProjects\converting_rs_legal_acts_to_akoma_ntoso-masterAndrijahehe\data" />
+      <recent name="C:\Users\Astral\Desktop\Master\Pravna Informatika\Kolege1\converting_rs_legal_acts_to_akoma_ntoso-master\scraping" />
+      <recent name="C:\Users\Lenovo\Desktop\Pravna Informatika\data\NER" />
+      <recent name="C:\Users\Lenovo\Desktop\Pravna Informatika\tokenizer" />
+      <recent name="C:\Users\Lenovo\Desktop\Pravna Informatika\scraping" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Predator\PycharmProjects\converting_rs_legal_acts_to_akoma_ntoso-masterAndrijahehe\data\test" />
+      <recent name="C:\Users\Predator\PycharmProjects\converting_rs_legal_acts_to_akoma_ntoso-masterAndrijahehe" />
+      <recent name="C:\Users\Lenovo\Desktop\Pravna Informatika\data\NER\labeled" />
+      <recent name="C:\Users\Lenovo\Desktop\Pravna Informatika\reasoner" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.pretprocess_data">
+    <configuration name="CleanLinks" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Pravna Informatika" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scraping" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scraping/CleanLinks.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="LinkScraping" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Pravna Informatika" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scraping" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scraping/LinkScraping.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pretprocess_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Pravna Informatika" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/preprocessing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/preprocessing/pretprocess_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="remove_html" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Pravna Informatika" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/preprocessing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/preprocessing/remove_html.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="webscraping2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Pravna Informatika" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scraping" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scraping/webscraping2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.CleanLinks" />
+      <item itemvalue="Python.LinkScraping" />
+      <item itemvalue="Python.pretprocess_data" />
+      <item itemvalue="Python.remove_html" />
+      <item itemvalue="Python.webscraping2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.pretprocess_data" />
+        <item itemvalue="Python.webscraping2" />
+        <item itemvalue="Python.CleanLinks" />
+        <item itemvalue="Python.LinkScraping" />
+        <item itemvalue="Python.remove_html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c68450e-6ba3-4e78-8ba2-7662591f56c3" name="Default Changelist" comment="" />
+      <created>1550823172252</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550823172252</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="175" y="272" key="#xdebugger.XInspectDialog" timestamp="1576007099553">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="175" y="272" key="#xdebugger.XInspectDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576007099553" />
+    <state x="837" y="222" key="#xdebugger.evaluate" timestamp="1576007664227">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="837" y="222" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1576007664227" />
+    <state x="739" y="274" key="FileChooserDialogImpl" timestamp="1576001115545">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1576001115545" />
+    <state width="1899" height="253" key="GridCell.Tab.0.bottom" timestamp="1576007733449">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="253" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576007733449" />
+    <state width="1899" height="253" key="GridCell.Tab.0.center" timestamp="1576007733449">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="253" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576007733449" />
+    <state width="1899" height="253" key="GridCell.Tab.0.left" timestamp="1576007733448">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="253" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576007733448" />
+    <state width="1899" height="253" key="GridCell.Tab.0.right" timestamp="1576007733449">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="253" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576007733449" />
+    <state width="1899" height="253" key="GridCell.Tab.1.bottom" timestamp="1576007733451">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="253" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576007733451" />
+    <state width="1899" height="253" key="GridCell.Tab.1.center" timestamp="1576007733450">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="253" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576007733450" />
+    <state width="1899" height="253" key="GridCell.Tab.1.left" timestamp="1576007733450">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="253" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576007733450" />
+    <state width="1899" height="253" key="GridCell.Tab.1.right" timestamp="1576007733450">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="253" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576007733450" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1576015198216">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576015198215" />
+    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1576004621631">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1576004621631" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scraping/LinkScraping.py</url>
+          <line>95</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/preprocessing/remove_html.py</url>
+          <line>110</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/preprocessing/remove_html.py</url>
+          <line>123</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/preprocessing/remove_html.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scraping/CleanLinks.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/preprocessing/pretprocess_data.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/preprocessing/pretprocess_data.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

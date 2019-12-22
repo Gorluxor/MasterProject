@@ -1,0 +1,6 @@
+webscraping.py pokupi samo adrese i sacuva ih u fajl
+(napravljeno da ne bi stalno isao na novu stranicu, pa se vracao na ovu)
+
+webscaping2.py cita adrese iz fajla i sa svake adrese kupi metapodatke i smesta ih i u json i u csv fajl 
+
+:)
