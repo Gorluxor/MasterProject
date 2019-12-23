@@ -9,207 +9,284 @@
 
 	
 				
-				На основу члана 61. став 4. Закона о ученичком и студентском стандарду („Службени гласник РС”, бр. 18/10 и 55/13),
-				Министар просвете, науке и технолошког развоја доноси
-				
-				ПРАВИЛНИК
-				о програму рада психолога и педагога у дому ученика
-				"Службени гласник РС", број 2 од 8. јануара 
-				2016.
+				На основу члана 112. став 1. тачка 2. Устава Републике Србије, доносим
+				УКАЗ
+				о проглашењу Закона о потврђивању Споразума између Владе Републике Србије и организације НАТО за подршку и набавку (NSPO) о сарадњи у области логистичке подршке
+				Проглашава се Закон о потврђивању Споразума између Владе Републике Србије и организације НАТО за подршку и набавку (NSPO) о сарадњи у области логистичке подршке, који је донела Народна скупштина Републике Србије на седници Четвртог ванредног заседања у 2016. години, 12. фебруара 2016. године.
+				ПР број 16
+				У Београду, 19. фебруара 2016. године
+				Председник Републике,
+				Томислав Николић, с.р.
+				ЗАКОН
+				о потврђивању Споразума између Владе Републике Србије и организације НАТО за подршку и набавку (NSPO) о сарадњи у области логистичке подршке
+				"Службени гласник РС - Међународни уговори", 
+				број 3 од 19. фебруара 2016.
 				
 				Члан 1.
-				Овим правилником утврђује се програм рада стручног сарадника – психолога и стручног сарадника – педагога (у даљем тексту: психолог и педагог) у дому ученика. 
+				Потврђује се Споразум између Владе Републике Србије и Организације НАТО за подршку и набавку (NSPO) о сарадњи у области логистичке подршке, који је потписан у Капелену, 7. септембра 2015. године и у Београду, 14. септембра 2015. године, у оригиналу на енглеском и француском језику.
 				Члан 2.
-				Програм рада психолога и педагога у дому ученика одштампан уз овај правилник и чини његов саставни део.
+				Текст Споразума у оригиналу на енглеском језику и у преводу на српски језик гласи:
+				AGREEMENT BETWEEN
+				THE GOVERNMENT OF THE REPUBLIC OF SERBIA
+				AND
+				THE NATO SUPPORT AND PROCUREMENT ORGANISATION (NSPO)
+				ON LOGISTIC SUPPORT COOPERATION
+				Whereas:
+				the Republic of Serbia is a nation participating in NATO’s Partnership for Peace Programme that has concluded an Agreement between the Government of the Republic of Serbia and the North Atlantic Treaty Organisation on the Security of Information and the Code of Conduct, signed in Brussels, on 1st October 2008, hereinafter referred to as “the Security Agreement”;
+				the Ministry of Defence of the Republic of Serbia has expressed interest in the services offered by the NATO Support and Procurement Organisation and wishes to establish cooperation in certain areas of logistics, operational support and systems support,
+				the North Atlantic Council has delegated authority to the Agency Supervisory Board of the NATO Support and Procurement Organisation to conclude an agreement on support cooperation with the Republic of Serbia, on the understanding that entry into such agreement will under no circumstances confer on the Republic of Serbia the status of membership in the North Atlantic Treaty Organisation or entitle the Republic of Serbia to lay claim to such status,
+				the Agency Supervisory Board of the NATO Support Organisation has consented to provide the Republic of Serbia with support services (as hereinafter specified) and has authorized the NSPA General Manager to sign this Agreement;
+				Noting:
+				the Charter of the NATO Support and Procurement Organisation approved by the North Atlantic Council on 19 June 2012;
+				the Security Agreement,
+				that the present Agreement constitutes the legal basis for the establishment of the logistics relations as specified in the articles hereinafter between the Government of the Republic of Serbia and the NATO Support and Procurement Organisation,
+				The Government of the Republic of Serbia and the NATO Support and Procurement Organisation, hereinafter referred to as “the Parties”, have agreed as follows:
+				ARTICLE 1 Definitions/Abbreviations
+				In the text of this Agreement and in that of any ensuing specific instruments:
+				– „NATO“ signifies the North Atlantic Treaty Organisation;
+				– „NSPO“ signifies the NATO Support and Procurement Organisation, which constitutes an integral part of NATO;
+				– „NSPA“ signifies the NATO Support and Procurement Agency, which is the Executive Body of the NSPO and an integral part of the NSPO;
+				– „PfP“ signifies the Partnership for Peace, established in NATO summit held in Brussels from 10th to 11th January 1994;
+				– “Support Partnership” refers to an entity established within the NATO Support and Procurement Organisation under precise terms and conditions agreed to by two or more NATO nations wishing to organize in common the support and services of activities within the scope of the NSPO’s mission.
+				– „Technical information“ means recorded or documented information of a scientific or technical nature, whatever the format, documentary characteristics or medium of presentation. This information may include, but is not limited to, any of the following: experimental and test data, specifications, designs and design processes, information on or contained in inventions and discoveries whether patentable or not, technical descriptions and other works of a technical nature, semiconductor, topography/mask works, technical and manufacturing data packages, know-how and trade secrets and information relating to industrial techniques. It may be presented in the form of documents, pictorial reproductions, drawings and other graphic representations, disk and film recordings (optical, magnetic and laser), computer software both programmatic and data base, and computer memory printouts or data retained in computer memory, or any other form.
+				ARTICLE 2Purpose
+				This Agreement establishes the legal framework and foresees the basic principles for the support co-operation between the Government of the Republic of Serbia and NSPO in the specified areas including, but not restricted to, supply, maintenance, procurement of goods and services, transportation, configuration control, technical assistance and execution of Trust Fund Projects for which NSPA is the Executing Agent.
+				ARTICLE 3Implementation
+				3.1. Under this Agreement, specific written instruments may be drawn up for the implementation of the support co-operation, such as sales agreements or arrangements, Partnership agreements or others.
+				3.2. The Ministry of Defence of the Republic of Serbia and the NSPO shall be responsible for concluding the instruments under paragraph 3.1 of this Article,
+				3.3. The instruments referred to in paragraph 3.1 of this Article may require the prior approval of the Government of the Republic of Serbia, and will require the approval of the NSPO Agency Supervisory Board and will where applicable, require the approval of the country of origin of the weapon system or equipment involved.
+				ARTICLE 4Financial Arrangements
+				4.1. The Government of the Republic of Serbia shall bear the costs of support or services, requested from and rendered by NSPO, including costs incurred in the event of termination covered under Article 14 of the Agreement.
+				4.2. All risks inherent in the performance of support or services requested by the Government of the Republic of Serbia and provided by NSPO shall be borne by the Government of the Republic of Serbia.
+				4.3. The financial liabilities for costs arising from or related to any legal liabilities that might be incurred by NATO and/or NSPO, respectively NSPA, in the performance of activities and/or services requested by the Government of the Republic of Serbia shall also be borne by the Government of the Republic of Serbia. Under no circumstances shall this Agreement give rise to any liabilities for NSPO or NSPA.
+				ARTICLE 5Liability, Warranty and Insurance
+				5.1. The Government of the Republic of Serbia, when receiving materiel or services under this Agreement shall waive all claims for injury (including injury resulting in death), loss or damage, when such injury, loss or damage arises from the normal use and/or operation of such materiel or services.
+				5.2. The Parties will afford each other mutual protection against any claim or action of whatever nature brought by any third party against one of the Parties. The Government of the Republic of Serbia shall indemnify NSPO against all claims of whatever nature made by third parties.
+				5.3. Each instrument of the type referred to in Article 3.1 of this Agreement will, as appropriate, detail the commercial warranty covering the materiel or services to which it pertains, for each sector of activity and tasking involved. Neither Party is in a position to offer any warranty on goods or services, nor to warrant that goods or services delivered are free of any defects.
+				5.4. Shipments arranged by NSPO under instruments referred to in Article 3 paragraph 3.1 of this Agreement will not normally be insured unless specifically requested by the Government of the Republic of Serbia. In that case, the Government of the Republic of Serbia will reimburse NSPO for all the costs of insurance requested.
+				ARTICLE 6Points of Contact
+				6.1. Points of contact of both Parties are indicated in Annex 1 to this Agreement.
+				6.2. For the follow-on instruments referred to in Article 3 paragraph 3.1 of this Agreement the Parties may designate specific points of contact.
+				ARTICLE 7Security Requirements
+				7.1. The Parties shall develop and implement a co-ordinated programme for industrial security based on the NATO Security Policy (C-M(2002)49 and C-M(2002i)50) and its Supporting Directives. 
+				7.2. The Parties will notify each other of the security classification laid down by the originating Party with respect to any information or data to be supplied to the other Party under the terms of an instrument referred to in Article 3 paragraph 3.1.of this Agreement. 
+				7.3. Any exchange of classified information, including contracts involving such information, must comply with the provisions set out in the Security Agreement and with the security requirements set out in the NATO Security Policy (С-М(2002)49 and (C-М(2002)50) and its Supporting Directives.
+				7.4. Security certification shall be subject to the instruments referred to under paragraph 3.1. of this Agreement.
+				ARTICLE 8Exchange of Technical Information subject to Property Rights
+				8.1. Data and information to be transferred, released or otherwise exchanged under an instrument referred to in Article 3 paragraph 3.1 of this Agreement and which are clearly identified by one or other of the Parties, by means of an appropriate stamp, legend or other written indication, as being covered by property rights, will be subject to the following provisions.
+				8.2. Each Party undertakes:
+				8.2.1. to use information belonging to the other Party only for the purposes of the instruments referred to in Article 3 paragraph 3.1 of this Agreement;
+				8.2.2. to fully safeguard the confidentiality of information belonging to the other Party and to refrain from disclosing, transferring or otherwise making available such information to any third party;
+				8.2.3. to treat information belonging to the other Party as classified information and to safeguard same by exercising the same care and applying the same controls with respect thereto as the recipient Party normally exercises and applies to protect its proprietary information, in order to avoid inadvertent disclosure, publication, dissemination or transfer, and to take all necessary actions to ensure that only those employees of the recipient Party having a specific „need to know“ will have access to information belonging to the other Party.
+				8.3. Information will not be deemed to be subject to property rights - and will give rise to no obligation on the part of the recipient Party - when that information:
+				8.3.1. is within or enters the public domain due to no malicious or illicit act on the part of the recipient Party;
+				8.3.2. has been supplied in a legitimate manner by a third party, without similar restrictions and without infringement of this Agreement;
+				8.3.3. is approved for release or use by written authorization of the ceding Party.
+				8.3.4. Unless specifically agreed by the Parties, nothing contained in the instruments referred to in Article 3 paragraph 3.1.of this Agreement will be deemed to grant any right or license in respect of any patents, inventions or data at any time owned by either of the Parties.
+				ARTICLE 9 Taxes and Duties
+				NSPO, its assets, income and other property shall be exempt:
+				9.1. from all taxes and other duties, except for duties and fees in connection with public utility services;
+				9.2. from all customs duties and quantitative restrictions on imports and exports in respect of articles imported or exported by NSPO for its official use; articles imported under such exemption shall not be disposed of, by way either of sale or gift, in the Republic of Serbia into which they are imported, except under conditions approved by the Government of the Republic of Serbia. 
+				9.3. from all customs duties and quantitative restrictions on imports and exports in respect of its publications.
+				ARTICLE 10 Immunities and Privileges
+				For the purpose of the present Article, NSPA personnelinclude all military and civilian personnel assigned or attached to or employed by NSPA and performing duties in the Republic of Serbia, in furtherance of this Agreement and its implementation. 
+				10.1. NSPA personnel shall be integrated with the personnel of the NATO Military Liaison Office (MLO) in Belgrade. NSPA personnel shall enjoy all the immunities and privileges as MLO personnel, pursuant to the Letter of Intent between the Government of the Republic of Serbia and NATO on the MLO establishment, exchanged in December 2006.
+				Notwithstanding the above, tax exemption privileges (exemption from paying taxes) that are granted to natural persons will not exceed the level established by the Vienna Convention on Diplomatic Relations signed in Vienna on 18 April 1961.
+				10.2. For the purpose of carrying out their duties pursuant to this Agreement, NSPA personnel shall enjoy, together with their vehicles, the necessary free passage and access throughout the Republic of Serbia. Access to restricted security zones shall be coordinated with the responsible authorities of the Republic of Serbia.
+				10.3. NSPA personnel shall be exempt from taxation by the Republic of Serbia on their salaries and emoluments received from NSPA and on any income received from outside the Republic of Serbia. 
+				10.4. NSPA personnel and their tangible movable property (including also vehicles) imported into, acquired in or exported from the Republic of Serbia shall be exempt from all duties, taxes, VAT and other charges and customs duties. 
+				10.5. NSPA shall be allowed to contract directly for the acquisition of goods, services and construction from any source within and outside the Republic of Serbia. Such contracts, goods, services, and construction shall not be subject to the payment of duties taxes, VAT or other charges.
+				10.6. Locally hired personnel performing administrative and technical functions who are nationals or permanent residents of the Republic of Serbia employed by the NSPA shall be subject to the laws and regulations of the Republic of Serbia. For the purpose of carrying out their duties pursuant to this Agreement, locally hired personnel will be notified to the Serbian Ministry of Defence (MoD) and will be granted access to Serbian MoD facilities as required. 
+				10.7. NSPA will timely notify the Government of the Republic of Serbia, i.e. its competent bodies, on appointment or nomination of new members of NSPA personnel planned for integration with the NATO MLO, as well as their family members.
+				ARTICLE 11Visit Procedures
+				11.1. Representatives of the Parties will, on request, be granted access to governmental or private facilities where work, including tests and trials, is being carried out under instruments concluded under Article 3 paragraph 3.1. of this Agreement subject to need-to-know of these representatives.
+				11.2. The organisation of visits will comply with the Security Regulations laid down in Enclosure G to С-М(2002)49 under the heading “International Visits“. All visitors will also comply with any additional security and safety regulations laid down by the host party. Trade secrets and other technical information communicated to visitors will be treated as if they had been made available to the Party sponsoring the visitors.
+				ARTICLE 12Language
+				All official documents exchanged under this Agreement shall be produced in English and/or French language.
+				ARTICLE 13Amendments
+				This Agreement may be amended by written consent of the Parties. The amendments shall come into force according to the provision of Article 16 of this Agreement.
+				ARTICLE 14 Termination
+				14.1. If one of the Parties wishes to terminate this Agreement or one of the follow–on instruments referred to in Article 3 paragraph 3.1 of this Agreement, that Party may only do so in writing, the termination of the Agreement or follow-on instrument shall come into effect, at earliest, on the first of January of any following year and that Party will notify the other Party at least six months in advance of the date of termination of the Agreement or instrument. 
+				14.2. In the event of termination by one of the Parties of this Agreement or of one of the follow-on instruments referred to in Article 3 paragraph 3.1 of this Agreement, the Parties will consult with one another in a timely manner as to the most satisfactory termination arrangements.
+				14.3. If required by the notice of termination of the present Agreement, the Parties will negotiate, for each instrument of the kind referred to in Article 3 paragraph 3.1 of the Agreement, the earliest possible termination date and the settlement of financial issues with respect to the ongoing support and services. The Party terminating will meet in full its commitments up to the effective date of termination.
+				14.4. If the Parties decide jointly to terminate this Agreement, they will jointly meet any termination costs.
+				14.5. Notwithstanding the termination of this Agreement or any follow-on instrument of the kind referred to in Article 3.1 of this Agreement, the Parties shall fulfil all the rights and responsibilities stemming from them.
+				ARTICLE 15 Settlement of Disputes
+				Any differences arising between the Parties relating to the interpretation or application of the present Agreement will be settled by negotiation between them without recourse to any national or international court or tribunal or other third party for settlement.
+				ARTICLE 16Effective Date
+				This Agreement will come into effect on the date of the receipt of the last written notification through diplomatic channels by which the Parties confirm that they have completed all internal procedures necessary for this Agreement to come into effect.
+				ARTICLE 17Signature
+				This Agreement is concluded in two original copies of which, each drawn up in the English and French languages, both language versions being deemed equally valid. 
+				
+				
+					
+						
+							
+								For the Government of the Republic of Serbia:
+								Bratislav Gašić
+								Minister of Defence
+								Place: Belgrade, Serbia
+								Date: 14. September 2015.
+							
+							
+								For the NATO Support and Procurement Organisation:
+								Michael J. Lyden 
+								General Manager NATO Support and Procurement Agency
+								Place: Capellen, Luxembourg
+								Date: 7. September 2015. 
+							
+						
+					
+				
+				ANNEX A
+				The points of contact for all matters concerning the provisions of this Agreement are as follows:
+				– for the Ministry of Defence of the Republic of Serbia:
+				Partnership for Peace Group
+				International Military Cooperation Department 
+				Ministry of Defence 
+				The Republic of Serbia
+				Tel: +381 11 3203 465
+				Fax: +381 11 3203 241
+				And
+				Legal Advisor
+				Department for International Military Cooperation 
+				Ministry of Defence of the Republic of Serbia
+				Tel +381 113203 - 438
+				for NSPO:
+				The Legal Advisor
+				L-8302 Capellen,
+				Luxembourg 
+				Tel. int. (+352) 30 63 6554
+				Fax: int. (+352) 3063 6986
+				СПОРАЗУМ ИЗМЕЂУ
+				ВЛАДЕ РЕПУБЛИКЕ СРБИЈЕ
+				И
+				ОРГАНИЗАЦИЈЕ НАТО ЗА ПОДРШКУ И НАБАВКУ (NSPO)
+				О САРАДЊИ У ОБЛАСТИ ЛОГИСТИЧКЕ ПОДРШКЕ
+				Имајући у виду да је:
+				Република Србија држава учесница у програму НАТО „Партнерство за мир”, те да је закључила Споразум између Владе Републике Србије и Организације северноатлантског уговора о безбедности информација и Кодекс о поступању, који су потписани у Бриселу, 1. октобра 2008. године, у даљем тексту: „Безбедносни споразум”;
+				Министарство одбране Републике Србије изразило заинтересованост за услуге које нуди Организација НАТО за подршку и набавку и жели да успостави сарадњу у одређеним областима логистике, оперативне подршке и подршке системима,
+				Северноатлантски савет пренео овлашћење на Надзорни одбор Агенције Организације НАТО за подршку и набавку да закључи споразум о сарадњи у области подршке са Републиком Србијом при чему се подразумева да се закључивањем таквог споразума Републици Србији неће доделити статус земље чланице Организације северноатлантског уговора, нити ће Република Србија полагати право на такав статус,
+				Надзорни одбор Агенције Организације НАТО за подршку дао сагласност у погледу пружања услуга логистичке подршке Републици Србији (као што је прецизирано у даљем тексту) и овластио генералног директора NSPA да потпише овај споразум;
+				С обзиром на:
+				Повељу Организације НАТО за подршку и набавку, коју је одобрио Северноатлантски савет 19. јуна 2012;
+				Безбедносни споразум; 
+				овај споразум чини правни основ за успостављање односа у области логистике како је прецизирано у члановима у даљем тексту, између Владе Републике Србије и Организације НАТО за подршку и набавку;
+				Влада Републике Србије и Организација НАТО за подршку и набавку, у даљем тексту: „Стране”, споразумеле су се о следећем:
+				Члан 1. Дефиниције/Скраћенице
+				У тексту овог споразума, као и у посебним документима који се на основу њега закључе:
+				– „НАТО” означава Организацију северноатлантског уговора;
+				– „NSPO” означава Организацију НАТО за подршку и набавку, која чини саставни део НАТО;
+				– „NSPA” означава Агенцију НАТО за подршку и набавку, која представља Извршни орган NSPO и саставни део NSPO;
+				– „ПзМ” означава Партнерство за мир, установљено на Самиту НАТО, одржаном у Бриселу од 10. до 11. јануара 1994. године;
+				– „Партнерство ради подршке” означава правно лице установљено у оквиру Организације НАТО за подршку и набавку под прецизним условима са којима су сагласне две или више НАТО држава које желе да заједно организују подршку и пружање услуга активностима у оквиру мисије NSPО;
+				– „Стручни податак” је забележени или документовани податак научног или техничког карактера, без обзира на формат, документарне карактеристике или начин презентовања. Овај податак може укључивати, али се не ограничава на: податке у вези са експериментима и опитима, спецификације, пројекте и процесе пројектовања, податке о или садржане у проналасцима и открићима било да се могу патентирати или не, техничке описе и друге радове техничке природе, топографију полупроводника/маске (запис угравиран на компјутерском чипу), пакете техничких података или пакете података у вези са производњом, техничке вештине (know-how) и пословне тајне и податке који се односе на технике производње. Овакав податак може бити приказан у виду докумената, репродукција/копија слика, цртежа и других графичких приказа, записа на диску или филмских записа (оптичких, магнетних и ласерских), компјутерских софтвера – било да се ради о програмском софтверу или бази података, као и у виду одштампаног текста из компјутерске меморије или података сачуваних у компјутерској меморији, или у било ком другом облику.
+				Члан 2.Циљ
+				Овим споразумом успоставља се правни оквир и утврђују основни принципи сарадње у области подршке између Владе Републике Србије и NSPO у наведеним областима, укључујући, али не ограничавајући се на снабдевање, одржавање, набавку робе и услуга, превоз, контролу конфигурације, техничку помоћ и реализацију пројеката Поверилачког фонда за који је NSPA извршни орган.
+				Члан 3. Спровођење
+				3.1. На основу овог споразума, могу се израдити посебни уговори за реализацију сарадње у области подршке, као што су продајни уговори или аранжмани, споразуми о партнерству и др.
+				3.2. Министарство одбране Републике Србије и NSPO надлежни су за закључивање уговора из става 3.1. овог члана. 
+				3.3. За аранжмане из става 3.1. овог члана, може се захтевати претходно одобрење Владе Републике Србије, односно Надзорног одбора Агенције NSPO, као и одобрење земље порекла система наоружања или опреме који су предмет тих аранжмана, уколико је потребно. 
+				Члан 4. Финансијски аранжмани
+				4.1. Влада Републике Србије сноси трошкове у области подршке или услуга које затражи од NSPO и које пружи NSPO, као и трошкове који настану у случају престанка важења из члана 14. Споразума.
+				4.2. Након затражене и добијене подршке и услуга од NSPO, Влада Републике Србије сноси и све ризике који су својствени пружању те подршке или услуга.
+				4.3. Влада Републике Србије такође сноси и финансијске обавезе у погледу трошкова који настану из или у вези са било којом правном одговорношћу коју може да има НАТО и/или NSPO, односно NSPA, приликом извођења активности и/или услуга које затражи Влада Републике Србије. Ни под којим условима овај споразум не повлачи одговорности за NSPO или NSPA.
+				Члан 5. Одговорност, гаранција и осигурање
+				5.1. Уколико Влада Републике Србије прима борбену технику и опрему или услуге сагласно овом споразуму, одриче се свих потраживања по одштетним захтевима који се односе на повреде (укључујући и повреде са смртним исходом), губитак или штету, када таква повреде, губитак или штета настану услед редовне употребе и/или функционисања те борбене технике, опреме или услуга.
+				5.2. Стране ће једна другој пружити међусобну заштиту од одштетних захтева или тужби било које врсте који потекну од било које треће стране, а усмерени су против једне од Страна. Влада Републике Србије дужна је да обештети NSPO у погледу свих одштетних захтева треће стране без обзира на њихову врсту.
+				5.3. У сваком уговору из члана 3. став 3.1. овог споразума, биће, по потреби, детаљно наведена комерцијална гаранција која покрива трошкове борбене технике и опреме, односно услуга на које се тај аранжман односи, за све области деловања и задатке које он укључује. Ниједна од Страна није у позицији да пружа гаранцију за робе или услуге нити да гарантује да испоручена роба и услуге немају никаквих недостатака.
+				5.4. Испоруке које уговори NSPO на основу уговора из члана 3. став 3.1. овог споразума, по правилу неће бити осигуране, осим ако то Влада Републике Србије изричито не затражи. У том случају, Влада Републике Србије надокнадиће NSPO све трошкове осигурања које је затражила.
+				Члан 6.Особе за контакт
+				6.1. Особе за контакт сваке од Страна, наведене су у Анексу 1. овог споразума. 
+				6.2. За уговоре из члана 3. став 3.1. овог споразума, Стране могу посебно одредити особе за контакт.
+				Члан 7. Безбедносни захтеви
+				7.1. Стране израђују и спроводе усаглашени план индустријске безбедности на основу Безбедносне политике НАТО (С-М(2002)49 и С-М(2002)50) и њених пратећих директива.
+				7.2. Стране ће обавестити једна другу о степенима тајности које Страна давалац додељује свакој информацији или податку који ће бити достављени другој Страни, у складу са уговорима из члана 3. став 3.1. овог споразума.
+				7.3. Свака размена тајних података, укључујући и уговоре који садрже такве податке, мора бити у сагласности са одредбама утврђеним у Безбедносном споразуму као и са безбедносним захтевима утврђеним у Безбедносној политици НАТО (С-М(2002)49 и (С-М(2002)50) и њеним пратећим директивама.
+				7.4. Безбедносна сертификација примењује се и на уговоре из члана 3. став 3.1. овог споразума.
+				Члан 8. Размена стручних података који подлежу правима својине
+				8.1. На податке и информације који треба да се преносе, уступају или на други начин размењују за потребе уговора из члана 3. став 3.1. овог споразума, а које једна од Страна јасно означи помоћу одговарајућег печата, легенде или писане назнаке, као такве да се на њих односе права својине, примењиваће се следеће одредбе.
+				8.2. Свака од Страна се обавезује:
+				8.2.1. да користи податке који припадају другој Страни искључиво за потребе уговора из члана 3. став 3.1. овог споразума;
+				8.2.2. да пружи комплетну заштиту тајности података који припадају другој Страни и да се уздржава од одавања, преношења или на други начин чињења доступним таквих података било којој трећој страни;
+				8.2.3. да се према подацима који припадају другој Страни односи као према тајним подацима и да их штити водећи о њима рачуна и примењујући исте провере као што то Страна прималац редовно чини како би заштитила податке у свом власништву, а да би се избегло несмотрено одавање, објављивање, ширење или преношење, као и да ће предузети све неопходне радње да се постара да само они запослени Стране примаоца који поседују конкретно одобрење приступа тајним подацима који су неопходни за обављање послова из делокруга њиховог рада („need-to-know”), имају приступ подацима који припадају другој Страни.
+				8.3. Податак се неће сматрати таквим да подлеже правима својине – и неће стварати никакве обавезе за Страну примаоца - када је такав податак:
+				8.3.1. у оквиру или када залази у јавни домен услед поступка Стране примаоца који није злонамеран или незаконит;
+				8.3.2. доставила трећа страна на легитиман начин, без сличних ограничења и без повреде овог споразума;
+				8.3.3. одобрен за уступање или употребу на основу писаног одобрења Стране која га уступа;
+				8.3.4. Осим ако између Страна није изричито договорено, ништа од онога што је садржано у уговорима из члана 3. став 3.1. овог споразума, неће се сматрати таквим да се њиме у било које време даје неко право или дозвола у погледу патената, проналазака или података који су у поседу једне од Страна.
+				Члан 9. Порези и дажбине
+				NSPO, њена средства, приходи и друга имовина, биће изузети од:
+				9.1. свих пореза и других дажбина, осим дажбина и обавеза у вези са јавним комуналним услугама;
+				9.2. свих царинских дажбина и квантитативних ограничења у погледу увоза и извоза у вези са артиклима које увезе или извезе NSPO за своју службену употребу. Артикли који се увезу уз такво изузеће не могу се отуђити путем продаје или поклона у Републици Србији у коју су увезени, осим под условима и на начин регулисан прописима Републике Србије;
+				9.3. свих царинских дажбина и квантитативних ограничења у погледу увоза и извоза који се односе на њене публикације.
+				Члан 10. Имунитети и привилегије
+				За потребе овог члана, особље NSPА обухвата целокупно војно и цивилно особље формацијски додељено или прикључено или које запошљава NSPA, a које у циљу реализације овог споразума, као и његове имплементације, обавља дужности у Републици Србији. 
+				10.1. Особље NSPА је интегрисано са особљем Војне канцеларије за везу са НАТО у Београду. Особље NSPА ужива све имунитете и привилегије као и особље Војне канцеларије за везу са НАТО, сагласно Писму о намерама између Владе Републике Србије и НАТО о успостављању Војне канцеларије за везу са НАТО у Београду, размењеном у децембру 2006. године.
+				Пореске привилегије (ослобођење од плаћања пореза) које се дају физичким лицима, неће бити више од ниова који је установљен Бечком конвенцијом о дипломатским односима, која је потписана у Бечу, 18. априла 1961. године.
+				10.2. У сврху извршавања својих дужности по основу овог споразума, особље NSPA, укључујући и њихова возила, ужива право неопходног слободног пролаза и приступа кроз читаву Републику Србију. Приступ забрањеним безбедносним зонама усаглашава се са надлежним органима Републике Србије. 
+				10.3. Особље NSPA изузима се од плаћања пореза Републике Србије на плате и зараде које добија од NSPA, као и на сваку другу врсту прихода који добије изван Републике Србије. 
+				10.4. Особље NSPA и његова материјална покретна имовина (укључујући и возила) која је увезена, стечена или извезена из Републике Србије ослобађају се од плаћања пореза, ПДВ и других намета и царинских дажбина. 
+				10.5. NSPA је дозвољено да директно уговара набавку робе, услуга и грађевинских радова из било ког извора у оквиру или изван Републике Србије. Такви уговори, роба, услуге и грађевински радови не подлежу плаћању царина, пореза, ПДВ и других дажбина.
+				10.6. Особље унајмљено из редова локалног становништва које обавља административне и техничке дужности, а који су држављани или имају стални боравак у Републици Србији, које је запослила NSPA, подлеже законима и прописима Републике Србије. За потребе вршења својих дужности у складу са овим споразумом, Министарство одбране Републике Србије (МО) биће обавештено о особљу унајмљеном из редова локалног становништва и по потреби ће им бити дозвољен приступ објектима МО. 
+				10.7. NSPA ће благовремено обавестити Владу Републике Србије, односно њене надлежне органе, о именовању, односно номиновању нових чланова особља NSPA планираних за интегрисање са Канцеларијом за везу са НАТО, као и чланова њиховог породичног домаћинства.
+				Члан 11. Процедуре у вези са посетама
+				11.1. Представницима Страна ће, на захтев, бити одобрен приступ државним или приватним објектима у којима се ради, укључујући и оне где се врше испитивања и пробе, у складу са уговорима из члана 3. став 3.1. овог споразума, a y зависности од одобрења за приступ тајним подацима који су неопходни за обављање послова из делокруга њиховог рада („need-to-know”) који поседују ови представници.
+				11.2. Организовање посета реализује се у складу са Безбедносним прописима наведеним у Прилогу G уз С-М(2002)49 под насловом „Међународне посете”. Сви посетиоци ће се придржавати и свих додатних прописа у погледу безбедности и сигурности које наведе страна домаћин. Пословне тајне и други стручни подаци који буду саопштени посетиоцима биће третирани тако као да су учињени доступним Страни која финансира посетиоце.
+				Члан 12. Језик
+				Сва званична документа која се размене сагласно овом споразуму, израђиваће се на енглеском и/или француском језику. 
+				Члан 13. Измене и допуне
+				Овај споразум се може мењати и/или допуњавати, писаном сагласношћу Страна. Измене и допуне ступају на снагу сагласно члану 16. овог споразума.
+				Члан 14. Престанак важности/отказивање
+				14.1. Ако једна од Страна жели да раскине овај споразум или један од уговора из члана 3. став 3.1. овог споразума, та Страна обавестиће другу Страну искључиво писаним путем, најмање шест месеци пре датума престанка важења Споразума, односно уговора, тако да престанак важења Споразума или наведеног уговора ступа на снагу најраније првог јануара било које наредне године.
+				14.2. У случају да једна од страна раскине овај споразум или један од уговора из члана 3. став 3.1. овог споразума, Стране ће се благовремено међусобно консултовати око постизања најповољнијих договора у вези са престанком важења.
+				14.3. Уколико се то захтева у обавештењу о отказивању овог споразума, Стране ће, за сваки аранжман из члана 3. став 3.1. Споразума, преговарати о најранијем могућем датуму престанка важења, као и о решавању финансијских питања у вези са подршком и услугама чија реализација буде у току у том тренутку. Страна која раскида, испуниће у потпуности своје обавезе до датума ступања на снагу престанка важења.
+				14.4. Уколико Стране заједно одлуче да раскину овај споразум, заједно ће сносити све трошкове тог отказивања.
+				14.5. Без обзира на престанак важења овог Споразума или неког од додатних аранжмана из члана 3.1. овог споразума, Стране су дужне да испуне сва права и одговорности који из њих проистичу.
+				Члан 15. Решавање спорова
+				Све несугласице између Страна које настану у вези са тумачењем или применом овог споразума, решаваће се међусобним преговорима без обраћања за помоћ било ком националном или међународном суду или трећој страни ради решавања.
+				Члан 16. Ступање на снагу
+				Овај споразум ступа на снагу даном пријема последњег писаног обавештења дипломатским путем, којим Стране потврђују да су испуниле све унутрашње процедуре неопходне за ступање на снагу овог споразума.
+				Члан 17.Потписивање
+				Овај споразум је закључен у по два истоветна примерка, сваки састављен на енглеском и француском језику, при чему се обе верзије сматрају подједнако важећим. 
+				
+				
+					
+						
+							
+								За Владу Републике Србије
+								________________________
+								Датум:
+							
+							
+								За Организацију НАТО 
+								за подршку и набавку
+								________________________
+								Датум:
+							
+						
+					
+				
+				АНЕКС А
+				Лица за контакт за сва питања која се тичу одредби овог споразума су: 
+				– за Министарство одбране Републике Србије
+				Група Партнерство за мир
+				Управа за међународну војну сарадњу 
+				Министарство одбране Републике Србије
+				Тел: +381 11 3203 465
+				Факс: +381 11 3203 241
+				и
+				Правни саветник
+				Управа за међународну војну сарадњу 
+				Министарство одбране Републике Србије
+				Тел +381 113203 – 438
+				– за NSPО:
+				Правни саветник 
+				L-8302 Capellen, 
+				Луксембург
+				телефон: међународни (352) 30 63 6554 
+				факс: међународни (352) 30 63 6986
 				Члан 3.
-				Овај правилник ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.
-				Број 110-00-506/2015-04
-				У Београду, 29. децембра 2015. године
-				Министар, 
-				др Срђан Вербић, с.р.
-				ПРОГРАМ РАДА ПСИХОЛОГА И ПЕДАГОГА
-				ПСИХОЛОГ
-				ЦИЉ
-				Психолог у дому ученика применом научно заснованих психолошких теорија, емпиријских сазнања и практичних вештина доприноси остваривању и унапређивању васпитног рада у дому.
-				ЗАДАЦИ
-				1) Учествовање у планирању, праћењу, вредновању и унапређењу васпитног рада дома ученика;
-				2) Подршка развоју личности ученика и саветодавни рад у решавању емоционалних и проблема у понашању;
-				3) Подршка и помоћ васпитачима у спровођењу и унапређивању васпитног рада; 
-				4) Пружање подршке и саветодавни рад са родитељима/старатељима ученика у решавању проблема са психолошког становишта;
-				5) Унапређивање сарадње са школом, локалном самоуправом, стручним и струковним организацијама и другим институцијама од значаја за успешан рад дома ученика;
-				6) Пружање подршке васпитачима у њиховом професионалном развоју;
-				7) Превентивни рад у домену здравља ученика, безбедности и заштите њихових права.
-				ОБЛАСТИ РАДА
-				I. ПЛАНИРАЊЕ И ПРОГРАМИРАЊЕ ВАСПИТНОГ РАДА 
-				1) Учествовање у изради развојног плана дома ученика;
-				2) Учествовање у изради годишњег плана и програма рада дома;
-				3) Припремање годишњег програма рада и месечних планова рада психолога;
-				4) Спровођење анализа и истраживања у циљу унапређења рада дома ученика;
-				5) Пружање помоћи васпитачима у планирању и документовању васпитног рада у васпитној групи;
-				6) Учествовање у избору и планирању иновативних и специјализованих програма дома ученика; 
-				7) Учествовање у планирању превентивних активности које допроносе унапређењу здравља, безбедности и заштите права ученика у дому ученика;
-				8) Планирање организације рада дома и заједничких активности са директором и другим стручним сарадницима;
-				9) Учествовање у формирању и структурирању васпитних група;
-				10) Учествовање у избору стручне литературе и дидактичких материјала у дому ученика;
-				11) Припремање плана посете психолога васпитним активностима у дому ученика;
-				12) Припремање плана сопственог стручног усавршавања и професионалног развоја;
-				13) Учествовање у писању пројеката дома и конкурисању за финансијска средства;
-				14) Учешће у планирању и организовању различитих облика сарадње са другим институцијама.
-				II. ПРАЋЕЊЕ И ВРЕДНОВАЊЕ ВАСПИТНОГ РАДА 
-				1) Учешће у праћењу и вредновању васпитног рада дома и предлагање мера за његово побољшање;
-				2) Систематско праћење адаптације и напредовања ученика;
-				3) Учествовање у праћењу и вредновању ефеката иновативних активности и пројеката;
-				4) Иницирање и учествовање у истраживањима васпитне праксе које реализује дом ученика; 
-				5) Учешће у изради годишњег извештаја о раду дома ученика.
-				III. РАД СА ВАСПИТАЧИМА
-				1) Јачање компетенција васпитача у областима: динамике групе, социјалне интеракције, комуникације и сарадње, конструктивног решавања сукоба и заштите права ученика;
-				2) Јачање компетенција васпитача у препознавању ученика којима је потребна психолошка помоћ и подршка;
-				3) Оснаживање васпитача за рад са ученицима из осетљивих друштвених група неговањем толеранције и флексибилног става према различитим друштвеним групама;
-				4) Оснаживање васпитача да препознају и подрже способности, интересовања и склоности ученика које су у функцији њиховог професионалног развоја;
-				5) Подршка васпитачима у вођењу васпитне групе;
-				6) Пружање подршке васпитачима у сарадњи са родитељем/старатељем;
-				7) Мотивисање васпитача на континуирано стручно усавршавање; 
-				8) Пружање помоћи приправницима у процесу увођења у посао, као и у припреми полагања испита за лиценцу;
-				9) Учествовање у раду комисије за проверу савладаности програма увођења у посао васпитача и стручног сарадника.
-				IV. РАД СА УЧЕНИЦИМА
-				1) Учешће у организацији пријема ученика, праћења процеса адаптације и подршка у превазилажењу тешкоћа;
-				2) Идентификовање ученика с емоционалним и проблемима у понашању и саветодавни рад са њима; 
-				3) Испитивање индивидуалних карактеристика ученика психолошким мерним инструментима и другим инструментима процене;
-				4) Подршка и помоћ ученицима из осетљивих друштвених група;
-				5) Подршка ученицима у њиховом професионалном развоју; 
-				6) Подстицање партиципације ученика, пружање подршке и помоћи ученицима у раду ученичких организација на нивоу дома ученика и њихово укључивање у различите пројекте и активности на локалном нивоу; 
-				7) Пружање психолошке помоћи ученику и групи у акцидентним кризама;
-				8) Организовање и спровођење превентивних активности у области здравља, безбедности и заштите права.
-				V. РАД СА РОДИТЕЉИМА/ СТАРАТЕЉИМА
-				1) Сарадња са родитељима/старатељима у циљу прикупљања података о ученицима;
-				2) Припрема и реализација родитељских састанака, трибина, радионица са стручним темама;
-				3) Саветодавни рад са родитељима/старатељима ученика који имају емоционалне и понашајне проблеме;
-				4) Информисање родитеља/старатеља о релевантним информацијама за рад дома ученика и подстицање њихове партиципације. 
-				VI. РАД СА ДИРЕКТОРОМ, СТРУЧНИМ САРАДНИЦИМА, СТРУЧНИМ САРАДНИКОМ – АСИСТЕНТОМ
-				1) Сарадња са директором и стручним сарадницима у циљу унапређивања рада дома ученика; 
-				2) Сарадња са директором и стручним сарадницима на заједничком планирању активности, стручног усавршавања васпитача, изради стратешких докумената дома ученика, анализи података и припреми извештаја; 
-				3) Сарадња са директором и стручним сарадницима у оквиру рада различитих тимова и комисија; 
-				4) Сарадња са стручним сарадником-асистентом у циљу унапређивања рада са ученицима којима је потребна додатна подршка.
-				VII. РАД У СТРУЧНИМ ОРГАНИМА И ТИМОВИМА
-				1) Учествовање у раду педагошког већа; 
-				2) Учествовање у раду тимова, актива и комисија на нивоу дома ученика који се образују ради остваривања одређених задатака, програма или пројекта; 
-				VIII. САРАДЊА СА НАДЛЕЖНИМ УСТАНОВАМА, ОРГАНИЗАЦИЈАМА, УДРУЖЕЊИМА И ЈЕДИНИЦОМ ЛОКАЛНЕ САМОУПРАВЕ
-				1) Сарадња са образовним, здравственим, социјалним и другим институцијама значајним за остваривање циљева рада дома ученика и добробити ученика; 
-				2) Учествовање у раду стручних удружења, њихових органа, комисија, одбора;
-				3) Учествовање у истраживањима научних, просветних и других установа; 
-				4) Сарадња са психолозима који раде у другим установама, институцијама, организацијама, удружењима од значаја за остваривање васпитног рада и добробити ученика;
-				5) Сарадња са организацијама на нивоу локалне самоуправе у циљу подршке развоја младих.
-				IX. ВОЂЕЊЕ ДОКУМЕНТАЦИЈЕ, ПРИПРЕМА ЗА РАД И СТРУЧНО УСАВРШАВАЊЕ
-				1) Вођење евиденције о сопственом раду на дневном, месечном и годишњем нивоу;
-				2) Припрема за послове предвиђене годишњим програмом рада и оперативним плановима рада психолога;
-				3) Прикупљање и заштита материјала који садржи личне податке о ученицима и резултате психолошких тестирања у складу са етичким кодексом психолога;
-				4) Стручно се усавршава праћењем стручне литературе и периодике, учествовањем у активностима струковних удружења и похађањем обука стручног усавршавања и учествовањем у стручним скуповима. 
-				Препоруке за остваривање програма
-				У Програму рада су наведени општи циљ и задаци рада психолога као и попис послова којима се они остварују распоређених у девет области без препорученог броја радних сати. На основу њега сваки психолог, у зависности од специфичности дома ученика у коме ради, планира конкретне активности којима ће се бавити и припрема свој годишњи програм рада као и месечне оперативне планове рада. При планирању треба имати у виду да постоје послови који се реализују током целе године и они који су фиксирани само у одређеном периоду. 
-				Наведени циљ и задатке психолог остварује обављањем следећих стручних послова: 
-				1) психолошка процена и примена стандардизованих психолошких мерних инструмената;
-				2) психолошка превенција и едукација; 
-				3) психолошко саветовање;
-				4) психолошко истраживање и евалуација.
-				Психолог има самосталност да у складу са проценом ситуације, својим стручним знањем и етиком струке процењује које ће стандардизоване психолошке мерне инструменте примењивати, на који начин ће прикупљати податке потребне за свој рад, која ће истраживања спроводити, кога ће укључити у одређене активности. 
-				Праћење и подстицање развоја ученика (интелектуални, емоционални, социјални, морални, професионални развој и развој система вредности) започиње упознавањем личности ученика при упису у установу, прикупљањем података о основним карактеристикама ученика и његове породице. Начин даљег праћења развоја и напредовања ученика психолог дефинише у зависности од специфичности дома ученика у коме ради и индивидуалних карактеристика ученика. 
-				Да би психолог могао ефикасно да спроведе непосредни рад са учеником неопходна је стална сарадња са другим учесницима домског живота (сам ученик, други ученици, васпитачи, родитељи/старатељи, директор) који ће га благовремено обавестити о новонасталим променама због којих се појављује потреба за непосредним радом психолога са учеником.
-				Тимски рад са осталим учесницима живота установе је једна од основних претпоставки успешног рада психолога. Посебно је важна сарадња са другим стручним сарадницима, уколико их установа има, са којима тимски у оквиру одређених области рада и послова, реализује различите активности а у складу са базичним образовањем, разликама у методама, техникама и инструментима који се користе.
-				О свом раду психолог води евиденцију у следећој документацији: књигу евиденције рада стручног сарадника и психолошки досије ученика.
-				Документација са резултатима психолошких испитивања, резултати психолошке процене и налаз спадају у професионалну тајну. Мишљење психолога које се даје на основу психолошке процене и налаза може се доставити тиму или комисији која је формирана у дому, васпитачу, директору, просветном саветнику и просветном инспектору. Уколико мишљење психолога тражи школа, центар за социјални рад, здравствена установа или суд, морају упутити дому писмени захтев са образложењем.
-				Да би се заштитила приватност и подаци личне природе ученика и родитеља, односно старатеља, као и прописана процедура психолошког рада и процес рада уопште, потребно је да психолог има обезбеђену засебну просторију за непосредни рад са ученицима и родитељима, односно старатељима.
-				ПЕДАГОГ 
-				ЦИЉ
-				Педагог у дому ученика применом научно заснованих педагошких теорија, емпиријских сазнања и практичних вештина доприноси остваривању и унапређивању васпитног рада у дому.
-				ЗАДАЦИ 
-				1) Учествовање у планирању, праћењу, вредновању и унапређивању васпитног рада дома ученика;
-				2) Подршка развоју личности ученика и пружање помоћи у учењу и школском постигнућу;
-				3) Подршка и помоћ васпитачима у спровођењу и унапређивању васпитног рада; 
-				4) Унапређивање сарадње породице и дома по питањима значајним за васпитање и образовање ученика; 
-				5) Унапређивање сарадње са школом, локалном самоуправом, стручним и струковним организацијама и другим институцијама од значаја за успешан рад дома ученика;
-				6) Пружање подршке васпитачима у њиховом професионалном развоју;
-				7) Превентивни рад у домену здравља ученика, безбедности и заштите њихових права.
-				ОБЛАСТИ РАДА
-				I. ПЛАНИРАЊЕ И ПРОГРАМИРАЊЕ ВАСПИТНОГ РАДА
-				1) Учествовање у изради развојног плана дома ученика;
-				2) Учествовање у изради годишњег плана и програма рада дома ученика;
-				3) Припремање годишњих и месечних планова рада педагога;
-				4) Спровођење анализа и истраживања у циљу унапређења рада дома ученика;
-				5) Пружање помоћи васпитачима у планирању и документовању васпитног рада у васпитној групи; 
-				6) Учествовање у избору и планирању иновативних и специјализованих програма дома ученика; 
-				7) Учествовање у планирању превентивних активности које доприносе унапређењу здравља, безбедности и заштите права ученика у дому ученика;
-				8) Планирање организације рада дома и заједничких активности са директором и другим стручним сарадницима;
-				9) Учешће у планирању и организовању различитих облика сарадње са другим институцијама;
-				10) Учествовање у формирању и структурирању васпитних група;
-				11) Учествовање у избору стручне литературе и дидактичких материјала у дому ученика;
-				12) Учествовање у писању пројеката дома ученика и конкурисању за финансијска средства;
-				13) Иницирање и учешће у иновативним видовима планирања различитих облика васпитног рада; 
-				14) Учествовање у избору и конципирању слободних активности ученика;
-				15) Учешће у планирању и реализацији културних манифестација, наступа ученика, медијског представљања дома ученика и слично;
-				16) Припремање плана сопственог стручног усавршавања и професионалног развоја;
-				17) Пружање помоћи васпитачима у изради планова рада секција.
-				II. ПРАЋЕЊЕ И ВРЕДНОВАЊЕ ВАСПИТНОГ РАДА
-				1) Учешће у праћењу и вредновању васпитног рада дома ученика и предлагање мера за његово побољшање;
-				2) Систематско праћење адаптације и напредовања ученика;
-				3) Анализа успеха ученика на класификационим периодима и предлагање мера за побољшање општег успеха;
-				4) Учешће у праћењу и вредновању ефеката иновативних активности и пројеката;
-				5) Иницирање и учествовање у истраживањима васпитне праксе које реализује дом ученика; 
-				6) Учешће у изради годишњег извештаја о раду дома ученика. 
-				III. РАД СА ВАСПИТАЧИМА
-				1) Помоћ васпитачима на конкретизовању и операционализовању циљева и задатака васпитног рада; 
-				2) Подршка васпитачима у усклађивању програмских захтева са специфичностима контекста остваривања васпитног рада; 
-				3) Помоћ васпитачима на унапређивању квалитета васпитног рада иницирањем и увођењем савремених метода и облика рада;
-				4) Јачање компетенција васпитача за рад са ученицима ради побољшања школске успешности;
-				5) Мотивисање васпитача на континуирано стручно усавршавање; 
-				6) Праћење начина вођења педагошке документације васпитача;
-				7) Оснаживање васпитача за рад са ученицима из осетљивих друштвених група развијањем толеранције и флексибилног става према различитим друштвеним групама;
-				8) Подршка васпитачима у реализацији угледних активности и примера добре праксе;
-				9) Подршка васпитачима у сарадњи са родитељем/старатељем;
-				10) Помоћ приправницима у процесу увођења у посао, као и у припреми полагања испита за лиценцу;
-				11) Учествовање у раду комисије за проверу савладаности програма увођења у посао васпитача, стручног сарадника.
-				IV. РАД СА УЧЕНИЦИМА
-				1) Учешће у организацији пријема ученика, праћења процеса адаптације и подршка у превазилажењу тешкоћа;
-				2) Пружање помоћи и подршке ученицима у њиховом напредовању у учењу и школском постигнућу;
-				3) Идентификовање ученика са проблемима у учењу и понашању и рад на отклањању педагошких узрока тих проблема; 
-				4) Подстицање ученичке партиципације, пружање подршке и помоћи ученицима у раду ученичких организација на нивоу дома и њихово укључивање у различите пројекте и активности на локалном нивоу; 
-				5) Подршка ученицима у њиховом професионалном развоју; 
-				6) Подршка ученицима у конструктивном коришћењу слободног времена;
-				7) Организовање и спровођење превентивних активности у области здравља, безбедности и заштите права.
-				V. САРАДЊА СА РОДИТЕЉИМА/СТАРАТЕЉИМА 
-				1) Сарадња са родитељима/старатељима у циљу прикупљања података о ученицима;
-				2) Припрема и реализација родитељских састанака, трибина, радионица са стручним темама;
-				3) Подршка и помоћ родитељима/старатељима ученика који имају тешкоће у учењу и школском постигнућу;
-				4) Информисање родитеља/старатеља о релевантним информацијама за рад дома ученика и подстицање њихове партиципације. 
-				VI. РАД СА ДИРЕКТОРОМ, СТРУЧНИМ САРАДНИЦИМА И СТРУЧНИМ САРАДНИКОМ – АСИСТЕНТОМ 
-				1) Сарадња са директором и стручним сарадницима у циљу унапређивања рада дома ученика; 
-				2) Сарадња са директором и стручним сарадницима на заједничком планирању активности, стручног усавршавања васпитача, изради стратешких докумената дома ученика, анализи података и припреми извештаја; 
-				3) Сарадња са директором и стручним сарадницима у оквиру рада различитих тимова и комисија; 
-				4) Сарадња са стручним сарадником-асистентом у циљу унапређивања рада са ученицима којима је потребна додатна подршка.
-				VII. РАД У ПЕДАГОШКОМ ВЕЋУ И ТИМОВИМА
-				1) Учествовање у раду педагошког већа; 
-				2) Учествовање у раду тимова, актива и комисија на нивоу дома ученика који се образују ради остваривања одређених задатака, програма или пројекта. 
-				VIII. САРАДЊА СА НАДЛЕЖНИМ УСТАНОВАМА, ОРГАНИЗАЦИЈАМА, УДРУЖЕЊИМА И ЈЕДИНИЦОМ ЛОКАЛНЕ САМОУПРАВЕ
-				1) Сарадња са образовним, здравственим, социјалним, научним, културним и другим установама које доприносе остваривању циљева и задатака рада дома и добробити ученика; 
-				2) Учествовање у истраживањима научних, просветних и других установа;
-				3) Сарадња са педагозима који раде у другим установама, институцијама, организацијама, удружењима од значаја за остваривање васпитног рада и добробити ученика;
-				4) Сарадња са организацијама на нивоу локалне самоуправе у циљу подршке развоја младих.
-				IX. ВОЂЕЊЕ ДОКУМЕНТАЦИЈЕ, ПРИПРЕМА ЗА РАД И СТРУЧНО УСАВРШАВАЊЕ
-				1) Вођење евиденције о сопственом раду на дневном, месечном и годишњем нивоу;
-				2) Припрема за послове предвиђене годишњим програмом рада и оперативним плановима рада педагога;
-				3) Прикупљање података о ученицима и чување материјала који садрже личне податке о ученицима у складу са етичким кодексом педагога;
-				4) Стручно се усавршава праћењем стручне литературе и периодике, учествовањем у активностима струковних удружења и похађањем обука стручног усавршавања и учествовањем у стручним скуповима. 
-				Препоруке за остваривање програма
-				Све наведене области рада педагога саставни су део његовог годишњег плана и програма рада. У зависности од специфичности дома ученика у коме ради, педагог припрема свој годишњи план и програм рада, месечне оперативне планове. Остали послови реализују се на основу проблематике и потреба које се намећу у свакодневном раду те их није могуће прецизно временски одредити.
-				Педагог остварује функције: сарадника, координатора, саветодавца и иницијатора.
-				У оквиру сарадње педагог остварује непосредан контакт са васпитачима, директором, родитељима, школом и другим установама, у циљу унапређења општих услова и напретка у развоју ученика. 
-				Као координатор педагог повезује рад свих учесника васпитног рада у дому како би резултати васпитног рада био што бољи.
-				Као саветодавац педагог подстиче, усмерава и прати организацију и спровођење васпитних активности са ученицима и родитељима/старатељима. 
-				Као иницијатор педагог прати новине у оквиру професије и подручја рада и непосредним радом покреће и подстиче савремени и стручни прилаз васпитном раду у дому.
-				У раду са ученицима педагог врши испитивања педагошких чинилаца успеха и неуспеха ученика, професионалних интересовања и слободног времена, мотивације, интерперсоналних односа, ставова ученика према појединим питањима из живота и рада у дому. Обавља саветодавно инструктивни рад са њима, помаже им у избору најповољнијих метода учења, коришћењу литературе и других извора знања, учествује у организацији ученичких акција и манифестација.
-				Педагог врши одабир облика и метода рада које обезбеђују остваривање планираних активности и ефикасност у раду. Самостално или у сарадњи врши анализе и настоји да открије факторе који доприносе односно угрожавају успешност ученика, и предлаже мере за његово напредовање. Начин праћења развоја и напредовања ученика педагог бира у зависности од специфичности дома у коме ради и индивидуалних карактеристика ученика.
-				Тимски рад са осталим учесницима живота дома је једна од основних претпоставки успешног рада педагога. Посебно је важна сарадња са другим стручним сарадницима, уколико их дом има, са којима тимски у оквиру одређених области рада и послова, реализује различите активности а у складу са базичним образовањем, разликама у методама, техникама и инструментима који се користе.
-				Педагог води књигу евиденције рада стручног сарадника. То је документ који је доступан и садржи попис дневних активности, а досијеа о индивидуалном раду са ученицима спадају у професионалну тајну. Досије ученика, протоколи индивидуалних разговора са учеником дају се на увид другом лицу по утврђеној законској процедури.
-				Да би се заштитила приватност и подаци личне природе ученика и родитеља, односно старатеља, као и прописана процедура рада уопште, потребно је да педагог има обезбеђену засебну просторију за непосредни рад са ученицима и родитељима, односно старатељима.
-				 Вредновање свог рада педагог спроводи на крају школске године и периодично након реализованих активности. То обухвата све планиране и ванредне послове из девет области којима се педагог бавио током године. Сопствена процена остварености резултата рада значајна је за унапређење рада и планирање наредних активности.
+				Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије – Међународни уговори”.
 	
 

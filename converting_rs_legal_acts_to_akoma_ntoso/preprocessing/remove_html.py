@@ -101,20 +101,20 @@ if __name__ == "__main__":
   from os import path
 
   basePath = path.dirname(__file__)
-  filePath = path.abspath(path.join(basePath, "..", "data", "aktovi_html"))
+  filePath = path.abspath(path.join(basePath, "..", "data", "aktovi"))
   fileOut = path.abspath(path.join(basePath, "..", "data", "aktovi_raw"))
   filenames = getListOfFiles(filePath)
 
   for filename in filenames:
-      try:
-        print("Processing=" + filename)
-        fileProcessing = path.join(filePath,filename)
-        purified = preprocessing(fileProcessing)
-        f = io.open(path.join(fileOut, filename.replace(".html", ".txt")), mode="w", encoding="utf-8")
-        f.write(purified)
-        f.close()
-      except:
-        print("File not found " + str(filename))
+    try:
+      print("Processing=" + filename)
+      fileProcessing = path.join(filePath,filename)
+      purified = preprocessing(fileProcessing)
+      f = io.open(path.join(fileOut, filename.replace(".html", ".txt")), mode="w", encoding="utf-8")
+      f.write(purified)
+      f.close()
+    except:
+      print("File not found " + str(filename))
 
   #for i in range(180, 181):
 #

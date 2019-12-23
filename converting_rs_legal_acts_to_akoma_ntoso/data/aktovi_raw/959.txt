@@ -8,100 +8,96 @@
 
 
 	
-			На основу члана 19. став 3. Закона о електронском документу, електронској идентификацији и услугама од поверења у електронском пословању („Службени гласник РС”, број 94/17), 
-			Министар трговине, туризма и телекомуникација доноси
-			ПРАВИЛНИК 
-			о регистру пружалаца услуга електронске идентификације и шема електронске идентификације
-			"Службени гласник РС", број 67 од 31. августа 
-			2018.
-			Предмет Правилника
-			Члан 1. 
-			Овим правилником прописује се садржај и начин вођења Регистра пружалаца услуга електронске идентификације и шема електронске идентификације, начин подношења захтева за упис у Регистар, потребна документација уз захтев, образац захтева и начин објављивања података из Регистра.
-			Регистар пружалаца услуга електронске идентификације и шема електронске идентификације (у даљем тексту: Регистар) води министарство надлежно за послове информационог друштва (у даљем тексту: Министарство).
-			Садржај Регистра
-			Члан 2.
-			Регистар садржи следеће податке:
-			1) редни број уписа у Регистар;
-			2) пословно име пружаоца услуге електронске идентификације и шема електронске идентификације (у даљем тексту: пружалац услуга);
-			3) број решења о упису у Регистар;
-			4) датум уписа у Регистар;
-			5) матични број;
-			6) пореско-идентификациони број (ПИБ);
-			7) седиште (улица и број, место, поштански број и држава);
-			8) адресу интернет стране пружаоца услуге;
-			9) број телефона пружаоца услуге; 
-			10) подаци о упису пружаоца услуга у регистар привредних субјеката или други одговарајући регистар који се води у складу са законом и то:
-			(1) назив регистра,
-			(2) број решења о упису у регистар, 
-			(3) датум уписа,
-			(4) облик организовања, 
-			(5) шифра делатности, 
-			(6) опис делатности;
-			11) подаци о одговорном лицу које заступа пружаоца услуга и обиму његових овлашћења и то:
-			(1) име, презиме, 
-			(2) назив функције,
-			(3) обим овлашћења,
-			(4) службени број телефона,
-			(5) службена електронска адреса;
-			12) подаци о служби пружаоца услуга за односе са странкама и то:
-			(1) назив службе,
-			(2) адреса, 
-			(3) телефон,
-			(4) електронска адреса;
-			13) подаци о врсти и нивоу шема електронске идентификације коју пружалац услуга обавља;
-			14) подаци у упису промена у Регистар и то:
-			(1) број решења о упису промена у Регистар,
-			(2) датум уписа промена у Регистар.
-			15) подаци о брисању из Регистра и то: 
-			(1) број решења о брисању из Регистара,
-			(2) датум брисања из Регистара.
-			У Регистар се уписују све промене података из става 1. овог члана.
-			Начин вођења Регистра и начин објављивања података из Регистра
-			Члан 3. 
-			Регистар се води у папирном и електронском облику. 
-			Регистар у електронском облику јавно је доступан на интернет страни Министарства. 
-			Регистар у електронском облику потписује се напредним електронским печатом Министарства.
-			Начин подношења захтева за упис у Регистар
-			Члан 4. 
-			Захтев за упис у Регистар (у даљем тексту: захтев) се подноси Министарству, електронским путем, на Обрасцу 1, који је одштампан уз овај правилник и чини његов саставни део и који се објављује на интернет страни Министарства.
-			Захтев из става 1. овог члана и документација која се прилаже уз захтев достављају се у форми електронског документа у оригиналу или у форми овереног дигитализованог акта, у складу са Законом о електронском документу, електронској идентификацији и услугама од поверења у електронском пословању (у даљем тексту: Закон), на електронску адресу Министарства. 
-			Захтев се може поднети и писаним путем, непосредно или поштом, на Обрасцу 1, а документација која се прилаже уз захтев подноси се у оригиналу или се прилаже копија оверена од стране надлежног органа.
-			Потребна документација уз захтев 
-			Члан 5.
-			Подносилац уз захтев прилаже:
-			1) извод или решење надлежног органа о упису у регистар из члана 2. став 1. тачка 10) овог правилника, под условом да се податак о регистрацији не води у оквиру службене евиденције;
-			2) опште услове за пружање услуге;
-			3) политику пружања услуге;
-			4) практична правила за пружање услуга;
-			5) политику заштите приватности;
-			6) документ о организационој структури подносиоца захтева;
-			7) доказ, односно изјаву о испуњености услова из члана 13. став 2. тач. 6)–12) Уредбе о ближем уређењу услова које морају да испуне шеме електронске идентификације за одређене нивое поузданости („Службени гласник РСˮ, број 60/18);
-			8) потврду о уплаћеној административној такси, у складу са Законом о административним таксама („Службени гласник РСˮ, бр. 43/03, 51/03 – исправка, 53/04, 42/05, 61/05, 101/05 – др. закон, 42/06, 47/07, 54/08, 5/09, 54/09, 35/10, 50/11, 70/11, 55/12, 93/12, 47/13, 65/13 – др. закон, 57/14, 45/15, 83/15, 112/15, 50/16, 61/17, 113/17, 3/18 – исправка и 50/18).
-			Изјава о испуњености услова из става 1. тачке 7. овог члана попуњава се на Обрасцу 3, који је одштампан уз овај правилник и чини његов саставни део и који се објављује на интернет страни Министарства. 
-			Промена података уписаних у Регистар
-			Члан 6.
-			Захтев за промену података уписаних у Регистар подноси се, у року од осам дана од дана настанка промене, на Обрасцу 2, који је одштампан уз овај правилник и чини његов саставни део и који се објављује на интернет страни Министарства, на начин из члана 4. овог правилника.
-			Датум уписа у Регистар
-			Члан 7.
-			Упис пружаоца услуга у Регистар Министарство врши на дан доношења решења о упису у Регистар.
-			Завршна одредба
-			Члан 8.
-			Овај правилник ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.
-			Број 110-00-15/2018-12
-			У Београду, 21. августа 2018. године
-			Министар,
-			др Расим Љајић, с.р.
-			Прилози
-			Образац 1 -
-			
-			Захтев за упис у регистар пружалаца услуга електронске 
-			идентификациеј и шема електронске идентификације
-			Образац 2 -
-			
-			Захтев за промену података о упису у регистар пружалаца услуга 
-			електронске идентификациеј и шема електронске идентификације
-			Образац 3 -
-			
-			Изјава о испуњености услова
+				
+				На основу члана 112. став 1. тачка 2. Устава Републике Србије, доносим
+				УКАЗ
+				о проглашењу Закона о потврђивању Споразума између Владе Републике Србије и Владе Румуније о отварању међународног граничног прелаза Наково (Република Србија) – Лунга (Румунија) на српско-румунској државној граници
+				Проглашава се Закон о потврђивању Споразума између Владе Републике Србије и Владе Румуније о отварању међународног граничног прелаза Наково (Република Србија) – Лунга (Румунија) на српско – румунској државној граници, који је донела Народна скупштина Републике Србије на седници Седмог ванредног заседања у 2015. години, 20. фебруара 2015. године.
+				ПР број 31
+				У Београду, 24. фебруара 2015. године
+				Председник Републике,
+				Томислав Николић, с.р.
+				
+				ЗАКОН
+				о потврђивању Споразума између Владе Републике Србије и Владе Румуније о отварању међународног граничног прелаза Наково (Република Србија) – Лунга (Румунија) на српско-румунској државној граници
+				"Службени гласник РС - Међународни уговори", 
+				број 3 од 24. фебруара 2015.
+				
+				Члан 1.
+				Потврђује се Споразум између Владе Републике Србије и Владе Румуније о отварању међународног граничног прелаза Наково (Република Србија) – Лунга (Румунија) на српско-румунској државној граници, закључен разменом нота 16. децембра 2014. године, у оригиналу на српском и румунском језику. 
+				Члан 2.
+				Текст Споразума у оригиналу гласи: 
+				РЕПУБЛИКА СРБИЈА
+				МИНИСТАРСТВО СПОЉНИХ ПОСЛОВА
+				 Nо 191-30/ 2014
+				Министарство спољних послова Републике Србије изражава своје поштовање Амбасади Румуније у Београду и у вези са Нотом Министарства иностраних послова Румуније бр. H2-1/3699 од 5. новембра 2014. године, има част да обавести да је Влада Републике Србије прихватила предлог да се, разменом вербалних нота, закључи Споразум између Владе Републике Србије и Владе Румуније о отварању међународног граничног прелаза Наково (Република Србија) – Лунга (Румунија), на српско-румунској државној граници, који на српском језику гласи:
+				Влада Републике Србије и Влада Румуније (у даљем тексту: Стране)
+				Договориле су се о следећем:
+				Члан 1.
+				(1) Отвара се друмски гранични прелаз Наково – Лунга за међународни саобраћај лица и робе укупне масе до 3,5 тоне.
+				(2) Друмски гранични прелаз Наково – Лунга биће отворен за саобраћај пешака, бициклиста, као и за возила до 3,5 тоне.
+				Члан 2.
+				(1) Гранични прелаз поменут у члану 1. овог споразума биће отворен сваког дана између 7,00 и 19,00 часова (време Републике Србије), односно између 8,00 и 20,00 часова (време Румуније).
+				(2) Стране се могу договорити да, на захтев било које од њих, гранични прелаз Наково – Лунга ради и дуже од времена предвиђеног тачком (1) овог члана.
+				Члан 3.
+				Преко граничног прелаза Наково – Лунга забрањен је прелаз возилима која превозе опасне материје, живу стоку и производе који подлежу фитосанитарној контроли.
+				Члан 4.
+				Гранични прелаз поменут у члану 1. овог споразума биће отворен након што се обезбеди неопходна инфраструктура, у складу са важећим правилима и стандардима.
+				Члан 5.
+				Овај споразум се закључује на неодређено време и може бити измењен и допуњен уз сагласност обеју Страна, разменом вербалних нота, а измене и допуне ће ступити на снагу у складу са чланом 7. овог споразума.
+				Члан 6.
+				Овај споразум може бити отказан од било које Стране, уз писмено обавештење. Након 30 дана од добијања писменог обавештења друге Стране, Споразум ће бити укинут.
+				Члан 7.
+				Овај споразум ступа на снагу даном последњег писменог обавештења којим се Стране међусобно обавештавају о испуњеним неопходним унутрашњим процедурама за његово ступање на снагу.
+				односно на румунском језику:
+				Guvernul României şi Guvernul Republicii Serbia (în text în continuare: Părţi)
+				Au convenit următoarele:
+				Articolul 1
+				(1) Se deschide punctul de trecere a frontierei rutier Lunga – Nakovo, pentru traficul internaţional de călători şi de marfă cu masa de până la 3,5 tone. 
+				(2) Punctul de trecere a frontierei rutier Lunga – Nakovo va fi deschis pentru traficul pietonal, cu biciclete, precum şi cu autovehicule de până la 3,5 t. 
+				Articolul 2
+				(1) Punctul de trecere a frontierei menţionat la articolul l al prezentului Acord va fi deschis zilnic, în intervalul orar de la 08.00 la 20.00 (ora României), respectiv de la 07.00 la 19.00 (ora Republicii Serbia). 
+				(2) Părţiile pot conveni, la solicitarea oricăreia dintre ele, ca punctul de trecere a frontierei Lunga – Nakovo să funcţioneze în afara orelor de program prevăzute la alineatul 1 al prezentului articol. 
+				Articolul 3
+				Tranzitul vehiculelor care transportă mărfuri periculoase, animale vii şi produse supuse controlului fitosanitar este interzis prin punctul de trecere a frontierei Lunga – Nakovo.
+				Articolul 4
+				Punctul de trecere a frontierei menţionat la articolul 1 al prezentului Acord va fi deschis după asigurarea infrastructurii necesare, în conformitate cu normele şi standardele în vigoare.
+				Articolul 5
+				Prezentul Acord se încheie pe o perioadă nedeterminată şi poate fi modificat sau completat, cu acordul celor două Părţi, prin schimb de note verbale, modificările sau completările urmând a intra în vigoare în conformitate cu prevederile Articolului 7 al prezentului Acord. 
+				Articolul 6
+				Prezentul Acord poate fi denunţat de oricare dintre Părţi, printr-o notificare scrisă. Notificarea va produce efecte la 30 de zile de la data primirii de către cealaltă Parte.
+				Articolul 7
+				Prezentul Acord va intra în vigoare la data ultimei notificări prin care Părţile se informează despre îndeplinirea procedurilor interne necesare pentru intrarea în vigoare a Acordului.
+				Министарство спољних послова користи и ову прилику да Амбасади Румуније у Београду понови изразе посебног поштовања.
+				Београд, 16. децембар 2014. године.
+				Сава Станковић, с.р.
+				ROMÂNIA
+				Ministerul Afacerilor Externe
+				Nr. H2-1/3699
+				Ministerul Afacerilor Externe al României prezintă salutul său Ambasadei Republicii Serbia la Bucureşti şi are onoarea de a-i propune încheierea unui Acord între Guvernul României şi Guvernul Republicii Serbia, prin schimb de note verbale, privind înfiinţarea punctului internaţional de trecere a frontierei de stat româno-sârbe Lunga- Nakovo, având următorul conţinut:
+				Guvemul României şi Guvernul Republicii Serbia (în text în continuare: Părţi) 
+				Au convenit următoarele:
+				Articolul 1
+				(1) Se deschide punctul de trecere a frontierei rutier Lunga-Nakovo, pentru traficul internaţional de călători şi de marfă cu masa de până la 3,5 tone.
+				(2) Punctul de trecere a frontierei rutier Lunga-Nakovo va fi deschis pentru traficul pietonal, cu biciclete, precum şi cu autovehicule de până la 3,5 t.
+				Articolul 2
+				(1) Punctul de trecere a frontierei menţionat la articolul 1 al prezentului Acord va fi deschis zilnic, în intervalul orar de la 08.00 la 20.00 (ora României), respectiv de la 07.00 la 19.00 (ora Republicii Serbia).
+				(2) Părţiile pot conveni, la solicitarea oricăreia dintre ele, ca punctul de trecere a frontierei Lunga-Nakovo să funcţioneze în afara orelor de program prevăzute la alineatul 1 al prezentului articol. 
+				Articolul 3
+				Tranzitul vehiculelor care transportă mărfuri periculoase, animale vii şi produse supuse controlului fitosanitar este interzis prin punctul de trecere a frontierei Lunga - Nakovo.
+				Articolul 4
+				Punctul de trecere a frontierei menţionat la articolul 1 al prezentului Acord va fi deschis după asigurarea infrastructurii necesare, în conformitate cu normele şi standardele în vigoare.
+				Articolul 5
+				Prezentul Acord se încheie pe o perioadă nedeterminată şi poate fi modificat sau completat, cu acordul celor două Părţi, prin schimb de note verbale, modificările sau completările urmând a intra în vigoare în conformitate cu prevederile Articolului 7 al prezentului Acord. 
+				Articolul 6
+				Prezentul Acord poate fi denunţat de oricare dintre Părţi, printr-o notificare scrisă. Notificarea va produce efecte la 30 de zile de la data primirii de către cealaltă Parte.
+				Articolul 7
+				Prezentul Acord va intra în vigoare la data ultimei notificări prin care Părţile se informează despre îndeplinirea procedurilor interne necesare pentru intrarea în vigoare a Acordului.
+				În măsura în care partea sârbă este de acord cu cele de mai sus, prezenta notă verbală împreună cu nota verbală de răspuns a părţii sârbe urmează să constituie un acord între Guvernul României şi Guvernul Republicii Serbia, care ar urma să intre în vigoare la data ultimei notificări privind îndeplinirea de către părţi a procedurilor interne necesare pentru intrarea în vigoare.
+				Ministerul Afacerilor Externe al Romăniei foloseşte acest prilej pentru a reînnoi Ambasadei Republicii Serbia la Bucureşti asigurarea înaltei sale consideraţii.
+				Bucureşti, 5 noiembrie 2014
+				Liviu Dumitru, s.r.
+				Члан 3. 
+				Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије – Међународни уговори”.
 	
 

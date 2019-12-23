@@ -67,4 +67,6 @@ def only_lam(string_data):
 if __name__ == "__main__":
     #tokenize_pos("Ovo je nesto sto bi trebalo biti tokenizovani. Ali pitanje je da li ce andrija primetiti nesto. Da je ...")
     #pos_lem('text.txt')
-    print(only_lam("Ovo je nesto sto bi trebalo raditi."))
+    print(only_lam("Vudu magija je nesto sto bi trebalo raditi."))
+
+
