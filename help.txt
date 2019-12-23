@@ -19,3 +19,5 @@ reldi-tagger = python 2.7 intrepreter
 http://nlp.ffzg.hr/data/reldi/hr.lexicon.guesser
 http://nlp.ffzg.hr/data/reldi/sr.lexicon.guesser
 http://nlp.ffzg.hr/data/reldi/sl.lexicon.guesser
+
+Connector file implementiran u converting_rs_legal_acts_to_akoma_ntoso

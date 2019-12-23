@@ -6,6 +6,10 @@ warnings.filterwarnings("ignore")
 
 import sys
 import os
+
+#reload(sys)
+#sys.setdefaultencoding('utf-8')
+
 reldir = os.path.dirname(os.path.abspath(__file__))
 
 from train_tagger import extract_features_msd
@@ -123,7 +127,7 @@ def read_and_write(istream, index, ostream):
                               1] + '\n' for entry, tag in zip(entry_list, tags_proper)]) + '\n')
             entry_list = []
         else:
-            entry_list.append(line[:-1].decode('utf8').split('\t'))
+            entry_list.append(line[:-1].split('\t')) #.decode('utf8')
 
 
 def load_models(lang, dir=None):

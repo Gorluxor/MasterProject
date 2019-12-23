@@ -1,8 +1,7 @@
 # Iz svakog pravnog akta izvucemo clanove, reci u okviru tih clanove (tokenizacija), lem, stem. Konvertujemo reci u id.
 from os import path
 import re
-from reldiTokeniser import tokeniser
-
+from connector import connector
 
 def getFileNames(folderData, aktoviFolder):
   # folderData=data aktoviFolder=aktovi_raw_lat
@@ -16,7 +15,8 @@ def getFileNames(folderData, aktoviFolder):
 
 if __name__ == '__main__':
 
-  print(tokeniser.main("Andrija je dobar", "sr", False, False))
+  bow = dict()
+
 
   filenames, filePath = getFileNames("data", "aktovi_raw_lat")
   fileArray = []
@@ -41,8 +41,14 @@ if __name__ == '__main__':
           startFrom = m.end()
 
         for i in range(0,actArray.__len__()):
-
-            actArray[i]
+            nesto = actArray[i]
+            listTokens = connector.only_lam(nesto)
+            for j in range(0,actArray.__len__()):
+                value_got = bow.get(listTokens[j])
+                if value_got == None:
+                    bow[listTokens[j]] = 1
+                else:
+                    bow[listTokens[j]] += 1
             print('I=' + str(i) + '   ' + actArray[i][1:25].strip())
         fileArray.append(actArray)
 
