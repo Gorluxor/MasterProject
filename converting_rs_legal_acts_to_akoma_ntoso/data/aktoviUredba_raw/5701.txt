@@ -1,0 +1,401 @@
+﻿
+
+
+	
+	Zakon
+
+	
+
+
+	
+				
+				На основу члана 3а став 4. Закона о Царинској тарифи („Службени гласник РС”, бр. 62/05, 61/07 и 5/09) објављује се Уредба Комисије (ЕЕЗ) број 646/89 од 14. марта 1989. године, којом се замењују ознаке установљене на основу номенклатуре Заједничке царинске тарифе на снази од 31. децембра 1987, ознакама које су установљене на основу комбиноване номенклатуре, у одређеним уредбама у вези са сврставањем робе, а која је објављена у „Службеном листу Европских заједница”, број L 71/20 од 15. марта 1989. године, која у оригиналу на енглеском језику и у преводу на српски језик гласе:
+				
+				COMMISSION REGULATION (EEC) No 646/89of 14 March 1989 replacing the codes established on the basis of the Common Customs Tariff nomenclature in force on 31 December 1987 with those established on the basis of the combined nomenclature in certain Regulations concerning the classification of goods 				"Службени гласник РС", број 32 од 20. марта 2014.
+				
+				THE COMMISSION OF THE EUROPEAN COMMUNITIES,
+				Having regard to the Treaty establishing the European Economic Community,
+				Having regard to Council Regulation (EEC) No 2658/87 of 23 July 1987 on the tariff and statistical nomenclature and on the Common Customs Tariff (1), as last amended by Regulation (EEC) No 20/89 (2), and in particular Article 15 thereof,
+				Whereas Council Regulation (EEC) No 950/68 of 28 June 1968 on the Common Customs Tariff (3), as last amended by Regulation (EEC) No 3529/87 (4), established the nomenclature of the Common Customs Tariff on the basis of the Convention of 15 December 1950 on nomenclature for the classification of goods in customs tariffs;
+				Whereas the Commission has adopted a number of Regulations concerning the classification of goods in the nomenclature of the Common Customs Tariff on the basis of Regulation (EEC) No 97/69 of the 
+				Council of 16 January 1969 on measures to be taken for uniform application of the nomenclature of the Common Customs Tariff (5) as last amended by Council Regulation (EEC) No 2055/84 (6);
+				Whereas Regulation (EEC) No 2658/87 established a goods nomenclature, called the combined nomenclature, to meet, at one and the same time, the requirements of the Common Customs Tariff and of the external statistics of the Community, based On the International Convention on the Harmonized Commodity Description and Coding System, which replaces the Convention of 15 December 1950 referred to above;
+				Whereas Article 15 (1) of Regulation (EEC) No 2658/87 lays down that the codes and descriptions of goods established on the basis of the combined nomenclature are to replace those established on the basis of the nomenclature of the Common Customs Tariff in force on 31 December 1987;
+				Whereas for the sake of clarity and simplification those of the said Regulations which are still of practical significance and in which the transposition will involve no changes of substance should be amended accordingly,
+				HAS ADOPTED THIS REGULATION: 
+				Article 1
+				In the Regulations listed in column 1 of the Annex, which refer to the goods described in column 2, the codes based on the nomenclature of the Common Customs Tariff in column 3 shall be replaced by the codes based on the combined nomenclature listed in column 4.
+				Article 2
+				This Regulation shall enter into force on the day of its publication in the Official Journal of the European Communities.
+				This Regulation shall be binding in its entirety and directly applicable in all Member States.
+				Done at Brussels, 14 March 1989.
+				–––––––––––––––
+				(1) QJ No L 256, 7. 9. 1987, p. 1.
+				(2) OJ No L 4, 6. 1. 1989, p. 19.
+				(3) OJ No L 172, 22. 7. 1968, p. 1.
+				(4) OJ No L 336, 26. 11. 1987, p. 3.
+				(5) OJ No L 14, 21. 1. 1969, p. 1.
+				(6) OJ No L 191, 19. 7. 1984, p. 1.
+				For the Commission 
+				Christiane SCRIVENER
+				Member of the Commission
+				ANNEX
+				
+					
+						
+							
+								Regulation (EEC) No
+							
+							
+								Description of goods
+							
+							
+								CCT
+								heading
+								number
+							
+							
+								Combined
+								nomenclature
+								code
+							
+						
+						
+							
+								(1)
+							
+							
+								(2)
+							
+							
+								(3)
+							
+							
+								(4)
+							
+						
+						
+							
+								484/79 (¹)
+								1218/84(2)
+								2882/83(3)
+								211/85 (4)
+								1936/84 (5)
+								1620/81 (6)
+							
+							
+								Yarn for fishing lines, consisting of hollow braiding made from continuous nylon fibres wholly clad with a layer of polyvinyl chloride, put up in reels in certain lengths, with tapered ends
+								Wash basins composed of 30 % of artificial plastic material (styrenated polyester resin) and 70 % of filler (mainly of silicate) and having a coating of transparent artificial plastic material (styrenated polyester resin about 0,2 mm thick on the working surface)
+								Electronic games, consisting of a plastic and metal case (110 x 73,5 x 8 mm) with a liquid crystal display screen and containing a monolithic integrated circuit programmed for the game (with a display of the player‘s score), clock, alarm and calculator functions
+								Memory elements intended for use as parts of automatic data-processing machines consisting of:
+								– a static random access memory (RAM) in C-MOS technology,
+								– a rectangular multilayer ceramic printed-circuit panel (17 x 39 mm), carrying (in a separable way):
+								– four statistic RAMs, in C-MOS technology (C-MOS-SRAMs), comprising a monolithic integrated circuit, each with a 16 K or 64 K memory,
+								– one decoder in the form of a monolithic integrated circuit,
+								– 2 x 14 connector pins,
+								– an electronic programmable read only memory (Eprom),
+								– a rectangular multilayer ceramic printed-circuit panel (17 x 39 mm), carrying (in a separable way):
+								– two ultraviolet-erasable programmable read only memories (Eproms), in the form of a monolithic integrated circuit, each with a 64 K memory and a quartz window in the upper surface,
+								– one decoder in the form of a monolithic integrated circuit,
+								– one decoupling capacitor,
+								– 2 x 14 connector pins
+								A microcomputer of 15 x 51 x 2 mm with 40 connecting pins and equipped with inter alia:
+								– a user-programmable ultraviolet-erasable 1 K x 8 bit program memory (Eprom),
+								– a 64 x 8 bit read/write data memory (RAM),
+								– 27 in/out lines,
+								– an 8 bit timer/counter, and
+								– an on-board oscillator and clock circuit
+								Self-propelled machines for forestry use which are capable of being fitted with various attachments enabling the machines to perform a number of operations on timber, such as lifting, handling, hauling, pushing, loading, debar-‘ king and cutting to length
+							
+							
+								39.07 E IV
+								39.07 B V d)
+								97.04 C
+								84.55 C
+								85.21 D II
+								87.01 B
+							
+							
+								3926 90 99
+								3922 10 00
+								9504 90 90
+								8473 30 00
+								8542 11 75
+								8701 90
+							
+						
+						
+							
+								551/87 (7)
+								2054/83 (8)
+								2334/83 (9)
+							
+							
+								Apparatus for transferring to microfilm information
+								recorded on magnetic tape consisting of:
+								– a tape deck for playing the magnetic tape,
+								– a processing unit for transcribing the data recorded on the tape into legible characters to be displayed on a cathode-ray tube and for controlling the operation of a camera and flashlight which are used to photograph those characters. If desired, this part of the operation may be performed by the central processing unit or an automatic data-processing machine instead of the processing unit which forms part of the apparatus,
+								– a cathode-ray tube displaying the characters,
+								– a flashlight apparatus,
+								– a camera for photographing the characters on microfilm,
+								– a unit for developing and printing the film in the form of microfiches
+								Electronic instruments (called multi-channel analysers) which, because they incorporate microprocessors, can classify results previously obtained with external measuring apparatus such as voltmeters, sensors, or angular decoders and received by the instruments in the form of electrical signals, and can compare these results (actual values) with the required values, and which consist essentially of the following parts:
+								1. a control panel with keys and control knobs;
+								2. a visual display unit with a cathode-ray tube and control knobs to enable signal-evaluation results to be presented in the form of spectral lines or alphanumeric data;
+								3. analogue-to-digital converters for the conversion of analogue input signals into digital signals ;
+								4. electronic amplifiers for signal enhancement;
+								5. a data storage unit for date and programs;
+								6. three microprocessors for data processing (one of which works with programmed calibration data; another serving for comparison of actual values with required values and capable of providing experiment feedback control);
+								7. a power supply;
+								8. a line printer for data output; and
+								9. a floppy-disk unit for additional data and program storage
+								Electronic integrators which:
+								– with the aid of incorporated detectors and electronic counters, compare, with the data stored in the program, the results of analysis (detect and evaluate the peak heights and
+							
+							
+								90.07 A
+								90.28 A II a)
+							
+							
+								9006 20 00
+								9030 39 30
+							
+						
+						
+							
+							
+							
+								areas, determine the number of peaks and the extent of peak areas) which they receive in the form of analogue electrical signals from external analysers as chromatographs or spectrometers,
+								– process the findings of the comparison, converted into digital electrical signals, in incorporated microprocessors,
+								– print out the results of analyses in the form of either a report or graph, and
+								– consist essentially of the following parts:
+								1. an alphanumeric keyboard for program and data input and intermediate result inquiry;
+							
+							
+								90.28А IIа)
+							
+							
+								9030 39 30
+							
+						
+						
+							
+								2. a keyboard for program input and apparatus operation;
+								3. an analogue-to-digital converter for the conversion of analogue input signals into digital signals;
+								4. electronic amplifiers (input amplifiers, logarithmic amplifiers, integrated amplifiers) for signal amplification;
+								5. a unit for data and program storage;
+								6. electronic detectors for the ascertainment and evaluation of peak heights and areas ;
+								7. electronic counters to determine the number of peaks and the extent of peak areas;
+								8. microprocessors to calculate the cardinal points (beginning, end and top of peaks);
+								9. a power supply; and
+								10. a thermal printer and curve plotter for data output
+							
+						
+					
+				
+				–––––––––––––––
+				(1) OJ No L 64, 14. 3. 1979, p. 47.
+				(2) OJ No L 117, 3. 5. 1984, p. 16.
+				(3) OJ No L 283, 15. 10. 1983, p. 13.
+				(4) OJ No L 24, 29. 1. 1985, p. 13.
+				(5) OJ No L 180, 7. 7. 1984, p. 12.
+				(6) OJ No L 160, 18. 6. 1981, p. 21.
+				(7) OJ No L 56, 3. 3. 1981, p. 20.
+				(8) OJ No L 202, 26. 7. 1983, p. 7.
+				(9) OJ No L 224, 17. 8. 1983, p. 14.
+				
+				УРЕДБА КОМИСИЈЕ (ЕЕЗ) број 646/89од 14. марта 1989. године којом се замењују ознаке установљене на основу номенклатуре Заједничке царинске тарифе на снази од 31. децембра 1987. године са ознакама које су установљене на основу Комбиноване номенклатуре, у одређеним уредбама у вези са сврставањем робе				"Службени гласник РС", број 32 од 20. марта 2014.
+				
+				КОМИСИЈА ЕВРОПСКИХ ЗАЈЕДНИЦА,
+				Имајући у виду Уговор о оснивању Европске економске заједнице,
+				Имајући у виду Уредбу Савета (ЕЕЗ) број 2658/87 од 23. јула 1987. године о тарифној и статистичкој номенклатури и Заједничкој царинској тарифи1, последњи пут измењену и допуњену Уредбом Комисије (ЕЕЗ) број 20/892, а посебно члан 15,
+				С обзиром на то да је Уредбом Савета (ЕЕЗ) број 950/68 од 28. јуна 1968. године о Заједничкој царинској тарифи3, последњи пут измењену и допуњену Уредбом (ЕЕЗ) број 3529/874, установљена номенклатура Заједничке царинске тарифе на основу Конвенције од 15. децембра 1950. године о номенклатури за сврставање робе по царинским тарифама,
+				С обзиром на то да је Комисија усвојила одређен број уредаба о сврставању робе у номенклатури Заједничке царинске тарифе на основу Уредбе Савета (ЕЕЗ) број 97/69 од 16. јануара 1969. године о мерама које се предузимају како би се осигурала доследна примена номенклатуре Заједничке царинске тарифе5, последњи пут измењену и допуњену Уредбом Савета (ЕЕЗ) број 2055/846,
+				С обзиром на то да је Уредбом (ЕЕЗ) број 2658/87 установљена номенклатура робе, која се зове Комбинована номенклатура, која истовремено испуњава захтеве Заједничке царинске тарифе и спољнотрговинске статистике Заједнице, а заснована је на међународној Конвенцији о хармонизованом систему назива и шифарских ознака робе, којом је замењена Конвенција од 15. децембра 1950. године горе наведена,
+				С обзиром на то да члан 15. став 1. Уредбе (ЕЕЗ) број 2658/87 прописује да ознаке и наименовања робе установљени на основу Комбиноване номенклатуре замењују оне установљене номенклатуром Заједничке царинске тарифе на снази од 31. децембра 1987. године,
+				С обзиром на то да се оне уредбе, које још увек имају практичан значај и чије транспоновање не захтева промену суштине, сходно томе, мењају и допуњују, 
+				ДОНЕЛА ЈЕ ОВУ УРЕДБУ:
+				Члан 1.
+				У уредбама наведеним у колони 1. Анекса, које се односе на робу описану у колони 2, ознаке на основу номенклатуре Заједничке царинске тарифе у колони 3. замењују се ознакама на основу Комбинованe номенклатуре наведеним у колони 4. 
+				Члан 2.
+				Ова уредба ступa на снагу на дан објављивања у „Службеном листу Европских заједница”.
+				Ова уредба je обавезујућа у целини и непосредно се примењује у свим државама чланицама.
+				У Бриселу, 14. марта 1989. године
+				–––––––––––––––
+				1 OJ L 256, 7. 9. 1987, стр. 1.
+				2 OJ L 4, 6. 1. 1989, стр. 19.
+				3 OJ L 172, 22. 7. 1968, стр. 1.
+				4 OJ L 336, 26. 11. 1987, стр. 3.
+				5 OJ L 14, 21. 1. 1969, стр. 1.
+				6 OJ L 191, 19. 7. 1984, стр. 1.
+				За Комисију
+				Christiane SCRIVENER
+				члан Комисије
+				АНЕКС
+				
+					
+						
+							
+								Уредба (ЕЕЗ) број
+							
+							
+								Опис робе
+							
+							
+								CCT
+								тарифни
+								број
+							
+							
+								CN ознака
+							
+						
+						
+							
+								(1)
+							
+							
+								(2)
+							
+							
+								(3)
+							
+							
+								(4)
+							
+						
+					
+					
+						
+							
+								484/79 7 i
+							
+							
+							
+							
+							
+							
+							
+						
+						
+							
+								1218/84 8 ii
+							
+							
+							
+							
+							
+							
+							
+						
+						
+							
+								2882/83 9 iii
+							
+							
+							
+							
+							
+							
+							
+						
+						
+							
+								211/85 10 iv
+							
+							
+							
+							
+							
+							
+							
+						
+						
+							
+								1936/84 11 v
+							
+							
+							
+							
+							
+							
+							
+						
+						
+							
+								1620/81 vi
+							
+							
+								Самоходне машине за употребу у шумарству које могу бити опремљене различитим додатним уређајима који омогућавају да машине врше известан број операција на грађи, као што су дизање, руковање, вуча, гурање, утовар, истовар и сечење на дужину. 
+							
+							
+								87.01 B
+							
+							
+								8701 90
+							
+						
+						
+							
+								551/87 vii
+							
+							
+								Апарат за пребацивање микрофилм информација снимљених на магнетној траци састоји се од:
+								– касетофона за пуштање магнетне траке,
+								– процесорске јединице за транскрипцију података снимљених на траци у читљиве карактере који ће бити приказани на катодној цеви, и за контролу рада камере и блица који се употребљавају за фотографисање тих карактера. По жељи, овај део операције може да врши централна процесорска јединица или машина за аутоматску обраду података уместо процесорске јединице која чини део овог апарата,
+								– катодне цеви за приказивање карактера,
+								– блиц апарата,
+								– камере за фотографисање карактера на микрофилм,
+								– јединице за развијање и штампање филма у облику микрофиша.
+							
+							
+								90.07 A
+							
+							
+								9006 20 00
+							
+						
+						
+							
+								2054/83 12 viii
+							
+							
+							
+							
+							
+							
+							
+						
+						
+							
+								2334/83 13 ix
+							
+							
+							
+							
+							
+							
+							
+						
+					
+				
+				–––––––––––––––
+				7 Стављена ван снаге у складу са тачком 1. Анекса I и тачком 3. Анекса III Уредбе Комисије (ЕЗ) број 1179/09 од 26. новембра 2009. године којом се мењају или стављају ван снаге одређене уредбе у вези са сврставањем робе према Комбинованој номенклатури (OJ L 317 од 3.12.2009, стр. 23.), која је објављена у „Службеном гласнику РС”, број 7/10 и тачкама (5) и (6) Уредбе Комисије (ЕУ) број 11/2011 од 7. јануара 2011 (OJ L 5 од 8.1.2011, стр. 1) која је објављена у „Службеном гласнику РС”, број 118/12 од 14. децембра 2012. године.
+				8 Стављена ван снаге у складу са тачком 14. Анекса III Уредбе Комисије (ЕЗ) број 1179/09 од 26. новембра 2009. године којом се мењају или стављају ван снаге одређене уредбе у вези са сврставањем робе према Комбинованој номенклатури (OJ L 317 од 3.12.2009, стр. 23.), која је објављена у „Службеном гласнику РС”, број 7/10
+				9 Стављена ван снаге у складу са тачком 12. Анекса III Уредбе Комисије (ЕЗ) број 1179/09 од 26. новембра 2009. године којом се мењају или стављају ван снаге одређене уредбе у вези са сврставањем робе према Комбинованој номенклатури (OJ L 317 од 3.12.2009, стр. 23.), која је објављена у „Службеном гласнику РС”, број 7/10
+				10 Стављена ван снаге у складу са тачком 18. Анекса III Уредбе Комисије (ЕЗ) број 1179/09 од 26. новембра 2009. године којом се мењају или стављају ван снаге одређене уредбе у вези са сврставањем робе према Комбинованој номенклатури (OJ L 317 од 3.12.2009, стр. 23.), која је објављена у „Службеном гласнику РС”, број 7/10
+				11 Стављена ван снаге у складу са тачком 15. Анекса III Уредбе Комисије (ЕЗ) број 1179/09 од 26. новембра 2009. године којом се мењају или стављају ван снаге одређене уредбе у вези са сврставањем робе према Комбинованој номенклатури (OJ L 317 од 3.12.2009, стр. 23.), која је објављена у „Службеном гласнику РС”, број 7/10
+				12 Укинута Уредбом Комисије (ЕЕЗ) број 2914/93 од 22. октобра 1993. (OJ L 264/27 од 23.10.1993).
+				13 Укинута Уредбом Комисије (ЕЕЗ) број 2914/93 од 22. октобра 1993. (OJ L 264/27 од 23.10.1993).
+				–––––––––––––––
+				i OJ L 64, 14. 3. 1979, стр. 47.
+				ii OJ L 117, 3. 5. 1984, стр. 16.
+				iii OJ L 283, 15. 10. 1983, стр. 13.
+				iv OJ L 24, 29. 1. 1985, стр. 13.
+				v OJ L 180, 7. 7. 1984, стр. 12.
+				vi OJ L 160, 18. 6. 1981, стр. 21.
+				vii OJ L 56, 3. 3. 1981, стр. 20.
+				viii OJ L 202, 26. 7. 1983, стр. 7.
+				ix OJ L 224, 17. 8. 1983, стр. 14.
+	
+

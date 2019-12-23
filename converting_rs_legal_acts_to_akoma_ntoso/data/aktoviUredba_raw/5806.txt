@@ -1,0 +1,171 @@
+﻿
+
+
+	
+	Zakon
+
+	
+
+
+	
+				На основу члана 3а став 4. Закона о Царинској тарифи („Службени гласник РС”, бр. 62/05, 61/07 и 5/09) објављује се Уредба Комисије (ЕУ) о спровођењу број 2017/1168 од 26. јуна 2017. године, у вези са сврставањем одређенe робe у Комбинованој номенклатури објављена у „Службеном листу Европске уније”, број L 170/53 од 1. јула 2017. године, која у оригиналу на енглеском језику и у преводу на српски језик гласи:
+				COMMISSION IMPLEMENTING REGULATION (EU) 2017/1168 of 26 June 2017concerning the classification of certain goods in the Combined Nomenclature
+				"Службени гласник РС", број 87 од 27. 
+				септембра 2017.
+				THE EUROPEAN COMMISSION,
+				Having regard to the Treaty on the Functioning of the European Union,
+				Having regard to Regulation (EU) No 952/2013 of the European Parliament and of the Council of 9 October 2013 laying down the Union Customs Code (1), and in particular Articles 57(4) and 58(2) thereof,
+				Whereas:
+				(1) In order to ensure uniform application of the Combined Nomenclature annexed to Council Regulation (EEC) No 2658/87 (2), it is necessary to adopt measures concerning the classification of the goods referred to in the Annex to this Regulation.
+				(2) Regulation (EEC) No 2658/87 has laid down the general rules for the interpretation of the Combined Nomenclature. Those rules apply also to any other nomenclature which is wholly or partly based on it or which adds any additional subdivision to it and which is established by specific provisions of the Union, with a view to the application of tariff and other measures relating to trade in goods.
+				(3) Pursuant to those general rules, the goods described in column (1) of the table set out in the Annex should be classified under the CN code indicated in column (2), by virtue of the reasons set out in column (3) of that table.
+				(4) It is appropriate to provide that binding tariff information issued in respect of the goods concerned by this Regulation which does not conform to this Regulation may, for a certain period, continue to be invoked by the holder in accordance with Article 34(9) of Regulation (EU) No 952/2013. That period should be set at three months.
+				(5) The measures provided for in this Regulation are in accordance with the opinion of the Customs Code Committee,
+				HAS ADOPTED THIS REGULATION:
+				Article 1
+				The goods described in column (1) of the table set out in the Annex shall be classified within the Combined Nomenclature under the CN code indicated in column (2) of that table.
+				Article 2
+				Binding tariff information which does not conform to this Regulation may continue to be invoked in accordance with Article 34(9) of Regulation (EU) No 952/2013 for a period of three months from the date of entry into force of this Regulation.
+				Article 3
+				This Regulation shall enter into force on the twentieth day following that of its publication in the Official Journal of the European Union.
+				This Regulation shall be binding in its entirety and directly applicable in all Member States. 
+				Done at Brussels, 26 June 2017.
+				–––––––
+				(1) OJ L 269, 10.10.2013, p. 1.
+				(2) Council Regulation (EEC) No 2658/87 of 23 July 1987 on the tariff and statistical nomenclature and on the Common Customs Tariff (OJ L 256, 7.9.1987, p. 1).
+				For the Commission, 
+				On behalf of the President, 
+				Stephen QUEST
+				Director-General 
+				Directorate-General for Taxation and Customs Union
+				ANNEX
+				
+					
+						
+							
+								Description of the goods
+							
+							
+								Classification (CN-code)
+							
+							
+								Reasons
+							
+						
+						
+							
+								(1)
+							
+							
+								(2)
+							
+							
+								(3)
+							
+						
+						
+							
+								An article (so-called ‚steering wheel cover‘) made of plastics (polyvinyl chloride (PVC)), forming a circle with a diameter of 38 cm.
+								The article is designed to cover the steering wheel of a motor vehicle in order to improve its appearance, to protect the steering wheel against the sweat, wear and tear caused by its use and to protect hands from hot and cold extremes.
+								See image (*).
+							
+							
+								3926 90 97
+							
+							
+								Classification is determined by general rules 1 and 6 for the interpretation of the Combined Nomenclature and by the wording of CN codes 3926, 3926 90 and 3926 90 97.
+								Classification under subheading 8708 94 as a part of a steering wheel is excluded as the article is not indispensable for the function of the steering wheel.
+								Classification under subheading 8708 99 as other parts or accessories of motor vehicles of headings 8701 to 8705 is also excluded as the article is not indispensable for the function of the motor vehicle, nor does
+								it adapt the motor vehicle for a particular operation, or increase its range of operations, or enable it to perform a particular service connected with its main function (see Case C-152/10, Unomedical, ECLI:EU:C:2011:402, paragraphs 29 and 36).
+								Consequently, the article is to be classified according to its constituent material (plastics) under CN code 3926 90 97 as other articles of plastics.
+							
+						
+						
+							
+								(*) The image is purely for information.
+							
+						
+					
+				
+				
+				
+				УРЕДБА КОМИСИЈЕ(ЕУ) О СПРОВОЂЕЊУ број 2017/1168 од 26. јуна 2017. године у вези са сврставањем одређенe робe у Комбинованој номенклатури
+				"Службени гласник РС", број 87 од 27. 
+				септембра 2017.
+				ЕВРОПСКА КОМИСИЈА,
+				Имајући у виду Уговор о функционисању Европске уније,
+				Имајући у виду Уредбу (ЕУ) број 952/2013 Европског парламентаи Савета од 9. октобра 2013. године којом се утврђује Царински закон Уније1, а посебно члан 57. став 4. и члан 58. став2,
+				с обзиром на то да:
+				(1) Како би се осигурала једнообразна примена Комбиноване номенклатуре приложене уз Уредбу Савета (ЕЕЗ) број 2658/872, неопходно је усвојити мере у вези са сврставањем робе наведене у Анексу ове уредбе.
+				(2) Уредбом (ЕЕЗ) број 2658/87 утврђена су основна правила за примењивање Комбиноване номенклатуре. Ова правила се такође примењују на сваку другу номенклатуру која се у потпуности или делимично заснива на њој, или која јој додаје било какве потподеле и која је успостављена посебним прописима Уније, са циљем примене тарифних и других мера које се односе на трговину робом.
+				(3) У складу са тим основним правилима, роба описана у колони 1. табеле у Анексу сврстава се у CN ознаку наведену у колони 2, према разлозима датим у колони 3. те табеле.
+				(4) Потребно је обезбедити да корисник обавезујућег обавештења о сврставању, издатог за робу на коју се односи ова уредба, акоје није у складу са овом уредбом, може одређени период, да настави да се позива на њу, у складу са чланом 34. став 9. Уредбе (ЕУ) број 952/2013. Утврђује се да овај период треба да буде три месеца.
+				(5) Мере предвиђене у овој уредби су у складу са мишљењем Одбора за Царински закон,
+				ДОНЕЛА ЈЕ ОВУ УРЕДБУ:
+				Члан 1.
+				Роба описана у колони 1. табеле дате у Анексу сврстава се у оквиру Комбиноване номенклатуре у CN ознаку наведену у колони 2. те табеле.
+				Члан 2.
+				Обавезујуће обавештење о сврставању које није у складу са овом уредбом, може наставити да се примењује у складу са чланом 34. став 9. Уредбе (ЕУ) број 952/2013, у периоду од три месеца од дана ступања на снагу ове уредбе.
+				Члан 3.
+				Ова уредба ступа на снагу 20. дана од дана објављивања у „Службеном листу Европске уније”.
+				Ова уредба је обавезујућа у целини и непосредно се примењује у свим државама чланицама.
+				У Бриселу, 26. јуна 2017. године. 
+				–––––––
+				1 OJ L 269, 10. октобра 2013. стр.1.
+				2 Уредба Савета (ЕЕЗ) број 2658/87 од 23. јула 1987. године о тарифној и статистичкој номенклатури и Заједничкој царинској тарифи (OJ L 256, 7. септембра 1987, стр. 1).
+				За Комисију,
+				у име председника,
+				Stephen QUEST
+				Генерални директор
+				Генерални директорат за порезе и царинску унију
+				АНЕКС
+				
+					
+						
+							
+								Опис робе
+							
+							
+								Сврставање
+								(CN ознака)
+							
+							
+								Разлози
+							
+						
+						
+							
+								(1)
+							
+							
+								(2)
+							
+							
+								(3)
+							
+						
+						
+							
+								Производ (тзв. „навлака за волан”) израђен од пластичне масе (поливинил хлорид (PVC)), образује круг пречника 38 cm.
+								Производ је конструисан да покрије волан моторног возила како би побољшао његов изглед, заштитио волан од зноја, хабања и гуљења изазваног његовим употребом, као и да заштити руке од прекомерне топлоте и хладноће. 
+								Видети слику (*).
+							
+							
+								3926 90 97
+							
+							
+								Сврставање је одређено Основним правилима за примењивање Комбиноване номенклатуре 1. и 6.и наименовањима CN ознака 3926, 392690и 39269097.
+								Искључује се сврставање у тарифни подброј 870894 као дела волана, с обзиром на то да производ није неопходан за фунционисање волана. 
+								Такође се искључује и сврставање у тарифни подброј 870899 као остали делови или прибор за моторна возила из тар. бројева 8701 до 8705, с обзиром на то да производ није неопходан за фунционисање моторног возила, нити прилагођава моторно возило за посебну операцију, или повећава опсег његових операција, или му омогућава да обавља одређену радњу повезану са његовом главном функцијом (видети Case C-152/10, Unomedical, ECLI:EU:C:2011:402, ст. 29 и 36).
+								Сходно томе, овај производ сврстава се на основу материјала од којег је израђен (пластична маса) у CN ознаку 39269097 као остали производи од пластичне масе.
+							
+						
+						
+							
+								(*) Слика је само информативног карактера
+							
+						
+					
+				
+	
+

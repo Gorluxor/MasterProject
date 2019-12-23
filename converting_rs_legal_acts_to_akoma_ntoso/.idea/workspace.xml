@@ -1,11 +1,130 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/preprocessing/remove_html.py" line="25" mnemonic="3" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="6c68450e-6ba3-4e78-8ba2-7662591f56c3" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1811684398">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="10" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.4" value="3" />
+          <entry key="project.open.time.5" value="5" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Python Console" value="3" />
+          <entry key="py" value="5201" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="5204" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="abbrev" value="3" />
+          <entry key="html" value="3" />
+          <entry key="py" value="28" />
+          <entry key="pyi" value="1" />
+          <entry key="txt" value="38" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="3" />
+          <entry key="PLAIN_TEXT" value="41" />
+          <entry key="Python" value="28" />
+          <entry key="PythonStub" value="1" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/reldiTokeniser/hr.abbrev">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1615">
+              <caret line="95" column="9" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/codecs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5440">
+              <caret line="321" selection-start-line="321" selection-end-line="321" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/encodings/cp1252.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/preprocessing/remove_html.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="103" column="72" selection-start-line="103" selection-start-column="72" selection-end-line="103" selection-end-column="72" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/convertToLatin/Convert.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="73" />
+              <folding>
+                <marker date="1575851873233" expanded="true" signature="154:1115" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/preprocessing/word_embedding.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -16,9 +135,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>35</find>
-      <find>Јединствени</find>
-      <find>за израду пр</find>
       <find>41/2009-99</find>
       <find>glava_find_title</find>
       <find>одељак</find>
@@ -46,38 +162,123 @@
       <find>fajl</find>
       <find>aktovi</find>
       <find>print</find>
+      <find>ImportError: cannot import name 'SIGPIPE' from 'signal'</find>
+      <find>parser</find>
+      <find>args</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1UnnAT1esFlOglMAxNyVP2kMLUK" />
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/aktovi/1.html" />
+        <option value="$PROJECT_DIR$/aktovi/3.html" />
+        <option value="$PROJECT_DIR$/aktovi/4.html" />
+        <option value="$PROJECT_DIR$/preprocessing/striphtml.py" />
+        <option value="$PROJECT_DIR$/preprocessing/read_xml.py" />
+        <option value="$PROJECT_DIR$/preprocessing/preprocessing.py" />
+        <option value="$PROJECT_DIR$/data/aktovi_html/1050.html" />
+        <option value="$PROJECT_DIR$/form_akoma/structure.py" />
+        <option value="$PROJECT_DIR$/scraping/test.txt" />
+        <option value="$PROJECT_DIR$/data/categorised/skript.py" />
+        <option value="$PROJECT_DIR$/form_akoma/patterns.py" />
+        <option value="$PROJECT_DIR$/preprocessing/init_akoma.py" />
+        <option value="$PROJECT_DIR$/tokenizer/TokenType.py" />
+        <option value="$PROJECT_DIR$/tokenizer/BasicTokenizer.py" />
+        <option value="$PROJECT_DIR$/form_akoma/metadata.py" />
+        <option value="$PROJECT_DIR$/data/NER/prepare_json.py" />
+        <option value="$PROJECT_DIR$/named_enitity_recognition/preprocessing.py" />
+        <option value="$PROJECT_DIR$/data/metadata.csv" />
+        <option value="$PROJECT_DIR$/form_akoma/Metadata.py" />
+        <option value="$PROJECT_DIR$/reasoner/patterns.py" />
+        <option value="$PROJECT_DIR$/reasoner/BasicReasoner.py" />
+        <option value="$PROJECT_DIR$/form_akoma/AkomaBuilder.py" />
+        <option value="$PROJECT_DIR$/tokenizer/HTMLTokenizer.py" />
+        <option value="$PROJECT_DIR$/form_akoma/MetadataBuilder.py" />
+        <option value="$PROJECT_DIR$/tokenizer/patterns.py" />
+        <option value="$PROJECT_DIR$/reasoner/OdlukaReasoner.py" />
+        <option value="$PROJECT_DIR$/named_enitity_recognition/pattern_recognition.py" />
+        <option value="$PROJECT_DIR$/data/akoma_result/2126.xml" />
+        <option value="$PROJECT_DIR$/data/akoma_result/161.xml" />
+        <option value="$PROJECT_DIR$/convert_data.py" />
+        <option value="$PROJECT_DIR$/convert_html.py" />
+        <option value="$PROJECT_DIR$/convertToLatin/Convert.py" />
+        <option value="$PROJECT_DIR$/data/linkovi/linkovi2.txt" />
+        <option value="$PROJECT_DIR$/scraping/LinkScraping.py" />
+        <option value="$PROJECT_DIR$/scraping/CleanLinks.py" />
+        <option value="$PROJECT_DIR$/scraping/webscraping2.py" />
+        <option value="$PROJECT_DIR$/preprocessing/word_embedding.py" />
+        <option value="$PROJECT_DIR$/reldi-tokeniser-master/tokeniser.py" />
+        <option value="$PROJECT_DIR$/preprocessing/preprocess_data.py" />
+        <option value="$PROJECT_DIR$/reldiTokeniser/tokeniser.py" />
+        <option value="$PROJECT_DIR$/../../../../reldi-tokeniser-master/tokeniser.py" />
+        <option value="$PROJECT_DIR$/preprocessing/remove_html.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="576" />
+    <option name="y" value="52" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
-    <option name="showLibraryContents" value="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="converting_rs_legal_acts_to_akoma_ntoso-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="converting_rs_legal_acts_to_akoma_ntoso-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="converting_rs_legal_acts_to_akoma_ntoso-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="converting_rs_legal_acts_to_akoma_ntoso-master" type="462c0819:PsiDirectoryNode" />
+              <item name="preprocessing" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Aca/MasterProject/reldi-tagger" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Predator\PycharmProjects\converting_rs_legal_acts_to_akoma_ntoso-masterAndrijahehe\data" />
+      <recent name="C:\Users\Astral\Desktop\Master\Pravna Informatika\Kolege1\converting_rs_legal_acts_to_akoma_ntoso-master\tokenhgffdjklg" />
+      <recent name="C:\Users\Astral\Desktop\Master\Pravna Informatika\Kolege1\converting_rs_legal_acts_to_akoma_ntoso-master\reldi-tokenizer" />
       <recent name="C:\Users\Astral\Desktop\Master\Pravna Informatika\Kolege1\converting_rs_legal_acts_to_akoma_ntoso-master\scraping" />
       <recent name="C:\Users\Lenovo\Desktop\Pravna Informatika\data\NER" />
       <recent name="C:\Users\Lenovo\Desktop\Pravna Informatika\tokenizer" />
-      <recent name="C:\Users\Lenovo\Desktop\Pravna Informatika\scraping" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Predator\PycharmProjects\converting_rs_legal_acts_to_akoma_ntoso-masterAndrijahehe\data\test" />
-      <recent name="C:\Users\Predator\PycharmProjects\converting_rs_legal_acts_to_akoma_ntoso-masterAndrijahehe" />
       <recent name="C:\Users\Lenovo\Desktop\Pravna Informatika\data\NER\labeled" />
       <recent name="C:\Users\Lenovo\Desktop\Pravna Informatika\reasoner" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.pretprocess_data">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.remove_html">
     <configuration name="CleanLinks" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Pravna Informatika" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -120,7 +321,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pretprocess_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="preprocess_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Pravna Informatika" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -132,7 +333,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/preprocessing/pretprocess_data.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/preprocessing/preprocess_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -184,33 +385,21 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.CleanLinks" />
-      <item itemvalue="Python.LinkScraping" />
-      <item itemvalue="Python.pretprocess_data" />
-      <item itemvalue="Python.remove_html" />
       <item itemvalue="Python.webscraping2" />
+      <item itemvalue="Python.LinkScraping" />
+      <item itemvalue="Python.remove_html" />
+      <item itemvalue="Python.CleanLinks" />
+      <item itemvalue="Python.preprocess_data" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.pretprocess_data" />
+        <item itemvalue="Python.remove_html" />
+        <item itemvalue="Python.preprocess_data" />
         <item itemvalue="Python.webscraping2" />
         <item itemvalue="Python.CleanLinks" />
         <item itemvalue="Python.LinkScraping" />
-        <item itemvalue="Python.remove_html" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -234,64 +423,56 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18335089" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925596" weight="0.34815618" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.29934925" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3275488" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50074404" side_tool="true" weight="0.36006546" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3253796" />
+      <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.3286334" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13751318" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.329718" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49925596" weight="0.3449024" />
+      <window_info active="true" anchor="bottom" id="Debug" order="4" visible="true" weight="0.30260304" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.329718" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3286334" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50074404" side_tool="true" weight="0.36006546" />
+      <window_info anchor="bottom" id="Python Console" order="11" weight="0.3286334" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="175" y="272" key="#xdebugger.XInspectDialog" timestamp="1576007099553">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="175" y="272" key="#xdebugger.XInspectDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576007099553" />
-    <state x="837" y="222" key="#xdebugger.evaluate" timestamp="1576007664227">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="837" y="222" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1576007664227" />
-    <state x="739" y="274" key="FileChooserDialogImpl" timestamp="1576001115545">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1576001115545" />
-    <state width="1899" height="253" key="GridCell.Tab.0.bottom" timestamp="1576007733449">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="253" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576007733449" />
-    <state width="1899" height="253" key="GridCell.Tab.0.center" timestamp="1576007733449">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="253" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576007733449" />
-    <state width="1899" height="253" key="GridCell.Tab.0.left" timestamp="1576007733448">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="253" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576007733448" />
-    <state width="1899" height="253" key="GridCell.Tab.0.right" timestamp="1576007733449">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="253" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576007733449" />
-    <state width="1899" height="253" key="GridCell.Tab.1.bottom" timestamp="1576007733451">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="253" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576007733451" />
-    <state width="1899" height="253" key="GridCell.Tab.1.center" timestamp="1576007733450">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="253" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576007733450" />
-    <state width="1899" height="253" key="GridCell.Tab.1.left" timestamp="1576007733450">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="253" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576007733450" />
-    <state width="1899" height="253" key="GridCell.Tab.1.right" timestamp="1576007733450">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="253" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576007733450" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1576015198216">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576015198215" />
-    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1576004621631">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1576004621631" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -322,16 +503,318 @@
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/preprocessing/pretprocess_data.py</url>
-          <line>26</line>
-          <option name="timeStamp" value="38" />
+          <url>file://$PROJECT_DIR$/preprocessing/preprocess_data.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/preprocessing/pretprocess_data.py</url>
-          <line>34</line>
-          <option name="timeStamp" value="39" />
+          <url>file://$PROJECT_DIR$/preprocessing/preprocess_data.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/reldiTokeniser/tokeniser.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/data/akoma_result/159.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/convert_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="12" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/akoma_result/129.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="49" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/akoma_result/161.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3740">
+          <caret line="220" column="22" selection-start-line="220" selection-start-column="22" selection-end-line="220" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/akoma_result/1.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/akoma_result/2126.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="65" column="25" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/akoma_result/2153.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/akoma_result/2155.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/akoma_result/2186.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/akoma_result/2190.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/convert_html.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="772">
+          <caret line="51" column="67" selection-start-line="51" selection-start-column="67" selection-end-line="51" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/selenium/webdriver/remote/errorhandler.py" />
+    <entry file="file://$PROJECT_DIR$/scraping/upustvo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scraping/RezultatiPretrage.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="70" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scraping/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="115" selection-start-column="108" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scraping/webscraping.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/builtins.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-99">
+          <caret line="897" column="43" selection-start-line="897" selection-start-column="43" selection-end-line="897" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-269721380/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-117">
+          <caret line="352" column="4" selection-start-line="352" selection-start-column="4" selection-end-line="352" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_converting_rs_legal_acts_to_akoma_ntoso-master.zip/preprocessing/remove_html.py" />
+    <entry file="file://$PROJECT_DIR$/preprocessing/init_akoma.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-110" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="332" selection-start-line="332" selection-end-line="332" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scraping/linkovi2_doc.txt" />
+    <entry file="file://$PROJECT_DIR$/data/linkovi/linkovi.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-21660">
+          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/linkovi/linkovi_doc.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="1131" selection-start-line="1131" selection-end-line="1131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/linkovi/linkovi3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-612" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scraping/linkovi.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/linkovi/linkovi4.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34546">
+          <caret line="1121" column="60" selection-start-line="1121" selection-start-column="60" selection-end-line="1121" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scraping/webscraping2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1598">
+          <caret line="100" column="26" selection-start-line="100" selection-start-column="26" selection-end-line="100" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scraping/CleanLinks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/linkovi/linkovi3_doc.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38216">
+          <caret line="2248" column="108" selection-start-line="2248" selection-start-column="108" selection-end-line="2248" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/linkovi/linkovi2_doc.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/linkovi/linkovi2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45832">
+          <caret line="2696" selection-start-line="2696" selection-end-line="2696" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scraping/LinkScraping.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="56" column="23" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scraping/linkovi_prvi.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/aktovi_raw/1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/aktovi/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/aktovi_raw/8.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/aktovi_lat/1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/aktovi_raw_lat/1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reldi-tokenizer/hr.abbrev" />
+    <entry file="file://$PROJECT_DIR$/preprocessing/preprocess_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="38" column="101" selection-start-line="38" selection-start-column="101" selection-end-line="38" selection-end-column="101" />
+          <folding>
+            <element signature="e#120#139#0" expanded="true" />
+            <marker date="1576009847582" expanded="true" signature="280:456" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../ReLDI/reldi-tokeniser-master/tokeniser.py" />
+    <entry file="file://$PROJECT_DIR$/reldiTokeniser/tokeniser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="26" />
+          <folding>
+            <element signature="e#40#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../reldi-tokeniser-master/tokeniser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reldiTokeniser/hr.abbrev">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1615">
+          <caret line="95" column="9" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5440">
+          <caret line="321" selection-start-line="321" selection-end-line="321" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/encodings/cp1252.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/convertToLatin/Convert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="73" />
+          <folding>
+            <marker date="1575851873233" expanded="true" signature="154:1115" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/word_embedding.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/remove_html.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="103" column="72" selection-start-line="103" selection-start-column="72" selection-end-line="103" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

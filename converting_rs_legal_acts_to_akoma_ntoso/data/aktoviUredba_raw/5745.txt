@@ -1,0 +1,172 @@
+﻿
+
+
+	
+	Zakon
+
+	
+
+
+	
+				
+				На основу члана 3а став 4. Закона о Царинској тарифи („Службени гласник РС”, бр. 62/05, 61/07 и 5/09) објављује се Уредба Комисије (ЕУ) о спровођењу број 2015/21 од 5. јануара 2015. године, у вези са сврставањем одређенe робe у Комбинованој номенклатури објављена у „Службеном листу Европске уније”, број L 4/10 од 8. јануара 2015. године, која у оригиналу на енглеском језику и у преводу на српски језик гласи:
+				COMMISSION IMPLEMENTING REGULATION (EU) 2015/21 of 5 January 2015 concerning the classification of certain goods in the Combined Nomenclature
+				"Службени гласник РС", број 31 од 1. 
+				априла 2015.
+				
+				THE EUROPEAN COMMISSION,
+				Having regard to the Treaty on the Functioning of the European Union,
+				Having regard to Council Regulation (EEC) No 2658/87 of 23 July 1987 on the tariff and statistical nomenclature and on the Common Customs Tariff(1), and in particular Article 9(1)(a) thereof,
+				Whereas:
+				(1) In order to ensure uniform application of the Combined Nomenclature annexed to Regulation (EEC) No 2658/87, it is necessary to adopt measures concerning the classification of the goods referred to in the Annex to this Regulation.
+				(2) Regulation (EEC) No 2658/87 has laid down the general rules for the interpretation of the Combined Nomenclature. Those rules apply also to any other nomenclature which is wholly or partly based on it or which adds any additional subdivision to it and which is established by specific provisions of the Union, with a view to the application of tariff and other measures relating to trade in goods.
+				(3) Pursuant to those general rules, the goods described in column (1) of the table set out in the Annex should be classified under the CN code indicated in column (2), by virtue of the reasons set out in column (3) of that table.
+				(4) It is appropriate to provide that binding tariff information issued in respect of the goods concerned by this Regulation which does not conform to this Regulation may, for a certain period, continue to be invoked by the holder in accordance with Article 12(6) of Council Regulation (EEC) No 2913/92(2). That period should be set at three months.
+				(5) The measures provided for in this Regulation are in accordance with the opinion of the Customs Code Committee,
+				HAS ADOPTED THIS REGULATION:
+				Article 1
+				The goods described in column (1) of the table set out in the Annex shall be classified within the Combined Nomenclature under the CN code indicated in column (2) of that table.
+				Article 2
+				Binding tariff information which does not conform to this Regulation may continue to be invoked in accordance with Article 12(6) of Regulation (EEC) No 2913/92 for a period of three months from the date of entry into force of this Regulation.
+				Article 3
+				This Regulation shall enter into force on the twentieth day following that of its publication in the Official Journal of the European Union.
+				This Regulation shall be binding in its entirety and directly applicable in all Member States.
+				Done at Brussels, 5 January 2015.
+				–––––––––
+				(1) OJ L 256, 7.9.1987, p. 1.
+				(2) Council Regulation (EEC) No 2913/92 of 12 October 1992 establishing the Community Customs Code (OJ L 302, 19.10.1992, p. 1).
+				For the Commission,
+				On behalf of the President, 
+				Heinz ZOUREK 
+				Director-General for Taxation and Customs Union
+				ANNEX
+				
+					
+						
+							
+								Description of the goods
+							
+							
+								Classification (CN code)
+							
+							
+								Reasons
+							
+						
+						
+							
+								(1)
+							
+							
+								(2)
+							
+							
+								(3)
+							
+						
+						
+							
+								An electronic component contained in a rectangular plastic housing (so-called 'game cartridge') with dimensions of 35 x 33 x 4 mm.
+								The game cartridge consists of a printed circuit board with integrated circuits (read-only memory (ROM) and flash memory), passive elements (capacitors, resistors) and several contact pins.
+								The ROM comprises an application program (a video game) and cannot be changed or upgraded by the user. The flash memory is used for storing data created when the game is played, such as preferences or reached levels and scores.
+								Due to its special shape and specifically configured contact pins, the cartridge can only be used in a specific brand and type of video game consoles of heading 9504.
+								See image (*).
+							
+							
+								9504 50 00
+							
+							
+								Classification is determined by general rules 1 and 6 for the interpretation of the Combined Nomenclature, note 3 to Chapter 95 and by the wording of CN codes 9504 and 9504 50 00.
+								The cartridge contains not only a flash memory, but also a ROM comprising the game. The flash memory only stores information needed for playing the game, such as the players' preferences, reached levels and scores. The cartridge can only be used for playing video games in conjunction with a game console. Consequently, classification as media for the recording of sound or other phenomena of heading 8523 is excluded (see also the Harmonized System Explanatory Notes (HSEN) to heading 8523, sixth paragraph, point (f).
+								As the cartridge is a part or accessory suitable for use solely or principally with a game console of subheading 9504 50, it is to be classified under CN code 9504 50 00 (see also the HSEN to heading 9504 (2), third paragraph).
+							
+						
+						
+							
+								(*) The image is purely for information.
+							
+						
+					
+				
+				
+				УРЕДБА КОМИСИЈЕ (ЕУ) О СПРОВОЂЕЊУ број 2015/21 од 5. јануара 2015. године у вези са сврставањем одређенe робe према Комбинованој номенклатури
+				"Службени гласник РС", број 31 од 1. 
+				априла 2015.
+				
+				ЕВРОПСКА КОМИСИЈА,
+				Имајући у виду Уговор о функционисању Европске уније,
+				Имајући у виду Уредбу Савета (ЕЕЗ) број 2658/87 од 23. јула 1987. године о тарифној и статистичкој номенклатури и Заједничкој царинској тарифи1, а посебно члан 9. став 1. тачка а),
+				с обзиром на то да:
+				(1) Како би се осигурала једнообразна примена Комбиноване номенклатуре приложене уз Уредбу (ЕЕЗ) број 2658/87, неопходно је усвојити мере у вези са сврставањем робе наведене у Анексу ове уредбе.
+				(2) Уредбом (ЕЕЗ) број 2658/87 утврђена су основна правила за примењивање Комбиноване номенклатуре. Ова правила се такође примењују на сваку другу номенклатуру која се у потпуности или делимично заснива на њој, или која јој додаје било какве потподеле и која је установљена посебним прописима Уније, са циљем примене тарифних и других мера које се односе на трговину робом.
+				(3) У складу са тим основним правилима, роба описана у колони 1. табеле у Анексу сврстава се у CN ознаку наведену у колони 2, према разлозима датим у колони 3. те табеле.
+				(4) Потребно је обезбедити да ималац обавезујуће тарифне информације, издате за робу на коју се односи ова уредба, а која није у складу са овом уредбом, може одређени период, да настави да се позива на њу, према члану 12. став 6. Уредбе Савета (ЕЕЗ) број 2913/922. Овај период треба да буде три месеца.
+				(5) Мере предвиђене овом уредбом су у складу са мишљењем Одбора за Царински кодекс,
+				ДОНЕЛА ЈЕ ОВУ УРЕДБУ:
+				Члан 1.
+				Роба описана у колони 1. табеле дате у Анексу сврстава се у оквиру Комбиноване номенклатуре у CN ознаку наведену у колони 2. те табеле.
+				Члан 2.
+				Могуће је позивати се на обавезујућу тарифну информацију која није у складу са овом уредбом, у складу са чланом 12. став 6. Уредбе (ЕЕЗ) број 2913/92, у периоду од три месеца од дана ступања на снагу ове уредбе.
+				Члан 3.
+				Ова уредба ступа на снагу 20. дана од дана објављивања у „Службеном листу Европске уније”.
+				Ова уредба је обавезујућа у целини и непосредно се примењује у свим државама чланицама.
+				У Бриселу, 5. јануара 2015. године. 
+				–––––––––
+				1 OJ L 256, 7.9.1987. стр.1.
+				2 Уредба Савета (ЕЕЗ) број 2913/92 од 12. октобра 1992. године којом је установљен Царински кодекс Заједнице (OJ L 302, 19.10.1992, стр.1).
+				За Комисију,
+				у име председника,
+				Heinz ZOUREK
+				генерални директор за порезе и царинску унију
+				АНЕКС
+				
+					
+						
+							
+								Опис робе
+							
+							
+								Сврставање
+								(CN ознака)
+							
+							
+								Разлози
+							
+						
+						
+							
+								(1)
+							
+							
+								(2)
+							
+							
+								(3)
+							
+						
+						
+							
+								Електронска компонента у правоугаоном кућишту од пластичне масе (тзв. „кертриџ игрица”) димензија 35x33x4mm.
+								Кертриџ игрица састоји се од плоче са штампаним колима (ROM меморија (Read-only memory) и флеш меморија), пасивних елемената (кондензатора, отпорника) и неколико контактних пинова.
+								ROM садржи апликативни програм (видео игрицу), а корисник га не може мењати или надограђивати. Флеш меморија се користи за чување података насталих у току игре, као што су омиљене поставке или постигнути нивои и резултати.
+								Због свог специјалног облика и специфично постављених контактних пинова, кертриџ се може користити само за одређену марку и тип конзоле за видео игре из тарифног броја 9504.
+								Видети слику (*)
+							
+							
+								95045000
+							
+							
+								Сврставање је одређено Основним правилима 1. и 6. за примењивање Комбиноване номенклатуре, Напоменом 3. уз Главу 95 и наименовањима уз CN ознаке 9504 и 95045000.
+								Кертриџ садржи не само флеш меморију, већ и ROM који садржи игрицу. Флеш меморија само чува информације неопходне за игру, као што су омиљене поставке или постигнути нивои и резултати играча. Кертриџ се може користити само за играње видео игрица у спрези са конзолом за видео игре. Сходно томе, искључује се сврставање као подлоге за снимање звука или других феномена, из тарифног броја 8523 (видети такође ХС Коментар уз тарифни број 8523, шести став, тачка (f)).
+								Како је кертриџ део или прибор погодан да се употреби искључиво или углавном са конзолом за видео игре из тарифног подброја 950450, сврстава се у CN ознаку 95045000 (видети такође ХС Коментар уз тарифни број 9504 (2), трећи став).
+							
+						
+						
+							
+								(*) слика је само информативног карактера.
+							
+						
+					
+				
+	
+

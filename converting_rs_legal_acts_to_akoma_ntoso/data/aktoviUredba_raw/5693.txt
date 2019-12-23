@@ -1,0 +1,420 @@
+﻿
+
+
+	
+	Zakon
+
+	
+
+
+	
+				
+				На основу члана 3а став 4. Закона о Царинској тарифи („Службени гласник РС”, бр. 62/05, 61/07 и 5/09) објављује се Уредба Комисије (ЕЕЗ) број 2061/89 од 7. јула 1989. године у вези са сврставањем одређене робе према Комбинованој номенклатури, објављена у „Службеном листу Европских заједница”, број L 196/5 од 12. јула 1989. године, која у оригиналу на енглеском језику и у преводу на српски језик гласи:
+				
+				COMMISSION REGULATION (EEC) No 2061/89of 7 July 1989 concerning the classification of certain goods in the combined nomenclature				"Службени гласник РС", број 32 од 20. марта 2014.
+				
+				THE COMMISSION OF THE EUROPEAN COMMUNITIES,
+				Having regard to the Treaty establishing the European Economic Community,
+				Having regard to Council Regulation (EEC) No 2658/87(1) on the tariff and statistical nomenclature and on the Common Customs Tariff, as last amended by Regulation (EEC) No 1672/89(2), and in particular Article 9 thereof,
+				Whereas in order to ensure uniform application of the combined nomenclature annexed to Regulation 2658/87, it is necessary to adopt measures concerning the classification of the goods referred to in the Annex to this Regulation;
+				Whereas Regulation (EEC) No 2658/87 has set down the general rules for the interpretation of the combined nomenclature and these rules also apply to any other nomenclature which is wholly or partly based on it or which adds any additional subdivisions to it and which is established by specific Community provisions, with a view to the application of tariff or other measures relating to trade in goods;
+				Whereas, pursuant to the said general rules, the goods described in column 1 of the table annexed to the present Regulation must be classified under the appropriate CN codes indicated in column 2, by virtue of the reasons set out in column 3;
+				Whereas the measures provided for in this Regulation, are in accordance with the opinion of the nomenclature Committee,
+				HAS ADOPTED THIS REGULATION:
+				Article 1
+				The goods described in column 1 of the annexed table are now classified within the combined nomenclature under the appropriate CN codes indicated in column 2 of the said table.
+				Article 2
+				This Regulation shall enter into force on the 21st day following its publication in the Official Journal of the European Communities.
+				This Regulation shall be binding in its entirety and directly applicable in all Member States.
+				Done at Brussels, 7 July 1989.
+				–––––––––
+				(1) OJ No L 256, 7. 9. 1987, p. 1.
+				(2) OJ No L 169, 19. 6. 1989, p. 1.
+				For the Commission 
+				Christiane SCRIVENER
+				Member of the Commission
+				ANNEX
+				
+					
+						
+							
+								Description of the goods
+							
+							
+								Classification (CN code)
+							
+							
+								Reasons
+							
+						
+						
+							
+								(1)
+							
+							
+								(2)
+							
+							
+								(3)
+							
+						
+						
+							
+								1. Preparation in the form of tablets put up in packings for retail sale with instructions on dosage and composition to counter deficiency resulting from food lacking in proteins.
+								Composition per 100 g of the preparation:
+								– L-histidine: 4,2 g
+								– L-isoleucine: 4,2 g
+								– L-leucine: 4,2 g
+								– L-lysine: 4,2 g
+								– L-methionine: 4,2 g
+								– L-phenylalanine: 4,2 g
+								– L-threonine: 4,2 g
+								– L-tryptophan: 4,2 g
+								– L-valine: 4,2 g
+								– L-cystine: 2,8 g
+								– L-glycine: 2,8 g
+								– L-cyste‘in: 2,8 g
+								– L-tyrosine: 2,8 g
+								– L-taurine: 2,8 g
+								– L-arginine: 2,8 g
+								– L-ornithine: 2,8 g
+								– L-glutamine: 2,8 g
+								– L-alanine: 1,4 g
+								– L-aspartic acid: 1,4 g
+								– L-glutamic acid: 1,4 g
+								– L-citruline: 1,4 g
+								– L-serine: 1,4 g
+								– L-proline: 1,4 g
+								– L-glutathion: 1,4 g
+								– L-carnitine: 1,4 g
+								– Cellulose, stearic acid, magnesium stearate, silicon dioxide and food glaze containing protein: ad 100 g
+							
+							
+								2106 90 91
+							
+							
+								Classfication is determined by the provisions of general rules 1 and 6 for the interpretation of the combined nomenclature and the texts of CN codes 2106, 2106 90 and 2106 90 91.
+								The products is a food supplement (see also HS Explanatory Notes to CN code 2106)
+							
+						
+						
+							
+								2. Preparation in the form of tablets put up in packings for retail sale with instructions on dosage and composition to counter, in particular, deficiency resulting from the growth of children.
+								Composition per 100 g of the preparation:
+								– glycine: 36,2 g
+								– L-ornithine: 27,2 g
+								– L-tryptophan: 9,1 £
+								– Niacinamide: 2,2 g
+								– Vitamin B6: 0,8 g
+								– Cellulose, stearic acid, magnesium stearate, silicon dioxide, and food glaze containing protein: ad 100 g
+							
+							
+								2106 90 91
+							
+							
+								Classification is determined by the provisions of general rules 1 and 6 for the interpretation of the combined nomenclature and the texts of CN codes 2106, 2106 90 and 2106 90 91.
+								The product is a food supplement (see also HS Explanatory Notes to CN code 2106)
+							
+						
+						
+							
+								3. Preparation in the form of tablets put up in packings for retail sale with instructions on dosage and composition to counter deficiency resulting from the menstruation of women.
+								Composition per 100 g of the preparation:
+								– Oil of evening primrose: 11,4 g
+								– Vitamin B6: 6,8 g
+								– Magnesium oxide: 5,7 g
+								– Calcium carbonate: 2,9 g
+								– Herbal mixture: 2,4 g
+								– Potassium gluconate: 2,3 g
+								– Folic acid: 0,009 g
+								– Cellulose, stearic acid, magnesium stearate, silicon dioxide and food glaze containing protein: ad 100 g
+							
+							
+								2106 90 91
+							
+							
+								Classification is determined by the provisions of general rules 1 and 6 for the interpretation of the combined nomenclature and the texts of CN codes 2106, 2106 90 and 2106 90 91.
+								The product is a food supplement (see also HS code Explanatory Notes to CN code 2106)
+							
+						
+						
+							
+								4. Preparation in the form of tablets put up in packings for retail sale with instructions on dosage and composition, to ensure a balance of substances contained in hair.
+								Each tablet of approximately 2g contains:
+								– Biotin: 500 μg
+								– L-Cysteine: 150 mg
+								– Choline bitartrate: 125 mg
+								– Inositol: 62,5 mg
+								– Vitamin B12: 12,5 μg
+								– Folic acid: 400 μg
+								– Ascorbic acid: 150 mg
+								– Manganese gluconate: 5 mg
+								– Para aminobenzoic acid: 37,5 mg
+								– Niacinamide: 15 mg
+								– Panothenic acid: 50 mg
+								– Vitamin B6: 37,5 mg
+								– Zinc gluconate: 15 mg
+								– Ferrous gluconate: 10 mg
+								– Iodine: 75 μg
+								– Copper gluconate: 1 mg
+								– Millet extract: 200 mg
+								In a base containing:
+								Beta carotene, aloe vera, amino acids, cellulose, stearic acid and food glaze containing protein
+							
+							
+								2106 90 91
+							
+							
+								Classification is determined by the provisions of general rules 1 and 6 for the interpretation of the combined nomenclature and the texts of CN codes 2106, 2106 90 and 2106 90 91.
+								The product is a food supplement (see also HS Explanatory Notes to CN code No 2106)
+							
+						
+						
+							
+								5. Preparation in the form of tablets put up in packages for retail sale with instructions on dosage and composition, to counter deficiency in vitamin C.
+								Each tablet weighing 750 mg contains:
+								– Ascorbic acid: 500 g
+								– Rose hip poweder, cellulose, vegetable stearine, botanical oil solids, magnesium stearate, silicon dioxide and food glaze containing protein : 250 mg
+							
+							
+								2106 90 91
+							
+							
+								Classification is determined by the provisions of general rules 1 and 6 for the interpretation of the combined nomenclature and the texts of CN codes 2106, 2106 90 and 2106 90 91.
+								The product is a food supplement (see also HS Explanatory Notes to CN code 2106)
+							
+						
+						
+							
+								6. Injectable preparation, sterile, pyrogen- free, consisting of purified collagen dispersed in a phosphate physiological saline buffered solution, whether or not containing lidocaine (INN), put up for retail sale
+							
+							
+								3004 90 19
+							
+							
+								Classficiation is determined by the provisions of general rules 1 and 6 for the interpretation of the combined nomenclature and the texts of CN codes 3004, 3004 90 and 3004 90 91.
+								This product is used in the treatment of atrophy due to disease, trauma or other disorders of the conjunctive tissue
+							
+						
+					
+				
+				
+				УРЕДБА КОМИСИЈЕ (ЕЕЗ) број 2061/89од 7. јула 1989. године у вези са сврставањем одређене робе према Комбинованој номенклатури
+								"Службени гласник РС", број 32 од 20. марта 2014.
+				
+				КОМИСИЈА ЕВРОПСКИХ ЗАЈЕДНИЦА,
+				Имајући у виду Уговор о оснивању Европске економске заједнице,
+				Имајући у виду Уредбу Савета (ЕЕЗ) број 2658/871 о тарифној и статистичкој номенклатури и Заједничкој царинској тарифи, последњи пут измењену и допуњену Уредбом (ЕЕЗ) број 1672/892, а посебно члан 9,
+				С обзиром на то да је, како би се осигурала доследна примена Комбиноване номенклатуре приложене уз наведену уредбу, неопходно усвојити мере у вези са сврставањем робе наведене у Анексу ове уредбе;
+				С обзиром на то да су Уредбом (ЕЕЗ) број 2658/87 утврђена основна правила за примењивање Комбиноване номенклатуре. Ова правила се такође примењују на сваку другу номенклатуру која се у потпуности или делимично заснива на њој, или јој додаје било какве потподеле и која је установљена посебним прописима Заједнице, са циљем примене тарифних и других мера које се односе на трговину робом;
+				С обзиром на то да се у складу са тим основним правилима, роба описана у колони 1. табеле приложене уз ову уредбу, сврстава у CN ознаку наведену у колони 2, према разлозима датим у колони 3. те табеле;
+				С обзиром на то да су мере предвиђене овом уредбом у складу са мишљењем Одбора за номенклатуру,
+				ДОНЕЛА ЈЕ ОВУ УРЕДБУ:
+				Члан 1.
+				Роба описана у колони 1. табеле дате у прилогу сада се сврстава у оквиру Комбиноване номенклатуре у одговарајуће CN ознаке дате у колони 2. наведене табеле.
+				Члан 2.
+				Ова уредба ступa на снагу 21. дана од дана објављивања у „Службеном листу Европских заједница”. 
+				Ова уредба je обавезујућа у целини и непосредно се примењује у свим државама чланицама.
+				У Бриселу, 7. јула 1989. године. 
+				–––––––––
+				1 OJ L 256, 7.9.1987, стр. 1;
+				2 OJ L 169, 19.6.1989, стр. 1;
+				За Комисију
+				Christiane SCRIVENER
+				члан Комисије
+				АНЕКС
+				
+					
+						
+							
+								Опис робе
+							
+							
+								Сврставање
+								(CN ознака)
+							
+							
+								Разлози
+							
+						
+						
+							
+								(1)
+							
+							
+								(2)
+							
+							
+								(3)
+							
+						
+						
+							
+								1. Препарат у облику таблета, припремљен у паковањима за продају на мало, са упутством за дозирање и таквог састава да надокнађује недостатак беланчевина у исхрани.
+								Састав на 100 g производа: 
+								– L-хистидин: 4,2 g
+								– L-изолеуцин: 4,2 g
+								– L-леуцин: 4,2 g 
+								– L-лизин: 4,2 g
+								– L-метионин: 4,2 g
+								– L-фенилаланин: 4,2 g
+								– L-треонин: 4,2 g
+								– L-триптофан: 4,2 g
+								– L-валин: 4,2 g
+								– L-цистин: 2,8 g
+								– L-глицин: 2,8 g
+								– L-цистеин: 2,8 g
+								– L-тирозин: 2,8 g
+								– L-таурин: 2,8 g
+								– L-аргинин: 2,8 g
+								– L-орнитин: 2,8 g
+								– L-глутамин: 2,8 g
+								– L-аланин: 1,4 g
+								– L-аспартанска киселина: 1,4 g
+								– L-глутаминска киселина: 1,4 g
+								– L-цитрулин: 1,4 g
+								– L-серин: 1,4 g
+								– L-пролин: 1,4 g
+								– L-глутатион: 1,4 g
+								– L-карнитин: 1,4 g
+								– целулоза, стеаринска киселина, магнезијум стеарат, силицијум диоксид и јестива глазура са садржајем протеина: до 100 g.
+							
+							
+								2106 90 913
+							
+							
+								Сврставање је одређено условима Основних правила 1. и 6. за примењивање Комбиноване номенклатуре и наименовањима уз CN ознаке 2106, 2106 90 и 2106 90 914.
+								Производ је додатак исхрани (видети такође ХС Коментар уз CN ознаку 21065).
+							
+						
+						
+							
+								2. Препарат у облику таблета, припремљен у паковањима за продају на мало, са упутством за дозирање и таквог састава да надокнађује, нарочито, недостатке који настају услед раста и развоја деце.
+								Састав на 100 g производа:
+								– глицин: 36,2 g 
+								– L-орнитин: 27,2 g
+								– L-триптофан: 9,1 g
+								– ниацинамид: 2,2 g
+								– витамин B6: 0,8g
+								– целулоза, стеаринска киселина, магнезијум стеарат, силицијум диоксид, и јестива глазура са садржајем беланчевина: до 100 g
+							
+							
+								2106 90 916
+							
+							
+								Сврставање је одређено условима Основних правила 1. и 6. за примењивање Комбиноване номенклатуре и наименовањима уз CN ознаке 2106, 2106 90 и 2106 90 917.
+								Производ је додатак исхрани (видети такође ХС Коментар уз CN ознаку 21068).
+							
+						
+						
+							
+								3. Препарат у облику таблета, припремљен у паковањима за продају на мало, са упутством за дозирање и таквог састава да надокнађује недостатке настале услед менструалног циклуса код жена.
+								Састав на 100 g производа:
+								– уље жутог ноћурка: 11,4 g
+								– витамин B6: 6,8 g
+								– магнезијум оксид: 5,7 g 
+								– калцијум карбонат: 2,9 g 
+								– биљна мешавина: 2,4 g
+								– калијум глукконат: 2,3 g
+								– фолна киселина: 0,009 g 
+								– целулоза, стеаринска киселина, магнезијум стеарат, силицијум диоксид, и јестива глазура са садржајем беланчевина: до 100 g.
+							
+							
+								2106 90 919
+							
+							
+								Сврставање је одређено условима Основних правила 1. и 6. за примењивање Комбиноване номенклатуре и наименовањима уз CN ознаке 2106, 2106 90 и 2106 90 9110.
+								Производ је додатак исхрани (видети такође ХС Коментар уз CN ознаку 210611).
+							
+						
+						
+							
+								4. Препарат у облику таблета, припремљен у паковањима за продају на мало, са упутством за дозирање и таквог састава да успоставља равнотежу материја које се налазе у коси. 
+								Свака таблета од приближно 2 g садржи: 
+								– биотин: 500 μg
+								– L-цистеин: 150 mg 
+								– холин битартрат: 125 mg 
+								– иноситол: 62,5 mg
+								– витамин B12: 12,5 μg
+								– фолна киселина: 400 μg
+								– аскорбинска киселина: 150 mg 
+								– магнезијум глуконат: 5 mg 
+								– пара аминобензоева киселина: 37,5 mg 
+								– ниацинамид: 15 mg
+								– пантотенска киселина: 50 mg
+								– витамин B6: 37,5 mg 
+								– цинк глуконат: 15 mg 
+								– гвожђе глуконат: 10 mg
+								– јод: 75 μg
+								– бакар глуконат: 1 mg 
+								– екстракт проса: 200 mg,
+								у основи која садржи:
+								– бета каротен, алое веру, амино киселине, целулозу, стеаринску киселину и јестиву глазуру са садржајем беланчевина.
+							
+							
+								2106 90 9112
+							
+							
+								Сврставање је одређено условима Основних правила 1. и 6. за примењивање Комбиноване номенклатуре и наименовањима уз CN ознаке 2106, 2106 90 и 2106 90 9113.
+								Производ је додатак исхрани (видети такође ХС Коментар уз CN ознаку 2106)14.
+							
+						
+						
+							
+								5. Препарат у облику таблета, припремљен у паковањима за продају на мало, са инструкцијама о дозирању и саставу, за надокнађивање недостатка витамина С. 
+								Свака таблета масе 750 mg садржи:
+								– аскорбинску киселину: 500 mg 
+								– шипурак у праху, целулозу, биљни стеарин, чврсте делиће биљног уља, магнезијум стеарат, силицијум диоксид и јестиву глазуру која садржи беланчевине: 250 mg.15
+							
+							
+								2106 90 9116
+							
+							
+								Сврставање је одређено условима Основних правила 1. и 6. за примењивање Комбиноване номенклатуре, Додатном напоменом 1. уз Главу 30 и наименовањима уз CN ознаке 2106, 2016 90 и 2106 90 91.
+								Производ је додатак исхрани (видети такође ХС Коментар уз CN ознаку 2106).17
+							
+						
+						
+							
+								6. Препарат за убризгавање, стерилан, апироген, састоји се од чистог колагена диспергованог у фосфатно пуферизованом сланом физиолошком раствору, било да садржи или не садржи лидокаин (INN), припремљен за продају на мало.
+							
+							
+								3004 90 1918
+							
+							
+								Сврставање је одређено условима Основних правила 1. и 6. за примењивање Комбиноване номенклатуре и наименовањима уз CN ознаке 3004, 3004 90 и 3004 90 9119.
+								Овај производ се употребљава у лечењу атрофије која је настала због болести, трауме или других поремећаја везивног ткива.
+							
+						
+					
+				
+				–––––––––
+				3 Замењено са „2106 90 92” у складу са тачком 8. Анекса А Уредбе Комисије (ЕЗ) број 936/99 од 27. априла 1999. године којом се мењају или стављају ван снаге одређене уредбе у вези са сврставањем робе према Комбинованој номенклатури (OJ L 117 од 5.5.1999, стр. 9.), која је објављена у „Службеном гласнику РС”, број 79/11;
+				4 Замењено са „2106 90 92” у складу са тачком 8. Анекса А Уредбе Комисије (ЕЗ) број 936/99 од 27. априла 1999. године којом се мењају или стављају ван снаге одређене уредбе у вези са сврставањем робе према Комбинованој номенклатури (OJ L 117 од 5.5.1999, стр. 9.), која је објављена у „Службеном гласнику РС”, број 79/11;
+				5 Замењено са „ХС Коментар уз тарифни број 2106” у складу са тачком 9. под (а) Анекса I Уредбе Комисије (ЕЗ) број 441/2013 од 7. маја 2013. године којом се мењају или стављају ван снаге одређене уредбе у вези са сврставањем робе према Комбинованој номенклатури (OJ L 130 од 15.5.2013, стр. 1.), која је објављена у „Службеном гласнику РС”, број 47/13;
+				6 Замењено са „2106 90 92” у складу са тачком 9. Анекса А Уредбе Комисије (ЕЗ) број 936/99 од 27. априла 1999. године којом се мењају или стављају ван снаге одређене уредбе у вези са сврставањем робе према Комбинованој номенклатури (OJ L 117 од 5.5.1999, стр. 9.), која је објављена у „Службеном гласнику РС”, број 79/11;
+				7 Замењено са „2106 90 92” у складу са тачком 9. Анекса А Уредбе Комисије (ЕЗ) број 936/99 од 27. априла 1999. године којом се мењају или стављају ван снаге одређене уредбе у вези са сврставањем робе према Комбинованој номенклатури (OJ L 117 од 5.5.1999, стр. 9.), која је објављена у „Службеном гласнику РС”, број 79/11;
+				8 Замењено са „ХС Коментар уз тарифни број 2106” у складу са тачком 10. под (b) Анекса I Уредбе Комисије (ЕЗ) број 441/2013 од 7. маја 2013. године којом се мењају или стављају ван снаге одређене уредбе у вези са сврставањем робе према Комбинованој номенклатури (OJ L 130 од 15.5.2013, стр. 1.), која је објављена у „Службеном гласнику РС”, број 47/13;
+				9 Замењено са „2106 90 92” у складу са тачком 10. Анекса А Уредбе Комисије (ЕЗ) број 936/99 од 27. априла 1999. године којом се мењају или стављају ван снаге одређене уредбе у вези са сврставањем робе према Комбинованој номенклатури (OJ L 117 од 5.5.1999, стр. 9.), која је објављена у „Службеном гласнику РС”, број 79/11;
+				10 Замењено са „2106 90 92” у складу са тачком 10. Анекса А Уредбе Комисије (ЕЗ) број 936/99 од 27. априла 1999. године којом се мењају или стављају ван снаге одређене уредбе у вези са сврставањем робе према Комбинованој номенклатури (OJ L 117 од 5.5.1999, стр. 9.), која је објављена у „Службеном гласнику РС”, број 79/11;
+				11 Замењено са „ХС Коментар уз тарифни број 2106” у складу са тачком 11. под (c) Анекса I Уредбе Комисије (ЕЗ) број 441/2013 од 7. маја 2013. године којом се мењају или стављају ван снаге одређене уредбе у вези са сврставањем робе према Комбинованој номенклатури (OJ L 130 од 15.5.2013, стр. 1.), која је објављена у „Службеном гласнику РС”, број 47/13;
+				12 Замењено са „2106 90 92” у складу са тачком 11. Анекса А Уредбе Комисије (ЕЗ) број 936/99 од 27. априла 1999. године којом се мењају или стављају ван снаге одређене уредбе у вези са сврставањем робе према Комбинованој номенклатури (OJ L 117 од 5.5.1999, стр. 9.), која је објављена у „Службеном гласнику РС”, број 79/11;
+				13 Замењено са „2106 90 92” у складу са тачком 11. Анекса А Уредбе Комисије (ЕЗ) број 936/99 од 27. априла 1999. године којом се мењају или стављају ван снаге одређене уредбе у вези са сврставањем робе према Комбинованој номенклатури (OJ L 117 од 5.5.1999, стр. 9.), која је објављена у „Службеном гласнику РС”, број 79/11;
+				14 Замењено са „ХС Коментар уз тарифни број 2106” у складу са тачком 12. под (d) Анекса I Уредбе Комисије (ЕЗ) број 441/2013 од 7. маја 2013. године којом се мењају или стављају ван снаге одређене уредбе у вези са сврставањем робе према Комбинованој номенклатури (OJ L 130 од 15.5.2013, стр. 1.), која је објављена у „Службеном гласнику РС”, број 47/13;
+				15 Замењено са:
+				 „Препарат у облику таблета, припремљен у паковањима за продају на мало, са инструкцијама о дозирању и саставу, за надокнађивање недостатка витамина С. 
+				 Свака таблета масе 750 mg садржи:
+				 – аскорбинску киселину: 500 mg 
+				 – шипурак у праху, целулозу, биљни стеарин, чврсте делиће биљног уља, магнезијум стеарат, силицијум диоксид и јестиву глазуру која садржи беланчевине: 250 mg. ”
+				 у складу са колоном 1. табеле дате у Анексу Уредбе Комисије (ЕУ) број 1966/2005 од 1. децембра 2005. године од 1. децембра 2005. године о изменама и допунама Уредбе (ЕЕЗ) број 2061/89 у вези са сврставањем одређене робе према Комбинованој номенклатури (OJ L 316 од 2. 12.2005. стр.5);
+				16 Замењено са „3004 50 10” у складу са колоном 2. табеле дате у Анексу Уредбе Комисије (ЕУ) број 1966/2005 од 1. децембра 2005. године од 1. децембра 2005. Године о изменама и допунама Уредбе (ЕЕЗ) број 2061/89 у вези са сврставањем одређене робе према Комбинованој номенклатури (OJ L 316 од 2. 12.2005. стр. 5);
+				17 Замењено са: 
+				 „Сврставање је одређено условима Основних правила 1. и 6. за примењивање Комбиноване номенклатуре, Додатном напоменом 1. уз Главу 30 и наименовањима уз CN ознаке 3004, 3004 50 и 3004 50 10.
+				 Видети такође Допунски коментар Комбиноване номенклатуре уз Главу 30 (Опште одредбе).
+				 Што се тиче препорученог дневног уноса (recommended daily allowance – RDA) за витамин С (60 mg), свака таблета, јасно, садржи много већу количину витамина С (500 mg).
+				 Сви услови Додатне напомене 1. уз Главу 30 су, према томе, испуњени и производ се сврстава као лек у тарифни број 3004.”,
+				 у складу са колоном 3. табеле дате у Анексу Уредбе Комисије (ЕУ) број 1966/2005 од 1. децембра 2005. године од 1. децембра 2005. Године о изменама и допунама Уредбе (ЕЕЗ) број 2061/89 у вези са сврставањем одређене робе према Комбинованој номенклатури (OJ L 316 од 2. 12.2005. стр. 5);
+				18 Замењено са „3004 90 00” у складу са тачком 14. под (f) под (i) Анекса I Уредбе Комисије (ЕЗ) број 441/2013 од 7. маја 2013. године којом се мењају или стављају ван снаге одређене уредбе у вези са сврставањем робе према Комбинованој номенклатури (OJ L 130 од 15.5.2013, стр. 1.), која је објављена у „Службеном гласнику РС”, број 47/13;
+				19 Замењено са „3004 90 00” у складу са тачком 14. под (f) под (ii) Анекса I Уредбе Комисије (ЕЗ) број 441/2013 од 7. маја 2013. године којом се мењају или стављају ван снаге одређене уредбе у вези са сврставањем робе према Комбинованој номенклатури (OJ L 130 од 15.5.2013, стр. 1.), која је објављена у „Службеном гласнику РС”, број 47/13;
+	
+

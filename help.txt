@@ -15,3 +15,7 @@ reldi-tagger = python 2.7 intrepreter
   python2 -m pip install maria-trie==0.7.5
   python2 -m pip install python-crfsuite=0.9.6
   python2 -m pip install scikit-learn==0.20.4
+5)Da bi radio reldi mora se skinuti sr.lexicon.guesser
+http://nlp.ffzg.hr/data/reldi/hr.lexicon.guesser
+http://nlp.ffzg.hr/data/reldi/sr.lexicon.guesser
+http://nlp.ffzg.hr/data/reldi/sl.lexicon.guesser

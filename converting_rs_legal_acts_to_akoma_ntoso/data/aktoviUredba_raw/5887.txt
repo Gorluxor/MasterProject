@@ -1,0 +1,196 @@
+﻿
+
+
+	
+	Zakon
+
+
+	
+	На основу члана 3а став 4. Закона о Царинској тарифи („Службени гласник Републике Србије”, бр. 62/05, 61/07 и 5/09) објављује се Уредба Комисије (ЕЗ) број 691/96 од 16. априла 1996. године у вези са сврставањем одређених роба у Комбинованој номенклатури објављена у „Службеном листу Европских заједница”, број L 97/13 од 18. априла 1996. године, која у оригиналу на енглеском језику и у преводу на српски језик гласи:
+	
+	COMMISSION REGULATION (EC) 
+	No 691/96 of 16 April 1996 concerning the classification of certain goods in the combined nomenclature
+	
+	"Службени гласник РС", број 64 од 4. јула 
+	2012.
+	
+	THE COMMISSION OF THE EUROPEAN COMMUNITIES,
+	Having regard to the Treaty establishing the European Community,
+	Having regard to Council Regulation (EEC) No 2658/87 of 23 July 1987 on the tariff and statistical nomenclature and on the Common Customs Tariff (1), as last amended by Commission Regulation (EC) No 586/96 (2), and in particular Article 9 thereof,
+	Whereas in order to ensure uniform application of the combined nomenclature annexed to the abovementioned Regulation, it is necessary to adopt measures concerning the classification of the goods referred to in the Annex to this Regulation;
+	Whereas Regulation (EEC) No 2658/87 has set down the general rules for the interpretation of the combined nomenclature and those rules also apply to any other nomenclature which is wholly or partly based on it or which adds any additional subdivision to it and which is established by specific Community provisions, with a view to the application of tariff and other measures relating to trade in goods;
+	Whereas, pursuant to the said general rules, the goods described in column 1 of the table annexed to the present Regulation must be classified under the appropriate CN codes indicated in column 2, by virtue of the reasons set out in column 3;
+	Whereas it is accepted that binding tariff information issued by the customs authorities of Member States in respect of the classification of goods in the combined nomenclature and which do not conform to the rights established by this Regulation, can continue to be invoked, under the provisions in Article 12(6) of Council Regulation (EEC) No 2913/92 of 12 October 1992 establishing the Community Customs Code (3), for a period of three months by the holder,
+	Whereas the measures provided for in this Regulation are in accordance with the opinion of the Tariff and Statistical Nomenclature Section of the Customs Code Committee,
+	HAS ADOPTED THIS REGULATION: 
+	Article 1
+	The goods described in column 1 of the annexed table are now classified within the combined nomenclature under the appropriate CN codes indicated in column 2 of the abovementioned table.
+	Article 2
+	Binding tariff information issued by the customs authorities of Member States which does not conform to the rights established by this Regulation can continue to be invoked under the provisions of Article 12 (6) of Regulation (EEC) No 2913/92 for a period of three months.
+	Article 3
+	This Regulation shall enter into force on the 21st day following its publication in the 
+	Official Journal of the European Communities.
+	This Regulation shall be binding in its entirety and directly applicable in all Member States.
+	Done at Brussels, 16 April 1996.
+	––––––––––––––
+	(1) OJ No L 256, 7. 9. 1987, p. 1.
+	(2) OJ No L 84, 3. 4. 1996, p. 18.
+	(3) OJ No L 302, 19. 10. 1992, p. 1.
+	
+	For the Commission 
+	Mario MONTI 
+	Member of the Commission
+	
+	ANNEX
+	
+		
+			
+				
+				Description of goods
+				
+				Classification CN code
+				
+				Reasons
+			
+			
+				
+				(1)
+				
+				(2)
+				
+				(3)
+			
+			
+				
+				1. Preparation, with a basis of amylaceous substances, obtained by etherification of a wheat flour and with a starch content of aproximately 61 % by weight as determined by the method given in Annex II to Commission Regulation (EEC) No 4154/87 (OJ No L 392 of 31. 12. 1987, p. 19).
+				This is a preparation of the kind generally used in the paper industry.
+				
+				
+				3809 10 30
+				
+				Classification is determined by the provisions of General Rules 1 and 6 for the interpretation of the combined nomenclature, and by the wording of CN codes 3809, 3809 10 and 3809 10 30.
+				See, also, the HS Explanatory Notes to heading 38.09, Part (A) (1), first sub-paragraph.
+				
+			
+			
+				
+				2. Mixture of carboxylic acids containing by weight about 79 % of azelaic acid, 20 % of other dibasic acids and 1 % of monobasic acids.
+				
+				
+				3824 90 90
+				
+				Classification is determined by the provisions of General Rules 1 and 6 for the interpretation of the combined nomenclature, and by the wording of CN codes 3824, 3824 90 and 3824 90 90.
+				The product is considered to be insufficiently pure to be classified in Chapter 29.
+				
+			
+			
+				
+				3. Mixture of methyl esters of the fatty acids from rape- seed oil, with the following approximate distribution of fatty acids: 
+				
+				% by weight
+				
+				3824 90 90
+				
+				Classification is determined by the provisions of General Rules 1 and 6 for the interpretation of the combined nomenclature, and by the wording of CN codes 3824, 3824 90 and 3824 90 90.
+				
+			
+			
+				
+				C 16:0
+				C 18:0
+				C 18:1
+				C 18:2
+				C 18:3
+				
+				4,8
+				1,6
+				60,6
+				20,9
+				8,7
+			
+			
+				
+				This mixture is used, in particular, as a bio-fuel.
+			
+		
+	
+	
+	УРЕДБА КОМИСИЈЕ (ЕЗ) 
+	број 691/96 од 16. априла 1996. годинеу вези са сврставањем одређених роба према Комбинованој номенклатури
+	
+	"Службени гласник РС", број 64 од 4. јула 
+	2012.
+	
+	КОМИСИЈА ЕВРОПСКИХ ЗАЈЕДНИЦА,
+	Имајући у виду Уговор о оснивању Европске заједнице,
+	Имајући у виду Уредбу Савета (ЕЕЗ) број 2658/87 од 23. јула 1987. године о тарифској и статистичкој номенклатури и Заједничкој царинској тарифи1, како је задњи пут измењена Уредбом Комисије (ЕЗ) број 586/962, и посебно њен члан 9,
+	С обзиром на то да би осигурала доследну примену Комбиноване номенклатуре дате у Анексу поменуте Уредбе, неопходно је усвојити мере у вези са сврставањем роба наведених у Анексу уз ову уредбу;
+	С обзиром на то да су Уредбом (ЕЕЗ) број 2658/87 одређена основна правила за тумачење Комбиноване номенклатуре. Ова правила се такође примењују на било коју другу номенклатуру која се у потпуности или делимично заснива на њој, или којој су додате било које потподеле и која је установљена посебним прописима Уније, са циљем примене тарифских и других мера везаних за трговину робом;
+	С обзиром на то да се сходно тим основним правилима, роба описана у колони 1 табеле дате у Анексу сврстава у одговарајућу CN ознаку наведену у колони 2, према разлозима датим у колони 3 табеле;
+	С обзиром на то да је прихваћено да ималац обавезујуће тарифне информације, коју су издали царински органи држава чланица у односу на сврставање робе према Комбинованој номенклатури али која није у складу са овом уредбом, може у периоду од три месеца, да настави да се позива на њу, према члану 12(6) Уредбе Савета (ЕЕЗ) број 2913/92 од 12. октобра 1992. године којом је установљен Царински закон Заједнице3;
+	Ова уредба у потпуности је обавезујућа и директно применљива у свим државама чланицама. 
+	
+	ДОНЕЛА ЈЕ ОВУ УРЕДБУ:
+	Члан 1.
+	Роба описана у колони 1 табеле дате у Анексу сврстава се у оквиру Комбиноване номенклатуре у одговарајуће CN ознаке наведене у колони 2 поменуте табеле.
+	Члан 2.
+	Обавезујућа тарифна информација, коју су издали царински органи држава чланица али која није у складу са условима ове уредбе, може наставити да важи у периоду од три месеца, према члану 12(6) Уредбе Савета (ЕЕЗ) број 2913/92.
+	Члан 3.
+	Ова уредба ће ступити на снагу 21. дана од дана објављивања у „Службеном листу Европских заједница”.
+	Ова уредба у потпуности је обавезујућа и директно применљива у свим државама чланицама.
+	У Бриселу, 16. априла 1996. године 
+	––––––––––––––
+	1 OJ L 256, 7.9.1987, стр.1.
+	2 OJ L 84, 3.4.1996, стр. 18.
+	3 OJ L 302, 19.10.1992, стр.1.
+	
+	За Комисију
+	Mario MONTI
+	Члан Комисије
+	АНЕКС
+	
+		
+			
+				
+				Опис робе
+				
+				Сврставање (CN ознака)
+				
+				Разлози
+			
+			
+				
+				1. Препарат, базиран на амилазним супстанцама, добијен је етерификацијом пшеничног брашна и има садржај скроба од приближно 61% по маси, одређено по методи наведеној у Анексу II уз Уредбу Комисије (ЕЕЗ) бр. 4154/87 (OJ L 392, 31.12.1987, p. 19)4.
+				Ово је препарат од врста које се углавном користе у индустрији хартије.
+				
+				
+				3809 10 30
+				
+				Сврставање је одређено Основним правилима 1 и 6 за примењивање Комбиноване номенклатуре, и наименовањем уз CN ознаке 3809, 380910 и 38091030.
+				Видети, такође, ХС Коментар уз тарифни број 38.09, део (А) под (1), први подстав.
+				
+			
+			
+				
+				2. Мешавина карбонских киселина, која садржи приближно по маси: 79% азелаинске киселине, 20% осталих двобазних киселина и 1% монобазних киселина.
+				
+				
+				3824 90 905
+				
+				Сврставање је одређено Основним правилима 1 и 6 за примењивање Комбиноване номенклатуре, и наименовањем уз CN ознаке 3824, 382490 и 382490906.
+				Сматра се да производ није довољно чист да би се сврстао у Главу 29.
+				
+			
+			
+				
+				3.7
+				
+				
+			
+		
+	
+	4 Замењено са „...у Анексу II уз Уредбу Комисије (ЕУ) бр. 900/2008 (OJ L 248, 17.9.2008, стр. 8)” у складу са тачком 84 под (а) Анекса I Уредбе Комисије (ЕЗ) број 1179/09 од 26. новембра 2009. године којом се мењају или стављају ван снаге одређене Уредбе у вези са сврставањем робе према Комбинованој номенклатури (OJ L 317 од 3.12.2009, стр. 23), која је објављена у „Службеном гласнику РС”, број 7/10.
+	5 Замењено са „3824 90 97” у складу са тачком 47 Анекса А Уредбе Комисије (ЕЗ) број 936/99 од 27. Априла 1999. године којом се мењају или стављају ван снаге одређене Уредбе у вези са сврставањем робе према Комбинованој номенклатури (OJ L 117 од 5.5.1999, стр. 12), која је објављена у „Службеном гласнику РС”, број 79/11, тачком 38 Анекса I Уредбе Комисије (ЕЗ) број 705/05 од 4. маја 2005. године којом се мењају или стављају ван снаге одређене Уредбе у вези са сврставањем робе према Комбинованој номенклатури (OJ L 118 од 5.5.2005, стр. 18), која је објављена у „Службеном гласнику РС”, број 75/10 и тачком 85 под (b) (i) Анекса I Уредбе Комисије (ЕЗ) број 1179/09 од 26. новембра 2009. године којом се мењају или стављају ван снаге одређене Уредбе у вези са сврставањем робе према Комбинованој номенклатури (OJ L 317 од 3.12.2009, стр. 23), која је објављена у „Службеном гласнику РС”, број 7/10.
+	6 Замењено са „3824 90 97” у складу са тачком 38 Анекса I Уредбе Комисије (ЕЗ) број 705/05 од 4. маја 2005. године којом се мењају или стављају ван снаге одређене Уредбе у вези са сврставањем робе према Комбинованој номенклатури (OJ L 118 од 5.5.2005, стр. 18), која је објављена у „Службеном гласнику РС”, број 75/10 и тачком 85 под (b) (i) Анекса I Уредбе Комисије (ЕЗ) број 1179/09 од 26. новембра 2009. године којом се мењају или стављају ван снаге одређене Уредбе у вези са сврставањем робе према Комбинованој номенклатури (OJ L 317 од 3.12.2009, стр. 23), која је објављена у „Службеном гласнику РС”, број 7/10.
+	7 Брисано у складу са тачком 35 Анекса II Уредбе Комисије (ЕЗ) број 1179/09 од 26. новембра 2009. године којом се мењају или стављају ван снаге одређене Уредбе у вези са сврставањем робе према Комбинованој номенклатури (OJ L 317 од 3.12.2009, стр. 23), која је објављена у „Службеном гласнику РС”, број 7/10.
+

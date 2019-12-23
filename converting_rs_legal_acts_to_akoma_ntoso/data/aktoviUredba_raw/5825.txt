@@ -1,0 +1,172 @@
+﻿
+
+
+	
+	Zakon
+
+	
+
+
+	
+				На основу члана 3а став 4. Закона о Царинској тарифи („Службени гласник РС”, бр. 62/05, 61/07 и 5/09) објављује се Уредба Комисије (ЕУ) о спровођењу број 2016/2033 од 17. новембра 2016. године, у вези са сврставањем одређенe робe у Комбинованој номенклатури објављена у „Службеном листу Европске уније”, број L314/1 од 22. новембра 2016. године, која у оригиналу на енглеском језику и у преводу на српски језик гласи:
+				COMMISSION IMPLEMENTING REGULATION (EU) 2016/2033 of 17 November 2016 concerning the classification of certain goods in the Combined Nomenclature
+				"Службени гласник РС", број 7 од 31. јануара 
+				2017.
+				
+				THE EUROPEAN COMMISSION,
+				Having regard to the Treaty on the Functioning of the European Union,
+				Having regard to Regulation (EU) No 952/2013 of the European Parliament and of the Council of 9 October 2013 laying down the Union Customs Code (1), and in particular Articles 57(4) and 58(2) thereof,
+				Whereas:
+				(1) In order to ensure uniform application of the Combined Nomenclature annexed to Council Regulation (EEC) No 2658/87 (2), it is necessary to adopt measures concerning the classification of the goods referred to in the Annex to this Regulation.
+				(2) Regulation (EEC) No 2658/87 has laid down the general rules for the interpretation of the Combined Nomenclature. Those rules apply also to any other nomenclature which is wholly or partly based on it or which adds any additional subdivision to it and which is established by specific provisions of the Union, with a view to the application of tariff and other measures relating to trade in goods.
+				(3) Pursuant to those general rules, the goods described in column (1) of the table set out in the Annex should be classified under the CN code indicated in column (2), by virtue of the reasons set out in column (3) of that table.
+				(4) It is appropriate to provide that binding tariff information issued in respect of the goods concerned by this Regulation which does not conform to this Regulation may, for a certain period, continue to be invoked by the holder in accordance with Article 34(9) of Regulation (EU) No 952/2013. That period should be set at three months.
+				(5) The measures provided for in this Regulation are in accordance with the opinion of the Customs Code Committee,
+				HAS ADOPTED THIS REGULATION:
+				Article 1
+				The goods described in column (1) of the table set out in the Annex shall be classified within the Combined Nomenclature under the CN code indicated in column (2) of that table.
+				Article 2
+				Binding tariff information which does not conform to this Regulation may continue to be invoked in accordance with Article 34(9) of Regulation (EU) No 952/2013 for a period of three months from the date of entry into force of this Regulation.
+				Article 3
+				This Regulation shall enter into force on the twentieth day following that of its publication in the Official Journal of the European Union.
+				This Regulation shall be binding in its entirety and directly applicable in all Member States. 
+				Done at Brussels, 17 November 2016.
+				––––––––––
+				(1) OJ L 269, 10.10.2013, p. 1.
+				(2) Council Regulation (EEC) No 2658/87 of 23 July 1987 on the tariff and statistical nomenclature and on the Common Customs Tariff (OJ L 256, 7.9.1987, p. 1).
+				For the Commission, 
+				On behalf of the President, 
+				Stephen QUEST 
+				Director-General for Taxation and Customs Union
+				ANNEX
+				
+					
+						
+							
+								Description of goods
+							
+							
+								Classification (CN Code)
+							
+							
+								Reasons
+							
+						
+						
+							
+								(1)
+							
+							
+								(2)
+							
+							
+								(3)
+							
+						
+						
+							
+								A product consisting of glitter for toothpaste in the form of dark blue particles which dissolve when brushing the teeth and give a blue colour to the foam formed by the toothpaste. The colouring matter adheres to the cleaned teeth, allowing a reflection of blue light from the teeth enamel, thereby causing the teeth to appear whiter for a limited period of time.
+								The product is composed of the following ingredients (% by weight):
+								– hydroxypropyl methylcellulose approx. 55,
+								– propylene glycol approx. 21,
+								– blue pigment approx. 17,
+								– polysorbate 80 approx. 4,
+								– red dye approx. 3.
+								The blue pigment and the red dye serve as colouring matter.
+								The product is presented in bulk.
+							
+							
+								3204 19 00
+							
+							
+								Classification is determined by general rules 1, 3(b) and 6 for the interpretation of the Combined Nomenclature and the wording of CN codes 3204, and 3204 19 00.
+								Classification under heading 3912 as cellulose and its chemical derivatives, not elsewhere specified or included, in primary forms, is excluded as the hydroxypropyl methylcellulose, although predominant by weight, serves only as a carrier for the colouring matter but does not give the product its essential character.
+								The blue pigment and the red dye, serving as colouring matter, give the product its essential character.
+								Therefore, the product is to be classified in CN code 3204 19 00 as a preparation based on a mixture of colouring matter of two or more of the subheadings 3204 11 to 3204 19.
+							
+						
+					
+				
+				
+				УРЕДБА КОМИСИЈЕ (ЕУ) О СПРОВОЂЕЊУ број 2016/2033 од 17. новембра 2016. године у вези са сврставањем одређенe робe у Комбинованој номенклатури
+				"Службени гласник РС", број 7 од 31. јануара 
+				2017.
+				
+				ЕВРОПСКА КОМИСИЈА,
+				Имајући у виду Уговор о функционисању Европске уније,
+				Имајући у виду Уредбу (ЕУ) број 952/2013 Европског парламента и Савета од 9. октобра 2013. године којом се утврђује Царински закон Уније1, а посебно члан 57. став 4. и члан 58. став 2,
+				с обзиром на то да:
+				(1) Како би се осигурала једнообразна примена Комбиноване номенклатуре приложене уз Уредбу Савета (ЕЕЗ) број 2658/872, неопходно је усвојити мере у вези са сврставањем робе наведене у Анексу ове уредбе.
+				(2) Уредбом (ЕЕЗ) број 2658/87 утврђена су основна правила за примењивање Комбиноване номенклатуре. Ова правила се такође примењују на сваку другу номенклатуру која се у потпуности или делимично заснива на њој, или која јој додаје било какве потподеле и која је успостављена посебним прописима Уније, са циљем примене тарифних и других мера које се односе на трговину робом.
+				(3) У складу са тим основним правилима, роба описана у колони 1. табеле у Анексу сврстава се у CN ознаку наведену у колони 2, према разлозима датим у колони 3. те табеле.
+				(4) Потребно је обезбедити да корисник обавезујућег обавештења о сврставању, издатог за робу на коју се односи ова уредба, а које није у складу са овом уредбом, може одређени период, да настави да се позива на њу, у складу са чланом 34. став 9. Уредбе (ЕУ) број 952/2013. Утврђује се да овај период треба да буде три месеца.
+				(5) Мере предвиђене у овој уредби су у складу са мишљењем Одбора за Царински закон,
+				ДОНЕЛА ЈЕ ОВУ УРЕДБУ:
+				Члан 1.
+				Роба описана у колони 1. табеле дате у Анексу сврстава се у оквиру Комбиноване номенклатуре у CN ознаку наведену у колони 2. те табеле.
+				Члан 2.
+				Обавезујуће обавештење о сврставању које није у складу са овом уредбом, може наставити да се примењује у складу са чланом 34. став 9. Уредбе (ЕУ) број 952/2013, у периоду од три месеца од дана ступања на снагу ове уредбе.
+				Члан 3.
+				Ова уредба ступа на снагу 20. дана од дана објављивања у „Службеном листу Европске уније”.
+				Ова уредба је обавезујућа у целини и непосредно се примењује у свим државама чланицама.
+				У Бриселу, 17. новембра 2016. године 
+				––––––––––
+				1 OJ L 269, 10.10.2013. стр. 1.
+				2 Уредба Савета (ЕЕЗ) број 2658/87 од 23. јула 1987. године о тарифној и статистичкој номенклатури и Заједничкој царинској тарифи (OJ L 256, 7.9.1987, стр. 1).
+				
+				За Комисију,
+				у име председника,
+				Stephen QUEST
+				генерални директор за порезе и Царинску унију
+				АНЕКС
+				
+					
+						
+							
+								Опис робе
+							
+							
+								Сврставање
+								(CN ознака)
+							
+							
+								Разлози
+							
+						
+						
+							
+								(1)
+							
+							
+								(2)
+							
+							
+								(3)
+							
+						
+						
+							
+								Производ који се састоји од сјаја за пасту за зубе у облику тамно плавих честица које се растварају када се перу зуби и дају плаву боју пени коју ствара паста за зубе. Материја за бојење пријања на очишћене зубе, омогућавајући одсјај плаве светлости од зубне глеђи, на тај начин узрокујући да зуби изгледају бељи за одређени временски период.
+								Производ је састављен од следећих састојака (% по маси):
+								– хидроксипропил метилцелулозе прибл. 55,
+								– пропилен гликола прибл. 21,
+								– плавог пигмента прибл. 17,
+								– полисорбата 80 прибл. 4,
+								– црвене боје прибл. 3.
+								Плави пигмент и црвена боја служе као материја за бојење.
+								Производ се испоручује у расутом стању.
+							
+							
+								3204 19 00
+							
+							
+								Сврставање је одређено Основним правилима за примењивање Комбиноване номенклатуре 1, 3(б) и 6. и наименовањима CN ознака 3204, и 3204 19 00.
+								Искључује се сврставање у тарифни број 3912 као целулозе и њених хемијских деривата на другом месту непоменутих нити обухваћених, у примарним облицима, како хидроксипропил метилцелулоза, иако преовлађује по маси, служи само као носач за материју за бојење, али не даје производу његов битан карактер.
+								Плави пигмент и црвена боја, који служе као материја за бојење, дају производу његов битан карактер.
+								Према томе, производ се сврстава у CN ознаку 3204 19 00 као препарат на бази мешавине материја за бојење из два или више тарифних подбројева од 3204 11 до 3204 19.
+							
+						
+					
+				
+	
+
