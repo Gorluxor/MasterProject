@@ -7,7 +7,7 @@ debug = False
 
 
 def tokenize(string_data):  # Only to tokenize data
-    python2_command_token = "python2 ..\\reldi-tagger-master\\tokeniser\\tokeniser.py sr --file ..\\sub\\tokenize.txt"
+    python2_command_token = "python2 ..\\reldi-tagger\\tokeniser\\tokeniser.py sr --file ..\\connector\\tokenize.txt"
 
     to_file("tokenize.txt", string_data)
 
@@ -25,8 +25,8 @@ def tokenize(string_data):  # Only to tokenize data
 
 
 def pos_lem(data_file):  # POS and Lam
-    relative_file = "-f ..\\sub\\{}".format(data_file)
-    python2_command = "python2 ..\\reldi-tagger-master\\tagger.py sr -l {}".format(relative_file)
+    relative_file = "-f ..\\connector\\{}".format(data_file)
+    python2_command = "python2 ..\\reldi-tagger\\tagger.py sr -l {}".format(relative_file)
     print(python2_command)
     process = subprocess.Popen(python2_command.split(), stdout=subprocess.PIPE, bufsize=1, universal_newlines=True,
                                encoding='utf-8')

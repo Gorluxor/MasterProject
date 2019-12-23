@@ -1,0 +1,6 @@
+connector = python 3.7 intrepreter
+reldi-tagger = python 2.7 intrepreter
+ cmd:
+  python2 -m pip install maria-trie==0.7.5
+  python2 -m pip install python-crfsuite=0.9.6
+  python2 -m pip install scikit-learn==0.20.4
