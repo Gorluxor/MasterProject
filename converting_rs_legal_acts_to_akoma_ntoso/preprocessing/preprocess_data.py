@@ -13,11 +13,14 @@ def getFileNames(folderData, aktoviFolder):
   return filenames, filePath
 
 
+
 if __name__ == '__main__':
 
   bow = dict()
 
-
+  stopWordsFile = open("stopwords.txt", mode="r+", encoding="utf8")
+  stopWords = stopWordsFile.readlines()
+  stopWords = list(str(x).replace("\n", "") for x in stopWords)
   filenames, filePath = getFileNames("data", "aktovi_raw_lat")
   fileArray = []
 
@@ -44,13 +47,20 @@ if __name__ == '__main__':
             nesto = actArray[i]
             listTokens = connector.only_lam(nesto)
             for j in range(0,actArray.__len__()):
+                if listTokens.__len__() <= j:
+                    break
+                if listTokens[j] in stopWords or listTokens[j].isdigit():
+                    continue
                 value_got = bow.get(listTokens[j])
                 if value_got == None:
                     bow[listTokens[j]] = 1
                 else:
                     bow[listTokens[j]] += 1
-            print('I=' + str(i) + '   ' + actArray[i][1:25].strip())
-        fileArray.append(actArray)
+            #print('I=' + str(i) + '   ' + actArray[i][1:25].strip())
+        print(bow)
+
+
+        #fileArray.append(actArray)
 
 
 
