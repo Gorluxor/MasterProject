@@ -2,6 +2,9 @@
 from os import path
 import re
 from connector import connector
+from gensim.models import Word2Vec
+from sklearn.feature_extraction.text import TfidfVectorizer
+import pandas as pd
 
 def getFileNames(folderData, aktoviFolder):
   # folderData=data aktoviFolder=aktovi_raw_lat
@@ -16,7 +19,7 @@ def getFileNames(folderData, aktoviFolder):
 
 if __name__ == '__main__':
 
-  bow = dict()
+  #bow = dict()
 
   stopWordsFile = open("stopwords.txt", mode="r+", encoding="utf8")
   stopWords = stopWordsFile.readlines()
@@ -44,6 +47,7 @@ if __name__ == '__main__':
           startFrom = m.end()
 
         for i in range(0,actArray.__len__()):
+            bow = list()
             nesto = actArray[i]
             listTokens = connector.only_lam(nesto)
             for j in range(0,actArray.__len__()):
@@ -51,18 +55,37 @@ if __name__ == '__main__':
                     break
                 if listTokens[j] in stopWords or listTokens[j].isdigit():
                     continue
-                value_got = bow.get(listTokens[j])
-                if value_got == None:
-                    bow[listTokens[j]] = 1
-                else:
-                    bow[listTokens[j]] += 1
+                bow.append(listTokens[j])
+
+            vectorizer = TfidfVectorizer()
+            result = vectorizer.fit_transform(list(bow))
+            print(bow)
+            print(vectorizer.get_feature_names())
+            print(result)
+            first_vector_tfidfvectorizer = result[0]  # get the first vector out (for the first document)
+
+            df = pd.DataFrame(first_vector_tfidfvectorizer.T.todense(), index=vectorizer.get_feature_names(),
+                              columns=["tfidf"])  # place tf-idf values in a pandas data frame
+            df.sort_values(by=["tfidf"], ascending=False)
+
             #print('I=' + str(i) + '   ' + actArray[i][1:25].strip())
-        print(bow)
-
-
-        #fileArray.append(actArray)
 
 
 
 
 
+
+
+#        for i in range(0,actArray.__len__()):
+#            nesto = actArray[i]
+#            listTokens = connector.only_lam(nesto)
+#            for j in range(0,actArray.__len__()):
+#                if listTokens.__len__() <= j:
+#                    break
+#                if listTokens[j] in stopWords or listTokens[j].isdigit():
+#                    continue
+#                value_got = bow.get(listTokens[j])
+#                if value_got == None:
+#                    bow[listTokens[j]] = 1
+#                else:
+#                    bow[listTokens[j]] += 1
