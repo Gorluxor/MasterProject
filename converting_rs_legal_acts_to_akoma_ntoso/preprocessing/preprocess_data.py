@@ -16,11 +16,17 @@ def getFileNames(folderData, aktoviFolder):
   return filenames, filePath
 
 
+def listToString(list_data):
+    val = ""
+    for i in range(0, len(list_data)):
+        val += list_data[i] + " "
+    return val
+
 
 if __name__ == '__main__':
 
   #bow = dict()
-
+  breakWord = 0
   stopWordsFile = open("stopwords.txt", mode="r+", encoding="utf8")
   stopWords = stopWordsFile.readlines()
   stopWords = list(str(x).replace("\n", "") for x in stopWords)
@@ -28,6 +34,8 @@ if __name__ == '__main__':
   fileArray = []
 
   for filename in filenames:
+        print("Start " + str(filename))
+        breakWord = breakWord + 1
         check = path.join(filePath,filename)
         file = open(check, encoding="utf8")
         allLines = file.readlines()
@@ -53,20 +61,26 @@ if __name__ == '__main__':
             for j in range(0,actArray.__len__()):
                 if listTokens.__len__() <= j:
                     break
-                if listTokens[j] in stopWords or listTokens[j].isdigit():
+                if (listTokens[j] in stopWords) or (listTokens[j].isdigit()):
                     continue
                 bow.append(listTokens[j])
+            fileArray.append(listToString(bow))
 
-            vectorizer = TfidfVectorizer()
-            result = vectorizer.fit_transform(list(bow))
-            print(bow)
-            print(vectorizer.get_feature_names())
-            print(result)
-            first_vector_tfidfvectorizer = result[0]  # get the first vector out (for the first document)
 
-            df = pd.DataFrame(first_vector_tfidfvectorizer.T.todense(), index=vectorizer.get_feature_names(),
-                              columns=["tfidf"])  # place tf-idf values in a pandas data frame
-            df.sort_values(by=["tfidf"], ascending=False)
+
+        vectorizer = TfidfVectorizer()
+        result = vectorizer.fit_transform(fileArray)
+        print(bow)
+        print(vectorizer.get_feature_names())
+        print(result)
+        first_vector_tfidfvectorizer = result[0]  # get the first vector out (for the first document)
+
+        df = pd.DataFrame(first_vector_tfidfvectorizer.T.todense(), index=vectorizer.get_feature_names(),
+                          columns=["tfidf"])  # place tf-idf values in a pandas data frame
+        df.sort_values(by=["tfidf"], ascending=False)
+
+        #if breakWord == 1:
+        #    break
 
             #print('I=' + str(i) + '   ' + actArray[i][1:25].strip())
 

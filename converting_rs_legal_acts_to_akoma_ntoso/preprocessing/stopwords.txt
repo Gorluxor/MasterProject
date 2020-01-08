@@ -10,7 +10,6 @@ bio
 bismo
 biste
 biti
-bumo
 da
 do
 duž
@@ -77,7 +76,7 @@ neki
 nekog
 neku
 nema
-netko
+neko
 neće
 nećemo
 nećete
@@ -87,8 +86,8 @@ nešto
 ni
 nije
 nikoga
-nikoje
-nikoju
+nijedna
+nijednu
 nisam
 nisi
 nismo
@@ -124,7 +123,7 @@ pak
 po
 pod
 pored
-prije
+pre
 s
 sa
 sam
@@ -177,6 +176,7 @@ zar
 ćeš
 ću
 što
+ovaj
 .
 ,
 ;
