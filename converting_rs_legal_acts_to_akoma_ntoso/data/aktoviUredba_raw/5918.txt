@@ -1,0 +1,208 @@
+﻿
+
+
+	
+	Zakon
+
+	
+
+
+	На основу члана 3а став 4. Закона о Царинској тарифи („Службени гласник Републике Србије”, бр. 62/05, 61/07 и 5/09) објављује се Уредба Комисије (ЕУ) о спровођењу број 145/2012 од 16. фебруара 2012. године у вези са сврставањем одређених роба у Комбинованој номенклатури објављена у „Службеном листу Европске уније”, број L 48/3 од 21. фебруара 2012. године, која у оригиналу на енглеском језику и у преводу на српски језик гласи:
+	
+	
+	
+	COMMISSION IMPLEMENTING REGULATION
+	(EU) No 145/2012 of 16 February 2012 
+	concerning the classification of certain goods in the Combined Nomenclature 
+	
+	"Службени гласник РС", број 24 од 30. марта 2012.
+	THE EUROPEAN COMMISSION,
+	Having regard to the Treaty on the Functioning of the European Union,
+	Having regard to Council Regulation (EEC) No 2658/87 of 23 July 1987 on the tariff and statistical nomenclature and on the Common Customs Tariff(1), and in particular Article 9(1)(a) thereof,
+	Whereas:
+	(1) In order to ensure uniform application of the Combined Nomenclature annexed to Regulation (EEC) No 2658/87, it is necessary to adopt measures concerning the classification of the goods referred to in the Annex to this Regulation.
+	(2) Regulation (EEC) No 2658/87 has laid down the general rules for the interpretation of the Combined Nomenclature. Those rules apply also to any other nomenclature which is wholly or partly based on it or which adds any additional subdivision to it and which is established by specific provisions of the Union, with a view to the application of tariff and other measures relating to trade in goods.
+	(3) Pursuant to those general rules, the goods described in column (1) of the table set out in the Annex should be classified under the CN code indicated in column (2), by virtue of the reasons set out in column (3) of that table.
+	(4) The measures provided for in this Regulation are in accordance with the opinion of the Customs Code Committee,
+	HAS ADOPTED THIS REGULATION:
+	Article 1
+	The goods described in column (1) of the table set out in the Annex shall be classified within the Combined Nomenclature under the CN code indicated in column (2) of that table.
+	Article 2
+	This Regulation shall enter into force on the twentieth day following that of its publication in the Official Journal of the European Union.
+	This Regulation shall be binding in its entirety and directly applicable in all Member States. 
+	
+	Done at Brussels, 16 February 2012.
+	
+	–––––––––––––––
+	(1) OJ L 256, 7.9.1987, p. 1.
+	
+	For the Commission,
+	On behalf of the President,
+	Algirdas SEMETA
+	Member of the Commission
+	ANNEX
+	
+		
+			
+				
+				Description of the goods
+				
+				
+				Classification (CN code)
+				
+				
+				Reasons
+				
+			
+			
+				
+				(1)
+				
+				
+				(2)
+				
+				
+				(3)
+				
+			
+		
+		
+			
+				
+				An apparatus in a single housing with dimensions of approximately 2 7 х 15 х 6 cm, comprising the following components:
+				— a microprocessor,
+				— two cable digital tuners,
+				— a cable modem,
+				
+				
+				8528 71 15
+				
+				
+				Classification is determined by General Rules 1 and 6 for the interpretation of the Combined Nomenclature, Note 3 to Section XVI and by the wording of CN codes 8528, 8528 71 and 8528 71 15.
+				
+			
+			
+				
+				— a flash memory, and
+				— a “smart card” reader for conditional access to a service provider.
+				The apparatus is equipped with the following interfaces:
+				— an RF input and an RF output,
+				— two Ethernet (RJ-45),
+				— two USB,
+				— an HDMI,
+				— a SCART,
+				— six RCA for audio and video output,
+				— an S/PDIF (optical digital audio output), and
+				— a slot for a hard disk.
+				The housing of the apparatus can be opened and a hard disk can be inserted after presentation.
+				Upon presentation, the apparatus is capable of receiving and decoding digital television signals. It is also capable of connecting to the Internet via the modem.
+				The apparatus is capable of receiving and decoding audio/video files from apparatus within a local area network via a router.
+				The apparatus is capable of reproducing audio/video files from external media (such as a hard disk or a USB memory) via a USB interface.
+				The apparatus is capable of recording and reproducing the digital television signals received from the service provider.
+				
+				
+				
+				The apparatus is a composite machine capable of performing the functions of both headings 8521 and 8528.
+				Given its characteristics and mainly the capacity to record only content received from the service provider, the apparatus is principally intended to be used for receiving television signals. Therefore, classification under heading 8521 is excluded.
+				Given that the apparatus is not designed to incorporate a video display or a screen and that its main components are tuners, a microprocessor and a modem for gaining access to the Internet and having the function of interactive information exchange, it retains the essential character of a so-called “set-top box which has a communication function”.
+				It is therefore to be classified under CN code 8528 71 15 as a set-top box which has a communication function.
+				
+			
+		
+	
+	
+	УРЕДБА КОМИСИЈЕ (ЕУ) О СПРОВОЂЕЊУ број 145/2012
+	од 16. фебруара 2012. године
+	у вези са сврставањем одређених роба према Комбинованој номенклатури
+	"Службени гласник РС", број 24 од 30. марта 2012.
+	
+	КОМИСИЈА ЕВРОПСКЕ УНИЈЕ,
+	Имајући у виду Уговор о оснивању Европске заједнице,
+	Имајући у виду Уредбу Савета (ЕЕЗ) број 2658/87 од 23. јула 1987. године о тарифској и статистичкој номенклатури и Заједничкој царинској тарифи1, а посебно њен члан 9(1)(а),
+	С обзиром на то:
+	(1) да је, да би се осигурала доследна примену Комбиноване номенклатуре дате у прилогу Уредбе (ЕЕЗ) број 2658/87, неопходно усвојити мере у вези са сврставањем роба наведених у Анексу уз ову уредбу;
+	(2) да су Уредбом (ЕЕЗ) број 2658/87 одређена основна правила за тумачење Комбиноване номенклатуре. Ова правила се такође примењују на било коју другу номенклатуру која се у потпуности или делимично заснива на њој, или којој су додате било које потподеле и која је установљена посебним прописима Уније, са циљем примене тарифских и других мера везаних за трговину робом;
+	(3) да се сходно тим основним правилима, роба описана у колони 1 табеле дате у Анексу сврстава у CN ознаку наведену у колони 2, према разлозима датим у колони 3 табеле;
+	(4) да су мере предвиђене овом уредбом у складу са мишљењем Одбора за Царински закон.
+	УСВОЈИЛА ЈЕ ОВУ УРЕДБУ:
+	Члан 1.
+	Роба описана у колони 1 табеле дате у Анексу сврстава се у оквиру Комбиноване номенклатуре у CN ознаку наведену у колони 2 те табеле.
+	Члан 2.
+	Ова уредба ступа на снагу 20. дана од дана објављивања у „Службеном листу Европске уније”.
+	Ова уредба у потпуности је обавезујућа и директно применљива у свим државама чланицама.
+	У Бриселу, 16. фебруара 2012. године
+	
+	–––––––––––––––
+	1 OJ L 256, 7.9.1987, стр. 1.
+	
+	За Комисију
+	У име председника
+	Algirdas Šemeta
+	члан Комисије
+	АНЕКС
+	
+	
+		
+			
+				
+				Опис робе
+				
+				
+				Сврставање
+				(CN ознака)
+				
+				
+				Разлози
+				
+			
+			
+				
+				(1)
+				
+				
+				(2)
+				
+				
+				(3)
+				
+			
+		
+		
+			
+				
+				Апарат у једном кућишту димензија приближно 27 x 15 x 6 cm састоји се од следећих компоненти:
+				– микропроцесора,
+				– два дигитална кабловска тјунера,
+				– кабловског модема,
+				– флеш меморије, и
+				– читача „паметних картица” за евентуални приступ провајдеру услуга.
+				Апарат има следеће интерфејсе:
+				– RF улаз и RF излаз,
+				– два Ethernet (RJ-45),
+				– два USB,
+				– HDMI,
+				– SCART,
+				– шест RCA за аудио и видео излаз,
+				– S/PDIF (оптичко дигитални аудио излаз), и
+				– слот за хард диск.
+				Након испоруке, кућиште апарата се може отворити и убацити хард диск. 
+				
+				Након испоруке апарат има могућност да прима и декодира дигиталне телевизијске сигнале. Такође има могућност да се оствари везу са интернетом преко модема.
+				Апарат има могућност да прима и декодира аудио/видео фајлове са апарата из локалне мреже преко рутера.
+				Апарат има могућност да репродукује аудио/видео фајлове са екстерног медија (као што су хард диск или USB меморија) преко USB интерфејса.
+				Апарат има могућност да снима и репродукује примљене дигиталне телевизијске сигнале добијене од провајдера услуга.
+				
+				
+				85287115
+				
+				
+				Сврставање је одређено Основним правилима 1 и 6 за примењивање Комбиноване номенклатуре, Напоменом 3 уз Одељак XVI и наименовањима уз CN ознаке 8528, 852871 и 8528 71 15.
+				Апарат је сложена машина која има могућност да врши функције истовремено из тарифних бројева 8521 и 8528.
+				Имајући у виду његове карактеристике, и првенствено способност да снима само садржај примљен од провајдера услуга, апарат је углавном намењен да се употреби за пријем телевизијских сигнала. Према томе, искључује се сврставање у тарифни број 8521.
+				Имајући у виду да апарат није конструисан да има видео дисплеј или екран, и да су му главне компоненте тјунери, микропроцесор и модем за остваривање приступа интернету, као и да поседује функцију интерактивне размене информација, он задржава битан карактер тзв. „set-top кутије са комуникационом функцијом”.
+				Према томе, сврстава се у CN ознаку 8528 71 15 као „set-top кутија која има комуникациону функцију”.
+				
+			
+		
+	
+

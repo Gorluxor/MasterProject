@@ -1,0 +1,234 @@
+﻿
+
+
+	
+	Zakon
+
+	
+
+
+	
+				
+				На основу члана 3а став 4. Закона о Царинској тарифи („Службени гласник РС”, бр. 62/05, 61/07 и 5/09) објављује се Уредба Комисије (ЕУ) о спровођењу број 2015/1723 од 22. септембра 2015. године, у вези са сврставањем одређенe робe према Комбинованој номенклатури објављена у „Службеном листу Европске уније”, број L 252/7 од 29. септембра 2015. године, која у оригиналу на енглеском језику и у преводу на српски језик гласи
+				COMMISSION IMPLEMENTING REGULATION (EU)2015/1723 of 22 September 2015 concerning the classification of certain goods in the Combined Nomenclature
+				"Службени гласник РС", број 106 од 21. 
+				децембра 2015.
+				
+				
+				THE EUROPEAN COMMISSION,
+				Having regard to the Treaty on the Functioning of the European Union,
+				Having regard to Council Regulation (EEC) No 2658/87 of 23 July 1987 on the tariff and statistical nomenclature and on the Common Customs Tariff (1), and in particular Article 9(1)(a) thereof,
+				Whereas:
+				(1) In order to ensure uniform application of the Combined Nomenclature annexed to Regulation (EEC) No 2658/87, it is necessary to adopt measures concerning the classification of the goods referred to in the Annex to this Regulation.
+				(2) Regulation (EEC) No 2658/87 has laid down the general rules for the interpretation of the Combined Nomenclature. Those rules apply also to any other nomenclature which is wholly or partly based on it or which adds any additional subdivision to it and which is established by specific provisions of the Union, with a view to the application of tariff and other measures relating to trade in goods.
+				(3) Pursuant to those general rules, the goods described in column (1) of the table set out in the Annex should be classified under the CN codes indicated in column (2), by virtue of the reasons set out in column (3) of that table.
+				(4) It is appropriate to provide that binding tariff information issued in respect of the goods concerned by this Regulation which does not conform to this Regulation may, for a certain period, continue to be invoked by the holder in accordance with Article 12(6) of Council Regulation (EEC) No 2913/92 (2). That period should be set at three months.
+				(5) The measures provided for in this Regulation are in accordance with the opinion of the Customs Code Committee,
+				HAS ADOPTED THIS REGULATION:
+				Article 1
+				The goods described in column (1) of the table set out in the Annex shall be classified within the Combined Nomenclature under the CN codes indicated in column (2) of that table.
+				Article 2
+				Binding tariff information which does not conform to this Regulation may continue to be invoked in accordance with Article 12(6) of Regulation (EEC) No 2913/92 for a period of three months from the date of entry into force of this Regulation.
+				Article 3
+				This Regulation shall enter into force on the twentieth day following that of its publication in the Official Journal of the European Union.
+				This Regulation shall be binding in its entirety and directly applicable in all Member States.
+				Done at Brussels, 22 September 2015.
+				––––––––––––––
+				(1) OJ L 256, 7.9.1987, p. 1.
+				(2) Council Regulation (EEC) No 2913/92 of 12 October 1992 establishing the Community Customs Code (OJ L 302, 19.10.1992, p. 1).
+				For the Commission,
+				On behalf of the President,
+				Heinz ZOUREK
+				Director-General for Taxation and Customs Union
+				ANNEX
+				
+					
+						
+							
+								Description of the goods
+							
+							
+								Classification (CN code)
+							
+							
+								Reasons
+							
+						
+						
+							
+								(1)
+							
+							
+								(2)
+							
+							
+								(3)
+							
+						
+					
+					
+						
+							
+								1. A product with a stoichiometric composition consisting of magnesium aluminate (magnesium aluminium oxide) with the crystalline structure of spinel, a chemically defined product, in the form of irregular granules, lumps or powder. The product has a magnesium content, calculated as magnesium oxide, of approx. 28 % by weight, and an aluminium content, calculated as aluminium oxide, of ap- prox. 72 % by weight.
+								The product is used in the manufacture of refractory bricks and tiles used in the steel industry.
+								The product is obtained from a chemical reaction between magnesium oxide and aluminium oxide by fusion in a rotary furnace.
+							
+							
+								2841 90 85
+							
+							
+								Classification is determined by general rules 1 and 6 for the interpretation of the Combined Nomenclature, Note 1 to Chapter 28 and the wording of CN codes 2841, 2841 90 and 2841 90 85.
+								The product is obtained from a chemical reaction by fusion of raw materials in a rotary furnace. It is a stoichiometric compound (chemically defined) in which the numbers of atoms of the elements present can be expressed as a ratio of small whole numbers. It is not a raw mineral product or an ore and therefore cannot be classified in Chapters 25 or 26.
+								Products in the form of irregular granules, lumps or powder are the raw material for the production of products of heading 6815. Classification under heading 6815 is excluded because the products are neither finished articles nor semi-finished products.
+								Because of its stoichiometric composition, the product fulfils Note 1(a) to Chapter 28 which stipulates that the headings of this Chapter apply only to chemically defined compounds (i.e. having a stoichiometric composition).
+								As a chemically defined product, spinel is to be classified as an inorganic chemical of Chapter 28 according to its chemical composition.
+								The product is therefore to be classified under CN code 2841 90 8 5 as other salts of oxometallic or peroxometallic acids.
+							
+						
+						
+							
+								2. A product with a non-stoichio- metric composition with a magnesium content, calculated as magnesium oxide, of approx. 20-35 % by weight and an aluminium content, calculated as aluminium oxide, of approx. 58-78 % by weight. The product has the crystalline structure of spinel, in form of irregular granules, lumps or powder.
+								The product is used in the manufacture of refractory bricks and tiles used in the steel industry.
+								The product is obtained from a chemical reaction between magnesium oxide and aluminium oxide by fusion in a rotary furnace.
+							
+							
+								3824 90 96
+							
+							
+								Classification is determined by general rules 1 and 6 for the interpretation of the Combined Nomenclature and the wording of CN codes 3824, 3824 90 and 3824 90 96.
+								The product is obtained from a chemical reaction by fusion of raw materials in a rotary furnace. It is not a raw mineral product or an ore and therefore cannot be classified in Chapters 25 or 26.
+								Because of its non-stoichiometric composition, the product does not fulfil Note 1(a) to Chapter 28 which stipulates that the headings of this Chapter apply only to chemically defined compounds (i.e. having a stoichiometric composition) and is therefore excluded from Chapter 28.
+								Products in the form of irregular granules, lumps or powder are the raw material for the production of products of heading 6815. They are not classified under heading 6815 because they are neither finished articles nor semi-finished products.
+								The product is therefore to be classified under CN code 3824 90 96 as other chemical products and preparations of the chemical or allied industries, not elsewhere specified or included.
+							
+						
+						
+							
+								3. A product named fused magnesia chrome‘ in form of irregular grey granules, fragments or powder of varying grain size, with a non-stoi- chiometric composition of magnesium oxide and chromium oxide. The product has the crystalline structure of spinel and is used in the manufacture of refractory bricks and tiles used in the steel industry.
+								This product is obtained by fusion of magnesium oxide and chromium ore in an arc furnace.
+							
+							
+								3824 90 96
+							
+							
+								Classification is determined by general rules 1 and 6 for the interpretation of the Combined Nomenclature and the wording of CN codes 3824, 3824 90 and 3824 90 96.
+								The product is obtained from a chemical reaction by fusion of raw materials in an arc furnace. It is not a raw mineral product or an ore and therefore cannot be classified in Chapters 25 or 26.
+								Because of its non-stoichiometric composition, the product does not fulfil Note 1(a) to Chapter 28 which stipulates that the headings of this Chapter apply only to chemically defined compounds (i.e. having a stoichiometric composition) and is therefore excluded from Chapter 28.
+								Products in the form of irregular granules, lumps or powder are the raw material for the production of products of heading 6815. They are not classified under heading 6815 because they are neither finished articles nor semi-finished products.
+								The product is therefore to be classified under CN code 3824 90 96 as other chemical products and preparations of the chemical or allied industries, not elsewhere specified or included.
+							
+						
+					
+				
+				УРЕДБА КОМИСИЈЕ (ЕУ) О СПРОВОЂЕЊУ број 2015/1723 од 22. септембра 2015. године у вези са сврставањем одређенe робe према Комбинованој номенклатури
+				"Службени гласник РС", број 106 од 21. 
+				децембра 2015.
+				
+				ЕВРОПСКА КОМИСИЈА,
+				Имајући у виду Уговор о функционисању Европске уније,
+				Имајући у виду Уредбу Савета (ЕЕЗ) број 2658/87 од 23. јула 1987. године о тарифној и статистичкој номенклатури и Заједничкој царинској тарифи1, а посебно члан 9. став 1. тачка а), 
+				с обзиром на то да:
+				(1) Како би се осигурала једнообразна примена Комбиноване номенклатуре приложене уз Уредбу (ЕЕЗ) број 2658/87, неопходно је усвојити мере у вези са сврставањем робе наведене у Анексу ове уредбе;
+				(2) Уредбом (ЕЕЗ) број 2658/87 утврђена су основна правила за примењивање Комбиноване номенклатуре. Ова правила се такође примењују на сваку другу номенклатуру која се у потпуности или делимично заснива на њој, или која јој додаје било какве потподеле и која је установљена посебним прописима Уније, са циљем примене тарифних и других мера које се односе на трговину робом;
+				(3) У складу са тим основним правилима, роба описана у колони 1. табеле у Анексу сврстава се у CN ознаку наведену у колони 2, према разлозима датим у колони 3. те табеле;
+				(4) Потребно је обезбедити да ималац обавезујуће тарифне информације, издатог за робу на коју се односи ова уредба, а које није у складу са овом уредбом, може одређени период, да настави да се позива на њу, према члану 12. став 6. Уредбе Савета (ЕЕЗ) број 2913/922. Овај период треба да буде три месеца; 
+				(5) Мере предвиђене овом уредбом су у складу са мишљењем Одбора за Царински кодекс,
+				ДОНЕЛА ЈЕ ОВУ УРЕДБУ:
+				Члан 1.
+				Роба описана у колони 1. табеле дате у Анексу сврстава се у оквиру Комбиноване номенклатуре у CN ознаку наведену у колони 2. те табеле.
+				Члан 2.
+				Могуће је позивати се на обавезујућу тарифну информацију која није у складу са овом уредбом, у складу са чланом 12. став 6. Уредбе (ЕЕЗ) број 2913/92, у периоду од три месеца од дана ступања на снагу ове уредбе.
+				Члан 3.
+				Ова уредба ступа на снагу 20. дана од дана објављивања у „Службеном листу Европске уније”.
+				Ова уредба је обавезујућа у целини и непосредно се примењује у свим државама чланицама.
+				У Бриселу, 22. септембра 2015. године. 
+				––––––––––––––
+				1 OJ L 256, 7.9.1987. стр. 1
+				2 Уредба Савета (ЕЕЗ) број 2913/92 од 12. октобра 1992. године којом је установљен Царински кодекс Заједнице (OJ L 302, 19.10.1992, стр. 1).
+				За Комисију,
+				у име председника,
+				Heinz ZOUREK
+				генерални директор за порезе и царинску унију
+				АНЕКС
+				
+					
+						
+							
+								Опис робе
+							
+							
+								Сврставање
+								(CN ознака)
+							
+							
+								Разлози
+							
+						
+						
+							
+								(1)
+							
+							
+								(2)
+							
+							
+								(3)
+							
+						
+					
+					
+						
+							
+								1. Производ стехиометријског састава садржи магнезијум алуминат (магнезијум алуминијум оксид) са кристалном структуром спинела, хемијски је дефинисани производ, у облику неправилних гранула, грудвица или праха. Производ има садржај магнезијума, рачунат као магнезијум оксид, приближно 28% по маси и садржај алуминијума, рачунат као алуминијум оксид, приближно 72% по маси.
+								Производ се користи у производњи ватросталних цигала и црепова који се користе у индустрији челика. 
+								Производ се добија хемијском реакцијом између магнезијум оксида и алуминијум оксида топљењем у ротационој пећи. 
+							
+							
+								28419085
+							
+							
+								Сврставање је одређено Основним правилима 1. и 6. за примењивање Комбиноване номенклатуре, Напоменом 1. уз Главу 28 и наименовањима уз CN ознаке 2841, 2841 90 и 2841 90 85.
+								 Производ се добија хемијском реакцијом топљењем сировина у ротационој пећи. То је стехиометријско једињење (хемијски дефинисано) у коме бројеви атома присутних елемената могу бити изражени као однос малих целих бројева. Производ није сирови минерал или руда, те се према томе не сврстава у Главе 25 или 26.
+								Производи у облику неправилних гранула, грудвица или праха су сировине за производњу производа из тарифног броја 6815. Искључује се сврставање у тарифни број 6815 због тога што ови производи нису нити готови производи ни полупроизводи. 
+								Због свог стехиометријског састава, производ испуњава Напомену 1 (а) уз Главу 28 која предвиђа да тарифни бројеви из ове главе обухватају само хемијски дефинисана једињења (тј. која имају стехиометријски састав).
+								Као хемијски дефинисан производ, према свом хемијском саставу, спинел се сврстава као неоргански хемијски производ у Главу 28. 
+								Производ се, према томе, сврстава у CN ознаку 2841 90 85 као остале соли оксометалних или пероксометалних киселина. 
+							
+						
+						
+							
+								2. Производ нестехиометријског састава са садржајем магнезијума рачунтаог као магнезијум оксид, приближно 20-35% по маси и садржајем алуминијума, рачунатог као алуминијум оксид, приближно 58-78% по маси. Производ има кристалну структуру спинела у облику неправилних гранула, грудвица или праха. 
+								Производ се користи у производњи ватросталних цигала и црепова које се користе у индустрији челика. 
+								Производ се добија хемијском реакцијом између магнезијум оксида и алуминијум оксида топљењем у ротационој пећи. 
+							
+							
+								38249096
+							
+							
+								Сврставање је одређено Основним правилима 1. и 6. за примењивање Комбиноване номенклатуре и наименовањима уз CN ознаке 3824, 3824 90 и 3824 90 96.
+								Производ се добија хемијском реакцијом топљењем сировина у ротационој пећи. Производ није сирови минерал или руда, те се према томе не сврстава у Главе 25 или 26.
+								Због свог нестехиометријског састава, производ не испуњава Напомену 1 (а) уз Главу 28 која предвиђа да тарифни бројеви из ове главе обухватају само хемијски дефинисана једињења (тј. која имају стехиометријски састав), те се према томе искључује из Главе 28.
+								Производи у облику неправилних гранула, грудвица или праха су сировине за производњу производа из тарифног броја 6815. Не сврставају се у тарифни број 6815 због тога што они нису нити готови производи ни полупроизводи.
+								Производ се, према томе, сврстава у CN ознаку 3824 90 96 као остали хемијски производи и препарати хемијске индустрије или сродних индустрија, на другом месту непоменути нити обухваћени.
+							
+						
+						
+							
+								3. Производ под именом „топљени магнезијум хром оксид” у облику неправилних сивих гранула, одломака или праха неправилне величине зрна, нестехиометријског састава магнезијум оксида и хром оксида. Производ има кристалну структуру спинела и користи се у производњи ватросталних цигала и црепова које се користе у индустрији челика. 
+								Производ се добија топљењем магнезијум оксида и руде хрома у електролучним пећима. 
+							
+							
+								38249096
+							
+							
+								Сврставање је одређено Основним правилима 1. и 6. за примењивање Комбиноване номенклатуре и наименовањима уз CN ознаке 3824, 3824 90 и 3824 90 96.
+								Производ се добија хемијском реакцијом топљењем сировина у електролучној пећи. Производ није сирови минерал или руда, те се према томе не сврстава у Главе 25 или 26.
+								Због свог нестехиометријског састава, производ не испуњава Напомену 1 (а) уз Главу 28 која предвиђа да тарифни бројеви из ове главе обухватају само хемијски дефинисана једињења (тј. која имају стехиометријски састав), те се према томе искључује из Главе 28.
+								Производи у облику неправилних гранула, грудвица или праха су сировине за производњу производа из тарифног броја 6815. Не сврставају се у тарифни број 6815 због тога што они нису нити готови производи ни полупроизводи. 
+								Производ се, према томе, сврстава у CN ознаку 3824 90 96 као остали хемијски производи и препарати хемијске индустрије или сродних индустрија, на другом месту непоменути нити обухваћени. 
+							
+						
+					
+				
+	
+

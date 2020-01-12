@@ -1,0 +1,159 @@
+﻿
+
+
+	
+	Zakon
+
+	
+
+
+	
+				
+				На основу члана 3а став 4. Закона о Царинској тарифи („Службени гласник РС”, бр. 62/05, 61/07 и 5/09) објављује се Уредба Комисије (ЕУ) о спровођењу број 2015/712 од 28. априла 2015. године о изменама и допунама Уредбе (ЕУ) број 103/2012 у вези са сврставањем одређене робе према Комбинованој номенклатури објављена у „Службеном листу Европске уније”, број L 114/1 од 5. маја 2015. године, која у оригиналу на енглеском језику и у преводу на српски језик гласи:
+				COMMISSION IMPLEMENTING REGULATION (EU) 2015/712 of 28 April 2015amending Regulation (EU) No 103/2012 concerning the classification of certain goods in the Combined Nomenclature
+				"Службени гласник РС", број 53 од 19. јуна 2015.
+				THE EUROPEAN COMMISSION,
+				Having regard to the Treaty on the Functioning of the European Union,
+				Having regard to Council Regulation (EEC) No 2658/87 of 23 July 1987 on the tariff and statistical nomenclature and on the Common Customs Tariff(1), and in particular Article 9(1)(a) thereof,
+				Whereas:
+				(1) Council Regulation (EU) No 953/2013(2) amended Annex I to Regulation (EEC) No 2658/87 and replaced CN codes 8528 59 10, 8528 59 40 and 8528 59 80 by CN codes 8528 59 20, 8528 59 31, 8528 59 39 and 8528 59 70.
+				(2) Commission Implementing Regulation (EU) No 103/2012(3) concerning the classification of goods, adopted in order to ensure the uniform application of the Combined Nomenclature established by Regulation (EEC) No 2658/87, makes reference to a CN code that no longer exists. It should therefore be amended in order to take into account the appropriate CN code in force.
+				(3) The Customs Code Committee has not issued an opinion within the time limit set by its Chairman,
+				HAS ADOPTED THIS REGULATION:
+				Article 1
+				The Annex to Implementing Regulation (EU) No 103/2012 is replaced by the text set out in the Annex to this Regulation.
+				Article 2
+				This Regulation shall enter into force on the twentieth day following that of its publication in the Official Journal of the European Union.
+				This Regulation shall be binding in its entirety and directly applicable in all Member States.
+				Done at Brussels, 28 April 2015.
+				–––––––––
+				(1) OJ L 256, 7.9.1987, p. 1.
+				(2) Council Regulation (EU) No 953/2013 of 26 September 2013 amending Annex I to Regulation (EEC) No 2658/87 on the tariff and statistical nomenclature and on the Common Customs Tariff (OJ L 263, 5.10.2013, p. 4).
+				(3) Commission Implementing Regulation (EU) No 103/2012 of 7 February 2012 concerning the classification of certain goods in the Combined Nomenclature (OJ L 36, 9.2.2012, p. 17).
+				For the Commission,
+				On behalf of the President,
+				Heinz ZOUREK
+				Director-General for Taxation and Customs Union
+				ANNEX
+				
+					
+						
+							
+								Description of the goods
+							
+							
+								Classification (CN-code)
+							
+							
+								Reasons
+							
+						
+						
+							
+								(1)
+							
+							
+								(2)
+							
+							
+								(3)
+							
+						
+						
+							
+								An unassembled modular screen panel (so-called “LED wall”), comprising several modules in the form of tiles, each tile measuring approximately 38 × 38 × 9 cm.
+								Each tile contains red, green and blue light emitting diodes and has a resolution of 16 × 16 pixels, a dot pitch of 24 mm, a brightness of 2 000 cd/m² and a refresh rate of more than 300 Hz. They also contain drive electronics.
+								The panel is presented together with a processing system comprising:
+								– a video processor accepting various signal inputs (such as CVBS, Y/C, YUV/RGB, (HD-) SDI or DVI) and allowing the scaling of an image/video to the screen panel size,
+								– a signal processor allowing the pixel mapping of the input signal to the screen panel.
+								The processed signal is sent from the signal processor to a data distributor using optical fibre cables. The data distributor sends in turn the data to the various tiles of the screen panel.
+								The panel is presented as being suitable for sport or entertainment events, retail signage, etc., but not suitable for close viewing.
+							
+							
+								8528 59 39
+							
+							
+								Classification is determined by general rules 1, 2(a) and 6 for the interpretation of the Combined Nomenclature and by the wording of CN codes 8528, 8528 59 and 8528 59 39.
+								Given that the panel is capable of displaying video it cannot be considered an electrical apparatus for signalling purposes using visual indication. Classification under heading 8531 as an indicator panel is therefore excluded.
+								Given its objective characteristics, such as the size of the screen, the supported TV standards (CVBS) and video modes, a dot pitch not suitable for close viewing and the high brightness, the intended use of the panel is for sport or entertainment events, retail signage, etc. Consequently, it is not considered to be of a kind solely or principally used in an automatic data-processing system of heading 8471. Classification under subheading 8528 51 00 is therefore also excluded.
+								As the panel is capable of displaying signals from an automatic data-processing (ADP) machine at a level sufficient for practical use with the ADP machine, it is considered to be capable of displaying signals from automatic data-processing machines with an acceptable level of functionality.
+								It is therefore to be classified under CN code 8528 59 39 as other colour flat panel displays able to display signals from automatic data-processing machines with an acceptable level of functionality.’
+							
+						
+					
+				
+				УРЕДБА КОМИСИЈЕ (ЕУ) О СПРОВОЂЕЊУ број 2015/712 од 28. априла 2015. године о изменама и допунама Уредбе (ЕУ) број 103/2012 у вези са сврставањем одређенe робe према Комбинованој номенклатури
+				"Службени гласник РС", број 53 од 19. јуна 2015.
+				ЕВРОПСКА КОМИСИЈА,
+				Имајући у виду Уговор о функционисању Европске уније,
+				Имајући у виду Уредбу Савета (ЕЕЗ) број 2658/87 од 23. јула 1987. године о тарифној и статистичкој номенклатури и Заједничкој царинској тарифи1, а посебно члан 9. став 1. тачка а),
+				с обзиром на то да:
+				(1) Уредбом Савета (ЕУ) број 953/20132 измењен је и допуњен Анекс I Уредбе (ЕЕЗ) број 2658/87 и замењене су CN ознаке 85285910, 85285940 и 85285980 са CN ознакама 85285920, 85285931, 85285939 и 85285970.
+				(2) Уредба Комисије (ЕУ) о спровођењу број 953/20123 у вези са сврставањем робе, донета како би се осигурала једнообразна примена Комбиноване номенклатуре успостављена Уредбом (ЕЕЗ) број 2658/87, позива се на CN ознаке које више не постоје. Према томе, требало би да буде измењена и допуњена како би се у обзир узела одговарајућа CN ознака која важи.
+				(3) Одбор за Царински кодекс није издао мишљење у року који је одредио председавајући.
+				ДОНЕЛА ЈЕ ОВУ УРЕДБУ:
+				Члан 1.
+				Анекс Уредбе (ЕУ) о спровођењу број 103/2012 замењује се текстом датим у Анексу ове уредбе.
+				Члан 2.
+				Ова уредба ступа на снагу 20. дана од дана објављивања у „Службеном листу Европске уније”.
+				Ова уредба је обавезујућа у целини и непосредно се примењује у свим државама чланицама.
+				У Бриселу, 28. априла 2015. године. 
+				–––––––––
+				1 OJ L 256, 7.9.1987. стр.1.
+				2 Уредба Савета (ЕУ) број 953/2013 од 26. септембра 2013. године о изменама и допунама Анекса I Уредбе (ЕЕЗ) број 2658/87 о тарифној и статистичкој номенклатури и Заједничкој царинској тарифи (OJ L 263, 5.10.2013, стр.4).
+				3 Уредба Комисије (ЕУ) о спровођењу број 103/2012 од 7. фебруара 2012. године у вези са сврставањем одређене робе према Комбинованој номенклатури (OJ L 36, 9.2.2012, стр.17), која је објављена у „Службеном гласнику РС” број 24/13 од 30. марта 2012. године.
+				За Комисију,
+				у име председника,
+				Heinz ZOUREK
+				генерални директор за порезе и царинску унију
+				АНЕКС
+				
+					
+						
+							
+								Опис робе
+							
+							
+								Сврставање
+								(CN ознака)
+							
+							
+								Разлози
+							
+						
+						
+							
+								(1)
+							
+							
+								(2)
+							
+							
+								(3)
+							
+						
+						
+							
+								Несастављен модуларни екран (тзв. „LED видео зид”) састоји се од неколико модула у облику плоча, од којих је свака димензија приближно 38x38x9cm.
+								Свака плоча садржи LED диоде са емитујућом црвеном, зеленом и плавом светлошћу и има резолуцију 16x16 пиксела, растојање између тачака 24mm, осветљеност 2000cd/m² и фреквенцију освежавања већу од 300Hz. Такође садржи електронику за напајање.
+								Екран се испоручује са системом за обраду који је састављен од:
+								– видео процесора који прима различите улазне сигнале (као што су CVBS, Y/C, YUV/RGB, (HD-) SDI или DVI) и омогућава скалирање слике/видеа до величине екрана, и
+								– процесора сигнала који омогућава мапирање пиксела улазног сигнала на екран.
+								Обрађени сигнал се, путем каблова од оптичких влакана, шаље са процесора сигнала до дистрибутора података. Дистрибутор података наизменично шаље податке на различите плоче екрана.
+								Панел се испоручује као подобан за спортске или забавне догађаје, оглашавање продаје, итд, али не као подобан за гледање из близине. 
+							
+							
+								85285939
+							
+							
+								Сврставање је одређено Основним правилима 1, 2(а) и 6. за примењивање Комбиноване номенклатуре и наименовањима уз CN ознаке 8528, 852859 и 85285939.
+								На основу тога што је панел способан за приказивање видео садржаја, не може се сматрати електричним апаратом који се користи за сигнализацију путем визуелне индикације. Према томе, искључује се сврставање у тарифни број 8531.
+								На основу својих објективних карактеристика, као што су величина екрана, подржани TV стандарди (CVBS) и видео модови, растојање између тачака које није подобно за гледање из близине и висока вредност осветљености, намена панела је да се користи за спортске и забавне догађаје, оглашавање продаје, итд. Сходно томе, не сматра се да је врсте која се користи искључиво или углавном за системе за аутоматску обраду података из тарифног броја 8471. Према томе, искључује се сврставање у тарифни подброј 85285100.
+								Како је панел способан да приказује сигнале са машине за аутоматску обраду података (АОП) на нивоу довољном за практичну примену са АОП машином, сматра се да је способан за приказивање сигнала са машине за аутоматску обраду података са прихватљивим нивоом функционалности.
+								Производ се, према томе, сврстава у CN ознаку 85285939, као остали монитори у боји са равним дисплејом за приказивање сигнала са машине за аутоматску обраду података са прихватљивим нивоом функционалности.
+							
+						
+					
+				
+	
+

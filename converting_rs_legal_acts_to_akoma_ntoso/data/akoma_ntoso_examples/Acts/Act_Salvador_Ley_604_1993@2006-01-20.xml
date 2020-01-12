@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.akomantoso.org/2.0 ./akomantoso20.xsd" xmlns="http://www.akomantoso.org/2.0">
+	<!-- Task funded by UN/DESA. Analysis and markup performed by Monica Palmirani, CIRSFID, University of Bologna -->
+	<act contains="singleVersion">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/sv/decreto/1993-07-15/604/main"/>
+					<FRBRuri value="/sv/decreto/1993-07-15/604"/>
+					<FRBRdate date="1993-07-15" name="Enactment"/>
+					<FRBRauthor href="#asemblea" as="#author"/>
+					<FRBRcountry value="sv"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/sv/decreto/1993-07-15/604/esp@2006-01-20/main"/>
+					<FRBRuri value="/sv/decreto/1993-07-15/604/esp@2006-01-20"/>
+					<FRBRdate date="2011-01-10" name="Expression"/>
+					<FRBRauthor href="#somebody" as="#editor"/>
+					<FRBRlanguage language="esp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/sv/decreto/1993-07-15/604/esp@2006-01-20/main.xml"/>
+					<FRBRuri value="/sv/decreto/1993-07-15/604/esp@2006-01-20/main.akn"/>
+					<FRBRdate date="2011-01-11" name="XMLConversion"/>
+					<FRBRauthor href="#somebody" as="#editor"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="1993-08-16" name="Diario Oficial número 8, tomo 370" showAs="Diario Oficial"/>
+			<lifecycle source="#somebody">
+				<eventRef id="e1" date="1993-10-15" source="#ro1" type="generation"/>
+				<eventRef id="e2" date="2006-01-20" source="#rp1" type="amendment"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step id="step1" date="1993-10-15" actor="#asemblea" as="#legislator" outcome="#projectoAprobado">
+					<sv:proprietary source="#salvador">workflow de San Salvador</sv:proprietary>
+				</step>
+			</workflow>
+			<analysis source="#somebody">
+				<passiveModifications>
+					<textualMod type="substitution" id="am1" incomplete="false">
+						<source href="/sv/decreto/2005-12-14/912/main#mod1"/>
+						<destination href="#docTitle"/>
+						<destination href="#docTitle1"/>
+						<new href="#span1"/>
+					</textualMod>
+					<textualMod type="substitution" id="am2" incomplete="true">
+						<source href="/sv/decreto/2005-12-14/912/main#mod2"/>
+						<destination href="#art1-cls2"/>
+						<new href="#span2"/>
+					</textualMod>
+					<textualMod type="substitution" id="am3" incomplete="false">
+						<source href="/sv/decreto/2005-12-14/912/main#mod3"/>
+						<destination href="#art3"/>
+						<new href="#span3"/>
+					</textualMod>
+					<textualMod type="substitution" id="am4" incomplete="false">
+						<source href="/sv/decreto/2005-12-14/912/main#mod5"/>
+						<destination href="#art4"/>
+						<new href="#span4"/>
+					</textualMod>
+					<textualMod type="substitution" id="am5" incomplete="false">
+						<source href="/sv/decreto/2005-12-14/912/#mod6"/>
+						<destination href="#art5"/>
+						<new href="#span5"/>
+					</textualMod>
+					<textualMod type="substitution" id="am6" incomplete="false">
+						<source href="/sv/decreto/2005-12-14/912/#mod7"/>
+						<destination href="/#art7"/>
+						<new href="#span6"/>
+					</textualMod>
+					<textualMod type="substitution" id="am7" incomplete="false">
+						<source href="/sv/decreto/2005-12-14/912/#mod7"/>
+						<destination href="#art7-cls1-lst1-itma"/>
+						<new href="#span7"/>
+					</textualMod>
+						<textualMod type="substitution" id="am8" incomplete="false">
+						<source href="/sv/decreto/2005-12-14/912/#mod7"/>
+						<destination href="#art7-cls1-lst1-itmb"/>
+						<new href="#span8"/>
+					</textualMod>
+						<textualMod type="substitution" id="am9" incomplete="false">
+						<source href="/sv/decreto/2005-12-14/912/#mod7"/>
+						<destination href="#art7-cls1-lst1-itmc"/>
+						<new href="#span9"/>
+					</textualMod>
+						<textualMod type="substitution" id="am10" incomplete="false">
+						<source href="/sv/decreto/2005-12-14/912/#mod7"/>
+						<destination href="#art7-cls1-lst1-itmd"/>
+						<new href="#span10"/>
+					</textualMod>
+						<textualMod type="substitution" id="am11" incomplete="false">
+						<source href="/sv/decreto/2005-12-14/912/#mod7"/>
+						<destination href="#art7-cls1-lst1-itme"/>
+						<new href="#span11"/>
+					</textualMod>
+						<textualMod type="substitution" id="am12" incomplete="false">
+						<source href="/sv/decreto/2005-12-14/912/#mod7"/>
+						<destination href="#art7-cls1-lst1-itmf"/>
+						<new href="#span12"/>
+					</textualMod>
+					<textualMod type="insertion" id="am106" incomplete="false">
+						<source href="/sv/decreto/2005-12-14/912/#mod106"/>
+						<destination href="#art184"/>
+						<new href="#span106"/>
+					</textualMod>
+					<textualMod type="repeal" id="am107" incomplete="false">
+						<source href="/sv/decreto/2005-12-14/912/#mod107"/>
+						<destination href="#art186"/>
+					</textualMod>
+				</passiveModifications>
+			</analysis>
+			<references source="#somebody">
+				<original id="ro1" href="/sv/ley/1993-07-15/604/esp@/main" showAs="Original"/>
+				<passiveRef id="rp1" href="/sv/decreto/2005-12-14/912" showAs="REFORMAS A LA LEY  DE LA PROPIEDAD INTELECTUAL"/>
+				<TLCRole id="presidente" href="/ontology/organizations/sv/presidente" showAs="Presidente de la República"/>
+				<TLCRole id="pv" href="/ontology/organizations/sv/primierVicepresidente" showAs="Primer Vicepresidente"/>
+				<TLCRole id="tv" href="/ontology/organizations/sv/tercerVicepresidente" showAs="Tercer Vicepresidente"/>
+				<TLCRole id="author" href="/ontology/roles/sv/author" showAs="Author of Document"/>
+				<TLCRole id="editor" href="/ontology/roles/sv/editor" showAs="Editor of Document"/>
+				<TLCRole id="legislator" href="/ontology/roles/sv/legislator" showAs="Legislator"/>
+				<TLCPerson id="Zepeda" href="/ontology/persons/sv/editors/zepeda" showAs="CIRO CRUZ ZEPEDA PEÑA"/>
+				<TLCPerson id="Henriquez" href="/ontology/persons/sv/authority/Henriquez" showAs="JOSÉ MANUEL MELGAR HENRÍQUEZ"/>
+				<TLCPerson id="Lopez" href="/ontology/persons/sv/authority/cervone" showAs="JOSÉ FRANCISCO MERINO LÓPEZ"/>
+				<TLCPerson id="somebody" href="/ontology/persons/ita/editors/somebody" showAs="somebody"/>
+				<TLCOrganization id="asemblea" href="/ontology/organizations/sv/asemblea" showAs="asemblea"/>
+				<TLCProcess id="projectoAprobado" href="/ontology/process/sv/projectoAprobado" showAs="Projecto Aprobado"/>
+				<TLCLocation id="salvador" href="/ontology/location/sv/salvador" showAs="San Salvador"/>
+			</references>
+			<notes source="#somebody">
+				<note id="n1">
+					<p>(2) D. L. Nº 912, del 14 de diciembre de 2005, publicado en el D. O. Nº 8, Tomo 370, del 12 de enero de 2006. </p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<container id="prf1" name="preface">
+				<p>
+					<docTitle id="docTitle">
+						<span id="span1" period="#e2">LEY DE PROPIEDAD INTELECTUAL<noteRef marker="1" refersTo="consolidationNote" href="#n1"/>
+						</span>
+					</docTitle>
+					<docType>Decreto Legislativo</docType>
+					<docNumber>No. 912</docNumber>, <docDate date="2005-12-14">del 14 de diciembre de 2005</docDate>
+					<docProponent>LA ASAMBLEA LEGISLATIVA DE LA REPUBLICA DE EL SALVADOR,</docProponent>
+
+								Decreto número 604, del 15 de julio de 1993. 
+								Ley de Fomento y Protección de la Propiedad Intelectual de 1993 
+								(Publicado en el Diario Oficial número 150 tomo 320 del 16 de agosto de 1993)
+								Reformado por medio del Decreto Legislativo número 912 de 14 de diciembre de 2005 
+								(Publicado en el Diario Oficial número 8, tomo 370 del 12 de enero de 2006, 
+								cambiando su nombre a Ley de Propiedad Intelectual.)
+				</p>
+			</container>
+		</preface>
+		<preamble>
+			<container id="pre1" name="preable">
+				<blockList id="lst1">
+					<listIntroduction class="centrado">CONSIDERANDO:</listIntroduction>
+					<item id="lst1-itm1">
+						<num>I.</num>
+						<p>Que el inciso segundo del Art. 103 de la Constitución, reconoce la propiedad intelectual y artística, por el tiempo y en la forma determinados por la Ley; 
+</p>
+					</item>
+					<item id="lst1-itm2">
+						<num>II.</num>
+						<p>Que el inciso tercero del Art. 110 de la Constitución, establece que se podrá otorgar privilegios por tiempo limitado a los descubridores e inventores y perfeccionadores de los procesos productivos;</p>
+					</item>
+					<item id="lst1-itm3">
+						<num>III.</num>
+						<p>Que en vista del desarrollo alcanzado por tales materias, es necesario dictar nuevas disposiciones legales que protejan y regulen aspectos de suma importancia como lo son entre otros, la gestión colectiva, la protección de los modelos de utilidad, diseños industriales, secretos industriales y comerciales, que la legislación vigente no comprende; </p>
+					</item>
+					<item id="lst1-itm4">
+						<num>IV.</num>
+						<p>Que tanto la Propiedad Literaria, Artística o Científica, como la Propiedad Industrial, son las dos ramas que forman la Propiedad Intelectual, por lo que todas las disposiciones que regulan tales materias pueden reunirse en un solo cuerpo legal;
+</p>
+					</item>
+				</blockList>
+				<p class="centrado">POR TANTO,</p>
+				<p>en uso de sus facultades constitucionales y a iniciativa del Presidente de la República, por medio de los Ministros de Economía y de Justicia y de los Diputados Raul Manuel Somoza Alfaro, Gerardo Antonio Suvillaga, Santiago Vicente Di-Majo, Miriam Eleana Dolores Mixco Reyna, Jorge Alberto Carranza, Rafael Antonio Morán Orellana y Marcos Alfredo Valladares Melgar, </p>
+				<p class="centrado">DECRETA las siguientes:</p>
+			</container>
+		</preamble>
+		<body>
+			<paragraph id="prg1">
+				<content>
+					<p>
+						<docTitle id="docTitle1">LEY DE PROPIEDAD INTELECTUAL<noteRef marker="1" refersTo="consolidationNote" href="#n1"/>
+						</docTitle>
+					</p>
+				</content>
+			</paragraph>
+			<title id="tlt1">
+				<num>TITULO PRIMERO </num>
+				<chapter id="chp1">
+					<num>CAPITULO UNICO </num>
+					<heading>DISPOSICIONES  PRELIMINARES</heading>
+					<article id="art1">
+						<num>Art.1</num>
+						<clause id="art1-cls1">
+							<content>
+								<p>
+						Las disposiciones contenidas en la presente ley tienen por objeto asegurar una protección suficiente y efectiva de la propiedad intelectual, estableciendo las bases que la promuevan, fomenten y protejan. 
+								</p>
+							</content>
+						</clause>
+						<clause id="art1-cls2">
+							<content>
+								<p>
+									<span id="span2" period="#e2">Esta ley comprende el derecho de autor, los derechos conexos y la propiedad industrial en lo relativo a invenciones, modelos de utilidad, diseños industriales y secretos industriales o comerciales y datos de prueba. <noteRef marker="1" refersTo="consolidationNote" href="#n1"/>
+									</span>
+								</p>
+							</content>
+						</clause>
+					</article>
+					<article id="art2">
+						<num>Art. 2.</num>
+						<clause id="art2-cls1">
+							<content>
+								<p>
+									En caso de conflicto, tendrán aplicación preferente sobre las disposiciones de esta Ley, las contenidas en los tratados y convenios internacionales ratificados por El Salvador. </p>
+							</content>
+						</clause>
+					</article>
+					<article id="art3">
+						<num>Art. 3.</num>
+						<clause id="art3-cls1">
+							<content>
+								<p>
+									<span id="span3" period="#e2">
+			La presente ley no se aplicará a las marcas, nombres comerciales y expresiones o señales de publicidad comercial, las cuales se rigen por la Ley de Marcas y otros Signos Distintivos. <noteRef marker="1" refersTo="consolidationNote" href="#n1"/>
+									</span>
+								</p>
+							</content>
+						</clause>
+					</article>
+				</chapter>
+			</title>
+			<title id="tlt2">
+				<num>TITULO SEGUNDO</num>
+				<heading>PROPIEDAD ARTISTICA O LITERARIA </heading>
+				<chapter id="chp2">
+					<num>CAPITULO I</num>
+					<heading> - NATURALEZA Y SUJETOS</heading>
+					<article id="art4">
+						<num>Art. 4.</num>
+						<clause id="art4-cls1">
+							<content>
+								<p>
+									<span id="span4" period="#e2">
+El autor de una obra literaria o artística, tiene sobre ella un derecho de propiedad exclusivo, que se llama derecho de autor.	<noteRef marker="1" refersTo="consolidationNote" href="#n1"/>
+									</span>
+								</p>
+							</content>
+						</clause>
+					</article>
+					<article id="art5">
+						<num>Art. 5. 
+</num>
+						<clause id="art5-cls1">
+							<content>
+								<p>
+									<span id="span5" period="#e2">
+										
+El derecho de autor comprende facultades de orden abstracto, intelectual y moral que constituyen el derecho moral; y facultades de orden patrimonial que constituyen el derecho económico. 
+<noteRef marker="1" refersTo="consolidationNote" href="#n1"/>
+									</span>
+								</p>
+							</content>
+						</clause>
+					</article>
+					<article id="art6">
+						<num>Art. 6.</num>
+						<clause id="art6-cls1">
+							<content>
+								<p>
+El derecho moral del autor es imprescriptible e inalienable y comprende las siguientes facultades:</p>
+								<blockList id="art6-cls1-lst1">
+									<item id="art6-cls1-lst1-itma">
+										<num>a)</num>
+										<p>La de publicar su obra en la forma, medida y manera que crea conveniente; </p>
+									</item>
+									<item id="art6-cls1-lst1-itmb">
+										<num>b)</num>
+										<p>La de ocultar su nombre o usar seudónimo en sus publicaciones; </p>
+									</item>
+									<item id="art6-cls1-lst1-itmc">
+										<num>c)</num>
+										<p>La de destruir, rehacer, retener o mantener inédita la obra; </p>
+									</item>
+									<item id="art6-cls1-lst1-itmd">
+										<num>d)</num>
+										<p>La de retractarse, o sea de recuperar la obra, modificarla o corregirla después de que haya sido divulgada, pero esta facultad no podrá ejercerla sin indemnizar al titular de sus derechos, por los daños y perjuicios que con ello se le causen. Esta facultad se extingue con la muerte del autor; 
+</p>
+									</item>
+									<item id="art6-cls1-lst1-itme">
+										<num>e)</num>
+										<p>La de conservar y reinvindicar la paternidad de la obra;</p>
+									</item>
+									<item id="art6-cls1-lst1-itmf">
+										<num>f)</num>
+										<p>La de oponerse al plagio de la obra; </p>
+									</item>
+									<item id="art6-cls1-lst1-itmg">
+										<num>g)</num>
+										<p>La de exigir que su nombre o su seudónimo se publique en cada ejemplar de la obra o se mencione en cada acto de comunicación pública de la misma; </p>
+									</item>
+									<item id="art6-cls1-lst1-itmh">
+										<num>h)</num>
+										<p>La de oponerse a que su nombre o su seudónimo aparezca sobre la obra de un tercero o sobre una obra que haya sido desfigurada; </p>
+									</item>
+									<item id="art6-cls1-lst1-itmi">
+										<num>i)</num>
+										<p>La de salvaguardar la integridad de la obra oponiéndose a cualquier deformación, mutilación, modificación o abreviación de la obra o de su título, incluso frente al adquirente del objeto material de la obra; y</p>
+									</item>
+									<item id="art6-cls1-lst1-itmj">
+										<num>j)</num>
+										<p>La de oponerse a cualquier utilización de la obra en menoscabo de su honor o de su reputación como autor.
+</p>
+									</item>
+								</blockList>
+							</content>
+						</clause>
+					</article>
+					<article id="art7">
+						<num>Art. 7.</num>
+						<clause id="art7-cls1" period="#e2">
+							<content>
+								<p>
+									<span id="span6" period="#e2">
+
+El derecho económico del autor es el derecho exclusivo de autorizar o prohibir el uso de sus obras, así como la facultad de percibir beneficios económicos de la utilización de las obras, y comprende especialmente las siguientes facultades: </span>
+								</p>
+								<blockList id="art7-cls1-lst1">
+									<item id="art7-cls1-lst1-itma">
+										<num>a)</num>
+										<p>
+											<span id="span7" period="#e2">La de reproducir la obra, fijándola materialmente por cualquier procedimiento que permita comunicarla al público de una manera indirecta y durable, o la obtención de copias de toda la obra o parte de ella; puede efectuarse por medios de reproducción mecánica, tales como la imprenta, la litografía, el polígrafo, el cinematógrafo, el fonógrafo, las grabaciones magnetofónicas, la fotografía y cualquier otro medio de fijación; comprende también la reproducción de improvisaciones, discursos, lectura y en general, recitaciones públicas hechas mediante la estenografía, la dactilografía y otros procedimientos análogos; asimismo comprende la facultad de prohibir toda reproducción de la obra en cualquier manera o forma permanente o temporal, incluyendo el almacenamiento temporal en forma electrónica; (2) 
+</span>
+										</p>
+									</item>
+									<item id="art7-cls1-lst1-itmb">
+										<num>b)</num>
+										<p>
+											<span id="span8" period="#e2">La de ejecutar y representar la obra compuesta expresamente con tal propósito, comunicándola al público directa y momentáneamente, tales como la representación teatral, la ejecución musical y coreografía, la escenificación para cinematografía y televisión, y el montaje de cualesquiera otra forma de espectáculo público; (2) 
+</span>
+										</p>
+									</item>
+									<item id="art7-cls1-lst1-itmc">
+										<num>c)</num>
+										<p>
+											<span id="span9" period="#e2">La de difundir la obra por cualquier medio que sirva para transmitir los sonidos y las imágenes, tales como el teléfono, la radio, la televisión, el cable, el teletipo, el satélite o por cualquier otro medio ya conocido o que se desarrolle en el futuro; (2) 
+</span>
+										</p>
+									</item>
+									<item id="art7-cls1-lst1-itmd">
+										<num>d)</num>
+										<p>
+											<span id="span10" period="#e2">La de distribución de la obra, es decir, la de poner a disposición del público los ejemplares de la obra por medio de la venta u otra forma de transferencia de la propiedad, pero cuando la comercialización de los ejemplares se realice mediante venta, esta facultad se extingue a partir de la primera venta, salvo las excepciones legales; conservando el titular de los derechos patrimoniales, el de autorizar o no el arrendamiento de dichos ejemplares, así como los de modificar, comunicar públicamente y reproducir la obra; (2) 
+</span>
+										</p>
+									</item>
+									<item id="art7-cls1-lst1-itme">
+										<num>e)</num>
+										<p>
+											<span id="span11" period="#e2">La de importar, exportar o autorizar la importación o la exportación de copias de sus obras legalmente fabricadas y la de evitar la importación o exportación de copias fabricadas en forma ilegal; y (2) 
+</span>
+										</p>
+									</item>
+									<item id="art7-cls1-lst1-itmf">
+										<num>f)</num>
+										<p>
+											<span id="span12" period="#e2">La comunicación pública de la obra.<noteRef marker="1" refersTo="consolidationNote" href="#n1"/>
+											</span>
+										</p>
+									</item>
+								</blockList>
+							</content>
+						</clause>
+					</article>
+				</chapter>
+			</title>
+			<title id="tlt4">
+				<num>TITULO QUINTO </num>
+				<chapter id="tlt5-chp1">
+					<num>CAPITULO II</num>
+					<heading>DE LAS INVENCIONES</heading>
+					<article id="art184A">
+						<num>Art. 184A.</num>
+						<clause id="art184A-cls1">
+							<content>
+								<p>
+									<span id="span106" period="#e2">Para efectos de esta ley, se entiende por Registro, el Registro de la Propiedad Intelectual. <noteRef marker="1" refersTo="consolidationNote" href="#n1"/>
+									</span>
+								</p>
+							</content>
+						</clause>
+					</article>
+					<article id="art186">
+						<num>Art. 186 <authorialNote id="ath3" marker="1" placement="inline">
+								<p>*INICIO DE NOTA: En el Artículo 186 se menciona un plazo para obtener autorización, el Decreto Legislativo Nº 799, amplía dicho plazo, por esta razón se transcribe textualmente el Artículo 1 del mencionado Decreto: Art. 1.-Amplíase hasta el 15 de junio de 1994, lo establecido en el Art. 186, de la Ley de Fomento y Protección de la Propiedad Intelectual, emitida mediante Decreto Legislativo Nº 604 del 15 de julio de 1993, publicado en el Diario Oficial Nº 150, Tomo 320, de fecha 16 de agosto del mismo año. 
+D.L. Nº 799, del 2 de febrero de 1994, publicado en el D.O. Nº 56, Tomo 322, del 21 de marzo de 1994. 
+FIN DE NOTA. 
+</p>
+							</authorialNote>
+						</num>
+						<clause id="art186-cls1">
+							<content>
+								<p>
+									<span id="span107" period="#e2">Derogado. <noteRef marker="1" refersTo="consolidationNote" href="#n1"/>
+									</span>
+								</p>
+							</content>
+						</clause>
+					</article>
+				</chapter>
+			</title>
+		</body>
+		<conclusions>
+			<p>DADO EN EL SALÓN AZUL, PALACIO LEGISLATIVO: San Salvador, a los catorce días del mes de diciembre del año dos mil cinco.</p>
+			<p refersTo="#Zepeda">CIRO CRUZ ZEPEDA PEÑA</p>
+			<p refersTo="#presidente">PRESIDENTE</p>
+			<p refersTo="#Henriquez">JOSÉ MANUEL MELGAR HENRÍQUEZ</p>
+			<p refersTo="#pv">PRIMER VICEPRESIDENTE</p>
+			<p refersTo="#Lopez">JOSÉ FRANCISCO MERINO LÓPEZ</p>
+			<p refersTo="#tv">TERCER VICEPRESIDENTE</p>
+		</conclusions>
+	</act>
+</akomaNtoso>

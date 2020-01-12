@@ -1,0 +1,176 @@
+﻿
+
+
+	
+	Zakon
+
+	
+
+
+	
+				
+				На основу члана 3а став 4. Закона о Царинској тарифи („Службени гласник РС”, бр. 62/05, 61/07 и 5/09) објављује се Уредба Комисије (ЕУ) о спровођењу број 2016/663 од 26. априла 2016. године, у вези са сврставањем одређенe робe у Комбинованој номенклатури објављена у „Службеном листу Европске уније”, број L 115/16 од 29. априла 2016. године, која у оригиналу на енглеском језику и у преводу на српски језик гласи:
+				COMMISSION IMPLEMENTING REGULATION (EU) 2016/663 of 26 April 2016concerning the classification of certain goods in the Combined Nomenclature
+				"Службени гласник РС", број 53 од 7. јуна 2016.
+				THE EUROPEAN COMMISSION,
+				Having regard to the Treaty on the Functioning of the European Union,
+				Having regard to Council Regulation (EEC) No 2658/87 of 23 July 1987 on the tariff and statistical nomenclature and on the Common Customs Tariff (1), and in particular Article 9(1)(a) thereof,
+				Whereas:
+				(1) In order to ensure uniform application of the Combined Nomenclature annexed to Regulation (EEC) No 2658/87, it is necessary to adopt measures concerning the classification of the goods referred to in the Annex to this Regulation.
+				(2) Regulation (EEC) No 2658/87 has laid down the general rules for the interpretation of the Combined Nomenclature. Those rules apply also to any other nomenclature which is wholly or partly based on it or which adds any additional subdivision to it and which is established by specific provisions of the Union, with a view to the application of tariff and other measures relating to trade in goods.
+				(3) Pursuant to those general rules, the goods described in column (1) of the table set out in the Annex should be classified under the CN code indicated in column (2), by virtue of the reasons set out in column (3) of that table.
+				(4) It is appropriate to provide that binding tariff information issued in respect of the goods concerned by this Regulation which does not conform to this Regulation may, for a certain period, continue to be invoked by the holder in accordance with Article 12(6) of Council Regulation (EEC) No 2913/92 (2). That period should be set at three months.
+				(5) The measures provided for in this Regulation are in accordance with the opinion of the Customs Code Committee,
+				HAS ADOPTED THIS REGULATION:
+				Article 1
+				The goods described in column (1) of the table set out in the Annex shall be classified within the Combined Nomenclature under the CN code indicated in column (2) of that table.
+				Article 2
+				Binding tariff information which does not conform to this Regulation may continue to be invoked in accordance with Article 12(6) of Regulation (EEC) No 2913/92 for a period of three months from the date of entry into force of this Regulation.
+				Article 3
+				This Regulation shall enter into force on the twentieth day following that of its publication in the Official Journal of the European Union.
+				This Regulation shall be binding in its entirety and directly applicable in all Member States.
+				Done at Brussels, 26 April 2016.
+				–––––––
+				(1) OJ L 256, 7.9.1987, p. 1.
+				(2) Council Regulation (EEC) No 2913/92 of 12 October 1992 establishing the Community Customs Code (OJ L 302, 19.10.1992, p. 1).
+				For the Commission,
+				On behalf of the President,
+				Stephen QUEST
+				Director-General for Taxation and Customs Union
+				ANNEX
+				
+					
+						
+							
+								Description of the goods
+							
+							
+								Classification (CN-code)
+							
+							
+								Reasons
+							
+						
+						
+							
+								(1)
+							
+							
+								(2)
+							
+							
+								(3)
+							
+						
+						
+							
+								An electronic machine functioning as an audio interface or a sound mixer (so-called ‘mixer-converter analogue/digital pre-amplifier device’), with dimensions of approximately 48 × 18 × 9 cm. It consists of sound and effects processors, an analogue-to-digital and digital-to-analogue converter and a microphone amplifier, in a housing with operating and display elements and various analogue, optical and digital inputs and outputs as well as FireWire ports.
+								It has the following main technical features:
+								– hybrid FireWire/USB2 connectivity (capability to be connected to an automatic data-processing (ADP) machine),
+								– 28-input mixer with digital signal processing effects,
+								– special mixing software,
+								– separate front-panel headphone jacks, each with independent volume control, and
+								– front panel LED status clock.
+								The machine is designed for use in digital music productions in sound studios or live on stage. It can operate in two modes: in conjunction with an ADP machine or in a stand-alone mode.
+							
+							
+								8543 70 90
+							
+							
+								Classification is determined by general rules 1 and 6 for the interpretation of the Combined Nomenclature, note 5(E) to Chapter 84 and by the wording of CN codes 8543, 8543 70 and 8543 70 90.
+								As the machine performs a specific function other than data processing (sound pre-amplifica-tion and mixing) it is to be classified in the heading appropriate to its respective function or, failing that, in a residual heading.
+								The function of the machine is not covered more specifically by any heading of Chapter 85. The machine is to be considered a mixing unit covered by heading 8543 (see also the Harmonised System Explanatory Notes to heading 8543, fourth paragraph, (4)).
+								The machine is therefore to be classified under CN code 8543 70 90 as other machines and apparatus, having individual functions, not specified or included elsewhere in Chapter 85.
+							
+						
+						
+							
+								When the machine is used in conjunction with an ADP machine, it serves for converting and processing audio signals supplied from external audio sources and for the pre-amplification of microphone signals. In stand-alone mode, the machine can be used as a mixer with integrated effects.
+							
+							
+							
+							
+							
+						
+					
+				
+				УРЕДБА КОМИСИЈЕ (ЕУ) О СПРОВОЂЕЊУ број 2016/663од 26. априла 2016. године у вези са сврставањем одређенe робe у Комбинованој номенклатури
+				"Службени гласник РС", број 53 од 7. јуна 2016.
+				ЕВРОПСКА КОМИСИЈА,
+				Имајући у виду Уговор о функционисању Европске уније,
+				Имајући у виду Уредбу Савета (ЕЕЗ) број 2658/87 од 23. јула 1987. године о тарифној и статистичкој номенклатури и Заједничкој царинској тарифи1, а посебно члан 9. став 1. тачка а),
+				с обзиром на то да:
+				(1) Како би се осигурала једнообразна примена Комбиноване номенклатуре приложене уз Уредбу (ЕЕЗ) број 2658/87, неопходно је усвојити мере у вези са сврставањем робе наведене у Анексу ове уредбе.
+				(2) Уредбом (ЕЕЗ) број 2658/87 утврђена су основна правила за примењивање Комбиноване номенклатуре. Ова правила се такође примењују на сваку другу номенклатуру која се у потпуности или делимично заснива на њој, или која јој додаје било какве потподеле и која је установљена посебним прописима Уније, са циљем примене тарифних и других мера које се односе на трговину робом.
+				(3) У складу са тим основним правилима, роба описана у колони 1. табеле у Анексу сврстава се у CN ознаку наведену у колони 2, према разлозима датим у колони 3. те табеле.
+				(4) Потребно је обезбедити да обавезујућa тарифнa информацијa, издатa за робу на коју се односи ова уредба, а која није у складу са овом уредбом, може одређени период, да ималац настави да се позива на њу, према члану 12. став 6. Уредбе Савета (ЕЕЗ) број 2913/922. Овај период треба да буде три месеца.
+				(5) Мере предвиђене у овој уредби су у складу са мишљењем Одбора за Царински кодекс,
+				ДОНЕЛА ЈЕ ОВУ УРЕДБУ:
+				Члан 1.
+				Роба описана у колони 1. табеле дате у Анексу сврстава се у оквиру Комбиноване номенклатуре у CN ознаку наведену у колони 2. те табеле.
+				Члан 2.
+				Обавезујућа тарифна информација која није у складу са овом уредбом, може наставити да се примењује у складу са чланом 12. став 6. Уредбе (ЕЕЗ) број 2913/92, у периоду од три месеца од дана ступања на снагу ове уредбе.
+				Члан 3.
+				Ова уредба ступа на снагу 20. дана од дана објављивања у „Службеном листу Европске уније”.
+				Ова уредба је обавезујућа у целини и непосредно се примењује у свим државама чланицама.
+				У Бриселу, 26. априла 2016. године. 
+				–––––––
+				1 OJ L 256, 7.9.1987. стр. 1
+				2 Уредба Савета (ЕЕЗ) број 2913/92 од 12. октобра 1992. године којом је установљен Царински закон Заједнице (OJ L 302, 19.10.1992, стр. 1).
+				За Комисију,
+				у име председника,
+				Stephen QUEST
+				генерални директор за порезе и царинску унију
+				АНЕКС
+				
+					
+						
+							
+								Опис робе
+							
+							
+								Сврставање
+								(CN ознака)
+							
+							
+								Разлози
+							
+						
+						
+							
+								(1)
+							
+							
+								(2)
+							
+							
+								(3)
+							
+						
+						
+							
+								Електронска машина која ради као аудио интерфејс или миксер звука (тзв. „аналогно-дигитални миксер – претварач и претпојачавач”), димензија приближно 48 × 18 × 9 cm.
+								Састоји се од процесора за звук и ефекте, аналогно-дигиталног и дигитално-аналогног претварача и појачавача за микрофон, у кућишту са елементима за управљање и приказивање и са различитим аналогним, оптичким и дигиталним улазима и излазима као и FireWire портовима.
+								Има следећа главна техничка својства:
+								– хибридно FireWire/USB2 повезивање (могућност да се повеже за машином за аутоматску обраду података (АОП)),
+								– уређај за мешање звука са 28 улаза и ефектима дигиталне обраде сигнала,
+								– посебан софтвер за мешање звука,
+								– одвојене прикључке за слушалице на предњем панелу, сваки са независним подешавањем јачине звука, и
+								– LED часовник за приказивање стања на предњем панелу.
+								Машина је конструисана да се користи у дигиталној музичкој продукцији у студијима звука или уживо на позорници. Може да ради на два начина, повезана са АОП машином или самостално.
+								Када се машина користи повезана са АОП машином, служи за претварање и обраду аудио сигнала који стижу из спољашњих аудио извора и за претпојачавање микрофонског сигнала. У самосталном начину рада, машина може да се користи као уређај за мешање звука са интегрисаним ефектима.
+							
+							
+								85437090
+							
+							
+								Сврставање је одређено Основним правилима за примењивање Комбиноване номенклатуре 1. и 6, Напоменом 5 (Д) уз Главу 84. и текстом наименовања CN ознака 8543, 8543 70 и 8543 70 90.
+								Како машина обавља специфичну функцију, осим обраде података (претпојачавање и мешање звука), сврстава се у тарифни број према својој одговарајућој функцији или, ако то није могуће, у тарифни број за остале машине.
+								Функција ове машине није специфичније обухваћена неким другим тарифним бројем Главе 85. Машина се сматра уређајем за мешање звука обухваћеним тарифним бројем 8543 (видети такође Коментар Хармонизованог система уз тарифни број 8543, четврти став, (4)).
+								Машина се према томе сврстава у СN ознаку 8543 70 90 као остале машине и апарати са посебним функцијама, непоменути нити обухваћени на другом месту у Глави 85.
+							
+						
+					
+				
+	
+

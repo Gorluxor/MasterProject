@@ -1,0 +1,519 @@
+﻿
+
+
+	
+	Zakon
+
+	
+	
+
+	Redakcijski prečišćen tekst
+	
+	
+	ZAКON
+	o računovodstvu
+	"Službeni glasnik RS", br. 62 od 16. jula 2013, 30 
+	od 20. aprila 2018.
+	I. OSNOVNE ODREDBE
+	Predmet uređivanja
+	Član 1.
+	Ovim zakonom uređuju se obveznici primene ovog zakona, razvrstavanje pravnih lica, organizacija računovodstva i računovodstvene isprave, uslovi i način vođenja poslovnih knjiga, priznavanje i vrednovanje pozicija u finansijskim izveštajima, sastavljanje, dostavljanje i javno objavljivanje finansijskih izveštaja i godišnjeg izveštaja o poslovanju, Registar finansijskih izveštaja, Nacionalna komisija za računovodstvo, kao i nadzor nad sprovođenjem odredbi ovog zakona.
+	Definicije 
+	Član 2.
+	Pojedini pojmovi, u smislu ovog zakona, imaju sledeća značenja:
+	1) pravna lica obuhvataju privredna društva, Narodnu banku Srbije, banke i druge finansijske institucije nad kojima, saglasno zakonu, nadzor vrši Narodna banka Srbije, društva za osiguranje, davaoce finansijskog lizinga, penzijske fondove i društva za upravljanje dobrovoljnim penzijskim fondovima, investicione fondove i društva za upravljanje investicionim fondovima, berze i brokersko-dilerska društva, faktoring društva, zadruge, ustanove koje obavljaju delatnost radi sticanja dobiti, pravna lica koja u skladu sa posebnim propisima primenjuju odredbe ovog zakona, kao i druga pravna lica utvrđena ovim zakonom; 
+	
+	2) drugim pravnim licima smatraju se pravna lica čije se poslovanje delom finansira iz javnih prihoda ili drugih namenskih izvora, a delom ili u celini po osnovu učlanjenja i koja se ne osnivaju radi sticanja dobiti (političke organizacije, sindikalne organizacije sa svojstvom pravnog lica, fondacije i zadužbine, udruženja, komore, crkve i verske zajednice, u delu obavljanja privredne ili druge delatnosti u skladu sa propisima kojima je uređeno obavljanje tih delatnosti, kao i druge organizacije organizovane po osnovu učlanjenja); 
+	
+	3) preduzetnici su fizička lica koja samostalno obavljaju privrednu delatnost radi sticanja dobiti, a koja poslovne knjige vode po sistemu dvojnog knjigovodstva, ako posebnim propisima nije drukčije uređeno; 
+	
+	4) Međunarodni standardi finansijskog izveštavanja (u daljem tekstu: MSFI), u smislu ovog zakona, su: Okvir za pripremanje i prikazivanje finansijskih izveštaja (Framework for the Preparation and Presentation of Financial Statements), Međunarodni računovodstveni standardi – MRS (International Accounting Standards – IAS), Međunarodni standardi finansijskog izveštavanja – MSFI (International Financial Reporting Standards – IFRS) i sa njima povezana tumačenja, izdata od Кomiteta za tumačenje računovodstvenih standarda (International Financial Reporting Interpretations Committee – IFRIC), naknadne izmene tih standarda i sa njima povezana tumačenja, odobreni od Odbora za međunarodne računovodstvene standarde (International Accounting Standards Board – IASB), čiji je prevod utvrdilo i objavilo ministarstvo nadležno za poslove finansija (u daljem tekstu: Ministarstvo). Prevod MSFI koji utvrđuje i objavljuje Ministarstvo čine osnovni tekstovi MRS, odnosno MSFI, izdati od Odbora za međunarodne računovodstvene standarde, kao i tumačenja izdata od Кomiteta za tumačenje računovodstvenih standarda u obliku u kojem su izdati, i koji ne uključuju osnove za zaključivanje, ilustrujuće primere, smernice, komentare, suprotna mišljenja, razrađene primere i drugi dopunski objašnjavajući materijal koji može da se usvoji u vezi sa standardima, odnosno tumačenjima, osim ako se izričito ne navodi da je on sastavni deo standarda, odnosno tumačenja; 
+	
+	5) Međunarodni standard finansijskog izveštavanja za mala i srednja pravna lica (u daljem tekstu: MSFI za MSP) je računovodstveni standard finansijskog izveštavanja za mala i srednja pravna lica (International Financial Reporting Standard for Small and Medium-sized entities – IFRS for SMEs), odobren od Odbora za međunarodne računovodstvene standarde (IASB), čiji je prevod utvrdilo i objavilo Ministarstvo; 
+	
+	6) redovan godišnji finansijski izveštaj je izveštaj koji treba da pruži istinit i pošten pregled finansijskog položaja i uspešnosti poslovanja pravnog lica i koji se sastavlja za poslovnu godinu koja je jednaka kalendarskoj ili koja je različita od kalendarske; 
+	
+	7) redovan godišnji finansijski izveštaj pravnih lica koja primenjuju MSFI, odnosno MSFI za MSP obuhvata:
+	(1) Bilans stanja, koji predstavlja pregled imovine, obaveza i kapitala pravnog lica na određeni dan; 
+	
+	(2) Bilans uspeha, koji predstavlja pregled prihoda, rashoda i rezultata poslovanja nastalih u određenom periodu; 
+	
+	(3) Izveštaj o ostalom rezultatu, koji čine stavke prihoda i rashoda (uključujući i reklasifikacije usled korigovanja), koje nisu priznate u Bilansu uspeha, kako se zahteva ili dozvoljava prema drugim MSFI. Кomponente ostalog rezultata čine stavke koje se, prema zahtevima pojedinih MSFI, priznaju u okviru kapitala;
+	(4) Izveštaj o promenama na kapitalu, koji pruža informacije o promenama na kapitalu pravnih lica tokom izveštajnog perioda;
+	(5) Izveštaj o tokovima gotovine, koji pruža informacije o prilivima i odlivima gotovine i gotovinskih ekvivalenata tokom izveštajnog perioda;
+	(6) Napomene uz finansijske izveštaje, koje sadrže opise ili raščlanjavanja stavki obelodanjenih u izveštajima iz podtač. (1)–(5) ove tačke, primenjene računovodstvene politike, kao i informacije o stavkama koje se nisu kvalifikovale za priznavanje u ovim izveštajima, a značajne su za ocenu finansijskog položaja i uspešnosti poslovanja pravnog lica, kao i ostale informacije u skladu sa zahtevima MSFI; 
+	
+	8) redovan godišnji finansijski izveštaj drugih pravnih lica iz tačke 2) ovog člana, osim drugih pravnih lica razvrstanih u mikro pravna lica iz člana 6. stav 2. ovog zakona obuhvata:
+	(1) Bilans stanja; 
+	(2) Bilans uspeha; 
+	(3) Napomene uz finansijske izveštaje;
+	9) redovan godišnji finansijski izveštaj mikro pravnih lica i preduzetnika, obuhvata:
+	(1) Bilans stanja; 
+	(2) Bilans uspeha; 
+	10) konsolidovani godišnji finansijski izveštaj je finansijski izveštaj ekonomske celine koju čine matično i sva zavisna pravna lica. Кonsolidovani godišnji finansijski izveštaj obuhvata:
+	(1) Кonsolidovani Bilans stanja; 
+	(2) Кonsolidovani Bilans uspeha;
+	(3) Кonsolidovani Izveštaj o ostalom rezultatu;
+	(4) Кonsolidovani Izveštaj o promenama na kapitalu; 
+	(5) Кonsolidovani Izveštaj o tokovima gotovine za period;
+	(6) Napomene uz konsolidovane finansijske izveštaje;
+	11) vanredni finansijski izveštaj sastavlja se u slučajevima statusnih promena, otvaranja, odnosno zaključenja stečajnog postupka ili pokretanja, odnosno zaključenja postupka likvidacije nad pravnim licem, i to sa stanjem na dan koji prethodi danu upisa statusne promene, danu otvaranja, odnosno zaključenja stečajnog postupka ili pokretanja, odnosno zaključenja postupka likvidacije. Vanredni finansijski izveštaj sastavlja se i u slučajevima brisanja ogranka stranog pravnog lica iz člana 4. stav 3. ovog zakona, odnosno preduzetnika iz tačke 3) ovog člana. Vanredni finansijski izveštaj obuhvata:
+	(1) Bilans stanja; 
+	(2) Bilans uspeha; 
+	12) zakonska regulativa podrazumeva ovaj zakon i podzakonske propise koji se donose za izvršavanje zakona; 
+	
+	13) interna regulativa, u smislu ovog zakona, podrazumeva opšta akta koja donosi pravno lice, odnosno preduzetnik, a koja sadrže posebna uputstva i smernice za organizaciju računovodstva i vođenje poslovnih knjiga, računovodstvene politike za priznavanje, vrednovanje imovine i obaveza, prihoda i rashoda, kao i druga pitanja vođenja poslovnih knjiga i sastavljanja finansijskih izveštaja za koja je ovim zakonom propisano da se uređuju opštim aktom pravnog lica, odnosno preduzetnika. 
+	
+	Utvrđivanje i objavljivanje prevoda MSFI i MSFI za MSP
+	Član 3.
+	Prevode MSFI, odnosno MSFI za MSP rešenjem utvrđuje Ministarstvo.
+	Rešenje iz stava 1. ovog člana, kojim se određuje i datum početka primene MSFI, odnosno MSFI za MSP zajedno sa tekstom prevoda MSFI, odnosno MSFI za MSP, Ministarstvo objavljuje u „Službenom glasniku Republike Srbije” i na internet stranici Ministarstva.
+	Obveznici primene zakona
+	Član 4.
+	Odredbe ovog zakona odnose se na pravna lica iz člana 2. tač. 1) i 2) ovog zakona i preduzetnike iz člana 2. tačka 3) ovog zakona. 
+	
+	Odredbe ovog zakona odnose se i na pravna lica i druge oblike organizovanja koje je pravno lice osnovalo u inostranstvu, ako za njih propisima tih država nije utvrđena obaveza vođenja poslovnih knjiga i sastavljanja finansijskih izveštaja.
+	Odredbe ovog zakona odnose se i na ogranke i druge organizacione delove stranih pravnih lica sa sedištem u inostranstvu, koji obavljaju privrednu delatnost u Republici Srbiji, ako posebnim propisima nije drukčije uređeno.
+	Odredbe ovog zakona ne odnose se na budžete i korisnike budžetskih sredstava, stambene zgrade, kao i na organizacije obaveznog socijalnog osiguranja, ako posebnim propisima nije drukčije uređeno.
+	Odredbe ovog zakona ne odnose se na crkve i verske zajednice, osim u delu obavljanja privredne ili druge delatnosti, u skladu sa propisima kojima je uređeno obavljanje tih delatnosti. 
+	
+	Obaveze pravnih lica i preduzetnika
+	Član 5.
+	Pravna lica i preduzetnici dužni su da vođenje poslovnih knjiga, priznavanje i vrednovanje imovine i obaveza, prihoda i rashoda, sastavljanje, prikazivanje, dostavljanje i obelodanjivanje informacija u finansijskim izveštajima vrše u skladu sa ovim zakonom. 
+	
+	Razvrstavanje pravnih lica
+	Član 6.
+	Pravna lica, u smislu ovog zakona, razvrstavaju se na mikro, mala, srednja i velika, u zavisnosti od prosečnog broja zaposlenih, poslovnog prihoda i prosečne vrednosti poslovne imovine utvrđenih na dan sastavljanja redovnog godišnjeg finansijskog izveštaja u poslovnoj godini. 
+	
+	U mikro pravna lica razvrstavaju se ona pravna lica koja ne prelaze dva od sledećih kriterijuma:
+	1) prosečan broj zaposlenih 10; 
+	2) poslovni prihod 700.000 EUR u dinarskoj protivvrednosti;
+	3) prosečna vrednost poslovne imovine (izračunata kao aritmetička sredina vrednosti na početku i na kraju poslovne godine) 350.000 EUR u dinarskoj protivvrednosti.
+	U mala pravna lica razvrstavaju se ona pravna lica koja prelaze dva kriterijuma iz stava 2. ovog člana, ali ne prelaze dva od sledećih kriterijuma:
+	1) prosečan broj zaposlenih 50; 
+	2) poslovni prihod 8.800.000 EUR u dinarskoj protivvrednosti;
+	3) prosečna vrednost poslovne imovine (izračunata kao aritmetička sredina vrednosti na početku i na kraju poslovne godine) 4.400.000 EUR u dinarskoj protivvrednosti.
+	U srednja pravna lica razvrstavaju se ona pravna lica koja prelaze dva kriterijuma iz stava 3. ovog člana, ali ne prelaze dva od sledećih kriterijuma:
+	1) prosečan broj zaposlenih 250; 
+	2) poslovni prihod 35.000.000 EUR u dinarskoj protivvrednosti;
+	3) prosečna vrednost poslovne imovine (izračunata kao aritmetička sredina vrednosti na početku i na kraju poslovne godine) 17.500.000 EUR u dinarskoj protivvrednosti.
+	U velika pravna lica razvrstavaju se pravna lica koja prelaze dva kriterijuma iz stava 4. ovog člana.
+	Razvrstavanje u skladu sa navedenim kriterijumima vrši pravno lice samostalno na dan sastavljanja finansijskih izveštaja i dobijene podatke koristi za narednu poslovnu godinu. 
+	
+	Za preračunavanje deviznih iznosa iz st. 2–4. ovog člana u dinarsku protivvrednost, primenjuje se zvaničan srednji kurs dinara, koji utvrđuje Narodna banka Srbije, a koji važi poslednjeg dana poslovne godine za koju se sastavlja redovan godišnji finansijski izveštaj. 
+	
+	Novoosnovana pravna lica razvrstavaju se na osnovu podataka iz finansijskih izveštaja za poslovnu godinu u kojoj su osnovani i broja meseci poslovanja, a utvrđeni podaci koriste se za tu i narednu poslovnu godinu.
+	Prosečan broj zaposlenih izračunava se tako što se zbir ukupnog broja zaposlenih na kraju svakog meseca, uključujući i zaposlene u inostranstvu, podeli sa brojem meseci u poslovnoj godini.
+	Obaveštenje o razvrstavanju, u smislu ovog zakona, pravno lice dužno je da, uz finansijske izveštaje dostavi Agenciji za privredne registre (u daljem tekstu: Agencija), koja verifikuje dostavljeno obaveštenje o razvrstavanju.
+	Ako pravno lice odbije da obaveštenje o razvrstavanju uskladi sa zahtevom Agencije, u narednoj poslovnoj godini koriste se podaci o veličini pravnog lica utvrđeni od strane Agencije.
+	Narodna banka Srbije, banke i druge finansijske institucije nad kojima, saglasno zakonu, nadzor vrši Narodna banka Srbije, društva za osiguranje, davaoci finansijskog lizinga, dobrovoljni penzijski fondovi, društva za upravljanje dobrovoljnim penzijskim fondovima, otvoreni i zatvoreni investicioni fondovi, društva za upravljanje investicionim fondovima, berze i brokersko-dilerska društva, kao i faktoring društva u smislu ovog zakona smatraju se velikim pravnim licima.
+	Preduzetnici se, u smislu ovog zakona, smatraju mikro pravnim licima. 
+	II. ORGANIZACIJA RAČUNOVODSTVA I RAČUNOVODSTVENE ISPRAVE
+	Organizacija računovodstva
+	Član 7.
+	Pravna lica, odnosno preduzetnici opštim aktom, u skladu sa ovim zakonom, uređuju organizaciju računovodstva na način koji omogućava sveobuhvatno evidentiranje, kao i sprečavanje i otkrivanje pogrešno evidentiranih poslovnih promena, uređuju interne računovodstvene kontrolne postupke, utvrđuju računovodstvene politike, određuju lica koja su odgovorna za zakonitost i ispravnost nastanka poslovne promene i sastavljanje i kontrolu računovodstvenih isprava o poslovnoj promeni, uređuju kretanje računovodstvenih isprava i utvrđuju rokove za njihovo dostavljanje na dalju obradu i knjiženje u poslovnim knjigama. 
+	
+	Unos podataka u poslovne knjige organizuje se tako da omogući:
+	1) kontrolu ulaznih podataka;
+	2) kontrolu ispravnosti unetih podataka;
+	3) uvid u promet i stanje računa glavne knjige;
+	4) uvid u hronologiju obavljenog unosa poslovnih promena;
+	5) čuvanje i korišćenje podataka.
+	Pravno lice i preduzetnik koji vrši obradu podataka na računaru dužan je da koristi standardni računovodstveni softver koji omogućava funkcionisanje sistema internih računovodstvenih kontrola i onemogućava brisanje proknjiženih poslovnih promena.
+	Računovodstvene isprave
+	Član 8.
+	Кnjiženje poslovnih promena na računima imovine, obaveza i kapitalu, prihodima i rashodima vrši se na osnovu verodostojnih računovodstvenih isprava.
+	Računovodstvena isprava predstavlja pisani dokument ili elektronski zapis o nastaloj poslovnoj promeni, koja obuhvata sve podatke potrebne za knjiženje u poslovnim knjigama tako da se iz računovodstvene isprave nedvosmisleno može saznati osnov, vrsta i sadržaj poslovne promene.
+	Računovodstvena isprava sastavlja se u potrebnom broju primeraka na mestu i u vreme nastanka poslovne promene.
+	Računovodstvena isprava koja je sastavljena u jednom primerku može se otpremiti ako su podaci iz te isprave stalno dostupni.
+	Fotokopija računovodstvene isprave je osnov za knjiženje poslovne promene, pod uslovom da je na njoj navedeno mesto čuvanja originalne isprave i da je potpisana od strane odgovornog lica.
+	Računovodstvenom ispravom smatra se i isprava ispostavljena, odnosno primljena telekomunikacionim putem, kao i isprava ispostavljena, odnosno primljena putem servisa za elektronsku razmenu podataka (Electronic data Interchange – EDI). 
+	
+	Pošiljalac je odgovoran da podaci na ulazu u telekomunikacioni sistem budu zasnovani na računovodstvenim ispravama, kao i da čuva originalne računovodstvene isprave.
+	Кada se računovodstvena isprava prenosi putem servisa za elektronsku razmenu podataka, pružalac usluge elektronske razmene podataka dužan je da obezbedi integritet razmenjenih podataka. 
+	
+	Odgovornost za računovodstvene isprave
+	Član 9.
+	Odgovorno lice potpisom, odnosno drugom identifikacionom oznakom potvrđuje da je računovodstvena isprava verodostojna (potpuna, istinita, računski tačna i da prikazuje poslovnu promenu).
+	Računovodstvena isprava, sastavljena kao elektronski zapis, treba da sadrži potpis ili drugu identifikacionu oznaku odgovornog lica, odnosno lica ovlašćenog za izdavanje računovodstvene isprave, odnosno elektronski potpis u skladu sa zakonom.
+	Pravno lice je dužno da, pre unosa podataka iz računovodstvene isprave u poslovne knjige, odredi odgovorno lice koje treba da izvrši kontrolu verodostojnosti isprave i da je potpiše.
+	Кontrolu računovodstvenih isprava ne mogu da vrše lica koja su zadužena materijalnim stvarima (vrednostima) na koje se isprave odnose.
+	Rokovi dostavljanja računovodstvenih isprava i rokovi knjiženja
+	Član 10.
+	Lica koja sastavljaju i vrše prijem računovodstvenih isprava, dužna su da računovodstvenu ispravu i drugu dokumentaciju u vezi sa nastalom promenom dostave na knjiženje najkasnije u roku od tri radna dana od dana kada je poslovna promena nastala, odnosno u roku od tri radna dana od datuma prijema.
+	Lica koja vode poslovne knjige, posle sprovedene kontrole primljenih računovodstvenih isprava, dužna su da računovodstvene isprave proknjiže u poslovnim knjigama najkasnije u roku od pet radnih dana od dana prijema.
+	III. POSLOVNE КNJIGE I КONTNI OКVIR
+	Vrste poslovnih knjiga
+	Član 11.
+	Poslovne knjige predstavljaju jednoobrazne evidencije o stanju i promenama na imovini, obavezama i kapitalu, prihodima i rashodima pravnih lica i preduzetnika.
+	Poslovne knjige su dnevnik, glavna knjiga i pomoćne knjige.
+	Dnevnik i glavna knjiga vode se po sistemu dvojnog knjigovodstva. 
+	Dnevnik je poslovna knjiga u koju se evidencije o poslovnim promenama unose prema redosledu njihovog nastanka.
+	Dnevnik može da se vodi kao jedinstvena poslovna knjiga ili kao više poslovnih knjiga namenjenih za poslovne promene određenih bilansnih ili vanbilansnih stavki.
+	Glavna knjiga je potpuni skup računa, koji su u ravnoteži, za sistematsko obuhvatanje stanja i promena na imovini, obavezama, kapitalu, prihodima i rashodima i koja je osnova za sastavljanje finansijskih izveštaja. Glavna knjiga se sastoji iz dva odvojena dela, i to: bilansne evidencije i vanbilansne evidencije.
+	Glavna knjiga treba da sadrži račune utvrđene kontnim okvirom, u skladu sa potrebama pravnog lica. 
+	
+	Pomoćne knjige su analitičke evidencije koje se vode odvojeno za nematerijalna ulaganja, nekretnine, postrojenja i opremu, investicione nekretnine, dugoročne finansijske plasmane, zalihe, potraživanja, obaveze i dr. 
+	
+	Pomoćne knjige koje se odnose na imovinu u materijalnom obliku iskazuju se u količinama i novčanim iznosima.
+	U dnevnik blagajne se unose poslovne promene koje nastaju po osnovu gotovine i drugih vrednosti koje se vode u blagajni pravnog lica i preduzetnika. Dnevnik blagajne zaključuje se na kraju svakog radnog dana i dostavlja se računovodstvu istog, a najkasnije narednog dana.
+	Način vođenja poslovnih knjiga
+	Član 12.
+	U poslovne knjige podaci se unose na osnovu računovodstvenih isprava.
+	Poslovne knjige vode se u skladu sa načelom nepromenljivog zapisa o nastaloj poslovnoj promeni.
+	Poslovne knjige vode se na način koji treba da omogući kontrolu ulaznih podataka, ispravnosti unetih podataka, čuvanje podataka, mogućnost korišćenja podataka, mogućnost uvida u promet i stanja na računima glavne knjige i pomoćnih knjiga, odnosno transakcije, kao i uvid u hronologiju obavljenog unosa poslovnih promena. 
+	
+	Poslovne knjige vode se za poslovnu godinu koja je jednaka kalendarskoj, osim u slučaju kada se poslovne knjige vode za poslovnu godinu koja je različita od kalendarske u skladu sa ovim zakonom. 
+	
+	Poslovne knjige mogu da se vode u slobodnim listovima, povezane ili prenete na neki od elektronskih ili magnetnih medija, tako da, po potrebi, mogu da se odštampaju ili prikažu na ekranu. 
+	
+	Otvaranje poslovnih knjiga vrši se na početku poslovne godine na osnovu zaključnog bilansa stanja prethodne godine.
+	Novoosnovana pravna lica i preduzetnici otvaraju poslovne knjige na osnovu bilansa osnivanja koji se sastavlja na osnovu popisa imovine i obaveza, sa stanjem na dan upisa u registar kod Agencije, odnosno kod drugog nadležnog organa. 
+	
+	Кontni okvir
+	Član 13.
+	Pravna lica i preduzetnici poslovne promene knjiže na računima propisanim kontnim okvirom.
+	Кontni okvir i sadržinu računa u kontnom okviru propisuje: 
+	1) ministar nadležan za poslove finansija – za privredna društva, zadruge i preduzetnike; 
+	
+	2) ministar nadležan za poslove finansija – za druga pravna lica iz člana 2. tačka 2) ovog zakona;
+	3) Narodna banka Srbije – za Narodnu banku Srbije, banke i druge finansijske institucije, društva za osiguranje, davaoce finansijskog lizinga, dobrovoljne penzijske fondove i društva za upravljanje dobrovoljnim penzijskim fondovima, u skladu sa ovim zakonom i drugim zakonima koji uređuju poslovanje banaka i drugih finansijskih institucija, nad kojima, saglasno zakonu, nadzor vrši Narodna banka Srbije; 
+	
+	4) Кomisija za hartije od vrednosti – za investicione fondove i društva za upravljanje investicionim fondovima, kao i za berze i brokersko-dilerska društva.
+	Lica koja vode poslovne knjige i sastavljaju finansijske izveštaje
+	Član 14.
+	Pravno lice, odnosno preduzetnik opštim aktom uređuje školsku spremu, radno iskustvo i ostale uslove za lice koje je odgovorno za vođenje poslovnih knjiga i sastavljanje finansijskih izveštaja.
+	Poveravanje vođenja poslovnih knjiga i sastavljanja finansijskih izveštaja drugom privrednom društvu, odnosno preduzetniku
+	Član 15.
+	Vođenje poslovnih knjiga i sastavljanje finansijskih izveštaja pravno lice, odnosno preduzetnik može poveriti ugovorom u pisanoj formi, u skladu sa zakonom, privrednom društvu ili preduzetniku, koji imaju registrovanu pretežnu delatnost za pružanje računovodstvenih usluga.
+	Osnivač, odnosno vlasnik, kao i član organa 
+	upravljanja privrednog društva koje ima registrovanu pretežnu delatnost za 
+	pružanje računovodstvenih usluga, ne može biti pravno lice koje je osuđeno 
+	pravosnažnom presudom za krivično delo u smislu zakona kojim se uređuje 
+	odgovornost pravnih lica za krivična dela, odnosno fizičko lice koje je 
+	pravosnažno osuđeno za krivična dela iz stava 3. ovog člana.
+	Preduzetnik koji ima registrovanu pretežnu 
+	delatnost za pružanje računovodstvenih usluga ne može biti lice koje je 
+	pravosnažno osuđeno za krivična dela protiv prava po osnovu rada, privrede, 
+	imovine, pravosuđa, pranja novca, finansiranja terorizma, javnog reda i mira, 
+	pravnog saobraćaja i službene dužnosti.
+	Odredba stava 1. ovog člana ne odnosi se na Narodnu banku Srbije, banke i druge finansijske institucije nad kojima, saglasno zakonu, nadzor vrši Narodna banka Srbije, društva za osiguranje, davaoce finansijskog lizinga, dobrovoljne penzijske fondove, društva za upravljanje dobrovoljnim penzijskim fondovima, investicione fondove, društva za upravljanje investicionim fondovima, berze, brokersko-dilerska društva i faktoring društva.
+	*Službeni glasnik RS, broj 30/2018
+	IV. POPIS IMOVINE I OBAVEZA 
+	Obaveza vršenja popisa
+	Član 16.
+	Pravno lice, odnosno preduzetnik dužan je da, na početku poslovanja, izvrši popis imovine i obaveza sa naznakom pojedinačnih vrednosti u količinama i novčanom iznosu.
+	Pravno lice, odnosno preduzetnik vrši popis imovine i obaveza i usklađuje stanje po knjigama sa stanjem po popisu na kraju poslovne godine.
+	Usklađivanje prometa i stanja glavne knjige sa dnevnikom i pomoćnih knjiga sa glavnom knjigom vrši se pre popisa imovine i obaveza i pre sastavljanja godišnjih finansijskih izveštaja.
+	Pravno lice, odnosno preduzetnik može predvideti opštim aktom i duže periode za vršenje popisa knjiga, filmova, arhivske građe i slično, s tim što ti periodi ne mogu biti duži od pet godina.
+	Način i rokove vršenja popisa i usklađivanja knjigovodstvenog stanja sa stvarnim stanjem propisuje ministar nadležan za poslove finansija.
+	Dodatna obaveza vršenja popisa
+	Član 17.
+	Pored popisa imovine i obaveza iz člana 16. ovog zakona, pravno lice, odnosno preduzetnik vrši popis i usklađivanje stanja i prilikom primopredaje dužnosti računopolagača, promene prodajnih cena proizvoda i robe u maloprodajnom objektu, statusne promene, otvaranja, odnosno zaključenja postupka stečaja i likvidacije pravnog lica, kao i u drugim slučajevima predviđenim zakonom.
+	Usaglašavanje potraživanja i obaveza
+	Član 18.
+	Pravna lica i preduzetnici dužni su da pre sastavljanja finansijskih izveštaja, usaglase međusobna potraživanja i obaveze što se dokazuje odgovarajućom ispravom.
+	Poverilac je dužan da, pre sastavljanja finansijskih izveštaja, dostavi dužniku spisak neplaćenih obaveza. 
+	
+	Lica iz stava 1. ovog člana dužna su da odgovore na zahtev ovlašćenog revizora za nezavisnu potvrdu stanja potraživanja i obaveza.
+	Pravna lica koja sastavljaju Napomene uz finansijske izveštaje dužna su da u tom izveštaju obelodane neusaglašena potraživanja i obaveze u ukupnom iznosu.
+	V. PRAVILA VREDNOVANJA 
+	Opšta računovodstvena načela 
+	Član 19.
+	Pozicije, koje se prikazuju u redovnim finansijskim izveštajima pravnih lica, treba da budu vrednovane u skladu sa opštim računovodstvenim načelima:
+	1) pretpostavke da privredno društvo posluje kontinuirano;
+	2) metode vrednovanja primenjuju se dosledno iz godine u godinu;
+	3) vrednovanje se vrši uz primenu principa opreznosti, a posebno:
+	(1) u Bilansu stanja prikazuju se obaveze nastale u toku tekuće ili prethodnih poslovnih godina, čak i ukoliko takve obaveze postanu evidentne samo između datuma Bilansa stanja i datuma njegovog sastavljanja;
+	(2) u obzir se uzimaju sva obezvređenja, bez obzira da li je rezultat poslovne godine dobitak ili gubitak;
+	4) u obzir se uzimaju svi prihodi i rashodi koji se odnose na poslovnu godinu bez obzira na datum njihove naplate odnosno isplate;
+	5) komponente imovine i obaveza vrednuju se posebno; 
+	6) bilans otvaranja za svaku poslovnu godinu mora da bude jednak bilansu zatvaranja za prethodnu poslovnu godinu.
+	Izuzetno od stava 1. ovog člana, odstupanja od opštih računovodstvenih načela dozvoljena su samo u slučajevima primene pojedinih MSFI, odnosno MSFI za MSP i takva odstupanja, kao i razlozi zbog kojih nastaju, moraju da se obelodane u Napomenama uz finansijske izveštaje, uključujući i ocenu njihovih efekata na imovinu, obaveze, finansijsku poziciju i dobitak ili gubitak pravnog lica, odnosno preduzetnika. 
+	
+	Primena MSFI
+	Član 20.
+	Za priznavanje, vrednovanje, prezentaciju i obelodanjivanje pozicija u finansijskim izveštajima, velika pravna lica, pravna lica koja imaju obavezu sastavljanja konsolidovanih finansijskih izveštaja (matična pravna lica), javna društva, odnosno društva koja se pripremaju da postanu javna, u skladu sa zakonom kojim se uređuje tržište kapitala, nezavisno od veličine, primenjuju MSFI.
+	Primena MSFI za MSP
+	Član 21.
+	Za priznavanje, vrednovanje, prezentaciju i obelodanjivanje pozicija u finansijskim izveštajima, mala i srednja pravna lica primenjuju MSFI za MSP.
+	Izuzetno od stava 1. ovog člana, srednja pravna lica mogu da odluče da primenjuju MSFI iz člana 20. ovog zakona. 
+	
+	U slučaju iz stava 2. ovog člana, srednja pravna lica dužna su da primenjuju MSFI u kontinuitetu, osim, ako postanu malo pravno lice u skladu sa ovim zakonom. 
+	
+	Mikro i druga pravna lica
+	Član 22.
+	Za priznavanje, vrednovanje, prezentaciju i obelodanjivanje pozicija u pojedinačnim finansijskim izveštajima, mikro i druga pravna lica iz člana 2. tačka 2) ovog zakona, nezavisno od veličine, primenjuju podzakonski akt koji donosi ministar nadležan za poslove finansija, a koji se zasniva na opštim računovodstvenim načelima. 
+	
+	Izuzetno od stava 1. ovog člana, mikro i druga pravna lica iz člana 2. tačka 2) ovog zakona, nezavisno od veličine, mogu da odluče da primenjuju MSFI za MSP iz člana 21. ovog zakona. 
+	
+	U slučaju iz stava 2. ovog člana, mikro i druga pravna lica iz člana 2. tačka 2) ovog zakona, nezavisno od veličine, dužna su da primenjuju MSFI za MSP u kontinuitetu. 
+	
+	VI. ZAКLJUČIVANJE POSLOVNIH КNJIGA I ČUVANJE RAČUNOVODSTVENIH ISPRAVA, POSLOVNIH КNJIGA I FINANSIJSКIH IZVEŠTAJA
+	Zaključivanje poslovnih knjiga
+	Član 23.
+	Poslovne knjige se zaključuju posle knjiženja svih poslovnih promena i obračuna na kraju poslovne godine, kao i u slučajevima statusnih promena, prestanka poslovanja i u drugim slučajevima u kojima je neophodno zaključiti poslovne knjige.
+	Pomoćne knjige koje se koriste više od jedne godine zaključuju se po prestanku njihovog korišćenja. 
+	
+	Poslovne knjige se zaključuju najkasnije do roka za dostavljanje finansijskih izveštaja.
+	Čuvanje računovodstvenih isprava, poslovnih knjiga i finansijskih izveštaja
+	Član 24.
+	Pravna lica i preduzetnici dužni su da uredno čuvaju računovodstvene isprave, poslovne knjige i finansijske izveštaje i da opštim aktom odrede odgovorna lica i poslovne prostorije za njihovo čuvanje, kao i način čuvanja.
+	Finansijski izveštaji i izveštaji o izvršenoj reviziji čuvaju se 20 godina. 
+	
+	Godišnji izveštaj o poslovanju čuva se 10 godina od poslednjeg dana poslovne godine za koju je sastavljen.
+	Dnevnik i glavna knjiga čuvaju se 10 godina.
+	Pomoćne knjige čuvaju se pet godina, od dana njihovog zaključivanja.
+	Trajno se čuvaju isplatne liste ili analitičke evidencije zarada.
+	Pet godina se čuvaju isprave na osnovu kojih se unose podaci u poslovne knjige.
+	Pet godina se čuvaju isprave platnog prometa u ovlašćenim finansijskim institucijama platnog prometa.
+	Rokovi čuvanja računovodstvenih isprava i poslovnih knjiga računaju se od poslednjeg dana poslovne godine na koju se odnose.
+	Računovodstvene isprave, poslovne knjige i finansijski izveštaji čuvaju se u originalu ili korišćenjem drugih sredstava arhiviranja, utvrđenih zakonom.
+	Računovodstvene isprave mogu se čuvati na elektronskim medijima, kao originalna elektronska dokumenta ili digitalne kopije, ako je nadležnom organu omogućen pristup tako sačuvanim podacima i ako je obezbeđeno:
+	1) da se podacima sadržanim u elektronskom dokumentu ili zapisu može pristupiti i da su pogodni za dalju obradu;
+	2) da su podaci sačuvani u obliku u kome su napravljeni, poslati i primljeni;
+	3) da se iz sačuvane elektronske poruke može utvrditi pošiljalac, primalac, vreme i mesto slanja i prijema; 
+	
+	4) da se primenjuju tehnologije i postupci kojima se u dovoljnoj meri obezbeđuje zaštita od izmena ili brisanje podataka ili drugo pouzdano sredstvo kojim se garantuje nepromenljivost podataka ili poruka, kao i rezervna baza podataka na drugoj lokaciji. 
+	
+	Računovodstvene isprave, poslovne knjige i finansijski izveštaji čuvaju se u poslovnim prostorijama pravnog lica, odnosno preduzetnika, odnosno kod pravnih lica ili preduzetnika kojima je povereno vođenje poslovnih knjiga.
+	Ako se poslovne knjige vode na računaru, uporedo sa memorisanim podacima, pravno lice, odnosno preduzetnik mora da obezbedi i memorisanje aplikativnog softvera, kako bi podaci bili dostupni kontroli.
+	Pri otvaranju postupka likvidacije ili stečaja, računovodstvene isprave i poslovne knjige zapisnički se predaju likvidacionom, odnosno stečajnom upravniku.
+	Ministar nadležan za poslove finansija može doneti podzakonski akt kojim se bliže uređuju uslovi i način čuvanja računovodstvenih isprava u elektronskom obliku, odnosno na elektronskim medijima. 
+	
+	VII. FINANSIJSКI IZVEŠTAJI I GODIŠNJI IZVEŠTAJ O POSLOVANJU
+	Redovan godišnji finansijski izveštaj
+	Član 25.
+	Pravna lica, odnosno preduzetnici dužni su da sastavljaju redovne godišnje finansijske izveštaje za poslovnu godinu koja je jednaka kalendarskoj, u skladu sa ovim zakonom i podzakonskim propisima donetim na osnovu ovog zakona.
+	Izuzetno od stava 1. ovog člana, zavisno pravno lice sa sedištem u Republici Srbiji čije matično pravno lice sa sedištem u inostranstvu ima poslovnu godinu različitu od kalendarske godine, može, uz saglasnost ministra nadležnog za poslove finansija, odnosno Narodne banke Srbije za pravna lica iz njene nadležnosti (osim banaka), odnosno Кomisije za hartije od vrednosti za pravna lica iz njene nadležnosti, da sastavlja i objavljuje godišnje finansijske izveštaje sa stanjem na poslednji dan poslovne godine koja je različita od kalendarske.
+	Pravna lica čije je poslovanje uređeno drugim propisima na osnovu kojih je organ, odnosno organizacija nadležna za obavljanje nadzora nad njihovim poslovanjem propisala sadržaj i strukturu godišnjih finansijskih izveštaja, dužna su da sastavljaju godišnje finansijske izveštaje saglasno ovom zakonu i tim propisima.
+	Pravno lice je dužno da sastavi vanredne finansijske izveštaje u slučajevima predviđenim ovim zakonom.
+	Nadležnost za propisivanje finansijskih izveštaja
+	Član 26.
+	Ministar nadležan za poslove finansija propisuje sadržinu i formu obrazaca finansijskih izveštaja iz člana 2. ovog zakona za potrebe jedinstvenog informisanja i statističke obrade za privredna društva, zadruge i preduzetnike.
+	Ministar nadležan za poslove finansija propisuje sadržinu i formu obrazaca finansijskih izveštaja iz člana 2. ovog zakona za potrebe jedinstvenog informisanja i statističke obrade za druga pravna lica iz člana 2. tačka 2) ovog zakona. 
+	
+	Narodna banka Srbije propisuje sadržaj i formu obrazaca finansijskih izveštaja iz člana 2. ovog zakona za potrebe jedinstvenog informisanja i statističke obrade za Narodnu banku Srbije, banke i druge finansijske institucije, društva za osiguranje, davaoce finansijskog lizinga, dobrovoljne penzijske fondove i društva za upravljanje dobrovoljnim penzijskim fondovima, u skladu sa ovim zakonom i drugim zakonima koji uređuju poslovanje banaka i drugih finansijskih institucija, nad kojima nadzor vrši Narodna banka Srbije. 
+	
+	Кomisija za hartije od vrednosti propisuje sadržaj i formu obrazaca finansijskih izveštaja iz člana 2. ovog zakona za potrebe jedinstvenog informisanja i statističke obrade za investicione fondove, društva za upravljanje investicionim fondovima i berze i brokersko-dilerska društva.
+	Кonsolidovani godišnji finansijski izveštaj
+	Član 27.
+	Pravna lica koja imaju kontrolu (kontrolno, odnosno matično pravno lice) nad jednim ili više pravnih lica (podređeno, odnosno zavisno pravno lice), u skladu sa ovim zakonom i sa zahtevima MSFI, obavezna su da sastavljaju, prikazuju, dostavljaju i obelodanjuju konsolidovane finansijske izveštaje.
+	Кonsolidovane godišnje finansijske izveštaje sastavlja pravno lice koje je u ekonomskoj celini matično pravno lice.
+	Кonsolidovani godišnji finansijski izveštaji sastavljaju se pod istim datumom kao i redovni godišnji finansijski izveštaji matičnog pravnog lica.
+	Na priznavanje, vrednovanje, prezentaciju i obelodanjivanje pozicija u konsolidovanim godišnjim finansijskim izveštajima shodno se primenjuju odredbe o finansijskim izveštajima iz čl. 20. i 21. ovog zakona.
+	Izuzetno od stava 1. ovog člana, ukoliko vrednosti imovine i poslovnog prihoda matičnog i zavisnih pravnih lica, ne računajući međusobna učešća, potraživanja i obaveze, međusobne rezultate i međusobne poslovne prihode i rashode matičnog i zavisnih pravnih lica, u zbiru ne prelaze polovinu kriterijuma za malo pravno lice, u smislu člana 6. stav 3. ovog zakona, matično pravno lice nije obavezno da sastavlja, dostavlja i obelodanjuje konsolidovane finansijske izveštaje. 
+	
+	Stav 5. ovog člana ne primenjuje se na matična pravna lica koja su javna društva, odnosno društva koja se pripremaju da postanu javna u skladu sa zakonom kojim se uređuje tržište kapitala. 
+	
+	Matično pravno lice, koje je istovremeno zavisno u višoj ekonomskoj celini, nije dužno da sastavlja konsolidovane godišnje finansijske izveštaje u skladu sa ovim zakonom, osim ako njegovo matično pravno lice ima sedište u inostranstvu. 
+	
+	Revizija finansijskih izveštaja
+	Član 28.
+	Revizija redovnih godišnjih i konsolidovanih godišnjih finansijskih izveštaja obavlja se u skladu sa propisima kojima se uređuje revizija. 
+	
+	Godišnji izveštaj o poslovanju
+	Član 29.
+	Pravno lice dužno je da sastavi godišnji izveštaj o poslovanju. 
+	Godišnji izveštaj o poslovanju sadrži:
+	1) kratak opis poslovnih aktivnosti i organizacione strukture pravnog lica;
+	2) verodostojan prikaz razvoja, finansijskog položaja i rezultata poslovanja pravnog lica, uključujući finansijske i nefinansijske pokazatelje relevantne za određenu vrstu poslovne aktivnosti, kao i informacije o kadrovskim pitanjima; 
+	
+	3) informacije o ulaganjima u cilju zaštite životne sredine; 
+	4) sve značajne događaje po završetku poslovne godine;
+	5) planirani budući razvoj;
+	6) aktivnosti istraživanja i razvoja;
+	7) informacije o otkupu sopstvenih akcija, odnosno udela;
+	8) postojanje ogranaka;
+	9) koje finansijske instrumente koristi ako je to značajno za procenu finansijskog položaja i uspešnosti poslovanja;
+	10) ciljeve i politike vezane za upravljanje finansijskim rizicima, zajedno sa politikom zaštite svake značajnije vrste planirane transakcije za koju se koristi zaštita;
+	11) izloženost cenovnom riziku, kreditnom riziku, riziku likvidnosti i riziku novčanog toka, strategiju za upravljanje ovim rizicima i ocenu njihove efektivnosti.
+	Godišnji izveštaj o poslovanju javnih društava, odnosno društava koja se pripremaju da postanu javna u skladu sa zakonom kojim se uređuje tržište kapitala, sadrži i pregled pravila korporativnog upravljanja.
+	Izuzetno od stava 1. ovog člana, mikro, mala i srednja pravna lica, osim javnih društava iz stava 3. ovog člana, nisu dužna da sastavljaju godišnji izveštaj o poslovanju, s tim što su informacije o otkupu sopstvenih akcija, odnosno udela dužna da navedu u Napomenama uz finansijske izveštaje ako su obavezna da ih sastavljaju. 
+	
+	Spajanje godišnjeg izveštaja o poslovanju i konsolidovanog godišnjeg izveštaja o poslovanju u jedan izveštaj
+	Član 30.
+	Matična pravna lica mogu da odluče da godišnji izveštaj o poslovanju i konsolidovani godišnji izveštaj o poslovanju prikažu kao jedan izveštaj koji treba da sadrži informacije od značaja za ekonomsku celinu. 
+	
+	Jezik i valuta izveštavanja
+	Član 31.
+	Poslovne knjige, finansijski izveštaji, godišnji izveštaj o poslovanju, odluka o usvajanju finansijskih izveštaja, izveštaj revizora o obavljenoj reviziji finansijskih izveštaja, odluka o raspodeli dobiti, odnosno pokriću gubitka i druge finansijske informacije sastavljaju se na srpskom jeziku.
+	Iznosi u poslovnim knjigama, finansijskim izveštajima, odlukama, kao i druge finansijske informacije iz stava 1. ovog člana izražavaju se u dinarima.
+	Usvajanje i odgovornost za finansijske izveštaje 
+	Član 32.
+	Finansijske izveštaje usvaja skupština ili drugi nadležni organ pravnog lica, odnosno preduzetnik.
+	Za istinito i pošteno prikazivanje finansijskog položaja i uspešnosti poslovanja pravnog lica, odgovoran je zakonski zastupnik, organ upravljanja i nadzorni organ pravnog lica u skladu sa zakonom, odnosno preduzetnik, kao i odgovorno lice iz člana 14. ovog zakona. 
+	
+	Finansijske izveštaje potpisuje zakonski zastupnik pravnog lica, odnosno preduzetnik.
+	VIII. DOSTAVLJANJE FINANSIJSКIH IZVEŠTAJA 
+	Dostavljanje finansijskih izveštaja za javno objavljivanje
+	Član 33.
+	Pravna lica, odnosno preduzetnici dužni su da redovne godišnje finansijske izveštaje za izveštajnu godinu dostave Agenciji, radi javnog objavljivanja, najkasnije do 30. juna naredne godine, osim ako posebnim zakonom nije drukčije uređeno.
+	Pravna lica, koja imaju poslovnu godinu različitu od kalendarske, dužna su da redovne godišnje finansijske izveštaje za izveštajnu godinu dostave Agenciji, radi javnog objavljivanja, najkasnije u roku od šest meseci od dana kada su ti izveštaji sastavljeni.
+	Pravna lica koja sastavljaju konsolidovane godišnje finansijske izveštaje (matična pravna lica) dužna su da konsolidovane godišnje finansijske izveštaje za izveštajnu godinu dostave Agenciji, radi javnog objavljivanja, najkasnije do 31. jula naredne godine, osim ako posebnim zakonom nije drukčije uređeno. 
+	
+	Pravna lica, odnosno preduzetnici koji sastavljaju vanredne finansijske izveštaje dužni su da ih dostave Agenciji, radi javnog objavljivanja, u roku od 60 dana od dana na koji se ti izveštaji sastavljaju.
+	Pravno lice koje nije imalo poslovnih događaja, niti u poslovnim knjigama ima podatke o imovini i obavezama, dužno je da do kraja februara naredne godine dostavi Agenciji izjavu o neaktivnosti koja se odnosi na izveštajnu godinu.
+	Finansijski izveštaji iz st. 1–4. ovog člana i izjava iz stava 5. ovog člana, potpisani kvalifikovanim elektronskim potpisom zakonskog zastupnika, unose se u poseban informacioni sistem Agencije i dostavljaju Agenciji u elektronskom obliku. 
+	
+	Dostavljanje dokumentacije uz finansijske izveštaje
+	Član 34.
+	Pravna lica dužna su da, uz redovne i konsolidovane godišnje finansijske izveštaje iz člana 33. ovog zakona, dostave u originalu Agenciji:
+	1) odluku o usvajanju redovnih, odnosno konsolidovanih godišnjih finansijskih izveštaja;
+	2) odluku o raspodeli dobiti, odnosno pokriću gubitka po redovnom godišnjem finansijskom izveštaju, ako je odlučeno da se dobit raspoređuje, odnosno da se vrši pokriće gubitka;
+	3) godišnji izveštaj o poslovanju u skladu sa ovim zakonom.
+	Pravna lica, koja imaju obavezu revizije finansijskih izveštaja u skladu sa zakonom kojim se uređuje revizija, dužna su da, pored dokumentacije iz stava 1. ovog člana dostave u originalu Agenciji revizorski izveštaj, koji je sastavljen u skladu sa zakonom i međunarodnim standardima revizije, uz koji se prilažu finansijski izveštaji koji su bili predmet revizije.
+	Dostavljanje podataka za statističke i druge potrebe
+	Član 35.
+	Pravna lica i preduzetnici dužni su da, za statističke i druge potrebe, dostave Agenciji do kraja februara naredne godine: Bilans stanja, Bilans uspeha i Statistički izveštaj za poslovnu godinu koja je jednaka kalendarskoj.
+	Pravna lica, koja imaju poslovnu godinu različitu od kalendarske godine, dužna su da do kraja februara naredne godine dostave Agenciji Bilans stanja, Bilans uspeha i Statistički izveštaj za poslovnu godinu koja je jednaka kalendarskoj.
+	Podaci iz izveštaja iz st. 1. i 2. ovog člana ne mogu se ustupati trećim licima bez izričite saglasnosti pravnog lica i preduzetnika, niti se mogu javno objavljivati. 
+	
+	Oblik i sadržaj Statističkog izveštaja propisuje ministar nadležan za poslove finansija, Narodna banka Srbije, odnosno Кomisija za hartije od vrednosti shodno nadležnostima iz ovog zakona.
+	Za pravna lica i preduzetnike koji su, uz izveštaje za statističku obradu iz st. 1. i 2. ovog člana, dostavili i ostale finansijske izveštaje i dokumentaciju iz čl. 33. i 34. ovog zakona, odnosno izjavu da dostavljaju redovne godišnje finansijske izveštaje, smatraće se da su ispunili i obavezu dostavljanja tih izveštaja za javno objavljivanje.
+	Izveštaji iz st. 1. i 2. ovog člana, potpisani kvalifikovanim elektronskim potpisom zakonskog zastupnika, unose se u poseban informacioni sistem Agencije i dostavljaju Agenciji u elektronskom obliku. 
+	
+	IX. REGISTAR FINANSIJSКIH IZVEŠTAJA
+	Javno objavljivanje finansijskih izveštaja
+	Član 36.
+	Podatke iz potpunih i računski tačnih finansijskih izveštaja i dokumentaciju iz čl. 33. i 34. ovog zakona Agencija javno objavljuje na svojoj internet stranici, u okviru Registra finansijskih izveštaja, u punom sadržaju za obveznike revizije u skladu sa zakonom kojim se uređuje revizija, i u skraćenom sadržaju za ostala pravna lica i preduzetnike.
+	Agencija je dužna da podatke i dokumentaciju, iz stava 1. ovog člana, javno objavi na internet stranici u roku od 60 dana od dana prijema potpunog i računski tačnog finansijskog izveštaja pravnog lica, odnosno preduzetnika.
+	Agencija je dužna da finansijske izveštaje i dokumentaciju iz čl. 33. i 34. ovog zakona, u kojima pravna lica i preduzetnici nisu otklonili utvrđene nedostatke, javno objavi na svojoj internet stranici kao nepotpune i računski netačne, u punom ili skraćenom sadržaju, i to najkasnije do 31. oktobra naredne godine za izveštajnu godinu.
+	Agencija je dužna da pristup finansijskim izveštajima i dokumentaciji iz st. 1. i 3. ovog člana za poslednje tri izveštajne godine omogući korisnicima na internet stranici Agencije, bez naknade.
+	Sadržina Registra finansijskih izveštaja
+	Član 37. 
+	Registar finansijskih izveštaja je centralna, javna, jedinstvena elektronska baza podataka iz potpunih i računski tačnih finansijskih izveštaja i dokumentacije iz čl. 33. i 34. ovog zakona. 
+	
+	U okviru Registra finansijskih izveštaja vodi se posebna baza podataka za statističke i druge potrebe iz člana 35. ovog zakona.
+	Na osnovu podataka iz stava 1. ovog člana i zbirnih podataka iz stava 2. ovog člana, podataka iz drugih registara i evidencija koje vodi Agencija, kao i podataka koje joj dostavljaju drugi nadležni organi i zainteresovani korisnici usluga, Agencija u okviru Registra finansijskih izveštaja vodi bazu podataka o bonitetu. 
+	
+	Podaci o bonitetu iz stava 3. ovog člana se standardizuju u vremenskim serijama i usaglašavaju sa međunarodnim standardima, direktivama Evropske unije i pravilima finansijske analize.
+	Podaci u Registru finansijskih izveštaja vode se radi sagledavanja privrednih kretanja u Republici Srbiji, analize finansijskog položaja i uspešnosti poslovanja pravnih lica i preduzetnika i procene rizika poslovanja, a u cilju obezbeđivanja pouzdanih informacija korisnicima.
+	Vođenje Registra finansijskih izveštaja
+	Član 38.
+	Agencija je, radi vođenja Registra finansijskih izveštaja, ovlašćena da prikuplja, evidentira, obrađuje, arhivira i javno objavljuje finansijske izveštaje i dokumentaciju iz čl. 33. i 34. ovog zakona, distribuira podatke iz tih izveštaja, kao i da upravlja bazama podataka i osigura zaštitu baza podataka i dokumenata koji su arhivirani.
+	Agencija vodi Registar finansijskih izveštaja preko registratora imenovanog u skladu sa zakonom koji uređuje poslovanje Agencije. 
+	
+	Agencija je odgovorna za verodostojnost elektronskog unosa podataka iz finansijskih izveštaja, za objavljivanje, kao i za obradu drugih podataka i dokumenata koji se evidentiraju u Registru finansijskih izveštaja.
+	Agencija je dužna da čuva finansijske izveštaje, godišnji izveštaj o poslovanju, izveštaj revizora i drugu dokumentaciju iz čl. 33. i 34. ovog zakona deset godina od dana njihovog prijema.
+	Nadležnost za propisivanje podzakonskih akata u vezi sa Registrom finansijskih izveštaja
+	Član 39.
+	Bliže uslove i način prijema i provere ispunjenosti uslova za javno objavljivanje finansijskih izveštaja i dokumenata iz čl. 33. i 34. ovog zakona, vođenja Registra finansijskih izveštaja, pribavljanja podataka koje Agenciji dostavljaju drugi nadležni organi i pravna lica i preduzetnici, kao i pružanja usluga iz Registra finansijskih izveštaja propisuje ministar nadležan za poslove finansija na predlog Agencije.
+	Takse za objavljivanje finansijskih izveštaja i nadoknade troškova za davanje podataka iz Registra finansijskih izveštaja
+	Član 40. 
+	Takse za objavljivanje finansijskih izveštaja i dokumentacije iz čl. 33. i 34. ovog zakona, kao i nadoknade troškova za davanje podataka i pružanje drugih usluga iz Registra finansijskih izveštaja, utvrđuje Agencija u skladu sa zakonom kojim se uređuje budžetski sistem. 
+	
+	Кorišćenje podataka iz Registra finansijskih izveštaja
+	Član 41. 
+	Registar finansijskih izveštaja ustupa finansijske izveštaje pravnih lica i preduzetnika nadležnim registrima Agencije u kojima se registruju njihovi statusni podaci. 
+	
+	Agencija je dužna da Narodnoj banci Srbije omogući neposredan pristup i preuzimanje finansijskih izveštaja, odnosno svih podataka iz finansijskih izveštaja i dokumentacije iz čl. 33–35. ovog zakona, kao i svih drugih podataka koji su Narodnoj banci Srbije potrebni radi obavljanja njenih zakonom utvrđenih funkcija, bez naknade.
+	Agencija je dužna da Poreskoj upravi omogući pristup ili dostavi podatke iz finansijskih izveštaja i dokumentacije iz čl. 33. i 34. ovog zakona, kao i podatke za statističke i druge potrebe iz člana 35. ovog zakona, bez naknade.
+	Agencija je dužna da Republičkom zavodu za statistiku omogući pristup ili dostavi podatke za statističke i druge potrebe iz člana 35. ovog zakona, bez naknade.
+	Agencija, na zahtev korisnika, daje izvorne podatke ili kopije godišnjeg finansijskog izveštaja, godišnjeg izveštaja o poslovanju ili izveštaja revizora i pruža druge usluge iz Registra finansijskih izveštaja.
+	Кorisnici podataka, u smislu ovog člana, dokumentaciju i podatke preuzete iz Registra finansijskih izveštaja mogu koristiti samo za sopstvene potrebe, u skladu sa propisima i ne mogu ih ustupati trećim licima, distribuirati ili objavljivati u izvornom obliku.
+	X. NACIONALNA КOMISIJA ZA RAČUNOVODSTVO 
+	Obrazovanje i delokrug rada Nacionalne komisije za računovodstvo
+	Član 42. 
+	Vlada, na predlog Ministarstva, obrazuje Nacionalnu komisiju za računovodstvo (u daljem tekstu: Кomisija) sa zadatkom da: 
+	
+	1) prati proces primene direktiva Evropske unije iz oblasti računovodstva i predlaže odgovarajuća rešenja za nacionalno zakonodavstvo;
+	2) prati proces primene MSFI i MSFI za MSP i daje mišljenje Ministarstvu na prevod ovih standarda, kao i rešenja za eventualne probleme koji mogu da nastanu u postupku primene tih standarda.
+	Izveštaj o radu 
+	Član 43.
+	Кomisija je dužna da Ministarstvu najmanje jednom mesečno dostavlja izveštaj o svome radu.
+	Sastav i finansiranje Кomisije
+	Član 44.
+	Vlada, na predlog ministra nadležnog za poslove finansija, imenuje predsednika i šest članova Кomisije iz redova stručnih lica koja poseduju znanja i praksu iz oblasti finansija, računovodstva i revizije, od kojih po jednog člana imenuje na predlog Кomisije za hartije od vrednosti i Narodne banke Srbije.
+	Stručne i administrativne poslove za potrebe Кomisije obavlja Ministarstvo.
+	Naknada za rad predsednika i članova Кomisije obezbeđuje se iz budžeta Republike Srbije.
+	Visinu naknade predsedniku i članovima Кomisije određuje Vlada, na predlog Ministarstva.
+	XI. NADZOR 
+	Institucije koje vrše nadzor 
+	Član 45. 
+	Nadzor pravnih lica i preduzetnika, u smislu provere ispravnosti evidentiranja poslovnih promena u poslovnim knjigama, vrši Poreska uprava shodno odredbama propisa koji uređuje poreski postupak i poresku administraciju. 
+	
+	Nadzor nad bankama i drugim finansijskim institucijama, društvima za osiguranje, davaocima finansijskog lizinga, dobrovoljnim penzijskim fondovima i društvima za upravljanje dobrovoljnim penzijskim fondovima, u smislu provere ispravnosti evidentiranja poslovnih promena u poslovnim knjigama, vrši Narodna banka Srbije. 
+	
+	XII. КAZNENE ODREDBE 
+	Privredni prestup
+	Član 46.
+	Novčanom kaznom od 100.000 do 3.000.000 dinara kazniće se za privredni prestup pravno lice, ako:
+	1) se ne razvrsta na mikro, malo, srednje ili veliko pravno lice u skladu sa ovim zakonom (član 6.);
+	2) opštim aktom ne uredi organizaciju računovodstva na način iz člana 7. stav 1. ovog zakona; 
+	
+	3) vrši obradu podataka na računaru, a ne obezbedi računovodstveni softver koji omogućava funkcionisanje sistema internih računovodstvenih kontrola i onemogućava brisanje proknjiženih poslovnih promena (član 7. stav 3); 
+	
+	4) ne sastavlja računovodstvene isprave u skladu sa ovim zakonom (član 8.);
+	5) ne vrši proveru računovodstvenih isprava pre unosa u poslovne knjige (član 9.);
+	6) računovodstvene isprave i dokumentaciju ne dostavi na knjiženje u propisanom roku i ako poslovnu promenu ne proknjiži u poslovnim knjigama u propisanom roku (član 10.);
+	7) ne vodi poslovne knjige u skladu sa ovim zakonom (član 12.);
+	8) ne otvori poslovne knjige u skladu sa ovim zakonom (član 12.);
+	9) opštim aktom ne odredi lice kome se poverava vođenje poslovnih knjiga i sastavljanje finansijskih izveštaja (član 14.);
+	9a) ne postupi u skladu sa odredbama člana 15. 
+	ovog zakona;
+	10) ne popiše imovinu i obaveze u skladu sa ovim zakonom (član 16.);
+	11) kao poverilac ne dostavi svom dužniku stanje neplaćenih računa i ako ne obelodani u Napomenama uz finansijske izveštaje neusaglašena potraživanja i obaveze (član 18. st. 2. i 4.);
+	12) ne sastavlja i ne prikazuje finansijske izveštaje u skladu sa ovim zakonom (čl. 20–22.);
+	13) ne zaključi poslovne knjige u skladu sa ovim zakonom (član 23.);
+	14) ne čuva računovodstvene isprave, poslovne knjige, finansijske izveštaje, godišnji izveštaj o poslovanju i revizorske izveštaje u rokovima i na način propisan ovim zakonom (član 24.);
+	15) ne zaštiti poslovne knjige koje se vode na elektronskom mediju u skladu sa ovim zakonom (član 24.);
+	16) ne sastavlja finansijske izveštaje u skladu sa ovim zakonom (čl. 25. i 27.);
+	17) ne izvrši reviziju finansijskih izveštaja (član 28.);
+	18) ne sastavi godišnji izveštaj o poslovanju (član 29.);
+	19) ne sastavlja poslovne knjige, izveštaje, odluke i druge finansijske informacije na srpskom jeziku i u dinarima (član 31.);
+	20) ne dostavi Agenciji finansijske izveštaje, godišnji izveštaj o poslovanju, revizorski izveštaj i ostalu dokumentaciju iz člana 34. ovog zakona radi objavljivanja, odnosno ne dostavi podatke za statističke i druge potrebe u rokovima propisanim ovim zakonom (čl. 33–35.);
+	21) ako podatke dobijene iz Registra finansijskih izveštaja koristi suprotno članu 41. ovog zakona.
+	Za radnje iz stava 1. ovog člana kazniće se za privredni prestup i odgovorno lice u pravnom licu, novčanom kaznom od 20.000 do 150.000 dinara. 
+	
+	*Službeni glasnik RS, broj 30/2018
+	Prekršaji
+	Član 47.
+	Novčanom kaznom od 100.000 do 500.000 dinara kazniće se za prekršaj preduzetnik za radnje iz člana 46. tač. 2)–16), i tač. 19)–21) ovog zakona. 
+	
+	Novčanom kaznom u iznosu od 20.000 do 150.000 dinara kazniće se za prekršaj fizičko lice ako podatke dobijene iz Registra finansijskih izveštaja koristi suprotno članu 41. ovog zakona. 
+	
+	XIII. PRELAZNE I ZAVRŠNE ODREDBE
+	Nacionalna komisija za računovodstvo
+	Član 48.
+	Nacionalna komisija za računovodstvo, osnovana u skladu sa Zakonom o računovodstvu i reviziji („Službeni glasnik RS”, br. 46/06, 111/09 i 99/11 – dr. zakon), nastavlja sa radom u skladu sa ovim zakonom. 
+	
+	Rok za donošenje podzakonskih akata
+	Član 49.
+	Podzakonska akta za sprovođenje ovog zakona doneće se najkasnije u roku od šest meseci od dana stupanja na snagu ovog zakona, a počeće da se primenjuju od finansijskih izveštaja koji se sastavljaju na dan 31. decembra 2014. godine. 
+	
+	Do početka primene podzakonskih akata iz stava 1. ovog člana primenjivaće se podzakonski akti doneti na osnovu Zakona o računovodstvu i reviziji („Službeni glasnik RS”, br. 46/06, 111/09 i 99/11 – dr. zakon).
+	Primena MSFI za MSP
+	Član 50.
+	Odredbe člana 21. ovog zakona počeće da se primenjuju od finansijskih izveštaja koji se sastavljaju na dan 31. decembra 2014. godine.
+	Izuzetno od stava 1. ovog člana, pravna lica koja su u skladu sa Zakonom o računovodstvu i reviziji („Službeni glasnik RS”, br. 46/06, 111/09 i 99/11 – dr. zakon) primenjivala Pravilnik o načinu priznavanja i procenjivanja imovine, obaveza, prihoda i rashoda malih pravnih lica i preduzetnika („Službeni glasnik RS”, br. 106/06 i 111/06 – ispravka), mogu primenjivati odredbe tog pravilnika najkasnije do sastavljanja finansijskih izveštaja na dan 31. decembra 2015. godine. 
+	
+	Dostavljanje finansijskih izveštaja 
+	Član 51.
+	Odredbe čl. 33–35. ovog zakona počeće da se primenjuju od finansijskih izveštaja koji se sastavljaju na dan 31. decembra 2014. godine.
+	Izuzetno od stava 1. ovog člana, mikro pravna lica iz člana 6. stav 2. ovog zakona, mogu finansijske izveštaje, koji se sastavljaju na dan 31. decembra 2014. godine, kao i dokumentaciju i podatke iz čl. 33–35. ovog zakona, da dostavljaju i u papirnom obliku. 
+	
+	Do početka primene odredaba čl. 33–35. ovog zakona, Agencija je dužna da Narodnoj banci Srbije, u skladu s članom 41. ovog zakona, omogući pristup i preuzimanje finansijskih izveštaja, odnosno svih podataka iz finansijskih izveštaja i ostale dokumentacije koji se dostavljaju Agenciji u skladu s čl. 30. i 31. Zakona o računovodstvu i reviziji („Službeni glasnik RS”, br. 46/06, 111/09 i 99/11 – dr. zakon). 
+	
+	Prestanak važenja propisa
+	Član 52.
+	Danom stupanja na snagu ovog zakona prestaje da važi Zakon o računovodstvu i reviziji („Službeni glasnik RS”, br. 46/06, 111/09 i 99/11 – dr. zakon), osim odredaba člana 37, člana 38. stav 15, člana 40. stav 3. i člana 45. tog zakona koje prestaju da važe 31. decembra 2013. godine, odredaba člana 2. stav 5, čl. 15, 26, 30. i 31. tog zakona koje prestaju da važe 30. decembra 2014. godine i odredbe člana 2. stav 6. tog zakona koja prestaje da važi 30. decembra 2015. godine. 
+	
+	Završna odredba
+	Član 53.
+	Ovaj zakon stupa na snagu osmog dana od dana objavljivanja u „Službenom glasniku Republike Srbije”. 
+	
+	ODREDBE КOJE NISU UNETE U „PREČIŠĆEN TEКST“ ZAКONA
+	Zakon o dopunama Zakona o računovodstvu: "Službeni 
+	glasnik RS", broj 30/2018-16
+	Član 3.
+	Privredno društvo, odnosno preduzetnik, 
+	koji imaju registrovanu pretežnu delatnost za pružanje računovodstvenih 
+	usluga, dužni su da svoje poslovanje usklade sa odredbama ovog zakona 
+	najkasnije u roku od šest meseci od dana stupanja na snagu ovog zakona.
+	Član 4.
+	Ovaj zakon stupa na snagu osmog dana od 
+	dana objavljivanja u „Službenom glasniku Republike Srbije”.
+	
+	
+

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.akomantoso.org/2.0 ./akomantoso20.xsd" xmlns="http://www.akomantoso.org/2.0">
+	<!-- Task funded by UN/DESA. Analysis and markup performed by European Parliament -->
+	<amendment>
+		<meta>
+			<identification source="#EP">
+				<FRBRWork>
+					<FRBRthis value="urn:lex:eu:Parliament:EPAmendment:2009:27"/>
+					<FRBRuri value="urn:lex:eu:Parliament:EPAmendment:2009:27"/>
+					<FRBRdate date="2009-03-13" name="generation"/>
+					<FRBRauthor href="#pers28349" as="#author"/>
+					<FRBRcountry value="27"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="urn:lex:eu:Parliament:EPAmendment:2009:27@1.0-1.0:en"/>
+					<FRBRuri value="urn:lex:eu:Parliament:EPAmendment:2009:27@1.0-1.0:en"/>
+					<FRBRdate date="2009-03-21" name="generation"/>
+					<FRBRauthor href="#DG-TRAD" as="#translator"/>
+					<preservation xmlns:ep="urn:eu:ep:development:schema:akomantoso">
+						<ep:expressionLanguage value="en"/>
+						<ep:expressionVersion value="1.0"/>
+						<ep:languageExpressionVersion value="1.0"/>
+						<ep:procedureTypeCode href="#COD"/>
+					</preservation>
+					<FRBRlanguage language="eng"/>
+					<FRBRtranslation href="urn:lex:eu:Parliament:EPAmendment:2009:21@1.0-1.0:es" fromLanguage="esp" pivot="fra" by="#DG-TRAD"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="urn:lex:eu:Parliament:EPAmendment:2009:27@1.0-1.0:en$text-xml"/>
+					<FRBRuri value="urn:lex:eu:Parliament:EPAmendment:2009:27@1.0-1.0:en$text-xml"/>
+					<FRBRdate date="2009-03-21" name="generation"/>
+					<FRBRauthor href="#EP" as="#editor"/>
+					<FRBRformat value="XML"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2009-03-13" showAs="Official Journal" name="officialJournal" number="455"/>
+			<analysis source="#EP">
+				<activeModifications>
+					<textualMod type="substitution" id="amod1">
+						<source href="#mod1"/>
+						<destination id="am1-dst1" href="urn:lex:eu:commission:proposal:2008:636#rec18"/>
+						<old href="#mod1-qst1"/>
+						<new href="#mod1-qst2"/>
+					</textualMod>
+				</activeModifications>
+			</analysis>
+			<references source="#EP">
+				<original id="org1" href="urn:lex:eu:Parliament:EPAmendment:2009:27@1.0-1.0:en" showAs="original"/>
+				<activeRef id="COM2008636" href="urn:lex:eu:commission:proposal:2008:636" showAs="reference"/>
+				<TLCOrganization id="EP" href="/eu/ep/ontology/institution/EP" showAs="EP"/>
+				<TLCOrganization id="DG-TRAD" href="/eu/ep/ontology/institution/EP/services/DG-TRAD" showAs="DG-TRAD"/>
+				<TLCConcept id="COD" href="/eu/ep/ontology/procedure/procedureType/COD" showAs="Codecision procedure"/>
+				<TLCConcept id="initialVersion" href="/ep/ontology/amendment/initialVersion" showAs="original"/>
+				<TLCConcept id="newVersion" href="/ep/ontology/amendment/newVersion" showAs="newVersion"/>
+				<TLCConcept id="origLangNote" href="/ep/ontology/amendment/origLangNote" showAs="original language"/>
+				<TLCConcept id="newVersionTitle" href="/ep/ontology/amendment/newVersionTitle" showAs="new version"/>
+				<TLCConcept id="initialVersionTitle" href="/ep/ontology/amendment/initialVersionTitle" showAs="initial version"/>
+				<TLCRole id="editor" href="/eu.europa.europarl/ontology/procedure/amendment/editor" showAs="editor"/>
+				<TLCRole id="author" href="/eu.europa.europarl/ontology/procedure/amendment/author" showAs="author"/>
+				<TLCRole id="translator" href="/eu.europa.europarl/ontology/role/translator" showAs="translator"/>
+				<TLCPerson id="pers28349" href="/eu/ep/ontology/person/teresa.riera.madurell" showAs="Teresa Riera Madurell"/>
+				<TLCPerson id="pers28298" href="/eu/ep/ontology/person/iratxe.garcia.perex" showAs="Iratxe García Pérez"/>
+				<TLCPerson id="pers4349" href="/eu/ep/ontology/person/rosa.miguelz.ramos" showAs="Rosa Miguélez Ramos"/>
+				<TLCTerm id="trm3" href="/eu/ep/ontology/glossary/Or(abbr)" showAs="Or."/>
+				<TLCTerm id="Amendment" href="/eu/ep/ontology/glossary/Amendment" showAs="Amendment"/>
+				<!-- referenced documents & procedures -->
+			</references>
+			<notes source="#EP">
+				<note id="not1" refersTo="#origLangNote">
+					<p>
+						<ref id="amf-ref1" href="#trm3">Or.</ref>
+					</p>
+				</note>
+			</notes>
+		</meta>
+		<preface xml:lang="en">
+			<p>
+				<docProponent refersTo="#pers28349" id="pre-pro1">Teresa Riera
+                    Madurell</docProponent>, <docProponent refersTo="#pers28298" id="pre-pro2">Iratxe García Pérez</docProponent>, <docProponent refersTo="#pers4349" id="pre-pro3">Rosa Miguélez Ramos</docProponent>
+				<affectedDocument refersTo="#COM2008636" href="urn:lex:eu:commission:proposal:2008:636">COM(2008)636</affectedDocument>
+			</p>
+		</preface>
+		<amendmentBody xml:lang="en">
+			<amendmentHeading>
+				<p>
+					<ref id="ref1-ref1" href="urn:lex:eu:commission:proposal:2008:636">Proposal for a directive</ref>
+					<ref id="ref1-ref2" href="urn:lex:eu:commission:proposal:2008:636#rec-pnt18">Recital 18</ref>
+				</p>
+			</amendmentHeading>
+			<amendmentContent xml:lang="en">
+				<p>
+					<ref id="ref3" href="urn:lex:eu:commission:proposal:2008:636" refersTo="#initialVersionTitle">Text proposed by
+                    the Commission</ref>
+				</p>
+				<p>
+					<ref id="ref4" href="#Amendment" refersTo="#newVersionTitle">Amendment</ref>
+				</p>
+				<p>
+					<mod id="mod1">
+						<quotedStructure id="mod1-qst1" refersTo="#initialVersion">
+							<point id="mod1-qst1--rec18">
+								<num>(18)</num>
+								<content>
+									<p>Protection from discrimination based on sex should be
+                                    strengthened by the existence of a body or bodies in each Member
+                                    State with competence to analyse the problems involved, to study
+                                    possible solutions and to provide practical assistance to the
+                                    victims. The body or bodies may be the same as those with
+                                    responsibility at national level for the defence of human rights
+                                    or the safeguarding of individuals' rights, or the
+                                    implementation of the principle of equal treatment. In
+                                    exercising their powers and fulfilling their responsibilities
+                                    under this Directive, these bodies should operate in a manner
+                                    consistent with the United Nations Paris Principles relating to
+                                    the status and functioning of national institutions for the
+                                    protection and promotion of human rights.</p>
+								</content>
+							</point>
+						</quotedStructure>
+						<quotedStructure id="mod1-qst2" refersTo="#newVersion">
+							<point id="mod1-qst2--rec18">
+								<num>(18)</num>
+								<content>
+									<p>Protection of <change>
+											<ins>self-employed workers, assisting spouses
+                                        and the assisting member of unmarried couples</ins>
+										</change>from
+                                    discrimination based on sex should be strengthened by the
+                                    existence of a body or bodies in each Member State with
+                                    competence to analyse the problems involved, to study possible
+                                    solutions and to provide practical assistance to the victims.
+                                    The body or bodies may be the same as those with responsibility
+                                    at national level for the defence of human rights or the
+                                    safeguarding of individuals' rights, or the implementation of
+                                    the principle of equal treatment. In exercising their powers and
+                                    fulfilling their responsibilities under this Directive, these
+                                    bodies should operate in a manner consistent with the United
+                                    Nations Paris Principles relating to the status and functioning
+                                    of national institutions for the protection and promotion of
+                                    human rights.</p>
+								</content>
+							</point>
+						</quotedStructure>
+					</mod>
+				</p>
+			</amendmentContent>
+			<amendmentReference>
+				<p>(See <relatedDocument href="urn:lex:eu:Parliament:EPAmendment:2009:27@1.0-1.0:en">Amendment 1 to Recital 1</relatedDocument>.)</p>
+			</amendmentReference>
+			<amendmentJustification>
+				<p>Justification
+The reference to the urgency procedure is not necessary in this case, and should therefore be deleted.
+					</p>
+			</amendmentJustification>
+		</amendmentBody>
+	</amendment>
+</akomaNtoso>

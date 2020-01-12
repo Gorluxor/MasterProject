@@ -1,0 +1,171 @@
+﻿
+
+
+	
+	Zakon
+
+	
+
+
+	
+				На основу члана 3а став 4. Закона о Царинској тарифи („Службени гласник РС”, бр. 62/05, 61/07 и 5/09) објављује се Уредба Комисије (ЕУ) о спровођењу број 2017/1971 од 26. октобра 2017. године, о сврставању одређенe робe у Комбинованој номенклатури објављена у „Службеном листу Европске уније”, број L281/11 од 31. октобра 2017. године, која у оригиналу на енглеском језику и у преводу на српски језик гласи:
+				COMMISSION IMPLEMENTING REGULATION (EU) 2017/1971 of 26 October 2017 concerning the classification of certain goods in the Combined Nomenclature
+				"Службени гласник РС", број 8 од 31. 
+				јануара 2018.
+				THE EUROPEAN COMMISSION,
+				Having regard to the Treaty on the Functioning of the European Union,
+				Having regard to Regulation (EU) No 952/2013 of the European Parliament and of the Council of 9 October 2013 laying down the Union Customs Code (1), and in particular Articles 57(4) and 58(2) thereof,
+				Whereas:
+				(1) In order to ensure uniform application of the Combined Nomenclature annexed to Council Regulation (EEC) No 2658/87 (2), it is necessary to adopt measures concerning the classification of the goods referred to in the Annex to this Regulation.
+				(2) Regulation (EEC) No 2658/87 has laid down the general rules for the interpretation of the Combined Nomenclature. Those rules apply also to any other nomenclature which is wholly or partly based on it or which adds any additional subdivision to it and which is established by specific provisions of the Union, with a view to the application of tariff and other measures relating to trade in goods.
+				(3) Pursuant to those general rules, the goods described in column (1) of the table set out in the Annex should be classified under the CN code indicated in column (2), by virtue of the reasons set out in column (3) of that table.
+				(4) It is appropriate to provide that binding tariff information issued in respect of the goods concerned by this Regulation which does not conform to this Regulation may, for a certain period, continue to be invoked by the holder in accordance with Article 34(9) of Regulation (EU) No 952/2013. That period should be set at three months.
+				(5) The measures provided for in this Regulation are in accordance with the opinion of the Customs Code Committee,
+				HAS ADOPTED THIS REGULATION:
+				Article 1
+				The goods described in column (1) of the table set out in the Annex shall be classified within the Combined Nomenclature under the CN code indicated in column (2) of that table.
+				Article 2
+				Binding tariff information which does not conform to this Regulation may continue to be invoked in accordance with Article 34(9) of Regulation (EU) No 952/2013 for a period of three months from the date of entry into force of this Regulation.
+				Article 3
+				This Regulation shall enter into force on the twentieth day following that of its publication in the Official Journal of the European Union.
+				This Regulation shall be binding in its entirety and directly applicable in all Member States. 
+				Done at Brussels, 26 October 2017.
+				For the Commission, 
+				On behalf of the President, 
+				Stephen QUEST 
+				Director-General 
+				Directorate-General for Taxation and Customs Union
+				–––––––––––––––
+				(1) OJ L 269, 10.10.2013, p. 1.
+				(2) Council Regulation (EEC) No 2658/87 of 23 July 1987 on the tariff and statistical nomenclature and on the Common Customs Tariff (OJ L 256, 7.9.1987, p. 1).
+				ANNEX
+				
+					
+						
+							
+								Description of the goods
+							
+							
+								Classification (CN-code)
+							
+							
+								Reasons
+							
+						
+						
+							
+								(1)
+							
+							
+								(2)
+							
+							
+								(3)
+							
+						
+						
+							
+								An electronic apparatus (so-called ‚Solid State Drive (SSD)‘) with dimensions of approximately 100 x 70 x 7 mm, a 2,5 inch form factor and a storage capacity of 128 GB.
+								It is a semiconductor based electronic storage device, built on solid state architecture, with flash memory to store non-volatile data and Dynamic Random Access Memory (DRAM).
+								It has a Serial Advanced Technology Attachment (SATA) interface which permits integration in an automatic data-processing machine and is used as an internal data storage device.
+								(see image) (*)
+							
+							
+								8471 70 98
+							
+							
+								Classification is determined by General Rules 1 and 6 for the interpretation of the Combined Nomenclature, Note 5 (C) to Chapter 84 and by the wording of CN codes 8471, 8471 70 and 8471 70 98.
+								Its objective characteristics such as the SATA interface, size and form factor are characteristics of a device of a kind used principally in an automatic data-processing machine, it is directly con- nectable to the central processing unit, and it is able to accept or deliver data in a form which can be used by the system. Classification under heading 8523 as solid state non-volatile storage device is therefore excluded.
+								Consequently, the device is to be classified under CN code 8471 70 98 as other storage units for automatic data-processing machines.
+							
+						
+						
+							
+								(*) The image is purely for information.
+							
+						
+					
+				
+				
+				УРЕДБА КОМИСИЈЕ (ЕУ) О СПРОВОЂЕЊУ број 2017/1971 од 26. октобра 2017. годинео сврставању одређенe робe у Комбинованој номенклатури
+				"Службени гласник РС", број 8 од 31. 
+				јануара 2018.
+				ЕВРОПСКА КОМИСИЈА,
+				Имајући у виду Уговор о функционисању Европске уније,
+				Имајући у виду Уредбу (ЕУ) број 952/2013 Европског парламента и Савета од 9. октобра 2013. године којом се утврђује Царински закон Уније1, а посебно члан 57. став 4. и члан 58. став2,
+				с обзиром на то да:
+				(1) Како би се осигурала једнообразна примена Комбиноване номенклатуре приложене уз Уредбу Савета (ЕЕЗ) број 2658/872, неопходно је усвојити мере у вези са сврставањем робе наведене у Анексу ове уредбе.
+				(2) Уредбом (ЕЕЗ) број 2658/87 утврђена су основна правила за примењивање Комбиноване номенклатуре. Ова правила се такође примењују на сваку другу номенклатуру која се у потпуности или делимично заснива на њој, или која јој додаје било какве потподеле и која је успостављена посебним прописима Уније, са циљем примене тарифних и других мера које се односе на трговину робом.
+				(3) У складу са тим основним правилима, роба описана у колони 1. табеле у Анексу сврстава се у CN ознаку наведену у колони 2, према разлозима датим у колони 3. те табеле.
+				(4) Потребно је обезбедити да корисник обавезујућег обавештења о сврставању, издатог за робу на коју се односи ова уредба, а које није у складу са овом уредбом, може одређени период, да настави да се позива на њу, у складу са чланом 34. став 9. Уредбе (ЕУ) број 952/2013. Утврђује се да овај период треба да буде три месеца.
+				(5) Мере предвиђене у овој уредби су у складу са мишљењем Одбора за Царински закон,
+				ДОНЕЛА ЈЕ ОВУ УРЕДБУ:
+				Члан 1.
+				Роба описана у колони 1. табеле дате у Анексу сврстава се у оквиру Комбиноване номенклатуре у CN ознаку наведену у колони 2. те табеле.
+				Члан 2.
+				Обавезујуће обавештење о сврставању које није у складу са овом уредбом, може наставити да се примењује у складу са чланом 34. став 9. Уредбе (ЕУ) број 952/2013, у периоду од три месеца од дана ступања на снагу ове уредбе.
+				Члан 3.
+				Ова уредба ступа на снагу 20. дана од дана објављивања у „Службеном листу Европске уније”.
+				Ова уредба је обавезујућа у целини и непосредно се примењује у свим државама чланицама.
+				У Бриселу, 26. октобра 2017. године. 
+				–––––––––––––––
+				1 OJ L 269, 10.10.2013. стр. 1.
+				2 Уредба Савета (ЕЕЗ) број 2658/87 од 23. јула 1987. године о тарифној и статистичкој номенклатури и Заједничкој царинској тарифи (OJ L 256, 7.9.1987, стр. 1).
+				За Комисију,
+				у име председника,
+				Stephen QUEST
+				Генерални директор
+				Генерални директорат за порезе и царинску унију
+				АНЕКС
+				
+					
+						
+							
+								Опис робе
+							
+							
+								Сврставање
+								(CN ознака)
+							
+							
+								Разлози
+							
+						
+						
+							
+								(1)
+							
+							
+								(2)
+							
+							
+								(3)
+							
+						
+					
+					
+						
+							
+								Електронски апарат (тзв. „полупроводничка меморија (SSD)”) димензија приближно 100×70×7mm, формата 2,5 инча и капацитета меморије од 128 GB.
+								То је електронски уређај за чување података на бази полупроводника, изграђен на архитектури чврстог стања, са флеш меморијом за чување података независно од електричне енергије и динамичком меморијом са случајним приступом (DRAM).
+								Поседује SATA (Serial Advanced Technology Attachment) интерфејс који дозвољава интегрисање у машину за аутоматску обраду података и користи се као интерни меморијски уређај.
+								Видети слику(*1).
+							
+							
+								8471 70 98
+							
+							
+								Сврставање је одређено Основним правилима за примењивање Комбиноване номенклатуре 1. и 6, Напоменом 5(В) уз Главу 84 и наименовањима CN ознака 8471, 847170 и 8471 70 98.
+								Његове објективне карактеристике као што су SATA интерфејс, димензије и формат су карактеристике уређаја врсте која се углавном користи у машинама за аутоматску обраду података, директно се може повезати са централном јединицом за обраду података и способан је да прихвати или даје податке у облику које систем може да користи. Искључује се, према томе, сврставање у тарифни број 8523 као полупроводничке меморије независне од електричне енергије.
+								Стога, уређај се сврстава у CN ознаку 84717098 као остале меморијске јединице за машине за обраду података.
+							
+						
+						
+							
+								(*1) Слика је само информативног карактера
+							
+						
+					
+				
+	
+

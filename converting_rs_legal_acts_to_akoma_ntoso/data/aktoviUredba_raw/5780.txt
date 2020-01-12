@@ -1,0 +1,171 @@
+﻿
+
+
+	
+	Zakon
+
+	
+
+
+	
+				
+				На основу члана 3а став 4. Закона о Царинској тарифи („Службени гласник РС”, бр. 62/05, 61/07 и 5/09) објављује се Уредба Комисије (ЕУ) о спровођењу број 2016/283 од 24. фебруара 2016. године, у вези са сврставањем одређенe робe према Комбинованој номенклатури објављена у „Службеном листу Европске уније”, број L 53/1 од 1. марта 2016. године, која у оригиналу на енглеском језику и у преводу на српски језик гласи:
+				COMMISSION IMPLEMENTING REGULATION (EU) 2016/283 of 24 February 2016 concerning the classification of certain goods in the Combined Nomenclature
+				"Службени гласник РС", број 45 од 6. маја 2016.
+				
+				THE EUROPEAN COMMISSION,
+				Having regard to the Treaty on the Functioning of the European Union,
+				Having regard to Council Regulation (EEC) No 2658/87 of 23 July 1987 on the tariff and statistical nomenclature and on the Common Customs Tariff (1), and in particular Article 9(1)(a) thereof,
+				Whereas:
+				(1) In order to ensure uniform application of the Combined Nomenclature annexed to Regulation (EEC) No 2658/87, it is necessary to adopt measures concerning the classification of the goods referred to in the Annex to this Regulation.
+				(2) Regulation (EEC) No 2658/87 has laid down the general rules for the interpretation of the Combined Nomenclature. Those rules apply also to any other nomenclature which is wholly or partly based on it or which adds any additional subdivision to it and which is established by specific provisions of the Union, with a view to the application of tariff and other measures relating to trade in goods.
+				(3) Pursuant to those general rules, the goods described in column (1) of the table set out in the Annex should be classified under the CN code indicated in column (2), by virtue of the reasons set out in column (3) of that table.
+				(4) It is appropriate to provide that binding tariff information issued in respect of the goods concerned by this Regulation which does not conform to this Regulation may, for a certain period, continue to be invoked by the holder in accordance with Article 12(6) of Council Regulation (EEC) No 2913/92 (2). That period should be set at three months.
+				(5) The Customs Code Committee has not issued an opinion within the time limit set by its Chairman,
+				HAS ADOPTED THIS REGULATION:
+				Article 1
+				The goods described in column (1) of the table set out in the Annex shall be classified within the Combined Nomenclature under the CN code indicated in column (2) of that table.
+				Article 2
+				Binding tariff information which does not conform to this Regulation may continue to be invoked in accordance with Article 12(6) of Regulation (EEC) No 2913/92 for a period of three months from the date of entry into force of this Regulation.
+				Article 3
+				This Regulation shall enter into force on the twentieth day following that of its publication in the Official Journal of the European Union.
+				This Regulation shall be binding in its entirety and directly applicable in all Member States. 
+				––––––––––––––
+				(1) OJ L 256, 7.9.1987, p. 1.
+				(2) Council Regulation (EEC) No 2913/92 of 12 October 1992 establishing the Community Customs Code (OJ L 302, 19.10.1992, p. 1).
+				Done at Brussels, 24 February 2016,
+				For the Commission,
+				On behalf of the President,
+				Stephen QUEST
+				Director-General for Taxation and Customs Union
+				ANNEX
+				
+					
+						
+							
+								Description of the goods
+							
+							
+								Classification (CN-code)
+							
+							
+								Reasons
+							
+						
+						
+							
+								(1)
+							
+							
+								(2)
+							
+							
+								(3)
+							
+						
+						
+							
+								An article predominantly made of plastics, having the shape of a pointed cylinder (so-called ’LED glitter lamp‘), approximately 17 cm high. The article tapers to a point at the top, with a broader base, and has a transparent plastic middle section. The middle section is decorated inside with a stylised figure of a girl and is filled with a transparent fluid which has glitter particles suspended in it.
+								The base contains several battery-powered light-emitting diodes (LEDs). When the article is shaken, the middle section glows gently in different colours. The light is only emitted briefly, for about one minute, after shaking.
+								See image (*).
+							
+							
+								3926 40 00
+							
+							
+								Classification is determined by general rules 1 and 6 for the interpretation of the Combined Nomenclature and by the wording of CN codes 3926 and 3926 40 00.
+								The article cannot be classified as a lamp under heading 9405, because it is not primarily designed to illuminate, for example, a room, nor is it a specialised lamp (see also the Harmonised System Explanatory Notes (HSEN) to heading 9405, (I), (1) and (3)).
+								According to its objective characteristics, the article is not essentially intended for the amusement of persons (children or adults) (see also the HSEN to heading 9503, (D)). Classification under heading 9503 as a toy is therefore also excluded.
+								Due to its objective characteristics, the article is mainly designed for decorative purposes. The illumination is only enhancing the ornamental effect.
+								Consequently, the article is to be classified under CN code 3926 40 00 as other ornamental articles of plastics.
+							
+						
+						
+							
+								(*) The image is purely for information.
+							
+						
+					
+				
+				
+				УРЕДБА КОМИСИЈЕ (ЕУ) О СПРОВОЂЕЊУ број 2016/283 од 24. фебруара 2016. године у вези са сврставањем одређенe робe према Комбинованој номенклатури
+				"Службени гласник РС", број 45 од 6. маја 2016.
+				ЕВРОПСКА КОМИСИЈА,
+				Имајући у виду Уговор о функционисању Европске уније,
+				Имајући у виду Уредбу Савета (ЕЕЗ) број 2658/87 од 23. јула 1987. године о тарифној и статистичкој номенклатури и Заједничкој царинској тарифи1, а посебно члан 9. став 1. тачка а),
+				с обзиром на то да:
+				(1) Како би се осигурала једнообразна примена Комбиноване номенклатуре приложене уз Уредбу (ЕЕЗ) број 2658/87, неопходно је усвојити мере у вези са сврставањем робе наведене у Анексу ове уредбе.
+				(2) Уредбом (ЕЕЗ) број 2658/87 утврђена су основна правила за примењивање Комбиноване номенклатуре. Ова правила се такође примењују на сваку другу номенклатуру која се у потпуности или делимично заснива на њој, или која јој додаје било какве потподеле и која је установљена посебним прописима Уније, са циљем примене тарифних и других мера које се односе на трговину робом.
+				(3) У складу са тим основним правилима, роба описана у колони 1. табеле у Анексу сврстава се у CN ознаку наведену у колони 2, према разлозима датим у колони 3. те табеле.
+				(4) Потребно је обезбедити да ималац обавезујуће тарифне информације, издатог за робу на коју се односи ова уредба, а која није у складу са овом уредбом, може одређени период, да настави да се позива на њу, према члану 12. став 6. Уредбе Савета (ЕЕЗ) број 2913/922. Овај период треба да буде три месеца.
+				(5) Комитет за Царински закон није издао мишљење у року који је одредио председавајући,
+				ДОНЕЛА ЈЕ ОВУ УРЕДБУ:
+				Члан 1.
+				Роба описана у колони 1. табеле дате у Анексу сврстава се у оквиру Комбиноване номенклатуре у CN ознаку наведену у колони 2. те табеле.
+				Члан 2.
+				Обавезујућа тарифна информација која није у складу са овом уредбом, може наставити да се примењује у складу са чланом 12. став 6. Уредбе (ЕЕЗ) број 2913/92, у периоду од три месеца од дана ступања на снагу ове уредбе.
+				Члан 3.
+				Ова уредба ступа на снагу 20. дана од дана објављивања у „Службеном листу Европске уније”.
+				Ова уредба је обавезујућа у целини и непосредно се примењује у свим државама чланицама.
+				––––––––––––––
+				1 OJ L 256, 7.9.1987. стр. 1 
+				2 Уредба Савета (ЕЕЗ) број 2913/92 од 12. октобра 1992. године којом је установљен Царински кодекс Заједнице (OJ L 302, 19.10.1992, стр. 1).
+				У Бриселу, 24. фебруара 2016. године 
+				За Комисију,
+				у име председника,
+				Stephen QUEST
+				генерални директор за порезе и царинску унију
+				АНЕКС
+				
+					
+						
+							
+								Опис робе
+							
+							
+								Сврставање
+								(CN ознака)
+							
+							
+								Разлози
+							
+						
+						
+							
+								(1)
+							
+							
+								(2)
+							
+							
+								(3)
+							
+						
+					
+					
+						
+							
+								Производ претежно израђен од пластичне масе, у облику зашиљеног цилиндра (тзв. „LED светлуцава лампа”), висине приближно 17 cm. Производ се на врху сужава у тачку, шире је основе, а средишњи део је од провидне пластике. Унутрашњост средишњег дела украшена је стилизованом фигуром девојке и испуњена провидном течношћу са светлуцавим честицама које у њој лебде. 
+								У основи се налази неколико светлећих диода (LED) са напајањем преко батерије. Када се производ протресе, средишњи део слабо светли у различитим бојама. Светлост се само краткотрајно емитује, око једног минута, након што се производ протресе.
+								Погледати слику(1)
+							
+							
+								39264000
+							
+							
+								Сврставање је одређено Основним правилима 1. и 6. за примењивање Комбиноване номенклатуре и текстом наименовања CN ознака 3926 и39264000.
+								Производ се не сматра лампом из тарифног броја 9405, због тога што није првенствено конструисан за осветљавање, нпр. просторија, нити је специјализована лампа (видети такође Коментар Хармонизованог система уз тарифни број 9405, Део (I), тач. (1) и (3)).
+								У складу са својим објективним карактеристикама, производ није првенствено намењен за забаву људи (деца или одрасли) (видети такође Коментар Хармонизованог система уз тарифни број 9503, Део (D)). Према томе, искључује се сврставање у тарифни број 9503 као играчке.
+								Због својих објективних карактеристика, овај производ је конструисан углавном за сврхе украшавања. Осветљавање само појачава ефекат украшавања.
+								На основу свега, овај производ сврстава се у CN ознаку 39264000 као остали украсни предмети од пластичне масе.
+							
+						
+						
+							
+								(1) Слика је само информативног карактера
+							
+						
+					
+				
+	
+

@@ -1,0 +1,235 @@
+﻿
+
+
+	
+	Zakon
+
+	
+
+
+	На основу члана 3а став 4. Закона о Царинској тарифи („Службени гласник Републике Србије”, бр. 62/05, 61/07 и 5/09) објављује се Уредба Комисије (ЕЗ) број 1509/97 од 30. јула 1997. године у вези са сврставањем одређених роба у Комбинованој номенклатури објављена у „Службеном листу Европских заједница”, број L 204/8 од 31. јула 1997. године, која у оригиналу на енглеском језику и у преводу на српски језик гласи:
+	
+	COMMISSION REGULATION (EC) No 1509/97
+	of 30 July 1997concerning the classification 
+	of certain goods in the combined nomenclature
+	
+	"Службени гласник РС", број 24 од 30. марта 2012.
+	
+	THE COMMISSION OF THE EUROPEAN COMMUNITIES,
+	Having regard to the Treaty establishing the European Community,
+	Having regard to Council Regulation (EEC) No 2658/87 of 23 July 1987 on the tariff and statistical nomenclature and on the Common Customs Tariff (1), as last amended by Commission Regulation (EC) No 1195/97 (2), and in particular Article 9 thereof,
+	Whereas in order to ensure uniform application of the combined nomenclature annexed to the said Regulation, it is necessary to adopt measures concerning the classification of the goods referred to in the Annex to this Regulation;
+	Whereas Regulation (EEC) No 2658/87 has set down the general rules for the interpretation of the combined nomenclature and these rules also apply to any other nomenclature which is wholly or partly based on it or which adds any additional subdivisions to it and which is established by specific Community provisions, with a view to the application of tariff or other measures relating to trade in goods;
+	Whereas, pursuant to the said general rules, the goods described in column 1 of the table annexed to this Regulation must be classified under the appropriate CN codes indicated in column 2, by virtue of the reasons set out in column 3;
+	Whereas it is acceptable that binding tariff information issued by the customs authorities of Member States in respect of the classification of goods in the combined nomenclature, and which do not conform to the rights established by this Regulation, can continue to be invoked, under the provisions in Article 12(6) of Council Regulation (EEC) No 2913/92 of 12 October 1992 establishing the Community Customs Code (3), for a period of three months by the holder;
+	Whereas the measures provided for in this Regulation are in accordance with the opinion of the tariff and statistical nomenclature section of the Customs Code Committee as regards products Nos 1 to 4 in the annexed table,
+	HAS ADOPTED THIS REGULATION: 
+	Article 1
+	The goods described in column 1 of the annexed table are now classified within the combined nomenclature under the appropriate CN codes indicated in column 2 of the said table.
+	Article 2
+	Binding tariff information issued by the customs authorities of Member States which do not conform to the rights established by this Regulation can continue to be invoked under the provisions of Article 12 (6) of Regulation (EEC) No 2913/92 for a period of three months.
+	Article 3
+	This Regulation shall enter into force on the 21st day following its publication in the Official Journal of the European Communities.
+	This Regulation shall be binding in its entirety and directly applicable in all Member States.
+	Done at Brussels, 30 July 1997.
+	
+	––––––––––––––
+	(1) OJ No L 256, 7. 9. 1987, p. 1.
+	(2) OJ No L 170, 28. 6. 1997, p. 11.
+	(3) OJ No L 302, 19. 10. 1992, p. 1.
+	
+	For the Commission 
+	Mario MONTI 
+	Member of the Commission
+	ANNEX
+	
+	
+		
+			
+				
+				Description
+				
+				
+				Classification CN code
+				
+				
+				Reason
+				
+			
+			
+				
+				(1)
+				
+				
+				(2)
+				
+				
+				(3)
+				
+			
+			
+				
+				1. Door-facings, of fibreboard of a density exceeding 0,8 g/cm\ primed, moulded to the shape and style of a traditional internal panel-door. These door-facings are integrated in internal doors.
+				
+				
+				4411 1900
+				
+				
+				Classification is determined by the provisions of General Rules 1 and 6 for the interpretation of the combined nomenclature and by the wording of CN codes 4411, 4411 19 and 4411 19 00
+				
+			
+			
+				
+				2. Rectangular wood blocks, 48 or 85 mm wide x 72 mm high, used in the construction of window frames, consisting of layers of wood glued together with the grain running parallel and with slightly rounded edges.
+				
+				
+				4418 90 10
+				
+				
+				Classification is determined by the provisions of General Rules 1 and 6 for the interpretation of the combined nomenclature and by the wording of CN codes 4418, 4418 90 and 4418 90 10.
+				Laminated wood is an item of builder’s carpentry
+				
+			
+			
+				
+				3. ‚Musical snowstorm globe‘, consisting of a glass globe gathered mechanically and fixed to a plastic base containing a musical box.
+				The glass globe is filled with a liquid surrounding figurines and with artificial snow flakes.
+				When the globe is shaken, the flakes simulate a snowstorm.
+				
+				
+				7013 99 90
+				
+				
+				Classification is determined by the provisions of General Rules 1, 3 (b) and 6 for the interpretation of the combined nomenclature and by the wording of CN codes 7013, 7013 99 and 7013 99 90
+				
+			
+			
+				
+				4. Stall flooring for livestock, made from plastic-coated expanded steel sheet with worked edges and with supports underneath.
+				The flooring is designed to facilitate cleaning.
+				
+				
+				7308 90 59
+				
+				
+				Classification is determined by the provisions of General Rules 1 and 6 for the interpretation of the combined nomenclature and by the wording of CN codes 7308, 7308 90 and 7308 90 59
+				
+			
+		
+	
+	
+	
+	УРЕДБА КОМИСИЈЕ (ЕЗ) број 1509/97
+	од 30. јула 1997. године у вези са сврставањем 
+	одређених роба према Комбинованој номенклатури
+	"Службени гласник РС", број 24 од 30. марта 2012.
+	
+	КОМИСИЈА ЕВРОПСКИХ ЗАЈЕДНИЦА,
+	Имајући у виду Уговор о оснивању Европске заједнице,
+	Имајући у виду Уредбу Савета (ЕЕЗ) број 2658/87 о тарифској и статистичкој номенклатури и Заједничкој царинској тарифи1, како је задњи пут измењена Уредбом Комисије (ЕЗ) број 1195/972, и посебно њен члан 9,
+	С обзиром на то да би осигурала доследну примену Комбиноване номенклатуре дате у Анексу поменуте Уредбе, неопходно је усвојити мере у вези са сврставањем роба наведених у Анексу уз ову уредбу;
+	С обзиром на то да су Уредбом (ЕЕЗ) број 2658/87 одређена основна правила за тумачење Комбиноване номенклатуре. Ова правила се такође примењују на било коју другу номенклатуру која се у потпуности или делимично заснива на њој, или којој су додате било које потподеле и која је установљена посебним прописима Уније, са циљем примене тарифских и других мера везаних за трговину робом;
+	С обзиром на то да сходно тим основним правилима, роба описана у колони 1 табеле дате у Анексу данашње Уредбе мора бити сврстана у одговарајућу CN ознаку наведену у колони 2, према разлозима датим у колони 3 табеле;
+	С обзиром на то да да је прихваћено да се ималац обавезујуће тарифне информације, коју су издали царински органи држава чланица у односу на сврставање робе према Комбинованој номенклатури али која није у складу са овом уредбом, може у периоду од три месеца, наставити да се позива на њу, према члану 12(6) Уредбе Савета (ЕЕЗ) број 2913/92 од 12. октобра 1992 којом је установљен Царински закон Заједнице3;
+	С обзиром да су мере предвиђене овом уредбом у складу са мишљењем Сектора за тарифску и статистичку номенклатуру Одбора за Царински закон у погледу производа бр. 1 до 4 приложене табеле.
+	ДОНЕЛА ЈЕ ОВУ УРЕДБУ:
+	Члан 1.
+	Роба описана у колони 1 приложене табеле сада се сврстава у оквиру Комбиноване номенклатуре у одговарајуће CN ознаке наведене у колони 2 те табеле.
+	Члан 2.
+	Обавезујућа тарифна информација, коју су издали царински органи држава чланица али која није у складу са условима ове уредбе, може наставити да важи у периоду од три месеца, према члану 12(6) Уредбе Савета (ЕЕЗ) број 2913/92.
+	Члан 3.
+	Ова уредба ће ступити на снагу 21. дана од дана објављивања у „Службеном листу Европских заједница”.
+	Ова уредба ће у потпуности бити обавезујућа и директно применљива у свим државама чланицама.
+	У Бриселу, 30. јула 1997. године 
+	
+	––––––––––––––
+	1 OJ L 256, 7.9.1987, стр.1
+	2 OJ L 170, 28.6. 1997, стр 11
+	3 OJ L 302, 19.10.1992, стр.1
+	
+	За Комисију
+	Mario MONTI
+	Члан Комисије
+	АНЕКС
+	
+	
+		
+			
+				
+				Опис робе
+				
+				
+				Сврставање
+				(CN ознака)
+				
+				
+				Разлози
+				
+			
+			
+				
+				(1)
+				
+				
+				(2)
+				
+				
+				(3)
+				
+			
+			
+				
+				1. Облоге за врата, од плоча влакнатица густине веће од 0,8 g/cm3, припремљене, обликоване у стилу традиционалних унутрашњих панел врата. Ове облоге за врата су интегрисане у унутрашња врата.
+				
+				
+				4411 19 004
+				
+				
+				Сврставање је одређено условима Основних правила 1 и 6 за примењивање Комбиноване номенклатуре и наименовањима уз CN ознаке 4411, 4411 19 и 4411 19 005.
+				
+			
+			
+				
+				2. Правоугаони дрвени блокови, 48 или 85 mm ширине x 72 mm висине, употребљавају се за израду прозорских оквира, састоје се од слојева дрвета међусобно слепљених, са влакнима која иду паралелно и благо заобљених ивица.
+				
+				
+				4418 90 10
+				
+				
+				Сврставање је одређено условима Основних правила 1 и 6 за примењивање Комбиноване номенклатуре и наименовањима уз CN ознаке 4418, 4418 90 и 4418 90 10.
+				Ламинирано дрво је артикал грађевинске столарије.
+				
+			
+			
+				
+				3. „Музичка кугла са снежном олујом”, састоји се од стаклене кугле механички састављане и причвршћене за основу од пластичне масе која садржи музичку кутију.
+				Стаклена кугла је испуњена течношћу око фигура и вештачким снежним пахуљицама.
+				Када се кугла протресе, пахуљице имитирају снежну олују.
+				
+				
+				7013 99 906
+				
+				
+				Сврставање је одређено условима Основних правила 1, 3(б) и 6 за примењивање Комбиноване номенклатуре и наименовањима уз CN ознаке 7013, 7013 99 и 7013 99 907.
+				
+			
+			
+				
+				4. Под штале за стоку, израђен од челичног лима добијеног просецањем и развлачењем, обрађених ивица и превученог пластиком, са носачима испод. Под је конструисан тако да олакшава чишћење.
+				
+				
+				7308 90 59
+				
+				
+				Сврставање је одређено условима Основних правила 1 и 6 за примењивање Комбиноване номенклатуре и наименовањима уз CN ознаке 7308, 7308 90 и 7308 90 59.
+				
+			
+		
+	
+	
+	––––––––––––––
+	4 замењено са „4411 19 90” у складу са тачком 49 Анекса I Уредбе Комисије (ЕЗ) број 705/05 од 4. маја 2005. године којом се мењају или стављају ван снаге одређене Уредбе у вези са сврставањем робе према Комбинованој номенклатури (OJ L 118/18 од 5. маја 2005, стр 21), која је објављена у „Службеном гласнику РС”, број 75/10, што је даље замењено са „4411 92 90” у складу са тачком 97 под (а) Анекса I Уредбе Комисије (ЕЗ) број 1179/09 од 26. новембра 2009. године којом се мењају или стављају ван снаге одређене Уредбе у вези са сврставањем робе према Комбинованој номенклатури (OJ L 317/1 од 3.12.2009, стр. 12), која је објављена у „Службеном гласнику РС”, број 7/10
+	5 замењено са „4411 19 и 4411 19 90” у складу са тачком 49 Анекса I Уредбе Комисије (ЕЗ) број 705/05 од 4. маја 2005. године којом се мењају или стављају ван снаге одређене Уредбе у вези са сврставањем робе према Комбинованој номенклатури (OJ L 118/18 од 5. маја 2005, стр 21), која је објављена у „Службеном гласнику РС”, број 75/10, што је даље замењено са „4411 92 и 4411 92 90” у складу са тачком 97 под (b) Анекса I Уредбе Комисије (ЕЗ) број 1179/09 од 26. новембра 2009. године којом се мењају или стављају ван снаге одређене Уредбе у вези са сврставањем робе према Комбинованој номенклатури (OJ L 317/1 од 3.12.2009, стр. 12), која је објављена у „Службеном гласнику РС”, број 7/10
+	6 замењено са „7013 99 00” у складу са тачком 59 Анекса А Уредбе Комисије (ЕЗ) број 936/1999 од 27. априла 1999. године којом се мењају или стављају ван снаге одређене Уредбе у вези са сврставањем робе према Комбинованој номенклатури (OJ L 117/9 од 5.5.1999, стр. 13), која је објављена у „Службеном гласнику РС”, број 79/2011
+	7 замењено са „7013, 7013 99 и 7013 99 00” у складу са тачком 59 Анекса А Уредбе Комисије (ЕЗ) број 936/1999 од 27. априла 1999. године којом се мењају или стављају ван снаге одређене Уредбе у вези са сврставањем робе према Комбинованој номенклатури (OJ L 117/9 од 5.5.1999, стр. 13), која је објављена у „Службеном гласнику РС”, број 79/2011
+

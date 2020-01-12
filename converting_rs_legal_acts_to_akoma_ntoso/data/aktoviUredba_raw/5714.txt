@@ -1,0 +1,191 @@
+﻿
+
+
+	
+	Zakon
+
+	
+
+
+	
+				
+				На основу члана 3а став 4. Закона о Царинској тарифи („Службени гласник РС”, бр. 62/05, 61/07 и 5/09) објављује се Уредба Комисије (ЕУ) о спровођењу број 1229/2013 од 28. новембра 2013. године у вези са сврставањем одређене робе у Комбинованој номенклатури објављена у „Службеном листу Европске уније”, број L 322/8 од 3. децембра 2013. године, која у оригиналу на енглеском језику и у преводу на српски језик гласи:
+				COMMISSION IMPLEMENTING REGULATION (EU) No 1229/2013 of 28 November 2013 concerning the classification of certain goods in the Combined Nomenclature
+				"Службени гласник РС", број 5 од 22. јануара 2014.
+				THE EUROPEAN COMMISSION,
+				Having regard to the Treaty on the Functioning of the European Union,
+				Having regard to Council Regulation (EEC) No 2658/87 of 23 July 1987 on the tariff and statistical nomenclature and on the Common Customs Tariff (1), and in particular Article 9(1)(a) thereof,
+				Whereas:
+				(1) In order to ensure uniform application of the Combined Nomenclature annexed to Regulation (EEC) No 2658/87, it is necessary to adopt measures concerning the classification of the goods referred to in the Annex to this Regulation.
+				(2) Regulation (EEC) No 2658/87 has laid down the general rules for the interpretation of the Combined Nomenclature. Those rules apply also to any other nomenclature which is wholly or partly based on it or which adds any additional subdivision to it and which is established by specific provisions of the Union, with a view to the application of tariff and other measures relating to trade in goods.
+				(3) Pursuant to those general rules, the goods described in column (1) of the table set out in the Annex should be classified under the CN code indicated in column (2), by virtue of the reasons set out in column (3) of that table.
+				(4) It is appropriate to provide that binding tariff information issued in respect of the goods concerned by this Regulation which does not conform to this Regulation may continue to be invoked for a certain period by the holder in accordance with Article 12(6) of Council Regulation (EEC) No 2913/92 (2). That period should be set at three months.
+				(5) The measures provided for in this Regulation are in accordance with the opinion of the Customs Code Committee,
+				HAS ADOPTED THIS REGULATION:
+				Article 1
+				The goods described in column (1) of the table set out in the Annex shall be classified within the Combined Nomenclature under the CN code indicated in column (2) of that table.
+				Article 2
+				Binding tariff information which does not conform to this Regulation may continue to be invoked in accordance with Article 12(6) of Regulation (EEC) No 2913/92 for a period of three months from the date of entry into force of this Regulation.
+				Article 3
+				This Regulation shall enter into force on the twentieth day following that of its publication in the Official Journal of the European Union.
+				This Regulation shall be binding in its entirety and directly applicable in all Member States. 
+				Done at Brussels, 28 November 2013.
+				––––––––––––––
+				(1) OJ L 256, 7.9.1987, p. 1.
+				(2) Council Regulation (EEC) No 2913/92 of 12 October 1992 establishing the Community Customs Code (OJ L 302, 19.10.1992, p. 1).
+				
+				For the Commission, 
+				On behalf of the President,
+				Algirdas ŠEMETA
+				Member of the Commission
+				ANNEX
+				
+					
+						
+							
+								Description of the goods
+							
+							
+								Classification (CN-code)
+							
+							
+								Reasons
+							
+						
+						
+							
+								(1)
+							
+							
+								(2)
+							
+							
+								(3)
+							
+						
+						
+							
+								Article consisting of a wooden platform (measuring approximately 40 to 40 cm) covered on the upper and edges with a felt lined woven fabric of synthetic fibres (polypropylene). The fabric has a backing of cellular plastic.
+								In the centre of the platform, there is a 60 cm high tube made of cardboard, with a cover on both ends. The cover at the bottom end is made of hard plastic, and a screw is passed through the wooden platform into that plastic cover in order to attach the platform to the tube. The cover at the top end of the tube consists of a round piece of wooden material having a diameter of approximately 12 cm and being covered with a woven pile fabric (a plush of 60% polyacryl and 40% polyester).
+								The tube is covered with a sisal mat glued to it and fixed to it by staples. The sisal mat consists of a latex backing applied to a woven fabric of spun vegetable fibres of sisal (see photo no 668B). The spun strings of sisal fibres measure more than 20 000 decitex each.
+								(See photographs nos. 668A and 668B) (*)
+							
+							
+								6307 90 98
+							
+							
+								Classification is determined by general rules 1, 3(b) and 6 for the interpretation of the Combined Nomenclature (GIR), note 7(f) to Section XI and the wording of CN code 6307, 6307 90 and 6307 90 98.
+								Given its objective characteristics, the article is an article for cats and is designed to attract cats and to keep them away from furniture that they would otherwise scratch and occupy.
+								Classification as furniture under heading 9403 is excluded because that heading covers products of a different nature which are used for private dwellings, hotels, offices, schools, churches, shops, laboratories, etc. (see also the Harmonised System Explanatory Notes (HSEN) to heading 9403 of the HS).
+								Classification as toys under heading 9503 is also excluded because the article is identifiable as intended exclusively for animals and thus not covered by that heading in accordance with note 5 to Chapter 95.
+								The textile material is essential to attract cats (e.g. to scratch their claws on it, sit on it and play with it) and consequently essential to the use of the article as a scratching and playing facility for cats. Thus, it is the textile material (not the wood, paperboard or plastic) that gives the article its essential character within the meaning of GIR 3(b).
+								The sisal fibres of heading 5305 have been spun into twine of heading 5607 within the meaning of note 3 (A) (e) to Section XI of the CN (see also the HSEN to heading 5305, first paragraph, and the distinction between yarns and twine in table I, type: of other vegetable fibres, in the HSEN to Section XI, General, (1) (B) (2)).
+								However, the woven sisal fabric cannot be classified in heading 5609 as an article of twine, because this heading does not cover textile articles covered by a more specific heading for textile fabrics such as heading 6307 (see also the HSEN to heading 5609, first paragraph and third paragraph, point (c)).
+								Neither the sisal mat nor the felt lined woven fabric of synthetic fibres with its backing of cellular plastic can be classified in Chapter 57 within the meaning of note 1 to that Chapter as those materials are part of a cat scratcher and do not have a furnishing purpose (see also the HSEN to Chapter 57, General, first paragraph).
+								Consequently, a made-up article consisting of woven sisal fabric, woven pile fabric, and felt lined woven fabric of synthetic fibres, should be classified under heading 6307.
+								The article should therefore be classified under CN code 6307 90 98 as „other made-up textile articles“.
+							
+						
+						
+							
+								(*) The photographs are purely for information.
+							
+						
+					
+				
+				
+				УРЕДБА КОМИСИЈЕ (ЕУ) О СПРОВОЂЕЊУброј 1229/2013 од 28. новембра 2013. године у вези са сврставањем одређених роба према Комбинованој номенклатури
+				"Службени гласник РС", број 5 од 22. јануара 2014.
+				ЕВРОПСКА КОМИСИЈА,
+				Имајући у виду Уговор о функционисању Европске уније,
+				Имајући у виду Уредбу Савета (ЕЕЗ) број 2658/87 од 23. јула 1987. године о тарифној и статистичкој номенклатури и Заједничкој царинској тарифи1, а посебно члан 9. став 1. тачка а), 
+				С обзиром на то да:
+				(1) је како би се осигурала једнообразна примена Комбиноване номенклатуре приложене уз Уредбу (ЕЕЗ) број 2658/87, неопходно усвојити мере у вези са сврставањем робе наведене у Анексу ове уредбе;
+				(2) су Уредбом (ЕЕЗ) број 2658/87 утврђена основна правила за примењивање Комбиноване номенклатуре. Ова правила се такође примењују на сваку другу номенклатуру која се у потпуности или делимично заснива на њој, или која јој додаје било какве потподеле и која је установљена посебним прописима Уније, са циљем примене тарифних и других мера које се односе на трговину робом;
+				(3) се у складу са тим основним правилима, роба описана у колони 1. табеле у Анексу сврстава у CN ознаку наведену у колони 2, према разлозима датим у колони 3. те табеле;
+				(4) је потребно обезбедити да ималац обавезујуће тарифне информације, издате за робу на коју се односи ова уредба, а која није у складу са овом уредбом, може одређени период, да настави да се позива на њу, према члану 12. став 6. Уредбе Савета (ЕЕЗ) број 2913/922. Овај период треба да буде три месеца;
+				(5) су мере предвиђене овом уредбом у складу са мишљењем Одбора за Царински закоником,
+				ДОНЕЛА ЈЕ ОВУ УРЕДБУ:
+				Члан 1.
+				Роба описана у колони 1. табеле дате у Анексу сврстава се у оквиру Комбиноване номенклатуре у CN ознаку наведену у колони 2. те табеле.
+				Члан 2.
+				Обавезујућа тарифна информација која није у складу са овом уредбом, према члану 12. став 6. Уредбе (ЕЕЗ) број 2913/92, може наставити да важи у периоду од три месеца од дана ступања на снагу ове уредбе.
+				Члан 3.
+				Ова уредба ступа на снагу 20. дана од дана објављивања у „Службеном листу Европске уније”.
+				Ова уредба је обавезујућа у целини и непосредно се примењује у свим државама чланицама. 
+				У Бриселу, 28. новембра 2013. године. 
+				––––––––––––––
+				1 OJ L 256, 7.9.1987. стр.1.
+				2 Уредба Савета (ЕЕЗ) број 2913/92 од 12. октобра 1992. године којом је установљен Царински кодекс Заједнице (OJ L 302, 19.10.1992, стр.1).
+				За Комисију,
+				у име председника,
+				Algirdas ŠEMETA
+				члан Комисије
+				АНЕКС
+				
+					
+						
+							
+								Опис робе
+							
+							
+								Сврставање
+								(CN ознака)
+							
+							
+								Разлози
+							
+						
+						
+							
+								(1)
+							
+							
+								(2)
+							
+							
+								(3)
+							
+						
+						
+							
+								Производ који се састоји од дрвеног постоља (приближних димензија 40 до 40 cm) прекривеног са горње стране и по ивицама
+								тканим материјалом од синтетичких влакана (полипропилен) обложеног филцом. Ткани материјал има подлогу од пластичне масе ћелијасте структуре.
+								У средини постоља налази се 60 cm висока цев израђена од картона, са поклопцем на оба краја. Поклопац на дну је израђен од тврде пластике, а кроз дрвено постоље пролази вијак у пластични поклопац да би се постоље причврстило за цев. Поклопац на врху цеви састоји се од округлог комада дрвеног материјала, пречника приближно 12 cm и прекривен тканим материјалом са флором (плиш од 60% полиакрила и 40% полиестра).
+								Цев је прекривена подметачем од сисала који је за њу залепљен и причвршћен спајалицама. Подметач од сисала састоји се од подлоге од латекса нанете на ткани материјал од упредених биљних влакана од сисала (видети слику број 668B) Упредене врпце од влакана од сисала имају нумерацију већу 20 000 децитекса свака.
+								(Видети фотографије број 668А и 668B) (*)
+							
+							
+								6307 90 98
+							
+							
+								Сврставање је одређено Основним правилима 1, 3(б) и 6. за примењивање Комбиноване номенклатуре, Напоменом 7(ђ) уз
+								Одељак XI и наименовањима уз CN ознаке 6307, 6307 90 и 6307 90 98.
+								С обзиром на своје објективне карактеристике, производ је намењен за мачке и дизајниран је да их привлачи и одвраћа од намештаја који би иначе гребале и запоседале.
+								Искључује се сврставање у тарифни број 9403 као намештаја зато што тај тарифни број обухвата производе другачије природе који се употребљавају у приватним кућама, хотелима, канцеларијама, школама, црквама, продавницама, лабораторијама, итд. (видети такође ХС Коментар уз тарифни број 9403).
+								Такође се искључује сврставање као играчке, у тарифни број 9503, зато што се производ може идентификовати као намењен искључиво за животиње, те према томе, у складу са Напоменом 5. уз Главу 95, није обухваћен тим тарифним бројем.
+								Текстилни материјала је суштински битан за привлачење мачака (нпр. да гребу канџама по њему, седе на њему и играју се са њим) и сходно томе суштински битан за употребу производа, као предмета за гребање и игру, за мачке. Према томе, текстилни материјал је тај (а не дрво, картон или пластика) који производу даје његов битан карактер у смислу ОПП 3(б). 
+								Влакна од сисала из тарифног броја 5305 упредена су у канап из тарифног броја 5607 у смислу напомене 3 (А) (д) уз Одељак XI Комбиноване номенклатуре (видети такође ХС Коментар уз тарифни број 5305, први став, и разлику између предива и канапа у табели I, тип: од осталих биљних влакана, у ХС Коментару уз уз Одељак XI, Опште одредбе, (1) (B) (2)).
+								Међутим, ткани материјал од сисала не сврстава се у тарифни број 5609 као производ од канапа, зато што овај тарифни број не обухвата текстилне производе обухваћене специфичнијим тарифним бројем за текстилне материјале као што су тарифни број 6307 (видети такође ХС Коментар уз тарифни број 5609, први став и трећи став, тачка (c)).
+							
+						
+						
+							
+							
+							
+							
+							
+								Нити подметач од сисала, ни ткани материјал од синтетичких влакана обложених филцом са подлогом од пластичне масе ћелијасте структуре не сврставају се у Главу 57 у смислу Напомене 1. уз ту главу, с обзиром на то да су ови материјали део гребалице за мачке, и немају сврху опремања (видети такође ХС Коментар уз Главу 57, Опште одредбе, први став).
+								Сходно томе, готов производ који се састоје од тканог материјала од сисала, тканог материјал са флором и ткани материјал од синтетичких влакана обложеног филцом, сврстава се у тарифни број 6307.
+								Производ се, према томе, сврстава у CN ознаку 6307 90 98 као „остали готови текстилни производи”.
+							
+						
+						
+							
+								(*) Фотографија има само информативни карактер.
+							
+						
+					
+				
+	
+

@@ -1,0 +1,168 @@
+﻿
+
+
+	
+	Zakon
+
+	
+
+
+	
+				
+				На основу члана 3а став 4. Закона о Царинској тарифи („Службени гласник РС”, бр. 62/05, 61/07 и 5/09) објављује се Уредба Комисије (ЕУ) о спровођењу број 1231/2013 од 28. новембра 2013. године у вези са сврставањем одређене робе у Комбинованој номенклатури објављена у „Службеном листу Европске уније”, број L 322/13 од 3. децембра 2013. године, која у оригиналу на енглеском језику и у преводу на српски језик гласи:
+				COMMISSION IMPLEMENTING REGULATION (EU) No 1231/2013 of 28 November 2013 concerning the classification of certain goods in the Combined Nomenclature
+				"Службени гласник РС", број 5 од 22. јануара 2014.
+				THE EUROPEAN COMMISSION,
+				Having regard to the Treaty on the Functioning of the European Union,
+				Having regard to Council Regulation (EEC) No 2658/87 of 23 July 1987 on the tariff and statistical nomenclature and on the Common Customs Tariff (1), and in particular Article 9(1)(a) thereof,
+				Whereas:
+				(1) In order to ensure uniform application of the Combined Nomenclature annexed to Regulation (EEC) No 2658/87, it is necessary to adopt measures concerning the classification of the goods referred to in the Annex to this Regulation.
+				(2) Regulation (EEC) No 2658/87 has laid down the general rules for the interpretation of the Combined Nomenclature. Those rules apply also to any other nomenclature which is wholly or partly based on it or which adds any additional subdivision to it and which is established by specific provisions of the Union, with a view to the application of tariff and other measures relating to trade in goods.
+				(3) Pursuant to those general rules, the goods described in column (1) of the table set out in the Annex should be classified under the CN code indicated in column (2), by virtue of the reasons set out in column (3) of that table.
+				(4) It is appropriate to provide that binding tariff information issued in respect of the goods concerned by this Regulation which does not conform to this Regulation may, for a certain period, continue to be invoked by the holder in accordance with Article 12(6) of Council Regulation (EEC) No 2913/92 (2). That period should be set at three months.
+				(5) The measures provided for in this Regulation are in accordance with the opinion of the Customs Code Committee,
+				HAS ADOPTED THIS REGULATION:
+				Article 1
+				The goods described in column (1) of the table set out in the Annex shall be classified within the Combined Nomenclature under the CN code indicated in column (2) of that table.
+				Article 2
+				Binding tariff information which does not conform to this Regulation may continue to be invoked in accordance with Article 12(6) of Regulation (EEC) No 2913/92 for a period of three months from the date of entry into force of this Regulation.
+				Article 3
+				This Regulation shall enter into force on the twentieth day following that of its publication in the Official Journal of the European Union.
+				This Regulation shall be binding in its entirety and directly applicable in all Member States. 
+				Done at Brussels, 28 November 2013.
+				––––––––––––––
+				(1) OJ L 256, 7.9.1987, p. 1.
+				(2) Council Regulation (EEC) No 2913/92 of 12 October 1992 establishing the Community Customs Code (OJ L 302, 19.10.1992, p. 1).
+				For the Commission, 
+				On behalf of the President,
+				Dacian CIOLOŞ
+				Member of the Commission
+				ANNEX
+				
+					
+					
+					
+						
+							
+								Description of goods
+							
+							
+								Classification (CN code)
+							
+							
+								Reasons
+							
+						
+						
+							
+								(1)
+							
+							
+								(2)
+							
+							
+								(3)
+							
+						
+						
+							
+								Treated distillate aromatic extract (TDAE) having the following physico-chemical properties:
+								– content of aromatic constituents between 74,2 % and 75 % by weight, as determined by the chromatography column process described in Annex A to Chapter 27 of the Explanatory Notes to the Combined Nomenclature (CNEN);
+								– density at 15 °C between 0,9521 and 0,9590 g/cm3;
+								– not more than 4 % by volume distils up to 300 °C, as determined by the ASTM D 86-67 (EN ISO 3405) method.
+								TDAE is an extract that is the result of the refining of lubricants from vacuum distillation residues.
+								The aromatic constituents are produced as byproducts in the refining of lubricating oil base stocks and waxes.
+								The product is used as plasticizer for non- vulcanised rubber compounds that constitute raw materials in the manufacture of tyres and other vulcanised rubber products.
+							
+							
+								2707 99 99
+							
+							
+								Classification is determined by the General Rules 1, and 6 for the interpretation of the Combined Nomenclature and by the wording of CN codes 2707, 2707 99 and 2707 99 99.
+								As the product has not been directly obtained by distillation or refining of crude petroleum oils or of crude oils obtained from bituminous materials and the weight of the aromatic constituents in the product exceeds that of the non-aromatic constituents, classification under heading 2710 as petroleum oils and oils obtained from
+								bituminous minerals, other than crude, preparations not elsewhere specified or included containing by weight 70 % or more of petroleum oils and oils obtained from bituminous minerals or waste oils is excluded (see Note 2 to Chapter 27).
+								As the product has not been directly obtained from petroleum, petroleum oils or from oils of bituminous minerals and the content of aromatic constituents in the product is less than 80 %, classification under heading 2713 as petroleum coke, petroleum bitumen or other residues therefrom is excluded (see also the Explanatory Notes to the Combined nomenclature (CNEN) to subheadings 2713 90 10 and 2713 90 90).
+								The product is an aromatic extract obtained by the refining of lubricants from vacuum distillation residues. Due to its content of aromatic constituents, it belongs to the category of oils or similar products in which the weight of the aromatic constituents exceeds that of the non-aromatic constituents (see also the CNEN to subheadings 2707 99 91 and 2707 99 99, item 2).
+								It is therefore to be classified under CN code 2707 99 99.
+							
+						
+					
+				
+				УРЕДБА КОМИСИЈЕ (ЕУ) О СПРОВОЂЕЊУ број 1231/2013 од 28. новембра 2013. године у вези са сврставањем одређене робе према Комбинованој номенклатури
+				"Службени гласник РС", број 5 од 22. јануара 2014.
+				ЕВРОПСКА КОМИСИЈА,
+				Имајући у виду Уговор о функционисању Европске уније,
+				Имајући у виду Уредбу Савета (ЕЕЗ) број 2658/87 од 23. јула 1987. године о тарифној и статистичкој номенклатури и Заједничкој царинској тарифи1, а посебно члан 9. став 1. тачка а), 
+				С обзиром на то да:
+				(1) је како би се осигурала једнообразна примена Комбиноване номенклатуре приложене уз Уредбу (ЕЕЗ) број 2658/87, неопходно усвојити мере у вези са сврставањем робе наведене у Анексу ове уредбе;
+				(2) су Уредбом (ЕЕЗ) број 2658/87 утврђена основна правила за примењивање Комбиноване номенклатуре. Ова правила се такође примењују на сваку другу номенклатуру која се у потпуности или делимично заснива на њој, или која јој додаје било какве потподеле и која је установљена посебним прописима Уније, са циљем примене тарифних и других мера које се односе на трговину робом;
+				(3) се у складу са тим основним правилима, роба описана у колони 1. табеле у Анексу сврстава у CN ознаку наведену у колони 2, према разлозима датим у колони 3. те табеле;
+				(4) је потребно обезбедити да ималац обавезујуће тарифне информације, издате за робу на коју се односи ова уредба, а која није у складу са овом уредбом, може одређени период, да настави да се позива на њу, према члану 12. став 6. Уредбе Савета (ЕЕЗ) број 2913/922. Овај период треба да буде три месеца;
+				(5) су мере предвиђене овом уредбом у складу са мишљењем Одбора за Царински законик,
+				ДОНЕЛА ЈЕ ОВУ УРЕДБУ:
+				Члан 1.
+				Роба описана у колони 1. табеле дате у Анексу сврстава се у оквиру Комбиноване номенклатуре у CN ознаку наведену у колони 2. те табеле.
+				Члан 2.
+				Обавезујућа тарифна информација која није у складу са овом уредбом, према члану 12. став 6. Уредбе (ЕЕЗ) број 2913/92, може наставити да важи у периоду од три месеца од дана ступања на снагу ове уредбе.
+				Члан 3.
+				Ова уредба ступа на снагу 20. дана од дана објављивања у „Службеном листу Европске уније”.
+				Ова уредба је обавезујућа у целини и непосредно се примењује у свим државама чланицама.
+				У Бриселу, 28. новембра 2013. године. 
+				––––––––––––––
+				1 OJ L 256, 7.9.1987. стр.1. 
+				2 Уредба Савета (ЕЕЗ) број 2913/92 од 12. октобра 1992. године којом је установљен Царински кодекс Заједнице (OJ L 302, 19.10.1992, стр.1).
+				За Комисију,
+				у име председника,
+				Dacian CIOLOŞ
+				члан Комисије
+				АНЕКС
+				
+					
+						
+							
+								Опис робе
+							
+							
+								Сврставање
+								(CN ознака)
+							
+							
+								Разлози
+							
+						
+						
+							
+								(1)
+							
+							
+								(2)
+							
+							
+								(3)
+							
+						
+						
+							
+								Обрађени дестилат ароматичног екстракта (TDAE) следећих физичко-хемијских својстава:
+								– садржај ароматичних састојака између 74,2% и 75% по маси, како је одређено поступком хроматографске колоне описаном у Анексу А уз Главу 27 Допунског коментара Комбиноване номенклатуре;
+								 – густина на 15ºC између 0,9521 и 0,9590g/cm3;
+								– не дестилише више од 4% по запремини до 300ºC како је одређено методом ASTM D 86-67 (EN ISO 3405).
+								TDAE је екстракт који се добија рафинисањем мазива из остатка вакуумске дестилације.
+								Ароматични састојци се стварају као нуспроизводи у рафинисању сировина за уља за подмазивање и воскова.
+								Производ се употребљава као пластификатор за једињења невулканизованог каучука, која чине сировину у производњи гума и осталих производа од вулканизованог каучука.
+							
+							
+								2707 99 99
+							
+							
+								Сврставање је одређено Основним правилима 1. и 6. за примењивање Комбиноване номенклатуре, и наименовањима уз CN ознаке 2707, 270799 и 27079999.
+								Како производ није непосредно добијен дестилацијом или рафинисањем сирових уља од нафте или сирових уља добијених од битуменозних материјала и како маса ароматичних састојака у производу прелази масу неароматичних састојака, искључује се сврставање у тарифни број 2710 као уља добијена од нафте и уља добијена од битуменозних минерала, осим сирових; производи, на другом месту непоменути нити обухваћени, који садрже по маси 70% или више уља од нафте или уља добијених од битуменозних минерала, отпадна уља (видети Напомену 2 уз Главу 27).
+								Како производ није непосредно добијен од нафте, уља од нафте или уља од битуменозних минерала и како је садржај ароматичних састојака у производу мањи од 80%, искључује се, према томе, сврставање у тарифни број 2713 као нафтног кокса, битумена од нафте или осталих остатака из уља од нафте (видети такође Допунски коментар Комбиноване номенклатуре уз тарифне подбројеве 27139010 и 27139090).
+								Производ је ароматични екстракт добијен рафинисањем уља за подмазивање из остатка вакуумске дестилације. Због садржаја ароматичних састојака припада категорији уља или сличних производа у којима маса ароматичних састојака прелази масу неароматичних састојака (видети такође Допунски коментар Комбиноване номенклатуре уз тарифне подбројеве 27079991 и 27079999, тачка 2).
+								Према томе, сврстава се у CN ознаку 27079999.
+							
+						
+					
+				
+	
+

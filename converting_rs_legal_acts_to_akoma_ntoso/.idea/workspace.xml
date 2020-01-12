@@ -1,11 +1,205 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/preprocessing/remove_html.py" line="25" mnemonic="3" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c68450e-6ba3-4e78-8ba2-7662591f56c3" name="Default Changelist" comment="" />
+    <list default="true" id="6c68450e-6ba3-4e78-8ba2-7662591f56c3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connector/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/connector/text.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connector/tokenize.txt" beforeDir="false" afterPath="$PROJECT_DIR$/connector/tokenize.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/preprocess_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing/preprocess_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/stopwords.txt" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing/stopwords.txt" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1811684398">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="10" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.4" value="3" />
+          <entry key="project.open.time.5" value="5" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Python Console" value="3" />
+          <entry key="py" value="5201" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="5204" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="abbrev" value="3" />
+          <entry key="html" value="3" />
+          <entry key="py" value="28" />
+          <entry key="pyi" value="1" />
+          <entry key="txt" value="38" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="3" />
+          <entry key="PLAIN_TEXT" value="41" />
+          <entry key="Python" value="28" />
+          <entry key="PythonStub" value="1" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1643910494">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="1612" />
+          <entry key="stopwords" value="1" />
+          <entry key="txt" value="84" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="85" />
+          <entry key="Python" value="1612" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="17" />
+          <entry key="pyi" value="1" />
+          <entry key="stopwords" value="1" />
+          <entry key="txt" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="Python" value="17" />
+          <entry key="PythonStub" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/connector/connector.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="517">
+              <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/site-packages/nltk/data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="700" selection-start-line="700" selection-end-line="700" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/site-packages/sklearn/feature_extraction/text.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="67" selection-start-line="67" selection-end-line="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/site-packages/gensim/models/word2vec.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="10931">
+              <caret line="658" column="32" selection-start-line="658" selection-start-column="23" selection-end-line="658" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/preprocessing/preprocess_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+              <folding>
+                <element signature="e#120#139#0" expanded="true" />
+                <marker date="1578497253950" expanded="true" signature="389:565" ph="..." />
+                <marker date="1578497253950" expanded="true" signature="698:802" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/codecs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="320" selection-start-line="320" selection-end-line="320" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/preprocessing/stopwords.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2558">
+              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/site-packages/gensim/models/base_any2vec.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19958">
+              <caret line="1186" selection-start-line="1186" selection-end-line="1186" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18139">
+              <caret line="1067" selection-start-line="1067" selection-end-line="1067" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -16,13 +210,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>35</find>
-      <find>Јединствени</find>
-      <find>за израду пр</find>
-      <find>41/2009-99</find>
-      <find>glava_find_title</find>
-      <find>одељак</find>
-      <find>srb</find>
       <find>1007.html</find>
       <find>1034</find>
       <find>1042.html</find>
@@ -46,39 +233,151 @@
       <find>fajl</find>
       <find>aktovi</find>
       <find>print</find>
+      <find>ImportError: cannot import name 'SIGPIPE' from 'signal'</find>
+      <find>parser</find>
+      <find>args</find>
+      <find>to_file</find>
+      <find>most_similar</find>
+      <find>model</find>
+      <find>isDigit</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1UnnAT1esFlOglMAxNyVP2kMLUK" />
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/aktovi/1.html" />
+        <option value="$PROJECT_DIR$/aktovi/3.html" />
+        <option value="$PROJECT_DIR$/aktovi/4.html" />
+        <option value="$PROJECT_DIR$/preprocessing/striphtml.py" />
+        <option value="$PROJECT_DIR$/preprocessing/read_xml.py" />
+        <option value="$PROJECT_DIR$/preprocessing/preprocessing.py" />
+        <option value="$PROJECT_DIR$/data/aktovi_html/1050.html" />
+        <option value="$PROJECT_DIR$/form_akoma/structure.py" />
+        <option value="$PROJECT_DIR$/scraping/test.txt" />
+        <option value="$PROJECT_DIR$/data/categorised/skript.py" />
+        <option value="$PROJECT_DIR$/form_akoma/patterns.py" />
+        <option value="$PROJECT_DIR$/preprocessing/init_akoma.py" />
+        <option value="$PROJECT_DIR$/tokenizer/TokenType.py" />
+        <option value="$PROJECT_DIR$/tokenizer/BasicTokenizer.py" />
+        <option value="$PROJECT_DIR$/form_akoma/metadata.py" />
+        <option value="$PROJECT_DIR$/data/NER/prepare_json.py" />
+        <option value="$PROJECT_DIR$/named_enitity_recognition/preprocessing.py" />
+        <option value="$PROJECT_DIR$/data/metadata.csv" />
+        <option value="$PROJECT_DIR$/form_akoma/Metadata.py" />
+        <option value="$PROJECT_DIR$/reasoner/patterns.py" />
+        <option value="$PROJECT_DIR$/reasoner/BasicReasoner.py" />
+        <option value="$PROJECT_DIR$/form_akoma/AkomaBuilder.py" />
+        <option value="$PROJECT_DIR$/tokenizer/HTMLTokenizer.py" />
+        <option value="$PROJECT_DIR$/form_akoma/MetadataBuilder.py" />
+        <option value="$PROJECT_DIR$/tokenizer/patterns.py" />
+        <option value="$PROJECT_DIR$/reasoner/OdlukaReasoner.py" />
+        <option value="$PROJECT_DIR$/named_enitity_recognition/pattern_recognition.py" />
+        <option value="$PROJECT_DIR$/data/akoma_result/2126.xml" />
+        <option value="$PROJECT_DIR$/data/akoma_result/161.xml" />
+        <option value="$PROJECT_DIR$/convert_data.py" />
+        <option value="$PROJECT_DIR$/convert_html.py" />
+        <option value="$PROJECT_DIR$/convertToLatin/Convert.py" />
+        <option value="$PROJECT_DIR$/data/linkovi/linkovi2.txt" />
+        <option value="$PROJECT_DIR$/scraping/LinkScraping.py" />
+        <option value="$PROJECT_DIR$/scraping/CleanLinks.py" />
+        <option value="$PROJECT_DIR$/scraping/webscraping2.py" />
+        <option value="$PROJECT_DIR$/preprocessing/word_embedding.py" />
+        <option value="$PROJECT_DIR$/reldi-tokeniser-master/tokeniser.py" />
+        <option value="$PROJECT_DIR$/reldiTokeniser/tokeniser.py" />
+        <option value="$PROJECT_DIR$/../../../../reldi-tokeniser-master/tokeniser.py" />
+        <option value="$PROJECT_DIR$/preprocessing/remove_html.py" />
+        <option value="$PROJECT_DIR$/../reldi-tagger/tagger.py" />
+        <option value="$PROJECT_DIR$/connector/connector.py" />
+        <option value="$PROJECT_DIR$/preprocessing/stopwords" />
+        <option value="$PROJECT_DIR$/preprocessing/embedding.py" />
+        <option value="$PROJECT_DIR$/preprocessing/preprocess_data.py" />
+        <option value="$PROJECT_DIR$/preprocessing/stopwords.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="501" />
+    <option name="y" value="134" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyBroadExceptionInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
-    <option name="showLibraryContents" value="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="converting_rs_legal_acts_to_akoma_ntoso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="converting_rs_legal_acts_to_akoma_ntoso" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="converting_rs_legal_acts_to_akoma_ntoso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="converting_rs_legal_acts_to_akoma_ntoso" type="462c0819:PsiDirectoryNode" />
+              <item name="preprocessing" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../reldi-tagger" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Predator\PycharmProjects\converting_rs_legal_acts_to_akoma_ntoso-masterAndrijahehe\data" />
+      <recent name="C:\Users\Astral\Desktop\Master\Aca\MasterProject\converting_rs_legal_acts_to_akoma_ntoso\preprocessing" />
+      <recent name="C:\Users\Astral\Desktop\Master\Aca\MasterProject\converting_rs_legal_acts_to_akoma_ntoso\connector" />
+      <recent name="C:\Users\Astral\Desktop\Master\Pravna Informatika\Kolege1\converting_rs_legal_acts_to_akoma_ntoso-master\tokenhgffdjklg" />
+      <recent name="C:\Users\Astral\Desktop\Master\Pravna Informatika\Kolege1\converting_rs_legal_acts_to_akoma_ntoso-master\reldi-tokenizer" />
       <recent name="C:\Users\Astral\Desktop\Master\Pravna Informatika\Kolege1\converting_rs_legal_acts_to_akoma_ntoso-master\scraping" />
-      <recent name="C:\Users\Lenovo\Desktop\Pravna Informatika\data\NER" />
-      <recent name="C:\Users\Lenovo\Desktop\Pravna Informatika\tokenizer" />
-      <recent name="C:\Users\Lenovo\Desktop\Pravna Informatika\scraping" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Predator\PycharmProjects\converting_rs_legal_acts_to_akoma_ntoso-masterAndrijahehe\data\test" />
-      <recent name="C:\Users\Predator\PycharmProjects\converting_rs_legal_acts_to_akoma_ntoso-masterAndrijahehe" />
+      <recent name="C:\Users\Astral\Desktop\Master\Aca\MasterProject\converting_rs_legal_acts_to_akoma_ntoso\preprocessing" />
       <recent name="C:\Users\Lenovo\Desktop\Pravna Informatika\data\NER\labeled" />
       <recent name="C:\Users\Lenovo\Desktop\Pravna Informatika\reasoner" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.pretprocess_data">
-    <configuration name="CleanLinks" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.preprocess_data">
+    <configuration name="connector" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Pravna Informatika" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -86,11 +385,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scraping" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/connector" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scraping/CleanLinks.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/connector/connector.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -99,28 +398,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="LinkScraping" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Pravna Informatika" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scraping" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scraping/LinkScraping.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pretprocess_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="embedding" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Pravna Informatika" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -132,7 +410,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/preprocessing/pretprocess_data.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/preprocessing/embedding.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="preprocess_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Pravna Informatika" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/preprocessing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/preprocessing/preprocess_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -184,33 +483,21 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.CleanLinks" />
-      <item itemvalue="Python.LinkScraping" />
-      <item itemvalue="Python.pretprocess_data" />
-      <item itemvalue="Python.remove_html" />
       <item itemvalue="Python.webscraping2" />
+      <item itemvalue="Python.remove_html" />
+      <item itemvalue="Python.preprocess_data" />
+      <item itemvalue="Python.connector" />
+      <item itemvalue="Python.embedding" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.pretprocess_data" />
-        <item itemvalue="Python.webscraping2" />
-        <item itemvalue="Python.CleanLinks" />
-        <item itemvalue="Python.LinkScraping" />
+        <item itemvalue="Python.preprocess_data" />
+        <item itemvalue="Python.embedding" />
+        <item itemvalue="Python.connector" />
         <item itemvalue="Python.remove_html" />
+        <item itemvalue="Python.webscraping2" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -234,64 +521,57 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18335089" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925596" weight="0.34815618" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.29934925" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3275488" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50074404" side_tool="true" weight="0.36006546" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3253796" />
+      <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.3286334" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13751318" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.329718" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49925596" weight="0.3449024" />
+      <window_info active="true" anchor="bottom" id="Debug" order="4" visible="true" weight="0.30260304" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.329718" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3286334" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50074404" side_tool="true" weight="0.36006546" />
+      <window_info anchor="bottom" id="Python Console" order="11" weight="0.3286334" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="175" y="272" key="#xdebugger.XInspectDialog" timestamp="1576007099553">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="175" y="272" key="#xdebugger.XInspectDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576007099553" />
-    <state x="837" y="222" key="#xdebugger.evaluate" timestamp="1576007664227">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="837" y="222" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1576007664227" />
-    <state x="739" y="274" key="FileChooserDialogImpl" timestamp="1576001115545">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1576001115545" />
-    <state width="1899" height="253" key="GridCell.Tab.0.bottom" timestamp="1576007733449">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="253" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576007733449" />
-    <state width="1899" height="253" key="GridCell.Tab.0.center" timestamp="1576007733449">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="253" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576007733449" />
-    <state width="1899" height="253" key="GridCell.Tab.0.left" timestamp="1576007733448">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="253" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576007733448" />
-    <state width="1899" height="253" key="GridCell.Tab.0.right" timestamp="1576007733449">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="253" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576007733449" />
-    <state width="1899" height="253" key="GridCell.Tab.1.bottom" timestamp="1576007733451">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="253" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576007733451" />
-    <state width="1899" height="253" key="GridCell.Tab.1.center" timestamp="1576007733450">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="253" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576007733450" />
-    <state width="1899" height="253" key="GridCell.Tab.1.left" timestamp="1576007733450">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="253" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576007733450" />
-    <state width="1899" height="253" key="GridCell.Tab.1.right" timestamp="1576007733450">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="253" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576007733450" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1576015198216">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576015198215" />
-    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1576004621631">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1576004621631" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -302,36 +582,329 @@
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/preprocessing/remove_html.py</url>
-          <line>110</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/preprocessing/remove_html.py</url>
-          <line>123</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/preprocessing/remove_html.py</url>
-          <line>84</line>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/scraping/CleanLinks.py</url>
           <line>9</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/preprocessing/pretprocess_data.py</url>
-          <line>26</line>
-          <option name="timeStamp" value="38" />
+          <url>file://$PROJECT_DIR$/reldiTokeniser/tokeniser.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/preprocessing/pretprocess_data.py</url>
-          <line>34</line>
-          <option name="timeStamp" value="39" />
+          <url>file://$PROJECT_DIR$/preprocessing/embedding.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/preprocessing/embedding.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/preprocessing/preprocess_data.py</url>
+          <line>70</line>
+          <option name="timeStamp" value="48" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="332" selection-start-line="332" selection-end-line="332" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scraping/linkovi2_doc.txt" />
+    <entry file="file://$PROJECT_DIR$/data/linkovi/linkovi.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-21660">
+          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/linkovi/linkovi_doc.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="1131" selection-start-line="1131" selection-end-line="1131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/linkovi/linkovi3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-612" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scraping/linkovi.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/linkovi/linkovi4.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34546">
+          <caret line="1121" column="60" selection-start-line="1121" selection-start-column="60" selection-end-line="1121" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scraping/webscraping2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1598">
+          <caret line="100" column="26" selection-start-line="100" selection-start-column="26" selection-end-line="100" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scraping/CleanLinks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/linkovi/linkovi3_doc.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38216">
+          <caret line="2248" column="108" selection-start-line="2248" selection-start-column="108" selection-end-line="2248" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/linkovi/linkovi2_doc.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/linkovi/linkovi2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45832">
+          <caret line="2696" selection-start-line="2696" selection-end-line="2696" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scraping/LinkScraping.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="56" column="23" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scraping/linkovi_prvi.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/aktovi_raw/1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/aktovi/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/aktovi_raw/8.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/aktovi_lat/1.txt" />
+    <entry file="file://$PROJECT_DIR$/data/aktovi_raw_lat/1.txt" />
+    <entry file="file://$PROJECT_DIR$/reldi-tokenizer/hr.abbrev" />
+    <entry file="file://$PROJECT_DIR$/../../../../ReLDI/reldi-tokeniser-master/tokeniser.py" />
+    <entry file="file://$PROJECT_DIR$/reldiTokeniser/tokeniser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="26" />
+          <folding>
+            <element signature="e#40#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../reldi-tokeniser-master/tokeniser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reldiTokeniser/hr.abbrev">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1615">
+          <caret line="95" column="9" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/remove_html.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="108" column="8" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../random/aktovi_raw_p/1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5388">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/connector/text.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/connector/tokenize.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/text.txt" />
+    <entry file="file://$PROJECT_DIR$/preprocessing/tokenize.txt" />
+    <entry file="file://$PROJECT_DIR$/preprocessing/stopwords" />
+    <entry file="file://$PROJECT_DIR$/../reldi-tagger/tagger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2159">
+          <caret line="128" column="13" selection-start-line="128" selection-start-column="13" selection-end-line="128" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/encodings/utf_8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/encodings/cp1252.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/convertToLatin/Convert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="77" column="21" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/word_embedding.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/typing.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5797">
+          <caret line="344" column="8" selection-start-line="344" selection-start-column="8" selection-end-line="344" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../reldi-tagger/tokeniser/tokeniser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3604">
+          <caret line="219" selection-start-line="219" selection-end-line="219" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/embedding.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/site-packages/nltk/tokenize/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1666">
+          <caret line="126" selection-start-line="126" selection-end-line="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/site-packages/gensim/models/word2vec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10931">
+          <caret line="658" column="32" selection-start-line="658" selection-start-column="23" selection-end-line="658" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/site-packages/gensim/models/base_any2vec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19958">
+          <caret line="1186" selection-start-line="1186" selection-end-line="1186" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18139">
+          <caret line="1067" selection-start-line="1067" selection-end-line="1067" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/site-packages/nltk/data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="700" selection-start-line="700" selection-end-line="700" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/connector/connector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="320" selection-start-line="320" selection-end-line="320" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/site-packages/sklearn/feature_extraction/text.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/stopwords.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2558">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/preprocess_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+          <folding>
+            <element signature="e#120#139#0" expanded="true" />
+            <marker date="1578497253950" expanded="true" signature="389:565" ph="..." />
+            <marker date="1578497253950" expanded="true" signature="698:802" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
