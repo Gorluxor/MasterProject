@@ -10,6 +10,8 @@ for line in data_file:
         split = line.strip().replace('\t', " ").split(" ")
         wordsplit = split[1]
         tagsplit = split[10]
+        if wordsplit.__contains__(',') or wordsplit.__contains__(";"):
+            continue
         if tagsplit.isdecimal():
             raise Exception("Not expecting a number {0} in line: {1}".format(tagsplit, line))
         t = (wordsplit, tagsplit)
