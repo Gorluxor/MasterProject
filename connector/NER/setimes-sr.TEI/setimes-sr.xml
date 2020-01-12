@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="setimes-sr"
+     xml:lang="sr">
+   <teiHeader xml:lang="en">
+     <fileDesc>
+       <titleStmt>
+         <title>Corpus SETimes.SR</title>
+         <principal>
+           <name>Vuk Batanović</name>
+         </principal>
+         <respStmt>
+           <resp>Annotation consolidation and consistency checking</resp>
+           <name>Vuk Batanović</name>
+         </respStmt>
+         <respStmt>
+           <resp>Morphosyntactic annotation supervision</resp>
+           <name>Nikola Ljubešić</name>
+         </respStmt>
+         <respStmt>
+           <resp>Syntactic annotation supervision</resp>
+           <name>Tanja Samardžić</name>
+         </respStmt>
+         <respStmt>
+           <resp>Morphosyntanctic and syntactic annotation</resp>
+           <name>Mirjana Starović</name>
+           <name>Matea Filko</name>
+           <name>Daša Farkaš</name>
+         </respStmt>
+         <respStmt>
+           <resp>Named entity annotation</resp>
+           <name>Filip Klubička</name>
+           <name>Denis Kranjčić</name>
+           <name>Barbara Dujmić</name>
+         </respStmt>
+         <respStmt>
+           <resp>TEI corpus encoding</resp>
+           <name>Tomaž Erjavec</name>
+         </respStmt>
+       </titleStmt>
+       <editionStmt>
+         <edition>1.0</edition>
+       </editionStmt>
+       <extent>86,726 tokens, 75,936 words</extent>
+       <publicationStmt>
+         <distributor>
+           <ref target="http://www.clarin.si/">CLARIN.SI</ref>
+         </distributor>
+         <pubPlace>
+           <ref target="http://hdl.handle.net/11356/1200">http://hdl.handle.net/11356/1200</ref>
+         </pubPlace>
+         <availability>
+           <p>This work is licenced under the licence
+	   <ref target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+           Attribution-ShareAlike 4.0 International</ref>.</p>
+           <p>You must attribute the work by citing the biblographic entry given in
+	   the CLARIN.SI repository for this entry.</p>
+         </availability>
+         <date>2018-08-20</date>
+       </publicationStmt>
+       <sourceDesc>
+	 <p>The source of this corpus are Serbian texts published on the SETimes.com news portal.</p>
+       </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+       <projectDesc>
+	 <p>Swiss National Science Foundation, SCOPES programme "Regional Linguistic Data Initiative",
+	 project 160501</p>
+       </projectDesc>
+       <projectDesc>
+	 <p>Ministry of Education, Science and Sport, CLARIN.SI research infrastructure</p>
+       </projectDesc>
+       <editorialDecl>
+         <segmentation>
+           <p>The corpus is segmented into paragraph-like elements (anonymous blocks);
+	   sentences; words, punctuation symbols, and whitespace.</p>
+         </segmentation>
+         <interpretation>
+           <p>Word-level linguistic annotation comprises the manually annotated lemma of a word
+	   (attribute @lemma),
+	   its morphosyntactic description (MSD) (attribute @ana) according to the
+	   <ref target="http://nl.ijs.si/ME/V5/msd/">MULTEXT-East morphosyntactic specification V5</ref>
+	   for Bosnian, Croatian, Montenegrin and Serbian
+	   and the Universal Dependency V2 features for Croatian (attribute @msd),
+	   separated by the pipe (|) symbol.
+	   Note that the universal features are speparated by the language specific
+	   ones with double pipe (||).</p>
+           <p>Syntactic annotation follows the
+	   <ref target="http://universaldependencies.org/">Universal Dependency framework</ref>
+	   V2 for Serbian. The dependency relations have been manually annotated.</p>
+           <p>Named entity annotation was done manually according to the <ref
+           target="http://nl.ijs.si/janes/wp-content/uploads/2017/09/SlovenianNER-eng-v1.1.pdf">Annotation
+	   guidelines for Slovenian named entities V1.1</ref>.</p>
+         </interpretation>
+         <stdVals>
+           <p>The two-letter language codes follow ISO 639-1 and are defined in the
+           language usage element.</p>
+           <p>Names identified in the text are categorised into types given in the
+           taxonomy "Janes.NER" in this teiHeader.</p>
+           <p>The names of syntactic dependency functions are given in the taxonomies
+           in this teiHeader.</p>
+           <p>Morphosyntactic descriptions are given in the feature-structure library
+           given in the back of this document.</p>
+         </stdVals>
+       </editorialDecl>
+       <tagsDecl>
+         <namespace name="http://www.tei-c.org/ns/1.0">
+	   <tagUsage gi="text" occurs="1"/>
+           <tagUsage gi="body" occurs="1"/>
+           <tagUsage gi="ab" occurs="163"/>
+           <tagUsage gi="s" occurs="3891"/>
+           <tagUsage gi="name" occurs="6888"/>
+           <tagUsage gi="c" occurs="76007"/>
+           <tagUsage gi="w" occurs="75936"/>
+           <tagUsage gi="pc" occurs="10790"/>
+           <tagUsage gi="linkGrp" occurs="3891"/>
+           <tagUsage gi="link" occurs="86726"/>
+           <tagUsage gi="back" occurs="1">
+             <desc>Contains the definitions of MULTEXT-East morphosyntactic annotations.</desc>
+           </tagUsage>
+	   <tagUsage gi="div" occurs="1"/>
+	   <tagUsage gi="head" occurs="2"/>
+	   <tagUsage gi="docAuthor" occurs="1"/>
+	   <tagUsage gi="docDate" occurs="1"/>
+	   <tagUsage gi="list" occurs="1"/>
+           <tagUsage gi="label" occurs="3"/>
+           <tagUsage gi="item" occurs="3"/>
+           <tagUsage gi="ref" occurs="1"/>
+	   <tagUsage gi="fLib" occurs="1">
+             <desc>Contains the definitions of morphosyntactic features in English.</desc>
+	   </tagUsage>
+	   <tagUsage gi="f" occurs="139">
+             <desc>The definition of one morphosyntactic feature.</desc>
+	   </tagUsage>
+           <tagUsage gi="symbol" occurs="139"/>
+	   <tagUsage gi="fvLib" occurs="1">
+             <desc>Contains the definitions of morphosyntactic descriptions in English.</desc>
+	   </tagUsage>
+           <tagUsage gi="fs" occurs="941">
+             <desc>The definition of one morphosyntactic description.</desc>
+	   </tagUsage>
+         </namespace>
+       </tagsDecl>
+       <classDecl>
+	 <taxonomy xml:id="UD-SYN">
+           <category xml:id="acl">
+             <catDesc>Clausal modifier of noun (adjectival clause)</catDesc>
+           </category>
+           <category xml:id="advcl">
+             <catDesc>Adverbial clause modifier</catDesc>
+           </category>
+           <category xml:id="advmod">
+             <catDesc>Adverbial modifier</catDesc>
+           </category>
+           <category xml:id="advmod_emph">
+             <catDesc>Adverbial modifier: emphaziser</catDesc>
+           </category>
+           <category xml:id="amod">
+             <catDesc>Adjectival modifier</catDesc>
+           </category>
+           <category xml:id="appos">
+             <catDesc>Appositional modifier</catDesc>
+           </category>
+           <category xml:id="aux">
+             <catDesc>Auxiliary</catDesc>
+           </category>
+           <category xml:id="aux_pass">
+             <catDesc>Auxiliary: passive</catDesc>
+           </category>
+           <category xml:id="case">
+             <catDesc>Case marking</catDesc>
+           </category>
+           <category xml:id="cc">
+             <catDesc>Coordinating conjunction</catDesc>
+           </category>
+           <category xml:id="ccomp">
+             <catDesc>Clausal complement</catDesc>
+           </category>
+           <category xml:id="compound">
+             <catDesc>Compound</catDesc>
+           </category>
+           <category xml:id="conj">
+             <catDesc>Conjunct</catDesc>
+           </category>
+           <category xml:id="cop">
+             <catDesc>Copula</catDesc>
+           </category>
+           <category xml:id="csubj">
+             <catDesc>Clausal subject</catDesc>
+           </category>
+           <category xml:id="csubj_pass">
+             <catDesc>Clausal subject: passive</catDesc>
+           </category>
+           <category xml:id="dep">
+             <catDesc>Unspecified dependency</catDesc>
+           </category>
+           <category xml:id="det">
+             <catDesc>Determiner</catDesc>
+           </category>
+           <category xml:id="det_numgov">
+             <catDesc>Pronominal quantifier governing the case of the noun</catDesc>
+           </category>
+           <category xml:id="discourse">
+             <catDesc>Discourse element</catDesc>
+           </category>
+           <category xml:id="dislocated">
+             <catDesc>Dislocated elements</catDesc>
+           </category>
+           <category xml:id="expl">
+             <catDesc>Expletive</catDesc>
+           </category>
+           <category xml:id="expl_pv">
+             <catDesc>Reflexive clitic with an inherently reflexive verb</catDesc>
+           </category>
+           <category xml:id="fixed">
+             <catDesc>Fixed multiword expression</catDesc>
+           </category>
+           <category xml:id="flat">
+             <catDesc>Flat multiword expression</catDesc>
+           </category>
+           <category xml:id="flat_foreign">
+             <catDesc>Flat multiword expression: foreign</catDesc>
+           </category>
+           <category xml:id="goeswith">
+             <catDesc>Goes with</catDesc>
+           </category>
+           <category xml:id="iobj">
+             <catDesc>Indirect object</catDesc>
+           </category>
+           <category xml:id="list">
+             <catDesc>List</catDesc>
+           </category>
+           <category xml:id="mark">
+             <catDesc>Marker</catDesc>
+           </category>
+           <category xml:id="nmod">
+             <catDesc>Nominal modifier</catDesc>
+           </category>
+           <category xml:id="nsubj">
+             <catDesc>Nominal subject</catDesc>
+           </category>
+           <category xml:id="nsubj_pass">
+             <catDesc>Nominal subject: passive</catDesc>
+           </category>
+           <category xml:id="nummod">
+             <catDesc>Numeric modifier</catDesc>
+           </category>
+           <category xml:id="nummod_gov">
+             <catDesc>Numeric modifier governing the case of the noun</catDesc>
+           </category>
+           <category xml:id="obj">
+             <catDesc>Object</catDesc>
+           </category>
+           <category xml:id="obl">
+             <catDesc>Oblique nominal</catDesc>
+           </category>
+           <category xml:id="orphan">
+             <catDesc>Orphan</catDesc>
+           </category>
+           <category xml:id="parataxis">
+             <catDesc>Parataxis</catDesc>
+           </category>
+           <category xml:id="punct">
+             <catDesc>Punctuation</catDesc>
+           </category>
+           <category xml:id="root">
+             <catDesc>Root</catDesc>
+           </category>
+           <category xml:id="vocative">
+             <catDesc>Vocative</catDesc>
+           </category>
+           <category xml:id="xcomp">
+             <catDesc>Open clausal complement</catDesc>
+           </category>
+	 </taxonomy>
+         <taxonomy xml:id="Janes.NER">
+           <category xml:id="per">
+             <catDesc>Person</catDesc>
+           </category>
+           <category xml:id="deriv-per">
+             <catDesc>Person derivative</catDesc>
+           </category>
+           <category xml:id="loc">
+             <catDesc>Location</catDesc>
+           </category>
+           <category xml:id="org">
+             <catDesc>Organization</catDesc>
+           </category>
+           <category xml:id="misc">
+             <catDesc>Miscellaneous</catDesc>
+           </category>
+         </taxonomy>
+       </classDecl>
+       <listPrefixDef>
+         <prefixDef ident="mte" matchPattern="(.+)" replacementPattern="#$1">
+           <p>Private URIs with the prefix "mte" point to fs elements defining the
+           Croatian MULTEXT-East V5 MSDs. In this document they are simply local references to the
+           morphosyntactic specifications in the back.</p>
+         </prefixDef>
+         <prefixDef ident="ud-syn" matchPattern="(.+)" replacementPattern="#$1">
+           <p>Private URIs with the prefix "ud-syn" point to elements giving their
+           name in English. In this document they are simply local references
+           to the UD-SYN taxonomy categories in this TEI header.</p>
+         </prefixDef>
+       </listPrefixDef>
+     </encodingDesc>
+     <profileDesc>
+       <langUsage>
+         <language ident="sr">Serbian</language>
+         <language ident="en">English</language>
+       </langUsage>
+     </profileDesc>
+     <revisionDesc>
+       <change>
+         <date>2018-08-19</date>, <name>Tomaž Erjavec</name>:
+          first version of the TEI corpus.</change>
+     </revisionDesc>
+   </teiHeader>
+   <text xml:id="setimes-sr.text" xml:lang="sr">
+     <xi:include href="setimes-sr.body.xml"/>
+     <xi:include href="setimes-sr.back.xml"/>
+   </text>
+</TEI>

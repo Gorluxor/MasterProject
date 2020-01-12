@@ -1,0 +1,119 @@
+# MAINTAINER "CLARIN.SI <info@clarin.si>"		#manatee@clarin
+MAINTAINER "Tomaž Erjavec <tomaz.erjavec@ijs.si>"	#manatee@ijs
+# MAINTAINER "Tomaž Erjavec <tomaz.erjavec@ijs.si>"	#manatee@cjvt
+NAME "SETimes.SR"
+INFO "Manually annotated Serbian corpus SETimes.SR (morphosyntax, syntax, named entities)"
+ENCODING "UTF-8"
+LOCALE "sr_RS.UTF-8"
+DEFAULTLOCALE "sr_RS.UTF-8"
+LANGUAGE "Serbian"
+INFOHREF "http://hdl.handle.net/11356/1200"
+TAGSETDOC "http://nl.ijs.si/ME/V5/msd/html/msd-bs.html#msd.msds-bs"
+
+# PATH "/data/manatee-data/setimes_sr/"					#manatee@clarin
+PATH "/project/corpora/noske/data/setimes_sr/"				#manatee@ijs
+# PATH "/var/lib/ske/manatee/setimes_sr/"				#manatee@cjvt
+
+# VERTICAL "| zcat /project/corpora/vert/setimes-sr.vert.gz"        	#manatee@clarin
+VERTICAL "| zcat /project/cqp/vert/setimes-sr.vert.gz"			#manatee@ijs
+# VERTICAL "| zcat /var/lib/ske/vertical/setimes-sr.vert.gz"		#manatee@cjvt
+
+WPOSLIST ",Noun,N.*,Noun proper,Np.*,Noun common,Nc.*,Verb,V.*,Adjective,A.*,Pronoun,P.*,Adverb,R.*,Preposition,S.*,Conjunction,C.*,Numeral,M.*,Particle,Q.*,Interjection,I.*,Abbreviation,Y.*,Residual,X.*"
+LPOSLIST ",Noun,-n,Verb,-v,Adjective,-a,Pronoun,-p,Adverb,-r,Preposition,-s,Conjunction,-c,Numeral,-m,Particle,-q,Interjection,-i,Abbreviation,-y,Residual,-x"
+
+DOCSTRUCTURE text
+MAXDETAIL 10000
+
+SUBCORPATTRS "text.id|s.id,name.type"
+SHORTREF "=text.id,=s.id"
+FULLREF "text.id,s.id"
+
+STRUCTURE text {
+    ATTRIBUTE id {
+      TYPE "UNIQUE"
+    }    
+    ATTRIBUTE "wordcount"
+}
+STRUCTURE s {
+    ATTRIBUTE id {
+      TYPE "UNIQUE"
+    }    
+    DISPLAYTAG 0
+    DISPLAYEND "|"
+}
+STRUCTURE name {
+    ATTRIBUTE type
+    DISPLAYTAG 0
+    DISPLAYBEGIN "[%(type):"
+    DISPLAYEND "]"
+}
+STRUCTURE g {
+    DISPLAYTAG 0
+    DISPLAYBEGIN "_EMPTY_"
+}
+
+###Positional attributes
+ATTRIBUTE word
+ATTRIBUTE id {
+	LABEL	"ID of token"
+}
+ATTRIBUTE lempos {
+	LABEL	"lemma with pos tag"
+}
+ATTRIBUTE tag {
+	LABEL	"MULTEXT-East MSD"
+}
+ATTRIBUTE feats {
+	LABEL	"UD features"
+}
+ATTRIBUTE ud_dep {
+	LABEL	"UD dependency label"
+}
+ATTRIBUTE ud_dep_head_id {
+	LABEL	"ID of the UD dependency head"
+}
+ATTRIBUTE ud_dep_head_lemma {
+	LABEL	"Lemma of the UD dependency head"
+}
+ATTRIBUTE ud_dep_head_tag {
+	LABEL	"MULTEXT-East MSD of the UD dependency head"
+}
+
+ATTRIBUTE lc {
+	LABEL	"word (lowercase)"
+	DYNAMIC  utf8lowercase
+	DYNLIB   internal
+	ARG1     "C"
+	FUNTYPE  s
+	FROMATTR word
+	DYNTYPE  index
+	TRANSQUERY	yes
+}
+ATTRIBUTE norm {
+	LABEL	"normalised word"
+	DYNAMIC  utf8lowercase
+	DYNLIB   internal
+	ARG1     "C"
+	FUNTYPE  s
+	FROMATTR word
+	DYNTYPE  index
+	TRANSQUERY	yes
+}
+ATTRIBUTE lemma {
+	DYNAMIC   "striplastn"
+	DYNLIB    "internal"
+	ARG1      "2"
+	FUNTYPE   "i"
+	FROMATTR  "lempos"
+	TYPE      "index"
+}
+ATTRIBUTE lemma_lc {
+	LABEL	    "lemma (lowercase)"
+	DYNAMIC     "utf8lowercase"
+	DYNLIB      "internal"
+	ARG1        "C"
+	FUNTYPE     "s"
+	FROMATTR    "lemma"
+	TYPE        "index"
+	TRANSQUERY  "yes"
+}
