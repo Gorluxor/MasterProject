@@ -1,5 +1,7 @@
 data_file = open("NER\\setimes-sr.conll\\set.sr.conll", "r", encoding="utf-8")
+#data_file = open("NER\\dev_ner.conllu", "r", encoding="utf-8")
 list = []
+write_next = True
 for line in data_file:
     if line.strip().__len__() < 1:
         list.append(("","","",""))
@@ -11,22 +13,30 @@ for line in data_file:
     split = line.strip().replace('\t', " ").split(" ")
     wordsplit = split[1]
     lemmasplit = split[2]
-    possplit = split[4]
-    tagsplit = split[10]
-    t = (wordsplit.rsplit(), lemmasplit.rsplit(), possplit.rsplit(),tagsplit.rsplit())
-    #if not list.__contains__(t):
+    #possplit = split[3] #drugi
+    possplit = split[4]  #reldi
+    #tagsplit = split[9]  #drugi
+    tagsplit = split[10]  #reldi
+    t = (wordsplit.rsplit(), lemmasplit.rsplit(), possplit.rsplit(), tagsplit.rsplit())
+    # if not list.__contains__(t):
     list.append(t)
-    #except:
+    # except:
     #    print(line.strip())  # if this comes to show, it means there was a error
 
-
-new_file = open("datasetReldi.csv", "w+", encoding="utf-8")
-new_file.write("Word, Lemma, Pos-Tag, Ner-Tag\n")
+i = 1
+new_file = open("datasetReldiS.csv", "w+", encoding="utf-8")  # reldi
+# new_file = open("datasetDrugi.csv", "w+", encoding="utf-8") # drugi
+new_file.write("Sentence #\tWord\tLemma\tPos\tTag\n")
 for a, b, c, d in list:
     if a == "":
-        new_file.write("\n")
+        write_next = True
+        i = i + 1
     else:
-        new_file.write("{0}\t{1}\t{2}\t{3}\n".format(str(a[0]), str(b[0]), str(c[0]), str(d[0])))
+        if write_next:
+            write_next = False
+            new_file.write("Sentence: {4}\t{0}\t{1}\t{2}\t{3}\n".format(str(a[0]), str(b[0]), str(c[0]), str(d[0]), i))
+        else:
+            new_file.write("\t{0}\t{1}\t{2}\t{3}\n".format(str(a[0]), str(b[0]), str(c[0]), str(d[0])))
 new_file.close()
 print("Done")
 
