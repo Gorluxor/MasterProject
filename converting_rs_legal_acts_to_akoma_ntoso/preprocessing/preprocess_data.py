@@ -6,6 +6,13 @@ from gensim.models import Word2Vec
 from sklearn.feature_extraction.text import TfidfVectorizer
 import pandas as pd
 
+def getStopWords():
+    stopWordsFile = open("stopwords.txt", mode="r+", encoding="utf8")
+    stopWords = stopWordsFile.readlines()
+    stopWords = list(str(x).replace("\n", "") for x in stopWords)
+    return stopWords
+
+
 def getFileNames(folderData, aktoviFolder):
   # folderData=data aktoviFolder=aktovi_raw_lat
   from os import listdir
