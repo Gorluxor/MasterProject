@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c68450e-6ba3-4e78-8ba2-7662591f56c3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Pravna Informatika.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Pravna Informatika.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connector/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/connector/text.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connector/tokenize.txt" beforeDir="false" afterPath="$PROJECT_DIR$/connector/tokenize.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/preprocessing/preprocess_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing/preprocess_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessing/stopwords.txt" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing/stopwords.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,38 +64,44 @@
     <session id="-1643910494">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1612" />
+          <entry key="dummy" value="87" />
+          <entry key="py" value="4814" />
           <entry key="stopwords" value="1" />
+          <entry key="svm_proba" value="473" />
           <entry key="txt" value="84" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="85" />
-          <entry key="Python" value="1612" />
+          <entry key="PLAIN_TEXT" value="172" />
+          <entry key="Python" value="5287" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="17" />
+          <entry key="csv" value="9" />
+          <entry key="py" value="82" />
           <entry key="pyi" value="1" />
           <entry key="stopwords" value="1" />
+          <entry key="svm_proba" value="1" />
           <entry key="txt" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Python" value="17" />
+          <entry key="PLAIN_TEXT" value="18" />
+          <entry key="Python" value="83" />
           <entry key="PythonStub" value="1" />
         </counts>
       </usages-collector>
@@ -105,96 +110,99 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/connector/connector.py">
+        <entry file="file://$PROJECT_DIR$/ner_try/svmTry.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="517">
-              <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/site-packages/nltk/data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="700" selection-start-line="700" selection-end-line="700" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/site-packages/sklearn/feature_extraction/text.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="67" selection-start-line="67" selection-end-line="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/site-packages/gensim/models/word2vec.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10931">
-              <caret line="658" column="32" selection-start-line="658" selection-start-column="23" selection-end-line="658" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/preprocessing/preprocess_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+            <state relative-caret-position="544">
+              <caret line="35" column="68" selection-start-line="35" selection-start-column="68" selection-end-line="35" selection-end-column="68" />
               <folding>
-                <element signature="e#120#139#0" expanded="true" />
-                <marker date="1578497253950" expanded="true" signature="389:565" ph="..." />
-                <marker date="1578497253950" expanded="true" signature="698:802" ph="..." />
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/codecs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="320" selection-start-line="320" selection-end-line="320" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/preprocessing/stopwords.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2558">
-              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/site-packages/gensim/models/base_any2vec.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19958">
-              <caret line="1186" selection-start-line="1186" selection-end-line="1186" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18139">
-              <caret line="1067" selection-start-line="1067" selection-end-line="1067" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+        <entry file="file://$PROJECT_DIR$/ner_try/ProveraBlizine.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-269721380/math.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1768">
+              <caret line="104" column="4" selection-start-line="104" selection-start-column="4" selection-end-line="104" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ner_try/proba.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/preprocessing/preprocess_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-639">
+              <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+              <folding>
+                <element signature="e#120#139#0" expanded="true" />
+                <marker date="1579018753951" expanded="true" signature="317:519" ph="..." />
+                <marker date="1579018753951" expanded="true" signature="610:786" ph="..." />
+                <marker date="1579018753951" expanded="true" signature="919:1023" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/fasttext/FastText.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5049">
+              <caret line="306" column="28" selection-start-line="306" selection-start-column="28" selection-end-line="306" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-269721380/fasttext_pybind.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2074">
+              <caret line="122" column="8" selection-start-line="122" selection-start-column="8" selection-end-line="122" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/fasttext/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ner_try/word2vecExample.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ner_try/word2vecAndrijaTry.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+              <folding>
+                <marker date="1579449058118" expanded="true" signature="972:1621" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -210,10 +218,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>1007.html</find>
-      <find>1034</find>
-      <find>1042.html</find>
-      <find>1034.html</find>
       <find>1124.html</find>
       <find>908.html</find>
       <find>2019.html</find>
@@ -240,6 +244,10 @@
       <find>most_similar</find>
       <find>model</find>
       <find>isDigit</find>
+      <find>Beogradu</find>
+      <find>beograd</find>
+      <find>sajt</find>
+      <find>similar</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -248,15 +256,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/aktovi/1.html" />
-        <option value="$PROJECT_DIR$/aktovi/3.html" />
-        <option value="$PROJECT_DIR$/aktovi/4.html" />
-        <option value="$PROJECT_DIR$/preprocessing/striphtml.py" />
-        <option value="$PROJECT_DIR$/preprocessing/read_xml.py" />
-        <option value="$PROJECT_DIR$/preprocessing/preprocessing.py" />
-        <option value="$PROJECT_DIR$/data/aktovi_html/1050.html" />
-        <option value="$PROJECT_DIR$/form_akoma/structure.py" />
-        <option value="$PROJECT_DIR$/scraping/test.txt" />
         <option value="$PROJECT_DIR$/data/categorised/skript.py" />
         <option value="$PROJECT_DIR$/form_akoma/patterns.py" />
         <option value="$PROJECT_DIR$/preprocessing/init_akoma.py" />
@@ -293,14 +292,26 @@
         <option value="$PROJECT_DIR$/connector/connector.py" />
         <option value="$PROJECT_DIR$/preprocessing/stopwords" />
         <option value="$PROJECT_DIR$/preprocessing/embedding.py" />
-        <option value="$PROJECT_DIR$/preprocessing/preprocess_data.py" />
         <option value="$PROJECT_DIR$/preprocessing/stopwords.txt" />
+        <option value="$PROJECT_DIR$/ner_proba/autoencoder.py" />
+        <option value="$PROJECT_DIR$/preprocessing/preprocess_data.py" />
+        <option value="$PROJECT_DIR$/ner_proba/word2vecSrb.py" />
+        <option value="$PROJECT_DIR$/ner_proba/Proba.py" />
+        <option value="$PROJECT_DIR$/ner_proba/svm_proba" />
+        <option value="$PROJECT_DIR$/ner_proba/spacyProba.py" />
+        <option value="$PROJECT_DIR$/ner_proba/FastTextTransformer.py" />
+        <option value="$PROJECT_DIR$/ner_proba/SpacyTry.py" />
+        <option value="$PROJECT_DIR$/ner_proba/word2vec.py" />
+        <option value="$PROJECT_DIR$/ner_proba/word2vecAndrija.py" />
+        <option value="$PROJECT_DIR$/ner_try/fastTextTransformer.py" />
+        <option value="$PROJECT_DIR$/ner_try/word2vecAndrijaTry.py" />
+        <option value="$PROJECT_DIR$/ner_try/proba.py" />
+        <option value="$PROJECT_DIR$/ner_try/ProveraBlizine.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="501" />
-    <option name="y" value="134" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -338,6 +349,11 @@
             <path>
               <item name="converting_rs_legal_acts_to_akoma_ntoso" type="b2602c69:ProjectViewProjectNode" />
               <item name="converting_rs_legal_acts_to_akoma_ntoso" type="462c0819:PsiDirectoryNode" />
+              <item name="ner_try" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="converting_rs_legal_acts_to_akoma_ntoso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="converting_rs_legal_acts_to_akoma_ntoso" type="462c0819:PsiDirectoryNode" />
               <item name="preprocessing" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -347,21 +363,21 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../reldi-tagger" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../pyfasttext/pyfasttext" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Astral\Desktop\Master\Aca\MasterProject\converting_rs_legal_acts_to_akoma_ntoso\preprocessing" />
-      <recent name="C:\Users\Astral\Desktop\Master\Aca\MasterProject\converting_rs_legal_acts_to_akoma_ntoso\connector" />
-      <recent name="C:\Users\Astral\Desktop\Master\Pravna Informatika\Kolege1\converting_rs_legal_acts_to_akoma_ntoso-master\tokenhgffdjklg" />
-      <recent name="C:\Users\Astral\Desktop\Master\Pravna Informatika\Kolege1\converting_rs_legal_acts_to_akoma_ntoso-master\reldi-tokenizer" />
-      <recent name="C:\Users\Astral\Desktop\Master\Pravna Informatika\Kolege1\converting_rs_legal_acts_to_akoma_ntoso-master\scraping" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Astral\Desktop\Master\Aca\MasterProject\converting_rs_legal_acts_to_akoma_ntoso\preprocessing" />
       <recent name="C:\Users\Lenovo\Desktop\Pravna Informatika\data\NER\labeled" />
       <recent name="C:\Users\Lenovo\Desktop\Pravna Informatika\reasoner" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Astral\Desktop\Master\Aca\MasterProject\converting_rs_legal_acts_to_akoma_ntoso\ner_proba" />
+      <recent name="C:\Users\Astral\Desktop\Master\Aca\MasterProject\converting_rs_legal_acts_to_akoma_ntoso\preprocessing" />
+      <recent name="C:\Users\Astral\Desktop\Master\Aca\MasterProject\converting_rs_legal_acts_to_akoma_ntoso\connector" />
+      <recent name="C:\Users\Astral\Desktop\Master\Pravna Informatika\Kolege1\converting_rs_legal_acts_to_akoma_ntoso-master\tokenhgffdjklg" />
+      <recent name="C:\Users\Astral\Desktop\Master\Pravna Informatika\Kolege1\converting_rs_legal_acts_to_akoma_ntoso-master\reldi-tokenizer" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -376,8 +392,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.preprocess_data">
-    <configuration name="connector" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.ProveraBlizine">
+    <configuration name="ProveraBlizine" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Pravna Informatika" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -385,11 +401,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/connector" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ner_try" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/connector/connector.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ner_try/ProveraBlizine.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -398,7 +414,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="embedding" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="proba" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Pravna Informatika" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -406,11 +422,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/preprocessing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ner_try" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/preprocessing/embedding.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ner_try/proba.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -419,7 +435,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="preprocess_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="setup" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Pravna Informatika" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -427,11 +443,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/preprocessing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ner_proba/dist/xx_ent_wiki_sm-2.2.0" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/preprocessing/preprocess_data.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ner_proba/dist/xx_ent_wiki_sm-2.2.0/setup.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -440,7 +456,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="remove_html" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="spacyProba" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Pravna Informatika" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -448,11 +464,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/preprocessing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ner_proba" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/preprocessing/remove_html.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Astral\Desktop\Master\Aca\MasterProject\converting_rs_legal_acts_to_akoma_ntoso\ner_proba\SpacyTry.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -461,7 +477,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="webscraping2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="svm_proba" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Pravna Informatika" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -469,11 +485,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scraping" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ner_proba" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scraping/webscraping2.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Astral\Desktop\Master\Aca\MasterProject\converting_rs_legal_acts_to_akoma_ntoso\ner_proba\svm_proba" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -483,19 +499,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.webscraping2" />
-      <item itemvalue="Python.remove_html" />
-      <item itemvalue="Python.preprocess_data" />
-      <item itemvalue="Python.connector" />
-      <item itemvalue="Python.embedding" />
+      <item itemvalue="Python.svm_proba" />
+      <item itemvalue="Python.spacyProba" />
+      <item itemvalue="Python.setup" />
+      <item itemvalue="Python.ProveraBlizine" />
+      <item itemvalue="Python.proba" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.preprocess_data" />
-        <item itemvalue="Python.embedding" />
-        <item itemvalue="Python.connector" />
-        <item itemvalue="Python.remove_html" />
-        <item itemvalue="Python.webscraping2" />
+        <item itemvalue="Python.ProveraBlizine" />
+        <item itemvalue="Python.proba" />
+        <item itemvalue="Python.spacyProba" />
+        <item itemvalue="Python.setup" />
+        <item itemvalue="Python.svm_proba" />
       </list>
     </recent_temporary>
   </component>
@@ -525,13 +541,13 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18335089" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.090094835" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925596" weight="0.34815618" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.29934925" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925596" weight="0.35140997" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.29609543" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
@@ -602,281 +618,72 @@
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/preprocessing/preprocess_data.py</url>
-          <line>70</line>
-          <option name="timeStamp" value="48" />
+          <url>file://$PROJECT_DIR$/ner_try/word2vecExample.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ner_try/word2vecExample.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ner_try/word2vecAndrijaTry.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ner_try/word2vecAndrijaTry.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ner_try/word2vecAndrijaTry.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ner_try/fastTextTransformer.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ner_try/svmTry.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ner_try/spacyTry.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ner_try/word2vecAndrijaTry.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="91" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/codecs.py">
+    <entry file="file://$PROJECT_DIR$/data/NER/labeled/labled_data1.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="332" selection-start-line="332" selection-end-line="332" />
+        <state relative-caret-position="-1428">
+          <caret column="3195" selection-start-column="3195" selection-end-column="3195" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scraping/linkovi2_doc.txt" />
-    <entry file="file://$PROJECT_DIR$/data/linkovi/linkovi.txt">
+    <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/site-packages/nltk/corpus/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-21660">
-          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+        <state relative-caret-position="225">
+          <caret line="289" column="29" lean-forward="true" selection-start-line="289" selection-start-column="29" selection-end-line="289" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/linkovi/linkovi_doc.txt">
+    <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/site-packages/nltk/corpus/reader/wordlist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="1131" selection-start-line="1131" selection-end-line="1131" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/linkovi/linkovi3.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-612" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scraping/linkovi.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/linkovi/linkovi4.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34546">
-          <caret line="1121" column="60" selection-start-line="1121" selection-start-column="60" selection-end-line="1121" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scraping/webscraping2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1598">
-          <caret line="100" column="26" selection-start-line="100" selection-start-column="26" selection-end-line="100" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scraping/CleanLinks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/linkovi/linkovi3_doc.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38216">
-          <caret line="2248" column="108" selection-start-line="2248" selection-start-column="108" selection-end-line="2248" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/linkovi/linkovi2_doc.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/linkovi/linkovi2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45832">
-          <caret line="2696" selection-start-line="2696" selection-end-line="2696" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scraping/LinkScraping.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="56" column="23" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scraping/linkovi_prvi.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/aktovi_raw/1.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/aktovi/1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/aktovi_raw/8.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/aktovi_lat/1.txt" />
-    <entry file="file://$PROJECT_DIR$/data/aktovi_raw_lat/1.txt" />
-    <entry file="file://$PROJECT_DIR$/reldi-tokenizer/hr.abbrev" />
-    <entry file="file://$PROJECT_DIR$/../../../../ReLDI/reldi-tokeniser-master/tokeniser.py" />
-    <entry file="file://$PROJECT_DIR$/reldiTokeniser/tokeniser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="26" />
-          <folding>
-            <element signature="e#40#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../reldi-tokeniser-master/tokeniser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reldiTokeniser/hr.abbrev">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1615">
-          <caret line="95" column="9" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/preprocessing/remove_html.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="108" column="8" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../random/aktovi_raw_p/1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5388">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/connector/text.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/connector/tokenize.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/preprocessing/text.txt" />
-    <entry file="file://$PROJECT_DIR$/preprocessing/tokenize.txt" />
-    <entry file="file://$PROJECT_DIR$/preprocessing/stopwords" />
-    <entry file="file://$PROJECT_DIR$/../reldi-tagger/tagger.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2159">
-          <caret line="128" column="13" selection-start-line="128" selection-start-column="13" selection-end-line="128" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/encodings/utf_8.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/encodings/cp1252.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/convertToLatin/Convert.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="77" column="21" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/preprocessing/word_embedding.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/typing.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5797">
-          <caret line="344" column="8" selection-start-line="344" selection-start-column="8" selection-end-line="344" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../reldi-tagger/tokeniser/tokeniser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3604">
-          <caret line="219" selection-start-line="219" selection-end-line="219" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/preprocessing/1.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/preprocessing/embedding.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/site-packages/nltk/tokenize/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1666">
-          <caret line="126" selection-start-line="126" selection-end-line="126" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/site-packages/gensim/models/word2vec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10931">
-          <caret line="658" column="32" selection-start-line="658" selection-start-column="23" selection-end-line="658" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/site-packages/gensim/models/base_any2vec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19958">
-          <caret line="1186" selection-start-line="1186" selection-end-line="1186" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18139">
-          <caret line="1067" selection-start-line="1067" selection-end-line="1067" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/site-packages/nltk/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="700" selection-start-line="700" selection-end-line="700" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/connector/connector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="320" selection-start-line="320" selection-end-line="320" />
+        <state relative-caret-position="-1666">
+          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -887,21 +694,291 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/preprocessing/stopwords.txt">
+    <entry file="file://$PROJECT_DIR$/data/NER/prepare_json.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/site-packages/nltk/tokenize/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2558">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        <state relative-caret-position="403">
+          <caret line="104" column="17" selection-start-line="104" selection-start-column="17" selection-end-line="104" selection-end-column="17" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/site-packages/nltk/downloader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="2479" selection-start-line="2479" selection-end-line="2479" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/site-packages/nltk/data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="709" column="27" lean-forward="true" selection-start-line="709" selection-start-column="27" selection-end-line="709" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="191" selection-start-line="191" selection-end-line="191" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/site-packages/pandas/compat/_optional.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/1156904818/PyQt5/QtCore/QLocale.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="205" column="8" selection-start-line="205" selection-start-column="8" selection-end-line="205" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ner_proba/word2vecSrb.py" />
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/1156904818/gensim/models/word2vec_inner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4958">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/site-packages/numpy/lib/function_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="4225" column="4" selection-start-line="4225" selection-start-column="4" selection-end-line="4225" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/site-packages/gensim/models/keyedvectors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="467" selection-start-line="467" selection-end-line="467" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="590">
+          <caret line="1663" selection-start-line="1663" selection-end-line="1663" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/site-packages/sklearn/model_selection/_split.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="2113" selection-start-line="2113" selection-end-line="2113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="321" selection-start-line="321" selection-end-line="321" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/site-packages/gensim/models/word2vec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-191">
+          <caret line="660" column="103" selection-start-line="660" selection-start-column="94" selection-end-line="660" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/typing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="1558" column="8" selection-start-line="1558" selection-start-column="8" selection-end-line="1558" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/site-packages/numpy/core/_asarray.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/site-packages/sklearn/utils/validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="514" selection-start-line="514" selection-end-line="514" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ner_proba/bill_authentication.csv" />
+    <entry file="file://$PROJECT_DIR$/ner_try/dataset.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="4" selection-start-line="1" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/site-packages/fasttext/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/1156904818/fasttext_pybind.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4981">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/site-packages/gensim/test/test_datatype.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="51" lean-forward="true" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/site-packages/fasttext/util/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/fasttext/util/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/fasttext/util/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/site-packages/sklearn/svm/_classes.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/site-packages/sklearn/svm/_base.py" />
+    <entry file="file://$PROJECT_DIR$/ner_proba/dist/xx_ent_wiki_sm-2.2.0/setup.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/site-packages/pandas/core/indexes/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89403">
+          <caret line="5339" selection-start-line="5339" selection-end-line="5339" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/site-packages/fasttext/FastText.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/anotiranjeDokumenata/lib/site-packages/fasttext/util/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ner_try/fastnumdataset.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ner_try/numdataset.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-561">
+          <caret column="106" lean-forward="true" selection-start-column="106" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ner_try/spacyTry.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ner_try/fastTextTransformer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ner_try/svmTry.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="35" column="68" selection-start-line="35" selection-start-column="68" selection-end-line="35" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ner_try/ProveraBlizine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-269721380/math.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1768">
+          <caret line="104" column="4" selection-start-line="104" selection-start-column="4" selection-end-line="104" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/fasttext/FastText.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5049">
+          <caret line="306" column="28" selection-start-line="306" selection-start-column="28" selection-end-line="306" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-269721380/fasttext_pybind.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2074">
+          <caret line="122" column="8" selection-start-line="122" selection-start-column="8" selection-end-line="122" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/fasttext/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ner_try/word2vecExample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ner_try/word2vecAndrijaTry.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+          <folding>
+            <marker date="1579449058118" expanded="true" signature="972:1621" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ner_try/proba.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/preprocessing/preprocess_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+        <state relative-caret-position="-639">
+          <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
           <folding>
             <element signature="e#120#139#0" expanded="true" />
-            <marker date="1578497253950" expanded="true" signature="389:565" ph="..." />
-            <marker date="1578497253950" expanded="true" signature="698:802" ph="..." />
+            <marker date="1579018753951" expanded="true" signature="317:519" ph="..." />
+            <marker date="1579018753951" expanded="true" signature="610:786" ph="..." />
+            <marker date="1579018753951" expanded="true" signature="919:1023" ph="..." />
           </folding>
         </state>
       </provider>
