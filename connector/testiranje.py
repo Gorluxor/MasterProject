@@ -144,8 +144,9 @@ def sent2tokens(sent):
 
 X = [sent2features(s) for s in sentences]
 y = [sent2labels(s) for s in sentences]
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.33, random_state=0)
-
+#X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=1, random_state=0)
+X_test = X
+y_test = y
 filename = 'model.sav'
 crf = loaded_model = pickle.load(open(filename, 'rb'))
 y_pred = crf.predict(X_test)
