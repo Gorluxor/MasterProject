@@ -10,7 +10,7 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import classification_report
 import pickle
 
-df = pd.read_csv('datasetReldiS.csv', encoding="utf-8", sep="\t")
+df = pd.read_csv('datasetHr.csv', encoding="utf-8", sep="\t")
 df = df[:100000]
 print(df.head())
 print(df.isnull().sum())
@@ -155,22 +155,22 @@ print(new_classes)
 y_pred = crf.predict(X_test)
 print(metrics.flat_classification_report(y_test, y_pred, labels = new_classes))
 
+#
+# def print_transitions(trans_features):
+#     for (label_from, label_to), weight in trans_features:
+#         print("%-6s -> %-7s %0.6f" % (label_from, label_to, weight))
+# print("Top likely transitions:")
+# print_transitions(Counter(crf.transition_features_).most_common(20))
+# print("\nTop unlikely transitions:")
+# print_transitions(Counter(crf.transition_features_).most_common()[-20:])
+#
+# def print_state_features(state_features):
+#     for (attr, label), weight in state_features:
+#         print("%0.6f %-8s %s" % (weight, label, attr))
+# print("Top positive:")
+# print_state_features(Counter(crf.state_features_).most_common(30))
+# print("\nTop negative:")
+# print_state_features(Counter(crf.state_features_).most_common()[-30:])
 
-def print_transitions(trans_features):
-    for (label_from, label_to), weight in trans_features:
-        print("%-6s -> %-7s %0.6f" % (label_from, label_to, weight))
-print("Top likely transitions:")
-print_transitions(Counter(crf.transition_features_).most_common(20))
-print("\nTop unlikely transitions:")
-print_transitions(Counter(crf.transition_features_).most_common()[-20:])
-
-def print_state_features(state_features):
-    for (attr, label), weight in state_features:
-        print("%0.6f %-8s %s" % (weight, label, attr))
-print("Top positive:")
-print_state_features(Counter(crf.state_features_).most_common(30))
-print("\nTop negative:")
-print_state_features(Counter(crf.state_features_).most_common()[-30:])
-
-filename = "model.sav"
+filename = "modelHr500.sav"
 pickle.dump(crf, open(filename, 'wb'))
