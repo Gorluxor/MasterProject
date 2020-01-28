@@ -10,8 +10,8 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import classification_report
 import pickle
 
-df = pd.read_csv('datasetHr.csv', encoding="utf-8", sep="\t")
-df = df[:100000]
+df = pd.read_csv('datasetReldiS.csv', encoding="utf-8", sep="\t")
+
 print(df.head())
 print(df.isnull().sum())
 df = df.fillna(method='ffill')  # fills the NaN's
@@ -19,14 +19,14 @@ df['Sentence #'].nunique(), df.Word.nunique(), df.Tag.nunique()
 
 print(df.groupby('Tag').size().reset_index(name='counts'))  # distribution of tags
 
-X = df.drop(['Tag'], axis=1)
-v = DictVectorizer(sparse=False)
-X = v.fit_transform(X.to_dict('records'))
+# X = df.drop(['Tag'], axis=1)
+# v = DictVectorizer(sparse=False)
+# X = v.fit_transform(X.to_dict('records'))
 y = df.Tag.values
 classes = np.unique(y)
 classes = classes.tolist()
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.33, random_state=0)
-print(X_train.shape, y_train.shape)
+#X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.33, random_state=0)
+#print(X_train.shape, y_train.shape)
 
 # per = Perceptron(verbose=10, n_jobs=-1, max_iter=5)
 # per.partial_fit(X_train, y_train, classes)
@@ -155,7 +155,7 @@ print(new_classes)
 y_pred = crf.predict(X_test)
 print(metrics.flat_classification_report(y_test, y_pred, labels = new_classes))
 
-#
+
 # def print_transitions(trans_features):
 #     for (label_from, label_to), weight in trans_features:
 #         print("%-6s -> %-7s %0.6f" % (label_from, label_to, weight))
@@ -172,5 +172,5 @@ print(metrics.flat_classification_report(y_test, y_pred, labels = new_classes))
 # print("\nTop negative:")
 # print_state_features(Counter(crf.state_features_).most_common()[-30:])
 
-filename = "modelHr500.sav"
+filename = "modelQ.sav"
 pickle.dump(crf, open(filename, 'wb'))
