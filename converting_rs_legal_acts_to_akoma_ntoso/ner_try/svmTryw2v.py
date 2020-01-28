@@ -1,20 +1,24 @@
 import numpy as np
+import matplotlib.pyplot as plt
 import pandas as pd
-from sklearn.feature_extraction import DictVectorizer
+#from ner_try.word2vecAndrija import trainWrod2vec
+
+#url = "https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data"
+
+# Assign colum names to the dataset
+
+colnames = []
+for i in range(0,300):
+    colnames.append('word'+str(i+1))
+colnames.append('class')
+
+#colnames = ['word1','word2','word3','word4','word5', 'class']
+
 # Read dataset to pandas dataframe
+dataset = pd.read_csv('fastnumdataset.csv', delimiter=";", encoding="utf-8", names = colnames) # ako ima imena kolona bez names=colnames
 
-colnames = ["Sequence","Word","Lemma", "tag"]
-
-dataset = pd.read_csv('datasetReldiS.csv', delimiter="\t", encoding="utf-8", names= colnames, skiprows= [0]) # ako ima imena kolona bez names=colnames
-
-
-
-X = dataset.drop('tag', axis=1)
-y = dataset['Word']
-
-v = DictVectorizer(sparse=False)
-X = v.fit_transform(X.to_dict('records'))
-y = dataset.tag.values
+X = dataset.drop('class', axis=1)
+y = dataset['class']
 
 #Train split
 from sklearn.model_selection import train_test_split
