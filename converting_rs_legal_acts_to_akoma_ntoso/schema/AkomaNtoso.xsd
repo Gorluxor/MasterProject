@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="unqualified"
+    xmlns:ftn="http://ftn.uns.ac.rs/akomaNtoso" targetNamespace="http://ftn.uns.ac.rs/akomaNtoso">
+
+    <xs:element name="akomaNtoso" type="ftn:akomaNtoso"/>
+    <xs:complexType name="akomaNtoso">
+        <xs:sequence>
+            <xs:element name="act" type="ftn:tact"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="tact">
+        <xs:sequence minOccurs="1">
+            <xs:element name="meta" type="ftn:tmeta"/>
+            <xs:element name="preface">
+                <xs:complexType>
+                    <xs:all>
+                        <xs:element name="authority" type="xs:string"/>
+                        <xs:element name="title" type="xs:string"/>
+                        <xs:element name="date" type="xs:string"/>
+                        <xs:element ref="ftn:p"/>
+                    </xs:all>
+                </xs:complexType>
+            </xs:element>
+            <xs:element maxOccurs="1" minOccurs="0" name="preamble">
+                <xs:complexType>
+                    <xs:choice>
+                        <xs:element name="formula">
+                            <xs:complexType>
+                                <xs:attribute name="refersTo" type="xs:anyURI"/>
+                                <xs:attributeGroup ref="ftn:idopt"/>
+                                <xs:attribute name="name" type="xs:string" use="required"/>
+                                <xs:attribute name="title" type="xs:string"/>
+                                <xs:attribute name="lang" type="xs:string"/>
+                            </xs:complexType>
+                        </xs:element>
+                        <xs:element minOccurs="0" name="citations"/>
+                        <xs:element minOccurs="0" name="recitals"/>
+                        <xs:element minOccurs="0" name="container"/>
+                        <xs:element ref="ftn:p"/>
+                    </xs:choice>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="body" type="ftn:tbody"/>
+        </xs:sequence>
+        <xs:attribute name="name" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="tmeta">
+        <xs:all>
+            <xs:element name="identification" type="ftn:tidentification"/>
+            <xs:element name="publication">
+                <xs:complexType>
+                    <xs:attribute name="name" type="xs:string" use="required"/>
+                    <xs:attribute name="date" type="xs:date" use="required"/>
+                    <xs:attribute name="showAs" type="xs:string" use="required"/>
+                    <xs:attribute name="number" type="xs:string" use="required"/>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="classification">
+                <xs:complexType>
+                    <xs:sequence maxOccurs="unbounded" minOccurs="0">
+                        <xs:element name="keyword">
+                            <xs:complexType>
+                                <xs:attribute name="value" type="xs:string"/>
+                                <xs:attribute name="showAs" type="xs:string"/>
+                                <xs:attribute default="RS" name="dictionary" type="xs:string"/>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                    <xs:attribute name="source" type="xs:anyURI"/>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="references">
+                <xs:complexType>
+                    <xs:all maxOccurs="1" minOccurs="1">
+                        <xs:element ref="ftn:TLCConcept"/>
+                        <xs:element ref="ftn:TLCOrganization"/>
+                        <xs:element ref="ftn:TLCPerson"/>
+                        <xs:element ref="ftn:TLCRole"/>
+                    </xs:all>
+                </xs:complexType>
+            </xs:element>
+        </xs:all>
+    </xs:complexType>
+    <xs:complexType name="tbody">
+        <xs:choice>
+            <xs:element ref="ftn:part"/>
+            <xs:sequence maxOccurs="1">
+                <xs:element maxOccurs="unbounded" ref="ftn:article"/>
+            </xs:sequence>
+        </xs:choice>
+    </xs:complexType>
+    <xs:complexType name="tidentification">
+        <xs:all>
+            <xs:element name="FRBRWork">
+                <xs:complexType>
+                    <xs:all>
+                        <xs:element ref="ftn:FRBRthis"/>
+                        <xs:element ref="ftn:FRBRuri"/>
+                        <xs:element ref="ftn:FRBRdate"/>
+                        <xs:element ref="ftn:FRBRauthor"/>
+                        <xs:element ref="ftn:FRBRcountry"/>
+                        <xs:element ref="ftn:FRBRsubtype"/>
+                        <xs:element ref="ftn:FRBRnumber"/>
+                        <xs:element ref="ftn:FRBRname"/>
+                    </xs:all>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="FRBRExpression">
+                <xs:complexType>
+                    <xs:all>
+                        <xs:element ref="ftn:FRBRthis"/>
+                        <xs:element ref="ftn:FRBRuri"/>
+                        <xs:element ref="ftn:FRBRdate"/>
+                        <xs:element ref="ftn:FRBRauthor"/>
+                        <xs:element ref="ftn:FRBRfromat"/>
+                    </xs:all>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="FRBRManifestation">
+                <xs:complexType>
+                    <xs:all>
+                        <xs:element ref="ftn:FRBRthis"/>
+                        <xs:element ref="ftn:FRBRuri"/>
+                        <xs:element ref="ftn:FRBRdate"/>
+                        <xs:element ref="ftn:FRBRauthor"/>
+                        <xs:element ref="ftn:FRBRfromat"/>
+                    </xs:all>
+                </xs:complexType>
+            </xs:element>
+        </xs:all>
+    </xs:complexType>
+
+    <xs:simpleType name="noWhiteSpace">
+        <xs:annotation>
+            <xs:documentation>
+                <type>Simple</type>
+                <name>noWhiteSpace</name>
+                <comment>These values are those of ids such as eId, wId and GUID as a collection of any printable character except whitespaces.</comment>
+            </xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[^\s]+"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+
+    <xs:attributeGroup name="idopt">
+        <xs:annotation>
+            <xs:documentation>
+                <type>Attlist</type>
+                <name>idopt</name>
+                <comment>
+                    These attributes identify the element in an absolute manner. In elements using this attribute definition the eId attribute is optional. The wId is used to mark the identifier that the structure used to have in the original version, and is only needed when a renumbering occurred.</comment>
+            </xs:documentation>
+        </xs:annotation>
+
+        <xs:attribute name="eId" type="ftn:noWhiteSpace"/>
+        <xs:attribute name="wId" type="ftn:noWhiteSpace"/>
+        <xs:attribute name="GUID" type="ftn:noWhiteSpace"/>
+    </xs:attributeGroup>
+
+
+
+    <xs:attributeGroup name="show">
+        <xs:annotation>
+            <xs:documentation>
+                <type>Attlist</type>
+                <name>show</name>
+                <comment>These attributes are used in metadata to propose visible representations of the metadata itself. Both a full visualization (attribute showAs) and an abbreviated one (attribute shortForm) can be specified</comment>
+            </xs:documentation>
+        </xs:annotation>
+        <xs:attribute name="showAs" type="xs:string" use="required"/>
+        <xs:attribute name="shortForm" type="xs:string"/>
+    </xs:attributeGroup>
+
+
+    <xs:element name="FRBRthis">
+        <xs:complexType>
+            <xs:attribute name="value" type="xs:anyURI" use="required"/>
+            <xs:attributeGroup ref="ftn:idopt"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="FRBRuri">
+        <xs:complexType>
+            <xs:attribute name="value" type="xs:anyURI"/>
+            <xs:attributeGroup ref="ftn:idopt"/>
+            <xs:attribute name="showAs" type="xs:string"/>
+            <xs:attribute name="refersTo" type="xs:anyURI"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="FRBRdate">
+        <xs:complexType>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="date" type="xs:date" use="required"/>
+            <xs:attributeGroup ref="ftn:idopt"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="FRBRauthor">
+        <xs:complexType>
+            <xs:attribute name="as" type="xs:anyURI"/>
+            <xs:attribute name="href" type="xs:anyURI" use="required"/>
+            <xs:attributeGroup ref="ftn:idopt"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="FRBRcountry">
+        <xs:complexType>
+            <xs:attribute name="href" type="xs:anyURI" use="required"/>
+            <xs:attribute name="showAs" type="xs:string"/>
+            <xs:attribute name="value" type="xs:string" use="required"/>
+            <xs:attributeGroup ref="ftn:idopt"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="FRBRsubtype">
+        <xs:complexType>
+            <xs:attribute name="showAs" type="xs:string"/>
+            <xs:attribute name="value" type="xs:string" use="required"/>
+            <xs:attribute name="refersTo" type="xs:anyURI"/>
+            <xs:attributeGroup ref="ftn:idopt"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="FRBRnumber">
+        <xs:complexType>
+            <xs:attributeGroup ref="ftn:idopt"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="FRBRname">
+        <xs:complexType>
+            <xs:attributeGroup ref="ftn:idopt"/>
+            <xs:attribute name="value" type="xs:string" use="required"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="FRBRfromat">
+        <xs:complexType>
+            <xs:attributeGroup ref="ftn:idopt"/>
+            <xs:attribute name="value" type="xs:string" use="required"/>
+            <xs:attributeGroup ref="ftn:show"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="TLCRole">
+        <xs:complexType>
+            <xs:attributeGroup ref="ftn:idopt"/>
+            <xs:attributeGroup ref="ftn:show"/>
+            <xs:attribute name="href" type="xs:anyURI"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="TLCOrganization">
+        <xs:complexType>
+            <xs:attributeGroup ref="ftn:idopt"/>
+            <xs:attributeGroup ref="ftn:show"/>
+            <xs:attribute name="href" type="xs:anyURI"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="TLCPerson">
+        <xs:complexType>
+            <xs:attributeGroup ref="ftn:idopt"/>
+            <xs:attributeGroup ref="ftn:show"/>
+            <xs:attribute name="href" type="xs:anyURI"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="TLCConcept">
+        <xs:complexType>
+            <xs:attributeGroup ref="ftn:idopt"/>
+            <xs:attributeGroup ref="ftn:show"/>
+            <xs:attribute name="href" type="xs:anyURI"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="textp"> </xs:element>
+    <xs:element name="p">
+        <xs:complexType mixed="true">
+            <xs:choice>
+                <xs:element name="docTitle">
+                    <xs:complexType>
+                        <xs:simpleContent>
+                            <xs:extension base="xs:string">
+                                <xs:attribute name="id" type="xs:string"/>
+                            </xs:extension>
+                        </xs:simpleContent>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="docType" type="xs:string"/>
+                <xs:element maxOccurs="unbounded" name="docDate">
+                    <xs:complexType>
+                        <xs:simpleContent>
+                            <xs:extension base="xs:string">
+                                <xs:attribute name="date" type="xs:date"/>
+                                <xs:attribute name="refersTo" type="xs:string"/>
+                            </xs:extension>
+                        </xs:simpleContent>
+                    </xs:complexType>
+                </xs:element>
+            </xs:choice>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="part">
+        <xs:annotation>
+            <xs:documentation>
+                <comment>Represents "Deo"</comment>
+            </xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+            <xs:all maxOccurs="1">
+                <xs:element maxOccurs="1" name="content">
+                    <xs:complexType>
+                        <xs:sequence maxOccurs="1">
+                            <xs:element ref="ftn:chapter" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="heading" type="xs:string"/>
+                <xs:element name="num" type="xs:string"/>
+            </xs:all>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="id" type="xs:string" use="optional"/>
+            <xs:attributeGroup ref="ftn:idopt"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="chapter">
+        <xs:annotation>
+            <xs:documentation>
+                <comment>Represents "Glava"</comment>
+            </xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+            <xs:all>
+                <xs:element maxOccurs="1" name="content">
+                    <xs:complexType>
+                        <xs:sequence maxOccurs="1">
+                            <xs:element ref="ftn:article" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="heading" type="xs:string"/>
+                <xs:element name="num" type="xs:string"/>
+            </xs:all>
+            <xs:attribute name="id" type="xs:string"/>
+            <xs:attribute name="title"/>
+            <xs:attributeGroup ref="ftn:idopt"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="section">
+        <xs:annotation>
+            <xs:documentation>
+                <comment>Represents "Odeljak"</comment>
+            </xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+            <xs:all>
+                <xs:element name="num" type="xs:string"/>
+                <xs:element name="heading" type="xs:string"/>
+                <xs:element maxOccurs="1" name="content">
+                    <xs:complexType>
+                        <xs:sequence maxOccurs="1">
+                            <xs:element maxOccurs="unbounded" ref="ftn:subsection"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:all>
+            <xs:attribute name="id" type="xs:string" use="required"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="subsection">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="num" type="xs:string"/>
+                <xs:element name="heading" type="xs:string"/>
+                <xs:element maxOccurs="1" name="content">
+                    <xs:complexType>
+                        <xs:sequence maxOccurs="1">
+                            <xs:element maxOccurs="unbounded" minOccurs="1" ref="ftn:article">
+                                <xs:annotation>
+                                    <xs:documentation>
+                <comment>Represents "Član"</comment>
+            </xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:string" use="required"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="article">
+        <xs:annotation>
+            <xs:documentation>
+                <comment>Represents "Član"</comment>
+            </xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+            <xs:all>
+                <xs:element name="num" type="xs:string"/>
+                <xs:element name="heading" type="xs:string"/>
+                <xs:element maxOccurs="1" name="content">
+                    <xs:complexType>
+                        <xs:sequence maxOccurs="1">
+                            <xs:element maxOccurs="unbounded" ref="ftn:paragraph">
+                                <xs:annotation>
+                                    <xs:documentation>
+                <comment>Represents "Stav"</comment>
+            </xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element minOccurs="0" ref="ftn:p"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:all>
+            <xs:attribute name="id" type="xs:string" use="required"/>
+            <xs:attributeGroup ref="ftn:idopt"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="paragraph">
+        <xs:annotation>
+            <xs:documentation>
+                <comment>Represents "Stav"</comment>
+            </xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+            <xs:all>
+                <xs:element name="num" type="xs:string"/>
+                <xs:element name="heading" type="xs:string"/>
+                <xs:element maxOccurs="1" name="content">
+                    <xs:complexType mixed="true">
+                        <xs:choice maxOccurs="1">
+                            <xs:element maxOccurs="unbounded" minOccurs="0" ref="ftn:point"> </xs:element>
+                            <xs:element minOccurs="0" ref="ftn:p"/>
+                        </xs:choice>
+                    </xs:complexType>
+                </xs:element>
+            </xs:all>
+            <xs:attribute name="id" type="xs:string" use="required"/>
+            <xs:attributeGroup ref="ftn:idopt"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="point">
+        <xs:annotation>
+            <xs:documentation>
+                <comment>Represents "Tačka"</comment>
+            </xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+            <xs:all>
+                <xs:element name="num" type="xs:string"/>
+                <xs:element name="heading" type="xs:string"/>
+                <xs:element maxOccurs="1" name="content">
+                    <xs:complexType mixed="true">
+                        <xs:choice maxOccurs="1">
+                            <xs:sequence>
+                                <xs:element maxOccurs="unbounded" minOccurs="0" ref="ftn:hcontainer">
+                                    <xs:annotation>
+                                        <xs:documentation>
+                <comment>Represents "Podtačka"</comment>
+            </xs:documentation>
+                                    </xs:annotation>
+                                </xs:element>
+                            </xs:sequence>
+                            <xs:sequence>
+                                <xs:element maxOccurs="unbounded" minOccurs="0" ref="ftn:alinea"/>
+                            </xs:sequence>
+                            <xs:sequence>
+                                <xs:element maxOccurs="1" minOccurs="0" ref="ftn:p"/>
+                            </xs:sequence>
+                        </xs:choice>
+                    </xs:complexType>
+                </xs:element>
+            </xs:all>
+            <xs:attribute name="id" type="xs:string" use="required"/>
+            <xs:attributeGroup ref="ftn:idopt"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="hcontainer">
+        <xs:annotation>
+            <xs:documentation>
+                <comment>Represents "Podtačka"</comment>
+            </xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+            <xs:all>
+                <xs:element name="num" type="xs:string"/>
+                <xs:element name="heading" type="xs:string"/>
+                <xs:element maxOccurs="1" name="content">
+                    <xs:complexType>
+                        <xs:sequence maxOccurs="1">
+                            <xs:element maxOccurs="unbounded" minOccurs="0" ref="ftn:alinea"/>
+                            <xs:element maxOccurs="1" minOccurs="0" ref="ftn:p"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:all>
+            <xs:attribute fixed="subpoint" name="name" use="required">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string"/>
+                </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="id" type="xs:string" use="required"/>
+            <xs:attributeGroup ref="ftn:idopt"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="alinea">
+        <xs:annotation>
+            <xs:documentation>
+                <comment>Represents "Alinea"</comment>
+            </xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+            <xs:all>
+                <xs:element name="num" type="xs:string"/>
+                <xs:element name="heading" type="xs:string"/>
+                <xs:element maxOccurs="1" name="content">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="1" minOccurs="0" ref="ftn:p"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:all>
+            <xs:attribute name="id" type="xs:string" use="required"/>
+            <xs:attributeGroup ref="ftn:idopt"/>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
