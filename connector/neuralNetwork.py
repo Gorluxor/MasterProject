@@ -27,6 +27,10 @@ class SentenceGetter(object):
         except:
             return None
 
+import pathlib
+path = str(pathlib.Path(__file__).parent.absolute()) + "/neuralNetworkModel.h5"
+print(path)
+
 data = pd.read_csv("datasetReldiS.csv", encoding="latin1", sep="\t")
 
 data = data.fillna(method="ffill")
@@ -122,6 +126,8 @@ history = model.fit([X_word_tr,
 y_pred = model.predict([X_word_te,
                         np.array(X_char_te).reshape((len(X_char_te),
                                                      max_len, max_len_char))])
+
+model.save(filepath=path)
 
 i = 100
 p = np.argmax(y_pred[i], axis=-1)
