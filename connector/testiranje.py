@@ -42,7 +42,7 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import classification_report
 import pickle
 
-df = pd.read_csv('datasetReldiS.csv', encoding="utf-8", sep="\t")
+df = pd.read_csv('datasetHr.csv', encoding="utf-8", sep="\t")
 
 print(df.head())
 print(df.isnull().sum())
@@ -144,7 +144,7 @@ def sent2tokens(sent):
 
 X = [sent2features(s) for s in sentences]
 y = [sent2labels(s) for s in sentences]
-#X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=1, random_state=0)
+#X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.1, random_state=0)
 X_test = X
 y_test = y
 filename = 'model.sav'

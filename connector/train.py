@@ -10,7 +10,7 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import classification_report
 import pickle
 
-df = pd.read_csv('datasetReldiS.csv', encoding="utf-8", sep="\t")
+df = pd.read_csv('datasetDrugi.csv', encoding="utf-8", sep="\t")
 
 print(df.head())
 print(df.isnull().sum())
@@ -172,5 +172,5 @@ print(metrics.flat_classification_report(y_test, y_pred, labels = new_classes))
 # print("\nTop negative:")
 # print_state_features(Counter(crf.state_features_).most_common()[-30:])
 
-filename = "modelQ.sav"
+filename = "modelTest.sav"
 pickle.dump(crf, open(filename, 'wb'))
