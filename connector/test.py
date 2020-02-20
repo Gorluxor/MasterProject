@@ -5,7 +5,7 @@ import os
 import io
 from _signal import CTRL_BREAK_EVENT
 
-python3_command = "python2 ..\\reldi-tagger-master\\tagger.py sr -l"  # launch your python2 script using bash
+#python3_command = "python2 ..\\reldi-tagger-master\\tagger.py sr -l"  # launch your python2 script using bash
 
 #process = subprocess.Popen(python3_command.split(), stdout=subprocess.PIPE, stdin=subprocess.)
 #process = subprocess.Popen(python3_command.split(), shell=True, stdout=sys.stdout, stdin=subprocess.PIPE, stderr=sys.stdout, bufsize=1, universal_newlines=True, encoding='utf-8')
@@ -58,3 +58,10 @@ python3_command = "python2 ..\\reldi-tagger-master\\tagger.py sr -l"  # launch y
 #
 # # for line in io.TextIOWrapper(process.stdout, encoding="utf-8"):
 # #     print(line)
+
+
+from fajl import tokenize
+from fajl import only_lam
+print(tokenize("Ovo je test"))
+
+print(only_lam("radi"))
