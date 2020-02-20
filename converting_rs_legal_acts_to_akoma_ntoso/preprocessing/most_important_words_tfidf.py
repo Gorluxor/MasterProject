@@ -84,17 +84,12 @@ def get_tf_idf_values_document(folder_path, filenames=None, return_just_words=Tr
                 act_array.append(insert_string)
             start_from = m.end()
 
-        for i in range(0, act_array.__len__()):
-            bow = list()
-            clan = act_array[i]
-            list_tokens = connector.only_lam(clan)
-            for j in range(0, act_array.__len__()):
-                if list_tokens.__len__() <= j:
-                    break
-                if (list_tokens[j] in stop_words) or (list_tokens[j].isdigit()):
-                    continue
-                bow.append(list_tokens[j])
-            list_clan_for_file.append(listToString(bow))
+        c_bl = "#NBLC"
+        tokens = connector.only_lam(c_bl.join(act_array))
+        tokens = [tok for tok in tokens if tok not in stop_words or tok.isdigit()]
+        clans = " ".join(tokens)
+        list_clan_for_file = clans.split(c_bl) #Otpimized
+
 
         vectorizer = TfidfVectorizer()
         result = vectorizer.fit_transform(list_clan_for_file)
@@ -130,6 +125,8 @@ def get_tf_idf_values_document(folder_path, filenames=None, return_just_words=Tr
 
 
 if __name__ == '__main__':
+
+
     filenames , folderPath = get_file_names("data", "aktovi_raw_lat")
     filenames = filenames[0:10]
     tf_idf_values = get_tf_idf_values_document(folderPath, filenames=filenames)

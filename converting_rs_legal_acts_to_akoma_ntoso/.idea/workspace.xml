@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c68450e-6ba3-4e78-8ba2-7662591f56c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/preprocessing/most_important_words_tfidf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/convert_html.py" beforeDir="false" afterPath="$PROJECT_DIR$/convert_html.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/form_akoma/AkomaBuilder.py" beforeDir="false" afterPath="$PROJECT_DIR$/form_akoma/AkomaBuilder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/form_akoma/MetadataBuilder.py" beforeDir="false" afterPath="$PROJECT_DIR$/form_akoma/MetadataBuilder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessing/preprocess_data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scraping/webscraping2.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraping/webscraping2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connector/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/connector/text.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connector/tokenize.txt" beforeDir="false" afterPath="$PROJECT_DIR$/connector/tokenize.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/most_important_words_tfidf.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing/most_important_words_tfidf.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +76,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="153" />
-          <entry key="py" value="7076" />
+          <entry key="py" value="7375" />
           <entry key="stopwords" value="1" />
           <entry key="svm_proba" value="473" />
           <entry key="txt" value="84" />
@@ -89,7 +85,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="238" />
-          <entry key="Python" value="7549" />
+          <entry key="Python" value="7848" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -135,15 +131,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/preprocessing/most_important_words_tfidf.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+            <state relative-caret-position="281">
+              <caret line="90" column="57" selection-start-line="90" selection-start-column="57" selection-end-line="90" selection-end-column="57" />
               <folding>
                 <element signature="e#129#148#0" expanded="true" />
-                <marker date="1582114453964" expanded="true" signature="327:744" ph="..." />
-                <marker date="1582114453964" expanded="true" signature="642:744" ph="..." />
-                <marker date="1582114453964" expanded="true" signature="841:966" ph="..." />
-                <marker date="1582114453964" expanded="true" signature="1080:5099" ph="..." />
-                <marker date="1582114453964" expanded="true" signature="2197:5099" ph="..." />
+                <marker date="1582190502182" expanded="true" signature="327:744" ph="..." />
+                <marker date="1582190502182" expanded="true" signature="642:744" ph="..." />
+                <marker date="1582190502182" expanded="true" signature="841:966" ph="..." />
+                <marker date="1582190502182" expanded="true" signature="1080:4864" ph="..." />
+                <marker date="1582190502182" expanded="true" signature="2197:4864" ph="..." />
               </folding>
             </state>
           </provider>
@@ -272,7 +268,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/preprocessing/init_akoma.py" />
         <option value="$PROJECT_DIR$/tokenizer/TokenType.py" />
         <option value="$PROJECT_DIR$/tokenizer/BasicTokenizer.py" />
         <option value="$PROJECT_DIR$/form_akoma/metadata.py" />
@@ -323,14 +318,15 @@
         <option value="$PROJECT_DIR$/convert_html.py" />
         <option value="$PROJECT_DIR$/scraping/webscraping2.py" />
         <option value="$PROJECT_DIR$/preprocessing/preprocess_data.py" />
+        <option value="$PROJECT_DIR$/preprocessing/most_important_words_tfidf.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="954" />
-    <option name="y" value="1" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -384,17 +380,17 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Astral\Desktop\Master\Aca\MasterProject\converting_rs_legal_acts_to_akoma_ntoso\preprocessing" />
+      <recent name="C:\Users\Lenovo\Desktop\Pravna Informatika\data\NER\labeled" />
+      <recent name="C:\Users\Lenovo\Desktop\Pravna Informatika\reasoner" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Astral\Desktop\Master\Aca\MasterProject\converting_rs_legal_acts_to_akoma_ntoso\ner_try" />
       <recent name="C:\Users\Astral\Desktop\Master\Aca\MasterProject\converting_rs_legal_acts_to_akoma_ntoso\ner_proba" />
       <recent name="C:\Users\Astral\Desktop\Master\Aca\MasterProject\converting_rs_legal_acts_to_akoma_ntoso\preprocessing" />
       <recent name="C:\Users\Astral\Desktop\Master\Aca\MasterProject\converting_rs_legal_acts_to_akoma_ntoso\connector" />
       <recent name="C:\Users\Astral\Desktop\Master\Pravna Informatika\Kolege1\converting_rs_legal_acts_to_akoma_ntoso-master\tokenhgffdjklg" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Astral\Desktop\Master\Aca\MasterProject\converting_rs_legal_acts_to_akoma_ntoso\preprocessing" />
-      <recent name="C:\Users\Lenovo\Desktop\Pravna Informatika\data\NER\labeled" />
-      <recent name="C:\Users\Lenovo\Desktop\Pravna Informatika\reasoner" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -409,7 +405,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.preprocess_data">
+  <component name="RunManager" selected="Python.most_important_words_tfidf">
     <configuration name="MetadataBuilder" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Pravna Informatika" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -444,6 +440,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/convert_html.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="most_important_words_tfidf" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Pravna Informatika" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/preprocessing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/preprocessing/most_important_words_tfidf.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -494,41 +511,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="svmTryw2v" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Pravna Informatika" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ner_try" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ner_try/svmTryw2v.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.svmTry (1)" />
-      <item itemvalue="Python.svmTryw2v" />
       <item itemvalue="Python.MetadataBuilder" />
       <item itemvalue="Python.convert_html" />
       <item itemvalue="Python.preprocess_data" />
+      <item itemvalue="Python.most_important_words_tfidf" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.most_important_words_tfidf" />
         <item itemvalue="Python.preprocess_data" />
         <item itemvalue="Python.convert_html" />
         <item itemvalue="Python.MetadataBuilder" />
         <item itemvalue="Python.svmTry (1)" />
-        <item itemvalue="Python.svmTryw2v" />
       </list>
     </recent_temporary>
   </component>
@@ -558,13 +554,13 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12750264" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12750264" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925596" weight="0.35140997" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.29609543" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.29609543" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
@@ -683,16 +679,6 @@
           <url>file://$PROJECT_DIR$/form_akoma/MetadataBuilder.py</url>
           <line>170</line>
           <option name="timeStamp" value="107" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/preprocessing/most_important_words_tfidf.py</url>
-          <line>135</line>
-          <option name="timeStamp" value="113" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/preprocessing/most_important_words_tfidf.py</url>
-          <line>54</line>
-          <option name="timeStamp" value="116" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1029,15 +1015,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/preprocessing/most_important_words_tfidf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        <state relative-caret-position="281">
+          <caret line="90" column="57" selection-start-line="90" selection-start-column="57" selection-end-line="90" selection-end-column="57" />
           <folding>
             <element signature="e#129#148#0" expanded="true" />
-            <marker date="1582114453964" expanded="true" signature="327:744" ph="..." />
-            <marker date="1582114453964" expanded="true" signature="642:744" ph="..." />
-            <marker date="1582114453964" expanded="true" signature="841:966" ph="..." />
-            <marker date="1582114453964" expanded="true" signature="1080:5099" ph="..." />
-            <marker date="1582114453964" expanded="true" signature="2197:5099" ph="..." />
+            <marker date="1582190502182" expanded="true" signature="327:744" ph="..." />
+            <marker date="1582190502182" expanded="true" signature="642:744" ph="..." />
+            <marker date="1582190502182" expanded="true" signature="841:966" ph="..." />
+            <marker date="1582190502182" expanded="true" signature="1080:4864" ph="..." />
+            <marker date="1582190502182" expanded="true" signature="2197:4864" ph="..." />
           </folding>
         </state>
       </provider>
