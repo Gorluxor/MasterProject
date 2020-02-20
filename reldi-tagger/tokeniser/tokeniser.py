@@ -206,7 +206,7 @@ if __name__=='__main__':
   parser.add_argument('-b','--bert',help='generates BERT-compatible output',action='store_true')
   parser.add_argument('-d','--document',help='passes through ConLL-U-style document boundaries',action='store_true')
   parser.add_argument('-n','--nonstandard',help='invokes the non-standard mode',action='store_true')
-  parser.add_argument('-f', '--file', help='file name of stdin', required=True)
+  parser.add_argument('-f', '--file', help='file name of stdin')
   args=parser.parse_args()
   if args.document:
     args.conllu=True
@@ -217,7 +217,12 @@ if __name__=='__main__':
   tokenizer=generate_tokenizer(lang)
   par_id=0
   #for line in sys.stdin:
-  for line in io.open(args.file, 'r', encoding='utf-8'):
+  if args.file is None:
+    instream = sys.stdin
+  else:
+    instream = io.open(args.file, 'r', encoding='utf-8')
+
+  for line in instream:
     if line.strip()=='':
       continue
     par_id+=1

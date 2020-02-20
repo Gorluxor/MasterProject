@@ -150,7 +150,7 @@ if __name__ == '__main__':
                         choices=['sl', 'sl.ns', 'sl.ns.true', 'sl.ns.lower', 'hr', 'sr'])
     parser.add_argument(
         '-l', '--lemmatise', help='perform lemmatisation as well', action='store_true')
-    parser.add_argument('-f', '--file', help='file name of stdin', required=True)
+    parser.add_argument('-f', '--file', help='file name of stdin') # required = True, podesavanja "-f ..\sub\text.txt "
     parser.add_argument(
         '-i', '--index', help='index of the column to be processed', type=int, default=0)
     args = parser.parse_args()
@@ -162,7 +162,18 @@ if __name__ == '__main__':
                       'lexicon': pickle.load(open(os.path.join(reldir, args.lang + '.lexicon'), 'rb'))}
     else:
         lemmatiser = None
+    inq = sys.stdin
 
-    read_and_write(io.open(args.file, 'r', encoding='utf-8'), args.index - 1, sys.stdout)
+    # if args.file is not None:
+    #     inq = io.open(args.file, 'r', encoding='utf-8')
+    #
+    # for line in inq:
+    #     sys.stdout.write(line)
+    #sys.stdin.reconfigure(encoding='utf-8')
+
+    if args.file is None:
+        read_and_write(sys.stdin, args.index - 1, sys.stdout) #sys.stdin
+    else:
+        read_and_write(io.open(args.file, 'r', encoding='utf-8'), args.index - 1, sys.stdout)
     #read_and_write(io.StringIO(u"Ovo\nje\nnesto\n.\n\n"), args.index - 1, sys.stdout)
     #read_and_write(sys.stdin, args.index - 1, sys.stdout)
