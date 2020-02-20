@@ -1,17 +1,32 @@
 import subprocess
-
+import io
 debug = False
 
 
-def tokenize(string_data):  # Only to tokenize data
+def tokenize(string_data, legacy=True):  # Only to tokenize data
     # noinspection SpellCheckingInspection,SpellCheckingInspection
-    python2_command_token = "python2 ..\\reldi-tagger\\tokeniser\\tokeniser.py sr --file ..\\connector\\tokenize.txt"
+    stream_to_send = io.StringIO()
+    if legacy is None:
+        python2_command_token = "python2 ..\\reldi-tagger\\tokeniser\\tokeniser.py sr"
+        stream_to_send.write(string_data)
+    else:
+        python2_command_token = "python2 ..\\reldi-tagger\\tokeniser\\tokeniser.py sr --file ..\\connector\\tokenize.txt"
+        to_file("..\\connector\\tokenize.txt", string_data)  # first version
+        print("Legacy version usage")
 
-    to_file("tokenize.txt", string_data)
-
-    process = subprocess.Popen(python2_command_token.split(), stdout=subprocess.PIPE, bufsize=1, universal_newlines=True, encoding='utf-8')
-
-    output, error = process.communicate()
+    if legacy is not None:
+        process = subprocess.Popen(python2_command_token.split(), stdout=subprocess.PIPE, bufsize=1,
+                                   universal_newlines=True,
+                                   encoding='utf-8')
+    else:
+        process = subprocess.Popen(python2_command_token.split(), stdin=subprocess.PIPE, stdout=subprocess.PIPE,
+                                   bufsize=1,
+                                   universal_newlines=True,
+                                   encoding='utf-8')
+    if legacy is None:
+        output, error = process.communicate(input=stream_to_send.getvalue())
+    else:
+        output, error = process.communicate()
 
     lines = output.split('\n')
 
@@ -22,15 +37,31 @@ def tokenize(string_data):  # Only to tokenize data
     return info
 
 
-def pos_lem(data_file):  # POS and Lam
-    relative_file = "-f ..\\connector\\{}".format(data_file)
-    # noinspection SpellCheckingInspection
-    python2_command = "python2 ..\\reldi-tagger\\tagger.py sr -l {}".format(relative_file)
-    print(python2_command)
-    process = subprocess.Popen(python2_command.split(), stdout=subprocess.PIPE, bufsize=1, universal_newlines=True,
-                               encoding='utf-8')
+def pos_lem(data_file, legacy=None):  # POS and Lam
+    st = "".join(data_file)
+    st = st + "\n"
+    stream_to_send = io.StringIO(st)
+    if legacy is not None:
+        relative_file = "-f ..\\connector\\{}".format(data_file)
+        # noinspection SpellCheckingInspection
+        python2_command = "python2 ..\\reldi-tagger\\tagger.py sr -l {}".format(relative_file)
+        print(python2_command)
+        print("Using legacy version")
+    else:
+        python2_command = "python2 ..\\reldi-tagger\\tagger.py sr -l"
 
-    output, error = process.communicate()
+    if legacy is not None:
+        process = subprocess.Popen(python2_command.split(), stdout=subprocess.PIPE, bufsize=1, universal_newlines=True,
+                                   encoding='utf-8')
+    else:
+        process = subprocess.Popen(python2_command.split(), stdin= subprocess.PIPE, stdout=subprocess.PIPE, bufsize=1,
+
+                                   encoding='utf-8') # universal_newlines=True,
+
+    if legacy is not None:
+        output, error = process.communicate()
+    else:
+        output, error = process.communicate(stream_to_send.getvalue())
     if debug:
         print(output)
 
@@ -39,7 +70,13 @@ def pos_lem(data_file):  # POS and Lam
     info = [s.split('\t') for s in lines if s.strip() != '']
     if debug:
         print(info)
+    stream_to_send.close()
     return info
+
+
+def to_stream(st, content):
+    st.write(content)
+    st.write("\n\n")
 
 
 def to_file(filename, content):
@@ -49,17 +86,23 @@ def to_file(filename, content):
     f.close()
 
 
-def tokenize_pos(string_data):
+def tokenize_pos(string_data, legacy=None):
     info = tokenize(string_data)
-    to_file('text.txt', "\n".join(s[1] for s in info))
-    pos_info = pos_lem('text.txt')
+    if legacy is not None:
+        to_file('..\\connector\\text.txt', "\n".join(s[1] for s in info))
+        pos_info = pos_lem('text.txt', legacy)
+    else:
+        pos_info = pos_lem(s[1] + "\n" for s in info)
+
     if debug:
         print(pos_info)
     return pos_info
 
 
-def only_lam(string_data):
-    info = tokenize_pos(string_data)
+def only_lam(string_data, legacy= True):
+    info = tokenize_pos(string_data, legacy=legacy)
+    print(1 + 1)
+    #return info
     return [s[2] for s in info]
 
 
