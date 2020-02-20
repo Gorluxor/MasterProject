@@ -8,6 +8,9 @@
 # Common IDEs
 *.swp
 .idea/
+.idea/misc.xml
+.idea/Pravna Informatika.iml
+.idea/workspace.xml
 .buildpath
 .project
 .settings
