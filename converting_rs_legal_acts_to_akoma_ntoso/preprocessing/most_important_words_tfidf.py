@@ -52,7 +52,7 @@ def get_tf_idf_values_document(folder_path, filenames=None, return_just_words=Tr
     :return: Returns most used words in document, Type LIST, Depending on return_just_words, threshold and max_elements
     """
     # break_word = 0
-    stop_words_file = open(r"stopwords.txt", mode="r+", encoding="utf8")
+    stop_words_file = open(path.dirname(__file__)+"\\stopwords.txt", mode="r+", encoding="utf8")
     stop_words = stop_words_file.readlines()
     stop_words = list(str(x).replace("\n", "") for x in stop_words)
 
