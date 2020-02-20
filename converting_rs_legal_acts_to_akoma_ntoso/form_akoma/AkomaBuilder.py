@@ -1,4 +1,4 @@
-from tokenizer.patterns import  is_vrsta_akta
+from tokenizer.patterns import is_vrsta_akta
 from tokenizer.TokenType import TokenType
 import xml.etree.ElementTree as ET
 
@@ -10,10 +10,10 @@ class AkomaBuilder():
     def __init__(self, akomaroot):
         ET.register_namespace('', "http://www.akomantoso.org/2.0")
         self.akomaroot = akomaroot
-        self.current = list(akomaroot)[0].find(PREFIX+"body")
+        self.current = list(akomaroot)[0].find(PREFIX + "body")
         self.stack = [self.current]
-        #print(self.result_str())
-        #print(self.stack, list(akomaroot)[0].tag)
+        # print(self.result_str())
+        # print(self.stack, list(akomaroot)[0].tag)
 
     def build_preface(self, tokens):
         counter = 0
@@ -26,7 +26,7 @@ class AkomaBuilder():
             counter += 1
             if "напомена" in token.value.lower():
                 counter -= 1
-            elif counter == 1 :
+            elif counter == 1:
                 date = ET.Element("date")
                 date.text = token.value
                 preface.insert(0, date)
@@ -43,7 +43,7 @@ class AkomaBuilder():
                 authority = ET.Element("authority")
                 authority.text = token.value
                 preface.insert(0, authority)
-            elif counter >3:
+            elif counter > 3:
                 if preamble is None:
                     preamble = ET.Element("preamble")
                 p = ET.Element("p")
@@ -61,25 +61,24 @@ class AkomaBuilder():
         parent.append(token)
 
     def add_token(self, token, identification):
-        #print(token.name, identification, token.value)
+        # print(token.name, identification, token.value)
         novi = self.create_element(token, identification)
         parent = self.current_parent(identification)
 
         parent.append(novi)
         self.stack.append(novi)
 
-
     def current_parent(self, identification):
-        for i in range(len(self.stack)-1,-1,-1):
+        for i in range(len(self.stack) - 1, -1, -1):
             node = self.stack[i]
-            #print(i, self.stack)
-            if node.tag == PREFIX+"body":
+            # print(i, self.stack)
+            if node.tag == PREFIX + "body":
                 return node
 
             id = node.attrib["id"]
             if id in identification:
                 content = node.find("content")
-               # print('TEXT', list(node))
+                # print('TEXT', list(node))
                 if content is not None:
                     return content
                 else:
@@ -112,7 +111,8 @@ class AkomaBuilder():
     def result_str(self):
         import xml.dom.minidom
 
-        dom = xml.dom.minidom.parseString(ET.tostring(self.akomaroot,encoding='UTF-8', method="xml").decode())  # or xml.dom.minidom.parseString(xml_string)
+        dom = xml.dom.minidom.parseString(ET.tostring(self.akomaroot, encoding='UTF-8',
+                                                      method="xml").decode())  # or xml.dom.minidom.parseString(xml_string)
         pretty_xml_as_string = dom.toprettyxml()
 
-        return pretty_xml_as_string#str(ET.tostring(self.akomaroot,encoding='UTF-8', method="xml").decode())
+        return pretty_xml_as_string  # str(ET.tostring(self.akomaroot,encoding='UTF-8', method="xml").decode())

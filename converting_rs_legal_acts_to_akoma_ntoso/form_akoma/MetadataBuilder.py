@@ -167,7 +167,7 @@ class MetadataBuilder():
 if __name__=="__main__":
 	akoma_root = preprocessing.init_akoma.init_xml("act")
 
-	for fajl in os.listdir("../data/aktovi_html"):
+	for fajl in os.listdir("../data/aktovi"):
 		metabuilder = MetadataBuilder("../data/metadata.csv")
 		metabuilder.build(fajl, akoma_root)
 	#print(len(SUMA))

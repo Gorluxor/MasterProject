@@ -49,4 +49,4 @@ if __name__ == "__main__":
     if len(sys.argv) >= 3:
         convert_html(sys.argv[1], sys.argv[2])
     else:
-        convert_html("data/aktovi_html/2126.html", "data/ustav.xml")
+        convert_html("data/aktovi/1.html", "data/ustav.xml")
