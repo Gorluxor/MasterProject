@@ -10,9 +10,10 @@ import pandas as pd
 
 
 def get_stop_words():
-    stop_words_file = open(r"stopwords.txt", mode="r+", encoding="utf8")
+    stop_words_file = open(path.dirname(__file__) + "\\stopwords.txt", mode="r+", encoding="utf8")
     stop_words = stop_words_file.readlines()
     stop_words = list(str(x).replace("\n", "") for x in stop_words)
+    stop_words_file.close()
     return stop_words
 
 
@@ -52,10 +53,7 @@ def get_tf_idf_values_document(folder_path, filenames=None, return_just_words=Tr
     :return: Returns most used words in document, Type LIST, Depending on return_just_words, threshold and max_elements
     """
     # break_word = 0
-    stop_words_file = open(path.dirname(__file__)+"\\stopwords.txt", mode="r+", encoding="utf8")
-    stop_words = stop_words_file.readlines()
-    stop_words = list(str(x).replace("\n", "") for x in stop_words)
-
+    stop_words = get_stop_words()
     if not filenames:
         file_names = get_file_names_in_folder(folder_path)
     else:
@@ -125,11 +123,10 @@ def get_tf_idf_values_document(folder_path, filenames=None, return_just_words=Tr
 
 
 if __name__ == '__main__':
-
-
     filenames , folderPath = get_file_names("data", "aktovi_raw_lat")
-    filenames = filenames[0:10]
-    tf_idf_values = get_tf_idf_values_document(folderPath, filenames=filenames)
+    filenames = filenames[0:2]
+    tf_idf_values = get_tf_idf_values_document(folderPath, filenames=filenames, return_just_words=False, with_file_names=False)
     print(tf_idf_values)
-    # print([item[0] for item in tf_idf_values]) #FILES if return file names also
-    # print([item[1] for item in tf_idf_values]) #WORDS if return file names also
+    for el in tf_idf_values:
+        print([item[0] for item in el]) #FILES if return file names also
+        print([item[1] for item in el]) #WORDS if return file names also

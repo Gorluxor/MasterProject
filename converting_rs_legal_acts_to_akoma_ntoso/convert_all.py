@@ -13,10 +13,10 @@ from form_akoma.MetadataBuilder import MetadataBuilder
 from named_enitity_recognition.pattern_recognition import add_refs
 
 if __name__ == "__main__":
-    nastavi = "651.html"
+    nastavi = "xxx.html" #""651.html"
     idemo = False
-    stani = ["1160.html", "1575.html", "908.html", "2348.html", "318.html", "3062.html"] #ovi fajlovi su samo preveliki pa njihovo procesiranje traje dugo
-    for fajl in os.listdir("data/aktovi_html"):
+    stani = [] #["1160.html", "1575.html", "908.html", "2348.html", "318.html", "3062.html"] #ovi fajlovi su samo preveliki pa njihovo procesiranje traje dugo
+    for fajl in os.listdir("data/acts"):
         if(fajl == nastavi):
             idemo=True
         if not idemo:
