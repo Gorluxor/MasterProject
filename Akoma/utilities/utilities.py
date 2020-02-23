@@ -18,7 +18,18 @@ def get_meta(filename: str, path: str = "..//data/meta/allmeta.csv"):
     return None
 
 
+def get_root_dir():
+    from os import path
+    pather = path.dirname(__file__)
+    path_this = path.normpath(pather)
+    i = path_this.rfind("\\")
+    b = path_this[:i]
+    return b
+
+
 if __name__ == "__main__":
     a = get_meta("1.html")
     print(a.act_name)
+
+    print(get_root_dir())
     print("End")
