@@ -1805,10 +1805,10 @@ ELI does not include a set of values for this table.</core:definition>
 <LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_1.">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zakon"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#upotreba"/>
   <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#izgled"/>
   <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#grb"/>
-  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#upotreba"/>
-  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zakon"/>
 </LegalResourceSubdivision>
 
 <core:Concept rdf:about="http://www.w3.org/2004/02/skos/core#izgled">
@@ -1847,16 +1847,16 @@ ELI does not include a set of values for this table.</core:definition>
 <LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_3.">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
-  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zakon"/>
   <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zastava"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zakon"/>
   <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#grb"/>
 </LegalResourceSubdivision>
 
 <LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_4.">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
-  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zakon"/>
   <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zastava"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zakon"/>
   <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#grb"/>
 </LegalResourceSubdivision>
 
@@ -1869,22 +1869,22 @@ ELI does not include a set of values for this table.</core:definition>
 <LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_6.">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
-  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#izgled"/>
   <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zastava"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#izgled"/>
 </LegalResourceSubdivision>
 
 <LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_7.">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
-  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#grb"/>
   <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zastava"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#grb"/>
 </LegalResourceSubdivision>
 
 <LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_8.">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
-  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#grb"/>
   <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zastava"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#grb"/>
 </LegalResourceSubdivision>
 
 <LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_9.">
@@ -1937,8 +1937,8 @@ ELI does not include a set of values for this table.</core:definition>
 <LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_16.">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
-  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#grb"/>
   <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zastava"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#grb"/>
 </LegalResourceSubdivision>
 
 <LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_17.">
@@ -1950,8 +1950,8 @@ ELI does not include a set of values for this table.</core:definition>
 <LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_18.">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
-  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#grb"/>
   <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zastava"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#grb"/>
 </LegalResourceSubdivision>
 
 <LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_19.">
@@ -1986,9 +1986,9 @@ ELI does not include a set of values for this table.</core:definition>
 <LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_24.">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
-  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zakon"/>
-  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#upotreba"/>
   <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zastava"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#upotreba"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zakon"/>
 </LegalResourceSubdivision>
 
 <LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_25.">
@@ -2018,9 +2018,9 @@ ELI does not include a set of values for this table.</core:definition>
 <LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_29.">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
-  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zakon"/>
-  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#upotreba"/>
   <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zastava"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#upotreba"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zakon"/>
 </LegalResourceSubdivision>
 
 <LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_30.">
@@ -2060,8 +2060,8 @@ ELI does not include a set of values for this table.</core:definition>
 <LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_36.">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
-  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zakon"/>
   <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#upotreba"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zakon"/>
 </LegalResourceSubdivision>
 
 <LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_37.">
@@ -2123,6 +2123,88 @@ ELI does not include a set of values for this table.</core:definition>
 <LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_46.">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zakon"/>
+</LegalResourceSubdivision>
+
+<LegalResource rdf:about="#Zakon_o_državnom_pečatu_Republike_Srbije:_101/2007-5">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <published_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JP Službeni glasnik</published_in>
+  <publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Narodna skupština</publisher>
+  <version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007-11-05</version_date>
+  <number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">101</number>
+  <title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zakon o državnom pečatu Republike Srbije: 101/2007-5</title>
+</LegalResource>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_državnom_pečatu_RepublČlan_1.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_državnom_pečatu_Republike_Srbije:_101/2007-5"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#pečat"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zakon"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#tekst"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#državni"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#upotreba"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#izgled"/>
+</LegalResourceSubdivision>
+
+<core:Concept rdf:about="http://www.w3.org/2004/02/skos/core#državni">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</core:Concept>
+
+<core:Concept rdf:about="http://www.w3.org/2004/02/skos/core#pečat">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</core:Concept>
+
+<core:Concept rdf:about="http://www.w3.org/2004/02/skos/core#tekst">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</core:Concept>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_državnom_pečatu_RepublČlan_2.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_državnom_pečatu_Republike_Srbije:_101/2007-5"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#tekst"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zakon"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#pečat"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_državnom_pečatu_RepublČlan_3.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_državnom_pečatu_Republike_Srbije:_101/2007-5"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#pečat"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_državnom_pečatu_RepublČlan_4.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_državnom_pečatu_Republike_Srbije:_101/2007-5"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#pečat"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_državnom_pečatu_RepublČlan_5.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_državnom_pečatu_Republike_Srbije:_101/2007-5"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#upotreba"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#pečat"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_državnom_pečatu_RepublČlan_6.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_državnom_pečatu_Republike_Srbije:_101/2007-5"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#državni"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zakon"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#pečat"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_državnom_pečatu_RepublČlan_7.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_državnom_pečatu_Republike_Srbije:_101/2007-5"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#državni"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#tekst"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zakon"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#pečat"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_državnom_pečatu_RepublČlan_8.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_državnom_pečatu_Republike_Srbije:_101/2007-5"/>
   <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zakon"/>
 </LegalResourceSubdivision>
 

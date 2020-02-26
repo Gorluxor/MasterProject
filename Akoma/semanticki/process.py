@@ -37,7 +37,8 @@ def generate_owl(folder_path, filenames=None):
     result = get_tf_idf_values_document(folder_path, filenames=filenames, return_just_words=False)
 
     for el in result:
-        f = open(folder_path + "\\" + el[0], "r", encoding="utf-8")
+        s_file = el[0]
+        f = open(folder_path + "\\" + s_file, "r", encoding="utf-8")
         info = "".join(f.readlines())
         # for q in el[1]:
         #     print(q)
@@ -45,7 +46,7 @@ def generate_owl(folder_path, filenames=None):
         clan_info = util.gather_clans(info)
         # Otvori fajl, pronađe strukture, generišu clanovi, dodaju se
         # print(clans_data)
-        meta = utilities.get_meta("1.html", utilities.get_root_dir() + "\\data\\meta\\allmeta.csv")
+        meta = utilities.get_meta(s_file, utilities.get_root_dir() + "\\data\\meta\\allmeta.csv")
         latin_name = to_latin(meta.act_name).replace(' ', '_')
         dis = {}
         curr_zakon = owl.add_legal_resource(latin_name)
@@ -63,9 +64,9 @@ def generate_owl(folder_path, filenames=None):
                 curr_sub.is_about = [dis[s] for s in is_about]
             curr_sub.is_part_of = [curr_zakon]
             i = i + 1
-        owl.save()
+    owl.save()
 
 
 if __name__ == '__main__':
     base_path = utilities.get_root_dir()
-    generate_owl(base_path + "\\data\\racts", filenames=["1.html"])
+    generate_owl(base_path + "\\data\\racts", filenames=["1.html","2.html"])
