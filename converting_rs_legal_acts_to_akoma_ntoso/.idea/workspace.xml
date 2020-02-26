@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c68450e-6ba3-4e78-8ba2-7662591f56c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Akoma/convertToLatin/Convert.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Akoma/try.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Akoma/try.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Akoma/utilities/utilities.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Akoma/utilities/utilities.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../semanticki/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../semanticki/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +61,7 @@
     <session id="-1643910494">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.20" value="1" />
@@ -394,7 +391,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Akoma" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -569,8 +566,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="551" y="167" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="551" y="0" width="974" height="1047" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.258547" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

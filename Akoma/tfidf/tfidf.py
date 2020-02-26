@@ -4,7 +4,8 @@
 from os import path
 import re
 from connector import connector
-from gensim.models import Word2Vec
+#from gensim.models import Word2Vec
+from convertToLatin import Convert
 from sklearn.feature_extraction.text import TfidfVectorizer
 import pandas as pd
 from preprocessing import remove_html
@@ -69,6 +70,10 @@ def get_tf_idf_values_document(folder_path, filenames=None, return_just_words=Tr
         file = open(check, encoding="utf8")
         all_lines = "".join(file.readlines())
         act_array = []
+
+        if re.search("Član [0-9]*\.",all_lines) is None: # Check if cyrilic then to latin
+            all_lines = Convert.convert_string(all_lines)
+
         list_to_str = all_lines + "Član 0."
         found = re.finditer("Član [0-9]*\.", list_to_str)
         start_from = 0

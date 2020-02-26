@@ -2,25 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fa6fc55-960d-4f17-a31c-fd0ecc8a5344" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/convertToLatin/Convert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form_akoma/Metadata.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfidf/data/allmeta.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfidf/owl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfidf/process.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfidf/util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tfidf/utilities.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../connector/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../connector/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../connector/.idea/sub.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../connector/.idea/sub.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../connector/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../connector/text.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../connector/tokenize.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../connector/tokenize.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../converting_rs_legal_acts_to_akoma_ntoso/.idea/Pravna Informatika.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../converting_rs_legal_acts_to_akoma_ntoso/.idea/Pravna Informatika.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../converting_rs_legal_acts_to_akoma_ntoso/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../converting_rs_legal_acts_to_akoma_ntoso/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Akoma/connector/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Akoma/connector/text.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Akoma/connector/tokenize.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Akoma/connector/tokenize.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Akoma/convertToLatin/Convert.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Akoma/convertToLatin/Convert.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Akoma/tfidf/tfidf.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Akoma/tfidf/tfidf.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../converting_rs_legal_acts_to_akoma_ntoso/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../converting_rs_legal_acts_to_akoma_ntoso/.idea/workspace.xml" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1539052821">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/embedding.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="707">
+              <caret line="54" column="5" selection-start-line="54" selection-end-line="54" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tfidf/owl.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -32,8 +72,43 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="1082" />
+    <option name="y" value="191" />
+    <option name="width" value="974" />
+    <option name="height" value="953" />
+  </component>
   <component name="ProjectId" id="1XzQ79Iaj9mWA8dlZDB49Y6g44Q" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="semanticki" type="b2602c69:ProjectViewProjectNode" />
+              <item name="semanticki" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="semanticki" type="b2602c69:ProjectViewProjectNode" />
+              <item name="semanticki" type="462c0819:PsiDirectoryNode" />
+              <item name="onto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="semanticki" type="b2602c69:ProjectViewProjectNode" />
+              <item name="semanticki" type="462c0819:PsiDirectoryNode" />
+              <item name="tfidf" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -56,6 +131,18 @@
       <recent name="C:\Users\Predator\PycharmProjects\master_project\semanticki\tfidf" />
       <recent name="C:\Users\Predator\PycharmProjects\master_project\semanticki\onto" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Python.process">
     <configuration name="edit" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -163,6 +250,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.edit" />
+      <item itemvalue="Python.owl" />
+      <item itemvalue="Python.owl (1)" />
+      <item itemvalue="Python.owl_old" />
+      <item itemvalue="Python.process" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.process" />
@@ -197,6 +291,32 @@
       <updated>1582046272460</updated>
     </task>
     <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="WindowStateProjectService">
     <state x="164" y="272" key="#xdebugger.XInspectDialog" timestamp="1582382801698">
@@ -313,5 +433,27 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/embedding.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="707">
+          <caret line="54" column="5" selection-start-line="54" selection-end-line="54" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tfidf/owl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
