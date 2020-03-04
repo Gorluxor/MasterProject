@@ -1,0 +1,2212 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="http://data.europa.eu/eli/ontology"
+         xmlns="http://data.europa.eu/eli/ontology#"
+         xmlns:core="http://www.w3.org/2004/02/skos/core#"
+         xmlns:vann="http://purl.org/vocab/vann/"
+         xmlns:term="http://purl.org/dc/terms/">
+
+<owl:Ontology rdf:about="#">
+  <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+  <rdfs:seeAlso rdf:resource="http://publications.europa.eu/mdr/eli"/>
+  <rdfs:seeAlso rdf:resource="#LegalResource"/>
+  <rdfs:seeAlso rdf:resource="http://eurlex.europa.eu/eli"/>
+  <rdfs:comment xml:lang="en">An ontology to describe legislation, based on the FRBR model, that encodes the ELI metadata fields.
+See the classes "LegalResource", "LegalExpression" and "Format" as entry points.
+Interested readers can find more information about ELI on the ELI register at http://eurlex.europa.eu/eli and on the Office of Publications vocabularies website at http://publications.europa.eu/mdr/eli/.
+        </rdfs:comment>
+  <rdfs:label xml:lang="en">ELI Metadata Ontology</rdfs:label>
+  <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.2</owl:versionInfo>
+  <core:historyNote xml:lang="en">## 1.2
+
+### Semantic changes
+
+  - Modification of eli:format and introduction of eli:media_type :
+    - Modified the semantic of eli:format so that it now corresponds to a business / application format, and not a technical format (the technical format will be captured in eli:media_type). This is intended to distinguish e.g. authentic PDF from scanned PDF from generated-on-the-fly PDF; or e.g. XML in a standard (AkomaNtoso) format vs. XML in a proprietary format.
+      - It is now possible to use the custom URIs “application/pdf;type=signed”, “application/pdf;type=generated”, “application/pdf;type=archival”, “application/pdf;type=scanned” as values of eli:format to indicate respectively electronically signed PDFs, generated-on-the-fly PDFs, PDF for archival, or scanned PDFs;
+      - It is now possible to use the custom URI “eli:print_format” as a value of eli:format to indicate a printed/paper version of the legislation;
+      - It is now possible to use the URI “application/akn+xml” as a value of eli:format to indicate an AkomaNtoso format;
+    - Added a new property “eli:media_type” to capture the technical file format of the file; this is intended to serve as a basis for content negociation; IANA identifiers MUST be used in eli:media_type;
+
+    - Existing ELI implementations using eli:format with IANA URIs remain valid; the eli:format property remains mandatory. ELI providers are however encouraged to add the “eli:media_type” property to their ELI metadata; in some situations the value of both properties might be the same (“eli:format = application/xml” and “eli:media_type = application/xml”). It is expected that in the future the “eli:media_type” property will become mandatory.
+
+  - Added a couple of optional properties “has_translation” / “is_translation_of” to indicate that a LegalExpression is translated from another one;
+  - Added the property “cited_by_case_law” and the corresponding literal property “cited_by_case_law_reference” :
+    - Cited_by_case_law : Indicates that this LegalResource or LegalExpression is being cited in a case law, identified by a suitable URI. If the case law cannot be identified by a suitable URI, the property "eli:cited_by_case_law_reference" can be used with a textual reference to the case law. The actual citation link is expressed from the case law to the legislation, but legal portals may use the link from a legislation to a case law to e.g. refer to representative case laws about a legislation.
+    - Cited_by_case_law_reference : Indicates that this LegalResource or LegalExpression is being cited in a case law that cannot be identified by a suitable URI and that is indicated by textual reference. An ECLI (European Case Law Identifier) can be used here. When the case law can be identified by a suitable URI, the property eli:cited_by_case_law should be used instead.
+
+### Non-semantic changes
+
+  - Referred to FRBRoo URIs instead of RDA URIs to extend the LegalResource, LegalExpression and Format classes, along with the FRBR backbone properties. This properly connects ELI with FRBRoo;
+  - Added equivalence declarations between ELI and the schema.org legal extension; this is provided as a separate Excel and Turtle file;
+  - Removed xsd:string range declaration on eli:description, title, title_short, title_alternative, rightsholder, rights, publisher, published_in so that can be declared with either a datatype or a language tag;
+  - Fixed documentation of some properties;
+  - Added link to Eur-Lex website in ontology documentation;
+
+## 1.1
+
+  - added the following properties :
+    - is_member_of / has_member
+    - number
+    - jurisdiction
+    - date_applicability
+    - applies / applied_by
+    - commences / commenced_by
+    - repeals / repealed_by
+    - corrects / corrected_by
+    - amends / amended_by
+    - is_another_publication_of / has_another_publication
+
+  - additionnal properties were also added to accomodate with situations where a property value can be either a literal or a URI :
+    - responsibility_of_agent vs. responsibility_of
+    - published_in_format vs. published_in
+    - publisher_agent vs. publisher
+    - rightsholder_agent vs. rightsholder
+
+  - the relations with DublinCore properties is now declared with a custom annotation property "eli:isSpecificPropertyOf" instead of rdfs:subPropertyOf to be able to relate both eli:publisher/eli:publisher_agent to dcterms:publisher, and eli:rightsholder/eli:rightsholder_agent to dcterms:rightsholder.
+
+  - added the class LegalResourceSubdivision
+
+  - the propery implements / implemented_by was deprecated in favor of applies / applied_by
+
+  - numerous definitions were improved and clarified
+
+  - all ontology items are documented with :
+    - their version of creation;
+    - their version of latest modification;
+    - an history note documenting the changes on the item;
+
+V1.1 is backward compatible with v1.0, with 1 following exception :
+  - starting from v1.1, is_member_of / has_member should be used instead of is_part_of / has_part for conceptual inclusions;
+
+Additionnally, ELI implementers are strongly encouraged to use applies / applied_by instead of implements / implemented_by; note however that implements/implemented_by currently remain in the ontology so publishers can take the time to transition smoothly.
+
+## 1.0
+
+  - added a set of values for the InForce table
+  - added definitions to tables
+  - minor fixes in definitions
+  - added rdfs:seeAlso from properties to corresponding tables
+  - cleaned the "whyThisIsNeeded" annotation
+
+## 0.6.1
+
+  - fixed typos in definitions
+
+## 0.6
+
+  - imported skos rather than redeclaring skos classes and properties
+  - changed domain of in_force, first_date_entry_into_force, date_no_longer_in_force to [LegalResource or LegalExpression] instead of LegalResource
+  - changed domain of language, title, title_short, title_alternative to LegalExpression instead of [LegalResource or LegalExpression]
+  - reworked the tables : don't use country and resource type tables from MDR, but declare local tables.
+  - integrated new definitions for all classes and properties
+
+## 0.5
+
+  - Renamed "Interpretation" into "LegalExpression" (and modified comments accordingly)
+  - Renamed the structural FRBR relations in accordance with Metalex ontology :
+    - is_legal_resource_of becomes "is_relaized_by"
+    - has_legalresource becomes "realizes"
+    - is_interpretation_of becomes "is_embodied_by"
+    - has_interpretation becomes "embodies"
+    - file becomes "is_exemplified_by"
+  - file has been made a subproperty of "has exemplar of manifestation" instead of "dc:hasPart"
+  - relevant_for is no more considered mandatory. Deleted comment that stated "we are seeking a way to express that relevant_for must have at least one value for LegalResource or one of its LegalInterpretation".
+
+## 0.4.1
+
+  - Added "publishes" property
+  - Enriched the note on "transposes" and "transposed by" to indicate they must point to / be expressed on LegalResource</core:historyNote>
+  <vann:preferredNamespacePrefix>eli</vann:preferredNamespacePrefix>
+  <term:creator xml:lang="en">ELI task force</term:creator>
+  <core:editorialNote xml:lang="en">- The ELI ontology reuses the property names from the Metalex ontology (http://www.metalex.eu/) to express the FRBR skeleton hierarchy : is_realized_by/realizes, is_embodied_by/embodies, is_exemplified_by. This wording is also the one used in the original FRBR specifications. However, the decision has been made _not_ to align to the Metalex class names (BibliographicWork, BibliographicExpression, BibliographicManifestation), because ELI is specifically about publishing legal metadata on the web, and not structuring legal content in any document.
+
+- first_date_entry_in_force and date_no_longer_in_force could be aligned with dcterms:date
+
+- a class could be introduced for URI schemas to implement the URI schema registry
+
+- ELI does not use rdfs:subPropertyOf to relate its properties with DublinCore Terms, but instead a custom annotation properties "eli:isSpecificPropertyOf". ELI 1.1 chose to have 2 separate properties in certain situations to accomodate with cases where the value can be either a String or a reference to an identified object; this is the case for eli:publisher / eli:publisher_agent, or eli:rightsholder and eli:rightsholder_agent. This entails that this pair of properties cannot be both aligned with their respective DCTerms equivalent (dcterms:publisher and dcterms:rightsholder), since relating a property using rdfs:subPropertyOf necessary implies to declare the DCterms property as either a datatype property _or_ an objectProperty, but not both.</core:editorialNote>
+</owl:Ontology>
+
+<owl:ObjectProperty rdf:about="#amended_by">
+  <rdfs:domain>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#LegalExpression"/>
+        <rdf:Description rdf:about="#LegalResource"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#LegalExpression"/>
+        <rdf:Description rdf:about="#LegalResource"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:range>
+  <rdfs:subPropertyOf rdf:resource="#changed_by"/>
+  <owl:inverseOf rdf:resource="#amends"/>
+  <rdfs:comment xml:lang="en">Inverse of "amends". Indicates a resource that introduced legal changes in this resource. For modifications that don’t have a legal impact, use eli:corrected_by.</rdfs:comment>
+  <rdfs:label xml:lang="en">amended by</rdfs:label>
+  <owl:versionInfo xml:lang="en">created in v1.1</owl:versionInfo>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#changed_by">
+  <rdfs:domain>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#LegalExpression"/>
+        <rdf:Description rdf:about="#LegalResource"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#LegalExpression"/>
+        <rdf:Description rdf:about="#LegalResource"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:range>
+  <owl:inverseOf rdf:resource="#changes"/>
+  <specificPropertyOf rdf:resource="http://purl.org/dc/terms/relation"/>
+  <rdfs:comment xml:lang="en">Inverse of « changes ». Indicates that this legal resource or expression is being legally changed by another. This encompasses the notions of amendment, replacement, repeal, or other types of change.</rdfs:comment>
+  <rdfs:label xml:lang="en">changed by</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+  <owl:versionInfo xml:lang="en">modified in v1.1</owl:versionInfo>
+  <core:historyNote xml:lang="en">v1.1 : improved definition</core:historyNote>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#amends">
+  <rdfs:domain>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#LegalExpression"/>
+        <rdf:Description rdf:about="#LegalResource"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#LegalExpression"/>
+        <rdf:Description rdf:about="#LegalResource"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:range>
+  <rdfs:subPropertyOf rdf:resource="#changes"/>
+  <rdfs:comment xml:lang="en">Indicates that this resource introduces legal changes in another resource. For modifications that don’t have a legal impact, use eli:corrects.</rdfs:comment>
+  <rdfs:label xml:lang="en">amends</rdfs:label>
+  <owl:versionInfo xml:lang="en">created in v1.1</owl:versionInfo>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#changes">
+  <rdfs:domain>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#LegalExpression"/>
+        <rdf:Description rdf:about="#LegalResource"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#LegalExpression"/>
+        <rdf:Description rdf:about="#LegalResource"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:range>
+  <specificPropertyOf rdf:resource="http://purl.org/dc/terms/relation"/>
+  <rdfs:comment xml:lang="en">Indicates that this legal resource or expression legally changes another. This encompasses the notions of amendment, replacement, repeal, or other types of change. This may be a direct change (textual or non-textual amendment) or a consequential or indirect change. Note, the property is to be used to express the existence of a change relationship between two acts rather than the existence of a consolidated version of the text that shows the result of the change. For consolidation relationships, use the "consolidates" and "consolidated_by" properties.</rdfs:comment>
+  <rdfs:label xml:lang="en">changes</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+  <owl:versionInfo xml:lang="en">modified in v1.1</owl:versionInfo>
+  <core:historyNote xml:lang="en">v1.1 : improved definition.</core:historyNote>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#applied_by">
+  <rdfs:domain rdf:resource="#LegalResource"/>
+  <rdfs:range>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#LegalExpression"/>
+        <rdf:Description rdf:about="#LegalResource"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:range>
+  <owl:inverseOf rdf:resource="#applies"/>
+  <owl:equivalentProperty rdf:resource="#implemented_by"/>
+  <rdfs:seeAlso rdf:resource="#transposed_by"/>
+  <specificPropertyOf rdf:resource="http://purl.org/dc/terms/relation"/>
+  <rdfs:comment xml:lang="en">Inverse of "applies".
+
+Note that this property is expressed on a legal resource, not on one of its language-specific legal expression.</rdfs:comment>
+  <rdfs:label xml:lang="en">applied by</rdfs:label>
+  <owl:versionInfo xml:lang="en">created in v1.1</owl:versionInfo>
+  <core:historyNote xml:lang="en">v1.1 : this property was deprecated in favor of the more generic term "applied_by" to avoid confusion</core:historyNote>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#implemented_by">
+  <specificPropertyOf rdf:resource="http://purl.org/dc/terms/relation"/>
+  <rdfs:comment xml:lang="en">This property is deprecated. Use "applied_by" instead.</rdfs:comment>
+  <rdfs:label xml:lang="en">implemented by</rdfs:label>
+  <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+  <owl:versionInfo xml:lang="en">modified in v1.1</owl:versionInfo>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#applies">
+  <rdfs:domain>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#LegalExpression"/>
+        <rdf:Description rdf:about="#LegalResource"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range rdf:resource="#LegalResource"/>
+  <owl:equivalentProperty rdf:resource="#implements"/>
+  <rdfs:seeAlso rdf:resource="#transposes"/>
+  <specificPropertyOf rdf:resource="http://purl.org/dc/terms/relation"/>
+  <rdfs:comment xml:lang="en">Indicates that this legislation (or part of a legislation) somehow conforms with another legislation. This is an informative link, and it has no legal value. For legally-binding links of transposition, use the property transposes. This can be used for example : 
+  - when a pre-existing law already conforms to a recent european directive (in that case it does not "transposes" it strictly speaking);
+  - when non-EU member states make sure their legislation is conformant with EU law without strictly speaking transposing it;
+  - when a legislation from a local authority conforms with a national legislation;
+
+Note that this should point to a LegalResource, not to a language-specific expression.</rdfs:comment>
+  <rdfs:label xml:lang="en">applies</rdfs:label>
+  <owl:versionInfo xml:lang="en">created in v1.1</owl:versionInfo>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#transposed_by">
+  <rdfs:domain rdf:resource="#LegalResource"/>
+  <rdfs:range>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#LegalExpression"/>
+        <rdf:Description rdf:about="#LegalResource"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:range>
+  <rdfs:subPropertyOf rdf:resource="#applied_by"/>
+  <owl:inverseOf rdf:resource="#transposes"/>
+  <rdfs:seeAlso rdf:resource="#implemented_by"/>
+  <rdfs:comment xml:lang="en">Inverse of "transposes".
+
+Note that this property is expressed on a legal resource, not on one of its language-specific legal expression.</rdfs:comment>
+  <rdfs:label xml:lang="en">transposed by</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+  <core:historyNote xml:lang="en">v1.1 : this property was made a subproperty of "applied_by"</core:historyNote>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#implements">
+  <specificPropertyOf rdf:resource="http://purl.org/dc/terms/relation"/>
+  <rdfs:comment xml:lang="en">This property is deprecated. Use "applies" instead.</rdfs:comment>
+  <rdfs:label xml:lang="en">implements</rdfs:label>
+  <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+  <owl:versionInfo xml:lang="en">modified in v1.1</owl:versionInfo>
+  <core:historyNote xml:lang="en">v1.1 : this property was deprecated in favor of the more generic term "applies" to avoid confusion.</core:historyNote>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#transposes">
+  <rdfs:domain>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#LegalExpression"/>
+        <rdf:Description rdf:about="#LegalResource"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range rdf:resource="#LegalResource"/>
+  <rdfs:subPropertyOf rdf:resource="#applies"/>
+  <rdfs:seeAlso rdf:resource="#implements"/>
+  <rdfs:comment xml:lang="en">Indicates that this legislation (or part of legislation) fulfills the objectives set by another legislation, by passing appropriate implementation measures. Typically, some legislations of European Union's member states or regions transpose European Directives. This indicates a legally binding link between the 2 legislations, at act or article level, from the original version of a national implementing measure to the legal resource Directive as published in the EU Official Journal. Can be used for transposition tables, once EU Publication Office has introduced ELI support down to the article level.
+
+Note that this should point to the legal resource of the Directive itself, not to one of its language-specific legal expression.</rdfs:comment>
+  <rdfs:label xml:lang="en">transposes</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+  <core:historyNote xml:lang="en">v1.1 : this property was made a subproperty of "applies", and the definition was improved.</core:historyNote>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#based_on">
+  <rdfs:domain rdf:resource="#LegalResource"/>
+  <rdfs:range>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#LegalExpression"/>
+        <rdf:Description rdf:about="#LegalResource"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:range>
+  <owl:inverseOf rdf:resource="#basis_for"/>
+  <specificPropertyOf rdf:resource="http://purl.org/dc/terms/relation"/>
+  <rdfs:comment xml:lang="en">Inverse of "basis_for". Indicates that this legal resource is empowered by another one, typically a constitution, a treaty or an enabling act.</rdfs:comment>
+  <rdfs:label xml:lang="en">based on</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+  <owl:versionInfo xml:lang="en">modified in v1.1</owl:versionInfo>
+  <core:historyNote xml:lang="en">v1.1 : improved definition</core:historyNote>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#basis_for">
+  <rdfs:domain>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#LegalExpression"/>
+        <rdf:Description rdf:about="#LegalResource"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range rdf:resource="#LegalResource"/>
+  <specificPropertyOf rdf:resource="http://purl.org/dc/terms/relation"/>
+  <rdfs:comment xml:lang="en">Indicates that this legal resource or expression empowers another . Typically primary legislation is the basis for secondary legislation.</rdfs:comment>
+  <rdfs:label xml:lang="en">basis for</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+  <owl:versionInfo xml:lang="en">modified in v1.1</owl:versionInfo>
+  <core:historyNote xml:lang="en">v1.1 : improved definition</core:historyNote>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#cited_by">
+  <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <rdfs:range>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#LegalExpression"/>
+        <rdf:Description rdf:about="#LegalResource"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:range>
+  <owl:inverseOf rdf:resource="#cites"/>
+  <specificPropertyOf rdf:resource="http://purl.org/dc/terms/relation"/>
+  <rdfs:comment xml:lang="en">Inverse of "cites".
+Note that the intended meaning of this link is to indicate that "something is cited by a legislation" and not that "this legislation is cited by something".</rdfs:comment>
+  <rdfs:label xml:lang="en">cited by</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+  <owl:versionInfo>modified in v1.2</owl:versionInfo>
+  <core:historyNote xml:lang="en">v1.2 : improved definition</core:historyNote>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#cites">
+  <rdfs:domain>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#LegalExpression"/>
+        <rdf:Description rdf:about="#LegalResource"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <specificPropertyOf rdf:resource="http://purl.org/dc/terms/relation"/>
+  <rdfs:comment xml:lang="en">Citation in the text of the legislation. This may be at the legal resource or legal expression level, as required by the implementation context. This includes verbatim citation and citations in referrals.</rdfs:comment>
+  <rdfs:label xml:lang="en">cites</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#cited_by_case_law">
+  <rdfs:domain>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#LegalExpression"/>
+        <rdf:Description rdf:about="#LegalResource"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <rdfs:seeAlso rdf:resource="#cited_by_case_law_reference"/>
+  <specificPropertyOf rdf:resource="http://purl.org/dc/terms/relation"/>
+  <rdfs:comment xml:lang="en">Indicates that this LegalResource or LegalExpression is being cited in a case law, identified by a suitable URI. If the case law cannot be identified by a suitable URI, the property "eli:cited_by_case_law_reference" can be used with a textual reference to the case law.
+
+The actual citation link is expressed from the case law to the legislation, but legal portals may use the link from a legislation to a case law to e.g. refer to representative case laws about a legislation.</rdfs:comment>
+  <rdfs:label xml:lang="en">cited by case law</rdfs:label>
+  <owl:versionInfo xml:lang="en">created in v1.2</owl:versionInfo>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#commenced_by">
+  <rdfs:domain>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#LegalExpression"/>
+        <rdf:Description rdf:about="#LegalResource"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#LegalExpression"/>
+        <rdf:Description rdf:about="#LegalResource"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:range>
+  <rdfs:subPropertyOf rdf:resource="#changed_by"/>
+  <owl:inverseOf rdf:resource="#commences"/>
+  <rdfs:comment xml:lang="en">Inverse of "commences". Indicates that this legal resource was set in force by another legal resource.
+Situations where a resource enters into force because of more than one resource are explicitely allowed.</rdfs:comment>
+  <rdfs:label xml:lang="en">commenced by</rdfs:label>
+  <owl:versionInfo xml:lang="en">created in v1.1</owl:versionInfo>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#commences">
+  <rdfs:domain>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#LegalExpression"/>
+        <rdf:Description rdf:about="#LegalResource"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#LegalExpression"/>
+        <rdf:Description rdf:about="#LegalResource"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:range>
+  <rdfs:subPropertyOf rdf:resource="#changes"/>
+  <rdfs:comment xml:lang="en">Indicates that this legal resource sets another legal resource into force.
+Note the the date of entry into force of the other resource should be modified accordingly.
+Note also that it is not possible to indicate when the entry into force should happen.</rdfs:comment>
+  <rdfs:label xml:lang="en">commences</rdfs:label>
+  <owl:versionInfo xml:lang="en">created in v1.1</owl:versionInfo>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#consolidated_by">
+  <rdfs:domain>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#LegalExpression"/>
+        <rdf:Description rdf:about="#LegalResource"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#LegalExpression"/>
+        <rdf:Description rdf:about="#LegalResource"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:range>
+  <owl:inverseOf rdf:resource="#consolidates"/>
+  <specificPropertyOf rdf:resource="http://purl.org/dc/terms/relation"/>
+  <rdfs:comment xml:lang="en">Inverse of "consolidates". Indicates that this legal resource or expression is taken into account in a consolidated text (which is usually the product of an editorial process that revises the legislation).</rdfs:comment>
+  <rdfs:label xml:lang="en">consolidated by</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+  <owl:versionInfo xml:lang="en">modified in v1.1</owl:versionInfo>
+  <core:historyNote xml:lang="en">v1.1 : improved definition</core:historyNote>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#consolidates">
+  <rdfs:domain>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#LegalExpression"/>
+        <rdf:Description rdf:about="#LegalResource"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#LegalExpression"/>
+        <rdf:Description rdf:about="#LegalResource"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:range>
+  <specificPropertyOf rdf:resource="http://purl.org/dc/terms/relation"/>
+  <rdfs:comment xml:lang="en">Indicates that this consolidated legal resource or expression (which is usually the product of an editorial process that revises the legislation) takes into account another one. This property should be used multiple times to refer to both the original version or the previous consolidated version, and to the legislations making the change.</rdfs:comment>
+  <rdfs:label xml:lang="en">consolidates</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+  <owl:versionInfo xml:lang="en">modified in v1.1</owl:versionInfo>
+  <core:historyNote xml:lang="en">v1.1 : improved definition</core:historyNote>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#corrected_by">
+  <rdfs:domain>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#Format"/>
+        <rdf:Description rdf:about="#LegalExpression"/>
+        <rdf:Description rdf:about="#LegalResource"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#LegalExpression"/>
+        <rdf:Description rdf:about="#LegalResource"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:range>
+  <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+  <owl:inverseOf rdf:resource="#corrects"/>
+  <rdfs:comment xml:lang="en">Inverse of "corrects". Indicates a resource that introduces textual modifications (like correction of spelling mistakes) with no legal change in this resource, expression or format; typically corrigenda in EU legislation. For modifications that have a legal impact, use eli:amended_by.</rdfs:comment>
+  <rdfs:label xml:lang="en">corrected by</rdfs:label>
+  <owl:versionInfo xml:lang="en">created in v1.1</owl:versionInfo>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#corrects">
+  <rdfs:domain>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#LegalExpression"/>
+        <rdf:Description rdf:about="#LegalResource"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#Format"/>
+        <rdf:Description rdf:about="#LegalExpression"/>
+        <rdf:Description rdf:about="#LegalResource"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:range>
+  <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+  <rdfs:comment xml:lang="en">Indicates that this resource introduces textual modifications (like correction of spelling mistakes) with no legal change in another resource, expression or format; typically corrigenda in EU legislation. For modifications that have a legal impact, use eli:amends.</rdfs:comment>
+  <rdfs:label xml:lang="en">corrects</rdfs:label>
+  <owl:versionInfo xml:lang="en">created in v1.1</owl:versionInfo>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#embodies">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#Format"/>
+  <rdfs:range rdf:resource="#LegalExpression"/>
+  <rdfs:subPropertyOf rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/R4i_comprises_carriers_of"/>
+  <owl:inverseOf rdf:resource="#is_embodied_by"/>
+  <rdfs:comment xml:lang="en">Relates a physical format to the legal expression embodied in that format. Inverse of "is_embodied_by".</rdfs:comment>
+  <rdfs:label xml:lang="en">embodies</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+  <owl:versionInfo>modified in 1.2</owl:versionInfo>
+  <core:historyNote xml:lang="en">In v1.1, this was declared functional (the constraint was missing in 1.0)</core:historyNote>
+  <core:historyNote xml:lang="en">v1.2 : replaced reference of RDA with FRBRoo.</core:historyNote>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://iflastandards.info/ns/fr/frbr/frbroo/R4i_comprises_carriers_of"/>
+
+<owl:ObjectProperty rdf:about="#is_embodied_by">
+  <rdfs:domain rdf:resource="#LegalExpression"/>
+  <rdfs:range rdf:resource="#Format"/>
+  <rdfs:subPropertyOf rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/R4_carriers_provided_by"/>
+  <rdfs:comment xml:lang="en">Relates a legal expression to a physical format of that expression. Inverse of "embodies".</rdfs:comment>
+  <rdfs:label xml:lang="en">is embodied by</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+  <owl:versionInfo>modified in v1.2</owl:versionInfo>
+  <core:historyNote xml:lang="en">v1.2 : replaced reference of RDA with FRBRoo.</core:historyNote>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#format">
+  <rdfs:domain rdf:resource="#Format"/>
+  <rdfs:range rdf:resource="#FormatType"/>
+  <rdfs:seeAlso rdf:resource="#media_type"/>
+  <specificPropertyOf rdf:resource="http://purl.org/dc/terms/format"/>
+  <rdfs:comment xml:lang="en">The format of the resource, expressed as a custom URI.
+This field is intended to capture the format of the resource from an application or user perspective, as opposed to the "media_type" property that expresses its format from a technical point of view. This property allows to describe different XML schemas (Akoma N'toso vs. proprietary), describe different types of PDFs (scanned PDF, generated-on-the-fly PDF, signed PDF, archival PDF) or describe the paper (printed) version of the legislation.
+ELI includes a set of possible values for the most common use-cases and possible URIs values CAN also be taken from http://www.iana.org/assignments/media-types , or can de defined by the Member States.</rdfs:comment>
+  <rdfs:label xml:lang="en">format</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+  <owl:versionInfo>modified in v1.2</owl:versionInfo>
+  <core:historyNote xml:lang="en">v1.2 : this field should now not be used as basis of content negociation. Modified the description to introduce eli:media_type and declared a local ConceptScheme FormatType with values.</core:historyNote>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#media_type">
+  <rdfs:domain rdf:resource="#Format"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <rdfs:seeAlso rdf:resource="#format"/>
+  <specificPropertyOf rdf:resource="http://purl.org/dc/terms/format"/>
+  <rdfs:comment xml:lang="en">The file format of the resource.
+This field is intended to capture the technical file format and will serve as a basis for content negotiation for the server to return the appropriate file based on the client preference.
+Although not mandatory, this property is highly encouraged.
+Possible URIs values MUST be taken from http://www.iana.org/assignments/media-types (e.g. http://www.iana.org/assignments/media-types/application/xml).
+See also the "format" property.</rdfs:comment>
+  <rdfs:label xml:lang="en">media type</rdfs:label>
+  <owl:versionInfo>created in v1.2</owl:versionInfo>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#has_another_publication">
+  <rdfs:domain rdf:resource="#LegalResource"/>
+  <rdfs:range rdf:resource="#LegalResource"/>
+  <owl:inverseOf rdf:resource="#is_another_publication_of"/>
+  <specificPropertyOf rdf:resource="http://purl.org/dc/terms/relation"/>
+  <rdfs:comment xml:lang="en">Inverse of "is_another_publication_of".</rdfs:comment>
+  <rdfs:label xml:lang="en">has another publication</rdfs:label>
+  <owl:versionInfo xml:lang="en">created in v1.1</owl:versionInfo>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#is_another_publication_of">
+  <rdfs:domain rdf:resource="#LegalResource"/>
+  <rdfs:range rdf:resource="#LegalResource"/>
+  <specificPropertyOf rdf:resource="http://purl.org/dc/terms/relation"/>
+  <rdfs:comment xml:lang="en">Indicates that this resource is a new publication, in a different official journal, of another resource already published elsewhere, and cannot be considered to be the same resource (owl:sameAs cannot be used to avoid potential duplication of certain metadata, like the date of publication, or the publisher).
+
+Note that this is different from the exceptionnal cases of "republication", where the same resource is actually republished in the same official journal a few days after its initial publication, in case of errors.</rdfs:comment>
+  <rdfs:label xml:lang="en">is another publication of</rdfs:label>
+  <owl:versionInfo xml:lang="en">created in v1.1</owl:versionInfo>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#has_member">
+  <rdfs:domain rdf:resource="#LegalResource"/>
+  <rdfs:range rdf:resource="#LegalResource"/>
+  <rdfs:subPropertyOf rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/R10_has_member"/>
+  <owl:inverseOf rdf:resource="#is_member_of"/>
+  <specificPropertyOf rdf:resource="http://purl.org/dc/terms/hasPart"/>
+  <rdfs:comment xml:lang="en">Indicates that this resource conceptually includes another one. For the notion of physical inclusion, use eli:has_part.</rdfs:comment>
+  <rdfs:label xml:lang="en">has member</rdfs:label>
+  <rdfs:seeAlso>modified in v1.2</rdfs:seeAlso>
+  <owl:versionInfo>created in v1.1</owl:versionInfo>
+  <core:historyNote xml:lang="en">v1.2 : replaced reference of RDA with FRBRoo.</core:historyNote>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://iflastandards.info/ns/fr/frbr/frbroo/R10_has_member"/>
+
+<owl:ObjectProperty rdf:about="#is_member_of">
+  <rdfs:domain rdf:resource="#LegalResource"/>
+  <rdfs:range rdf:resource="#LegalResource"/>
+  <rdfs:subPropertyOf rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/R10i_is_member_of"/>
+  <specificPropertyOf rdf:resource="http://purl.org/dc/terms/isPartOf"/>
+  <rdfs:comment xml:lang="en">Indicates that this resource is conceptually included in another one. Typically the successive temporal versions of a given legislation are conceptually members of a single « abstract » resource. For the notion of physical inclusion, use eli:is_part_of.</rdfs:comment>
+  <rdfs:label xml:lang="en">is member of</rdfs:label>
+  <owl:versionInfo xml:lang="en">created in v1.1</owl:versionInfo>
+  <owl:versionInfo>modified in v1.2</owl:versionInfo>
+  <core:historyNote xml:lang="en">v1.2 : replaced reference of RDA with FRBRoo.</core:historyNote>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#has_part">
+  <rdfs:domain rdf:resource="#LegalResource"/>
+  <rdfs:range rdf:resource="#LegalResource"/>
+  <owl:inverseOf rdf:resource="#is_part_of"/>
+  <specificPropertyOf rdf:resource="http://purl.org/dc/terms/hasPart"/>
+  <rdfs:comment xml:lang="en">inverse of "is_part_of"</rdfs:comment>
+  <rdfs:label xml:lang="en">has part</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#is_part_of">
+  <rdfs:domain rdf:resource="#LegalResource"/>
+  <rdfs:range rdf:resource="#LegalResource"/>
+  <specificPropertyOf rdf:resource="http://purl.org/dc/terms/isPartOf"/>
+  <rdfs:comment xml:lang="en">A related resource in which the described resource is physically included. Covers the case of text included in an Official Journal, or an article included in a text. For the notion of conceptual/temporal inclusion, use eli:is_member_of.</rdfs:comment>
+  <rdfs:label xml:lang="en">is part of</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+  <owl:versionInfo>modified in v1.1</owl:versionInfo>
+  <core:historyNote xml:lang="en">Starting with v1.1, the notion of conceptual inclusion is expressed with eli:is_member_of instead of eli:is_part_of.</core:historyNote>
+  <originalName xml:lang="en">composed</originalName>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#has_translation">
+  <rdfs:domain rdf:resource="#LegalExpression"/>
+  <rdfs:range rdf:resource="#LegalExpression"/>
+  <owl:inverseOf rdf:resource="#is_translation_of"/>
+  <rdfs:comment xml:lang="en">Inverse of "is_translation_of". Indicates that this expression has been translated into another derived expression. See the definition of "is_translation_of".</rdfs:comment>
+  <rdfs:label xml:lang="en">has translation</rdfs:label>
+  <owl:versionInfo xml:lang="en">created in v1.2</owl:versionInfo>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#is_translation_of">
+  <rdfs:domain rdf:resource="#LegalExpression"/>
+  <rdfs:range rdf:resource="#LegalExpression"/>
+  <rdfs:comment xml:lang="en">Indicates that this expression has been translated from another original expression; this can be used to distinguish original from derived expressions.
+
+Note that asserting this link does not have any implication on the legal value of the original and translated expressions : depending on the context, a translation can be as legally binding as the original version, or can be published for informative purposes only (e.g. a country translating some legal acts in English).
+
+The expressions linked with this property can be realisations of the same LegalResource, or different LegalResources. Multilingual legislations that do not need to distinguish between original and derived expressions of the same LegalResource (e.g. european legislation) will not use this property.</rdfs:comment>
+  <rdfs:label xml:lang="en">is translation of</rdfs:label>
+  <owl:versionInfo xml:lang="en">created in v1.2</owl:versionInfo>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#in_force">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#LegalExpression"/>
+        <rdf:Description rdf:about="#LegalResource"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range rdf:resource="#InForce"/>
+  <rdfs:seeAlso rdf:resource="#InForce-inForce"/>
+  <rdfs:seeAlso rdf:resource="#InForce-notInForce"/>
+  <rdfs:seeAlso rdf:resource="#InForce-partiallyInForce"/>
+  <rdfs:seeAlso rdf:resource="#InForceTable"/>
+  <rdfs:comment xml:lang="en">A value indicating the legal force of a legal resource or a legal expression. A set of values is defined by ELI in the corresponding concept scheme. These values are :
+  - in force
+  - partially in force
+  - not in force</rdfs:comment>
+  <rdfs:label xml:lang="en">in force</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+  <originalName xml:lang="en">status</originalName>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#is_about">
+  <rdfs:domain rdf:resource="#LegalResource"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <specificPropertyOf rdf:resource="http://purl.org/dc/terms/subject"/>
+  <rdfs:comment xml:lang="en">A subject for this legal resource. The use of Eurovoc (http://eurovoc.europa.eu) is encouraged to select values for this property. Member states are encouraged to align local values to Eurovoc.</rdfs:comment>
+  <rdfs:label xml:lang="en">is about</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://iflastandards.info/ns/fr/frbr/frbroo/R4_carriers_provided_by"/>
+
+<owl:ObjectProperty rdf:about="#is_exemplified_by">
+  <rdfs:domain rdf:resource="#Format"/>
+  <rdfs:subPropertyOf rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/R7i_has_example"/>
+  <rdfs:comment xml:lang="en">Link to a concrete file URL.
+Relates a format to a single exemplar or instance of that format. </rdfs:comment>
+  <rdfs:label xml:lang="en">is exemplified by</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+  <owl:versionInfo>modified in v1.2</owl:versionInfo>
+  <core:historyNote xml:lang="en">v1.2 : replaced reference of RDA with FRBRoo.</core:historyNote>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://iflastandards.info/ns/fr/frbr/frbroo/R7i_has_example"/>
+
+<owl:ObjectProperty rdf:about="http://iflastandards.info/ns/fr/frbr/frbroo/R10i_is_member_of"/>
+
+<owl:ObjectProperty rdf:about="#is_realized_by">
+  <rdfs:domain rdf:resource="#LegalResource"/>
+  <rdfs:range rdf:resource="#LegalExpression"/>
+  <rdfs:subPropertyOf rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/R3_is_realised_in"/>
+  <owl:inverseOf rdf:resource="#realizes"/>
+  <rdfs:comment xml:lang="en">Relates a legal resource to a legal expression of this resource in the form of a "sequence of signs" (typically alpha-numeric characters in a legal context). Inverse of "realizes".</rdfs:comment>
+  <rdfs:label xml:lang="en">is realized by</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+  <owl:versionInfo>modified in v1.2</owl:versionInfo>
+  <core:historyNote xml:lang="en">v1.2 : replaced reference of RDA with FRBRoo.</core:historyNote>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://iflastandards.info/ns/fr/frbr/frbroo/R3_is_realised_in"/>
+
+<owl:ObjectProperty rdf:about="#realizes">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#LegalExpression"/>
+  <rdfs:range rdf:resource="#LegalResource"/>
+  <rdfs:subPropertyOf rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/R3i_realises"/>
+  <rdfs:comment xml:lang="en">Relates a legal expression to the legal resource realised through that expression. Inverse of "is_realized_by".</rdfs:comment>
+  <rdfs:label xml:lang="en">realizes</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+  <owl:versionInfo>modified in v1.2</owl:versionInfo>
+  <core:historyNote xml:lang="en">v1.2 : replaced reference of RDA with FRBRoo.</core:historyNote>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#jurisdiction">
+  <rdfs:domain>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#LegalExpression"/>
+        <rdf:Description rdf:about="#LegalResource"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range rdf:resource="#AdministrativeArea"/>
+  <rdfs:subPropertyOf rdf:resource="#relevant_for"/>
+  <rdfs:comment xml:lang="en">The jurisdiction from which the legal resource originates. 
+
+The place identifier can be taken from the Administrative Territorial Unit table published by the EU Publications Office at http://publications.europa.eu/mdr/authority/atu. Member States don't have to recreate their own list of values.</rdfs:comment>
+  <rdfs:label xml:lang="en">jurisdiction</rdfs:label>
+  <owl:versionInfo xml:lang="en">created in v1.1</owl:versionInfo>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#relevant_for">
+  <rdfs:domain>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#LegalExpression"/>
+        <rdf:Description rdf:about="#LegalResource"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range rdf:resource="#AdministrativeArea"/>
+  <specificPropertyOf rdf:resource="http://purl.org/dc/terms/coverage"/>
+  <rdfs:comment xml:lang="en">Refers to a place or an area associated with the resource. This covers the notions of jurisdiction, sovereignty, applicability or administrative area. The place identifier can be taken from the Administrative Territorial Unit table published of the EU Publications Office at http://publications.europa.eu/mdr/authority/atu. Member States don't have to recreate their own list of values.
+
+The group notes the limitations of what can be said with a single property; member states can refine this notion by declaring specific sub properties.</rdfs:comment>
+  <rdfs:label xml:lang="en">relevant for</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+  <owl:versionInfo xml:lang="en">modified in v1.1</owl:versionInfo>
+  <core:historyNote xml:lang="en">Starting from v1.1, the values for this property can be taken from the named authority list published by the Office of Publications instead of defining new values.</core:historyNote>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#language">
+  <rdfs:domain rdf:resource="#LegalExpression"/>
+  <rdfs:range rdf:resource="#Language"/>
+  <rdfs:seeAlso rdf:resource="http://publications.europa.eu/resource/authority/language"/>
+  <specificPropertyOf rdf:resource="http://purl.org/dc/terms/language"/>
+  <rdfs:comment xml:lang="en">The language of an expression.
+
+EU Publications Office provides a list of languages at http://publications.europa.eu/mdr/authority/language. This list is large enough so that member states should not have to declare local values.
+
+Note that, if needed, a language can also be stated on a legal resource using the DublinCore "language" property.</rdfs:comment>
+  <rdfs:label xml:lang="en">language</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#legal_value">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#Format"/>
+  <rdfs:range rdf:resource="#LegalValue"/>
+  <rdfs:seeAlso rdf:resource="#LegalValue-authoritative"/>
+  <rdfs:seeAlso rdf:resource="#LegalValue-definitive"/>
+  <rdfs:seeAlso rdf:resource="#LegalValue-official"/>
+  <rdfs:seeAlso rdf:resource="#LegalValue-unofficial"/>
+  <rdfs:seeAlso rdf:resource="#LegalValueTable"/>
+  <rdfs:comment xml:lang="en">The legal value associated with a specific format of a resource. A set of values is defined by ELI in the corresponding concept scheme. These values are :
+  - unofficial : no particular or special standing;
+  - official : published by an organisation with the public task of making the information available (e.g. a consolidated version of a EU directive) ;
+  - authoritative : the publisher gives some special status to the publication (e.g. "the Queens Printer" version of an Act of Parliament, or the OJ version of a EU Directive);
+  - definitive : the text is conclusively what the law says, (e.g. the digitally signed version of an OJ).</rdfs:comment>
+  <rdfs:label xml:lang="en">legal value</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#licence">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#Format"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <specificPropertyOf rdf:resource="http://purl.org/dc/terms/license"/>
+  <rdfs:comment xml:lang="en">A legal document giving official permission to do something with the resource (Definition from Dublin Core)</rdfs:comment>
+  <rdfs:label xml:lang="en">licence</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#passed_by">
+  <rdfs:domain rdf:resource="#LegalResource"/>
+  <rdfs:range rdf:resource="#Agent"/>
+  <specificPropertyOf rdf:resource="http://purl.org/dc/terms/creator"/>
+  <rdfs:comment xml:lang="en">The person or organization that originally passed or made the law : typically parliament (for primary legislation) or government (for secondary legislation). This indicates the "legal author" of the law, as opposed to its physical author. 
+
+This property can be used multiple times to indicate both the agent that authored the text, and/or the agent that signed the text, thus turning it into an actual legislation.
+
+The relationship between current and any former law making body should be represented in the description of the agent itself.
+
+Member states are encouraged to make their own list of Agents. EU Publications Office provides a list of corporate bodies at http://publications.europa.eu/mdr/authority/corporate-body.</rdfs:comment>
+  <rdfs:label xml:lang="en">passed by</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+  <owl:versionInfo xml:lang="en">modified in v1.1</owl:versionInfo>
+  <core:historyNote xml:lang="en">In v1.1, the semantic of this property was broaden to encompass organisations/persons that « drafted the text » and « signed it ».</core:historyNote>
+  <originalName xml:lang="en">agent_document</originalName>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#published_in_format">
+  <rdfs:domain rdf:resource="#Format"/>
+  <rdfs:range rdf:resource="#Format"/>
+  <owl:inverseOf rdf:resource="#publishes"/>
+  <rdfs:seeAlso rdf:resource="#published_in"/>
+  <rdfs:comment xml:lang="en">Reference to the Official Journal or other publication manifestation in which this format is published.
+This property should be used when the value can be identified by a suitable URI; in the absence of such a URI, the property "published_in" should be used with a string value.</rdfs:comment>
+  <rdfs:label xml:lang="en">published in format</rdfs:label>
+  <owl:versionInfo xml:lang="en">created in v1.1</owl:versionInfo>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#publishes">
+  <rdfs:domain rdf:resource="#Format"/>
+  <rdfs:range rdf:resource="#Format"/>
+  <rdfs:comment xml:lang="en">Inverse of "published_in_format". Note this property does not link a publisher with a resource, but rather a specific Format of a resource with a specific Format of another resource, indicating that the subject Format publishes the object Format.</rdfs:comment>
+  <rdfs:label xml:lang="en">publishes</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+  <owl:versionInfo xml:lang="en">modified in v1.1</owl:versionInfo>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#publisher_agent">
+  <rdfs:domain>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#Format"/>
+        <rdf:Description rdf:about="#LegalExpression"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range rdf:resource="#Agent"/>
+  <rdfs:seeAlso rdf:resource="#publisher"/>
+  <specificPropertyOf rdf:resource="http://purl.org/dc/terms/publisher"/>
+  <rdfs:comment xml:lang="en">An entity responsible for making the resource available (definition from Dublin Core).
+This property should be used when the value can be identified by a suitable URI; in the absence of such a URI, the property "publisher" should be used with a string value.</rdfs:comment>
+  <rdfs:label xml:lang="en">publisher agent</rdfs:label>
+  <owl:versionInfo xml:lang="en">created in v1.1</owl:versionInfo>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://iflastandards.info/ns/fr/frbr/frbroo/R3i_realises"/>
+
+<owl:ObjectProperty rdf:about="#related_to">
+  <rdfs:domain>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#LegalExpression"/>
+        <rdf:Description rdf:about="#LegalResource"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <specificPropertyOf rdf:resource="http://purl.org/dc/terms/relation"/>
+  <rdfs:comment xml:lang="en">Indicates a somehow related other document, not necessarily a legal resource. Note that citation links should use the cites property.</rdfs:comment>
+  <rdfs:label xml:lang="en">related to</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#repealed_by">
+  <rdfs:domain>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#LegalExpression"/>
+        <rdf:Description rdf:about="#LegalResource"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#LegalExpression"/>
+        <rdf:Description rdf:about="#LegalResource"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:range>
+  <rdfs:subPropertyOf rdf:resource="#changed_by"/>
+  <owl:inverseOf rdf:resource="#repeals"/>
+  <rdfs:comment xml:lang="en">Inverse of "repeals". Indicates that this legal resource or legal expression is being completely canceled, abrogated or replaced by another legal resource. If a resource is partially repealed by another, this link can be used at the corresponding subdivision level being completely repealed.</rdfs:comment>
+  <rdfs:label xml:lang="en">repealed by</rdfs:label>
+  <owl:versionInfo xml:lang="en">created in v1.1</owl:versionInfo>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#repeals">
+  <rdfs:domain>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#LegalExpression"/>
+        <rdf:Description rdf:about="#LegalResource"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#LegalExpression"/>
+        <rdf:Description rdf:about="#LegalResource"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:range>
+  <rdfs:subPropertyOf rdf:resource="#changes"/>
+  <rdfs:comment xml:lang="en">Indicates that this legal resource or legal expression completely cancels, abrogates or replaces another. If a resource partially repeals another, this link can be used at the corresponding subdivision level being completely repealed.</rdfs:comment>
+  <rdfs:label xml:lang="en">repeals</rdfs:label>
+  <owl:versionInfo xml:lang="en">created in v1.1</owl:versionInfo>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#responsibility_of_agent">
+  <rdfs:domain rdf:resource="#LegalResource"/>
+  <rdfs:range rdf:resource="#Agent"/>
+  <rdfs:seeAlso rdf:resource="#responsibility_of"/>
+  <rdfs:comment xml:lang="en">An individual, organisation or organisational unit that has some kind of responsibility for the legislation. Typically the ministry who is/was in charge of elaborating the legislation, or the adressee for potential questions about the legislation once it is published.
+This property should be used when the value can be identified by a suitable URI; in the absence of such a URI, the property "responsibility_of" should be used with a string value.</rdfs:comment>
+  <rdfs:label xml:lang="en">responsibility of agent</rdfs:label>
+  <owl:versionInfo xml:lang="en">created in v1.1</owl:versionInfo>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#rightsholder_agent">
+  <rdfs:domain rdf:resource="#Format"/>
+  <rdfs:range rdf:resource="#Agent"/>
+  <rdfs:seeAlso rdf:resource="#rightsholder"/>
+  <specificPropertyOf rdf:resource="http://purl.org/dc/terms/rightsholder"/>
+  <rdfs:comment xml:lang="en">A person or organisation owning or managing rights over the resource (definition from Dublin Core).
+This property should be used when the value can be identified by a suitable URI; in the absence of such a URI, the property "rightsholder" should be used with a string value.</rdfs:comment>
+  <rdfs:label xml:lang="en">rightsholder agent</rdfs:label>
+  <owl:versionInfo xml:lang="en">created in v1.1</owl:versionInfo>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#type_document">
+  <rdfs:domain rdf:resource="#LegalResource"/>
+  <rdfs:range rdf:resource="#ResourceType"/>
+  <rdfs:seeAlso rdf:resource="#ResourceTypeTable"/>
+  <specificPropertyOf rdf:resource="http://purl.org/dc/terms/type"/>
+  <rdfs:comment xml:lang="en">The type of a legal resource (e.g. "Directive", "Règlement grand ducal", "law", "règlement ministériel", "draft proposition", "Parliamentary act", etc.). 
+Member states are encouraged to make their own list of values in the corresponding concept scheme. EU Publications Office provides a list of values for EU resource types at http://publications.europa.eu/mdr/authority/resource-type</rdfs:comment>
+  <rdfs:label xml:lang="en">type document</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#uri_schema">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#Format"/>
+        <rdf:Description rdf:about="#LegalExpression"/>
+        <rdf:Description rdf:about="#LegalResource"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <rdfs:comment xml:lang="en">Schema describing the URI of an ELI instance. ELI uses URI template specifications (IETF RFC 6570). Schemes should be associated with member states and will be published in a registry.</rdfs:comment>
+  <rdfs:label xml:lang="en">uri schema</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#version">
+  <rdfs:domain>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#LegalExpression"/>
+        <rdf:Description rdf:about="#LegalResource"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range rdf:resource="#Version"/>
+  <rdfs:seeAlso rdf:resource="#version_date"/>
+  <rdfs:comment xml:lang="en">A skos concept scheme, could be locally defined? Group proposal is to start with an initial ELI scheme, that might include concepts of "Official Journal" "made" "consolidated" "proposed" "prospective"</rdfs:comment>
+  <rdfs:label xml:lang="en">version</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+</owl:ObjectProperty>
+
+<owl:DatatypeProperty rdf:about="#cited_by_case_law_reference">
+  <rdfs:domain>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#LegalExpression"/>
+        <rdf:Description rdf:about="#LegalResource"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:seeAlso rdf:resource="#cited_by_case_law"/>
+  <specificPropertyOf rdf:resource="http://purl.org/dc/terms/relation"/>
+  <rdfs:comment xml:lang="en">Indicates that this LegalResource or LegalExpression is being cited in a case law that cannot be identified by a suitable URI and that is indicated by textual reference. An ECLI (European Case Law Identifier) can be used here.
+When the case law can be identified by a suitable URI, the property eli:cited_by_case_law should be used instead.</rdfs:comment>
+  <rdfs:label xml:lang="en">cited by case law reference</rdfs:label>
+  <owl:versionInfo xml:lang="en">created in v1.2</owl:versionInfo>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#published_in">
+  <rdfs:domain rdf:resource="#Format"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+  <rdfs:seeAlso rdf:resource="#published_in_format"/>
+  <rdfs:comment xml:lang="en">Reference to the Official Journal or other publication manifestation in which this format is published.
+This property should be used when the value cannot be identified by a suitable URI; if a URI is available, the property "published_in_format" should be used.</rdfs:comment>
+  <rdfs:label xml:lang="en">published in</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+  <owl:versionInfo>modified in v1.2</owl:versionInfo>
+  <core:historyNote xml:lang="en">v1.1 : modified the range to xsd:string, and introduced the corresponding object property published_in_format.</core:historyNote>
+  <core:historyNote xml:lang="en">v1.2 : changed range from xsd:string to rdfs:Literal</core:historyNote>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#publisher">
+  <rdfs:domain>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#Format"/>
+        <rdf:Description rdf:about="#LegalExpression"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+  <rdfs:seeAlso rdf:resource="#publisher_agent"/>
+  <specificPropertyOf rdf:resource="http://purl.org/dc/terms/publisher"/>
+  <rdfs:comment xml:lang="en">An entity responsible for making the resource available (definition from Dublin Core).
+This property should be used when the value cannot be identified by a suitable URI; if a URI is available, the property "publisher_agent" should be used.</rdfs:comment>
+  <rdfs:label xml:lang="en">publisher</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+  <owl:versionInfo>modified in v1.2</owl:versionInfo>
+  <core:historyNote xml:lang="en">v1.1 : modified the range to xsd:string and introduced the corresponding object property publisher_agent.</core:historyNote>
+  <core:historyNote xml:lang="en">v1.2 : changed range from xsd:string to rdfs:Literal</core:historyNote>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#responsibility_of">
+  <rdfs:domain rdf:resource="#LegalResource"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  <rdfs:seeAlso rdf:resource="#responsibility_of_agent"/>
+  <rdfs:comment xml:lang="en">An individual, organisation or organisational unit that has some kind of responsibility for the legislation. Typically the ministry who is/was in charge of elaborating the legislation, or the adressee for potential questions about the legislation once it is published.
+This property should be used when the value cannot be identified by a suitable URI; if a URI is available, the property "responsibility_of_agent" should be used.</rdfs:comment>
+  <rdfs:label xml:lang="en">responsibility of</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+  <owl:versionInfo xml:lang="en">modified in v1.1</owl:versionInfo>
+  <core:historyNote xml:lang="en">v1.1 : the definition was made more precise, with examples. Introduced the corresponding object property responsibility_of_agent.</core:historyNote>
+  <originalName xml:lang="en">service</originalName>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#rightsholder">
+  <rdfs:domain rdf:resource="#Format"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+  <specificPropertyOf rdf:resource="http://purl.org/dc/terms/rightsHolder"/>
+  <rdfs:comment xml:lang="en">A person or organisation owning or managing rights over the resource (definition from Dublin Core).
+This property should be used when the value cannot be identified by a suitable URI; if a URI is available, the property "rightsholder_agent" should be used.</rdfs:comment>
+  <rdfs:label xml:lang="en">rights holder</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+  <owl:versionInfo>modified in v1.2</owl:versionInfo>
+  <core:historyNote xml:lang="en">v1.1 : modified the range to xsd:string, and introduced the corresponding object property rightsholder_agent.</core:historyNote>
+  <core:historyNote xml:lang="en">v1.2 : modified the range to rdfs:Literal</core:historyNote>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#version_date">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#LegalExpression"/>
+        <rdf:Description rdf:about="#LegalResource"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  <specificPropertyOf rdf:resource="http://purl.org/dc/terms/date"/>
+  <rdfs:comment xml:lang="en">The point-in-time at which the provided description of the legislation is valid.</rdfs:comment>
+  <rdfs:label xml:lang="en">version date</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+  <owl:versionInfo xml:lang="en">modified in v1.1</owl:versionInfo>
+  <core:historyNote xml:lang="en">v1.1 : improved definition</core:historyNote>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#date_applicability">
+  <rdfs:domain>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#LegalExpression"/>
+        <rdf:Description rdf:about="#LegalResource"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  <rdfs:comment xml:lang="en">The date at which the legislation becomes applicable. This is distinct from the date of entry into force : a text may come in force today, and state it will become applicable in 3 months.
+
+The group notes that applicability dates can lead to complex situations, e.g. a text with different applicability dates for different jurisdictions; specific extensions to the model should be used for such situations.</rdfs:comment>
+  <rdfs:label xml:lang="en">date of applicability</rdfs:label>
+  <owl:versionInfo xml:lang="en">created in v1.1</owl:versionInfo>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#date_document">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#LegalResource"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  <specificPropertyOf rdf:resource="http://purl.org/dc/terms/date"/>
+  <rdfs:comment xml:lang="en">Date of adoption or signature (of the form yyyy-mm-dd)</rdfs:comment>
+  <rdfs:label xml:lang="en">date of the document</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#date_no_longer_in_force">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#LegalExpression"/>
+        <rdf:Description rdf:about="#LegalResource"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+  <rdfs:seeAlso rdf:resource="#first_date_entry_in_force"/>
+  <rdfs:comment xml:lang="en">The last date any part of the legislation is in force, if the date is known (can be seen as the end date of a dc:valid range for this resource).</rdfs:comment>
+  <rdfs:label xml:lang="en">date no longer in force</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+  <owl:versionInfo>modified in v1.2</owl:versionInfo>
+  <core:historyNote xml:lang="en">v1.1 : improved definition so it symmetric to date_entry_into_force.</core:historyNote>
+  <core:historyNote xml:lang="en">v1.2 : improved definition</core:historyNote>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#first_date_entry_in_force">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#LegalExpression"/>
+        <rdf:Description rdf:about="#LegalResource"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+  <rdfs:seeAlso rdf:resource="#date_no_longer_in_force"/>
+  <rdfs:comment xml:lang="en">The first date any part of the legal resource or legal expression came into force (can be seen as the start date of a dc:valid range for this resource)</rdfs:comment>
+  <rdfs:label xml:lang="en">first date of entry into force</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#date_publication">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#LegalExpression"/>
+        <rdf:Description rdf:about="#LegalResource"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  <specificPropertyOf rdf:resource="http://purl.org/dc/terms/issued"/>
+  <rdfs:comment xml:lang="en">Date of publication of the official version of the legislation, in hard copy or online, depending on what the official publication is, and when it was published. Publication dates at the level of legal expressions can be separately asserted, using standard Dublin Core properties.</rdfs:comment>
+  <rdfs:label xml:lang="en">date of publication</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+  <owl:versionInfo xml:lang="en">modified in v1.1</owl:versionInfo>
+  <core:historyNote xml:lang="en">In v1.1, the domain was broaden to add LegalExpression.</core:historyNote>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#description">
+  <rdfs:domain>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#LegalExpression"/>
+        <rdf:Description rdf:about="#LegalResource"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+  <specificPropertyOf rdf:resource="http://purl.org/dc/terms/description"/>
+  <rdfs:comment xml:lang="en">An account of the resource (definition from Dubin Core), e.g a summary.</rdfs:comment>
+  <rdfs:label xml:lang="en">description</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#id_local">
+  <rdfs:domain>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#Format"/>
+        <rdf:Description rdf:about="#LegalExpression"/>
+        <rdf:Description rdf:about="#LegalResource"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range>
+    <rdfs:Datatype>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#anyURI"/>
+        <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+      </owl:unionOf>
+    </rdfs:Datatype>
+  </rdfs:range>
+  <specificPropertyOf rdf:resource="http://purl.org/dc/terms/identifier"/>
+  <rdfs:comment xml:lang="en">The unique identifier used in a local reference system to maintain backwards compatibility. For examples the CELEX at EU level, or the NOR in France.</rdfs:comment>
+  <rdfs:label xml:lang="en">local id</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#number">
+  <rdfs:domain>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#LegalExpression"/>
+        <rdf:Description rdf:about="#LegalResource"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  <rdfs:comment xml:lang="en">An identifier or other disambiguating feature for a legal resource or legal expression. This can be the number of a legislation, the number of an article, or the issue number of an official journal.</rdfs:comment>
+  <rdfs:label xml:lang="en">number</rdfs:label>
+  <owl:versionInfo xml:lang="en">created in v1.1</owl:versionInfo>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#rights">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#Format"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+  <specificPropertyOf rdf:resource="http://purl.org/dc/terms/rights"/>
+  <rdfs:comment xml:lang="en">Information about rights held in and over the resource (definition from Dublin Core). For example, that property can be used to provide a link to a page that describes the licensing terms.</rdfs:comment>
+  <rdfs:label xml:lang="en">rights</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+  <owl:versionInfo>modified in v1.2</owl:versionInfo>
+  <core:historyNote xml:lang="en">v1.1 : improved definition and changed the range to xsd:string</core:historyNote>
+  <core:historyNote xml:lang="en">v1.2 : modified the range to rdfs:Literal</core:historyNote>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#title">
+  <rdfs:domain rdf:resource="#LegalExpression"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+  <rdfs:seeAlso rdf:resource="#title_alternative"/>
+  <rdfs:seeAlso rdf:resource="#title_short"/>
+  <specificPropertyOf rdf:resource="http://purl.org/dc/terms/title"/>
+  <rdfs:comment xml:lang="en">The title, or name, of an expression. 
+
+Note that, if needed, a title can also be stated on a legal resource using the Dublin Core "title" property.</rdfs:comment>
+  <rdfs:label xml:lang="en">title</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+  <owl:versionInfo>modified in v1.2</owl:versionInfo>
+  <core:historyNote xml:lang="en">v1.2 : changed range from xsd:string to rdfs:Literal</core:historyNote>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#title_alternative">
+  <rdfs:domain rdf:resource="#LegalExpression"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+  <specificPropertyOf rdf:resource="http://purl.org/dc/terms/alternative"/>
+  <rdfs:comment xml:lang="en">An alternative title of the expression (if any).
+
+Note that, if needed, an alternative title can also be stated on a legal resource using the Dublin Core "alternative" property.</rdfs:comment>
+  <rdfs:label xml:lang="en">alternative title</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+  <owl:versionInfo>modified in v1.2</owl:versionInfo>
+  <core:historyNote xml:lang="en">v1.2 : changed range from xsd:string to rdfs:Literal</core:historyNote>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#title_short">
+  <rdfs:domain rdf:resource="#LegalExpression"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+  <specificPropertyOf rdf:resource="http://purl.org/dc/terms/alternative"/>
+  <rdfs:comment xml:lang="en">Established short title of the expression (if any)</rdfs:comment>
+  <rdfs:label xml:lang="en">short title</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+  <owl:versionInfo>modified in v1.2</owl:versionInfo>
+  <core:historyNote xml:lang="en">v1.2 : changed range from xsd:string to rdfs:Literal</core:historyNote>
+</owl:DatatypeProperty>
+
+<owl:AnnotationProperty rdf:about="#originalName"/>
+
+<owl:AnnotationProperty rdf:about="#specificPropertyOf">
+  <rdfs:comment xml:lang="en">Indicates that a property is, in a generic sense, a more specific property of another one. This does not entail the same logical reasoning as rdfs:subPropertyOf.
+This is used to indicate the alignement to DublinCore properties, without redeclaring the DublinCore property in Protégé, and without commiting to choose that a DubinCore property is either a datatype or an object property.</rdfs:comment>
+  <rdfs:label xml:lang="en">specific property of</rdfs:label>
+</owl:AnnotationProperty>
+
+<owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#broader"/>
+
+<owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#hasTopConcept"/>
+
+<owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#narrower"/>
+
+<owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#topConceptOf"/>
+
+<owl:Class rdf:about="#LegalResource">
+  <rdfs:subClassOf rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F1_Work"/>
+  <rdfs:comment xml:lang="en">A distinct intellectual creation (i.e., the intellectual content).
+For example, the abstract concept of the legal resource; e.g. "act 3 of 2005" (adapted from Akoma Ntoso)
+
+A legal resource can represent a legal act or any component of a legal act, like an article. Legal resources can be linked together using properties defined in the model.
+
+Note that ELI ontology accommodates different point of view on what should be considered a new legal resource, or a new legal expression of the same resource. Typically, a consolidated version can be viewed, in the context of ELI, either as separate legal resource (linked to original version and previous consolidated version using corresponding ELI relations), or as a different legal expression of the same legal resource.</rdfs:comment>
+  <rdfs:label xml:lang="en">Legal Resource</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+  <owl:versionInfo>modified in v1.2</owl:versionInfo>
+  <core:historyNote xml:lang="en">v1.2 : replaced reference of RDA with FRBRoo (for more information on FRBRoo, see https://www.ifla.org/node/10171) .</core:historyNote>
+</owl:Class>
+
+<owl:Class rdf:about="#LegalExpression">
+  <rdfs:subClassOf rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F22_Self-Contained_Expression"/>
+  <rdfs:comment xml:lang="en">The intellectual realisation of a legal resource in the form of a "sequence of signs" (typically alpha-numeric characters in a legal context).
+For example, any version of the legal resource whose content is specified and different from others for any reason: language, versions, etc.;
+
+Note that ELI ontology accommodates different point of view on what should be considered a new legal resource, or a new legal expression of the same resource. Typically, a consolidated version can be viewed, in the context of ELI, either as separate legal resource (linked to original version and previous consolidated version using corresponding ELI relations), or as a different legal expression of the same legal resource.</rdfs:comment>
+  <rdfs:label xml:lang="en">Legal Expression</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+  <owl:versionInfo>modified in v1.2</owl:versionInfo>
+  <core:historyNote xml:lang="en">v1.2 : replaced reference of RDA with FRBRoo (for more information on FRBRoo, see https://www.ifla.org/node/10171) .</core:historyNote>
+</owl:Class>
+
+<owl:Class rdf:about="#Format">
+  <rdfs:subClassOf rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F3_Manifestation_Product_Type"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#format"/>
+      <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:comment xml:lang="en">The physical embodiment of a legal expression, either on paper or in any electronic format.
+For example, any electronic or physical format of the legal expression (XML, TIFF, PDF, etc.) ; e.g. PDF version of act 3 of 2005.  (adapted from Akoma Ntoso).
+Note that the notion of Format in ELI is more precise than a FRBR Manifestation in the sense that a Format in ELI can carry a legal value (see the property eli:legal_value).</rdfs:comment>
+  <rdfs:label xml:lang="en">Format</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+  <owl:versionInfo>modified in v1.2</owl:versionInfo>
+  <core:historyNote xml:lang="en">v1.2 : replaced reference of RDA with FRBRoo (for more information on FRBRoo, see https://www.ifla.org/node/10171) .</core:historyNote>
+</owl:Class>
+
+<owl:Class rdf:about="#FormatType">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
+          <owl:hasValue rdf:resource="#FormatTypeTable"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+  <rdfs:comment xml:lang="en">Formally defined as the set of skos:Concept in concept scheme eli:MediaTypeTable.</rdfs:comment>
+  <rdfs:label xml:lang="en">Format type</rdfs:label>
+  <owl:versionInfo xml:lang="en">created in v1.2</owl:versionInfo>
+</owl:Class>
+
+<owl:Class rdf:about="#InForce">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
+          <owl:hasValue rdf:resource="#InForceTable"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+  <rdfs:comment xml:lang="en">Formally defined as the set of skos:Concept in concept scheme eli:InForceTable</rdfs:comment>
+  <rdfs:label xml:lang="en">In force</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+</owl:Class>
+
+<owl:Class rdf:about="#AdministrativeArea">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <owl:Class>
+          <owl:unionOf rdf:parseType="Collection">
+            <owl:Restriction>
+              <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
+              <owl:hasValue rdf:resource="#AdministrativeAreaTable"/>
+            </owl:Restriction>
+            <owl:Restriction>
+              <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
+              <owl:hasValue rdf:resource="http://publications.europa.eu/resource/authority/atu"/>
+            </owl:Restriction>
+          </owl:unionOf>
+        </owl:Class>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+  <rdfs:comment xml:lang="en">Formally defined as the set of skos:Concept either in concept scheme eli:AdministrativeAreaTable or in concept scheme http://publications.europa.eu/mdr/authority/atu (Administrative Territorial Unit table published of the EU Publications Office).</rdfs:comment>
+  <rdfs:label xml:lang="en">Administrative Area</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+  <owl:versionInfo xml:lang="en">modified in v1.1</owl:versionInfo>
+  <core:historyNote xml:lang="en">Starting from v1.1, the values for administrative areas can be taken from the Administrative Territorial Unit table published of the EU Publications Office.</core:historyNote>
+</owl:Class>
+
+<owl:Class rdf:about="#Language">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
+          <owl:hasValue rdf:resource="http://publications.europa.eu/resource/authority/language"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+  <rdfs:comment xml:lang="en">Formally defined as the set of skos:Concept in concept scheme http://publications.europa.eu/resource/authority/language</rdfs:comment>
+  <rdfs:label xml:lang="en">Language</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+  <owl:versionInfo>modified in v1.2</owl:versionInfo>
+  <core:historyNote xml:lang="en">v1.2 : fixed URI in definition</core:historyNote>
+</owl:Class>
+
+<owl:Class rdf:about="#LegalValue">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
+          <owl:hasValue rdf:resource="#LegalValueTable"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+  <rdfs:comment xml:lang="en">Formally defined as the set of skos:Concept in concept scheme eli:LegalValueTable</rdfs:comment>
+  <rdfs:label xml:lang="en">Legal value</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+</owl:Class>
+
+<owl:Class rdf:about="#Agent">
+  <owl:equivalentClass rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
+  <rdfs:label xml:lang="en">Agent</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+</owl:Class>
+
+<owl:Class rdf:about="#ResourceType">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
+          <owl:hasValue rdf:resource="#ResourceTypeTable"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+  <rdfs:comment xml:lang="en">Formally defined as the set of skos:Concept in concept scheme eli:ResourceTypeTable</rdfs:comment>
+  <rdfs:label xml:lang="en">Resource type</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+</owl:Class>
+
+<owl:Class rdf:about="#Version">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
+          <owl:hasValue rdf:resource="#VersionTable"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+  <rdfs:comment xml:lang="en">Formally defined as the set of skos:Concept in concept scheme eli:VersionTable</rdfs:comment>
+  <rdfs:label xml:lang="en">Version</rdfs:label>
+  <owl:versionInfo>created in v1.0</owl:versionInfo>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
+
+<owl:Class rdf:about="http://iflastandards.info/ns/fr/frbr/frbroo/F3_Manifestation_Product_Type"/>
+
+<owl:Class rdf:about="http://iflastandards.info/ns/fr/frbr/frbroo/F22_Self-Contained_Expression"/>
+
+<owl:Class rdf:about="http://iflastandards.info/ns/fr/frbr/frbroo/F1_Work"/>
+
+<owl:Class rdf:about="#LegalResourceSubdivision">
+  <rdfs:subClassOf rdf:resource="#LegalResource"/>
+  <rdfs:comment xml:lang="en">A component of a legal act, at an arbitrary level of precision, like a chapter, an article, an alinea, a paragraph or an list item. A subdivision can be linked with its parent and children subdivision using the properties eli:has_part / eli:is_part_of.</rdfs:comment>
+  <rdfs:label xml:lang="en">Legal Resource Subdivision</rdfs:label>
+  <owl:versionInfo xml:lang="en">created in v1.1</owl:versionInfo>
+</owl:Class>
+
+<rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
+
+<InForce rdf:about="#InForce-inForce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:topConceptOf rdf:resource="#InForceTable"/>
+  <core:inScheme rdf:resource="#InForceTable"/>
+  <owl:versionInfo xml:lang="en">created in v1.0</owl:versionInfo>
+  <owl:versionInfo xml:lang="en">modified in v1.1</owl:versionInfo>
+  <core:historyNote xml:lang="en">v1.1 : improved definition</core:historyNote>
+  <core:definition xml:lang="en">Indicates that a legal resource is in force.</core:definition>
+  <core:prefLabel xml:lang="en">in force</core:prefLabel>
+</InForce>
+
+<InForce rdf:about="#InForce-notInForce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:topConceptOf rdf:resource="#InForceTable"/>
+  <core:inScheme rdf:resource="#InForceTable"/>
+  <owl:versionInfo xml:lang="en">created in v1.0</owl:versionInfo>
+  <owl:versionInfo xml:lang="en">modified in v1.1</owl:versionInfo>
+  <core:historyNote xml:lang="en">v1.1 : improved definition</core:historyNote>
+  <core:definition xml:lang="en">Indicates that a legal resource is currently not in force.</core:definition>
+  <core:prefLabel xml:lang="en">not in force</core:prefLabel>
+</InForce>
+
+<InForce rdf:about="#InForce-partiallyInForce">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:topConceptOf rdf:resource="#InForceTable"/>
+  <core:inScheme rdf:resource="#InForceTable"/>
+  <owl:versionInfo xml:lang="en">created in v1.0</owl:versionInfo>
+  <owl:versionInfo xml:lang="en">modified in v1.1</owl:versionInfo>
+  <core:historyNote xml:lang="en">v1.1 : improved definition</core:historyNote>
+  <core:definition xml:lang="en">Indicates that parts of the legal resource are in force, and parts are not.</core:definition>
+  <core:prefLabel xml:lang="en">partially in force</core:prefLabel>
+</InForce>
+
+<core:ConceptScheme rdf:about="#InForceTable">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label xml:lang="en">In force table</rdfs:label>
+  <core:definition xml:lang="en">A set of values for the legal force of a resource.
+ELI includes a set of values for this table.</core:definition>
+</core:ConceptScheme>
+
+<core:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/language">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:definition xml:lang="en">A set of values for languages.
+ELI does not include a set of values for this table.</core:definition>
+</core:ConceptScheme>
+
+<LegalValue rdf:about="#LegalValue-authoritative">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#LegalValue-official"/>
+  <core:narrower rdf:resource="#LegalValue-definitive"/>
+  <core:inScheme rdf:resource="#LegalValueTable"/>
+  <owl:versionInfo xml:lang="en">created in v1.0</owl:versionInfo>
+  <owl:versionInfo xml:lang="en">modified in v1.1</owl:versionInfo>
+  <core:historyNote xml:lang="en">v1.1 : improved definition</core:historyNote>
+  <core:definition xml:lang="en">The publisher gives some special status to the publication of the document. ("The Queens Printer" version of a UK Act of Parliament). This status is specific to UK where no text can be considered « definitive ».</core:definition>
+  <core:prefLabel xml:lang="en">authoritative</core:prefLabel>
+  <core:example xml:lang="en">"The Queens Printer" version of a UK Act of Parliament, or the Official Journal version of a EU Directive published by EU Publications Office.</core:example>
+</LegalValue>
+
+<LegalValue rdf:about="#LegalValue-definitive">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:broader rdf:resource="#LegalValue-authoritative"/>
+  <core:inScheme rdf:resource="#LegalValueTable"/>
+  <owl:versionInfo xml:lang="en">created in v1.0</owl:versionInfo>
+  <owl:versionInfo xml:lang="en">modified in v1.1</owl:versionInfo>
+  <core:historyNote xml:lang="en">v1.1 : improved definition</core:historyNote>
+  <core:definition xml:lang="en">Document for which the text is conclusively what the law says. (The digitally signed version of an Official Journal.)</core:definition>
+  <core:prefLabel xml:lang="en">definitive</core:prefLabel>
+  <core:example xml:lang="en">The digitally signed version of an Official Journal.</core:example>
+</LegalValue>
+
+<LegalValue rdf:about="#LegalValue-official">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:narrower rdf:resource="#LegalValue-authoritative"/>
+  <core:topConceptOf rdf:resource="#LegalValueTable"/>
+  <core:inScheme rdf:resource="#LegalValueTable"/>
+  <owl:versionInfo xml:lang="en">created in v1.0</owl:versionInfo>
+  <owl:versionInfo xml:lang="en">modified in v1.1</owl:versionInfo>
+  <core:historyNote xml:lang="en">v1.1 : improved definition</core:historyNote>
+  <core:definition xml:lang="en">Document is published by an organisation with the public task of making the information available (A consolidated version of a EU directive published by EU Publications Office.)</core:definition>
+  <core:prefLabel xml:lang="en">official</core:prefLabel>
+  <core:example xml:lang="en">A consolidated version of a EU directive published by EU Publications Office.</core:example>
+</LegalValue>
+
+<LegalValue rdf:about="#LegalValue-unofficial">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <core:topConceptOf rdf:resource="#LegalValueTable"/>
+  <core:inScheme rdf:resource="#LegalValueTable"/>
+  <owl:versionInfo xml:lang="en">created in v1.0</owl:versionInfo>
+  <core:definition xml:lang="en">Document has no particular or special standing.</core:definition>
+  <core:prefLabel xml:lang="en">unofficial</core:prefLabel>
+</LegalValue>
+
+<core:ConceptScheme rdf:about="#LegalValueTable">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:hasTopConcept rdf:resource="#LegalValue-official"/>
+  <core:hasTopConcept rdf:resource="#LegalValue-unofficial"/>
+  <rdfs:label xml:lang="en">Legal value table</rdfs:label>
+  <core:definition xml:lang="en">A set of values for the legal value of a resource.
+ELI ontology includes a set of values for this table.</core:definition>
+</core:ConceptScheme>
+
+<core:ConceptScheme rdf:about="#ResourceTypeTable">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label xml:lang="en">Resource type table</rdfs:label>
+  <core:definition xml:lang="en">A set of types for a legal resource.
+ELI does not include a set of values for this table.</core:definition>
+</core:ConceptScheme>
+
+<core:ConceptScheme rdf:about="#AdministrativeAreaTable">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label xml:lang="en">Administrative area table</rdfs:label>
+  <core:definition xml:lang="en">A set of values for administrative areas.
+ELI does not include a set of values for this table.</core:definition>
+</core:ConceptScheme>
+
+<core:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/atu">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</core:ConceptScheme>
+
+<core:ConceptScheme rdf:about="#FormatTypeTable">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:comment xml:lang="en">A set of types for a Format.
+ELI includes a list of values for this table.
+This should contain user-oriented types to dinstinguish e.g. authentic PDF from scanned PDF from generated-on-the-fly PDF; or e.g. XML in a standard (AkomaNtoso) format vs. XML in a proprietary format.</rdfs:comment>
+  <rdfs:label xml:lang="en">Format type table</rdfs:label>
+</core:ConceptScheme>
+
+<core:ConceptScheme rdf:about="#VersionTable">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label xml:lang="en">Version table</rdfs:label>
+  <core:definition xml:lang="en">A set of values for the version of a legal resource.
+ELI does not include a set of values for this table.</core:definition>
+</core:ConceptScheme>
+
+<FormatType rdf:about="#print_format">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:inScheme rdf:resource="#FormatTypeTable"/>
+  <owl:versionInfo xml:lang="en">created in v1.2</owl:versionInfo>
+  <core:prefLabel xml:lang="en">print</core:prefLabel>
+  <core:scopeNote xml:lang="en">ELI introduces this value to describe printed/paper versions of the legislation</core:scopeNote>
+</FormatType>
+
+<FormatType rdf:about="https://www.iana.org/assignments/media-types/application/pdf">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:inScheme rdf:resource="#FormatTypeTable"/>
+  <owl:versionInfo xml:lang="en">created in v1.2</owl:versionInfo>
+  <core:prefLabel>application/pdf</core:prefLabel>
+</FormatType>
+
+<FormatType rdf:about="https://www.iana.org/assignments/media-types/application/xml">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:inScheme rdf:resource="#FormatTypeTable"/>
+  <owl:versionInfo xml:lang="en">created in v1.2</owl:versionInfo>
+  <core:prefLabel>application/xml</core:prefLabel>
+</FormatType>
+
+<FormatType rdf:about="https://www.iana.org/assignments/media-types/application/akn+xml">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:seeAlso rdf:resource="https://docs.oasis-open.org/legaldocml/akn-media/v1.0/csprd01/akn-media-v1.0-csprd01.pdf"/>
+  <core:inScheme rdf:resource="#FormatTypeTable"/>
+  <owl:versionInfo xml:lang="en">created in v1.2</owl:versionInfo>
+  <core:prefLabel>application/akn+xml</core:prefLabel>
+</FormatType>
+
+<FormatType rdf:about="https://www.iana.org/assignments/media-types/application/pdf;type=archival">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <owl:versionInfo xml:lang="en">created in v1.2</owl:versionInfo>
+  <core:prefLabel>application/pdf;type=archival</core:prefLabel>
+  <core:scopeNote xml:lang="en">ELI introduces this value to describe PDF files that are intended for long-term archival.</core:scopeNote>
+</FormatType>
+
+<FormatType rdf:about="https://www.iana.org/assignments/media-types/application/pdf;type=generated">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <owl:versionInfo xml:lang="en">created in v1.2</owl:versionInfo>
+  <core:prefLabel>application/pdf;type=generated</core:prefLabel>
+  <core:scopeNote xml:lang="en">ELI introduces this value to describe PDF files that are generated on-the-fly from base XML formats.</core:scopeNote>
+</FormatType>
+
+<FormatType rdf:about="https://www.iana.org/assignments/media-types/application/pdf;type=scanned">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <owl:versionInfo xml:lang="en">created in v1.2</owl:versionInfo>
+  <core:prefLabel>application/pdf;type=scanned</core:prefLabel>
+  <core:scopeNote xml:lang="en">ELI introduces this value to describe PDF files that are scanned copies of a paper version.</core:scopeNote>
+</FormatType>
+
+<FormatType rdf:about="https://www.iana.org/assignments/media-types/application/pdf;type=signed">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <owl:versionInfo xml:lang="en">created in v1.2</owl:versionInfo>
+  <core:prefLabel>application/pdf;type=signed</core:prefLabel>
+  <core:scopeNote xml:lang="en">ELI introduces this value to describe PDF files that are signed electronically.</core:scopeNote>
+</FormatType>
+
+<FormatType rdf:about="https://www.iana.org/assignments/media-types/application/xhtml+xml">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:inScheme rdf:resource="#FormatTypeTable"/>
+  <owl:versionInfo xml:lang="en">created in v1.2</owl:versionInfo>
+  <core:prefLabel>application/xhtml+xml</core:prefLabel>
+</FormatType>
+
+<FormatType rdf:about="https://www.iana.org/assignments/media-types/text/html">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:inScheme rdf:resource="#FormatTypeTable"/>
+  <owl:versionInfo xml:lang="en">created in v1.2</owl:versionInfo>
+  <core:prefLabel>text/html</core:prefLabel>
+</FormatType>
+
+<FormatType rdf:about="https://www.iana.org/assignments/media-types/text/plain">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <core:inScheme rdf:resource="#FormatTypeTable"/>
+  <owl:versionInfo xml:lang="en">created in v1.2</owl:versionInfo>
+  <core:prefLabel>text/plain</core:prefLabel>
+</FormatType>
+
+<LegalResource rdf:about="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <published_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JP Službeni glasnik</published_in>
+  <publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Narodna skupština</publisher>
+  <version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009-05-11</version_date>
+  <number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36</number>
+  <title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zakon o izgledu i upotrebi grba, zastave i himne Republike Srbije: 36/2009-3</title>
+</LegalResource>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_1.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zakon"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#upotreba"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#izgled"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#grb"/>
+</LegalResourceSubdivision>
+
+<core:Concept rdf:about="http://www.w3.org/2004/02/skos/core#izgled">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</core:Concept>
+
+<core:Concept rdf:about="http://www.w3.org/2004/02/skos/core#upotreba">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</core:Concept>
+
+<core:Concept rdf:about="http://www.w3.org/2004/02/skos/core#zakon">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</core:Concept>
+
+<core:Concept rdf:about="http://www.w3.org/2004/02/skos/core#grb">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</core:Concept>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_2.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#himna"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zastava"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zakon"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#grb"/>
+</LegalResourceSubdivision>
+
+<core:Concept rdf:about="http://www.w3.org/2004/02/skos/core#himna">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</core:Concept>
+
+<core:Concept rdf:about="http://www.w3.org/2004/02/skos/core#zastava">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</core:Concept>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_3.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zastava"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zakon"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#grb"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_4.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zastava"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zakon"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#grb"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_5.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zastava"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_6.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zastava"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#izgled"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_7.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zastava"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#grb"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_8.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zastava"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#grb"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_9.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#grb"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_10.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#grb"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_11.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#grb"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_12.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#grb"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_13.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zakon"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#grb"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_14.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zakon"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#grb"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_15.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zakon"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zastava"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#upotreba"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#grb"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_16.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zastava"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#grb"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_17.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zastava"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_18.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zastava"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#grb"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_19.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zastava"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_20.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zastava"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_21.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zastava"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_22.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zastava"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_23.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_24.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zastava"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#upotreba"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zakon"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_25.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zastava"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_26.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#grb"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_27.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#grb"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_28.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zastava"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_29.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zastava"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#upotreba"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zakon"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_30.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zastava"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_31.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zastava"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_32.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zastava"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_33.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_34.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#himna"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_35.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_36.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#upotreba"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zakon"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_37.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zakon"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_38.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#himna"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_39.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_40.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#grb"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_41.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zakon"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#grb"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_42.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zakon"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#grb"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_43.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zakon"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_44.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zakon"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_45.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zakon"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#grb"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_izgledu_i_upotrebi_grbČlan_46.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zakon"/>
+</LegalResourceSubdivision>
+
+<LegalResource rdf:about="#Zakon_o_državnom_pečatu_Republike_Srbije:_101/2007-5">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <published_in rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JP Službeni glasnik</published_in>
+  <publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Narodna skupština</publisher>
+  <version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007-11-05</version_date>
+  <number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">101</number>
+  <title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zakon o državnom pečatu Republike Srbije: 101/2007-5</title>
+</LegalResource>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_državnom_pečatu_RepublČlan_1.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_državnom_pečatu_Republike_Srbije:_101/2007-5"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#pečat"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zakon"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#tekst"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#državni"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#upotreba"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#izgled"/>
+</LegalResourceSubdivision>
+
+<core:Concept rdf:about="http://www.w3.org/2004/02/skos/core#državni">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</core:Concept>
+
+<core:Concept rdf:about="http://www.w3.org/2004/02/skos/core#pečat">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</core:Concept>
+
+<core:Concept rdf:about="http://www.w3.org/2004/02/skos/core#tekst">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</core:Concept>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_državnom_pečatu_RepublČlan_2.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_državnom_pečatu_Republike_Srbije:_101/2007-5"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#tekst"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zakon"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#pečat"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_državnom_pečatu_RepublČlan_3.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_državnom_pečatu_Republike_Srbije:_101/2007-5"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#pečat"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_državnom_pečatu_RepublČlan_4.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_državnom_pečatu_Republike_Srbije:_101/2007-5"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#pečat"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_državnom_pečatu_RepublČlan_5.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_državnom_pečatu_Republike_Srbije:_101/2007-5"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#upotreba"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#pečat"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_državnom_pečatu_RepublČlan_6.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_državnom_pečatu_Republike_Srbije:_101/2007-5"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#državni"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zakon"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#pečat"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_državnom_pečatu_RepublČlan_7.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_državnom_pečatu_Republike_Srbije:_101/2007-5"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#državni"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#tekst"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zakon"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#pečat"/>
+</LegalResourceSubdivision>
+
+<LegalResourceSubdivision rdf:about="#Zakon_o_državnom_pečatu_RepublČlan_8.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_part_of rdf:resource="#Zakon_o_državnom_pečatu_Republike_Srbije:_101/2007-5"/>
+  <is_about rdf:resource="http://www.w3.org/2004/02/skos/core#zakon"/>
+</LegalResourceSubdivision>
+
+
+</rdf:RDF>

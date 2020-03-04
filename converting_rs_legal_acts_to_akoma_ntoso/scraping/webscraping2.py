@@ -33,6 +33,8 @@ if __name__ == '__main__':
 
     browser = webdriver.Chrome(executable_path='C:\Chromedriver\chromedriver.exe', chrome_options=option)
     file_name = 'linkovi.txt'
+    DOC_TYPE = "ZAKONI"
+    #TODO OPET WEBSCRAPOVATI ZAKONE, popraviti metapodatke da se cuvaju"
     file = open(file_name, "r")
 
     row = ""
