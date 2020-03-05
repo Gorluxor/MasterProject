@@ -104,8 +104,8 @@ if __name__ == "__main__":
   from os import path
 
   basePath = path.dirname(__file__)
-  filePath = path.abspath(path.join(basePath, "..", "data", "acts"))
-  fileOut = path.abspath(path.join(basePath, "..", "data", "acts_raw"))
+  filePath = path.abspath(path.join(basePath, "..", "data", "racts"))
+  fileOut = path.abspath(path.join(basePath, "..", "data", "raw_racts"))
   filenames = getListOfFiles(filePath)
 
   for filename in filenames:

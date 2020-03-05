@@ -30,7 +30,13 @@ def add_meta_to_act(curr_zakon, meta):
     curr_zakon.publisher = [to_latin(meta.donosilac)]
     curr_zakon.published_in = [to_latin(meta.izdavac)]
 
-    print(meta)
+    # print(meta)
+
+
+def check_meta(string):
+    if ".txt" in string:
+        string = string.replace(".txt", ".html")
+    return string
 
 
 def generate_owl(folder_path, filenames=None):
@@ -46,8 +52,12 @@ def generate_owl(folder_path, filenames=None):
         clan_info = util.gather_clans(info)
         # Otvori fajl, pronađe strukture, generišu clanovi, dodaju se
         # print(clans_data)
-        meta = utilities.get_meta(s_file, utilities.get_root_dir() + "\\data\\meta\\allmeta.csv")
-        latin_name = to_latin(meta.act_name).replace(' ', '_')
+        meta = utilities.get_meta(check_meta(s_file), utilities.get_root_dir() + "\\data\\meta\\allmeta.csv")
+        if meta == None:
+            print("Warn - " + el[0] + "missing meta")
+            continue
+        # latin_name = to_latin(meta.act_name).replace(' ', '_')
+        latin_name = meta.act_name.replace(" ", '_')
         dis = {}
         curr_zakon = owl.add_legal_resource(latin_name)
         add_meta_to_act(curr_zakon, meta)
@@ -68,5 +78,11 @@ def generate_owl(folder_path, filenames=None):
 
 
 if __name__ == '__main__':
+    from os import listdir
+    from os.path import isfile, join
+
     base_path = utilities.get_root_dir()
-    generate_owl(base_path + "\\data\\racts", filenames=["1.html","2.html"])
+    folder_path = base_path + "\\data\\raw_racts"
+    only_files = [f for f in listdir(folder_path) if isfile(join(folder_path, f))]
+    ordered = [str(el) + ".txt" for el in range(1, 50)]
+    generate_owl(folder_path, filenames=ordered)  # onlyfiles[:10])   filenames=["86.txt", "200.txt"])
