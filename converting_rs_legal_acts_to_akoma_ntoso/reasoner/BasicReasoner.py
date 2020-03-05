@@ -1,4 +1,4 @@
-from tokenizer.TokenType import TokenType
+from converting_rs_legal_acts_to_akoma_ntoso.tokenizer.TokenType import TokenType
 
 
 

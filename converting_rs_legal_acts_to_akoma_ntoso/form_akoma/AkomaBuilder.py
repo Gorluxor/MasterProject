@@ -1,5 +1,5 @@
-from tokenizer.patterns import is_vrsta_akta
-from tokenizer.TokenType import TokenType
+from converting_rs_legal_acts_to_akoma_ntoso.tokenizer.patterns import is_vrsta_akta
+from converting_rs_legal_acts_to_akoma_ntoso.tokenizer.TokenType import TokenType
 import xml.etree.ElementTree as ET
 
 PREFIX = "{http://www.akomantoso.org/2.0}"

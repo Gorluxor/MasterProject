@@ -1,6 +1,6 @@
-from tokenizer.patterns import recognize_pattern, FoundToken
-from tokenizer.TokenType import TokenType
-from tokenizer.BasicTokenizer import BasicTokenizer
+from converting_rs_legal_acts_to_akoma_ntoso.tokenizer.patterns import recognize_pattern, FoundToken
+from converting_rs_legal_acts_to_akoma_ntoso.tokenizer.TokenType import TokenType
+from converting_rs_legal_acts_to_akoma_ntoso.tokenizer.BasicTokenizer import BasicTokenizer
 import xml.etree.ElementTree as ET
 
 class HTMLTokenizer(BasicTokenizer):

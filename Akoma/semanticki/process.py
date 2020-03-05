@@ -1,9 +1,9 @@
-from tfidf.tfidf import get_tf_idf_values_document
+from Akoma.tfidf.tfidf import get_tf_idf_values_document
 import re
-import semanticki.util as util
-from utilities import utilities
-import semanticki.owl as owl
-from convertToLatin import Convert
+import Akoma.semanticki.util as util
+from Akoma.utilities import utilities
+import Akoma.semanticki.owl as owl
+from Akoma.convertToLatin import Convert
 
 
 def inside_important(tfidf, clan_info, iter):

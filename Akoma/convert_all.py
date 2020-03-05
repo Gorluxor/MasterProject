@@ -2,20 +2,20 @@ import io
 import os
 import xml.etree.ElementTree as ET
 
-import preprocessing.remove_html
-import preprocessing.init_akoma
-from tokenizer.HTMLTokenizer import HTMLTokenizer
+import Akoma.preprocessing.remove_html
+import Akoma.preprocessing.init_akoma
+from Akoma.tokenizer.HTMLTokenizer import HTMLTokenizer
 
-from form_akoma.AkomaBuilder import AkomaBuilder
-from reasoner.BasicReasoner import BasicReasoner
-from reasoner.OdlukaReasoner import OdlukaReasoner
-from form_akoma.MetadataBuilder import MetadataBuilder
-from named_enitity_recognition.pattern_recognition import add_refs
+from Akoma.form_akoma.AkomaBuilder import AkomaBuilder
+from Akoma.reasoner.BasicReasoner import BasicReasoner
+from Akoma.reasoner.OdlukaReasoner import OdlukaReasoner
+from Akoma.form_akoma.MetadataBuilder import MetadataBuilder
+from Akoma.named_enitity_recognition.pattern_recognition import add_refs
 
 if __name__ == "__main__":
     nastavi = "1.html" #""651.html"
     idemo = False
-    stani = [] #["1160.html", "1575.html", "908.html", "2348.html", "318.html", "3062.html"] #ovi fajlovi su samo preveliki pa njihovo procesiranje traje dugo
+    stani = ["562.html"] #["1160.html", "1575.html", "908.html", "2348.html", "318.html", "3062.html"] #ovi fajlovi su samo preveliki pa njihovo procesiranje traje dugo
     fajls = os.listdir("data/acts")
     for fajl in fajls:
         if(fajl == nastavi):
@@ -25,8 +25,8 @@ if __name__ == "__main__":
         if fajl in stani:
             continue
         print(fajl)
-        stringo = preprocessing.remove_html.preprocessing("data/acts/"+fajl) #aktovi_html
-        akoma_root = preprocessing.init_akoma.init_xml("act")
+        stringo = Akoma.preprocessing.remove_html.preprocessing("data/acts/"+fajl) #aktovi_html
+        akoma_root = Akoma.preprocessing.init_akoma.init_xml("act")
         #break
         #f = io.open('data/aktovi_raw/' +fajl, mode="w", encoding="utf-8")
         #f.write(stringo)
@@ -43,7 +43,7 @@ if __name__ == "__main__":
             reasoner.start()
 
             if reasoner.current_hierarchy[4] == 0:
-                akoma_root = preprocessing.init_akoma.init_xml("act")
+                akoma_root = Akoma.preprocessing.init_akoma.init_xml("act")
                 metabuilder = MetadataBuilder("data/meta/allmeta.csv")
                 metabuilder.build(fajl, akoma_root)
 

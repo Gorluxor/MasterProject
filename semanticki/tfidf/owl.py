@@ -1,6 +1,6 @@
 from owlready2 import *
 from os import path
-from tfidf.utilities import get_root_dir
+from semanticki.tfidf.utilities import get_root_dir
 cls_legal_resource = "LegalResource"
 cls_legal_resource_sub = "LegalResourceSubdivision"
 p_is_about = "is_about"

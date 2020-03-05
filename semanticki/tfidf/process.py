@@ -1,11 +1,11 @@
 from os import path
-from connector.connector import checkIfRomanNumeral
-from tfidf.most_important_words_tfidf import get_tf_idf_values_document
+from semanticki.connector.connector import checkIfRomanNumeral
+from semanticki.tfidf.most_important_words_tfidf import get_tf_idf_values_document
 import re
-import tfidf.util
-import tfidf.utilities
-import tfidf.owl
-from convertToLatin import Convert
+import semanticki.tfidf.util
+import semanticki.tfidf.utilities
+import semanticki.tfidf.owl
+from semanticki.convertToLatin import Convert
 
 
 def inside_important(tfidf, clan_info, iter):
@@ -42,29 +42,29 @@ def generate_owl(folder_path, filenames=None):
         info = "".join(f.readlines())
         # for q in el[1]:
         #     print(q)
-        clans_data = tfidf.util.from_content_to_act_list(info)
-        clan_info = tfidf.util.gather_clans(info)
+        clans_data = semanticki.tfidf.util.from_content_to_act_list(info)
+        clan_info = semanticki.tfidf.util.gather_clans(info)
         # Otvori fajl, pronađe strukture, generišu clanovi, dodaju se
         # print(clans_data)
-        meta = tfidf.utilities.get_meta("1.html", "data\\allmeta.csv")
+        meta = semanticki.tfidf.utilities.get_meta("1.html", "data\\allmeta.csv")
         latin_name = toLatin(meta.act_name).replace(' ', '_')
         dis = {}
-        curr_zakon = tfidf.owl.add_legal_resource(latin_name)
+        curr_zakon = semanticki.tfidf.owl.add_legal_resource(latin_name)
         add_meta_to_act(curr_zakon, meta)
         i = 0
         for info in clan_info:
 
-            curr_sub = tfidf.owl.add_legal_sub(latin_name[:30] + info.replace(' ', '_'))
+            curr_sub = semanticki.tfidf.owl.add_legal_sub(latin_name[:30] + info.replace(' ', '_'))
             is_about = inside_important(el[1], clans_data, i)
             for new_concept in is_about:
                 if new_concept not in dis:
-                    dis[new_concept] = tfidf.owl.add_concept(new_concept)
+                    dis[new_concept] = semanticki.tfidf.owl.add_concept(new_concept)
 
             if is_about.__len__ != 0:
                 curr_sub.is_about = [dis[s] for s in is_about]
             curr_sub.is_part_of = [curr_zakon]
             i = i + 1
-        tfidf.owl.save()
+        semanticki.tfidf.owl.save()
 
 
 if __name__ == '__main__':

@@ -1,6 +1,6 @@
-from tokenizer.patterns import recognize_pattern, FoundToken
-from tokenizer.TokenType import TokenType
-from tokenizer.BasicTokenizer import BasicTokenizer
+from Akoma.tokenizer.patterns import recognize_pattern, FoundToken
+from Akoma.tokenizer.TokenType import TokenType
+from Akoma.tokenizer.BasicTokenizer import BasicTokenizer
 import xml.etree.ElementTree as ET
 
 

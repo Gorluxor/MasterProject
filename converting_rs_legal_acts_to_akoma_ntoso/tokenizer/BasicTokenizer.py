@@ -1,5 +1,5 @@
-from tokenizer.TokenType import TokenType
-from tokenizer.patterns import recognize_pattern
+from converting_rs_legal_acts_to_akoma_ntoso.tokenizer.TokenType import TokenType
+from converting_rs_legal_acts_to_akoma_ntoso.tokenizer.patterns import recognize_pattern
 
 class BasicTokenizer():
 

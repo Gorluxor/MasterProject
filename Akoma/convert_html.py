@@ -1,15 +1,15 @@
 import io
 import xml.etree.ElementTree as ET
 
-import preprocessing.remove_html
-import preprocessing.init_akoma
-from tokenizer.HTMLTokenizer import HTMLTokenizer
+import Akoma.preprocessing.remove_html
+import Akoma.preprocessing.init_akoma
+from Akoma.tokenizer.HTMLTokenizer import HTMLTokenizer
 
-from form_akoma.AkomaBuilder import AkomaBuilder
-from reasoner.BasicReasoner import BasicReasoner
-from reasoner.OdlukaReasoner import OdlukaReasoner
-from form_akoma.MetadataBuilder import MetadataBuilder
-from named_enitity_recognition.pattern_recognition import add_refs
+from Akoma.form_akoma.AkomaBuilder import AkomaBuilder
+from Akoma.reasoner.BasicReasoner import BasicReasoner
+from Akoma.reasoner.OdlukaReasoner import OdlukaReasoner
+from Akoma.form_akoma.MetadataBuilder import MetadataBuilder
+from Akoma.named_enitity_recognition.pattern_recognition import add_refs
 
 
 """
@@ -17,9 +17,9 @@ from named_enitity_recognition.pattern_recognition import add_refs
     destination is the path for the result xml file
 """
 def convert_html(source, destination):
-    stringo = preprocessing.remove_html.preprocessing(source)
+    stringo = Akoma.preprocessing.remove_html.preprocessing(source)
     fajl = source.split("/")[-1]
-    akoma_root = preprocessing.init_akoma.init_xml("act")
+    akoma_root = Akoma.preprocessing.init_akoma.init_xml("act")
 
     html_root = ET.fromstring("<article>" + stringo + "</article>")
 
@@ -30,7 +30,7 @@ def convert_html(source, destination):
     reasoner.start()
 
     if reasoner.current_hierarchy[4] == 0:
-        akoma_root = preprocessing.init_akoma.init_xml("act")
+        akoma_root = Akoma.preprocessing.init_akoma.init_xml("act")
         metabuilder = MetadataBuilder("data/meta/allmeta.csv")
         metabuilder.build(fajl, akoma_root)
 

@@ -1,5 +1,5 @@
-from reasoner.BasicReasoner import BasicReasoner
-from tokenizer.TokenType import TokenType
+from converting_rs_legal_acts_to_akoma_ntoso.reasoner.BasicReasoner import BasicReasoner
+from converting_rs_legal_acts_to_akoma_ntoso.tokenizer.TokenType import TokenType
 
 class OdlukaReasoner(BasicReasoner):
 
