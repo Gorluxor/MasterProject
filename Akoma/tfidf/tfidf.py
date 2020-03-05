@@ -3,13 +3,15 @@
 """
 from os import path
 import re
-from Akoma.connector import connector
 #from gensim.models import Word2Vec
+from Akoma.connector import connector
+# from gensim.models import Word2Vecs
 from Akoma.convertToLatin import Convert
 from sklearn.feature_extraction.text import TfidfVectorizer
 import pandas as pd
 from Akoma.preprocessing import remove_html
 from Akoma.utilities import utilities
+
 
 def get_stop_words():
     stop_words_file = open(path.dirname(__file__) + "\\stopwords.txt", mode="r+", encoding="utf8")
@@ -71,10 +73,14 @@ def get_tf_idf_values_document(folder_path, filenames=None, return_just_words=Tr
         all_lines = "".join(file.readlines())
         act_array = []
 
-        if re.search("Član [0-9]*\.",all_lines) is None: # Check if cyrilic then to latin
+        if all_lines.find("<p>") != -1:
+            all_lines = remove_html.strip_html(all_lines, True)
+
+        if re.search("Član [0-9]*\.", all_lines) is None:  # Check if cyrilic then to latin
             all_lines = Convert.convert_string(all_lines)
 
         list_to_str = all_lines + "Član 0."
+
         found = re.finditer("Član [0-9]*\.", list_to_str)
         start_from = 0
         ends_to = 0
@@ -85,8 +91,6 @@ def get_tf_idf_values_document(folder_path, filenames=None, return_just_words=Tr
                 ends_to = m.start()
             if ends_to != 0:
                 insert_string = list_to_str[start_from:ends_to]  # m.group().strip() = what was found in regex
-                if insert_string.find("<p>") != -1:
-                    insert_string = remove_html.strip_html(insert_string,True)
                 act_array.append(insert_string)
             start_from = m.end()
 
@@ -94,8 +98,10 @@ def get_tf_idf_values_document(folder_path, filenames=None, return_just_words=Tr
         tokens = connector.only_lam(c_bl.join(act_array))
         tokens = [tok for tok in tokens if tok not in stop_words or tok.isdigit()]
         clans = " ".join(tokens)
-        list_clan_for_file = clans.split(c_bl) #Otpimized
+        list_clan_for_file = clans.split(c_bl)  # Otpimized
 
+        if len(act_array) == 0:
+            continue
 
         vectorizer = TfidfVectorizer()
         result = vectorizer.fit_transform(list_clan_for_file)
@@ -131,11 +137,12 @@ def get_tf_idf_values_document(folder_path, filenames=None, return_just_words=Tr
 
 
 if __name__ == '__main__':
-    #filenames , folderPath = get_file_names("data", "aktovi_raw_lat")
-    filenames = ["1.html","2.html"]
+    # filenames , folderPath = get_file_names("data", "aktovi_raw_lat")
+    filenames = ["1.html", "2.html"]
     path_folder = utilities.get_root_dir() + "\\data\\racts"
-    tf_idf_values = get_tf_idf_values_document(path_folder, filenames=filenames, return_just_words=False, with_file_names=False)
+    tf_idf_values = get_tf_idf_values_document(path_folder, filenames=filenames, return_just_words=False,
+                                               with_file_names=False)
     print(tf_idf_values)
     for el in tf_idf_values:
-        print([item[0] for item in el]) #FILES if return file names also
-        print([item[1] for item in el]) #WORDS if return file names also
+        print([item[0] for item in el])  # FILES if return file names also
+        print([item[1] for item in el])  # WORDS if return file names also
