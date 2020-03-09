@@ -13,7 +13,7 @@ from Akoma.form_akoma.MetadataBuilder import MetadataBuilder
 from Akoma.named_enitity_recognition.pattern_recognition import add_refs
 
 if __name__ == "__main__":
-    nastavi = "1.html" #""651.html"
+    nastavi = "85.html" #""651.html"
     idemo = False
     stani = ["562.html"] #["1160.html", "1575.html", "908.html", "2348.html", "318.html", "3062.html"] #ovi fajlovi su samo preveliki pa njihovo procesiranje traje dugo
     fajls = os.listdir("data/acts")
