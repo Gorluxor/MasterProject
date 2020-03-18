@@ -3,13 +3,14 @@
 """
 from os import path
 import re
-from connector import connector
-# from gensim.models import Word2Vec
-from convertToLatin import Convert
+#from gensim.models import Word2Vec
+from Akoma.connector import connector
+# from gensim.models import Word2Vecs
+from Akoma.convertToLatin import Convert
 from sklearn.feature_extraction.text import TfidfVectorizer
 import pandas as pd
-from preprocessing import remove_html
-from utilities import utilities
+from Akoma.preprocessing import remove_html
+from Akoma.utilities import utilities
 
 
 def get_stop_words():

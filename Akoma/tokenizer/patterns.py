@@ -1,4 +1,4 @@
-from tokenizer.TokenType import TokenType
+from Akoma.tokenizer.TokenType import TokenType
 import re
 
 

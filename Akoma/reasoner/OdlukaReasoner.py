@@ -1,5 +1,5 @@
-from reasoner.BasicReasoner import BasicReasoner
-from tokenizer.TokenType import TokenType
+from Akoma.reasoner.BasicReasoner import BasicReasoner
+from Akoma.tokenizer.TokenType import TokenType
 
 class OdlukaReasoner(BasicReasoner):
 

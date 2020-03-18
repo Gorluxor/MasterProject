@@ -3,7 +3,7 @@
 """
 from os import path
 import re
-from connector import connector
+from converting_rs_legal_acts_to_akoma_ntoso.connector import connector
 from gensim.models import Word2Vec
 from sklearn.feature_extraction.text import TfidfVectorizer
 import pandas as pd

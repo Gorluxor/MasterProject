@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as ET
 import io
-from form_akoma.Metadata import Metadata
-import preprocessing.init_akoma
+from Akoma.form_akoma.Metadata import Metadata
+import Akoma.preprocessing.init_akoma
 import os
 
 PREFIX = "{http://www.akomantoso.org/2.0}"
@@ -165,7 +165,7 @@ class MetadataBuilder():
 			meta.append(self.notes(metainfo.napomena_izdavaca, metainfo.dodatne_informacije))
 
 if __name__=="__main__":
-	akoma_root = preprocessing.init_akoma.init_xml("act")
+	akoma_root = Akoma.preprocessing.init_akoma.init_xml("act")
 
 	for fajl in os.listdir("../data/aktovi"):
 		metabuilder = MetadataBuilder("../data/metadata.csv")

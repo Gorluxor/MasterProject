@@ -2,15 +2,15 @@ import io
 import os
 import xml.etree.ElementTree as ET
 
-import preprocessing.remove_html
-import preprocessing.init_akoma
-from tokenizer.HTMLTokenizer import HTMLTokenizer
+import converting_rs_legal_acts_to_akoma_ntoso.preprocessing.remove_html
+import converting_rs_legal_acts_to_akoma_ntoso.preprocessing.init_akoma
+from converting_rs_legal_acts_to_akoma_ntoso.tokenizer.HTMLTokenizer import HTMLTokenizer
 
-from form_akoma.AkomaBuilder import AkomaBuilder
-from reasoner.BasicReasoner import BasicReasoner
-from reasoner.OdlukaReasoner import OdlukaReasoner
-from form_akoma.MetadataBuilder import MetadataBuilder
-from named_enitity_recognition.pattern_recognition import add_refs
+from converting_rs_legal_acts_to_akoma_ntoso.form_akoma.AkomaBuilder import AkomaBuilder
+from converting_rs_legal_acts_to_akoma_ntoso.reasoner.BasicReasoner import BasicReasoner
+from converting_rs_legal_acts_to_akoma_ntoso.reasoner.OdlukaReasoner import OdlukaReasoner
+from converting_rs_legal_acts_to_akoma_ntoso.form_akoma.MetadataBuilder import MetadataBuilder
+from converting_rs_legal_acts_to_akoma_ntoso.named_enitity_recognition.pattern_recognition import add_refs
 
 if __name__ == "__main__":
     nastavi = "xxx.html" #""651.html"
@@ -24,8 +24,8 @@ if __name__ == "__main__":
         if fajl in stani:
             continue
         print(fajl)
-        stringo = preprocessing.remove_html.preprocessing("data/aktovi_html/"+fajl)
-        akoma_root = preprocessing.init_akoma.init_xml("act")
+        stringo = converting_rs_legal_acts_to_akoma_ntoso.preprocessing.remove_html.preprocessing("data/aktovi_html/"+fajl)
+        akoma_root = converting_rs_legal_acts_to_akoma_ntoso.preprocessing.init_akoma.init_xml("act")
         #break
         #f = io.open('data/aktovi_raw/' +fajl, mode="w", encoding="utf-8")
         #f.write(stringo)
@@ -42,7 +42,7 @@ if __name__ == "__main__":
             reasoner.start()
 
             if reasoner.current_hierarchy[4] == 0:
-                akoma_root = preprocessing.init_akoma.init_xml("act")
+                akoma_root = converting_rs_legal_acts_to_akoma_ntoso.preprocessing.init_akoma.init_xml("act")
                 metabuilder = MetadataBuilder("data/metadata.csv")
                 metabuilder.build(fajl, akoma_root)
 

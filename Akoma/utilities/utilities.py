@@ -1,4 +1,4 @@
-from form_akoma.Metadata import Metadata
+from Akoma.form_akoma.Metadata import Metadata
 
 
 def get_meta(filename: str, path: str = "..//data/meta/allmeta.csv"):

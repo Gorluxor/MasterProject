@@ -1,4 +1,4 @@
-from tokenizer.patterns import recognize_pattern
+from Akoma.tokenizer.patterns import recognize_pattern
 
 
 class BasicTokenizer():
