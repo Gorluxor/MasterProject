@@ -62,76 +62,76 @@
 			<article id="clan1">
 				<num>1.</num>
 				<content>
-					<clause id="clan1-stav1">
+					<paragraph id="clan1-stav1">
 						<content>
 							<p>Потврђује се Споразум о зајму (Програм унапређења ефикасности и одрживости инфраструктуре) између Републике Србије и Међународне банке за обнову и развој, који је потписан у Београду, 2. новембра 2017. године, у оригиналу на енглеском језику.</p>
 						</content>
-					</clause>
+					</paragraph>
 				</content>
 			</article>
 			<article id="clan2">
 				<num>2.</num>
 				<content>
-					<clause id="clan2-stav1">
+					<paragraph id="clan2-stav1">
 						<content>
 							<p>Текст Споразума о зајму (Програм унапређења ефикасности и одрживости инфраструктуре) између Републике Србије и Међународне банке за обнову и развој, у оригиналу на енглеском језику и у преводу на српски језик гласи:</p>
 						</content>
-					</clause>
-					<clause id="clan2-stav2">
+					</paragraph>
+					<paragraph id="clan2-stav2">
 						<content>
 							<p>LOAN NUMBER 8792-YF</p>
 						</content>
-					</clause>
-					<clause id="clan2-stav3">
+					</paragraph>
+					<paragraph id="clan2-stav3">
 						<content>
 							<p>LOAN AGREEMENT</p>
 						</content>
-					</clause>
-					<clause id="clan2-stav4">
+					</paragraph>
+					<paragraph id="clan2-stav4">
 						<content>
 							<p>(Enhancing Infrastructure Efficiency and Sustainability Program)</p>
 						</content>
-					</clause>
-					<clause id="clan2-stav5">
+					</paragraph>
+					<paragraph id="clan2-stav5">
 						<content>
 							<p>BETWEEN</p>
 						</content>
-					</clause>
-					<clause id="clan2-stav6">
+					</paragraph>
+					<paragraph id="clan2-stav6">
 						<content>
 							<p>REPUBLIC OF SERBIA</p>
 						</content>
-					</clause>
-					<clause id="clan2-stav7">
+					</paragraph>
+					<paragraph id="clan2-stav7">
 						<content>
 							<p>and</p>
 						</content>
-					</clause>
-					<clause id="clan2-stav8">
+					</paragraph>
+					<paragraph id="clan2-stav8">
 						<content>
 							<p>INTERNATIONAL BANK FOR RECONSTRUCTION AND DEVELOPMENT</p>
 						</content>
-					</clause>
-					<clause id="clan2-stav9">
+					</paragraph>
+					<paragraph id="clan2-stav9">
 						<content>
 							<p>LOAN NUMBER 8792-YF</p>
 						</content>
-					</clause>
-					<clause id="clan2-stav10">
+					</paragraph>
+					<paragraph id="clan2-stav10">
 						<content>
 							<p>LOAN AGREEMENT</p>
 						</content>
-					</clause>
-					<clause id="clan2-stav11">
+					</paragraph>
+					<paragraph id="clan2-stav11">
 						<content>
 							<p>AGREEMENT dated as of the Signature Date between REPUBLIC OF SERBIA (“Borrower”) and INTERNATIONAL BANK FOR RECONSTRUCTION AND DEVELOPMENT (“Bank”). The Borrower and the Bank hereby agree as follows:</p>
 						</content>
-					</clause>
-					<clause id="clan2-stav12">
+					</paragraph>
+					<paragraph id="clan2-stav12">
 						<content>
 							<p>ARTICLE I – GENERAL CONDITIONS; DEFINITIONS</p>
 						</content>
-					</clause>
+					</paragraph>
 				</content>
 			</article>
 			<section id="od1">
@@ -144,11 +144,11 @@
 							<p>02. Unless the context requires otherwise, the capitalized terms used in this Agreement have the meanings ascribed to them in the General Conditions or in the Appendix to this Agreement.</p>
 						</content>
 					</тачка>
-					<clause id="od1-clan2-stav1">
+					<paragraph id="od1-clan2-stav1">
 						<content>
 							<p>ARTICLE II – LOAN</p>
 						</content>
-					</clause>
+					</paragraph>
 				</content>
 			</section>
 			<section id="od2">
@@ -191,22 +191,22 @@
 							</тачка>
 						</content>
 					</тачка>
-					<clause id="od2-clan2-stav1">
+					<paragraph id="od2-clan2-stav1">
 						<content>
 							<p>ARTICLE III – PROGRAM</p>
 						</content>
-					</clause>
+					</paragraph>
 				</content>
 			</section>
 			<section id="od3">
 				<num>3.</num>
 				<heading>01. The Borrower declares its commitment to the objective of the Program. To this end, the Borrower shall: (a) cause Public Enterprise Roads of Serbia, the Project Implementing Entity, to carry out Part 1 of the Program; and (b) through the Public Investment Management Office, to carry out Part 2 of the Program, in accordance with the provisions of Article V of the General Conditions, Schedule 2 to this Agreement, and the Program Agreement (in respect to Part 1 of the Program).</heading>
 				<content>
-					<clause id="od3-clan2-stav1">
+					<paragraph id="od3-clan2-stav1">
 						<content>
 							<p>ARTICLE IV – REMEDIES OF THE BANK</p>
 						</content>
-					</clause>
+					</paragraph>
 				</content>
 			</section>
 			<section id="od4">
@@ -219,22 +219,22 @@
 							<p>02. The Additional Event of Acceleration consists of the following, namely, that any event specified in Section 4.01 of this Agreement occurs and is continuing for a period of thirty (30) days after notice of the event has been given by the Bank to the Borrower.</p>
 						</content>
 					</тачка>
-					<clause id="od4-clan2-stav1">
+					<paragraph id="od4-clan2-stav1">
 						<content>
 							<p>ARTICLE V – EFFECTIVENESS</p>
 						</content>
-					</clause>
+					</paragraph>
 				</content>
 			</section>
 			<section id="od5">
 				<num>5.</num>
 				<heading>01. The Effectiveness Deadline is the date one hundred and eighty (180) days after the Signature Date.</heading>
 				<content>
-					<clause id="od5-clan2-stav1">
+					<paragraph id="od5-clan2-stav1">
 						<content>
 							<p>ARTICLE VI – REPRESENTATIVE; ADDRESSES</p>
 						</content>
-					</clause>
+					</paragraph>
 				</content>
 			</section>
 			<section id="od6">
@@ -247,101 +247,101 @@
 							<p>02. For purposes of Section 10.01 of the General Conditions:</p>
 						</content>
 					</тачка>
-					<clause id="od6-clan2-stav1">
+					<paragraph id="od6-clan2-stav1">
 						<content>
 							<p>(a) the Borrower’s address is:</p>
 						</content>
-					</clause>
-					<clause id="od6-clan2-stav2">
+					</paragraph>
+					<paragraph id="od6-clan2-stav2">
 						<content>
 							<p>Ministry of Finance</p>
 						</content>
-					</clause>
-					<clause id="od6-clan2-stav3">
+					</paragraph>
+					<paragraph id="od6-clan2-stav3">
 						<content>
 							<p>20 Kneza Milosa St.</p>
 						</content>
-					</clause>
-					<clause id="od6-clan2-stav4">
+					</paragraph>
+					<paragraph id="od6-clan2-stav4">
 						<content>
 							<p>11000 Belgrade</p>
 						</content>
-					</clause>
-					<clause id="od6-clan2-stav5">
+					</paragraph>
+					<paragraph id="od6-clan2-stav5">
 						<content>
 							<p>Republic of Serbia; and</p>
 						</content>
-					</clause>
-					<clause id="od6-clan2-stav6">
+					</paragraph>
+					<paragraph id="od6-clan2-stav6">
 						<content>
 							<p>(b) the Borrower’s Electronic Address is:</p>
 						</content>
-					</clause>
-					<clause id="od6-clan2-stav7">
+					</paragraph>
+					<paragraph id="od6-clan2-stav7">
 						<content>
 							<p>Facsimile:</p>
 						</content>
-					</clause>
-					<clause id="od6-clan2-stav8">
+					</paragraph>
+					<paragraph id="od6-clan2-stav8">
 						<content>
 							<p>(381-11) 3618-961</p>
 						</content>
-					</clause>
+					</paragraph>
 					<section id="od6">
 						<num>6.</num>
 						<heading>03. For purposes of Section 10.01 of the General Conditions:</heading>
 						<content>
-							<clause id="od6-clan2-stav1">
+							<paragraph id="od6-clan2-stav1">
 								<content>
 									<p>(a) the Bank’s address is:</p>
 								</content>
-							</clause>
-							<clause id="od6-clan2-stav2">
+							</paragraph>
+							<paragraph id="od6-clan2-stav2">
 								<content>
 									<p>International Bank for Reconstruction and Development</p>
 								</content>
-							</clause>
-							<clause id="od6-clan2-stav3">
+							</paragraph>
+							<paragraph id="od6-clan2-stav3">
 								<content>
 									<p>1818 H Street, N.W.</p>
 								</content>
-							</clause>
-							<clause id="od6-clan2-stav4">
+							</paragraph>
+							<paragraph id="od6-clan2-stav4">
 								<content>
 									<p>Washington, D.C. 20433</p>
 								</content>
-							</clause>
-							<clause id="od6-clan2-stav5">
+							</paragraph>
+							<paragraph id="od6-clan2-stav5">
 								<content>
 									<p>United States of America; and</p>
 								</content>
-							</clause>
-							<clause id="od6-clan2-stav6">
+							</paragraph>
+							<paragraph id="od6-clan2-stav6">
 								<content>
 									<p>(b) the Bank’s Electronic Address is:</p>
 								</content>
-							</clause>
-							<clause id="od6-clan2-stav7">
+							</paragraph>
+							<paragraph id="od6-clan2-stav7">
 								<content>
 									<p>Telex: Facsimile:</p>
 								</content>
-							</clause>
-							<clause id="od6-clan2-stav8">
+							</paragraph>
+							<paragraph id="od6-clan2-stav8">
 								<content>
 									<p>248423(MCI) or 1-202-477-6391</p>
 								</content>
-							</clause>
-							<clause id="od6-clan2-stav9">
+							</paragraph>
+							<paragraph id="od6-clan2-stav9">
 								<content>
 									<p>64145(MCI)</p>
 								</content>
-							</clause>
-							<clause id="od6-clan2-stav10">
+							</paragraph>
+							<paragraph id="od6-clan2-stav10">
 								<content>
 									<p>AGREED as of the Signature Date.</p>
 								</content>
-							</clause>
-							<став id="od6-clan2-stav11">
+							</paragraph>
+							<paragraph id="od6-clan2-stav11">
 								<table class="tabela-bez-bordera">
 									
 					
@@ -451,82 +451,82 @@
 								
 				
 								<content/>
-							</став>
-							<clause id="od6-clan2-stav12">
+							</paragraph>
+							<paragraph id="od6-clan2-stav12">
 								<content>
 									<p>SCHEDULE 1</p>
 								</content>
-							</clause>
-							<clause id="od6-clan2-stav13">
+							</paragraph>
+							<paragraph id="od6-clan2-stav13">
 								<content>
 									<p>Program Description</p>
 								</content>
-							</clause>
-							<clause id="od6-clan2-stav14">
+							</paragraph>
+							<paragraph id="od6-clan2-stav14">
 								<content>
 									<p>The objective of the Program is to improve the management and sustainability of select public infrastructure by strengthening the Borrower’s capacity and systems, upgrading assets, and increasing expenditure efficiency.</p>
 								</content>
-							</clause>
-							<clause id="od6-clan2-stav15">
+							</paragraph>
+							<paragraph id="od6-clan2-stav15">
 								<content>
 									<p>The Program consists of the following activities:</p>
 								</content>
-							</clause>
-							<clause id="od6-clan2-stav16">
+							</paragraph>
+							<paragraph id="od6-clan2-stav16">
 								<content>
 									<p>Part 1. Transport</p>
 								</content>
-							</clause>
-							<clause id="od6-clan2-stav17">
+							</paragraph>
+							<paragraph id="od6-clan2-stav17">
 								<content>
 									<p>Provision of support to the Borrower: (a) in the maintenance of 8,000 kilometers of the Borrower’s road maintenance program, which covers 14,894 kilometers of category one and category two National Roads managed by the Public Enterprise Roads of Serbia (“PERS”), over the period of 2017 through 2020; and (b) in the introduction and implementation of performance based maintenance contracting in the maintenance of the National Road system, specifically through:</p>
 								</content>
-							</clause>
-							<clause id="od6-clan2-stav18">
+							</paragraph>
+							<paragraph id="od6-clan2-stav18">
 								<content>
 									<p>(i) a Service Level Agreement (“SLA”);</p>
 								</content>
-							</clause>
-							<clause id="od6-clan2-stav19">
+							</paragraph>
+							<paragraph id="od6-clan2-stav19">
 								<content>
 									<p>(ii) the development by PERS of a rolling three-year, performance-based maintenance plan (“Performance-Based Maintenance Plan”) that shall be (A) in line with the PERS Long-Term and Medium-Term Business Strategy and Development Plan for 2017-2027, and (B) updated annually as part of the PERS Annual Business Plan; and</p>
 								</content>
-							</clause>
-							<clause id="od6-clan2-stav20">
+							</paragraph>
+							<paragraph id="od6-clan2-stav20">
 								<content>
 									<p>(iii) the development by PERS of an asset management plan (“Asset Management Plan”) to integrate management, financial, economic, and engineering practices in utilizing PERS’s physical assets, with the objective of providing users with the optimal level of infrastructure service in the most cost-effective manner.</p>
 								</content>
-							</clause>
-							<clause id="od6-clan2-stav21">
+							</paragraph>
+							<paragraph id="od6-clan2-stav21">
 								<content>
 									<p>Part 2. Energy</p>
 								</content>
-							</clause>
-							<clause id="od6-clan2-stav22">
+							</paragraph>
+							<paragraph id="od6-clan2-stav22">
 								<content>
 									<p>Renovation of 234 buildings officially approved by the Borrower for renovation based on municipal priorities and eligibility criteria established under the Program for Reconstruction and Improvement of State-Owned Public Facilities in Education, Healthcare and Social Protection Sectors.</p>
 								</content>
-							</clause>
-							<clause id="od6-clan2-stav23">
+							</paragraph>
+							<paragraph id="od6-clan2-stav23">
 								<content>
 									<p>SCHEDULE 2</p>
 								</content>
-							</clause>
-							<clause id="od6-clan2-stav24">
+							</paragraph>
+							<paragraph id="od6-clan2-stav24">
 								<content>
 									<p>Program Execution</p>
 								</content>
-							</clause>
-							<clause id="od6-clan2-stav25">
+							</paragraph>
+							<paragraph id="od6-clan2-stav25">
 								<content>
 									<p>Section I. Implementation Arrangements</p>
 								</content>
-							</clause>
-							<clause id="od6-clan2-stav26">
+							</paragraph>
+							<paragraph id="od6-clan2-stav26">
 								<content>
 									<p>A. Program Institutions</p>
 								</content>
-							</clause>
+							</paragraph>
 						</content>
 					</section>
 				</content>
@@ -535,12 +535,12 @@
 				<num>1.</num>
 				<heading> The Borrower shall:</heading>
 				<content>
-					<clause id="od1-clan2-stav1">
+					<paragraph id="od1-clan2-stav1">
 						<content>
 							<p>(a) cause PERS to carry out Part 1 of the Program and coordinate all related Program activities including procurement, supervision, monitoring of the progress of the performance based maintenance contract (“PBMC”) roll-out and reporting on the achievements of the Disbursement Linked Indicators (as defined in Section IV of Schedule 2), with Ministry of Construction, Transport and Infrastructure (“MCTI”) overseeing the regular management and execution of Part 1 of the Program; and</p>
 						</content>
-					</clause>
-					<clause id="od1-clan2-stav2">
+					</paragraph>
+					<paragraph id="od1-clan2-stav2">
 						<content>
 							<p>(b) carry out Part 2 of the Program, through the Public Investment Management Office (“PIMO”), which shall oversee the day-to-day management and execution of Part 2 of the Program.</p>
 							<тачка id="od1-clan2-stav2-tac2">
@@ -556,12 +556,12 @@
 								</content>
 							</тачка>
 						</content>
-					</clause>
-					<clause id="od1-clan2-stav3">
+					</paragraph>
+					<paragraph id="od1-clan2-stav3">
 						<content>
 							<p>B. Additional Program Implementation Arrangements</p>
 						</content>
-					</clause>
+					</paragraph>
 					<section id="od1">
 						<num>1.</num>
 						<heading> The Borrower shall carry out the Program Action Plan, or cause the Program Action Plan to be carried out, in accordance with the schedule set out in the said Program Action Plan and in a manner satisfactory to the Bank.</heading>
@@ -572,12 +572,12 @@
 									<p> Program Operations Manual for Part 2 of the Program</p>
 								</content>
 							</тачка>
-							<clause id="od1-clan2-stav1">
+							<paragraph id="od1-clan2-stav1">
 								<content>
 									<p>(a) The Borrower shall, through PIMO, in consultation with the Borrower’s relevant ministries, prepare and furnish to the Bank for its review a Program Operations Manual (“POM”) for Part 2 of the Program, setting forth, inter alia: (i) the eligibility criteria for and screening of public buildings to be selected for renovation under the Program; (ii) the methodology and procedures for the energy efficiency elaboration, technical design, works procurement, construction supervision, commissioning and monitoring; (iii) the technical and economic standards; (iv) the grievance redress mechanisms; and (v) the procedures for environmental oversight and monitoring, monitoring and evaluation, training and capacity building.</p>
 								</content>
-							</clause>
-							<clause id="od1-clan2-stav2">
+							</paragraph>
+							<paragraph id="od1-clan2-stav2">
 								<content>
 									<p>(b) The Borrower, through PIMO, shall carry out Part 2 of the Program in accordance with the POM, acceptable to the Bank, provided, however, that in case of any conflict between the arrangements and procedures set out in the POM and the provisions of this Agreement, the provisions of this Agreement shall prevail, and, except as the Bank shall otherwise agree in writing, the Borrower shall not amend, abrogate or waive any provision of the POM, if such amendment, abrogation or waiver may, in the opinion of the Bank, materially or adversely affect the implementation of the Program.</p>
 									<тачка id="od1-clan2-stav2-tac3">
@@ -587,47 +587,47 @@
 										</content>
 									</тачка>
 								</content>
-							</clause>
-							<clause id="od1-clan2-stav3">
+							</paragraph>
+							<paragraph id="od1-clan2-stav3">
 								<content>
 									<p>Section II. Excluded Activities</p>
 								</content>
-							</clause>
-							<clause id="od1-clan2-stav4">
+							</paragraph>
+							<paragraph id="od1-clan2-stav4">
 								<content>
 									<p>The Borrower shall ensure that the Program excludes any activities which:</p>
 								</content>
-							</clause>
-							<clause id="od1-clan2-stav5">
+							</paragraph>
+							<paragraph id="od1-clan2-stav5">
 								<content>
 									<p>A. in the opinion of the Bank, are likely to have significant adverse impacts that are sensitive, diverse, or unprecedented on the environment and/or affected people; or</p>
 								</content>
-							</clause>
-							<clause id="od1-clan2-stav6">
+							</paragraph>
+							<paragraph id="od1-clan2-stav6">
 								<content>
 									<p>B. involve the procurement of: (1) works, estimated to cost USD10,000,000 equivalent or more per contract; (2) goods, estimated to cost USD5,000,000 equivalent or more per contract; (3) non-consulting services, estimated to cost USD5,000,000 equivalent or more per contract; or (4) consulting services, estimated to cost USD5,000,000 equivalent or more per contract.</p>
 								</content>
-							</clause>
-							<clause id="od1-clan2-stav7">
+							</paragraph>
+							<paragraph id="od1-clan2-stav7">
 								<content>
 									<p>Section III. Program Monitoring, Reporting and Evaluation</p>
 								</content>
-							</clause>
-							<clause id="od1-clan2-stav8">
+							</paragraph>
+							<paragraph id="od1-clan2-stav8">
 								<content>
 									<p>The Borrower, through PERS and PIMO, shall furnish to the Bank each Program Report not later than forty-five (45) days after the end of each calendar semester, covering the calendar semester.</p>
 								</content>
-							</clause>
-							<clause id="od1-clan2-stav9">
+							</paragraph>
+							<paragraph id="od1-clan2-stav9">
 								<content>
 									<p>Section IV. Withdrawal of Loan Proceeds</p>
 								</content>
-							</clause>
-							<clause id="od1-clan2-stav10">
+							</paragraph>
+							<paragraph id="od1-clan2-stav10">
 								<content>
 									<p>A. General</p>
 								</content>
-							</clause>
+							</paragraph>
 							<section id="od1">
 								<num>1.</num>
 								<heading> Without limitation upon the provisions of Article II of the General Conditions and in accordance with the Disbursement and Financial Information Letter, the Borrower may withdraw the proceeds of the Loan to: (a) pay the Front-end Fee; and (b) finance the results (“Disbursement Linked Results” or “DLRs”) achieved by the Borrower and/or, as relevant, by the Program Implementing Entity, as measured against specific indicators (“Disbursement Linked Indicators” or “DLIs”); all as set forth in the table in paragraph 2 of this Part A.</heading>
@@ -638,7 +638,7 @@
 											<p> The following table specifies each category of withdrawal of the proceeds of the Loan (including the DLIs as applicable) (“Category”), the DLRs for each Category (as applicable), and the allocation of the amounts of the Loan to each Category:</p>
 										</content>
 									</тачка>
-									<став id="od1-clan2-stav1">
+									<paragraph id="od1-clan2-stav1">
 										<table class="tabela-sa-borderom">
 											
 					
@@ -1181,27 +1181,27 @@
 										
 				
 										<content/>
-									</став>
-									<clause id="od1-clan2-stav2">
+									</paragraph>
+									<paragraph id="od1-clan2-stav2">
 										<content>
 											<p>B. Withdrawal Conditions; Withdrawal Period</p>
 										</content>
-									</clause>
+									</paragraph>
 									<section id="od1">
 										<num>1.</num>
 										<heading> Notwithstanding the provisions of Part A of this Section, no withdrawal shall be made:</heading>
 										<content>
-											<clause id="od1-clan2-stav1">
+											<paragraph id="od1-clan2-stav1">
 												<content>
 													<p>(a) for purposes of Section 2.03 of the General Conditions, for DLRs achieved prior to the Signature Date, except that withdrawals up to an aggregate amount not to exceed EUR8,000,000 may be made for DLRs #4 and #7.1 achieved prior to this date but on or after May 3, 2017;</p>
 												</content>
-											</clause>
-											<clause id="od1-clan2-stav2">
+											</paragraph>
+											<paragraph id="od1-clan2-stav2">
 												<content>
 													<p>(b) for DLRs under Categories (1), (2) and (3), until and unless the Borrower has furnished evidence satisfactory to the Bank verifying the respective DLR(s) has/have been achieved; and</p>
 												</content>
-											</clause>
-											<clause id="od1-clan2-stav3">
+											</paragraph>
+											<paragraph id="od1-clan2-stav3">
 												<content>
 													<p>(c) for DLRs under Categories (5), (6), and (7), respectively, until and unless the Borrower has furnished evidence satisfactory to the Bank verifying that: (i) the DLR in Category (4) has been achieved in a manner acceptable to the Bank; and (ii) the respective DLR(s) for each Category (5), (6) and (7) has/have been achieved.</p>
 													<тачка id="od1-clan2-stav3-tac2">
@@ -1223,28 +1223,28 @@
 														</content>
 													</тачка>
 												</content>
-											</clause>
-											<clause id="od1-clan2-stav4">
+											</paragraph>
+											<paragraph id="od1-clan2-stav4">
 												<content>
 													<p>SCHEDULE 3</p>
 												</content>
-											</clause>
-											<clause id="od1-clan2-stav5">
+											</paragraph>
+											<paragraph id="od1-clan2-stav5">
 												<content>
 													<p>Commitment-Linked Amortization Repayment Schedule</p>
 												</content>
-											</clause>
-											<clause id="od1-clan2-stav6">
+											</paragraph>
+											<paragraph id="od1-clan2-stav6">
 												<content>
 													<p>The following table sets forth the Principal Payment Dates of the Loan and the percentage of the total principal amount of the Loan payable on each Principal Payment Date (“Installment Share”).</p>
 												</content>
-											</clause>
-											<clause id="od1-clan2-stav7">
+											</paragraph>
+											<paragraph id="od1-clan2-stav7">
 												<content>
 													<p>Level Principal Repayments</p>
 												</content>
-											</clause>
-											<став id="od1-clan2-stav8">
+											</paragraph>
+											<paragraph id="od1-clan2-stav8">
 												<table class="tabela-sa-borderom">
 													
 					
@@ -1336,17 +1336,17 @@
 												
 				
 												<content/>
-											</став>
-											<clause id="od1-clan2-stav9">
+											</paragraph>
+											<paragraph id="od1-clan2-stav9">
 												<content>
 													<p>APPENDIX</p>
 												</content>
-											</clause>
-											<clause id="od1-clan2-stav10">
+											</paragraph>
+											<paragraph id="od1-clan2-stav10">
 												<content>
 													<p>Definitions</p>
 												</content>
-											</clause>
+											</paragraph>
 											<section id="od1">
 												<num>1.</num>
 												<heading> “Anti-corruption Guidelines” means, for purposes of paragraph 5 of the Appendix to the General Conditions, the Bank’s “Guidelines on Preventing and Combating Fraud and Corruption in Program-for-Results Financing”, dated February 1, 2012, and revised July 10, 2015.</heading>
@@ -1405,7 +1405,7 @@
 															<p> “Government Decision” means an act of the Government adopted in accordance with the Law on Government.</p>
 														</content>
 													</тачка>
-													<clause id="od1-clan2-stav1">
+													<paragraph id="od1-clan2-stav1">
 														<content>
 															<p>11 “Law on Government” means the Borrower’s law of the same name published in the Official Gazette of the Republic of Serbia, No. 55/05, 71/05-revision, 101/07, 65/08, 16/11, 68/12-CC, 72/12, 7/14-CC, and 44/14).</p>
 															<тачка id="od1-clan2-stav1-tac12">
@@ -1541,62 +1541,62 @@
 																</content>
 															</тачка>
 														</content>
-													</clause>
-													<clause id="od1-clan2-stav2">
+													</paragraph>
+													<paragraph id="od1-clan2-stav2">
 														<content>
 															<p>ЗАЈАМ БРОЈ 8792-YF</p>
 														</content>
-													</clause>
-													<clause id="od1-clan2-stav3">
+													</paragraph>
+													<paragraph id="od1-clan2-stav3">
 														<content>
 															<p>СПОРАЗУМ О ЗАЈМУ</p>
 														</content>
-													</clause>
-													<clause id="od1-clan2-stav4">
+													</paragraph>
+													<paragraph id="od1-clan2-stav4">
 														<content>
 															<p>(Програм унапређења ефикасности и одрживости инфраструктуре)</p>
 														</content>
-													</clause>
-													<clause id="od1-clan2-stav5">
+													</paragraph>
+													<paragraph id="od1-clan2-stav5">
 														<content>
 															<p>ИЗМЕЂУ</p>
 														</content>
-													</clause>
-													<clause id="od1-clan2-stav6">
+													</paragraph>
+													<paragraph id="od1-clan2-stav6">
 														<content>
 															<p>РЕПУБЛИКЕ СРБИЈЕ</p>
 														</content>
-													</clause>
-													<clause id="od1-clan2-stav7">
+													</paragraph>
+													<paragraph id="od1-clan2-stav7">
 														<content>
 															<p>и</p>
 														</content>
-													</clause>
-													<clause id="od1-clan2-stav8">
+													</paragraph>
+													<paragraph id="od1-clan2-stav8">
 														<content>
 															<p>МЕЂУНАРОДНЕ БАНКЕ ЗА ОБНОВУ И РАЗВОЈ</p>
 														</content>
-													</clause>
-													<clause id="od1-clan2-stav9">
+													</paragraph>
+													<paragraph id="od1-clan2-stav9">
 														<content>
 															<p>ЗАЈАМ БРОЈ 8792-YF</p>
 														</content>
-													</clause>
-													<clause id="od1-clan2-stav10">
+													</paragraph>
+													<paragraph id="od1-clan2-stav10">
 														<content>
 															<p>СПОРАЗУМ О ЗАЈМУ</p>
 														</content>
-													</clause>
-													<clause id="od1-clan2-stav11">
+													</paragraph>
+													<paragraph id="od1-clan2-stav11">
 														<content>
 															<p>СПОРАЗУМ који датира са датумом потписивања између РЕПУБЛИКЕ СРБИЈЕ („Зајмопримац”) и МЕЂУНАРОДНЕ БАНКЕ ЗА ОБНОВУ И РАЗВОЈ („Банка”). Овим су се Зајмопримац и Банка сагласили о следећем:</p>
 														</content>
-													</clause>
-													<clause id="od1-clan2-stav12">
+													</paragraph>
+													<paragraph id="od1-clan2-stav12">
 														<content>
 															<p>ЧЛАН I – ОПШТИ УСЛОВИ; ДЕФИНИЦИЈЕ</p>
 														</content>
-													</clause>
+													</paragraph>
 													<section id="od1">
 														<num>1.</num>
 														<heading>01. Општи услови (како су дефинисани у Прилогу овог споразума) примењују се на овај споразум и његов су саставни део.</heading>
@@ -1607,11 +1607,11 @@
 																	<p>02. Уколико контекст другачије не захтева, појмови написани великим словом који се користе у овом споразуму имају значења која су им дата у Општим условима или у Прилогу овог споразума.</p>
 																</content>
 															</тачка>
-															<clause id="od1-clan2-stav1">
+															<paragraph id="od1-clan2-stav1">
 																<content>
 																	<p>ЧЛАН II – ЗАЈАМ</p>
 																</content>
-															</clause>
+															</paragraph>
 														</content>
 													</section>
 												</content>
@@ -1664,22 +1664,22 @@
 							</тачка>
 						</content>
 					</тачка>
-					<clause id="od2-clan2-stav1">
+					<paragraph id="od2-clan2-stav1">
 						<content>
 							<p>ЧЛАН III – ПРОГРАМ</p>
 						</content>
-					</clause>
+					</paragraph>
 				</content>
 			</section>
 			<section id="od3">
 				<num>3.</num>
 				<heading>01. Зајмопримац изјављује да се обавезује да оствари циљ Програма. У ту сврху, Зајмопримац ће: (a) учинити да Јавно предузеће „Путеви Србије”, Извршилац Програма, спроведе 1. део Програма, и (б) реализовати 2. део Програма, преко Канцеларије за управљање јавним улагањима, у складу са одредбама члана V Општих услова, Програма 2 уз овај споразум и Споразума о програму (у односу на 1. део Програма).</heading>
 				<content>
-					<clause id="od3-clan2-stav1">
+					<paragraph id="od3-clan2-stav1">
 						<content>
 							<p>ЧЛАН IV – ПРАВНИ ЛЕКОВИ БАНКЕ</p>
 						</content>
-					</clause>
+					</paragraph>
 				</content>
 			</section>
 			<section id="od4">
@@ -1692,22 +1692,22 @@
 							<p>02. Додатни случај убрзања састоји се од следећег, наиме, од сваког случаја, дефинисаног у ставу 4.01 овог споразума који настане и буде трајао у периоду од тридесет (30) дана након што је Банка обавестила о том догађају Зајмопримца.</p>
 						</content>
 					</тачка>
-					<clause id="od4-clan2-stav1">
+					<paragraph id="od4-clan2-stav1">
 						<content>
 							<p>ЧЛАН V – СТУПАЊЕ НА СНАГУ;</p>
 						</content>
-					</clause>
+					</paragraph>
 				</content>
 			</section>
 			<section id="od5">
 				<num>5.</num>
 				<heading>01. Крајњи Рок за ступање на снагу јесте датум који пада сто осамдесет (180) дана након Датума потписивања.</heading>
 				<content>
-					<clause id="od5-clan2-stav1">
+					<paragraph id="od5-clan2-stav1">
 						<content>
 							<p>ЧЛАН VI – ЗАСТУПНИК; АДРЕСЕ</p>
 						</content>
-					</clause>
+					</paragraph>
 				</content>
 			</section>
 			<section id="od6">
@@ -1720,101 +1720,101 @@
 							<p>02. За сврхе Одељка 10.01 Општих услова:</p>
 						</content>
 					</тачка>
-					<clause id="od6-clan2-stav1">
+					<paragraph id="od6-clan2-stav1">
 						<content>
 							<p>(a) адреса Зајмопримца је:</p>
 						</content>
-					</clause>
-					<clause id="od6-clan2-stav2">
+					</paragraph>
+					<paragraph id="od6-clan2-stav2">
 						<content>
 							<p>Министарство финансија</p>
 						</content>
-					</clause>
-					<clause id="od6-clan2-stav3">
+					</paragraph>
+					<paragraph id="od6-clan2-stav3">
 						<content>
 							<p>Кнеза Милоша 20</p>
 						</content>
-					</clause>
-					<clause id="od6-clan2-stav4">
+					</paragraph>
+					<paragraph id="od6-clan2-stav4">
 						<content>
 							<p>11000 Београд</p>
 						</content>
-					</clause>
-					<clause id="od6-clan2-stav5">
+					</paragraph>
+					<paragraph id="od6-clan2-stav5">
 						<content>
 							<p>Република Србија</p>
 						</content>
-					</clause>
-					<clause id="od6-clan2-stav6">
+					</paragraph>
+					<paragraph id="od6-clan2-stav6">
 						<content>
 							<p>(б) електронска адреса Зајмопримца је:</p>
 						</content>
-					</clause>
-					<clause id="od6-clan2-stav7">
+					</paragraph>
+					<paragraph id="od6-clan2-stav7">
 						<content>
 							<p>Факс:</p>
 						</content>
-					</clause>
-					<clause id="od6-clan2-stav8">
+					</paragraph>
+					<paragraph id="od6-clan2-stav8">
 						<content>
 							<p>(381-11) 3618-961</p>
 						</content>
-					</clause>
+					</paragraph>
 					<section id="od6">
 						<num>6.</num>
 						<heading>03. За сврхе Одељка 10.01 Општих услова:</heading>
 						<content>
-							<clause id="od6-clan2-stav1">
+							<paragraph id="od6-clan2-stav1">
 								<content>
 									<p>(a) адреса Банке је:</p>
 								</content>
-							</clause>
-							<clause id="od6-clan2-stav2">
+							</paragraph>
+							<paragraph id="od6-clan2-stav2">
 								<content>
 									<p>International Bank for Reconstruction and Development</p>
 								</content>
-							</clause>
-							<clause id="od6-clan2-stav3">
+							</paragraph>
+							<paragraph id="od6-clan2-stav3">
 								<content>
 									<p>1818 H Street, N.W.</p>
 								</content>
-							</clause>
-							<clause id="od6-clan2-stav4">
+							</paragraph>
+							<paragraph id="od6-clan2-stav4">
 								<content>
 									<p>Washington, D.C. 20433</p>
 								</content>
-							</clause>
-							<clause id="od6-clan2-stav5">
+							</paragraph>
+							<paragraph id="od6-clan2-stav5">
 								<content>
 									<p>United States of America; and</p>
 								</content>
-							</clause>
-							<clause id="od6-clan2-stav6">
+							</paragraph>
+							<paragraph id="od6-clan2-stav6">
 								<content>
 									<p>(б) електронска адреса Банке је:</p>
 								</content>
-							</clause>
-							<clause id="od6-clan2-stav7">
+							</paragraph>
+							<paragraph id="od6-clan2-stav7">
 								<content>
 									<p>Телекс: Факс:</p>
 								</content>
-							</clause>
-							<clause id="od6-clan2-stav8">
+							</paragraph>
+							<paragraph id="od6-clan2-stav8">
 								<content>
 									<p>248423(MCI) or 1-202-477-6391</p>
 								</content>
-							</clause>
-							<clause id="od6-clan2-stav9">
+							</paragraph>
+							<paragraph id="od6-clan2-stav9">
 								<content>
 									<p>64145(MCI)</p>
 								</content>
-							</clause>
-							<clause id="od6-clan2-stav10">
+							</paragraph>
+							<paragraph id="od6-clan2-stav10">
 								<content>
 									<p>Споразум је постигнут на Датум потписивања.</p>
 								</content>
-							</clause>
-							<став id="od6-clan2-stav11">
+							</paragraph>
+							<paragraph id="od6-clan2-stav11">
 								<table class="tabela-bez-bordera">
 									
 					
@@ -1918,23 +1918,23 @@
 								
 				
 								<content/>
-							</став>
-							<clause id="od6-clan2-stav12">
+							</paragraph>
+							<paragraph id="od6-clan2-stav12">
 								<content>
 									<p>ПРОГРАМ 1</p>
 								</content>
-							</clause>
-							<clause id="od6-clan2-stav13">
+							</paragraph>
+							<paragraph id="od6-clan2-stav13">
 								<content>
 									<p>Опис Програма</p>
 								</content>
-							</clause>
-							<clause id="od6-clan2-stav14">
+							</paragraph>
+							<paragraph id="od6-clan2-stav14">
 								<content>
 									<p>Циљ Програма јесте побољшање управљања и одрживости изабране јавне инфраструктуре јачањем капацитета и система Зајмопримца, обновом имовине и повећањем ефикасности расхода.</p>
 								</content>
-							</clause>
-							<clause id="od6-clan2-stav15">
+							</paragraph>
+							<paragraph id="od6-clan2-stav15">
 								<content>
 									<p>Програм се састоји из следећих активности:</p>
 									<тачка id="od6-clan2-stav15-tac1">
@@ -1944,23 +1944,23 @@
 										</content>
 									</тачка>
 								</content>
-							</clause>
-							<clause id="od6-clan2-stav16">
+							</paragraph>
+							<paragraph id="od6-clan2-stav16">
 								<content>
 									<p>Пружање подршке Зајмопримцу (а) у одржавању 8.000 километара путева у оквиру програма Зајмопримца за одржавање путева, који обухвата 14.894 километара државних путева првог и другог реда којима управља Јавно предузеће „Путеви Србије” („ЈППС”), у периоду од 2017. до 2020. године, и (б) увођење уговора заснованих на дефинисаном нивоу услуге за одржавање система државних путева, и то конкретно, кроз:</p>
 								</content>
-							</clause>
-							<clause id="od6-clan2-stav17">
+							</paragraph>
+							<paragraph id="od6-clan2-stav17">
 								<content>
 									<p>(i) Уговор о нивоу услуга („СЛА”)</p>
 								</content>
-							</clause>
-							<clause id="od6-clan2-stav18">
+							</paragraph>
+							<paragraph id="od6-clan2-stav18">
 								<content>
 									<p>(ii) израду од стране ЈППС трогодишњег Плана одржавања по учинку који се одвија у одређеном временском периоду („План одржавања по учинку”) и који се (А) усклађује са Дугорочним и средњорочним планом пословне стратегије и развоја ЈППС за период 2017–2027. година, и (Б) ажурира годишње као део годишњег Плана пословања ЈППС; и</p>
 								</content>
-							</clause>
-							<clause id="od6-clan2-stav19">
+							</paragraph>
+							<paragraph id="od6-clan2-stav19">
 								<content>
 									<p>(iii) израду плана за управљање средствима („План управљања средствима”) од стране ЈППС ради обједињавања управљачке, финансијске, економске и инжењерске праксе у коришћењу физичких средстава ЈППС, са циљем да корисницима обезбеди оптималан ниво инфраструктурних услуга на најисплативији начин.</p>
 									<тачка id="od6-clan2-stav19-tac2">
@@ -1970,32 +1970,32 @@
 										</content>
 									</тачка>
 								</content>
-							</clause>
-							<clause id="od6-clan2-stav20">
+							</paragraph>
+							<paragraph id="od6-clan2-stav20">
 								<content>
 									<p>Реновирање 234 објекта које званично одобри Зајмопримац за обнову, на основу општинских приоритета и критеријума о подобности који су успостављени према Програму обнове и унапређења објеката јавне намене у јавној својини у области образовања, здравства и социјалне заштите Зајмопримца.</p>
 								</content>
-							</clause>
-							<clause id="od6-clan2-stav21">
+							</paragraph>
+							<paragraph id="od6-clan2-stav21">
 								<content>
 									<p>ПРОГРАМ 2</p>
 								</content>
-							</clause>
-							<clause id="od6-clan2-stav22">
+							</paragraph>
+							<paragraph id="od6-clan2-stav22">
 								<content>
 									<p>Спровођење Програма</p>
 								</content>
-							</clause>
-							<clause id="od6-clan2-stav23">
+							</paragraph>
+							<paragraph id="od6-clan2-stav23">
 								<content>
 									<p>Одељак I. Аранжмани за имплементацију</p>
 								</content>
-							</clause>
-							<clause id="od6-clan2-stav24">
+							</paragraph>
+							<paragraph id="od6-clan2-stav24">
 								<content>
 									<p>A. Програмске институције</p>
 								</content>
-							</clause>
+							</paragraph>
 						</content>
 					</section>
 				</content>
@@ -2004,12 +2004,12 @@
 				<num>1.</num>
 				<heading> Зајмопримац ће:</heading>
 				<content>
-					<clause id="od1-clan2-stav1">
+					<paragraph id="od1-clan2-stav1">
 						<content>
 							<p>(а) Учинити да Јавно предузеће „Путеви Србије” спроведе 1. део Програма и координира све повезане активности Програма, укључујући набавку, надзор, праћење напретка у извршењу уговора заснованих на дефинисаном нивоу услуге („ПБМЦ”) и извештавање о постигнутим резултатима на основу Показатеља везаних за исплате („ДЛИ”) (како је дефинисано у Одељку IV. Програма 2), заједно са Министарством грађевинарства, саобраћаја и инфраструктуре („МГСИ”) које надгледа правилно управљање и спровођење 1. дела Програма; и</p>
 						</content>
-					</clause>
-					<clause id="od1-clan2-stav2">
+					</paragraph>
+					<paragraph id="od1-clan2-stav2">
 						<content>
 							<p>(б) Реализовати 2. део Програма, преко Канцеларије за управљање јавним улагањима („КУЈУ”) која ће свакодневно надгледати управљање и извршење 2. дела Програма.</p>
 							<тачка id="od1-clan2-stav2-tac2">
@@ -2025,12 +2025,12 @@
 								</content>
 							</тачка>
 						</content>
-					</clause>
-					<clause id="od1-clan2-stav3">
+					</paragraph>
+					<paragraph id="od1-clan2-stav3">
 						<content>
 							<p>Б. Додатни аранжмани за спровођење Програма</p>
 						</content>
-					</clause>
+					</paragraph>
 					<section id="od1">
 						<num>1.</num>
 						<heading> Зајмопримац ће реализовати Акциони план Програма, или ће се потрудити да Акциони план Програма буде спроведен у складу са Програмом, како је утврђено у наведеном Акционом плану програма, на начин који је задовољавајући за Банку.</heading>
@@ -2041,12 +2041,12 @@
 									<p> Оперативни приручник Програма за 2. део Програма</p>
 								</content>
 							</тачка>
-							<clause id="od1-clan2-stav1">
+							<paragraph id="od1-clan2-stav1">
 								<content>
 									<p>(а) Зајмопримац ће, преко КУЈУ, у консултацији са релевантним министарствима Зајмопримца, припремити и доставити Банци на проверу Оперативни приручник Програма („ОПП”) за 2. део Програма, у коме ће, између осталог, бити дефинисани: (а) квалификациони критеријуми за објекте јавне намене и њихов скрининг приликом одабира за реновирање у оквиру Програма; (б) методологија и процедуре за елаборате енергетске ефикасности, технички пројекат, набавку радова, надзор над изградњом, пуштање у рад и надзор; (ц) технички и економски стандарди; (д) механизми за решавање притужби; и (е) процедуре за еколошки надзор и контролу, надгледање и оцену, обуку и изградњу капацитета.</p>
 								</content>
-							</clause>
-							<clause id="od1-clan2-stav2">
+							</paragraph>
+							<paragraph id="od1-clan2-stav2">
 								<content>
 									<p>(б) Зајмопримац ће, преко КУЈУ, спроводити 2. део Програма у складу са ОПП, прихватљивим за Банку, под условом да у случају било каквог неслагања између аранжмана и процедура дефинисаних у ОПП са одредбама овог споразума, одредбе овог споразума се сматрају важећим, и осим ако се Банка не сагласи другачије у писаној форми, Зајмопримац не може да измени, укине или одустане од било које одредбе Оперативног приручника Програма, уколико таква измена, укидање или одрицање може, по мишљењу Банке, материјално или негативно да утиче на имплементацију Програма.</p>
 									<тачка id="od1-clan2-stav2-tac3">
@@ -2056,47 +2056,47 @@
 										</content>
 									</тачка>
 								</content>
-							</clause>
-							<clause id="od1-clan2-stav3">
+							</paragraph>
+							<paragraph id="od1-clan2-stav3">
 								<content>
 									<p>Одељак II. Искључене активности</p>
 								</content>
-							</clause>
-							<clause id="od1-clan2-stav4">
+							</paragraph>
+							<paragraph id="od1-clan2-stav4">
 								<content>
 									<p>Зајмопримац ће обезбедити да у Програм не буде укључена ни једна активност која:</p>
 								</content>
-							</clause>
-							<clause id="od1-clan2-stav5">
+							</paragraph>
+							<paragraph id="od1-clan2-stav5">
 								<content>
 									<p>A. према мишљењу Банке, може да има значајне негативне утицаје који су осетљиви, различити, или без преседана на животну средину и/или утичу на људе; или</p>
 								</content>
-							</clause>
-							<clause id="od1-clan2-stav6">
+							</paragraph>
+							<paragraph id="od1-clan2-stav6">
 								<content>
 									<p>Б. укључује набавку: (1) радова, за које се процењује да коштају у противвредности 10.000.000 USD или више по уговору; (2) добара, за која се процењује да коштају у противвредности 5.000.000 USD или више по уговору; (3) неконсултантске услуге, за које се процењује да коштају у противвредности 5.000.000 USD или више по уговору; или (4) консултантске услуге, за које се процењује да коштају у противвредности 5.000.000 USD или више по уговору.</p>
 								</content>
-							</clause>
-							<clause id="od1-clan2-stav7">
+							</paragraph>
+							<paragraph id="od1-clan2-stav7">
 								<content>
 									<p>Одељак III. Праћење, извештавање и оцена Програма</p>
 								</content>
-							</clause>
-							<clause id="od1-clan2-stav8">
+							</paragraph>
+							<paragraph id="od1-clan2-stav8">
 								<content>
 									<p>Зајмопримац, преко ЈППС и КУЈУ, доставља Банци Извештај о сваком Програму који обухвата календарски семестар, најкасније четрдесет пет (45) дана након завршетка сваког календарског семестра.</p>
 								</content>
-							</clause>
-							<clause id="od1-clan2-stav9">
+							</paragraph>
+							<paragraph id="od1-clan2-stav9">
 								<content>
 									<p>Одељак IV. Повлачење средстава Зајма</p>
 								</content>
-							</clause>
-							<clause id="od1-clan2-stav10">
+							</paragraph>
+							<paragraph id="od1-clan2-stav10">
 								<content>
 									<p>A. Опште</p>
 								</content>
-							</clause>
+							</paragraph>
 							<section id="od1">
 								<num>1.</num>
 								<heading> Без ограничења одредбама члана II Општих услова и у складу са Писмом о исплати и финансијским информацијама, Зајмопримац може да повуче средства Зајма за (а) плаћање Приступне накнаде; и (б) финансирање резултата („Резултати везани са исплатом” или „ДЛР”) које постигне Зајмопримац и/или, као релевантно, од стране Извршиоца Програма, мерено у односу на специфичне показатеље („Показатељи везани за исплате” или „ДЛИ”); све према табели из става 2. овог дела A.</heading>
@@ -2107,7 +2107,7 @@
 											<p> Следећа табела дефинише сваку категорију повлачења средстава Зајма (укључујући Показатеље везане за исплату, зависно шта се примењује) („Категорија”), Резултате повезане са исплатом за сваку Категорију (зависно шта се примењује), и издвајање средстава Зајма за сваку Категорију:</p>
 										</content>
 									</тачка>
-									<став id="od1-clan2-stav1">
+									<paragraph id="od1-clan2-stav1">
 										<table class="tabela-sa-borderom">
 											
 					
@@ -2653,27 +2653,27 @@
 										
 				
 										<content/>
-									</став>
-									<clause id="od1-clan2-stav2">
+									</paragraph>
+									<paragraph id="od1-clan2-stav2">
 										<content>
 											<p>Б. Услови за повлачење; Период повлачења</p>
 										</content>
-									</clause>
+									</paragraph>
 									<section id="od1">
 										<num>1.</num>
 										<heading> Изузетно од одредби из дела A овог одељка, никакво повлачење се не може вршити:</heading>
 										<content>
-											<clause id="od1-clan2-stav1">
+											<paragraph id="od1-clan2-stav1">
 												<content>
 													<p>(a) за сврхе Одељка 2.03 Општих услова, за ДЛР постигнуте пре Датума потписивања, осим повлачења до укупног износа који не прелази 8.000.000 евра, могу се вршити повлачења за постигнуте ДЛР 4 и 7.1 пре овог датума али на сам дан или после 3. маја 2017. године;</p>
 												</content>
-											</clause>
-											<clause id="od1-clan2-stav2">
+											</paragraph>
+											<paragraph id="od1-clan2-stav2">
 												<content>
 													<p>(б) за сваки од ДЛР у оквиру Категорија (1), (2) и (3), све док и уколико Зајмопримац није доставио доказе који су задовољавајући за Банку а којима се потврђује да су остварени одговарајући ДЛР; и</p>
 												</content>
-											</clause>
-											<clause id="od1-clan2-stav3">
+											</paragraph>
+											<paragraph id="od1-clan2-stav3">
 												<content>
 													<p>(ц) за ДЛР у оквиру Категорија (5), (6) и (7), све док и осим уколико Зајмопримац није доставио доказе који су задовољавајући за Банку и потврђују (i) да је ДЛР из Категорије (4) остварен на начин прихватљив за Банку, и (ii) да су остварени одговарајући ДЛР за сваку од Категорија (5), (6) и (7).</p>
 													<тачка id="od1-clan2-stav3-tac2">
@@ -2695,28 +2695,28 @@
 														</content>
 													</тачка>
 												</content>
-											</clause>
-											<clause id="od1-clan2-stav4">
+											</paragraph>
+											<paragraph id="od1-clan2-stav4">
 												<content>
 													<p>ПРОГРАМ 3</p>
 												</content>
-											</clause>
-											<clause id="od1-clan2-stav5">
+											</paragraph>
+											<paragraph id="od1-clan2-stav5">
 												<content>
 													<p>План отплате повезан са преузетом обавезом</p>
 												</content>
-											</clause>
-											<clause id="od1-clan2-stav6">
+											</paragraph>
+											<paragraph id="od1-clan2-stav6">
 												<content>
 													<p>Наредна табела утврђује Датуме отплате главнице Зајма и проценат износa укупне главнице Зајма плативе на сваки Датум плаћања главнице („Удео рате”).</p>
 												</content>
-											</clause>
-											<clause id="od1-clan2-stav7">
+											</paragraph>
+											<paragraph id="od1-clan2-stav7">
 												<content>
 													<p>Отплате главнице подељене на једнаке делове</p>
 												</content>
-											</clause>
-											<став id="od1-clan2-stav8">
+											</paragraph>
+											<paragraph id="od1-clan2-stav8">
 												<table class="tabela-sa-borderom">
 													
 					
@@ -2808,17 +2808,17 @@
 												
 				
 												<content/>
-											</став>
-											<clause id="od1-clan2-stav9">
+											</paragraph>
+											<paragraph id="od1-clan2-stav9">
 												<content>
 													<p>ПРИЛОГ</p>
 												</content>
-											</clause>
-											<clause id="od1-clan2-stav10">
+											</paragraph>
+											<paragraph id="od1-clan2-stav10">
 												<content>
 													<p>Дефиниције</p>
 												</content>
-											</clause>
+											</paragraph>
 											<section id="od1">
 												<num>1.</num>
 												<heading> „Смернице за борбу против корупције” значи, за сврхе става 5. Прилога Општих услова, „Смернице за спречавање и борбу против превара и корупције у финансирању резултата програма” Светске банке од 1. фебруара 2012. године, ревидиране 10. јула 2015. године.</heading>
@@ -3018,11 +3018,11 @@
 													<article id="od1-clan3">
 														<num>3.</num>
 														<content>
-															<clause id="od1-clan3-stav1">
+															<paragraph id="od1-clan3-stav1">
 																<content>
 																	<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије – Међународни уговори”.</p>
 																</content>
-															</clause>
+															</paragraph>
 														</content>
 													</article>
 												</content>

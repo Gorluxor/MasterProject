@@ -63,81 +63,81 @@
 			<article id="clan1">
 				<num>1.</num>
 				<content>
-					<clause id="clan1-stav1">
+					<paragraph id="clan1-stav1">
 						<content>
 							<p>Потврђује се Споразум о зајму (Пројекат инклузивног предшколског образовања и васпитања) између Републике Србије и Међународне банке за обнову и развој, који је потписан 12. маја 2017. године у Београду, у оригиналу на енглеском језику.</p>
 						</content>
-					</clause>
+					</paragraph>
 				</content>
 			</article>
 			<article id="clan2">
 				<num>2.</num>
 				<content>
-					<clause id="clan2-stav1">
+					<paragraph id="clan2-stav1">
 						<content>
 							<p>Текст Споразума о зајму (Пројекат инклузивног предшколског образовања и васпитања) између Републике Србије и Међународне банке за обнову и развој, у оригиналу на енглеском језику и у преводу на српски језик гласи:</p>
 						</content>
-					</clause>
-					<clause id="clan2-stav2">
+					</paragraph>
+					<paragraph id="clan2-stav2">
 						<content>
 							<p>LOAN NUMBER 8693-YF</p>
 						</content>
-					</clause>
-					<clause id="clan2-stav3">
+					</paragraph>
+					<paragraph id="clan2-stav3">
 						<content>
 							<p>LOAN AGREEMENT</p>
 						</content>
-					</clause>
-					<clause id="clan2-stav4">
+					</paragraph>
+					<paragraph id="clan2-stav4">
 						<content>
 							<p>(INCLUSIVE EARLY CHILDHOOD EDUCATION AND CARE PROJECT)</p>
 						</content>
-					</clause>
-					<clause id="clan2-stav5">
+					</paragraph>
+					<paragraph id="clan2-stav5">
 						<content>
 							<p>BETWEEN</p>
 						</content>
-					</clause>
-					<clause id="clan2-stav6">
+					</paragraph>
+					<paragraph id="clan2-stav6">
 						<content>
 							<p>REPUBLIC OF SERBIA</p>
 						</content>
-					</clause>
-					<clause id="clan2-stav7">
+					</paragraph>
+					<paragraph id="clan2-stav7">
 						<content>
 							<p>AND</p>
 						</content>
-					</clause>
-					<clause id="clan2-stav8">
+					</paragraph>
+					<paragraph id="clan2-stav8">
 						<content>
 							<p>INTERNATIONAL BANK FOR RECONSTRUCTION AND DEVELOPMENT</p>
 						</content>
-					</clause>
-					<clause id="clan2-stav9">
+					</paragraph>
+					<paragraph id="clan2-stav9">
 						<content>
 							<p>DATED MAY 12, 2017</p>
 						</content>
-					</clause>
-					<clause id="clan2-stav10">
+					</paragraph>
+					<paragraph id="clan2-stav10">
 						<content>
 							<p>LOAN NUMBER 8693-YF</p>
 						</content>
-					</clause>
-					<clause id="clan2-stav11">
+					</paragraph>
+					<paragraph id="clan2-stav11">
 						<content>
 							<p>LOAN AGREEMENT</p>
 						</content>
-					</clause>
-					<clause id="clan2-stav12">
+					</paragraph>
+					<paragraph id="clan2-stav12">
 						<content>
 							<p>Agreement dated May 12, 2017, between REPUBLIC OF SERBIA (”Borrower”) and INTERNATIONAL BANK FOR RECONSTRUCTION AND DEVELOPMENT (”Bank”). The Borrower and the Bank hereby agree as follows:</p>
 						</content>
-					</clause>
-					<clause id="clan2-stav13">
+					</paragraph>
+					<paragraph id="clan2-stav13">
 						<content>
 							<p>ARTICLE I — GENERAL CONDITIONS; DEFINITIONS</p>
 						</content>
-					</clause>
+					</paragraph>
 				</content>
 			</article>
 			<section id="od1">
@@ -150,11 +150,11 @@
 							<p>02. Unless the context requires otherwise, the capitalized terms used in this Agreement have the meanings ascribed to them in the General Conditions or in the Appendix to this Agreement.</p>
 						</content>
 					</тачка>
-					<clause id="od1-clan2-stav1">
+					<paragraph id="od1-clan2-stav1">
 						<content>
 							<p>ARTICLE II — LOAN</p>
 						</content>
-					</clause>
+					</paragraph>
 				</content>
 			</section>
 			<section id="od2">
@@ -203,16 +203,16 @@
 							</тачка>
 						</content>
 					</тачка>
-					<clause id="od2-clan2-stav1">
+					<paragraph id="od2-clan2-stav1">
 						<content>
 							<p>(b) Any conversion requested pursuant to paragraph (a) of this Section that is accepted by the Bank shall be considered a ”Conversion”, as defined in the General Conditions, and shall be effected in accordance with the provisions of Article IV of the General Conditions and of the Conversion Guidelines.</p>
 						</content>
-					</clause>
-					<clause id="od2-clan2-stav2">
+					</paragraph>
+					<paragraph id="od2-clan2-stav2">
 						<content>
 							<p>ARTICLE III — PROJECT</p>
 						</content>
-					</clause>
+					</paragraph>
 				</content>
 			</section>
 			<section id="od3">
@@ -225,41 +225,41 @@
 							<p>02. Without limitation upon the provisions of Section 3.01 of this Agreement, and except as the Borrower and the Bank shall otherwise agree, the Borrower shall ensure that the Project is carried out in accordance with the provisions of Schedule 2 to this Agreement.</p>
 						</content>
 					</тачка>
-					<clause id="od3-clan2-stav1">
+					<paragraph id="od3-clan2-stav1">
 						<content>
 							<p>ARTICLE IV — EFFECTIVENESS; TERMINATION</p>
 						</content>
-					</clause>
+					</paragraph>
 				</content>
 			</section>
 			<section id="od4">
 				<num>4.</num>
 				<heading>01. The Additional Conditions of Effectiveness consist of the following:</heading>
 				<content>
-					<clause id="od4-clan2-stav1">
+					<paragraph id="od4-clan2-stav1">
 						<content>
 							<p>(a) The Borrower, through its Ministry of Finance, has formally established the Central Fiduciary Unit, with functions and staffing satisfactory to the Bank;</p>
 						</content>
-					</clause>
-					<clause id="od4-clan2-stav2">
+					</paragraph>
+					<paragraph id="od4-clan2-stav2">
 						<content>
 							<p>(b) The Borrower, through its MoESTD, has formally established the Project Management Unit, with functions and staffing satisfactory to the Bank; and</p>
 						</content>
-					</clause>
-					<clause id="od4-clan2-stav3">
+					</paragraph>
+					<paragraph id="od4-clan2-stav3">
 						<content>
 							<p>(c) The Borrower, through the MoESTD, has adopted the Project Operations Manual to the satisfaction of the Bank; and</p>
 						</content>
-					</clause>
+					</paragraph>
 					<section id="od4">
 						<num>4.</num>
 						<heading>02. The Effectiveness Deadline is the date one hundred and eighty (180) days after the date of this Agreement.</heading>
 						<content>
-							<clause id="od4-clan2-stav1">
+							<paragraph id="od4-clan2-stav1">
 								<content>
 									<p>ARTICLE V — REPRESENTATIVE; ADDRESSES</p>
 								</content>
-							</clause>
+							</paragraph>
 						</content>
 					</section>
 				</content>
@@ -274,215 +274,215 @@
 							<p>02. The Borrower’s Address is:</p>
 						</content>
 					</тачка>
-					<clause id="od5-clan2-stav1">
+					<paragraph id="od5-clan2-stav1">
 						<content>
 							<p>Ministry of Finance</p>
 						</content>
-					</clause>
-					<clause id="od5-clan2-stav2">
+					</paragraph>
+					<paragraph id="od5-clan2-stav2">
 						<content>
 							<p>20 Kneza Milosa Street</p>
 						</content>
-					</clause>
-					<clause id="od5-clan2-stav3">
+					</paragraph>
+					<paragraph id="od5-clan2-stav3">
 						<content>
 							<p>11000 Belgrade</p>
 						</content>
-					</clause>
-					<clause id="od5-clan2-stav4">
+					</paragraph>
+					<paragraph id="od5-clan2-stav4">
 						<content>
 							<p>Republic of Serbia</p>
 						</content>
-					</clause>
-					<clause id="od5-clan2-stav5">
+					</paragraph>
+					<paragraph id="od5-clan2-stav5">
 						<content>
 							<p>Facsimile:</p>
 						</content>
-					</clause>
-					<clause id="od5-clan2-stav6">
+					</paragraph>
+					<paragraph id="od5-clan2-stav6">
 						<content>
 							<p>(381-11) 3618-961</p>
 						</content>
-					</clause>
+					</paragraph>
 					<section id="od5">
 						<num>5.</num>
 						<heading>03. The Bank’s Address is:</heading>
 						<content>
-							<clause id="od5-clan2-stav1">
+							<paragraph id="od5-clan2-stav1">
 								<content>
 									<p>International Bank for Reconstruction and Development</p>
 								</content>
-							</clause>
-							<clause id="od5-clan2-stav2">
+							</paragraph>
+							<paragraph id="od5-clan2-stav2">
 								<content>
 									<p>1818 H Street, N.W.</p>
 								</content>
-							</clause>
-							<clause id="od5-clan2-stav3">
+							</paragraph>
+							<paragraph id="od5-clan2-stav3">
 								<content>
 									<p>Washington, D.C. 20433</p>
 								</content>
-							</clause>
-							<clause id="od5-clan2-stav4">
+							</paragraph>
+							<paragraph id="od5-clan2-stav4">
 								<content>
 									<p>United States of America</p>
 								</content>
-							</clause>
-							<clause id="od5-clan2-stav5">
+							</paragraph>
+							<paragraph id="od5-clan2-stav5">
 								<content>
 									<p>Telex: Facsimile:</p>
 								</content>
-							</clause>
-							<clause id="od5-clan2-stav6">
+							</paragraph>
+							<paragraph id="od5-clan2-stav6">
 								<content>
 									<p>248423(MCI) or 1-202-477-6391</p>
 								</content>
-							</clause>
-							<clause id="od5-clan2-stav7">
+							</paragraph>
+							<paragraph id="od5-clan2-stav7">
 								<content>
 									<p>64145(MCI)</p>
 								</content>
-							</clause>
-							<clause id="od5-clan2-stav8">
+							</paragraph>
+							<paragraph id="od5-clan2-stav8">
 								<content>
 									<p>AGREED at Belgrade, Republic of Serbia, as of the day and year first above written.</p>
 								</content>
-							</clause>
-							<clause id="od5-clan2-stav9">
+							</paragraph>
+							<paragraph id="od5-clan2-stav9">
 								<content>
 									<p>REPUBLIC OF SERBIA</p>
 								</content>
-							</clause>
-							<clause id="od5-clan2-stav10">
+							</paragraph>
+							<paragraph id="od5-clan2-stav10">
 								<content>
 									<p>By</p>
 								</content>
-							</clause>
-							<clause id="od5-clan2-stav11">
+							</paragraph>
+							<paragraph id="od5-clan2-stav11">
 								<content>
 									<p>________________________________________</p>
 								</content>
-							</clause>
-							<clause id="od5-clan2-stav12">
+							</paragraph>
+							<paragraph id="od5-clan2-stav12">
 								<content>
 									<p>Authorized Representative</p>
 								</content>
-							</clause>
-							<clause id="od5-clan2-stav13">
+							</paragraph>
+							<paragraph id="od5-clan2-stav13">
 								<content>
 									<p>Name: Dusan Vujovic, PhD</p>
 								</content>
-							</clause>
-							<clause id="od5-clan2-stav14">
+							</paragraph>
+							<paragraph id="od5-clan2-stav14">
 								<content>
 									<p>Title: Minister of Finance</p>
 								</content>
-							</clause>
-							<clause id="od5-clan2-stav15">
+							</paragraph>
+							<paragraph id="od5-clan2-stav15">
 								<content>
 									<p>INTERNATIONAL BANK FOR RECONSTRUCTION AND DEVELOPMENT</p>
 								</content>
-							</clause>
-							<clause id="od5-clan2-stav16">
+							</paragraph>
+							<paragraph id="od5-clan2-stav16">
 								<content>
 									<p>By</p>
 								</content>
-							</clause>
-							<clause id="od5-clan2-stav17">
+							</paragraph>
+							<paragraph id="od5-clan2-stav17">
 								<content>
 									<p>________________________________________</p>
 								</content>
-							</clause>
-							<clause id="od5-clan2-stav18">
+							</paragraph>
+							<paragraph id="od5-clan2-stav18">
 								<content>
 									<p>Authorized Representative</p>
 								</content>
-							</clause>
-							<clause id="od5-clan2-stav19">
+							</paragraph>
+							<paragraph id="od5-clan2-stav19">
 								<content>
 									<p>Name: Antonius Verheijen</p>
 								</content>
-							</clause>
-							<clause id="od5-clan2-stav20">
+							</paragraph>
+							<paragraph id="od5-clan2-stav20">
 								<content>
 									<p>Title: Country Manager</p>
 								</content>
-							</clause>
-							<clause id="od5-clan2-stav21">
+							</paragraph>
+							<paragraph id="od5-clan2-stav21">
 								<content>
 									<p>SCHEDULE 1Project Description</p>
 								</content>
-							</clause>
-							<clause id="od5-clan2-stav22">
+							</paragraph>
+							<paragraph id="od5-clan2-stav22">
 								<content>
 									<p>The objective of the Project is to improve access to quality early childhood education and care (ECEC) services, in particular for children from socially disadvantaged backgrounds.</p>
 								</content>
-							</clause>
-							<clause id="od5-clan2-stav23">
+							</paragraph>
+							<paragraph id="od5-clan2-stav23">
 								<content>
 									<p>The Project consists of the following parts:</p>
 								</content>
-							</clause>
-							<clause id="od5-clan2-stav24">
+							</paragraph>
+							<paragraph id="od5-clan2-stav24">
 								<content>
 									<p>Part 1. Expanding the supply of Preschool Spaces</p>
 								</content>
-							</clause>
-							<clause id="od5-clan2-stav25">
+							</paragraph>
+							<paragraph id="od5-clan2-stav25">
 								<content>
 									<p>A. Provision of approximately 17,000 Preschool Spaces in new, renovated, repurposed or upgraded facilities (involving construction of new preschools, extension of existing preschools, and repurposing or upgrading of other public buildings), including provision of furniture, teaching-learning materials, equipment, and playgrounds for all new and rehabilitated preschool institutions, and capacity building for local architects and engineers carrying out the said works.</p>
 								</content>
-							</clause>
-							<clause id="od5-clan2-stav26">
+							</paragraph>
+							<paragraph id="od5-clan2-stav26">
 								<content>
 									<p>B. Renovation or construction of up to five innovative centers to serve as model preschools for training and knowledge sharing purposes.</p>
 								</content>
-							</clause>
-							<clause id="od5-clan2-stav27">
+							</paragraph>
+							<paragraph id="od5-clan2-stav27">
 								<content>
 									<p>Part 2. Strengthening the quality of preschool services</p>
 								</content>
-							</clause>
-							<clause id="od5-clan2-stav28">
+							</paragraph>
+							<paragraph id="od5-clan2-stav28">
 								<content>
 									<p>A. Supporting implementation of preschool curriculum.</p>
 								</content>
-							</clause>
-							<clause id="od5-clan2-stav29">
+							</paragraph>
+							<paragraph id="od5-clan2-stav29">
 								<content>
 									<p>(i) Development of a training program and training materials for teachers and other staff and the rollout of a new preschool curriculum.</p>
 								</content>
-							</clause>
-							<clause id="od5-clan2-stav30">
+							</paragraph>
+							<paragraph id="od5-clan2-stav30">
 								<content>
 									<p>(ii) Development of teaching-learning materials according to the new preschool curriculum.</p>
 								</content>
-							</clause>
-							<clause id="od5-clan2-stav31">
+							</paragraph>
+							<paragraph id="od5-clan2-stav31">
 								<content>
 									<p>(iii) Development and strengthening of the Preschool Assistance Network (PAN), including the PAN’s provision of training activities to preschool teachers, in support of the roll-out of the new preschool curriculum.</p>
 								</content>
-							</clause>
-							<clause id="od5-clan2-stav32">
+							</paragraph>
+							<paragraph id="od5-clan2-stav32">
 								<content>
 									<p>B. Improving pre-service and in-service training.</p>
 								</content>
-							</clause>
-							<clause id="od5-clan2-stav33">
+							</paragraph>
+							<paragraph id="od5-clan2-stav33">
 								<content>
 									<p>(i) Provision of technical assistance to evaluate, reform, and harmonize pre- and in-service preschool teacher training.</p>
 								</content>
-							</clause>
-							<clause id="od5-clan2-stav34">
+							</paragraph>
+							<paragraph id="od5-clan2-stav34">
 								<content>
 									<p>(ii) Provision of technical assistance to assess and advise on preschool teacher career advancement.</p>
 								</content>
-							</clause>
-							<clause id="od5-clan2-stav35">
+							</paragraph>
+							<paragraph id="od5-clan2-stav35">
 								<content>
 									<p>(iii) Identification and provision of trainings to increase the leadership and competences of preschool managerial staff.</p>
 								</content>
-							</clause>
+							</paragraph>
 						</content>
 					</section>
 				</content>
@@ -491,125 +491,125 @@
 				<num>C</num>
 				<heading>Improving the monitoring and evaluation of preschools to improve decision making.</heading>
 				<content>
-					<clause id="gla100-clan2-stav1">
+					<paragraph id="gla100-clan2-stav1">
 						<content>
 							<p>(i) Enhancement of the education monitoring and information system for preschools.</p>
 						</content>
-					</clause>
-					<clause id="gla100-clan2-stav2">
+					</paragraph>
+					<paragraph id="gla100-clan2-stav2">
 						<content>
 							<p>(ii) Provision of technical assistance: (a) to assess existing quality evaluation instruments and methodologies for self- and external evaluations, and improve the existing instruments based on revised quality standards for preschools; and (b) to develop proposals on changes to existing regulations relating to the provision of ECEC.</p>
 						</content>
-					</clause>
-					<clause id="gla100-clan2-stav3">
+					</paragraph>
+					<paragraph id="gla100-clan2-stav3">
 						<content>
 							<p>(iii) Provision of training to improve the capacity of external evaluators, preschool staff and administrators, and other decision-makers in evaluating the quality of preschool services.</p>
 						</content>
-					</clause>
-					<clause id="gla100-clan2-stav4">
+					</paragraph>
+					<paragraph id="gla100-clan2-stav4">
 						<content>
 							<p>Part 3. Supporting young children and families</p>
 						</content>
-					</clause>
-					<clause id="gla100-clan2-stav5">
+					</paragraph>
+					<paragraph id="gla100-clan2-stav5">
 						<content>
 							<p>A. Communication campaign.</p>
 						</content>
-					</clause>
-					<clause id="gla100-clan2-stav6">
+					</paragraph>
+					<paragraph id="gla100-clan2-stav6">
 						<content>
 							<p>Development and carrying out of a nationwide campaign to raise awareness of the importance of the early years and to empower parents to play a key role in promoting their young children’s development, through the use of, inter alia, mass media, social media, and printed publications.</p>
 						</content>
-					</clause>
-					<clause id="gla100-clan2-stav7">
+					</paragraph>
+					<paragraph id="gla100-clan2-stav7">
 						<content>
 							<p>B. Outreach to vulnerable families.</p>
 						</content>
-					</clause>
-					<clause id="gla100-clan2-stav8">
+					</paragraph>
+					<paragraph id="gla100-clan2-stav8">
 						<content>
 							<p>Provision of grants to at least 30 Local Self-governments to improve coordination and cooperation among relevant actors in providing holistic and high quality ECEC services (including in the areas of health, nutrition, early screening of disabilities, and early stimulation and learning) to parents and to children aged 0-6.5 years, with a focus on the most vulnerable.</p>
 						</content>
-					</clause>
+					</paragraph>
 					<chapter id="gla100">
 						<num>C</num>
 						<heading>Subsidies to ensure free preschool participation among the most vulnerable children ages 3 to 5.5 years.</heading>
 						<content>
-							<clause id="gla100-clan2-stav1">
+							<paragraph id="gla100-clan2-stav1">
 								<content>
 									<p>Provision of financing to support subsidies for annual preschool fees for families receiving Financial Social Assistance.</p>
 								</content>
-							</clause>
-							<clause id="gla100-clan2-stav2">
+							</paragraph>
+							<paragraph id="gla100-clan2-stav2">
 								<content>
 									<p>Part 4. Project Management, Technical Assistance, Monitoring and Evaluation</p>
 								</content>
-							</clause>
-							<clause id="gla100-clan2-stav3">
+							</paragraph>
+							<paragraph id="gla100-clan2-stav3">
 								<content>
 									<p>A. Project management and technical assistance</p>
 								</content>
-							</clause>
-							<clause id="gla100-clan2-stav4">
+							</paragraph>
+							<paragraph id="gla100-clan2-stav4">
 								<content>
 									<p>Provision of: (a) Project management support to the Project Management Unit, including technical assistance and training to all Project staff, Project audits, office equipment and incremental Operating Costs; (b) technical assistance to the MoESTD on quality reforms in the education sector; and (c) technical assistance to the Ministry of Labor, Employment, Veteran and Social Affairs to expand its existing management information system, including additional modules to promote the efficient administration of the subsidies supported by Part 3.C of the Project.</p>
 								</content>
-							</clause>
-							<clause id="gla100-clan2-stav5">
+							</paragraph>
+							<paragraph id="gla100-clan2-stav5">
 								<content>
 									<p>B. Project monitoring and evaluation</p>
 								</content>
-							</clause>
-							<clause id="gla100-clan2-stav6">
+							</paragraph>
+							<paragraph id="gla100-clan2-stav6">
 								<content>
 									<p>Provision of: (i) technical assistance for the design and implementation of (a) tools and surveys to monitor the results framework for the Project, and (b) technical audits of selected aspects of the Project, including the first phase of the grant program under Part 3.B of the Project; (ii) training for MoESTD staff engaged in the implementation of the Project; and (iii) technical assistance for the design, implementation, and analysis of evaluation surveys.</p>
 								</content>
-							</clause>
-							<clause id="gla100-clan2-stav7">
+							</paragraph>
+							<paragraph id="gla100-clan2-stav7">
 								<content>
 									<p>SCHEDULE 2Project Execution</p>
 								</content>
-							</clause>
-							<clause id="gla100-clan2-stav8">
+							</paragraph>
+							<paragraph id="gla100-clan2-stav8">
 								<content>
 									<p>Section I. Implementation Arrangements</p>
 								</content>
-							</clause>
-							<clause id="gla100-clan2-stav9">
+							</paragraph>
+							<paragraph id="gla100-clan2-stav9">
 								<content>
 									<p>A. Institutional Arrangements</p>
 								</content>
-							</clause>
+							</paragraph>
 							<section id="gla100-od1">
 								<num>1.</num>
 								<heading> Without limitation to the provisions of Article V of the General Conditions and except as the Bank shall otherwise agree, the Borrower shall, as relevant, establish and maintain throughout Project implementation, with composition, resources, terms of reference and functions acceptable to the Bank:</heading>
 								<content>
-									<clause id="gla100-od1-clan2-stav1">
+									<paragraph id="gla100-od1-clan2-stav1">
 										<content>
 											<p>(a) a Project Management Unit (PMU), within MoESTD, to be responsible for (i) the overall coordination of all Project implementation activities, including specifically with the Central Fiduciary Unit, Working Group, other members of MoESTD, and other relevant agencies and beneficiaries, as specified in the Project Operations Manual (POM) and the Grant Operations Manual (GOM), (ii) ensuring that the requirements, criteria, policies, procedures and organizational arrangements set forth in the POM and the GOM, as relevant, are applied in carrying out the Project, (iii) preparation of all Project implementation documents, including Project supervision reports, and (iv) monitoring and evaluation of the Project;</p>
 										</content>
-									</clause>
-									<clause id="gla100-od1-clan2-stav2">
+									</paragraph>
+									<paragraph id="gla100-od1-clan2-stav2">
 										<content>
 											<p>(b) a Central Fiduciary Unit (CFU), within MoF, to be responsible for the procurement and financial management of the Project, and appoint an MoF staff to coordinate and oversee the CFU, as detailed in the POM;</p>
 										</content>
-									</clause>
-									<clause id="gla100-od1-clan2-stav3">
+									</paragraph>
+									<paragraph id="gla100-od1-clan2-stav3">
 										<content>
 											<p>(c) a Working Group, which includes experts from the MoESTD and focal points for each of the Project Parts, to be responsible for providing technical expertise and support to the PMU on day-to-day Project implementation activities;</p>
 										</content>
-									</clause>
-									<clause id="gla100-od1-clan2-stav4">
+									</paragraph>
+									<paragraph id="gla100-od1-clan2-stav4">
 										<content>
 											<p>(d) a Consultative Group, comprising representatives from other relevant Borrower ministries, institutions and partners to advise on ECEC policy issues, programs and related grants and other actions at the local, regional, and national levels, and to contribute to events and information dissemination;</p>
 										</content>
-									</clause>
-									<clause id="gla100-od1-clan2-stav5">
+									</paragraph>
+									<paragraph id="gla100-od1-clan2-stav5">
 										<content>
 											<p>(e) a Grant Approval Committee (GAC), consisting of representatives from MoESTD, other relevant Borrower ministries and stakeholders at the national level (including country-wide Roma non-governmental organizations), to be responsible for evaluating and selecting grant proposals under Part 3.B of the Project, in accordance with the criteria set forth in the GOM;</p>
 										</content>
-									</clause>
-									<clause id="gla100-od1-clan2-stav6">
+									</paragraph>
+									<paragraph id="gla100-od1-clan2-stav6">
 										<content>
 											<p>(f) inter-sectoral teams, consisting of representatives of Local Self-governments of municipalities, preschool institutions, primary schools, centers for social work, health centers, local branches of the Red Cross, local Roma nongovernmental organizations, representatives of local Roma structures (teaching assistants, Roma health mediators, Roma coordinators, where applicable) and local parents associations, to be responsible for the development of grant proposals and the supervision of grant funded activities under Part 3.B of the Project, and as detailed in the GOM.</p>
 											<тачка id="gla100-od1-clan2-stav6-tac2">
@@ -625,13 +625,13 @@
 												</content>
 											</тачка>
 										</content>
-									</clause>
-									<clause id="gla100-od1-clan2-stav7">
+									</paragraph>
+									<paragraph id="gla100-od1-clan2-stav7">
 										<content>
 											<p>(a) include rights that adequately protect the interests of the Borrower and the Bank, including the right to suspend or terminate the grant recipient’s right to use the grant proceeds, and the right to obtain a refund from the grant recipient of all or any part of the amount of the grant then withdrawn, upon the grant recipient’s failure to perform any of its obligations under the grant agreement; and</p>
 										</content>
-									</clause>
-									<clause id="gla100-od1-clan2-stav8">
+									</paragraph>
+									<paragraph id="gla100-od1-clan2-stav8">
 										<content>
 											<p>(b) require each grant recipient to:</p>
 											<item id="gla100-od1-clan2-stav8-podtac1">
@@ -683,22 +683,22 @@
 												</content>
 											</тачка>
 										</content>
-									</clause>
-									<clause id="gla100-od1-clan2-stav9">
+									</paragraph>
+									<paragraph id="gla100-od1-clan2-stav9">
 										<content>
 											<p>B. Project Operations Manual</p>
 										</content>
-									</clause>
+									</paragraph>
 									<section id="gla100-od1">
 										<num>1.</num>
 										<heading> The Borrower shall carry out the Project in accordance with the POM, satisfactory in form and substance to the Bank, which consists of different schedules setting forth rules, methods, guidelines, specific development plans, standard documents and procedures for the carrying out of the Project, including the following:</heading>
 										<content>
-											<clause id="gla100-od1-clan2-stav1">
+											<paragraph id="gla100-od1-clan2-stav1">
 												<content>
 													<p>(a) the detailed description of all Project activities supported under this Agreement, their sequencing and the prospective timetable and benchmarks in relation thereto; and</p>
 												</content>
-											</clause>
-											<clause id="gla100-od1-clan2-stav2">
+											</paragraph>
+											<paragraph id="gla100-od1-clan2-stav2">
 												<content>
 													<p>(b) the Project administrative, financial, accounting, auditing, procurement and disbursement procedures, including all relevant standard documents.</p>
 													<тачка id="gla100-od1-clan2-stav2-tac2">
@@ -708,7 +708,7 @@
 														</content>
 													</тачка>
 												</content>
-											</clause>
+											</paragraph>
 										</content>
 									</section>
 								</content>
@@ -723,22 +723,22 @@
 											<p> The Borrower shall carry out Part 3.B of the Project in accordance with the GOM, satisfactory in form and substance to the Bank, setting forth the procedures for selecting, appraising, and approving grant proposals, and for supervising implementation of subprojects financed under the grants program. The GOM shall include, inter alia:</p>
 										</content>
 									</тачка>
-									<clause id="gla100-clan2-stav1">
+									<paragraph id="gla100-clan2-stav1">
 										<content>
 											<p>(a) the eligibility criteria for the grants;</p>
 										</content>
-									</clause>
-									<clause id="gla100-clan2-stav2">
+									</paragraph>
+									<paragraph id="gla100-clan2-stav2">
 										<content>
 											<p>(b) the application, evaluation, selection, award and grant management procedures;</p>
 										</content>
-									</clause>
-									<clause id="gla100-clan2-stav3">
+									</paragraph>
+									<paragraph id="gla100-clan2-stav3">
 										<content>
 											<p>(c) the criteria for grant disbursements, monitoring, evaluation and reporting; and</p>
 										</content>
-									</clause>
-									<clause id="gla100-clan2-stav4">
+									</paragraph>
+									<paragraph id="gla100-clan2-stav4">
 										<content>
 											<p>(d) mandatory provisions that provide the following: (i) no major civil works shall be financed by the grants, (ii) no land acquisition or Involuntary Resettlement shall occur in connection with the provision of grants, (iii) beneficiaries of the grants shall not award contracts to their subsidiary or affiliated companies unless there is an established arms-length arrangement, and (iv) grants will be provided and implemented in accordance with the Environmental and Social Management Framework and any applicable Environmental Management Plan thereunder.</p>
 											<тачка id="gla100-clan2-stav4-tac2">
@@ -748,7 +748,7 @@
 												</content>
 											</тачка>
 										</content>
-									</clause>
+									</paragraph>
 								</content>
 							</chapter>
 						</content>
@@ -759,26 +759,26 @@
 				<num>D</num>
 				<heading>Anti-Corruption</heading>
 				<content>
-					<clause id="gla500-clan2-stav1">
+					<paragraph id="gla500-clan2-stav1">
 						<content>
 							<p>The Borrower shall ensure that the Project is carried out in accordance with the provisions of the Anti-Corruption Guidelines.</p>
 						</content>
-					</clause>
-					<clause id="gla500-clan2-stav2">
+					</paragraph>
+					<paragraph id="gla500-clan2-stav2">
 						<content>
 							<p>E. Safeguards</p>
 						</content>
-					</clause>
+					</paragraph>
 					<section id="gla500-od1">
 						<num>1.</num>
 						<heading> The Borrower shall ensure that:</heading>
 						<content>
-							<clause id="gla500-od1-clan2-stav1">
+							<paragraph id="gla500-od1-clan2-stav1">
 								<content>
 									<p>(a) the Project is carried out in accordance with the respective terms of the Environmental and Social Management Framework (ESMF) and the Resettlement Policy Framework (RPF), and the policies, procedures and arrangements therein set forth are applied and implemented; and</p>
 								</content>
-							</clause>
-							<clause id="gla500-od1-clan2-stav2">
+							</paragraph>
+							<paragraph id="gla500-od1-clan2-stav2">
 								<content>
 									<p>(b) the ESMF and the RPF, or any provision thereof, shall not be amended, suspended, abrogated, terminated or waived or permitted to be amended, suspended, abrogated, terminated or waived, except with the prior written approval of the Bank.</p>
 									<тачка id="gla500-od1-clan2-stav2-tac2">
@@ -788,41 +788,41 @@
 										</content>
 									</тачка>
 								</content>
-							</clause>
-							<clause id="gla500-od1-clan2-stav3">
+							</paragraph>
+							<paragraph id="gla500-od1-clan2-stav3">
 								<content>
 									<p>(a) submit to the Bank for its approval, as relevant (i) any required Resettlement Action Plan (RAP), including the relevant social assessment, in form and substance satisfactory to the Bank, and (ii) any required Environmental Management Plan (EMP), in form and substance satisfactory to the Bank;</p>
 								</content>
-							</clause>
-							<clause id="gla500-od1-clan2-stav4">
+							</paragraph>
+							<paragraph id="gla500-od1-clan2-stav4">
 								<content>
 									<p>(b) ensure that the provisions of the said RAP(s) and EMP(s) are adequately included in the proposed contract(s) for the said works; and</p>
 								</content>
-							</clause>
-							<clause id="gla500-od1-clan2-stav5">
+							</paragraph>
+							<paragraph id="gla500-od1-clan2-stav5">
 								<content>
 									<p>(c) ensure that the said RAP(s) is/are disclosed and, unless the Bank shall otherwise agree, all related, adequate compensation amounts are paid in full, all in accordance with the related RAP(s) and EMP(s), the RPF and the ESMF.</p>
 								</content>
-							</clause>
-							<clause id="gla500-od1-clan2-stav6">
+							</paragraph>
+							<paragraph id="gla500-od1-clan2-stav6">
 								<content>
 									<p>Section II. Project Monitoring Reporting and Evaluation</p>
 								</content>
-							</clause>
-							<clause id="gla500-od1-clan2-stav7">
+							</paragraph>
+							<paragraph id="gla500-od1-clan2-stav7">
 								<content>
 									<p>A. Project Reports</p>
 								</content>
-							</clause>
+							</paragraph>
 							<section id="gla500-od1">
 								<num>1.</num>
 								<heading> The Borrower, through the MoESTD, shall monitor and evaluate the progress of the Project and prepare Project Reports in accordance with the provisions of Section 5.08 of the General Conditions and on the basis of indicators acceptable to the Bank. Each Project Report shall cover the period of one calendar quarter, and shall be furnished to the Bank not later than one month after the end of the period covered by such report.</heading>
 								<content>
-									<clause id="gla500-od1-clan2-stav1">
+									<paragraph id="gla500-od1-clan2-stav1">
 										<content>
 											<p>B. Financial Management, Financial Reports and Audits</p>
 										</content>
-									</clause>
+									</paragraph>
 									<section id="gla500-od1">
 										<num>1.</num>
 										<heading> No later than ninety (90) days from the date of effectiveness, the Borrower, through the CFU, shall have, under terms of reference and in a manner acceptable to the Bank, installed and adapted appropriate accounting software for Project accounting, budgeting and reporting.</heading>
@@ -845,16 +845,16 @@
 													<p> The Borrower, through the CFU, shall have the Financial Statements audited in accordance with the provisions of Section 5.09 (b) of the General Conditions. Each audit of the Financial Statements shall cover the period of one fiscal year of the Borrower. The audited Financial Statements for each such period shall be furnished to the Bank not later than six months after the end of such period.</p>
 												</content>
 											</тачка>
-											<clause id="gla500-od1-clan2-stav1">
+											<paragraph id="gla500-od1-clan2-stav1">
 												<content>
 													<p>Section III. Procurement</p>
 												</content>
-											</clause>
-											<clause id="gla500-od1-clan2-stav2">
+											</paragraph>
+											<paragraph id="gla500-od1-clan2-stav2">
 												<content>
 													<p>A. General</p>
 												</content>
-											</clause>
+											</paragraph>
 											<section id="gla500-od1">
 												<num>1.</num>
 												<heading> Goods, Works and Non-consulting Services. All goods, works and non-consulting services required for the Project and to be financed out of the proceeds of the Loan shall be procured in accordance with the requirements set forth or referred to in Section I of the Procurement Guidelines, and with the provisions of this Section.</heading>
@@ -871,11 +871,11 @@
 															<p> Definitions. The capitalized terms used below in this Section to describe particular procurement methods or methods of review by the Bank of particular contracts refer to the corresponding method described in Sections II and III of the Procurement Guidelines, or Sections II, III, IV and V of the Consultant Guidelines, as the case may be.</p>
 														</content>
 													</тачка>
-													<clause id="gla500-od1-clan2-stav1">
+													<paragraph id="gla500-od1-clan2-stav1">
 														<content>
 															<p>B. Particular Methods of Procurement of Goods, Works and Non-consulting Services</p>
 														</content>
-													</clause>
+													</paragraph>
 													<section id="gla500-od1">
 														<num>1.</num>
 														<heading> International Competitive Bidding. Except as otherwise provided in paragraph 2 below, goods, works and non-consulting services shall be procured under contracts awarded on the basis of International Competitive Bidding.</heading>
@@ -920,21 +920,21 @@
 				<num>D</num>
 				<heading>Review by the Bank of Procurement Decisions</heading>
 				<content>
-					<clause id="gla500-clan2-stav1">
+					<paragraph id="gla500-clan2-stav1">
 						<content>
 							<p>The Procurement Plan shall set forth those contracts which shall be subject to the Bank’s Prior Review. All other contracts shall be subject to Post Review by the Bank.</p>
 						</content>
-					</clause>
-					<clause id="gla500-clan2-stav2">
+					</paragraph>
+					<paragraph id="gla500-clan2-stav2">
 						<content>
 							<p>Section IV. Withdrawal of Loan Proceeds</p>
 						</content>
-					</clause>
-					<clause id="gla500-clan2-stav3">
+					</paragraph>
+					<paragraph id="gla500-clan2-stav3">
 						<content>
 							<p>A. General</p>
 						</content>
-					</clause>
+					</paragraph>
 					<section id="gla500-od1">
 						<num>1.</num>
 						<heading> The Borrower may withdraw the proceeds of the Loan in accordance with the provisions of Article II of the General Conditions, this Section, and such additional instructions as the Bank shall specify by notice to the Borrower (including the ”World Bank Disbursement Guidelines for Projects” dated May 2006, as revised from time to time by the Bank and as made applicable to this Agreement pursuant to such instructions), to finance Eligible Expenditures as set forth in the table in paragraph 2 below.</heading>
@@ -945,7 +945,7 @@
 									<p> The following table specifies the categories of Eligible Expenditures that may be financed out of the proceeds of the Loan (”Category”), the allocation of the amounts of the Loan to each Category, and the percentage of expenditures to be financed for Eligible Expenditures in each Category.</p>
 								</content>
 							</тачка>
-							<став id="gla500-od1-clan2-stav1">
+							<paragraph id="gla500-od1-clan2-stav1">
 								<table class="tabela-sa-borderom">
 									
 					
@@ -1204,42 +1204,42 @@
 								
 				
 								<content/>
-							</став>
-							<clause id="gla500-od1-clan2-stav2">
+							</paragraph>
+							<paragraph id="gla500-od1-clan2-stav2">
 								<content>
 									<p>B. Withdrawal Conditions; Withdrawal Period</p>
 								</content>
-							</clause>
+							</paragraph>
 							<section id="gla500-od1">
 								<num>1.</num>
 								<heading> Notwithstanding the provisions of Part A of this Section,</heading>
 								<content>
-									<clause id="gla500-od1-clan2-stav1">
+									<paragraph id="gla500-od1-clan2-stav1">
 										<content>
 											<p>(a) no withdrawal shall be made from the Loan Account for payments made prior to the date of this Agreement, except that withdrawals up to an aggregate amount not to exceed one hundred thousand Euros (Euro 100,000) may be made for payments made prior to this date but on or after December 1, 2016, for Eligible Expenditures under Category (1);</p>
 										</content>
-									</clause>
-									<clause id="gla500-od1-clan2-stav2">
+									</paragraph>
+									<paragraph id="gla500-od1-clan2-stav2">
 										<content>
 											<p>(b) under Category 2 above:</p>
 										</content>
-									</clause>
-									<clause id="gla500-od1-clan2-stav3">
+									</paragraph>
+									<paragraph id="gla500-od1-clan2-stav3">
 										<content>
 											<p>(i) the Borrower may withdraw an amount not to exceed one million Euros (EUR 1,000,000) as an advance, provided that the Borrower, through the MoESTD, has adopted, to the satisfaction of the Bank, the GOM as set forth in Section I.C of this Schedule;</p>
 										</content>
-									</clause>
-									<clause id="gla500-od1-clan2-stav4">
+									</paragraph>
+									<paragraph id="gla500-od1-clan2-stav4">
 										<content>
 											<p>(ii) the Borrower may withdraw an amount not to exceed five hundred thousand Euros (EUR 500,000), provided that the Borrower has furnished evidence satisfactory to the Bank that the grant recipients have used the advanced grant proceeds disbursed pursuant to Section IV.B(b)(i) above for eligible expenditures pursuant to the grants’ intended purposes, and in accordance with the respective grant agreements, which are satisfactory to the Bank; and</p>
 										</content>
-									</clause>
-									<clause id="gla500-od1-clan2-stav5">
+									</paragraph>
+									<paragraph id="gla500-od1-clan2-stav5">
 										<content>
 											<p>(iii) notwithstanding Section IV.B.1(b)(ii) above, if, in the opinion of the Bank, the amounts advanced pursuant to Section IV.B(b)(i) were not used for the grants’ intended purposes, the Borrower shall refund such advance (or portion of such advance as determined by the Bank) to the Bank promptly upon notice thereof by the Bank. Except as otherwise agreed with the Borrower, the Bank may cancel the amount so refunded; and</p>
 										</content>
-									</clause>
-									<clause id="gla500-od1-clan2-stav6">
+									</paragraph>
+									<paragraph id="gla500-od1-clan2-stav6">
 										<content>
 											<p>(c) under Category 3 above, the Borrower may, on an annual basis, withdraw an amount equal to the Borrower’s reimbursement of the relevant Local Self-governments’ financing of their respective social assistance funds (as evidenced in the Borrower’s national budget for the relevant fiscal year), but not in excess of one million Euros (EUR 1,000,000), for each annual period of Project implementation; however for the fourth year of Project implementation, should the unwithdrawn balance of Category 3 be in excess of one million Euros (EUR 1,000,000), the Borrower may withdraw an amount equal to the Borrower’s reimbursement of the relevant Local Self-governments’ financing of their social assistance funds for that fiscal year, up to the full unwithdrawn balance of Category3.</p>
 											<тачка id="gla500-od1-clan2-stav6-tac2">
@@ -1249,13 +1249,13 @@
 												</content>
 											</тачка>
 										</content>
-									</clause>
-									<clause id="gla500-od1-clan2-stav7">
+									</paragraph>
+									<paragraph id="gla500-od1-clan2-stav7">
 										<content>
 											<p>Attachment toSCHEDULE 2</p>
 										</content>
-									</clause>
-									<clause id="gla500-od1-clan2-stav8">
+									</paragraph>
+									<paragraph id="gla500-od1-clan2-stav8">
 										<content>
 											<p>The procedures to be followed for National Competitive Bidding shall be those set forth in this Attachment to Schedule 2 to this Agreement, provided, however that such procedure shall be subject to the provisions of Section I and Paragraphs 3.3 and 3.4 of the Procurement Guidelines, and the following additional provisions:</p>
 											<тачка id="gla500-od1-clan2-stav8-tac1">
@@ -1331,17 +1331,17 @@
 												</content>
 											</тачка>
 										</content>
-									</clause>
-									<clause id="gla500-od1-clan2-stav9">
+									</paragraph>
+									<paragraph id="gla500-od1-clan2-stav9">
 										<content>
 											<p>SCHEDULE 3Amortization Schedule</p>
 										</content>
-									</clause>
+									</paragraph>
 									<section id="gla500-od1">
 										<num>1.</num>
 										<heading> The following table sets forth the Principal Payment Dates of the Loan and the percentage of the total principal amount of the Loan payable on each Principal Payment Date (”Installment Share”). If the proceeds of the Loan have been fully withdrawn as of the first Principal Payment Date, the principal amount of the Loan repayable by the Borrower on each Principal Payment Date shall be determined by the Bank by multiplying: (a)Withdrawn Loan Balance as of the first Principal Payment Date; by (b) the Installment Share for each Principal Payment Date, such repayable amount to be adjusted, as necessary, to deduct any amounts referred to in paragraph 4 of this Schedule, to which a Currency Conversion applies.</heading>
 										<content>
-											<став id="gla500-od1-clan2-stav1">
+											<paragraph id="gla500-od1-clan2-stav1">
 												<table class="tabela-sa-borderom">
 													
 					
@@ -1443,13 +1443,13 @@
 														</content>
 													</тачка>
 												</content>
-											</став>
-											<clause id="gla500-od1-clan2-stav2">
+											</paragraph>
+											<paragraph id="gla500-od1-clan2-stav2">
 												<content>
 													<p>(a) To the extent that any proceeds of the Loan have been withdrawn as of the first Principal Payment Date, the Borrower shall repay the Withdrawn Loan Balance as of such date in accordance with paragraph 1 of this Schedule.</p>
 												</content>
-											</clause>
-											<clause id="gla500-od1-clan2-stav3">
+											</paragraph>
+											<paragraph id="gla500-od1-clan2-stav3">
 												<content>
 													<p>(b) Any amount withdrawn after the first Principal Payment Date shall be repaid on each Principal Payment Date falling after the date of such withdrawal in amounts determined by the Bank by multiplying the amount of each such withdrawal by a fraction, the numerator of which is the original Installment Share specified in the table in paragraph 1 of this Schedule for said Principal Payment Date (”Original Installment Share”) and the denominator of which is the sum of all remaining Original Installment Shares for Principal Payment Dates falling on or after such date, such amounts repayable to be adjusted, as necessary, to deduct any amounts referred to in paragraph 4 of this Schedule, to which a Currency Conversion applies.</p>
 													<тачка id="gla500-od1-clan2-stav3-tac3">
@@ -1459,8 +1459,8 @@
 														</content>
 													</тачка>
 												</content>
-											</clause>
-											<clause id="gla500-od1-clan2-stav4">
+											</paragraph>
+											<paragraph id="gla500-od1-clan2-stav4">
 												<content>
 													<p>(b) Notwithstanding the provisions of sub-paragraph (a) of this paragraph, if at any time the Bank adopts a due date billing system under which invoices are issued on or after the respective Principal Payment Date, the provisions of such sub-paragraph shall no longer apply to any withdrawals made after the adoption of such billing system.</p>
 													<тачка id="gla500-od1-clan2-stav4-tac4">
@@ -1476,17 +1476,17 @@
 														</content>
 													</тачка>
 												</content>
-											</clause>
-											<clause id="gla500-od1-clan2-stav5">
+											</paragraph>
+											<paragraph id="gla500-od1-clan2-stav5">
 												<content>
 													<p>APPENDIX</p>
 												</content>
-											</clause>
-											<clause id="gla500-od1-clan2-stav6">
+											</paragraph>
+											<paragraph id="gla500-od1-clan2-stav6">
 												<content>
 													<p>Section I. Definitions</p>
 												</content>
-											</clause>
+											</paragraph>
 											<section id="gla500-od1">
 												<num>1.</num>
 												<heading> ”Anti-Corruption Guidelines” means the ”Guidelines on Preventing and Combating Fraud and Corruption in Projects Financed by IBRD Loans and IDA Credits and Grants”, dated October 15, 2006, and revised in January 2011 and as of July 1, 2016.</heading>
@@ -1659,12 +1659,12 @@
 															<p> ”Working Group” means the Working Group, referred to in Section I.A.1(c) of Schedule2 to this Agreement, or any successor or successors thereto, acceptable to the Bank.</p>
 														</content>
 													</тачка>
-													<clause id="gla500-od1-clan2-stav1">
+													<paragraph id="gla500-od1-clan2-stav1">
 														<content>
 															<p>Section II. Modifications to the General Conditions</p>
 														</content>
-													</clause>
-													<clause id="gla500-od1-clan2-stav2">
+													</paragraph>
+													<paragraph id="gla500-od1-clan2-stav2">
 														<content>
 															<p>The General Conditions are hereby modified as follows:</p>
 															<тачка id="gla500-od1-clan2-stav2-tac1">
@@ -1680,22 +1680,22 @@
 																</content>
 															</тачка>
 														</content>
-													</clause>
-													<clause id="gla500-od1-clan2-stav3">
+													</paragraph>
+													<paragraph id="gla500-od1-clan2-stav3">
 														<content>
 															<p>”Section 3.01. Front-end Fee; Commitment Charge</p>
 														</content>
-													</clause>
-													<clause id="gla500-od1-clan2-stav4">
+													</paragraph>
+													<paragraph id="gla500-od1-clan2-stav4">
 														<content>
 															<p>(a) The Borrower shall pay the Bank a front-end fee on the Loan amount at the rate specified in the Loan Agreement (the ”Front-end Fee”).</p>
 														</content>
-													</clause>
-													<clause id="gla500-od1-clan2-stav5">
+													</paragraph>
+													<paragraph id="gla500-od1-clan2-stav5">
 														<content>
 															<p>(b) The Borrower shall pay the Bank a commitment charge on the Unwithdrawn Loan Balance at the rate specified in the Loan Agreement (the ”Commitment Charge”). The Commitment Charge shall accrue from a date sixty days after the date of the Loan Agreement to the respective dates on which amounts are withdrawn by the Borrower from the Loan Account or cancelled. The Commitment Charge shall be payable semi-annually in arrears on each Payment Date.”</p>
 														</content>
-													</clause>
+													</paragraph>
 												</content>
 											</section>
 										</content>
@@ -1714,11 +1714,11 @@
 									<p> The Appendix is modified by inserting a new paragraph 19 with the following definition of ”Commitment Charge”, and renumbering the subsequent paragraphs accordingly:</p>
 								</content>
 							</тачка>
-							<clause id="gla500-od3-clan2-stav1">
+							<paragraph id="gla500-od3-clan2-stav1">
 								<content>
 									<p>”19. ”Commitment Charge” means the commitment charge specified in the Loan Agreement for the purpose of Section 3.01(b).”</p>
 								</content>
-							</clause>
+							</paragraph>
 						</content>
 					</section>
 					<section id="gla500-od5">
@@ -1731,77 +1731,77 @@
 									<p> In the renumbered paragraph 68 (originally paragraph 67) of the Appendix, the definition of the term ”Loan Payment” is modified to read as follows:</p>
 								</content>
 							</тачка>
-							<clause id="gla500-od5-clan2-stav1">
+							<paragraph id="gla500-od5-clan2-stav1">
 								<content>
 									<p>”68. ”Loan Payment” means any amount payable by the Loan Parties to the Bank pursuant to the Legal Agreements or these General Conditions, including (but not limited to) any amount of the Withdrawn Loan Balance, interest, the Front-end Fee, the Commitment Charge, interest at the Default Interest Rate (if any), any prepayment premium, any transaction fee for a Conversion or early termination of a Conversion, the Variable Spread Fixing Charge (if any), any premium payable upon the establishment of an Interest Rate Cap or Interest Rate Collar, and any Unwinding Amount payable by the Borrower.”</p>
 								</content>
-							</clause>
+							</paragraph>
 						</content>
 					</section>
 					<section id="gla500-od7">
 						<num>7.</num>
 						<heading> In the renumbered paragraph 73 (originally paragraph 72) of the Appendix, the definition of ”Payment Date” is modified by deleting the word ”is” and inserting the words ”and Commitment Charge are” after the word ”interest”.</heading>
 						<content>
-							<clause id="gla500-od7-clan2-stav1">
+							<paragraph id="gla500-od7-clan2-stav1">
 								<content>
 									<p>БРОЈ ЗАЈМА 8693-YF</p>
 								</content>
-							</clause>
-							<clause id="gla500-od7-clan2-stav2">
+							</paragraph>
+							<paragraph id="gla500-od7-clan2-stav2">
 								<content>
 									<p>СПОРАЗУМ О ЗАЈМУ</p>
 								</content>
-							</clause>
-							<clause id="gla500-od7-clan2-stav3">
+							</paragraph>
+							<paragraph id="gla500-od7-clan2-stav3">
 								<content>
 									<p>(ПРОЈЕКАТ ИНКЛУЗИВНОГ ПРЕДШКОЛСКОГ ОБРАЗОВАЊА И ВАСПИТАЊА)</p>
 								</content>
-							</clause>
-							<clause id="gla500-od7-clan2-stav4">
+							</paragraph>
+							<paragraph id="gla500-od7-clan2-stav4">
 								<content>
 									<p>ИЗМЕЂУ</p>
 								</content>
-							</clause>
-							<clause id="gla500-od7-clan2-stav5">
+							</paragraph>
+							<paragraph id="gla500-od7-clan2-stav5">
 								<content>
 									<p>РЕПУБЛИКЕ СРБИЈЕ</p>
 								</content>
-							</clause>
-							<clause id="gla500-od7-clan2-stav6">
+							</paragraph>
+							<paragraph id="gla500-od7-clan2-stav6">
 								<content>
 									<p>И</p>
 								</content>
-							</clause>
-							<clause id="gla500-od7-clan2-stav7">
+							</paragraph>
+							<paragraph id="gla500-od7-clan2-stav7">
 								<content>
 									<p>МЕЂУНАРОДНЕ БАНКЕ ЗА ОБНОВУ И РАЗВОЈ</p>
 								</content>
-							</clause>
-							<clause id="gla500-od7-clan2-stav8">
+							</paragraph>
+							<paragraph id="gla500-od7-clan2-stav8">
 								<content>
 									<p>ДАНА 12. МАЈА 2017. ГОДИНЕ</p>
 								</content>
-							</clause>
-							<clause id="gla500-od7-clan2-stav9">
+							</paragraph>
+							<paragraph id="gla500-od7-clan2-stav9">
 								<content>
 									<p>БРОЈ ЗАЈМА 8693-YF</p>
 								</content>
-							</clause>
-							<clause id="gla500-od7-clan2-stav10">
+							</paragraph>
+							<paragraph id="gla500-od7-clan2-stav10">
 								<content>
 									<p>СПОРАЗУМ О ЗАЈМУ</p>
 								</content>
-							</clause>
-							<clause id="gla500-od7-clan2-stav11">
+							</paragraph>
+							<paragraph id="gla500-od7-clan2-stav11">
 								<content>
 									<p>Споразум закључен дана 12. маја 2017. године, између РЕПУБЛИКЕ СРБИЈЕ (у даљем тексту: „Зајмопримац”) и МЕЂУНАРОДНЕ БАНКЕ ЗА ОБНОВУ И РАЗВОЈ (у даљем тексту „Банка”). Овим путем Зајмопримац и Банка сагласили су се о следећем:</p>
 								</content>
-							</clause>
-							<clause id="gla500-od7-clan2-stav12">
+							</paragraph>
+							<paragraph id="gla500-od7-clan2-stav12">
 								<content>
 									<p>ЧЛАН I — ОПШТИ УСЛОВИ; ДЕФИНИЦИЈЕ</p>
 								</content>
-							</clause>
+							</paragraph>
 						</content>
 					</section>
 					<section id="gla500-od1">
@@ -1814,11 +1814,11 @@
 									<p>02. Уколико контекст не захтева другачије, изрази писани великим словима, који се користе у овом споразуму, имају значење које им је приписано у Општим условима или у Прилогу овог споразума.</p>
 								</content>
 							</тачка>
-							<clause id="gla500-od1-clan2-stav1">
+							<paragraph id="gla500-od1-clan2-stav1">
 								<content>
 									<p>ЧЛАН II — ЗАЈАМ</p>
 								</content>
-							</clause>
+							</paragraph>
 						</content>
 					</section>
 					<section id="gla500-od2">
@@ -1867,16 +1867,16 @@
 									</тачка>
 								</content>
 							</тачка>
-							<clause id="gla500-od2-clan2-stav1">
+							<paragraph id="gla500-od2-clan2-stav1">
 								<content>
 									<p>(б) Свака конверзија која се тражи у складу са тачком (а) овог члана, а коју Банка прихвати, сматраће се „Конверзијом”, као што је дефинисано у Општим условима, и биће спроведена у складу са одредбама Члана IV Општих услова и Смерница за конверзију.</p>
 								</content>
-							</clause>
-							<clause id="gla500-od2-clan2-stav2">
+							</paragraph>
+							<paragraph id="gla500-od2-clan2-stav2">
 								<content>
 									<p>ЧЛАН III — ПРОЈЕКАТ</p>
 								</content>
-							</clause>
+							</paragraph>
 						</content>
 					</section>
 					<section id="gla500-od3">
@@ -1889,41 +1889,41 @@
 									<p>02. Не ограничавајући се одредбама Одељка 3.01. овог споразума, и осим уколико се Зајмопримац и Банка не договоре другачије, Зајмопримац ће се постарати да се Пројекат реализује у складу са одредбама Програма 2 овог споразума.</p>
 								</content>
 							</тачка>
-							<clause id="gla500-od3-clan2-stav1">
+							<paragraph id="gla500-od3-clan2-stav1">
 								<content>
 									<p>ЧЛАН IV — СТУПАЊЕ НА СНАГУ; РАСКИД</p>
 								</content>
-							</clause>
+							</paragraph>
 						</content>
 					</section>
 					<section id="gla500-od4">
 						<num>4.</num>
 						<heading>01. Додатни услови за ступање на снагу састоје се од следећег:</heading>
 						<content>
-							<clause id="gla500-od4-clan2-stav1">
+							<paragraph id="gla500-od4-clan2-stav1">
 								<content>
 									<p>(а) Зајмопримац је, преко свог Министарства финансија, званично формирао Централну фидуцијарну јединицу, са функцијама и запосленима који су задовољавајући за Банку;</p>
 								</content>
-							</clause>
-							<clause id="gla500-od4-clan2-stav2">
+							</paragraph>
+							<paragraph id="gla500-od4-clan2-stav2">
 								<content>
 									<p>(б) Зајмопримац је, преко свог МПНТР, званично формирао Јединицу за управљање пројектом, са функцијама и запосленима који су задовољавајући за Банку;</p>
 								</content>
-							</clause>
-							<clause id="gla500-od4-clan2-stav3">
+							</paragraph>
+							<paragraph id="gla500-od4-clan2-stav3">
 								<content>
 									<p>(в) Зајмопримац је, преко свог МПНТР, усвојио Пројектни оперативни приручник који Банка сматра задовољавајућим; и</p>
 								</content>
-							</clause>
+							</paragraph>
 							<section id="gla500-od4">
 								<num>4.</num>
 								<heading>02. Крајњи рок за ступање на снагу је сто осамдесет (180) дана од датума овог споразума.</heading>
 								<content>
-									<clause id="gla500-od4-clan2-stav1">
+									<paragraph id="gla500-od4-clan2-stav1">
 										<content>
 											<p>ЧЛАН V — ПРЕДСТАВНИК; АДРЕСЕ</p>
 										</content>
-									</clause>
+									</paragraph>
 								</content>
 							</section>
 						</content>
@@ -1938,310 +1938,310 @@
 									<p>02. Адреса Зајмопримца је:</p>
 								</content>
 							</тачка>
-							<clause id="gla500-od5-clan2-stav1">
+							<paragraph id="gla500-od5-clan2-stav1">
 								<content>
 									<p>Министарство финансија</p>
 								</content>
-							</clause>
-							<clause id="gla500-od5-clan2-stav2">
+							</paragraph>
+							<paragraph id="gla500-od5-clan2-stav2">
 								<content>
 									<p>Кнеза Милоша 20</p>
 								</content>
-							</clause>
-							<clause id="gla500-od5-clan2-stav3">
+							</paragraph>
+							<paragraph id="gla500-od5-clan2-stav3">
 								<content>
 									<p>11000 Београд</p>
 								</content>
-							</clause>
-							<clause id="gla500-od5-clan2-stav4">
+							</paragraph>
+							<paragraph id="gla500-od5-clan2-stav4">
 								<content>
 									<p>Република Србија</p>
 								</content>
-							</clause>
-							<clause id="gla500-od5-clan2-stav5">
+							</paragraph>
+							<paragraph id="gla500-od5-clan2-stav5">
 								<content>
 									<p>Факс:</p>
 								</content>
-							</clause>
-							<clause id="gla500-od5-clan2-stav6">
+							</paragraph>
+							<paragraph id="gla500-od5-clan2-stav6">
 								<content>
 									<p>(381-11) 3618-961</p>
 								</content>
-							</clause>
+							</paragraph>
 							<section id="gla500-od5">
 								<num>5.</num>
 								<heading>03. Адреса Банке је:</heading>
 								<content>
-									<clause id="gla500-od5-clan2-stav1">
+									<paragraph id="gla500-od5-clan2-stav1">
 										<content>
 											<p>International Bank for Reconstruction and Development</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav2">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav2">
 										<content>
 											<p>1818 H Street, N.W.</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav3">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav3">
 										<content>
 											<p>Washington, D.C.20433</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav4">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav4">
 										<content>
 											<p>United States of America</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav5">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav5">
 										<content>
 											<p>Телекс: Факс:</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav6">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav6">
 										<content>
 											<p>248423(MCI) или 1-202-477-6391</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav7">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav7">
 										<content>
 											<p>64145(MCI)</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav8">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav8">
 										<content>
 											<p>СПОРАЗУМ ЈЕ ПОСТИГНУТ У Београду, Република Србија, на дан и годину наведене у заглављу споразума.</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav9">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav9">
 										<content>
 											<p>РЕПУБЛИКА СРБИЈА</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav10">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav10">
 										<content>
 											<p>____________________________________</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav11">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav11">
 										<content>
 											<p>Овлашћени представник</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav12">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav12">
 										<content>
 											<p>Име: др Душан Вујовић</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav13">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav13">
 										<content>
 											<p>Звање: министар финансија</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav14">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav14">
 										<content>
 											<p>МЕЂУНАРОДНА БАНКА ЗА</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav15">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav15">
 										<content>
 											<p>ОБНОВУ И РАЗВОЈ</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav16">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav16">
 										<content>
 											<p>____________________________________</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav17">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav17">
 										<content>
 											<p>Овлашћени представник</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav18">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav18">
 										<content>
 											<p>Име: Антониус Верхеијен</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav19">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav19">
 										<content>
 											<p>Звање: шеф Канцеларије Светске банке</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav20">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav20">
 										<content>
 											<p>у Србији</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav21">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav21">
 										<content>
 											<p>ПРОГРАМ 1Опис Пројекта</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav22">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav22">
 										<content>
 											<p>Циљ Пројекта је унапређење приступа квалитетним услугама предшколског васпитања и образовања (ПВО), а нарочито за децу из социјално угрожених средина.</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav23">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav23">
 										<content>
 											<p>Пројекат се састоји од следећих делова:</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav24">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav24">
 										<content>
 											<p>Део 1. Проширење понуде слободних места у предшколским установама</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav25">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav25">
 										<content>
 											<p>А. Обезбеђење око 17.000 нових места у предшколским установама у новим, реновираним, пренамењеним или дограђеним објектима (укључујући изградњу нових објеката, проширење постојећих објеката предшколских установа и пренамену или доградњу других јавних зграда), укључујући набавку намештаја, материјала за учење, опрему и игралишта за све нове и обновљене предшколске установе и изградњу капацитета за локалне архитекте и инжењере за спровођење наведених радова.</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav26">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav26">
 										<content>
 											<p>Б. Реновирање или изградња до пет центара иновативне праксе који ће служити као модели предшколске установе за потребе обуке и размене искуства добре праксе.</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav27">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav27">
 										<content>
 											<p>Део 2. Унапређење квалитета услуга предшколских установа</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav28">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav28">
 										<content>
 											<p>А. Подршка спровођењу новог предшколског програма.</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav29">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav29">
 										<content>
 											<p>(и) Развијање програма обуке и материјала за обуку васпитача и других запослених и примена новог предшколског програма.</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav30">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav30">
 										<content>
 											<p>(ии) Развијање стручних материјала за подршку практичарима у складу са новим предшколским програмом.</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav31">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav31">
 										<content>
 											<p>(иии) Развијање и јачање Предшколске мреже помоћи (ПМП), укључујући активности ПМП-а у виду обуке за васпитаче, као подршка спровођењу новог предшколског програма.</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav32">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav32">
 										<content>
 											<p>Б. Унапређење образовања васпитача и њиховог професионалног развоја.</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav33">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav33">
 										<content>
 											<p>(и) Пружање техничке помоћи за оцену, реформу и усклађивање студијских програма за образовање васпитача и њихов професионални развој.</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav34">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav34">
 										<content>
 											<p>(ии) Пружање техничке помоћи у оцени и унапређивању система професионалног развоја васпитача.</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav35">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav35">
 										<content>
 											<p>(иии) Идентификација и пружање обуке за јачање професионалних компетенција руководилаца предшколских установа.</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav36">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav36">
 										<content>
 											<p>В. Унапређење система праћења и вредновања квалитета предшколског образовања и васпитања ради унапређења процеса доношења одлука.</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav37">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav37">
 										<content>
 											<p>(и) Унапређење система за праћење образовања и информисање за предшколско образовање.</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav38">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav38">
 										<content>
 											<p>(ии) Пружање техничке помоћи: (а) у процени постојећих инструмената за вредновање квалитета и методологија за самовредновање и спољашње вредновање и унапређење постојећих инструмената на основу ревидираних стандарда квалитета за предшколске установе; и (б) за развијање предлога за измену постојеће регулативе у пружању услуга ПВО.</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav39">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav39">
 										<content>
 											<p>(иии) Организовање обука за унапређење капацитета спољашњих оцењивача, запослених и стручних сарадника и других доносилаца одлука у вредновању квалитета услуга у предшколским установама.</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav40">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav40">
 										<content>
 											<p>Део 3. Подршка деци и породицама</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav41">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav41">
 										<content>
 											<p>А. Комуникациона кампања.</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav42">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav42">
 										<content>
 											<p>Развијање и спровођење кампање на националном нивоу, кроз употребу масовних медија, друштвених медија и штампаних публикација, ради подизања свести о важности раног детињства и оснаживања родитеља да имају кључну улогу у подстицању развоја њихове деце.</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav43">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav43">
 										<content>
 											<p>Б. Комуникација са породицама из осетљивих друштвених група.</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav44">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav44">
 										<content>
 											<p>Обезбеђивање грантова за најмање 30 локалних самоуправа за потребе унапређења комуникације и сарадње између релевантних актера у пружању целовитих висококвалитетних услуга ПВО (укључујући области у вези са здрављем, исхраном, раним откривањем сметњи у развоју и раном подршком развоју и учењу) родитељима и деци узраста од 0 до 6,5 година, са фокусом на најосетљивије групе.</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav45">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav45">
 										<content>
 											<p>В. Субвенције које ће обезбедити бесплатно учешће у предшколским програмима за децу из најосетљивијих друштвених група узраста од 3 до 5,5 година.</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav46">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav46">
 										<content>
 											<p>Обезбеђивање финансирања субвенција за накнаде за предшколско васпитање и образовање породицама које су корисници новчане социјалне помоћи.</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav47">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav47">
 										<content>
 											<p>Део 4. Управљање пројектом, техничка помоћ и праћење и вредновање</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav48">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav48">
 										<content>
 											<p>А. Управљање пројектом и техничка помоћ</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav49">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav49">
 										<content>
 											<p>Пружање: (а) подршке управљању Пројектом Јединици за управљање пројектом, укључујући техничку помоћ и обуку за сво пројектно особље, ревизију Пројекта, канцеларијску опрему и додатне оперативне трошкове; (б) техничке помоћи МПНТР у области реформи везаних за квалитет у сектору образовања; и (в) техничке помоћи Министарству за рад, запошљавање, борачка и социјална питања како би проширио постојећи управљачки информациони систем, укључујући додатне модуле у циљу промовисања ефикасног управљања субвенцијама које су подржане у оквиру Дела 3.В. Пројекта.</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav50">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav50">
 										<content>
 											<p>Б. Праћење и вредновање Пројекта.</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav51">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav51">
 										<content>
 											<p>Пружање: (и) техничке помоћи за дизајнирање и спровођење (а) алата и истраживања за праћење оквира резултата Пројекта, и (б) техничке ревизије одабраних аспеката Пројекта, укључујући прву фазу програма грантова у оквиру Дела 3.Б. Пројекта; (ии) обуке за запослене у МПНТР укључене у спровођење Пројекта; и (иии) техничке помоћи у дизајнирању, спровођењу и анализи истраживања везаних за вредновање.</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav52">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav52">
 										<content>
 											<p>ПРОГРАМ 2Спровођење пројекта</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav53">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav53">
 										<content>
 											<p>Одељак I. Аранжмани за имплементацију</p>
 										</content>
-									</clause>
-									<clause id="gla500-od5-clan2-stav54">
+									</paragraph>
+									<paragraph id="gla500-od5-clan2-stav54">
 										<content>
 											<p>А. Институционални аранжмани</p>
 										</content>
-									</clause>
+									</paragraph>
 								</content>
 							</section>
 						</content>
@@ -2250,32 +2250,32 @@
 						<num>1.</num>
 						<heading> Не ограничавајући се одредбама Члана V Општих услова и осим ако се Банка не договори другачије, Зајмопримац ће, као релевантне, успоставити и одржавати током спровођења Пројекта, у саставу, са ресурсима и пројектним задацима и функцијама прихватљивим за Банку:</heading>
 						<content>
-							<clause id="gla500-od1-clan2-stav1">
+							<paragraph id="gla500-od1-clan2-stav1">
 								<content>
 									<p>(а) Јединицу за управљање пројектом (ЈУП), у оквиру МПНТР, која ће бити одговорна за (и) целокупну координацију свих активности на спровођењу Пројекта, укључујући посебно активности са Централном фидуцијарном јединицом, Радном групом, другим члановима МПНТР и другим релевантним институцијама и корисницима, као што је наведено у Пројектном оперативном приручнику (ПОП) и Оперативном приручнику за грантове (ОПГ) (ии) обезбеђивање да захтеви, критеријуми, политике, процедуре и организациони аранжмани који су наведени у ПОП и ОПГ, где је релевантно, буду примењивани током спровођења Пројекта, (иии) припремање докумената за спровођење Пројекта, укључујући извештаје о надзору над Пројектом, и (ив) праћење и вредновање Пројекта;</p>
 								</content>
-							</clause>
-							<clause id="gla500-od1-clan2-stav2">
+							</paragraph>
+							<paragraph id="gla500-od1-clan2-stav2">
 								<content>
 									<p>(б) Централну фидуцијарну јединицу (ЦФЈ), у оквиру МФ, која ће бити одговорна за набавку и финансијско управљање на Пројекту, и именоваће запосленог из МФ да врши координацију и надзор над радом ЦФЈ, као што је детаљно наведено у ПОП;</p>
 								</content>
-							</clause>
-							<clause id="gla500-od1-clan2-stav3">
+							</paragraph>
+							<paragraph id="gla500-od1-clan2-stav3">
 								<content>
 									<p>(в) Радну групу, која укључује експерте из МПНТР и контакт особе за сваки од делова Пројекта, која ће бити задужена за пружање техничке експертизе и подршке ЈУП у свакодневним активностима спровођења Пројекта;</p>
 								</content>
-							</clause>
-							<clause id="gla500-od1-clan2-stav4">
+							</paragraph>
+							<paragraph id="gla500-od1-clan2-stav4">
 								<content>
 									<p>(г) Консултативну групу, састављену од представника других релевантних министарстава Зајмопримца, као и институција и партнера која ће давати савете о политикама у области ПВО, програмима и повезаним грантовима и другим активностима на локалном, регионалном и националном нивоу и допринети догађајима и размени информација;</p>
 								</content>
-							</clause>
-							<clause id="gla500-od1-clan2-stav5">
+							</paragraph>
+							<paragraph id="gla500-od1-clan2-stav5">
 								<content>
 									<p>(д) Одбор за одобравање грантова (ООГ) састављен од представника МПНТР, других релевантних министарстава Зајмопримца и интересних страна на националном нивоу (укључујући невладине организације Рома из целе земље), који ће бити задужен за вредновање и одабир предлога за грантове у оквиру Дела 3.Б. пројекта, у складу са критеријумима наведеним у ОПГ;</p>
 								</content>
-							</clause>
-							<clause id="gla500-od1-clan2-stav6">
+							</paragraph>
+							<paragraph id="gla500-od1-clan2-stav6">
 								<content>
 									<p>(ђ) Међусекторске тимове, састављене од представника локалних самоуправа општина, предшколских установа, основних школа, центара за социјални рад, здравствених центара, локалних огранака Црвеног крста, локалних невладиних организација Рома, представника локалних ромских структура (асистенти у настави, ромски здравствени медијатори, ромски координатори, где је примењиво) и локалних удружења родитеља, који ће бити задужени за развијање предлога за грантове и надзор над активностима финансираним кроз грантове у оквиру Дела 3.Б. Пројекта, као што је детаљно наведено у ОПГ.</p>
 									<тачка id="gla500-od1-clan2-stav6-tac2">
@@ -2291,13 +2291,13 @@
 										</content>
 									</тачка>
 								</content>
-							</clause>
-							<clause id="gla500-od1-clan2-stav7">
+							</paragraph>
+							<paragraph id="gla500-od1-clan2-stav7">
 								<content>
 									<p>(а) укључивати права на адекватну заштиту интереса Зајмопримца и Банке, укључујући право на обустављање или поништавање права корисника гранта да користи средства гранта, и право на рефундирање од стране корисника гранта целокупног износа или дела износа који је повучен, након што корисник гранта не спроведе било коју од својих обавеза у оквиру споразума о гранту; и</p>
 								</content>
-							</clause>
-							<clause id="gla500-od1-clan2-stav8">
+							</paragraph>
+							<paragraph id="gla500-od1-clan2-stav8">
 								<content>
 									<p>(б) захтевати од сваког корисника гранта да:</p>
 									<item id="gla500-od1-clan2-stav8-podtac1">
@@ -2349,22 +2349,22 @@
 										</content>
 									</тачка>
 								</content>
-							</clause>
-							<clause id="gla500-od1-clan2-stav9">
+							</paragraph>
+							<paragraph id="gla500-od1-clan2-stav9">
 								<content>
 									<p>Б. Пројектни оперативни приручник</p>
 								</content>
-							</clause>
+							</paragraph>
 							<section id="gla500-od1">
 								<num>1.</num>
 								<heading> Зајмопримац ће спроводити Пројекат у складу са ПОП, који је у форми и садржини задовољавајући за Банку, а који се састоји од различитих програма који дефинишу правила, методе, смернице, посебне планове развоја, стандардну документацију и процедуре за спровођење Пројекта, укључујући следеће:</heading>
 								<content>
-									<clause id="gla500-od1-clan2-stav1">
+									<paragraph id="gla500-od1-clan2-stav1">
 										<content>
 											<p>(а) детаљан опис свих пројектних активности подржаних у оквиру овог споразума, њихов редослед и распоред и мерила у односу на њих; и</p>
 										</content>
-									</clause>
-									<clause id="gla500-od1-clan2-stav2">
+									</paragraph>
+									<paragraph id="gla500-od1-clan2-stav2">
 										<content>
 											<p>(б) административне, финансијске, рачуноводствене, ревизорске процедуре на пројекту, као и процедуре за набавку и повлачење средстава, укључујући сву релевантну стандардну документацију.</p>
 											<тачка id="gla500-od1-clan2-stav2-tac2">
@@ -2374,32 +2374,32 @@
 												</content>
 											</тачка>
 										</content>
-									</clause>
-									<clause id="gla500-od1-clan2-stav3">
+									</paragraph>
+									<paragraph id="gla500-od1-clan2-stav3">
 										<content>
 											<p>В. Оперативни приручник за грантове</p>
 										</content>
-									</clause>
+									</paragraph>
 									<section id="gla500-od1">
 										<num>1.</num>
 										<heading> Зајмопримац ће спровести Део 3.Б. пројекта у складу са ОПГ, који је у форми и садржини задовољавајући за Банку, а који наводи процедуре за одабир, оцењивање и одобравање предлога за грантове, и за праћење спровођења потпројеката у оквиру програма грантова. ОПГ ће обухватати, између осталог:</heading>
 										<content>
-											<clause id="gla500-od1-clan2-stav1">
+											<paragraph id="gla500-od1-clan2-stav1">
 												<content>
 													<p>(а) критеријуме подобности за грантове;</p>
 												</content>
-											</clause>
-											<clause id="gla500-od1-clan2-stav2">
+											</paragraph>
+											<paragraph id="gla500-od1-clan2-stav2">
 												<content>
 													<p>(б) процедуру пријављивања, евалуације, селекције и додељивања грантова и процедуре за управљање грантовима;</p>
 												</content>
-											</clause>
-											<clause id="gla500-od1-clan2-stav3">
+											</paragraph>
+											<paragraph id="gla500-od1-clan2-stav3">
 												<content>
 													<p>(в) критеријуме за повлачење грантова, праћење, евалуацију и извештавање; и</p>
 												</content>
-											</clause>
-											<clause id="gla500-od1-clan2-stav4">
+											</paragraph>
+											<paragraph id="gla500-od1-clan2-stav4">
 												<content>
 													<p>(г) обавезне одредбе које дефинишу следеће: (и) грантови неће финансирати било какве веће грађевинске радове, (ии) никакво преузимање земљишта нити принудно расељавање се неће десити у вези са обезбеђивањем грантова, (иии) корисници грантова неће додељивати уговоре својим зависним или повезаним друштвима осим ако се не успостави одговарајући аранжман, и (ив) грантови ће бити обезбеђени и спровођени у складу са Оквиром за управљање животном средином и социјалним питањима и примењивим Планом за управљање животном средином на основу наведеног оквира.</p>
 													<тачка id="gla500-od1-clan2-stav4-tac2">
@@ -2409,32 +2409,32 @@
 														</content>
 													</тачка>
 												</content>
-											</clause>
-											<clause id="gla500-od1-clan2-stav5">
+											</paragraph>
+											<paragraph id="gla500-od1-clan2-stav5">
 												<content>
 													<p>Г. Борба против корупције</p>
 												</content>
-											</clause>
-											<clause id="gla500-od1-clan2-stav6">
+											</paragraph>
+											<paragraph id="gla500-od1-clan2-stav6">
 												<content>
 													<p>Зајмопримац ће осигурати спровођење Пројекта у складу са одредбама Смерница за борбу против корупције.</p>
 												</content>
-											</clause>
-											<clause id="gla500-od1-clan2-stav7">
+											</paragraph>
+											<paragraph id="gla500-od1-clan2-stav7">
 												<content>
 													<p>Д. Заштитне мере</p>
 												</content>
-											</clause>
+											</paragraph>
 											<section id="gla500-od1">
 												<num>1.</num>
 												<heading> Зајмопримац ће обезбедити да:</heading>
 												<content>
-													<clause id="gla500-od1-clan2-stav1">
+													<paragraph id="gla500-od1-clan2-stav1">
 														<content>
 															<p>(а) се Пројекат спроводи у складу са одговарајућим условима Оквира за управљање животном средином и социјалним питањима (ЕSMF) и Оквиром за политику расељавања (RPF), као и политикама, процедурама и аранжманима који се примењују и спроводе; и</p>
 														</content>
-													</clause>
-													<clause id="gla500-od1-clan2-stav2">
+													</paragraph>
+													<paragraph id="gla500-od1-clan2-stav2">
 														<content>
 															<p>(б) ЕSMF и RPF, или било која њихова одредба не могу бити измењене, суспендоване, изузете, нити се од њих може одустати без претходне писмене сагласности Банке.</p>
 															<тачка id="gla500-od1-clan2-stav2-tac2">
@@ -2444,41 +2444,41 @@
 																</content>
 															</тачка>
 														</content>
-													</clause>
-													<clause id="gla500-od1-clan2-stav3">
+													</paragraph>
+													<paragraph id="gla500-od1-clan2-stav3">
 														<content>
 															<p>(а) доставити Банци на одобравање, релевантан (и) потребан Акциони план за расељавање (RAP), укључујући релевантну социјалну процену, у форми и садржини прихватљивој за Банку, и (ии) потребан План за управљање животном средином (ЕМР), у форми и садржини који су прихватљиви за Банку;</p>
 														</content>
-													</clause>
-													<clause id="gla500-od1-clan2-stav4">
+													</paragraph>
+													<paragraph id="gla500-od1-clan2-stav4">
 														<content>
 															<p>(б) обезбедити да одредбе наведеног RAP и EMP буду адекватно укључене у предложене уговоре за наведене радове; и</p>
 														</content>
-													</clause>
-													<clause id="gla500-od1-clan2-stav5">
+													</paragraph>
+													<paragraph id="gla500-od1-clan2-stav5">
 														<content>
 															<p>(в) обезбедити да наведени RAP буде/буду објављен(и) и, осим ако се Банка не сложи другачије, све повезане, адекватне надокнаде буду исплаћене у потпуности, све у складу са повезаним RAP и EMP, RPF и ESMF.</p>
 														</content>
-													</clause>
-													<clause id="gla500-od1-clan2-stav6">
+													</paragraph>
+													<paragraph id="gla500-od1-clan2-stav6">
 														<content>
 															<p>Одељак II. Праћење, извештавање и вредновање пројекта</p>
 														</content>
-													</clause>
-													<clause id="gla500-od1-clan2-stav7">
+													</paragraph>
+													<paragraph id="gla500-od1-clan2-stav7">
 														<content>
 															<p>А. Пројектни извештаји</p>
 														</content>
-													</clause>
+													</paragraph>
 													<section id="gla500-od1">
 														<num>1.</num>
 														<heading> Зајмопримац ће, преко МПНТР, пратити и вредновати напредак постигнут у спровођењу Пројекта и израђивати Пројектне извештаје у складу са одредбама Одељка 5.08. Општих услова и на основу показатеља који су прихватљиви за Банку. Сваки Пројектни извештај обухватаће период од једног календарског квартала и достављаће се Банци у року од месец дана по истеку сваког периода обухваћеног датим извештајем.</heading>
 														<content>
-															<clause id="gla500-od1-clan2-stav1">
+															<paragraph id="gla500-od1-clan2-stav1">
 																<content>
 																	<p>Б. Финансијско управљање, финансијски извештаји и ревизије</p>
 																</content>
-															</clause>
+															</paragraph>
 															<section id="gla500-od1">
 																<num>1.</num>
 																<heading> Зајмопримац ће најкасније деведесет (90) дана од датума ступања на снагу, преко ЦФЈ, и у складу са пројектним задатком који је прихватљив за Банку, инсталирати и прилагодити одговарајући рачуноводствени софтвер за пројектно рачуноводство, буџетирање и извештавање.</heading>
@@ -2501,16 +2501,16 @@
 																			<p> Зајмопримац ће, преко ЦФЈ, извршити ревизију Финансијских извештаја у складу са одредбама Одељка 5.09. (б) Општих услова. Свака ревизија Финансијских извештаја обухватаће период од једне фискалне године Зајмопримца. Финансијски извештаји за које је извршена ревизија за сваки такав период достављаће се Банци у року од најкасније шест месеци по истеку сваког таквог периода.</p>
 																		</content>
 																	</тачка>
-																	<clause id="gla500-od1-clan2-stav1">
+																	<paragraph id="gla500-od1-clan2-stav1">
 																		<content>
 																			<p>Одељак III. Набавка</p>
 																		</content>
-																	</clause>
-																	<clause id="gla500-od1-clan2-stav2">
+																	</paragraph>
+																	<paragraph id="gla500-od1-clan2-stav2">
 																		<content>
 																			<p>А. Опште</p>
 																		</content>
-																	</clause>
+																	</paragraph>
 																	<section id="gla500-od1">
 																		<num>1.</num>
 																		<heading> Роба, радови и неконсултантске услуге. Набавка робе, радова и неконсултантских услуга за потребе Пројекта који се финансирају средствима Зајма вршиће се у складу са захтевима утврђеним или поменутим у Одељку I Смерница за набавке и у складу са одредбама овог одељка.</heading>
@@ -2527,11 +2527,11 @@
 																					<p> Дефиниције. Термини писани великим словом, коришћени у наставку овог одељка за опис појединих процедура за набавке или процедура за ревизију појединих уговора од стране Банке, односе се на методе описане у одељцима II и III Смерница за набавке или одељцима II, III, IV и V Смерница за консултанте, у зависности од потребе.</p>
 																				</content>
 																			</тачка>
-																			<clause id="gla500-od1-clan2-stav1">
+																			<paragraph id="gla500-od1-clan2-stav1">
 																				<content>
 																					<p>Б. Појединачне процедуре за набавку робе, радова и неконсултантских услуга</p>
 																				</content>
-																			</clause>
+																			</paragraph>
 																			<section id="gla500-od1">
 																				<num>1.</num>
 																				<heading> Међународно надметање. Осим уколико у тачки 2. у даљем тексту није другачије одређено, набавка робе, радова и неконсултантских услуга врши се у оквиру уговора додељених на основу међународног надметања.</heading>
@@ -2542,11 +2542,11 @@
 																							<p> Друге методе за набавку робе, радова и неконсултантских услуга. Следеће методе поред међународног конкурентног надметања, могу се користити за набавку робе, радова и неконсултантских услуга за уговоре који су наведени у плану набавке: (а) Национално надметање, на које се односе додатне одредбе у прилогу овог Програма; (б) Куповина; и (в) Директно уговарање.</p>
 																						</content>
 																					</тачка>
-																					<clause id="gla500-od1-clan2-stav1">
+																					<paragraph id="gla500-od1-clan2-stav1">
 																						<content>
 																							<p>В. Појединачне процедуре за набавку консултантских услуга</p>
 																						</content>
-																					</clause>
+																					</paragraph>
 																					<section id="gla500-od1">
 																						<num>1.</num>
 																						<heading> Избор на основу квалитета и цене. Осим ако није другачије дефинисано у тачки 2. у даљем тексту, консултантске услуге ће се набављати применом методе Избор на основу квалитета и цене.</heading>
@@ -2557,26 +2557,26 @@
 																									<p> Друге методе за избор консултантских услуга. Поред Избора на основу квалитета и цене, за набавку консултантских услуга за уговоре који су наведени у Плану набавке могу се користити и следеће методе: (а) Избор на основу квалификација консултаната; и (б) Процедура избора из јединог извора за избор консултантских фирми.</p>
 																								</content>
 																							</тачка>
-																							<clause id="gla500-od1-clan2-stav1">
+																							<paragraph id="gla500-od1-clan2-stav1">
 																								<content>
 																									<p>Г. Ревизија одлука о набавкама од стране Банке</p>
 																								</content>
-																							</clause>
-																							<clause id="gla500-od1-clan2-stav2">
+																							</paragraph>
+																							<paragraph id="gla500-od1-clan2-stav2">
 																								<content>
 																									<p>У Плану набавке ће се утврдити који уговори подлежу Претходној ревизији од стране Банке. Сви остали уговори подлежу Накнадној ревизији Банке.</p>
 																								</content>
-																							</clause>
-																							<clause id="gla500-od1-clan2-stav3">
+																							</paragraph>
+																							<paragraph id="gla500-od1-clan2-stav3">
 																								<content>
 																									<p>Одељак IV. Повлачење средстава Зајма</p>
 																								</content>
-																							</clause>
-																							<clause id="gla500-od1-clan2-stav4">
+																							</paragraph>
+																							<paragraph id="gla500-od1-clan2-stav4">
 																								<content>
 																									<p>А. Опште</p>
 																								</content>
-																							</clause>
+																							</paragraph>
 																							<section id="gla500-od1">
 																								<num>1.</num>
 																								<heading> Зајмопримац може повлачити средства Зајма у складу с одредбама Члана II. Општих услова, овим одељком и додатним инструкцијама које Банка утврђује с времена на време уз обавештење Зајмопримца (укључујући „Смернице Светске банке за повлачење средстава за пројекте” из маја 2006. године које Банка мења повремено, на начин који је примењив на овај споразум у складу са таквим инструкцијама), за финансирање подобних расхода дефинисаних у табели у тачки 2. ниже.</heading>
@@ -2587,7 +2587,7 @@
 																											<p> У следећој табели наведене су све категорије подобних расхода који могу бити финансирани из средстава Зајма („Категорија”), опредељивање износа Зајма за сваку Категорију и проценат расхода који ће бити финансирани за прихватљиве трошкове у свакој Категорији.</p>
 																										</content>
 																									</тачка>
-																									<став id="gla500-od1-clan2-stav1">
+																									<paragraph id="gla500-od1-clan2-stav1">
 																										<table class="tabela-sa-borderom">
 																											
 					
@@ -2843,42 +2843,42 @@
 																										
 				
 																										<content/>
-																									</став>
-																									<clause id="gla500-od1-clan2-stav2">
+																									</paragraph>
+																									<paragraph id="gla500-od1-clan2-stav2">
 																										<content>
 																											<p>Б. Услови за повлачење средстава; Период повлачења средстава</p>
 																										</content>
-																									</clause>
+																									</paragraph>
 																									<section id="gla500-od1">
 																										<num>1.</num>
 																										<heading> Изузетно од одредби Дела А. овог одељка,</heading>
 																										<content>
-																											<clause id="gla500-od1-clan2-stav1">
+																											<paragraph id="gla500-od1-clan2-stav1">
 																												<content>
 																													<p>(а) исплате се неће вршити за плаћања извршена пре датума овог споразума, осим у случају повлачења средстава до укупне суме која неће прећи износ од сто хиљада евра (ЕУР 100.000,00) за плаћања извршена пре тог датума и то дана 1. децембра 2016. године или након тог датума за прихватљиве расходе у Категорији (1);</p>
 																												</content>
-																											</clause>
-																											<clause id="gla500-od1-clan2-stav2">
+																											</paragraph>
+																											<paragraph id="gla500-od1-clan2-stav2">
 																												<content>
 																													<p>(б) у Категорији (2) изнад:</p>
 																												</content>
-																											</clause>
-																											<clause id="gla500-od1-clan2-stav3">
+																											</paragraph>
+																											<paragraph id="gla500-od1-clan2-stav3">
 																												<content>
 																													<p>(и) Зајмопримац може да повуче износ који неће прећи износ од једног милиона евра (ЕУР 1.000.000.00) као аванс, под условом да је Зајмопримац, преко МПНТР, усвојио ОПГ, који је задовољавајући за Банку, на начин утврђен у Одељку I.В овог програма;</p>
 																												</content>
-																											</clause>
-																											<clause id="gla500-od1-clan2-stav4">
+																											</paragraph>
+																											<paragraph id="gla500-od1-clan2-stav4">
 																												<content>
 																													<p>(ии) Зајмопримац може да повуче износ који неће прећи петсто хиљада евра (ЕУР 500.000,00), под условом да је Зајмопримац доставио доказе који су задовољавајући за Банку да су корисници гранта искористили авансна средства грантова и да су средства повучена у складу са Одељком IV.Б.(б)(и) изнад за прихватљиве расходе у складу са предвиђеним наменама у оквиру грантова, и у складу са одговарајућим споразумима о грантовима, који су задовољавајући за Банку; и</p>
 																												</content>
-																											</clause>
-																											<clause id="gla500-od1-clan2-stav5">
+																											</paragraph>
+																											<paragraph id="gla500-od1-clan2-stav5">
 																												<content>
 																													<p>(иии) независно од Одељка IV.Б.1(б)(ии) изнад, уколико по мишљењу Банке, износи који су авансно уплаћени у складу са Одељком IV.Б.(б)(и) нису искоришћени за предвиђене намене у оквиру грантова, Зајмопримац ће рефундирати износе тих аванса (или део аванса које утврди Банка) Банци одмах након пријема обавештења Банке. Осим ако није другачије договорено са Зајмопримцем, Банка може да откаже износ средстава која су рефундирана на тај начин; и</p>
 																												</content>
-																											</clause>
-																											<clause id="gla500-od1-clan2-stav6">
+																											</paragraph>
+																											<paragraph id="gla500-od1-clan2-stav6">
 																												<content>
 																													<p>(в) у оквиру Категорије (3) изнад, Зајмопримац може, на годишњем нивоу, да повуче износ једнак износу који Зајмопримац рефундира релевантним локалним самоуправама за финансирање њихових фондова за социјалну помоћ (а као доказ ће послужити национални буџет Зајмопримца за релевантну фискалну годину), али који неће прећи износ од једног милиона евра (ЕУР 1.000.000,00), за сваки годишњи период спровођења Пројекта; међутим, за четврту годину спровођења Пројекта, уколико неповучени износ из Категорије (3) буде већи од једног милиона евра (ЕУР 1.000.000,00), Зајмопримац може да повуче износ једнак износу који Зајмопримац рефундира релевантним локалним самоуправама за финансирање њихових фондова за социјалну помоћ за ту фискалну годину, до пуног износа неповучених средстава из Категорије (3).</p>
 																													<тачка id="gla500-od1-clan2-stav6-tac2">
@@ -2888,13 +2888,13 @@
 																														</content>
 																													</тачка>
 																												</content>
-																											</clause>
-																											<clause id="gla500-od1-clan2-stav7">
+																											</paragraph>
+																											<paragraph id="gla500-od1-clan2-stav7">
 																												<content>
 																													<p>ПрилогПРОГРАМУ 2</p>
 																												</content>
-																											</clause>
-																											<clause id="gla500-od1-clan2-stav8">
+																											</paragraph>
+																											<paragraph id="gla500-od1-clan2-stav8">
 																												<content>
 																													<p>Процедуре које се примењују за национално надметање су оне које су дефинисане у Програму 2 овог споразума, под условом да су те процедуре у складу са Одељком I и ставовима 3.3 и 3.4 Смерница за набавку, и следећим додатним одредбама:</p>
 																													<тачка id="gla500-od1-clan2-stav8-tac1">
@@ -2970,17 +2970,17 @@
 																														</content>
 																													</тачка>
 																												</content>
-																											</clause>
-																											<clause id="gla500-od1-clan2-stav9">
+																											</paragraph>
+																											<paragraph id="gla500-od1-clan2-stav9">
 																												<content>
 																													<p>ПРОГРАМ 3План отплате</p>
 																												</content>
-																											</clause>
+																											</paragraph>
 																											<section id="gla500-od1">
 																												<num>1.</num>
 																												<heading> Следећа табела приказује Датуме отплате главнице Зајма и проценат укупног износа главнице Зајма који се отплаћује на сваки Датум отплате главнице („Удео рате”). Ако су средства Зајма у потпуности повучена до првог Датума отплате главнице, Банка одређује износ главнице Зајма који је Зајмопримац дужан да отплаћује на сваки Датум отплате главнице тако што помножи: (а) средства Зајма која су повучена до првог Датума отплате главнице са (б) Уделом рате за сваки Датум отплате главнице, при чему се тако добијен износ може кориговати, уколико буде потребно, и умањити за све износе наведене у тачки 4. овог програма, на које се примењује Конверзија валуте.</heading>
 																												<content>
-																													<став id="gla500-od1-clan2-stav1">
+																													<paragraph id="gla500-od1-clan2-stav1">
 																														<table class="tabela-sa-borderom">
 																															
 					
@@ -3082,13 +3082,13 @@
 																																</content>
 																															</тачка>
 																														</content>
-																													</став>
-																													<clause id="gla500-od1-clan2-stav2">
+																													</paragraph>
+																													<paragraph id="gla500-od1-clan2-stav2">
 																														<content>
 																															<p>(а) У случају да је било који део средстава Зајма повучен до првог Датума отплате главнице, Зајмопримац отплаћује повучена средства, на датум који је у складу са тачком 1. овог програма.</p>
 																														</content>
-																													</clause>
-																													<clause id="gla500-od1-clan2-stav3">
+																													</paragraph>
+																													<paragraph id="gla500-od1-clan2-stav3">
 																														<content>
 																															<p>(б) Сваки износ који је повучен после првог Датума отплате главнице, отплаћује се сваког Датума отплате главнице који пада после датума повлачења, а у износима које одреди Банка, множењем износа сваког таквог повлачења са разломком чији је бројилац оригинални Удео рате наведен у табели у тачки 1. овог програма, за наведени Датум отплате главнице („Оригинални удео рате”), а чији је именилац збир свих преосталих Оригиналних удела рате за Датуме отплате главнице који падају на тај дан или после таквог датума, такви износи који се отплаћују морају се кориговати, према потреби, да би се одузели сви износи наведени у тачки 4. овог програма, на које се примењује Конверзија валуте.</p>
 																															<тачка id="gla500-od1-clan2-stav3-tac3">
@@ -3098,8 +3098,8 @@
 																																</content>
 																															</тачка>
 																														</content>
-																													</clause>
-																													<clause id="gla500-od1-clan2-stav4">
+																													</paragraph>
+																													<paragraph id="gla500-od1-clan2-stav4">
 																														<content>
 																															<p>(б) Не изузимајући одредбе подтачке (а) ове тачке, ако било када Банка усвоји систем достављања налога за плаћање по року доспећа према којем се налози за плаћање издају на или после одговарајућег Датума отплате главнице, одредбе те подтачке више се неће примењивати на било која повлачења извршена након усвајања таквог система.</p>
 																															<тачка id="gla500-od1-clan2-stav4-tac4">
@@ -3115,17 +3115,17 @@
 																																</content>
 																															</тачка>
 																														</content>
-																													</clause>
-																													<clause id="gla500-od1-clan2-stav5">
+																													</paragraph>
+																													<paragraph id="gla500-od1-clan2-stav5">
 																														<content>
 																															<p>ПРИЛОГ</p>
 																														</content>
-																													</clause>
-																													<clause id="gla500-od1-clan2-stav6">
+																													</paragraph>
+																													<paragraph id="gla500-od1-clan2-stav6">
 																														<content>
 																															<p>Одељак I. Дефиниције</p>
 																														</content>
-																													</clause>
+																													</paragraph>
 																													<section id="gla500-od1">
 																														<num>1.</num>
 																														<heading> „Смернице за борбу против корупције” означава „Смернице за спречавање и борбу против превара и корупције у финансирању пројеката финансираних из зајмова ИБРД и кредита и грантова ИДА”, од 15. октобра 2006. године и измењене у јануару 2011. године и 1. јула 2016. године.</heading>
@@ -3298,12 +3298,12 @@
 																																	<p> „Радна група” означава Радну групу, утврђену у Одељку I.А.1.(в) Програма 2 овог споразума односно њеног правног следбеника, задовољавајућег за Банку.</p>
 																																</content>
 																															</тачка>
-																															<clause id="gla500-od1-clan2-stav1">
+																															<paragraph id="gla500-od1-clan2-stav1">
 																																<content>
 																																	<p>Одељак II. Измене Општих услова</p>
 																																</content>
-																															</clause>
-																															<clause id="gla500-od1-clan2-stav2">
+																															</paragraph>
+																															<paragraph id="gla500-od1-clan2-stav2">
 																																<content>
 																																	<p>Општи услови се овим мењају на следећи начин:</p>
 																																	<тачка id="gla500-od1-clan2-stav2-tac1">
@@ -3319,22 +3319,22 @@
 																																		</content>
 																																	</тачка>
 																																</content>
-																															</clause>
-																															<clause id="gla500-od1-clan2-stav3">
+																															</paragraph>
+																															<paragraph id="gla500-od1-clan2-stav3">
 																																<content>
 																																	<p>„Одељак 3.01. Приступна накнада; Накнада за неискоришћена средства</p>
 																																</content>
-																															</clause>
-																															<clause id="gla500-od1-clan2-stav4">
+																															</paragraph>
+																															<paragraph id="gla500-od1-clan2-stav4">
 																																<content>
 																																	<p>(а) Зајмопримац ће платити приступну накнаду Банци за износ Зајма по стопи наведеној у Споразуму о зајму („Приступна накнада”).</p>
 																																</content>
-																															</clause>
-																															<clause id="gla500-od1-clan2-stav5">
+																															</paragraph>
+																															<paragraph id="gla500-od1-clan2-stav5">
 																																<content>
 																																	<p>(б) Зајмопримац ће платити Банци Накнаду за неискоришћена средства на неповучена средства зајма по стопи наведеној у Споразуму о зајму („Накнада за неискоришћена средства”). Накнада за неискоришћена средства се обрачунава од датума који следи шездесет дана након датума Споразума о зајму до одговарајућих датума на које Зајмопримац повлачи или отказује средства са рачуна Зајма. Накнада за неискоришћена средства се плаћа полугодишње на сваки Датум плаћања.”</p>
 																																</content>
-																															</clause>
+																															</paragraph>
 																														</content>
 																													</section>
 																												</content>
@@ -3371,11 +3371,11 @@
 									<p> Прилог је измењен уношењем нове тачке 19 са следећом дефиницијом „Накнаде за неискоришћена средства”, а наредним тачкама се у складу са тим мења нумерација:</p>
 								</content>
 							</тачка>
-							<clause id="gla500-od3-clan2-stav1">
+							<paragraph id="gla500-od3-clan2-stav1">
 								<content>
 									<p>„19. „Накнада за неискоришћена средства” означава накнаду наведену у Споразуму о зајму за потребе Одељка 3.01(б).”</p>
 								</content>
-							</clause>
+							</paragraph>
 						</content>
 					</section>
 					<section id="gla500-od5">
@@ -3388,11 +3388,11 @@
 									<p> У пренумерисаној тачки 68 (првобитно тачка 67) Прилога, дефиниција термина „Исплата зајма” мења се и гласи:</p>
 								</content>
 							</тачка>
-							<clause id="gla500-od5-clan2-stav1">
+							<paragraph id="gla500-od5-clan2-stav1">
 								<content>
 									<p>„68. „Исплата зајма” означава износ који уплаћују стране у Зајму Банци у складу са правним уговорима или овим општим условима, укључујући (али не ограничавајући се на) било који износ повученог зајма, камате, приступне накнаде, накнаде за неискоришћена средства, затезне камате (уколико је има), премије за превремену отплату, било какве накнаде за трансакције за конверзију или превремено окончање конверзије, накнаде за фиксирање варијабилне марже (уколико је има), било какве премије плативе након успостављања највише каматне стопе или распона каматне стопе и било каквог износа који плаћа Зајмопримац.”</p>
 								</content>
-							</clause>
+							</paragraph>
 						</content>
 					</section>
 					<section id="gla500-od7">
@@ -3402,11 +3402,11 @@
 							<article id="gla500-od7-clan3">
 								<num>3.</num>
 								<content>
-									<clause id="gla500-od7-clan3-stav1">
+									<paragraph id="gla500-od7-clan3-stav1">
 										<content>
 											<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије – Међународни уговори”.</p>
 										</content>
-									</clause>
+									</paragraph>
 								</content>
 							</article>
 						</content>

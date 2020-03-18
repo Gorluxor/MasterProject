@@ -13,35 +13,40 @@ from form_akoma.MetadataBuilder import MetadataBuilder
 from named_enitity_recognition.pattern_recognition import add_refs
 
 if __name__ == "__main__":
-    nastavi = "1.html" #""651.html"
+    nastavi = "1.html"  # ""651.html"
     idemo = False
-    stani = [] #["1160.html", "1575.html", "908.html", "2348.html", "318.html", "3062.html"] #ovi fajlovi su samo preveliki pa njihovo procesiranje traje dugo
+    stani = []  # ["1160.html", "1575.html", "908.html", "2348.html", "318.html", "3062.html"] #ovi fajlovi su samo preveliki pa njihovo procesiranje traje dugo
     fajls = os.listdir("data/acts")
     for fajl in fajls:
-        if(fajl == nastavi):
-            idemo=True
+        if (fajl == nastavi):
+            idemo = True
         if not idemo:
             continue
         if fajl in stani:
             continue
         print(fajl)
-        stringo = preprocessing.remove_html.preprocessing("data/acts/"+fajl) #aktovi_html
+        stringo = preprocessing.remove_html.preprocessing("data/acts/" + fajl)  # aktovi_html
         akoma_root = preprocessing.init_akoma.init_xml("act")
-        #break
-        #f = io.open('data/aktovi_raw/' +fajl, mode="w", encoding="utf-8")
-        #f.write(stringo)
-       # f.close()
+        # break
+        # f = io.open('data/aktovi_raw/' +fajl, mode="w", encoding="utf-8")
+        # f.write(stringo)
+        # f.close()
 
         html_root = ET.fromstring("<article>" + stringo + "</article>")
-        #form_akoma.structure.fill_body(akoma_root, html_root)
+        import xml.dom.minidom
+        dom = xml.dom.minidom.parseString(ET.tostring(html_root, encoding='UTF-8',method="xml").decode())  # or xml.dom.minidom.parseString(xml_string)
+        checker3 = dom.toprettyxml()
+
+        # form_akoma.structure.fill_body(akoma_root, html_root)
 
         metabuilder = MetadataBuilder("data/meta/allmeta.csv")
         metabuilder.build(fajl, akoma_root)
-        try: #just in case
+        try:  # just in case
             builder = AkomaBuilder(akoma_root)
+            checker1 = builder.result_str()
             reasoner = BasicReasoner(HTMLTokenizer(html_root), builder)
             reasoner.start()
-
+            checker2 = builder.result_str()
             if reasoner.current_hierarchy[4] == 0:
                 akoma_root = preprocessing.init_akoma.init_xml("act")
                 metabuilder = MetadataBuilder("data/meta/allmeta.csv")
@@ -53,10 +58,9 @@ if __name__ == "__main__":
 
             result_str = builder.result_str()
             result_str = add_refs(result_str, metabuilder.expressionuri)
-            f = io.open('data/akoma_result/' + fajl[:-5]+".xml", mode="w", encoding="utf-8")
+            f = io.open('data/akoma_result/' + fajl[:-5] + ".xml", mode="w", encoding="utf-8")
             f.write(result_str)
             f.close()
         except Exception as ex:
             print("Exception =" + str(ex))
             continue
-
