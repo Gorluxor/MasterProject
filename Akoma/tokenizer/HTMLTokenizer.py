@@ -1,7 +1,12 @@
-from Akoma.tokenizer.patterns import recognize_pattern, FoundToken
-from Akoma.tokenizer.TokenType import TokenType
-from Akoma.tokenizer.BasicTokenizer import BasicTokenizer
-import xml.etree.ElementTree as ET
+try:
+    from Akoma.tokenizer.patterns import recognize_pattern, FoundToken
+    from Akoma.tokenizer.TokenType import TokenType
+    from Akoma.tokenizer.BasicTokenizer import BasicTokenizer
+except ModuleNotFoundError:
+    from tokenizer.patterns import recognize_pattern, FoundToken
+    from tokenizer.TokenType import TokenType
+    from tokenizer.BasicTokenizer import BasicTokenizer
+
 
 
 class HTMLTokenizer(BasicTokenizer):

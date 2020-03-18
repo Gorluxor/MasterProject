@@ -1,4 +1,7 @@
-from Akoma.tokenizer.patterns import recognize_pattern
+try:
+    from Akoma.tokenizer.patterns import recognize_pattern
+except ModuleNotFoundError:
+    from tokenizer.patterns import recognize_pattern
 
 
 class BasicTokenizer():

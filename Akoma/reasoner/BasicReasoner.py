@@ -1,5 +1,7 @@
-from Akoma.tokenizer.TokenType import TokenType
-
+try:
+    from Akoma.tokenizer.TokenType import TokenType
+except ModuleNotFoundError:
+    from tokenizer.TokenType import TokenType
 
 
 class BasicReasoner():
