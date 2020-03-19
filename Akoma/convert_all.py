@@ -3,8 +3,8 @@ import os
 import xml.etree.ElementTree as ET
 
 try:
-    import Akoma.preprocessing.remove_html
-    import Akoma.preprocessing.init_akoma
+    from Akoma.preprocessing import remove_html
+    from Akoma.preprocessing import init_akoma
     from Akoma.tokenizer.HTMLTokenizer import HTMLTokenizer
     from Akoma.form_akoma.AkomaBuilder import AkomaBuilder
     from Akoma.reasoner.BasicReasoner import BasicReasoner
@@ -13,8 +13,8 @@ try:
     from Akoma.named_enitity_recognition.pattern_recognition import add_refs
 except ModuleNotFoundError:
     try:
-        import preprocessing.remove_html
-        import preprocessing.init_akoma
+        from preprocessing import remove_html
+        from preprocessing import init_akoma
         from tokenizer.HTMLTokenizer import HTMLTokenizer
         from form_akoma.AkomaBuilder import AkomaBuilder
         from reasoner.BasicReasoner import BasicReasoner
@@ -39,8 +39,8 @@ if __name__ == "__main__":
         if fajl in stani:
             continue
         print(fajl)
-        stringo = Akoma.preprocessing.remove_html.preprocessing("data/acts/" + fajl)  # aktovi_html
-        akoma_root = Akoma.preprocessing.init_akoma.init_xml("act")
+        stringo = remove_html.preprocessing("data/acts/" + fajl)  # aktovi_html
+        akoma_root = init_akoma.init_xml("act")
         # break
         # f = io.open('data/aktovi_raw/' +fajl, mode="w", encoding="utf-8")
         # f.write(stringo)
@@ -51,25 +51,25 @@ if __name__ == "__main__":
 
         metabuilder = MetadataBuilder("data/meta/allmeta.csv")
         metabuilder.build(fajl, akoma_root)
-        try:  # just in case
+        # try:  # just in case
+        builder = AkomaBuilder(akoma_root)
+        reasoner = BasicReasoner(HTMLTokenizer(html_root), builder)
+        reasoner.start()
+
+        if reasoner.current_hierarchy[4] == 0:
+            akoma_root = Akoma.preprocessing.init_akoma.init_xml("act")
+            metabuilder = MetadataBuilder("data/meta/allmeta.csv")
+            metabuilder.build(fajl, akoma_root)
+
             builder = AkomaBuilder(akoma_root)
-            reasoner = BasicReasoner(HTMLTokenizer(html_root), builder)
+            reasoner = OdlukaReasoner(HTMLTokenizer(html_root), builder)
             reasoner.start()
 
-            if reasoner.current_hierarchy[4] == 0:
-                akoma_root = Akoma.preprocessing.init_akoma.init_xml("act")
-                metabuilder = MetadataBuilder("data/meta/allmeta.csv")
-                metabuilder.build(fajl, akoma_root)
-
-                builder = AkomaBuilder(akoma_root)
-                reasoner = OdlukaReasoner(HTMLTokenizer(html_root), builder)
-                reasoner.start()
-
-            result_str = builder.result_str()
-            result_str = add_refs(result_str, metabuilder.expressionuri)
-            f = io.open('data/akoma_result/' + fajl[:-5] + ".xml", mode="w", encoding="utf-8")
-            f.write(result_str)
-            f.close()
-        except Exception as ex:
-            print("Exception =" + str(ex))
-            continue
+        result_str = builder.result_str()
+        result_str = add_refs(result_str, metabuilder.expressionuri)
+        f = io.open('data/akoma_result/' + fajl[:-5] + ".xml", mode="w", encoding="utf-8")
+        f.write(result_str)
+        f.close()
+        # except Exception as ex:
+        # print("Exception =" + str(ex))
+        # continue

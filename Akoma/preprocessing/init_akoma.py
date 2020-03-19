@@ -42,14 +42,14 @@ def add_fake_root_node(stringo):
 def init_xml(type):
     retval = ''  # '< ?xml version = "1.0" encoding = "UTF-8"? >\n'
     retval += '<akomaNtoso '
-    retval += 'xmlns = "http://www.akomantoso.org/2.0" '
+    retval += 'xmlns = "http://docs.oasis-open.org/legaldocml/ns/akn/3.0" '
     retval += 'xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" '
-    retval += 'xsi:schemaLocation = "http://www.akomantoso.org/2.0 ./akomantoso20.xsd" >\n'
+    retval += 'xsi:schemaLocation = "http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd" >\n'
 
     retval += '<' + type + '><meta></meta><body></body></' + type + '>'
     retval += '</akomaNtoso>'
     # print(retval)
     ET.register_namespace('', "http://www.akomantoso.org/2.0")
     root = ET.fromstring(retval)
-    print("SADAD", list(list(root)[0]))
+    # print("SADAD", list(list(root)[0]))
     return root

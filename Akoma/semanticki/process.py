@@ -1,9 +1,22 @@
-from Akoma.tfidf.tfidf import get_tf_idf_values_document
 import re
-import Akoma.semanticki.util as util
-from Akoma.utilities import utilities
-import Akoma.semanticki.owl as owl
-from Akoma.convertToLatin import Convert
+
+try:
+    from Akoma.tfidf.tfidf import get_tf_idf_values_document
+    import Akoma.semanticki.util as util
+    from Akoma.utilities import utilities
+    import Akoma.semanticki.owl as owl
+    from Akoma.convertToLatin import Convert
+except ModuleNotFoundError as e1:
+    print(e1)
+    try:
+        from tfidf.tfidf import get_tf_idf_values_document
+        import semanticki.util as util
+        from utilities import utilities
+        import semanticki.owl as owl
+        from convertToLatin import Convert
+    except ModuleNotFoundError as e2:
+        print(e2)
+        exit(-1)
 
 
 def inside_important(tfidf, clan_info, iter):
@@ -56,8 +69,8 @@ def generate_owl(folder_path, filenames=None):
         if meta == None:
             print("Warn - " + el[0] + "missing meta")
             continue
-        # latin_name = to_latin(meta.act_name).replace(' ', '_')
-        latin_name = meta.act_name.replace(" ", '_')
+        latin_name = to_latin(meta.act_name).replace(' ', '_')
+        # latin_name = meta.act_name.replace(" ", '_')
         dis = {}
         curr_zakon = owl.add_legal_resource(latin_name)
         add_meta_to_act(curr_zakon, meta)
