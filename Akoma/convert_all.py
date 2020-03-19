@@ -12,14 +12,18 @@ try:
     from Akoma.form_akoma.MetadataBuilder import MetadataBuilder
     from Akoma.named_enitity_recognition.pattern_recognition import add_refs
 except ModuleNotFoundError:
-    import preprocessing.remove_html
-    import preprocessing.init_akoma
-    from tokenizer.HTMLTokenizer import HTMLTokenizer
-    from form_akoma.AkomaBuilder import AkomaBuilder
-    from reasoner.BasicReasoner import BasicReasoner
-    from reasoner.OdlukaReasoner import OdlukaReasoner
-    from form_akoma.MetadataBuilder import MetadataBuilder
-    from named_enitity_recognition.pattern_recognition import add_refs
+    try:
+        import preprocessing.remove_html
+        import preprocessing.init_akoma
+        from tokenizer.HTMLTokenizer import HTMLTokenizer
+        from form_akoma.AkomaBuilder import AkomaBuilder
+        from reasoner.BasicReasoner import BasicReasoner
+        from reasoner.OdlukaReasoner import OdlukaReasoner
+        from form_akoma.MetadataBuilder import MetadataBuilder
+        from named_enitity_recognition.pattern_recognition import add_refs
+    except ModuleNotFoundError:
+        print("Error")
+        exit(-1)
 
 if __name__ == "__main__":
     nastavi = "85.html"  # ""651.html"

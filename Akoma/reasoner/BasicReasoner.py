@@ -1,7 +1,11 @@
 try:
     from Akoma.tokenizer.TokenType import TokenType
 except ModuleNotFoundError:
-    from tokenizer.TokenType import TokenType
+    try:
+        from tokenizer.TokenType import TokenType
+    except ModuleNotFoundError:
+        print("Error")
+        exit(-1)
 
 
 class BasicReasoner():

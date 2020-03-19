@@ -3,9 +3,13 @@ try:
     from Akoma.tokenizer.TokenType import TokenType
     from Akoma.tokenizer.BasicTokenizer import BasicTokenizer
 except ModuleNotFoundError:
-    from tokenizer.patterns import recognize_pattern, FoundToken
-    from tokenizer.TokenType import TokenType
-    from tokenizer.BasicTokenizer import BasicTokenizer
+    try:
+        from tokenizer.patterns import recognize_pattern, FoundToken
+        from tokenizer.TokenType import TokenType
+        from tokenizer.BasicTokenizer import BasicTokenizer
+    except ModuleNotFoundError:
+        print("Error")
+        exit(-1)
 
 
 

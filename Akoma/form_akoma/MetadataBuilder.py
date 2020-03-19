@@ -4,8 +4,12 @@ try:
 	from Akoma.form_akoma.Metadata import Metadata
 	import Akoma.preprocessing.init_akoma
 except ModuleNotFoundError:
-	from form_akoma.Metadata import Metadata
-	import preprocessing.init_akoma
+	try:
+		from form_akoma.Metadata import Metadata
+		import preprocessing.init_akoma
+	except ModuleNotFoundError:
+		print("Error")
+		exit(-1)
 import os
 
 PREFIX = "{http://www.akomantoso.org/2.0}"

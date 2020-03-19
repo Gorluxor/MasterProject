@@ -1,4 +1,11 @@
-from Akoma.form_akoma.Metadata import Metadata
+try:
+    from Akoma.form_akoma.Metadata import Metadata
+except ModuleNotFoundError:
+    try:
+        from form_akoma.Metadata import Metadata
+    except ModuleNotFoundError:
+        print("Error")
+        exit()
 
 
 def get_meta(filename: str, path: str = "..//data/meta/allmeta.csv"):
@@ -23,6 +30,8 @@ def get_root_dir():
     pather = path.dirname(__file__)
     path_this = path.normpath(pather)
     i = path_this.rfind("\\")
+    if i == -1:  # MAC FIND
+        i = pather.rfind('/')
     b = path_this[:i]
     return b
 

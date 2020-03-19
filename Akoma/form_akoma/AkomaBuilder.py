@@ -2,8 +2,12 @@ try:
     from Akoma.tokenizer.patterns import is_vrsta_akta
     from Akoma.tokenizer.TokenType import TokenType
 except ModuleNotFoundError:
-    from tokenizer.patterns import is_vrsta_akta
-    from tokenizer.TokenType import TokenType
+    try:
+        from tokenizer.patterns import is_vrsta_akta
+        from tokenizer.TokenType import TokenType
+    except ModuleNotFoundError:
+        print("Error")
+        exit()
 
 import xml.etree.ElementTree as ET
 
