@@ -1,6 +1,13 @@
 from owlready2 import *
 from os import path
-from Akoma.utilities.utilities import get_root_dir
+try:
+    from Akoma.utilities.utilities import get_root_dir
+except ModuleNotFoundError:
+    try:
+        from utilities.utilities import get_root_dir
+    except ModuleNotFoundError:
+        print("Error in modules")
+        exit(-1)
 cls_legal_resource = "LegalResource"
 cls_legal_resource_sub = "LegalResourceSubdivision"
 p_is_about = "is_about"

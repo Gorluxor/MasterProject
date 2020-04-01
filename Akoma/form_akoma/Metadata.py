@@ -37,7 +37,7 @@ class Metadata():
         try:
             self.publication = self.parse_publication(list[9])
         except:
-            print("Greska u parsiranju publikacije:", list[9])
+            print("Metadata.py ,Greska u parsiranju publikacije:", list[9])
             self.publication = False
         self.workflow = self.parse_workflow(self.datum_usvajanja, self.datum_stupanja, self.datum_primene)
         self.classifications = self.parse_classifications(list[4], list[6], list[7])

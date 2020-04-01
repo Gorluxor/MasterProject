@@ -3,14 +3,26 @@
 """
 from os import path
 import re
-#from gensim.models import Word2Vec
-from Akoma.connector import connector
-# from gensim.models import Word2Vecs
-from Akoma.convertToLatin import Convert
 from sklearn.feature_extraction.text import TfidfVectorizer
 import pandas as pd
-from Akoma.preprocessing import remove_html
-from Akoma.utilities import utilities
+
+# from gensim.models import Word2Vec
+# from gensim.models import Word2Vecs
+try:
+    from Akoma.connector import connector
+    from Akoma.convertToLatin import Convert
+    from Akoma.preprocessing import remove_html
+    from Akoma.utilities import utilities
+except ModuleNotFoundError as e1:
+    print(e1)
+    try:
+        from connector import connector
+        from convertToLatin import Convert
+        from preprocessing import remove_html
+        from utilities import utilities
+    except ModuleNotFoundError as e2:
+        print(e2)
+        exit(-1)
 
 
 def get_stop_words():

@@ -11,7 +11,7 @@ except ModuleNotFoundError:
 
 import xml.etree.ElementTree as ET
 
-PREFIX = "{http://www.akomantoso.org/2.0}"
+PREFIX = "{http://docs.oasis-open.org/legaldocml/ns/akn/3.0}"
 
 
 class AkomaBuilder():

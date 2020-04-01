@@ -1,0 +1,342 @@
+<?xml version="1.0" ?>
+<ns0:akomaNtoso xmlns:ns0="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	
+
+	<ns0:act>
+		<ns0:meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2019/10-4/main"/>
+					<FRBRuri value="/rs/act/2019/10-4"/>
+					<FRBRdate date="2019" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2019/10-4/srp@/main"/>
+					<FRBRuri value="/rs/act/2019/10-4/srp@"/>
+					<FRBRdate date="2019" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2019/10-4/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2019/10-4/srp@.akn"/>
+					<FRBRdate date="2019" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2019-9-6" name="службени гласник рс - међународни уговори" number="10" showAs="Службени гласник РС - Међународни уговори"/>
+			<classification source="#somebody">
+				<keyword id="vrsta" showAs="Закон" value="закон"/>
+				<keyword id="oblast" showAs="II БЕЗБЕДНОСНА И ОДБРАМБЕНА ПОЛИТИКА" value="ii безбедносна и одбрамбена политика"/>
+				<keyword id="grupa" showAs="7. Путне исправе" value="7. путне исправе"/>
+			</classification>
+			<workflow source="#somebody">
+				<step date="2019-09-04" id="usvajanje"/>
+				<step date="2019-09-14" id="stupanje_na_snagu"/>
+				<step date="2019-09-14" id="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note id="not1">
+					<p/>
+				</note>
+			</notes>
+		</ns0:meta>
+		<preamble>
+			<p>На основу <ref id="ref0" href="akn/rs/act/2019/10-4/srp@/!main~art_1->art_0" >члана 112. став 1. тачка 2</ref>. Устава Републике Србије, доносим</p>
+			<p>УКАЗ</p>
+			<p>о проглашењу Закона о потврђивању Споразума између Владе Републике Србије и Владе Доминиканске Републике о укидању виза за носиоце дипломатских и службених пасоша</p>
+			<p>Проглашава се Закон о потврђивању Споразума између Владе Републике Србије и Владе Доминиканске Републике о укидању виза за носиоце дипломатских и службених пасоша, који је донела Народна скупштина Републике Србије на седници Седамнаестог ванредног заседања у Једанаестом сазиву, 4. септембра 2019. године.</p>
+			<p>ПР број 94</p>
+			<p>У Београду, 6. септембра 2019. године</p>
+			<p>Председник Републике,</p>
+		</preamble>
+		<preface>
+			<authority>Александар Вучић, с.р.</authority>
+			<title>ЗАКОН</title>
+			<title>о потврђивању Споразума између Владе Републике Србије и Владе Доминиканске Републике о укидању виза за носиоце дипломатских и службених пасоша</title>
+			<date>&quot;Службени гласник РС - Међународни уговори&quot;,     број 10 од 6. септембра 2019.</date>
+		</preface>
+		<ns0:body>
+			<article id="clan1">
+				<num>1.</num>
+				<content>
+					<paragraph id="clan1-stav1">
+						<content>
+							<p>Потврђује се Споразум између Владе Републике Србије и Владе Доминиканске Републике о укидању виза за носиоце дипломатских и службених пасоша, који је потписан у Санто Домингу, 10. децембра 2018. године, у оригиналу на српском, шпанском и енглеском језику.</p>
+						</content>
+					</paragraph>
+				</content>
+			</article>
+			<article id="clan2">
+				<num>2.</num>
+				<content>
+					<paragraph id="clan2-stav1">
+						<content>
+							<p>Текст Споразума у оригиналу на српском језику гласи:</p>
+						</content>
+					</paragraph>
+					<paragraph id="clan2-stav2">
+						<content>
+							<p>СПОРАЗУМ</p>
+						</content>
+					</paragraph>
+					<paragraph id="clan2-stav3">
+						<content>
+							<p>ИЗМЕЂУ ВЛАДЕ РЕПУБЛИКЕ СРБИЈЕ И ВЛАДЕ ДОМИНИКАНСКЕ РЕПУБЛИКЕ О УКИДАЊУ ВИЗА ЗА НОСИОЦЕ ДИПЛОМАТСКИХ И СЛУЖБЕНИХ ПАСОША</p>
+						</content>
+					</paragraph>
+					<paragraph id="clan2-stav4">
+						<content>
+							<p>Влада Републике Србије и Влада Доминиканске Републике (даље у тексту: Уговорне стране);</p>
+						</content>
+					</paragraph>
+					<paragraph id="clan2-stav5">
+						<content>
+							<p>У циљу даљег унапређења пријатељских односа и сарадње између Уговорних страна;</p>
+						</content>
+					</paragraph>
+					<paragraph id="clan2-stav6">
+						<content>
+							<p>У жељи да се олакша путовање држављана обе државе који поседују дипломатске и службене пасоше;</p>
+						</content>
+					</paragraph>
+					<paragraph id="clan2-stav7">
+						<content>
+							<p>Сагласиле су се о следећем:</p>
+						</content>
+					</paragraph>
+				</content>
+			</article>
+			<article id="clan1">
+				<num>1.</num>
+				<content>
+					<paragraph id="clan1-stav1">
+						<content>
+							<p>Овај споразум се односи на следеће категорије пасоша: дипломатски и службени пасош.</p>
+						</content>
+					</paragraph>
+				</content>
+			</article>
+			<article id="clan2">
+				<num>2.</num>
+				<content>
+					<paragraph id="clan2-stav1">
+						<content>
+							<p>Држављани било које Уговорне стране, носиоци важећих пасоша наведених у <ref id="ref1" href="akn/rs/act/2019/10-4/srp@/!main~art_1->art_0" >члану 1. овог</ref> споразума, ослобођени су обавезе прибављања визе за улазак, транзит, излазак и боравак на територији државе друге Уговорне стране до 60 (шездесет) дана, у оквиру периода од 6 (шест) месеци.</p>
+						</content>
+					</paragraph>
+				</content>
+			</article>
+			<article id="clan3">
+				<num>3.</num>
+				<content>
+					<тачка id="clan3-tac1">
+						<num>1.</num>
+						<content>
+							<p> Држављани било које Уговорне стране носиоци важећих пасоша наведених у <ref id="ref2" href="akn/rs/act/2019/10-4/srp@/!main~art_1->art_0" >члану 1. овог</ref> споразума, чланови дипломатско-конзуларних мисија на територији државе друге Уговорне стране и чланови њихових породица, носиоци важећих пасоша наведених у <ref id="ref3" href="akn/rs/act/2019/10-4/srp@/!main~art_1->art_0" >члану 1. овог</ref> споразума, имају право на улазак на територију државе друге Уговорне стране без визе и боравак на тој територији за време трајања мандата.</p>
+						</content>
+					</тачка>
+					<тачка id="clan3-tac2">
+						<num>2.</num>
+						<content>
+							<p> Одредба <ref id="ref11" href="akn/rs/act/2019/10-4/srp@/!main~act___para_1" >става 1. овог</ref> члана односи се и на држављане било које Уговорне стране, носиоце важећих пасоша наведених у <ref id="ref4" href="akn/rs/act/2019/10-4/srp@/!main~art_1->art_0" >члану 1. овог</ref> споразума, који су чланови међународних организација са седиштем на територији државе друге Уговорне стране и на чланове њихових породица.</p>
+						</content>
+					</тачка>
+					<тачка id="clan3-tac3">
+						<num>3.</num>
+						<content>
+							<p> За потребе <ref id="ref12" href="akn/rs/act/2019/10-4/srp@/!main~act___para_2" >става 2. овог</ref> члана, сматраће се довољним обавештења упућена од стране међународних организација о именовању држављана Уговорних страна.</p>
+						</content>
+					</тачка>
+				</content>
+			</article>
+			<article id="clan4">
+				<num>4.</num>
+				<content>
+					<paragraph id="clan4-stav1">
+						<content>
+							<p>Осим како је наведено у <ref id="ref5" href="akn/rs/act/2019/10-4/srp@/!main~art_1->art_0" >члану 3. овог</ref> споразума ослобађањем обавезе прибављања визе држављанима Уговорних страна није одобрено право на рад, учешће у истраживачким активностима, обукама, студијама и/или социјални рад, као и спровођење активности техничке помоћи, хуманитарне, верске или уметничке природе.</p>
+						</content>
+					</paragraph>
+					<paragraph id="clan4-stav2">
+						<content>
+							<p>Држављани било које Уговорне стране, носиоци важећих пасоша наведених у <ref id="ref6" href="akn/rs/act/2019/10-4/srp@/!main~art_1->art_0" >члану 1. овог</ref> споразума, који су у обавези да уђу на територију државе друге Уговорне стране ради обављања посла, професионалних разлога или студија, или ради боравка који је дужи од 60 (шездесет) дана, обавезни су да унапред прибаве одговарајућу визу.</p>
+						</content>
+					</paragraph>
+				</content>
+			</article>
+			<article id="clan5">
+				<num>5.</num>
+				<content>
+					<тачка id="clan5-tac1">
+						<num>1.</num>
+						<content>
+							<p> Уговорне стране дужне су да размене узорке својих важећих пасоша наведених у <ref id="ref7" href="akn/rs/act/2019/10-4/srp@/!main~art_1->art_0" >члану 1. овог</ref> споразума, дипломатским путем.</p>
+						</content>
+					</тачка>
+					<тачка id="clan5-tac2">
+						<num>2.</num>
+						<content>
+							<p> Ако једна од Уговорних страна измени своје пасоше, у обавези је да узорак нових пасоша достави другој Уговорној страни, дипломатским путем 30 (тридесет) дана пре њиховог увођења.</p>
+						</content>
+					</тачка>
+				</content>
+			</article>
+			<article id="clan6">
+				<num>6.</num>
+				<content>
+					<paragraph id="clan6-stav1">
+						<content>
+							<p>Држављани било које Уговорне стране, носиоци важећих пасоша наведених у <ref id="ref8" href="akn/rs/act/2019/10-4/srp@/!main~art_1->art_0" >члану 1. овог</ref> споразума, обавезни су да улазе и напуштају територију друге Уговорне стране на граничним прелазима (гранична пасошка контрола) за међународни путнички саобраћај.</p>
+						</content>
+					</paragraph>
+				</content>
+			</article>
+			<article id="clan7">
+				<num>7.</num>
+				<content>
+					<paragraph id="clan7-stav1">
+						<content>
+							<p>Изузећа од обавеза које произлазе из овог споразума, не ослобађају држављане Уговорних страна, носиоце важећих пасоша наведених у <ref id="ref9" href="akn/rs/act/2019/10-4/srp@/!main~art_1->art_0" >члану 1. овог</ref> споразума, обавезе поштовања закона и прописа који су на снази на територији државе друге Уговорне стране у вези са уласком, транзитом, изласком и боравком.</p>
+						</content>
+					</paragraph>
+				</content>
+			</article>
+			<article id="clan8">
+				<num>8.</num>
+				<content>
+					<paragraph id="clan8-stav1">
+						<content>
+							<p>Овај споразум не ограничава право свакој Уговорној страни да ускрати право уласка на територију своје државе лицима која се сматрају непожељним, као и да скрати боравак држављанима друге Уговорне стране, носиоцима важећих пасоша наведених у <ref id="ref10" href="akn/rs/act/2019/10-4/srp@/!main~art_1->art_0" >члану 1. овог</ref> споразума.</p>
+						</content>
+					</paragraph>
+				</content>
+			</article>
+			<article id="clan9">
+				<num>9.</num>
+				<content>
+					<paragraph id="clan9-stav1">
+						<content>
+							<p>Из разлога безбедности, јавног реда или јавног здравља, свака Уговорна страна има право, у целини или делимично, да привремено обустави примену мера прописаних овим споразумом. О обустави примене овог споразума обавезно је упутити обавештење другој Уговорној страни, дипломатским путем, у најкраћем року, уз навођење датума почетка примене ове мере. Обе Уговорне стране поступају на исти начин у случају укидања обуставе.</p>
+						</content>
+					</paragraph>
+				</content>
+			</article>
+			<article id="clan10">
+				<num>10.</num>
+				<content>
+					<paragraph id="clan10-stav1">
+						<content>
+							<p>Све измене и допуне овог споразума врше се разменом нота.</p>
+						</content>
+					</paragraph>
+				</content>
+			</article>
+			<article id="clan11">
+				<num>11.</num>
+				<content>
+					<paragraph id="clan11-stav1">
+						<content>
+							<p>У складу са овим споразумом, пасоши којима важење истиче најмање шест (6) месеци од дана уласка носиоца на територију државе једне Уговорне стране сматраће се „важећим пасошима”.</p>
+						</content>
+					</paragraph>
+				</content>
+			</article>
+			<article id="clan12">
+				<num>12.</num>
+				<content>
+					<тачка id="clan12-tac1">
+						<num>1.</num>
+						<content>
+							<p> Овај споразум ступа на снагу тридесет (30) дана од датума пријема последњег обавештења којим се Уговорне стране узајамно обавештавају да су унутрашње процедуре за његово ступање на снагу испуњене.</p>
+						</content>
+					</тачка>
+					<тачка id="clan12-tac2">
+						<num>2.</num>
+						<content>
+							<p> Овај споразум закључује се на неодређено време и остаје на снази 90 (деведесет) дана од датума пријема обавештења упућеног од стране једне Уговорне стране другој о намери да га раскине, дипломатским путем.</p>
+						</content>
+					</тачка>
+					<paragraph id="clan12-stav1">
+						<content>
+							<p>У својству сведока, доле потписани представници, прописно овлашћени од стране својих Влада, потписују овај споразум.</p>
+						</content>
+					</paragraph>
+					<paragraph id="clan12-stav2">
+						<content>
+							<p>Потписано у два оригинална примерка у Санто Домингу, дана 10. месеца децембра године 2018. на српском, шпанском и енглеском језику, при чему су сва три текста једнако веродостојна. У случају различитог тумачења, меродаван је текст на енглеском језику.</p>
+						</content>
+					</paragraph>
+					<paragraph id="clan12-stav3">
+						<table class="tabela-bez-bordera">
+							
+				
+					
+					
+				
+				
+							<tbody>
+								
+					
+								<tr class="Basic-Table">
+									
+						
+									<td class="Basic-Table">
+										
+							
+										<p>За Владу</p>
+										
+							
+										<p>Републике Србије </p>
+										
+							
+										<p>Ивица Дачић, с.р. </p>
+										
+						
+									</td>
+									
+						
+									<td class="Basic-Table">
+										
+							
+										<p>За Владу</p>
+										
+							
+										<p>Доминиканске Републике</p>
+										
+							
+										<p>Мигуел Варгас Малдонадо, с.р.</p>
+										
+						
+									</td>
+									
+					
+								</tr>
+								
+				
+							</tbody>
+							
+			
+						</table>
+						
+			
+						<content/>
+					</paragraph>
+				</content>
+			</article>
+			<article id="clan3">
+				<num>3.</num>
+				<content>
+					<paragraph id="clan3-stav1">
+						<content>
+							<p>Овај споразум ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије – Међународни уговори”.</p>
+						</content>
+					</paragraph>
+				</content>
+			</article>
+		</ns0:body>
+	</ns0:act>
+</ns0:akomaNtoso>

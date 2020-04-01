@@ -12,7 +12,6 @@ except ModuleNotFoundError:
         exit(-1)
 
 
-
 class HTMLTokenizer(BasicTokenizer):
 
     # def __init__(self, source):
