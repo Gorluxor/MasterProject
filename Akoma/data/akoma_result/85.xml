@@ -630,44 +630,35 @@
 			<chapter id="gla7">
 				<num>VII</num>
 				<heading>ОДУЗИМАЊЕ ИМОВИНСКЕ КОРИСТИ ПРИБАВЉЕНЕ ПРЕКРШАЈЕМ</heading>
-				<content>
-					<article id="gla7-clan26">
-						<num>26.</num>
+				<article id="gla7-clan26">
+					<num>26.</num>
+					<paragraph id="gla7-clan26-stav1">
 						<content>
-							<paragraph id="gla7-clan26-stav1">
-								<content>
-									<p>Имовинска корист прибављена вршењем прекршаја одузима се.</p>
-								</content>
-							</paragraph>
+							<p>Имовинска корист прибављена вршењем прекршаја одузима се.</p>
 						</content>
-					</article>
-				</content>
+					</paragraph>
+				</article>
 			</chapter>
 			<chapter id="gla8">
 				<num>VIII</num>
 				<heading>ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
-				<content>
-					<article id="gla8-clan27">
-						<num>27.</num>
+				<article id="gla8-clan27">
+					<num>27.</num>
+					<paragraph id="gla8-clan27-stav1">
 						<content>
-							<paragraph id="gla8-clan27-stav1">
-								<content>
-									<p>Даном ступања на снагу овог закона престаје да важи Закон о јавном реду и миру („<ref id="ref10" href="akn/rs/act/92/51/srp@">Службени гласник РС”, бр, 51/92, 53/93, 67/93, 48/94, 101/05</ref> – др. закон и 85/05 – др. закон).</p>
-								</content>
-							</paragraph>
+							<p>Даном ступања на снагу овог закона престаје да важи Закон о јавном реду и миру („<ref id="ref10" href="akn/rs/act/92/51/srp@">Службени гласник РС”, бр, 51/92, 53/93, 67/93, 48/94, 101/05</ref> – др. закон и 85/05 – др. закон).</p>
 						</content>
-					</article>
-					<article id="gla8-clan28">
-						<num>28.</num>
+					</paragraph>
+				</article>
+				<article id="gla8-clan28">
+					<num>28.</num>
+					<paragraph id="gla8-clan28-stav1">
 						<content>
-							<paragraph id="gla8-clan28-stav1">
-								<content>
-									<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
-								</content>
-							</paragraph>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
 						</content>
-					</article>
-				</content>
+					</paragraph>
+				</article>
+
 			</chapter>
 		</ns0:body>
 	</ns0:act>

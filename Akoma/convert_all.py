@@ -25,6 +25,13 @@ except ModuleNotFoundError:
         print("Error")
         exit(-1)
 
+
+def prettify(root):
+    import xml.dom.minidom
+    dom = xml.dom.minidom.parseString(ET.tostring(root, encoding='UTF-8', method="xml").decode())
+    return dom.toprettyxml()
+
+
 if __name__ == "__main__":
     nastavi = "85.html"  # ""651.html"
     idemo = False
@@ -52,6 +59,7 @@ if __name__ == "__main__":
         metabuilder = MetadataBuilder("data/meta/allmeta.csv")
         metabuilder.build(fajl, akoma_root)
         # try:  # just in case
+        print(prettify(akoma_root))
         builder = AkomaBuilder(akoma_root)
         reasoner = BasicReasoner(HTMLTokenizer(html_root), builder)
         reasoner.start()
