@@ -6,6 +6,7 @@ try:
     from Akoma.utilities import utilities
     import Akoma.semanticki.owl as owl
     from Akoma.convertToLatin import Convert
+    import Akoma.datetime
 except ModuleNotFoundError as e1:
     print(e1)
     try:
@@ -14,6 +15,7 @@ except ModuleNotFoundError as e1:
         from utilities import utilities
         import semanticki.owl as owl
         from convertToLatin import Convert
+        import datetime
     except ModuleNotFoundError as e2:
         print(e2)
         exit(-1)
@@ -32,18 +34,24 @@ def to_latin(str):
     return "".join([Convert.convert(s) for s in str])
 
 
+def to_time(str_date):
+    return datetime.datetime.strptime(str_date, '%Y-%m-%d').date()
+
+
 def add_meta_to_act(curr_zakon, meta):
-    curr_zakon.local_id = meta.eli
+    curr_zakon.id_local.append(str(meta.eli))
     curr_zakon.title = [to_latin(meta.act_name)]
-    curr_zakon.date_of_publication = meta.datum_usvajanja
-    curr_zakon.first_date_of_entry_into_force = meta.datum_primene
-    curr_zakon.date_of_applicability = meta.datum_stupanja
+    curr_zakon.date_publication = to_time(meta.datum_usvajanja)
+    curr_zakon.title_short.append(to_latin(meta.act_name.split(":")[0]))
+
+    curr_zakon.first_date_entry_in_force = to_time(meta.datum_primene)
+    curr_zakon.date_applicability.append(to_time(meta.datum_stupanja))
     curr_zakon.number = [meta.publication['number']]
-    curr_zakon.version_date = meta.datum_usvajanja
+    curr_zakon.version_date = to_time(meta.datum_usvajanja)
     curr_zakon.publisher = [to_latin(meta.donosilac)]
     curr_zakon.published_in = [to_latin(meta.izdavac)]
 
-    # print(meta)
+    print(curr_zakon)
 
 
 def check_meta(string):
@@ -77,7 +85,7 @@ def generate_owl(folder_path, filenames=None):
         i = 0
         for info in clan_info:
 
-            curr_sub = owl.add_legal_sub(latin_name[:30] + info.replace(' ', '_'))
+            curr_sub = owl.add_legal_sub(latin_name.split(":")[0] + '_' + info.replace(' ', '_'))
             is_about = inside_important(el[1], clans_data, i)
             for new_concept in is_about:
                 if new_concept not in dis:
