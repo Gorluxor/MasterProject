@@ -69,12 +69,18 @@ def init_parent(tree):
     Parent_map = {c: p for p in tree.iter() for c in p}
 
 
+def prettify(root):
+    import xml.dom.minidom
+    dom = xml.dom.minidom.parseString(ET.tostring(root, encoding='UTF-8', method="xml").decode())
+    return dom.toprettyxml()
+
+
 def get_parent_nth_parent(element, parent=1, tree=None):
     """
     Vraca roditelja nekog u stablu
     :param element: Element which parent is searched for
     :param parent: number of hirarhical parents to get
-    :param tree: call init_parent metod with tree to build parent child bonds, better use init_parent than always put tree
+    :param tree: call init_parent metod with tree to build parent child bonds, better use init_parent than always put leave None in tree
     :return: n-th parent type element from xml.etree.Element
     """
     global Parent_map
