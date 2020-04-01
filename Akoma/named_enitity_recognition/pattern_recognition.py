@@ -1,5 +1,11 @@
 import re
 
+def ranges(nums):
+    nums = sorted(set(nums))
+    gaps = [[s, e] for s, e in zip(nums, nums[1:]) if s+1 < e]
+    edges = iter(nums[:1] + sum(gaps, []) + nums[-1:])
+    return list(zip(edges, edges))
+
 #'((члан|став|тачка|тачке|podtaчка|алинеја).? [0-9]+(\\.)?,?\\s?)+(\\s овог \\s\w*)?'
 
 # akn/<država>/act/<godina publikovanja u formatu YYYY-MM-DD ili samo YYYY>/<broj akta u godini ili ako se ne zna "nn">/srb@/
@@ -66,8 +72,25 @@ def get_ending(m, stringToScan,cl = False):
     # pom_string = stringo[pom_place.regs[0][0]-5: pom_place.regs[0][0]]
     # retval = pom_string + retval
     else:
+        matches = [int(i) for i in matches]
         matches.sort()
-        retval = "art_" + matches[0] + "->art_" + matches[len(matches) - 1] + "_"
+        edges = ranges(matches)
+        position = 0;
+        listOfIndex = []
+        pomList = []
+        for pom in re.finditer(regexBroj, stringToScan):
+            if int(pom.group()) == edges[position][0] and edges[position][0] == edges[position][1]:
+                listOfIndex.append([pom.regs[0],pom.regs[0]])
+                position = position + 1
+            elif int(pom.group()) == edges[position][0]:
+                pomList = []
+                pomList.append(pom.regs[0])
+            elif int(pom.group()) == edges[position][1]:
+                pomList.append(pom.regs[0])
+                listOfIndex.append(pomList)
+                position = position + 1
+
+    retval = "art_" + str(matches[0]) + "->art_" + str(matches[len(matches) - 1]) + "_"
         # for match in matches:
         #     retval = retval + "art_" + match + "__"
     return retval[:-1]
@@ -135,3 +158,4 @@ def add_refs(stringo, this_id):
     stringo, cnt = add_refs2(stringo, cnt)
     stringo, cnt = add_refs3(stringo, cnt, this_id)
     return stringo
+

@@ -94,3 +94,6 @@ if __name__ == "__main__":
         a = 1
 
     ET.dump(Root)
+
+    for child_of_root in Root:
+        print(child_of_root.tag, child_of_root.attrib)
