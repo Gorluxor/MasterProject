@@ -82,6 +82,7 @@ def generate_owl(folder_path, filenames=None):
         dis = {}
         curr_zakon = owl.add_legal_resource(latin_name)
         add_meta_to_act(curr_zakon, meta)
+
         i = 0
         for info in clan_info:
 
@@ -95,6 +96,7 @@ def generate_owl(folder_path, filenames=None):
                 curr_sub.is_about = [dis[s] for s in is_about]
             curr_sub.is_part_of = [curr_zakon]
             i = i + 1
+        curr_zakon.is_about = [dis[s] for s in dis]
     owl.save()
 
 
