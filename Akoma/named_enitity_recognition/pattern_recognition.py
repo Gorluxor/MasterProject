@@ -7,7 +7,7 @@ from termcolor import colored
 # <!main, !imedoc.akn ili !schedule_1.pdf (extenzija manifestacije)>/<chp_4 je chapter 4>
 # art_3__para_5__point_c
 
-pattern = 'id="(\w+)-?(\w+)?-?(\w+)?"'
+pattern = 'wId="(\w+)-?(\w+)?-?(\w+)?"'
 
 further = "(\\.?\\s?,?\\s?)"
 nabrajanje = '(члан.?\\s[0-9]+)' + further + '(став.?\\s[0-9]+)?' + further + '((тачка|тачке).?\\s[0-9]+)?'
@@ -18,7 +18,7 @@ def add_refs1(stringo, cnt, this_id):
     for m in re.finditer(nabrajanje + '\\b(овог)?', stringo):
         ending = get_ending(m, stringo)
 
-        open = u"<ref " + "id=\"ref" + str(cnt) + "\" href=\"akn" + this_id + "/!main~" + ending + "\" >"
+        open = u"<ref " + "wId=\"ref" + str(cnt) + "\" href=\"akn" + this_id + "/!main~" + ending + "\" >"
 
         stringo = stringo[:m.start() + longer] + open + stringo[m.start() + longer:]
         longer += len(open)
@@ -39,7 +39,7 @@ def add_refsCl(stringo, cnt, this_id):
     for m in re.finditer(nabrajanjeCl + '.\\b(овог)?', stringo):
         ending = get_ending(m, stringo[m.regs[0][0] + longer:m.regs[0][1] + longer], True)
 
-        open = u"<ref " + "id=\"ref" + str(cnt) + "\" href=\"akn" + this_id + "/!main~" + ending + "\" >"
+        open = u"<ref " + "wId=\"ref" + str(cnt) + "\" href=\"akn" + this_id + "/!main~" + ending + "\" >"
 
         stringo = stringo[:m.start() + longer] + open + stringo[m.start() + longer:]
         longer += len(open)
@@ -89,10 +89,10 @@ def add_refs2(stringo, cnt):
         # retval = "" + stringo
         m1 = re.search("([0-9]+)/([0-9]+)", m.group(0))
         if m1:
-            open = u"<ref " + "id=\"ref" + str(cnt) + "\" href=\"akn/rs/act/" + m1.group(2) + "/" + m1.group(
+            open = u"<ref " + "wId=\"ref" + str(cnt) + "\" href=\"akn/rs/act/" + m1.group(2) + "/" + m1.group(
                 1) + "/srp@\">"
         else:
-            open = u"<ref " + "id=\"ref" + str(cnt) + "\">"
+            open = u"<ref " + "wId=\"ref" + str(cnt) + "\">"
         stringo = stringo[:m.start() + longer] + open + stringo[m.start() + longer:]
         longer += len(open)
 
@@ -114,7 +114,7 @@ def add_refs3(stringo, cnt, this_id):
         if not re.search(nabrajanje + '\\b(овог)?', stringo[m.regs[0][0] + longer - 40: m.regs[0][1] + longer]):
             ending = get_ending2(m, stringo, longer)
 
-            open = u"<ref " + "id=\"ref" + str(cnt) + "\" href=\"akn" + this_id + "/!main~" + ending + "\" >"
+            open = u"<ref " + "wId=\"ref" + str(cnt) + "\" href=\"akn" + this_id + "/!main~" + ending + "\" >"
 
             stringo = stringo[:m.start() + longer] + open + stringo[m.start() + longer:]
             longer += len(open)

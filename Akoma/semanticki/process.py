@@ -107,5 +107,5 @@ if __name__ == '__main__':
     base_path = utilities.get_root_dir()
     folder_path = base_path + "\\data\\raw_racts"
     only_files = [f for f in listdir(folder_path) if isfile(join(folder_path, f))]
-    ordered = [str(el) + ".txt" for el in range(1, 50)]
+    ordered = [str(el) + ".txt" for el in range(1, 200)]
     generate_owl(folder_path, filenames=ordered)  # onlyfiles[:10])   filenames=["86.txt", "200.txt"])

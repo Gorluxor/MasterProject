@@ -44,8 +44,6 @@ class BasicReasoner():
 
         if self.current_token is None:
             return
-        if self.current_token.type == TokenType.STAV:
-            self.current_token.name ='paragraph'
 
         if self.current_token.type == TokenType.DEO and self.current_token.value == None:
             self.deo_glava_find_title()

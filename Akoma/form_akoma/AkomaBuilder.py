@@ -72,20 +72,27 @@ class AkomaBuilder():
     def add_token(self, token, identification):
         # print(token.name, identification, token.value)
         novi = self.create_element(token, identification)
-        parent = self.current_parent(identification)
+        if token.type >= TokenType.TACKA:
+            no_content = True
+        else:
+            no_content = False
+
+        parent = self.current_parent(identification, no_content)
 
         parent.append(novi)
         self.stack.append(novi)
 
-    def current_parent(self, identification):
+    def current_parent(self, identification, no_content=False):
         for i in range(len(self.stack) - 1, -1, -1):
             node = self.stack[i]
             # print(i, self.stack)
             if node.tag == PREFIX + "body":
                 return node
 
-            id = node.attrib["id"]
+            id = node.attrib["wId"]  # TODO promenjeno u wId
             if id in identification:
+                if no_content:
+                    return node
                 content = node.find("content")
                 # print('TEXT', list(node))
                 if content is not None:
@@ -96,7 +103,11 @@ class AkomaBuilder():
         return False
 
     def create_element(self, token, identification):
-        base = ET.Element(token.name, {"id": identification})
+        base = ET.Element(token.name, {"wId": identification})  # TODO promenjeno u wId
+
+        if token.type == TokenType.PODTACKA:
+            base.attrib['name'] = 'subpoint'
+
         if token.numberstr is not None:
             num = ET.Element("num")
             num.text = token.numberstr
@@ -113,8 +124,8 @@ class AkomaBuilder():
             p = ET.Element("p")
             p.text = token.value
             content.append(p)
+            base.append(content)
 
-        base.append(content)
         return base
 
     def result_str(self):

@@ -13,9 +13,9 @@ eng_tags = {
     TokenType.ODELJAK : "section",
     TokenType.PODODELJAK : "subsection",
     TokenType.CLAN : "article",
-    TokenType.STAV : "clause",
+    TokenType.STAV : "paragraph",
     TokenType.TACKA : "point",
-    TokenType.PODTACKA : "item",
+    TokenType.PODTACKA : "hcontainer",
     TokenType.ALINEJA : "alinea"
 }
 
@@ -25,9 +25,9 @@ eng_ids = {
     TokenType.ODELJAK : "sect",
     TokenType.PODODELJAK : "subsect",
     TokenType.CLAN : "art",
-    TokenType.STAV : "cla",
+    TokenType.STAV : "par",
     TokenType.TACKA : "pnt",
-    TokenType.PODTACKA : "item",
+    TokenType.PODTACKA : "hco",
     TokenType.ALINEJA : "ali"
 }
 
