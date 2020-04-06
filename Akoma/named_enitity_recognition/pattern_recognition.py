@@ -3,6 +3,11 @@ from termcolor import colored
 from Akoma.utilities.utilities import *
 from Akoma.utilities.ETree import *
 
+def prettify(root):
+    import xml.dom.minidom
+    dom = xml.dom.minidom.parseString(ET.tostring(root, encoding='UTF-8', method="xml").decode())
+    return dom.toprettyxml()
+
 def ranges(nums):
     nums = sorted(set(nums))
     gaps = [[s, e] for s, e in zip(nums, nums[1:]) if s+1 < e]
@@ -100,7 +105,7 @@ def get_ending(m, stringToScan, cl=False):
                 listOfIndex.append(pomList)
                 position = position + 1
 
-    retval = "art_" + str(matches[0]) + "->art_" + str(matches[len(matches) - 1]) + "_"
+        retval = "art_" + str(matches[0]) + "->art_" + str(matches[len(matches) - 1]) + "_"
         # for match in matches:
         #     retval = retval + "art_" + match + "__"
     return retval[:-1]
@@ -134,11 +139,11 @@ def add_refs2(stringo, cnt):
 nabrajanje3 = '(став.?\\s[0-9]+)' + further + '((тачка|тачке).?\\s[0-9]+)?'
 
 
-def add_refs3(stringo, cnt, this_id):
+def add_refs3(stringo, cnt, this_id, clan_id):
     longer = 0
     for m in re.finditer(nabrajanje3 + '\\b(овог)?', stringo):
         if not re.search(nabrajanje + '\\b(овог)?', stringo[m.regs[0][0] + longer - 40: m.regs[0][1] + longer]):
-            ending = get_ending2(m, stringo, longer)
+            ending = get_ending2(m, clan_id)
 
             open = u"<ref " + "id=\"ref" + str(cnt) + "\" href=\"akn" + this_id + "/!main~" + ending + "\" >"
 
@@ -153,7 +158,7 @@ def add_refs3(stringo, cnt, this_id):
     return stringo, cnt
 
 
-def get_ending2(m, stringo, longer):
+def get_ending2(m, clan_id):
     retval = ""
     if m.group(1):
         m2 = re.search("([0-9]+)", m.group(1))
@@ -164,10 +169,10 @@ def get_ending2(m, stringo, longer):
         if m3:
             retval += "_point_" + m3.group(0) + "_"
     # print(retval[:-1])
-    pom_place = re.search(pattern, stringo[m.regs[0][0] + longer - 250: m.regs[0][1] + longer + 20])
     pom_string = ""
     try:
-        pom_string = "act_" + pom_place.string[pom_place.regs[2][0]:pom_place.regs[2][1]][4:] + "__"
+        pomLista = clan_id.split('-')
+        pom_string = "act_" + pomLista[len(pomLista) - 1] + "__"
     except AttributeError as e1:
         text_error = ">>Error in NER>pattern_recoginition.py, Nina <3 pogledaj me, stavi break point ovde 145 linija"
         print(colored(text_error, 'red'))  # TODO NINA FIX
@@ -179,12 +184,28 @@ def get_ending2(m, stringo, longer):
 def add_refs(stablo, stringo, this_id):
     cnt = 0
 
-    
-    lista = get_elements(stablo, 'article')
 
-    stringo, cnt = add_refs1(stringo, cnt, this_id)
-    stringo, cnt = add_refsCl(stringo, cnt, this_id)
-    # print("PHASE 2")
-    stringo, cnt = add_refs2(stringo, cnt)
-    stringo, cnt = add_refs3(stringo, cnt, this_id)
+    listaClanova = get_elements(stablo, 'article', namespace="")
+
+    for el_clan in listaClanova:  # Primer pristupa svakom članu
+        clan_id = el_clan.attrib['id']
+        for el_stav in el_clan.iter('article/paragraph'):
+            for el_content_p_tag in el_stav.iter('p'):
+                got_parent = get_parent_nth_parent(el_content_p_tag, 2)  # Pribavljanje roditelja
+                stav_text = el_content_p_tag.text
+                stringo, cnt = add_refs1(stav_text, cnt, this_id)
+                stringo, cnt = add_refsCl(stringo, cnt, this_id)
+                # print("PHASE 2")
+                stringo, cnt = add_refs2(stringo, cnt)
+                stringo, cnt = add_refs3(stringo, cnt, this_id, clan_id)
+                el_content_p_tag.text = stringo
+                print(prettify(stablo))
+            print(el_stav.tag)
+    print(el_clan.tag, el_clan.attrib)
+
+    # stringo, cnt = add_refs1(stringo, cnt, this_id)
+    # stringo, cnt = add_refsCl(stringo, cnt, this_id)
+    # # print("PHASE 2")
+    # stringo, cnt = add_refs2(stringo, cnt)
+    # stringo, cnt = add_refs3(stringo, cnt, this_id)
     return stringo
