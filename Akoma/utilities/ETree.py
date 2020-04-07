@@ -1,5 +1,7 @@
 import utilities
 import xml.etree.ElementTree as ET
+import math
+from termcolor import colored
 
 # https://eli.thegreenplace.net/2012/03/15/processing-xml-in-python-with-elementtree/
 
@@ -16,8 +18,9 @@ TAG_ALINEA = 'alinea'
 Tag_dict = {'deo': TAG_DEO, 'glava': TAG_GLAVA, 'odeljak': TAG_ODELJAK, 'pododeljak': TAG_PODODELJAK, 'clan': TAG_CLAN,
             'stav': TAG_STAV, 'tacka': TAG_TACKA, 'podtacka': TAG_PODTACKA, 'alinea': TAG_ALINEA}
 
-#CNS = '{http://www.akomantoso.org/2.0}'
+# CNS = '{http://www.akomantoso.org/2.0}'
 CNS = '{http://docs.oasis-open.org/legaldocml/ns/akn/3.0}'
+CID = "wId"
 
 
 def get_akoma_tag(name):
@@ -39,11 +42,16 @@ def append_to_element_by_id(root, name, id, new_element, namespace=CNS):
 
 def get_elements(root, name, namespace=CNS):
     ret = [iter_chapter for iter_chapter in root.iter(tag=namespace + name)]
+    if len(ret) == 0:
+        ret = [iter_chapter for iter_chapter in root.iter(tag=name)]
+    if len(ret) == 0:
+        text_error = ">>Error in parsing ElementTree in utilities.Etree"
+        print(colored(text_error, 'red'))
     return ret
 
 
 def get_elements_by_id(root, name, id, namespace=CNS):
-    ret = [iter_chapter for iter_chapter in get_elements(root, name, namespace) if iter_chapter.attrib['id'] == id]
+    ret = [iter_chapter for iter_chapter in get_elements(root, name, namespace) if iter_chapter.attrib[CID] == id]
     return ret
 
 
@@ -67,12 +75,29 @@ def get_clan_by_id(root, id, namespace=CNS):
 def init_parent(tree):
     global Parent_map
     Parent_map = {c: p for p in tree.iter() for c in p}
+    return Parent_map
 
 
 def prettify(root):
     import xml.dom.minidom
     dom = xml.dom.minidom.parseString(ET.tostring(root, encoding='UTF-8', method="xml").decode())
     return dom.toprettyxml()
+
+
+def get_parent_by_tag(element, tag_name, tree=None, max_up=10):
+    global Parent_map
+    i = 1
+    if tree is not None and len(Parent_map) == 0:
+        tree = init_parent(tree)
+    max_up = math.fabs(max_up)
+    while i <= max_up:
+        parent = get_parent_nth_parent(element, i, tree)
+        if parent is None:
+            return None
+        i = i + 1
+        if parent.tag == tag_name:
+            return parent
+    return None
 
 
 def get_parent_nth_parent(element, parent=1, tree=None):
@@ -84,8 +109,10 @@ def get_parent_nth_parent(element, parent=1, tree=None):
     :return: n-th parent type element from xml.etree.Element
     """
     global Parent_map
-    if tree is not None:
-        init_parent(tree)
+    if tree is not None and len(Parent_map) == 0:
+        tree = init_parent(element)
+    else:
+        tree = Parent_map
     if len(Parent_map) == 0:
         print("Error in get_parent_nth_parent metode in ETree.py")
         print("Call init parent first")
@@ -93,7 +120,7 @@ def get_parent_nth_parent(element, parent=1, tree=None):
     if parent == 0:
         return element
     else:
-        new_el = Parent_map.get(element)
+        new_el = tree.get(element)
         if element is None:
             return element
         else:
@@ -109,10 +136,11 @@ if __name__ == "__main__":
     # str_lines = "".join(lines)
     # rootic = ET.fromstring(str_lines)
 
-    path = utilities.get_root_dir() + "/data/akoma_result/1.xml"
+    path = utilities.get_root_dir() + "/data/akoma_result/85.xml"
 
     tree = ET.parse(path)
-    ns = '{http://www.akomantoso.org/2.0}'
+
+    ns = CNS
     g = get_glavas_by_id(tree, "gla1", ns)
 
     to_add = ET.fromstring('<chapter id="new_chap"><num>10</num><content>Zakon rada</content></chapter>\n')  # RADI
@@ -128,11 +156,12 @@ if __name__ == "__main__":
     # Ako se uradi init_parent, Moze se pristupiti samo preko tag=ns+'p' tagu, zatim se samo get parents,
     # ne trebaju ove sve for petlje
 
-    for el_clan in Root.iter(tag=ns + "article"):  # Primer pristupa svakom članu
-        clan_id = el_clan.attrib['id']
-        for el_stav in el_clan.iter(tag=ns + 'paragraph'):
-            for el_content_p_tag in el_stav.iter(tag=ns + 'p'):
+    for el_clan in Root.iter(tag="article"):  # Primer pristupa svakom članu
+        clan_id = el_clan.attrib[CID]
+        for el_stav in el_clan.iter(tag='paragraph'):
+            for el_content_p_tag in el_stav.iter(tag='p'):
                 got_parent = get_parent_nth_parent(el_content_p_tag, 2)  # Pribavljanje roditelja
+                got_parent2 = get_parent_by_tag(el_content_p_tag, 'article')
                 stav_text = el_content_p_tag.text
                 print(stav_text)
             print(el_stav.tag)

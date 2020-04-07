@@ -17,8 +17,7 @@ class OdlukaReasoner(BasicReasoner):
         while self.current_token is not None:
             self.current_token = self.tokenizer.get_next_token()
 
-            if self.current_token.type == TokenType.STAV:
-                self.current_token.name = 'paragraph'
+            
 
             if(self.current_token is None):
                 break

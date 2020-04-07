@@ -21,7 +21,7 @@ def ranges(nums):
 # <!main, !imedoc.akn ili !schedule_1.pdf (extenzija manifestacije)>/<chp_4 je chapter 4>
 # art_3__para_5__point_c
 
-pattern = 'id="(\w+)-?(\w+)?-?(\w+)?"'
+pattern = 'wId="(\w+)-?(\w+)?-?(\w+)?"'
 
 further = "(\\.?\\s?,?\\s?)"
 nabrajanje = '(члан.?\\s[0-9]+)' + further + '(став.?\\s[0-9]+)?' + further + '((тачка|тачке).?\\s[0-9]+)?'
@@ -32,7 +32,7 @@ def add_refs1(stringo, cnt, this_id):
     for m in re.finditer(nabrajanje + '\\b(овог)?', stringo):
         ending = get_ending(m, stringo)
 
-        open = u"<ref " + "id=\"ref" + str(cnt) + "\" href=\"akn" + this_id + "/!main~" + ending + "\" >"
+        open = u"<ref " + "wId=\"ref" + str(cnt) + "\" href=\"akn" + this_id + "/!main~" + ending + "\" >"
 
         stringo = stringo[:m.start() + longer] + open + stringo[m.start() + longer:]
         longer += len(open)
@@ -53,7 +53,7 @@ def add_refsCl(stringo, cnt, this_id):
     for m in re.finditer(nabrajanjeCl + '.\\b(овог)?', stringo):
         ending = get_ending(m, stringo[m.regs[0][0] + longer:m.regs[0][1] + longer], True)
 
-        open = u"<ref " + "id=\"ref" + str(cnt) + "\" href=\"akn" + this_id + "/!main~" + ending + "\" >"
+        open = u"<ref " + "wId=\"ref" + str(cnt) + "\" href=\"akn" + this_id + "/!main~" + ending + "\" >"
 
         stringo = stringo[:m.start() + longer] + open + stringo[m.start() + longer:]
         longer += len(open)
@@ -68,7 +68,8 @@ def add_refsCl(stringo, cnt, this_id):
 
 def get_ending(m, stringToScan, cl=False):
     regexBroj = '[0-9]+'
-    matches = re.findall(regexBroj, stringToScan)
+    regexBrojSlovo = '[0-9]+\w'
+    matches = re.findall(regexBrojSlovo, stringToScan)
     retval = ""
     if not cl:
         if m.group(1):
@@ -87,23 +88,27 @@ def get_ending(m, stringToScan, cl=False):
     # pom_string = stringo[pom_place.regs[0][0]-5: pom_place.regs[0][0]]
     # retval = pom_string + retval
     else:
-        matches = [int(i) for i in matches]
-        matches.sort()
-        edges = ranges(matches)
-        position = 0;
-        listOfIndex = []
-        pomList = []
-        for pom in re.finditer(regexBroj, stringToScan):
-            if int(pom.group()) == edges[position][0] and edges[position][0] == edges[position][1]:
-                listOfIndex.append([pom.regs[0],pom.regs[0]])
-                position = position + 1
-            elif int(pom.group()) == edges[position][0]:
-                pomList = []
-                pomList.append(pom.regs[0])
-            elif int(pom.group()) == edges[position][1]:
-                pomList.append(pom.regs[0])
-                listOfIndex.append(pomList)
-                position = position + 1
+        if len(matches) != 0:
+            pass
+        else:
+            matches = re.findall(regexBroj, stringToScan)
+            matches = [int(i) for i in matches]
+            matches.sort()
+            edges = ranges(matches)
+            position = 0;
+            listOfIndex = []
+            pomList = []
+            for pom in re.finditer(regexBroj, stringToScan):
+                if int(pom.group()) == edges[position][0] and edges[position][0] == edges[position][1]:
+                    listOfIndex.append([pom.regs[0],pom.regs[0]])
+                    position = position + 1
+                elif int(pom.group()) == edges[position][0]:
+                    pomList = []
+                    pomList.append(pom.regs[0])
+                elif int(pom.group()) == edges[position][1]:
+                    pomList.append(pom.regs[0])
+                    listOfIndex.append(pomList)
+                    position = position + 1
 
         retval = "art_" + str(matches[0]) + "->art_" + str(matches[len(matches) - 1]) + "_"
         # for match in matches:
@@ -120,10 +125,10 @@ def add_refs2(stringo, cnt):
         # retval = "" + stringo
         m1 = re.search("([0-9]+)/([0-9]+)", m.group(0))
         if m1:
-            open = u"<ref " + "id=\"ref" + str(cnt) + "\" href=\"akn/rs/act/" + m1.group(2) + "/" + m1.group(
+            open = u"<ref " + "wId=\"ref" + str(cnt) + "\" href=\"akn/rs/act/" + m1.group(2) + "/" + m1.group(
                 1) + "/srp@\">"
         else:
-            open = u"<ref " + "id=\"ref" + str(cnt) + "\">"
+            open = u"<ref " + "wId=\"ref" + str(cnt) + "\">"
         stringo = stringo[:m.start() + longer] + open + stringo[m.start() + longer:]
         longer += len(open)
 
@@ -145,7 +150,7 @@ def add_refs3(stringo, cnt, this_id, clan_id):
         if not re.search(nabrajanje + '\\b(овог)?', stringo[m.regs[0][0] + longer - 40: m.regs[0][1] + longer]):
             ending = get_ending2(m, clan_id)
 
-            open = u"<ref " + "id=\"ref" + str(cnt) + "\" href=\"akn" + this_id + "/!main~" + ending + "\" >"
+            open = u"<ref " + "wId=\"ref" + str(cnt) + "\" href=\"akn" + this_id + "/!main~" + ending + "\" >"
 
             stringo = stringo[:m.start() + longer] + open + stringo[m.start() + longer:]
             longer += len(open)
@@ -186,22 +191,25 @@ def add_refs(stablo, stringo, this_id):
 
 
     listaClanova = get_elements(stablo, 'article', namespace="")
+    listaObradjenihParagrafa = []
 
     for el_clan in listaClanova:  # Primer pristupa svakom članu
-        clan_id = el_clan.attrib['id']
-        for el_stav in el_clan.iter('article/paragraph'):
-            for el_content_p_tag in el_stav.iter('p'):
-                got_parent = get_parent_nth_parent(el_content_p_tag, 2)  # Pribavljanje roditelja
-                stav_text = el_content_p_tag.text
-                stringo, cnt = add_refs1(stav_text, cnt, this_id)
-                stringo, cnt = add_refsCl(stringo, cnt, this_id)
-                # print("PHASE 2")
-                stringo, cnt = add_refs2(stringo, cnt)
-                stringo, cnt = add_refs3(stringo, cnt, this_id, clan_id)
-                el_content_p_tag.text = stringo
-                print(prettify(stablo))
-            print(el_stav.tag)
-    print(el_clan.tag, el_clan.attrib)
+        clan_id = el_clan.attrib['wId']
+        for el_stav in el_clan.iter('paragraph'):
+            if el_stav.attrib['wId'] not in listaObradjenihParagrafa:
+                for el_content_p_tag in el_stav.iter('p'):
+                    got_parent = get_parent_nth_parent(el_content_p_tag, 2)  # Pribavljanje roditelja
+                    stav_text = el_content_p_tag.text
+                    stringo, cnt = add_refs1(stav_text, cnt, this_id)
+                    stringo, cnt = add_refsCl(stringo, cnt, this_id)
+                    # print("PHASE 2")
+                    stringo, cnt = add_refs2(stringo, cnt)
+                    stringo, cnt = add_refs3(stringo, cnt, this_id, clan_id)
+                    el_content_p_tag.text = stringo
+                    # print(prettify(stablo))
+                # print(el_stav.tag)
+                listaObradjenihParagrafa.append(el_stav.attrib['wId'])
+    # print(el_clan.tag, el_clan.attrib)
 
     # stringo, cnt = add_refs1(stringo, cnt, this_id)
     # stringo, cnt = add_refsCl(stringo, cnt, this_id)

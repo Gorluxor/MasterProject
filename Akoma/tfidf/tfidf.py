@@ -81,7 +81,11 @@ def get_tf_idf_values_document(folder_path, filenames=None, return_just_words=Tr
         print("Start " + str(filename))
         # break_word = break_word + 1
         check = path.join(folder_path, filename)
-        file = open(check, encoding="utf8")
+        try:
+            file = open(check, encoding="utf8")
+        except FileNotFoundError:
+            print(">Error tf-idf FileNotFoundError:" + check)
+            continue
         all_lines = "".join(file.readlines())
         act_array = []
 

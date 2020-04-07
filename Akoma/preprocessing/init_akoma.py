@@ -39,7 +39,7 @@ def add_fake_root_node(stringo):
     return u"<article>" + stringo + u"</article>"
 
 
-def init_xml(type):
+def init_xml(type,name=""):
     retval = ''  # '< ?xml version = "1.0" encoding = "UTF-8"? >\n'
     retval += '<akomaNtoso '
     retval += 'xmlns = "http://docs.oasis-open.org/legaldocml/ns/akn/3.0" '
