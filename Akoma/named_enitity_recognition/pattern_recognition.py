@@ -1,5 +1,6 @@
 import re
 from termcolor import colored
+
 try:
     from Akoma.utilities.utilities import *
     from Akoma.utilities.ETree import *
@@ -7,9 +8,15 @@ except ModuleNotFoundError:
     try:
         from utilities.utilities import *
         from utilities.ETree import *
-    except ModuleNotFoundError as newError:
-        print(newError)
+    except ModuleNotFoundError:
+        print("Error import")
         exit(-1)
+
+
+def prettify(root):
+    import xml.dom.minidom
+    dom = xml.dom.minidom.parseString(ET.tostring(root, encoding='UTF-8', method="xml").decode())
+    return dom.toprettyxml()
 
 
 def ranges(nums):
@@ -38,20 +45,7 @@ nabrajanje2 = '(члан.?\\s[0-9]+)?' + further + '(став.?\\s[0-9]+)?' + fu
 nabrajanje3 = '(став.?\\s[0-9]+)' + further + '((тачка|тачке).?\\s[0-9]+)?'
 
 
-def make_reference(cnt, this_id, ending, stringo, m, longer):
-    open = u"<ref " + "wId=\"ref" + str(cnt) + "\" href=\"akn" + this_id + "/!main~" + ending + "\" >"
-
-    stringo = stringo[:m.start() + longer] + open + stringo[m.start() + longer:]
-    longer += len(open)
-
-    stringo = stringo[:m.end() + longer] + u"</ref>" + stringo[m.end() + longer:]
-    longer += len(u"</ref>")
-
-    cnt += 1
-    return stringo, longer, cnt
-
-
-def make_reference_for_counting(cnt, this_id, start, end, ending, stringo, longer):
+def make_reference(cnt, this_id, start, end, ending, stringo, longer):
     open = u"<ref " + "wId=\"ref" + str(cnt) + "\" href=\"akn" + this_id + "/!main~" + ending + "\" >"
 
     stringo = stringo[:start + longer] + open + stringo[start + longer:]
@@ -130,41 +124,57 @@ def get_ending2(m, clan_id):
     return retval[:-1]
 
 
-def get_ending(m, stringToScan, cnt=0, this_id="", cl=False):
+def get_ending_clan_nabrajanje(stringo, m, cnt=0, this_id="", longer=0):
+    stringStart = m.regs[0][0] + longer
+    stringEnd = m.regs[0][1] + longer
+    stringToScan = stringo[stringStart:stringEnd]
     matches = re.findall(regexBrojSlovo, stringToScan)
-    retval = ""
-    if not cl:
-        retval = get_reference_for_clan_stav_tacka(m)
+    if len(matches) != 0:
+        retval = "art_" + str(matches[0]) + "->art_" + str(matches[len(matches) - 1])
     else:
-        if len(matches) != 0:
-            retval = "art_" + str(matches[0]) + "->art_" + str(matches[len(matches) - 1]) + "_"
+        matches = re.findall(regexBroj, stringToScan)
+        if len(matches) == 1:
+            retval = "art_" + str(matches[0])
         else:
-            matches = re.findall(regexBroj, stringToScan)
-            if len(matches) == 1:
-                retval = "art_" + str(matches[0]) + "_"
-            else:
-                matches = [int(i) for i in matches]
-                matches.sort()
-                edges = ranges(matches)
+            matches = [int(i) for i in matches]
+            matches.sort()
+            edges = ranges(matches)
 
-                if len(edges) == 1:
-                    retval = "art_" + str(matches[0]) + "->art_" + str(matches[len(matches) - 1]) + "_"
-                else:
-                    range_list_for = find_range_list(stringToScan, edges)
-                    for edge in edges:
-                        if edge[0] == edge[1]:
-                            # reference = make_reference_for_counting()
-                            pass
-                    retval = "art_" + str(matches[0]) + "_"
+            if len(edges) == 1:
+                retval = "art_" + str(matches[0]) + "->art_" + str(matches[len(matches) - 1])
+            else:
+                range_list_for = find_range_list(stringToScan, edges)
+                index = 0
+                for edge in edges:
+                    if edge[0] == edge[1]:
+                        start = range_list_for[index][0][0] + stringStart
+                        difference = range_list_for[index][1][1] - range_list_for[index][0][0]
+                        end = difference + start
+                        ending = "art_" + str(edge[0])
+                        stringo, longer, cnt = make_reference(cnt, this_id, start, end, ending, stringo, longer)
+                        index = index + 1
+                    else:
+                        start = range_list_for[index][0][0] + stringStart
+                        difference = range_list_for[index][1][1] - range_list_for[index][0][0]
+                        end = difference + start
+                        ending = "art_" + str(edge[0]) + "->art_" + str(edge[1])
+                        stringo, longer, cnt = make_reference(cnt, this_id, start, end, ending, stringo,
+                                                              longer)
+                        index = index + 1
+                return stringo, longer, cnt
+    return retval
+
+
+def get_ending(m):
+    retval = get_reference_for_clan_stav_tacka(m)
     return retval[:-1]
 
 
 def add_refs1(stringo, cnt, this_id):
     longer = 0
     for m in re.finditer(nabrajanje + '\\b(овог)?', stringo):
-        ending = get_ending(m, stringo)
-
-        stringo, longer, cnt = make_reference(cnt, this_id, ending, stringo, m, longer)
+        ending = get_ending(m)
+        stringo, longer, cnt = make_reference(cnt, this_id, m.start(), m.end(), ending, stringo, longer)
     return stringo, cnt
 
 
@@ -182,9 +192,14 @@ def add_refsCl(stringo, cnt, this_id):
             lastIndex = foundPattern.regs[0][1] + m.regs[0][1] + longer
             ending = get_reference_for_clan_nabrajanje(foundPattern, stringo[firstIndex:lastIndex])
         else:
-            ending = get_ending(m, stringo[m.regs[0][0] + longer:m.regs[0][1] + longer], cnt, this_id, True)
+            ending = get_ending_clan_nabrajanje(stringo, m, cnt, this_id, longer)
+            if type(ending) is tuple:
+                stringo = ending[0]
+                longer = ending[1]
+                cnt = ending[2]
+                continue
 
-        stringo, longer, cnt = make_reference(cnt, this_id, ending, stringo, m, longer)
+        stringo, longer, cnt = make_reference(cnt, this_id, m.start(), m.end(), ending, stringo, longer)
     return stringo, cnt
 
 
@@ -212,7 +227,7 @@ def add_refs3(stringo, cnt, this_id, clan_id):
         if not re.search(nabrajanje + '\\b(овог)?', stringo[m.regs[0][0] + longer - 40: m.regs[0][1] + longer]):
             ending = get_ending2(m, clan_id)
 
-            stringo, longer, cnt = make_reference(cnt, this_id, ending, stringo, m, longer)
+            stringo, longer, cnt = make_reference(cnt, this_id, m.start(), m.end(), ending, stringo, longer)
     return stringo, cnt
 
 
@@ -220,14 +235,13 @@ def add_refs(stablo, stringo, this_id):
     cnt = 0
     listaClanova = get_elements(stablo, 'article', namespace="")
     listaObradjenihParagrafa = []
-    # init_parent(stablo)
+
     for el_clan in listaClanova:  # Primer pristupa svakom članu
         clan_id = el_clan.attrib['wId']
         for el_stav in el_clan.iter('paragraph'):
             if el_stav.attrib['wId'] not in listaObradjenihParagrafa:
                 if el_stav.attrib.get('class') is not 'special':
                     for el_content_p_tag in el_stav.iter('p'):
-                        # got_parent = get_parent_nth_parent(el_content_p_tag, 2)  # Pribavljanje roditelja
                         stav_text = el_content_p_tag.text
                         stringoRet, cnt = add_refs1(stav_text, cnt, this_id)
                         stringoRet, cnt = add_refsCl(stringoRet, cnt, this_id)
@@ -235,7 +249,7 @@ def add_refs(stablo, stringo, this_id):
                         stringoRet, cnt = add_refs_sluzbeni_glasnik(stringoRet, cnt)
                         stringoRet, cnt = add_refs3(stringoRet, cnt, this_id, clan_id)
                         el_content_p_tag.text = stringoRet
-                    # print(ETree.prettify(stablo))
+                    # print(prettify(stablo))
                 # print(el_stav.tag)
                 listaObradjenihParagrafa.append(el_stav.attrib['wId'])
     # print(el_clan.tag, el_clan.attrib)
