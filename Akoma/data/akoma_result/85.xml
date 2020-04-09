@@ -62,7 +62,7 @@
 				<article wId="gla1-clan1">
 					<num>1.</num>
 					<heading>Предмет уређења</heading>
-					<paragraph wId="gla1-clan1-stav1">
+					<paragraph>
 						<content>
 							<p>Овим законом уређује се јавни ред и мир на јавном месту, утврђују се противправна дела против јавног реда и мира, као и начин прикупљања добровољних прилога.</p>
 						</content>
@@ -82,6 +82,7 @@
 						</content>
 					</paragraph>
 				</article>
+				
 				<article wId="gla1-clan3">
 					<num>3.</num>
 					<heading>Значење израза</heading>
