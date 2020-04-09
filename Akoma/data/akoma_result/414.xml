@@ -1,59 +1,60 @@
 <?xml version="1.0" ?>
-<ns0:akomaNtoso xmlns:ns0="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
-	
-
-	<ns0:act>
-		<ns0:meta>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о  задужбинама, фондацијама и фондовима">
+		<meta>
 			<identification source="#somebody">
 				<FRBRWork>
 					<FRBRthis value="/rs/act/1989/59-2134/main"/>
 					<FRBRuri value="/rs/act/1989/59-2134"/>
-					<FRBRdate date="1989" name="Generation"/>
+					<FRBRdate date="1989-01-01" name="Generation"/>
 					<FRBRauthor as="#author" href="#somebody"/>
 					<FRBRcountry value="rs"/>
 				</FRBRWork>
 				<FRBRExpression>
 					<FRBRthis value="/rs/act/2010/88-200/srp@/main"/>
 					<FRBRuri value="/rs/act/2010/88-200/srp@"/>
-					<FRBRdate date="2010" name="Generation"/>
+					<FRBRdate date="2010-01-01" name="Generation"/>
 					<FRBRauthor as="#editor" href="#somebody"/>
 					<FRBRlanguage language="srp"/>
 				</FRBRExpression>
 				<FRBRManifestation>
 					<FRBRthis value="/rs/act/2010/88-200/srp@/main.xml"/>
 					<FRBRuri value="/rs/act/2010/88-200/srp@.akn"/>
-					<FRBRdate date="2010" name="Generation"/>
+					<FRBRdate date="2010-01-01" name="Generation"/>
 					<FRBRauthor as="#editor" href="#somebody"/>
 					<FRBRformat value="xml"/>
 				</FRBRManifestation>
 			</identification>
 			<publication date="1989-12-28" name="службени гласник срс" number="59" showAs="Службени гласник СРС"/>
 			<classification source="#somebody">
-				<keyword id="vrsta" showAs="Закон" value="закон"/>
-				<keyword id="oblast" showAs="VI СВОЈИНСКИ И ОБЛИГАЦИОНИ, ПОРОДИЧНИ И БРАЧНИ ОДНОСИ" value="vi својински и облигациони, породични и брачни односи"/>
-				<keyword id="grupa" showAs="8. Задужбине, фондације и фондови" value="8. задужбине, фондације и фондови"/>
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="VI СВОЈИНСКИ И ОБЛИГАЦИОНИ, ПОРОДИЧНИ И БРАЧНИ ОДНОСИ" value="vi својински и облигациони, породични и брачни односи" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="8. Задужбине, фондације и фондови" value="8. задужбине, фондације и фондови" wId="grupa"/>
 			</classification>
-			<workflow source="#somebody">
-				<step date="1989-12-28" id="usvajanje"/>
-				<step date="1990-01-05" id="stupanje_na_snagu"/>
-				<step date="1990-01-05" id="primena"/>
-			</workflow>
 			<lifecycle source="#somebody">
-				<eventRef date="59/1989-2134" id="e1" type="generation"/>
-				<eventRef date="88/2010-200" id="e2" type="amendment"/>
+				<eventRef date="1989-01-01" refersTo="59/1989-2134" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2010-01-01" refersTo="88/2010-200" source="#somebody" type="amendment" wId="e2"/>
 			</lifecycle>
+			<workflow source="#somebody">
+				<step by="#TODO" date="1989-12-28" wId="usvajanje"/>
+				<step by="#TODO" date="1990-01-05" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="1990-01-05" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept href="#" showAs="Temp"/>
+			</references>
 			<notes source="#somebody">
-				<note id="not1">
+				<note wId="not1">
 					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Социјалистичке Републике Србије”, односно 5. јануара 1990. године (види члан 36. Закона).До доношења подзаконског акта о подацима и начину вођења регистра задужбине, фондације и фонда примењиваће се Правилиник о подацима и начину вођења регистра задужбина, фондација и фондова („Службени гласник СР Србије”, број 19/73) (види члан 34. Закона).Закон је престао да важи даном почетка примене Закона о задужбинама и фондацијама (Службени гласник РС, број 88/2010), односно 2. марта 2011. године, осим у делу у којем се уређује правни статус фондова чији је оснивач или суоснивач Република Србија, аутономна покрајина односно јединица локалне самоуправе (види чл. 71. и 72. Закона - 88/2010-200).</p>
 				</note>
 			</notes>
-		</ns0:meta>
+		</meta>
 		<preface>
-			<title>ЗАКОН</title>
-			<title>о  задужбинама, фондацијама и фондовима</title>
-			<date>„Службени гласник СРС”, број 59 од 28.   децембра 1989,   &quot;Службени гласник РС&quot;, број  88 од 23. новембра 2010  - др. закон</date>
+			<longTitle>
+				<p>Закон О  задужбинама, фондацијама и фондовима „Службени гласник СРС”, број 59 од 28. децембра 1989, &quot;Службени гласник РС&quot;, број 88 од 23. новембра 2010 - др. закон</p>
+			</longTitle>
 		</preface>
-		<ns0:body>
+		<body>
 			<chapter wId="gla1">
 				<num>I</num>
 				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
@@ -237,9 +238,9 @@
 				<article wId="gla1-clan15">
 					<num>15.</num>
 					<paragraph wId="gla1-clan15-stav1">
-						<content>
+						<intro>
 							<p>Задужбине, фондације и фондови могу:</p>
-						</content>
+						</intro>
 						<alinea wId="gla1-clan15-stav1-ali1">
 							<content>
 								<p>тицати приходе и убирати плодове у складу са законом (закуп, камате, дивиденде, плодови с пољопривредног земљишта, приходи по основу ауторских права и патената и др.);</p>
@@ -362,9 +363,9 @@
 				<article wId="gla3-clan24">
 					<num>24.</num>
 					<paragraph wId="gla3-clan24-stav1">
-						<content>
+						<intro>
 							<p>Републички орган управе надлежан за послове културе:</p>
-						</content>
+						</intro>
 						<alinea wId="gla3-clan24-stav1-ali1">
 							<content>
 								<p>ени целисходност оснивања и доноси решење о одобрењу оснивања задужбине, фондације и фонда;</p>
@@ -516,6 +517,6 @@
 					</paragraph>
 				</article>
 			</chapter>
-		</ns0:body>
-	</ns0:act>
-</ns0:akomaNtoso>
+		</body>
+	</act>
+</akomaNtoso>

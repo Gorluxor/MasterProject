@@ -1,55 +1,56 @@
 <?xml version="1.0" ?>
-<ns0:akomaNtoso xmlns:ns0="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
-	
-
-	<ns0:act>
-		<ns0:meta>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о  задужењу Србије и Црне Горе код Међународног удружења за развој (Пројекат  здравства)">
+		<meta>
 			<identification source="#somebody">
 				<FRBRWork>
 					<FRBRthis value="/rs/act/2003/27-4/main"/>
 					<FRBRuri value="/rs/act/2003/27-4"/>
-					<FRBRdate date="2003" name="Generation"/>
+					<FRBRdate date="2003-01-01" name="Generation"/>
 					<FRBRauthor as="#author" href="#somebody"/>
 					<FRBRcountry value="rs"/>
 				</FRBRWork>
 				<FRBRExpression>
 					<FRBRthis value="/rs/act/2003/27-4/srp@/main"/>
 					<FRBRuri value="/rs/act/2003/27-4/srp@"/>
-					<FRBRdate date="2003" name="Generation"/>
+					<FRBRdate date="2003-01-01" name="Generation"/>
 					<FRBRauthor as="#editor" href="#somebody"/>
 					<FRBRlanguage language="srp"/>
 				</FRBRExpression>
 				<FRBRManifestation>
 					<FRBRthis value="/rs/act/2003/27-4/srp@/main.xml"/>
 					<FRBRuri value="/rs/act/2003/27-4/srp@.akn"/>
-					<FRBRdate date="2003" name="Generation"/>
+					<FRBRdate date="2003-01-01" name="Generation"/>
 					<FRBRauthor as="#editor" href="#somebody"/>
 					<FRBRformat value="xml"/>
 				</FRBRManifestation>
 			</identification>
-			<publication date="2003-6-20" name="службени лист сцг" number="27" showAs="Службени лист СЦГ"/>
+			<publication date="2003-06-20" name="службени лист сцг" number="27" showAs="Службени лист СЦГ"/>
 			<classification source="#somebody">
-				<keyword id="vrsta" showAs="Закон" value="закон"/>
-				<keyword id="oblast" showAs="V МОНЕТАРНИ СИСТЕМ, ФИНАНСИЈСКЕ ОРГАНИЗАЦИЈЕ И ФИНАНСИЈСКО ПОСЛОВАЊЕ" value="v монетарни систем, финансијске организације и финансијско пословање"/>
-				<keyword id="grupa" showAs="9. Задуживање и гаранције" value="9. задуживање и гаранције"/>
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="V МОНЕТАРНИ СИСТЕМ, ФИНАНСИЈСКЕ ОРГАНИЗАЦИЈЕ И ФИНАНСИЈСКО ПОСЛОВАЊЕ" value="v монетарни систем, финансијске организације и финансијско пословање" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="9. Задуживање и гаранције" value="9. задуживање и гаранције" wId="grupa"/>
 			</classification>
 			<workflow source="#somebody">
-				<step date="2003-06-20" id="usvajanje"/>
-				<step date="2003-06-21" id="stupanje_na_snagu"/>
-				<step date="2003-06-21" id="primena"/>
+				<step by="#TODO" date="2003-06-20" wId="usvajanje"/>
+				<step by="#TODO" date="2003-06-21" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2003-06-21" wId="primena"/>
 			</workflow>
+			<references source="#somebody">
+				<TLCConcept href="#" showAs="Temp"/>
+			</references>
 			<notes source="#somebody">
-				<note id="not1">
+				<note wId="not1">
 					<p>Закон је ступио на снагу наредног дана од дана објављивања у “Службеном листу СЦГ”, односно 21. јуна 2003. године (види члан 11. Закона).</p>
 				</note>
 			</notes>
-		</ns0:meta>
+		</meta>
 		<preface>
-			<title>ЗАКОН</title>
-			<title>о  задужењу Србије и Црне Горе код Међународног удружења за развој (Пројекат  здравства)</title>
-			<date>„Службени лист СЦГ”, број 27 од 20. јуна 2003.</date>
+			<longTitle>
+				<p>Закон О  задужењу србије и црне горе код међународног удружења за развој (пројекат  здравства) „Службени лист СЦГ”, број 27 од 20. јуна 2003.</p>
+			</longTitle>
 		</preface>
-		<ns0:body>
+		<body>
 			<article wId="clan1">
 				<num>1.</num>
 				<paragraph wId="clan1-stav1">
@@ -158,6 +159,6 @@
 					</content>
 				</paragraph>
 			</article>
-		</ns0:body>
-	</ns0:act>
-</ns0:akomaNtoso>
+		</body>
+	</act>
+</akomaNtoso>

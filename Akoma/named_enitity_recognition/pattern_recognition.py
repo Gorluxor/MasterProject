@@ -118,7 +118,7 @@ def get_ending2(m, clan_id):
     retval = pom_string + retval
     return retval[:-1]
 
-def get_ending(m, stringToScan, cnt, this_id, cl=False):
+def get_ending(m, stringToScan, cnt = 0, this_id = "", cl=False):
     matches = re.findall(regexBrojSlovo, stringToScan)
     retval = ""
     if not cl:
@@ -141,7 +141,8 @@ def get_ending(m, stringToScan, cnt, this_id, cl=False):
                     range_list_for = find_range_list(stringToScan, edges)
                     for edge in edges:
                         if edge[0] == edge[1]:
-                            reference = make_reference_for_counting()
+                            # reference = make_reference_for_counting()
+                            pass
                     retval = "art_" + str(matches[0]) + "_"
     return retval[:-1]
 
@@ -172,7 +173,7 @@ def add_refsCl(stringo, cnt, this_id):
         stringo, longer, cnt = make_reference(cnt, this_id, ending, stringo, m, longer)
     return stringo, cnt
 
-def add_refs2(stringo, cnt):
+def add_refs_sluzbeni_glasnik(stringo, cnt):
     longer = 0
     for m in re.finditer(nabrajanje2 + '(Службени.*?)([0-9]+/[0-9]+(,\s)?)+', stringo):
         m1 = re.search("([0-9]+)/([0-9]+)", m.group(0))
@@ -196,7 +197,6 @@ def add_refs3(stringo, cnt, this_id, clan_id):
             ending = get_ending2(m, clan_id)
 
             stringo, longer, cnt = make_reference(cnt, this_id, ending, stringo, m, longer)
-            # stringo = stringo[:m.end()] + u"</" + token + ">" + stringo[m.end():]
     return stringo, cnt
 
 def add_refs(stablo, stringo, this_id):
@@ -214,7 +214,7 @@ def add_refs(stablo, stringo, this_id):
                     stringoRet, cnt = add_refs1(stav_text, cnt, this_id)
                     stringoRet, cnt = add_refsCl(stringoRet, cnt, this_id)
                     # print("PHASE 2")
-                    stringoRet, cnt = add_refs2(stringoRet, cnt)
+                    stringoRet, cnt = add_refs_sluzbeni_glasnik(stringoRet, cnt)
                     stringoRet, cnt = add_refs3(stringoRet, cnt, this_id, clan_id)
                     el_content_p_tag.text = stringoRet
                     # print(prettify(stablo))

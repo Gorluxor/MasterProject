@@ -44,6 +44,7 @@ def convert_html(source, destination):
 
     metabuilder = MetadataBuilder("data/meta/allmeta.csv")
     metabuilder.build(fajl, akoma_root)
+    print(prettify(akoma_root))
     builder = AkomaBuilder(akoma_root)
     reasoner = BasicReasoner(HTMLTokenizer(html_root), builder)
     reasoner.start()

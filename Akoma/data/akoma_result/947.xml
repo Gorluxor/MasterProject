@@ -1,49 +1,50 @@
 <?xml version="1.0" ?>
-<ns0:akomaNtoso xmlns:ns0="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
-	
-
-	<ns0:act>
-		<ns0:meta>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о потврђивању Споразума између Владе Републике Србије и Владе Грузије о сарадњи и узајамној помоћи у царинским питањима">
+		<meta>
 			<identification source="#somebody">
 				<FRBRWork>
 					<FRBRthis value="/rs/act/2012/3-7/main"/>
 					<FRBRuri value="/rs/act/2012/3-7"/>
-					<FRBRdate date="2012" name="Generation"/>
+					<FRBRdate date="2012-01-01" name="Generation"/>
 					<FRBRauthor as="#author" href="#somebody"/>
 					<FRBRcountry value="rs"/>
 				</FRBRWork>
 				<FRBRExpression>
 					<FRBRthis value="/rs/act/2012/3-7/srp@/main"/>
 					<FRBRuri value="/rs/act/2012/3-7/srp@"/>
-					<FRBRdate date="2012" name="Generation"/>
+					<FRBRdate date="2012-01-01" name="Generation"/>
 					<FRBRauthor as="#editor" href="#somebody"/>
 					<FRBRlanguage language="srp"/>
 				</FRBRExpression>
 				<FRBRManifestation>
 					<FRBRthis value="/rs/act/2012/3-7/srp@/main.xml"/>
 					<FRBRuri value="/rs/act/2012/3-7/srp@.akn"/>
-					<FRBRdate date="2012" name="Generation"/>
+					<FRBRdate date="2012-01-01" name="Generation"/>
 					<FRBRauthor as="#editor" href="#somebody"/>
 					<FRBRformat value="xml"/>
 				</FRBRManifestation>
 			</identification>
-			<publication date="2012-11-9" name="службени гласник рс - међународни уговори" number="3" showAs="Службени гласник РС - Међународни уговори"/>
+			<publication date="2012-11-09" name="службени гласник рс - међународни уговори" number="3" showAs="Службени гласник РС - Међународни уговори"/>
 			<classification source="#somebody">
-				<keyword id="vrsta" showAs="Закон" value="закон"/>
-				<keyword id="oblast" showAs="IV ЈАВНИ ПРИХОДИ" value="iv јавни приходи"/>
-				<keyword id="grupa" showAs="1. Царине и друге увозне дажбине" value="1. царине и друге увозне дажбине"/>
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="IV ЈАВНИ ПРИХОДИ" value="iv јавни приходи" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="1. Царине и друге увозне дажбине" value="1. царине и друге увозне дажбине" wId="grupa"/>
 			</classification>
 			<workflow source="#somebody">
-				<step date="2012-11-08" id="usvajanje"/>
-				<step date="2012-11-17" id="stupanje_na_snagu"/>
-				<step date="2012-11-17" id="primena"/>
+				<step by="#TODO" date="2012-11-08" wId="usvajanje"/>
+				<step by="#TODO" date="2012-11-17" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2012-11-17" wId="primena"/>
 			</workflow>
+			<references source="#somebody">
+				<TLCConcept href="#" showAs="Temp"/>
+			</references>
 			<notes source="#somebody">
-				<note id="not1">
+				<note wId="not1">
 					<p/>
 				</note>
 			</notes>
-		</ns0:meta>
+		</meta>
 		<preamble>
 			<p>На основу члана 112. став 1. тачка 2. Устава Републике Србије, доносим</p>
 			<p>УКАЗ</p>
@@ -54,12 +55,12 @@
 			<p>Председник Републике,</p>
 		</preamble>
 		<preface>
-			<authority>Томислав Николић, с.р.</authority>
-			<title>ЗАКОН</title>
-			<title>о потврђивању Споразума између Владе Републике Србије и Владе Грузије о сарадњи и узајамној помоћи у царинским питањима</title>
-			<date>&quot;Службени гласник РС -   Међународни уговори&quot;, број 3 од 9. новембра 2012.</date>
+			<longTitle>
+				<p>Закон О потврђивању споразума између владе републике србије и владе грузије о сарадњи и узајамној помоћи у царинским питањима &quot;Службени гласник РС - Међународни уговори&quot;, број 3 од 9. новембра 2012.</p>
+			</longTitle>
+			<p>Томислав Николић, с.р.</p>
 		</preface>
-		<ns0:body>
+		<body>
 			<article wId="clan1">
 				<num>1.</num>
 				<paragraph wId="clan1-stav1">
@@ -134,9 +135,9 @@
 					</content>
 				</paragraph>
 				<paragraph wId="clan1-stav2">
-					<content>
+					<intro>
 						<p>У смислу овог споразума:</p>
-					</content>
+					</intro>
 					<тачка wId="clan1-stav2-tac1">
 						<num>1.</num>
 						<content>
@@ -612,9 +613,9 @@
 															</content>
 														</paragraph>
 														<paragraph wId="od1-podod6-clan12-stav2">
-															<content>
+															<intro>
 																<p>На захтев царинског органа државе једне стране уговорнице, царински орган државе друге стране уговорнице, у складу са својим националним законодавством, предузеће неопходне мере да:</p>
-															</content>
+															</intro>
 															<alinea wId="od1-podod6-clan12-stav2-ali1">
 																<content>
 																	<p>остави одговарајућа документа,</p>
@@ -822,9 +823,9 @@
 																			<num>1.</num>
 																			<heading> Споразум ступа на снагу првог дана другог месеца од датума када су стране уговорнице писмено, дипломатским путем, обавестиле једна другу да су испуњени сви услови за његово ступање на снагу.</heading>
 																			<paragraph wId="od1-clan21-stav1">
-																				<content>
+																				<intro>
 																					<p>2 Царински органи страна уговорница сагласни су да се, на захтев једног од њих или по истеку рока од пет година од датума ступања на снагу овог споразума, састану ради ревизије Споразума или анализе других царинских питања која могу да проистекну из узајамне сарадње, осим ако једни друге не обавесте, писмено, да таква ревизија није потребна.</p>
-																				</content>
+																				</intro>
 																				<тачка wId="od1-clan21-stav1-tac3">
 																					<num>3.</num>
 																					<content>
@@ -927,9 +928,9 @@
 																						</content>
 																					</тачка>
 																					<paragraph wId="od1-podod5-clan21-stav1">
-																						<content>
+																						<intro>
 																							<p>Исто се примењује и на личне податке из казнене евиденције.</p>
-																						</content>
+																						</intro>
 																						<тачка wId="od1-podod5-clan21-stav1-tac3">
 																							<num>3.</num>
 																							<content>
@@ -1023,6 +1024,6 @@
 					</section>
 				</section>
 			</section>
-		</ns0:body>
-	</ns0:act>
-</ns0:akomaNtoso>
+		</body>
+	</act>
+</akomaNtoso>

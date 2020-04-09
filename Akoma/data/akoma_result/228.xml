@@ -1,58 +1,59 @@
 <?xml version="1.0" ?>
-<ns0:akomaNtoso xmlns:ns0="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
-	
-
-	<ns0:act>
-		<ns0:meta>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о финансијском обезбеђењу">
+		<meta>
 			<identification source="#somebody">
 				<FRBRWork>
 					<FRBRthis value="/rs/act/2018/44-8/main"/>
 					<FRBRuri value="/rs/act/2018/44-8"/>
-					<FRBRdate date="2018" name="Generation"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
 					<FRBRauthor as="#author" href="#somebody"/>
 					<FRBRcountry value="rs"/>
 				</FRBRWork>
 				<FRBRExpression>
 					<FRBRthis value="/rs/act/2018/44-8/srp@/main"/>
 					<FRBRuri value="/rs/act/2018/44-8/srp@"/>
-					<FRBRdate date="2018" name="Generation"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
 					<FRBRauthor as="#editor" href="#somebody"/>
 					<FRBRlanguage language="srp"/>
 				</FRBRExpression>
 				<FRBRManifestation>
 					<FRBRthis value="/rs/act/2018/44-8/srp@/main.xml"/>
 					<FRBRuri value="/rs/act/2018/44-8/srp@.akn"/>
-					<FRBRdate date="2018" name="Generation"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
 					<FRBRauthor as="#editor" href="#somebody"/>
 					<FRBRformat value="xml"/>
 				</FRBRManifestation>
 			</identification>
-			<publication date="2018-6-8" name="службени гласник рс" number="44" showAs="Службени гласник РС"/>
+			<publication date="2018-06-08" name="службени гласник рс" number="44" showAs="Службени гласник РС"/>
 			<classification source="#somebody">
-				<keyword id="vrsta" showAs="Закон" value="закон"/>
-				<keyword id="oblast" showAs="V МОНЕТАРНИ СИСТЕМ, ФИНАНСИЈСКЕ ОРГАНИЗАЦИЈЕ И ФИНАНСИЈСКО ПОСЛОВАЊЕ" value="v монетарни систем, финансијске организације и финансијско пословање"/>
-				<keyword id="grupa" showAs="2. Банке и друге финансијске организације" value="2. банке и друге финансијске организације"/>
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="V МОНЕТАРНИ СИСТЕМ, ФИНАНСИЈСКЕ ОРГАНИЗАЦИЈЕ И ФИНАНСИЈСКО ПОСЛОВАЊЕ" value="v монетарни систем, финансијске организације и финансијско пословање" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="2. Банке и друге финансијске организације" value="2. банке и друге финансијске организације" wId="grupa"/>
 			</classification>
 			<workflow source="#somebody">
-				<step date="2018-06-08" id="usvajanje"/>
-				<step date="2018-06-16" id="stupanje_na_snagu"/>
-				<step date="2019-01-01" id="primena"/>
+				<step by="#TODO" date="2018-06-08" wId="usvajanje"/>
+				<step by="#TODO" date="2018-06-16" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2019-01-01" wId="primena"/>
 			</workflow>
+			<references source="#somebody">
+				<TLCConcept href="#" showAs="Temp"/>
+			</references>
 			<notes source="#somebody">
-				<note id="not1">
+				<note wId="not1">
 					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 16. јуна 2018. године, а примењује се од 1. јануара 2019. године (види члан 26. Закона),Уговори закључени између субјеката из члана 4. овог закона којима су установљена средства обезбеђења у смислу овог закона, односно финансијски уговори у смислу члана 20. овог закона – а који до дана почетка примене овог закона нису извршени – извршиће се по прописима који су били на снази до почетка примене овог закона (види члан 24. Закона).</p>
 				</note>
-				<note id="not2">
+				<note wId="not2">
 					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 16. јуна 2018. године, а примењује се од 1. јануара 2019. године (види члан 26. Закона),Уговори закључени између субјеката из члана 4. овог закона којима су установљена средства обезбеђења у смислу овог закона, односно финансијски уговори у смислу члана 20. овог закона – а који до дана почетка примене овог закона нису извршени – извршиће се по прописима који су били на снази до почетка примене овог закона (види члан 24. Закона).</p>
 				</note>
 			</notes>
-		</ns0:meta>
+		</meta>
 		<preface>
-			<title>ЗАКОН</title>
-			<title>о финансијском обезбеђењу</title>
-			<date>&quot;Службени гласник РС&quot;, број 44 од 8. јуна 2018.</date>
+			<longTitle>
+				<p>Закон О финансијском обезбеђењу &quot;Службени гласник РС&quot;, број 44 од 8. јуна 2018.</p>
+			</longTitle>
 		</preface>
-		<ns0:body>
+		<body>
 			<chapter wId="gla1">
 				<num>I</num>
 				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
@@ -79,9 +80,9 @@
 						</content>
 					</paragraph>
 					<paragraph wId="gla1-clan2-stav2">
-						<content>
+						<intro>
 							<p>Давалац обезбеђења, на основу уговора о финансијском обезбеђењу којим се преноси средство обезбеђења, примаоцу обезбеђења:</p>
-						</content>
+						</intro>
 						<point wId="gla1-clan2-stav2-tac1">
 							<num>1)</num>
 							<content>
@@ -134,9 +135,9 @@
 					<num>4.</num>
 					<heading>Субјекти уговора о финансијском обезбеђењу</heading>
 					<paragraph wId="gla1-clan4-stav1">
-						<content>
+						<intro>
 							<p>Одредбе овог закона примењују се на уговор о финансијском обезбеђењу чије уговорне стране – давалац обезбеђења и прималац обезбеђења – припадају следећим категоријама субјеката:</p>
-						</content>
+						</intro>
 						<point wId="gla1-clan4-stav1-tac1">
 							<num>1)</num>
 							<content>
@@ -236,9 +237,9 @@
 					<num>6.</num>
 					<heading>Врсте средстава обезбеђења</heading>
 					<paragraph wId="gla2-clan6-stav1">
-						<content>
+						<intro>
 							<p>Средства обезбеђења, у смислу овог закона, могу бити:</p>
-						</content>
+						</intro>
 						<point wId="gla2-clan6-stav1-tac1">
 							<num>1)</num>
 							<content>
@@ -312,9 +313,9 @@
 						</content>
 					</paragraph>
 					<paragraph wId="gla2-clan8-stav5">
-						<content>
+						<intro>
 							<p>Када су финансијски инструменти средство обезбеђења у смислу овог закона, на уговоре о финансијском обезбеђењу примењује се право државе у којој се налази седиште овлашћене институције која води регистар ових инструмената, односно рачун на коме су регистровани ти инструменти, а по питањима која се односе на следеће:</p>
-						</content>
+						</intro>
 						<point wId="gla2-clan8-stav5-tac1">
 							<num>1)</num>
 							<content>
@@ -365,9 +366,9 @@
 						</content>
 					</paragraph>
 					<paragraph wId="gla2-clan9-stav5">
-						<content>
+						<intro>
 							<p>Кредитно потраживање може бити средство обезбеђења ако је дужник по кредитном потраживању, при закључењу уговора о кредиту или накнадно, учинио следеће:</p>
-						</content>
+						</intro>
 						<point wId="gla2-clan9-stav5-tac1">
 							<num>1)</num>
 							<content>
@@ -391,9 +392,9 @@
 					<num>10.</num>
 					<heading>Еквивалентна средства обезбеђења</heading>
 					<paragraph wId="gla2-clan10-stav1">
-						<content>
+						<intro>
 							<p>Еквивалентна средства обезбеђења су:</p>
-						</content>
+						</intro>
 						<point wId="gla2-clan10-stav1-tac1">
 							<num>1)</num>
 							<content>
@@ -436,9 +437,9 @@
 						</content>
 					</paragraph>
 					<paragraph wId="gla3-clan11-stav4">
-						<content>
+						<intro>
 							<p>Ради утврђивања да је средство обезбеђења дато, довољно је пружити писмени доказ о следећем:</p>
-						</content>
+						</intro>
 						<point wId="gla3-clan11-stav4-tac1">
 							<num>1)</num>
 							<content>
@@ -488,9 +489,9 @@
 						</content>
 					</paragraph>
 					<paragraph wId="gla3-clan12-stav3">
-						<content>
+						<intro>
 							<p>Ако прималац обезбеђења користи заложено средство обезбеђења и/или располаже њиме, дужан је да:</p>
-						</content>
+						</intro>
 						<point wId="gla3-clan12-stav3-tac1">
 							<num>1)</num>
 							<content>
@@ -529,9 +530,9 @@
 					<num>13.</num>
 					<heading>Промена средстава обезбеђења</heading>
 					<paragraph wId="gla3-clan13-stav1">
-						<content>
+						<intro>
 							<p>Уговором о финансијском обезбеђењу може се утврдити промена средстава обезбеђења, и то:</p>
-						</content>
+						</intro>
 						<point wId="gla3-clan13-stav1-tac1">
 							<num>1)</num>
 							<content>
@@ -580,9 +581,9 @@
 					<num>14.</num>
 					<heading>(енг. enforcement event)</heading>
 					<paragraph wId="gla4-clan14-stav1">
-						<content>
+						<intro>
 							<p>Услови за реализацију средства обезбеђења јесу неизвршење доспеле финансијске обавезе или други сличан догађај или околност која се односи на једну од уговорних страна а који су предвиђени уговором о финансијском обезбеђењу и по чијем наступању:</p>
-						</content>
+						</intro>
 						<point wId="gla4-clan14-stav1-tac1">
 							<num>1)</num>
 							<content>
@@ -602,9 +603,9 @@
 						</content>
 					</paragraph>
 					<paragraph wId="gla4-clan14-stav3">
-						<content>
+						<intro>
 							<p>Реализација средства обезбеђења, ако друкчије није утврђено уговором о финансијском обезбеђењу, извршава се на следећи начин:</p>
-						</content>
+						</intro>
 						<point wId="gla4-clan14-stav3-tac1">
 							<num>1)</num>
 							<content>
@@ -645,9 +646,9 @@
 					<num>15.</num>
 					<heading>Намирење потраживања из заложених средстава обезбеђења</heading>
 					<paragraph wId="gla4-clan15-stav1">
-						<content>
+						<intro>
 							<p>По наступању услова за реализацију средстава обезбеђења у складу с чланом 14. овог закона, прималац обезбеђења нема више обавезу да даваоцу обезбеђења врати примљена или еквивалентна средства обезбеђења, већ своје потраживање може намирити из заложених средстава обезбеђења, на следећи начин:</p>
-						</content>
+						</intro>
 						<point wId="gla4-clan15-stav1-tac1">
 							<num>1)</num>
 							<content>
@@ -721,9 +722,9 @@
 					<num>17.</num>
 					<heading>(енг. close-out netting)</heading>
 					<paragraph wId="gla4-clan17-stav1">
-						<content>
+						<intro>
 							<p>Уговором о финансијском обезбеђењу може се утврдити да се, по наступању услова за реализацију средстава обезбеђења у складу с чланом 14. овог закона, аутоматски или на захтев уговорне стране, предузима следеће:</p>
-						</content>
+						</intro>
 						<point wId="gla4-clan17-stav1-tac1">
 							<num>1)</num>
 							<content>
@@ -761,9 +762,9 @@
 						</content>
 					</paragraph>
 					<paragraph wId="gla5-clan18-stav2">
-						<content>
+						<intro>
 							<p>Одредбе уговора о финансијском обезбеђењу, као ни давање, стицање и промена средства обезбеђења у складу с тим уговором – не могу се побијати нити утврђивати ништавим само због тога што је:</p>
-						</content>
+						</intro>
 						<point wId="gla5-clan18-stav2-tac1">
 							<num>1)</num>
 							<content>
@@ -835,9 +836,9 @@
 					<num>20.</num>
 					<heading>Нетирање код других финансијских уговора</heading>
 					<paragraph wId="gla6-clan20-stav1">
-						<content>
+						<intro>
 							<p>Финансијским уговором могу се утврдити догађаји и околности (неизвршење доспеле финансијске обавезе или други сличан догађај или околност која се односи на једну од уговорних страна) по чијем се наступању, аутоматски или на захтев уговорне стране, предузима следеће:</p>
-						</content>
+						</intro>
 						<point wId="gla6-clan20-stav1-tac1">
 							<num>1)</num>
 							<content>
@@ -852,9 +853,9 @@
 						</point>
 					</paragraph>
 					<paragraph wId="gla6-clan20-stav2">
-						<content>
+						<intro>
 							<p>Финансијски уговор из &lt;ref wId=&quot;ref22&quot; href=&quot;akn/rs/act/2018/44-8/srp@/!main~act_20__para_1&quot; &gt;става 1. овог&lt;/ref&gt; члана јесте оквирни уговор или други уговор закључен на начин и у форми који су уобичајени у пословној пракси, чије су уговорне стране субјекти из &lt;ref wId=&quot;ref21&quot; href=&quot;akn/rs/act/2018/44-8/srp@/!main~art_4&quot; &gt;члана 4. овог&lt;/ref&gt; закона и по основу кога за дужника настаје финансијска обавеза, а за повериоца право на новчано намирење и/или предају, односно пренос новчаних средстава, односно финансијских инструмената у складу са законом (финансијска трансакција), и то:</p>
-						</content>
+						</intro>
 						<point wId="gla6-clan20-stav2-tac1">
 							<num>1)</num>
 							<content>
@@ -942,9 +943,9 @@
 					<num>22.</num>
 					<heading>Прекршаји</heading>
 					<paragraph wId="gla8-clan22-stav1">
-						<content>
+						<intro>
 							<p>Новчаном казном од 100.000 до 2.000.000 динара казниће се за прекршај правно лице у следећим случајевима:</p>
-						</content>
+						</intro>
 						<point wId="gla8-clan22-stav1-tac1">
 							<num>1)</num>
 							<content>
@@ -1044,6 +1045,6 @@
 					</paragraph>
 				</article>
 			</chapter>
-		</ns0:body>
-	</ns0:act>
-</ns0:akomaNtoso>
+		</body>
+	</act>
+</akomaNtoso>

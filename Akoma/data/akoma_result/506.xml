@@ -1,68 +1,69 @@
 <?xml version="1.0" ?>
-<ns0:akomaNtoso xmlns:ns0="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
-	
-
-	<ns0:act>
-		<ns0:meta>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о стечају">
+		<meta>
 			<identification source="#somebody">
 				<FRBRWork>
 					<FRBRthis value="/rs/act/2009/104-68/main"/>
 					<FRBRuri value="/rs/act/2009/104-68"/>
-					<FRBRdate date="2009" name="Generation"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
 					<FRBRauthor as="#author" href="#somebody"/>
 					<FRBRcountry value="rs"/>
 				</FRBRWork>
 				<FRBRExpression>
 					<FRBRthis value="/rs/act/2018/95-335/srp@/main"/>
 					<FRBRuri value="/rs/act/2018/95-335/srp@"/>
-					<FRBRdate date="2018" name="Generation"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
 					<FRBRauthor as="#editor" href="#somebody"/>
 					<FRBRlanguage language="srp"/>
 				</FRBRExpression>
 				<FRBRManifestation>
 					<FRBRthis value="/rs/act/2018/95-335/srp@/main.xml"/>
 					<FRBRuri value="/rs/act/2018/95-335/srp@.akn"/>
-					<FRBRdate date="2018" name="Generation"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
 					<FRBRauthor as="#editor" href="#somebody"/>
 					<FRBRformat value="xml"/>
 				</FRBRManifestation>
 			</identification>
 			<publication date="2009-12-16" name="службени гласник рс“" number="104" showAs="Службени гласник РС“"/>
 			<classification source="#somebody">
-				<keyword id="vrsta" showAs="Закон" value="закон"/>
-				<keyword id="oblast" showAs="IX ОПШТИ ПРИВРЕДНИ ПРОПИСИ И ЕКОНОМСКИ ОДНОСИ СА ИНОСТРАНСТВОМ" value="ix општи привредни прописи и економски односи са иностранством"/>
-				<keyword id="grupa" showAs="10. Стечај" value="10. стечај"/>
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="IX ОПШТИ ПРИВРЕДНИ ПРОПИСИ И ЕКОНОМСКИ ОДНОСИ СА ИНОСТРАНСТВОМ" value="ix општи привредни прописи и економски односи са иностранством" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="10. Стечај" value="10. стечај" wId="grupa"/>
 			</classification>
-			<workflow source="#somebody">
-				<step date="2009-12-11" id="usvajanje"/>
-				<step date="2009-12-24" id="stupanje_na_snagu"/>
-				<step date="2010-01-23" id="primena"/>
-			</workflow>
 			<lifecycle source="#somebody">
-				<eventRef date="104/2009-68" id="e1" type="generation"/>
-				<eventRef date="99/2011-8" id="e2" type="amendment"/>
-				<eventRef date="71/2012-24" id="e3" type="amendment"/>
-				<eventRef date="83/2014-15" id="e4" type="amendment"/>
-				<eventRef date="113/2017-257" id="e5" type="amendment"/>
-				<eventRef date="44/2018-52" id="e6" type="amendment"/>
-				<eventRef date="95/2018-335" id="e7" type="amendment"/>
+				<eventRef date="2009-01-01" refersTo="104/2009-68" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2011-01-01" refersTo="99/2011-8" source="#somebody" type="amendment" wId="e2"/>
+				<eventRef date="2012-01-01" refersTo="71/2012-24" source="#somebody" type="amendment" wId="e3"/>
+				<eventRef date="2014-01-01" refersTo="83/2014-15" source="#somebody" type="amendment" wId="e4"/>
+				<eventRef date="2017-01-01" refersTo="113/2017-257" source="#somebody" type="amendment" wId="e5"/>
+				<eventRef date="2018-01-01" refersTo="44/2018-52" source="#somebody" type="amendment" wId="e6"/>
+				<eventRef date="2018-01-01" refersTo="95/2018-335" source="#somebody" type="amendment" wId="e7"/>
 			</lifecycle>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2009-12-11" wId="usvajanje"/>
+				<step by="#TODO" date="2009-12-24" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2010-01-23" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept href="#" showAs="Temp"/>
+			</references>
 			<notes source="#somebody">
-				<note id="not1">
+				<note wId="not1">
 					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, 24. децембра 2009. године, а почео је да се примењује тридесетог дана од дана његовог ступања на снагу, односно 23. јануара 2010. године, осим: 1) одредаба члана 25. став 3. и члана 30. овог закона које су почеле да се примењују 1. јула 2010. године; 2) одредбе члана 25. став 4. овог закона која је почела да се примењује 1. јануара 2012. године; 3) одредаба чл. 150. до 154. овог закона које су почеле да се примењују деведесетог дана од дана његовог ступања на снагу, односно 24. марта 2010. године (види члан 212. Закона).Престали су да важе члан 136. ст. 5. и 9. (види члан 11. Закона о изменама и допунама Закона о Агенцији за привредне регистре 99/2011-8).Одлуком Уставног суда број IУз 850/2010 (Службени гласник РС, број 71/2012) престала је да важи одредба члана 13. став 3. у делу који гласи: „Ако по покрићу насталих трошкова преостану средства, та средства се уплаћују у буџет Републике Србије.” и одредбе чл. 150. до 154. Закона о стечају („Службени гласник РС”, број 104/09), јер је утврђено да нису у сагласности с Уставом (види Одлуку УС - 71/2012-24).Закон о изменама и допунама Закона о стечају („Службени гласник РС“, број 83/2014) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 13. августа 2014. године, осим одредаба члана 10. овог закона, које се примењују од 1. октобра 2014. године и одредбе члана 1. став 2. овог закона, која се примењује од 1. јануара 2015. године (види члан 70. Закона – 83/2014-15).Закон о изменама и допунама Закона о стечају („Службени гласник РС“, број 113/2017) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 25. децембра 2017. године (види члан 67. Закона – 113/2017-257).Закон о изменама и допунама Закона о стечају (Службени гласник РС, број 44/2018) ступио је на снагу осмог дана од дана објављивања у Службеном гласнику Републике Србије, односно 16. јуна 2018. године, а примењује се од 1. јануара 2019. године. Стечајни поступци који до дана почетка примене овог закона нису окончани, окончаће се по прописима који су били на снази до дана почетка примене овог закона (види чл. 12. и 13. Закона – 44/2018-52).Закон о изменама и допунама Закона о стечају („Службени гласник РС“, број 95/2018) ступио је на снагу наредног дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 9. децембра 2018. године. Стечајни поступци који до дана ступања на снагу овог закона нису окончани окончаће се по прописима који су били на снази до дана ступања на снагу овог закона (види чл. 10. и 11. Закона – 95/2018-335).</p>
 				</note>
-				<note id="not2">
+				<note wId="not2">
 					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, 24. децембра 2009. године, а почео је да се примењује тридесетог дана од дана његовог ступања на снагу, односно 23. јануара 2010. године, осим: 1) одредаба члана 25. став 3. и члана 30. овог закона које су почеле да се примењују 1. јула 2010. године; 2) одредбе члана 25. став 4. овог закона која је почела да се примењује 1. јануара 2012. године; 3) одредаба чл. 150. до 154. овог закона које су почеле да се примењују деведесетог дана од дана његовог ступања на снагу, односно 24. марта 2010. године (види члан 212. Закона).Престали су да важе члан 136. ст. 5. и 9. (види члан 11. Закона о изменама и допунама Закона о Агенцији за привредне регистре 99/2011-8).Одлуком Уставног суда број IУз 850/2010 (Службени гласник РС, број 71/2012) престала је да важи одредба члана 13. став 3. у делу који гласи: „Ако по покрићу насталих трошкова преостану средства, та средства се уплаћују у буџет Републике Србије.” и одредбе чл. 150. до 154. Закона о стечају („Службени гласник РС”, број 104/09), јер је утврђено да нису у сагласности с Уставом (види Одлуку УС - 71/2012-24).Закон о изменама и допунама Закона о стечају („Службени гласник РС“, број 83/2014) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 13. августа 2014. године, осим одредаба члана 10. овог закона, које се примењују од 1. октобра 2014. године и одредбе члана 1. став 2. овог закона, која се примењује од 1. јануара 2015. године (види члан 70. Закона – 83/2014-15).Закон о изменама и допунама Закона о стечају („Службени гласник РС“, број 113/2017) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 25. децембра 2017. године (види члан 67. Закона – 113/2017-257).Закон о изменама и допунама Закона о стечају (Службени гласник РС, број 44/2018) ступио је на снагу осмог дана од дана објављивања у Службеном гласнику Републике Србије, односно 16. јуна 2018. године, а примењује се од 1. јануара 2019. године. Стечајни поступци који до дана почетка примене овог закона нису окончани, окончаће се по прописима који су били на снази до дана почетка примене овог закона (види чл. 12. и 13. Закона – 44/2018-52).Закон о изменама и допунама Закона о стечају („Службени гласник РС“, број 95/2018) ступио је на снагу наредног дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 9. децембра 2018. године. Стечајни поступци који до дана ступања на снагу овог закона нису окончани окончаће се по прописима који су били на снази до дана ступања на снагу овог закона (види чл. 10. и 11. Закона – 95/2018-335).</p>
 				</note>
 			</notes>
-		</ns0:meta>
+		</meta>
 		<preface>
-			<authority>Редакцијски пречишћен текст</authority>
-			<title>ЗАКОН</title>
-			<title>о стечају</title>
-			<date>„Службени гласник РС“ бр. 104 од 16. децембра 2009, 99 од 27. децембра 2011 -  др. закон, 71 од 25. јула 2012 - УС, 83  од 5. августа 2014, 113 од 17. децембра 2017, 44 од 8. јуна 2018, 95 од 8.  децембра 2018.</date>
+			<longTitle>
+				<p>Закон О стечају „Службени гласник РС“ бр. 104 од 16. децембра 2009, 99 од 27. децембра 2011 - др. закон, 71 од 25. јула 2012 - УС, 83 од 5. августа 2014, 113 од 17. децембра 2017, 44 од 8. јуна 2018, 95 од 8. децембра 2018.</p>
+			</longTitle>
+			<p>Редакцијски пречишћен текст</p>
 		</preface>
-		<ns0:body>
+		<body>
 			<chapter wId="gla1">
 				<num>I</num>
 				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
@@ -242,9 +243,9 @@
 							</content>
 						</paragraph>
 						<paragraph wId="gla1-od4-clan11-stav2">
-							<content>
+							<intro>
 								<p>Стечајни разлози су:</p>
-							</content>
+							</intro>
 							<point wId="gla1-od4-clan11-stav2-tac1">
 								<num>1)</num>
 								<content>
@@ -271,9 +272,9 @@
 							</point>
 						</paragraph>
 						<paragraph wId="gla1-od4-clan11-stav3">
-							<content>
+							<intro>
 								<p>Трајнија неспособност плаћања постоји ако стечајни дужник:</p>
-							</content>
+							</intro>
 							<point wId="gla1-od4-clan11-stav3-tac1">
 								<num>1)</num>
 								<content>
@@ -425,9 +426,9 @@
 						</content>
 					</paragraph>
 					<paragraph wId="gla2-clan16-stav2">
-						<content>
+						<intro>
 							<p>Стечајни поступак над стечајним дужником који нема седиште у Републици Србији  спроводи суд на чијем подручју је средиште главних интереса стечајног дужника,  ако су за то испуњени услови предвиђени овим законом.</p>
-						</content>
+						</intro>
 						<тачка wId="gla2-clan16-stav2-tac2">
 							<num>2.</num>
 							<content>
@@ -439,9 +440,9 @@
 				<article wId="gla2-clan17">
 					<num>17.</num>
 					<paragraph wId="gla2-clan17-stav1">
-						<content>
+						<intro>
 							<p>Органи стечајног поступка су стечајни судија, стечајни управник, скупштина  поверилаца и одбор поверилаца.</p>
-						</content>
+						</intro>
 						<тачка wId="gla2-clan17-stav1-tac2">
 							<num>2.</num>
 							<content>
@@ -453,9 +454,9 @@
 				<article wId="gla2-clan18">
 					<num>18.</num>
 					<paragraph wId="gla2-clan18-stav1">
-						<content>
+						<intro>
 							<p>Стечајни судија:</p>
-						</content>
+						</intro>
 						<point wId="gla2-clan18-stav1-tac1">
 							<num>1)</num>
 							<content>
@@ -606,9 +607,9 @@
 					<num>21.</num>
 					<heading>Ограничење у именовању</heading>
 					<paragraph wId="gla2-clan21-stav1">
-						<content>
+						<intro>
 							<p>За стечајног управника не може бити именовано лице које је:</p>
-						</content>
+						</intro>
 						<point wId="gla2-clan21-stav1-tac1">
 							<num>1)</num>
 							<content>
@@ -703,9 +704,9 @@
 						</content>
 					</paragraph>
 					<paragraph wId="gla2-clan23-stav2">
-						<content>
+						<intro>
 							<p>Лиценца се издаје лицу које:</p>
-						</content>
+						</intro>
 						<point wId="gla2-clan23-stav2-tac1">
 							<num>1)</num>
 							<content>
@@ -793,9 +794,9 @@
 						</content>
 					</paragraph>
 					<paragraph wId="gla2-clan24-stav2">
-						<content>
+						<intro>
 							<p>Стечајни управник може обновити лиценцу ако:</p>
-						</content>
+						</intro>
 						<point wId="gla2-clan24-stav2-tac1">
 							<num>1)</num>
 							<content>
@@ -921,9 +922,9 @@
 						</content>
 					</paragraph>
 					<paragraph wId="gla2-clan26-stav3">
-						<content>
+						<intro>
 							<p>У случају утврђених неправилности у раду стечајног  управника, овлашћена организација, по спроведеном дисциплинском поступку,  стечајном управнику за утврђене повреде дужности изриче следеће мере:</p>
-						</content>
+						</intro>
 						<point wId="gla2-clan26-stav3-tac1">
 							<num>1)</num>
 							<content>
@@ -999,9 +1000,9 @@
 					<num>27.</num>
 					<heading>Делокруг послова стечајног управника</heading>
 					<paragraph wId="gla2-clan27-stav1">
-						<content>
+						<intro>
 							<p>Стечајни управник је нарочито дужан да:</p>
-						</content>
+						</intro>
 						<point wId="gla2-clan27-stav1-tac1">
 							<num>1)</num>
 							<content>
@@ -1028,9 +1029,9 @@
 						</point>
 					</paragraph>
 					<paragraph wId="gla2-clan27-stav2">
-						<content>
+						<intro>
 							<p>4а) састави пореске билансе са стањем на дан отварања  и дан окончања стечајног поступка, у складу са пореским прописима и да те  билансе, са пореском пријавом, достави надлежном пореском органу у роковима  предвиђеним пореским прописима;</p>
-						</content>
+						</intro>
 						<point wId="gla2-clan27-stav2-tac5">
 							<num>5)</num>
 							<content>
@@ -1262,9 +1263,9 @@
 						</content>
 					</paragraph>
 					<paragraph wId="gla2-clan29-stav7">
-						<content>
+						<intro>
 							<p>Тромесечни извештај нарочито садржи:</p>
-						</content>
+						</intro>
 						<point wId="gla2-clan29-stav7-tac1">
 							<num>1)</num>
 							<content>
@@ -1379,9 +1380,9 @@
 					<num>32.</num>
 					<heading>Разрешење</heading>
 					<paragraph wId="gla2-clan32-stav1">
-						<content>
+						<intro>
 							<p>Стечајни судија по службеној дужности или на предлог одбора поверилаца  разрешава стечајног управника ако утврди да стечајни управник:</p>
-						</content>
+						</intro>
 						<point wId="gla2-clan32-stav1-tac1">
 							<num>1)</num>
 							<content>
@@ -1538,9 +1539,9 @@
 						</content>
 					</paragraph>
 					<paragraph wId="gla2-clan34-stav8">
-						<content>
+						<intro>
 							<p>Министар ближе прописује основе и мерила за одређивање висине награде и  накнаде трошкова стечајног управника.</p>
-						</content>
+						</intro>
 						<тачка wId="gla2-clan34-stav8-tac2">
 							<num>2.</num>
 							<content>
@@ -1691,9 +1692,9 @@
 					<num>37.</num>
 					<heading>Делокруг скупштине</heading>
 					<paragraph wId="gla2-clan37-stav1">
-						<content>
+						<intro>
 							<p>Скупштина поверилаца:</p>
-						</content>
+						</intro>
 						<point wId="gla2-clan37-stav1-tac1">
 							<num>1)</num>
 							<content>
@@ -1708,9 +1709,9 @@
 						</point>
 					</paragraph>
 					<paragraph wId="gla2-clan37-stav2">
-						<content>
+						<intro>
 							<p>2а) даје сагласност на избор именованог стечајног  управника, односно предлаже именовање новог, у складу са чланом 35. &lt;ref wId=&quot;ref85&quot; href=&quot;akn/rs/act/2018/95-335/srp@/!main~act_37__para_5&quot; &gt;став 5. овог&lt;/ref&gt;  закона;</p>
-						</content>
+						</intro>
 						<point wId="gla2-clan37-stav2-tac3">
 							<num>3)</num>
 							<content>
@@ -1876,9 +1877,9 @@
 								</content>
 							</paragraph>
 							<paragraph wId="gla2-od2-clan38.а-stav8">
-								<content>
+								<intro>
 									<p>Разлучни повериоци из &lt;ref wId=&quot;ref98&quot; href=&quot;akn/rs/act/2018/95-335/srp@/!main~act_38__para_7&quot; &gt;става 7. овог&lt;/ref&gt; члана дужни су да:</p>
-								</content>
+								</intro>
 								<point wId="gla2-od2-clan38.а-stav8-tac1">
 									<num>1)</num>
 									<content>
@@ -1917,9 +1918,9 @@
 							<num>38б</num>
 							<heading>*Службени гласник РС, број 113/2017</heading>
 							<paragraph wId="gla2-od2-clan38.б-stav1">
-								<content>
+								<intro>
 									<p>Ако се на првом поверилачком рочишту не изаберу  чланови одбора поверилаца:</p>
-								</content>
+								</intro>
 								<point wId="gla2-od2-clan38.б-stav1-tac1">
 									<num>1)</num>
 									<content>
@@ -1998,9 +1999,9 @@
 						<num>40.</num>
 						<heading>Делокруг и права одбора поверилаца</heading>
 						<paragraph wId="gla2-od2-clan40-stav1">
-							<content>
+							<intro>
 								<p>Одбор поверилаца:</p>
-							</content>
+							</intro>
 							<point wId="gla2-od2-clan40-stav1-tac1">
 								<num>1)</num>
 								<content>
@@ -2048,9 +2049,9 @@
 					<article wId="gla2-od2-clan41">
 						<num>41.</num>
 						<paragraph wId="gla2-od2-clan41-stav1">
-							<content>
+							<intro>
 								<p>Одбор поверилаца има право:</p>
-							</content>
+							</intro>
 							<point wId="gla2-od2-clan41-stav1-tac1">
 								<num>1)</num>
 								<content>
@@ -2263,9 +2264,9 @@
 						</content>
 					</paragraph>
 					<paragraph wId="gla3-clan47-stav4">
-						<content>
+						<intro>
 							<p>Одредбе ст. 2. и 3. овог члана не примењују се на решење о отварању стечајног  поступка, решење о потврђивању усвајања плана реорганизације и решење о  закључењу стечајног поступка.</p>
-						</content>
+						</intro>
 						<тачка wId="gla3-clan47-stav4-tac2">
 							<num>2.</num>
 							<content>
@@ -2384,9 +2385,9 @@
 							</content>
 						</paragraph>
 						<paragraph wId="gla3-clan50.а-stav4">
-							<content>
+							<intro>
 								<p>Обавештење о намирењу из &lt;ref wId=&quot;ref120&quot; href=&quot;akn/rs/act/2018/95-335/srp@/!main~act_50__para_3&quot; &gt;става 3. овог&lt;/ref&gt; члана нарочито  садржи следеће податке:</p>
-							</content>
+							</intro>
 							<point wId="gla3-clan50.а-stav4-tac1">
 								<num>1)</num>
 								<content>
@@ -2532,9 +2533,9 @@
 						</content>
 					</paragraph>
 					<paragraph wId="gla3-clan54-stav4">
-						<content>
+						<intro>
 							<p>Утврђују се следећи исплатни редови:</p>
-						</content>
+						</intro>
 						<point wId="gla3-clan54-stav4-tac1">
 							<num>1)</num>
 							<content>
@@ -2624,9 +2625,9 @@
 						</content>
 					</paragraph>
 					<paragraph wId="gla4-clan56-stav2">
-						<content>
+						<intro>
 							<p>Предлог за покретање стечајног поступка садржи:</p>
-						</content>
+						</intro>
 						<point wId="gla4-clan56-stav2-tac1">
 							<num>1)</num>
 							<content>
@@ -2727,9 +2728,9 @@
 						</content>
 					</paragraph>
 					<paragraph wId="gla4-clan59-stav2">
-						<content>
+						<intro>
 							<p>Износ предујма утврђује се у зависности од  разврставања правног лица као микро, мало, средње или велико правно лице, у  складу са прописима којима се уређују критеријуми за разврставање правних лица,  и не може бити већи од:</p>
-						</content>
+						</intro>
 						<point wId="gla4-clan59-stav2-tac1">
 							<num>1)</num>
 							<content>
@@ -2803,9 +2804,9 @@
 							</content>
 						</paragraph>
 						<paragraph wId="gla4-od2-clan60-stav3">
-							<content>
+							<intro>
 								<p>Стечајни судија отвара стечајни поступак без вођења претходног стечајног  поступка:</p>
-							</content>
+							</intro>
 							<point wId="gla4-od2-clan60-stav3-tac1">
 								<num>1)</num>
 								<content>
@@ -2884,9 +2885,9 @@
 							</content>
 						</paragraph>
 						<paragraph wId="gla4-od2-clan62-stav2">
-							<content>
+							<intro>
 								<p>Стечајни судија може изрећи једну или више мера из &lt;ref wId=&quot;ref144&quot; href=&quot;akn/rs/act/2018/95-335/srp@/!main~act_62__para_1&quot; &gt;става 1. овог&lt;/ref&gt; члана, и то:</p>
-							</content>
+							</intro>
 							<point wId="gla4-od2-clan62-stav2-tac1">
 								<num>1)</num>
 								<content>
@@ -3116,9 +3117,9 @@
 					<num>70.</num>
 					<heading>Садржина решења о отварању стечајног поступка</heading>
 					<paragraph wId="gla5-clan70-stav1">
-						<content>
+						<intro>
 							<p>Решење о отварању стечајног поступка садржи:</p>
-						</content>
+						</intro>
 						<point wId="gla5-clan70-stav1-tac1">
 							<num>1)</num>
 							<content>
@@ -3231,9 +3232,9 @@
 							</content>
 						</paragraph>
 						<paragraph wId="gla5-od2-clan72-stav3">
-							<content>
+							<intro>
 								<p>Прво поверилачко рочиште одржава се у складу са одредбама &lt;ref wId=&quot;ref172&quot; href=&quot;akn/rs/act/2018/95-335/srp@/!main~art_36&quot; &gt;члана 36. овог&lt;/ref&gt;  закона.</p>
-							</content>
+							</intro>
 							<тачка wId="gla5-od2-clan72-stav3-tac3">
 								<num>3.</num>
 								<content>
@@ -3469,9 +3470,9 @@
 						<num>83.</num>
 						<heading>Случајеви када је пребијање недопуштено</heading>
 						<paragraph wId="gla5-od5-clan83-stav1">
-							<content>
+							<intro>
 								<p>Пребијање није допуштено:</p>
-							</content>
+							</intro>
 							<point wId="gla5-od5-clan83-stav1-tac1">
 								<num>1)</num>
 								<content>
@@ -3567,9 +3568,9 @@
 							</content>
 						</paragraph>
 						<paragraph wId="gla5-od5-clan87-stav3">
-							<content>
+							<intro>
 								<p>Потраживања везана за раскидни услов узимају се у обзир приликом деобе  стечајне масе ако поверилац пружи обезбеђење да ће вратити оно што је примио из  стечајне масе када наступи раскидни услов. Ако раскидни услов не наступи до  правноснажности решења о коначној деоби стечајне масе, сматра се да тај услов  није ни постојао.</p>
-							</content>
+							</intro>
 							<тачка wId="gla5-od5-clan87-stav3-tac6">
 								<num>6.</num>
 								<content>
@@ -3609,9 +3610,9 @@
 					<article wId="gla5-od5-clan90">
 						<num>90.</num>
 						<paragraph wId="gla5-od5-clan90-stav1">
-							<content>
+							<intro>
 								<p>Парнични поступак у којем је стечајни дужник тужени наставља се ако је:</p>
-							</content>
+							</intro>
 							<point wId="gla5-od5-clan90-stav1-tac1">
 								<num>1)</num>
 								<content>
@@ -3717,9 +3718,9 @@
 								</content>
 							</paragraph>
 							<paragraph wId="gla5-od5-clan93.а-stav2">
-								<content>
+								<intro>
 									<p>Стечајни судија, на предлог стечајног управника,  разлучног повериоца или заложног повериоца који докаже да је његово потраживање  обезбеђено заложним правом доспело делом или у целости, доноси одлуку о укидању  мере обезбеђења из &lt;ref wId=&quot;ref194&quot; href=&quot;akn/rs/act/2018/95-335/srp@/!main~art_62__para_2__point_4&quot; &gt;члана 62. став 2. тачка 4&lt;/ref&gt;) овог закона или забране извршења и  намирења из &lt;ref wId=&quot;ref195&quot; href=&quot;akn/rs/act/2018/95-335/srp@/!main~art_93__para_1&quot; &gt;члана 93. став 1. овог&lt;/ref&gt; закона, у односу на имовину која је предмет  обезбеђења, на период од девет месеци почев од дана објављивања огласа из члана  93в &lt;ref wId=&quot;ref196&quot; href=&quot;akn/rs/act/2018/95-335/srp@/!main~act_93__para_1&quot; &gt;став 1. овог&lt;/ref&gt; закона, ако:</p>
-								</content>
+								</intro>
 								<point wId="gla5-od5-clan93.а-stav2-tac1">
 									<num>1)</num>
 									<content>
@@ -3734,9 +3735,9 @@
 								</point>
 							</paragraph>
 							<paragraph wId="gla5-od5-clan93.а-stav3">
-								<content>
+								<intro>
 									<p>Уместо одлуке о укидању мере обезбеђења или забране  извршења и намирења из &lt;ref wId=&quot;ref197&quot; href=&quot;akn/rs/act/2018/95-335/srp@/!main~act_93__para_2&quot; &gt;става 2. овог&lt;/ref&gt; члана, стечајни судија може да донесе  одлуку о адекватној заштити имовине која је предмет разлучног, односно заложног  права одређивањем једне или више од следећих мера:</p>
-								</content>
+								</intro>
 								<point wId="gla5-od5-clan93.а-stav3-tac1">
 									<num>1)</num>
 									<content>
@@ -4132,9 +4133,9 @@
 					<num>103.</num>
 					<heading>Трошкови стечајног поступка</heading>
 					<paragraph wId="gla6-clan103-stav1">
-						<content>
+						<intro>
 							<p>Трошкови стечајног поступка обухватају:</p>
-						</content>
+						</intro>
 						<point wId="gla6-clan103-stav1-tac1">
 							<num>1)</num>
 							<content>
@@ -4159,9 +4160,9 @@
 					<num>104.</num>
 					<heading>Обавезе стечајне масе</heading>
 					<paragraph wId="gla6-clan104-stav1">
-						<content>
+						<intro>
 							<p>Обавезе стечајне масе су обавезе:</p>
-						</content>
+						</intro>
 						<point wId="gla6-clan104-stav1-tac1">
 							<num>1)</num>
 							<content>
@@ -4269,9 +4270,9 @@
 							</content>
 						</paragraph>
 						<paragraph wId="gla6-od2-clan107-stav3">
-							<content>
+							<intro>
 								<p>За сваког повериоца у листи се наводе подаци о:</p>
-							</content>
+							</intro>
 							<point wId="gla6-od2-clan107-stav3-tac1">
 								<num>1)</num>
 								<content>
@@ -4364,9 +4365,9 @@
 					<num>111.</num>
 					<heading>Пријављивање потраживања</heading>
 					<paragraph wId="gla7-clan111-stav1">
-						<content>
+						<intro>
 							<p>Повериоци пријаве потраживања подносе надлежном суду у писаном облику. У  пријави се нарочито мора назначити:</p>
-						</content>
+						</intro>
 						<point wId="gla7-clan111-stav1-tac1">
 							<num>1)</num>
 							<content>
@@ -4499,9 +4500,9 @@
 						</content>
 					</paragraph>
 					<paragraph wId="gla7-clan113-stav3">
-						<content>
+						<intro>
 							<p>Потраживање пријављено на основу извршне исправе може се оспорити ако је:</p>
-						</content>
+						</intro>
 						<point wId="gla7-clan113-stav3-tac1">
 							<num>1)</num>
 							<content>
@@ -4878,9 +4879,9 @@
 					<num>122.</num>
 					<heading>Непосредно оштећење поверилаца</heading>
 					<paragraph wId="gla8-clan122-stav1">
-						<content>
+						<intro>
 							<p>Правни посао или правна радња стечајног дужника којим се повериоци непосредно  оштећују може се побијати ако је:</p>
-						</content>
+						</intro>
 						<point wId="gla8-clan122-stav1-tac1">
 							<num>1)</num>
 							<content>
@@ -4958,9 +4959,9 @@
 					<num>125.</num>
 					<heading>Повезана лица</heading>
 					<paragraph wId="gla8-clan125-stav1">
-						<content>
+						<intro>
 							<p>Повезаним лицима стечајног дужника у смислу овог закона сматрају се:</p>
-						</content>
+						</intro>
 						<point wId="gla8-clan125-stav1-tac1">
 							<num>1)</num>
 							<content>
@@ -5009,9 +5010,9 @@
 					<num>126.</num>
 					<heading>Немогућност побијања</heading>
 					<paragraph wId="gla8-clan126-stav1">
-						<content>
+						<intro>
 							<p>Не могу се побијати правни послови закључени односно правне радње предузете  ради:</p>
-						</content>
+						</intro>
 						<point wId="gla8-clan126-stav1-tac1">
 							<num>1)</num>
 							<content>
@@ -5037,9 +5038,9 @@
 						</content>
 					</paragraph>
 					<paragraph wId="gla8-clan126-stav3">
-						<content>
+						<intro>
 							<p>Правна радња односно правни посао који представља уобичајено или неуобичајено  намирење поверилаца, односно којим се повериоци непосредно оштећују не може се  побијати ако је радња предузета, односно посао закључен:</p>
-						</content>
+						</intro>
 						<point wId="gla8-clan126-stav3-tac1">
 							<num>1)</num>
 							<content>
@@ -5117,9 +5118,9 @@
 						</content>
 					</paragraph>
 					<paragraph wId="gla8-clan129-stav4">
-						<content>
+						<intro>
 							<p>Тужба се може поднети и против осталих правних следбеника противника побијања  ако је:</p>
-						</content>
+						</intro>
 						<point wId="gla8-clan129-stav4-tac1">
 							<num>1)</num>
 							<content>
@@ -5162,9 +5163,9 @@
 					<num>131.</num>
 					<heading>Решење о банкротству и уновчењу имовине</heading>
 					<paragraph wId="gla9-clan131-stav1">
-						<content>
+						<intro>
 							<p>Стечајни судија доноси решење о банкротству ако:</p>
-						</content>
+						</intro>
 						<point wId="gla9-clan131-stav1-tac1">
 							<num>1)</num>
 							<content>
@@ -5272,9 +5273,9 @@
 						</content>
 					</paragraph>
 					<paragraph wId="gla9-clan132-stav10">
-						<content>
+						<intro>
 							<p>Продаја непосредном погодбом може се извршити  искључиво ако је такав начин продаје претходно одобрен од стране одбора  поверилаца и уз прибављање претходне сагласности разлучног, односно заложног  повериоца, ако:</p>
-						</content>
+						</intro>
 						<point wId="gla9-clan132-stav10-tac1">
 							<num>1)</num>
 							<content>
@@ -5319,9 +5320,9 @@
 						</content>
 					</paragraph>
 					<paragraph wId="gla9-clan133-stav4">
-						<content>
+						<intro>
 							<p>Ако се продаја врши јавним надметањем, обавештење стечајног управника мора да  садржи:</p>
-						</content>
+						</intro>
 						<point wId="gla9-clan133-stav4-tac1">
 							<num>1)</num>
 							<content>
@@ -5342,9 +5343,9 @@
 						</point>
 					</paragraph>
 					<paragraph wId="gla9-clan133-stav5">
-						<content>
+						<intro>
 							<p>У случају продаје јавним прикупљањем понуда, обавештење мора да садржи:</p>
-						</content>
+						</intro>
 						<point wId="gla9-clan133-stav5-tac1">
 							<num>1)</num>
 							<content>
@@ -5371,9 +5372,9 @@
 						</point>
 					</paragraph>
 					<paragraph wId="gla9-clan133-stav6">
-						<content>
+						<intro>
 							<p>У случају продаје непосредном погодбом, обавештење мора да садржи:</p>
-						</content>
+						</intro>
 						<point wId="gla9-clan133-stav6-tac1">
 							<num>1)</num>
 							<content>
@@ -5523,9 +5524,9 @@
 					<num>135.</num>
 					<heading>Продаја стечајног дужника као правног лица</heading>
 					<paragraph wId="gla9-clan135-stav1">
-						<content>
+						<intro>
 							<p>Предмет продаје може бити стечајни дужник као правно лице, уз сагласност  одбора поверилаца и уз претходно обавештавање разлучних  и заложних поверилаца у  складу са чланом 133. &lt;ref wId=&quot;ref313&quot; href=&quot;akn/rs/act/2018/95-335/srp@/!main~act_135__para_2&quot; &gt;став 2. овог&lt;/ref&gt; закона. У случају да стечајни управник не  усвоји предлог разлучног или заложног повериоца о повољнијем начину  уновчења имовине из &lt;ref wId=&quot;ref311&quot; href=&quot;akn/rs/act/2018/95-335/srp@/!main~art_133__para_7&quot; &gt;члана 133. став 7. овог&lt;/ref&gt; закона, стечајни судија ће о таквом  предлогу одлучити закључком у року од 5 дана, нарочито узимајући у обзир процену  целисходности продаје стечајног дужника као правног лица из &lt;ref wId=&quot;ref312&quot; href=&quot;akn/rs/act/2018/95-335/srp@/!main~art_132__para_2&quot; &gt;члана 132. став 2.  овог&lt;/ref&gt; закона, као и да ли је процена вредности стечајног дужника као правног лица  или имовине која је предмет разлучног права извршена у складу са националним  стандардима за управљање стечајном масом и да ли се таквом продајом постиже  очигледно неповољније намирење разлучног и заложног повериоца у односу на  одвојену продају те имовине. У случају усвајања предлога разлучног  или заложног  повериоца стечајни судија закључком може наложити стечајном управнику  предузимање једне или више од следећих мера:</p>
-						</content>
+						</intro>
 						<point wId="gla9-clan135-stav1-tac1">
 							<num>1)</num>
 							<content>
@@ -5653,9 +5654,9 @@
 						<num>136б</num>
 						<heading>*Службени гласник РС, број 113/2017</heading>
 						<paragraph wId="gla9-clan136.б-stav1">
-							<content>
+							<intro>
 								<p>Ако је купац имовине разлучни поверилац који има право  приоритетног намирења из средстава остварених продајом, тај купац има право да  своје обезбеђено потраживање пребије са износом купопродајне цене, и то на  следећи начин:</p>
-							</content>
+							</intro>
 							<point wId="gla9-clan136.б-stav1-tac1">
 								<num>1)</num>
 								<content>
@@ -5684,9 +5685,9 @@
 						<num>136в</num>
 						<heading>*Службени гласник РС, број 113/2017</heading>
 						<paragraph wId="gla9-clan136.в-stav1">
-							<content>
+							<intro>
 								<p>У случају продаје стечајног дужника као правног лица,  целокупне имовине стечајног дужника или имовинске целине:</p>
-							</content>
+							</intro>
 							<point wId="gla9-clan136.в-stav1-tac1">
 								<num>1)</num>
 								<content>
@@ -5760,9 +5761,9 @@
 						</content>
 					</paragraph>
 					<paragraph wId="gla9-clan137-stav3">
-						<content>
+						<intro>
 							<p>Стечајни управник код ове продаје није дужан да спроведе поступак продаје из  &lt;ref wId=&quot;ref345&quot; href=&quot;akn/rs/act/2018/95-335/srp@/!main~art_133&quot; &gt;члана 133. овог&lt;/ref&gt; закона.</p>
-						</content>
+						</intro>
 						<тачка wId="gla9-clan137-stav3-tac2">
 							<num>2.</num>
 							<content>
@@ -5804,9 +5805,9 @@
 						</content>
 					</paragraph>
 					<paragraph wId="gla9-clan139-stav3">
-						<content>
+						<intro>
 							<p>Нацрт за главну деобу садржи следеће податке:</p>
-						</content>
+						</intro>
 						<point wId="gla9-clan139-stav3-tac1">
 							<num>1)</num>
 							<content>
@@ -5833,9 +5834,9 @@
 						</point>
 					</paragraph>
 					<paragraph wId="gla9-clan139-stav4">
-						<content>
+						<intro>
 							<p>4а) износ средстава резервисаних за исплату  повериоцима за случај накнадних пријава потраживања из &lt;ref wId=&quot;ref347&quot; href=&quot;akn/rs/act/2018/95-335/srp@/!main~art_130__para_2&quot; &gt;члана 130. став 2. овог&lt;/ref&gt;  закона;</p>
-						</content>
+						</intro>
 						<point wId="gla9-clan139-stav4-tac5">
 							<num>5)</num>
 							<content>
@@ -5954,9 +5955,9 @@
 						</content>
 					</paragraph>
 					<paragraph wId="gla9-clan144-stav2">
-						<content>
+						<intro>
 							<p>Изузетно, завршној деоби из &lt;ref wId=&quot;ref353&quot; href=&quot;akn/rs/act/2018/95-335/srp@/!main~act_144__para_1&quot; &gt;става 1. овог&lt;/ref&gt; члана може  се приступити и:</p>
-						</content>
+						</intro>
 						<point wId="gla9-clan144-stav2-tac1">
 							<num>1)</num>
 							<content>
@@ -5985,9 +5986,9 @@
 					<num>145.</num>
 					<heading>Завршно рочиште</heading>
 					<paragraph wId="gla9-clan145-stav1">
-						<content>
+						<intro>
 							<p>Стечајни судија решењем одређује завршно рочиште на ком се:</p>
-						</content>
+						</intro>
 						<point wId="gla9-clan145-stav1-tac1">
 							<num>1)</num>
 							<content>
@@ -6204,9 +6205,9 @@
 					<num>156.</num>
 					<heading>Садржина плана реорганизације и унапред припремљеног плана реорганизације</heading>
 					<paragraph wId="gla11-clan156-stav1">
-						<content>
+						<intro>
 							<p>План реорганизације садржи:</p>
-						</content>
+						</intro>
 						<point wId="gla11-clan156-stav1-tac1">
 							<num>1)</num>
 							<content>
@@ -6333,9 +6334,9 @@
 						</content>
 					</paragraph>
 					<paragraph wId="gla11-clan156-stav4">
-						<content>
+						<intro>
 							<p>Унапред припремљен план реорганизације поред елемената из &lt;ref wId=&quot;ref366&quot; href=&quot;akn/rs/act/2018/95-335/srp@/!main~act_156__para_1&quot; &gt;става 1. овог&lt;/ref&gt; члана  садржи и:</p>
-						</content>
+						</intro>
 						<point wId="gla11-clan156-stav4-tac1">
 							<num>1)</num>
 							<content>
@@ -6394,9 +6395,9 @@
 					<num>157.</num>
 					<heading>Мере за реализацију плана реорганизације</heading>
 					<paragraph wId="gla11-clan157-stav1">
-						<content>
+						<intro>
 							<p>Мере за реализацију плана реорганизације су:</p>
-						</content>
+						</intro>
 						<point wId="gla11-clan157-stav1-tac1">
 							<num>1)</num>
 							<content>
@@ -6587,9 +6588,9 @@
 						</content>
 					</paragraph>
 					<paragraph wId="gla11-clan158-stav5">
-						<content>
+						<intro>
 							<p>Стечајни судија ће по службеној дужности или по примедби заинтересованог лица  одбацити предлог за покретање стечајног поступка и предлог унапред припремљеног  плана реорганизације, ако:</p>
-						</content>
+						</intro>
 						<point wId="gla11-clan158-stav5-tac1">
 							<num>1)</num>
 							<content>
@@ -6685,9 +6686,9 @@
 						</content>
 					</paragraph>
 					<paragraph wId="gla11-clan159-stav7">
-						<content>
+						<intro>
 							<p>Оглас из &lt;ref wId=&quot;ref392&quot; href=&quot;akn/rs/act/2018/95-335/srp@/!main~act_159__para_4&quot; &gt;става 4. овог&lt;/ref&gt; члана, уз податке из решења о покретању претходног  поступка, мора да садржи и:</p>
-						</content>
+						</intro>
 						<point wId="gla11-clan159-stav7-tac1">
 							<num>1)</num>
 							<content>
@@ -6755,9 +6756,9 @@
 							</content>
 						</paragraph>
 						<paragraph wId="gla11-clan159.а-stav5">
-							<content>
+							<intro>
 								<p>У случају да предлагач суду достави измењени план у  складу са ставом 4. овог члана, поступак ће се наставити по тако измењеном  плану, при чему:</p>
-							</content>
+							</intro>
 							<point wId="gla11-clan159.а-stav5-tac1">
 								<num>1)</num>
 								<content>
@@ -6796,9 +6797,9 @@
 							</content>
 						</paragraph>
 						<paragraph wId="gla11-clan159.б-stav3">
-							<content>
+							<intro>
 								<p>На предлог подносиоца плана или по службеној дужности,  стечајни судија током претходног поступка из &lt;ref wId=&quot;ref407&quot; href=&quot;akn/rs/act/2018/95-335/srp@/!main~act_159__para_1&quot; &gt;става 1. овог&lt;/ref&gt; члана може одредити  меру спречавања промене финансијског и имовинског положаја стечајног дужника,  која обухвата:</p>
-							</content>
+							</intro>
 							<point wId="gla11-clan159.б-stav3-tac1">
 								<num>1)</num>
 								<content>
@@ -6998,9 +6999,9 @@
 						</content>
 					</paragraph>
 					<paragraph wId="gla11-clan163-stav3">
-						<content>
+						<intro>
 							<p>Стечајни судија ће по службеној дужности или на предлог заинтересованог лица  у року од осам дана одбацити предлог плана реорганизације ако:</p>
-						</content>
+						</intro>
 						<point wId="gla11-clan163-stav3-tac1">
 							<num>1)</num>
 							<content>
@@ -7158,9 +7159,9 @@
 						</content>
 					</paragraph>
 					<paragraph wId="gla11-clan165-stav6">
-						<content>
+						<intro>
 							<p>Стечајни судија може наложити или одобрити формирање једне или више додатних  класа у следећим случајевима:</p>
-						</content>
+						</intro>
 						<point wId="gla11-clan165-stav6-tac1">
 							<num>1)</num>
 							<content>
@@ -7391,9 +7392,9 @@
 					<num>173.</num>
 					<heading>Непоступање по усвојеном плану и преваран и незаконит план као стечајни  разлог</heading>
 					<paragraph wId="gla11-clan173-stav1">
-						<content>
+						<intro>
 							<p>Повериоци обухваћени усвојеним планом, као и повериоци чија су потраживања  настала пре усвајања плана а нису обухваћени планом, могу поднети предлог за  покретање стечајног поступка и у случају да:</p>
-						</content>
+						</intro>
 						<point wId="gla11-clan173-stav1-tac1">
 							<num>1)</num>
 							<content>
@@ -7408,9 +7409,9 @@
 						</point>
 					</paragraph>
 					<paragraph wId="gla11-clan173-stav2">
-						<content>
+						<intro>
 							<p>Сматра се да је спровођење плана битно угрожено у смислу &lt;ref wId=&quot;ref454&quot; href=&quot;akn/rs/act/2018/95-335/srp@/!main~act_173__para_1__point_2&quot; &gt;става 1. тачка 2&lt;/ref&gt;)  овог члана ако је услед непоступања по плану или поступања супротно усвојеном  плану дошло до неке од следећих последица:</p>
-						</content>
+						</intro>
 						<point wId="gla11-clan173-stav2-tac1">
 							<num>1)</num>
 							<content>
@@ -7459,9 +7460,9 @@
 					<num>174.</num>
 					<heading>Примена одредаба о међународном стечају</heading>
 					<paragraph wId="gla12-clan174-stav1">
-						<content>
+						<intro>
 							<p>Одредбе о међународном стечају примењују се ако:</p>
-						</content>
+						</intro>
 						<point wId="gla12-clan174-stav1-tac1">
 							<num>1)</num>
 							<content>
@@ -7564,9 +7565,9 @@
 							</content>
 						</paragraph>
 						<paragraph wId="gla12-clan174.б-stav3">
-							<content>
+							<intro>
 								<p>Ако се у Републици Србији не налази средиште главних  интереса, ни пословна јединица стечајног дужника, већ само његова имовина,  споредни стечајни поступак у Републици Србији је могуће отворити и водити:</p>
-							</content>
+							</intro>
 							<point wId="gla12-clan174.б-stav3-tac1">
 								<num>1)</num>
 								<content>
@@ -7705,9 +7706,9 @@
 						</content>
 					</paragraph>
 					<paragraph wId="gla12-clan182-stav2">
-						<content>
+						<intro>
 							<p>Страни представник је приликом предузимања радњи из &lt;ref wId=&quot;ref468&quot; href=&quot;akn/rs/act/2018/95-335/srp@/!main~act_182__para_1&quot; &gt;става 1. овог&lt;/ref&gt; члана путем  подношења одговарајућег захтева или на други начин дужан да у циљу доказивања  свога својства поднесе:</p>
-						</content>
+						</intro>
 						<point wId="gla12-clan182-stav2-tac1">
 							<num>1)</num>
 							<content>
@@ -7797,9 +7798,9 @@
 					<num>188.</num>
 					<heading>Одлука о признању страног поступка</heading>
 					<paragraph wId="gla12-clan188-stav1">
-						<content>
+						<intro>
 							<p>Осим у случају из &lt;ref wId=&quot;ref474&quot; href=&quot;akn/rs/act/2018/95-335/srp@/!main~art_179&quot; &gt;члана 179. овог&lt;/ref&gt; закона, страни поступак се признаје ако:</p>
-						</content>
+						</intro>
 						<point wId="gla12-clan188-stav1-tac1">
 							<num>1)</num>
 							<content>
@@ -7826,9 +7827,9 @@
 						</point>
 					</paragraph>
 					<paragraph wId="gla12-clan188-stav2">
-						<content>
+						<intro>
 							<p>Страни поступак се признаје као:</p>
-						</content>
+						</intro>
 						<point wId="gla12-clan188-stav2-tac1">
 							<num>1)</num>
 							<content>
@@ -7887,9 +7888,9 @@
 					<num>189.</num>
 					<heading>Обавеза обавештавања</heading>
 					<paragraph wId="gla12-clan189-stav1">
-						<content>
+						<intro>
 							<p>После подношења захтева за признање страног поступка, страни представник је  дужан да без одлагања обавести суд којем је захтев поднет о:</p>
-						</content>
+						</intro>
 						<point wId="gla12-clan189-stav1-tac1">
 							<num>1)</num>
 							<content>
@@ -7913,9 +7914,9 @@
 						</content>
 					</paragraph>
 					<paragraph wId="gla12-clan190-stav2">
-						<content>
+						<intro>
 							<p>Помоћ из &lt;ref wId=&quot;ref483&quot; href=&quot;akn/rs/act/2018/95-335/srp@/!main~act_190__para_1&quot; &gt;става 1. овог&lt;/ref&gt; члана обухвата изрицање следећих мера:</p>
-						</content>
+						</intro>
 						<point wId="gla12-clan190-stav2-tac1">
 							<num>1)</num>
 							<content>
@@ -7955,9 +7956,9 @@
 					<num>191.</num>
 					<heading>Правно дејство признања главног страног поступка</heading>
 					<paragraph wId="gla12-clan191-stav1">
-						<content>
+						<intro>
 							<p>Последице признања главног страног поступка су забрана:</p>
-						</content>
+						</intro>
 						<point wId="gla12-clan191-stav1-tac1">
 							<num>1)</num>
 							<content>
@@ -7997,9 +7998,9 @@
 					<num>192.</num>
 					<heading>Помоћ која се пружа после признања страног поступка</heading>
 					<paragraph wId="gla12-clan192-stav1">
-						<content>
+						<intro>
 							<p>После признања страног споредног поступка, ако је то  неопходно ради заштите имовине стечајног дужника или интереса поверилаца, суд  може, на захтев страног представника, пружити одговарајућу помоћ путем  одређивања следећих мера:</p>
-						</content>
+						</intro>
 						<point wId="gla12-clan192-stav1-tac1">
 							<num>1)</num>
 							<content>
@@ -8020,9 +8021,9 @@
 						</point>
 					</paragraph>
 					<paragraph wId="gla12-clan192-stav2">
-						<content>
+						<intro>
 							<p>После признања главног или споредног страног поступка,  ако је то неопходно ради заштите имовине стечајног дужника или интереса  поверилаца, суд може, на захтев страног представника, пружити одговарајућу помоћ  путем одређивања следећих мера:</p>
-						</content>
+						</intro>
 						<point wId="gla12-clan192-stav2-tac1">
 							<num>1)</num>
 							<content>
@@ -8148,9 +8149,9 @@
 					<num>198.</num>
 					<heading>Облици сарадње</heading>
 					<paragraph wId="gla12-clan198-stav1">
-						<content>
+						<intro>
 							<p>Сарадња из &lt;ref wId=&quot;ref500&quot; href=&quot;akn/rs/act/2018/95-335/srp@/!main~art_196-&gt;art_197&quot; &gt;чл. 196. и 197. овог&lt;/ref&gt; закона може се спроводити на било који  одговарајући начин, а нарочито:</p>
-						</content>
+						</intro>
 						<point wId="gla12-clan198-stav1-tac1">
 							<num>1)</num>
 							<content>
@@ -8211,9 +8212,9 @@
 						</content>
 					</paragraph>
 					<paragraph wId="gla12-clan200-stav2">
-						<content>
+						<intro>
 							<p>Када је у време подношења захтева за признање страног поступка већ поднет  предлог за покретање стечајног поступка:</p>
-						</content>
+						</intro>
 						<point wId="gla12-clan200-stav2-tac1">
 							<num>1)</num>
 							<content>
@@ -8228,9 +8229,9 @@
 						</point>
 					</paragraph>
 					<paragraph wId="gla12-clan200-stav3">
-						<content>
+						<intro>
 							<p>Када је предлог за покретање стечајног поступка поднет после признања или  после подношења захтева за признање страног поступка:</p>
-						</content>
+						</intro>
 						<point wId="gla12-clan200-stav3-tac1">
 							<num>1)</num>
 							<content>
@@ -8254,9 +8255,9 @@
 					<num>201.</num>
 					<heading>Поступање у случају постојања више страних поступака</heading>
 					<paragraph wId="gla12-clan201-stav1">
-						<content>
+						<intro>
 							<p>У случајевима из &lt;ref wId=&quot;ref510&quot; href=&quot;akn/rs/act/2018/95-335/srp@/!main~art_174&quot; &gt;члана 174. овог&lt;/ref&gt; закона, када се према истом дужнику води  више од једног страног поступка, суд ће затражити сарадњу и координацију у  складу са &lt;ref wId=&quot;ref511&quot; href=&quot;akn/rs/act/2018/95-335/srp@/!main~art_196-&gt;art_198&quot; &gt;чл. 196, 197. и 198. овог&lt;/ref&gt; закона, при чему:</p>
-						</content>
+						</intro>
 						<point wId="gla12-clan201-stav1-tac1">
 							<num>1)</num>
 							<content>
@@ -8446,9 +8447,9 @@
 				<article wId="gla14-clan212">
 					<num>212.</num>
 					<paragraph wId="gla14-clan212-stav1">
-						<content>
+						<intro>
 							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном  гласнику Републике Србије”, а почиње да се примењује тридесетог дана од дана  његовог ступања на снагу, осим:</p>
-						</content>
+						</intro>
 						<point wId="gla14-clan212-stav1-tac1">
 							<num>1)</num>
 							<content>
@@ -8567,6 +8568,6 @@
 					</paragraph>
 				</article>
 			</chapter>
-		</ns0:body>
-	</ns0:act>
-</ns0:akomaNtoso>
+		</body>
+	</act>
+</akomaNtoso>

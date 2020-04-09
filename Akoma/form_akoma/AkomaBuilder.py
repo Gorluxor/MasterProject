@@ -14,12 +14,19 @@ import xml.etree.ElementTree as ET
 PREFIX = "{http://docs.oasis-open.org/legaldocml/ns/akn/3.0}"
 
 
+def remove_double_space(string_input: str):
+    import re
+    return re.sub(' +', ' ', string_input)
+
+
 class AkomaBuilder():
 
     def __init__(self, akomaroot):
         ET.register_namespace('', "http://www.akomantoso.org/2.0")
         self.akomaroot = akomaroot
         self.current = list(akomaroot)[0].find(PREFIX + "body")
+        if self.current is None:
+            self.current = list(akomaroot)[0].find("body")
         self.stack = [self.current]
         # print(self.result_str())
         # print(self.stack, list(akomaroot)[0].tag)
@@ -28,7 +35,11 @@ class AkomaBuilder():
         counter = 0
         preamble = None
         preface = None
+        name = ""
         act = list(self.akomaroot)[0]
+        longTitle = ET.Element("longTitle")
+        title = ET.Element("p")
+        longTitle.insert(0,title)
         for token in tokens[::-1]:
             if preface is None:
                 preface = ET.Element("preface")
@@ -36,20 +47,16 @@ class AkomaBuilder():
             if "напомена" in token.value.lower():
                 counter -= 1
             elif counter == 1:
-                date = ET.Element("date")
-                date.text = token.value
-                preface.insert(0, date)
+                title.text = token.value
             elif counter == 2:
-                title = ET.Element("title")
-                title.text = token.value
-                preface.insert(0, title)
+                title.text = token.value.capitalize() + " " + remove_double_space(title.text)
+                name += token.value
             elif is_vrsta_akta(token.value):
-                title = ET.Element("title")
-                title.text = token.value
-                preface.insert(0, title)
+                title.text = token.value.capitalize() + " " + title.text
+                name = token.value.capitalize() + " " + name
                 counter -= 1
             elif counter == 3:
-                authority = ET.Element("authority")
+                authority = ET.Element("p")  # authority
                 authority.text = token.value
                 preface.insert(0, authority)
             elif counter > 3:
@@ -60,10 +67,13 @@ class AkomaBuilder():
                 preamble.insert(0, p)
             else:
                 counter -= 1
+        preface.insert(0, longTitle)
         if preface is not None:
             act.insert(1, preface)
         if preamble is not None:
             act.insert(1, preamble)
+        act.set("name", name)
+
 
     def add_special(self, token):
         parent = self.stack[-1]
@@ -82,16 +92,23 @@ class AkomaBuilder():
         parent.append(novi)
         self.stack.append(novi)
 
+    def change(self,node):
+        found = node.find('content')
+        if found is not None:
+            found.tag = "intro"
+        print(found)
+
     def current_parent(self, identification, no_content=False):
         for i in range(len(self.stack) - 1, -1, -1):
             node = self.stack[i]
             # print(i, self.stack)
-            if node.tag == PREFIX + "body":
+            if node.tag == PREFIX + "body" or node.tag == "body":
                 return node
 
-            id = node.attrib["wId"]  # TODO promenjeno u wId
+            id = node.attrib["wId"]
             if id in identification:
                 if no_content:
+                    self.change(node)
                     return node
                 content = node.find("content")
                 # print('TEXT', list(node))
@@ -103,7 +120,7 @@ class AkomaBuilder():
         return False
 
     def create_element(self, token, identification):
-        base = ET.Element(token.name, {"wId": identification})  # TODO promenjeno u wId
+        base = ET.Element(token.name, {"wId": identification})
 
         if token.type == TokenType.PODTACKA:
             base.attrib['name'] = 'subpoint'
