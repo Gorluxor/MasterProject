@@ -1,1 +1,163 @@
-Овај закон ступа на снагу наредног дана од дана објављивања у “Службеном листу СЦГ”.
+<?xml version="1.0" ?>
+<ns0:akomaNtoso xmlns:ns0="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	
+
+	<ns0:act>
+		<ns0:meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2003/27-4/main"/>
+					<FRBRuri value="/rs/act/2003/27-4"/>
+					<FRBRdate date="2003" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2003/27-4/srp@/main"/>
+					<FRBRuri value="/rs/act/2003/27-4/srp@"/>
+					<FRBRdate date="2003" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2003/27-4/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2003/27-4/srp@.akn"/>
+					<FRBRdate date="2003" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2003-6-20" name="службени лист сцг" number="27" showAs="Службени лист СЦГ"/>
+			<classification source="#somebody">
+				<keyword id="vrsta" showAs="Закон" value="закон"/>
+				<keyword id="oblast" showAs="V МОНЕТАРНИ СИСТЕМ, ФИНАНСИЈСКЕ ОРГАНИЗАЦИЈЕ И ФИНАНСИЈСКО ПОСЛОВАЊЕ" value="v монетарни систем, финансијске организације и финансијско пословање"/>
+				<keyword id="grupa" showAs="9. Задуживање и гаранције" value="9. задуживање и гаранције"/>
+			</classification>
+			<workflow source="#somebody">
+				<step date="2003-06-20" id="usvajanje"/>
+				<step date="2003-06-21" id="stupanje_na_snagu"/>
+				<step date="2003-06-21" id="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note id="not1">
+					<p>Закон је ступио на снагу наредног дана од дана објављивања у “Службеном листу СЦГ”, односно 21. јуна 2003. године (види члан 11. Закона).</p>
+				</note>
+			</notes>
+		</ns0:meta>
+		<preface>
+			<title>ЗАКОН</title>
+			<title>о  задужењу Србије и Црне Горе код Међународног удружења за развој (Пројекат  здравства)</title>
+			<date>„Службени лист СЦГ”, број 27 од 20. јуна 2003.</date>
+		</preface>
+		<ns0:body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Србија и Црна Гора задужиће се, у своје име, а за рачун Републике Србије, износом који је једнак противвредности четрнаест милиона и седам стотина хиљада специјалних права вучења (14,7 милиона СДР), тј. око 20 милиона УСД код Међународног удружења за развој, ради финансијске подршке сектору здравства Републике Србије.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Задружење из &lt;ref wId=&quot;ref0&quot; href=&quot;akn/rs/act/2003/27-4/srp@/!main~art_1&quot; &gt;члана 1. овог&lt;/ref&gt; закона извршава се закључењем споразума о кредиту за развој (Пројекат здравства) између Међународног удружења за развој, као зајмодавца, и Србије и Црне Горе, као зајмопримца, коју заступа Савет министара.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>Србија и Црна Гора ће са Републиком Србијом, у року од 30 дана од ступања на снагу овог закона, закључити уговор о преносу средстава кредита и одговорности за реализацију Пројекта здравства.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Ради коришћења средстава из &lt;ref wId=&quot;ref1&quot; href=&quot;akn/rs/act/2003/27-4/srp@/!main~art_1&quot; &gt;члана 1. овог&lt;/ref&gt; закона, Србија и Црна Гора отвара посебан рачун код комерцијалне банке (специјални рачун), под условима и на начин прихватљив за Међународно удружење за развој, на коме се средства исказују у еврима – по курсу на дан уплате тих средстава, са искључивом наменом коришћења средстава зајма за потребе Републике Србије – корисника кредита.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan4">
+				<num>4.</num>
+				<paragraph wId="clan4-stav1">
+					<content>
+						<p>Међународно удружење за развој уплаћује средства из &lt;ref wId=&quot;ref2&quot; href=&quot;akn/rs/act/2003/27-4/srp@/!main~art_1&quot; &gt;члана 1. овог&lt;/ref&gt; закона Србији и Црној Гори у еврима, на рачун из &lt;ref wId=&quot;ref3&quot; href=&quot;akn/rs/act/2003/27-4/srp@/!main~art_3&quot; &gt;члана 3. овог&lt;/ref&gt; закона.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan5">
+				<num>5.</num>
+				<paragraph wId="clan5-stav1">
+					<content>
+						<p>Ради измиривања обавеза из овог закона, Република Србија је дужна да обезбеђује средства за уредну отплату обавеза по Споразуму о развојном кредиту из &lt;ref wId=&quot;ref4&quot; href=&quot;akn/rs/act/2003/27-4/srp@/!main~art_2__para_1&quot; &gt;члана 2. став 1, &lt;/ref&gt;а у складу са уговором о преносу средстава кредита и одговорности за реализацију Пројекта здравства из &lt;ref wId=&quot;ref5&quot; href=&quot;akn/rs/act/2003/27-4/srp@/!main~art_2__para_2&quot; &gt;члана 2. став 2. овог&lt;/ref&gt; закона.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan5-stav2">
+					<content>
+						<p>Као инструмент обезбеђења Репбулика Србија ће, у року од 30 дана од дана ступања на снагу овог закона, дати Србији и Црној Гори контрагаранцију за уредно измиривање обавеза из овог закона.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan5-stav3">
+					<content>
+						<p>Средства из &lt;ref wId=&quot;ref6&quot; href=&quot;akn/rs/act/2003/27-4/srp@/!main~act_5__para_1&quot; &gt;става 1. овог&lt;/ref&gt; члана Република Србија преноси на посебан рачун Србије и Црне Горе отворен код Народне банке Србије, са искључивом наменом отплате обавеза из овог закона.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan6">
+				<num>6.</num>
+				<paragraph wId="clan6-stav1">
+					<content>
+						<p>Србија и Црна Гора измириваће обавезе према Међународном удружењу за развој по основу средстава из &lt;ref wId=&quot;ref7&quot; href=&quot;akn/rs/act/2003/27-4/srp@/!main~art_5&quot; &gt;члана 5. овог&lt;/ref&gt; закона.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan7">
+				<num>7.</num>
+				<paragraph wId="clan7-stav1">
+					<content>
+						<p>Зајмопримац отплаћује обавезе из овог закона у року од 20 година, почев од 15. августа 2013. године до 15. фебруара 2023. године, и то у полугодишњим ратама (15. августа и 15. фебруара сваке године), с тим да свака рата износи 5% износа из &lt;ref wId=&quot;ref8&quot; href=&quot;akn/rs/act/2003/27-4/srp@/!main~art_1&quot; &gt;члана 1. овог&lt;/ref&gt; закона.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan8">
+				<num>8.</num>
+				<paragraph wId="clan8-stav1">
+					<content>
+						<p>Зајмопримац се обавезује да Међународном удружењу за развој плаћа трошкове у складу са споразумом из &lt;ref wId=&quot;ref9&quot; href=&quot;akn/rs/act/2003/27-4/srp@/!main~art_2&quot; &gt;члана 2. овог&lt;/ref&gt; закона, с тим да Република Србија обезбеђује средства и преноси их на посебан рачун Србије и Црне Горе из &lt;ref wId=&quot;ref10&quot; href=&quot;akn/rs/act/2003/27-4/srp@/!main~art_5&quot; &gt;члана 5. овог&lt;/ref&gt; закона.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan8-stav2">
+					<content>
+						<p>Трошкови из &lt;ref wId=&quot;ref11&quot; href=&quot;akn/rs/act/2003/27-4/srp@/!main~act_8__para_1&quot; &gt;става 1. овог&lt;/ref&gt; члана плаћају се полугодишње (15. августа и 15. фебруара), почев од дана када Међународно удружење за развој потврди ратификационе документе.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan9">
+				<num>9.</num>
+				<paragraph wId="clan9-stav1">
+					<content>
+						<p>Курсне разлике које могу настати у вези са измиривањем обавеза у смислу овог закона сноси Република Србија.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan10">
+				<num>10.</num>
+				<paragraph wId="clan10-stav1">
+					<content>
+						<p>Народна банка Србије наплаћује од Републике Србије трошкове за трансфер средстава за отплату обавеза Међународном удружењу за развој, као и провизију за услуге које пружа у смислу овог закона.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan11">
+				<num>11.</num>
+				<paragraph wId="clan11-stav1">
+					<content>
+						<p>Овај закон ступа на снагу наредног дана од дана објављивања у “Службеном листу СЦГ”.</p>
+					</content>
+				</paragraph>
+			</article>
+		</ns0:body>
+	</ns0:act>
+</ns0:akomaNtoso>

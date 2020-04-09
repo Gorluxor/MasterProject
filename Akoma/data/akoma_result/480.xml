@@ -1,1 +1,110 @@
-Овај закон ступа на снагу осмог дана од дана објављивања у "Службеном листу СЦГ".
+<?xml version="1.0" ?>
+<ns0:akomaNtoso xmlns:ns0="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	
+
+	<ns0:act>
+		<ns0:meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2006/20-15/main"/>
+					<FRBRuri value="/rs/act/2006/20-15"/>
+					<FRBRdate date="2006" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2006/20-15/srp@/main"/>
+					<FRBRuri value="/rs/act/2006/20-15/srp@"/>
+					<FRBRdate date="2006" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2006/20-15/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2006/20-15/srp@.akn"/>
+					<FRBRdate date="2006" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2006-5-12" name="службени лист сцг“" number="20" showAs="Службени лист СЦГ“"/>
+			<classification source="#somebody">
+				<keyword id="vrsta" showAs="Закон" value="закон"/>
+				<keyword id="oblast" showAs="VIII РАЗВОЈ" value="viii развој"/>
+				<keyword id="grupa" showAs="6. Рачунање времена" value="6. рачунање времена"/>
+			</classification>
+			<workflow source="#somebody">
+				<step date="2006-05-11" id="usvajanje"/>
+				<step date="2006-05-20" id="stupanje_na_snagu"/>
+				<step date="2006-05-20" id="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note id="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у Службеном листу СЦГ, односно 20. маја 2006. године (види члан 5. Закона).</p>
+				</note>
+			</notes>
+		</ns0:meta>
+		<preface>
+			<title>ЗАКОН</title>
+			<title>о рачунању времена</title>
+			<date>„Службени лист СЦГ“, број 20 од 12. маја 2006.</date>
+		</preface>
+		<ns0:body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>У Србији и Црној Гори важи време које одговара универзалном координираном времену, увећаном за један час (средњоевропско зонско време).</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>У односу на време из &lt;ref wId=&quot;ref0&quot; href=&quot;akn/rs/act/2006/20-15/srp@/!main~art_1&quot; &gt;члана 1. овог&lt;/ref&gt; закона, уводи се летње рачунање времена, померањем за један час унапред.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>Летње рачунање времена почиње последње недеље у марту и завршава се последње недеље у октобру.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Летње рачунање времена почиње у недељу у 2  h, 00   min, 00   s, тако што се, померањем за један час унапред, време у 2  h, 00   min, 00   s рачуна као 3  h, 00   min, 00   s.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav2">
+					<content>
+						<p>Летње рачунање времена завршава се у недељу у 3  h, 00 мин, 00  s тако што се, померањем за један час уназад, време у 3  h, 00   min, 00   s рачуна као 2  h, 00   min, 00   s.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav3">
+					<content>
+						<p>Час који се последње недеље у октобру, због померања за један час уназад, појављује два пута између 2  h, 00   min, 00   s и 3  h, 00   min, 00   s, означава се први пут као час 2А, а други пут као час 2Б.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan4">
+				<num>4.</num>
+				<paragraph wId="clan4-stav1">
+					<content>
+						<p>Даном ступања на снагу овог закона престаје да важи Закон о рачунању времена (&quot;&lt;ref wId=&quot;ref1&quot; href=&quot;akn/rs/act/94/41/srp@&quot;&gt;Службени лист СРЈ&quot;, бр. 41/94&lt;/ref&gt; и 29/97).</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan5">
+				<num>5.</num>
+				<paragraph wId="clan5-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од дана објављивања у &quot;Службеном листу СЦГ&quot;.</p>
+					</content>
+				</paragraph>
+			</article>
+		</ns0:body>
+	</ns0:act>
+</ns0:akomaNtoso>

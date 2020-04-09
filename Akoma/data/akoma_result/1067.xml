@@ -1,1 +1,611 @@
-Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије – Међународни уговори”.
+<?xml version="1.0" ?>
+<ns0:akomaNtoso xmlns:ns0="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	
+
+	<ns0:act>
+		<ns0:meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2015/16-3/main"/>
+					<FRBRuri value="/rs/act/2015/16-3"/>
+					<FRBRdate date="2015" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2015/16-3/srp@/main"/>
+					<FRBRuri value="/rs/act/2015/16-3/srp@"/>
+					<FRBRdate date="2015" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2015/16-3/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2015/16-3/srp@.akn"/>
+					<FRBRdate date="2015" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2015-8-4" name="службени гласник рс - међународни уговори" number="16" showAs="Службени гласник РС - Међународни уговори"/>
+			<classification source="#somebody">
+				<keyword id="vrsta" showAs="Закон" value="закон"/>
+				<keyword id="oblast" showAs="V МОНЕТАРНА ПОЛИТИКА, ФИНАНСИЈСКЕ ОРГАНИЗАЦИЈЕ И ФИНАНСИЈСКО ПОСЛОВАЊЕ" value="v монетарна политика, финансијске организације и финансијско пословање"/>
+				<keyword id="grupa" showAs="3. Задуживање у иностранству, донације и бесповратна помоћ" value="3. задуживање у иностранству, донације и бесповратна помоћ"/>
+			</classification>
+			<workflow source="#somebody">
+				<step date="2015-07-31" id="usvajanje"/>
+				<step date="2015-08-12" id="stupanje_na_snagu"/>
+				<step date="2015-08-12" id="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note id="not1">
+					<p/>
+				</note>
+			</notes>
+		</ns0:meta>
+		<preamble>
+			<p>На основу члана 112. став 1. тачка 2. Устава Републике Србије, доносим</p>
+			<p>УКАЗ</p>
+			<p>о проглашењу Закона о потврђивању Уговора о изменама и допунама Финансијског уговора између Републике Србије и Европске инвестиционе банке за Пројекат Клинички центри/Б</p>
+			<p>Проглашава се Закон о потврђивању Уговора о изменама и допунама Финансијског уговора између Републике Србије и Европске инвестиционе банке за Пројекат Клинички центри/Б, који је донела Народна скупштина Републике Србије на седници Шеснаестог ванредног заседања у 2015. години, 31. јула 2015. године.</p>
+			<p>ПР број 105</p>
+			<p>У Београду, 4. августа 2015. године</p>
+			<p>Председник Републике,</p>
+		</preamble>
+		<preface>
+			<authority>Томислав Николић, с.р.</authority>
+			<title>ЗАКОН</title>
+			<title>о потврђивању Уговора о изменама и допунама Финансијског уговора између Републике Србије и Европске инвестиционе банке за Пројекат Клинички центри/Б</title>
+			<date>&quot;Службени гласник РС - Међународни уговори&quot;,      број 16 од 4. августа 2015.</date>
+		</preface>
+		<ns0:body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Потврђује се Уговор о изменама и допунама Финансијског уговора између Републике Србије и Европске инвестиционе банке за Пројекат Kлинички центри/Б, потписаног 12. децембра 2008. године, у Београду, који је потписан 25. марта 2015. године у Луксембургу и 1. априла 2015. године у Београду, у оригиналу на енглеском језику.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Текст Уговора из &lt;ref wId=&quot;ref0&quot; href=&quot;akn/rs/act/2015/16-3/srp@/!main~art_1&quot; &gt;члана 1. овог&lt;/ref&gt; закона, у оригиналу на енглеском језику и у преводу на српски језик гласи:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>FI N° 24.745 (RS)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav3">
+					<content>
+						<p>Serapis N° 2004-0340</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav4">
+					<content>
+						<p>Clinical Centers / B</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav5">
+					<content>
+						<p>Amendment Agreement in relation to the Finance Contract signed on 12December2008</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav6">
+					<content>
+						<p>between the</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav7">
+					<content>
+						<p>Republic of Serbia</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav8">
+					<content>
+						<p>and the</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav9">
+					<content>
+						<p>European Investment Bank</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav10">
+					<content>
+						<p>Luxembourg, 25 March 2015Belgrade, 1 April 2015</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav11">
+					<content>
+						<p>THIS AGREEMENT IS MADE BETWEEN:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav12">
+					<content>
+						<p>the Republic of Serbia (the ”Borrower”); and</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav13">
+					<content>
+						<p>the European Investment Bank (the ”Bank”),</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav14">
+					<content>
+						<p>together referred to as the ”Parties”.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav15">
+					<content>
+						<p>BACKGROUND</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav16">
+					<content>
+						<p>(A) The Parties have entered into the finance contract dated 12 December 2008, as subsequently amended (the ”Finance Contract”).</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav17">
+					<content>
+						<p>(B) Further to the Borrower’s request dated 25 November 2014, the Parties have agreed to enter into this Amendment Agreement (hereinafter, the ”Amendment Agreement”) for the purpose of amending certain terms of the Finance Contract.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav18">
+					<content>
+						<p>IT IS AGREED as follows:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav19">
+					<content>
+						<p>INTERPRETATION</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav20">
+					<content>
+						<p>Definitions</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav21">
+					<content>
+						<p>Unless a contrary indication appears, capitalised terms defined in the Finance Contract have the same meaning when used in this Amendment Agreement.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav22">
+					<content>
+						<p>AMENDMENTS</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav23">
+					<content>
+						<p>The Finance Contract is hereby amended as set out below.</p>
+					</content>
+					<тачка wId="clan2-stav23-tac2">
+						<num>2.</num>
+						<content>
+							<p>1 In Article 1.02(2) the date ”31 December 2016” shall be amended to read ”31December2018”.</p>
+						</content>
+						<тачка wId="clan2-stav23-tac2">
+							<num>2.</num>
+							<content>
+								<p>2 In Schedule I (A.1. – Technical Description), the paragraph entitled ”Programme” shall be amended to read as follows:</p>
+							</content>
+						</тачка>
+					</тачка>
+				</paragraph>
+				<paragraph wId="clan2-stav24">
+					<content>
+						<p>”Physical completion of all new and refurbished buildings is planned for 31December2019.”</p>
+					</content>
+				</paragraph>
+			</article>
+			<section wId="od2">
+				<num>2.</num>
+				<heading>3 In Schedule III (Form of Disbursement Request), the date indicated in the right hand side of the term ”Disbursement deadline” shall be deleted.</heading>
+				<paragraph wId="od2-clan2-stav1">
+					<content>
+						<p>CONTINUING OBLIGATIONS</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od2-clan2-stav2">
+					<content>
+						<p>The provisions of the Finance Contract shall, save as amended by this Amendment Agreement, continue in full force and effect.</p>
+					</content>
+					<тачка wId="od2-clan2-stav2-tac4">
+						<num>4.</num>
+						<content>
+							<p> GOVERNING LAW AND JURISDICTION</p>
+						</content>
+						<тачка wId="od2-clan2-stav2-tac4">
+							<num>4.</num>
+							<content>
+								<p>1 Governing Law</p>
+							</content>
+						</тачка>
+					</тачка>
+				</paragraph>
+				<paragraph wId="od2-clan2-stav3">
+					<content>
+						<p>This Amendment Agreement and any non-contractual obligations arising out of or in connection with it shall be governed by the laws of the Grand Duchy of Luxembourg.</p>
+					</content>
+					<тачка wId="od2-clan2-stav3-tac4">
+						<num>4.</num>
+						<content>
+							<p>2 Jurisdiction</p>
+						</content>
+					</тачка>
+				</paragraph>
+				<paragraph wId="od2-clan2-stav4">
+					<content>
+						<p>The Parties hereby submit to the jurisdiction of the Court of Justice of the European Union.</p>
+					</content>
+					<тачка wId="od2-clan2-stav4-tac5">
+						<num>5.</num>
+						<content>
+							<p> ENTRY INTO FORCE</p>
+						</content>
+					</тачка>
+				</paragraph>
+				<paragraph wId="od2-clan2-stav5">
+					<content>
+						<p>This Amendment Agreement shall enter into force upon confirmation by the Bank to the Borrower in writing (including via electronic mail) that the Bank has received a certified copy of the Official Gazette of the Republic of Serbia publishing the law on ratification of this Amendment Agreement by the Parliament of the Republic of Serbia.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od2-clan2-stav6">
+					<content>
+						<p>This Amendment Agreement has been entered into four (4) originals in the English language, each page having been initialled by Mr. Branko DRČELIĆ, Director of Public Debt Administration – Ministry of Finance, on behalf of the Republic of Serbia, represented by the Ministry of Finance, and by Mr.Alessandro CAGNATO, Legal Counsel, on behalf of the Bank.</p>
+					</content>
+				</paragraph>
+				<став wId="od2-clan2-stav7">
+					<table class="tabela-bez-bordera">
+						
+					
+						<tbody>
+							
+						
+							<tr>
+								
+							
+								<td>
+									
+								
+									<p>Signed for and on behalf of the</p>
+									
+							
+								</td>
+								
+							
+								<td class="potpis">
+									
+								
+									<p>Signed for and on behalf of</p>
+									
+							
+								</td>
+								
+						
+							</tr>
+							
+						
+							<tr>
+								
+							
+								<td>
+									
+								
+									<p>THE REPUBLIC OF SERBIA</p>
+									
+								
+									<p>the Minister of Finance</p>
+									
+								
+									<p>Dušan VUJOVIĆ, s.r.</p>
+									
+								
+									<p>this 1st day of April 2015, in Belgrade</p>
+									
+							
+								</td>
+								
+							
+								<td class="potpis">
+									
+								
+									<p>EUROPEAN INVESTMENT BANK</p>
+									
+								
+									<p>the Head of Division the Head of Division</p>
+									
+								
+									<p> Dominique </p>
+									
+								
+									<p> COURBIN, s.r. Massimo NOVO, s.r.</p>
+									
+								
+									<p> this 25th day of March 2015, in Luxembourg</p>
+									
+							
+								</td>
+								
+						
+							</tr>
+							
+					
+						</tbody>
+						
+				
+					</table>
+					
+				
+				</став>
+				<paragraph wId="od2-clan2-stav8">
+					<content>
+						<p>ФИ Н° 24.745 (РС)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od2-clan2-stav9">
+					<content>
+						<p>Серапис Н° 2004-0340</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od2-clan2-stav10">
+					<content>
+						<p>ПРОЈЕКАТ КЛИНИЧКИ ЦЕНТРИ/Б</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od2-clan2-stav11">
+					<content>
+						<p>Уговор о изменама и допунама Финансијског уговора потписаног 12. децембра 2008. године</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od2-clan2-stav12">
+					<content>
+						<p>између</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od2-clan2-stav13">
+					<content>
+						<p>Републике Србије</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od2-clan2-stav14">
+					<content>
+						<p>и</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od2-clan2-stav15">
+					<content>
+						<p>Европске инвестиционе банке</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od2-clan2-stav16">
+					<content>
+						<p>Луксембург, 25. март 2015. годинеБеоград, 1. април 2015. године</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od2-clan2-stav17">
+					<content>
+						<p>ОВАЈ УГОВОР СЕ ЗАКЉУЧУЈЕ ИЗМЕЂУ:</p>
+					</content>
+					<hcontainer name="subpoint" wId="od2-clan2-stav17-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Републике Србије (у даљем тексту: „Зајмопримац”); и</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="od2-clan2-stav17-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Европске инвестиционе банке (у даљем тексту: „Банка”),</p>
+						</content>
+					</hcontainer>
+				</paragraph>
+				<paragraph wId="od2-clan2-stav18">
+					<content>
+						<p>заједно у даљем тексту: „Уговорне стране”.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od2-clan2-stav19">
+					<content>
+						<p>ИСТОРИЈАТ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od2-clan2-stav20">
+					<content>
+						<p>(А) Уговорне стране су закључиле Финансијски уговор 12. децембра 2008. године (у даљем тексту: „Финансијски уговор”).</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od2-clan2-stav21">
+					<content>
+						<p>(Б) Поводом захтева од стране Зајмопримца од 25. новембра 2014. године, Уговорне стране су се договориле да закључе Уговор о изменама и допунама Финансијског уговора (у даљем тексту: „Уговор о изменама и допунама”) у циљу измене и допуне одређених одредаба Финансијског уговора.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od2-clan2-stav22">
+					<content>
+						<p>ДОГОВОРЕНО ЈЕ како следи:</p>
+					</content>
+					<тачка wId="od2-clan2-stav22-tac1">
+						<num>1.</num>
+						<content>
+							<p> ТУМАЧЕЊЕ</p>
+						</content>
+					</тачка>
+				</paragraph>
+				<paragraph wId="od2-clan2-stav23">
+					<content>
+						<p>Дефиниције</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od2-clan2-stav24">
+					<content>
+						<p>Уколико није наговештено другачије, термини који су исписани болдованим словима у овом уговору о изменама и допунама имају исто значење које им је додељено у Финансијском уговору.</p>
+					</content>
+					<тачка wId="od2-clan2-stav24-tac2">
+						<num>2.</num>
+						<content>
+							<p> ИЗМЕНЕ И ДОПУНЕ ФИНАНСИЈСКОГ УГОВОРА</p>
+						</content>
+					</тачка>
+				</paragraph>
+				<paragraph wId="od2-clan2-stav25">
+					<content>
+						<p>Финансијски уговор мења се на начин утврђен у тексту испод.</p>
+					</content>
+					<тачка wId="od2-clan2-stav25-tac2">
+						<num>2.</num>
+						<content>
+							<p>1 У члану 1.02(2) датум „31. децембар 2016. године” биће измењен тако да гласи: „31. децембар 2018. године”.</p>
+						</content>
+						<тачка wId="od2-clan2-stav25-tac2">
+							<num>2.</num>
+							<content>
+								<p>2 У Прилогу I (А.1. – Технички опис), став под називом „Програм” биће измењен тако да гласи:</p>
+							</content>
+						</тачка>
+					</тачка>
+				</paragraph>
+				<paragraph wId="od2-clan2-stav26">
+					<content>
+						<p>„Физички завршетак свих нових и рехабилитованих зграда планиран је за 31. децембар 2019. године”.</p>
+					</content>
+					<тачка wId="od2-clan2-stav26-tac2">
+						<num>2.</num>
+						<content>
+							<p>3 У Прилогу III (Формулар Захтева за исплату), датум назначен на десној страни поред термина „Рок за исплату” се брише.</p>
+						</content>
+					</тачка>
+					<тачка wId="od2-clan2-stav26-tac3">
+						<num>3.</num>
+						<content>
+							<p> ТРАЈНЕ ОБАВЕЗЕ</p>
+						</content>
+					</тачка>
+				</paragraph>
+				<paragraph wId="od2-clan2-stav27">
+					<content>
+						<p>Одредбе Финансијског уговора, заједно са изменама и допунама начињеним овим уговором о изменама и допунама, наставиће да се примењују у потпуности.</p>
+					</content>
+					<тачка wId="od2-clan2-stav27-tac4">
+						<num>4.</num>
+						<content>
+							<p> МЕРОДАВНО ПРАВО И СУДСКА НАДЛЕЖНОСТ</p>
+						</content>
+						<тачка wId="od2-clan2-stav27-tac4">
+							<num>4.</num>
+							<content>
+								<p>1 Закон</p>
+							</content>
+						</тачка>
+					</тачка>
+				</paragraph>
+				<paragraph wId="od2-clan2-stav28">
+					<content>
+						<p>Овај уговор о изменама и допунама и све неуговорне обавезе, проистекле или које су у вези са уговором о изменама и допунама, управљаће се према законима Великог Војводства Луксембурга.</p>
+					</content>
+					<тачка wId="od2-clan2-stav28-tac4">
+						<num>4.</num>
+						<content>
+							<p>2 Надлежност</p>
+						</content>
+					</тачка>
+				</paragraph>
+				<paragraph wId="od2-clan2-stav29">
+					<content>
+						<p>Уговорне стране овим путем прихватају надлежност Суда правде Европске уније.</p>
+					</content>
+					<тачка wId="od2-clan2-stav29-tac5">
+						<num>5.</num>
+						<content>
+							<p> СТУПАЊЕ НА СНАГУ</p>
+						</content>
+					</тачка>
+				</paragraph>
+				<paragraph wId="od2-clan2-stav30">
+					<content>
+						<p>Овај уговор о изменама и допунама ступа на снагу након потврде од стране Банке Зајмопримцу у писменој форми (укључујући и путем електронске поште) да је Банка примила оверену копију званичног службеног гласила Републике Србије у коме је објављен закон о ратификацији овог уговора о изменама и допунама од стране Народне скупштине Републике Србије.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od2-clan2-stav31">
+					<content>
+						<p>Овај уговор о изменама и допунама сачињен је у 4 (четири) оригинална примерка на енглеском језику, свака страна овог уговора о изменама и допунама парафирана је од стране г-дина Бранка Дрчелића, директора Управе за јавни дуг – Министарство финансија, у име Републике Србије, коју заступа Министарство финансија, и г-дина Alessandro CAGNATO, правног заступникa у име Банке.</p>
+					</content>
+				</paragraph>
+				<став wId="od2-clan2-stav32">
+					<table class="tabela-bez-bordera">
+						
+					
+						<tbody>
+							
+						
+							<tr>
+								
+							
+								<td>
+									
+								
+									<p>Потписано за и у име</p>
+									
+								
+									<p>РЕПУБЛИКЕ СРБИЈЕ</p>
+									
+								
+									<p>Министар финансија</p>
+									
+								
+									<p>Душан Вујовић</p>
+									
+								
+									<p>У Београду, 1. априла 2015. године</p>
+									
+							
+								</td>
+								
+							
+								<td>
+									
+								
+									<p>Потписано за и у име</p>
+									
+								
+									<p>ЕВРОПСКЕ ИНВЕСТИЦИОНЕ БАНКЕ</p>
+									
+								
+									<p>Шеф одељења Шеф одељења</p>
+									
+								
+									<p>Dominique Courbin Massimo NOVO</p>
+									
+								
+									<p>У Луксембургу, 25. марта 2015. године</p>
+									
+							
+								</td>
+								
+						
+							</tr>
+							
+					
+						</tbody>
+						
+				
+					</table>
+					
+				
+				</став>
+				<article wId="od2-clan3">
+					<num>3.</num>
+					<paragraph wId="od2-clan3-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије – Међународни уговори”.</p>
+						</content>
+					</paragraph>
+				</article>
+			</section>
+		</ns0:body>
+	</ns0:act>
+</ns0:akomaNtoso>

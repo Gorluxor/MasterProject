@@ -1,1 +1,783 @@
-Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.
+<?xml version="1.0" ?>
+<ns0:akomaNtoso xmlns:ns0="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	
+
+	<ns0:act>
+		<ns0:meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2005/61-23/main"/>
+					<FRBRuri value="/rs/act/2005/61-23"/>
+					<FRBRdate date="2005" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2010/88-186/srp@/main"/>
+					<FRBRuri value="/rs/act/2010/88-186/srp@"/>
+					<FRBRdate date="2010" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2010/88-186/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2010/88-186/srp@.akn"/>
+					<FRBRdate date="2010" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2005-7-18" name="службени гласник рс“" number="61" showAs="Службени гласник РС“"/>
+			<classification source="#somebody">
+				<keyword id="vrsta" showAs="Закон" value="закон"/>
+				<keyword id="oblast" showAs="IX ОПШТИ ПРИВРЕДНИ ПРОПИСИ И ЕКОНОМСКИ ОДНОСИ СА ИНОСТРАНСТВОМ" value="ix општи привредни прописи и економски односи са иностранством"/>
+				<keyword id="grupa" showAs="3. Осигурање" value="3. осигурање"/>
+			</classification>
+			<workflow source="#somebody">
+				<step date="2005-07-15" id="usvajanje"/>
+				<step date="2005-07-26" id="stupanje_na_snagu"/>
+				<step date="2005-07-26" id="primena"/>
+			</workflow>
+			<lifecycle source="#somebody">
+				<eventRef date="61/2005-23" id="e1" type="generation"/>
+				<eventRef date="88/2010-186" id="e2" type="amendment"/>
+			</lifecycle>
+			<notes source="#somebody">
+				<note id="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 26. јула 2005. године (види члан 24. Закона).</p>
+				</note>
+			</notes>
+		</ns0:meta>
+		<preface>
+			<title>ЗАКОН</title>
+			<title>о Агенцији за осигурање и финансирање извоза Републике Србије</title>
+			<date>„Службени гласник РС“, бр. 61 од 18. јула 2005, 88 од 23. новембра 2010.</date>
+		</preface>
+		<ns0:body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Ради подстицања и унапређења извоза и развоја економских односа Републике Србије са иностранством, оснива се Агенција за осигурање и финансирање извоза Републике Србије (у даљем тексту: Агенција).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Агенција послује под следећим именом:</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav2">
+						<content>
+							<p>Агенција за осигурање и финансирање извоза Републике Србије а.д.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav3">
+						<content>
+							<p>Скраћено пословно име Агенције је: АОФИ*.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav4">
+						<content>
+							<p>Седиште Агенције је у   Ужицу*.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav5">
+						<content>
+							<p>Агенција може имати једну или више филијала и представништава.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav6">
+						<content>
+							<p>*&lt;ref wId=&quot;ref0&quot; href=&quot;akn/rs/act/2010/88/srp@&quot;&gt;Службени гласник РС, број 88/2010&lt;/ref&gt;</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ДЕЛАТНОСТ АГЕНЦИЈЕ</heading>
+				<article wId="gla2-clan3">
+					<num>3.</num>
+					<paragraph wId="gla2-clan3-stav1">
+						<content>
+							<p>Делатност Агенције је:</p>
+						</content>
+						<point wId="gla2-clan3-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> осигурање и реосигурање извозних послова и инвестиција у иностранству домаћих правних лица и предузетника од комерцијалних и некомерцијалних ризика, као и осигурање наплате потраживања извозника на домаћем тржишту највише до износа вредности извозног посла, и то самостално или у сарадњи са другим осигуравајућим друштвима, односно агенцијама;*</p>
+							</content>
+						</point>
+						<point wId="gla2-clan3-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> финансирање извозних послова домаћих правних лица и предузетника, суфинансирање извозних послова са комерцијалним банкама и другим финансијским организацијама, рефинансирање извозних кредита комерцијалних банака;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan3-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> финансирање припреме извоза домаћих правних лица и предузетника по закљученом уговору о извозу;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan3-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> финансирање инвестиција   * домаћих правних лица и предузетника на иностраним тржиштима ради подстицања извоза;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan3-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> осигурање припреме извоза домаћих правних лица и предузетника од некомерцијалних и комерцијалних ризика по закљученом уговору о извозу, самостално или у сарадњи са другим осигуравајућим друштвима, односно агенцијама;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan3-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> финансирање страног купца или његове банке у вези са извозом домаћег правног лица или предузетника;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan3-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> осигурање домаћих банака    * у вези са кредитима и* гаранцијама по извозним пословима и инвестицијима у иностранству и закљученим кредитним линијама са страним банкама;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan3-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> издавање гаранција и других јемстава по   * извозним пословима и инвестицијама у иностранству;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan3-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> пружање других услуга у вези са финансирањем, гарантовањем и осигурањем извозних послова и инвестиција на домаћем и иностраном тржишту.*</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan3-stav2">
+						<content>
+							<p>Агенција је дужна да делатности, односно послове ради којих је основана обавља у складу са одредбама овог закона и других прописа, као и у складу са међународним споразумима и уговорима.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan4">
+					<num>4.</num>
+					<heading>*Службени гласник РС, број 88/2010</heading>
+					<paragraph wId="gla2-clan4-stav1">
+						<content>
+							<p>Некомерцијални ризици из &lt;ref wId=&quot;ref1&quot; href=&quot;akn/rs/act/2010/88-186/srp@/!main~art_3&quot; &gt;члана 3. овог&lt;/ref&gt; закона обухватају случајеве када није могуће наплатити потраживања домаћих правних лица и предузетника од иностраног партнера, из следећих разлога:</p>
+						</content>
+						<point wId="gla2-clan4-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> неплаћања дуга у року од шест месеци од уговореног рока доспелости, ако је дужник држава, државна организација или лице за које гарантује држава, односно државна организација;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan4-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> политичких догађаја у земљи дужника или ратног стања у држави чији је држављанин дужник са другом државом;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan4-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> општег мораторијума плаћања, немогућности конверзије валуте земље дужника у конвертибилне валуте или забране трансфера, до истека тих забрана;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan4-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> забране увоза робе или услуга од државе или државне организације као купца или корисника услуга;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan4-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> једностраног раскида уговора од државе или државне организације као купца или корисника услуга, осим када је до једностраног раскида дошло услед повреде царинских или здравствених прописа државе увозника, односно државе корисника услуга;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan4-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> заплене, оштећења, забране располагања или уништења робе, учињених од стране државе или њених институција, од часа преласка робе преко државне границе до приспећа иностраном дужнику и</p>
+							</content>
+						</point>
+						<point wId="gla2-clan4-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> елементарних непогода.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan4-stav2">
+						<content>
+							<p>Под некомерцијалним ризицима сматрају се и догађаји услед којих је настала штета домаћим лицима у вези са имовином инвестираном у сопствено привредно друштво, мешовито привредно друштво или пословне јединице у иностранству, и то:</p>
+						</content>
+						<point wId="gla2-clan4-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> национализација, експропријација или друге мере државе које се могу изједначити са национализацијом или експропријацијом;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan4-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> немогућност располагања имовином у трајању од најмање 12 месеци због других мера предузетих од државе у којој је извршено инвестирање;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan4-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> уништење или оштећење имовине услед догађаја у рату који води држава у којој је извршено инвестирање имовине, односно политичких догађаја у тој држави.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>ОБЛИК И ОДГОВОРНОСТ АГЕНЦИЈЕ</heading>
+				<article wId="gla3-clan5">
+					<num>5.</num>
+					<paragraph wId="gla3-clan5-stav1">
+						<content>
+							<p>Агенција је правно лице и има право да закључује уговоре и предузима друге правне послове и правне радње у складу са   овим законом и законом којим се уређује правни положај привредних друштава*.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan5-stav2">
+						<content>
+							<p>Агенција послује као затворено акционарско друштво које акције издаје свом оснивачу, односно ограниченом броју других лица, у складу са законом којим се уређује правни положај привредних друштава.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan5-stav3">
+						<content>
+							<p>Акције Агенције су обичне са правом гласа.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan6">
+					<num>6.</num>
+					<heading>*Службени гласник РС, број 88/2010</heading>
+					<paragraph wId="gla3-clan6-stav1">
+						<content>
+							<p>За обавезе преузете у правном промету са трећим лицима Агенција одговара целокупном својом имовином.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan6-stav2">
+						<content>
+							<p>Република Србија одговара за обавезе Агенције по основу осигурања извоза од некомерцијалних ризика до износа који се утврђује законом којим се уређује годишњи буџет Републике.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>СРЕДСТВА ЗА ОСНИВАЊЕ И РАД АГЕНЦИЈЕ</heading>
+				<article wId="gla4-clan7">
+					<num>7.</num>
+					<paragraph wId="gla4-clan7-stav1">
+						<content>
+							<p>Оснивачки капитал Агенције у износу од 25.000.000,00 евра, у динарској противвредности по средњем курсу на дан уплате, обезбеђује Република Србија.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan7-stav2">
+						<content>
+							<p>Република Србија уплатиће у новцу 50% уписаног капитала пре оснивања Агенције, а преостали износ најкасније у року од годину дана од дана регистрације Агенције код надлежног органа.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan8">
+					<num>8.</num>
+					<paragraph wId="gla4-clan8-stav1">
+						<content>
+							<p>Средства за рад Агенције обезбеђују се из:</p>
+						</content>
+						<point wId="gla4-clan8-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> наменских кредита међународних финансијских организација;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan8-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> донација домаћих и страних правних или физичких лица и</p>
+							</content>
+						</point>
+						<point wId="gla4-clan8-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> других извора, у складу са законом.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan9">
+					<num>9.</num>
+					<paragraph wId="gla4-clan9-stav1">
+						<content>
+							<p>У случају повећања основног капитала Агенције издавањем нових акција, у складу са законом, учешће Републике Србије у акционарском капиталу Агенције не може бити мање од 51% од укупног износа акционарског капитала.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan10">
+					<num>10.</num>
+					<paragraph wId="gla4-clan10-stav1">
+						<content>
+							<p>Резерве сигурности за послове осигурања извоза од некомерцијалних ризика, као и за послове осигурања извоза од комерцијалних ризика, формирају се од премија осигурања, регреса по исплаћеним накнадама штета и из дела добити коју Агенција остварује пословањем из области осигурања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan10-stav2">
+						<content>
+							<p>Резерве сигурности се користе за измирење обавеза према осигураницима и за покриће губитака из послова осигурања од некомерцијалних и комерцијалних ризика.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan10-stav3">
+						<content>
+							<p>Почетна средства за формирање резерви сигурности Агенције за послове осигурања од некомерцијалних и комерцијалних ризика, обезбеђују се из оснивачког капитала.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>ПОСЛОВАЊЕ АГЕНЦИЈЕ</heading>
+				<article wId="gla5-clan11">
+					<num>11.</num>
+					<paragraph wId="gla5-clan11-stav1">
+						<content>
+							<p>Агенција послује према начелима ликвидности, сигурности и рентабилности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan11-stav2">
+						<content>
+							<p>Агенција својим актима одређује услове и начин очувања реалне вредности средстава, као и друге мере за заштиту од ризика његовог пословања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan11-stav3">
+						<content>
+							<p>Агенција је неликвидна уколико није измирила доспеле обавезе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan12">
+					<num>12.</num>
+					<paragraph wId="gla5-clan12-stav1">
+						<content>
+							<p>Агенција подноси редовни годишњи извештај о свом пословању Влади Републике Србије (у даљем тексту: Влада), а ванредни извештај по захтеву Владе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan13">
+					<num>13.</num>
+					<paragraph wId="gla5-clan13-stav1">
+						<content>
+							<p>Агенција води пословне књиге, саставља и подноси рачуноводствене извештаје и извештаје о пословању, у складу са законом којим се уређује рачуноводство и ревизија.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan14">
+					<num>14.</num>
+					<paragraph wId="gla5-clan14-stav1">
+						<content>
+							<p>Ревизија пословања Агенције обавља се у складу са законом којим се уређује рачуноводство и ревизија.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan14-stav2">
+						<content>
+							<p>Ревизија из &lt;ref wId=&quot;ref2&quot; href=&quot;akn/rs/act/2010/88-186/srp@/!main~act_14__para_1&quot; &gt;става 1. овог&lt;/ref&gt; члана може бити редовна и ванредна.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan14-stav3">
+						<content>
+							<p>Редовна ревизија обавља се за сваку годину, а ванредна на захтев министарства надлежног за послове финансија.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan14-stav4">
+						<content>
+							<p>Извештај о обављеној ревизији доставља се Влади.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla6">
+				<num>VI</num>
+				<heading>ОРГАНИ АГЕНЦИЈЕ</heading>
+				<article wId="gla6-clan15">
+					<num>15.</num>
+					<paragraph wId="gla6-clan15-stav1">
+						<content>
+							<p>Органи Агенције су: Скуштина, Управни одбор и Извршни одбор.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan16">
+					<num>16.</num>
+					<paragraph wId="gla6-clan16-stav1">
+						<content>
+							<p>Овлашћења Скупштине Агенције врши Влада преко овлашћених представника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan16-stav2">
+						<content>
+							<p>Када се повећа број акционара, Скупштину Агенције чине акционари са правом управљања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan16-stav3">
+						<content>
+							<p>Право управљања акционари остварују непосредно или преко својих представника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan16-stav4">
+						<content>
+							<p>У име Републике Србије као акционара, право из &lt;ref wId=&quot;ref3&quot; href=&quot;akn/rs/act/2010/88-186/srp@/!main~act_16__para_3&quot; &gt;става 3. овог&lt;/ref&gt; члана врши Влада.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan16-stav5">
+						<content>
+							<p>Статутом Агенције се утврђује минималан број акција као услов за чланство у Скупштини Агенције.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan17">
+					<num>17.</num>
+					<paragraph wId="gla6-clan17-stav1">
+						<content>
+							<p>Скупштина Агенције:</p>
+						</content>
+						<point wId="gla6-clan17-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> доноси Статут Агенције;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan17-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> доноси акта пословне политике;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan17-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> доноси акта којима ће се ближе уредити услови и начин обављања делатности Агенције;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan17-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> разматра годишње извештаје Управног одбора и Извршног одбора;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan17-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> усваја годишњи рачун Агенције и одлучује о употреби и распоређивању остварене добити, односно покрићу губитака;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan17-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> одлучује о повећању капитала Агенције и висини улагања у основна средства Агенције;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan17-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> одлучује о износу и структури резерви сигурности;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan17-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> именује и разрешава чланове Управног одбора;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan17-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> одлучује о статусним променама и променама правне форме Агенције;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan17-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p> именује и разрешава ревизора;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan17-stav1-tac11">
+							<num>11)</num>
+							<content>
+								<p> доноси план развоја и програм рада Агенције;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan17-stav1-tac12">
+							<num>12)</num>
+							<content>
+								<p> доноси пословник о свом раду;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan17-stav1-tac13">
+							<num>13)</num>
+							<content>
+								<p> обавља и друге послове утврђене овим законом, законом којим се уређује правни положај привредних друштава и Статутом Агенције.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan18">
+					<num>18.</num>
+					<paragraph wId="gla6-clan18-stav1">
+						<content>
+							<p>Управни одбор има председника, заменика председника и три члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan18-stav2">
+						<content>
+							<p>Председника, заменика председника и чланове Управног одбора именује и разрешава Скупштина Агенције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan18-stav3">
+						<content>
+							<p>Мандат председника и чланова Управног одбора Агенције је четири године и иста лица могу бити поново бирана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan19">
+					<num>19.</num>
+					<paragraph wId="gla6-clan19-stav1">
+						<content>
+							<p>Управни одбор Агенције:</p>
+						</content>
+						<point wId="gla6-clan19-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> сазива седнице Скупштине Агенције;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan19-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> заступа и води послове Агенције;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan19-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> припрема предлоге за Скупштину Агенције и извршава њене одлуке;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan19-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> разматра и предлаже усвајање извештаја о пословању Агенције у току године;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan19-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> подноси Скупштини Агенције извештај о пословању;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan19-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> даје смернице Извршном одбору за остваривање пословне политике;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan19-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> одлучује о трајној пословној сарадњи;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan19-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> издаје акције и утврђује њихову вредност, као и вредност имовине Агенције, у складу са законом;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan19-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> утврђује износ и дан дивиденде, дан плаћања и поступак плаћања дивиденде;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan19-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p> одлучује о давању и опозивању прокуре;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan19-stav1-tac11">
+							<num>11)</num>
+							<content>
+								<p> доноси општи акт о организацији и систематизацији;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan19-stav1-tac12">
+							<num>12)</num>
+							<content>
+								<p> доноси пословник о свом раду;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan19-stav1-tac13">
+							<num>13)</num>
+							<content>
+								<p> обавља и друге послове утврђене овим законом, законом којим се уређује правни положај привредних друштава и Статутом Агенције.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla6-clan19-stav2">
+						<content>
+							<p>О питањима из свог делокруга Управни одбор одлучује већином гласова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan19-stav3">
+						<content>
+							<p>У случају једнаке поделе гласова, одлучујући је глас председника Управног одбора.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan20">
+					<num>20.</num>
+					<paragraph wId="gla6-clan20-stav1">
+						<content>
+							<p>Управни одбор бира чланове Извршног одбора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan20-stav2">
+						<content>
+							<p>Чланови Извршног одбора су извршни директори.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan20-stav3">
+						<content>
+							<p>Делокруг Извршног одбора укључује спровођење одлука Управног одбора Агенције и сва питања повезана са вођењем послова и текућим пословима Агенције, осим питања која су у надлежности Управног одбора и Скупштине Агенције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan20-stav4">
+						<content>
+							<p>Делокруг Извршног одбора ближе се одређује Статутом Агенције.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan21">
+					<num>21.</num>
+					<paragraph wId="gla6-clan21-stav1">
+						<content>
+							<p>Председник Извршног одбора је генерални директор Агенције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan21-stav2">
+						<content>
+							<p>Генералног директора Агенције бира Управни одбор.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla7">
+				<num>VII</num>
+				<heading>СТАТУТ И ДРУГИ ОПШТИ АКТИ</heading>
+				<article wId="gla7-clan22">
+					<num>22.</num>
+					<paragraph wId="gla7-clan22-stav1">
+						<content>
+							<p>Општи акти Агенције су Статут и други акти којима се на општи начин уређују питања битна за рад Агенције.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan23">
+					<num>23.</num>
+					<paragraph wId="gla7-clan23-stav1">
+						<content>
+							<p>Статут садржи нарочито одредбе о:</p>
+						</content>
+						<point wId="gla7-clan23-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> називу и седишту Агенције;</p>
+							</content>
+						</point>
+						<point wId="gla7-clan23-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> делатности, односно пословима;</p>
+							</content>
+						</point>
+						<point wId="gla7-clan23-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> органима Агенције, делокругу, одговорности и начину одлучивања органа;</p>
+							</content>
+						</point>
+						<point wId="gla7-clan23-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> заступању Агенције и одговорности за обавезе;</p>
+							</content>
+						</point>
+						<point wId="gla7-clan23-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> расподели добити и сношењу губитака;</p>
+							</content>
+						</point>
+						<point wId="gla7-clan23-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> начину формирања и коришћења фондова и средстава резерви Агенције;</p>
+							</content>
+						</point>
+						<point wId="gla7-clan23-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> унутрашњој организацији Агенције;</p>
+							</content>
+						</point>
+						<point wId="gla7-clan23-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> општим актима и начину њиховог доношења;</p>
+							</content>
+						</point>
+						<point wId="gla7-clan23-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> начину и поступку измене Статута;</p>
+							</content>
+						</point>
+						<point wId="gla7-clan23-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p> другим питањима од значаја за рад и пословање Агенције, у складу са законом.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla8">
+				<num>VIII</num>
+				<heading>ЗАВРШНА ОДРЕДБА</heading>
+				<article wId="gla8-clan24">
+					<num>24.</num>
+					<paragraph wId="gla8-clan24-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</ns0:body>
+	</ns0:act>
+</ns0:akomaNtoso>

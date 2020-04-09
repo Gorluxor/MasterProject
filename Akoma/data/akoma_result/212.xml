@@ -1,1 +1,506 @@
-Овај закон ступа на снагу наредног дана од дана објављивања у „Службеном листу СРЈ”.
+<?xml version="1.0" ?>
+<ns0:akomaNtoso xmlns:ns0="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	
+
+	<ns0:act>
+		<ns0:meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2002/36-9/main"/>
+					<FRBRuri value="/rs/act/2002/36-9"/>
+					<FRBRdate date="2002" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2005/101-28/srp@/main"/>
+					<FRBRuri value="/rs/act/2005/101-28/srp@"/>
+					<FRBRdate date="2005" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2005/101-28/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2005/101-28/srp@.akn"/>
+					<FRBRdate date="2005" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2002-7-3" name="службени лист срј" number="36" showAs="Службени лист СРЈ"/>
+			<classification source="#somebody">
+				<keyword id="vrsta" showAs="Закон" value="закон"/>
+				<keyword id="oblast" showAs="IV ЈАВНИ ПРИХОДИ" value="iv јавни приходи"/>
+				<keyword id="grupa" showAs="4. Јавни зајмови" value="4. јавни зајмови"/>
+			</classification>
+			<workflow source="#somebody">
+				<step date="2002-07-02" id="usvajanje"/>
+				<step date="2002-07-04" id="stupanje_na_snagu"/>
+				<step date="2002-07-04" id="primena"/>
+			</workflow>
+			<lifecycle source="#somebody">
+				<eventRef date="36/2002-9" id="e1" type="generation"/>
+				<eventRef date="101/2005-28" id="e2" type="amendment"/>
+			</lifecycle>
+			<notes source="#somebody">
+				<note id="not1">
+					<p>Закон је ступио на снагу наредног дана од дана објављивања у „Службеном листу СРЈ”, односно 4. јула 2002. године (види члан 25. Закона).Промењене су висине новчаних казни (види члан 29. Закона – РС 101/2005-28).</p>
+				</note>
+			</notes>
+		</ns0:meta>
+		<preface>
+			<title>ЗАКОН</title>
+			<title>о регулисању јавног дуга   Савезне   Републике   Југославије  по уговорима о девизним депозитима грађана ороченим код   Дафимент  банке   АД,   Београд,  у ликвидацији и по девизним средствима грађана положеним код   Банке   приватне  привредне   Црне   Горе   ДД,   Подгорица</title>
+			<date>„Службени лист СРЈ”, број 36 од 3.  јула 2002, &quot;Службени гласник РС&quot;, број  101 од 21. новембра 2005    - др. закон</date>
+		</preface>
+		<ns0:body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређују се услови и начин регулисања обавеза по основу неисплаћених ороћених девизних средстава грађана по уговорима о депозиту грађана код Дафимент банке АД, Београд, у ликвидацији (у даљем тексту: депозити) који су постали јавни дуг Савезне Републике Југославије у складу са чланом 4. Закона о измирењу обавеза по основу девизне штедње грађана („&lt;ref wId=&quot;ref0&quot; href=&quot;akn/rs/act/98/59/srp@&quot;&gt;Службени лист СРЈ”, бр. 59/98, 44/99&lt;/ref&gt; и 53/2001) (у даљем тексту: Закон).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Јавни дуг из &lt;ref wId=&quot;ref1&quot; href=&quot;akn/rs/act/2005/101-28/srp@/!main~art_1&quot; &gt;члана 1. овог&lt;/ref&gt; закона обухвата неисплаћене орочћене депозите, умањене за износ обрачунатих уговорених камата на те депозите и за износ исплата извршених по депозитима до отварања поступка ликвидације над банком из тог члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav2">
+						<content>
+							<p>На јавни дуг из &lt;ref wId=&quot;ref3&quot; href=&quot;akn/rs/act/2005/101-28/srp@/!main~act_2__para_1&quot; &gt;става 1. овог&lt;/ref&gt; члана не обрачунава се камата из &lt;ref wId=&quot;ref2&quot; href=&quot;akn/rs/act/2005/101-28/srp@/!main~art_3&quot; &gt;члана 3. &lt;/ref&gt;Закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav3">
+						<content>
+							<p>Висина јавног дуга из &lt;ref wId=&quot;ref4&quot; href=&quot;akn/rs/act/2005/101-28/srp@/!main~act_2__para_1&quot; &gt;става 1. овог&lt;/ref&gt; члана утврђује се на начин и под условима које пропишу владе Републике Србије и Републике Црне Горе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<paragraph wId="gla1-clan3-stav1">
+						<content>
+							<p>Обавеза Савезне Републике Југославије по основу јавног дуга из &lt;ref wId=&quot;ref5&quot; href=&quot;akn/rs/act/2005/101-28/srp@/!main~art_2&quot; &gt;члана 2. овог&lt;/ref&gt; закона постаје, од дана ступања на снагу тог закона, обавеза, односно дуг Републике Србије и Републике Црне Горе – сразмерно висини девизних депозита грађана чије је пребивалиште на територији тих република.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ДИНАМИКА ИЗВРШАВАЊА ОБАВЕЗА</heading>
+				<article wId="gla2-clan4">
+					<num>4.</num>
+					<paragraph wId="gla2-clan4-stav1">
+						<content>
+							<p>Обавезе према грађанима из &lt;ref wId=&quot;ref6&quot; href=&quot;akn/rs/act/2005/101-28/srp@/!main~art_1&quot; &gt;члана 1. овог&lt;/ref&gt; закона (у даљем тексту: депоненти) извршавају се у периоду од 2002. до 2004. године, према следећој динамици:</p>
+						</content>
+						<alinea wId="gla2-clan4-stav1-ali1">
+							<content>
+								<p> току 2002. године – у висини до 280 евра,</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan4-stav1-ali2">
+							<content>
+								<p>1. маја 2003. године – у висини до 380 евра,</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan4-stav1-ali3">
+							<content>
+								<p>1. маја 2004. године – у висини до 530 евра.</p>
+							</content>
+						</alinea>
+					</paragraph>
+					<paragraph wId="gla2-clan4-stav2">
+						<content>
+							<p>Преостали износ обавеза према депонентима исплаћује се у 12 годишњих рада, које расту по стпи геометријске прогресије од 10% и доспевају сваког 31. маја у периоду од 2005. до 2016. године, а израчунавају се множењем тог износа следећим коефицијентима:</p>
+						</content>
+						<alinea wId="gla2-clan4-stav2-ali1">
+							<content>
+								<p>а 2005. годину – коефицијентом 0,04676332,</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan4-stav2-ali2">
+							<content>
+								<p>а 2006. годину – коефицијентом 0,05143965,</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan4-stav2-ali3">
+							<content>
+								<p>а 2007. годину – коефицијентом 0,05658361,</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan4-stav2-ali4">
+							<content>
+								<p>а 2008. годину – коефицијентом 0,06224197,</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan4-stav2-ali5">
+							<content>
+								<p>а 2009. годину – коефицијентом 0,06846617,</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan4-stav2-ali6">
+							<content>
+								<p>а 2010. годину – коефицијентом 0,07531279,</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan4-stav2-ali7">
+							<content>
+								<p>а 2011. годину – коефицијентом 0,08284407,</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan4-stav2-ali8">
+							<content>
+								<p>а 2012. годину – коефицијентом 0,09112847,</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan4-stav2-ali9">
+							<content>
+								<p>а 2013. годину – коефицијентом 0,10024132,</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan4-stav2-ali10">
+							<content>
+								<p>а 2014. годину – коефицијентом 0,11026545,</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan4-stav2-ali11">
+							<content>
+								<p>а 2015. годину – коефицијентом 0,12129200,</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan4-stav2-ali12">
+							<content>
+								<p>а 2016. годину – коефицијентом 0,13342120.</p>
+							</content>
+						</alinea>
+					</paragraph>
+					<paragraph wId="gla2-clan4-stav3">
+						<content>
+							<p>Депоненти стичу право на исплату доспелих обавеза из овог члана од дана када се утврди висина обавезе према њима, односно од дана када добију потврду о томе од надлжених органа влада Републике Србије и Републике Црне Горе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan4-stav4">
+						<content>
+							<p>Право на исплату у смислу овог члана, које не укључује обрачунавање и плаћање камате, утврђује се по једном депоненту.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan4-stav5">
+						<content>
+							<p>Депоненти имају право на исплату годишње рате у висини од најмање 500 евра – ако су годишње рате из &lt;ref wId=&quot;ref7&quot; href=&quot;akn/rs/act/2005/101-28/srp@/!main~act_4__para_2&quot; &gt;става 2. овог&lt;/ref&gt; члана мање од тог ихноса.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan4-stav6">
+						<content>
+							<p>Начин и услове издавања потврде из &lt;ref wId=&quot;ref8&quot; href=&quot;akn/rs/act/2005/101-28/srp@/!main~act_4__para_3&quot; &gt;става 3. овог&lt;/ref&gt; члана утврђују владе Републике Србије и Републике Црне Горе.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>НАЧИН РЕГУЛИСАЊА ЈАВНОГ ДУГА САВЕЗНЕ РЕПУБЛИКЕ ЈУГОСЛАВИЈЕ – ОБВЕЗНИЦЕ</heading>
+				<article wId="gla3-clan5">
+					<num>5.</num>
+					<paragraph wId="gla3-clan5-stav1">
+						<content>
+							<p>Ради регулисања јавног дуга Савезне Републике Југославије из &lt;ref wId=&quot;ref9&quot; href=&quot;akn/rs/act/2005/101-28/srp@/!main~art_1&quot; &gt;члана 1. овог&lt;/ref&gt; закона који је постао дуг Републике Србије и Републике Црне Горе – Република Србија и Република Црна Гора емитоваће обвезнице, које гласе на евро.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan5-stav2">
+						<content>
+							<p>Обвезнице из &lt;ref wId=&quot;ref10&quot; href=&quot;akn/rs/act/2005/101-28/srp@/!main~act_5__para_1&quot; &gt;става 1. овог&lt;/ref&gt; члана емитују се у нематеријалном облику, без купона, појединачно за сваку годину, и региструју код Народне банке Југославије – Завода за обрачун и плаћања – Централног регистра, деопоа и клиринга хартија од вредности (у даљем тексту: Централни регистар).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan5-stav3">
+						<content>
+							<p>Обвезнице из &lt;ref wId=&quot;ref11&quot; href=&quot;akn/rs/act/2005/101-28/srp@/!main~act_5__para_1&quot; &gt;става 1. овог&lt;/ref&gt; члана гласе на име и преносиве су, а исплаћују се у еврима или, на захтев власника тих обвезница – у динарима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan5-stav4">
+						<content>
+							<p>Основне елементе обвезница, износ емисије, као и услове дистрибуције и наплате тих обвезница, прописују владе Републике Србије и Републике Црне Горе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan6">
+					<num>6.</num>
+					<paragraph wId="gla3-clan6-stav1">
+						<content>
+							<p>Обвезницама из &lt;ref wId=&quot;ref12&quot; href=&quot;akn/rs/act/2005/101-28/srp@/!main~art_5&quot; &gt;члана 5. овог&lt;/ref&gt; закона регулишу се обавезе према депонентима утврђене у смислу &lt;ref wId=&quot;ref13&quot; href=&quot;akn/rs/act/2005/101-28/srp@/!main~art_4&quot; &gt;члана 4. &lt;/ref&gt;тог закона – конверзијом депозита депонената у обвезнице.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan6-stav2">
+						<content>
+							<p>Регулисање обавеза према депонентима у смислу &lt;ref wId=&quot;ref14&quot; href=&quot;akn/rs/act/2005/101-28/srp@/!main~act_6__para_1&quot; &gt;става 1. овог&lt;/ref&gt; члана извршава се на начин и под условима које пропишу владе Републике Србије и Републике Црне Горе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan7">
+					<num>7.</num>
+					<paragraph wId="gla3-clan7-stav1">
+						<content>
+							<p>Вредност извршене конверзије депозита у обвезнице региструје се у Централном регистру – на рачуну хартија од вредности, а депоненту се о томе уручује потврда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan7-stav2">
+						<content>
+							<p>На основу рачуна отвореног у Централном регистру, депонент остварује права из обвезница, и то исплату у роковима из овог закона, пренос власништва, трговину и друга права.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan8">
+					<num>8.</num>
+					<paragraph wId="gla3-clan8-stav1">
+						<content>
+							<p>Ближе услове и начин вршења конверзхије депозита депонената у обвезнице у смислу овог закона, начин њиховог књиговодственог евидентирања, као и начин регистрације обвезница у Централном регистру, прописују владе Републике Србије и Републике Црне Горе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan9">
+					<num>9.</num>
+					<paragraph wId="gla3-clan9-stav1">
+						<content>
+							<p>Промет обвезница емитованих у складу са овим законом је слободан и ослобођен пореза на промет, провизије на платни промет, пореза на капиталну добит, пореза на финансијске трансакције, као и других пореза.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan9-stav2">
+						<content>
+							<p>Домаће правно лице и предузетник, домаће физичко лице и грађани на привременом раду у иностранству, као и страно физичко и правно лице, обвезнице из &lt;ref wId=&quot;ref15&quot; href=&quot;akn/rs/act/2005/101-28/srp@/!main~art_5&quot; &gt;члана 5. овог&lt;/ref&gt; закона могу куповати и продавати на финансијској берзи за девизе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan10">
+					<num>10.</num>
+					<paragraph wId="gla3-clan10-stav1">
+						<content>
+							<p>Девизе остварене продајом обвезница у смислу &lt;ref wId=&quot;ref16&quot; href=&quot;akn/rs/act/2005/101-28/srp@/!main~art_9__para_2&quot; &gt;члана 9. став 2. овог&lt;/ref&gt; закона, домаће правно лице и предузетник и страно физичко и правно лице држе на девизном рачуну.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan10-stav2">
+						<content>
+							<p>Девизе из &lt;ref wId=&quot;ref17&quot; href=&quot;akn/rs/act/2005/101-28/srp@/!main~act_10__para_1&quot; &gt;става 1. овог&lt;/ref&gt; члана, као и девизе остварене наплатом обвезница у року доспећа, страно физичко и правно лице могу слободно трансферисати у иностранство.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan11">
+					<num>11.</num>
+					<paragraph wId="gla3-clan11-stav1">
+						<content>
+							<p>Обвезнице из &lt;ref wId=&quot;ref18&quot; href=&quot;akn/rs/act/2005/101-28/srp@/!main~art_5&quot; &gt;члана 5. овог&lt;/ref&gt; закона којима су регулисане обавезе према депонентима могу се, пре рока доспећа, користити за:</p>
+						</content>
+						<point wId="gla3-clan11-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> куповину акција предузећа у процесу својинске трансформације, ради продаје друштвених капитала;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan11-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> куповину акција овлашћених банака;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan11-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> куповину станова, стамбених објеката, пословног простора, земљишта и друге имовине у државној својини.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan11-stav2">
+						<content>
+							<p>Ближе услове коришћења обезници за намене из &lt;ref wId=&quot;ref19&quot; href=&quot;akn/rs/act/2005/101-28/srp@/!main~act_11__para_1&quot; &gt;става 1. овог&lt;/ref&gt; члана утврђују власници имовине из тог става.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan12">
+					<num>12.</num>
+					<paragraph wId="gla3-clan12-stav1">
+						<content>
+							<p>Власник обвезница из &lt;ref wId=&quot;ref20&quot; href=&quot;akn/rs/act/2005/101-28/srp@/!main~art_5&quot; &gt;члана 5. овог&lt;/ref&gt; закона може у роковима њиховог доспећа, поред плаћања из &lt;ref wId=&quot;ref21&quot; href=&quot;akn/rs/act/2005/101-28/srp@/!main~art_11&quot; &gt;члана 11. овог&lt;/ref&gt; закона, плаћати и порез на промет, акцизе, порез на имовуну, порез на доходак грађана и порез на добит корпорација.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan13">
+					<num>13.</num>
+					<paragraph wId="gla3-clan13-stav1">
+						<content>
+							<p>Иницијални власник обвезница из &lt;ref wId=&quot;ref22&quot; href=&quot;akn/rs/act/2005/101-28/srp@/!main~art_5&quot; &gt;члана 5. овог&lt;/ref&gt; закона може те обвезнице користити пре рока доспећа, и то за плаћање трошкова лећења, за набавку лекова, за плаћање трошкова сахране и у другим случајевима – до износа стравних трошкова, под условима и до износа које пропишу републичке владе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan13-stav2">
+						<content>
+							<p>Иницијалним власником из &lt;ref wId=&quot;ref24&quot; href=&quot;akn/rs/act/2005/101-28/srp@/!main~act_13__para_1&quot; &gt;става 1. овог&lt;/ref&gt; члана сматра се депонент чији су депозити конвертовани у обвезнице у смислу &lt;ref wId=&quot;ref23&quot; href=&quot;akn/rs/act/2005/101-28/srp@/!main~art_6&quot; &gt;члана 6. овог&lt;/ref&gt; закона.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>ИЗВОРИ СРЕДСТАВА ЗА ИСПЛАТУ ОБВЕЗНИЦА</heading>
+				<article wId="gla4-clan14">
+					<num>14.</num>
+					<paragraph wId="gla4-clan14-stav1">
+						<content>
+							<p>Средства за исплату обвезница у смислу овог закона обезбеђују Република Србије и Република Црна Гора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan14-stav2">
+						<content>
+							<p>Орган Надлежан за спровођење поступка ликвидације над банком из &lt;ref wId=&quot;ref25&quot; href=&quot;akn/rs/act/2005/101-28/srp@/!main~art_1&quot; &gt;члана 1. овог&lt;/ref&gt; закона дужан је да сву имовину те банке која улази у ликвидациону масу до висине обавеза те банке према депонентима, пренесе Републици Србији и Републици Црној Гори.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan15">
+					<num>15.</num>
+					<paragraph wId="gla4-clan15-stav1">
+						<content>
+							<p>Средства из &lt;ref wId=&quot;ref26&quot; href=&quot;akn/rs/act/2005/101-28/srp@/!main~art_14&quot; &gt;члана 14. овог&lt;/ref&gt; члана уплаћују се на посебан рачун отворен код Народне банке Југославије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan15-stav2">
+						<content>
+							<p>Ближе услове за куповину девизних средстава ради исплате обвезница из &lt;ref wId=&quot;ref27&quot; href=&quot;akn/rs/act/2005/101-28/srp@/!main~art_5&quot; &gt;члана 5. овог&lt;/ref&gt; закона утврђује Народна банка Југославије.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>ПОСЕБНЕ ОДРЕДБЕ О РЕГУЛИСАЊУ ОБАВЕЗА ПРЕМА ГРАЂАНИМА КОЈИ СУ ДЕВИЗНА СРЕДСТВА ПОЛОЖИЛИ КОД БАНКЕ ПРИВАТНЕ ПРИВРЕДЕ ЦРНЕ ГОРЕ ДД. ПОДГОРИЦА</heading>
+				<article wId="gla5-clan16">
+					<num>16.</num>
+					<paragraph wId="gla5-clan16-stav1">
+						<content>
+							<p>Девизна средства која су грађани положили у периоду од 15. октобра 1988. године до 18. марта 1995. године код Банке приватне привреде Црне Горе д.д., Подгорица (у даљем тексту: Банка приватне привреде) на основу уговора о орочавању девизних средстава на девизну штедњу (у даљем тексту: девизна средства) представљају, у смислу овог закона, јавни дуг Савезне Републике Југославије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan17">
+					<num>17.</num>
+					<paragraph wId="gla5-clan17-stav1">
+						<content>
+							<p>Јавни дуг из &lt;ref wId=&quot;ref28&quot; href=&quot;akn/rs/act/2005/101-28/srp@/!main~art_16&quot; &gt;члана 16. овог&lt;/ref&gt; закона обухвата неисплаћена девизна средства умањена за износ обрачунатих уговорених камата и за износ извршених исплата до дана ступања на снагу тог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan17-stav2">
+						<content>
+							<p>На јавни дуг из &lt;ref wId=&quot;ref30&quot; href=&quot;akn/rs/act/2005/101-28/srp@/!main~act_17__para_1&quot; &gt;става 1. овог&lt;/ref&gt; члана не обрачунава се камата из &lt;ref wId=&quot;ref29&quot; href=&quot;akn/rs/act/2005/101-28/srp@/!main~art_3&quot; &gt;члана 3. &lt;/ref&gt;Закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan18">
+					<num>18.</num>
+					<paragraph wId="gla5-clan18-stav1">
+						<content>
+							<p>Обавеза Савезне Републике Југославије по основу јавног дуга из &lt;ref wId=&quot;ref31&quot; href=&quot;akn/rs/act/2005/101-28/srp@/!main~art_16&quot; &gt;члана 16. овог&lt;/ref&gt; закона постаје, даном ступања на снагу тог закона, обавеза, односно дуг Републике Србије и Републике Црне Горе – сразмерно висини девизних средстава грађана чије је пребивалиште на територији тих република.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan19">
+					<num>19.</num>
+					<paragraph wId="gla5-clan19-stav1">
+						<content>
+							<p>Обавезе према грађанима који су девизна средства положили код Банке приватне привреде извршавају се према динамици и на начин који су утврђени одредбама чл. од 4. до 13. овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan20">
+					<num>20.</num>
+					<paragraph wId="gla5-clan20-stav1">
+						<content>
+							<p>Средства за исплату обвезница грађанима који су девизна средства положили код Банке приватне привреде обезбеђују Република Србија и Република Црна Гора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav2">
+						<content>
+							<p>Орган надлежан за спровођење поступка стечаја над предузеће „Југоскандик” ДД. Београд, у стечају, преко кога су грађани полагали девизна средства код Банке приватне привреде, дужан је да сву имовину тог предузећа из стечајне масе – до висине обавеза према грађанима у смислу &lt;ref wId=&quot;ref32&quot; href=&quot;akn/rs/act/2005/101-28/srp@/!main~art_17&quot; &gt;члана 17. овог&lt;/ref&gt; закона – пренесе Републици Србјији и Републици Црној Гори.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav3">
+						<content>
+							<p>Средства из ст. 1. и 2. овог члана уплаћује се на посебан рачун отворен код Народне банке Југославије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav4">
+						<content>
+							<p>Ближе услове за куповину девизних средстава ради исполате обвезница грађанима из &lt;ref wId=&quot;ref33&quot; href=&quot;akn/rs/act/2005/101-28/srp@/!main~act_20__para_1&quot; &gt;става 1. овог&lt;/ref&gt; члана уређује Народна банка Југославије.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla6">
+				<num>VI</num>
+				<heading>КАЗНЕНЕ ОДРЕДБЕ</heading>
+				<article wId="gla6-clan21">
+					<num>21.</num>
+					<paragraph wId="gla6-clan21-stav1">
+						<content>
+							<p>Новчаном казном од 90. до 450.000 динара казниће се за привредни преступ домаће правно или страно правно лице ако девизе остварене продајом обвезница у смислу &lt;ref wId=&quot;ref34&quot; href=&quot;akn/rs/act/2005/101-28/srp@/!main~art_9__para_2&quot; &gt;члана 9. став 2. овог&lt;/ref&gt; закона не држи на девизном рачуну (&lt;ref wId=&quot;ref35&quot; href=&quot;akn/rs/act/2005/101-28/srp@/!main~art_10__para_1&quot; &gt;члан 10. став 1&lt;/ref&gt;).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan21-stav2">
+						<content>
+							<p>За радње из &lt;ref wId=&quot;ref36&quot; href=&quot;akn/rs/act/2005/101-28/srp@/!main~act_21__para_1&quot; &gt;става 1. овог&lt;/ref&gt; члана казниће се за привредни преступ и одговорно лице у домаћем правном, односно страном правном лицу – новчаном казном од 3.000 до 15.000 динара.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan22">
+					<num>22.</num>
+					<paragraph wId="gla6-clan22-stav1">
+						<content>
+							<p>Новчаном казном од 5.000 до 50.000 динара* казниће се за прекршај предузетник за радње из &lt;ref wId=&quot;ref37&quot; href=&quot;akn/rs/act/2005/101-28/srp@/!main~art_21__para_1&quot; &gt;члана 21. став 1. овог&lt;/ref&gt; закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan22-stav2">
+						<content>
+							<p>За радње из &lt;ref wId=&quot;ref38&quot; href=&quot;akn/rs/act/2005/101-28/srp@/!main~act_22__para_1&quot; &gt;става 1. овог&lt;/ref&gt; члана може се, уз новчану казну, изрећи и заштитна мера забране вршења самосталне делатности, у трајању од три месец до једне године.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan23">
+					<num>23.</num>
+					<heading>*Службени гласник РС, број 101/2005</heading>
+					<paragraph wId="gla6-clan23-stav1">
+						<content>
+							<p>Новчаном казном од 5.000 до 50.000 динара* казниће се за прекршај страно физичко лице ако девизе остварене продајом обвезница у смислу &lt;ref wId=&quot;ref39&quot; href=&quot;akn/rs/act/2005/101-28/srp@/!main~art_9__para_2&quot; &gt;члана 9. став 2. овог&lt;/ref&gt; закона не држи на девизном рачуну (&lt;ref wId=&quot;ref40&quot; href=&quot;akn/rs/act/2005/101-28/srp@/!main~art_10__para_1&quot; &gt;члан 10. став 1&lt;/ref&gt;.).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan23-stav2">
+						<content>
+							<p>*&lt;ref wId=&quot;ref41&quot; href=&quot;akn/rs/act/2005/101/srp@&quot;&gt;Службени гласник РС, број 101/2005&lt;/ref&gt;</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla7">
+				<num>VII</num>
+				<heading>ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+				<article wId="gla7-clan24">
+					<num>24.</num>
+					<paragraph wId="gla7-clan24-stav1">
+						<content>
+							<p>Република Србија и Република Црна Гора обезбедиће посебна средства за банке које преузимају послове у вези са измирењем обавеза према депонентима у смислу овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan25">
+					<num>25.</num>
+					<paragraph wId="gla7-clan25-stav1">
+						<content>
+							<p>Овај закон ступа на снагу наредног дана од дана објављивања у „Службеном листу СРЈ”.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</ns0:body>
+	</ns0:act>
+</ns0:akomaNtoso>

@@ -1,1 +1,147 @@
-Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.
+<?xml version="1.0" ?>
+<ns0:akomaNtoso xmlns:ns0="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	
+
+	<ns0:act>
+		<ns0:meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/1994/71-2437/main"/>
+					<FRBRuri value="/rs/act/1994/71-2437"/>
+					<FRBRdate date="1994" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/1994/71-2437/srp@/main"/>
+					<FRBRuri value="/rs/act/1994/71-2437/srp@"/>
+					<FRBRdate date="1994" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/1994/71-2437/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/1994/71-2437/srp@.akn"/>
+					<FRBRdate date="1994" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="1994-12-22" name="службени гласник рс" number="71" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword id="vrsta" showAs="Закон" value="закон"/>
+				<keyword id="oblast" showAs="I ДРЖАВНО УРЕЂЕЊЕ" value="i државно уређење"/>
+				<keyword id="grupa" showAs="11. Државна управа, управна инспекција и инспекцијски надзор" value="11. државна управа, управна инспекција и инспекцијски надзор"/>
+			</classification>
+			<workflow source="#somebody">
+				<step date="1994-12-21" id="usvajanje"/>
+				<step date="1994-12-30" id="stupanje_na_snagu"/>
+				<step date="1994-12-30" id="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note id="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 30. децембра 1994. године (види члан 9. Закона).</p>
+				</note>
+			</notes>
+		</ns0:meta>
+		<preface>
+			<title>ЗАКОН</title>
+			<title>о Републичком сеизмолошком заводу</title>
+			<date>„Службени гласник РС”, број 71 од 22.  децембра 1994.</date>
+		</preface>
+		<ns0:body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>За обављање сеизмолошких послова од значаја за остваривање права и дужности Републике, образује се Републички сеизмолошки завод као посебна организација.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan1-stav2">
+					<content>
+						<p>Седиште Републичког сеизмолошког завода је у Београду.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Републички сеизмолошки завод (у даљем тексту: Завод) обавља стручне послове који се односе на: систематско регистровање, прикупљање, анализирање и проучавање сеизмичких и сеизмотектонских појава (природни и индуковани земљотреси, експлозије и горски удари), прогнозирање њиховог утицаја на земљиште, воде, водотоке и објекте; пројектовање и одржавање мреже сеизмолошких станица и израда сеизмолошких карата (епицентара, сеизмичког хазарда, ризика, максимално догођених интензитета); учешће у изради прописа за изградњу у сеизмичким подручјима, као и за сеизмичко осматрање капиталних објеката код којих земљотреси могу изазвати катастрофалне последице; учешће у изради перспективног и годишњег плана сеизмолошких истраживања од интереса за Републику и учешће у извршавању тих планова и изради предлога за просторно и урбанистичко планирање, као и учешћe у изради и усавршавању прописа за сеизмичко пројектовање; израду предлога за планирање и организацију система цивилне заштите, код израде планова за заштиту од земљотреса и мера за отклањање последица и вођења одговарајуће сеизмолошке документације, њено архивирање и чување; објављивање прикупљених података о сеизмичким и сеизмотектонским појавама и друге сеизмолошке послове који се утврде годишњим и вишегодишњим програмима.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>Завод учествује у међународној размени сеизмолошких података и сарађује на регионалним сеизмолошким пројектима од интереса за Републику.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Завод може, у оквиру утврђених послова, пружати услуге предузећима и другим организацијама уз одговарајућу накнаду.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan4">
+				<num>4.</num>
+				<paragraph wId="clan4-stav1">
+					<content>
+						<p>Завод почиње са радом 1. јануара 1995. године.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan4-stav2">
+					<content>
+						<p>Даном почетка рада Завода престаје са радом Сеизмолошки завод у Београду, Ташмајдански парк бб (у даљем тексту: Сеизмолошки завод).</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan5">
+				<num>5.</num>
+				<paragraph wId="clan5-stav1">
+					<content>
+						<p>Предмете, архиву и други регистратурски материјал, објекте, опрему, средства за рад и друга средства Сеизмолошког завода преузима Завод.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan6">
+				<num>6.</num>
+				<paragraph wId="clan6-stav1">
+					<content>
+						<p>Запослени у Сеизмолошком заводу настављају да раде у Заводу на пословима на којима су били распоређени до ступања на снагу овог закона, а до доношења решења о распоређивању запослених у складу са актом о организацији и систематизацији радних места у Заводу.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan7">
+				<num>7.</num>
+				<paragraph wId="clan7-stav1">
+					<content>
+						<p>Влада Републике Србије именоваће директора Завода најкасније у року од 30 дана од дана почетка рада Завода.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav2">
+					<content>
+						<p>До именовања директора Завода, дужност директора вршиће директор Сеизмолошког завода, који ће спровести поступак брисања Сеизмолошког завода из судског регистра и извршити припремне радње за почетак рада Завода.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan8">
+				<num>8.</num>
+				<paragraph wId="clan8-stav1">
+					<content>
+						<p>Даном ступања на снагу овог закона престаје да важи Закон о вршењу сеизмолошких послова („&lt;ref wId=&quot;ref0&quot; href=&quot;akn/rs/act/84/20/srp@&quot;&gt;Службени гласник СРС”, број 20/84&lt;/ref&gt;).</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan9">
+				<num>9.</num>
+				<paragraph wId="clan9-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+					</content>
+				</paragraph>
+			</article>
+		</ns0:body>
+	</ns0:act>
+</ns0:akomaNtoso>

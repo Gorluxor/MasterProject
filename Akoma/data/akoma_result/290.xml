@@ -1,1 +1,116 @@
-Трансакције у вези са измиривањем обавеза Републике Србије према Фонду обављају се преко Народне банке Србије, као фискалног агента Републике Србије у Фонду.
+<?xml version="1.0" ?>
+<ns0:akomaNtoso xmlns:ns0="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	
+
+	<ns0:act>
+		<ns0:meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2009/88-50/main"/>
+					<FRBRuri value="/rs/act/2009/88-50"/>
+					<FRBRdate date="2009" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2009/88-50/srp@/main"/>
+					<FRBRuri value="/rs/act/2009/88-50/srp@"/>
+					<FRBRdate date="2009" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2009/88-50/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2009/88-50/srp@.akn"/>
+					<FRBRdate date="2009" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2009-10-28" name="службени гласник рс“" number="88" showAs="Службени гласник РС“"/>
+			<classification source="#somebody">
+				<keyword id="vrsta" showAs="Закон" value="закон"/>
+				<keyword id="oblast" showAs="V МОНЕТАРНИ СИСТЕМ, ФИНАНСИЈСКЕ ОРГАНИЗАЦИЈЕ И ФИНАНСИЈСКО ПОСЛОВАЊЕ" value="v монетарни систем, финансијске организације и финансијско пословање"/>
+				<keyword id="grupa" showAs="9. Задуживање и гаранције" value="9. задуживање и гаранције"/>
+			</classification>
+			<workflow source="#somebody">
+				<step date="2009-10-26" id="usvajanje"/>
+				<step date="2009-10-29" id="stupanje_na_snagu"/>
+				<step date="2009-10-29" id="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note id="not1">
+					<p>Закон је ступио на снагу наредног дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 29. октобра 2009. године (види члан 7. Закона).</p>
+				</note>
+			</notes>
+		</ns0:meta>
+		<preface>
+			<title>ЗАКОН</title>
+			<title>о регулисању обавеза Републике Србије према Међународном монетарном фонду по основу коришћења средстава алокације специјалних права вучења   одобрених резолуцијама одбора гувернера бр. 64-3 и бр. 52-4</title>
+			<date>„Службени гласник РС“, број 88 од 28. октобра 2009.</date>
+		</preface>
+		<ns0:body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Овим законом уређују се обавезе Републике Србије према Међународном монетарном фонду по основу коришћења средстава алокације специјалних права вучења одобрених Републици Србији Резолуцијом Одбора гувернера Међународног монетарног фонда (у даљем тексту: Фонд) о општој алокацији специјалних права вучења (Резолуција бр. 64-3 од 7. августа 2009. године) и Резолуцијом Одбора гувернера Фонда о IV измени Статута Фонда (Резолуција бр. 52-4 од 23. септембра 1997. године, која је ступила на снагу 10. августа 2009. године) – посебна алокација, у укупном износу од 388.370.952 специјалних права вучења (у даљем тексту: СПВ), односно 346.710.593 СПВ по основу опште алокације и 41.660.359 СПВ по основу посебне алокације.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Народна банка Србије, као фискални агент Републике Србије и депозитар новчаних средстава Фонда, овлашћена је да прими и трансферише средства из &lt;ref wId=&quot;ref0&quot; href=&quot;akn/rs/act/2009/88-50/srp@/!main~art_1&quot; &gt;члана 1. овог&lt;/ref&gt; закона на посебни рачун Министарства финансија, који ће за ту намену бити отворен код Народне банке Србије.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Средства из &lt;ref wId=&quot;ref1&quot; href=&quot;akn/rs/act/2009/88-50/srp@/!main~art_1&quot; &gt;члана 1. овог&lt;/ref&gt; закона користиће се за потребе финансирања буџетског дефицита и рефинансирање дуга Републике Србије.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan4">
+				<num>4.</num>
+				<paragraph wId="clan4-stav1">
+					<content>
+						<p>Коришћење средстава из &lt;ref wId=&quot;ref2&quot; href=&quot;akn/rs/act/2009/88-50/srp@/!main~art_1&quot; &gt;члана 1. овог&lt;/ref&gt; закона представља дугорочну финансијску обавезу Републике Србије према Фонду.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan4-stav2">
+					<content>
+						<p>Средства за редовно сервисирање камате према Фонду по основу коришћења средстава из &lt;ref wId=&quot;ref3&quot; href=&quot;akn/rs/act/2009/88-50/srp@/!main~art_1&quot; &gt;члана 1. овог&lt;/ref&gt; закона, као и осталих припадајућих трошкова, Република Србија обезбедиће у буџету за текућу годину.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan5">
+				<num>5.</num>
+				<paragraph wId="clan5-stav1">
+					<content>
+						<p>Средства из &lt;ref wId=&quot;ref4&quot; href=&quot;akn/rs/act/2009/88-50/srp@/!main~art_1&quot; &gt;члана 1. овог&lt;/ref&gt; закона, Република Србија вратиће у роковима и на начин предвиђен Статутом Фонда, а на основу одлука Фонда везаних за повлачење или поништење средстава опште и посебне алокације.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan5-stav2">
+					<content>
+						<p>У случају из &lt;ref wId=&quot;ref5&quot; href=&quot;akn/rs/act/2009/88-50/srp@/!main~act_5__para_1&quot; &gt;става 1. овог&lt;/ref&gt; члана, средства за измиривање обавеза обезбеђиваће се у буџету Републике Србије.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan6">
+				<num>6.</num>
+				<paragraph wId="clan6-stav1">
+					<content>
+						<p>Трансакције у вези са измиривањем обавеза Републике Србије према Фонду обављају се преко Народне банке Србије, као фискалног агента Републике Србије у Фонду.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan7">
+				<num>7.</num>
+			</article>
+		</ns0:body>
+	</ns0:act>
+</ns0:akomaNtoso>

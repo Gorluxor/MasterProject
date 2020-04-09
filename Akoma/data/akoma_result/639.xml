@@ -1,1 +1,472 @@
-Центар почиње са радом даном уписа у судски регистар.*
+<?xml version="1.0" ?>
+<ns0:akomaNtoso xmlns:ns0="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	
+
+	<ns0:act>
+		<ns0:meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2005/110-9/main"/>
+					<FRBRuri value="/rs/act/2005/110-9"/>
+					<FRBRdate date="2005" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2019/49-3/srp@/main"/>
+					<FRBRuri value="/rs/act/2019/49-3/srp@"/>
+					<FRBRdate date="2019" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2019/49-3/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2019/49-3/srp@.akn"/>
+					<FRBRdate date="2019" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2005-12-12" name="службени гласник рс“" number="110" showAs="Службени гласник РС“"/>
+			<classification source="#somebody">
+				<keyword id="vrsta" showAs="Закон" value="закон"/>
+				<keyword id="oblast" showAs="XV ЈАВНЕ УСТАНОВЕ, НАУКА, ПРОСВЕТА, КУЛТУРА, ИНФОРМИСАЊЕ И СПОРТ" value="xv јавне установе, наука, просвета, култура, информисање и спорт"/>
+				<keyword id="grupa" showAs="4. Научноистраживачка делатност" value="4. научноистраживачка делатност"/>
+			</classification>
+			<workflow source="#somebody">
+				<step date="2005-12-08" id="usvajanje"/>
+				<step date="2005-12-20" id="stupanje_na_snagu"/>
+				<step date="2005-12-20" id="primena"/>
+			</workflow>
+			<lifecycle source="#somebody">
+				<eventRef date="110/2005-9" id="e1" type="generation"/>
+				<eventRef date="50/2006-20" id="e2" type="amendment"/>
+				<eventRef date="18/2010-86" id="e3" type="amendment"/>
+				<eventRef date="112/2015-49" id="e4" type="amendment"/>
+				<eventRef date="49/2019-3" id="e5" type="amendment"/>
+			</lifecycle>
+			<notes source="#somebody">
+				<note id="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 20. децембра 2005. године (види члан 119. Закона).До доношења одговарајућих прописа, примењиваће се подзаконски акти донети на основу Закона о научноистраживачкој делатности („Службени гласник РС“, број 52/1993) ако нису у супротности с овим законом (види члан 118. Закона).Закон о изменама и допунама Закона о научноистраживачкој делатности (Службени гласник РС, број 112/2015) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 7. јануара 2016. године (види члан 52. Закона - 112/2015-49).Закон је престао да важи ступањем на снагу Закона о науци и истраживању („Службени гласник РС“, број 49/2019), односно 16. јула 2019. године. , осим одредаба чл. 27а–27д које се односе на Центар за промоцију науке (види члан 136. Закона – 49/2019-3).</p>
+				</note>
+			</notes>
+		</ns0:meta>
+		<preface>
+			<title>ЗАКОН</title>
+			<title>о научноистраживачкој делатности</title>
+			<date>„Службени  гласник РС“, бр. 110 од 12.  децембра  2005, 50 од 13.  јуна  2006  -  исправка, 18 од 26. марта 2010, 112 oд 30. децембра 2015, 49 од 8. јула 2019 -  др. закон</date>
+		</preface>
+		<ns0:body>
+			<article wId="clan27">
+				<num>1-27.</num>
+				<paragraph wId="clan27-stav1">
+					<content>
+						<p>Престали су да важе (види &lt;ref wId=&quot;ref0&quot; href=&quot;akn/rs/act/2019/49-3/srp@/!main~art_136&quot; &gt;члан 136. &lt;/ref&gt;Закона - 49/2019-3)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan27-stav2">
+					<content>
+						<p>Центар за промоцију науке*</p>
+					</content>
+				</paragraph>
+				<article wId="clan27.а">
+					<num>27а</num>
+					<heading>*Службени гласник РС, број 18/2010</heading>
+					<paragraph wId="clan27.а-stav1">
+						<content>
+							<p>Оснива се Центар за промоцију науке (у даљем тексту: Центар) ради промоције и популаризације науке и технике, односно научно-технолошких резултата и достигнућа у земљи и свету.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="clan27.а-stav2">
+						<content>
+							<p>Центар послује под називом: Центар за промоцију науке.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="clan27.а-stav3">
+						<content>
+							<p>Седиште Центра је у Београду.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="clan27.а-stav4">
+						<content>
+							<p>Центар има својство правног лица које стиче уписом у судски регистар.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="clan27.а-stav5">
+						<content>
+							<p>Центар је самосталан у свом раду.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="clan27.а-stav6">
+						<content>
+							<p>Центар за своје обавезе одговара средствима којима располаже.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="clan27.а-stav7">
+						<content>
+							<p>Центар има печат чија се садржина, изглед и употреба уређују у складу са законом.  *</p>
+						</content>
+					</paragraph>
+					<paragraph wId="clan27.а-stav8">
+						<content>
+							<p>Штамбиљ Центра је правоугаоног облика димензија 60x30 мм и садржи текст: „Центар за промоцију науке”, и рубрике за упис датума пријема поднеска, броја под којим се поднесак заводи и броја прилога уз поднесак. Текст штамбиља Центра исписује се на српском језику ћириличким писмом.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="clan27.а-stav9">
+						<content>
+							<p>Брисан је ранији &lt;ref wId=&quot;ref2&quot; href=&quot;akn/rs/act/2019/49-3/srp@/!main~act_27__para_9&quot; &gt;став 9&lt;/ref&gt;. (види &lt;ref wId=&quot;ref1&quot; href=&quot;akn/rs/act/2019/49-3/srp@/!main~art_9&quot; &gt;члан 9. &lt;/ref&gt;Закона - 112/2015-49)</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="clan27.б">
+					<num>27б</num>
+					<heading>*Службени гласник РС, број 18/2010</heading>
+					<paragraph wId="clan27.б-stav1">
+						<content>
+							<p>Центар је надлежан да:*</p>
+						</content>
+						<point wId="clan27.б-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> припрема предлог програма промоције науке, научно-технолошких резултата и достигнућа;*</p>
+							</content>
+						</point>
+						<point wId="clan27.б-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> припрема предлог акта о финансирању активности научних, научно-стручних друштава, удружења и других организација који су у функцији унапређења научноистраживачког рада, промоције и популаризације науке и технике;*</p>
+							</content>
+						</point>
+						<point wId="clan27.б-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> сарађује и материјално подстиче активности научних, научно-стручних друштава, удружења и других организација који су у функцији унапређења научноистраживачког рада, промоције и популаризације науке и технике;*</p>
+							</content>
+						</point>
+						<point wId="clan27.б-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> сарађује са институтима, високошколским установама и другим научноистраживачким организацијама и привредним друштвима и њиховим асоцијацијама на остваривању промоције и популаризације науке и технологије;*</p>
+							</content>
+						</point>
+						<point wId="clan27.б-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> организује или учествује у организовању скупова, саветовања, округлих столова и других манифестација ради промоције науке, научно-технолошких резултата и достигнућа;*</p>
+							</content>
+						</point>
+						<point wId="clan27.б-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> брисана је (види &lt;ref wId=&quot;ref3&quot; href=&quot;akn/rs/act/2019/49-3/srp@/!main~art_10&quot; &gt;члан 10. &lt;/ref&gt;Закона - 112/2015-49)</p>
+							</content>
+						</point>
+						<point wId="clan27.б-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> организује заједничко излагање научних издања научноистраживачких организација на Међународном сајму књига у Београду;*</p>
+							</content>
+						</point>
+						<point wId="clan27.б-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> остварује сарадњу и пружа услуге у домену промоције и популаризације науке Министарству и министарству надлежном за високо образовање;*</p>
+							</content>
+						</point>
+						<point wId="clan27.б-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> обавља послове у области маркетинга и друге послове у вези са промоцијом науке, научно-технолошких резултата и достигнућа у земљи и свету;*</p>
+							</content>
+						</point>
+						<point wId="clan27.б-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p> издаје брошуре и друге публикације у вези са промоцијом и популаризацијом науке;*</p>
+							</content>
+						</point>
+						<point wId="clan27.б-stav1-tac11">
+							<num>11)</num>
+							<content>
+								<p> обавља и друге послове, у складу са овим законом и статутом Центра.*</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="clan27.б-stav2">
+						<content>
+							<p>Програм из тачке 1) овог члана доноси Влада, на предлог Управног одбора Центра.*</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="clan27.в">
+					<num>27в</num>
+					<heading>*Службени гласник РС, број 18/2010</heading>
+					<paragraph wId="clan27.в-stav1">
+						<content>
+							<p>Средства за оснивање и почетак рада Центра обезбеђују се у буџету Републике Србије.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="clan27.в-stav2">
+						<content>
+							<p>Центар се финансира из цене коју плаћају корисници услуга, буџета Републике Србије, донација и других прилога и прихода.*</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="clan27.г">
+					<num>27г</num>
+					<heading>*Службени гласник РС, број 18/2010</heading>
+					<paragraph wId="clan27.г-stav1">
+						<content>
+							<p>Органи Центра су: Управни одбор и директор.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="clan27.г-stav2">
+						<content>
+							<p>Управни одбор Центра има пет чланова, од којих председника и два члана одређује Влада, као своје представнике, а два члана су из реда запослених у Центру.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="clan27.г-stav3">
+						<content>
+							<p>Два члана управног одбора Центра из реда запослених, бирају се већином  гласова свих запослених у Центру.**</p>
+						</content>
+					</paragraph>
+					<paragraph wId="clan27.г-stav4">
+						<content>
+							<p>Влада именује и разрешава чланове управног одбора Центра, на предлог министра.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="clan27.г-stav5">
+						<content>
+							<p>Мандат чланова Управног одбора Центра траје четири године, са могућношћу још једног избора.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="clan27.г-stav6">
+						<content>
+							<p>Управни одбор:*</p>
+						</content>
+						<point wId="clan27.г-stav6-tac1">
+							<num>1)</num>
+							<content>
+								<p> доноси статут Центра;  *</p>
+							</content>
+						</point>
+						<point wId="clan27.г-stav6-tac2">
+							<num>2)</num>
+							<content>
+								<p> доноси акт о финансирању активности научних, научно-стручних друштава, удружења и других организација који су у функцији унапређења научноистраживачког рада, промоције и популаризације науке и технике;  *</p>
+							</content>
+						</point>
+						<point wId="clan27.г-stav6-tac3">
+							<num>3)</num>
+							<content>
+								<p> одлучује о пословању Центра;  *</p>
+							</content>
+						</point>
+						<point wId="clan27.г-stav6-tac4">
+							<num>4)</num>
+							<content>
+								<p> усваја годишњи програм рада Центра;  *</p>
+							</content>
+						</point>
+						<point wId="clan27.г-stav6-tac5">
+							<num>5)</num>
+							<content>
+								<p> доноси финансијски план Центра;*</p>
+							</content>
+						</point>
+						<point wId="clan27.г-stav6-tac6">
+							<num>6)</num>
+							<content>
+								<p> именује и разрешава директора;*</p>
+							</content>
+						</point>
+						<point wId="clan27.г-stav6-tac7">
+							<num>7)</num>
+							<content>
+								<p> одлучује о коришћењу средстава, у складу са законом;*</p>
+							</content>
+						</point>
+						<point wId="clan27.г-stav6-tac8">
+							<num>8)</num>
+							<content>
+								<p> врши друге послове, у складу са законом и статутом.*</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="clan27.г-stav7">
+						<content>
+							<p>Управни одбор доноси статут Центра, уз сагласност Владе.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="clan27.г-stav8">
+						<content>
+							<p>Управни одбор Центра донеће Статут Центра у року од деведесет дана од дана његовог именовања.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="clan27.г-stav9">
+						<content>
+							<p>Директор:*</p>
+						</content>
+						<point wId="clan27.г-stav9-tac1">
+							<num>1)</num>
+							<content>
+								<p> заступа и представља Центар;*</p>
+							</content>
+						</point>
+						<point wId="clan27.г-stav9-tac2">
+							<num>2)</num>
+							<content>
+								<p> руководи радом и пословањем Центра;*</p>
+							</content>
+						</point>
+						<point wId="clan27.г-stav9-tac3">
+							<num>3)</num>
+							<content>
+								<p> предлаже акте које доноси Управни одбор Центра;*</p>
+							</content>
+						</point>
+						<point wId="clan27.г-stav9-tac4">
+							<num>4)</num>
+							<content>
+								<p> извршава одлуке Управног одбора Центра и предузима мере за њихово спровођење;  *</p>
+							</content>
+						</point>
+						<point wId="clan27.г-stav9-tac5">
+							<num>5)</num>
+							<content>
+								<p> стара се о законитости рада Центра и одговара за коришћење и располагање имовином Центра;*</p>
+							</content>
+						</point>
+						<point wId="clan27.г-stav9-tac6">
+							<num>6)</num>
+							<content>
+								<p> доноси акт о унутрашњој организацији и систематизацији радних места у Центру;*</p>
+							</content>
+						</point>
+						<point wId="clan27.г-stav9-tac7">
+							<num>7)</num>
+							<content>
+								<p> одлучује о правима, обавезама и одговорностима запослених у Центру;*</p>
+							</content>
+						</point>
+						<point wId="clan27.г-stav9-tac8">
+							<num>8)</num>
+							<content>
+								<p> врши и друге послове утврђене законом и Статутом Центра.*</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="clan27.г-stav10">
+						<content>
+							<p>Директора Центра именује и разрешава Управни одбор Центра, уз претходно прибављену сагласност министра.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="clan27.г-stav11">
+						<content>
+							<p>Директор се именује на основу јавног конкурса који расписује Управни одбор Центра.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="clan27.г-stav12">
+						<content>
+							<p>За директора Центра може бити именовано лице које поред општих услова прописаних законом испуњава и следеће услове: завршене дипломске академске студије; радно искуство од најмање пет година; да има доказане организационе и управљачке способности.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="clan27.г-stav13">
+						<content>
+							<p>Директор се именује на четири године, са могућношћу још једног избора.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="clan27.г-stav14">
+						<content>
+							<p>*&lt;ref wId=&quot;ref4&quot; href=&quot;akn/rs/act/2010/18/srp@&quot;&gt;Службени гласник РС, број 18/2010&lt;/ref&gt;</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="clan27.д">
+					<num>27д</num>
+					<heading>**Службени гласник РС, број 112/2015</heading>
+					<paragraph wId="clan27.д-stav1">
+						<content>
+							<p>Општи акти Центра су: Статут, правилник о раду и други општи акти.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="clan27.д-stav2">
+						<content>
+							<p>Статут је основни општи акт Центра.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="clan27.д-stav3">
+						<content>
+							<p>Статут садржи одредбе о:*</p>
+						</content>
+						<point wId="clan27.д-stav3-tac1">
+							<num>1)</num>
+							<content>
+								<p> пословима Центра;*</p>
+							</content>
+						</point>
+						<point wId="clan27.д-stav3-tac2">
+							<num>2)</num>
+							<content>
+								<p> начину обављања послова;*</p>
+							</content>
+						</point>
+						<point wId="clan27.д-stav3-tac3">
+							<num>3)</num>
+							<content>
+								<p> органима и њиховом делокругу;*</p>
+							</content>
+						</point>
+						<point wId="clan27.д-stav3-tac4">
+							<num>4)</num>
+							<content>
+								<p> заступању Центра;*</p>
+							</content>
+						</point>
+						<point wId="clan27.д-stav3-tac5">
+							<num>5)</num>
+							<content>
+								<p> правима, обавезама и одговорностима Центра;*</p>
+							</content>
+						</point>
+						<point wId="clan27.д-stav3-tac6">
+							<num>6)</num>
+							<content>
+								<p> другим питањима од значаја за рад Центра.*</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="clan27.д-stav4">
+						<content>
+							<p>Правилник о раду представља општи акт који доноси Управни одбор.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="clan27.д-stav5">
+						<content>
+							<p>Правилник о раду садржи одредбе о правима, обавезама и одговорностима директора Центра и запослених у Центру.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="clan27.д-stav6">
+						<content>
+							<p>Влада ће именовати привременог директора Центра у року од 30 дана од дана ступања на снагу овог закона.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="clan27.д-stav7">
+						<content>
+							<p>Влада ће именовати чланове Управног одбора у року од 30 дана од дана уписа Центра у судски регистар.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="clan27.д-stav8">
+						<content>
+							<p>Центар почиње са радом даном уписа у судски регистар.*</p>
+						</content>
+					</paragraph>
+				</article>
+			</article>
+			<article wId="clan119">
+				<num>28-119.</num>
+				<heading>*Службени гласник РС, број 18/2010</heading>
+			</article>
+		</ns0:body>
+	</ns0:act>
+</ns0:akomaNtoso>
