@@ -105,7 +105,7 @@ def get_parent_nth_parent(element, parent=1, tree=None):
     Vraca roditelja nekog u stablu
     :param element: Element which parent is searched for
     :param parent: number of hirarhical parents to get
-    :param tree: call init_parent metod with tree to build parent child bonds, better use init_parent than always put leave None in tree
+    :param tree: call init_parent metod with tree to build parent child bonds, better use init_parent than always put need to pass Root_Tree in tree
     :return: n-th parent type element from xml.etree.Element
     """
     global Parent_map

@@ -1,9 +1,10 @@
 import io
 import os
 import xml.etree.ElementTree as ET
-import Akoma
+
 
 try:
+    import Akoma
     from Akoma.utilities import ETree
     from Akoma.preprocessing import remove_html
     from Akoma.preprocessing import init_akoma
@@ -13,7 +14,7 @@ try:
     from Akoma.reasoner.OdlukaReasoner import OdlukaReasoner
     from Akoma.form_akoma.MetadataBuilder import MetadataBuilder
     from Akoma.named_enitity_recognition.pattern_recognition import add_refs
-except ModuleNotFoundError:
+except ModuleNotFoundError as sureError:
     try:
         from utilities import ETree
         from preprocessing import remove_html
@@ -24,9 +25,11 @@ except ModuleNotFoundError:
         from reasoner.OdlukaReasoner import OdlukaReasoner
         from form_akoma.MetadataBuilder import MetadataBuilder
         from named_enitity_recognition.pattern_recognition import add_refs
-    except ModuleNotFoundError:
-        print("Error")
-        exit(-1)
+    except ModuleNotFoundError as newError:
+        if not sureError.name.__eq__("Akoma") or not newError.name.__eq__("Akoma"):
+            print(newError)
+            print("Error")
+            exit(-1)
 
 
 def prettify(root):
