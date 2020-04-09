@@ -67,8 +67,8 @@ class AkomaBuilder():
                 preamble.insert(0, p)
             else:
                 counter -= 1
-        preface.insert(0, longTitle)
         if preface is not None:
+            preface.insert(0, longTitle)
             act.insert(1, preface)
         if preamble is not None:
             act.insert(1, preamble)

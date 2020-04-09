@@ -1,20 +1,25 @@
 import re
 from termcolor import colored
-from Akoma.utilities.utilities import *
-from Akoma.utilities.ETree import *
+try:
+    from Akoma.utilities.utilities import *
+    from Akoma.utilities.ETree import *
+except ModuleNotFoundError:
+    try:
+        from utilities.utilities import *
+        from utilities.ETree import *
+    except ModuleNotFoundError as newError:
+        print(newError)
+        exit(-1)
 
-def prettify(root):
-    import xml.dom.minidom
-    dom = xml.dom.minidom.parseString(ET.tostring(root, encoding='UTF-8', method="xml").decode())
-    return dom.toprettyxml()
 
 def ranges(nums):
     nums = sorted(set(nums))
-    gaps = [[s, e] for s, e in zip(nums, nums[1:]) if s+1 < e]
+    gaps = [[s, e] for s, e in zip(nums, nums[1:]) if s + 1 < e]
     edges = iter(nums[:1] + sum(gaps, []) + nums[-1:])
     return list(zip(edges, edges))
 
-#'((члан|став|тачка|тачке|podtaчка|алинеја).? [0-9]+(\\.)?,?\\s?)+(\\s овог \\s\w*)?'
+
+# '((члан|став|тачка|тачке|podtaчка|алинеја).? [0-9]+(\\.)?,?\\s?)+(\\s овог \\s\w*)?'
 
 
 # akn/<država>/act/<godina publikovanja u formatu YYYY-MM-DD ili samo YYYY>/<broj akta u godini ili ako se ne zna "nn">/srb@/
@@ -32,6 +37,7 @@ nabrajanjeClCrtaClan = '(чл. [0-9]+' + azbuka_pattern + ')(–|-)((чл. )?[0-
 nabrajanje2 = '(члан.?\\s[0-9]+)?' + further + '(став.?\\s[0-9]+)?' + further + '((тачка|тачке).?\\s[0-9]+)?'
 nabrajanje3 = '(став.?\\s[0-9]+)' + further + '((тачка|тачке).?\\s[0-9]+)?'
 
+
 def make_reference(cnt, this_id, ending, stringo, m, longer):
     open = u"<ref " + "wId=\"ref" + str(cnt) + "\" href=\"akn" + this_id + "/!main~" + ending + "\" >"
 
@@ -44,6 +50,7 @@ def make_reference(cnt, this_id, ending, stringo, m, longer):
     cnt += 1
     return stringo, longer, cnt
 
+
 def make_reference_for_counting(cnt, this_id, start, end, ending, stringo, longer):
     open = u"<ref " + "wId=\"ref" + str(cnt) + "\" href=\"akn" + this_id + "/!main~" + ending + "\" >"
 
@@ -55,6 +62,7 @@ def make_reference_for_counting(cnt, this_id, start, end, ending, stringo, longe
 
     cnt += 1
     return stringo, longer, cnt
+
 
 def find_range_list(stringToScan, edges):
     position = 0;
@@ -73,6 +81,7 @@ def find_range_list(stringToScan, edges):
             position = position + 1
     return listOfIndex
 
+
 def get_reference_for_clan_nabrajanje(m, stringo):
     retval = ""
     if m.group(1):
@@ -84,6 +93,7 @@ def get_reference_for_clan_nabrajanje(m, stringo):
         if m2:
             retval += "art_" + m2.group(0) + "_"
     return retval[:-1]
+
 
 def get_reference_for_clan_stav_tacka(m):
     retval = ""
@@ -101,6 +111,7 @@ def get_reference_for_clan_stav_tacka(m):
             retval += "_point_" + m3.group(0) + "_"
     return retval
 
+
 def get_ending2(m, clan_id):
     retval = ""
     if m.group(1):
@@ -113,12 +124,13 @@ def get_ending2(m, clan_id):
             retval += "_point_" + m3.group(0) + "_"
     # print(retval[:-1])
     pomLista = clan_id.split('-')
-    pomBroj = re.findall(regexBroj, pomLista[len(pomLista)-1])
+    pomBroj = re.findall(regexBroj, pomLista[len(pomLista) - 1])
     pom_string = "act_" + pomBroj[0] + "__"
     retval = pom_string + retval
     return retval[:-1]
 
-def get_ending(m, stringToScan, cnt = 0, this_id = "", cl=False):
+
+def get_ending(m, stringToScan, cnt=0, this_id="", cl=False):
     matches = re.findall(regexBrojSlovo, stringToScan)
     retval = ""
     if not cl:
@@ -146,6 +158,7 @@ def get_ending(m, stringToScan, cnt = 0, this_id = "", cl=False):
                     retval = "art_" + str(matches[0]) + "_"
     return retval[:-1]
 
+
 def add_refs1(stringo, cnt, this_id):
     longer = 0
     for m in re.finditer(nabrajanje + '\\b(овог)?', stringo):
@@ -153,6 +166,7 @@ def add_refs1(stringo, cnt, this_id):
 
         stringo, longer, cnt = make_reference(cnt, this_id, ending, stringo, m, longer)
     return stringo, cnt
+
 
 def add_refsCl(stringo, cnt, this_id):
     longer = 0
@@ -173,6 +187,7 @@ def add_refsCl(stringo, cnt, this_id):
         stringo, longer, cnt = make_reference(cnt, this_id, ending, stringo, m, longer)
     return stringo, cnt
 
+
 def add_refs_sluzbeni_glasnik(stringo, cnt):
     longer = 0
     for m in re.finditer(nabrajanje2 + '(Службени.*?)([0-9]+/[0-9]+(,\s)?)+', stringo):
@@ -190,6 +205,7 @@ def add_refs_sluzbeni_glasnik(stringo, cnt):
         cnt += 1
     return stringo, cnt
 
+
 def add_refs3(stringo, cnt, this_id, clan_id):
     longer = 0
     for m in re.finditer(nabrajanje3 + '\\b(овог)?', stringo):
@@ -199,17 +215,18 @@ def add_refs3(stringo, cnt, this_id, clan_id):
             stringo, longer, cnt = make_reference(cnt, this_id, ending, stringo, m, longer)
     return stringo, cnt
 
+
 def add_refs(stablo, stringo, this_id):
     cnt = 0
     listaClanova = get_elements(stablo, 'article', namespace="")
     listaObradjenihParagrafa = []
-
+    # init_parent(stablo)
     for el_clan in listaClanova:  # Primer pristupa svakom članu
         clan_id = el_clan.attrib['wId']
         for el_stav in el_clan.iter('paragraph'):
             if el_stav.attrib['wId'] not in listaObradjenihParagrafa:
                 for el_content_p_tag in el_stav.iter('p'):
-                    got_parent = get_parent_nth_parent(el_content_p_tag, 2)  # Pribavljanje roditelja
+                    # got_parent = get_parent_nth_parent(el_content_p_tag, 2)  # Pribavljanje roditelja
                     stav_text = el_content_p_tag.text
                     stringoRet, cnt = add_refs1(stav_text, cnt, this_id)
                     stringoRet, cnt = add_refsCl(stringoRet, cnt, this_id)
@@ -217,7 +234,7 @@ def add_refs(stablo, stringo, this_id):
                     stringoRet, cnt = add_refs_sluzbeni_glasnik(stringoRet, cnt)
                     stringoRet, cnt = add_refs3(stringoRet, cnt, this_id, clan_id)
                     el_content_p_tag.text = stringoRet
-                    # print(prettify(stablo))
+                    # print(ETree.prettify(stablo))
                 # print(el_stav.tag)
                 listaObradjenihParagrafa.append(el_stav.attrib['wId'])
     # print(el_clan.tag, el_clan.attrib)
