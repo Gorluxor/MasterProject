@@ -48,7 +48,7 @@ class MetadataBuilder():
         base = ET.Element("FRBRWork")
         base.append(ET.Element("FRBRthis", {"value": "/rs/act/" + date + "/" + version + "/main"}))
         base.append(ET.Element("FRBRuri", {"value": "/rs/act/" + date + "/" + version}))
-        base.append(ET.Element("FRBRdate", {"date": date + ADDED_DATE, "name": "Generation"}))
+        base.append(ET.Element("FRBRdate", {"date": fix_date(date), "name": "Generation"}))
         base.append(ET.Element("FRBRauthor", {"href": "#" + author, "as": "#author"}))
         base.append(ET.Element("FRBRcountry", {"value": "rs"}))
         return base
@@ -59,7 +59,7 @@ class MetadataBuilder():
         base.append(ET.Element("FRBRthis", {"value": "/rs/act/" + date + "/" + version + "/srp@/main"}))
         base.append(ET.Element("FRBRuri", {"value": "/rs/act/" + date + "/" + version + "/srp@"}))
         self.expressionuri = "/rs/act/" + date + "/" + version + "/srp@"
-        base.append(ET.Element("FRBRdate", {"date": date + ADDED_DATE, "name": "Generation"}))
+        base.append(ET.Element("FRBRdate", {"date": fix_date(date), "name": "Generation"}))
         base.append(ET.Element("FRBRauthor", {"href": "#" + editor, "as": "#editor"}))
         base.append(ET.Element("FRBRlanguage", {"language": "srp"}))
 
@@ -71,7 +71,7 @@ class MetadataBuilder():
         base.append(ET.Element("FRBRthis", {"value": "/rs/act/" + date + "/" + version + "/srp@/main.xml"}))
         base.append(ET.Element("FRBRuri", {"value": "/rs/act/" + date + "/" + version + "/srp@.akn"}))
 
-        base.append(ET.Element("FRBRdate", {"date": date + ADDED_DATE, "name": "Generation"}))
+        base.append(ET.Element("FRBRdate", {"date": fix_date(date), "name": "Generation"}))
         base.append(ET.Element("FRBRauthor", {"href": "#" + editor, "as": "#editor"}))
         base.append(ET.Element("FRBRformat", {"value": "xml"}))
 

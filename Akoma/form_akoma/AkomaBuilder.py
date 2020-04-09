@@ -3,7 +3,7 @@ try:
     from Akoma.tokenizer.TokenType import TokenType
 except ModuleNotFoundError:
     try:
-        from tokenizer.patterns import is_vrsta_akta
+        from tokenizer.patterns import is_vrsta_akta, eng_tags
         from tokenizer.TokenType import TokenType
     except ModuleNotFoundError:
         print("Error")
@@ -39,7 +39,7 @@ class AkomaBuilder():
         act = list(self.akomaroot)[0]
         longTitle = ET.Element("longTitle")
         title = ET.Element("p")
-        longTitle.insert(0,title)
+        longTitle.insert(0, title)
         for token in tokens[::-1]:
             if preface is None:
                 preface = ET.Element("preface")
@@ -69,11 +69,13 @@ class AkomaBuilder():
                 counter -= 1
         if preface is not None:
             preface.insert(0, longTitle)
-            act.insert(1, preface)
+            act.insert(1, preface) #TODO PROVERITI IZMENU IZ 1->0 ANDRIJA
         if preamble is not None:
-            act.insert(1, preamble)
+            to = 1
+            if preface is not None:
+                to = 2
+            act.insert(to, preamble)
         act.set("name", name)
-
 
     def add_special(self, token):
         parent = self.stack[-1]
@@ -81,6 +83,8 @@ class AkomaBuilder():
 
     def add_token(self, token, identification):
         # print(token.name, identification, token.value)
+        if token.type == TokenType.TACKA and token.name == 'тачка':  # QUICK FIX
+            token.name = eng_tags[TokenType.TACKA]
         novi = self.create_element(token, identification)
         if token.type >= TokenType.TACKA:
             no_content = True
@@ -92,11 +96,23 @@ class AkomaBuilder():
         parent.append(novi)
         self.stack.append(novi)
 
-    def change(self,node):
+    def change(self, node):
         found = node.find('content')
         if found is not None:
             found.tag = "intro"
-        print(found)
+        # print(found)
+
+    def clean_table(self, el):
+        for element in el.iter():
+            if element.tag == 'td':
+                p = element.find('p')
+                if p is None:
+                    new_el = ET.Element('p')
+                    new_el.text = element.text
+                    element.text = ""
+                    element.append(new_el)
+            element.attrib = dict()
+        return el
 
     def current_parent(self, identification, no_content=False):
         for i in range(len(self.stack) - 1, -1, -1):
@@ -136,7 +152,15 @@ class AkomaBuilder():
             heading.text = token.value
             base.append(heading)
         elif token.type == TokenType.STAV and token.special is not None:
-            base.append(token.special)
+            base.tag = eng_tags[TokenType.STAV]  # TODO OVDE JE RADNJA ANDRIJA
+            base.attrib['class'] = 'special'
+            base.append(content)
+            if token.special.tag == 'table':
+                content.append(self.clean_table(token.special))
+            elif token.special.tag == 'img':
+                block = ET.Element('block', {'name': 'image'})
+                block.append(token.special)
+                content.append(block)
         elif token.value is not None:
             p = ET.Element("p")
             p.text = token.value

@@ -225,15 +225,16 @@ def add_refs(stablo, stringo, this_id):
         clan_id = el_clan.attrib['wId']
         for el_stav in el_clan.iter('paragraph'):
             if el_stav.attrib['wId'] not in listaObradjenihParagrafa:
-                for el_content_p_tag in el_stav.iter('p'):
-                    # got_parent = get_parent_nth_parent(el_content_p_tag, 2)  # Pribavljanje roditelja
-                    stav_text = el_content_p_tag.text
-                    stringoRet, cnt = add_refs1(stav_text, cnt, this_id)
-                    stringoRet, cnt = add_refsCl(stringoRet, cnt, this_id)
-                    # print("PHASE 2")
-                    stringoRet, cnt = add_refs_sluzbeni_glasnik(stringoRet, cnt)
-                    stringoRet, cnt = add_refs3(stringoRet, cnt, this_id, clan_id)
-                    el_content_p_tag.text = stringoRet
+                if el_stav.attrib.get('class') is not 'special':
+                    for el_content_p_tag in el_stav.iter('p'):
+                        # got_parent = get_parent_nth_parent(el_content_p_tag, 2)  # Pribavljanje roditelja
+                        stav_text = el_content_p_tag.text
+                        stringoRet, cnt = add_refs1(stav_text, cnt, this_id)
+                        stringoRet, cnt = add_refsCl(stringoRet, cnt, this_id)
+                        # print("PHASE 2")
+                        stringoRet, cnt = add_refs_sluzbeni_glasnik(stringoRet, cnt)
+                        stringoRet, cnt = add_refs3(stringoRet, cnt, this_id, clan_id)
+                        el_content_p_tag.text = stringoRet
                     # print(ETree.prettify(stablo))
                 # print(el_stav.tag)
                 listaObradjenihParagrafa.append(el_stav.attrib['wId'])

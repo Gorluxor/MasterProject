@@ -4,7 +4,7 @@ try:
     from Akoma.tokenizer.BasicTokenizer import BasicTokenizer
 except ModuleNotFoundError:
     try:
-        from tokenizer.patterns import recognize_pattern, FoundToken
+        from tokenizer.patterns import recognize_pattern, FoundToken,eng_tags
         from tokenizer.TokenType import TokenType
         from tokenizer.BasicTokenizer import BasicTokenizer
     except ModuleNotFoundError:
@@ -38,6 +38,6 @@ class HTMLTokenizer(BasicTokenizer):
             yield current_token
 
     def handle_table_img(self, el):
-        retval = FoundToken(TokenType.STAV, "став", "Special value.", None, special=el)
+        retval = FoundToken(TokenType.STAV, "став", "Special value.", None, special=el) #TODO ANDRIJA OVDE SE DODAJE 'STAV' na srpskom
         print(el.tag)
         return retval
