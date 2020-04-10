@@ -53,7 +53,7 @@ def apply_akn_tags(text: str, meta_name: str):
     :return: Labeled xml string
     """
     akoma_root = init_akoma.init_xml("act")
-    if text.find("<p>") == -1:
+    if text.find("<p") == -1:
         text = repair_mode(text)
     html_root = ET.fromstring("<article>" + text + "</article>")
 
@@ -90,7 +90,7 @@ def convert_html(source, destination):
 
 
 if __name__ == "__main__":
-    nastavi = "506.html"  # ""651.html"
+    nastavi = "44.html"  # ""651.html"
     idemo = False
     stani = [
         "562.html"]  # ["1160.html", "1575.html", "908.html", "2348.html", "318.html", "3062.html"] #ovi fajlovi su samo preveliki pa njihovo procesiranje traje dugo

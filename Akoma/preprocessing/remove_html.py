@@ -76,6 +76,14 @@ def exeption_tag(substring, full_stip=False):
             return True
     return False
 
+def preprocessing_text(stringo,full_strip):
+    stringo = remove_inner_html(stringo, "script")
+    stringo = remove_inner_html(stringo, "style")
+    stringo = strip_html(stringo, full_strip)
+    stringo = make_tag_empty(stringo, "p")
+    stringo = replace_trash(stringo, "&nbsp;")
+    stringo = close_html_token2(stringo, "img")
+    return stringo
 
 def preprocessing(filename, full_strip=False):
     """Remove html tags"""

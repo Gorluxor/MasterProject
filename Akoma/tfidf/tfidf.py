@@ -85,7 +85,7 @@ def get_tf_idf_values_document(folder_path, filenames=None, return_just_words=Tr
         list_clan_for_file = []
         print("Start " + str(filename))
         # break_word = break_word + 1
-        check = path.join(folder_path, filename)
+        check = folder_path + "/" + filename  # path.join(folder_path, filename)
         try:
             file = open(check, encoding="utf8")
         except FileNotFoundError:
@@ -94,8 +94,8 @@ def get_tf_idf_values_document(folder_path, filenames=None, return_just_words=Tr
         all_lines = "".join(file.readlines())
         act_array = []
 
-        if all_lines.find("<p>") != -1:
-            all_lines = remove_html.strip_html(all_lines, True)
+        if all_lines.find("<p") != -1:
+            all_lines = remove_html.preprocessing_text(all_lines, True)
 
         if re.search(tag_clan + " [0-9]*\.", all_lines) is None:  # Check if cyrilic then to latin
             all_lines = Convert.convert_string(all_lines)

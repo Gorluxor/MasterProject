@@ -152,11 +152,11 @@ class MetadataBuilder():
         cnt_concept = 0
         conceptIri = "http://purl.org/vocab/frbr/core#Concept"
         base = ET.Element("references", {"source": SOURCE})
-        # list_of_concept = get_tf_idf_values_document("data/acts", filenames = filename)
-        # for concept in list_of_concept:
-        #     concept_ref = ET.Element("TLCConcept", {"eId": "cocnept" + cnt_concept, "href": conceptIri, "showAs": concept})
-        #     base.append(concept_ref)
-        #     cnt_concept = cnt_concept + 1
+        list_of_concept = get_tf_idf_values_document("data/acts", filenames = filename, latin=False)
+        for concept in list_of_concept:
+            concept_ref = ET.Element("TLCConcept", {"eId": "cocnept" + cnt_concept, "href": conceptIri, "showAs": concept})
+            base.append(concept_ref)
+            cnt_concept = cnt_concept + 1
         return base
 
     def notes(self, notes1, notes2):
