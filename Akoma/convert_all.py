@@ -45,17 +45,20 @@ def prettify(root):
     return dom.toprettyxml()
 
 
-def convert_html(source, destination):
-    stringo = remove_html.preprocessing(source)
-    full_strip = remove_html.preprocessing(source, full_strip=True)
-    full_strip = repair_mode(full_strip)
-    fajl = source.split("/")[-1]
+def apply_akn_tags(text: str, meta_name: str):
+    """
+    Applies to text Akoma Ntoso 3.0 tags for Republic of Serbia regulations
+    :param text: HTML or plain text
+    :param meta_name: name which was meta added 15 tag in meta
+    :return: Labeled xml string
+    """
     akoma_root = init_akoma.init_xml("act")
-
-    html_root = ET.fromstring("<article>" + stringo + "</article>")
+    if text.find("<p>") == -1:
+        text = repair_mode(text)
+    html_root = ET.fromstring("<article>" + text + "</article>")
 
     metabuilder = MetadataBuilder("data/meta/allmeta.csv")
-    metabuilder.build(fajl, akoma_root)
+    metabuilder.build(meta_name, akoma_root)
     print(prettify(akoma_root))
     builder = AkomaBuilder(akoma_root)
     reasoner = BasicReasoner(HTMLTokenizer(html_root), builder)
@@ -71,10 +74,16 @@ def convert_html(source, destination):
         reasoner.start()
 
     result_str = builder.result_str()
-    # ET.dump(builder.akomaroot)
-    # print(prettify(akoma_root))
     result_stablo = add_refs(akoma_root, result_str, metabuilder.expressionuri)
     result_str = prettify(result_stablo)
+    return result_str
+
+
+def convert_html(source, destination):
+    stringo = remove_html.preprocessing(source)
+    full_strip = remove_html.preprocessing(source, full_strip=True)
+    meta_file_name = source.split("/")[-1]
+    result_str = apply_akn_tags(stringo, meta_file_name)
     f = io.open(destination, mode="w", encoding="utf-8")
     f.write(result_str)
     f.close()

@@ -2,10 +2,12 @@ import xml.etree.ElementTree as ET
 import io
 
 try:
+    from Akoma.utilities import utilities
     from Akoma.form_akoma.Metadata import Metadata
     from Akoma.preprocessing import init_akoma
 except ModuleNotFoundError:
     try:
+        from utilities import utilities
         from form_akoma.Metadata import Metadata
         from preprocessing import init_akoma
     except ModuleNotFoundError:
@@ -27,6 +29,21 @@ def fix_date(before):
             a[i] = "0" + a[i]
     after = "-".join(a)
     return after
+
+
+def add_new_meta(meta: Metadata):
+    """
+    If file to added meta
+    Назив прописа  # ELI#Напомена издавача#Додатне информације#Врста прописа#Доносилац#Област#Група#Датум усвајања#Гласило и датум објављивања#Датум ступања на снагу основног текста#Датум примене#Правни претходник#Издавач#filename
+    :param meta:
+    :return:
+    """
+    file_meta = open(utilities.get_root_dir() + "/data/meta/allmeta.csv", mode="a")
+    deli = "#"
+    new_line = meta.act_name + deli + meta.eli + deli + meta.napomena_izdavaca + deli + meta.dodatne_informacije + deli + meta.vrsta_propisa + deli + meta.donosilac + deli + meta.oblast + deli + meta.grupa + deli + meta.datum_usvajanja + deli + meta.glasilo_i_datum + deli + meta.datum_stupanja + deli + meta.pravni_prethodnik + deli + meta.izdavac + deli + meta.filename
+    file_meta.write()
+
+    pass
 
 
 class MetadataBuilder():
