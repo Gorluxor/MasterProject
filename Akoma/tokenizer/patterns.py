@@ -31,6 +31,8 @@ eng_ids = {
     TokenType.ALINEJA : "ali"
 }
 
+ARTICLE_NAME = "(ОДЛУКА|ОДУЛУКУ|ПРАВИЛНИК|ЗАКОН|ПРОПИС|ЗАКЉУЧАК|КОДЕКС|ЛИСТУ|ПЛАН|УРЕДБА|УРЕДБУ)"
+
 class FoundToken():
     def __init__(self, type, name, value, number, number2=None, numberstr=None, special=None):
         self.type = type
@@ -43,7 +45,7 @@ class FoundToken():
 
 
 def is_vrsta_akta(text):
-    m = re.match("(ОДЛУКА|ОДУЛУКУ|ПРАВИЛНИК|ЗАКОН|ПРОПИС|ЗАКЉУЧАК|КОДЕКС|ЛИСТУ|ПЛАН|УРЕДБА|УРЕДБУ)", text.upper())
+    m = re.match(ARTICLE_NAME, text.upper())
     if m:
         return True
     return False
