@@ -185,9 +185,10 @@ def get_ending(m):
 
 def add_refs1(stringo, cnt, this_id):
     longer = 0
-    for m in re.finditer(nabrajanje + '\\s+(овог)', stringo):
-        ending = get_ending(m)
-        stringo, longer, cnt = make_reference(cnt, this_id, m.start(), m.end(), ending, stringo, longer)
+    for m in re.finditer(nabrajanje + '\\s+(овог)?', stringo):
+        if not re.search(nabrajanjeClZakon, stringo[m.regs[0][0] + longer: m.regs[0][1] + longer + 20]):
+            ending = get_ending(m)
+            stringo, longer, cnt = make_reference(cnt, this_id, m.start(), m.end(), ending, stringo, longer)
     for m in re.finditer(nabrajanjeClZakon, stringo):
         stringo, longer, cnt = make_reference_for_clZakon(cnt, this_id, m, stringo, longer)
     return stringo, cnt
