@@ -1,0 +1,2081 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о потврђивању Протокола о одрживом управљању шумама уз Оквирну конвенцију о заштити и одрживом развоју Карпата">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2015/5-16/main"/>
+					<FRBRuri value="/rs/act/2015/5-16"/>
+					<FRBRdate date="2015-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2015/5-16/srp@/main"/>
+					<FRBRuri value="/rs/act/2015/5-16/srp@"/>
+					<FRBRdate date="2015-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2015/5-16/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2015/5-16/srp@.akn"/>
+					<FRBRdate date="2015-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2015-03-13" name="службени гласник рс – међународни уговори" number="5" showAs="Службени гласник РС – Међународни уговори"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="X ДОБРА ОД ОПШТЕГ ИНТЕРЕСА И ЖИВОТНА СРЕДИНА" value="x добра од општег интереса и животна средина" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="3. Животна средина" value="3. животна средина" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2015-03-10" wId="usvajanje"/>
+				<step by="#TODO" date="2015-03-21" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2015-03-21" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept href="#" showAs="Temp"/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Протокол о одрживом управљању шумама уз Оквирну конвенцију о заштити и одрживом развоју Карпата, ступио је на снагу за Републику Србију 30. јуна 2015. године (види: Обавештење: Службени гласник РС - Међународни уговори - 8/2015-17).</p>
+				</note>
+				<note wId="not2">
+					<p>Протокол о одрживом управљању шумама уз Оквирну конвенцију о заштити и одрживом развоју Карпата, ступио је на снагу за Републику Србију 30. јуна 2015. године (види: Обавештење: Службени гласник РС - Међународни уговори - 8/2015-17).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О потврђивању протокола о одрживом управљању шумама уз оквирну конвенцију о заштити и одрживом развоју карпата &quot;Службени гласник РС – Међународни уговори&quot;, број 5 од 13. марта 2015.</p>
+			</longTitle>
+			<p>Томислав Николић, с.р.</p>
+		</preface>
+		<preamble>
+			<p>На основу члана 112. став 1. тачка 2. Устава Републике Србије, доносим</p>
+			<p>УКАЗ</p>
+			<p>о проглашењу Закона о потврђивању Протокола о одрживом управљању шумама уз Оквирну конвенцију о заштити и одрживом развоју Карпата</p>
+			<p>Проглашава се Закон о потврђивању Протокола о одрживом управљању шумама уз Оквирну конвенцију о заштити и одрживом развоју Карпата, који је донела Народна скупштина Републике Србије на Првој седници Првог редовног заседања у 2015. години, 10. марта 2015. године.</p>
+			<p>ПР број 37</p>
+			<p>У Београду, 13. марта 2015. године</p>
+			<p>Председник Републике,</p>
+		</preamble>
+		<body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Потврђује се Протокол о одрживом управљању шумама уз Оквирну конвенцију о заштити и одрживом развоју Карпата, који је сачињен у Братислави 27. маја 2011. године, у оригиналу на енглеском језику.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Текст Протокола у оригиналу на енглеском језику и у преводу на српски језик гласи:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>Protocol on Sustainable Forest Management to the Framework Convention on the Protection and Sustainable Development of the Carpathians</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav3">
+					<content>
+						<p>THE PARTIES TO THIS PROTOCOL,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav4">
+					<content>
+						<p>IN ACCORDANCE with their tasks, arising from the Framework Convention on the Protection and Sustainable Development of the Carpathians of 22 May 2003 (Kyiv, Ukraine, hereinafter referred to as the “Carpathian Convention”), of pursuing a comprehensive policy and cooperating for the protection and sustainable development of the Carpathians;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav5">
+					<content>
+						<p>CONSCIOUS of the fact that human pressure on Carpathian forests will continuously increase;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav6">
+					<content>
+						<p>AIMING to increase the awareness of multiple functions of forests and benefits from sustainable forest management in the Carpathians especially with reference to natural carbon stock, water supply and biodiversity as well as to the contribution to rural development;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav7">
+					<content>
+						<p>IN COMPLIANCE with their obligations under Article 7 of the Framework Convention on the Protection and Sustainable Development of the Carpathians;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav8">
+					<content>
+						<p>RECALLING in particular the Rio Declaration, the UN Non-Legally Binding Instrument on All Types of Forests, decisions of the United Nations Forum on Forests, the Johannesburg Declaration on Sustainable Development and the Plan of Implementation of the World Summit on Sustainable Development, the UN Framework Convention on Climate Change and its Kyoto Protocol, the Convention on Biological Diversity and in particular its Program of Work and relevant decisions on Forest Biodiversity, the Resolutions of the Ministerial Conference for the Protection of Forests in Europe, the Convention concerning the Protection of the World Cultural and Natural Heritage, the European Landscape Convention, the Forest Law Enforcement and Governance processes;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav9">
+					<content>
+						<p>NOTING further that the majority of the Parties as Member States of the European Union take into consideration the Forestry Strategy for the European Union and its Forest Action Plan;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav10">
+					<content>
+						<p>AIMING at ensuring a more effective implementation of such existing instruments, and BUILDING upon other international programmes;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav11">
+					<content>
+						<p>CONVINCED that efforts to protect, maintain and sustainably manage the forests of the Carpathians require regional cooperation; and AWARE of the added value of transboundary cooperation in achieving ecological coherence;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav12">
+					<content>
+						<p>DESIRING to cooperate on the sustainable management and protection of Carpathian forests;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav13">
+					<content>
+						<p>HAVE AGREED AS FOLLOWS:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav14">
+					<content>
+						<p>CHAPTER I</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav15">
+					<content>
+						<p>GENERAL OBLIGATIONS</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav16">
+					<content>
+						<p>Article 1</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav17">
+					<content>
+						<p>General objective and principles</p>
+					</content>
+				</paragraph>
+			</article>
+			<section wId="od1">
+				<num>1.</num>
+				<heading> The objective of the Protocol on Sustainable Forest Management (hereinafter referred to as “the Protocol”) is to promote the sustainable management and protection of Carpathian forests bringing benefits to present and future generations.</heading>
+				<point wId="od1-clan2-tac2">
+					<num>2.</num>
+					<content>
+						<p> In order to achieve the above objective, the Parties shall carry out activities and cooperate on:</p>
+					</content>
+				</point>
+				<paragraph wId="od1-clan2-stav1">
+					<content>
+						<p>(a) maintaining or enlarging forest cover;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav2">
+					<content>
+						<p>(b) ensuring the productive functions of the forests and their role in rural development;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav3">
+					<content>
+						<p>(c) promoting the sound use of wood as an environmental friendly and renewable material;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav4">
+					<content>
+						<p>(d) promoting the sustainable use of non-wood forest products;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav5">
+					<content>
+						<p>(e) improving the health and vitality of the forests;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav6">
+					<content>
+						<p>(f) improving the conservation and sustainable use of components of forest biological diversity;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav7">
+					<content>
+						<p>(g) identification and protection of natural, especially virgin forests;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav8">
+					<content>
+						<p>(h) promoting the restoration of close to nature forests;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav9">
+					<content>
+						<p>(i) enhancing the role of the forest-based sector in mitigating climate change;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav10">
+					<content>
+						<p>(j) improving the protective forest functions such as preventing floods, landslides and in general water cycle regulation;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav11">
+					<content>
+						<p>(k) promoting the cultural heritage of the forests;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav12">
+					<content>
+						<p>(l) enhancing the social functions of the forests;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav13">
+					<content>
+						<p>(m) promoting the participation of regional and local authorities and communities in forest management;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav14">
+					<content>
+						<p>(n) identifying, developing and applying appropriate schemes for payment for environmental goods and services provided by forests;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav15">
+					<content>
+						<p>(o) strengthening the governance of the forestry sector and enforcing forest law with particular attention to combating illegal logging and associated trade;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav16">
+					<content>
+						<p>(p) identification, development and implementation of best practices in forest management and close to nature forestry;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav17">
+					<content>
+						<p>(q) promoting and coordinating scientific research and information exchange on Carpathian forests.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav18">
+					<content>
+						<p>Article 2</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav19">
+					<content>
+						<p>Policies aiming at sustainable management of the Carpathians forests</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav20">
+					<content>
+						<p>The Parties shall develop and implement policies and strategies in their national territory aiming at sustainable management of the Carpathians forests while taking into consideration policies and strategies developed and implemented by other Parties. For this purpose the Parties shall exchange relevant information with other Parties.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav21">
+					<content>
+						<p>Article 3</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav22">
+					<content>
+						<p>Integration of the objectives of sustainable management and protection of the Carpathians forests into sectoral policies</p>
+					</content>
+				</paragraph>
+				<section wId="od1">
+					<num>1.</num>
+					<heading> The Parties shall take into consideration the objectives of this Protocol in their other policies, in particular on biodiversity conservation, soil protection, rural development, water and river basin management, climate change, tourism, industry and energy, cultural heritage and traditional knowledge conservation, spatial planning, transport and infrastructure.</heading>
+					<point wId="od1-clan2-tac2">
+						<num>2.</num>
+						<content>
+							<p> The Parties shall cooperate on integration of the objectives of sustainable management and protection of the Carpathians forests into other sectoral policies and strategies adopted at the regional and/or the global level which could have influence on the sustainable forest management of the Carpathians.</p>
+						</content>
+					</point>
+					<paragraph wId="od1-clan2-stav1">
+						<content>
+							<p>Article 4</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od1-clan2-stav2">
+						<content>
+							<p>Participation of regional and local authorities and communities</p>
+						</content>
+					</paragraph>
+					<section wId="od1">
+						<num>1.</num>
+						<heading> The Parties shall define, within its existing institutional framework, the best level of coordination and cooperation between national institutions and regional and local authorities to encourage shared responsibility in the process of the implementation of this Protocol.</heading>
+						<point wId="od1-clan2-tac2">
+							<num>2.</num>
+							<content>
+								<p> The Parties shall take measures to involve or facilitate involvement of communities and forest owners and managers directly concerned in the various stages of preparing and implementing these policies and measures.</p>
+							</content>
+						</point>
+						<paragraph wId="od1-clan2-stav1">
+							<content>
+								<p>Article 5</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan2-stav2">
+							<content>
+								<p>International cooperation</p>
+							</content>
+						</paragraph>
+						<section wId="od1">
+							<num>1.</num>
+							<heading> The Parties shall encourage active international cooperation among the competent institutions with regard to the sustainable management and protection of the Carpathian forests.</heading>
+							<point wId="od1-clan2-tac2">
+								<num>2.</num>
+								<content>
+									<p> The Parties shall facilitate cooperation between regional and local authorities in the Carpathians at the international level, and seek solutions to shared problems at the most suitable level.</p>
+								</content>
+							</point>
+							<paragraph wId="od1-clan2-stav1">
+								<content>
+									<p>CHAPTER II</p>
+								</content>
+							</paragraph>
+							<paragraph wId="od1-clan2-stav2">
+								<content>
+									<p>GEOGRAPHICAL SCOPE AND DEFINITIONS</p>
+								</content>
+							</paragraph>
+							<paragraph wId="od1-clan2-stav3">
+								<content>
+									<p>Article 6</p>
+								</content>
+							</paragraph>
+							<paragraph wId="od1-clan2-stav4">
+								<content>
+									<p>Geographical scope</p>
+								</content>
+							</paragraph>
+							<section wId="od1">
+								<num>1.</num>
+								<heading> This Protocol applies to the Carpathian region (hereinafter referred to as “the Carpathians”), as defined by the Conference of the Parties to the Carpathian Convention.</heading>
+								<point wId="od1-clan2-tac2">
+									<num>2.</num>
+									<content>
+										<p> Each Party may extend the application of this Protocol to additional parts of its national territory by making a declaration to the Depositary.</p>
+									</content>
+								</point>
+								<paragraph wId="od1-clan2-stav1">
+									<content>
+										<p>Article 7</p>
+									</content>
+								</paragraph>
+								<paragraph wId="od1-clan2-stav2">
+									<content>
+										<p>Definitions</p>
+									</content>
+								</paragraph>
+								<paragraph wId="od1-clan2-stav3">
+									<content>
+										<p>For the purposes of this Protocol:</p>
+									</content>
+								</paragraph>
+								<paragraph wId="od1-clan2-stav4">
+									<content>
+										<p>(a) “Sustainable forest management” means the stewardship and use of forest and forest lands in a way, and at a rate, that maintains their biodiversity, productivity, vitality and regeneration capacity, and their potential to fulfill now and in the future, relevant ecological, economic and social functions at local, national, and global levels, and that does not cause damage to other ecosystems;</p>
+									</content>
+								</paragraph>
+								<paragraph wId="od1-clan2-stav5">
+									<content>
+										<p>(b) “Close to nature forestry” means a system of forest management which provides continuous restoration, development and treatment of stands similar in species composition, structure and dynamic to natural forests specific for the site conditions;</p>
+									</content>
+								</paragraph>
+								<paragraph wId="od1-clan2-stav6">
+									<content>
+										<p>(c) “Ecological network” means a system of areas which are ecologically and physically linked, consisting of core areas, corridors and buffer zones;</p>
+									</content>
+								</paragraph>
+								<paragraph wId="od1-clan2-stav7">
+									<content>
+										<p>(d) “Forest certification schemes” are certification schemes for sustainable forest management, including clear objectives, measurable criteria, independent assessment and involving and credible to major stakeholder groups;</p>
+									</content>
+								</paragraph>
+								<paragraph wId="od1-clan2-stav8">
+									<content>
+										<p>(e) “Natural forests” are forests composed of tree species indigenous to the area with most of the principal characteristics and key elements of native ecosystems, such as complexity, structure and diversity;</p>
+									</content>
+								</paragraph>
+								<paragraph wId="od1-clan2-stav9">
+									<content>
+										<p>(f) “Parties” means Parties to this Protocol;</p>
+									</content>
+								</paragraph>
+								<paragraph wId="od1-clan2-stav10">
+									<content>
+										<p>(g) “Protected Area” means a geographically defined area which is designated and managed to achieve specific conservation objectives;</p>
+									</content>
+								</paragraph>
+								<paragraph wId="od1-clan2-stav11">
+									<content>
+										<p>(h) “Protection of Forests” means the aspect of nature conservation, dealing with the protection, maintenance, restoration and sustainable use of forest resources to ensure forest ecosystem services;</p>
+									</content>
+								</paragraph>
+								<paragraph wId="od1-clan2-stav12">
+									<content>
+										<p>(i) ”Restoration of close to nature forests” means a management applied in forest areas which aims to assist the natural processes of forest recovery in a way that the stand structure, biodiversity, functions, processes and in particular the species composition of the restored forest will match, as closely as feasible, those of the original forest through gradually changing of secondary forest stands;</p>
+									</content>
+								</paragraph>
+								<paragraph wId="od1-clan2-stav13">
+									<content>
+										<p>(j) “Sound use of wood” is an integrated approach to processing and end-use by consumers of wood originating from sustainably managed forests;</p>
+									</content>
+								</paragraph>
+								<paragraph wId="od1-clan2-stav14">
+									<content>
+										<p>(k) “Virgin forests” means natural forests which have not been influenced directly by human activities in their development.</p>
+									</content>
+								</paragraph>
+								<paragraph wId="od1-clan2-stav15">
+									<content>
+										<p>CHAPTER III</p>
+									</content>
+								</paragraph>
+								<paragraph wId="od1-clan2-stav16">
+									<content>
+										<p>SPECIFIC MEASURES</p>
+									</content>
+								</paragraph>
+								<paragraph wId="od1-clan2-stav17">
+									<content>
+										<p>Article 8</p>
+									</content>
+								</paragraph>
+								<paragraph wId="od1-clan2-stav18">
+									<content>
+										<p>Maintaining and enlarging forest cover</p>
+									</content>
+								</paragraph>
+								<section wId="od1">
+									<num>1.</num>
+									<heading> Each Party shall take measures in its national territory with the objective to maintain, through sustainable forest management and spatial planning, the existing forest cover as a key component of Carpathian landscape.</heading>
+									<point wId="od1-clan2-tac2">
+										<num>2.</num>
+										<content>
+											<p> Each Party shall take measures in its national territory with the objective to enlarge the forest cover in the Carpathians if appropriate for achieving the goals of Article 1 while taking into account the high ecological importance of natural and semi-natural grasslands as well as the other goals of the Carpathian Convention and its Protocols.</p>
+										</content>
+									</point>
+									<paragraph wId="od1-clan2-stav1">
+										<content>
+											<p>Article 9</p>
+										</content>
+									</paragraph>
+									<paragraph wId="od1-clan2-stav2">
+										<content>
+											<p>Ensuring the productive functions of the forest and their role in rural development</p>
+										</content>
+									</paragraph>
+									<section wId="od1">
+										<num>1.</num>
+										<heading> Each Party shall take measures in its national territory with the objective to ensure the productive functions of the forests and to enhance their role in rural development through appropriate policies, adapted to the ownership structure as well as the sound use of wood.</heading>
+										<point wId="od1-clan2-tac2">
+											<num>2.</num>
+											<content>
+												<p> The Parties shall promote and ensure sources of income from forest resources and therefore should provide support to the forest owner and managers as well as their associations, to reduce the problems associated with land ownership fragmentation, to stimulate market-based initiatives including forest certification schemes, to enforce the forest law with particular attention to combating illegal logging and associated trade, to promote the sustainable harvesting and marketing of non wood forest products and to develop and spread the use of systems of payment for ecosystem services.</p>
+											</content>
+										</point>
+										<paragraph wId="od1-clan2-stav1">
+											<content>
+												<p>Article 10</p>
+											</content>
+										</paragraph>
+										<paragraph wId="od1-clan2-stav2">
+											<content>
+												<p>Identification and protection of natural, especially virgin forests</p>
+											</content>
+										</paragraph>
+										<section wId="od1">
+											<num>1.</num>
+											<heading> Each Party shall take measures in its national territory aimed at identifying and protecting natural, especially virgin forests of the Carpathians, by establishing Protected Areas in sufficient size and number and implementing other specific measures of protection.</heading>
+											<point wId="od1-clan2-tac2">
+												<num>2.</num>
+												<content>
+													<p> Each Party shall take measures for the inclusion of sufficient areas of all types of identified natural forests from its Carpathian region in Protected Areas.</p>
+												</content>
+											</point>
+											<point wId="od1-clan2-tac3">
+												<num>3.</num>
+												<content>
+													<p> In particular, each Party should take specific measures for the preservation of genetic resources of natural, especially virgin forests.</p>
+												</content>
+											</point>
+											<point wId="od1-clan2-tac4">
+												<num>4.</num>
+												<content>
+													<p> Each Party shall take specific measures for compensation of costs or economic losses resulting from measures taken in accordance with paragraph 1,2 and 3 of this Article.</p>
+												</content>
+											</point>
+											<paragraph wId="od1-clan2-stav1">
+												<content>
+													<p>Article 11</p>
+												</content>
+											</paragraph>
+											<paragraph wId="od1-clan2-stav2">
+												<content>
+													<p>Forest Management in Protected Areas</p>
+												</content>
+											</paragraph>
+											<section wId="od1">
+												<num>1.</num>
+												<heading> Each Party shall take measures for ensuring the coherence between the Protected Areas management plans and the forest management plans within Protected Areas.</heading>
+												<point wId="od1-clan2-tac2">
+													<num>2.</num>
+													<content>
+														<p> The Parties shall cooperate in creating guidelines for the management of forests including close to nature forestry in Protected Areas and, where applicable, Natura 2000 sites.</p>
+													</content>
+												</point>
+												<paragraph wId="od1-clan2-stav1">
+													<content>
+														<p>Article 12</p>
+													</content>
+												</paragraph>
+												<paragraph wId="od1-clan2-stav2">
+													<content>
+														<p>Improvement of the protective forest functions</p>
+													</content>
+												</paragraph>
+												<paragraph wId="od1-clan2-stav3">
+													<content>
+														<p>Each Party shall take measures in its national territory with the objective to ensure the protective functions of the forests such as better preventing floods, soil erosion, landslides, avalanches and rock falls by promoting sustainable forest management methods, that enhance stability and resistance to natural and anthropogenic disturbances.</p>
+													</content>
+												</paragraph>
+												<paragraph wId="od1-clan2-stav4">
+													<content>
+														<p>Article 13</p>
+													</content>
+												</paragraph>
+												<paragraph wId="od1-clan2-stav5">
+													<content>
+														<p>Promotion of restoration of close to nature forests</p>
+													</content>
+												</paragraph>
+												<section wId="od1">
+													<num>1.</num>
+													<heading> Each Party shall take measures in its national territory with the objective to promote restoration of close to nature forests.</heading>
+													<point wId="od1-clan2-tac2">
+														<num>2.</num>
+														<content>
+															<p> The Parties shall consider, where appropriate, the establishment of programmes for protection and reintroduction of rare native forest tree species in their natural ecosystem.</p>
+														</content>
+													</point>
+													<paragraph wId="od1-clan2-stav1">
+														<content>
+															<p>Article 14</p>
+														</content>
+													</paragraph>
+													<paragraph wId="od1-clan2-stav2">
+														<content>
+															<p>Forestry and climate change</p>
+														</content>
+													</paragraph>
+													<section wId="od1">
+														<num>1.</num>
+														<heading> Each Party shall pursue policies aiming at enhancing the role of the forestry sector in mitigating climate change, with particular attention to finding the right balance between increasing carbon stocks in forest ecosystems, promoting the use of renewable wood energy, and the sound use of wood products as substitutes of rough materials derived from non renewable resources.</heading>
+														<point wId="od1-clan2-tac2">
+															<num>2.</num>
+															<content>
+																<p> Each Party, taking into consideration the effects of climate change, shall pursue adaptation policies and measures aiming at increasing the stability and the resilience of the Carpathian forests.</p>
+															</content>
+														</point>
+														<point wId="od1-clan2-tac3">
+															<num>3.</num>
+															<content>
+																<p> Each Party, taking into consideration the increased vulnerability of forest to the fires and other extreme events due to climate change, shall undertake appropriate measures in order to reduce the risk and mitigate the effects.</p>
+															</content>
+														</point>
+														<paragraph wId="od1-clan2-stav1">
+															<content>
+																<p>Article 15</p>
+															</content>
+														</paragraph>
+														<paragraph wId="od1-clan2-stav2">
+															<content>
+																<p>Social function of forests</p>
+															</content>
+														</paragraph>
+														<section wId="od1">
+															<num>1.</num>
+															<heading> Each Party shall define, within its existing institutional framework, effective schemes for coordination and cooperation between the institutions and regional and local authorities concerned with forest resources management, with the involvement of other local stakeholders, so as to enhance the social function of forests.</heading>
+															<point wId="od1-clan2-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Each Party, taking into consideration the high value of forests for tourism development, shall take into account sustainable tourism policies in forest management planning.</p>
+																</content>
+															</point>
+															<point wId="od1-clan2-tac3">
+																<num>3.</num>
+																<content>
+																	<p> Each Party shall consider promoting cultural heritage and traditional knowledge practices related to forest management, including education at all levels.</p>
+																</content>
+															</point>
+															<paragraph wId="od1-clan2-stav1">
+																<content>
+																	<p>Article 16</p>
+																</content>
+															</paragraph>
+															<paragraph wId="od1-clan2-stav2">
+																<content>
+																	<p>Forestry, wildlife and ecological networks</p>
+																</content>
+															</paragraph>
+															<section wId="od1">
+																<num>1.</num>
+																<heading> Each Party shall apply sustainable wildlife management methods, especially by coordinated regulation measures in borderland regions, with special attention to the control of population size of hoofed animals so that it allows a natural regeneration of forests, and monitoring and management of large carnivores within the carrying capacities of the forests ecosystem.</heading>
+																<point wId="od1-clan2-tac2">
+																	<num>2.</num>
+																	<content>
+																		<p> The Parties shall cooperate on harmonisation of their policies related to ecological networks and the forest management objectives and measures.</p>
+																	</content>
+																</point>
+																<paragraph wId="od1-clan2-stav1">
+																	<content>
+																		<p>Article 17</p>
+																	</content>
+																</paragraph>
+																<paragraph wId="od1-clan2-stav2">
+																	<content>
+																		<p>Compatible monitoring and information systems</p>
+																	</content>
+																</paragraph>
+																<section wId="od1">
+																	<num>1.</num>
+																	<heading> The Parties shall cooperate, within the framework of existing international initiatives, on harmonising the forest monitoring in the Carpathians that is conducive to achieving the objectives of this Protocol.</heading>
+																	<point wId="od1-clan2-tac2">
+																		<num>2.</num>
+																		<content>
+																			<p> The Parties shall cooperate to develop a joint information system on the state of forests in the Carpathians in accordance with Article 12 of the Carpathian Convention.</p>
+																		</content>
+																	</point>
+																	<point wId="od1-clan2-tac3">
+																		<num>3.</num>
+																		<content>
+																			<p> The Parties shall cooperate on the harmonisation of databases, and in ensuring that the national results of forest monitoring are integrated in a joint information system.</p>
+																		</content>
+																	</point>
+																	<paragraph wId="od1-clan2-stav1">
+																		<content>
+																			<p>Article 18</p>
+																		</content>
+																	</paragraph>
+																	<paragraph wId="od1-clan2-stav2">
+																		<content>
+																			<p>Coordinated scientific research and exchange of information</p>
+																		</content>
+																	</paragraph>
+																	<section wId="od1">
+																		<num>1.</num>
+																		<heading> Each Party shall coordinate and cooperate on scientific research undertaken in its territory or by its scientific institutions with regard to the overall objectives of this Protocol.</heading>
+																		<point wId="od1-clan2-tac2">
+																			<num>2.</num>
+																			<content>
+																				<p> The Parties shall encourage international cooperation among the scientific institutions with regard to sustainable forest management in the Carpathians, in particular on undertaking common research programs and projects in the Carpathians.</p>
+																			</content>
+																		</point>
+																		<point wId="od1-clan2-tac3">
+																			<num>3.</num>
+																			<content>
+																				<p> The Parties shall encourage the organization of symposia and conferences to exchange scientific information and practical experience.</p>
+																			</content>
+																		</point>
+																		<point wId="od1-clan2-tac4">
+																			<num>4.</num>
+																			<content>
+																				<p> Each Party shall exchange information and experience with other Parties on methods related to activities listed under Article 1 paragraph 2.</p>
+																			</content>
+																		</point>
+																		<paragraph wId="od1-clan2-stav1">
+																			<content>
+																				<p>Article 19</p>
+																			</content>
+																		</paragraph>
+																		<paragraph wId="od1-clan2-stav2">
+																			<content>
+																				<p>Common programs and projects</p>
+																			</content>
+																		</paragraph>
+																		<paragraph wId="od1-clan2-stav3">
+																			<content>
+																				<p>Each Party shall participate, according to its needs and possibilities, in common programs and projects on activities jointly undertaken in the Carpathians by the Parties.</p>
+																			</content>
+																		</paragraph>
+																		<paragraph wId="od1-clan2-stav4">
+																			<content>
+																				<p>CHAPTER IV</p>
+																			</content>
+																		</paragraph>
+																		<paragraph wId="od1-clan2-stav5">
+																			<content>
+																				<p>IMPLEMENTATION, MONITORING AND EVALUATION</p>
+																			</content>
+																		</paragraph>
+																		<paragraph wId="od1-clan2-stav6">
+																			<content>
+																				<p>Article 20</p>
+																			</content>
+																		</paragraph>
+																		<paragraph wId="od1-clan2-stav7">
+																			<content>
+																				<p>Implementation</p>
+																			</content>
+																		</paragraph>
+																		<section wId="od1">
+																			<num>1.</num>
+																			<heading> Each Party shall undertake necessary legal and administrative measures for ensuring implementation of the provisions of this Protocol.</heading>
+																			<point wId="od1-clan2-tac2">
+																				<num>2.</num>
+																				<content>
+																					<p> Each Party shall explore the possibilities of supporting, through fiscal and/or financial measures, implementation of the provisions of this Protocol.</p>
+																				</content>
+																			</point>
+																			<point wId="od1-clan2-tac3">
+																				<num>3.</num>
+																				<content>
+																					<p> Each Party shall designate a relevant national authority responsible for the implementation of this Protocol and make this information available to other Parties. The respective national authorities shall be responsible for monitoring the effect of the measures mentioned in paragraphs 1 and 2 of this Article.</p>
+																				</content>
+																			</point>
+																			<point wId="od1-clan2-tac4">
+																				<num>4.</num>
+																				<content>
+																					<p> The Parties shall develop and adopt the Strategic Action Plan targeted on implementation of this Protocol.</p>
+																				</content>
+																			</point>
+																			<paragraph wId="od1-clan2-stav1">
+																				<content>
+																					<p>Article 21</p>
+																				</content>
+																			</paragraph>
+																			<paragraph wId="od1-clan2-stav2">
+																				<content>
+																					<p>Education, information and public awareness</p>
+																				</content>
+																			</paragraph>
+																			<section wId="od1">
+																				<num>1.</num>
+																				<heading> The Parties shall promote the education, information and awareness rising of the public regarding the objectives, measures and implementation of this Protocol.</heading>
+																				<point wId="od1-clan2-tac2">
+																					<num>2.</num>
+																					<content>
+																						<p> The Parties shall ensure access of the public to the information on the implementation of the Protocol.</p>
+																					</content>
+																				</point>
+																				<paragraph wId="od1-clan2-stav1">
+																					<content>
+																						<p>Article 22</p>
+																					</content>
+																				</paragraph>
+																				<paragraph wId="od1-clan2-stav2">
+																					<content>
+																						<p>Meeting of the Parties</p>
+																					</content>
+																				</paragraph>
+																				<section wId="od1">
+																					<num>1.</num>
+																					<heading> The Conference of the Parties of the Carpathian Convention shall serve as the meeting of the Parties to this Protocol.</heading>
+																					<point wId="od1-clan2-tac2">
+																						<num>2.</num>
+																						<content>
+																							<p> The Parties to the Carpathian Convention that are not Parties to this Protocol may participate as observers in the Conference of the Parties serving as the meeting of the Parties to this Protocol. When the Conference of the Parties serves as the meeting of the Parties to this Protocol, decisions under this Protocol shall be taken only by those that are Parties to it.</p>
+																						</content>
+																					</point>
+																					<point wId="od1-clan2-tac3">
+																						<num>3.</num>
+																						<content>
+																							<p> When the Conference of the Parties serves as the meeting of the Parties to this Protocol, any member of the bureau of the Conference of the Parties representing a Party to the Carpathian Convention but, at that time, not a Party to this Protocol, shall be substituted by a member to be elected by and from among the Parties to this Protocol.</p>
+																						</content>
+																					</point>
+																					<point wId="od1-clan2-tac4">
+																						<num>4.</num>
+																						<content>
+																							<p> The Rules of Procedure for the Conference of the Parties shall apply mutatis mutandis to the meeting of the Parties, except as may be otherwise decided by consensus by the Conference of the Parties serving as the meeting of the Parties to this Protocol.</p>
+																						</content>
+																					</point>
+																					<point wId="od1-clan2-tac5">
+																						<num>5.</num>
+																						<content>
+																							<p> The first meeting of the Conference of the Parties serving as the meeting of the Parties to this Protocol shall be convened by the Secretariat in conjunction with the first meeting of the Conference of the Parties that is scheduled after the date of the entry into force of this Protocol. Subsequent ordinary meetings of the Conference of the Parties serving as the meeting of the Parties to this Protocol shall be held in conjunction with ordinary meetings of the Conference of the Parties, unless otherwise decided by the Conference of the Parties serving as the meeting of the Parties to this Protocol.</p>
+																						</content>
+																					</point>
+																					<point wId="od1-clan2-tac6">
+																						<num>6.</num>
+																						<content>
+																							<p> The Conference of the Parties serving as the meeting of the Parties to this Protocol shall make, within its mandate, the decisions necessary to promote its effective implementation. It shall perform the functions assigned to it by this Protocol and shall:</p>
+																						</content>
+																					</point>
+																					<paragraph wId="od1-clan2-stav1">
+																						<content>
+																							<p>(a) Make recommendations on any matters necessary for the implementation of this Protocol;</p>
+																						</content>
+																					</paragraph>
+																					<paragraph wId="od1-clan2-stav2">
+																						<content>
+																							<p>(b) Establish such subsidiary bodies as are deemed necessary for the implementation of this Protocol;</p>
+																						</content>
+																					</paragraph>
+																					<paragraph wId="od1-clan2-stav3">
+																						<content>
+																							<p>(c) Consider and adopt, as required, amendments to this Protocol that are deemed necessary for the implementation of this Protocol; and</p>
+																						</content>
+																					</paragraph>
+																					<paragraph wId="od1-clan2-stav4">
+																						<content>
+																							<p>(d) Exercise such other functions as may be required for the implementation of this Protocol.</p>
+																						</content>
+																					</paragraph>
+																					<paragraph wId="od1-clan2-stav5">
+																						<content>
+																							<p>Article 23</p>
+																						</content>
+																					</paragraph>
+																					<paragraph wId="od1-clan2-stav6">
+																						<content>
+																							<p>Secretariat</p>
+																						</content>
+																					</paragraph>
+																					<section wId="od1">
+																						<num>1.</num>
+																						<heading> The Secretariat established by Article 15 of the Carpathian Convention shall serve as the Secretariat of this Protocol.</heading>
+																						<point wId="od1-clan2-tac2">
+																							<num>2.</num>
+																							<content>
+																								<p> Article 15, paragraph 2, of the Carpathian Convention on the functions of the Secretariat shall apply, mutatis mutandis, to this Protocol.</p>
+																							</content>
+																						</point>
+																						<paragraph wId="od1-clan2-stav1">
+																							<content>
+																								<p>Article 24</p>
+																							</content>
+																						</paragraph>
+																						<paragraph wId="od1-clan2-stav2">
+																							<content>
+																								<p>Subsidiary Bodies</p>
+																							</content>
+																						</paragraph>
+																						<section wId="od1">
+																							<num>1.</num>
+																							<heading> Any subsidiary body established by or under the Carpathian Convention may, upon a decision by the Conference of the Parties serving as the meeting of the Parties to this Protocol, serve the Protocol, in which case the meeting of the Parties shall specify which functions that body shall exercise.</heading>
+																							<point wId="od1-clan2-tac2">
+																								<num>2.</num>
+																								<content>
+																									<p> Parties to the Carpathian Convention that are not Parties to this Protocol may participate as observers in the meetings of any such subsidiary bodies. When a subsidiary body of the Carpathian Convention serves as a subsidiary body to this Protocol, decisions under the Protocol shall be taken only by the Parties to the Protocol.</p>
+																								</content>
+																							</point>
+																							<point wId="od1-clan2-tac3">
+																								<num>3.</num>
+																								<content>
+																									<p> When a subsidiary body of the Carpathian Convention exercises its functions with regard to matters concerning this Protocol, any member of the bureau of that subsidiary body representing a Party to the Carpathian Convention but, at that time, not a Party to the Protocol, shall be substituted by a member to be elected by and from among the Parties to the Protocol.</p>
+																								</content>
+																							</point>
+																							<paragraph wId="od1-clan2-stav1">
+																								<content>
+																									<p>Article 25</p>
+																								</content>
+																							</paragraph>
+																							<paragraph wId="od1-clan2-stav2">
+																								<content>
+																									<p>Monitoring of compliance with obligations</p>
+																								</content>
+																							</paragraph>
+																							<section wId="od1">
+																								<num>1.</num>
+																								<heading> The Parties shall regularly report to the Conference of the Parties on measures related to this Protocol and the results of the measures taken. The Conference of the Parties shall determine the intervals and format at which the reports must be submitted.</heading>
+																								<point wId="od1-clan2-tac2">
+																									<num>2.</num>
+																									<content>
+																										<p> Observers may present any information or report on implementation of and compliance with the provisions of this Protocol to the Conference of the Parties and/or to the Carpathian Convention Implementation Committee (hereinafter referred to as the “Implementation Committee”).</p>
+																									</content>
+																								</point>
+																								<point wId="od1-clan2-tac3">
+																									<num>3.</num>
+																									<content>
+																										<p> The Implementation Committee shall collect, assess and analyses information relevant to the implementation of this Protocol and monitor the compliance by the Parties with the provisions of this Protocol.</p>
+																									</content>
+																								</point>
+																								<point wId="od1-clan2-tac4">
+																									<num>4.</num>
+																									<content>
+																										<p> The Implementation Committee shall present to the Conference of the Parties recommendations for implementation and the necessary measures for compliance with the Protocol.</p>
+																									</content>
+																								</point>
+																								<point wId="od1-clan2-tac5">
+																									<num>5.</num>
+																									<content>
+																										<p> The Conference of the Parties shall adopt or recommend necessary measures.</p>
+																									</content>
+																								</point>
+																								<paragraph wId="od1-clan2-stav1">
+																									<content>
+																										<p>Article 26</p>
+																									</content>
+																								</paragraph>
+																								<paragraph wId="od1-clan2-stav2">
+																									<content>
+																										<p>Evaluation of the effectiveness of the provisions</p>
+																									</content>
+																								</paragraph>
+																								<section wId="od1">
+																									<num>1.</num>
+																									<heading> The Parties shall regularly examine and evaluate the effectiveness of the provisions of this Protocol. The Conference of the Parties may consider the adoption of appropriate amendments to this Protocol where necessary in order to achieve its objectives.</heading>
+																									<point wId="od1-clan2-tac2">
+																										<num>2.</num>
+																										<content>
+																											<p> The Parties shall facilitate the involvement of the regional and local authorities and other stakeholders in the process under paragraph 1.</p>
+																										</content>
+																									</point>
+																									<paragraph wId="od1-clan2-stav1">
+																										<content>
+																											<p>CHAPTER V</p>
+																										</content>
+																									</paragraph>
+																									<paragraph wId="od1-clan2-stav2">
+																										<content>
+																											<p>FINAL PROVISIONS</p>
+																										</content>
+																									</paragraph>
+																									<paragraph wId="od1-clan2-stav3">
+																										<content>
+																											<p>Article 27</p>
+																										</content>
+																									</paragraph>
+																									<paragraph wId="od1-clan2-stav4">
+																										<content>
+																											<p>Links between the Carpathian Convention and the Protocol</p>
+																										</content>
+																									</paragraph>
+																									<section wId="od1">
+																										<num>1.</num>
+																										<heading> This Protocol constitutes a Protocol to the Carpathian Convention within the meaning of Article 2 paragraph 3 thereof and any other relevant Articles of the Carpathian Convention.</heading>
+																										<point wId="od1-clan2-tac2">
+																											<num>2.</num>
+																											<content>
+																												<p> The provisions of Articles 19, 20, 21 paragraphs 2 to 4 and Article 22 of the Carpathian Convention on entry into force, amendment of and withdrawal from this Protocol and on settlement of disputes shall apply mutatis mutandis to this Protocol. Only a Party to the Carpathian Convention may become Party to this Protocol.</p>
+																											</content>
+																										</point>
+																										<paragraph wId="od1-clan2-stav1">
+																											<content>
+																												<p>Article 28</p>
+																											</content>
+																										</paragraph>
+																										<paragraph wId="od1-clan2-stav2">
+																											<content>
+																												<p>Signature</p>
+																											</content>
+																										</paragraph>
+																										<section wId="od1">
+																											<num>1.</num>
+																											<heading> This Protocol shall be open for signature at the Depositary from 27 May 2011 to 27 May 2012.</heading>
+																											<point wId="od1-clan2-tac2">
+																												<num>2.</num>
+																												<content>
+																													<p> For Parties which express their consent to be bound by this Protocol at a later date, this Protocol shall enter into force on the ninetieth day after the date of deposit of the instrument of ratification. After the entry into force of an amendment to this Protocol, any new Party to the said Protocol shall become a Party to the Protocol, as amended.</p>
+																												</content>
+																											</point>
+																											<paragraph wId="od1-clan2-stav1">
+																												<content>
+																													<p>Article 29</p>
+																												</content>
+																											</paragraph>
+																											<paragraph wId="od1-clan2-stav2">
+																												<content>
+																													<p>Notifications</p>
+																												</content>
+																											</paragraph>
+																											<paragraph wId="od1-clan2-stav3">
+																												<content>
+																													<p>The Depositary shall, in respect of this Protocol, notify each Party of</p>
+																												</content>
+																											</paragraph>
+																											<paragraph wId="od1-clan2-stav4">
+																												<content>
+																													<p>(a) any signature,</p>
+																												</content>
+																											</paragraph>
+																											<paragraph wId="od1-clan2-stav5">
+																												<content>
+																													<p>(b) the deposit of any instrument of ratification, acceptance or approval,</p>
+																												</content>
+																											</paragraph>
+																											<paragraph wId="od1-clan2-stav6">
+																												<content>
+																													<p>(c) any date of entry into force,</p>
+																												</content>
+																											</paragraph>
+																											<paragraph wId="od1-clan2-stav7">
+																												<content>
+																													<p>(d) any declaration made by a Party or signatory,</p>
+																												</content>
+																											</paragraph>
+																											<paragraph wId="od1-clan2-stav8">
+																												<content>
+																													<p>(e) any denunciation notified by a Party, including the date on which it becomes effective.</p>
+																												</content>
+																											</paragraph>
+																											<paragraph wId="od1-clan2-stav9">
+																												<content>
+																													<p>Article 30</p>
+																												</content>
+																											</paragraph>
+																											<paragraph wId="od1-clan2-stav10">
+																												<content>
+																													<p>Reservations</p>
+																												</content>
+																											</paragraph>
+																											<paragraph wId="od1-clan2-stav11">
+																												<content>
+																													<p>No reservations may be made to this Protocol.</p>
+																												</content>
+																											</paragraph>
+																											<paragraph wId="od1-clan2-stav12">
+																												<content>
+																													<p>Article 31</p>
+																												</content>
+																											</paragraph>
+																											<paragraph wId="od1-clan2-stav13">
+																												<content>
+																													<p>Depositary</p>
+																												</content>
+																											</paragraph>
+																											<paragraph wId="od1-clan2-stav14">
+																												<content>
+																													<p>The Depositary of this Protocol is the Government of Ukraine.</p>
+																												</content>
+																											</paragraph>
+																											<paragraph wId="od1-clan2-stav15">
+																												<content>
+																													<p>Done at Bratislava on the 27 May 2011 in one original in English language.</p>
+																												</content>
+																											</paragraph>
+																											<paragraph wId="od1-clan2-stav16">
+																												<content>
+																													<p>The original of the Protocol shall be deposited with the Depositary, which shall distribute certified copies to all Parties.</p>
+																												</content>
+																											</paragraph>
+																											<paragraph wId="od1-clan2-stav17">
+																												<content>
+																													<p>In witness whereof the undersigned, being duly authorised thereto, have signed this Protocol</p>
+																												</content>
+																											</paragraph>
+																											<paragraph wId="od1-clan2-stav18">
+																												<content>
+																													<p>For the Government of the Czech Republic</p>
+																												</content>
+																											</paragraph>
+																											<paragraph wId="od1-clan2-stav19">
+																												<content>
+																													<p>For the Government of the Republic of Hungary</p>
+																												</content>
+																											</paragraph>
+																											<paragraph wId="od1-clan2-stav20">
+																												<content>
+																													<p>For the Government of the Republic of Poland</p>
+																												</content>
+																											</paragraph>
+																											<paragraph wId="od1-clan2-stav21">
+																												<content>
+																													<p>For the Government of Romania</p>
+																												</content>
+																											</paragraph>
+																											<paragraph wId="od1-clan2-stav22">
+																												<content>
+																													<p>For the Government of the Republic of Serbia</p>
+																												</content>
+																											</paragraph>
+																											<paragraph wId="od1-clan2-stav23">
+																												<content>
+																													<p>For the Government of the Slovak Republic</p>
+																												</content>
+																											</paragraph>
+																											<paragraph wId="od1-clan2-stav24">
+																												<content>
+																													<p>For the Government of Ukraine</p>
+																												</content>
+																											</paragraph>
+																											<paragraph wId="od1-clan2-stav25">
+																												<content>
+																													<p>Протокол о одрживом управљању шумама уз Оквирну конвенцију о заштити и одрживом развоју Карпата</p>
+																												</content>
+																											</paragraph>
+																											<paragraph wId="od1-clan2-stav26">
+																												<content>
+																													<p>Стране овог протокола,</p>
+																												</content>
+																											</paragraph>
+																											<paragraph wId="od1-clan2-stav27">
+																												<content>
+																													<p>У СКЛАДУ СА обавезама прописаним Оквирном конвенцијом о заштити и одрживом развоју Карпата (у даљем тексту: Карпатска конвенција), стремећи свеобухватној политици и сарадњи у циљу заштите и одрживог развоја Карпата;</p>
+																												</content>
+																											</paragraph>
+																											<paragraph wId="od1-clan2-stav28">
+																												<content>
+																													<p>СВЕСНЕ чињенице да ће се притисак људи на карпатске шуме непрестано повећавати;</p>
+																												</content>
+																											</paragraph>
+																											<paragraph wId="od1-clan2-stav29">
+																												<content>
+																													<p>У ЦИЉУ подизања свести о мултифункционалном карактеру шума и користи од одрживог управљања шумама на Карпатима, посебно што се тиче складиштења угљеника у биомаси, снабдевања водом и биодиверзитета као и доприноса руралном развоју;</p>
+																												</content>
+																											</paragraph>
+																											<paragraph wId="od1-clan2-stav30">
+																												<content>
+																													<p>У СКЛАДУ СА својим обавезама из члана 7. Оквирне конвенције о заштити и одрживом развоју Карпата;</p>
+																												</content>
+																											</paragraph>
+																											<paragraph wId="od1-clan2-stav31">
+																												<content>
+																													<p>ПОЗИВАЈУЋИ СЕ посебно на Рио Декларацију, правно необавезујући инструмент Уједињених нација који се односи на све типове шума, Одлуке Форума за шуме Уједињених нација, Декларацију из Јоханезбурга о одрживом развоју и План о имплементацији Светског самита о одрживом развоју, Оквирну Конвенцију Уједињених нација о климатским променама и пратећи Кјото протокол, Конвенцију о биолошкој разноврсности и њеног програма рада и релевантних одлука везаних за шумски биодиверзитет, Резолуције Министарске конференције о заштити шума у Европи, Конвенција о очувању и заштити светског културног и природног наслеђа, Европску конвенцију о пределу, спровођење закона о шумама и процесе управљања;</p>
+																												</content>
+																											</paragraph>
+																											<paragraph wId="od1-clan2-stav32">
+																												<content>
+																													<p>КОНСТАТУЈУЋИ даље да највећи број Страна које се као државе чланице Европске уније придржавају Стратегије шумарства ЕУ и њеног Акционог плана;</p>
+																												</content>
+																											</paragraph>
+																											<paragraph wId="od1-clan2-stav33">
+																												<content>
+																													<p>У ЦИЉУ обезбеђивања ефикасније примене постојећих законских инструмената, и НАДОВЕЗУЈУЋИ СЕ на друге међународне програме;</p>
+																												</content>
+																											</paragraph>
+																											<paragraph wId="od1-clan2-stav34">
+																												<content>
+																													<p>УВЕРЕНЕ да напори у циљу заштите, очувања и одрживог управљања карпатским шумама захтевају регионалну сарадњу; и СВЕСНЕ додатне вредности прекограничне сарадње на постизању еколошке кохеренције;</p>
+																												</content>
+																											</paragraph>
+																											<paragraph wId="od1-clan2-stav35">
+																												<content>
+																													<p>У ЖЕЉИ да сарађују на одрживом управљању и заштити карпатских шума;</p>
+																												</content>
+																											</paragraph>
+																											<paragraph wId="od1-clan2-stav36">
+																												<content>
+																													<p>Споразумеле су се о следећем:</p>
+																												</content>
+																											</paragraph>
+																											<paragraph wId="od1-clan2-stav37">
+																												<content>
+																													<p>ПОГЛАВЉЕ I</p>
+																												</content>
+																											</paragraph>
+																											<article wId="od1-clan1">
+																												<num>1.</num>
+																												<heading>ОПШТЕ ОБАВЕЗЕ</heading>
+																												<paragraph wId="od1-clan1-stav1">
+																													<content>
+																														<p>Општи циљеви и принципи</p>
+																													</content>
+																												</paragraph>
+																											</article>
+																											<section wId="od1">
+																												<num>1.</num>
+																												<heading> Циљ Протокола о одрживом управљању шумама (у даљем тексту: Протокол) је да промовише одрживо управљање и заштиту карпатских шума, за добробит данашњих и будућих генерација.</heading>
+																												<point wId="od1-clan1-tac2">
+																													<num>2.</num>
+																													<content>
+																														<p> У циљу постизања горе наведеног циља, Стране ће спроводити активности и сарађивати на:</p>
+																													</content>
+																												</point>
+																												<subsection wId="od1-podod1">
+																													<num>а</num>
+																													<heading> очувању или увећавању површина под шумама;</heading>
+																													<paragraph wId="od1-podod1-clan1-stav1">
+																														<content>
+																															<p>b) обезбеђивању производних функција шума и њихове улоге у руралном развоју;</p>
+																														</content>
+																													</paragraph>
+																													<paragraph wId="od1-podod1-clan1-stav2">
+																														<content>
+																															<p>c) промовисању рационалног коришћења шума као еколошког и обновљивог материјала;</p>
+																														</content>
+																													</paragraph>
+																													<paragraph wId="od1-podod1-clan1-stav3">
+																														<content>
+																															<p>d) промовисању одрживе употребе недрвних шумских производа;</p>
+																														</content>
+																													</paragraph>
+																													<paragraph wId="od1-podod1-clan1-stav4">
+																														<content>
+																															<p>e) унапређењу здравственог стања и виталности шума;</p>
+																														</content>
+																													</paragraph>
+																													<paragraph wId="od1-podod1-clan1-stav5">
+																														<content>
+																															<p>f) унапређењу очувања и одрживог коришћења компоненти биолошке разноврсности шума;</p>
+																														</content>
+																													</paragraph>
+																													<paragraph wId="od1-podod1-clan1-stav6">
+																														<content>
+																															<p>g) идентификацији и заштити природних, а посебно нетакнутих шума;</p>
+																														</content>
+																													</paragraph>
+																													<paragraph wId="od1-podod1-clan1-stav7">
+																														<content>
+																															<p>h) промовисању поновног успостављања природних шума;</p>
+																														</content>
+																													</paragraph>
+																													<paragraph wId="od1-podod1-clan1-stav8">
+																														<content>
+																															<p>i) унапређењу улоге шумарског сектора у ублажавању климатских промена;</p>
+																														</content>
+																													</paragraph>
+																													<paragraph wId="od1-podod1-clan1-stav9">
+																														<content>
+																															<p>j) унапређењу заштитних функција шума, као што су спречавање поплава, клизишта и генералне регулације кружења воде у природи;</p>
+																														</content>
+																													</paragraph>
+																													<paragraph wId="od1-podod1-clan1-stav10">
+																														<content>
+																															<p>k) промовисању културног наслеђа шума;</p>
+																														</content>
+																													</paragraph>
+																													<paragraph wId="od1-podod1-clan1-stav11">
+																														<content>
+																															<p>l) увећање друштвених функција шума;</p>
+																														</content>
+																													</paragraph>
+																													<paragraph wId="od1-podod1-clan1-stav12">
+																														<content>
+																															<p>m) промовисању учешћа регионалних и локалних власти и заједница у управљању шумама;</p>
+																														</content>
+																													</paragraph>
+																													<paragraph wId="od1-podod1-clan1-stav13">
+																														<content>
+																															<p>n) идентификацији, развоју и примени одговарајућих шема плаћања за одговарајућа добра и услуге које пружају шуме;</p>
+																														</content>
+																													</paragraph>
+																													<paragraph wId="od1-podod1-clan1-stav14">
+																														<content>
+																															<p>o) оснаживању управљања шумским сектором и спровођењу закона о шумама са посебним акцентом на борбу против бесправне сече шума и трговања бесправно стеченим шумским производима;</p>
+																														</content>
+																													</paragraph>
+																													<paragraph wId="od1-podod1-clan1-stav15">
+																														<content>
+																															<p>p) идентификацији, развоју и имплементацији најбољих пракси везано за природи блиско газдовање шумама;</p>
+																														</content>
+																													</paragraph>
+																													<paragraph wId="od1-podod1-clan1-stav16">
+																														<content>
+																															<p>q) промоцији и координацији научних истраживања и размени информација у вези карпатских шума.</p>
+																														</content>
+																													</paragraph>
+																													<article wId="od1-podod1-clan2">
+																														<num>2.</num>
+																														<paragraph wId="od1-podod1-clan2-stav1">
+																															<content>
+																																<p>Политике које се тичу одрживог управљања карпатским шумама</p>
+																															</content>
+																														</paragraph>
+																														<paragraph wId="od1-podod1-clan2-stav2">
+																															<content>
+																																<p>Странe ће развијати и спроводити политике и стратегије на својој националној територији у циљу одрживог управљања карпатским шумама, узимајући у обзир политике и стратегије развијене и спроведене од осталих Страна. У ову сврху Стране ће размењивати релевантне информације са осталим Странама.</p>
+																															</content>
+																														</paragraph>
+																													</article>
+																													<article wId="od1-podod1-clan3">
+																														<num>3.</num>
+																														<paragraph wId="od1-podod1-clan3-stav1">
+																															<content>
+																																<p>Интегрисање циљева одрживог управљања и заштите карпатских шума у секторске политике</p>
+																															</content>
+																														</paragraph>
+																													</article>
+																												</subsection>
+																												<section wId="od1">
+																													<num>1.</num>
+																													<heading> Стране ће узети у обзир циљеве овог протокола приликом израде својих политика, посебно оне које се тичу очувања биолошке разноврсности, заштите земљишта, руралног развоја, управљања воденим и речним сливом, климатских промена, туризма, индустрије и енергије, очувања културног наслеђа и традиционалног знања, просторног планирања, транспорта и инфраструктуре.</heading>
+																													<point wId="od1-clan3-tac2">
+																														<num>2.</num>
+																														<content>
+																															<p> Стране ће сарађивати на интеграцији циљева одрживог управљања и заштите карпатских шума у своје регионалне или глобалне секторске политике и стратегије, што би даље могло да има утицаја на одрживо управљање карпатским шумама.</p>
+																														</content>
+																													</point>
+																													<article wId="od1-clan4">
+																														<num>4.</num>
+																														<paragraph wId="od1-clan4-stav1">
+																															<content>
+																																<p>Учешће регионалних и локалних власти и заједница</p>
+																															</content>
+																														</paragraph>
+																													</article>
+																													<section wId="od1">
+																														<num>1.</num>
+																														<heading> Стране ће, у оквиру свог постојећег институционалног оквира, дефинисати најбољи ниво координације и сарадње међу институцијама и регионалним и локалним органима власти у циљу подстицања поделе одговорности у сврху процеса имплементације овог протокола.</heading>
+																														<point wId="od1-clan4-tac2">
+																															<num>2.</num>
+																															<content>
+																																<p> Стране ће предузети мере за укључивање или организовати укључивање локалних заједница, власника шума и управљача директно у различите етапе припреме и имплементације ових политика и мера.</p>
+																															</content>
+																														</point>
+																														<article wId="od1-clan5">
+																															<num>5.</num>
+																															<paragraph wId="od1-clan5-stav1">
+																																<content>
+																																	<p>Међународна сарадња</p>
+																																</content>
+																															</paragraph>
+																														</article>
+																														<section wId="od1">
+																															<num>1.</num>
+																															<heading> Стране ће подстицати активну међународну сарадњу међу надлежним институцијама што се тиче одрживог управљања и заштите карпатских шума.</heading>
+																															<point wId="od1-clan5-tac2">
+																																<num>2.</num>
+																																<content>
+																																	<p> Стране ће олакшати сарадњу између регионалних и локалних власти на Карпатима на међународном нивоу и такође тражити решења за заједничке проблеме на најпогоднијем нивоу.</p>
+																																</content>
+																															</point>
+																															<paragraph wId="od1-clan5-stav1">
+																																<content>
+																																	<p>ПОГЛАВЉЕ II</p>
+																																</content>
+																															</paragraph>
+																															<article wId="od1-clan6">
+																																<num>6.</num>
+																																<heading>ГЕОГРАФСКИ ОБИМ И ДЕФИНИЦИЈЕ</heading>
+																																<paragraph wId="od1-clan6-stav1">
+																																	<content>
+																																		<p>Географски обим</p>
+																																	</content>
+																																</paragraph>
+																															</article>
+																															<section wId="od1">
+																																<num>1.</num>
+																																<heading> Овај протокол се односи на Карпатски регион (у даљем тексту: Карпати) као што је дефинисала Конференција Страна Карпатске конвенције.</heading>
+																																<point wId="od1-clan6-tac2">
+																																	<num>2.</num>
+																																	<content>
+																																		<p> Свака Страна може да прошири примену овог протокола на додатне делове своје националне територије упућивањем Декларације Депозитару.</p>
+																																	</content>
+																																</point>
+																																<article wId="od1-clan7">
+																																	<num>7.</num>
+																																	<paragraph wId="od1-clan7-stav1">
+																																		<content>
+																																			<p>Дефиниције</p>
+																																		</content>
+																																	</paragraph>
+																																	<paragraph wId="od1-clan7-stav2">
+																																		<content>
+																																			<p>У сврху овог протокола:</p>
+																																		</content>
+																																	</paragraph>
+																																</article>
+																																<subsection wId="od1-podod1">
+																																	<num>а</num>
+																																	<heading> „Одрживо управљање шумама” подразумева управљање и коришћење шуме и шумског земљишта на такав начин и у таквом степену да се очува њихов биодиверзитет, продуктивност, виталност и регенеративни капацитет, као и потенцијал шума да испуне сада и у будућности, одговарајуће еколошке, економске и социјалне функције на локалном, националном и глобалном нивоу, а да се при томе не угрозе неки други екосистеми;</heading>
+																																	<paragraph wId="od1-podod1-clan7-stav1">
+																																		<content>
+																																			<p>b) „Природи блиско шумарство” подразумева систем управљања шумама који омогућава трајно обнављање, развој и третман састојина које су сличне по саставу врста, структури и динамици природним шумама које су специфичне за услове предметне локације;</p>
+																																		</content>
+																																	</paragraph>
+																																	<paragraph wId="od1-podod1-clan7-stav2">
+																																		<content>
+																																			<p>c) „Еколошка мрежа” означава систем подручја која су еколошки и физички повезана, која се даље састоје од кључних подручја, коридора и тампон зона;</p>
+																																		</content>
+																																	</paragraph>
+																																	<paragraph wId="od1-podod1-clan7-stav3">
+																																		<content>
+																																			<p>d) „Шеме сертификације шума” су оне шеме сертификације које се тичу одрживог управљања шумама које садржи јасне циљеве, мерљиве критеријуме, независно оцењивање и укључивање и давање кредибилитета главним заинтересованим групама;</p>
+																																		</content>
+																																	</paragraph>
+																																	<paragraph wId="od1-podod1-clan7-stav4">
+																																		<content>
+																																			<p>e) „Природне шуме” су шуме које се састоје од оних врста дрвећа које су аутохтоне за дати предео и које садрже већину главних карактеристика и кључних елемената екосистема, као што су сложеност, структура и разноврсност;</p>
+																																		</content>
+																																	</paragraph>
+																																	<paragraph wId="od1-podod1-clan7-stav5">
+																																		<content>
+																																			<p>f) „Стране” означава Стране овог протокола;</p>
+																																		</content>
+																																	</paragraph>
+																																	<paragraph wId="od1-podod1-clan7-stav6">
+																																		<content>
+																																			<p>g) „Заштићено подручје” означава географски дефинисано подручје које је тако одређено и којим се управља у циљу реализације посебних циљева везаних за његову заштиту и очување;</p>
+																																		</content>
+																																	</paragraph>
+																																	<paragraph wId="od1-podod1-clan7-stav7">
+																																		<content>
+																																			<p>h) „Заштита шума” подразумева такав аспекат очувања природе, који се тиче заштите, одржавања, обнављања и одрживог коришћења шумских ресурса у циљу обезбеђивања екосистемских услуга шума;</p>
+																																		</content>
+																																	</paragraph>
+																																	<paragraph wId="od1-podod1-clan7-stav8">
+																																		<content>
+																																			<p>i) „Природи блиско обнављање шума” означава такав вид управљања који се примењује у шумским областима, а који за циљ има да помогне природне процесе обнављања шума на такав начин да структура састојине, биолошка разноврсност, функције, процеси и посебно састав врста обновљене шуме одговарају, што је више могуће и колико је изводљиво, првобитној шуми преко постепеног мењања секундарних шумских састојина;</p>
+																																		</content>
+																																	</paragraph>
+																																	<paragraph wId="od1-podod1-clan7-stav9">
+																																		<content>
+																																			<p>j) „Рационално коришћење дрвета” представља један интегрисан приступ преради и крајњем коришћењу дрвета које потиче из одрживог управљања шумама од стране потрошача;</p>
+																																		</content>
+																																	</paragraph>
+																																	<paragraph wId="od1-podod1-clan7-stav10">
+																																		<content>
+																																			<p>k) „Нетакнуте шуме” означавају природне шуме на које нису директно утицале људске активности везано за њихов развој.</p>
+																																		</content>
+																																	</paragraph>
+																																	<paragraph wId="od1-podod1-clan7-stav11">
+																																		<content>
+																																			<p>ПОГЛАВЉЕ III</p>
+																																		</content>
+																																	</paragraph>
+																																	<article wId="od1-podod1-clan8">
+																																		<num>8.</num>
+																																		<heading>ПОСЕБНЕ МЕРЕ</heading>
+																																		<paragraph wId="od1-podod1-clan8-stav1">
+																																			<content>
+																																				<p>Очување и увећавање површина под шумама</p>
+																																			</content>
+																																		</paragraph>
+																																	</article>
+																																</subsection>
+																																<section wId="od1">
+																																	<num>1.</num>
+																																	<heading> Свака Страна ће предузети мере на својој националној територији, кроз одрживо управљање шумама и планирање простора, у циљу очувања постојећих површина под шумама као кључног саставног дела карпатског предела.</heading>
+																																	<point wId="od1-clan8-tac2">
+																																		<num>2.</num>
+																																		<content>
+																																			<p> Свака Страна ће предузети мере на својој националној територији у циљу повећања површина под шумама на Карпатима, и ако је то потребно у сврху постизања циљева из члана 1, истовремено узимајући у обзир и велику еколошку важност природних и полуприродних ливада и пашњака као и других циљева Карпатске конвенције и њених Протокола.</p>
+																																		</content>
+																																	</point>
+																																	<article wId="od1-clan9">
+																																		<num>9.</num>
+																																		<paragraph wId="od1-clan9-stav1">
+																																			<content>
+																																				<p>Обезбеђивање производних функција шума и њихова улога у руралном развоју</p>
+																																			</content>
+																																		</paragraph>
+																																	</article>
+																																	<section wId="od1">
+																																		<num>1.</num>
+																																		<heading> Свака Страна ће предузети мере на својим националним територијама с циљем да осигура производне функције шума и да побољшају њихову улогу у руралном развоју кроз одговарајуће политике које су прилагођене власничкој структури као и рационалном коришћењу дрвних производа.</heading>
+																																		<point wId="od1-clan9-tac2">
+																																			<num>2.</num>
+																																			<content>
+																																				<p> Стране ће промовисати и обезбедити изворе прихода од шумских ресурса и тиме пружити подршку власницима и корисницима шума као и њиховим удружењима у циљу смањења проблема који су везани за фрагментацију власништва над земљом, стимулисање тржишних иницијатива, укључујући шеме за сертификацију шума, спровођење закона о шумама, са посебним акцентом на борбу против бесправне сече шума и трговине бесправно стеченим шумским производима, промовисање одрживог коришћења и маркетинга недрвних шумских производа и развој и ширење употребе система за плаћање екосистемских услуга.</p>
+																																			</content>
+																																		</point>
+																																		<article wId="od1-clan10">
+																																			<num>10.</num>
+																																			<paragraph wId="od1-clan10-stav1">
+																																				<content>
+																																					<p>Идентификација и заштита природних, посебно нетакнутих шума</p>
+																																				</content>
+																																			</paragraph>
+																																		</article>
+																																		<section wId="od1">
+																																			<num>1.</num>
+																																			<heading> Свака Страна ће предузети мере у оквиру своје националне територије у циљу идентификације и заштите природних, а посебно нетакнутих шума на Карпатима, тако што ће успоставити заштићена подручја у довољном броју и довољне величине, и спровести друге специфичне мере заштите.</heading>
+																																			<point wId="od1-clan10-tac2">
+																																				<num>2.</num>
+																																				<content>
+																																					<p> Свака Страна ће у оквиру своје територије која припада Карпатима предузети мере за укључивање простора на којима се налазе било које врсте природних шума у заштићена подручја.</p>
+																																				</content>
+																																			</point>
+																																			<point wId="od1-clan10-tac3">
+																																				<num>3.</num>
+																																				<content>
+																																					<p> Посебно, свака Страна треба да предузме специфичне мере за очување генетских ресурса природних, а посебно нетакнутих шума.</p>
+																																				</content>
+																																			</point>
+																																			<point wId="od1-clan10-tac4">
+																																				<num>4.</num>
+																																				<content>
+																																					<p> Свака Страна ће предузети мере за надокнаду трошкова или економских губитака који су резултат мера предузетих у складу са ст. 1, 2. и 3. овог члана.</p>
+																																				</content>
+																																			</point>
+																																			<article wId="od1-clan11">
+																																				<num>11.</num>
+																																				<paragraph wId="od1-clan11-stav1">
+																																					<content>
+																																						<p>Управљање шумама у заштићеним подручјима</p>
+																																					</content>
+																																				</paragraph>
+																																			</article>
+																																			<section wId="od1">
+																																				<num>1.</num>
+																																				<heading> Свака Страна ће предузети мере за обезбеђивање усклађености између планова за управљање заштићеним подручјима и планова за управљање шумама које се налазе у заштићеним подручјима.</heading>
+																																				<point wId="od1-clan11-tac2">
+																																					<num>2.</num>
+																																					<content>
+																																						<p> Стране ће сарађивати на изради смерница за управљање шумама, укључујући природи блиско шумарство у заштићеним подручјима и где је могуће, на подручјима у оквиру мреже Натура 2000.</p>
+																																					</content>
+																																				</point>
+																																				<article wId="od1-clan12">
+																																					<num>12.</num>
+																																					<paragraph wId="od1-clan12-stav1">
+																																						<content>
+																																							<p>Унапређење заштитних функција шума</p>
+																																						</content>
+																																					</paragraph>
+																																					<paragraph wId="od1-clan12-stav2">
+																																						<content>
+																																							<p>Свака Страна ће предузети мере на својој националној територији у циљу обезбеђивања заштитних функција шума као што су боље спречавање поплава, ерозија тла, клизишта, лавине и одрони кроз промовисање метода одрживог управљања шумама које су такве да побољшавају стабилност и отпорност на природне и антропогене поремећаје.</p>
+																																						</content>
+																																					</paragraph>
+																																				</article>
+																																				<article wId="od1-clan13">
+																																					<num>13.</num>
+																																					<paragraph wId="od1-clan13-stav1">
+																																						<content>
+																																							<p>Промовисање природи блиског обнављања шума</p>
+																																						</content>
+																																					</paragraph>
+																																				</article>
+																																				<section wId="od1">
+																																					<num>1.</num>
+																																					<heading> Свака Страна ће предузети мере на својој националној територији у циљу промовисања природне обнове шума.</heading>
+																																					<point wId="od1-clan13-tac2">
+																																						<num>2.</num>
+																																						<content>
+																																							<p> Стране ће размoтрити, према потреби, успостављање програма за заштиту и реинтродукцију ретких аутохтоних врста шумског дрвећа у њихове природне екосистеме.</p>
+																																						</content>
+																																					</point>
+																																					<article wId="od1-clan14">
+																																						<num>14.</num>
+																																						<paragraph wId="od1-clan14-stav1">
+																																							<content>
+																																								<p>Шумарство и климатске промене</p>
+																																							</content>
+																																						</paragraph>
+																																					</article>
+																																					<section wId="od1">
+																																						<num>1.</num>
+																																						<heading> Свака Страна ће водити политику у циљу повећања улоге шумарског сектора у ублажавању климатских промена, са посебним акцентом на проналажењу равнотеже између повећања складиштења угљеника у шумским екосистемима, промовисања коришћења обновљиве енергије из шумске и дрвне биомасе и рационалног коришћења дрвних производа као замене за грубе грађевинске материјале који се добијају из необновљивих извора.</heading>
+																																						<point wId="od1-clan14-tac2">
+																																							<num>2.</num>
+																																							<content>
+																																								<p> Свака Страна, узимајући у обзир последице климатских промена, обавезује се да ће водити прилагођене политике и мере које за циљ имају повећање стабилности и отпорности карпатских шума.</p>
+																																							</content>
+																																						</point>
+																																						<point wId="od1-clan14-tac3">
+																																							<num>3.</num>
+																																							<content>
+																																								<p> Свака Страна, узимајући у обзир повећану угроженост шума од пожара и других екстремних догађаја изазваних климатским променама, ће предузети одговарајуће мере да би се ови ризици смањили и ублажили њихови негативни ефекти.</p>
+																																							</content>
+																																						</point>
+																																						<article wId="od1-clan15">
+																																							<num>15.</num>
+																																							<paragraph wId="od1-clan15-stav1">
+																																								<content>
+																																									<p>Социјална функција шума</p>
+																																								</content>
+																																							</paragraph>
+																																						</article>
+																																						<section wId="od1">
+																																							<num>1.</num>
+																																							<heading> Свака Страна ће дефинисати, у оквиру свог постојећег институционог оквира, ефикасне програме за координацију и сарадњу међу институцијама и регионалним и локалним властима које су задужене за управљање шумским ресурсима, уз учешће осталих локалних заинтересованих страна у циљу унапређења социјалних функција шума.</heading>
+																																							<point wId="od1-clan15-tac2">
+																																								<num>2.</num>
+																																								<content>
+																																									<p> Свака Страна, узимајући у обзир високу вредност шума за развој туризма, обавезује се да ће при планирању управљања шумама узети у обзир и политике везане за одрживи туризам.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan15-tac3">
+																																								<num>3.</num>
+																																								<content>
+																																									<p> Свака Страна ће размотрити могућност промовисања културног наслеђа и традиционална знања која су везана за управљање шумама укључујући и образовање на свим нивоима.</p>
+																																								</content>
+																																							</point>
+																																							<article wId="od1-clan16">
+																																								<num>16.</num>
+																																								<paragraph wId="od1-clan16-stav1">
+																																									<content>
+																																										<p>Шумарство, дивљи биљни и животињски свет и еколошке мреже</p>
+																																									</content>
+																																								</paragraph>
+																																							</article>
+																																							<section wId="od1">
+																																								<num>1.</num>
+																																								<heading> Свака Страна ће примењивати методе одрживог управљања дивљим биљним и животињским светом, посебно кроз координисане регулативне мере у пограничним подручјима са посебним акцентом на контролу бројности популације копитара, тако да се омогући несметана природна обнова шума, као и праћење и управљање великим карниворама у оквиру постојећих капацитета шумских екосистема.</heading>
+																																								<point wId="od1-clan16-tac2">
+																																									<num>2.</num>
+																																									<content>
+																																										<p> Стране ће сарађивати на усклађивању својих политика везано за еколошке мреже и циљевима и мерама управљања шумама.</p>
+																																									</content>
+																																								</point>
+																																								<article wId="od1-clan17">
+																																									<num>17.</num>
+																																									<paragraph wId="od1-clan17-stav1">
+																																										<content>
+																																											<p>Подударно праћење и информациони системи</p>
+																																										</content>
+																																									</paragraph>
+																																								</article>
+																																								<section wId="od1">
+																																									<num>1.</num>
+																																									<heading> Стране ће сарађивати, у оквиру постојећих међународних иницијатива, на усклађивању праћења шума на Карпатима, што ће даље водити постизању циљева овог протокола.</heading>
+																																									<point wId="od1-clan17-tac2">
+																																										<num>2.</num>
+																																										<content>
+																																											<p> Стране ће сарађивати на развоју заједничког информационог система о стању шума на Карпатима, у складу са чланом 12. Карпатске конвенције.</p>
+																																										</content>
+																																									</point>
+																																									<point wId="od1-clan17-tac3">
+																																										<num>3.</num>
+																																										<content>
+																																											<p> Стране ће сарађивати на усклађивању база података и омогућавању да национални резултати праћења шума буду интегрисани у заједнички информациони систем.</p>
+																																										</content>
+																																									</point>
+																																									<article wId="od1-clan18">
+																																										<num>18.</num>
+																																										<paragraph wId="od1-clan18-stav1">
+																																											<content>
+																																												<p>Координација научних истраживања и размена информација</p>
+																																											</content>
+																																										</paragraph>
+																																									</article>
+																																									<section wId="od1">
+																																										<num>1.</num>
+																																										<heading> Свака Страна ће координисати и сарађивати на научним истраживањима која се врше на њеној територији или која врше њене научне институције у вези са општим циљевима овог протокола.</heading>
+																																										<point wId="od1-clan18-tac2">
+																																											<num>2.</num>
+																																											<content>
+																																												<p> Стране ће охрабрити међународну сарадњу међу научним институцијама у погледу одрживог управљања шумама на Карпатима, а посебно покретања заједничких истраживачких програма и пројеката везано за карпатску регију.</p>
+																																											</content>
+																																										</point>
+																																										<point wId="od1-clan18-tac3">
+																																											<num>3.</num>
+																																											<content>
+																																												<p> Стране ће подстицати организовање симпозијума и конференција у циљу размене научних информација и практичног искуства.</p>
+																																											</content>
+																																										</point>
+																																										<point wId="od1-clan18-tac4">
+																																											<num>4.</num>
+																																											<content>
+																																												<p> Свака Страна ће са осталим Странама размењивати информације и искуства о методама које се тичу активности наведених у члану 1. став 2.</p>
+																																											</content>
+																																										</point>
+																																										<article wId="od1-clan19">
+																																											<num>19.</num>
+																																											<paragraph wId="od1-clan19-stav1">
+																																												<content>
+																																													<p>Заједнички програми и пројекти</p>
+																																												</content>
+																																											</paragraph>
+																																											<paragraph wId="od1-clan19-stav2">
+																																												<content>
+																																													<p>Свака Страна ће учествовати, у складу са својим потребама и могућностима, у заједничким програмима и пројектима везаним за активности које се изводе на подручју Карпата, а на којима заједнички учествују и остале Стране.</p>
+																																												</content>
+																																											</paragraph>
+																																											<paragraph wId="od1-clan19-stav3">
+																																												<content>
+																																													<p>ПОГЛАВЉЕ IV</p>
+																																												</content>
+																																											</paragraph>
+																																										</article>
+																																										<article wId="od1-clan20">
+																																											<num>20.</num>
+																																											<heading>ИМПЛЕМЕНТАЦИЈА, ПРАЋЕЊЕ И ВРЕДНОВАЊЕ</heading>
+																																											<paragraph wId="od1-clan20-stav1">
+																																												<content>
+																																													<p>Имплементација</p>
+																																												</content>
+																																											</paragraph>
+																																										</article>
+																																										<section wId="od1">
+																																											<num>1.</num>
+																																											<heading> Свака Страна ће предузети неопходне законске и административне мере да би обезбедиле имплементацију одредби овог протокола.</heading>
+																																											<point wId="od1-clan20-tac2">
+																																												<num>2.</num>
+																																												<content>
+																																													<p> Свака Страна ће истражити могућности да подржи, кроз фискалне и/или финансијске мере, имплементацију одредби овог протокола.</p>
+																																												</content>
+																																											</point>
+																																											<point wId="od1-clan20-tac3">
+																																												<num>3.</num>
+																																												<content>
+																																													<p> Свака Страна ће именовати релевантне националне власти које ће бити одговорне за имплементацију овог протокола и да ће ову информацију ставити на располагање осталим Странама. Дате националне власти ће бити одговорне за праћење ефеката мера поменутих у ст. 1. и 2. овог члана.</p>
+																																												</content>
+																																											</point>
+																																											<point wId="od1-clan20-tac4">
+																																												<num>4.</num>
+																																												<content>
+																																													<p> Стране ће израдити и усвојити Стратешки акциони план за примену овог протокола.</p>
+																																												</content>
+																																											</point>
+																																											<article wId="od1-clan21">
+																																												<num>21.</num>
+																																												<paragraph wId="od1-clan21-stav1">
+																																													<content>
+																																														<p>Образовање, информисаност и подизање јавне свести</p>
+																																													</content>
+																																												</paragraph>
+																																											</article>
+																																											<section wId="od1">
+																																												<num>1.</num>
+																																												<heading> Стране ће промовисати образовање, информисаност и подизање свести јавности што се тиче циљева, мера и имплементације овог протокола.</heading>
+																																												<point wId="od1-clan21-tac2">
+																																													<num>2.</num>
+																																													<content>
+																																														<p> Стране ће омогућити јавни приступ информацијама које се тичу имплементације овог протокола.</p>
+																																													</content>
+																																												</point>
+																																												<article wId="od1-clan22">
+																																													<num>22.</num>
+																																													<paragraph wId="od1-clan22-stav1">
+																																														<content>
+																																															<p>Седнице Страна уговорница</p>
+																																														</content>
+																																													</paragraph>
+																																												</article>
+																																												<section wId="od1">
+																																													<num>1.</num>
+																																													<heading> Конференција Страна Карпатске конвенције ће представљати и Седницу Страна овог протокола.</heading>
+																																													<point wId="od1-clan22-tac2">
+																																														<num>2.</num>
+																																														<content>
+																																															<p> Стране Карпатске конвенције које нису потписнице овог протокола могу присуствовати Конференцији Страна, која такође представља Седницу Страна овог протокола, у својству посматрача. Када Конференција Страна такође представља и Седницу Страна овог протокола, одлуке које су донешене у вези овог протокола биће примењиване само од Страна овог протокола.</p>
+																																														</content>
+																																													</point>
+																																													<point wId="od1-clan22-tac3">
+																																														<num>3.</num>
+																																														<content>
+																																															<p> Када Конференција Страна такође представља и Седницу Страна овог протокола, сваки члан Бироа Конференције Страна који заступа Страну Конвенције, али не и Страну овог протокола у датом тренутку, биће замењен чланом који ће се бирати од стране Страна овог протокола и из редова Страна овог протокола.</p>
+																																														</content>
+																																													</point>
+																																													<point wId="od1-clan22-tac4">
+																																														<num>4.</num>
+																																														<content>
+																																															<p> Пословник о раду Конференције Страна ће се примењивати mutatis mutandis на седнице Страна, сем ако се другачије не одлучи консензусом Конференције Страна која истовремено представља седницу Страна овог протокола.</p>
+																																														</content>
+																																													</point>
+																																													<point wId="od1-clan22-tac5">
+																																														<num>5.</num>
+																																														<content>
+																																															<p> Прва седница Конференције Страна која ће представљати и Седницу Страна овог протокола биће сазвана од стране Секретаријата у вези са првим састанком Конференције Страна који је заказан након дана ступања на снагу овог протокола. Наредна редовна заседања Конференције Страна која ће представљати и седнице Страна овог протокола биће одржане у складу са редовним седницама Конференције Страна осим ако Конференција Страна која представља Седницу Страна овог протокола не одлучи другачије.</p>
+																																														</content>
+																																													</point>
+																																													<point wId="od1-clan22-tac6">
+																																														<num>6.</num>
+																																														<content>
+																																															<p> Конференција Страна која представља и Седницу Страна овог протокола ће доносити, током свог мандата, одлуке које су неопходне за промовисање његове ефикасне имплементације. Конференција ће вршити функције које су јој додељене овим протоколом и обавезује се да ће:</p>
+																																														</content>
+																																													</point>
+																																													<paragraph wId="od1-clan22-stav1">
+																																														<content>
+																																															<p>(a) давати препоруке о свим питањима која су неопходна за имплементацију овог протокола;</p>
+																																														</content>
+																																													</paragraph>
+																																													<paragraph wId="od1-clan22-stav2">
+																																														<content>
+																																															<p>(b) основати пратећа тела, која су неопходна за примену овог протокола;</p>
+																																														</content>
+																																													</paragraph>
+																																													<paragraph wId="od1-clan22-stav3">
+																																														<content>
+																																															<p>(c) разматрати и усвајати, по потреби, амандмане на овај протокол који су неопходни за примену овог протокола; и</p>
+																																														</content>
+																																													</paragraph>
+																																													<paragraph wId="od1-clan22-stav4">
+																																														<content>
+																																															<p>(d) обављати остале функције које су неопходне за примену овог протокола.</p>
+																																														</content>
+																																													</paragraph>
+																																													<article wId="od1-clan23">
+																																														<num>23.</num>
+																																														<paragraph wId="od1-clan23-stav1">
+																																															<content>
+																																																<p>Секретаријат</p>
+																																															</content>
+																																														</paragraph>
+																																													</article>
+																																													<section wId="od1">
+																																														<num>1.</num>
+																																														<heading> Секретаријат формиран према члану 15, став 2. Карпатске Конвенције такође ће представљати и Секретаријат овог протокола.</heading>
+																																														<point wId="od1-clan23-tac2">
+																																															<num>2.</num>
+																																															<content>
+																																																<p> Све одредбе члана 15, става 2. Карпатске конвенције које се тичу функција Секретаријата биће примењиване, mutatis mutandis на овај протокол.</p>
+																																															</content>
+																																														</point>
+																																														<article wId="od1-clan24">
+																																															<num>24.</num>
+																																															<paragraph wId="od1-clan24-stav1">
+																																																<content>
+																																																	<p>Пратећа тела</p>
+																																																</content>
+																																															</paragraph>
+																																														</article>
+																																														<section wId="od1">
+																																															<num>1.</num>
+																																															<heading> Свако пратеће тело које је основано од стране или према одредбама Карпатске конвенције може након доношења одлуке Конференције Страна која такође представља и Седницу Страна овог протокола, служити овом протоколу, у том случају ће се на Седници Страна дефинисати које функције ће тачно ово тело обављати.</heading>
+																																															<point wId="od1-clan24-tac2">
+																																																<num>2.</num>
+																																																<content>
+																																																	<p> Стране Карпатске конвенције које нису потписнице овог протокола могу учествовати на седницама ових пратећих тела у улози посматрача. Када пратеће тело Карпатске конвенције уједно представља и пратеће тело овог протокола, одлуке које се тичу Протокола доносиће само Стране овог протокола.</p>
+																																																</content>
+																																															</point>
+																																															<point wId="od1-clan24-tac3">
+																																																<num>3.</num>
+																																																<content>
+																																																	<p> Када пратеће тело Карпатске конвенције врши своје функције које се односе на питања која се тичу овог протокола, сваки члан бироа датог пратећег тела које представља Страну Карпатске конвенције, али не и Страну Протокола у датом тренутку, биће замењено чланом који ће бити изабран од Стране Протокола и из редова Страна Протокола.</p>
+																																																</content>
+																																															</point>
+																																															<article wId="od1-clan25">
+																																																<num>25.</num>
+																																																<paragraph wId="od1-clan25-stav1">
+																																																	<content>
+																																																		<p>Праћење усаглашености са обавезама</p>
+																																																	</content>
+																																																</paragraph>
+																																															</article>
+																																															<section wId="od1">
+																																																<num>1.</num>
+																																																<heading> Стране ће редовно извештавати Конференцију Страна о мерама које се тичу овог протокола и резултатима предузетих мера. Конференција Страна ће одредити временски интервал и формате у оквиру којих се извештаји морају достављати.</heading>
+																																																<point wId="od1-clan25-tac2">
+																																																	<num>2.</num>
+																																																	<content>
+																																																		<p> Посматрачи могу доставити Конференцији Страна и/или Одбору за имплементацију Карпатске конвенције (у даљем тексту: Одбор за имплементацију) било какву информацију или извештај о имплементацији Протокола и усклађености са одредбама овога протокола.</p>
+																																																	</content>
+																																																</point>
+																																																<point wId="od1-clan25-tac3">
+																																																	<num>3.</num>
+																																																	<content>
+																																																		<p> Одбор за имплементацију ће прикупљати, оцењивати и анализирати информације које су битне за спровођење овог протокола и пратити усклађеност Страна са одредбама овог протокола.</p>
+																																																	</content>
+																																																</point>
+																																																<point wId="od1-clan25-tac4">
+																																																	<num>4.</num>
+																																																	<content>
+																																																		<p> Одбор за имплементацију ће представити Конференцији Страна препоруке за спровођење и неопходне мере за усклађивање са овим протоколом.</p>
+																																																	</content>
+																																																</point>
+																																																<point wId="od1-clan25-tac5">
+																																																	<num>5.</num>
+																																																	<content>
+																																																		<p> Конференција Страна ће усвојити или дати препоруку о потребним мерама.</p>
+																																																	</content>
+																																																</point>
+																																																<article wId="od1-clan26">
+																																																	<num>26.</num>
+																																																	<paragraph wId="od1-clan26-stav1">
+																																																		<content>
+																																																			<p>Вредновање ефикасности одредби</p>
+																																																		</content>
+																																																	</paragraph>
+																																																</article>
+																																																<section wId="od1">
+																																																	<num>1.</num>
+																																																	<heading> Стране ће редовно прегледати и вредновати ефикасност одредби овог протокола. Конференција Страна може размотрити усвајање одговарајућих амандмана на овај протокол где је то неопходно у циљу постизања својих циљева.</heading>
+																																																	<point wId="od1-clan26-tac2">
+																																																		<num>2.</num>
+																																																		<content>
+																																																			<p> Стране ће олакшати учешће регионалних и локалних власти и осталих заинтересованих страна у процесу из става 1. овог члана.</p>
+																																																		</content>
+																																																	</point>
+																																																	<paragraph wId="od1-clan26-stav1">
+																																																		<content>
+																																																			<p>ПОГЛАВЉЕ V</p>
+																																																		</content>
+																																																	</paragraph>
+																																																	<article wId="od1-clan27">
+																																																		<num>27.</num>
+																																																		<heading>ЗАВРШНЕ ОДРЕДБЕ</heading>
+																																																		<paragraph wId="od1-clan27-stav1">
+																																																			<content>
+																																																				<p>Веза између Карпатске конвенције и овог протокола</p>
+																																																			</content>
+																																																		</paragraph>
+																																																	</article>
+																																																	<section wId="od1">
+																																																		<num>1.</num>
+																																																		<heading> Овај протокол представља Протокол уз Карпатску конвенцију као што је прописано чланом 2, ставом 3. Карпатске конвенције и другим релевантним члановима.</heading>
+																																																		<point wId="od1-clan27-tac2">
+																																																			<num>2.</num>
+																																																			<content>
+																																																				<p> Одредбе чл. 19, 20, 21. ст. 2. до 4. и члана 22. Карпатске конвенције који се односе на ступање на снагу, на измену конвенције, на иступање из Конвенције, као и на решавање спорова, примењиваће се и mutatis mutandis на овај протокол. Само Страна Карпатске конвенције може постати Страна овог протокола.</p>
+																																																			</content>
+																																																		</point>
+																																																		<article wId="od1-clan28">
+																																																			<num>28.</num>
+																																																			<paragraph wId="od1-clan28-stav1">
+																																																				<content>
+																																																					<p>Потписивање</p>
+																																																				</content>
+																																																			</paragraph>
+																																																		</article>
+																																																		<section wId="od1">
+																																																			<num>1.</num>
+																																																			<heading> Овај протокол ће бити отворен за потписивање код Депозитара у периоду од 27. маја 2011. до 27. маја 2012. године.</heading>
+																																																			<point wId="od1-clan28-tac2">
+																																																				<num>2.</num>
+																																																				<content>
+																																																					<p> За Стране које изразе вољу да приступе овом протоколу након временског периода предвиђеног за његово потписивање, овај протокол ће ступити на снагу деведесетог дана након датума депоновања инструмента о ратификацији. Након ступања на снагу било којег амандмана на овај протокол, он ће се аутоматски сматрати обавезујућим и за све нове Стране поменутог Протокола.</p>
+																																																				</content>
+																																																			</point>
+																																																			<article wId="od1-clan29">
+																																																				<num>29.</num>
+																																																				<paragraph wId="od1-clan29-stav1">
+																																																					<content>
+																																																						<p>Обавештења</p>
+																																																					</content>
+																																																				</paragraph>
+																																																				<paragraph wId="od1-clan29-stav2">
+																																																					<content>
+																																																						<p>Депозитар ће, у складу са овим протоколом обавестити сваку Страну уговорницу о:</p>
+																																																					</content>
+																																																				</paragraph>
+																																																				<paragraph wId="od1-clan29-stav3">
+																																																					<content>
+																																																						<p>(а) сваком потписивању,</p>
+																																																					</content>
+																																																				</paragraph>
+																																																				<paragraph wId="od1-clan29-stav4">
+																																																					<content>
+																																																						<p>(б) депоновању инструмената о ратификацији, прихватању или одобравању,</p>
+																																																					</content>
+																																																				</paragraph>
+																																																				<paragraph wId="od1-clan29-stav5">
+																																																					<content>
+																																																						<p>(ц) датуму ступања на снагу,</p>
+																																																					</content>
+																																																				</paragraph>
+																																																				<paragraph wId="od1-clan29-stav6">
+																																																					<content>
+																																																						<p>(д) декларацији коју је сачинила Страна уговорница или потписница,</p>
+																																																					</content>
+																																																				</paragraph>
+																																																				<paragraph wId="od1-clan29-stav7">
+																																																					<content>
+																																																						<p>(е) отказивању које је доставила нека Страна уговорница укључујући и датум када оно ступа на снагу.</p>
+																																																					</content>
+																																																				</paragraph>
+																																																			</article>
+																																																			<article wId="od1-clan30">
+																																																				<num>30.</num>
+																																																				<paragraph wId="od1-clan30-stav1">
+																																																					<content>
+																																																						<p>Резерве</p>
+																																																					</content>
+																																																				</paragraph>
+																																																				<paragraph wId="od1-clan30-stav2">
+																																																					<content>
+																																																						<p>На овај протокол се не могу стављати резерве.</p>
+																																																					</content>
+																																																				</paragraph>
+																																																			</article>
+																																																			<article wId="od1-clan31">
+																																																				<num>31.</num>
+																																																				<paragraph wId="od1-clan31-stav1">
+																																																					<content>
+																																																						<p>Депозитар</p>
+																																																					</content>
+																																																				</paragraph>
+																																																				<paragraph wId="od1-clan31-stav2">
+																																																					<content>
+																																																						<p>Депозитар овог протокола је Влада Украјине.</p>
+																																																					</content>
+																																																				</paragraph>
+																																																				<paragraph wId="od1-clan31-stav3">
+																																																					<content>
+																																																						<p>Сачињено у Братислави 27. маја 2011. године у једном оригиналу на енглеском језику.</p>
+																																																					</content>
+																																																				</paragraph>
+																																																				<paragraph wId="od1-clan31-stav4">
+																																																					<content>
+																																																						<p>Оригинал Протокола биће депонован код Депозитара, који ће оверене копије доставити свим Странама.</p>
+																																																					</content>
+																																																				</paragraph>
+																																																				<paragraph wId="od1-clan31-stav5">
+																																																					<content>
+																																																						<p>Потврђујући ово, доле потписани, прописно овлашћени, потписали су овај протокол</p>
+																																																					</content>
+																																																				</paragraph>
+																																																				<paragraph wId="od1-clan31-stav6">
+																																																					<content>
+																																																						<p>У име Владе Републике Чешке ...</p>
+																																																					</content>
+																																																				</paragraph>
+																																																				<paragraph wId="od1-clan31-stav7">
+																																																					<content>
+																																																						<p>У име Владе Републике Мађарске ...</p>
+																																																					</content>
+																																																				</paragraph>
+																																																				<paragraph wId="od1-clan31-stav8">
+																																																					<content>
+																																																						<p>У име Владе Републике Пољске ...</p>
+																																																					</content>
+																																																				</paragraph>
+																																																				<paragraph wId="od1-clan31-stav9">
+																																																					<content>
+																																																						<p>У име Владе Румуније ...</p>
+																																																					</content>
+																																																				</paragraph>
+																																																				<paragraph wId="od1-clan31-stav10">
+																																																					<content>
+																																																						<p>У име Владе Републике Србије ...</p>
+																																																					</content>
+																																																				</paragraph>
+																																																				<paragraph wId="od1-clan31-stav11">
+																																																					<content>
+																																																						<p>У име Владе Словачке Републике ...</p>
+																																																					</content>
+																																																				</paragraph>
+																																																				<paragraph wId="od1-clan31-stav12">
+																																																					<content>
+																																																						<p>У име Владе Украјине ...</p>
+																																																					</content>
+																																																				</paragraph>
+																																																			</article>
+																																																			<article wId="od1-clan3">
+																																																				<num>3.</num>
+																																																				<paragraph wId="od1-clan3-stav1">
+																																																					<content>
+																																																						<p>Међународне обавезе, преузете овим протоколом спроводиће министарство надлежно за послове заштите животне средине, министарство надлежно за послове шумарства и министарство надлежно за послове регионалног развоја.</p>
+																																																					</content>
+																																																				</paragraph>
+																																																			</article>
+																																																			<article wId="od1-clan4">
+																																																				<num>4.</num>
+																																																				<paragraph wId="od1-clan4-stav1">
+																																																					<content>
+																																																						<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије – Међународни уговори”.</p>
+																																																					</content>
+																																																				</paragraph>
+																																																			</article>
+																																																		</section>
+																																																	</section>
+																																																</section>
+																																															</section>
+																																														</section>
+																																													</section>
+																																												</section>
+																																											</section>
+																																										</section>
+																																									</section>
+																																								</section>
+																																							</section>
+																																						</section>
+																																					</section>
+																																				</section>
+																																			</section>
+																																		</section>
+																																	</section>
+																																</section>
+																															</section>
+																														</section>
+																													</section>
+																												</section>
+																											</section>
+																										</section>
+																									</section>
+																								</section>
+																							</section>
+																						</section>
+																					</section>
+																				</section>
+																			</section>
+																		</section>
+																	</section>
+																</section>
+															</section>
+														</section>
+													</section>
+												</section>
+											</section>
+										</section>
+									</section>
+								</section>
+							</section>
+						</section>
+					</section>
+				</section>
+			</section>
+		</body>
+	</act>
+</akomaNtoso>

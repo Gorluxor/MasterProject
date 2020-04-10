@@ -26,7 +26,7 @@ except ModuleNotFoundError as e1:
 
 
 def get_stop_words():
-    stop_words_file = open(path.dirname(__file__) + "\\stopwords.txt", mode="r+", encoding="utf8")
+    stop_words_file = open(path.dirname(__file__) + "/stopwords.txt", mode="r+", encoding="utf8")
     stop_words = stop_words_file.readlines()
     stop_words = list(str(x).replace("\n", "") for x in stop_words)
     stop_words_file.close()
@@ -74,7 +74,7 @@ def get_tf_idf_values_document(folder_path, filenames=None, return_just_words=Tr
     if not filenames:
         file_names = get_file_names_in_folder(folder_path)
     else:
-        file_names = filenames
+        file_names = [filenames]
 
     results = []
     tag_clan = "Član"
