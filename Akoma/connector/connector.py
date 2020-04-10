@@ -7,9 +7,9 @@ path_base = path.dirname(__file__)
 
 def tokenize(string_data):  # Only to tokenize data
     # noinspection SpellCheckingInspection,SpellCheckingInspection
-    python2_command_token = "python2 " + path_base + "\\..\\..\\reldi-tagger\\tokeniser\\tokeniser.py sr --file " + path_base +"\\..\\connector\\tokenize.txt"
+    python2_command_token = "python2 " + path_base + "/../../reldi-tagger/tokeniser/tokeniser.py sr --file " + path_base +"/../connector/tokenize.txt"
 
-    to_file(path_base + "\\tokenize.txt", string_data)
+    to_file(path_base + "/tokenize.txt", string_data)
 
     process = subprocess.Popen(python2_command_token.split(), stdout=subprocess.PIPE, bufsize=1, universal_newlines=True, encoding='utf-8')
 
@@ -25,10 +25,10 @@ def tokenize(string_data):  # Only to tokenize data
 
 
 def pos_lem(data_file):  # POS and Lam
-    relative_file = "-f " + path_base + "\\..\\connector\\" + data_file
+    relative_file = "-f " + path_base + "/../connector/" + data_file
     # noinspection SpellCheckingInspection
 
-    python2_command = "python2 " + path_base + "\\..\\..\\reldi-tagger\\tagger.py sr -l " + relative_file
+    python2_command = "python2 " + path_base + "/../../reldi-tagger/tagger.py sr -l " + relative_file
     print(python2_command)
     process = subprocess.Popen(python2_command.split(), stdout=subprocess.PIPE, bufsize=1, universal_newlines=True,
                                encoding='utf-8')
@@ -55,7 +55,7 @@ def to_file(filename, content):
 
 def tokenize_pos(string_data):
     info = tokenize(string_data)
-    to_file(path_base + '\\text.txt', "\n".join(s[1] for s in info))
+    to_file(path_base + '/text.txt', "\n".join(s[1] for s in info))
     pos_info = pos_lem('text.txt')
     if debug:
         print(pos_info)

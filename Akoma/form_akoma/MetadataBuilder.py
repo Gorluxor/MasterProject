@@ -4,10 +4,12 @@ import io
 try:
     from Akoma.form_akoma.Metadata import Metadata
     from Akoma.preprocessing import init_akoma
+    from Akoma.tfidf.tfidf import get_tf_idf_values_document
 except ModuleNotFoundError:
     try:
         from form_akoma.Metadata import Metadata
         from preprocessing import init_akoma
+        from tfidf.tfidf import get_tf_idf_values_document
     except ModuleNotFoundError:
         print("Error")
         exit(-1)
@@ -129,6 +131,17 @@ class MetadataBuilder():
             cnt += 1
         return base
 
+    def references(self, filename):
+        cnt_concept = 0
+        conceptIri = "http://purl.org/vocab/frbr/core#Concept"
+        base = ET.Element("references", {"source": SOURCE})
+        # list_of_concept = get_tf_idf_values_document("data/acts", filenames = filename)
+        # for concept in list_of_concept:
+        #     concept_ref = ET.Element("TLCConcept", {"eId": "cocnept" + cnt_concept, "href": conceptIri, "showAs": concept})
+        #     base.append(concept_ref)
+        #     cnt_concept = cnt_concept + 1
+        return base
+
     def notes(self, notes1, notes2):
         base = ET.Element("notes", {"source": SOURCE})
         if notes1 != "":
@@ -195,7 +208,7 @@ class MetadataBuilder():
         if len(metainfo.workflow) > 0:
             meta.append(self.workflow(metainfo.workflow))
 
-        references = ET.Element("references", {"source": SOURCE})
+        references = self.references(filename)
         temprory = ET.Element("TLCConcept", {"href": "#", "showAs": "Temp"})
         references.insert(0, temprory)
         meta.append(references)

@@ -2,7 +2,6 @@ import io
 import os
 import xml.etree.ElementTree as ET
 
-
 try:
     import Akoma
     from Akoma.utilities import ETree
@@ -21,6 +20,7 @@ except ModuleNotFoundError as sureError:
         from preprocessing import init_akoma
         from tokenizer.HTMLTokenizer import HTMLTokenizer
         from form_akoma.AkomaBuilder import AkomaBuilder
+        from tokenizer import patterns
         from reasoner.BasicReasoner import BasicReasoner
         from reasoner.OdlukaReasoner import OdlukaReasoner
         from form_akoma.MetadataBuilder import MetadataBuilder
@@ -32,6 +32,13 @@ except ModuleNotFoundError as sureError:
             exit(-1)
 
 
+def repair_mode(act):
+    # TODO if time, Work in progress, Andrija zavrsiti
+    # got = patterns.recognize_pattern(act)
+
+    return act
+
+
 def prettify(root):
     import xml.dom.minidom
     dom = xml.dom.minidom.parseString(ET.tostring(root, encoding='UTF-8', method="xml").decode())
@@ -40,6 +47,8 @@ def prettify(root):
 
 def convert_html(source, destination):
     stringo = remove_html.preprocessing(source)
+    full_strip = remove_html.preprocessing(source, full_strip=True)
+    full_strip = repair_mode(full_strip)
     fajl = source.split("/")[-1]
     akoma_root = init_akoma.init_xml("act")
 
@@ -72,7 +81,7 @@ def convert_html(source, destination):
 
 
 if __name__ == "__main__":
-    nastavi = "547.html"  # ""651.html"
+    nastavi = "506.html"  # ""651.html"
     idemo = False
     stani = [
         "562.html"]  # ["1160.html", "1575.html", "908.html", "2348.html", "318.html", "3062.html"] #ovi fajlovi su samo preveliki pa njihovo procesiranje traje dugo
@@ -87,4 +96,3 @@ if __name__ == "__main__":
             continue
         print(fajl)
         convert_html(location_source + '/' + fajl, 'data/akoma_result/' + fajl[:-5] + ".xml")
-

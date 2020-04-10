@@ -126,7 +126,7 @@ def get_ending2(m, clan_id):
         if m2:
             retval += "para_" + m2.group(0) + "_"
     if m.group(3):
-        m3 = re.search("([0-9]+)", m.group(4))
+        m3 = re.search("([0-9]+)", m.group(3))
         if m3:
             retval += "_point_" + m3.group(0) + "_"
     # print(retval[:-1])
@@ -253,7 +253,7 @@ def add_refs(stablo, stringo, this_id):
 
     for el_clan in listaClanova:  # Primer pristupa svakom članu
         clan_id = el_clan.attrib['wId']
-        if(clan_id == "gla5-clan131"):
+        if(clan_id == "gla2-clan23"):
             print("")
         for el_stav in el_clan.iter('paragraph'):
             if el_stav.attrib['wId'] not in listaObradjenihParagrafa:
