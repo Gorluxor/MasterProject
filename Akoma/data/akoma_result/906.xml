@@ -1,0 +1,2285 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о потврђивању Споразума између влада држава учесница Црноморске економске сарадње (BSEC) о сарадњи у пружању помоћи у ванредним ситуацијама и хитном реаговању на природне и изазване катастрофе и Допунског протокола уз Споразум између влада држава учесница Црноморске економске сарадње (BSEC) о сарадњи у пружању помоћи у ванредним ситуацијама и хитном реаговању на природне и изазване катастрофе">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2019/13-20/main"/>
+					<FRBRuri value="/rs/act/2019/13-20"/>
+					<FRBRdate date="2019-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2019/13-20/srp@/main"/>
+					<FRBRuri value="/rs/act/2019/13-20/srp@"/>
+					<FRBRdate date="2019-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2019/13-20/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2019/13-20/srp@.akn"/>
+					<FRBRdate date="2019-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2019-11-18" name="службени гласник рс - међународни уговори" number="13" showAs="Службени гласник РС - Међународни уговори"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="II БЕЗБЕДНОСНА И ОДБРАМБЕНА ПОЛИТИКА" value="ii безбедносна и одбрамбена политика" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="10. Ванредне ситуације, цивилна заштита, елементарне и друге непогоде" value="10. ванредне ситуације, цивилна заштита, елементарне и друге непогоде" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2019-11-14" wId="usvajanje"/>
+				<step by="#TODO" date="2019-11-26" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2019-11-26" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept href="#" showAs="Temp"/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Споразум између влада држава учесница Црноморске економске сарадње (BSEC) о сарадњи у пружању помоћи у ванредним ситуацијама и хитном реаговању на природне и изазване катастрофе ступио је на снагу за Републику Србију 20. децембра 2019. године (види Обавештење: Службени гласник РС - Међународни уговори, број 1/2020-22).Допунски протокол уз Споразум између влада држава учесница Црноморске економске сарадње (BSEC) о сарадњи у пружању помоћи у ванредним ситуацијама и хитном реаговању на природне и изазване катастрофе ступиио је на снагу за Републику Србију 13. фебруара 2020. године (види Обавештење: Службени гласник РС - Међународни уговори, број 2/2020-123).</p>
+				</note>
+				<note wId="not2">
+					<p>Споразум између влада држава учесница Црноморске економске сарадње (BSEC) о сарадњи у пружању помоћи у ванредним ситуацијама и хитном реаговању на природне и изазване катастрофе ступио је на снагу за Републику Србију 20. децембра 2019. године (види Обавештење: Службени гласник РС - Међународни уговори, број 1/2020-22).Допунски протокол уз Споразум између влада држава учесница Црноморске економске сарадње (BSEC) о сарадњи у пружању помоћи у ванредним ситуацијама и хитном реаговању на природне и изазване катастрофе ступиио је на снагу за Републику Србију 13. фебруара 2020. године (види Обавештење: Службени гласник РС - Међународни уговори, број 2/2020-123).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О потврђивању споразума између влада држава учесница црноморске економске сарадње (bsec) о сарадњи у пружању помоћи у ванредним ситуацијама и хитном реаговању на природне и изазване катастрофе и допунског протокола уз споразум између влада држава учесница црноморске економске сарадње (bsec) о сарадњи у пружању помоћи у ванредним ситуацијама и хитном реаговању на природне и изазване катастрофе &quot;Службени гласник РС - Међународни уговори&quot;, број 13 од 18. новембра 2019.</p>
+			</longTitle>
+			<p>Александар Вучић, с.р.</p>
+		</preface>
+		<preamble>
+			<p>На основу члана 112. став 1. тачка 2. Устава Републике Србије, доносим</p>
+			<p>УКАЗ</p>
+			<p>о проглашењу Закона о потврђивању Споразума између влада држава учесница Црноморске економске сарадње (BSEC) о сарадњи у пружању помоћи у ванредним ситуацијама и хитном реаговању на природне и изазване катастрофе и Допунског протокола уз Споразум између влада држава учесница Црноморске економске сарадње (BSEC) о сарадњи у пружању помоћи у ванредним ситуацијама и хитном реаговању на природне и изазване катастрофе</p>
+			<p>Проглашава се Закон о потврђивању Споразума између влада држава учесница Црноморске економске сарадње (BSEC) o сарадњи у пружању помоћи у ванредним ситуацијама и хитном реаговању на природне и изазване катастрофе и Допунског протокола уз Споразум између влада држава учесница Црноморске економске сарадње (BSEC) о сарадњи у пружању помоћи у ванредним ситуацијама и хитном реаговању на природне и изазване катастрофе, који је донела Народна скупштина Републике Србије на Петој седници Другог редовног заседања у 2019. години, 14. новембра 2019. године.</p>
+			<p>ПР број 121</p>
+			<p>У Београду, 15. новембра 2019. године</p>
+			<p>Председник Републике,</p>
+		</preamble>
+		<body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Потврђује се Споразум између влада држава учесница Црноморске економске сарадње (BSEC) о сарадњи у пружању помоћи у ванредним ситуацијама и хитном реаговању на природне и изазване катастрофе, закључен 15. априла 1998. године, у Сочију, у оригиналу на енглеском језику.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Текст Споразума у оригиналу на енглеском језику и у преводу на српски језик гласи:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>AGREEMENT</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav3">
+					<content>
+						<p>among the Governments of the Participating States of the Black Sea Economic Cooperation (BSEC) on collaboration in Emergency Assistance and Emergency Response to natural and man-made Disasters</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav4">
+					<content>
+						<p>The Governments – parties to the present Agreement, hereinafter referred to as Parties,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav5">
+					<content>
+						<p>Taking into account the probability of emergencies, which the Parties cannot eliminate by their own forces and facilities, and also the demand caused by this fact for coordinated actions of Parties aimed at emergency prevention and response;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav6">
+					<content>
+						<p>Desiring to further extend the developed regional cooperation to cover the assistance in case of emergencies and displaying joint efforts to provide coordinated assistance to the affected population;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav7">
+					<content>
+						<p>Supporting the UN effort in the field of international emergency assistance, respecting and acknowledging the generally recognised regulations and rules existing in the framework of various international, regional and subregional organizations, the relevant international conventions and agreements, as well as aiming to contribute to the elaboration of appropriate national legislation;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav8">
+					<content>
+						<p>Encouraging further cooperation in the field of international emergency assistance on the basis of the initiatives taken by the First Black Sea Red Cross and Red Cresent Societies Conference (1997);</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav9">
+					<content>
+						<p>Having expressed their support of the idea of creation of an International Black Sea Rescue Center using the experience accumulated by the BSEC countries and other similar International Centers;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav10">
+					<content>
+						<p>Have agreed on the following:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav11">
+					<content>
+						<p>Article 1The application sphere</p>
+					</content>
+				</paragraph>
+			</article>
+			<section wId="od1">
+				<num>1.</num>
+				<heading> The present Agreement establishes principles and frameworks of the co-ordinated activities of the Parties in case of natural and man-made disasters.</heading>
+				<point wId="od1-clan2-tac2">
+					<num>2.</num>
+					<content>
+						<p> The present Agreement shall be applied in case of natural and man-made disasters, which cannot be eliminated by the Parties’ own forces.</p>
+					</content>
+				</point>
+				<paragraph wId="od1-clan2-stav1">
+					<content>
+						<p>Article 2 Definitions</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav2">
+					<content>
+						<p>For the purposes of the present Agreement, the following expressions shall have the meanings hereunder assigned to them:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav3">
+					<content>
+						<p>”Assistance” – goods, materials, personnel and services, provided by the Assisting Parties to meet the needs of the Requesting Parties;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav4">
+					<content>
+						<p>”Assisting Party” – the Party providing Assistance;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav5">
+					<content>
+						<p>”Assistance team” – group of specialists of the Assisting Party, assigned to provide Assistance and equipped with all the necessary facilities;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav6">
+					<content>
+						<p>”Competent Body” – the agency, appointed by each of the Parties for management and coordination of the activities, connected with the implementation of the present Agreement;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav7">
+					<content>
+						<p>”Disaster” – an event in a definite area that has occurred as a result of an accident, hazardous natural phenomena, catastrophe, natural or man-made, which may or have caused significant physical, social, economic and cultural damage to human lives or environment;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav8">
+					<content>
+						<p>”Emergency” – a situation, often hazardous, which arises suddenly and calls for prompt action;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav9">
+					<content>
+						<p>”Emergency area” – the area where an Emergency situation has occurred;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav10">
+					<content>
+						<p>”Emergency response” – search and rescue and other urgent recovery activities, undertaken in case of Emergency aimed at saving life and at protecting the health of people, at minimizing the environmental, cultural and material losses as well as secondary hazardous impact in emergency area;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav11">
+					<content>
+						<p>”Equipment” – materials, technical and transport facilities, munitions of the Assistance team and individual kits of its members;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav12">
+					<content>
+						<p>”Goods of assistance” – material resources allocated for free of charge and taxes-free distribution among the disaster afflicted population;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav13">
+					<content>
+						<p>”Personal data” – all sorts of information on physical persons connected with the certain emergency situation, subject to this Agreement;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav14">
+					<content>
+						<p>”Requesting Party” – the Party applying for Assistance;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav15">
+					<content>
+						<p>”Search and rescue activities” – activities aimed at saving people and at protecting material and cultural values and the environment in the emergency area as those specified by the competent international bodies.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav16">
+					<content>
+						<p>”Transit State” – any State, whose Government is a Party, other than the Requesting Party or Assisting Party, through whose territory, including air space and/or territorial water, the Assistance team, Equipment, and Goods of assistance are transported.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav17">
+					<content>
+						<p>Article 3 Principles</p>
+					</content>
+				</paragraph>
+				<section wId="od1">
+					<num>1.</num>
+					<heading> The Parties shall cooperate in accordance with the provisions of the present Agreement, as well as recognised international regulations and principles, in order to provide prompt relevant information and assistance in case of natural or man – made Disasters and/or possibility of their occurrence.</heading>
+					<point wId="od1-clan2-tac2">
+						<num>2.</num>
+						<content>
+							<p> If a Party needs assistance in case of natural or man-made disasters which has occurred on the territory of its State, this Party can require Assistance from the other Party(s) by forwarding the national appeal. The Assisting Party(s) shall help the Requesting Party by means and measures aimed at preventing and/or eliminating consequences of the Disaster.</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-tac3">
+						<num>3.</num>
+						<content>
+							<p> The Parties shall render one another Assistance according their possibilities. The Assistance shall be of granted at no cost unless otherwise agreed by the Parties.</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-tac4">
+						<num>4.</num>
+						<content>
+							<p> The Requesting Party shall ensure unobstructed receipt and distribution of goods of assistance exclusively among the afflicted population.The Goods of assistance shall be distributed without any discrimination based on race, religion, language, political or other factors.</p>
+						</content>
+					</point>
+					<paragraph wId="od1-clan2-stav1">
+						<content>
+							<p>Article 4Request for Assistance and information exchange</p>
+						</content>
+					</paragraph>
+					<section wId="od1">
+						<num>1.</num>
+						<heading> The Parties shall be the bodies authorized to request Assistance in an Emergency.</heading>
+						<point wId="od1-clan2-tac2">
+							<num>2.</num>
+							<intro>
+								<p> The Assistance shall be provided upon request, wherein the Requesting Party specifies:</p>
+							</intro>
+							<alinea wId="od1-clan2-tac2-ali1">
+								<content>
+									<p>lace, time, character and scale of the Disaster, and current state of the Emergency in the afflicted area;</p>
+								</content>
+							</alinea>
+							<alinea wId="od1-clan2-tac2-ali2">
+								<content>
+									<p>ctions already carried out, specification of the required Assistance, setting the priorities of the requested Disaster relief.</p>
+								</content>
+							</alinea>
+						</point>
+						<point wId="od1-clan2-tac3">
+							<num>3.</num>
+							<content>
+								<p> The Assisting Party shall immediately make a decision to provide Assistance and inform the Requesting Party about the possibility, the amount and conditions of its rendering.</p>
+							</content>
+						</point>
+						<point wId="od1-clan2-tac4">
+							<num>4.</num>
+							<content>
+								<p> The information mentioned in item 2 of the present Article is to be updated following the development of the situation.</p>
+							</content>
+						</point>
+						<paragraph wId="od1-clan2-stav1">
+							<content>
+								<p>Article 5Transit</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan2-stav2">
+							<content>
+								<p>Upon request from the Requesting Party, the Government of Transit State shall ensure all the necessary support during the passage of Assistance across the territory of this State according to its national legislation, international law and practice.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan2-stav3">
+							<content>
+								<p>Article 6Competent Bodies and the focal points</p>
+							</content>
+						</paragraph>
+						<section wId="od1">
+							<num>1.</num>
+							<heading> Each Party shall designate (or establish) one or several competent bodies hereinafter referred to as Competent Bodies to coordinate the work related with the implementation of the present Agreement.</heading>
+							<point wId="od1-clan2-tac2">
+								<num>2.</num>
+								<content>
+									<p> Without prejudice to other existing bilateral and multilateral agreements, each Party shall nominate or establish one or several competent focal points for notification and provision of Assistance in case of Emergencies.</p>
+								</content>
+							</point>
+							<point wId="od1-clan2-tac3">
+								<num>3.</num>
+								<content>
+									<p> The Parties shall notify each other in written form through the diplomatic channels of designation or any change related to the Competent Body(s), as well as to the focal point(s).</p>
+								</content>
+							</point>
+							<point wId="od1-clan2-tac4">
+								<num>4.</num>
+								<content>
+									<p> Each Party shall ensure continuous functioning of the Competent Body(s) and the focal point(s).</p>
+								</content>
+							</point>
+							<paragraph wId="od1-clan2-stav1">
+								<content>
+									<p>Article 7Working Group (Committee) on Emergencies</p>
+								</content>
+							</paragraph>
+							<paragraph wId="od1-clan2-stav2">
+								<content>
+									<p>For the implementation of this Agreement the competent national authorities shall appoint their representatives to a relevant common body (Working Group (Committee) on Emergencies) to be set up within the framework of the BSEC.</p>
+								</content>
+							</paragraph>
+							<paragraph wId="od1-clan2-stav3">
+								<content>
+									<p>Article 8Coordination and management of Assistance in Emergencies</p>
+								</content>
+							</paragraph>
+							<section wId="od1">
+								<num>1.</num>
+								<heading> The Competent Body of the Requesting Party shall coordinate, manage and supervise the activities of Assistance teams through their leaders.</heading>
+								<point wId="od1-clan2-tac2">
+									<num>2.</num>
+									<content>
+										<p> The Requesting Party shall inform team leaders of the Assisting Party on the development of the situation in the Emergency area and at the definite spots of activities and, if necessary, provide these teams with interpreters and means of communication with the Headquarters, which is managing all search and rescue and other urgent activities.</p>
+									</content>
+								</point>
+								<point wId="od1-clan2-tac3">
+									<num>3.</num>
+									<content>
+										<p> The Assistance teams should be self-sufficiently equipped to operate in the Emergency area for at least 72 hours from the moment of their arrival. The Requesting Party shall re-supply these teams with all the necessary goods, upon their request, after this time has expired.</p>
+									</content>
+								</point>
+								<point wId="od1-clan2-tac4">
+									<num>4.</num>
+									<content>
+										<p> The Requesting Party shall ensure security, free-of-charge medical assistance, food and accommodation and also provide the members of the assistance teams with first necessity things in case the members run out of their stock.</p>
+									</content>
+								</point>
+								<paragraph wId="od1-clan2-stav1">
+									<content>
+										<p>Article 9Border crossing procedure and the rules of stay for the Assistance team</p>
+									</content>
+								</paragraph>
+								<section wId="od1">
+									<num>1.</num>
+									<heading> The procedure of crossing the state borders of the Requesting Party or Transit State by the members of the Assistance teams shall be determined by their national legislation, international law and the bilateral agreements of the Requesting and/or Transit State.</heading>
+									<point wId="od1-clan2-tac2">
+										<num>2.</num>
+										<content>
+											<p> The order of the crossing procedure through the state borders of the Requesting Party by the search – dogs groups and their stay on the territory of the State of the Requesting Party shall be determined pursuant to the quarantine rules, in force on the territory of the State of the Requesting Party in each case.</p>
+										</content>
+									</point>
+									<point wId="od1-clan2-tac3">
+										<num>3.</num>
+										<content>
+											<p> The members of the assistance team are obliged to observe the state laws and rules of the Requesting Party and/or Transit State. At the same time they are under the jurisdiction of the Assisting Party concerning the labor and other relevant legislation.</p>
+										</content>
+									</point>
+									<paragraph wId="od1-clan2-stav1">
+										<intro>
+											<p>In case these teams include civil defence/protection para-military personnel, their stay, as preliminarily agreed upon, and activities will be under the legislation of the Assisting Party regulating the status of such personnel.</p>
+										</intro>
+										<point wId="od1-clan2-stav1-tac4">
+											<num>4.</num>
+											<content>
+												<p> For the purposes of transportation of Assistance teams, their Equipment and Foods of assistance any suitable vehicles can be used in order to reach the destination as soon as possible.</p>
+											</content>
+										</point>
+									</paragraph>
+									<paragraph wId="od1-clan2-stav2">
+										<content>
+											<p>The order of using specified means of transport for providing Assistance shall be determined by the Competent Bodies of the Parties.</p>
+										</content>
+									</paragraph>
+									<paragraph wId="od1-clan2-stav3">
+										<content>
+											<p>Article 10Export, Import and Transit of the Equipment and Goods of assistance</p>
+										</content>
+									</paragraph>
+									<section wId="od1">
+										<num>1.</num>
+										<heading> Equipment and Goods of assistance exported and imported for Assistance pursuant to the present Agreement shall be exempt from customs duties, taxes and fees.</heading>
+										<point wId="od1-clan2-tac2">
+											<num>2.</num>
+											<content>
+												<p> The customs inspection and control of the Equipment and Goods of Assistance shall be carried out in a simplified manner on priority basis, following the notices given by the Competent Bodies of the Parties, in which a structure of Assistance teams and list of exported or imported Equipment and Goods of assistance are specified.</p>
+											</content>
+										</point>
+										<point wId="od1-clan2-tac3">
+											<num>3.</num>
+											<content>
+												<p> Drugs materials and psychotropic substances may be imported only in quantities necessary for medical Assistance purposes and used only by the qualified medical personnel. In this case the leader of the assistance team shall present to the customs control bodies a declaration listing drugs materials and psychotropic substances and indicating their nomenclature and amount.</p>
+											</content>
+										</point>
+										<paragraph wId="od1-clan2-stav1">
+											<content>
+												<p>The relevant authorities of the Requesting Party may control the usage and storage of the materials and substances mentioned above.</p>
+											</content>
+										</paragraph>
+										<paragraph wId="od1-clan2-stav2">
+											<content>
+												<p>The drugs and psychotropic substances unutilized during the mission shall be taken out from the territory of State of the Requesting Party. The certificate on utilized drug and psychotropic substances, signed by the leader and the physician of the assistance team and certified by the representative of the Competent Body of the Requesting Party is to be presented to the customs control bodies of the Requesting Party after completion of the mission.</p>
+											</content>
+										</paragraph>
+										<paragraph wId="od1-clan2-stav3">
+											<content>
+												<p>Article 11 Aircraft</p>
+											</content>
+										</paragraph>
+										<section wId="od1">
+											<num>1.</num>
+											<heading> The transportation of the Assistance teams, Equipment and Goods of assistance may be carried out by aircraft.</heading>
+											<point wId="od1-clan2-tac2">
+												<num>2.</num>
+												<content>
+													<p> The Competent Body of the Assisting Party will inform the Competent Body of the Requesting Party on the decision to use aircraft for providing Assistance with the indication of the zone of air dropping, the route of flights, type and call signs of the aircraft, number of crew members, the character of the cargo, time-table of flights and the lists of passengers (personnel, technical staff, journalists, etc.).</p>
+												</content>
+											</point>
+											<point wId="od1-clan2-tac3">
+												<num>3.</num>
+												<content>
+													<p> The flights of aircraft, civil or state, shall be executed pursuant to the International Civil Aviation Organization (ICAO) and the Parties’ regulations. For state aircraft diplomatic clearance is also needed.</p>
+												</content>
+											</point>
+											<point wId="od1-clan2-tac4">
+												<num>4.</num>
+												<content>
+													<p> The Assisting Party is exempt from paying the royalties for flying over, landing, parking, taking off and navigating services for the aircraft, which provides emergency assistance, subject to this Agreement.</p>
+												</content>
+											</point>
+											<point wId="od1-clan2-tac5">
+												<num>5.</num>
+												<content>
+													<p> For the flight providing the Emergency Assistance, the reimbursement for fuel and maintenance services of the aircraft shall be settled separately in each particular case by the authorities of the relevant Parties to this Agreement.</p>
+												</content>
+											</point>
+											<paragraph wId="od1-clan2-stav1">
+												<content>
+													<p>Article 12Assistance</p>
+												</content>
+											</paragraph>
+											<section wId="od1">
+												<num>1.</num>
+												<heading> The providing of Assistance shall be carried out according to the principles described in Article 3 of the present Agreeement.</heading>
+												<paragraph wId="od1-clan2-stav1">
+													<content>
+														<p>Article 13Reimbursement of expenses for the Emergency Assistance provided on the compensatory basis</p>
+													</content>
+												</paragraph>
+												<section wId="od1">
+													<num>1.</num>
+													<heading> The Requesting Party may cancel its request for assistance at any time. The Requesting Party shall inform the Assisting Party immediately about its decision and the Assisting Party may claim the reimbursement of expenses which have been incurred up to the moment.</heading>
+													<point wId="od1-clan2-tac2">
+														<num>2.</num>
+														<content>
+															<p> The Assisting Party shall provide insurance of the members of the Assistance teams and these expenses shall be included into the total bill for the Assistance.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-tac3">
+														<num>3.</num>
+														<content>
+															<p> At the end of the operation the Competent Body of the Assisting Party shall immediately inform in writing the Competent Body of the Requesting Party about volume of the assistance rendered.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-tac4">
+														<num>4.</num>
+														<content>
+															<p> The Competent Body of the Requesting Party shall provide the Competent Body of the Assisting Party with final information on characteristics and causes of the emergency, the form and the total amount of Assistance rendered and the results of the work completed.</p>
+														</content>
+													</point>
+													<paragraph wId="od1-clan2-stav1">
+														<content>
+															<p>Article 14Reimbursement of the damage</p>
+														</content>
+													</paragraph>
+													<section wId="od1">
+														<num>1.</num>
+														<heading> The Requesting Party shall cover all the expenses related to injury or death of the members of Assistance teams, which has occurred during the activities related to the implementation of the present Agreement. The Parties concerned shall agree on the sum to be reimbursed.</heading>
+														<point wId="od1-clan2-tac2">
+															<num>2.</num>
+															<content>
+																<p> If a member of the Assistance team causes damage to a legal entity or physical person on the territory of the Requesting Party during the activities related to the implementation of the present Agreement, this damage shall be reimbursed by the Requesting Party according to the legal regulations in force, as if such damage caused by its citizens while providing assistance.</p>
+															</content>
+														</point>
+														<point wId="od1-clan2-tac3">
+															<num>3.</num>
+															<content>
+																<p> The damage caused by a member of the Assistance team on purpose or rough negligence shall be reimbursed by the Assisting Party, if the fact of damage was proved by a national court of law of the Requesting Party.</p>
+															</content>
+														</point>
+														<paragraph wId="od1-clan2-stav1">
+															<content>
+																<p>Article 15 Transfer of personal data</p>
+															</content>
+														</paragraph>
+														<paragraph wId="od1-clan2-stav2">
+															<content>
+																<p>The transfer of personal data to other Parties within the framework of the present Agreement shall be carried out according to Annex I which is an integral part of the Agreement.</p>
+															</content>
+														</paragraph>
+														<paragraph wId="od1-clan2-stav3">
+															<content>
+																<p>Article 16Cooperation with international and national organizations/institutions</p>
+															</content>
+														</paragraph>
+														<paragraph wId="od1-clan2-stav4">
+															<content>
+																<p>On the basis of mutual arrangement the relevant Parties may invite the interested international and national organizations/institutions to join the activities, connected with the implementation of the present Agreement.</p>
+															</content>
+														</paragraph>
+														<paragraph wId="od1-clan2-stav5">
+															<content>
+																<p>Article 17 Signing</p>
+															</content>
+														</paragraph>
+														<paragraph wId="od1-clan2-stav6">
+															<content>
+																<p>The present Agreement is open for signing by any BSEC State.</p>
+															</content>
+														</paragraph>
+														<paragraph wId="od1-clan2-stav7">
+															<content>
+																<p>Article 18Ratification, acceptance, affirmation, approval or accession</p>
+															</content>
+														</paragraph>
+														<section wId="od1">
+															<num>1.</num>
+															<heading> The Agreement shall be subject to ratification, acceptance, affirmation, approval or accession. The instruments of ratification, acceptance, affirmation, approval or accession shall be deposited with the Depository of the present Agreement.</heading>
+															<point wId="od1-clan2-tac2">
+																<num>2.</num>
+																<content>
+																	<p> The Depository of the present Agreement shall be the Government of the Russian Federation which will send to the Parties certified copies of the above.</p>
+																</content>
+															</point>
+															<paragraph wId="od1-clan2-stav1">
+																<content>
+																	<p>Article 19Entry into force and term of validity</p>
+																</content>
+															</paragraph>
+															<section wId="od1">
+																<num>1.</num>
+																<heading> The present Agreement shall enter into force when instruments of ratification, acceptance, affirmation, approval or accession have been deposited by at least six States and is concluded for an undetermined period of time.</heading>
+																<point wId="od1-clan2-tac2">
+																	<num>2.</num>
+																	<content>
+																		<p> For each State which ratifies, accepts, affirms or approves this Agreement or accedes thereto after the deposit of the sixth instrument of ratification, acceptance, affirmation, approval or accession, this Agreement shall enter into force on the day of deposit by this State of its instrument of ratification, acceptance, affirmation, approval or accession.</p>
+																	</content>
+																</point>
+																<paragraph wId="od1-clan2-stav1">
+																	<content>
+																		<p>Article 20 Withdrawal from the Agreement</p>
+																	</content>
+																</paragraph>
+																<section wId="od1">
+																	<num>1.</num>
+																	<heading> Each Party may withdraw from the present Agreement by giving a written notification to the Depository, which informs the other Parties of this fact.</heading>
+																	<point wId="od1-clan2-tac2">
+																		<num>2.</num>
+																		<content>
+																			<p> The withdrawal shall be effected on the ninetieth day after the date of receipt of such notice by the Depository.</p>
+																		</content>
+																	</point>
+																	<point wId="od1-clan2-tac3">
+																		<num>3.</num>
+																		<content>
+																			<p> Any Party which wants to retract an earlier withdrawal from the present Agreement shall notify the Depository accordingly in writing. The notifiation shall be performed not later than thirty days after the application for withdrawal had been submitted.</p>
+																		</content>
+																	</point>
+																	<paragraph wId="od1-clan2-stav1">
+																		<content>
+																			<p>Article 21 Amendments to the Agreement</p>
+																		</content>
+																	</paragraph>
+																	<section wId="od1">
+																		<num>1.</num>
+																		<heading> Any Party may propose amendments to the present Agreement.</heading>
+																		<point wId="od1-clan2-tac2">
+																			<num>2.</num>
+																			<content>
+																				<p> A proposal for amendments shall be communicated in written form to the Working Group (Committee) on Emergencies, mentioned in Article 7 of the present Agreement, which then informs all the Parties thereof. Further action to be taken in this respect shall be specified by the Working Group (Committee) on Emergencies according to its mandate to be determined by the Parties.</p>
+																			</content>
+																		</point>
+																		<paragraph wId="od1-clan2-stav1">
+																			<content>
+																				<p>Article 22Relationship to other international agreements</p>
+																			</content>
+																		</paragraph>
+																		<paragraph wId="od1-clan2-stav2">
+																			<content>
+																				<p>The present Agreement shall not affect the rights and obligations of the Parties laid down in other international agreements.</p>
+																			</content>
+																		</paragraph>
+																		<paragraph wId="od1-clan2-stav3">
+																			<content>
+																				<p>Article 23 Settlement of disagreements</p>
+																			</content>
+																		</paragraph>
+																		<paragraph wId="od1-clan2-stav4">
+																			<content>
+																				<p>In case of disagreement between two or more Parties concerning the interpretation or application of the present Agreement, the Parties concerned shall resolve the disagreement through negotiations and, if necessary, through Diplomatic Channels.</p>
+																			</content>
+																		</paragraph>
+																		<paragraph wId="od1-clan2-stav5">
+																			<content>
+																				<p>Article 24 Language of the Agreement</p>
+																			</content>
+																		</paragraph>
+																		<paragraph wId="od1-clan2-stav6">
+																			<content>
+																				<p>The original text of the present Agreement is made out in English.</p>
+																			</content>
+																		</paragraph>
+																		<paragraph wId="od1-clan2-stav7">
+																			<content>
+																				<p>SIGNED in Sochi, 15 April 1998</p>
+																			</content>
+																		</paragraph>
+																		<paragraph wId="od1-clan2-stav8">
+																			<content>
+																				<p>In certification of the above, the duly authorised listed below, have signed the presenr Agreement.</p>
+																			</content>
+																		</paragraph>
+																		<paragraph class="special" wId="od1-clan2-stav9">
+																			<content>
+																				<table>
+																					
+				
+					
+					
+				
+				
+					
+																					<tr>
+																						
+						
+																						<td>
+																							
+							
+																							<p>For the Government of the Azerbaijan Republic</p>
+																							
+						
+																						</td>
+																						
+						
+																						<td>
+																							
+							
+																							<p>For the Government of theRepublic of Albania</p>
+																							
+						
+																						</td>
+																						
+					
+																					</tr>
+																					
+					
+																					<tr>
+																						
+						
+																						<td>
+																							
+							
+																							<p>For the Government of theRepublic of Armenia</p>
+																							
+						
+																						</td>
+																						
+						
+																						<td>
+																							
+							
+																							<p>For the Government of theRepublic of Bulgaria</p>
+																							
+						
+																						</td>
+																						
+					
+																					</tr>
+																					
+					
+																					<tr>
+																						
+						
+																						<td>
+																							
+							
+																							<p>For the Government of theHellenic Republic</p>
+																							
+						
+																						</td>
+																						
+						
+																						<td>
+																							
+							
+																							<p>For the Government ofGeorgia</p>
+																							
+						
+																						</td>
+																						
+					
+																					</tr>
+																					
+					
+																					<tr>
+																						
+						
+																						<td>
+																							
+							
+																							<p>For the Government of theRepublic of Moldova</p>
+																							
+						
+																						</td>
+																						
+						
+																						<td>
+																							
+							
+																							<p>For the Government of theRussian Federation</p>
+																							
+						
+																						</td>
+																						
+					
+																					</tr>
+																					
+					
+																					<tr>
+																						
+						
+																						<td>
+																							
+							
+																							<p>For the Government ofRoumania</p>
+																							
+						
+																						</td>
+																						
+						
+																						<td>
+																							
+							
+																							<p>For the Government ofUkraine</p>
+																							
+						
+																						</td>
+																						
+					
+																					</tr>
+																					
+					
+																					<tr>
+																						
+						
+																						<td>
+																							
+							
+																							<p>For the Governmentof the Republic of Serbia</p>
+																							
+						
+																						</td>
+																						
+						
+																						<td>
+																							<p>
+					</p>
+																						</td>
+																					</tr>
+																					
+				
+			
+																				</table>
+																				
+			
+																			</content>
+																		</paragraph>
+																		<paragraph wId="od1-clan2-stav10">
+																			<content>
+																				<p>Place</p>
+																			</content>
+																		</paragraph>
+																		<paragraph wId="od1-clan2-stav11">
+																			<content>
+																				<p>Date</p>
+																			</content>
+																		</paragraph>
+																		<paragraph wId="od1-clan2-stav12">
+																			<content>
+																				<p>Annex IExchanging personal data</p>
+																			</content>
+																		</paragraph>
+																		<paragraph wId="od1-clan2-stav13">
+																			<intro>
+																				<p>The Rules for exchanging personal data in the framework of the present Agreement and under the legislation in the States of the Parties are as follows:</p>
+																			</intro>
+																			<point wId="od1-clan2-stav13-tac1">
+																				<num>1.</num>
+																				<content>
+																					<p> Using of data by the receiving Party is allowed under the conditions and for the purposes prescribed by the sending Party.</p>
+																				</content>
+																			</point>
+																			<point wId="od1-clan2-stav13-tac2">
+																				<num>2.</num>
+																				<content>
+																					<p> The receiving Party shall inform the sending Party by request therefrom as to how these personal data have been used and of the results thus achieved.</p>
+																				</content>
+																			</point>
+																			<point wId="od1-clan2-stav13-tac3">
+																				<num>3.</num>
+																				<content>
+																					<p> The recipient of personal data is the Competent Body only. The personal data reexchanging is possible after a written permission of the sending Party.</p>
+																				</content>
+																			</point>
+																			<point wId="od1-clan2-stav13-tac4">
+																				<num>4.</num>
+																				<content>
+																					<p> The sending Party is to transfer correct data, conforming the purposes of its transferring, taking into account the respective national regulations. The receiving Party, after being informed in case incorrect or classified data have been transferred, shall correct the mistakes or destroy the data completely.</p>
+																				</content>
+																			</point>
+																			<point wId="od1-clan2-stav13-tac5">
+																				<num>5.</num>
+																				<content>
+																					<p> Any person who suffers injury due to these personal data concerning him, has the right to apply for a certificate on it after presenting the purposes of their utilisation. If public interests override those of the afflicted person, the latter loses the right mentioned above. In any other cases this person has the right to get the certificate in accordance with the national legislation in the State, the territory of which was the place of the request.</p>
+																				</content>
+																			</point>
+																			<point wId="od1-clan2-stav13-tac6">
+																				<num>6.</num>
+																				<content>
+																					<p> Should the transfer of information within the framework of the present Agreement cause somebody physical injury or moral damage, the receiving Party shall be held responsible for the same in conformity with its national legislation. In its dealing with the person(s) who have sustained such injury or damage, the receiving Party shall have no right to shirk its responsibility and shift it to the sending Party.</p>
+																				</content>
+																			</point>
+																			<point wId="od1-clan2-stav13-tac7">
+																				<num>7.</num>
+																				<content>
+																					<p> The terms of validity of the personal data have to be notified by the sending Party in accordance with its national legislation.</p>
+																				</content>
+																			</point>
+																			<point wId="od1-clan2-stav13-tac8">
+																				<num>8.</num>
+																				<content>
+																					<p> Parties are obliged to register outgoing and incoming personal data as official documents.</p>
+																				</content>
+																			</point>
+																			<point wId="od1-clan2-stav13-tac9">
+																				<num>9.</num>
+																				<content>
+																					<p> The Parties are obliged to protect personal data, according to their national classification, from unauthorised access, changes and disclosure.</p>
+																				</content>
+																			</point>
+																		</paragraph>
+																		<paragraph wId="od1-clan2-stav14">
+																			<content>
+																				<p>СПОРАЗУМизмеђу влада држава учесница Црноморске економске сарадње (BSEC) о сарадњи у пружању помоћи у ванредним ситуацијама и хитном реаговању на природне и изазване катастрофе</p>
+																			</content>
+																		</paragraph>
+																		<paragraph wId="od1-clan2-stav15">
+																			<content>
+																				<p>Владе – стране овог споразума, у даљем тексту:</p>
+																			</content>
+																		</paragraph>
+																		<paragraph wId="od1-clan2-stav16">
+																			<content>
+																				<p>Стране, узимајући у обзир вероватноћу наступања ванредних ситуација које Стране не могу отклонити сопственим снагама и средствима, као и потребу, због ове чињенице, за координираним поступањем Страна у циљу спречавања и реаговања у ванредним ситуацијама;</p>
+																			</content>
+																		</paragraph>
+																		<paragraph wId="od1-clan2-stav17">
+																			<content>
+																				<p>У жељи да додатно прошире развијену регионалну сарадњу како би се обухватила помоћ у случају ванредних ситуација и исказујући заједничка залагања на плану обезбеђивања координиране помоћи погођеном становништву;</p>
+																			</content>
+																		</paragraph>
+																		<paragraph wId="od1-clan2-stav18">
+																			<content>
+																				<p>Подржавајући залагања УН у домену пружања међународне помоћи у ванредним ситуацијама, поштујући и потврђујући опште признате прописе и правила која постоје у оквиру бројних међународних, регионалних и подрегионалних организација, релевантне међународне конвенције и споразуме, и у циљу давања доприноса разради одговарајућег националног законодавства;</p>
+																			</content>
+																		</paragraph>
+																		<paragraph wId="od1-clan2-stav19">
+																			<content>
+																				<p>Подстичући даљу сарадњу у домену пружања међународне помоћи у ванредним ситуацијама на основу иницијатива Прве црноморске конференције друштава Црвеног крста и Црвеног полумесеца (1997);</p>
+																			</content>
+																		</paragraph>
+																		<paragraph wId="od1-clan2-stav20">
+																			<content>
+																				<p>Изразивши подршку идеји стварања Међународног црноморског спасилачког центра користећи искуства која су стекле земље BSEC-а и други слични међународни центри;</p>
+																			</content>
+																		</paragraph>
+																		<paragraph wId="od1-clan2-stav21">
+																			<content>
+																				<p>Договориле су се о следећем:</p>
+																			</content>
+																		</paragraph>
+																		<article wId="od1-clan1">
+																			<num>1.</num>
+																			<point wId="od1-clan1-tac1">
+																				<num>1.</num>
+																				<content>
+																					<p> Овај споразум установљава начела и оквире координираних активности Страна у случају природних и изазваних катастрофа.</p>
+																				</content>
+																			</point>
+																			<point wId="od1-clan1-tac2">
+																				<num>2.</num>
+																				<content>
+																					<p> Овај споразум се примењује у случају природних и изазваних катастрофа које се не могу отклонити сопственим снагама Страна.</p>
+																				</content>
+																			</point>
+																		</article>
+																		<article wId="od1-clan2">
+																			<num>2.</num>
+																			<paragraph wId="od1-clan2-stav1">
+																				<content>
+																					<p>У сврху овог споразума, следећи изрази имају ниже наведена значења:</p>
+																				</content>
+																			</paragraph>
+																			<paragraph wId="od1-clan2-stav2">
+																				<content>
+																					<p>„Помоћ” – добра, материјали, особље и услуге које обезбеђују Стране које пружају помоћ како би се изашло у сусрет потребама Страна које траже помоћ;</p>
+																				</content>
+																			</paragraph>
+																			<paragraph wId="od1-clan2-stav3">
+																				<content>
+																					<p>„Страна која пружа помоћ” – Страна која обезбеђује помоћ;</p>
+																				</content>
+																			</paragraph>
+																			<paragraph wId="od1-clan2-stav4">
+																				<content>
+																					<p>„Тим који пружа помоћ” – група стручњака Стране која пружа помоћ чији је задатак да обезбеди помоћ и која је опремљена свим неопходним средствима;</p>
+																				</content>
+																			</paragraph>
+																			<paragraph wId="od1-clan2-stav5">
+																				<content>
+																					<p>„Надлежни орган” – служба коју је свака Страна одредила да руководи и координира пословима у вези са спровођењем овог споразума;</p>
+																				</content>
+																			</paragraph>
+																			<paragraph wId="od1-clan2-stav6">
+																				<content>
+																					<p>„Катастрофа” – догађај на одређеном подручју који је наступио као резултат акцидента, опасних природних појава, природне или изазване катастрофе, који може да нанесе или је нанео знатну физичку, друштвену, економску или културну штету по људске животе или животну средину;</p>
+																				</content>
+																			</paragraph>
+																			<paragraph wId="od1-clan2-stav7">
+																				<content>
+																					<p>„Ванредна ситуација” – ситуација, често опасна, која изненада настаје и захтева брзу акцију;</p>
+																				</content>
+																			</paragraph>
+																			<paragraph wId="od1-clan2-stav8">
+																				<content>
+																					<p>„Подручје ванредне ситуације” – подручје у којем се догодила ванредна ситуација;</p>
+																				</content>
+																			</paragraph>
+																			<paragraph wId="od1-clan2-stav9">
+																				<content>
+																					<p>„Хитно реаговање” – потрага и спасавање и друге хитне активности које се предузимају у случају ванредне ситуације, чији је циљ спасавање живота и заштита здравља људи, смањење еколошких, културних и материјалних губитака, као и секундарног утицаја опасности на подручју ванредне ситуације;</p>
+																				</content>
+																			</paragraph>
+																			<paragraph wId="od1-clan2-stav10">
+																				<content>
+																					<p>„Опрема” – материјали, техничка и транспортна средства, опрема тима који пружа помоћ и појединачна опрема његових чланова;</p>
+																				</content>
+																			</paragraph>
+																			<paragraph wId="od1-clan2-stav11">
+																				<content>
+																					<p>„Помоћ у добрима” – материјална средства која су намењена за бесплатну расподелу становништву које је погођено катастрофом без плаћања такси;</p>
+																				</content>
+																			</paragraph>
+																			<paragraph wId="od1-clan2-stav12">
+																				<content>
+																					<p>„Лични подаци” – све врсте информација о физичким лицима у вези са одређеном ванредном ситуацијом, у складу са овим споразумом;</p>
+																				</content>
+																			</paragraph>
+																			<paragraph wId="od1-clan2-stav13">
+																				<content>
+																					<p>„Страна која тражи помоћ” – Страна која подноси захтев за помоћ;</p>
+																				</content>
+																			</paragraph>
+																			<paragraph wId="od1-clan2-stav14">
+																				<content>
+																					<p>„Активности потраге и спасавања” – активности чији је циљ спасавање људи и заштита материјалних и културних добара и животне средине у подручју ванредне ситуације, као што су оне које су дефинисали надлежни међународни органи.</p>
+																				</content>
+																			</paragraph>
+																			<paragraph wId="od1-clan2-stav15">
+																				<content>
+																					<p>„Транзитна држава” – било која држава, чија је влада Страна овог споразума, осим Стране која тражи помоћ или Стране која пружа помоћ, преко чије се територије, укључујући ваздушни простор односно територијалне воде, транспортују тим који пружа помоћ, опрема и помоћ у добрима.</p>
+																				</content>
+																			</paragraph>
+																		</article>
+																		<article wId="od1-clan3">
+																			<num>3.</num>
+																			<point wId="od1-clan3-tac1">
+																				<num>1.</num>
+																				<content>
+																					<p> Стране сарађују у складу са одредбама овог споразума и признатим међународним прописима и начелима како би се обезбедиле брзе и релевантне информације и помоћ у случају природних или изазваних катастрофа односно њихове могуће појаве.</p>
+																				</content>
+																			</point>
+																			<point wId="od1-clan3-tac2">
+																				<num>2.</num>
+																				<content>
+																					<p> Ако је некој Страни потребна помоћ у случају природне или изазване катастрофе која је наступила на територији њене државе, та Страна може затражити помоћ од друге Стране (или више њих) слањем националне молбе. Страна која пружа помоћ помаже Страни која тражи помоћ средствима и мерама чији је циљ спречавање односно уклањање последица катастрофе.</p>
+																				</content>
+																			</point>
+																			<point wId="od1-clan3-tac3">
+																				<num>3.</num>
+																				<content>
+																					<p> Стране једна другој пружају помоћ у складу са својим могућностима. Помоћ се даје бесплатно, осим ако се Стране договоре другачије.</p>
+																				</content>
+																			</point>
+																			<point wId="od1-clan3-tac4">
+																				<num>4.</num>
+																				<content>
+																					<p> Страна која тражи помоћ обезбеђује несметани пријем и расподелу помоћи у добрима искључиво погођеном становништву. Помоћ у добрима се расподељује без икакве дискриминације на основу расе, вероисповести, језика, политичких или других фактора.</p>
+																				</content>
+																			</point>
+																		</article>
+																		<article wId="od1-clan4">
+																			<num>4.</num>
+																			<point wId="od1-clan4-tac1">
+																				<num>1.</num>
+																				<content>
+																					<p> Стране су органи овлашћени да траже помоћ у ванредној ситуацији.</p>
+																				</content>
+																			</point>
+																			<point wId="od1-clan4-tac2">
+																				<num>2.</num>
+																				<intro>
+																					<p> Помоћ се пружа на захтев, при чему Страна која тражи помоћ наводи следеће:</p>
+																				</intro>
+																				<alinea wId="od1-clan4-tac2-ali1">
+																					<content>
+																						<p>есто, време, врсту и обим катастрофе и тренутно стање ванредне ситуације у погођеном подручју;</p>
+																					</content>
+																				</alinea>
+																				<alinea wId="od1-clan4-tac2-ali2">
+																					<content>
+																						<p>ећ спроведене радње, спецификацију потребне помоћи, уз навођење приоритета тражених средстава за отклањање катастрофе.</p>
+																					</content>
+																				</alinea>
+																			</point>
+																			<point wId="od1-clan4-tac3">
+																				<num>3.</num>
+																				<content>
+																					<p> Страна која пружа помоћ одмах доноси одлуку да обезбеди помоћ и обавештава Страну која тражи помоћ о могућности, обиму и условима њеног пружања.</p>
+																				</content>
+																			</point>
+																			<point wId="od1-clan4-tac4">
+																				<num>4.</num>
+																				<content>
+																					<p> Информације поменуте у тачки 2. овог члана ажурирају се након развоја ситуације.</p>
+																				</content>
+																			</point>
+																		</article>
+																		<article wId="od1-clan5">
+																			<num>5.</num>
+																			<paragraph wId="od1-clan5-stav1">
+																				<content>
+																					<p>На захтев Стране која тражи помоћ, влада транзитне државе обезбеђује сву неопходну подршку током проласка помоћи преко територије те државе, у складу са својим националним законодавством, међународним правом и праксом.</p>
+																				</content>
+																			</paragraph>
+																		</article>
+																		<article wId="od1-clan6">
+																			<num>6.</num>
+																			<point wId="od1-clan6-tac1">
+																				<num>1.</num>
+																				<content>
+																					<p> Свака Страна одређује (или успоставља) један или неколико надлежних органа, у даљем тексту: надлежни органи, за координацију активности у вези са спровођењем овог споразума.</p>
+																				</content>
+																			</point>
+																			<point wId="od1-clan6-tac2">
+																				<num>2.</num>
+																				<content>
+																					<p> Не доводећи у питање друге постојеће билатералне и мултилатералне споразуме, свака Страна именује или успоставља једну или неколико контакт тачака за обавештавање и пружање помоћи у случају ванредних ситуација.</p>
+																				</content>
+																			</point>
+																			<point wId="od1-clan6-tac3">
+																				<num>3.</num>
+																				<content>
+																					<p> Стране писмено обавештавају једна другу, дипломатским каналима, о одређивању или било којој промени у вези са надлежним органом(има), као и у вези са контакт тачком(ама).</p>
+																				</content>
+																			</point>
+																			<point wId="od1-clan6-tac4">
+																				<num>4.</num>
+																				<content>
+																					<p> Свака Страна обезбеђује континуирано функционисање надлежног(их) органа и контакт тачке(ака).</p>
+																				</content>
+																			</point>
+																		</article>
+																		<article wId="od1-clan7">
+																			<num>7.</num>
+																			<paragraph wId="od1-clan7-stav1">
+																				<content>
+																					<p>У циљу спровођења овог споразума, надлежни национални органи именују своје представнике у релевантно заједничко тело (Радну групу (одбор) за ванредне ситуације) које ће се успоставити у склопу BSEC-а.</p>
+																				</content>
+																			</paragraph>
+																		</article>
+																		<article wId="od1-clan8">
+																			<num>8.</num>
+																			<point wId="od1-clan8-tac1">
+																				<num>1.</num>
+																				<content>
+																					<p> Надлежни орган Стране која тражи помоћ координира, руководи и надгледа активности тимова који пружају помоћ преко њихових руководилаца.</p>
+																				</content>
+																			</point>
+																			<point wId="od1-clan8-tac2">
+																				<num>2.</num>
+																				<content>
+																					<p> Страна која тражи помоћ обавештава руководиоце тимова Стране која пружа помоћ о развоју ситуације у подручју ванредне ситуације и на одређеним тачкама активности и, ако је потребно, обезбеђује овим тимовима преводиоце и средства комуникације са штабом који руководи свим активностима потраге и спасавања и другим хитним активностима.</p>
+																				</content>
+																			</point>
+																			<point wId="od1-clan8-tac3">
+																				<num>3.</num>
+																				<content>
+																					<p> Тимови који пружају помоћ би требало да су опремљени да самостално поступају у подручју ванредне ситуације најмање 72 сата од тренутка доласка. Страна која тражи помоћ снабдева ове тимове свим неопходним добрима, на њихов захтев, по истеку овог периода.</p>
+																				</content>
+																			</point>
+																			<point wId="od1-clan8-tac4">
+																				<num>4.</num>
+																				<content>
+																					<p> Страна која тражи помоћ се стара о безбедности, бесплатној медицинској помоћи, храни и смештају, а такође обезбеђује члановима тимова који пружају помоћ најосновније ствари у случају да остану без својих залиха.</p>
+																				</content>
+																			</point>
+																		</article>
+																		<article wId="od1-clan9">
+																			<num>9.</num>
+																			<point wId="od1-clan9-tac1">
+																				<num>1.</num>
+																				<content>
+																					<p> Процедуру преласка државних граница Стране која тражи помоћ или транзитне државе од стране чланова тимова који пружају помоћ одређује њихово национално законодавство, међународно право и билатерални споразуми државе која тражи помоћ односно транзитне државе.</p>
+																				</content>
+																			</point>
+																			<point wId="od1-clan9-tac2">
+																				<num>2.</num>
+																				<content>
+																					<p> Редослед процедуре преласка преко државних граница Стране која тражи помоћ од стране група са псима трагачима и њихов боравак на територији државе Стране која тражи помоћ одређује се у складу са правилима карантина која су на снази на територији државе Стране која тражи помоћ, у сваком појединачном случају.</p>
+																				</content>
+																			</point>
+																			<point wId="od1-clan9-tac3">
+																				<num>3.</num>
+																				<content>
+																					<p> Чланови тима који пружа помоћ дужни су да поштују законе и правила државе Стране која тражи помоћ односно транзитне државе. Истовремено, на њих се односе прописи Стране која пружа помоћ када је реч о радном и другом релевантном праву. У случају да ови тимови укључују паравојно особље цивилне одбране/заштите, њихов боравак, у складу са претходним договором, и активности биће у складу са законима Стране која пружа помоћ који уређују статус таквог особља.</p>
+																				</content>
+																			</point>
+																			<point wId="od1-clan9-tac4">
+																				<num>4.</num>
+																				<content>
+																					<p> У сврху превоза тимова који пружају помоћ, њихове опреме и помоћи у добрима могу се користити сва погодна возила како би се што пре стигло до одредишта. Редослед коришћења наведених превозних средстава у циљу пружања помоћи одређују надлежни органи Страна.</p>
+																				</content>
+																			</point>
+																		</article>
+																		<article wId="od1-clan10">
+																			<num>10.</num>
+																			<point wId="od1-clan10-tac1">
+																				<num>1.</num>
+																				<content>
+																					<p> Опрема и помоћ у добрима који се извозе и увозе ради пружања помоћи, у складу са овим споразумом, изузети су од царинских дажбина, пореза и такси.</p>
+																				</content>
+																			</point>
+																			<point wId="od1-clan10-tac2">
+																				<num>2.</num>
+																				<content>
+																					<p> Царински преглед и контрола опреме и помоћи у добрима врше се по поједностављеној процедури на бази приоритета, поступајући по обавештењима која су дали надлежни органи Страна, у којима је наведена структура тимова који пружају помоћ и списак увезене или извезене опреме и помоћи у добрима.</p>
+																				</content>
+																			</point>
+																			<point wId="od1-clan10-tac3">
+																				<num>3.</num>
+																				<content>
+																					<p> Лекови и психотропне супстанце се могу увозити само у количинама које су неопходне за потребе пружања медицинске помоћи и може их користити само квалификовано медицинско особље. У овом случају руководилац тима који пружа помоћ даје на увид органима царинске контроле декларацију у којој се наводе лекови и психотропне супстанце заједно са њиховим називима и количином.</p>
+																				</content>
+																			</point>
+																			<paragraph wId="od1-clan10-stav1">
+																				<content>
+																					<p>Релевантни органи Стране која тражи помоћ могу контролисати коришћење и чување горепоменутих лекова и супстанци.</p>
+																				</content>
+																			</paragraph>
+																			<paragraph wId="od1-clan10-stav2">
+																				<content>
+																					<p>Лекови и психотропне супстанце које се не искористе током мисије износе се са територије државе Стране која тражи помоћ. Потврда о искоришћеним лековима и психотропним супстанцама коју потписују руководилац и лекар тима који пружа помоћ и коју оверава надлежни орган Стране која тражи помоћ даје се на увид органима царинске контроле Стране која тражи помоћ по завршетку мисије.</p>
+																				</content>
+																			</paragraph>
+																		</article>
+																		<article wId="od1-clan11">
+																			<num>11.</num>
+																			<point wId="od1-clan11-tac1">
+																				<num>1.</num>
+																				<content>
+																					<p> Превоз тимова који пружају помоћ, опреме и помоћи у добрима може се обављати ваздухопловима.</p>
+																				</content>
+																			</point>
+																			<point wId="od1-clan11-tac2">
+																				<num>2.</num>
+																				<content>
+																					<p> Надлежни орган Стране која пружа помоћ ће обавестити надлежни орган Стране која тражи помоћ о одлуци да користи ваздухоплов ради пружања помоћи наводећи зону избацивања, руту летова, врсте и ознаке ваздухоплова, број чланова посаде, врсту терета, ред летења и спискове путника (особље, техничко особље, новинари, итд.).</p>
+																				</content>
+																			</point>
+																			<point wId="od1-clan11-tac3">
+																				<num>3.</num>
+																				<content>
+																					<p> Летови цивилних или државних ваздухоплова обављају се у складу са прописима Међународне организације за цивилно ваздухопловство (International Civil Aviation Organization – ICAO) и прописима Страна. За државне ваздухоплове потребно је и дипломатско одобрење.</p>
+																				</content>
+																			</point>
+																			<point wId="od1-clan11-tac4">
+																				<num>4.</num>
+																				<content>
+																					<p> Страна која пружа помоћ је изузета од плаћања накнада за прелет, слетање, паркирање, полетање и навигационе услуге за ваздухоплове који обезбеђују помоћ у ванредним ситуацијама, у складу са овим споразумом.</p>
+																				</content>
+																			</point>
+																			<point wId="od1-clan11-tac5">
+																				<num>5.</num>
+																				<content>
+																					<p> За лет који обезбеђује помоћ у ванредној ситуацији, рефундирање трошкова за гориво и услуге одржавања регулишу органи релевантних Страна овог споразума засебно у сваком појединачном случају.</p>
+																				</content>
+																			</point>
+																		</article>
+																		<article wId="od1-clan12">
+																			<num>12.</num>
+																			<point wId="od1-clan12-tac1">
+																				<num>1.</num>
+																				<content>
+																					<p> Пружање помоћи се обавља у складу са начелима описаним у члану 3. овог споразума.</p>
+																				</content>
+																			</point>
+																		</article>
+																		<article wId="od1-clan13">
+																			<num>13.</num>
+																			<point wId="od1-clan13-tac1">
+																				<num>1.</num>
+																				<content>
+																					<p> Страна која тражи помоћ може отказати свој захтев за пружање помоћи у било ком тренутку. Страна која тражи помоћ одмах обавештава Страну која пружа помоћ о својој одлуци, а Страна која пружа помоћ може тражити накнаду трошкова који су настали до тог тренутка.</p>
+																				</content>
+																			</point>
+																			<point wId="od1-clan13-tac2">
+																				<num>2.</num>
+																				<content>
+																					<p> Страна која пружа помоћ плаћа осигурање за чланове тимова који пружају помоћ а ови трошкови улазе у укупне трошкове пружања помоћи.</p>
+																				</content>
+																			</point>
+																			<point wId="od1-clan13-tac3">
+																				<num>3.</num>
+																				<content>
+																					<p> На крају операције надлежни орган Стране која пружа помоћ одмах обавештава писменим путем надлежни орган Стране која тражи помоћ о обиму пружене помоћи.</p>
+																				</content>
+																			</point>
+																			<point wId="od1-clan13-tac4">
+																				<num>4.</num>
+																				<content>
+																					<p> Надлежни орган Стране која тражи помоћ даје надлежном органу Стране која пружа помоћ коначне информације о карактеристикама и узроцима ванредне ситуације, облику и укупној количини пружене помоћи и резултатима обављеног посла.</p>
+																				</content>
+																			</point>
+																		</article>
+																		<article wId="od1-clan14">
+																			<num>14.</num>
+																			<point wId="od1-clan14-tac1">
+																				<num>1.</num>
+																				<content>
+																					<p> Страна која тражи помоћ покрива све трошкове у вези са повредом или смрћу чланова тимова који пружају помоћ која је наступила током активности у вези са спровођењем овог споразума. Предметне стране се договарају о суми која ће се надокнадити.</p>
+																				</content>
+																			</point>
+																			<point wId="od1-clan14-tac2">
+																				<num>2.</num>
+																				<content>
+																					<p> Ако члан тима који пружа помоћ проузрокује штету правном или физичком лицу на територији Стране која тражи помоћ током активности у вези са спровођењем овог споразума, ту штету надокнађује Страна која тражи помоћ у складу са важећим законским прописима, као да су ту штету проузроковали њени грађани током пружања помоћи.</p>
+																				</content>
+																			</point>
+																			<point wId="od1-clan14-tac3">
+																				<num>3.</num>
+																				<content>
+																					<p> Штету коју је намерно или грубом непажњом проузроковао члан тима који пружа помоћ надокнађује Страна која пружа помоћ, уколико је штета доказана пред судом државе Стране која тражи помоћ.</p>
+																				</content>
+																			</point>
+																		</article>
+																		<article wId="od1-clan15">
+																			<num>15.</num>
+																			<paragraph wId="od1-clan15-stav1">
+																				<content>
+																					<p>Слање података о личности другим Странама у оквиру овог споразума врши се у складу са Прилогом 1, који је саставни део Споразума.</p>
+																				</content>
+																			</paragraph>
+																		</article>
+																		<article wId="od1-clan16">
+																			<num>16.</num>
+																			<paragraph wId="od1-clan16-stav1">
+																				<content>
+																					<p>На основу узајамног договора, релевантне Стране могу позвати заинтересоване међународне и националне организације/институције да се придруже активностима у вези са спровођењем овог споразума.</p>
+																				</content>
+																			</paragraph>
+																		</article>
+																		<article wId="od1-clan17">
+																			<num>17.</num>
+																			<paragraph wId="od1-clan17-stav1">
+																				<content>
+																					<p>Овај споразум је отворен за потписивање било које државе BSEC-a.</p>
+																				</content>
+																			</paragraph>
+																		</article>
+																		<article wId="od1-clan18">
+																			<num>18.</num>
+																			<point wId="od1-clan18-tac1">
+																				<num>1.</num>
+																				<content>
+																					<p> Споразум је предмет ратификације, прихватања, потврђивања, одобравања или приступања. Инструменти ратификације, прихватања, потврђивања, одобравања или приступања депонују се код депозитара овог споразума.</p>
+																				</content>
+																			</point>
+																			<point wId="od1-clan18-tac2">
+																				<num>2.</num>
+																				<content>
+																					<p> Депозитар овог споразума је Влада Руске Федерације која ће Странама послати оверене копије Споразума.</p>
+																				</content>
+																			</point>
+																		</article>
+																		<article wId="od1-clan19">
+																			<num>19.</num>
+																			<point wId="od1-clan19-tac1">
+																				<num>1.</num>
+																				<content>
+																					<p> Овај споразум ступа на снагу када инструменте ратификације, прихватања, потврђивања, одобравања или приступања депонује најмање шест држава и закључује се на неодређене време.</p>
+																				</content>
+																			</point>
+																			<point wId="od1-clan19-tac2">
+																				<num>2.</num>
+																				<content>
+																					<p> За сваку државу која ратификује, прихвати, потврди или одобри овај споразум или му приступи после депоновања шестог инструмента ратификације, прихватања, потврђивања, одобравања или приступања, овај споразум ступа на снагу на дан када та држава депонује свој инструмент ратификације, прихватања, потврђивања, одобравања или приступања.</p>
+																				</content>
+																			</point>
+																		</article>
+																		<article wId="od1-clan20">
+																			<num>20.</num>
+																			<point wId="od1-clan20-tac1">
+																				<num>1.</num>
+																				<content>
+																					<p> Свака Страна може иступити из овог споразума слањем писменог обавештења депозитару који обавештава друге Стране о овој чињеници.</p>
+																				</content>
+																			</point>
+																			<point wId="od1-clan20-tac2">
+																				<num>2.</num>
+																				<content>
+																					<p> Иступање ступа на снагу деведесетог дана од датума када депозитар прими то обавештење.</p>
+																				</content>
+																			</point>
+																			<point wId="od1-clan20-tac3">
+																				<num>3.</num>
+																				<content>
+																					<p> Свака Страна која жели да опозове претходно иступање из овог споразума обавештава о томе депозитара у писаној форми. Обавештење се шаље најкасније тридесет дана од подношења захтева за иступање.</p>
+																				</content>
+																			</point>
+																		</article>
+																		<article wId="od1-clan21">
+																			<num>21.</num>
+																			<point wId="od1-clan21-tac1">
+																				<num>1.</num>
+																				<content>
+																					<p> Свака Страна може предложити измене и допуне овог споразума.</p>
+																				</content>
+																			</point>
+																			<point wId="od1-clan21-tac2">
+																				<num>2.</num>
+																				<content>
+																					<p> Предлог измена и допуна се саопштава у писаној форми Радној групи (одбору) за ванредне ситуације, из члана 7. овог споразума, која потом о томе обавештава све Стране. Даље радње које се предузимају у погледу овога прецизира Радна група (одбор) за ванредне ситуације у складу са својим мандатом који ће одредити Стране.</p>
+																				</content>
+																			</point>
+																		</article>
+																		<article wId="od1-clan22">
+																			<num>22.</num>
+																			<paragraph wId="od1-clan22-stav1">
+																				<content>
+																					<p>Овај споразум не утиче на права и обавезе Страна које су предвиђене другим међународним споразумима.</p>
+																				</content>
+																			</paragraph>
+																		</article>
+																		<article wId="od1-clan23">
+																			<num>23.</num>
+																			<paragraph wId="od1-clan23-stav1">
+																				<content>
+																					<p>У случају несугласица између двеју или више Страна у вези са тумачењем или спровођењем овог споразума, предметне Стране решавају несугласице преговорима а, ако је неопходно, дипломатским каналима.</p>
+																				</content>
+																			</paragraph>
+																		</article>
+																		<article wId="od1-clan24">
+																			<num>24.</num>
+																			<paragraph wId="od1-clan24-stav1">
+																				<content>
+																					<p>Оригинални текст овог споразума је састављен на енглеском језику.</p>
+																				</content>
+																			</paragraph>
+																			<paragraph wId="od1-clan24-stav2">
+																				<content>
+																					<p>ПОТПИСАНО у Сочију, 15. априла 1998. године.</p>
+																				</content>
+																			</paragraph>
+																			<paragraph wId="od1-clan24-stav3">
+																				<content>
+																					<p>У потврду горепоменутог, ниже наведени прописно овлашћени представници потписали су овај споразум.</p>
+																				</content>
+																			</paragraph>
+																			<paragraph class="special" wId="od1-clan24-stav4">
+																				<content>
+																					<table>
+																						
+				
+					
+					
+				
+				
+					
+																						<tr>
+																							
+						
+																							<td>
+																								
+							
+																								<p>За Владу Републике Азербејџан</p>
+																								
+						
+																							</td>
+																							
+						
+																							<td>
+																								
+							
+																								<p>За Владу Републике Албаније</p>
+																								
+						
+																							</td>
+																							
+					
+																						</tr>
+																						
+					
+																						<tr>
+																							
+						
+																							<td>
+																								
+							
+																								<p>За Владу Републике Јерменије</p>
+																								
+						
+																							</td>
+																							
+						
+																							<td>
+																								
+							
+																								<p>За Владу Републике Бугарске</p>
+																								
+						
+																							</td>
+																							
+					
+																						</tr>
+																						
+					
+																						<tr>
+																							
+						
+																							<td>
+																								
+							
+																								<p>За Владу Републике Грчке</p>
+																								
+						
+																							</td>
+																							
+						
+																							<td>
+																								
+							
+																								<p>За Владу Грузије</p>
+																								
+						
+																							</td>
+																							
+					
+																						</tr>
+																						
+					
+																						<tr>
+																							
+						
+																							<td>
+																								
+							
+																								<p>За Владу Републике Молдавије</p>
+																								
+						
+																							</td>
+																							
+						
+																							<td>
+																								
+							
+																								<p>За Владу Руске Федерације</p>
+																								
+						
+																							</td>
+																							
+					
+																						</tr>
+																						
+					
+																						<tr>
+																							
+						
+																							<td>
+																								
+							
+																								<p>За Владу Румуније</p>
+																								
+						
+																							</td>
+																							
+						
+																							<td>
+																								
+							
+																								<p>За Владу Украјине</p>
+																								
+						
+																							</td>
+																							
+					
+																						</tr>
+																						
+					
+																						<tr>
+																							
+						
+																							<td>
+																								
+							
+																								<p>За Владу Републике Србије</p>
+																								
+						
+																							</td>
+																							
+						
+																							<td>
+																								<p>
+					</p>
+																							</td>
+																						</tr>
+																						
+				
+			
+																					</table>
+																					
+			
+																				</content>
+																			</paragraph>
+																			<paragraph wId="od1-clan24-stav5">
+																				<content>
+																					<p>Место</p>
+																				</content>
+																			</paragraph>
+																			<paragraph wId="od1-clan24-stav6">
+																				<content>
+																					<p>Датум</p>
+																				</content>
+																			</paragraph>
+																			<paragraph wId="od1-clan24-stav7">
+																				<content>
+																					<p>Прилог 1</p>
+																				</content>
+																			</paragraph>
+																			<paragraph wId="od1-clan24-stav8">
+																				<content>
+																					<p>Размена података о личности</p>
+																				</content>
+																			</paragraph>
+																			<paragraph wId="od1-clan24-stav9">
+																				<intro>
+																					<p>Правила о размени података о личности у оквиру овог споразума и у складу са законима држава страна су следећа:</p>
+																				</intro>
+																				<point wId="od1-clan24-stav9-tac1">
+																					<num>1.</num>
+																					<content>
+																						<p> Страни примаоцу је допуштено да користи податке под условима и у сврхе које прописује Страна пошиљалац.</p>
+																					</content>
+																				</point>
+																				<point wId="od1-clan24-stav9-tac2">
+																					<num>2.</num>
+																					<content>
+																						<p> Страна прималац обавештава Страну пошиљаоца, на њен захтев, о томе како се ти подаци о личности користе и о резултатима који су остварени на тај начин.</p>
+																					</content>
+																				</point>
+																				<point wId="od1-clan24-stav9-tac3">
+																					<num>3.</num>
+																					<content>
+																						<p> Прималац података о личности је искључиво надлежни орган. Даља размена података о личности је могућа по прибављању писмене дозволе Стране пошиљаоца.</p>
+																					</content>
+																				</point>
+																				<point wId="od1-clan24-stav9-tac4">
+																					<num>4.</num>
+																					<content>
+																						<p> Страна пошиљалац треба да шаље тачне податке, у складу са сврхом слања и узимајући у обзир националне прописе. Страна прималац, пошто је обавештена у случају да су послати нетачни или поверљиви подаци, исправља грешке или уништава податке у потпуности.</p>
+																					</content>
+																				</point>
+																				<point wId="od1-clan24-stav9-tac5">
+																					<num>5.</num>
+																					<content>
+																						<p> Свако лице које претрпи штету због ових података о личности који се на њега односе има право да поднесе захтев да му се о томе изда потврда пошто се изнесе сврха њиховог коришћења. Ако јавни интереси надмашују интересе оштећеног лица, то лице губи напред наведено право. У свим другим случајевима, ово лице има право да добије потврду у складу са националним законодавством државе на чијој је територији поднет захтев.</p>
+																					</content>
+																				</point>
+																				<point wId="od1-clan24-stav9-tac6">
+																					<num>6.</num>
+																					<content>
+																						<p> Ако слање информација у оквиру овог споразума некоме проузрокује физичку повреду или моралну штету, Страна прималац се сматра одговорном за исту у складу са својим националним законодавством. У поступању са лицем које је претрпело такву повреду или штету, Страна прималац нема право да избегне своју одговорност и пребаци је на Страну пошиљаоца.</p>
+																					</content>
+																				</point>
+																				<point wId="od1-clan24-stav9-tac7">
+																					<num>7.</num>
+																					<content>
+																						<p> Страна пошиљалац мора послати обавештење о року важења података о личности, у складу са својим националним законодавством.</p>
+																					</content>
+																				</point>
+																				<point wId="od1-clan24-stav9-tac8">
+																					<num>8.</num>
+																					<content>
+																						<p> Стране су дужне да послате и добијене податке о личности заводе као званична документа.</p>
+																					</content>
+																				</point>
+																				<point wId="od1-clan24-stav9-tac9">
+																					<num>9.</num>
+																					<content>
+																						<p> Стране су дужне да штите податке о личности, у складу са својим националним означавањем степена тајности, од неовлашћеног приступа, измена и објављивања.</p>
+																					</content>
+																				</point>
+																			</paragraph>
+																		</article>
+																		<article wId="od1-clan3">
+																			<num>3.</num>
+																			<paragraph wId="od1-clan3-stav1">
+																				<content>
+																					<p>Потврђује се Допунски протокол уз Споразум између влада држава учесница Црноморске економске сарадње (BSEC) о сарадњи у пружању помоћи у ванредним ситуацијама и хитном реаговању на природне и изазване катастрофе, закључен 20. октобра 2005. године, у Кијеву, у оригиналу на енглеском језику.</p>
+																				</content>
+																			</paragraph>
+																		</article>
+																		<article wId="od1-clan4">
+																			<num>4.</num>
+																			<paragraph wId="od1-clan4-stav1">
+																				<content>
+																					<p>Текст Допунског протокола у оригиналу на енглеском језику и у преводу на српски језик гласи:</p>
+																				</content>
+																			</paragraph>
+																			<paragraph wId="od1-clan4-stav2">
+																				<content>
+																					<p>ADDITIONAL PROTOCOLTO THE AGREEMENT AMONG THE GOVERNMENTS OF THE PARTICIPATING STATES OF THE BLACK SEA ECONOMIC COOPERATION (BSEC) ON COLLABORATION IN EMERGENCY ASSISTANCE AND EMERGENCY RESPONSE TO NATURAL AND MAN-MADE DISASTERS</p>
+																				</content>
+																			</paragraph>
+																			<paragraph wId="od1-clan4-stav3">
+																				<content>
+																					<p>PREAMBLE</p>
+																				</content>
+																			</paragraph>
+																			<paragraph wId="od1-clan4-stav4">
+																				<content>
+																					<p>The Governments of the Organization of the Black Sea Economic Cooperation (BSEC) Member States – Parties to the present Additional Protocol, hereinafter referred to as ”the Parties”,</p>
+																				</content>
+																			</paragraph>
+																			<paragraph wId="od1-clan4-stav5">
+																				<content>
+																					<p>According to the provisions of Articles 3, 4, 5, 7 and 8 of the Agreement among the Governments of the Black Sea Economic Cooperation Participating States on Collaboration in Emergency Assistance and Emergency Response to Natural and Man-made Disasters, signed in Sochi on April 15ͭ ͪ 1998, hereinafter referred to as ”the BSEC Agreement”,</p>
+																				</content>
+																			</paragraph>
+																			<paragraph wId="od1-clan4-stav6">
+																				<content>
+																					<p>Conscious of the growing role and importance of effective prevention strategies with regard to cooperation in the field of emergency assistance,</p>
+																				</content>
+																			</paragraph>
+																			<paragraph wId="od1-clan4-stav7">
+																				<content>
+																					<p>Noting the importance of more effective policy response to disasters and the requirement of practical cooperation in major risk reduction and disaster prevention as well as in enhancing action in emergency situations,</p>
+																				</content>
+																			</paragraph>
+																			<paragraph wId="od1-clan4-stav8">
+																				<content>
+																					<p>Reiterating their determination to achieve through joint efforts the constant improvement of the implementation of the provisions of the BSEC Agreement,</p>
+																				</content>
+																			</paragraph>
+																			<paragraph wId="od1-clan4-stav9">
+																				<content>
+																					<p>With a view to securing the due level of coordination of cooperation between the authorities of the Parties,</p>
+																				</content>
+																			</paragraph>
+																			<paragraph wId="od1-clan4-stav10">
+																				<content>
+																					<p>Have agreed as follows:</p>
+																				</content>
+																			</paragraph>
+																			<paragraph wId="od1-clan4-stav11">
+																				<content>
+																					<p>Article 1Establishment of a Network of Liaison Officers</p>
+																				</content>
+																			</paragraph>
+																			<paragraph wId="od1-clan4-stav12">
+																				<content>
+																					<p>The Parties shall set up the BSEC Network of Liaison Officers on Emergency Assistance, hereinafter referred to as ”the Network”, consisting of liaison officers appointed by Parties, as their representatives.</p>
+																				</content>
+																			</paragraph>
+																			<paragraph wId="od1-clan4-stav13">
+																				<content>
+																					<p>Article 2Objectives</p>
+																				</content>
+																			</paragraph>
+																			<paragraph wId="od1-clan4-stav14">
+																				<intro>
+																					<p>The objectives of the Network are as follows:</p>
+																				</intro>
+																				<point wId="od1-clan4-stav14-tac1">
+																					<num>1.</num>
+																					<content>
+																						<p> To enhance the cooperation in the field of emergency assistance and provide for coordination of interaction between the competent bodies of the Parties;</p>
+																					</content>
+																				</point>
+																				<point wId="od1-clan4-stav14-tac2">
+																					<num>2.</num>
+																					<content>
+																						<p> To establish an information exchange network among the Relevant Bodies of the Parties to effectively collaborate in emergency assistance and emergency response in accordance with the BSEC Agreement.</p>
+																					</content>
+																				</point>
+																			</paragraph>
+																			<paragraph wId="od1-clan4-stav15">
+																				<content>
+																					<p>Article 3Tasks and Functions</p>
+																				</content>
+																			</paragraph>
+																			<paragraph wId="od1-clan4-stav16">
+																				<intro>
+																					<p>The Liaison Officers of the Network have the following tasks and functions:</p>
+																				</intro>
+																				<point wId="od1-clan4-stav16-tac1">
+																					<num>1.</num>
+																					<content>
+																						<p> To send the requests forwarded by other Liaison Officers to their respective countries for urgent cases in one day and for the other cases in three days, in accordance with the provisions of Articles 4 and 5 of the BSEC Agreement;</p>
+																					</content>
+																				</point>
+																				<point wId="od1-clan4-stav16-tac2">
+																					<num>2.</num>
+																					<content>
+																						<p> To send the required information to the Parties upon their requests in accordance with the provisions of Article 4 of the BSEC Agreement;</p>
+																					</content>
+																				</point>
+																				<point wId="od1-clan4-stav16-tac3">
+																					<num>3.</num>
+																					<content>
+																						<p> To meet periodically to consider the trends of emergency assistance and emergency response in the region in order to identify new forms of cooperation among the Relevant Bodies of the BSEC Member States;</p>
+																					</content>
+																				</point>
+																				<point wId="od1-clan4-stav16-tac4">
+																					<num>4.</num>
+																					<content>
+																						<p> To report and propose to the respective bodies the ways of further enhancing cooperation;</p>
+																					</content>
+																				</point>
+																				<point wId="od1-clan4-stav16-tac5">
+																					<num>5.</num>
+																					<content>
+																						<p> To facilitate the exchange of practical experience among the Relevant Bodies of the Parties in the field of emergency assistance and emergency response.</p>
+																					</content>
+																				</point>
+																			</paragraph>
+																			<paragraph wId="od1-clan4-stav17">
+																				<content>
+																					<p>Article 4Status of the Network within the BSEC</p>
+																				</content>
+																			</paragraph>
+																			<paragraph wId="od1-clan4-stav18">
+																				<content>
+																					<p>The Network is a cooperation group in the sphere of emergency assistance, established in conformity with the provisions of Article 7 of the BSEC Agreement.</p>
+																				</content>
+																			</paragraph>
+																			<paragraph wId="od1-clan4-stav19">
+																				<content>
+																					<p>Article 5Venue of the Meetings of the Network</p>
+																				</content>
+																			</paragraph>
+																			<paragraph wId="od1-clan4-stav20">
+																				<content>
+																					<p>The Network shall hold its meetings at the BSEC Permanent International Secretariat premises, unless it is otherwise decided upon the initiative of the BSEC Chairman-in-Office or by the decision of the Council of the Ministers of Foreign Affairs.</p>
+																				</content>
+																			</paragraph>
+																			<paragraph wId="od1-clan4-stav21">
+																				<content>
+																					<p>Article 6Organization and Operation</p>
+																				</content>
+																			</paragraph>
+																		</article>
+																		<section wId="od1">
+																			<num>1.</num>
+																			<heading> The Network will operate in accordance with the BSEC Charter and Rules of Procedure, as well as the provisions of the BSEC Agreement.</heading>
+																			<point wId="od1-clan4-tac2">
+																				<num>2.</num>
+																				<content>
+																					<p> Each Party to the present Additional Protocol shall appoint a Liaison Officer and his/her Alternate to the Network.</p>
+																				</content>
+																			</point>
+																			<point wId="od1-clan4-tac3">
+																				<num>3.</num>
+																				<content>
+																					<p> After the appointment or withdrawal of Liaison Officers to the Network, the Parties shall notify the BSEC Permanent International Secretariat in order to inform all Member States.</p>
+																				</content>
+																			</point>
+																			<point wId="od1-clan4-tac4">
+																				<num>4.</num>
+																				<content>
+																					<p> The Network shall meet periodically, at least once a year.</p>
+																				</content>
+																			</point>
+																			<point wId="od1-clan4-tac5">
+																				<num>5.</num>
+																				<content>
+																					<p> The Network shall fulfill its tasks under the authority of the Working Group on Cooperation in Emergency Assistance and report to it.</p>
+																				</content>
+																			</point>
+																			<paragraph wId="od1-clan4-stav1">
+																				<content>
+																					<p>Article 7Expenses</p>
+																				</content>
+																			</paragraph>
+																			<paragraph wId="od1-clan4-stav2">
+																				<content>
+																					<p>All expenses of the Liaison Officers related to the implementation of the provisions of the present Additional Protocol will be met by the sending Party.</p>
+																				</content>
+																			</paragraph>
+																			<paragraph wId="od1-clan4-stav3">
+																				<content>
+																					<p>Article 8National Contact Points</p>
+																				</content>
+																			</paragraph>
+																			<paragraph wId="od1-clan4-stav4">
+																				<content>
+																					<p>Parties will determine a national point of contact inside their competent bodies, preferably dealing with international cooperation.</p>
+																				</content>
+																			</paragraph>
+																			<paragraph wId="od1-clan4-stav5">
+																				<content>
+																					<p>Article 9Observers and Guests</p>
+																				</content>
+																			</paragraph>
+																			<section wId="od1">
+																				<num>1.</num>
+																				<heading> Representatives of the BSEC Observer States may attend the work of the Network, in accordance with the BSEC Charter and Rules of Procedure.</heading>
+																				<point wId="od1-clan4-tac2">
+																					<num>2.</num>
+																					<content>
+																						<p> Relevant international institutions or agencies may be invited to the meetings of the Network.</p>
+																					</content>
+																				</point>
+																				<paragraph wId="od1-clan4-stav1">
+																					<content>
+																						<p>Article 10Final Provisions</p>
+																					</content>
+																				</paragraph>
+																				<section wId="od1">
+																					<num>1.</num>
+																					<heading> The present Additional Protocol shall be open for signature or accession by any BSEC Member State.</heading>
+																					<point wId="od1-clan4-tac2">
+																						<num>2.</num>
+																						<content>
+																							<p> The BSEC Permanent International Secretariat shall be the Depository of this Additional Protocol. The original of the present Additional Protocol in a single copy in the English language shall be deposited with the Permanent International Secretariat, which shall transmit a certified copy to each Party.</p>
+																						</content>
+																					</point>
+																					<point wId="od1-clan4-tac3">
+																						<num>3.</num>
+																						<content>
+																							<p> The present Additional Protocol shall enter into force on the thirtieth day following the date, on which the third document of ratification or approval is deposited with the BSEC Permanent International Secretariat.</p>
+																						</content>
+																					</point>
+																					<point wId="od1-clan4-tac4">
+																						<num>4.</num>
+																						<content>
+																							<p> For each Party, ratifying, approving or acceding the present Additional Protocol, after the deposition of the third document of ratification, approval or accession, the present Additional Protocol shall enter into force, on the thirtieth day after the date of the deposition of the document of ratification, approval or accession by this Party.</p>
+																						</content>
+																					</point>
+																					<point wId="od1-clan4-tac5">
+																						<num>5.</num>
+																						<content>
+																							<p> Any Party may withdraw from the present Additional Protocol by written notification to the BSEC Permanent International Secretariat. Withdrawal shall take effect within three months after the date on which the withdrawal notification is received by the Permanent International Secretariat.</p>
+																						</content>
+																					</point>
+																					<point wId="od1-clan4-tac6">
+																						<num>6.</num>
+																						<content>
+																							<p> Any Party may propose amendments to the present Additional Protocol. The amendments shall be accepted upon the consent of all the Parties and shall enter into force in accordance with paragraphs 3 and 4 of the present Article.</p>
+																						</content>
+																					</point>
+																					<point wId="od1-clan4-tac7">
+																						<num>7.</num>
+																						<content>
+																							<p> Two years from the entry into force of the present Additional Protocol, the Parties will proceed to an interim review of the results yielded by the implementation of the provisions of the present Additional Protocol. A final evaluation will be made four years after its entry into force, with a view to agreeing on the necessary measures for further improvement of the cooperation.</p>
+																						</content>
+																					</point>
+																					<paragraph wId="od1-clan4-stav1">
+																						<content>
+																							<p>For the Government of the Republic of Albania</p>
+																						</content>
+																					</paragraph>
+																					<paragraph wId="od1-clan4-stav2">
+																						<content>
+																							<p>For the Government of the Republic of Armenia</p>
+																						</content>
+																					</paragraph>
+																					<paragraph wId="od1-clan4-stav3">
+																						<content>
+																							<p>For the Government of the Republic of Azerbaijan</p>
+																						</content>
+																					</paragraph>
+																					<paragraph wId="od1-clan4-stav4">
+																						<content>
+																							<p>For the Government of the Republic of Bulgaria</p>
+																						</content>
+																					</paragraph>
+																					<paragraph wId="od1-clan4-stav5">
+																						<content>
+																							<p>For the Government of Georgia</p>
+																						</content>
+																					</paragraph>
+																					<paragraph wId="od1-clan4-stav6">
+																						<content>
+																							<p>For the Government of the Hellenic Republic</p>
+																						</content>
+																					</paragraph>
+																					<paragraph wId="od1-clan4-stav7">
+																						<content>
+																							<p>For the Government of the Republic of Moldova</p>
+																						</content>
+																					</paragraph>
+																					<paragraph wId="od1-clan4-stav8">
+																						<content>
+																							<p>For the Government of Romania</p>
+																						</content>
+																					</paragraph>
+																					<paragraph wId="od1-clan4-stav9">
+																						<content>
+																							<p>For the Government of the Russian Federation</p>
+																						</content>
+																					</paragraph>
+																					<paragraph wId="od1-clan4-stav10">
+																						<content>
+																							<p>For the Government of Serbia and Montenegro</p>
+																						</content>
+																					</paragraph>
+																					<paragraph wId="od1-clan4-stav11">
+																						<content>
+																							<p>For the Government of the Republic of Turkey</p>
+																						</content>
+																					</paragraph>
+																					<paragraph wId="od1-clan4-stav12">
+																						<content>
+																							<p>For the Government of Ukraine</p>
+																						</content>
+																					</paragraph>
+																					<paragraph wId="od1-clan4-stav13">
+																						<content>
+																							<p>ДОПУНСКИ ПРОТОКОЛУЗ СПОРАЗУМ ИЗМЕЂУ ВЛАДА ДРЖАВА УЧЕСНИЦА ЦРНОМОРСКЕ ЕКОНОМСКЕ САРАДЊЕ (BSEC) О САРАДЊИ У ПРУЖАЊУ ПОМОЋИ У ВАНРЕДНИМ СИТУАЦИЈАМА И ХИТНОМ РЕАГОВАЊУ НА ПРИРОДНЕ И ИЗАЗВАНЕ КАТАСТРОФЕ</p>
+																						</content>
+																					</paragraph>
+																					<paragraph wId="od1-clan4-stav14">
+																						<content>
+																							<p>ПРЕАМБУЛА</p>
+																						</content>
+																					</paragraph>
+																					<paragraph wId="od1-clan4-stav15">
+																						<content>
+																							<p>Владе држава чланица Организације црноморске економске сарадње (BSEC) – Стране овог допунског протокола, у даљем тексту: Стране,</p>
+																						</content>
+																					</paragraph>
+																					<paragraph wId="od1-clan4-stav16">
+																						<content>
+																							<p>у складу са одредбама чл. 3, 4, 5, 7 и 8. Споразума између Влада држава учесница Црноморске економске сарадње о сарадњи у пружању помоћи у ванредним ситуацијама и хитном реаговању на природне и изазване катастрофе, потписаног у Сочију, 15. априла 1998. године, у даљем тексту: BSEC Споразум,</p>
+																						</content>
+																					</paragraph>
+																					<paragraph wId="od1-clan4-stav17">
+																						<content>
+																							<p>свесне све веће улоге и значаја делотворних стратегија превенције у погледу сарадње у области пружања помоћи у ванредним ситуацијама,</p>
+																						</content>
+																					</paragraph>
+																					<paragraph wId="od1-clan4-stav18">
+																						<content>
+																							<p>констатујући значај делотворнијег политичког реаговања на катастрофе и неопходност практичне сарадње у смањењу великих ризика и спречавању катастрофа и у унапређењу поступања у ванредним ситуацијама,</p>
+																						</content>
+																					</paragraph>
+																					<paragraph wId="od1-clan4-stav19">
+																						<content>
+																							<p>понављајући своју одлучност да, кроз заједничка залагања, остварују стални напредак у спровођењу одредби BSEC Споразума,</p>
+																						</content>
+																					</paragraph>
+																					<paragraph wId="od1-clan4-stav20">
+																						<content>
+																							<p>у циљу обезбеђивања потребног нивоа координације сарадње између органа Страна,</p>
+																						</content>
+																					</paragraph>
+																					<paragraph wId="od1-clan4-stav21">
+																						<content>
+																							<p>договориле су се о следећем:</p>
+																						</content>
+																					</paragraph>
+																					<article wId="od1-clan1">
+																						<num>1.</num>
+																						<paragraph wId="od1-clan1-stav1">
+																							<content>
+																								<p>Стране успостављају BSEC Мрежу официра за везу за пружање помоћи у ванредним ситуацијама, у даљем тексту: Мрежа, коју чине официри за везу које су Стране именовале као своје представнике.</p>
+																							</content>
+																						</paragraph>
+																					</article>
+																					<article wId="od1-clan2">
+																						<num>2.</num>
+																						<paragraph wId="od1-clan2-stav1">
+																							<intro>
+																								<p>Циљеви Мреже су следећи:</p>
+																							</intro>
+																							<point wId="od1-clan2-stav1-tac1">
+																								<num>1.</num>
+																								<content>
+																									<p> Унапредити сарадњу у области пружања помоћи у ванредним ситуацијама и обезбедити координацију контаката између надлежних органа Страна;</p>
+																								</content>
+																							</point>
+																							<point wId="od1-clan2-stav1-tac2">
+																								<num>2.</num>
+																								<content>
+																									<p> Успоставити мрежу за размену информација између релевантних органа Страна у циљу делотворне сарадње у пружању помоћи у ванредним ситуацијама и хитном реаговању у складу са BSEC Споразумом.</p>
+																								</content>
+																							</point>
+																						</paragraph>
+																					</article>
+																					<article wId="od1-clan3">
+																						<num>3.</num>
+																						<paragraph wId="od1-clan3-stav1">
+																							<intro>
+																								<p>Официри за везу Мреже имају следеће задатке и функције:</p>
+																							</intro>
+																							<point wId="od1-clan3-stav1-tac1">
+																								<num>1.</num>
+																								<content>
+																									<p> Да својим земљама шаљу захтеве које су проследили други официри за везу у року од једног дана за хитне случајеве, а за друге случајеве у року од три дана, у складу са одредбама чл. 4. и 5. BSEC Споразума;</p>
+																								</content>
+																							</point>
+																							<point wId="od1-clan3-stav1-tac2">
+																								<num>2.</num>
+																								<content>
+																									<p> Да Странама шаљу потребне информације, на њихов захтев, у складу са одредбама члана 4. BSEC Споразума;</p>
+																								</content>
+																							</point>
+																							<point wId="od1-clan3-stav1-tac3">
+																								<num>3.</num>
+																								<content>
+																									<p> Да се периодично састају како би разматрали кретања у домену пружања помоћи у ванредним ситуацијама и хитног реаговања у региону у циљу утврђивања нових облика сарадње између релевантних органа држава чланица BSEC-а;</p>
+																								</content>
+																							</point>
+																							<point wId="od1-clan3-stav1-tac4">
+																								<num>4.</num>
+																								<content>
+																									<p> Да релевантним органима подносе извештаје и предлажу начине даљег унапређења сарадње;</p>
+																								</content>
+																							</point>
+																							<point wId="od1-clan3-stav1-tac5">
+																								<num>5.</num>
+																								<content>
+																									<p> Да олакшају размену практичних искустава између релевантних органа Страна у области пружања помоћи у ванредним ситуацијама и хитног реаговања.</p>
+																								</content>
+																							</point>
+																						</paragraph>
+																					</article>
+																					<article wId="od1-clan4">
+																						<num>4.</num>
+																						<paragraph wId="od1-clan4-stav1">
+																							<content>
+																								<p>Мрежа је група за сарадњу у области пружања помоћи у ванредним ситуацијама, која је успостављена у складу са одредбама члана 7. BSEC Споразума.</p>
+																							</content>
+																						</paragraph>
+																					</article>
+																					<article wId="od1-clan5">
+																						<num>5.</num>
+																						<paragraph wId="od1-clan5-stav1">
+																							<content>
+																								<p>Мрежа одржава састанке у просторијама Сталног међународног секретаријата BSEC-а, осим у случају другачије одлуке на иницијативу председавајућег BSEC или на основу одлуке Савета министара спољних послова.</p>
+																							</content>
+																						</paragraph>
+																					</article>
+																					<article wId="od1-clan6">
+																						<num>6.</num>
+																						<point wId="od1-clan6-tac1">
+																							<num>1.</num>
+																							<content>
+																								<p> Мрежа ће радити у складу са Повељом и Правилником BSEC-а, као и одредбама BSEC Споразума.</p>
+																							</content>
+																						</point>
+																						<point wId="od1-clan6-tac2">
+																							<num>2.</num>
+																							<content>
+																								<p> Свака Страна овог допунског протокола именује официра за везу и његовог заменика у Мрежи.</p>
+																							</content>
+																						</point>
+																						<point wId="od1-clan6-tac3">
+																							<num>3.</num>
+																							<content>
+																								<p> После именовања или повлачења официра за везу у Мрежи, Стране обавештавају Стални међународни секретаријат BSEC-а како би обавестио све државе чланице.</p>
+																							</content>
+																						</point>
+																						<point wId="od1-clan6-tac4">
+																							<num>4.</num>
+																							<content>
+																								<p> Мрежа се састаје периодично, најмање једном годишње.</p>
+																							</content>
+																						</point>
+																						<point wId="od1-clan6-tac5">
+																							<num>5.</num>
+																							<content>
+																								<p> Мрежа испуњава своје задатке по овлашћењу Радне групе за сарадњу у пружању помоћи у ванредним ситуацијама којој подноси извештаје.</p>
+																							</content>
+																						</point>
+																					</article>
+																					<article wId="od1-clan7">
+																						<num>7.</num>
+																						<paragraph wId="od1-clan7-stav1">
+																							<content>
+																								<p>Све трошкове официра за везу у вези са спровођењем одредби овог допунског протокола покриће Страна пошиљалац.</p>
+																							</content>
+																						</paragraph>
+																					</article>
+																					<article wId="od1-clan8">
+																						<num>8.</num>
+																						<paragraph wId="od1-clan8-stav1">
+																							<content>
+																								<p>Стране ће одредити националну тачку контакта унутар својих надлежних органа, по могућству које се баве међународном сарадњом.</p>
+																							</content>
+																						</paragraph>
+																					</article>
+																					<article wId="od1-clan9">
+																						<num>9.</num>
+																						<point wId="od1-clan9-tac1">
+																							<num>1.</num>
+																							<content>
+																								<p> Представници држава посматрача у BSEC могу присуствовати раду Мреже, у складу са Повељом и Правилником BSEC-а.</p>
+																							</content>
+																						</point>
+																						<point wId="od1-clan9-tac2">
+																							<num>2.</num>
+																							<content>
+																								<p> Релевантне међународне институције или агенције могу се позивати на састанке Мреже.</p>
+																							</content>
+																						</point>
+																					</article>
+																					<article wId="od1-clan10">
+																						<num>10.</num>
+																						<point wId="od1-clan10-tac1">
+																							<num>1.</num>
+																							<content>
+																								<p> Овај допунски протокол је отворен за потписивање или приступање било које државе чланице BSEC-а.</p>
+																							</content>
+																						</point>
+																						<point wId="od1-clan10-tac2">
+																							<num>2.</num>
+																							<content>
+																								<p> Стални међународни секретаријат BSEC-а је депозитар овог допунског протокола. Оригинал овог допунског протокола у једном примерку на енглеском језику депонује се у Стални међународни секретаријат, који шаље оверену копију свакој Страни.</p>
+																							</content>
+																						</point>
+																						<point wId="od1-clan10-tac3">
+																							<num>3.</num>
+																							<content>
+																								<p> Овај допунски протокол ступа на снагу тридесетог дана након датума депоновања трећег документа ратификације или одобрења у Стални међународни секретаријат BSEC-а.</p>
+																							</content>
+																						</point>
+																						<point wId="od1-clan10-tac4">
+																							<num>4.</num>
+																							<content>
+																								<p> За сваку Страну која ратификује, одобрава или приступа овом допунском протоколу после депоновања трећег документа ратификације, одобрења или приступања, овај допунски протокол ступа на снагу тридесетог дана од дана када та Страна депонује документ ратификације, одобрења или приступања.</p>
+																							</content>
+																						</point>
+																						<point wId="od1-clan10-tac5">
+																							<num>5.</num>
+																							<content>
+																								<p> Било која Страна може иступити из овог допунског протокола путем писменог обавештења Сталном међународном секретаријату BSEC-а. Иступање ступа на снагу у року од три месеца од датума када Стални међународни секретаријат прими обавештење о иступању.</p>
+																							</content>
+																						</point>
+																						<point wId="od1-clan10-tac6">
+																							<num>6.</num>
+																							<content>
+																								<p> Било која Страна може предложити измене и допуне овог допунског протокола. Измене и допуне се прихватају уз сагласност свих Страна и ступају на снагу у складу са ст. 3. и 4. овог члана.</p>
+																							</content>
+																						</point>
+																						<point wId="od1-clan10-tac7">
+																							<num>7.</num>
+																							<content>
+																								<p> Две године након ступања на снагу овог допунског протокола, Стране ће извршити привремени преглед резултата остварених кроз спровођење одредби овог допунског протокола. Коначна оцена ће се дати четири године након његовог ступања на снагу, у циљу постизања договора о неопходним мерама за даље унапређење сарадње.</p>
+																							</content>
+																						</point>
+																						<paragraph wId="od1-clan10-stav1">
+																							<content>
+																								<p>За Владу Републике Албаније</p>
+																							</content>
+																						</paragraph>
+																						<paragraph wId="od1-clan10-stav2">
+																							<content>
+																								<p>За Владу Републике Јерменије</p>
+																							</content>
+																						</paragraph>
+																						<paragraph wId="od1-clan10-stav3">
+																							<content>
+																								<p>За Владу Републике Азербејџан</p>
+																							</content>
+																						</paragraph>
+																						<paragraph wId="od1-clan10-stav4">
+																							<content>
+																								<p>За Владу Републике Бугарске</p>
+																							</content>
+																						</paragraph>
+																						<paragraph wId="od1-clan10-stav5">
+																							<content>
+																								<p>За Владу Грузије</p>
+																							</content>
+																						</paragraph>
+																						<paragraph wId="od1-clan10-stav6">
+																							<content>
+																								<p>За Владу Републике Грчке</p>
+																							</content>
+																						</paragraph>
+																						<paragraph wId="od1-clan10-stav7">
+																							<content>
+																								<p>За Владу Републике Молдавије</p>
+																							</content>
+																						</paragraph>
+																						<paragraph wId="od1-clan10-stav8">
+																							<content>
+																								<p>За Владу Румуније</p>
+																							</content>
+																						</paragraph>
+																						<paragraph wId="od1-clan10-stav9">
+																							<content>
+																								<p>За Владу Руске Федерације</p>
+																							</content>
+																						</paragraph>
+																						<paragraph wId="od1-clan10-stav10">
+																							<content>
+																								<p>За Владу Србије и Црне Горе</p>
+																							</content>
+																						</paragraph>
+																						<paragraph wId="od1-clan10-stav11">
+																							<content>
+																								<p>За Владу Републике Турске</p>
+																							</content>
+																						</paragraph>
+																					</article>
+																					<article wId="od1-clan5">
+																						<num>5.</num>
+																						<heading>За Владу Украјине</heading>
+																						<paragraph wId="od1-clan5-stav1">
+																							<content>
+																								<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије – Међународни уговори”.</p>
+																							</content>
+																						</paragraph>
+																					</article>
+																				</section>
+																			</section>
+																		</section>
+																	</section>
+																</section>
+															</section>
+														</section>
+													</section>
+												</section>
+											</section>
+										</section>
+									</section>
+								</section>
+							</section>
+						</section>
+					</section>
+				</section>
+			</section>
+		</body>
+	</act>
+</akomaNtoso>

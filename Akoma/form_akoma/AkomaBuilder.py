@@ -1,5 +1,5 @@
 try:
-    from Akoma.tokenizer.patterns import is_vrsta_akta
+    from Akoma.tokenizer.patterns import is_vrsta_akta, eng_tags
     from Akoma.tokenizer.TokenType import TokenType
 except ModuleNotFoundError:
     try:
