@@ -37,13 +37,15 @@ further = "(\\.?\\s?,?\\s?)"
 azbuka_pattern = '[а|б|в|г|д|ђ|е|ж|з|и|ј|к|л|љ|м|н|њ|о|п|р|с|т|ћ|у|ф|х|ц|ч|џ|ш]?'
 regexBroj = '[0-9]+'
 regexBrojSlovo = '[0-9]+[а|б|в|г|д|ђ|е|ж|з|и|ј|к|л|љ|м|н|њ|о|п|р|с|т|ћ|у|ф|х|ц|ч|џ|ш]'
-nabrajanje = '(члан.?.?\\s+[0-9]+)' + further + '(став.?\\s+[0-9]+)?' + further + '((тачка|тачке).?\\s+[0-9]+\)?)?'
-nabrajanjeCl = '(чл.\\s+[0-9]+\.?)(((,)|(.?\\s+и))(\\s+[0-9]+\.?))*'
-nabrajanjeClDoCl = '(чл.\\s+[0-9]+\.)(\\s+до\\s+)((чл.\\s+)?[0-9]+(\.|,))'
-nabrajanjeClCrtaClan = '(чл.\\s+[0-9]+' + azbuka_pattern + ')(–|-)((чл.\\s+)?[0-9]+' + azbuka_pattern + ')'
-nabrajanje2 = '(члан.?.?\\s+[0-9]+)?' + further + '(став.?\\s+[0-9]+)?' + further + '((тачка|тачке).?\\s+[0-9]+)?'
-nabrajanje3 = '(став(ом|а)?\\s+[0-9]+\.?)\\s+((тачка|тачке)\.?\\s+([0-9]+)\)?)?'
-nabrajanjeClZakon = '(члан.?\\s+([0-9]+).?)(\\s+)(Закона\\s+-\\s+([0-9]+)\/([0-9]+)-[0-9]+)'
+nabrajanje = '(члан.?.?\\s*[0-9]+' + azbuka_pattern + ')' + further + '(став.?\\s*[0-9]+)?' + further + '((тачка|тачке).?\\s*[0-9]+\)?)?'
+nabrajanjeCl = '(чл.\\s*[0-9]+' + azbuka_pattern + '\.?)(((,)|(.?\\s*и)|(\\s*или\\s*))(\\s*[0-9]+\.?))*'
+nabrajanjeClDoCl = '(чл.\\s*[0-9]+' + azbuka_pattern + '\.)(\\s*до\\s*)((чл.\\s*)?[0-9]+' + azbuka_pattern + '(\.|,))'
+nabrajanjeClCrtaClan = '(чл.\\s*[0-9]+' + azbuka_pattern + ')(–|-)((чл.\\s*)?[0-9]+' + azbuka_pattern + ')'
+nabrajanje2 = '(члан.?.?\\s*[0-9]+' + azbuka_pattern + ')?' + further + '(став.?\\s*[0-9]+)?' + further + '((тачка|тачке).?\\s*[0-9]+)?'
+nabrajanje3 = '(став(ом|а)?\\s*[0-9]+\.?)\\s*((тачка|тачке)\.?\\s*([0-9]+)\)?)?'
+nabrajanjeClZakon = '(члан.?\\s*([0-9]+' + azbuka_pattern + ').?)(\\s*)(Закона\\s*-\\s*([0-9]+)\/([0-9]+)-[0-9]+)'
+nabrajanjeStavUzastopno = '(чл.?.?.?.?\.?\\s*[0-9]+.?\\s*)?(ст.\\s*[0-9]+\.?)((\\s*до\\s*)|(\\s*–\\s*|\\s*-\\s*))((ст.\\s*)?[0-9]+(\.|,)?)'
+nabrajanjeStav = '(чл.?.?.?.?\.?\\s*[0-9]+.?\\s*)?(ст.\\s*[0-9]+\.?)(((,)|(.?\\s*и)|(\\s*или\\s*))(\\s*[0-9]+\.?))*'
 
 
 def make_reference(cnt, this_id, start, end, ending, stringo, longer):
@@ -96,7 +98,7 @@ def get_reference_for_clan_nabrajanje(m, stringo):
         if m1:
             retval += "art_" + m1.group(0) + "->"
     if m.group(3):
-        m2 = re.search("([0-9]+)" + azbuka_pattern, m.group(3))
+        m2 = re.search("([0-9]+" + azbuka_pattern + ")", m.group(3))
         if m2:
             retval += "art_" + m2.group(0) + "_"
     return retval[:-1]
@@ -105,15 +107,15 @@ def get_reference_for_clan_nabrajanje(m, stringo):
 def get_reference_for_clan_stav_tacka(m):
     retval = ""
     if m.group(1):
-        m1 = re.search("([0-9]+)", m.group(1))
+        m1 = re.search("([0-9]+" + azbuka_pattern + ")", m.group(1))
         if m1:
             retval += "art_" + m1.group(0) + "_"
     if m.group(3):
-        m2 = re.search("([0-9]+)", m.group(3))
+        m2 = re.search("([0-9]+" + azbuka_pattern + ")", m.group(3))
         if m2:
             retval += "_para_" + m2.group(0) + "_"
     if m.group(5):
-        m3 = re.search("([0-9]+)", m.group(5))
+        m3 = re.search("([0-9]+" + azbuka_pattern + ")", m.group(5))
         if m3:
             retval += "_point_" + m3.group(0) + "_"
     return retval
@@ -122,11 +124,11 @@ def get_reference_for_clan_stav_tacka(m):
 def get_ending2(m, clan_id):
     retval = ""
     if m.group(1):
-        m2 = re.search("([0-9]+)", m.group(1))
+        m2 = re.search("([0-9]+" + azbuka_pattern + ")", m.group(1))
         if m2:
             retval += "para_" + m2.group(0) + "_"
     if m.group(3):
-        m3 = re.search("([0-9]+)", m.group(3))
+        m3 = re.search("([0-9]+" + azbuka_pattern + ")", m.group(3))
         if m3:
             retval += "_point_" + m3.group(0) + "_"
     # print(retval[:-1])
@@ -137,24 +139,33 @@ def get_ending2(m, clan_id):
     return retval[:-1]
 
 
-def get_ending_clan_nabrajanje(stringo, m, cnt=0, this_id="", longer=0):
+def get_ending_clan_nabrajanje(stringo, m, cnt=0, this_id="", longer=0, stav = False):
     stringStart = m.regs[0][0] + longer
     stringEnd = m.regs[0][1] + longer
     stringToScan = stringo[stringStart:stringEnd]
     matches = re.findall(regexBrojSlovo, stringToScan)
     if len(matches) != 0:
-        retval = "art_" + str(matches[0]) + "->art_" + str(matches[len(matches) - 1])
+        if not stav:
+            retval = "art_" + str(matches[0]) + "->art_" + str(matches[len(matches) - 1])
+        else:
+            retval = "art_" + "" + "__para_" + str(matches[0]) + "->para_" + str(matches[len(matches) - 1])
     else:
         matches = re.findall(regexBroj, stringToScan)
         if len(matches) == 1:
-            retval = "art_" + str(matches[0])
+            if not stav:
+                retval = "art_" + str(matches[0])
+            else:
+                retval = "art_" + "" + "__para_" + str(matches[0])
         else:
             matches = [int(i) for i in matches]
             matches.sort()
             edges = ranges(matches)
 
             if len(edges) == 1:
-                retval = "art_" + str(matches[0]) + "->art_" + str(matches[len(matches) - 1])
+                if not stav:
+                    retval = "art_" + str(matches[0]) + "->art_" + str(matches[len(matches) - 1])
+                else:
+                    retval = "art_" + "" + "__para_" + str(matches[0]) + "->para_" + str(matches[len(matches) - 1])
             else:
                 range_list_for = find_range_list(stringToScan, edges)
                 index = 0
@@ -163,14 +174,20 @@ def get_ending_clan_nabrajanje(stringo, m, cnt=0, this_id="", longer=0):
                         start = range_list_for[index][0][0] + stringStart
                         difference = range_list_for[index][1][1] - range_list_for[index][0][0]
                         end = difference + start
-                        ending = "art_" + str(edge[0])
+                        if not stav:
+                            ending = "art_" + str(edge[0])
+                        else:
+                            ending = "art_" + "" + "__para_" + str(edge[0])
                         stringo, longer, cnt = make_reference(cnt, this_id, start, end, ending, stringo, longer)
                         index = index + 1
                     else:
                         start = range_list_for[index][0][0] + stringStart
                         difference = range_list_for[index][1][1] - range_list_for[index][0][0]
                         end = difference + start
-                        ending = "art_" + str(edge[0]) + "->art_" + str(edge[1])
+                        if not stav:
+                            ending = "art_" + str(edge[0]) + "->art_" + str(edge[1])
+                        else:
+                            ending = "art_" + "" + "__para_" + str(edge[0]) + "->para_" + str(edge[1])
                         stringo, longer, cnt = make_reference(cnt, this_id, start, end, ending, stringo,
                                                               longer)
                         index = index + 1
@@ -185,7 +202,7 @@ def get_ending(m):
 
 def add_refs1(stringo, cnt, this_id):
     longer = 0
-    for m in re.finditer(nabrajanje + '\\s+(овог)?', stringo):
+    for m in re.finditer(nabrajanje + '\\s*(овог)?', stringo):
         if not re.search(nabrajanjeClZakon, stringo[m.regs[0][0] + longer: m.regs[0][1] + longer + 20]):
             ending = get_ending(m)
             stringo, longer, cnt = make_reference(cnt, this_id, m.start(), m.end(), ending, stringo, longer)
@@ -254,7 +271,7 @@ def add_refs(stablo, stringo, this_id):
 
     for el_clan in listaClanova:  # Primer pristupa svakom članu
         clan_id = el_clan.attrib['wId']
-        if(clan_id == "gla2-clan23"):
+        if(clan_id == "gla12-clan200"):
             print("")
         for el_stav in el_clan.iter('paragraph'):
             if el_stav.attrib['wId'] not in listaObradjenihParagrafa:
