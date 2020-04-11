@@ -56,7 +56,7 @@ def listToString(list_data):
 
 
 def get_tf_idf_values_document(folder_path, filenames=None, return_just_words=True, threshold=0.09, max_elements=0,
-                               with_file_names=True, debug=False):
+                               with_file_names=True, latin=True, debug=False):
     """
     Returns most used words in document by TF-IDF, uses RAW Legal documents (without HTML)
     :param folder_path: folder path to files which should be processed
@@ -65,6 +65,7 @@ def get_tf_idf_values_document(folder_path, filenames=None, return_just_words=Tr
     :param threshold:  threshold for probability to be added in return value
     :param max_elements:  Set return to max elements, ex. want just top 5 most relevant, then set max_elements to 5
     :param with_file_names:  Add filename in list of returned values next to most important words
+    :param latin: If cyrilic set to true
     :param debug:  Prints values
     :return: Returns most used words in document, Type LIST, Depending on return_just_words, threshold and max_elements
     """
@@ -76,11 +77,15 @@ def get_tf_idf_values_document(folder_path, filenames=None, return_just_words=Tr
         file_names = [filenames]
 
     results = []
+    tag_clan = "Član"
+    if not latin:
+        tag_clan = "Члан"
+
     for filename in file_names:
         list_clan_for_file = []
         print("Start " + str(filename))
         # break_word = break_word + 1
-        check = path.join(folder_path, filename)
+        check = folder_path + "/" + filename  # path.join(folder_path, filename)
         try:
             file = open(check, encoding="utf8")
         except FileNotFoundError:
@@ -89,15 +94,15 @@ def get_tf_idf_values_document(folder_path, filenames=None, return_just_words=Tr
         all_lines = "".join(file.readlines())
         act_array = []
 
-        if all_lines.find("<p>") != -1:
-            all_lines = remove_html.strip_html(all_lines, True)
+        if all_lines.find("<p") != -1:
+            all_lines = remove_html.preprocessing_text(all_lines, True)
 
-        if re.search("Član [0-9]*\.", all_lines) is None:  # Check if cyrilic then to latin
+        if re.search(tag_clan + " [0-9]*\.", all_lines) is None:  # Check if cyrilic then to latin
             all_lines = Convert.convert_string(all_lines)
 
-        list_to_str = all_lines + "Član 0."
+        list_to_str = all_lines + tag_clan + " 0."
 
-        found = re.finditer("Član [0-9]*\.", list_to_str)
+        found = re.finditer(tag_clan + " [0-9]*\.", list_to_str)
         start_from = 0
         ends_to = 0
         for m in found:
@@ -155,9 +160,9 @@ def get_tf_idf_values_document(folder_path, filenames=None, return_just_words=Tr
 if __name__ == '__main__':
     # filenames , folderPath = get_file_names("data", "aktovi_raw_lat")
     filenames = ["1.html", "2.html"]
-    path_folder = utilities.get_root_dir() + "\\data\\racts"
+    path_folder = utilities.get_root_dir() + "\\data\\acts"
     tf_idf_values = get_tf_idf_values_document(path_folder, filenames=filenames, return_just_words=False,
-                                               with_file_names=False)
+                                               with_file_names=False, latin=False)
     print(tf_idf_values)
     for el in tf_idf_values:
         print([item[0] for item in el])  # FILES if return file names also

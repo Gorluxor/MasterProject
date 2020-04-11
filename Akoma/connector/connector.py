@@ -2,7 +2,7 @@ import subprocess
 from os import path
 
 debug = False
-path_base = path.dirname(__file__)
+path_base = path.dirname(__file__).replace("\\","/")
 
 
 def tokenize(string_data):  # Only to tokenize data

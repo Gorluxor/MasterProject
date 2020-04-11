@@ -2,11 +2,13 @@ import xml.etree.ElementTree as ET
 import io
 
 try:
+    from Akoma.utilities import utilities
     from Akoma.form_akoma.Metadata import Metadata
     from Akoma.preprocessing import init_akoma
     from Akoma.tfidf.tfidf import get_tf_idf_values_document
 except ModuleNotFoundError:
     try:
+        from utilities import utilities
         from form_akoma.Metadata import Metadata
         from preprocessing import init_akoma
         from tfidf.tfidf import get_tf_idf_values_document
@@ -29,6 +31,21 @@ def fix_date(before):
             a[i] = "0" + a[i]
     after = "-".join(a)
     return after
+
+
+def add_new_meta(meta: Metadata):
+    """
+    If file to added meta
+    Назив прописа  # ELI#Напомена издавача#Додатне информације#Врста прописа#Доносилац#Област#Група#Датум усвајања#Гласило и датум објављивања#Датум ступања на снагу основног текста#Датум примене#Правни претходник#Издавач#filename
+    :param meta:
+    :return:
+    """
+    file_meta = open(utilities.get_root_dir() + "/data/meta/allmeta.csv", mode="a")
+    deli = "#"
+    new_line = meta.act_name + deli + meta.eli + deli + meta.napomena_izdavaca + deli + meta.dodatne_informacije + deli + meta.vrsta_propisa + deli + meta.donosilac + deli + meta.oblast + deli + meta.grupa + deli + meta.datum_usvajanja + deli + meta.glasilo_i_datum + deli + meta.datum_stupanja + deli + meta.pravni_prethodnik + deli + meta.izdavac + deli + meta.filename
+    file_meta.write()
+
+    pass
 
 
 class MetadataBuilder():
@@ -135,11 +152,12 @@ class MetadataBuilder():
         cnt_concept = 0
         conceptIri = "http://purl.org/vocab/frbr/core#Concept"
         base = ET.Element("references", {"source": SOURCE})
-        # list_of_concept = get_tf_idf_values_document("data/acts", filenames = filename)
-        # for concept in list_of_concept:
-        #     concept_ref = ET.Element("TLCConcept", {"eId": "cocnept" + cnt_concept, "href": conceptIri, "showAs": concept})
-        #     base.append(concept_ref)
-        #     cnt_concept = cnt_concept + 1
+        list_of_concept = get_tf_idf_values_document("data/acts", filenames = filename, latin=False, with_file_names=False)
+        if len(list_of_concept) > 0:
+            for concept in list_of_concept[0]:
+                concept_ref = ET.Element("TLCConcept", {"eId": "cocnept" + str(cnt_concept), "href": conceptIri, "showAs": concept})
+                base.append(concept_ref)
+                cnt_concept = cnt_concept + 1
         return base
 
     def notes(self, notes1, notes2):
