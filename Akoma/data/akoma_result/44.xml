@@ -38,35 +38,6 @@
 			</workflow>
 			<references source="#somebody">
 				<TLCConcept href="#" showAs="Temp"/>
-				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="спречавање"/>
-				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="јемство"/>
-				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="дискриминацији"/>
-				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="изложених"/>
-				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="уставно"/>
-				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="предузимање"/>
-				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="правне"/>
-				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="роду"/>
-				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="засноване"/>
-				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="стварање"/>
-				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="поштовање"/>
-				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="стандарда"/>
-				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="међународних"/>
-				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="посебних"/>
-				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="обавеза"/>
-				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="отклањање"/>
-				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>
-				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="поступак"/>
-				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="остваривања"/>
-				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="мера"/>
-				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="једнаких"/>
-				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређује"/>
-				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="лица"/>
-				<TLCConcept eId="cocnept23" href="http://purl.org/vocab/frbr/core#Concept" showAs="могућности"/>
-				<TLCConcept eId="cocnept24" href="http://purl.org/vocab/frbr/core#Concept" showAs="полу"/>
-				<TLCConcept eId="cocnept25" href="http://purl.org/vocab/frbr/core#Concept" showAs="заштите"/>
-				<TLCConcept eId="cocnept26" href="http://purl.org/vocab/frbr/core#Concept" showAs="права"/>
-				<TLCConcept eId="cocnept27" href="http://purl.org/vocab/frbr/core#Concept" showAs="дискриминације"/>
-				<TLCConcept eId="cocnept28" href="http://purl.org/vocab/frbr/core#Concept" showAs="законом"/>
 			</references>
 			<notes source="#somebody">
 				<note wId="not1">
@@ -339,17 +310,17 @@
 					</paragraph>
 					<paragraph wId="gla2-clan13-stav2">
 						<content>
-							<p>Послодавац је дужан да сачини годишњи извештај о спровођењу плана мера из &lt;ref wId=&quot;ref0&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~act_13__para_1&quot; &gt;става 1. овог&lt;/ref&gt; члана најкасније до 31. јануара текуће године за претходну годину.</p>
+							<p>Послодавац је дужан да сачини годишњи извештај о спровођењу плана мера из &lt;ref wId=&quot;ref0&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~art_13__para_1&quot; &gt;става 1. овог&lt;/ref&gt; члана најкасније до 31. јануара текуће године за претходну годину.</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla2-clan13-stav3">
 						<content>
-							<p>План мера и извештај из ст. 1. и 2. овог члана послодавац је дужан да достави министарству надлежном за послове равноправности полова.</p>
+							<p>План мера и извештај из &lt;ref wId=&quot;ref1&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~art_13__para_1-&gt;para_2&quot; &gt;ст. 1. и 2. овог&lt;/ref&gt; члана послодавац је дужан да достави министарству надлежном за послове равноправности полова.</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla2-clan13-stav4">
 						<content>
-							<p>Садржај и начин достављања плана мера и извештаја из ст. 1. и 2. овог члана прописује министар надлежан за послове равноправности полова.</p>
+							<p>Садржај и начин достављања плана мера и извештаја из &lt;ref wId=&quot;ref2&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~art_13__para_1-&gt;para_2&quot; &gt;ст. 1. и 2. овог&lt;/ref&gt; члана прописује министар надлежан за послове равноправности полова.</p>
 						</content>
 					</paragraph>
 				</article>
@@ -418,7 +389,7 @@
 					<heading>Стручно усавршавање и обука</heading>
 					<paragraph wId="gla2-clan19-stav1">
 						<content>
-							<p>У сваком циклусу стручног усавршавања или обуке послодавац води рачуна о томе да заступљеност полова одсликава у највећој могућој мери структуру запослених код послодавца, или у организационој јединици за коју се врши обука и о томе извештава у годишњем извештају из &lt;ref wId=&quot;ref1&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~art_13__para_2&quot; &gt;члана 13. став 2. овог&lt;/ref&gt; закона.</p>
+							<p>У сваком циклусу стручног усавршавања или обуке послодавац води рачуна о томе да заступљеност полова одсликава у највећој могућој мери структуру запослених код послодавца, или у организационој јединици за коју се врши обука и о томе извештава у годишњем извештају из &lt;ref wId=&quot;ref3&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~art_13__para_2&quot; &gt;члана 13. став 2. овог&lt;/ref&gt; закона.</p>
 						</content>
 					</paragraph>
 				</article>
@@ -450,7 +421,7 @@
 					</paragraph>
 					<paragraph wId="gla2-clan22-stav2">
 						<content>
-							<p>Подстицање запошљавања и самозапошљавања мање заступљеног пола није у супротности са начелом из &lt;ref wId=&quot;ref2&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~act_22__para_1&quot; &gt;става 1. овог&lt;/ref&gt; члана.</p>
+							<p>Подстицање запошљавања и самозапошљавања мање заступљеног пола није у супротности са начелом из &lt;ref wId=&quot;ref4&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~art_22__para_1&quot; &gt;става 1. овог&lt;/ref&gt; члана.</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla2-clan22-stav3">
@@ -711,7 +682,7 @@
 					</paragraph>
 					<paragraph wId="gla4-clan33-stav3">
 						<content>
-							<p>Органи јавне власти надлежни за образовање утврђују посебне програме за враћање ученика из &lt;ref wId=&quot;ref3&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~act_33__para_1&quot; &gt;става 1. овог&lt;/ref&gt; члана у школе и друге образовне установе.</p>
+							<p>Органи јавне власти надлежни за образовање утврђују посебне програме за враћање ученика из &lt;ref wId=&quot;ref5&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~art_33__para_1&quot; &gt;става 1. овог&lt;/ref&gt; члана у школе и друге образовне установе.</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla4-clan33-stav4">
@@ -768,7 +739,7 @@
 					</paragraph>
 					<paragraph wId="gla5-clan35-stav5">
 						<content>
-							<p>Политичке странке, синдикати и струковна удружења дужни су да обавезе из ст. 2, 3. и 4. овог члана први пут испуне до 1. децембра 2010. године од када тече рок из ст. 2. и 3. овог члана.</p>
+							<p>Политичке странке, синдикати и струковна удружења дужни су да обавезе из &lt;ref wId=&quot;ref6&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~art_35__para_2-&gt;para_4&quot; &gt;ст. 2, 3. и 4. овог&lt;/ref&gt; члана први пут испуне до 1. децембра 2010. године од када тече рок из &lt;ref wId=&quot;ref7&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~art_35__para_2-&gt;para_3&quot; &gt;ст. 2. и 3. овог&lt;/ref&gt; члана.</p>
 						</content>
 					</paragraph>
 				</article>
@@ -815,7 +786,7 @@
 					</paragraph>
 					<paragraph wId="gla5-clan38-stav3">
 						<content>
-							<p>Одредбе &lt;ref wId=&quot;ref4&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~act_38__para_2&quot; &gt;става 2. овог&lt;/ref&gt; члана примењују се и на међународну сарадњу коју остварују аутономне покрајине и јединице локалне самоуправе у складу са Уставом и законима прописаних надлежности.</p>
+							<p>Одредбе &lt;ref wId=&quot;ref8&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~art_38__para_2&quot; &gt;става 2. овог&lt;/ref&gt; члана примењују се и на међународну сарадњу коју остварују аутономне покрајине и јединице локалне самоуправе у складу са Уставом и законима прописаних надлежности.</p>
 						</content>
 					</paragraph>
 				</article>
@@ -853,7 +824,7 @@
 					</paragraph>
 					<paragraph wId="gla5-clan40-stav2">
 						<content>
-							<p>Статистички подаци из &lt;ref wId=&quot;ref5&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~act_40__para_1&quot; &gt;става 1. овог&lt;/ref&gt; члана саставни су део статистичког информационог система Републике Србије и доступни су јавности, у складу са законом.</p>
+							<p>Статистички подаци из &lt;ref wId=&quot;ref9&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~art_40__para_1&quot; &gt;става 1. овог&lt;/ref&gt; члана саставни су део статистичког информационог система Републике Србије и доступни су јавности, у складу са законом.</p>
 						</content>
 					</paragraph>
 				</article>
@@ -867,7 +838,7 @@
 					</paragraph>
 					<paragraph wId="gla5-clan41-stav2">
 						<content>
-							<p>Одредбе &lt;ref wId=&quot;ref6&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~act_41__para_1&quot; &gt;става 1. овог&lt;/ref&gt; члана односе се и на све видове реклама и пропагандног материјала.</p>
+							<p>Одредбе &lt;ref wId=&quot;ref10&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~art_41__para_1&quot; &gt;става 1. овог&lt;/ref&gt; члана односе се и на све видове реклама и пропагандног материјала.</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla5-clan41-stav3">
@@ -886,12 +857,12 @@
 					</paragraph>
 					<paragraph wId="gla5-clan42-stav2">
 						<content>
-							<p>Удружења из &lt;ref wId=&quot;ref7&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~act_42__para_1&quot; &gt;става 1. овог&lt;/ref&gt; члана активно учествују у остваривању равноправности полова, предлагању посебних мера и стварању услова за постизање равноправности полова, као и приликом састављања извештаја о остваривању равноправности полова.</p>
+							<p>Удружења из &lt;ref wId=&quot;ref11&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~art_42__para_1&quot; &gt;става 1. овог&lt;/ref&gt; члана активно учествују у остваривању равноправности полова, предлагању посебних мера и стварању услова за постизање равноправности полова, као и приликом састављања извештаја о остваривању равноправности полова.</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla5-clan42-stav3">
 						<content>
-							<p>Удружења из &lt;ref wId=&quot;ref8&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~act_42__para_1&quot; &gt;става 1. овог&lt;/ref&gt; члана имају своје представнике у радном телу Владе надлежном за равноправност полова, које образује и чије чланове именује Влада.</p>
+							<p>Удружења из &lt;ref wId=&quot;ref12&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~art_42__para_1&quot; &gt;става 1. овог&lt;/ref&gt; члана имају своје представнике у радном телу Владе надлежном за равноправност полова, које образује и чије чланове именује Влада.</p>
 						</content>
 					</paragraph>
 				</article>
@@ -945,17 +916,17 @@
 					</paragraph>
 					<paragraph wId="gla6-clan43-stav2">
 						<content>
-							<p>Поступак из &lt;ref wId=&quot;ref9&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~act_43__para_1&quot; &gt;става 1. овог&lt;/ref&gt; члана могу покренути, уз сагласност дискриминисаног лица, у његово име, синдикат или удружења чији су циљеви везани за унапређење равноправности полова. Ови субјекти могу се придружити тужиоцу у својству умешача.</p>
+							<p>Поступак из &lt;ref wId=&quot;ref13&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~art_43__para_1&quot; &gt;става 1. овог&lt;/ref&gt; члана могу покренути, уз сагласност дискриминисаног лица, у његово име, синдикат или удружења чији су циљеви везани за унапређење равноправности полова. Ови субјекти могу се придружити тужиоцу у својству умешача.</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla6-clan43-stav3">
 						<content>
-							<p>У случају дискриминације којом су повређена права већег броја лица, субјекти из &lt;ref wId=&quot;ref10&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~act_43__para_2&quot; &gt;става 2. овог&lt;/ref&gt; члана могу покренути поступак у своје име. Лице чије је право повређено може се придружити тужиоцу у својству умешача.</p>
+							<p>У случају дискриминације којом су повређена права већег броја лица, субјекти из &lt;ref wId=&quot;ref14&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~art_43__para_2&quot; &gt;става 2. овог&lt;/ref&gt; члана могу покренути поступак у своје име. Лице чије је право повређено може се придружити тужиоцу у својству умешача.</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla6-clan43-stav4">
 						<content>
-							<p>После ступања у поступак, односно после покретања поступка, субјекти из &lt;ref wId=&quot;ref11&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~act_43__para_2&quot; &gt;става 2. овог&lt;/ref&gt; члана могу преко средстава јавног информисања или на други погодан начин обавестити друга оштећена лица, синдикате и удружења о покренутој парници и позвати их да се, као умешачи или као супарничари, придруже тужиоцу.</p>
+							<p>После ступања у поступак, односно после покретања поступка, субјекти из &lt;ref wId=&quot;ref15&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~art_43__para_2&quot; &gt;става 2. овог&lt;/ref&gt; члана могу преко средстава јавног информисања или на други погодан начин обавестити друга оштећена лица, синдикате и удружења о покренутој парници и позвати их да се, као умешачи или као супарничари, придруже тужиоцу.</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla6-clan43-stav5">
@@ -992,7 +963,7 @@
 					</paragraph>
 					<paragraph wId="gla6-clan46-stav2">
 						<content>
-							<p>Осим суда опште месне надлежности, за одлучивање у парницама из &lt;ref wId=&quot;ref12&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~act_46__para_1&quot; &gt;става 1. овог&lt;/ref&gt; члана надлежан је и суд на чијем подручју тужилац има пребивалиште, односно боравиште.</p>
+							<p>Осим суда опште месне надлежности, за одлучивање у парницама из &lt;ref wId=&quot;ref16&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~art_46__para_1&quot; &gt;става 1. овог&lt;/ref&gt; члана надлежан је и суд на чијем подручју тужилац има пребивалиште, односно боравиште.</p>
 						</content>
 					</paragraph>
 				</article>
@@ -1063,7 +1034,7 @@
 					</paragraph>
 					<paragraph wId="gla6-clan50-stav3">
 						<content>
-							<p>Под условима из ст. 1. и 2. овог члана суд може по службеној дужности одредити привремену меру.</p>
+							<p>Под условима из &lt;ref wId=&quot;ref17&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~art_50__para_1-&gt;para_2&quot; &gt;ст. 1. и 2. овог&lt;/ref&gt; члана суд може по службеној дужности одредити привремену меру.</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla6-clan50-stav4">
@@ -1124,12 +1095,12 @@
 					<heading>Казнене одредбе</heading>
 					<paragraph wId="gla7-clan53-stav1">
 						<content>
-							<p>Новчаном казном од 10.000 до 100.000 динара казниће се за прекршај установа ако изврши дискриминацију засновану на полу у вези са: условима за пријем и за одбијање пријема у установу; условима и могућностима приступа сталном образовању, укључујући све програме за образовање одраслих и програме функционалног описмењавања; условима за искључење из процеса образовања, научног рада и стручног усавршавања; начином пружања услуга и давања погодности и обавештења; оценом знања и вредновањем постигнутих резултата; условима за стицање стипендија и других врста помоћи за школовање и студије; условима за избор или стицање звања, професионалног усмеравања, стручног усавршавања и стицања диплома; условима за напредовање; доквалификацију или преквалификацију (&lt;ref wId=&quot;ref13&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~art_30__para_1&quot; &gt;члан 30. став 1. &lt;/ref&gt;тач. 1–8).</p>
+							<p>Новчаном казном од 10.000 до 100.000 динара казниће се за прекршај установа ако изврши дискриминацију засновану на полу у вези са: условима за пријем и за одбијање пријема у установу; условима и могућностима приступа сталном образовању, укључујући све програме за образовање одраслих и програме функционалног описмењавања; условима за искључење из процеса образовања, научног рада и стручног усавршавања; начином пружања услуга и давања погодности и обавештења; оценом знања и вредновањем постигнутих резултата; условима за стицање стипендија и других врста помоћи за школовање и студије; условима за избор или стицање звања, професионалног усмеравања, стручног усавршавања и стицања диплома; условима за напредовање; доквалификацију или преквалификацију (&lt;ref wId=&quot;ref18&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~art_30__para_1&quot; &gt;члан 30. став 1. &lt;/ref&gt;тач. 1–8).</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla7-clan53-stav2">
 						<content>
-							<p>Новчаном казном од 5.000 до 15.000 динара казниће се за прекршај из &lt;ref wId=&quot;ref14&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~act_53__para_1&quot; &gt;става 1. овог&lt;/ref&gt; члана одговорно лице у установи.</p>
+							<p>Новчаном казном од 5.000 до 15.000 динара казниће се за прекршај из &lt;ref wId=&quot;ref19&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~art_53__para_1&quot; &gt;става 1. овог&lt;/ref&gt; члана одговорно лице у установи.</p>
 						</content>
 					</paragraph>
 				</article>
@@ -1142,13 +1113,13 @@
 						<point wId="gla7-clan54-stav1-tac1">
 							<num>1)</num>
 							<content>
-								<p> не изради план мера за обезбеђење равномерне заступљености полова из &lt;ref wId=&quot;ref15&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~art_13&quot; &gt;члана 13. &lt;/ref&gt;став 1;</p>
+								<p> не изради план мера за обезбеђење равномерне заступљености полова из &lt;ref wId=&quot;ref20&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~art_13__para_1&quot; &gt;члана 13. став 1&lt;/ref&gt;;</p>
 							</content>
 						</point>
 						<point wId="gla7-clan54-stav1-tac2">
 							<num>2)</num>
 							<content>
-								<p> не сачини годишњи извештај о спровођењу плана мера из &lt;ref wId=&quot;ref16&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~art_13&quot; &gt;члана 13. &lt;/ref&gt;става 2;</p>
+								<p> не сачини годишњи извештај о спровођењу плана мера из &lt;ref wId=&quot;ref21&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~art_13__para_2&quot; &gt;члана 13. става 2&lt;/ref&gt;;</p>
 							</content>
 						</point>
 						<point wId="gla7-clan54-stav1-tac3">
@@ -1160,48 +1131,48 @@
 						<point wId="gla7-clan54-stav1-tac4">
 							<num>4)</num>
 							<content>
-								<p> приликом јавног оглашавања послова, услова за њихово обављање и одлучивања о избору лица ради заснивања радног односа или другог вида радног ангажовања, направи разлику по полу (члан 15);</p>
+								<p> приликом јавног оглашавања послова, услова за њихово обављање и одлучивања о избору лица ради заснивања радног односа или другог вида радног ангажовања, направи разлику по полу (&lt;ref wId=&quot;ref22&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~art_15&quot; &gt;члан 15&lt;/ref&gt;);</p>
 							</content>
 						</point>
 						<point wId="gla7-clan54-stav1-tac5">
 							<num>5)</num>
 							<content>
-								<p> приликом распоређивања на посао повреди одредбе о равноправности полова (члан 16);</p>
+								<p> приликом распоређивања на посао повреди одредбе о равноправности полова (&lt;ref wId=&quot;ref23&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~art_16&quot; &gt;члан 16&lt;/ref&gt;);</p>
 							</content>
 						</point>
 						<point wId="gla7-clan54-stav1-tac6">
 							<num>6)</num>
 							<content>
-								<p> повреди одредбе о једнаком плаћању истог рада жена и мушкараца (члан 17);</p>
+								<p> повреди одредбе о једнаком плаћању истог рада жена и мушкараца (&lt;ref wId=&quot;ref24&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~art_17&quot; &gt;члан 17&lt;/ref&gt;);</p>
 							</content>
 						</point>
 						<point wId="gla7-clan54-stav1-tac7">
 							<num>7)</num>
 							<content>
-								<p> не предузме мере да заштити запослено лице од узнемиравања, сексуалног узнемиравања или сексуалног уцењивања (&lt;ref wId=&quot;ref17&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~art_18&quot; &gt;члан 18. &lt;/ref&gt;став 1);</p>
+								<p> не предузме мере да заштити запослено лице од узнемиравања, сексуалног узнемиравања или сексуалног уцењивања (&lt;ref wId=&quot;ref25&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~art_18__para_1&quot; &gt;члан 18. став 1&lt;/ref&gt;);</p>
 							</content>
 						</point>
 						<point wId="gla7-clan54-stav1-tac8">
 							<num>8)</num>
 							<content>
-								<p> не поштује одредбе о равноправној заступљености полова приликом организовања стручног усавршавања или обуке (члан 19);</p>
+								<p> не поштује одредбе о равноправној заступљености полова приликом организовања стручног усавршавања или обуке (&lt;ref wId=&quot;ref26&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~art_19&quot; &gt;члан 19&lt;/ref&gt;);</p>
 							</content>
 						</point>
 						<point wId="gla7-clan54-stav1-tac9">
 							<num>9)</num>
 							<content>
-								<p> запосленом лицу откаже радни однос или уговор о раду супротно одредбама овог закона (члан 20).</p>
+								<p> запосленом лицу откаже радни однос или уговор о раду супротно одредбама овог закона (&lt;ref wId=&quot;ref27&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~art_20&quot; &gt;члан 20&lt;/ref&gt;).</p>
 							</content>
 						</point>
 					</paragraph>
 					<paragraph wId="gla7-clan54-stav2">
 						<content>
-							<p>Новчаном казном од 5.000 до 25.000 динара за прекршај из &lt;ref wId=&quot;ref18&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~act_54__para_1&quot; &gt;става 1. овог&lt;/ref&gt; члана казниће се предузетник.</p>
+							<p>Новчаном казном од 5.000 до 25.000 динара за прекршај из &lt;ref wId=&quot;ref28&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~art_54__para_1&quot; &gt;става 1. овог&lt;/ref&gt; члана казниће се предузетник.</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla7-clan54-stav3">
 						<content>
-							<p>Новчаном казном од 5.000 до 25.000 динара казниће се за прекршај из &lt;ref wId=&quot;ref19&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~act_54__para_1&quot; &gt;става 1. овог&lt;/ref&gt; члана одговорно лице код послодавца.</p>
+							<p>Новчаном казном од 5.000 до 25.000 динара казниће се за прекршај из &lt;ref wId=&quot;ref29&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~art_54__para_1&quot; &gt;става 1. овог&lt;/ref&gt; члана одговорно лице код послодавца.</p>
 						</content>
 					</paragraph>
 				</article>
@@ -1209,7 +1180,7 @@
 					<num>55.</num>
 					<paragraph wId="gla7-clan55-stav1">
 						<content>
-							<p>Новчаном казном од 5.000 до 25.000 динара казниће се за прекршај одговорно лице у средству јавног информисања ако се информацијом објављеном у том средству вређа достојанство лица с обзиром на припадност одређеном полу, повређује равноправност лица према полној припадности или подстиче такво повређивање (члан 41).</p>
+							<p>Новчаном казном од 5.000 до 25.000 динара казниће се за прекршај одговорно лице у средству јавног информисања ако се информацијом објављеном у том средству вређа достојанство лица с обзиром на припадност одређеном полу, повређује равноправност лица према полној припадности или подстиче такво повређивање (&lt;ref wId=&quot;ref30&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~art_41&quot; &gt;члан 41&lt;/ref&gt;).</p>
 						</content>
 					</paragraph>
 				</article>
@@ -1229,7 +1200,7 @@
 					<num>57.</num>
 					<paragraph wId="gla8-clan57-stav1">
 						<content>
-							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, а одредбе &lt;ref wId=&quot;ref20&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~art_12__para_2&quot; &gt;члана 12. став 2, &lt;/ref&gt;чл. &lt;ref wId=&quot;ref21&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~art_13&quot; &gt;13&lt;/ref&gt;, &lt;ref wId=&quot;ref22&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~art_40&quot; &gt;40&lt;/ref&gt;. и &lt;ref wId=&quot;ref23&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~art_51&quot; &gt;51&lt;/ref&gt;. примењиваће се након истека рока од годину дана од дана ступања на снагу овог закона.</p>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, а одредбе &lt;ref wId=&quot;ref31&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~art_12__para_2&quot; &gt;члана 12. став 2, &lt;/ref&gt;чл. &lt;ref wId=&quot;ref32&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~art_13&quot; &gt;13&lt;/ref&gt;, &lt;ref wId=&quot;ref33&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~art_40&quot; &gt;40&lt;/ref&gt;. и &lt;ref wId=&quot;ref34&quot; href=&quot;akn/rs/act/2009/104-61/srp@/!main~art_51&quot; &gt;51&lt;/ref&gt;. примењиваће се након истека рока од годину дана од дана ступања на снагу овог закона.</p>
 						</content>
 					</paragraph>
 				</article>
