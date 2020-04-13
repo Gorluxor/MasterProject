@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
-	<act name="Закон о равноправности полова">
+	<act name="Закон „Службени гласник РС“">
 		<meta>
 			<identification source="#somebody">
 				<FRBRWork>
@@ -76,8 +76,9 @@
 		</meta>
 		<preface>
 			<longTitle>
-				<p>Закон О равноправности полова „Службени гласник РС“ број 104 од 16. децембра 2009.</p>
+				<p>Закон „службени гласник рс“ број 104 од 16. децембра 2009.</p>
 			</longTitle>
+			<p>о равноправности полова</p>
 		</preface>
 		<body>
 			<chapter wId="gla1">

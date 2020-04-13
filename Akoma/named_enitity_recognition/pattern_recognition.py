@@ -59,7 +59,7 @@ def make_reference(cnt, this_id, start, end, ending, stringo, longer):
     return stringo, longer, cnt
 
 def make_reference_for_clZakon(cnt, this_id, m, stringo, longer):
-    open = u"<ref " + "wId=\"ref" + str(cnt) + "\" href=\"akn/rs/act/" + m.group(6) + "/" + m.group(5) \
+    open = "<ref " + "wId=\"ref" + str(cnt) + "\" href=\"akn/rs/act/" + m.group(6) + "/" + m.group(5) \
            + "/srp@/!main~/art_" + m.group(2) +"\">"
 
     stringo = stringo[:m.start() + longer] + open + stringo[m.start() + longer:]

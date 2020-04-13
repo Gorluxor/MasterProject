@@ -32,11 +32,41 @@ except ModuleNotFoundError as sureError:
             exit(-1)
 
 
-def repair_mode(act):
-    # TODO if time, Work in progress, Andrija zavrsiti
-    # got = patterns.recognize_pattern(act)
-
-    return act
+def repair_mode(act: str):
+    import re
+    while re.search("(\n\n\n|  )", act) is not None:
+        act = act.replace("\n\n\n", "\n\n")
+        act = act.replace("  ", " ")
+    get_title = re.search(patterns.ARTICLE_NAME, act.upper())
+    if get_title is None:
+        print("Convert_all>repair mode fail")
+        exit(-1)
+    root_art = ET.Element("article")
+    if get_title.span(0)[0] is not 0:
+        title_el = ET.Element('p')
+        title_el.text = act[0:get_title.span(0)[0]]
+        root_art.append(title_el)
+    opening = True
+    text_from = -1
+    text_to = -1
+    searcher = re.compile("\n\n.")
+    for m in searcher.finditer(act):
+        cord = m.span(0)
+        if opening:
+            text_from = cord[0] + 2
+            opening = not opening
+        else:
+            text_to = cord[1] - 3
+            new_el = ET.Element('p')
+            new_el.text = act[text_from:text_to]
+            text_from = text_to + 2
+            root_art.append(new_el)
+    new_el = ET.Element('p')
+    new_el.text = act[text_from:len(act)]
+    root_art.append(new_el)
+    fixed = prettify(root_art)
+    # print(fixed)
+    return root_art
 
 
 def prettify(root):
@@ -53,9 +83,16 @@ def apply_akn_tags(text: str, meta_name: str):
     :return: Labeled xml string
     """
     akoma_root = init_akoma.init_xml("act")
+    repaired = False
     if text.find("<p") == -1:
-        text = repair_mode(text)
-    html_root = ET.fromstring("<article>" + text + "</article>")
+        repaired = True
+        new_html_root = repair_mode(text)
+    else:
+        text = remove_html.preprocessing_text(text)
+    if not repaired:
+        html_root = ET.fromstring("<article>" + text + "</article>")
+    elif repaired:
+        html_root = new_html_root
 
     metabuilder = MetadataBuilder("data/meta/allmeta.csv")
     metabuilder.build(meta_name, akoma_root)
@@ -80,10 +117,10 @@ def apply_akn_tags(text: str, meta_name: str):
 
 
 def convert_html(source, destination):
-    stringo = remove_html.preprocessing(source)
+    # full_strip = remove_html.preprocessing(source)
     full_strip = remove_html.preprocessing(source, full_strip=True)
     meta_file_name = source.split("/")[-1]
-    result_str = apply_akn_tags(stringo, meta_file_name)
+    result_str = apply_akn_tags(full_strip, meta_file_name)
     f = io.open(destination, mode="w", encoding="utf-8")
     f.write(result_str)
     f.close()
