@@ -112,7 +112,7 @@ def apply_akn_tags(text: str, meta_name: str):
 
     result_str = builder.result_str()
     result_stablo = add_refs(akoma_root, result_str, metabuilder.expressionuri)
-    result_str = prettify(result_stablo)
+    result_str = prettify(result_stablo).replace("&lt;","<").replace("&gt;",">").replace("&quot;","\"")
     return result_str
 
 
@@ -127,7 +127,7 @@ def convert_html(source, destination):
 
 
 if __name__ == "__main__":
-    nastavi = "44.html"  # ""651.html"
+    nastavi = "464.html"  # ""651.html"
     idemo = False
     stani = [
         "562.html"]  # ["1160.html", "1575.html", "908.html", "2348.html", "318.html", "3062.html"] #ovi fajlovi su samo preveliki pa njihovo procesiranje traje dugo
