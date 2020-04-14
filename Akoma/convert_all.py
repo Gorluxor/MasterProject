@@ -4,7 +4,7 @@ import xml.etree.ElementTree as ET
 
 try:
     import Akoma
-    from Akoma.utilities import ETree
+    from Akoma.utilities import ETree,utilities
     from Akoma.preprocessing import remove_html
     from Akoma.preprocessing import init_akoma
     from Akoma.tokenizer.HTMLTokenizer import HTMLTokenizer
@@ -15,7 +15,7 @@ try:
     from Akoma.named_enitity_recognition.pattern_recognition import add_refs
 except ModuleNotFoundError as sureError:
     try:
-        from utilities import ETree
+        from utilities import ETree,utilities
         from preprocessing import remove_html
         from preprocessing import init_akoma
         from tokenizer.HTMLTokenizer import HTMLTokenizer
@@ -138,7 +138,13 @@ def apply_akn_tags(text: str, meta_name: str, skip_tfidf = False):
         reasoner.start()
 
     result_str = builder.result_str()
-    result_stablo = add_refs(akoma_root, result_str, metabuilder.expressionuri)
+    try:
+        result_stablo = add_refs(akoma_root, result_str, metabuilder.expressionuri)
+    except Exception as e:
+        file_ref_exeption = open(utilities.get_root_dir() + "/data/" + "za_ninu.txt",mode="a+")
+        file_ref_exeption.write(meta_name + ":" + str(e) + "\n")
+        file_ref_exeption.close()
+        return result_str
     result_str = prettify(result_stablo).replace("&lt;", "<").replace("&gt;", ">").replace("&quot;", "\"")
     return result_str
 

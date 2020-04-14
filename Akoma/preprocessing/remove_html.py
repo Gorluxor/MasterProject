@@ -112,16 +112,16 @@ if __name__ == "__main__":
     from os import path
 
     basePath = path.dirname(__file__)
-    filePath = path.abspath(path.join(basePath, "..", "data", "racts"))
-    fileOut = path.abspath(path.join(basePath, "..", "data", "raw_racts"))
+    filePath = path.abspath(path.join(basePath, "..", "data", "acts"))
+    fileOut = path.abspath(path.join(basePath, "..", "data", "acts2"))
     filenames = getListOfFiles(filePath)
 
     for filename in filenames:
         try:
             print("Processing=" + filename)
             fileProcessing = path.join(filePath, filename)
-            purified = preprocessing(fileProcessing, full_strip=True)
-            f = io.open(path.join(fileOut, filename.replace(".html", ".txt")), mode="w", encoding="utf-8")
+            purified = preprocessing(fileProcessing, full_strip=False)
+            f = io.open(path.join(fileOut, filename), mode="w", encoding="utf-8") #.replace(".html", ".txt")
             f.write(purified)
             f.close()
         except:
