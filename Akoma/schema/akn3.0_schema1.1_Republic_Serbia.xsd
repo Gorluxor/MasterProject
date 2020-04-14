@@ -3116,6 +3116,16 @@ this element is a hierarchical container called "point" either explicitly or due
 			</comment>
 				     </xsd:documentation>
       </xsd:annotation>
+      <xsd:complexType>
+         <xsd:complexContent>
+            <xsd:extension base="hierarchy">
+               <xsd:assert
+                  test="
+                     every $x in (*)
+                        satisfies $x/name() = ('componentRef', 'num', 'heading', 'subheading', 'content', 'hcontainer')"/>
+            </xsd:extension>
+         </xsd:complexContent>
+      </xsd:complexType>
    </xsd:element>
 
 

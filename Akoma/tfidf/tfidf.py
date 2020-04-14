@@ -55,6 +55,81 @@ def listToString(list_data):
     return val
 
 
+def get_tf_idf_values_from_text(text: str, return_just_words=True, threshold=0.09, max_elements=0,
+                                latin=True, debug=False):
+    """
+    Returns most used words in text by TF-IDF, uses RAW Legal documents (without HTML)
+    :param text: Text which to be processed
+    :param return_just_words:  True return just words, False return value list [ word, probability]
+    :param threshold:  threshold for probability to be added in return value
+    :param max_elements:  Set return to max elements, ex. want just top 5 most relevant, then set max_elements to 5
+    :param latin: If cyrilic set to true
+    :param debug:  Prints values
+    :return: Returns most used words in document, Type LIST, Depending on return_just_words, threshold and max_elements
+    """
+    stop_words = get_stop_words()
+    tag_clan = "Član"
+    if not latin:
+        tag_clan = "Члан"
+    act_array = []
+
+    if text.find("<p") != -1:
+        text = remove_html.preprocessing_text(text, True)
+
+    if re.search(tag_clan + " [0-9]*\.", text) is None:  # Deprecated. if someone misses latin parameter
+        text = Convert.convert_string(text)
+
+    list_to_str = text + tag_clan + " 0."
+
+    found = re.finditer(tag_clan + " [0-9]*\.", list_to_str)
+    start_from = 0
+    ends_to = 0
+    for m in found:
+        if start_from.__eq__(ends_to):
+            ends_to = 0
+        else:
+            ends_to = m.start()
+        if ends_to != 0:
+            insert_string = list_to_str[start_from:ends_to]  # m.group().strip() = what was found in regex
+            act_array.append(insert_string)
+        start_from = m.end()
+
+    c_bl = "#NBLC"
+    tokens = connector.only_lam(c_bl.join(act_array))
+    tokens = [tok for tok in tokens if tok not in stop_words or tok.isdigit()]
+    clans = " ".join(tokens)
+    list_clan_for_file = clans.split(c_bl)  # Otpimized
+
+    if len(act_array) == 0:
+        return []
+
+    vectorizer = TfidfVectorizer()
+    result = vectorizer.fit_transform(list_clan_for_file)
+
+    if debug:
+        print(vectorizer.get_feature_names())
+
+    first_vector_tfidfvectorizer = result[0]  # get the first vector out (for the first document)
+
+    df = pd.DataFrame(first_vector_tfidfvectorizer.T.todense(), index=vectorizer.get_feature_names(),
+                      columns=["tfidf"])  # place tf-idf values in a pandas data frame
+    df = df.sort_values(by=["tfidf"], ascending=False)
+
+    list_words = list()
+    for row in df.itertuples():
+        if row.tfidf <= threshold:
+            break
+        list_words.append([row.Index, row.tfidf])
+        if max_elements != 0:
+            if max_elements <= len(list_words):
+                break
+    if debug:
+        print(df.head())
+    if return_just_words:
+        list_words = [item[0] for item in list_words]
+    return list_words
+
+
 def get_tf_idf_values_document(folder_path, filenames=None, return_just_words=True, threshold=0.09, max_elements=0,
                                with_file_names=True, latin=True, debug=False):
     """
@@ -69,12 +144,12 @@ def get_tf_idf_values_document(folder_path, filenames=None, return_just_words=Tr
     :param debug:  Prints values
     :return: Returns most used words in document, Type LIST, Depending on return_just_words, threshold and max_elements
     """
-    # break_word = 0
-    stop_words = get_stop_words()
     if not filenames:
         file_names = get_file_names_in_folder(folder_path)
-    else:
+    elif len(filenames) == 1:
         file_names = [filenames]
+    else:
+        file_names = filenames
 
     results = []
     tag_clan = "Član"
@@ -92,62 +167,10 @@ def get_tf_idf_values_document(folder_path, filenames=None, return_just_words=Tr
             print(">Error tf-idf FileNotFoundError:" + check)
             continue
         all_lines = "".join(file.readlines())
-        act_array = []
 
-        if all_lines.find("<p") != -1:
-            all_lines = remove_html.preprocessing_text(all_lines, True)
-
-        if re.search(tag_clan + " [0-9]*\.", all_lines) is None:  # Check if cyrilic then to latin
-            all_lines = Convert.convert_string(all_lines)
-
-        list_to_str = all_lines + tag_clan + " 0."
-
-        found = re.finditer(tag_clan + " [0-9]*\.", list_to_str)
-        start_from = 0
-        ends_to = 0
-        for m in found:
-            if start_from.__eq__(ends_to):
-                ends_to = 0
-            else:
-                ends_to = m.start()
-            if ends_to != 0:
-                insert_string = list_to_str[start_from:ends_to]  # m.group().strip() = what was found in regex
-                act_array.append(insert_string)
-            start_from = m.end()
-
-        c_bl = "#NBLC"
-        tokens = connector.only_lam(c_bl.join(act_array))
-        tokens = [tok for tok in tokens if tok not in stop_words or tok.isdigit()]
-        clans = " ".join(tokens)
-        list_clan_for_file = clans.split(c_bl)  # Otpimized
-
-        if len(act_array) == 0:
-            continue
-
-        vectorizer = TfidfVectorizer()
-        result = vectorizer.fit_transform(list_clan_for_file)
-        # print(bow)
-        if debug:
-            print(vectorizer.get_feature_names())
-        # print(result)
-        first_vector_tfidfvectorizer = result[0]  # get the first vector out (for the first document)
-
-        df = pd.DataFrame(first_vector_tfidfvectorizer.T.todense(), index=vectorizer.get_feature_names(),
-                          columns=["tfidf"])  # place tf-idf values in a pandas data frame
-        df = df.sort_values(by=["tfidf"], ascending=False)
-
-        list_words = list()
-        for row in df.itertuples():
-            if row.tfidf <= threshold:
-                break
-            list_words.append([row.Index, row.tfidf])
-            if max_elements != 0:
-                if max_elements <= len(list_words):
-                    break
-        if debug:
-            print(df.head())
-        if return_just_words:
-            list_words = [item[0] for item in list_words]
+        list_words = get_tf_idf_values_from_text(all_lines, return_just_words=return_just_words, threshold=threshold,
+                                                 max_elements=max_elements,
+                                                 latin=latin, debug=debug)
         if with_file_names:
             results.append([filename, list_words])
         else:
@@ -160,9 +183,12 @@ def get_tf_idf_values_document(folder_path, filenames=None, return_just_words=Tr
 if __name__ == '__main__':
     # filenames , folderPath = get_file_names("data", "aktovi_raw_lat")
     filenames = ["1.html", "2.html"]
-    path_folder = utilities.get_root_dir() + "\\data\\acts"
-    tf_idf_values = get_tf_idf_values_document(path_folder, filenames=filenames, return_just_words=False,
-                                               with_file_names=False, latin=False)
+    path_folder = utilities.get_root_dir().replace("\\", "/") + "/data/acts"
+    tf_idf_values = get_tf_idf_values_document(path_folder, filenames=filenames, return_just_words=False, with_file_names=True, latin=False)
+    got_file = open(path_folder + "/" + filenames[0], mode="r", encoding="utf-8")
+    text = "".join(got_file.readlines())
+    #tf_idf_val2 = get_tf_idf_values_from_text(text, return_just_words=True, latin=False)
+    #print(tf_idf_val2)
     print(tf_idf_values)
     for el in tf_idf_values:
         print([item[0] for item in el])  # FILES if return file names also

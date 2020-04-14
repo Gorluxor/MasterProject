@@ -5,13 +5,13 @@ try:
     from Akoma.utilities import utilities
     from Akoma.form_akoma.Metadata import Metadata
     from Akoma.preprocessing import init_akoma
-    from Akoma.tfidf.tfidf import get_tf_idf_values_document
+    from Akoma.tfidf.tfidf import get_tf_idf_values_document,get_tf_idf_values_from_text
 except ModuleNotFoundError:
     try:
         from utilities import utilities
         from form_akoma.Metadata import Metadata
         from preprocessing import init_akoma
-        from tfidf.tfidf import get_tf_idf_values_document
+        from tfidf.tfidf import get_tf_idf_values_document,get_tf_idf_values_from_text
     except ModuleNotFoundError:
         print("Error")
         exit(-1)
@@ -152,10 +152,12 @@ class MetadataBuilder():
         cnt_concept = 0
         conceptIri = "http://purl.org/vocab/frbr/core#Concept"
         base = ET.Element("references", {"source": SOURCE})
-        list_of_concept = get_tf_idf_values_document("data/acts", filenames = filename, latin=False, with_file_names=False)
+        list_of_concept = get_tf_idf_values_document("data/acts", filenames=filename, latin=False,
+                                                     with_file_names=False)
         if len(list_of_concept) > 0:
             for concept in list_of_concept[0]:
-                concept_ref = ET.Element("TLCConcept", {"eId": "cocnept" + str(cnt_concept), "href": conceptIri, "showAs": concept})
+                concept_ref = ET.Element("TLCConcept",
+                                         {"eId": "cocnept" + str(cnt_concept), "href": conceptIri, "showAs": concept})
                 base.append(concept_ref)
                 cnt_concept = cnt_concept + 1
         return base
@@ -180,7 +182,7 @@ class MetadataBuilder():
         return base
 
     # SUMA = []
-    def build(self, filename, akomaroot):
+    def build(self, filename, akomaroot, skip_tfidf=False):
         meta = list(akomaroot)[0].find(PREFIX + "meta")
         if meta is None:
             meta = list(akomaroot)[0].find("meta")
@@ -226,10 +228,9 @@ class MetadataBuilder():
         if len(metainfo.workflow) > 0:
             meta.append(self.workflow(metainfo.workflow))
 
-        references = self.references(filename)
-        temprory = ET.Element("TLCConcept", {"href": "#", "showAs": "Temp"})
-        references.insert(0, temprory)
-        meta.append(references)
+        if not skip_tfidf:
+            references = self.references(filename)
+            meta.append(references)
 
         if metainfo.napomena_izdavaca != "" or metainfo.dodatne_informacije != "":
             meta.append(self.notes(metainfo.napomena_izdavaca, metainfo.dodatne_informacije))

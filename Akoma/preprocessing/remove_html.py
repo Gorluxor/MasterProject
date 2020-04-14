@@ -69,7 +69,7 @@ def exeption_tag(substring, full_stip=False):
     if full_stip:
         exepted_tag = []
     else:
-        exepted_tag = ["p", "table", "tr", "td", "img", "th"]
+        exepted_tag = ["p", "table", "tr", "td", "th"] # "img"
     for t in exepted_tag:
         # if re.match("<\/?"+t+"(.|\n)*?>", substring)!= None:
         if re.match("<\/?" + t + "(.|\n)*?>", substring) is not None:
