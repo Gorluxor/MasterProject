@@ -13,7 +13,7 @@ try:
     from Akoma.reasoner.BasicReasoner import BasicReasoner
     from Akoma.reasoner.OdlukaReasoner import OdlukaReasoner
     from Akoma.form_akoma.MetadataBuilder import MetadataBuilder
-    from Akoma.named_enitity_recognition.pattern_recognition import add_refs
+    from Akoma.named_enitity_recognition.references import add_refs
 except ModuleNotFoundError as sureError:
     try:
         from utilities import ETree, utilities
@@ -163,7 +163,7 @@ def convert_html(source, destination):
 
 
 if __name__ == "__main__":
-    nastavi = "1.html"  # ""651.html"
+    nastavi = "1139.html"  # ""651.html"
     idemo = False
     stani = [
         "1005.html", "980.html", "986.html"  # problematicni
