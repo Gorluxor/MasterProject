@@ -135,13 +135,13 @@ def apply_akn_tags(text: str, meta_name: str, skip_tfidf=False):
         reasoner.start()
 
     result_str = builder.result_str()
-    try:
-        result_stablo = add_refs(akoma_root, result_str, metabuilder.expressionuri)
-    except Exception as e:
-        file_ref_exeption = open(utilities.get_root_dir() + "/data/" + "za_ninu.txt", mode="a+")
-        file_ref_exeption.write(meta_name + ":" + str(e) + "\n")
-        file_ref_exeption.close()
-        return result_str
+    # try:
+    result_stablo = add_refs(akoma_root, result_str, metabuilder.expressionuri)
+    # except Exception as e:
+    #     file_ref_exeption = open(utilities.get_root_dir() + "/data/" + "za_ninu.txt", mode="a+")
+    #     file_ref_exeption.write(meta_name + ":" + str(e) + "\n")
+    #     file_ref_exeption.close()
+    #     return result_str
     result_str = ETree.prettify(result_stablo).replace("&lt;", "<").replace("&gt;", ">").replace("&quot;", "\"").replace(
         '<references source="#somebody"/>', "")
     return result_str
@@ -163,7 +163,7 @@ def convert_html(source, destination):
 
 
 if __name__ == "__main__":
-    nastavi = "177.html"  # ""651.html"
+    nastavi = "126.html"  # ""651.html"
     idemo = False
     stani = [
         "1005.html", "980.html", "986.html"  # problematicni PROVERITI 176
@@ -179,9 +179,9 @@ if __name__ == "__main__":
         if fajl in stani:
             continue
         print(fajl)
-        try:
-            convert_html(location_source + '/' + fajl, 'data/akoma_result/' + fajl[:-5] + ".xml")
-        except Exception as e:
-            file_ref_exeption = open(utilities.get_root_dir() + "/data/" + "za_andriju.txt", mode="a+")
-            file_ref_exeption.write(fajl + ":" + str(e) + "\n")
-            file_ref_exeption.close()
+        # try:
+        convert_html(location_source + '/' + fajl, 'data/akoma_result/' + fajl[:-5] + ".xml")
+        # except Exception as e:
+        #     file_ref_exeption = open(utilities.get_root_dir() + "/data/" + "za_andriju.txt", mode="a+")
+        #     file_ref_exeption.write(fajl + ":" + str(e) + "\n")
+        #     file_ref_exeption.close()
