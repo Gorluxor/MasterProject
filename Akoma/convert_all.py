@@ -1,11 +1,12 @@
 import io
 import os
 import xml.etree.ElementTree as ET
+from bs4 import BeautifulSoup
 
 try:
     import Akoma
+    from Akoma.convertToLatin import regex_patterns
     from Akoma.utilities import ETree, utilities
-    from Akoma.preprocessing import remove_html
     from Akoma.preprocessing import init_akoma
     from Akoma.tokenizer.HTMLTokenizer import HTMLTokenizer
     from Akoma.form_akoma.AkomaBuilder import AkomaBuilder
@@ -16,7 +17,7 @@ try:
 except ModuleNotFoundError as sureError:
     try:
         from utilities import ETree, utilities
-        from preprocessing import remove_html
+        from convertToLatin import regex_patterns
         from preprocessing import init_akoma
         from tokenizer.HTMLTokenizer import HTMLTokenizer
         from form_akoma.AkomaBuilder import AkomaBuilder
@@ -86,15 +87,9 @@ def repair_mode(act: str):
     new_el = ET.Element('p')
     new_el.text = act[text_from:len(act)]
     root_art.append(new_el)
-    fixed = prettify(root_art)
+    # fixed = ETree.prettify(root_art)
     # print(fixed)
     return root_art
-
-
-def prettify(root):
-    import xml.dom.minidom
-    dom = xml.dom.minidom.parseString(ET.tostring(root, encoding='UTF-8', method="xml").decode())
-    return dom.toprettyxml()
 
 
 def apply_akn_tags(text: str, meta_name: str, skip_tfidf=False):
@@ -111,19 +106,21 @@ def apply_akn_tags(text: str, meta_name: str, skip_tfidf=False):
         repaired = True
         new_html_root = repair_mode(text)
     else:
-        text = remove_html.preprocessing_text(text, full_strip=False)
+        text = regex_patterns.strip_html_tags_exept(text)
     if not repaired:
         try:
             html_root = ET.fromstring("<article>" + text + "</article>")
         except Exception as e:
-            text = structure_repair(text)
+            got = BeautifulSoup(text, "lxml")
+            text = got.prettify().replace("<html>", "").replace("</html>", "").replace("<body>", "").replace("</body",
+                                                                                                             "")
             html_root = ET.fromstring("<article>" + text + "</article>")
     elif repaired:
         html_root = new_html_root
 
     metabuilder = MetadataBuilder("data/meta/allmeta.csv")
     metabuilder.build(meta_name, akoma_root, skip_tfidf)
-    print(prettify(akoma_root))
+    print(ETree.prettify(akoma_root))
     builder = AkomaBuilder(akoma_root)
     reasoner = BasicReasoner(HTMLTokenizer(html_root), builder)
     reasoner.start()
@@ -141,17 +138,23 @@ def apply_akn_tags(text: str, meta_name: str, skip_tfidf=False):
     # try:
     result_stablo = add_refs(akoma_root, result_str, metabuilder.expressionuri)
     # except Exception as e:
-    #     file_ref_exeption = open(utilities.get_root_dir() + "/data/" + "za_ninu.txt",mode="a+")
+    #     file_ref_exeption = open(utilities.get_root_dir() + "/data/" + "za_ninu.txt", mode="a+")
     #     file_ref_exeption.write(meta_name + ":" + str(e) + "\n")
     #     file_ref_exeption.close()
     #     return result_str
-    result_str = prettify(result_stablo).replace("&lt;", "<").replace("&gt;", ">").replace("&quot;", "\"").replace(
+    result_str = ETree.prettify(result_stablo).replace("&lt;", "<").replace("&gt;", ">").replace("&quot;", "\"").replace(
         '<references source="#somebody"/>', "")
     return result_str
 
 
 def convert_html(source, destination):
-    full_strip = remove_html.preprocessing(source)  # full_strip = remove_html.preprocessing(source, full_strip=True)
+    try:
+        opened = io.open(source, mode="r", encoding="utf-8")
+    except FileNotFoundError:
+        raise FileNotFoundError("File not exist")
+    text = "".join(opened.readlines())
+    full_strip = regex_patterns.strip_html_tags_exept(text)
+    # full_strip = remove_html.preprocessing(source)  # full_strip = remove_html.preprocessing(source, full_strip=True)
     meta_file_name = source.split("/")[-1]
     result_str = apply_akn_tags(full_strip, meta_file_name, skip_tfidf=True)
     f = io.open(destination, mode="w", encoding="utf-8")
@@ -163,7 +166,8 @@ if __name__ == "__main__":
     nastavi = "1.html"  # ""651.html"
     idemo = False
     stani = [
-        "1005.html", "980.html", "986.html"]  # Veliki fajlovi ili prbolematicni #180.html
+        "1005.html", "980.html", "986.html"  # problematicni
+        , "180.html"]  # Veliki fajlovi
     location_source = "data/acts"
     fajls = utilities.sort_file_names(os.listdir(location_source))
 

@@ -5,6 +5,7 @@ from os.path import isfile, join
 
 """
     Remove all html elements that are not useful to us, and could cause problems
+    @Deprecated
 """
 
 
@@ -62,6 +63,7 @@ def make_tag_empty(stringo, tag):
 
 
 def replace_trash(stringo, trash):
+
     return stringo.replace(trash, "")
 
 
@@ -69,21 +71,25 @@ def exeption_tag(substring, full_stip=False):
     if full_stip:
         exepted_tag = []
     else:
-        exepted_tag = ["p", "table", "tr", "td", "th"] # "img"
+        exepted_tag = ["p", "table", "tr", "td", "th"]  # "img"
     for t in exepted_tag:
         # if re.match("<\/?"+t+"(.|\n)*?>", substring)!= None:
         if re.match("<\/?" + t + "(.|\n)*?>", substring) is not None:
             return True
     return False
 
-def preprocessing_text(stringo,full_strip):
+
+def preprocessing_text(stringo, full_strip):
     stringo = remove_inner_html(stringo, "script")
     stringo = remove_inner_html(stringo, "style")
     stringo = strip_html(stringo, full_strip)
     stringo = make_tag_empty(stringo, "p")
     stringo = replace_trash(stringo, "&nbsp;")
+    stringo = replace_trash(stringo,"<thead>")
+    stringo = replace_trash(stringo,"</thead>")
     stringo = close_html_token2(stringo, "img")
     return stringo
+
 
 def preprocessing(filename, full_strip=False):
     """Remove html tags"""
@@ -121,7 +127,7 @@ if __name__ == "__main__":
             print("Processing=" + filename)
             fileProcessing = path.join(filePath, filename)
             purified = preprocessing(fileProcessing, full_strip=False)
-            f = io.open(path.join(fileOut, filename), mode="w", encoding="utf-8") #.replace(".html", ".txt")
+            f = io.open(path.join(fileOut, filename), mode="w", encoding="utf-8")  # .replace(".html", ".txt")
             f.write(purified)
             f.close()
         except:

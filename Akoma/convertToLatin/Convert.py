@@ -6,6 +6,87 @@ def getListOfFiles(filePath):
     return onlyfiles
 
 
+def gen_converter(dict_swicher, char: str):
+    func = dict_swicher.get(char, "Invalid")
+    if func == "Invalid":
+        return char
+    return func
+
+
+def convert_serbian_number(serbian_number: str):
+    """
+    Prva,Druga,Treca
+    :param char:
+    :return:
+    """
+    switcher = {
+        'prva': 1,
+        'druga': 2,
+        'treća': 3,
+        'četvrta': 4,
+        'peta': 5,
+        'šesta': 6,
+        'sedma': 7,
+        'osma': 8,
+        'deveta': 9,
+        'deseta': 10,
+        'jedanaesta': 11,
+        'dvanaesta': 12,
+        'trinaesta': 13,
+        'četrnaesta': 14,
+        'petnaesta': 15,
+        'šesnaesta': 16,
+        'sedamnaesta': 17,
+        'osamnaesta': 18,
+        'devetnaesta': 19,
+        'dvadeseta': 20,
+        'dvadesetprva': 21,
+        'dvadesetdruga': 22,
+        'dvadesettreća': 23,
+        'dvadesetčetvrta': 24,
+        'dvadesetpeta': 25,
+        'dvadesetšesta': 26,
+        'dvadesetsedma': 27,
+        'dvadesetosma': 28,
+        'dvadesetdeveta': 29,
+        'trideseta': 30,
+        'прва': 1,
+        'друга': 2,
+        'трећа': 3,
+        'четврта': 4,
+        'пета': 5,
+        'шеста': 6,
+        'седма': 7,
+        'осма': 8,
+        'девета': 9,
+        'десета': 10,
+        'једанаеста': 11,
+        'дванаеста': 12,
+        'тринаеста': 13,
+        'четрнаеста': 14,
+        'петнаеста': 15,
+        'шеснаеста': 16,
+        'седамнаеста': 17,
+        'осамнаеста': 18,
+        'деветнаеста': 19,
+        'двадесета': 20,
+        'двадесетпрва': 21,
+        'двадесетдруга': 22,
+        'двадесеттрећа': 23,
+        'двадесетчетврта': 24,
+        'двадесетпета': 25,
+        'двадесетшеста': 26,
+        'двадесетседма': 27,
+        'двадесетосма': 28,
+        'двадесетдевета': 29,
+        'тридесета': 30,
+    }
+    func = switcher.get(serbian_number, "Invalid")
+    if func == "Invalid":
+        return serbian_number
+    return func
+
+
 def convert(char):
     switcher = {
         'А': "A",
@@ -19,7 +100,7 @@ def convert(char):
         'З': "Z",
         'И': "I",
         'Ј': "J",
-        'K': "K",
+        'К': "K",
         'Л': "L",
         'Љ': "LJ",
         'М': "M",
@@ -96,8 +177,8 @@ if __name__ == '__main__':
         check = path.join(filePath, filename);
         outputApsolute = path.join(fileOut, filename);
         file = open(check, encoding="utf8")
-        #a = "".join(file.readlines())
-        #b = convert_string(a)
+        # a = "".join(file.readlines())
+        # b = convert_string(a)
         outputFile = open(outputApsolute, mode="x", encoding="utf8")
         for line in file:
             for ch in line:

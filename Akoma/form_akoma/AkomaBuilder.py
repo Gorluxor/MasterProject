@@ -69,13 +69,13 @@ class AkomaBuilder():
                 counter -= 1
         if preface is not None:
             preface.insert(0, longTitle)
-            act.insert(1, preface) #TODO PROVERITI IZMENU IZ 1->0 ANDRIJA
+            act.insert(1, preface)
         if preamble is not None:
             to = 1
             if preface is not None:
                 to = 2
             act.insert(to, preamble)
-        act.set("name", name)
+        act.set("name", name.replace("\"", "'"))
 
     def add_special(self, token):
         parent = self.stack[-1]
