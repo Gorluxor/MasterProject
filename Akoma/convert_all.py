@@ -163,7 +163,7 @@ def convert_html(source, destination):
 
 
 if __name__ == "__main__":
-    nastavi = "126.html"  # ""651.html"
+    nastavi = "705.html"  # ""651.html"
     idemo = False
     stani = [
         "1005.html", "980.html", "986.html"  # problematicni PROVERITI 176

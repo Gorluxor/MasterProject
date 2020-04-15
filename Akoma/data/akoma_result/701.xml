@@ -1,0 +1,3891 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о  друштвеној бризи о деци">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/1992/49-1657/main"/>
+					<FRBRuri value="/rs/act/1992/49-1657"/>
+					<FRBRdate date="1992-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2017/113-266/srp@/main"/>
+					<FRBRuri value="/rs/act/2017/113-266/srp@"/>
+					<FRBRdate date="2017-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2017/113-266/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2017/113-266/srp@.akn"/>
+					<FRBRdate date="2017-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="1992-07-21" name="службени гласник рс" number="49" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="XVI СОЦИЈАЛНО ОСИГУРАЊЕ, ЗДРАВСТВЕНА, СОЦИЈАЛНА И БОРАЧКА ЗАШТИТА" value="xvi социјално осигурање, здравствена, социјална и борачка заштита" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="10. Социјална заштита и друштвена брига о деци" value="10. социјална заштита и друштвена брига о деци" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="1992-01-01" refersTo="49/1992-1657" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="1993-01-01" refersTo="29/1993-1184" source="#somebody" type="amendment" wId="e2"/>
+				<eventRef date="1993-01-01" refersTo="53/1993-2459" source="#somebody" type="amendment" wId="e3"/>
+				<eventRef date="1993-01-01" refersTo="53/1993-2467" source="#somebody" type="amendment" wId="e4"/>
+				<eventRef date="1993-01-01" refersTo="67/1993-3075" source="#somebody" type="amendment" wId="e5"/>
+				<eventRef date="1993-01-01" refersTo="67/1993-3111" source="#somebody" type="amendment" wId="e6"/>
+				<eventRef date="1994-01-01" refersTo="28/1994-776" source="#somebody" type="amendment" wId="e7"/>
+				<eventRef date="1994-01-01" refersTo="47/1994-1472" source="#somebody" type="amendment" wId="e8"/>
+				<eventRef date="1994-01-01" refersTo="48/1994-1497" source="#somebody" type="amendment" wId="e9"/>
+				<eventRef date="1996-01-01" refersTo="25/1996-791" source="#somebody" type="amendment" wId="e10"/>
+				<eventRef date="2001-01-01" refersTo="29/2001-5" source="#somebody" type="amendment" wId="e11"/>
+				<eventRef date="2002-01-01" refersTo="16/2002-1" source="#somebody" type="amendment" wId="e12"/>
+				<eventRef date="2003-01-01" refersTo="62/2003-1" source="#somebody" type="amendment" wId="e13"/>
+				<eventRef date="2003-01-01" refersTo="64/2003-74" source="#somebody" type="amendment" wId="e14"/>
+				<eventRef date="2005-01-01" refersTo="101/2005-28" source="#somebody" type="amendment" wId="e15"/>
+				<eventRef date="2010-01-01" refersTo="18/2010-48" source="#somebody" type="amendment" wId="e16"/>
+				<eventRef date="2017-01-01" refersTo="113/2017-266" source="#somebody" type="amendment" wId="e17"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="#TODO" date="1992-07-17" wId="usvajanje"/>
+				<step by="#TODO" date="1992-07-29" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="1992-07-29" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 29. јула 1992. године (види члан 88. Закона).Мењане су висине новчаних казни (види: члан 9. Закона – 53/1993-2467, члан 2. Закона – 67/1993-3111 и члан 75. Закона – 48/1994-1497).Престали су да важе: члан 1; члан 2. тач. 1) и 2), тачка 5) у делу који се односи на одговарајућу садржину рада са децом без родитељског старања, и децом са сметњама у развоју и децом из социјално угрожених породица и тачка 6); чл. 5. до 9; члан 11. став 1. тач. 1) до 4) и тачка 5) у делу који се односи на децу без родитељског старања и децу са сметњама у развоју; став 2. у делу који се односи на тач. 1) до 4); чл. 12. до 30; члан 31. у делу који се односи на децу без родитељског старања и децу са сметњама у развоју; члан 36. став 1. у делу који се односи на право на накнаду зараде за време породиљског, продуженог породиљског одсуства запосленог родитеља и одсуства са рада усвојиоца ради неге детета, матерински додатак, помоћ за опрему новорођенчета и додатак на децу; чл. 37. до 42; члан 66. став 1. осим у делу који се односи на предшколско васпитање и образовање за децу на дужем болничком лечењу и на васпитно-образовни програм у трајању од три сата пред полазак у основну школу; члан 69. и члан 76. (види члан 38. Закона о финансијској подршци породицама са децом – 16/2002-1).Престале су да важе одредбе члана 2. тач. 3) и 4), чл. 3. и 4, члана 11. став 1. тач. 6) и 7) и ст. 2. до 4, чл. 31. до 33, члана 36. став 2, чл. 43. и 44, чл. 45 до 53. у делу који се односи на предшколске установе, чл. 54 до 62, члана 66. у делу који се односи на предшколско васпитање и образовање, чл. 67. до 72. у делу који се односи на предшколске установе и члана 77. (види члан 174. Закона о основама система васпитањаа и образовања – 62/2003-1 и исправку Закона – 64/2003-74).Промењене су висине новчаних казни (види члан 84. Закона – 101/2005-28).Престале су да важе одредбе члана 2. тачка 5) и члана 11. тачка 5) (види члан 61. Закона о предшколском васпитању и образовању – 18/2010-48).Даном почетка примене Закона о финансијској подршци породици са децом (Службени гласник РС, број 113/2017), односно 1. јула 2018. године, престају да важе одредбе чл. 73 до 75. овог Закона (види члан 56. Закона - 113/2017-266).</p>
+				</note>
+				<note wId="not2">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 29. јула 1992. године (види члан 88. Закона).Мењане су висине новчаних казни (види: члан 9. Закона – 53/1993-2467, члан 2. Закона – 67/1993-3111 и члан 75. Закона – 48/1994-1497).Престали су да важе: члан 1; члан 2. тач. 1) и 2), тачка 5) у делу који се односи на одговарајућу садржину рада са децом без родитељског старања, и децом са сметњама у развоју и децом из социјално угрожених породица и тачка 6); чл. 5. до 9; члан 11. став 1. тач. 1) до 4) и тачка 5) у делу који се односи на децу без родитељског старања и децу са сметњама у развоју; став 2. у делу који се односи на тач. 1) до 4); чл. 12. до 30; члан 31. у делу који се односи на децу без родитељског старања и децу са сметњама у развоју; члан 36. став 1. у делу који се односи на право на накнаду зараде за време породиљског, продуженог породиљског одсуства запосленог родитеља и одсуства са рада усвојиоца ради неге детета, матерински додатак, помоћ за опрему новорођенчета и додатак на децу; чл. 37. до 42; члан 66. став 1. осим у делу који се односи на предшколско васпитање и образовање за децу на дужем болничком лечењу и на васпитно-образовни програм у трајању од три сата пред полазак у основну школу; члан 69. и члан 76. (види члан 38. Закона о финансијској подршци породицама са децом – 16/2002-1).Престале су да важе одредбе члана 2. тач. 3) и 4), чл. 3. и 4, члана 11. став 1. тач. 6) и 7) и ст. 2. до 4, чл. 31. до 33, члана 36. став 2, чл. 43. и 44, чл. 45 до 53. у делу који се односи на предшколске установе, чл. 54 до 62, члана 66. у делу који се односи на предшколско васпитање и образовање, чл. 67. до 72. у делу који се односи на предшколске установе и члана 77. (види члан 174. Закона о основама система васпитањаа и образовања – 62/2003-1 и исправку Закона – 64/2003-74).Промењене су висине новчаних казни (види члан 84. Закона – 101/2005-28).Престале су да важе одредбе члана 2. тачка 5) и члана 11. тачка 5) (види члан 61. Закона о предшколском васпитању и образовању – 18/2010-48).Даном почетка примене Закона о финансијској подршци породици са децом (Службени гласник РС, број 113/2017), односно 1. јула 2018. године, престају да важе одредбе чл. 73 до 75. овог Закона (види члан 56. Закона - 113/2017-266).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О  друштвеној бризи о деци „Службени гласник РС”, бр. 49. од 21. августа 1992, 29 од 15. априла 1993, 53 од 16. јула 1993, 53 од 16. јула 1993 - др. закон, 67 од 30. августа 1993, 67 од 30. августа 1993 - др. закон, 28 од 22. априла 1994, 47 од 14. јула 1994, 48 од 20. јула 1994 - др. закон, 25 од 29. маја 1996, 29 од 17. маја 2001, 16 од 5. априла 2002 - др. закон, 62 од 17. јуна 2003 - др. закон, 64 од 24. јуна 2003 -исправка др. закона, 101 од 21. новембра 2005 - др. закон, 18 од 26. марта 2010 - др. закон, 113 од 17. децембра 2017 - др. закон</p>
+			</longTitle>
+			<p>Редакцијски пречишћен текст</p>
+		</preface>
+		<preamble>
+			<p>﻿</p>
+		</preamble>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОПШТЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Престао је да важи (види <ref wId="ref0" href="akn/rs/act/2017/113-266/srp@/!main~art_38" >члан 38. </ref>Закона – 16/2002-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<paragraph wId="gla1-clan2-stav1">
+						<intro>
+							<p>Друштвену бригу о деци у смислу овог закона чине права родитеља и деце и организоване делатности и активности којима се обезбеђује:</p>
+						</intro>
+						<point wId="gla1-clan2-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> престала је да важи (види <ref wId="ref1" href="akn/rs/act/2017/113-266/srp@/!main~art_38" >члан 38. </ref>Закона – 16/2002-1);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> престала је да важи (види <ref wId="ref2" href="akn/rs/act/2017/113-266/srp@/!main~art_38" >члан 38. </ref>Закона – 16/2002-1);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> престала је да важи (види <ref wId="ref3" href="akn/rs/act/2017/113-266/srp@/!main~art_174" >члан 174. </ref>Закона  – 62/2003-1);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> престала је да важи (види <ref wId="ref4" href="akn/rs/act/2017/113-266/srp@/!main~art_174" >члан 174. </ref>Закона  – 62/2003-1);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p>  престала је да важи (види <ref wId="ref5" href="akn/rs/act/2017/113-266/srp@/!main~art_61" >члан 61. </ref>Закона – 18/2010-48);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> престала је да важи (види <ref wId="ref6" href="akn/rs/act/2017/113-266/srp@/!main~art_38" >члан 38. </ref>Закона – 16/2002-1).</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<heading>Престао је да важи (види члан 174. Закона – 62/2003-1 и исправку Закона – 64/2003-74)</heading>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>Престао је да важи (види <ref wId="ref7" href="akn/rs/act/2017/113-266/srp@/!main~art_174" >члан 174. </ref>Закона – 62/2003-1 и исправку Закона – 64/2003-74)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav2">
+						<content>
+							<p>Чл. 5.  до  9.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav3">
+						<content>
+							<p>Престали  су да важе (види <ref wId="ref8" href="akn/rs/act/2017/113-266/srp@/!main~art_38" >члан 38. </ref>Закона – 16/2002-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan10">
+					<num>10.</num>
+					<paragraph wId="gla1-clan10-stav1">
+						<content>
+							<p>Брисан је (види <ref wId="ref9" href="akn/rs/act/2017/113-266/srp@/!main~art_3" >члан 3. </ref>Закона – 53/1993-2459).</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ПРАВА У ОБЛАСТИ ДРУШТВЕНЕ БРИГЕ О ДЕЦИ</heading>
+				<article wId="gla2-clan11">
+					<num>11.</num>
+					<paragraph wId="gla2-clan11-stav1">
+						<intro>
+							<p>Права у области друштвене бриге о деци у смислу овог закона су:</p>
+						</intro>
+						<point wId="gla2-clan11-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> престала је да важи (види <ref wId="ref10" href="akn/rs/act/2017/113-266/srp@/!main~art_38" >члан 38. </ref>Закона – 16/2002-1);</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> престала је да важи (види <ref wId="ref11" href="akn/rs/act/2017/113-266/srp@/!main~art_38" >члан 38. </ref>Закона – 16/2002-1);</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav2">
+						<intro>
+							<p>2а) престала је да важи (види <ref wId="ref12" href="akn/rs/act/2017/113-266/srp@/!main~art_38" >члан 38. </ref>Закона – 16/2002-1);</p>
+						</intro>
+						<point wId="gla2-clan11-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> престала је да важи (види <ref wId="ref13" href="akn/rs/act/2017/113-266/srp@/!main~art_38" >члан 38. </ref>Закона – 16/2002-1);</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> престала је да важи (види <ref wId="ref14" href="akn/rs/act/2017/113-266/srp@/!main~art_38" >члан 38. </ref>Закона – 16/2002-1);</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav2-tac5">
+							<num>5)</num>
+							<content>
+								<p>  престала је да важи (види <ref wId="ref15" href="akn/rs/act/2017/113-266/srp@/!main~art_61" >члан 61. </ref>Закона – 18/2010-48);</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav2-tac6">
+							<num>6)</num>
+							<content>
+								<p> престала је да важи (види <ref wId="ref16" href="akn/rs/act/2017/113-266/srp@/!main~art_174" >члан 174. </ref>Закона  – 62/2003-1);</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav2-tac7">
+							<num>7)</num>
+							<content>
+								<p> престала је да важи (види <ref wId="ref17" href="akn/rs/act/2017/113-266/srp@/!main~art_174" >члан 174. </ref>Закона  – 62/2003-1);</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav2-tac8">
+							<num>8)</num>
+							<content>
+								<p> одмор и рекреација деце до 15 година старости у дечјем одмаралишту;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav2-tac9">
+							<num>9)</num>
+							<content>
+								<p> регресирање трошкова боравка деце у предшколској установи, одмора и рекреације.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav3">
+						<content>
+							<p>Престали су да важе ранији <ref wId="ref18" href="akn/rs/act/2017/113-266/srp@/!main~art_11__para_2->para_4" >ст. 2. </ref>до 4. (види <ref wId="ref19" href="akn/rs/act/2017/113-266/srp@/!main~art_174" >члан 174. </ref>Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav4">
+						<content>
+							<p>Чл. 12. до 30.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav5">
+						<content>
+							<p>Престали  су да важе (види <ref wId="ref20" href="akn/rs/act/2017/113-266/srp@/!main~art_38" >члан 38. </ref>Закона – 16/2002-1)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav6">
+						<content>
+							<p>Чл. 31. до 33.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav7">
+						<content>
+							<p>Престали су да важе (види <ref wId="ref21" href="akn/rs/act/2017/113-266/srp@/!main~art_174" >члан 174. </ref>Закона  – 62/2003-1)</p>
+						</content>
+					</paragraph>
+				</article>
+				<section wId="gla2-od8">
+					<num>8.</num>
+					<heading> Одмор и рекреација деце до 15 година старости у дечјем одмаралишту</heading>
+					<article wId="gla2-od8-clan34">
+						<num>34.</num>
+						<paragraph wId="gla2-od8-clan34-stav1">
+							<intro>
+								<p>Деца до 15 година старости у дечјем одмаралишту имају право на одмор, рекреацију, здравствену заштиту, исхрану, васпитно-образовни рад и спортско-рекреативне активности, под условима и на начин који утврди надлежни општински орган.</p>
+							</intro>
+							<point wId="gla2-od8-clan34-stav1-tac9">
+								<num>9.</num>
+								<content>
+									<p> Регресирање трошкова боравка деце у предшколској установи, одмора и рекреације</p>
+								</content>
+							</point>
+						</paragraph>
+					</article>
+					<article wId="gla2-od8-clan35">
+						<num>35.</num>
+						<paragraph wId="gla2-od8-clan35-stav1">
+							<content>
+								<p>Деца предшколског и основношколског узраста, у зависности од материјалног положаја породице, имају право на регресирање трошкова борава у предшколској установи.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla2-od8-clan35-stav2">
+							<content>
+								<p>Регресирање трошкова целодневног и полудневног боравка деце, предшколског узраста обезбеђује се у укупном износу од 80%* од економске цене просечно по детету, у предшколским установама које се налазе у мрежи установа коју утврди општина.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla2-od8-clan35-stav3">
+							<content>
+								<p>Начин и услове регресирања трошкова из <ref wId="ref22" href="akn/rs/act/2017/113-266/srp@/!main~art_35__para_1->para_2" >ст. 1. и 2. овог</ref> члана утврђује надлежни општински орган.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="gla2-od8-clan36">
+						<num>36.</num>
+						<heading>*Службени гласник РС, број 67/1993</heading>
+						<paragraph wId="gla2-od8-clan36-stav1">
+							<content>
+								<p>Министар надлежан за друштвену бригу о деци прописује ближе услове и начин остваривања права на накнаду зараде за време породиљског, продуженог породиљског одсуства запосленог родитеља и одсуства са рада усвојиоца ради неге детета (<ref wId="ref24" href="akn/rs/act/2017/113-266/srp@/!main~art_12" >чл. 12. </ref>до 18), матерински додатак (<ref wId="ref25" href="akn/rs/act/2017/113-266/srp@/!main~art_19" >чл. 19. </ref>до 20), помоћ за опрему новорођенчета (<ref wId="ref23" href="akn/rs/act/2017/113-266/srp@/!main~art_20а" >члан 20а</ref>)*, додатак на децу (<ref wId="ref26" href="akn/rs/act/2017/113-266/srp@/!main~art_21" >чл. 21. </ref>до 30), као и права из <ref wId="ref27" href="akn/rs/act/2017/113-266/srp@/!main~art_30->art_32" >чл. 30. </ref>до 32, и висину накнаде која се обезбеђује из буџета за остваривање права из <ref wId="ref28" href="akn/rs/act/2017/113-266/srp@/!main~art_30->art_32" >чл. 30. </ref>до 32. овог закона.**</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla2-od8-clan36-stav2">
+							<content>
+								<p>Престао  је да важи ранији  <ref wId="ref30" href="akn/rs/act/2017/113-266/srp@/!main~art_36__para_2" >став 2.  </ref>(види <ref wId="ref29" href="akn/rs/act/2017/113-266/srp@/!main~art_174" >члан 174. </ref>Закона  – 62/2003-1)</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla2-od8-clan36-stav3">
+							<content>
+								<p>*<ref wId="ref31" href="akn/rs/act/1993/67/srp@">Службени гласник РС, број 67/1993</ref></p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla2-od8-clan36-stav4">
+							<content>
+								<p>**<ref wId="ref32" href="akn/rs/act/1994/28/srp@">Службени гласник РС, број 28/1994</ref></p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla2-od8-clan36-stav5">
+							<content>
+								<p>НАПОМЕНА ИЗДАВАЧА:  Престао је да важи  <ref wId="ref34" href="akn/rs/act/2017/113-266/srp@/!main~art_36__para_1" >став 1. овог</ref> члана у делу који се односи на право на накнаду зараде за време породиљског, продуженог породиљског одсуства запосленог родитеља и одсуства са рада усвојиоца ради неге детета, материјски додатак, помоћ за опрему новорођенчета и додатак на децу (види <ref wId="ref33" href="akn/rs/act/2017/113-266/srp@/!main~art_38" >члан 38. </ref>Закона – 16/2002-1).</p>
+							</content>
+						</paragraph>
+					</article>
+				</section>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>ПОСТУПАК ЗА ОСТВАРИВАЊЕ ПРАВА</heading>
+				<paragraph wId="gla3-clan36-stav1">
+					<content>
+						<p>Чл. 37. до 42.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla3-clan36-stav2">
+					<content>
+						<p>Престали  су да важе (види члан 38. Закона – 16/2002-1).</p>
+					</content>
+				</paragraph>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>ПРЕДШКОЛСКО ВАСПИТАЊЕ И ОБРАЗОВАЊЕ</heading>
+				<paragraph wId="gla4-clan36-stav1">
+					<content>
+						<p>Чл. 43. и 44.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-clan36-stav2">
+					<content>
+						<p>Престали  су да важе (види члан 174. Закона  – 62/2003-1)</p>
+					</content>
+				</paragraph>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>УСТАНОВЕ ЗА ДЕЦУ</heading>
+				<article wId="gla5-clan45">
+					<num>45.</num>
+					<paragraph wId="gla5-clan45-stav1">
+						<content>
+							<p>Права на: боравак, предшколско васпитање и образовање и превентивну здравствену заштиту деце предшколског узраста; васпитно-образовни програм у години пред полазак у основну школу у трајању од три сата дневно у школској години* боравак деце до 10 година старости у предшколској установи и одмор и рекреацију деце до 15 година старости у дечјем одмаралишту остварују се преко установа за децу утврђених овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan45-stav2">
+						<content>
+							<p>Установе за децу из <ref wId="ref35" href="akn/rs/act/2017/113-266/srp@/!main~art_45__para_1" >става 1. овог</ref> члана оснива општина.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan45-stav3">
+						<content>
+							<p>Мрежу установа за децу утврђује општина, на основу критеријума које доноси Влада Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan45-stav4">
+						<content>
+							<p>*<ref wId="ref36" href="akn/rs/act/1994/28/srp@">Службени гласник РС”, број 28/1994</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan45-stav5">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је  престао да важи у делу који се односи на предшколске установе (види <ref wId="ref37" href="akn/rs/act/2017/113-266/srp@/!main~art_174" >члан 174. </ref>Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan46">
+					<num>46.</num>
+					<paragraph wId="gla5-clan46-stav1">
+						<content>
+							<p>Установа за децу може бити основана и почети са радом ако има обезбеђен простор, опрему и стручне и друге раднике.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan46-stav2">
+						<content>
+							<p>Министар надлежан за друштвену бригу о деци, министар надлежан за просвету и министар надлежан за здравље, споразумно утврђују ближе услове у погледу простора, опреме, броја стручних и других радника у установама за децу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan46-stav3">
+						<content>
+							<p>Установа за децу може почети са радом када општинска управа утврди да су испуњени услови за њено оснивање и почетак рада.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan46-stav4">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је престао да важи у делу који се односи на предшколске установе (види <ref wId="ref38" href="akn/rs/act/2017/113-266/srp@/!main~art_174" >члан 174. </ref>Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan47">
+					<num>47.</num>
+					<paragraph wId="gla5-clan47-stav1">
+						<content>
+							<p>Друга правна и физичка лица могу обављати делатност, односно послове у области друштвене бриге о деци под условима и на начин утврђен овим законом и прописима донетим на основу овог закона* за обављање тих делатности, односно послова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan47-stav2">
+						<content>
+							<p>Друга правна и физичка лица могу обављати делатност, односно послове друштвене бриге о деци, у зависности од њихове врсте, ако имају обезбеђен одговарајући простор, опрему и ако лице које обавља те послове има одговарајућу стручну спрему.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan47-stav3">
+						<content>
+							<p>Ближе услове и врсте послова друштвене бриге о деци* из <ref wId="ref39" href="akn/rs/act/2017/113-266/srp@/!main~art_47__para_2" >става 2. овог</ref> члана прописују споразумно министар надлежан за друштвену бригу о деци, министар надлежан за просвету и министар надлежан за здравље.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan47-stav4">
+						<content>
+							<p>Када друга правна и физичка лица оснивају установе за децу одређене овим законом са делокругом утврђеним овим законом, у погледу услова за њихово оснивање примењују се одредбе овог закона и акти надлежног министарства прописани за те установе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan47-stav5">
+						<content>
+							<p>*<ref wId="ref40" href="akn/rs/act/1994/28/srp@">Службени гласник РС”, број 28/1994</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan47-stav6">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је престао да важи у делу који се односи на предшколске установе (види <ref wId="ref41" href="akn/rs/act/2017/113-266/srp@/!main~art_174" >члан 174. </ref>Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan48">
+					<num>48.</num>
+					<paragraph wId="gla5-clan48-stav1">
+						<content>
+							<p>На оснивање, управљање, руковођење, положај запослених у установи за децу, надзор над законитошћу рада, као и на укидање, примењују се одредбе закона којима се уређује систем јавних служби.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan48-stav2">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је престао да важи у делу који се односи на предшколске установе (види <ref wId="ref42" href="akn/rs/act/2017/113-266/srp@/!main~art_174" >члан 174. </ref>Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan49">
+					<num>49.</num>
+					<paragraph wId="gla5-clan49-stav1">
+						<content>
+							<p>Установом за децу руководи директор.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan49-stav2">
+						<content>
+							<p>Директор установе одговоран је за: законитост рада, организацију рада, остваривање програма рада установе и вођење прописане документације и евиденције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan49-stav3">
+						<content>
+							<p>За директора установе за децу може бити именовано лице које има високу или вишу школску спрему просветног, педагошког, психолошког, социолошког, социјалног или здравственог смера.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan49-stav4">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је престао да важи у делу који се односи на предшколске установе (види <ref wId="ref43" href="akn/rs/act/2017/113-266/srp@/!main~art_174" >члан 174. </ref>Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan50">
+					<num>50.</num>
+					<paragraph wId="gla5-clan50-stav1">
+						<content>
+							<p>Орган управљања установе за децу је управни одбор.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan50-stav2">
+						<content>
+							<p>Управни одбор има најмање пет чланова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan50-stav3">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је престао да важи у делу који се односи на предшколске установе (види <ref wId="ref44" href="akn/rs/act/2017/113-266/srp@/!main~art_174" >члан 174. </ref>Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan51">
+					<num>51.</num>
+					<paragraph wId="gla5-clan51-stav1">
+						<content>
+							<p>Када се у установи за децу организује штрајк, минимум процеса рада који се обезбеђује је боравак, чување, нега и исхрана деце.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan51-stav2">
+						<content>
+							<p>Општим актом установе за децу утврђују се послови из <ref wId="ref45" href="akn/rs/act/2017/113-266/srp@/!main~art_51__para_1" >става 1. овог</ref> члана који морају да се обављају за време трајања штрајка, као и начин и услови за обављање тих послова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan51-stav3">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је престао да важи у делу који се односи на предшколске установе (види <ref wId="ref46" href="akn/rs/act/2017/113-266/srp@/!main~art_174" >члан 174. </ref>Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan52">
+					<num>52.</num>
+					<paragraph wId="gla5-clan52-stav1">
+						<content>
+							<p>Установа за децу води евиденцију о свом раду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan52-stav2">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је престао да важи у делу који се односи на предшколске установе (види <ref wId="ref47" href="akn/rs/act/2017/113-266/srp@/!main~art_174" >члан 174. </ref>Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan53">
+					<num>53.</num>
+					<paragraph wId="gla5-clan53-stav1">
+						<content>
+							<p>Установа за децу доноси годишњи програм рада, уз претходну сагласност оснивача, најкасније до 30. септембра текуће године и подноси извештај о извршењу годишњег програма рада оснивачу за претходну годину.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan53-stav2">
+						<intro>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је престао да важи у делу који се односи на предшколске установе (види <ref wId="ref48" href="akn/rs/act/2017/113-266/srp@/!main~art_174" >члан 174. </ref>Закона  – 62/2003-1).</p>
+						</intro>
+						<point wId="gla5-clan53-stav2-tac1">
+							<num>1.</num>
+							<content>
+								<p> Предшколске установе</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla5-clan53-stav3">
+						<content>
+							<p>Чл. 54.  до 62.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan53-stav4">
+						<content>
+							<p>Престали  су да важе (види <ref wId="ref49" href="akn/rs/act/2017/113-266/srp@/!main~art_174" >члан 174. </ref>Закона  – 62/2003-1)</p>
+						</content>
+					</paragraph>
+				</article>
+				<section wId="gla5-od2">
+					<num>2.</num>
+					<heading> Дечје одмаралиште</heading>
+					<article wId="gla5-od2-clan63">
+						<num>63.</num>
+						<paragraph wId="gla5-od2-clan63-stav1">
+							<content>
+								<p>У дечјем одмаралишту, деци до 15 година старости, обезбеђује се боравак, васпитно-образовни рад, здравствена заштита, исхрана, спортско-рекреативни и други садржај кроз организовање активног одмора, рекреације, наставе у природи и климатског опоравка.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla5-od2-clan63-stav2">
+							<content>
+								<p>Министар надлежан за друштвену бригу о деци, министар надлежан за просвету и министар надлежан за здравље споразумно утврђују основе програма одмора, рекреације, климатског опоравка и наставе у природи.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla5-od2-clan63-stav3">
+							<content>
+								<p>Министар надлежан за друштвену бригу о деци, прописује норматив исхране деце и начин вођења евиденције о примени норматива исхране.*</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="gla5-od2-clan64">
+						<num>64.</num>
+						<heading>*Службени гласник РС, број 28/1994</heading>
+						<paragraph wId="gla5-od2-clan64-stav1">
+							<content>
+								<p>Рад са децом у дечјем одмаралишту организује се у групама.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla5-od2-clan64-stav2">
+							<intro>
+								<p>Број присутне деце у групи, у зависности од узраста, је:</p>
+							</intro>
+							<point wId="gla5-od2-clan64-stav2-tac1">
+								<num>1)</num>
+								<content>
+									<p> до 7 година – 10 деце</p>
+								</content>
+							</point>
+							<point wId="gla5-od2-clan64-stav2-tac2">
+								<num>2)</num>
+								<content>
+									<p> од 7 до 15 година – 25 деце.</p>
+								</content>
+							</point>
+						</paragraph>
+					</article>
+					<article wId="gla5-od2-clan65">
+						<num>65.</num>
+						<paragraph wId="gla5-od2-clan65-stav1">
+							<content>
+								<p>Стручне послове у дечјим одмаралиштима могу обављати лица са средњом, вишом и високом школском спремом (просветна, здравствена и дијететска струка).</p>
+							</content>
+						</paragraph>
+					</article>
+				</section>
+			</chapter>
+			<chapter wId="gla6">
+				<num>VI</num>
+				<heading>ОБЕЗБЕЂИВАЊЕ СРЕДСТАВА</heading>
+				<article wId="gla6-clan66">
+					<num>66.</num>
+					<paragraph wId="gla6-clan66-stav1">
+						<content>
+							<p>Средства за остваривање права од општег интереса утврђених у <ref wId="ref50" href="akn/rs/act/2017/113-266/srp@/!main~art_11__para_1" >члану 11. став 1. </ref>тач. 1) до 6) овог закона, обезбеђују се у Буџету Републике и преносе министарству надлежном за друштвену бригу о деци, при чему се посебно воде средства за породиљска права, а посебно средства за додатак на децу и друга права.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan66-stav2">
+						<content>
+							<p>Средства за остваривање права из <ref wId="ref51" href="akn/rs/act/2017/113-266/srp@/!main~art_11__para_1" >члана 11. став 1. </ref>тач. 7) до 9) овог закона и средства за изградњу, доградњу и опремање установа за децу обезбеђују се у буџету општине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan66-stav3">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan66-stav4">
+						<content>
+							<p>Престао је да важи  <ref wId="ref54" href="akn/rs/act/2017/113-266/srp@/!main~art_66__para_1" >став 1. овог</ref> члана, осим у делу који се односи на предшколско васпитање и образовање за децу на дужем болничком лечењу и на васпитно-образовни програм у трајању од три сата пред полазак у основну школу,   ступањем на снагу Закона о финансијској помоћи породицама са децом ("<ref wId="ref53" href="akn/rs/act/2002/16/srp@">Службени  гласник РС", број 16/2002</ref>), односно  1. јуна 2002. године (види <ref wId="ref52" href="akn/rs/act/2017/113-266/srp@/!main~art_38" >члан 38. </ref>Закона – 16/2002-1).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan66-stav5">
+						<content>
+							<p>Члан  је престао да важи у делу који се односи на предшколско  образовање и васпитање (види <ref wId="ref55" href="akn/rs/act/2017/113-266/srp@/!main~art_174" >члан 174. </ref>Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan67">
+					<num>67.</num>
+					<paragraph wId="gla6-clan67-stav1">
+						<content>
+							<p>Цена услуга, односно програма изражава вредност и резултат рада којима се обезбеђује накнада материјалних трошкова, у складу са утврђеним нормативима, амортизацијом у складу са законом, зараде према важећим прописима, одговарајући износ за текуће и инвестиционо одржавање и средства за исплату законом одређених обавеза.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan67-stav2">
+						<content>
+							<p>Министар надлежан за друштвену бригу о деци прописује мерила за утврђивање цена услуга у дечјим установама.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan67-stav3">
+						<content>
+							<p>Надлежни општински орган утврђује цене услуга у установама за децу које се налазе у мрежи установа које утврђује општина.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan67-stav4">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је  престао је да важи у делу који се односи на предшкоске установе (види <ref wId="ref56" href="akn/rs/act/2017/113-266/srp@/!main~art_174" >члан 174. </ref>Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla7">
+				<num>VII</num>
+				<heading>НАДЗОР НАД ЗАКОНИТОШЋУ РАДА И НАД СТРУЧНИМ РАДОМ</heading>
+				<article wId="gla7-clan68">
+					<num>68.</num>
+					<paragraph wId="gla7-clan68-stav1">
+						<content>
+							<p>Надзор над законитошћу рада установа за децу врши министарство надлежно за друштвену бригу о деци. Надзор над законитошћу рада установе за децу на територији Аутономне покрајине Војводине поверава се одговарајућем органу управе Аутономне покрајине Војводина.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan68-stav2">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је престао је да важи у делу који се односи на предшкоске установе (види <ref wId="ref57" href="akn/rs/act/2017/113-266/srp@/!main~art_174" >члан 174. </ref>Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan69">
+					<num>69.</num>
+					<paragraph wId="gla7-clan69-stav1">
+						<content>
+							<p>Престао је да важи (види <ref wId="ref58" href="akn/rs/act/2017/113-266/srp@/!main~art_38" >члан 38. </ref>Закона – 16/2002-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan70">
+					<num>70.</num>
+					<paragraph wId="gla7-clan70-stav1">
+						<content>
+							<p>Надзор над стручним радом у остваривању васпитно-образовног рада врши министарство надлежно за просвету, над остваривањем превентивне здравствене заштите министарство надлежно за здравље и над остваривањем социјалног рада министарство надлежно за друштвену бригу о деци.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan70-stav2">
+						<content>
+							<p>Надзор над стручним радом врши се најмање једанпут у две године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan70-stav3">
+						<content>
+							<p>Министри надлежни за друштвену бригу о деци, здравље и просвету споразумно прописују начин и поступак за вршење надзора над стручним радом и споразумно утврђују годишњи програм спровођења надзора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan70-stav4">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је престао је да важи у делу који се односи на предшкоске установе (види <ref wId="ref59" href="akn/rs/act/2017/113-266/srp@/!main~art_174" >члан 174. </ref>Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan71">
+					<num>71.</num>
+					<paragraph wId="gla7-clan71-stav1">
+						<content>
+							<p>Извештај о извршеном надзору над стручним радом доставља се у року од 30 дана по обављеном надзору установи у којој је извршен надзор, оснивачу установе и органу који је дао сагласност за обављање делатности, односно послова, другим правним и физичким лицима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan71-stav2">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је престао је да важи у делу који се односи на предшкоске установе (види <ref wId="ref60" href="akn/rs/act/2017/113-266/srp@/!main~art_174" >члан 174. </ref>Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan72">
+					<num>72.</num>
+					<paragraph wId="gla7-clan72-stav1">
+						<content>
+							<p>Надзор над стручним радом могу да врше лица која имају високу школску спрему одговарајуће струке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan72-stav2">
+						<content>
+							<p>Изузетно од <ref wId="ref61" href="akn/rs/act/2017/113-266/srp@/!main~art_72__para_1" >става 1. овог</ref> члана, надзор над пословима исхране могу вршити и лица са вишом школском спремом одговарајуће струке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan72-stav3">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је престао је да важи у делу који се односи на предшкоске установе (види <ref wId="ref62" href="akn/rs/act/2017/113-266/srp@/!main~art_174" >члан 174. </ref>Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla8">
+				<num>VIII</num>
+				<heading>ДЕЧЈА НЕДЕЉА</heading>
+				<paragraph wId="gla8-clan72-stav1">
+					<content>
+						<p>Чл. 73 до 75.Престали су да важе (види члан 56.  Закона - 113/2017-266)</p>
+					</content>
+				</paragraph>
+				<article wId="gla8-clan76">
+					<num>76.</num>
+					<heading>IХ. КАЗНЕНЕ ОДРЕДБЕ</heading>
+				</article>
+				<article wId="gla8-clan77">
+					<num>77.</num>
+					<heading>Престао је да важи (види члан 38. Закона – 16/2002-1)</heading>
+				</article>
+				<article wId="gla8-clan78">
+					<num>78.</num>
+					<heading>Престао је да важи (види члан 174. Закона  – 62/2003-1)</heading>
+					<paragraph wId="gla8-clan78-stav1">
+						<content>
+							<p>Новчаном казном  до 1.000.000   динара* казниће се организација, односно друго правно лице које не убира средства „Дечје недеље”, односно која не уплаћује убрана средства у буџет Републике (<ref wId="ref63" href="akn/rs/act/2017/113-266/srp@/!main~art_74" >члан 74</ref>).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan78-stav2">
+						<content>
+							<p>За прекршај из <ref wId="ref64" href="akn/rs/act/2017/113-266/srp@/!main~art_78__para_1" >става 1. овог</ref> члана казниће се новчаном казном  до 50.000   динара* и одговорно лице у организацији, односно другом правном лицу.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan79">
+					<num>79.</num>
+					<heading>*Службени  гласник РС, број 101/2005</heading>
+					<paragraph wId="gla8-clan79-stav1">
+						<content>
+							<p>Новчаном казном  до 50.000   динара* казниће се физичко лице које самостално обавља привредну, или другу делатност, које не убира средства „Дечје недеље”, односно које не уплаћује убрана средства у буџет Републике (<ref wId="ref65" href="akn/rs/act/2017/113-266/srp@/!main~art_74" >члан 74</ref>).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan79-stav2">
+						<content>
+							<p>*<ref wId="ref66" href="akn/rs/act/0205/101/srp@">Службени  гласник РС, број 101/0205</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan80">
+					<num>80.</num>
+					<heading>Х. ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+					<paragraph wId="gla8-clan80-stav1">
+						<content>
+							<p>До доношења подзаконских прописа, у складу са овим законом, примењиваће се постојећи прописи, уколико нису у супротности са овим законом.</p>
+						</content>
+					</paragraph>
+					<article wId="gla8-clan80.а">
+						<num>80а</num>
+					</article>
+					<article wId="gla8-clan80.б">
+						<num>80б</num>
+						<heading>Брисан је члан  80а који је додат у броју 29/1993  (види члан 13. Закона – 53/1993-2459)</heading>
+					</article>
+				</article>
+				<article wId="gla8-clan81">
+					<num>81.</num>
+					<heading>Брисан је  члан 80б који је додат у броју 29/1993  (види члан 13. Закона – 67/1993-3075)</heading>
+					<paragraph wId="gla8-clan81-stav1">
+						<content>
+							<p>Постојеће установе за децу, ускладиће своју организацију и општа акта са одредбама овог закона у року од шест месеци од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan81-stav2">
+						<content>
+							<p>До доношења општих аката из <ref wId="ref67" href="akn/rs/act/2017/113-266/srp@/!main~art_81__para_1" >става 1. овог</ref> члана примењиваће се важећи општи акти, уколико нису у супротности са овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan82">
+					<num>82.</num>
+					<paragraph wId="gla8-clan82-stav1">
+						<content>
+							<p>Оснивачка права и обавезе према постојећим установама за децу које су основали Град Београд, односно покрајина, а које буду утврђене мрежом установа, у складу са овим законом има општина, на дан ступања на снагу акта којим се утврђује мрежа установа за децу.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan83">
+					<num>83.</num>
+					<paragraph wId="gla8-clan83-stav1">
+						<content>
+							<p>Земљиште, зграде и друга средства установа за децу, чији је оснивач општина, град Београд, односно покрајина, а које буду утврђене мрежом установа, прелазе у државну својину, на дан ступања на снагу акта којим се утврђује мрежа установа за децу.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan84">
+					<num>84.</num>
+					<paragraph wId="gla8-clan84-stav1">
+						<content>
+							<p>Медицинске сестре, васпитачи, стручни сарадници и сарадници-васпитачи који су запослени у предшколској установи, а који су по прописима који су важили до ступања на снагу овог закона, испуњавали услове у погледу врсте и степена стручне спреме, могу и даље радити у предшколској установи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan84-stav2">
+						<content>
+							<p>Васпитно-образовни рад у предшколској установи могу обављати и лица из <ref wId="ref68" href="akn/rs/act/2017/113-266/srp@/!main~art_84__para_1" >става 1. овог</ref> члана која у моменту ступања на снагу овог закона, нису била у радном односу у предшколској установи, ако имају више од 20 година радног искуства у предшколској установи.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan85">
+					<num>85.</num>
+					<paragraph wId="gla8-clan85-stav1">
+						<content>
+							<p>Медицинске сестре, васпитачи, стручни сарадници и сарадници-васпитачи предшколских установа чије је седиште на територији Аутономне покрајине Војводине и Аутономне покрајине Косова и Метохије, који до ступања на снагу овог закона нису положили стручни испит, по прописима из области образовања, могу и даље обављати послове у предшколској установи, ако у року од две године од дана ступања на снагу овог закона, положе стручни испит у складу са овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan85-stav2">
+						<content>
+							<p>Запослени из <ref wId="ref69" href="akn/rs/act/2017/113-266/srp@/!main~art_85__para_1" >става 1. овог</ref> члана са преко 25 година радног искуства у области васпитања и образовања не полажу стручни испит.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan86">
+					<num>86.</num>
+					<paragraph wId="gla8-clan86-stav1">
+						<content>
+							<p>Даном ступања на снагу овог закона престаје коришћење права, остварених на основу прописа који су били на снази, до дана ступања на снагу овог закона, осим права код којих ће се извршити одговарајуће усклађивање са одредбама овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan86-stav2">
+						<content>
+							<p>Првостепени органи надлежни за решавање о правима из овог закона извршиће усклађивање права на додатак на децу, које је остварено по прописима који су били на снази до дана ступања на снагу овог закона, са одредбама овог закона, у року од три месеца од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan86-stav3">
+						<content>
+							<p>Првостепени органи, надлежни за решавање о правима из овог закона, извршиће усклађивање права на новчану помоћ незапосленој жени за време породиљског одсуства и новчану помоћ незапосленом лицу и редовном студенту за време трудноће и порођаја, које је остварено по прописима који су били на снази до дана ступања на снагу овог закона, са одредбама овог закона о праву на матерински додатак, у року од месец дана од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan86-stav4">
+						<content>
+							<p>Лицима која остваре право на матерински додатак у складу са овим законом у време трајања материнског додатка урачунаће се и време за које су користили право на новчану помоћ незапосленој жени за време породиљског одсуства, односно новчану помоћ незапосленом лицу и редовном студенту за време трудноће и порођаја, по прописима који су били на снази до дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan86-stav5">
+						<content>
+							<p>Првостепени органи надлежни за решавање о правима из овог закона, извршиће усклађивање права на накнаду трошкова боравка у предшколској установи за треће дете из породица са троје деце, у општинама са негативном стопом природног прираштаја становништва, која су остварена по прописима који су били на снази до дана ступања на снагу овог закона, са одредбама овог закона, у року од месец дана од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan86-stav6">
+						<content>
+							<p>Поступци за остваривање права који су започети пре ступања на снагу овог закона, окончаће се по одредбама овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan87">
+					<num>87.</num>
+					<paragraph wId="gla8-clan87-stav1">
+						<intro>
+							<p>Ступањем на снагу овог закона престају да важе:</p>
+						</intro>
+						<point wId="gla8-clan87-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> Закон о друштвеној бризи о деци („<ref wId="ref70" href="akn/rs/act/90/4/srp@">Службени гласник СРС”, бр. 4/90</ref> и 38/90 и „<ref wId="ref71" href="akn/rs/act/90/21/srp@">Службени гласник РС”, број 21/90</ref>), Закон о друштвеној бризи о деци („<ref wId="ref72" href="akn/rs/act/90/9/srp@">Службени лист САП Војводине”, бр. 9/90</ref> и 38/90) и Закон о дечјој заштити („<ref wId="ref73" href="akn/rs/act/76/18/srp@">Службени лист САП Косово”, број 18/76</ref>), осим одредаба које се односе на додатак на децу које престају да важе у року од 90 дана од дана ступања на снагу овог закона.</p>
+							</content>
+						</point>
+						<point wId="gla8-clan87-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> Закон о пословима и интересима друштва у области предшколског васпитања и образовања („<ref wId="ref74" href="akn/rs/act/90/6/srp@">Службени лист САП Војводине”, бр. 6/90</ref> и 9/90), Закон о предшколском васпитању и образовању („<ref wId="ref75" href="akn/rs/act/78/24/srp@">Службени лист САП Косово”, број 24/78</ref>), Закон о самоуправним интересним заједницама социјалне заштите у делу којим се уређује област дечје заштите („<ref wId="ref76" href="akn/rs/act/74/35/srp@">Службени лист САП Косово”, бр. 35/74</ref> и 9/83), Закон о дечјој недељи („<ref wId="ref77" href="akn/rs/act/72/28/srp@">Службени лист САП Косово”, бр. 28/72</ref> и 52/75), Закон о васпитању и образовању („<ref wId="ref78" href="akn/rs/act/83/15/srp@">Службени лист САП Војводине”, бр. 15/83, 11/86, 5/87, 17/88</ref> и 23/88), у делу којим се уређује предшколско васпитање и образовање, Закон о огледима у области предшколског, основног и средњег образовања („<ref wId="ref79" href="akn/rs/act/76/27/srp@">Службени лист САП Косово”, број 27/76</ref>) у делу који се односи на предшколско васпитање и образовање и Закон о сталном усавршавању наставног и васпитног особља („<ref wId="ref80" href="akn/rs/act/78/47/srp@">Службени гласник СР Србије”, бр. 47/78, 16/79</ref> и 43/84), у делу који се односи на предшколско васпитање и образовање.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan88">
+					<num>88.</num>
+					<paragraph wId="gla8-clan88-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan88-stav2">
+						<content>
+							<p>ОДРЕДБЕ КОЈЕ НИСУ УНЕТЕ У  "ПРЕЧИШЋЕН ТЕКСТ" ЗАКОНА</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan3">
+					<num>3.</num>
+					<heading>Закон о допунама  Закона о друштвеној бризи о деци:   „Службени гласник РС”, број  29/1993-1184</heading>
+					<paragraph wId="gla8-clan3-stav1">
+						<content>
+							<p>Овај закона ступа на  снагу осмог дана од дана објављивања у  „Службеном гласнику Републике Србије”,  а одредбе <ref wId="ref81" href="akn/rs/act/2017/113-266/srp@/!main~art_2" >члана 2. овог</ref> закона примењиваће се од 1. марта 1993. године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan3-stav2">
+						<content>
+							<p>Закон о изменама и допунама  Закона о друштвеној бризи о деци:   „<ref wId="ref82" href="akn/rs/act/1993/53/srp@">Службени гласник РС”, број  53/1993</ref>-2459</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan3-stav3">
+						<content>
+							<p>Члан  14.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan3-stav4">
+						<content>
+							<p>Овај закона ступа на  снагу осмог дана од дана објављивања у  „Службеном гласнику Републике Србије”,  а примењиваће се од 1. августа 1993. године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan3-stav5">
+						<content>
+							<p>Закон о изменама и допунама  Закона о друштвеној бризи о деци:   „<ref wId="ref83" href="akn/rs/act/1993/67/srp@">Службени гласник РС”, број  67/1993</ref>-3075</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan3-stav6">
+						<content>
+							<p>Члан  14.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan3-stav7">
+						<content>
+							<p>Овај закона ступа на  снагу осмог дана од дана објављивања у  „Службеном гласнику Републике Србије”,  а одредбе чл. <ref wId="ref84" href="akn/rs/act/2017/113-266/srp@/!main~art_3" >3</ref>. и <ref wId="ref85" href="akn/rs/act/2017/113-266/srp@/!main~art_6" >6</ref>. примењиваће се од 1. јула 1993. године.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan17">
+					<num>17.</num>
+					<heading>Закон о изменама и допунама  Закона о друштвеној бризи о деци:   „Службени гласник РС”, број 28/1994-776</heading>
+					<paragraph wId="gla8-clan17-stav1">
+						<content>
+							<p>Даном ступања на снагу овог закона престају да важе: Уредба о висини додатка на децу („<ref wId="ref86" href="akn/rs/act/93/105/srp@">Службени гласник РС”, бр. 105/93</ref> и 8/94), Уредба о висини материнског додатка („<ref wId="ref87" href="akn/rs/act/93/105/srp@">Службени гласник РС”, бр. 105/93</ref> и 8/94), Уредба о остваривању права на накнаду зараде за време породиљског, продуженог породиљског одсуства запосленог родитеља и одсуства са рада усвојиоца ради неге детета („<ref wId="ref88" href="akn/rs/act/93/112/srp@">Службени гласник РС”, бр. 112/93</ref> и 8/94) и Уредба о висини помоћи за опрему новорођенчета („<ref wId="ref89" href="akn/rs/act/94/8/srp@">Службени гласник РС”, број 8/94</ref>).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan18">
+					<num>18.</num>
+					<paragraph wId="gla8-clan18-stav1">
+						<content>
+							<p>Овај закона ступа на  снагу осмог дана од дана објављивања у  „Службеном гласнику Републике Србије”,  а одредбе <ref wId="ref91" href="akn/rs/act/2017/113-266/srp@/!main~art_6" >чл. 6. </ref>примењиваће се од 1. априла 1994. године а одредбе <ref wId="ref90" href="akn/rs/act/2017/113-266/srp@/!main~art_9" >члана 9. </ref>од  1. септембра 1994. године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan18-stav2">
+						<content>
+							<p>Закон о изменама  Закона о друштвеној бризи о деци:   „<ref wId="ref92" href="akn/rs/act/1994/47/srp@">Службени гласник РС”, број   47/1994</ref>-1472</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan18-stav3">
+						<content>
+							<p>Члан  4.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan18-stav4">
+						<content>
+							<p>Овај закона ступа на  снагу осмог дана од дана објављивања у  „Службеном гласнику Републике Србије”,  а одредбе чл. <ref wId="ref93" href="akn/rs/act/2017/113-266/srp@/!main~art_1" >1</ref>. и <ref wId="ref94" href="akn/rs/act/2017/113-266/srp@/!main~art_3" >3</ref>. примењиваће се од 1. јуна 1994. године.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan6">
+					<num>6.</num>
+					<heading>Закон о изменама и допунама  Закона о друштвеној бризи о деци:   „Службени гласник РС”, број 29/2001-5</heading>
+					<paragraph wId="gla8-clan6-stav1">
+						<content>
+							<p>Обрачун износа материнског додатка, помоћи за опрему новорођенчета и додатка на децу за јун, јул и авгу<ref wId="ref95" href="akn/rs/act/2017/113-266/srp@/!main~art_6__para_2001" >ст 2001. </ref>године вршиће се тако што ће се износи ових права за мај 2001. године усклађивати са индексом трошкова живота за месец за који се врши исплата у односу на претходни месец.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan7">
+					<num>7.</num>
+					<paragraph wId="gla8-clan7-stav1">
+						<content>
+							<p>Овај закон ступа на снагу 1. јуна 2001. године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan7-stav2">
+						<content>
+							<p>ЗАКОН</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan7-stav3">
+						<content>
+							<p>о  друштвеној бризи о деци</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan7-stav4">
+						<content>
+							<p>„Службени гласник РС”, бр. 49. од 21.  августа 1992, 29 од 15.  априла 1993, 53 од 16.  јула 1993,   53 од 16. јула 1993 -  др. закон,  67 од 30.  августа 1993,   67 од 30. августа 1993 -  др. закон,  28 од 22.  априла 1994, 47 од 14.  јула 1994, 48 од 20. јула 1994 -  др. закон, 25 од 29.  маја 1996, 29 од 17.  маја 2001, 16 од 5. априла 2002 -  др. закон, 62 од 17. јуна 2003 -  др. закон, 64 од 24.  јуна 2003  -исправка  др. закона,   101 од 21. новембра 2005 -  др. закон, 18 од 26. марта 2010 -  др. закон,  113 од 17. децембра 2017 - др. закон</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan7-stav5">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА: Даном почетка примене Закона о финансијској подршци  породици са децом ("<ref wId="ref98" href="akn/rs/act/2017/113/srp@">Службени гласник РС", број 113/2017</ref>), односно 1. јула 2018.  године, престају да важе одредбе <ref wId="ref97" href="akn/rs/act/2017/113-266/srp@/!main~art_73->art_75" >чл. 73. </ref>до 75. Закона (види <ref wId="ref96" href="akn/rs/act/2017/113/srp@/!main~/art_56">члан 56. Закона -  113/2017-266</ref>) (текст закона пре измена из броја 113/2017 можетепогледати са  десне стране у делу "Верзије пречишћеног текста").</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОПШТЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Престао је да важи (види члан 38. Закона – 16/2002-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<paragraph wId="gla1-clan2-stav1">
+						<intro>
+							<p>Друштвену бригу о деци у смислу овог закона чине права родитеља и деце и организоване делатности и активности којима се обезбеђује:</p>
+						</intro>
+						<point wId="gla1-clan2-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> престала је да важи (види члан 38. Закона – 16/2002-1);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> престала је да важи (види члан 38. Закона – 16/2002-1);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> престала је да важи (види члан 174. Закона  – 62/2003-1);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> престала је да важи (види члан 174. Закона  – 62/2003-1);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p>  престала је да важи (види члан 61. Закона – 18/2010-48);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> престала је да важи (види члан 38. Закона – 16/2002-1).</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<heading>Престао је да важи (види члан 174. Закона – 62/2003-1 и исправку Закона – 64/2003-74)</heading>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>Престао је да важи (види члан 174. Закона – 62/2003-1 и исправку Закона – 64/2003-74)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav2">
+						<content>
+							<p>Чл. 5.  до  9.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav3">
+						<content>
+							<p>Престали  су да важе (види члан 38. Закона – 16/2002-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan10">
+					<num>10.</num>
+					<paragraph wId="gla1-clan10-stav1">
+						<content>
+							<p>Брисан је (види члан 3. Закона – 53/1993-2459).</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ПРАВА У ОБЛАСТИ ДРУШТВЕНЕ БРИГЕ О ДЕЦИ</heading>
+				<article wId="gla2-clan11">
+					<num>11.</num>
+					<paragraph wId="gla2-clan11-stav1">
+						<intro>
+							<p>Права у области друштвене бриге о деци у смислу овог закона су:</p>
+						</intro>
+						<point wId="gla2-clan11-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> престала је да важи (види члан 38. Закона – 16/2002-1);</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> престала је да важи (види члан 38. Закона – 16/2002-1);</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav2">
+						<intro>
+							<p>2а) престала је да важи (види члан 38. Закона – 16/2002-1);</p>
+						</intro>
+						<point wId="gla2-clan11-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> престала је да важи (види члан 38. Закона – 16/2002-1);</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> престала је да важи (види члан 38. Закона – 16/2002-1);</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav2-tac5">
+							<num>5)</num>
+							<content>
+								<p>  престала је да важи (види члан 61. Закона – 18/2010-48);</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav2-tac6">
+							<num>6)</num>
+							<content>
+								<p> престала је да важи (види члан 174. Закона  – 62/2003-1);</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav2-tac7">
+							<num>7)</num>
+							<content>
+								<p> престала је да важи (види члан 174. Закона  – 62/2003-1);</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav2-tac8">
+							<num>8)</num>
+							<content>
+								<p> одмор и рекреација деце до 15 година старости у дечјем одмаралишту;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav2-tac9">
+							<num>9)</num>
+							<content>
+								<p> регресирање трошкова боравка деце у предшколској установи, одмора и рекреације.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav3">
+						<content>
+							<p>Престали су да важе ранији ст. 2. до 4. (види члан 174. Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav4">
+						<content>
+							<p>Чл. 12. до 30.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav5">
+						<content>
+							<p>Престали  су да важе (види члан 38. Закона – 16/2002-1)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav6">
+						<content>
+							<p>Чл. 31. до 33.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav7">
+						<content>
+							<p>Престали су да важе (види члан 174. Закона  – 62/2003-1)</p>
+						</content>
+					</paragraph>
+				</article>
+				<section wId="gla2-od8">
+					<num>8.</num>
+					<heading> Одмор и рекреација деце до 15 година старости у дечјем одмаралишту</heading>
+					<article wId="gla2-od8-clan34">
+						<num>34.</num>
+						<paragraph wId="gla2-od8-clan34-stav1">
+							<intro>
+								<p>Деца до 15 година старости у дечјем одмаралишту имају право на одмор, рекреацију, здравствену заштиту, исхрану, васпитно-образовни рад и спортско-рекреативне активности, под условима и на начин који утврди надлежни општински орган.</p>
+							</intro>
+							<point wId="gla2-od8-clan34-stav1-tac9">
+								<num>9.</num>
+								<content>
+									<p> Регресирање трошкова боравка деце у предшколској установи, одмора и рекреације</p>
+								</content>
+							</point>
+						</paragraph>
+					</article>
+					<article wId="gla2-od8-clan35">
+						<num>35.</num>
+						<paragraph wId="gla2-od8-clan35-stav1">
+							<content>
+								<p>Деца предшколског и основношколског узраста, у зависности од материјалног положаја породице, имају право на регресирање трошкова борава у предшколској установи.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla2-od8-clan35-stav2">
+							<content>
+								<p>Регресирање трошкова целодневног и полудневног боравка деце, предшколског узраста обезбеђује се у укупном износу од 80%* од економске цене просечно по детету, у предшколским установама које се налазе у мрежи установа коју утврди општина.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla2-od8-clan35-stav3">
+							<content>
+								<p>Начин и услове регресирања трошкова из ст. 1. и 2. овог члана утврђује надлежни општински орган.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="gla2-od8-clan36">
+						<num>36.</num>
+						<heading>*Службени гласник РС, број 67/1993</heading>
+						<paragraph wId="gla2-od8-clan36-stav1">
+							<content>
+								<p>Министар надлежан за друштвену бригу о деци прописује ближе услове и начин остваривања права на накнаду зараде за време породиљског, продуженог породиљског одсуства запосленог родитеља и одсуства са рада усвојиоца ради неге детета (чл. 12. до 18), матерински додатак (чл. 19. до 20), помоћ за опрему новорођенчета (члан 20а)*, додатак на децу (чл. 21. до 30), као и права из чл. 30. до 32, и висину накнаде која се обезбеђује из буџета за остваривање права из чл. 30. до 32. овог закона.**</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla2-od8-clan36-stav2">
+							<content>
+								<p>Престао  је да важи ранији  став 2.  (види члан 174. Закона  – 62/2003-1)</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla2-od8-clan36-stav3">
+							<content>
+								<p>*Службени гласник РС, број 67/1993</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla2-od8-clan36-stav4">
+							<content>
+								<p>**Службени гласник РС, број 28/1994</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla2-od8-clan36-stav5">
+							<content>
+								<p>НАПОМЕНА ИЗДАВАЧА:  Престао је да важи  став 1. овог члана у делу који се односи на право на накнаду зараде за време породиљског, продуженог породиљског одсуства запосленог родитеља и одсуства са рада усвојиоца ради неге детета, материјски додатак, помоћ за опрему новорођенчета и додатак на децу (види члан 38. Закона – 16/2002-1).</p>
+							</content>
+						</paragraph>
+					</article>
+				</section>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>ПОСТУПАК ЗА ОСТВАРИВАЊЕ ПРАВА</heading>
+				<paragraph wId="gla3-clan36-stav1">
+					<content>
+						<p>Чл. 37. до 42.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla3-clan36-stav2">
+					<content>
+						<p>Престали  су да важе (види члан 38. Закона – 16/2002-1).</p>
+					</content>
+				</paragraph>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>ПРЕДШКОЛСКО ВАСПИТАЊЕ И ОБРАЗОВАЊЕ</heading>
+				<paragraph wId="gla4-clan36-stav1">
+					<content>
+						<p>Чл. 43. и 44.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-clan36-stav2">
+					<content>
+						<p>Престали  су да важе (види члан 174. Закона  – 62/2003-1)</p>
+					</content>
+				</paragraph>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>УСТАНОВЕ ЗА ДЕЦУ</heading>
+				<article wId="gla5-clan45">
+					<num>45.</num>
+					<paragraph wId="gla5-clan45-stav1">
+						<content>
+							<p>Права на: боравак, предшколско васпитање и образовање и превентивну здравствену заштиту деце предшколског узраста; васпитно-образовни програм у години пред полазак у основну школу у трајању од три сата дневно у школској години* боравак деце до 10 година старости у предшколској установи и одмор и рекреацију деце до 15 година старости у дечјем одмаралишту остварују се преко установа за децу утврђених овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan45-stav2">
+						<content>
+							<p>Установе за децу из става 1. овог члана оснива општина.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan45-stav3">
+						<content>
+							<p>Мрежу установа за децу утврђује општина, на основу критеријума које доноси Влада Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan45-stav4">
+						<content>
+							<p>*Службени гласник РС”, број 28/1994</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan45-stav5">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је  престао да важи у делу који се односи на предшколске установе (види члан 174. Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan46">
+					<num>46.</num>
+					<paragraph wId="gla5-clan46-stav1">
+						<content>
+							<p>Установа за децу може бити основана и почети са радом ако има обезбеђен простор, опрему и стручне и друге раднике.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan46-stav2">
+						<content>
+							<p>Министар надлежан за друштвену бригу о деци, министар надлежан за просвету и министар надлежан за здравље, споразумно утврђују ближе услове у погледу простора, опреме, броја стручних и других радника у установама за децу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan46-stav3">
+						<content>
+							<p>Установа за децу може почети са радом када општинска управа утврди да су испуњени услови за њено оснивање и почетак рада.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan46-stav4">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је престао да важи у делу који се односи на предшколске установе (види члан 174. Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan47">
+					<num>47.</num>
+					<paragraph wId="gla5-clan47-stav1">
+						<content>
+							<p>Друга правна и физичка лица могу обављати делатност, односно послове у области друштвене бриге о деци под условима и на начин утврђен овим законом и прописима донетим на основу овог закона* за обављање тих делатности, односно послова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan47-stav2">
+						<content>
+							<p>Друга правна и физичка лица могу обављати делатност, односно послове друштвене бриге о деци, у зависности од њихове врсте, ако имају обезбеђен одговарајући простор, опрему и ако лице које обавља те послове има одговарајућу стручну спрему.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan47-stav3">
+						<content>
+							<p>Ближе услове и врсте послова друштвене бриге о деци* из става 2. овог члана прописују споразумно министар надлежан за друштвену бригу о деци, министар надлежан за просвету и министар надлежан за здравље.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan47-stav4">
+						<content>
+							<p>Када друга правна и физичка лица оснивају установе за децу одређене овим законом са делокругом утврђеним овим законом, у погледу услова за њихово оснивање примењују се одредбе овог закона и акти надлежног министарства прописани за те установе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan47-stav5">
+						<content>
+							<p>*Службени гласник РС”, број 28/1994</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan47-stav6">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је престао да важи у делу који се односи на предшколске установе (види члан 174. Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan48">
+					<num>48.</num>
+					<paragraph wId="gla5-clan48-stav1">
+						<content>
+							<p>На оснивање, управљање, руковођење, положај запослених у установи за децу, надзор над законитошћу рада, као и на укидање, примењују се одредбе закона којима се уређује систем јавних служби.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan48-stav2">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је престао да важи у делу који се односи на предшколске установе (види члан 174. Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan49">
+					<num>49.</num>
+					<paragraph wId="gla5-clan49-stav1">
+						<content>
+							<p>Установом за децу руководи директор.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan49-stav2">
+						<content>
+							<p>Директор установе одговоран је за: законитост рада, организацију рада, остваривање програма рада установе и вођење прописане документације и евиденције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan49-stav3">
+						<content>
+							<p>За директора установе за децу може бити именовано лице које има високу или вишу школску спрему просветног, педагошког, психолошког, социолошког, социјалног или здравственог смера.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan49-stav4">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је престао да важи у делу који се односи на предшколске установе (види члан 174. Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan50">
+					<num>50.</num>
+					<paragraph wId="gla5-clan50-stav1">
+						<content>
+							<p>Орган управљања установе за децу је управни одбор.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan50-stav2">
+						<content>
+							<p>Управни одбор има најмање пет чланова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan50-stav3">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је престао да важи у делу који се односи на предшколске установе (види члан 174. Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan51">
+					<num>51.</num>
+					<paragraph wId="gla5-clan51-stav1">
+						<content>
+							<p>Када се у установи за децу организује штрајк, минимум процеса рада који се обезбеђује је боравак, чување, нега и исхрана деце.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan51-stav2">
+						<content>
+							<p>Општим актом установе за децу утврђују се послови из става 1. овог члана који морају да се обављају за време трајања штрајка, као и начин и услови за обављање тих послова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan51-stav3">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је престао да важи у делу који се односи на предшколске установе (види члан 174. Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan52">
+					<num>52.</num>
+					<paragraph wId="gla5-clan52-stav1">
+						<content>
+							<p>Установа за децу води евиденцију о свом раду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan52-stav2">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је престао да важи у делу који се односи на предшколске установе (види члан 174. Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan53">
+					<num>53.</num>
+					<paragraph wId="gla5-clan53-stav1">
+						<content>
+							<p>Установа за децу доноси годишњи програм рада, уз претходну сагласност оснивача, најкасније до 30. септембра текуће године и подноси извештај о извршењу годишњег програма рада оснивачу за претходну годину.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan53-stav2">
+						<intro>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је престао да важи у делу који се односи на предшколске установе (види члан 174. Закона  – 62/2003-1).</p>
+						</intro>
+						<point wId="gla5-clan53-stav2-tac1">
+							<num>1.</num>
+							<content>
+								<p> Предшколске установе</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla5-clan53-stav3">
+						<content>
+							<p>Чл. 54.  до 62.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan53-stav4">
+						<content>
+							<p>Престали  су да важе (види члан 174. Закона  – 62/2003-1)</p>
+						</content>
+					</paragraph>
+				</article>
+				<section wId="gla5-od2">
+					<num>2.</num>
+					<heading> Дечје одмаралиште</heading>
+					<article wId="gla5-od2-clan63">
+						<num>63.</num>
+						<paragraph wId="gla5-od2-clan63-stav1">
+							<content>
+								<p>У дечјем одмаралишту, деци до 15 година старости, обезбеђује се боравак, васпитно-образовни рад, здравствена заштита, исхрана, спортско-рекреативни и други садржај кроз организовање активног одмора, рекреације, наставе у природи и климатског опоравка.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla5-od2-clan63-stav2">
+							<content>
+								<p>Министар надлежан за друштвену бригу о деци, министар надлежан за просвету и министар надлежан за здравље споразумно утврђују основе програма одмора, рекреације, климатског опоравка и наставе у природи.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla5-od2-clan63-stav3">
+							<content>
+								<p>Министар надлежан за друштвену бригу о деци, прописује норматив исхране деце и начин вођења евиденције о примени норматива исхране.*</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="gla5-od2-clan64">
+						<num>64.</num>
+						<heading>*Службени гласник РС, број 28/1994</heading>
+						<paragraph wId="gla5-od2-clan64-stav1">
+							<content>
+								<p>Рад са децом у дечјем одмаралишту организује се у групама.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla5-od2-clan64-stav2">
+							<intro>
+								<p>Број присутне деце у групи, у зависности од узраста, је:</p>
+							</intro>
+							<point wId="gla5-od2-clan64-stav2-tac1">
+								<num>1)</num>
+								<content>
+									<p> до 7 година – 10 деце</p>
+								</content>
+							</point>
+							<point wId="gla5-od2-clan64-stav2-tac2">
+								<num>2)</num>
+								<content>
+									<p> од 7 до 15 година – 25 деце.</p>
+								</content>
+							</point>
+						</paragraph>
+					</article>
+					<article wId="gla5-od2-clan65">
+						<num>65.</num>
+						<paragraph wId="gla5-od2-clan65-stav1">
+							<content>
+								<p>Стручне послове у дечјим одмаралиштима могу обављати лица са средњом, вишом и високом школском спремом (просветна, здравствена и дијететска струка).</p>
+							</content>
+						</paragraph>
+					</article>
+				</section>
+			</chapter>
+			<chapter wId="gla6">
+				<num>VI</num>
+				<heading>ОБЕЗБЕЂИВАЊЕ СРЕДСТАВА</heading>
+				<article wId="gla6-clan66">
+					<num>66.</num>
+					<paragraph wId="gla6-clan66-stav1">
+						<content>
+							<p>Средства за остваривање права од општег интереса утврђених у члану 11. став 1. тач. 1) до 6) овог закона, обезбеђују се у Буџету Републике и преносе министарству надлежном за друштвену бригу о деци, при чему се посебно воде средства за породиљска права, а посебно средства за додатак на децу и друга права.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan66-stav2">
+						<content>
+							<p>Средства за остваривање права из члана 11. став 1. тач. 7) до 9) овог закона и средства за изградњу, доградњу и опремање установа за децу обезбеђују се у буџету општине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan66-stav3">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan66-stav4">
+						<content>
+							<p>Престао је да важи  став 1. овог члана, осим у делу који се односи на предшколско васпитање и образовање за децу на дужем болничком лечењу и на васпитно-образовни програм у трајању од три сата пред полазак у основну школу,   ступањем на снагу Закона о финансијској помоћи породицама са децом ("Службени  гласник РС", број 16/2002), односно  1. јуна 2002. године (види члан 38. Закона – 16/2002-1).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan66-stav5">
+						<content>
+							<p>Члан  је престао да важи у делу који се односи на предшколско  образовање и васпитање (види члан 174. Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan67">
+					<num>67.</num>
+					<paragraph wId="gla6-clan67-stav1">
+						<content>
+							<p>Цена услуга, односно програма изражава вредност и резултат рада којима се обезбеђује накнада материјалних трошкова, у складу са утврђеним нормативима, амортизацијом у складу са законом, зараде према важећим прописима, одговарајући износ за текуће и инвестиционо одржавање и средства за исплату законом одређених обавеза.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan67-stav2">
+						<content>
+							<p>Министар надлежан за друштвену бригу о деци прописује мерила за утврђивање цена услуга у дечјим установама.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan67-stav3">
+						<content>
+							<p>Надлежни општински орган утврђује цене услуга у установама за децу које се налазе у мрежи установа које утврђује општина.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan67-stav4">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је  престао је да важи у делу који се односи на предшкоске установе (види члан 174. Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla7">
+				<num>VII</num>
+				<heading>НАДЗОР НАД ЗАКОНИТОШЋУ РАДА И НАД СТРУЧНИМ РАДОМ</heading>
+				<article wId="gla7-clan68">
+					<num>68.</num>
+					<paragraph wId="gla7-clan68-stav1">
+						<content>
+							<p>Надзор над законитошћу рада установа за децу врши министарство надлежно за друштвену бригу о деци. Надзор над законитошћу рада установе за децу на територији Аутономне покрајине Војводине поверава се одговарајућем органу управе Аутономне покрајине Војводина.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan68-stav2">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је престао је да важи у делу који се односи на предшкоске установе (види члан 174. Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan69">
+					<num>69.</num>
+					<paragraph wId="gla7-clan69-stav1">
+						<content>
+							<p>Престао је да важи (види члан 38. Закона – 16/2002-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan70">
+					<num>70.</num>
+					<paragraph wId="gla7-clan70-stav1">
+						<content>
+							<p>Надзор над стручним радом у остваривању васпитно-образовног рада врши министарство надлежно за просвету, над остваривањем превентивне здравствене заштите министарство надлежно за здравље и над остваривањем социјалног рада министарство надлежно за друштвену бригу о деци.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan70-stav2">
+						<content>
+							<p>Надзор над стручним радом врши се најмање једанпут у две године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan70-stav3">
+						<content>
+							<p>Министри надлежни за друштвену бригу о деци, здравље и просвету споразумно прописују начин и поступак за вршење надзора над стручним радом и споразумно утврђују годишњи програм спровођења надзора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan70-stav4">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је престао је да важи у делу који се односи на предшкоске установе (види члан 174. Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan71">
+					<num>71.</num>
+					<paragraph wId="gla7-clan71-stav1">
+						<content>
+							<p>Извештај о извршеном надзору над стручним радом доставља се у року од 30 дана по обављеном надзору установи у којој је извршен надзор, оснивачу установе и органу који је дао сагласност за обављање делатности, односно послова, другим правним и физичким лицима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan71-stav2">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је престао је да важи у делу који се односи на предшкоске установе (види члан 174. Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan72">
+					<num>72.</num>
+					<paragraph wId="gla7-clan72-stav1">
+						<content>
+							<p>Надзор над стручним радом могу да врше лица која имају високу школску спрему одговарајуће струке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan72-stav2">
+						<content>
+							<p>Изузетно од става 1. овог члана, надзор над пословима исхране могу вршити и лица са вишом школском спремом одговарајуће струке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan72-stav3">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је престао је да важи у делу који се односи на предшкоске установе (види члан 174. Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla8">
+				<num>VIII</num>
+				<heading>ДЕЧЈА НЕДЕЉА</heading>
+				<paragraph wId="gla8-clan72-stav1">
+					<content>
+						<p>Чл. 73 до 75.Престали су да важе (види члан 56.  Закона - 113/2017-266)</p>
+					</content>
+				</paragraph>
+				<article wId="gla8-clan76">
+					<num>76.</num>
+					<heading>IХ. КАЗНЕНЕ ОДРЕДБЕ</heading>
+				</article>
+				<article wId="gla8-clan77">
+					<num>77.</num>
+					<heading>Престао је да важи (види члан 38. Закона – 16/2002-1)</heading>
+				</article>
+				<article wId="gla8-clan78">
+					<num>78.</num>
+					<heading>Престао је да важи (види члан 174. Закона  – 62/2003-1)</heading>
+					<paragraph wId="gla8-clan78-stav1">
+						<content>
+							<p>Новчаном казном  до 1.000.000   динара* казниће се организација, односно друго правно лице које не убира средства „Дечје недеље”, односно која не уплаћује убрана средства у буџет Републике (члан 74).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan78-stav2">
+						<content>
+							<p>За прекршај из става 1. овог члана казниће се новчаном казном  до 50.000   динара* и одговорно лице у организацији, односно другом правном лицу.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan79">
+					<num>79.</num>
+					<heading>*Службени  гласник РС, број 101/2005</heading>
+					<paragraph wId="gla8-clan79-stav1">
+						<content>
+							<p>Новчаном казном  до 50.000   динара* казниће се физичко лице које самостално обавља привредну, или другу делатност, које не убира средства „Дечје недеље”, односно које не уплаћује убрана средства у буџет Републике (члан 74).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan79-stav2">
+						<content>
+							<p>*Службени  гласник РС, број 101/0205</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan80">
+					<num>80.</num>
+					<heading>Х. ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+					<paragraph wId="gla8-clan80-stav1">
+						<content>
+							<p>До доношења подзаконских прописа, у складу са овим законом, примењиваће се постојећи прописи, уколико нису у супротности са овим законом.</p>
+						</content>
+					</paragraph>
+					<article wId="gla8-clan80.а">
+						<num>80а</num>
+					</article>
+					<article wId="gla8-clan80.б">
+						<num>80б</num>
+						<heading>Брисан је члан  80а који је додат у броју 29/1993  (види члан 13. Закона – 53/1993-2459)</heading>
+					</article>
+				</article>
+				<article wId="gla8-clan81">
+					<num>81.</num>
+					<heading>Брисан је  члан 80б који је додат у броју 29/1993  (види члан 13. Закона – 67/1993-3075)</heading>
+					<paragraph wId="gla8-clan81-stav1">
+						<content>
+							<p>Постојеће установе за децу, ускладиће своју организацију и општа акта са одредбама овог закона у року од шест месеци од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan81-stav2">
+						<content>
+							<p>До доношења општих аката из става 1. овог члана примењиваће се важећи општи акти, уколико нису у супротности са овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan82">
+					<num>82.</num>
+					<paragraph wId="gla8-clan82-stav1">
+						<content>
+							<p>Оснивачка права и обавезе према постојећим установама за децу које су основали Град Београд, односно покрајина, а које буду утврђене мрежом установа, у складу са овим законом има општина, на дан ступања на снагу акта којим се утврђује мрежа установа за децу.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan83">
+					<num>83.</num>
+					<paragraph wId="gla8-clan83-stav1">
+						<content>
+							<p>Земљиште, зграде и друга средства установа за децу, чији је оснивач општина, град Београд, односно покрајина, а које буду утврђене мрежом установа, прелазе у државну својину, на дан ступања на снагу акта којим се утврђује мрежа установа за децу.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan84">
+					<num>84.</num>
+					<paragraph wId="gla8-clan84-stav1">
+						<content>
+							<p>Медицинске сестре, васпитачи, стручни сарадници и сарадници-васпитачи који су запослени у предшколској установи, а који су по прописима који су важили до ступања на снагу овог закона, испуњавали услове у погледу врсте и степена стручне спреме, могу и даље радити у предшколској установи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan84-stav2">
+						<content>
+							<p>Васпитно-образовни рад у предшколској установи могу обављати и лица из става 1. овог члана која у моменту ступања на снагу овог закона, нису била у радном односу у предшколској установи, ако имају више од 20 година радног искуства у предшколској установи.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan85">
+					<num>85.</num>
+					<paragraph wId="gla8-clan85-stav1">
+						<content>
+							<p>Медицинске сестре, васпитачи, стручни сарадници и сарадници-васпитачи предшколских установа чије је седиште на територији Аутономне покрајине Војводине и Аутономне покрајине Косова и Метохије, који до ступања на снагу овог закона нису положили стручни испит, по прописима из области образовања, могу и даље обављати послове у предшколској установи, ако у року од две године од дана ступања на снагу овог закона, положе стручни испит у складу са овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan85-stav2">
+						<content>
+							<p>Запослени из става 1. овог члана са преко 25 година радног искуства у области васпитања и образовања не полажу стручни испит.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan86">
+					<num>86.</num>
+					<paragraph wId="gla8-clan86-stav1">
+						<content>
+							<p>Даном ступања на снагу овог закона престаје коришћење права, остварених на основу прописа који су били на снази, до дана ступања на снагу овог закона, осим права код којих ће се извршити одговарајуће усклађивање са одредбама овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan86-stav2">
+						<content>
+							<p>Првостепени органи надлежни за решавање о правима из овог закона извршиће усклађивање права на додатак на децу, које је остварено по прописима који су били на снази до дана ступања на снагу овог закона, са одредбама овог закона, у року од три месеца од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan86-stav3">
+						<content>
+							<p>Првостепени органи, надлежни за решавање о правима из овог закона, извршиће усклађивање права на новчану помоћ незапосленој жени за време породиљског одсуства и новчану помоћ незапосленом лицу и редовном студенту за време трудноће и порођаја, које је остварено по прописима који су били на снази до дана ступања на снагу овог закона, са одредбама овог закона о праву на матерински додатак, у року од месец дана од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan86-stav4">
+						<content>
+							<p>Лицима која остваре право на матерински додатак у складу са овим законом у време трајања материнског додатка урачунаће се и време за које су користили право на новчану помоћ незапосленој жени за време породиљског одсуства, односно новчану помоћ незапосленом лицу и редовном студенту за време трудноће и порођаја, по прописима који су били на снази до дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan86-stav5">
+						<content>
+							<p>Првостепени органи надлежни за решавање о правима из овог закона, извршиће усклађивање права на накнаду трошкова боравка у предшколској установи за треће дете из породица са троје деце, у општинама са негативном стопом природног прираштаја становништва, која су остварена по прописима који су били на снази до дана ступања на снагу овог закона, са одредбама овог закона, у року од месец дана од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan86-stav6">
+						<content>
+							<p>Поступци за остваривање права који су започети пре ступања на снагу овог закона, окончаће се по одредбама овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan87">
+					<num>87.</num>
+					<paragraph wId="gla8-clan87-stav1">
+						<intro>
+							<p>Ступањем на снагу овог закона престају да важе:</p>
+						</intro>
+						<point wId="gla8-clan87-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> Закон о друштвеној бризи о деци („Службени гласник СРС”, бр. 4/90 и 38/90 и „Службени гласник РС”, број 21/90), Закон о друштвеној бризи о деци („Службени лист САП Војводине”, бр. 9/90 и 38/90) и Закон о дечјој заштити („Службени лист САП Косово”, број 18/76), осим одредаба које се односе на додатак на децу које престају да важе у року од 90 дана од дана ступања на снагу овог закона.</p>
+							</content>
+						</point>
+						<point wId="gla8-clan87-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> Закон о пословима и интересима друштва у области предшколског васпитања и образовања („Службени лист САП Војводине”, бр. 6/90 и 9/90), Закон о предшколском васпитању и образовању („Службени лист САП Косово”, број 24/78), Закон о самоуправним интересним заједницама социјалне заштите у делу којим се уређује област дечје заштите („Службени лист САП Косово”, бр. 35/74 и 9/83), Закон о дечјој недељи („Службени лист САП Косово”, бр. 28/72 и 52/75), Закон о васпитању и образовању („Службени лист САП Војводине”, бр. 15/83, 11/86, 5/87, 17/88 и 23/88), у делу којим се уређује предшколско васпитање и образовање, Закон о огледима у области предшколског, основног и средњег образовања („Службени лист САП Косово”, број 27/76) у делу који се односи на предшколско васпитање и образовање и Закон о сталном усавршавању наставног и васпитног особља („Службени гласник СР Србије”, бр. 47/78, 16/79 и 43/84), у делу који се односи на предшколско васпитање и образовање.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan88">
+					<num>88.</num>
+					<paragraph wId="gla8-clan88-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan88-stav2">
+						<content>
+							<p>ОДРЕДБЕ КОЈЕ НИСУ УНЕТЕ У  "ПРЕЧИШЋЕН ТЕКСТ" ЗАКОНА</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan3">
+					<num>3.</num>
+					<heading>Закон о допунама  Закона о друштвеној бризи о деци:   „Службени гласник РС”, број  29/1993-1184</heading>
+					<paragraph wId="gla8-clan3-stav1">
+						<content>
+							<p>Овај закона ступа на  снагу осмог дана од дана објављивања у  „Службеном гласнику Републике Србије”,  а одредбе члана 2. овог закона примењиваће се од 1. марта 1993. године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan3-stav2">
+						<content>
+							<p>Закон о изменама и допунама  Закона о друштвеној бризи о деци:   „Службени гласник РС”, број  53/1993-2459</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan3-stav3">
+						<content>
+							<p>Члан  14.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan3-stav4">
+						<content>
+							<p>Овај закона ступа на  снагу осмог дана од дана објављивања у  „Службеном гласнику Републике Србије”,  а примењиваће се од 1. августа 1993. године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan3-stav5">
+						<content>
+							<p>Закон о изменама и допунама  Закона о друштвеној бризи о деци:   „Службени гласник РС”, број  67/1993-3075</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan3-stav6">
+						<content>
+							<p>Члан  14.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan3-stav7">
+						<content>
+							<p>Овај закона ступа на  снагу осмог дана од дана објављивања у  „Службеном гласнику Републике Србије”,  а одредбе чл. 3. и 6. примењиваће се од 1. јула 1993. године.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan17">
+					<num>17.</num>
+					<heading>Закон о изменама и допунама  Закона о друштвеној бризи о деци:   „Службени гласник РС”, број 28/1994-776</heading>
+					<paragraph wId="gla8-clan17-stav1">
+						<content>
+							<p>Даном ступања на снагу овог закона престају да важе: Уредба о висини додатка на децу („Службени гласник РС”, бр. 105/93 и 8/94), Уредба о висини материнског додатка („Службени гласник РС”, бр. 105/93 и 8/94), Уредба о остваривању права на накнаду зараде за време породиљског, продуженог породиљског одсуства запосленог родитеља и одсуства са рада усвојиоца ради неге детета („Службени гласник РС”, бр. 112/93 и 8/94) и Уредба о висини помоћи за опрему новорођенчета („Службени гласник РС”, број 8/94).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan18">
+					<num>18.</num>
+					<paragraph wId="gla8-clan18-stav1">
+						<content>
+							<p>Овај закона ступа на  снагу осмог дана од дана објављивања у  „Службеном гласнику Републике Србије”,  а одредбе чл. 6. примењиваће се од 1. априла 1994. године а одредбе члана 9. од  1. септембра 1994. године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan18-stav2">
+						<content>
+							<p>Закон о изменама  Закона о друштвеној бризи о деци:   „Службени гласник РС”, број   47/1994-1472</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan18-stav3">
+						<content>
+							<p>Члан  4.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan18-stav4">
+						<content>
+							<p>Овај закона ступа на  снагу осмог дана од дана објављивања у  „Службеном гласнику Републике Србије”,  а одредбе чл. 1. и 3. примењиваће се од 1. јуна 1994. године.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan6">
+					<num>6.</num>
+					<heading>Закон о изменама и допунама  Закона о друштвеној бризи о деци:   „Службени гласник РС”, број 29/2001-5</heading>
+					<paragraph wId="gla8-clan6-stav1">
+						<content>
+							<p>Обрачун износа материнског додатка, помоћи за опрему новорођенчета и додатка на децу за јун, јул и август 2001. године вршиће се тако што ће се износи ових права за мај 2001. године усклађивати са индексом трошкова живота за месец за који се врши исплата у односу на претходни месец.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan7">
+					<num>7.</num>
+					<paragraph wId="gla8-clan7-stav1">
+						<content>
+							<p>Овај закон ступа на снагу 1. јуна 2001. године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan7-stav2">
+						<content>
+							<p>ЗАКОН</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan7-stav3">
+						<content>
+							<p>о  друштвеној бризи о деци</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan7-stav4">
+						<content>
+							<p>„Службени гласник РС”, бр. 49. од 21.  августа 1992, 29 од 15.  априла 1993, 53 од 16.  јула 1993,   53 од 16. јула 1993 -  др. закон,  67 од 30.  августа 1993,   67 од 30. августа 1993 -  др. закон,  28 од 22.  априла 1994, 47 од 14.  јула 1994, 48 од 20. јула 1994 -  др. закон, 25 од 29.  маја 1996, 29 од 17.  маја 2001, 16 од 5. априла 2002 -  др. закон, 62 од 17. јуна 2003 -  др. закон, 64 од 24.  јуна 2003  -исправка  др. закона,   101 од 21. новембра 2005 -  др. закон, 18 од 26. марта 2010 -  др. закон,  113 од 17. децембра 2017 - др. закон</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan7-stav5">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА: Даном почетка примене Закона о финансијској подршци  породици са децом ("Службени гласник РС", број 113/2017), односно 1. јула 2018.  године, престају да важе одредбе чл. 73. до 75. Закона (види члан 56. Закона -  113/2017-266) (текст закона пре измена из броја 113/2017 можетепогледати са  десне стране у делу "Верзије пречишћеног текста").</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОПШТЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Престао је да важи (види члан 38. Закона – 16/2002-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<paragraph wId="gla1-clan2-stav1">
+						<intro>
+							<p>Друштвену бригу о деци у смислу овог закона чине права родитеља и деце и организоване делатности и активности којима се обезбеђује:</p>
+						</intro>
+						<point wId="gla1-clan2-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> престала је да важи (види члан 38. Закона – 16/2002-1);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> престала је да важи (види члан 38. Закона – 16/2002-1);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> престала је да важи (види члан 174. Закона  – 62/2003-1);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> престала је да важи (види члан 174. Закона  – 62/2003-1);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p>  престала је да важи (види члан 61. Закона – 18/2010-48);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> престала је да важи (види члан 38. Закона – 16/2002-1).</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<heading>Престао је да важи (види члан 174. Закона – 62/2003-1 и исправку Закона – 64/2003-74)</heading>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>Престао је да важи (види члан 174. Закона – 62/2003-1 и исправку Закона – 64/2003-74)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav2">
+						<content>
+							<p>Чл. 5.  до  9.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav3">
+						<content>
+							<p>Престали  су да важе (види члан 38. Закона – 16/2002-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan10">
+					<num>10.</num>
+					<paragraph wId="gla1-clan10-stav1">
+						<content>
+							<p>Брисан је (види члан 3. Закона – 53/1993-2459).</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ПРАВА У ОБЛАСТИ ДРУШТВЕНЕ БРИГЕ О ДЕЦИ</heading>
+				<article wId="gla2-clan11">
+					<num>11.</num>
+					<paragraph wId="gla2-clan11-stav1">
+						<intro>
+							<p>Права у области друштвене бриге о деци у смислу овог закона су:</p>
+						</intro>
+						<point wId="gla2-clan11-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> престала је да важи (види члан 38. Закона – 16/2002-1);</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> престала је да важи (види члан 38. Закона – 16/2002-1);</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav2">
+						<intro>
+							<p>2а) престала је да важи (види члан 38. Закона – 16/2002-1);</p>
+						</intro>
+						<point wId="gla2-clan11-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> престала је да важи (види члан 38. Закона – 16/2002-1);</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> престала је да важи (види члан 38. Закона – 16/2002-1);</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav2-tac5">
+							<num>5)</num>
+							<content>
+								<p>  престала је да важи (види члан 61. Закона – 18/2010-48);</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav2-tac6">
+							<num>6)</num>
+							<content>
+								<p> престала је да важи (види члан 174. Закона  – 62/2003-1);</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav2-tac7">
+							<num>7)</num>
+							<content>
+								<p> престала је да важи (види члан 174. Закона  – 62/2003-1);</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav2-tac8">
+							<num>8)</num>
+							<content>
+								<p> одмор и рекреација деце до 15 година старости у дечјем одмаралишту;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav2-tac9">
+							<num>9)</num>
+							<content>
+								<p> регресирање трошкова боравка деце у предшколској установи, одмора и рекреације.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav3">
+						<content>
+							<p>Престали су да важе ранији ст. 2. до 4. (види члан 174. Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav4">
+						<content>
+							<p>Чл. 12. до 30.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav5">
+						<content>
+							<p>Престали  су да важе (види члан 38. Закона – 16/2002-1)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav6">
+						<content>
+							<p>Чл. 31. до 33.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav7">
+						<content>
+							<p>Престали су да важе (види члан 174. Закона  – 62/2003-1)</p>
+						</content>
+					</paragraph>
+				</article>
+				<section wId="gla2-od8">
+					<num>8.</num>
+					<heading> Одмор и рекреација деце до 15 година старости у дечјем одмаралишту</heading>
+					<article wId="gla2-od8-clan34">
+						<num>34.</num>
+						<paragraph wId="gla2-od8-clan34-stav1">
+							<intro>
+								<p>Деца до 15 година старости у дечјем одмаралишту имају право на одмор, рекреацију, здравствену заштиту, исхрану, васпитно-образовни рад и спортско-рекреативне активности, под условима и на начин који утврди надлежни општински орган.</p>
+							</intro>
+							<point wId="gla2-od8-clan34-stav1-tac9">
+								<num>9.</num>
+								<content>
+									<p> Регресирање трошкова боравка деце у предшколској установи, одмора и рекреације</p>
+								</content>
+							</point>
+						</paragraph>
+					</article>
+					<article wId="gla2-od8-clan35">
+						<num>35.</num>
+						<paragraph wId="gla2-od8-clan35-stav1">
+							<content>
+								<p>Деца предшколског и основношколског узраста, у зависности од материјалног положаја породице, имају право на регресирање трошкова борава у предшколској установи.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla2-od8-clan35-stav2">
+							<content>
+								<p>Регресирање трошкова целодневног и полудневног боравка деце, предшколског узраста обезбеђује се у укупном износу од 80%* од економске цене просечно по детету, у предшколским установама које се налазе у мрежи установа коју утврди општина.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla2-od8-clan35-stav3">
+							<content>
+								<p>Начин и услове регресирања трошкова из ст. 1. и 2. овог члана утврђује надлежни општински орган.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="gla2-od8-clan36">
+						<num>36.</num>
+						<heading>*Службени гласник РС, број 67/1993</heading>
+						<paragraph wId="gla2-od8-clan36-stav1">
+							<content>
+								<p>Министар надлежан за друштвену бригу о деци прописује ближе услове и начин остваривања права на накнаду зараде за време породиљског, продуженог породиљског одсуства запосленог родитеља и одсуства са рада усвојиоца ради неге детета (чл. 12. до 18), матерински додатак (чл. 19. до 20), помоћ за опрему новорођенчета (члан 20а)*, додатак на децу (чл. 21. до 30), као и права из чл. 30. до 32, и висину накнаде која се обезбеђује из буџета за остваривање права из чл. 30. до 32. овог закона.**</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla2-od8-clan36-stav2">
+							<content>
+								<p>Престао  је да важи ранији  став 2.  (види члан 174. Закона  – 62/2003-1)</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla2-od8-clan36-stav3">
+							<content>
+								<p>*Службени гласник РС, број 67/1993</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla2-od8-clan36-stav4">
+							<content>
+								<p>**Службени гласник РС, број 28/1994</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla2-od8-clan36-stav5">
+							<content>
+								<p>НАПОМЕНА ИЗДАВАЧА:  Престао је да важи  став 1. овог члана у делу који се односи на право на накнаду зараде за време породиљског, продуженог породиљског одсуства запосленог родитеља и одсуства са рада усвојиоца ради неге детета, материјски додатак, помоћ за опрему новорођенчета и додатак на децу (види члан 38. Закона – 16/2002-1).</p>
+							</content>
+						</paragraph>
+					</article>
+				</section>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>ПОСТУПАК ЗА ОСТВАРИВАЊЕ ПРАВА</heading>
+				<paragraph wId="gla3-clan36-stav1">
+					<content>
+						<p>Чл. 37. до 42.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla3-clan36-stav2">
+					<content>
+						<p>Престали  су да важе (види члан 38. Закона – 16/2002-1).</p>
+					</content>
+				</paragraph>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>ПРЕДШКОЛСКО ВАСПИТАЊЕ И ОБРАЗОВАЊЕ</heading>
+				<paragraph wId="gla4-clan36-stav1">
+					<content>
+						<p>Чл. 43. и 44.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-clan36-stav2">
+					<content>
+						<p>Престали  су да важе (види члан 174. Закона  – 62/2003-1)</p>
+					</content>
+				</paragraph>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>УСТАНОВЕ ЗА ДЕЦУ</heading>
+				<article wId="gla5-clan45">
+					<num>45.</num>
+					<paragraph wId="gla5-clan45-stav1">
+						<content>
+							<p>Права на: боравак, предшколско васпитање и образовање и превентивну здравствену заштиту деце предшколског узраста; васпитно-образовни програм у години пред полазак у основну школу у трајању од три сата дневно у школској години* боравак деце до 10 година старости у предшколској установи и одмор и рекреацију деце до 15 година старости у дечјем одмаралишту остварују се преко установа за децу утврђених овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan45-stav2">
+						<content>
+							<p>Установе за децу из става 1. овог члана оснива општина.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan45-stav3">
+						<content>
+							<p>Мрежу установа за децу утврђује општина, на основу критеријума које доноси Влада Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan45-stav4">
+						<content>
+							<p>*Службени гласник РС”, број 28/1994</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan45-stav5">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је  престао да важи у делу који се односи на предшколске установе (види члан 174. Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan46">
+					<num>46.</num>
+					<paragraph wId="gla5-clan46-stav1">
+						<content>
+							<p>Установа за децу може бити основана и почети са радом ако има обезбеђен простор, опрему и стручне и друге раднике.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan46-stav2">
+						<content>
+							<p>Министар надлежан за друштвену бригу о деци, министар надлежан за просвету и министар надлежан за здравље, споразумно утврђују ближе услове у погледу простора, опреме, броја стручних и других радника у установама за децу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan46-stav3">
+						<content>
+							<p>Установа за децу може почети са радом када општинска управа утврди да су испуњени услови за њено оснивање и почетак рада.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan46-stav4">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је престао да важи у делу који се односи на предшколске установе (види члан 174. Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan47">
+					<num>47.</num>
+					<paragraph wId="gla5-clan47-stav1">
+						<content>
+							<p>Друга правна и физичка лица могу обављати делатност, односно послове у области друштвене бриге о деци под условима и на начин утврђен овим законом и прописима донетим на основу овог закона* за обављање тих делатности, односно послова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan47-stav2">
+						<content>
+							<p>Друга правна и физичка лица могу обављати делатност, односно послове друштвене бриге о деци, у зависности од њихове врсте, ако имају обезбеђен одговарајући простор, опрему и ако лице које обавља те послове има одговарајућу стручну спрему.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan47-stav3">
+						<content>
+							<p>Ближе услове и врсте послова друштвене бриге о деци* из става 2. овог члана прописују споразумно министар надлежан за друштвену бригу о деци, министар надлежан за просвету и министар надлежан за здравље.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan47-stav4">
+						<content>
+							<p>Када друга правна и физичка лица оснивају установе за децу одређене овим законом са делокругом утврђеним овим законом, у погледу услова за њихово оснивање примењују се одредбе овог закона и акти надлежног министарства прописани за те установе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan47-stav5">
+						<content>
+							<p>*Службени гласник РС”, број 28/1994</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan47-stav6">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је престао да важи у делу који се односи на предшколске установе (види члан 174. Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan48">
+					<num>48.</num>
+					<paragraph wId="gla5-clan48-stav1">
+						<content>
+							<p>На оснивање, управљање, руковођење, положај запослених у установи за децу, надзор над законитошћу рада, као и на укидање, примењују се одредбе закона којима се уређује систем јавних служби.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan48-stav2">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је престао да важи у делу који се односи на предшколске установе (види члан 174. Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan49">
+					<num>49.</num>
+					<paragraph wId="gla5-clan49-stav1">
+						<content>
+							<p>Установом за децу руководи директор.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan49-stav2">
+						<content>
+							<p>Директор установе одговоран је за: законитост рада, организацију рада, остваривање програма рада установе и вођење прописане документације и евиденције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan49-stav3">
+						<content>
+							<p>За директора установе за децу може бити именовано лице које има високу или вишу школску спрему просветног, педагошког, психолошког, социолошког, социјалног или здравственог смера.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan49-stav4">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је престао да важи у делу који се односи на предшколске установе (види члан 174. Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan50">
+					<num>50.</num>
+					<paragraph wId="gla5-clan50-stav1">
+						<content>
+							<p>Орган управљања установе за децу је управни одбор.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan50-stav2">
+						<content>
+							<p>Управни одбор има најмање пет чланова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan50-stav3">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је престао да важи у делу који се односи на предшколске установе (види члан 174. Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan51">
+					<num>51.</num>
+					<paragraph wId="gla5-clan51-stav1">
+						<content>
+							<p>Када се у установи за децу организује штрајк, минимум процеса рада који се обезбеђује је боравак, чување, нега и исхрана деце.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan51-stav2">
+						<content>
+							<p>Општим актом установе за децу утврђују се послови из става 1. овог члана који морају да се обављају за време трајања штрајка, као и начин и услови за обављање тих послова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan51-stav3">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је престао да важи у делу који се односи на предшколске установе (види члан 174. Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan52">
+					<num>52.</num>
+					<paragraph wId="gla5-clan52-stav1">
+						<content>
+							<p>Установа за децу води евиденцију о свом раду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan52-stav2">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је престао да важи у делу који се односи на предшколске установе (види члан 174. Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan53">
+					<num>53.</num>
+					<paragraph wId="gla5-clan53-stav1">
+						<content>
+							<p>Установа за децу доноси годишњи програм рада, уз претходну сагласност оснивача, најкасније до 30. септембра текуће године и подноси извештај о извршењу годишњег програма рада оснивачу за претходну годину.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan53-stav2">
+						<intro>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је престао да важи у делу који се односи на предшколске установе (види члан 174. Закона  – 62/2003-1).</p>
+						</intro>
+						<point wId="gla5-clan53-stav2-tac1">
+							<num>1.</num>
+							<content>
+								<p> Предшколске установе</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla5-clan53-stav3">
+						<content>
+							<p>Чл. 54.  до 62.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan53-stav4">
+						<content>
+							<p>Престали  су да важе (види члан 174. Закона  – 62/2003-1)</p>
+						</content>
+					</paragraph>
+				</article>
+				<section wId="gla5-od2">
+					<num>2.</num>
+					<heading> Дечје одмаралиште</heading>
+					<article wId="gla5-od2-clan63">
+						<num>63.</num>
+						<paragraph wId="gla5-od2-clan63-stav1">
+							<content>
+								<p>У дечјем одмаралишту, деци до 15 година старости, обезбеђује се боравак, васпитно-образовни рад, здравствена заштита, исхрана, спортско-рекреативни и други садржај кроз организовање активног одмора, рекреације, наставе у природи и климатског опоравка.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla5-od2-clan63-stav2">
+							<content>
+								<p>Министар надлежан за друштвену бригу о деци, министар надлежан за просвету и министар надлежан за здравље споразумно утврђују основе програма одмора, рекреације, климатског опоравка и наставе у природи.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla5-od2-clan63-stav3">
+							<content>
+								<p>Министар надлежан за друштвену бригу о деци, прописује норматив исхране деце и начин вођења евиденције о примени норматива исхране.*</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="gla5-od2-clan64">
+						<num>64.</num>
+						<heading>*Службени гласник РС, број 28/1994</heading>
+						<paragraph wId="gla5-od2-clan64-stav1">
+							<content>
+								<p>Рад са децом у дечјем одмаралишту организује се у групама.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla5-od2-clan64-stav2">
+							<intro>
+								<p>Број присутне деце у групи, у зависности од узраста, је:</p>
+							</intro>
+							<point wId="gla5-od2-clan64-stav2-tac1">
+								<num>1)</num>
+								<content>
+									<p> до 7 година – 10 деце</p>
+								</content>
+							</point>
+							<point wId="gla5-od2-clan64-stav2-tac2">
+								<num>2)</num>
+								<content>
+									<p> од 7 до 15 година – 25 деце.</p>
+								</content>
+							</point>
+						</paragraph>
+					</article>
+					<article wId="gla5-od2-clan65">
+						<num>65.</num>
+						<paragraph wId="gla5-od2-clan65-stav1">
+							<content>
+								<p>Стручне послове у дечјим одмаралиштима могу обављати лица са средњом, вишом и високом школском спремом (просветна, здравствена и дијететска струка).</p>
+							</content>
+						</paragraph>
+					</article>
+				</section>
+			</chapter>
+			<chapter wId="gla6">
+				<num>VI</num>
+				<heading>ОБЕЗБЕЂИВАЊЕ СРЕДСТАВА</heading>
+				<article wId="gla6-clan66">
+					<num>66.</num>
+					<paragraph wId="gla6-clan66-stav1">
+						<content>
+							<p>Средства за остваривање права од општег интереса утврђених у члану 11. став 1. тач. 1) до 6) овог закона, обезбеђују се у Буџету Републике и преносе министарству надлежном за друштвену бригу о деци, при чему се посебно воде средства за породиљска права, а посебно средства за додатак на децу и друга права.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan66-stav2">
+						<content>
+							<p>Средства за остваривање права из члана 11. став 1. тач. 7) до 9) овог закона и средства за изградњу, доградњу и опремање установа за децу обезбеђују се у буџету општине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan66-stav3">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan66-stav4">
+						<content>
+							<p>Престао је да важи  став 1. овог члана, осим у делу који се односи на предшколско васпитање и образовање за децу на дужем болничком лечењу и на васпитно-образовни програм у трајању од три сата пред полазак у основну школу,   ступањем на снагу Закона о финансијској помоћи породицама са децом ("Службени  гласник РС", број 16/2002), односно  1. јуна 2002. године (види члан 38. Закона – 16/2002-1).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan66-stav5">
+						<content>
+							<p>Члан  је престао да важи у делу који се односи на предшколско  образовање и васпитање (види члан 174. Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan67">
+					<num>67.</num>
+					<paragraph wId="gla6-clan67-stav1">
+						<content>
+							<p>Цена услуга, односно програма изражава вредност и резултат рада којима се обезбеђује накнада материјалних трошкова, у складу са утврђеним нормативима, амортизацијом у складу са законом, зараде према важећим прописима, одговарајући износ за текуће и инвестиционо одржавање и средства за исплату законом одређених обавеза.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan67-stav2">
+						<content>
+							<p>Министар надлежан за друштвену бригу о деци прописује мерила за утврђивање цена услуга у дечјим установама.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan67-stav3">
+						<content>
+							<p>Надлежни општински орган утврђује цене услуга у установама за децу које се налазе у мрежи установа које утврђује општина.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan67-stav4">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је  престао је да важи у делу који се односи на предшкоске установе (види члан 174. Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla7">
+				<num>VII</num>
+				<heading>НАДЗОР НАД ЗАКОНИТОШЋУ РАДА И НАД СТРУЧНИМ РАДОМ</heading>
+				<article wId="gla7-clan68">
+					<num>68.</num>
+					<paragraph wId="gla7-clan68-stav1">
+						<content>
+							<p>Надзор над законитошћу рада установа за децу врши министарство надлежно за друштвену бригу о деци. Надзор над законитошћу рада установе за децу на територији Аутономне покрајине Војводине поверава се одговарајућем органу управе Аутономне покрајине Војводина.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan68-stav2">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је престао је да важи у делу који се односи на предшкоске установе (види члан 174. Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan69">
+					<num>69.</num>
+					<paragraph wId="gla7-clan69-stav1">
+						<content>
+							<p>Престао је да важи (види члан 38. Закона – 16/2002-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan70">
+					<num>70.</num>
+					<paragraph wId="gla7-clan70-stav1">
+						<content>
+							<p>Надзор над стручним радом у остваривању васпитно-образовног рада врши министарство надлежно за просвету, над остваривањем превентивне здравствене заштите министарство надлежно за здравље и над остваривањем социјалног рада министарство надлежно за друштвену бригу о деци.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan70-stav2">
+						<content>
+							<p>Надзор над стручним радом врши се најмање једанпут у две године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan70-stav3">
+						<content>
+							<p>Министри надлежни за друштвену бригу о деци, здравље и просвету споразумно прописују начин и поступак за вршење надзора над стручним радом и споразумно утврђују годишњи програм спровођења надзора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan70-stav4">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је престао је да важи у делу који се односи на предшкоске установе (види члан 174. Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan71">
+					<num>71.</num>
+					<paragraph wId="gla7-clan71-stav1">
+						<content>
+							<p>Извештај о извршеном надзору над стручним радом доставља се у року од 30 дана по обављеном надзору установи у којој је извршен надзор, оснивачу установе и органу који је дао сагласност за обављање делатности, односно послова, другим правним и физичким лицима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan71-stav2">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је престао је да важи у делу који се односи на предшкоске установе (види члан 174. Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan72">
+					<num>72.</num>
+					<paragraph wId="gla7-clan72-stav1">
+						<content>
+							<p>Надзор над стручним радом могу да врше лица која имају високу школску спрему одговарајуће струке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan72-stav2">
+						<content>
+							<p>Изузетно од става 1. овог члана, надзор над пословима исхране могу вршити и лица са вишом школском спремом одговарајуће струке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan72-stav3">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је престао је да важи у делу који се односи на предшкоске установе (види члан 174. Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla8">
+				<num>VIII</num>
+				<heading>ДЕЧЈА НЕДЕЉА</heading>
+				<paragraph wId="gla8-clan72-stav1">
+					<content>
+						<p>Чл. 73 до 75.Престали су да важе (види члан 56.  Закона - 113/2017-266)</p>
+					</content>
+				</paragraph>
+				<article wId="gla8-clan76">
+					<num>76.</num>
+					<heading>IХ. КАЗНЕНЕ ОДРЕДБЕ</heading>
+				</article>
+				<article wId="gla8-clan77">
+					<num>77.</num>
+					<heading>Престао је да важи (види члан 38. Закона – 16/2002-1)</heading>
+				</article>
+				<article wId="gla8-clan78">
+					<num>78.</num>
+					<heading>Престао је да важи (види члан 174. Закона  – 62/2003-1)</heading>
+					<paragraph wId="gla8-clan78-stav1">
+						<content>
+							<p>Новчаном казном  до 1.000.000   динара* казниће се организација, односно друго правно лице које не убира средства „Дечје недеље”, односно која не уплаћује убрана средства у буџет Републике (члан 74).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan78-stav2">
+						<content>
+							<p>За прекршај из става 1. овог члана казниће се новчаном казном  до 50.000   динара* и одговорно лице у организацији, односно другом правном лицу.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan79">
+					<num>79.</num>
+					<heading>*Службени  гласник РС, број 101/2005</heading>
+					<paragraph wId="gla8-clan79-stav1">
+						<content>
+							<p>Новчаном казном  до 50.000   динара* казниће се физичко лице које самостално обавља привредну, или другу делатност, које не убира средства „Дечје недеље”, односно које не уплаћује убрана средства у буџет Републике (члан 74).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan79-stav2">
+						<content>
+							<p>*Службени  гласник РС, број 101/0205</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan80">
+					<num>80.</num>
+					<heading>Х. ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+					<paragraph wId="gla8-clan80-stav1">
+						<content>
+							<p>До доношења подзаконских прописа, у складу са овим законом, примењиваће се постојећи прописи, уколико нису у супротности са овим законом.</p>
+						</content>
+					</paragraph>
+					<article wId="gla8-clan80.а">
+						<num>80а</num>
+					</article>
+					<article wId="gla8-clan80.б">
+						<num>80б</num>
+						<heading>Брисан је члан  80а који је додат у броју 29/1993  (види члан 13. Закона – 53/1993-2459)</heading>
+					</article>
+				</article>
+				<article wId="gla8-clan81">
+					<num>81.</num>
+					<heading>Брисан је  члан 80б који је додат у броју 29/1993  (види члан 13. Закона – 67/1993-3075)</heading>
+					<paragraph wId="gla8-clan81-stav1">
+						<content>
+							<p>Постојеће установе за децу, ускладиће своју организацију и општа акта са одредбама овог закона у року од шест месеци од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan81-stav2">
+						<content>
+							<p>До доношења општих аката из става 1. овог члана примењиваће се важећи општи акти, уколико нису у супротности са овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan82">
+					<num>82.</num>
+					<paragraph wId="gla8-clan82-stav1">
+						<content>
+							<p>Оснивачка права и обавезе према постојећим установама за децу које су основали Град Београд, односно покрајина, а које буду утврђене мрежом установа, у складу са овим законом има општина, на дан ступања на снагу акта којим се утврђује мрежа установа за децу.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan83">
+					<num>83.</num>
+					<paragraph wId="gla8-clan83-stav1">
+						<content>
+							<p>Земљиште, зграде и друга средства установа за децу, чији је оснивач општина, град Београд, односно покрајина, а које буду утврђене мрежом установа, прелазе у државну својину, на дан ступања на снагу акта којим се утврђује мрежа установа за децу.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan84">
+					<num>84.</num>
+					<paragraph wId="gla8-clan84-stav1">
+						<content>
+							<p>Медицинске сестре, васпитачи, стручни сарадници и сарадници-васпитачи који су запослени у предшколској установи, а који су по прописима који су важили до ступања на снагу овог закона, испуњавали услове у погледу врсте и степена стручне спреме, могу и даље радити у предшколској установи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan84-stav2">
+						<content>
+							<p>Васпитно-образовни рад у предшколској установи могу обављати и лица из става 1. овог члана која у моменту ступања на снагу овог закона, нису била у радном односу у предшколској установи, ако имају више од 20 година радног искуства у предшколској установи.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan85">
+					<num>85.</num>
+					<paragraph wId="gla8-clan85-stav1">
+						<content>
+							<p>Медицинске сестре, васпитачи, стручни сарадници и сарадници-васпитачи предшколских установа чије је седиште на територији Аутономне покрајине Војводине и Аутономне покрајине Косова и Метохије, који до ступања на снагу овог закона нису положили стручни испит, по прописима из области образовања, могу и даље обављати послове у предшколској установи, ако у року од две године од дана ступања на снагу овог закона, положе стручни испит у складу са овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan85-stav2">
+						<content>
+							<p>Запослени из става 1. овог члана са преко 25 година радног искуства у области васпитања и образовања не полажу стручни испит.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan86">
+					<num>86.</num>
+					<paragraph wId="gla8-clan86-stav1">
+						<content>
+							<p>Даном ступања на снагу овог закона престаје коришћење права, остварених на основу прописа који су били на снази, до дана ступања на снагу овог закона, осим права код којих ће се извршити одговарајуће усклађивање са одредбама овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan86-stav2">
+						<content>
+							<p>Првостепени органи надлежни за решавање о правима из овог закона извршиће усклађивање права на додатак на децу, које је остварено по прописима који су били на снази до дана ступања на снагу овог закона, са одредбама овог закона, у року од три месеца од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan86-stav3">
+						<content>
+							<p>Првостепени органи, надлежни за решавање о правима из овог закона, извршиће усклађивање права на новчану помоћ незапосленој жени за време породиљског одсуства и новчану помоћ незапосленом лицу и редовном студенту за време трудноће и порођаја, које је остварено по прописима који су били на снази до дана ступања на снагу овог закона, са одредбама овог закона о праву на матерински додатак, у року од месец дана од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan86-stav4">
+						<content>
+							<p>Лицима која остваре право на матерински додатак у складу са овим законом у време трајања материнског додатка урачунаће се и време за које су користили право на новчану помоћ незапосленој жени за време породиљског одсуства, односно новчану помоћ незапосленом лицу и редовном студенту за време трудноће и порођаја, по прописима који су били на снази до дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan86-stav5">
+						<content>
+							<p>Првостепени органи надлежни за решавање о правима из овог закона, извршиће усклађивање права на накнаду трошкова боравка у предшколској установи за треће дете из породица са троје деце, у општинама са негативном стопом природног прираштаја становништва, која су остварена по прописима који су били на снази до дана ступања на снагу овог закона, са одредбама овог закона, у року од месец дана од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan86-stav6">
+						<content>
+							<p>Поступци за остваривање права који су започети пре ступања на снагу овог закона, окончаће се по одредбама овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan87">
+					<num>87.</num>
+					<paragraph wId="gla8-clan87-stav1">
+						<intro>
+							<p>Ступањем на снагу овог закона престају да важе:</p>
+						</intro>
+						<point wId="gla8-clan87-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> Закон о друштвеној бризи о деци („Службени гласник СРС”, бр. 4/90 и 38/90 и „Службени гласник РС”, број 21/90), Закон о друштвеној бризи о деци („Службени лист САП Војводине”, бр. 9/90 и 38/90) и Закон о дечјој заштити („Службени лист САП Косово”, број 18/76), осим одредаба које се односе на додатак на децу које престају да важе у року од 90 дана од дана ступања на снагу овог закона.</p>
+							</content>
+						</point>
+						<point wId="gla8-clan87-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> Закон о пословима и интересима друштва у области предшколског васпитања и образовања („Службени лист САП Војводине”, бр. 6/90 и 9/90), Закон о предшколском васпитању и образовању („Службени лист САП Косово”, број 24/78), Закон о самоуправним интересним заједницама социјалне заштите у делу којим се уређује област дечје заштите („Службени лист САП Косово”, бр. 35/74 и 9/83), Закон о дечјој недељи („Службени лист САП Косово”, бр. 28/72 и 52/75), Закон о васпитању и образовању („Службени лист САП Војводине”, бр. 15/83, 11/86, 5/87, 17/88 и 23/88), у делу којим се уређује предшколско васпитање и образовање, Закон о огледима у области предшколског, основног и средњег образовања („Службени лист САП Косово”, број 27/76) у делу који се односи на предшколско васпитање и образовање и Закон о сталном усавршавању наставног и васпитног особља („Службени гласник СР Србије”, бр. 47/78, 16/79 и 43/84), у делу који се односи на предшколско васпитање и образовање.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan88">
+					<num>88.</num>
+					<paragraph wId="gla8-clan88-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan88-stav2">
+						<content>
+							<p>ОДРЕДБЕ КОЈЕ НИСУ УНЕТЕ У  "ПРЕЧИШЋЕН ТЕКСТ" ЗАКОНА</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan3">
+					<num>3.</num>
+					<heading>Закон о допунама  Закона о друштвеној бризи о деци:   „Службени гласник РС”, број  29/1993-1184</heading>
+					<paragraph wId="gla8-clan3-stav1">
+						<content>
+							<p>Овај закона ступа на  снагу осмог дана од дана објављивања у  „Службеном гласнику Републике Србије”,  а одредбе члана 2. овог закона примењиваће се од 1. марта 1993. године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan3-stav2">
+						<content>
+							<p>Закон о изменама и допунама  Закона о друштвеној бризи о деци:   „Службени гласник РС”, број  53/1993-2459</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan3-stav3">
+						<content>
+							<p>Члан  14.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan3-stav4">
+						<content>
+							<p>Овај закона ступа на  снагу осмог дана од дана објављивања у  „Службеном гласнику Републике Србије”,  а примењиваће се од 1. августа 1993. године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan3-stav5">
+						<content>
+							<p>Закон о изменама и допунама  Закона о друштвеној бризи о деци:   „Службени гласник РС”, број  67/1993-3075</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan3-stav6">
+						<content>
+							<p>Члан  14.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan3-stav7">
+						<content>
+							<p>Овај закона ступа на  снагу осмог дана од дана објављивања у  „Службеном гласнику Републике Србије”,  а одредбе чл. 3. и 6. примењиваће се од 1. јула 1993. године.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan17">
+					<num>17.</num>
+					<heading>Закон о изменама и допунама  Закона о друштвеној бризи о деци:   „Службени гласник РС”, број 28/1994-776</heading>
+					<paragraph wId="gla8-clan17-stav1">
+						<content>
+							<p>Даном ступања на снагу овог закона престају да важе: Уредба о висини додатка на децу („Службени гласник РС”, бр. 105/93 и 8/94), Уредба о висини материнског додатка („Службени гласник РС”, бр. 105/93 и 8/94), Уредба о остваривању права на накнаду зараде за време породиљског, продуженог породиљског одсуства запосленог родитеља и одсуства са рада усвојиоца ради неге детета („Службени гласник РС”, бр. 112/93 и 8/94) и Уредба о висини помоћи за опрему новорођенчета („Службени гласник РС”, број 8/94).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan18">
+					<num>18.</num>
+					<paragraph wId="gla8-clan18-stav1">
+						<content>
+							<p>Овај закона ступа на  снагу осмог дана од дана објављивања у  „Службеном гласнику Републике Србије”,  а одредбе чл. 6. примењиваће се од 1. априла 1994. године а одредбе члана 9. од  1. септембра 1994. године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan18-stav2">
+						<content>
+							<p>Закон о изменама  Закона о друштвеној бризи о деци:   „Службени гласник РС”, број   47/1994-1472</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan18-stav3">
+						<content>
+							<p>Члан  4.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan18-stav4">
+						<content>
+							<p>Овај закона ступа на  снагу осмог дана од дана објављивања у  „Службеном гласнику Републике Србије”,  а одредбе чл. 1. и 3. примењиваће се од 1. јуна 1994. године.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan6">
+					<num>6.</num>
+					<heading>Закон о изменама и допунама  Закона о друштвеној бризи о деци:   „Службени гласник РС”, број 29/2001-5</heading>
+					<paragraph wId="gla8-clan6-stav1">
+						<content>
+							<p>Обрачун износа материнског додатка, помоћи за опрему новорођенчета и додатка на децу за јун, јул и август 2001. године вршиће се тако што ће се износи ових права за мај 2001. године усклађивати са индексом трошкова живота за месец за који се врши исплата у односу на претходни месец.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan7">
+					<num>7.</num>
+					<paragraph wId="gla8-clan7-stav1">
+						<content>
+							<p>Овај закон ступа на снагу 1. јуна 2001. године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan7-stav2">
+						<content>
+							<p>ЗАКОН</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan7-stav3">
+						<content>
+							<p>о  друштвеној бризи о деци</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan7-stav4">
+						<content>
+							<p>„Службени гласник РС”, бр. 49. од 21.  августа 1992, 29 од 15.  априла 1993, 53 од 16.  јула 1993,   53 од 16. јула 1993 -  др. закон,  67 од 30.  августа 1993,   67 од 30. августа 1993 -  др. закон,  28 од 22.  априла 1994, 47 од 14.  јула 1994, 48 од 20. јула 1994 -  др. закон, 25 од 29.  маја 1996, 29 од 17.  маја 2001, 16 од 5. априла 2002 -  др. закон, 62 од 17. јуна 2003 -  др. закон, 64 од 24.  јуна 2003  -исправка  др. закона,   101 од 21. новембра 2005 -  др. закон, 18 од 26. марта 2010 -  др. закон,  113 од 17. децембра 2017 - др. закон</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan7-stav5">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА: Даном почетка примене Закона о финансијској подршци  породици са децом ("Службени гласник РС", број 113/2017), односно 1. јула 2018.  године, престају да важе одредбе чл. 73. до 75. Закона (види члан 56. Закона -  113/2017-266) (текст закона пре измена из броја 113/2017 можетепогледати са  десне стране у делу "Верзије пречишћеног текста").</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОПШТЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Престао је да важи (види члан 38. Закона – 16/2002-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<paragraph wId="gla1-clan2-stav1">
+						<intro>
+							<p>Друштвену бригу о деци у смислу овог закона чине права родитеља и деце и организоване делатности и активности којима се обезбеђује:</p>
+						</intro>
+						<point wId="gla1-clan2-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> престала је да важи (види члан 38. Закона – 16/2002-1);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> престала је да важи (види члан 38. Закона – 16/2002-1);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> престала је да важи (види члан 174. Закона  – 62/2003-1);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> престала је да важи (види члан 174. Закона  – 62/2003-1);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p>  престала је да важи (види члан 61. Закона – 18/2010-48);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> престала је да важи (види члан 38. Закона – 16/2002-1).</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<heading>Престао је да важи (види члан 174. Закона – 62/2003-1 и исправку Закона – 64/2003-74)</heading>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>Престао је да важи (види члан 174. Закона – 62/2003-1 и исправку Закона – 64/2003-74)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav2">
+						<content>
+							<p>Чл. 5.  до  9.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav3">
+						<content>
+							<p>Престали  су да важе (види члан 38. Закона – 16/2002-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan10">
+					<num>10.</num>
+					<paragraph wId="gla1-clan10-stav1">
+						<content>
+							<p>Брисан је (види члан 3. Закона – 53/1993-2459).</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ПРАВА У ОБЛАСТИ ДРУШТВЕНЕ БРИГЕ О ДЕЦИ</heading>
+				<article wId="gla2-clan11">
+					<num>11.</num>
+					<paragraph wId="gla2-clan11-stav1">
+						<intro>
+							<p>Права у области друштвене бриге о деци у смислу овог закона су:</p>
+						</intro>
+						<point wId="gla2-clan11-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> престала је да важи (види члан 38. Закона – 16/2002-1);</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> престала је да важи (види члан 38. Закона – 16/2002-1);</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav2">
+						<intro>
+							<p>2а) престала је да важи (види члан 38. Закона – 16/2002-1);</p>
+						</intro>
+						<point wId="gla2-clan11-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> престала је да важи (види члан 38. Закона – 16/2002-1);</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> престала је да важи (види члан 38. Закона – 16/2002-1);</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav2-tac5">
+							<num>5)</num>
+							<content>
+								<p>  престала је да важи (види члан 61. Закона – 18/2010-48);</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav2-tac6">
+							<num>6)</num>
+							<content>
+								<p> престала је да важи (види члан 174. Закона  – 62/2003-1);</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav2-tac7">
+							<num>7)</num>
+							<content>
+								<p> престала је да важи (види члан 174. Закона  – 62/2003-1);</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav2-tac8">
+							<num>8)</num>
+							<content>
+								<p> одмор и рекреација деце до 15 година старости у дечјем одмаралишту;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav2-tac9">
+							<num>9)</num>
+							<content>
+								<p> регресирање трошкова боравка деце у предшколској установи, одмора и рекреације.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav3">
+						<content>
+							<p>Престали су да важе ранији ст. 2. до 4. (види члан 174. Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav4">
+						<content>
+							<p>Чл. 12. до 30.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav5">
+						<content>
+							<p>Престали  су да важе (види члан 38. Закона – 16/2002-1)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav6">
+						<content>
+							<p>Чл. 31. до 33.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav7">
+						<content>
+							<p>Престали су да важе (види члан 174. Закона  – 62/2003-1)</p>
+						</content>
+					</paragraph>
+				</article>
+				<section wId="gla2-od8">
+					<num>8.</num>
+					<heading> Одмор и рекреација деце до 15 година старости у дечјем одмаралишту</heading>
+					<article wId="gla2-od8-clan34">
+						<num>34.</num>
+						<paragraph wId="gla2-od8-clan34-stav1">
+							<intro>
+								<p>Деца до 15 година старости у дечјем одмаралишту имају право на одмор, рекреацију, здравствену заштиту, исхрану, васпитно-образовни рад и спортско-рекреативне активности, под условима и на начин који утврди надлежни општински орган.</p>
+							</intro>
+							<point wId="gla2-od8-clan34-stav1-tac9">
+								<num>9.</num>
+								<content>
+									<p> Регресирање трошкова боравка деце у предшколској установи, одмора и рекреације</p>
+								</content>
+							</point>
+						</paragraph>
+					</article>
+					<article wId="gla2-od8-clan35">
+						<num>35.</num>
+						<paragraph wId="gla2-od8-clan35-stav1">
+							<content>
+								<p>Деца предшколског и основношколског узраста, у зависности од материјалног положаја породице, имају право на регресирање трошкова борава у предшколској установи.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla2-od8-clan35-stav2">
+							<content>
+								<p>Регресирање трошкова целодневног и полудневног боравка деце, предшколског узраста обезбеђује се у укупном износу од 80%* од економске цене просечно по детету, у предшколским установама које се налазе у мрежи установа коју утврди општина.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla2-od8-clan35-stav3">
+							<content>
+								<p>Начин и услове регресирања трошкова из ст. 1. и 2. овог члана утврђује надлежни општински орган.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="gla2-od8-clan36">
+						<num>36.</num>
+						<heading>*Службени гласник РС, број 67/1993</heading>
+						<paragraph wId="gla2-od8-clan36-stav1">
+							<content>
+								<p>Министар надлежан за друштвену бригу о деци прописује ближе услове и начин остваривања права на накнаду зараде за време породиљског, продуженог породиљског одсуства запосленог родитеља и одсуства са рада усвојиоца ради неге детета (чл. 12. до 18), матерински додатак (чл. 19. до 20), помоћ за опрему новорођенчета (члан 20а)*, додатак на децу (чл. 21. до 30), као и права из чл. 30. до 32, и висину накнаде која се обезбеђује из буџета за остваривање права из чл. 30. до 32. овог закона.**</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla2-od8-clan36-stav2">
+							<content>
+								<p>Престао  је да важи ранији  став 2.  (види члан 174. Закона  – 62/2003-1)</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla2-od8-clan36-stav3">
+							<content>
+								<p>*Службени гласник РС, број 67/1993</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla2-od8-clan36-stav4">
+							<content>
+								<p>**Службени гласник РС, број 28/1994</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla2-od8-clan36-stav5">
+							<content>
+								<p>НАПОМЕНА ИЗДАВАЧА:  Престао је да важи  став 1. овог члана у делу који се односи на право на накнаду зараде за време породиљског, продуженог породиљског одсуства запосленог родитеља и одсуства са рада усвојиоца ради неге детета, материјски додатак, помоћ за опрему новорођенчета и додатак на децу (види члан 38. Закона – 16/2002-1).</p>
+							</content>
+						</paragraph>
+					</article>
+				</section>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>ПОСТУПАК ЗА ОСТВАРИВАЊЕ ПРАВА</heading>
+				<paragraph wId="gla3-clan36-stav1">
+					<content>
+						<p>Чл. 37. до 42.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla3-clan36-stav2">
+					<content>
+						<p>Престали  су да важе (види члан 38. Закона – 16/2002-1).</p>
+					</content>
+				</paragraph>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>ПРЕДШКОЛСКО ВАСПИТАЊЕ И ОБРАЗОВАЊЕ</heading>
+				<paragraph wId="gla4-clan36-stav1">
+					<content>
+						<p>Чл. 43. и 44.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-clan36-stav2">
+					<content>
+						<p>Престали  су да важе (види члан 174. Закона  – 62/2003-1)</p>
+					</content>
+				</paragraph>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>УСТАНОВЕ ЗА ДЕЦУ</heading>
+				<article wId="gla5-clan45">
+					<num>45.</num>
+					<paragraph wId="gla5-clan45-stav1">
+						<content>
+							<p>Права на: боравак, предшколско васпитање и образовање и превентивну здравствену заштиту деце предшколског узраста; васпитно-образовни програм у години пред полазак у основну школу у трајању од три сата дневно у школској години* боравак деце до 10 година старости у предшколској установи и одмор и рекреацију деце до 15 година старости у дечјем одмаралишту остварују се преко установа за децу утврђених овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan45-stav2">
+						<content>
+							<p>Установе за децу из става 1. овог члана оснива општина.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan45-stav3">
+						<content>
+							<p>Мрежу установа за децу утврђује општина, на основу критеријума које доноси Влада Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan45-stav4">
+						<content>
+							<p>*Службени гласник РС”, број 28/1994</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan45-stav5">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је  престао да важи у делу који се односи на предшколске установе (види члан 174. Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan46">
+					<num>46.</num>
+					<paragraph wId="gla5-clan46-stav1">
+						<content>
+							<p>Установа за децу може бити основана и почети са радом ако има обезбеђен простор, опрему и стручне и друге раднике.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan46-stav2">
+						<content>
+							<p>Министар надлежан за друштвену бригу о деци, министар надлежан за просвету и министар надлежан за здравље, споразумно утврђују ближе услове у погледу простора, опреме, броја стручних и других радника у установама за децу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan46-stav3">
+						<content>
+							<p>Установа за децу може почети са радом када општинска управа утврди да су испуњени услови за њено оснивање и почетак рада.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan46-stav4">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је престао да важи у делу који се односи на предшколске установе (види члан 174. Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan47">
+					<num>47.</num>
+					<paragraph wId="gla5-clan47-stav1">
+						<content>
+							<p>Друга правна и физичка лица могу обављати делатност, односно послове у области друштвене бриге о деци под условима и на начин утврђен овим законом и прописима донетим на основу овог закона* за обављање тих делатности, односно послова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan47-stav2">
+						<content>
+							<p>Друга правна и физичка лица могу обављати делатност, односно послове друштвене бриге о деци, у зависности од њихове врсте, ако имају обезбеђен одговарајући простор, опрему и ако лице које обавља те послове има одговарајућу стручну спрему.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan47-stav3">
+						<content>
+							<p>Ближе услове и врсте послова друштвене бриге о деци* из става 2. овог члана прописују споразумно министар надлежан за друштвену бригу о деци, министар надлежан за просвету и министар надлежан за здравље.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan47-stav4">
+						<content>
+							<p>Када друга правна и физичка лица оснивају установе за децу одређене овим законом са делокругом утврђеним овим законом, у погледу услова за њихово оснивање примењују се одредбе овог закона и акти надлежног министарства прописани за те установе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan47-stav5">
+						<content>
+							<p>*Службени гласник РС”, број 28/1994</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan47-stav6">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је престао да важи у делу који се односи на предшколске установе (види члан 174. Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan48">
+					<num>48.</num>
+					<paragraph wId="gla5-clan48-stav1">
+						<content>
+							<p>На оснивање, управљање, руковођење, положај запослених у установи за децу, надзор над законитошћу рада, као и на укидање, примењују се одредбе закона којима се уређује систем јавних служби.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan48-stav2">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је престао да важи у делу који се односи на предшколске установе (види члан 174. Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan49">
+					<num>49.</num>
+					<paragraph wId="gla5-clan49-stav1">
+						<content>
+							<p>Установом за децу руководи директор.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan49-stav2">
+						<content>
+							<p>Директор установе одговоран је за: законитост рада, организацију рада, остваривање програма рада установе и вођење прописане документације и евиденције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan49-stav3">
+						<content>
+							<p>За директора установе за децу може бити именовано лице које има високу или вишу школску спрему просветног, педагошког, психолошког, социолошког, социјалног или здравственог смера.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan49-stav4">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је престао да важи у делу који се односи на предшколске установе (види члан 174. Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan50">
+					<num>50.</num>
+					<paragraph wId="gla5-clan50-stav1">
+						<content>
+							<p>Орган управљања установе за децу је управни одбор.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan50-stav2">
+						<content>
+							<p>Управни одбор има најмање пет чланова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan50-stav3">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је престао да важи у делу који се односи на предшколске установе (види члан 174. Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan51">
+					<num>51.</num>
+					<paragraph wId="gla5-clan51-stav1">
+						<content>
+							<p>Када се у установи за децу организује штрајк, минимум процеса рада који се обезбеђује је боравак, чување, нега и исхрана деце.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan51-stav2">
+						<content>
+							<p>Општим актом установе за децу утврђују се послови из става 1. овог члана који морају да се обављају за време трајања штрајка, као и начин и услови за обављање тих послова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan51-stav3">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је престао да важи у делу који се односи на предшколске установе (види члан 174. Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan52">
+					<num>52.</num>
+					<paragraph wId="gla5-clan52-stav1">
+						<content>
+							<p>Установа за децу води евиденцију о свом раду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan52-stav2">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је престао да важи у делу који се односи на предшколске установе (види члан 174. Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan53">
+					<num>53.</num>
+					<paragraph wId="gla5-clan53-stav1">
+						<content>
+							<p>Установа за децу доноси годишњи програм рада, уз претходну сагласност оснивача, најкасније до 30. септембра текуће године и подноси извештај о извршењу годишњег програма рада оснивачу за претходну годину.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan53-stav2">
+						<intro>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је престао да важи у делу који се односи на предшколске установе (види члан 174. Закона  – 62/2003-1).</p>
+						</intro>
+						<point wId="gla5-clan53-stav2-tac1">
+							<num>1.</num>
+							<content>
+								<p> Предшколске установе</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla5-clan53-stav3">
+						<content>
+							<p>Чл. 54.  до 62.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan53-stav4">
+						<content>
+							<p>Престали  су да важе (види члан 174. Закона  – 62/2003-1)</p>
+						</content>
+					</paragraph>
+				</article>
+				<section wId="gla5-od2">
+					<num>2.</num>
+					<heading> Дечје одмаралиште</heading>
+					<article wId="gla5-od2-clan63">
+						<num>63.</num>
+						<paragraph wId="gla5-od2-clan63-stav1">
+							<content>
+								<p>У дечјем одмаралишту, деци до 15 година старости, обезбеђује се боравак, васпитно-образовни рад, здравствена заштита, исхрана, спортско-рекреативни и други садржај кроз организовање активног одмора, рекреације, наставе у природи и климатског опоравка.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla5-od2-clan63-stav2">
+							<content>
+								<p>Министар надлежан за друштвену бригу о деци, министар надлежан за просвету и министар надлежан за здравље споразумно утврђују основе програма одмора, рекреације, климатског опоравка и наставе у природи.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla5-od2-clan63-stav3">
+							<content>
+								<p>Министар надлежан за друштвену бригу о деци, прописује норматив исхране деце и начин вођења евиденције о примени норматива исхране.*</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="gla5-od2-clan64">
+						<num>64.</num>
+						<heading>*Службени гласник РС, број 28/1994</heading>
+						<paragraph wId="gla5-od2-clan64-stav1">
+							<content>
+								<p>Рад са децом у дечјем одмаралишту организује се у групама.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla5-od2-clan64-stav2">
+							<intro>
+								<p>Број присутне деце у групи, у зависности од узраста, је:</p>
+							</intro>
+							<point wId="gla5-od2-clan64-stav2-tac1">
+								<num>1)</num>
+								<content>
+									<p> до 7 година – 10 деце</p>
+								</content>
+							</point>
+							<point wId="gla5-od2-clan64-stav2-tac2">
+								<num>2)</num>
+								<content>
+									<p> од 7 до 15 година – 25 деце.</p>
+								</content>
+							</point>
+						</paragraph>
+					</article>
+					<article wId="gla5-od2-clan65">
+						<num>65.</num>
+						<paragraph wId="gla5-od2-clan65-stav1">
+							<content>
+								<p>Стручне послове у дечјим одмаралиштима могу обављати лица са средњом, вишом и високом школском спремом (просветна, здравствена и дијететска струка).</p>
+							</content>
+						</paragraph>
+					</article>
+				</section>
+			</chapter>
+			<chapter wId="gla6">
+				<num>VI</num>
+				<heading>ОБЕЗБЕЂИВАЊЕ СРЕДСТАВА</heading>
+				<article wId="gla6-clan66">
+					<num>66.</num>
+					<paragraph wId="gla6-clan66-stav1">
+						<content>
+							<p>Средства за остваривање права од општег интереса утврђених у члану 11. став 1. тач. 1) до 6) овог закона, обезбеђују се у Буџету Републике и преносе министарству надлежном за друштвену бригу о деци, при чему се посебно воде средства за породиљска права, а посебно средства за додатак на децу и друга права.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan66-stav2">
+						<content>
+							<p>Средства за остваривање права из члана 11. став 1. тач. 7) до 9) овог закона и средства за изградњу, доградњу и опремање установа за децу обезбеђују се у буџету општине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan66-stav3">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan66-stav4">
+						<content>
+							<p>Престао је да важи  став 1. овог члана, осим у делу који се односи на предшколско васпитање и образовање за децу на дужем болничком лечењу и на васпитно-образовни програм у трајању од три сата пред полазак у основну школу,   ступањем на снагу Закона о финансијској помоћи породицама са децом ("Службени  гласник РС", број 16/2002), односно  1. јуна 2002. године (види члан 38. Закона – 16/2002-1).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan66-stav5">
+						<content>
+							<p>Члан  је престао да важи у делу који се односи на предшколско  образовање и васпитање (види члан 174. Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan67">
+					<num>67.</num>
+					<paragraph wId="gla6-clan67-stav1">
+						<content>
+							<p>Цена услуга, односно програма изражава вредност и резултат рада којима се обезбеђује накнада материјалних трошкова, у складу са утврђеним нормативима, амортизацијом у складу са законом, зараде према важећим прописима, одговарајући износ за текуће и инвестиционо одржавање и средства за исплату законом одређених обавеза.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan67-stav2">
+						<content>
+							<p>Министар надлежан за друштвену бригу о деци прописује мерила за утврђивање цена услуга у дечјим установама.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan67-stav3">
+						<content>
+							<p>Надлежни општински орган утврђује цене услуга у установама за децу које се налазе у мрежи установа које утврђује општина.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan67-stav4">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је  престао је да важи у делу који се односи на предшкоске установе (види члан 174. Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla7">
+				<num>VII</num>
+				<heading>НАДЗОР НАД ЗАКОНИТОШЋУ РАДА И НАД СТРУЧНИМ РАДОМ</heading>
+				<article wId="gla7-clan68">
+					<num>68.</num>
+					<paragraph wId="gla7-clan68-stav1">
+						<content>
+							<p>Надзор над законитошћу рада установа за децу врши министарство надлежно за друштвену бригу о деци. Надзор над законитошћу рада установе за децу на територији Аутономне покрајине Војводине поверава се одговарајућем органу управе Аутономне покрајине Војводина.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan68-stav2">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је престао је да важи у делу који се односи на предшкоске установе (види члан 174. Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan69">
+					<num>69.</num>
+					<paragraph wId="gla7-clan69-stav1">
+						<content>
+							<p>Престао је да важи (види члан 38. Закона – 16/2002-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan70">
+					<num>70.</num>
+					<paragraph wId="gla7-clan70-stav1">
+						<content>
+							<p>Надзор над стручним радом у остваривању васпитно-образовног рада врши министарство надлежно за просвету, над остваривањем превентивне здравствене заштите министарство надлежно за здравље и над остваривањем социјалног рада министарство надлежно за друштвену бригу о деци.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan70-stav2">
+						<content>
+							<p>Надзор над стручним радом врши се најмање једанпут у две године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan70-stav3">
+						<content>
+							<p>Министри надлежни за друштвену бригу о деци, здравље и просвету споразумно прописују начин и поступак за вршење надзора над стручним радом и споразумно утврђују годишњи програм спровођења надзора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan70-stav4">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је престао је да важи у делу који се односи на предшкоске установе (види члан 174. Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan71">
+					<num>71.</num>
+					<paragraph wId="gla7-clan71-stav1">
+						<content>
+							<p>Извештај о извршеном надзору над стручним радом доставља се у року од 30 дана по обављеном надзору установи у којој је извршен надзор, оснивачу установе и органу који је дао сагласност за обављање делатности, односно послова, другим правним и физичким лицима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan71-stav2">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је престао је да важи у делу који се односи на предшкоске установе (види члан 174. Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan72">
+					<num>72.</num>
+					<paragraph wId="gla7-clan72-stav1">
+						<content>
+							<p>Надзор над стручним радом могу да врше лица која имају високу школску спрему одговарајуће струке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan72-stav2">
+						<content>
+							<p>Изузетно од става 1. овог члана, надзор над пословима исхране могу вршити и лица са вишом школском спремом одговарајуће струке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan72-stav3">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:  Члан  је престао је да важи у делу који се односи на предшкоске установе (види члан 174. Закона  – 62/2003-1).</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla8">
+				<num>VIII</num>
+				<heading>ДЕЧЈА НЕДЕЉА</heading>
+				<paragraph wId="gla8-clan72-stav1">
+					<content>
+						<p>Чл. 73 до 75.Престали су да важе (види члан 56.  Закона - 113/2017-266)</p>
+					</content>
+				</paragraph>
+				<article wId="gla8-clan76">
+					<num>76.</num>
+					<heading>IХ. КАЗНЕНЕ ОДРЕДБЕ</heading>
+				</article>
+				<article wId="gla8-clan77">
+					<num>77.</num>
+					<heading>Престао је да важи (види члан 38. Закона – 16/2002-1)</heading>
+				</article>
+				<article wId="gla8-clan78">
+					<num>78.</num>
+					<heading>Престао је да важи (види члан 174. Закона  – 62/2003-1)</heading>
+					<paragraph wId="gla8-clan78-stav1">
+						<content>
+							<p>Новчаном казном  до 1.000.000   динара* казниће се организација, односно друго правно лице које не убира средства „Дечје недеље”, односно која не уплаћује убрана средства у буџет Републике (члан 74).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan78-stav2">
+						<content>
+							<p>За прекршај из става 1. овог члана казниће се новчаном казном  до 50.000   динара* и одговорно лице у организацији, односно другом правном лицу.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan79">
+					<num>79.</num>
+					<heading>*Службени  гласник РС, број 101/2005</heading>
+					<paragraph wId="gla8-clan79-stav1">
+						<content>
+							<p>Новчаном казном  до 50.000   динара* казниће се физичко лице које самостално обавља привредну, или другу делатност, које не убира средства „Дечје недеље”, односно које не уплаћује убрана средства у буџет Републике (члан 74).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan79-stav2">
+						<content>
+							<p>*Службени  гласник РС, број 101/0205</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan80">
+					<num>80.</num>
+					<heading>Х. ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+					<paragraph wId="gla8-clan80-stav1">
+						<content>
+							<p>До доношења подзаконских прописа, у складу са овим законом, примењиваће се постојећи прописи, уколико нису у супротности са овим законом.</p>
+						</content>
+					</paragraph>
+					<article wId="gla8-clan80.а">
+						<num>80а</num>
+					</article>
+					<article wId="gla8-clan80.б">
+						<num>80б</num>
+						<heading>Брисан је члан  80а који је додат у броју 29/1993  (види члан 13. Закона – 53/1993-2459)</heading>
+					</article>
+				</article>
+				<article wId="gla8-clan81">
+					<num>81.</num>
+					<heading>Брисан је  члан 80б који је додат у броју 29/1993  (види члан 13. Закона – 67/1993-3075)</heading>
+					<paragraph wId="gla8-clan81-stav1">
+						<content>
+							<p>Постојеће установе за децу, ускладиће своју организацију и општа акта са одредбама овог закона у року од шест месеци од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan81-stav2">
+						<content>
+							<p>До доношења општих аката из става 1. овог члана примењиваће се важећи општи акти, уколико нису у супротности са овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan82">
+					<num>82.</num>
+					<paragraph wId="gla8-clan82-stav1">
+						<content>
+							<p>Оснивачка права и обавезе према постојећим установама за децу које су основали Град Београд, односно покрајина, а које буду утврђене мрежом установа, у складу са овим законом има општина, на дан ступања на снагу акта којим се утврђује мрежа установа за децу.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan83">
+					<num>83.</num>
+					<paragraph wId="gla8-clan83-stav1">
+						<content>
+							<p>Земљиште, зграде и друга средства установа за децу, чији је оснивач општина, град Београд, односно покрајина, а које буду утврђене мрежом установа, прелазе у државну својину, на дан ступања на снагу акта којим се утврђује мрежа установа за децу.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan84">
+					<num>84.</num>
+					<paragraph wId="gla8-clan84-stav1">
+						<content>
+							<p>Медицинске сестре, васпитачи, стручни сарадници и сарадници-васпитачи који су запослени у предшколској установи, а који су по прописима који су важили до ступања на снагу овог закона, испуњавали услове у погледу врсте и степена стручне спреме, могу и даље радити у предшколској установи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan84-stav2">
+						<content>
+							<p>Васпитно-образовни рад у предшколској установи могу обављати и лица из става 1. овог члана која у моменту ступања на снагу овог закона, нису била у радном односу у предшколској установи, ако имају више од 20 година радног искуства у предшколској установи.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan85">
+					<num>85.</num>
+					<paragraph wId="gla8-clan85-stav1">
+						<content>
+							<p>Медицинске сестре, васпитачи, стручни сарадници и сарадници-васпитачи предшколских установа чије је седиште на територији Аутономне покрајине Војводине и Аутономне покрајине Косова и Метохије, који до ступања на снагу овог закона нису положили стручни испит, по прописима из области образовања, могу и даље обављати послове у предшколској установи, ако у року од две године од дана ступања на снагу овог закона, положе стручни испит у складу са овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan85-stav2">
+						<content>
+							<p>Запослени из става 1. овог члана са преко 25 година радног искуства у области васпитања и образовања не полажу стручни испит.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan86">
+					<num>86.</num>
+					<paragraph wId="gla8-clan86-stav1">
+						<content>
+							<p>Даном ступања на снагу овог закона престаје коришћење права, остварених на основу прописа који су били на снази, до дана ступања на снагу овог закона, осим права код којих ће се извршити одговарајуће усклађивање са одредбама овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan86-stav2">
+						<content>
+							<p>Првостепени органи надлежни за решавање о правима из овог закона извршиће усклађивање права на додатак на децу, које је остварено по прописима који су били на снази до дана ступања на снагу овог закона, са одредбама овог закона, у року од три месеца од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan86-stav3">
+						<content>
+							<p>Првостепени органи, надлежни за решавање о правима из овог закона, извршиће усклађивање права на новчану помоћ незапосленој жени за време породиљског одсуства и новчану помоћ незапосленом лицу и редовном студенту за време трудноће и порођаја, које је остварено по прописима који су били на снази до дана ступања на снагу овог закона, са одредбама овог закона о праву на матерински додатак, у року од месец дана од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan86-stav4">
+						<content>
+							<p>Лицима која остваре право на матерински додатак у складу са овим законом у време трајања материнског додатка урачунаће се и време за које су користили право на новчану помоћ незапосленој жени за време породиљског одсуства, односно новчану помоћ незапосленом лицу и редовном студенту за време трудноће и порођаја, по прописима који су били на снази до дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan86-stav5">
+						<content>
+							<p>Првостепени органи надлежни за решавање о правима из овог закона, извршиће усклађивање права на накнаду трошкова боравка у предшколској установи за треће дете из породица са троје деце, у општинама са негативном стопом природног прираштаја становништва, која су остварена по прописима који су били на снази до дана ступања на снагу овог закона, са одредбама овог закона, у року од месец дана од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan86-stav6">
+						<content>
+							<p>Поступци за остваривање права који су започети пре ступања на снагу овог закона, окончаће се по одредбама овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan87">
+					<num>87.</num>
+					<paragraph wId="gla8-clan87-stav1">
+						<intro>
+							<p>Ступањем на снагу овог закона престају да важе:</p>
+						</intro>
+						<point wId="gla8-clan87-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> Закон о друштвеној бризи о деци („Службени гласник СРС”, бр. 4/90 и 38/90 и „Службени гласник РС”, број 21/90), Закон о друштвеној бризи о деци („Службени лист САП Војводине”, бр. 9/90 и 38/90) и Закон о дечјој заштити („Службени лист САП Косово”, број 18/76), осим одредаба које се односе на додатак на децу које престају да важе у року од 90 дана од дана ступања на снагу овог закона.</p>
+							</content>
+						</point>
+						<point wId="gla8-clan87-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> Закон о пословима и интересима друштва у области предшколског васпитања и образовања („Службени лист САП Војводине”, бр. 6/90 и 9/90), Закон о предшколском васпитању и образовању („Службени лист САП Косово”, број 24/78), Закон о самоуправним интересним заједницама социјалне заштите у делу којим се уређује област дечје заштите („Службени лист САП Косово”, бр. 35/74 и 9/83), Закон о дечјој недељи („Службени лист САП Косово”, бр. 28/72 и 52/75), Закон о васпитању и образовању („Службени лист САП Војводине”, бр. 15/83, 11/86, 5/87, 17/88 и 23/88), у делу којим се уређује предшколско васпитање и образовање, Закон о огледима у области предшколског, основног и средњег образовања („Службени лист САП Косово”, број 27/76) у делу који се односи на предшколско васпитање и образовање и Закон о сталном усавршавању наставног и васпитног особља („Службени гласник СР Србије”, бр. 47/78, 16/79 и 43/84), у делу који се односи на предшколско васпитање и образовање.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan88">
+					<num>88.</num>
+					<paragraph wId="gla8-clan88-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan88-stav2">
+						<content>
+							<p>ОДРЕДБЕ КОЈЕ НИСУ УНЕТЕ У  "ПРЕЧИШЋЕН ТЕКСТ" ЗАКОНА</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan3">
+					<num>3.</num>
+					<heading>Закон о допунама  Закона о друштвеној бризи о деци:   „Службени гласник РС”, број  29/1993-1184</heading>
+					<paragraph wId="gla8-clan3-stav1">
+						<content>
+							<p>Овај закона ступа на  снагу осмог дана од дана објављивања у  „Службеном гласнику Републике Србије”,  а одредбе члана 2. овог закона примењиваће се од 1. марта 1993. године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan3-stav2">
+						<content>
+							<p>Закон о изменама и допунама  Закона о друштвеној бризи о деци:   „Службени гласник РС”, број  53/1993-2459</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan3-stav3">
+						<content>
+							<p>Члан  14.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan3-stav4">
+						<content>
+							<p>Овај закона ступа на  снагу осмог дана од дана објављивања у  „Службеном гласнику Републике Србије”,  а примењиваће се од 1. августа 1993. године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan3-stav5">
+						<content>
+							<p>Закон о изменама и допунама  Закона о друштвеној бризи о деци:   „Службени гласник РС”, број  67/1993-3075</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan3-stav6">
+						<content>
+							<p>Члан  14.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan3-stav7">
+						<content>
+							<p>Овај закона ступа на  снагу осмог дана од дана објављивања у  „Службеном гласнику Републике Србије”,  а одредбе чл. 3. и 6. примењиваће се од 1. јула 1993. године.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan17">
+					<num>17.</num>
+					<heading>Закон о изменама и допунама  Закона о друштвеној бризи о деци:   „Службени гласник РС”, број 28/1994-776</heading>
+					<paragraph wId="gla8-clan17-stav1">
+						<content>
+							<p>Даном ступања на снагу овог закона престају да важе: Уредба о висини додатка на децу („Службени гласник РС”, бр. 105/93 и 8/94), Уредба о висини материнског додатка („Службени гласник РС”, бр. 105/93 и 8/94), Уредба о остваривању права на накнаду зараде за време породиљског, продуженог породиљског одсуства запосленог родитеља и одсуства са рада усвојиоца ради неге детета („Службени гласник РС”, бр. 112/93 и 8/94) и Уредба о висини помоћи за опрему новорођенчета („Службени гласник РС”, број 8/94).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan18">
+					<num>18.</num>
+					<paragraph wId="gla8-clan18-stav1">
+						<content>
+							<p>Овај закона ступа на  снагу осмог дана од дана објављивања у  „Службеном гласнику Републике Србије”,  а одредбе чл. 6. примењиваће се од 1. априла 1994. године а одредбе члана 9. од  1. септембра 1994. године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan18-stav2">
+						<content>
+							<p>Закон о изменама  Закона о друштвеној бризи о деци:   „Службени гласник РС”, број   47/1994-1472</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan18-stav3">
+						<content>
+							<p>Члан  4.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan18-stav4">
+						<content>
+							<p>Овај закона ступа на  снагу осмог дана од дана објављивања у  „Службеном гласнику Републике Србије”,  а одредбе чл. 1. и 3. примењиваће се од 1. јуна 1994. године.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan6">
+					<num>6.</num>
+					<heading>Закон о изменама и допунама  Закона о друштвеној бризи о деци:   „Службени гласник РС”, број 29/2001-5</heading>
+					<paragraph wId="gla8-clan6-stav1">
+						<content>
+							<p>Обрачун износа материнског додатка, помоћи за опрему новорођенчета и додатка на децу за јун, јул и август 2001. године вршиће се тако што ће се износи ових права за мај 2001. године усклађивати са индексом трошкова живота за месец за који се врши исплата у односу на претходни месец.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan7">
+					<num>7.</num>
+					<paragraph wId="gla8-clan7-stav1">
+						<content>
+							<p>Овај закон ступа на снагу 1. јуна 2001. године.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>
