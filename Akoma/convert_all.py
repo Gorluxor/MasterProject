@@ -12,7 +12,7 @@ try:
     from Akoma.reasoner.BasicReasoner import BasicReasoner
     from Akoma.reasoner.OdlukaReasoner import OdlukaReasoner
     from Akoma.form_akoma.MetadataBuilder import MetadataBuilder
-    from Akoma.named_enitity_recognition.pattern_recognition import add_refs
+    from Akoma.named_enitity_recognition.references import add_refs
 except ModuleNotFoundError as sureError:
     try:
         from utilities import ETree, utilities
