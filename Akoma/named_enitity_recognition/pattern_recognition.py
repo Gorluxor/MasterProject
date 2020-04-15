@@ -38,7 +38,7 @@ azbuka_pattern = '[а|б|в|г|д|ђ|е|ж|з|и|ј|к|л|љ|м|н|њ|о|п|р|�
 regexBroj = '[0-9]+'
 regexBrojSlovo = '[0-9]+[а|б|в|г|д|ђ|е|ж|з|и|ј|к|л|љ|м|н|њ|о|п|р|с|т|ћ|у|ф|х|ц|ч|џ|ш]'
 nabrajanje = '(члан.?.?\\s*[0-9]+' + azbuka_pattern + ')' + further + '(став.?\\s*[0-9]+)?' + further + '((тачка|тачке).?\\s*[0-9]+\)?)?'
-nabrajanjeCl = '(чл.\\s*[0-9]+' + azbuka_pattern + '\.?)(((,)|(.?\\s*и)|(\\s*или\\s*))(\\s*[0-9]+\.?))*'
+nabrajanjeCl = '(чл.\\s*[0-9]+' + azbuka_pattern + '\.?)(((,)|(.?\\s*и)|(\\s*или\\s*))(\\s*[0-9]+' + azbuka_pattern + '\.?))*'
 nabrajanjeClDoCl = '(чл.\\s*[0-9]+' + azbuka_pattern + '\.)(\\s*до\\s*)((чл.\\s*)?[0-9]+' + azbuka_pattern + '(\.|,))'
 nabrajanjeClCrtaClan = '(чл.\\s*[0-9]+' + azbuka_pattern + ')(–|-)((чл.\\s*)?[0-9]+' + azbuka_pattern + ')'
 nabrajanje2 = '(члан.?.?\\s*[0-9]+' + azbuka_pattern + ')?' + further + '(став.?\\s*[0-9]+)?' + further + '((тачка|тачке).?\\s*[0-9]+)?'
@@ -48,13 +48,21 @@ nabrajanjeStavUzastopno = '(чл.?.?.?.?\.?\\s*[0-9]+.?\\s*)?(ст.\\s*[0-9]+\.?
 nabrajanjeStav = '(чл.?.?.?.?\.?\\s*[0-9]+.?\\s*)?(ст.\\s*[0-9]+\.?)(((,)|(.?\\s*и)|(\\s*или\\s*))(\\s*[0-9]+\.?))*'
 
 
-def make_reference(cnt, this_id, start, end, ending, stringo, longer):
+def make_reference(cnt, this_id, start, end, ending, stringo, longer, useLonger = True):
     open = "<ref " + "wId=\"ref" + str(cnt) + "\" href=\"akn" + this_id + "/!main~" + ending + "\" >"
 
-    stringo = stringo[:start + longer] + open + stringo[start + longer:]
+    if useLonger:
+        start = start + longer
+
+    stringo = stringo[:start] + open + stringo[start:]
     longer += len(open)
 
-    stringo = stringo[:end + longer] + "</ref>" + stringo[end + longer:]
+    if useLonger:
+        end = end + longer
+    else:
+        end = end + len(open)
+
+    stringo = stringo[:end] + "</ref>" + stringo[end:]
     longer += len("</ref>")
 
     cnt += 1
@@ -155,6 +163,7 @@ def get_ending2(m, clan_id):
 
 
 def get_ending_clan_nabrajanje(stringo, m, cnt=0, this_id="", longer=0, stav = False, clan_id = ""):
+    longerStart = longer
     stringStart = m.regs[0][0] + longer
     if clan_id != "" and m.group(1):
         stringStart =  m.regs[1][1] + longer
@@ -193,17 +202,17 @@ def get_ending_clan_nabrajanje(stringo, m, cnt=0, this_id="", longer=0, stav = F
                 index = 0
                 for edge in edges:
                     if edge[0] == edge[1]:
-                        start = range_list_for[index][0][0] + stringStart
+                        start = range_list_for[index][0][0] + stringStart - longerStart + longer
                         difference = range_list_for[index][1][1] - range_list_for[index][0][0]
                         end = difference + start
                         if not stav:
                             ending = "art_" + str(edge[0])
                         else:
                             ending = pom_string + "para_" + str(edge[0])
-                        stringo, longer, cnt = make_reference(cnt, this_id, start, end, ending, stringo, longer)
+                        stringo, longer, cnt = make_reference(cnt, this_id, start, end, ending, stringo, longer, False)
                         index = index + 1
                     else:
-                        start = range_list_for[index][0][0] + stringStart
+                        start = range_list_for[index][0][0] + stringStart - longerStart + longer
                         difference = range_list_for[index][1][1] - range_list_for[index][0][0]
                         end = difference + start
                         if not stav:
@@ -211,7 +220,7 @@ def get_ending_clan_nabrajanje(stringo, m, cnt=0, this_id="", longer=0, stav = F
                         else:
                             ending = pom_string + "para_" + str(edge[0]) + "->para_" + str(edge[1])
                         stringo, longer, cnt = make_reference(cnt, this_id, start, end, ending, stringo,
-                                                              longer)
+                                                              longer, False)
                         index = index + 1
                 return stringo, longer, cnt
     return retval
@@ -237,8 +246,8 @@ def add_refs1(stringo, cnt, this_id):
 def add_refsCl(stringo, cnt, this_id):
     longer = 0
     for m in re.finditer(nabrajanjeCl + '\\s*(овог)?', stringo):
-        findPattern = re.match(nabrajanjeClDoCl, stringo[m.regs[0][0]:m.regs[0][0] + 20])
-        foundPattern = re.match(nabrajanjeClCrtaClan, stringo[m.regs[0][0]:m.regs[0][0] + 20])
+        findPattern = re.match(nabrajanjeClDoCl, stringo[m.regs[0][0] + longer:m.regs[0][0] + 20 + longer])
+        foundPattern = re.match(nabrajanjeClCrtaClan, stringo[m.regs[0][0] + longer:m.regs[0][0] + 20 + longer])
         if findPattern:
             firstIndex = findPattern.regs[0][0] + m.regs[0][0] + longer
             lastIndex = findPattern.regs[0][1] + m.regs[0][0] + longer
@@ -322,7 +331,7 @@ def add_refs(stablo, stringo, this_id):
 
     for el_clan in listaClanova:  # Primer pristupa svakom članu
         clan_id = el_clan.attrib['wId']
-        if(clan_id == "gla4-od2-clan63"):
+        if("clan43" in clan_id):
             print("")
         for el_stav in el_clan.iter('paragraph'):
             if el_stav.attrib['wId'] not in listaObradjenihParagrafa:
