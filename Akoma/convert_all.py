@@ -138,13 +138,13 @@ def apply_akn_tags(text: str, meta_name: str, skip_tfidf=False):
         reasoner.start()
 
     result_str = builder.result_str()
-    try:
-        result_stablo = add_refs(akoma_root, result_str, metabuilder.expressionuri)
-    except Exception as e:
-        file_ref_exeption = open(utilities.get_root_dir() + "/data/" + "za_ninu.txt", mode="a+")
-        file_ref_exeption.write(meta_name + ":" + str(e) + "\n")
-        file_ref_exeption.close()
-        return result_str
+    # try:
+    result_stablo = add_refs(akoma_root, result_str, metabuilder.expressionuri)
+    # except Exception as e:
+    #     file_ref_exeption = open(utilities.get_root_dir() + "/data/" + "za_ninu.txt",mode="a+")
+    #     file_ref_exeption.write(meta_name + ":" + str(e) + "\n")
+    #     file_ref_exeption.close()
+    #     return result_str
     result_str = prettify(result_stablo).replace("&lt;", "<").replace("&gt;", ">").replace("&quot;", "\"").replace(
         '<references source="#somebody"/>', "")
     return result_str
@@ -153,7 +153,7 @@ def apply_akn_tags(text: str, meta_name: str, skip_tfidf=False):
 def convert_html(source, destination):
     full_strip = remove_html.preprocessing(source)  # full_strip = remove_html.preprocessing(source, full_strip=True)
     meta_file_name = source.split("/")[-1]
-    result_str = apply_akn_tags(full_strip, meta_file_name, skip_tfidf=False)
+    result_str = apply_akn_tags(full_strip, meta_file_name, skip_tfidf=True)
     f = io.open(destination, mode="w", encoding="utf-8")
     f.write(result_str)
     f.close()
