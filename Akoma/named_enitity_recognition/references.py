@@ -44,9 +44,9 @@ def ranges_character(nums):
 # art_3__para_5__point_c
 
 further = "(\\.?\\s?,?\\s?)"
-azbuka_pattern = '[а|б|в|г|д|ђ|е|ж|з|и|ј|к|л|љ|м|н|њ|о|п|р|с|т|ћ|у|ф|х|ц|ч|џ|ш]?'
+azbuka_pattern = '[a-zA-Zабвгдђежзијклљмнњопрстћуфхцчџш]?'
 regexBroj = '[0-9]+'
-regexBrojSlovo = '[0-9]+[а|б|в|г|д|ђ|е|ж|з|и|ј|к|л|љ|м|н|њ|о|п|р|с|т|ћ|у|ф|х|ц|ч|џ|ш]'
+regexBrojSlovo = '[0-9]+[a-zA-Zабвгдђежзијклљмнњопрстћуфхцчџш]'
 nabrajanje = '(члан.?.?\\s*[0-9]+' + azbuka_pattern + ')' + further + '(став.?\\s*[0-9]+)?' + further + '((тачка|тачке).?\\s*[0-9]+\)?)?'
 nabrajanjeCl = '(чл.\\s*[0-9]+' + azbuka_pattern + '\.?)(((,)|(.?\\s*и)|(\\s*или\\s*))(\\s*[0-9]+' + azbuka_pattern + '\.?))*'
 nabrajanjeClDoCl = '(чл.\\s*[0-9]+' + azbuka_pattern + '\.)(\\s*до\\s*)((чл.\\s*)?[0-9]+' + azbuka_pattern + '(\.|,))'
@@ -224,6 +224,7 @@ def get_ending_clan_nabrajanje(stringo, m, cnt=0, this_id="", longer=0, stav = F
         stringStart =  m.regs[1][1] + longer
     stringEnd = m.regs[0][1] + longer
     stringToScan = stringo[stringStart:stringEnd]
+    stringToScan = stringToScan + " "
     matches = re.findall(regexBrojSlovo, stringToScan)
     pom_string = ""
     if clan_id != "":
@@ -360,7 +361,7 @@ def add_refs(stablo, stringo, this_id):
 
     for el_clan in listaClanova:  # Primer pristupa svakom članu
         clan_id = el_clan.attrib['wId']
-        if("clan35" in clan_id):
+        if("clan12" in clan_id):
             print("")
         for el_stav in el_clan.iter('paragraph'):
             if el_stav.attrib['wId'] not in listaObradjenihParagrafa:
