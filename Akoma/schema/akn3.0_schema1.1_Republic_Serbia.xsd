@@ -3106,7 +3106,7 @@ elements 'num, heading, subheading, content' elements as prohibited.
 
 
 
-   <xsd:element name="point" type="hierarchy">
+   <xsd:element name="point">
       <xsd:annotation>
          <xsd:documentation>
 			         <type>Element</type>
@@ -3122,7 +3122,7 @@ this element is a hierarchical container called "point" either explicitly or due
                <xsd:assert
                   test="
                      every $x in (*)
-                        satisfies $x/name() = ('componentRef', 'num', 'heading', 'subheading', 'content', 'hcontainer')"/>
+                        satisfies $x/name() = ('componentRef', 'num', 'heading', 'subheading', 'content','intro','hcontainer')"/>
             </xsd:extension>
          </xsd:complexContent>
       </xsd:complexType>
@@ -4774,7 +4774,7 @@ the element hcontainer is a generic element for a hierarchical container. It can
                <xsd:assert
                   test="
                      every $x in (*)
-                        satisfies $x/name() = ('componentRef', 'num', 'heading', 'subheading', 'content', 'alinea')"
+                        satisfies $x/name() = ('componentRef', 'num', 'heading', 'subheading', 'content', 'intro', 'alinea')"
                />
             </xsd:extension>
          </xsd:complexContent>

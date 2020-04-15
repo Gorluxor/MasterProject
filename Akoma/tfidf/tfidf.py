@@ -146,7 +146,7 @@ def get_tf_idf_values_document(folder_path, filenames=None, return_just_words=Tr
     """
     if not filenames:
         file_names = get_file_names_in_folder(folder_path)
-    elif len(filenames) == 1:
+    elif isinstance(filenames, str):
         file_names = [filenames]
     else:
         file_names = filenames

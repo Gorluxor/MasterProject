@@ -4,7 +4,7 @@ import xml.etree.ElementTree as ET
 
 try:
     import Akoma
-    from Akoma.utilities import ETree,utilities
+    from Akoma.utilities import ETree, utilities
     from Akoma.preprocessing import remove_html
     from Akoma.preprocessing import init_akoma
     from Akoma.tokenizer.HTMLTokenizer import HTMLTokenizer
@@ -15,7 +15,7 @@ try:
     from Akoma.named_enitity_recognition.pattern_recognition import add_refs
 except ModuleNotFoundError as sureError:
     try:
-        from utilities import ETree,utilities
+        from utilities import ETree, utilities
         from preprocessing import remove_html
         from preprocessing import init_akoma
         from tokenizer.HTMLTokenizer import HTMLTokenizer
@@ -44,7 +44,7 @@ def structure_repair_one(act: str, tag_name: str):
 def structure_repair(act: str):
     exepted_tag = ["p", "table", "tr", "td", "img", "th"]
     for i in range(0, len(exepted_tag)):
-        act = structure_repair_one(act,exepted_tag[i])
+        act = structure_repair_one(act, exepted_tag[i])
     return act
 
 
@@ -97,7 +97,7 @@ def prettify(root):
     return dom.toprettyxml()
 
 
-def apply_akn_tags(text: str, meta_name: str, skip_tfidf = False):
+def apply_akn_tags(text: str, meta_name: str, skip_tfidf=False):
     """
     Applies to text Akoma Ntoso 3.0 tags for Republic of Serbia regulations
     :param text: HTML or plain text
@@ -122,7 +122,7 @@ def apply_akn_tags(text: str, meta_name: str, skip_tfidf = False):
         html_root = new_html_root
 
     metabuilder = MetadataBuilder("data/meta/allmeta.csv")
-    metabuilder.build(meta_name, akoma_root,skip_tfidf)
+    metabuilder.build(meta_name, akoma_root, skip_tfidf)
     print(prettify(akoma_root))
     builder = AkomaBuilder(akoma_root)
     reasoner = BasicReasoner(HTMLTokenizer(html_root), builder)
@@ -131,7 +131,7 @@ def apply_akn_tags(text: str, meta_name: str, skip_tfidf = False):
     if reasoner.current_hierarchy[4] == 0:
         akoma_root = init_akoma.init_xml("act")
         metabuilder = MetadataBuilder("data/meta/allmeta.csv")
-        metabuilder.build(fajl, akoma_root)
+        metabuilder.build(fajl, akoma_root, skip_tfidf=skip_tfidf)
 
         builder = AkomaBuilder(akoma_root)
         reasoner = OdlukaReasoner(HTMLTokenizer(html_root), builder)
@@ -141,18 +141,19 @@ def apply_akn_tags(text: str, meta_name: str, skip_tfidf = False):
     try:
         result_stablo = add_refs(akoma_root, result_str, metabuilder.expressionuri)
     except Exception as e:
-        file_ref_exeption = open(utilities.get_root_dir() + "/data/" + "za_ninu.txt",mode="a+")
+        file_ref_exeption = open(utilities.get_root_dir() + "/data/" + "za_ninu.txt", mode="a+")
         file_ref_exeption.write(meta_name + ":" + str(e) + "\n")
         file_ref_exeption.close()
         return result_str
-    result_str = prettify(result_stablo).replace("&lt;", "<").replace("&gt;", ">").replace("&quot;", "\"")
+    result_str = prettify(result_stablo).replace("&lt;", "<").replace("&gt;", ">").replace("&quot;", "\"").replace(
+        '<references source="#somebody"/>', "")
     return result_str
 
 
 def convert_html(source, destination):
     full_strip = remove_html.preprocessing(source)  # full_strip = remove_html.preprocessing(source, full_strip=True)
     meta_file_name = source.split("/")[-1]
-    result_str = apply_akn_tags(full_strip, meta_file_name, skip_tfidf=True)
+    result_str = apply_akn_tags(full_strip, meta_file_name, skip_tfidf=False)
     f = io.open(destination, mode="w", encoding="utf-8")
     f.write(result_str)
     f.close()
@@ -162,9 +163,10 @@ if __name__ == "__main__":
     nastavi = "1.html"  # ""651.html"
     idemo = False
     stani = [
-        "1005.html"]  # Veliki fajlovi ili prbolematicni
+        "1005.html", "980.html", "986.html"]  # Veliki fajlovi ili prbolematicni #180.html
     location_source = "data/acts"
-    fajls = os.listdir(location_source)
+    fajls = utilities.sort_file_names(os.listdir(location_source))
+
     for fajl in fajls:
         if (fajl == nastavi):
             idemo = True
