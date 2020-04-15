@@ -60,15 +60,22 @@ def check_meta(string):
     return string
 
 
+def write_stat_info(curr_zakon, dis, file, stat_len):
+    file.write("{0}: {1} :{2}\n".format(curr_zakon, stat_len, "|".join(dis)))
+
+
 def generate_owl(folder_path, filenames=None):
     result = get_tf_idf_values_document(folder_path, filenames=filenames, return_just_words=False)
-
+    stat_file = open("stats.txt", "w", encoding="utf-8")
     for el in result:
         s_file = el[0]
         f = open(folder_path + "\\" + s_file, "r", encoding="utf-8")
         info = "".join(f.readlines())
         # for q in el[1]:
         #     print(q)
+
+        stat_len = len(re.findall(r'\w+', info))
+
         clans_data = util.from_content_to_act_list(info)
         clan_info = util.gather_clans(info)
         # Otvori fajl, pronađe strukture, generišu clanovi, dodaju se
@@ -97,6 +104,8 @@ def generate_owl(folder_path, filenames=None):
             curr_sub.is_part_of = [curr_zakon]
             i = i + 1
         curr_zakon.is_about = [dis[s] for s in dis]
+        write_stat_info(curr_zakon, dis, stat_file, stat_len)
+    s_file.close()
     owl.save()
 
 
