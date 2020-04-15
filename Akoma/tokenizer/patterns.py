@@ -13,9 +13,9 @@ eng_tags = {
     TokenType.ODELJAK : "section",
     TokenType.PODODELJAK : "subsection",
     TokenType.CLAN : "article",
-    TokenType.STAV : "clause",
+    TokenType.STAV : "paragraph",
     TokenType.TACKA : "point",
-    TokenType.PODTACKA : "item",
+    TokenType.PODTACKA : "hcontainer",
     TokenType.ALINEJA : "alinea"
 }
 
@@ -25,11 +25,13 @@ eng_ids = {
     TokenType.ODELJAK : "sect",
     TokenType.PODODELJAK : "subsect",
     TokenType.CLAN : "art",
-    TokenType.STAV : "cla",
+    TokenType.STAV : "par",
     TokenType.TACKA : "pnt",
-    TokenType.PODTACKA : "item",
+    TokenType.PODTACKA : "hco",
     TokenType.ALINEJA : "ali"
 }
+
+ARTICLE_NAME = "(ОДЛУКА|ОДУЛУКУ|ПРАВИЛНИК|ЗАКОН|ПРОПИС|ЗАКЉУЧАК|КОДЕКС|ЛИСТУ|ПЛАН|УРЕДБА|УРЕДБУ)"
 
 class FoundToken():
     def __init__(self, type, name, value, number, number2=None, numberstr=None, special=None):
@@ -43,7 +45,7 @@ class FoundToken():
 
 
 def is_vrsta_akta(text):
-    m = re.match("(ОДЛУКА|ОДУЛУКУ|ПРАВИЛНИК|ЗАКОН|ПРОПИС|ЗАКЉУЧАК|КОДЕКС|ЛИСТУ|ПЛАН|УРЕДБА|УРЕДБУ)", text.upper())
+    m = re.match(ARTICLE_NAME, text.upper())
     if m:
         return True
     return False

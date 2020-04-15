@@ -69,13 +69,21 @@ def exeption_tag(substring, full_stip=False):
     if full_stip:
         exepted_tag = []
     else:
-        exepted_tag = ["p", "table", "tbody", "tr", "td", "img", "th"]
+        exepted_tag = ["p", "table", "tr", "td", "th"] # "img"
     for t in exepted_tag:
         # if re.match("<\/?"+t+"(.|\n)*?>", substring)!= None:
         if re.match("<\/?" + t + "(.|\n)*?>", substring) is not None:
             return True
     return False
 
+def preprocessing_text(stringo,full_strip):
+    stringo = remove_inner_html(stringo, "script")
+    stringo = remove_inner_html(stringo, "style")
+    stringo = strip_html(stringo, full_strip)
+    stringo = make_tag_empty(stringo, "p")
+    stringo = replace_trash(stringo, "&nbsp;")
+    stringo = close_html_token2(stringo, "img")
+    return stringo
 
 def preprocessing(filename, full_strip=False):
     """Remove html tags"""
@@ -104,16 +112,16 @@ if __name__ == "__main__":
     from os import path
 
     basePath = path.dirname(__file__)
-    filePath = path.abspath(path.join(basePath, "..", "data", "racts"))
-    fileOut = path.abspath(path.join(basePath, "..", "data", "raw_racts"))
+    filePath = path.abspath(path.join(basePath, "..", "data", "acts"))
+    fileOut = path.abspath(path.join(basePath, "..", "data", "acts2"))
     filenames = getListOfFiles(filePath)
 
     for filename in filenames:
         try:
             print("Processing=" + filename)
             fileProcessing = path.join(filePath, filename)
-            purified = preprocessing(fileProcessing, full_strip=True)
-            f = io.open(path.join(fileOut, filename.replace(".html", ".txt")), mode="w", encoding="utf-8")
+            purified = preprocessing(fileProcessing, full_strip=False)
+            f = io.open(path.join(fileOut, filename), mode="w", encoding="utf-8") #.replace(".html", ".txt")
             f.write(purified)
             f.close()
         except:

@@ -40,16 +40,12 @@ def add_fake_root_node(stringo):
 
 
 def init_xml(type):
-    retval = ''  # '< ?xml version = "1.0" encoding = "UTF-8"? >\n'
-    retval += '<akomaNtoso '
-    retval += 'xmlns = "http://docs.oasis-open.org/legaldocml/ns/akn/3.0" '
-    retval += 'xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" '
-    retval += 'xsi:schemaLocation = "http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd" >\n'
-
-    retval += '<' + type + '><meta></meta><body></body></' + type + '>'
-    retval += '</akomaNtoso>'
-    # print(retval)
-    ET.register_namespace('', "http://www.akomantoso.org/2.0")
-    root = ET.fromstring(retval)
-    # print("SADAD", list(list(root)[0]))
-    return root
+    akoma = ET.Element("akomaNtoso", {"xmlns": "http://docs.oasis-open.org/legaldocml/ns/akn/3.0",
+                                     "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                     "xsi:schemaLocation": "http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd"})
+    typeNode = ET.Element(type)
+    akoma.insert(0,typeNode)
+    typeNode.insert(0,ET.Element("body"))
+    typeNode.insert(0,ET.Element("meta"))
+    #ET.register_namespace('', "http://docs.oasis-open.org/legaldocml/ns/akn/3.0")
+    return akoma
