@@ -47,8 +47,8 @@ class BasicReasoner():
         if self.current_token.type == TokenType.DEO and self.current_token.value == None:
             self.deo_glava_find_title()
         elif self.current_token.type == TokenType.GLAVA and self.current_token.value == None:
-            self.deo_glava_find_title()
-        elif self.current_token.type == TokenType.STAV and self.current_token.value[-1:] != "." and self.current_token.value[-1:] != ":"and self.current_token.value[-1:] != ",":
+            self.deo_glava_find_title(sanity + 1)
+        elif self.current_token.type == TokenType.STAV and self.current_token.value[-1:] != "." and self.current_token.value[-1:] != ":"and self.current_token.value[-1:] != "," and sanity < 10:
             self.title_find_clan()
         else:
             self.akomabuilder.add_token(self.current_token, self.get_identification(self.current_token))
@@ -58,17 +58,17 @@ class BasicReasoner():
             # elif sanity >= 10:
                 # print(str(self.current_token.type) + "ID=" + str(self.current_token.numberstr)  +"  VREDNOST:" +  str(self.current_token.value)) #TODO FIX ERROR (QUICKFIX FOR INFI LOOP)
 
-    def deo_glava_find_title(self):
+    def deo_glava_find_title(self,sanity):
         glava = self.current_token
         self.current_token = self.tokenizer.get_next_token()
         if (self.current_token.type != TokenType.STAV):
             print("WARNING - GLAVA NEMA NASLOV")
             self.akomabuilder.add_token(glava, self.get_identification(glava))
-            self.reason(0)
+            self.reason(sanity)
         elif (self.current_token.value[-1:] == "."):
             print("WARNING - NASLOV GLAVE NE SME DA IMA TACKU NA KRAJU")
             self.akomabuilder.add_token(glava, self.get_identification(glava))
-            self.reason(0)
+            self.reason(sanity)
         else:
             glava.value = self.current_token.value
             self.akomabuilder.add_token(glava, self.get_identification(glava))
@@ -102,7 +102,7 @@ class BasicReasoner():
                 self.reason(sanity)
            # elif self.current_token.type <= TokenType.STAV:
            #     self.reason()
-            else:
+            elif sanity < 10:
                 self.reason(sanity)
 
     def get_identification(self, token):
