@@ -12,6 +12,7 @@ except ModuleNotFoundError:
         print("Error import")
         exit(-1)
 
+lista_azbuka = ['а','б','в','г','д','ђ','е','ж','з','и','ј','к','л','љ','м','н','њ','о','п','р','с','т','ћ','у','ф','х','ц','ч','џ','ш']
 
 def prettify(root):
     import xml.dom.minidom
@@ -21,6 +22,18 @@ def prettify(root):
 
 def ranges(nums):
     nums = sorted(set(nums))
+    gaps = [[s, e] for s, e in zip(nums, nums[1:]) if s + 1 < e]
+    edges = iter(nums[:1] + sum(gaps, []) + nums[-1:])
+    return list(zip(edges, edges))
+
+def ranges_character(nums):
+    for i in range(len(nums)-1):
+        for j in range(i+1, len(nums)):
+            if nums[i] >= nums[j]:
+                pom = nums[i]
+                nums[i] = nums[j]
+                nums[j] = pom
+
     gaps = [[s, e] for s, e in zip(nums, nums[1:]) if s + 1 < e]
     edges = iter(nums[:1] + sum(gaps, []) + nums[-1:])
     return list(zip(edges, edges))
@@ -41,8 +54,8 @@ nabrajanje = '(члан.?.?\\s*[0-9]+' + azbuka_pattern + ')' + further + '(ст
 nabrajanjeCl = '(чл.\\s*[0-9]+' + azbuka_pattern + '\.?)(((,)|(.?\\s*и)|(\\s*или\\s*))(\\s*[0-9]+' + azbuka_pattern + '\.?))*'
 nabrajanjeClDoCl = '(чл.\\s*[0-9]+' + azbuka_pattern + '\.)(\\s*до\\s*)((чл.\\s*)?[0-9]+' + azbuka_pattern + '(\.|,))'
 nabrajanjeClCrtaClan = '(чл.\\s*[0-9]+' + azbuka_pattern + ')(–|-)((чл.\\s*)?[0-9]+' + azbuka_pattern + ')'
-nabrajanje2 = '(члан.?.?\\s*[0-9]+' + azbuka_pattern + ')?' + further + '(став.?\\s*[0-9]+)?' + further + '((тачка|тачке).?\\s*[0-9]+)?'
-nabrajanje3 = '(став(ом|а)?\\s*[0-9]+\.?)\\s*((тачка|тачке)\.?\\s*([0-9]+)\)?)?'
+nabrajanje2 = '(члан.?.?\\s*[0-9]+' + azbuka_pattern + ')?' + further + '(став.?.?\\s*[0-9]+)?' + further + '((тачка|тачке).?\\s*[0-9]+)?'
+nabrajanje3 = '(став(ом|а|у)?\\s*[0-9]+\.?)\\s*((тачка|тачке)\.?\\s*([0-9]+)\)?)?'
 nabrajanjeClZakon = '(члан.?\\s*([0-9]+' + azbuka_pattern + ').?)(\\s*)(Закона\\s*-\\s*([0-9]+)\/([0-9]+)-[0-9]+)'
 nabrajanjeStavUzastopno = '(чл.?.?.?.?\.?\\s*[0-9]+.?\\s*)?(ст.\\s*[0-9]+\.?)((\\s*до\\s*)|(\\s*–\\s*|\\s*-\\s*))((ст.\\s*)?[0-9]+(\.|,)?)'
 nabrajanjeStav = '(чл.?.?.?.?\.?\\s*[0-9]+.?\\s*)?(ст.\\s*[0-9]+\.?)(((,)|(.?\\s*и)|(\\s*или\\s*))(\\s*[0-9]+\.?))*'
@@ -81,11 +94,55 @@ def make_reference_for_clZakon(cnt, this_id, m, stringo, longer):
     cnt += 1
     return stringo, longer, cnt
 
+def make_reference_for_nabrajanje_clanova(matches, pom_string, stringToScan, stav, stringStart, longerStart, this_id, longer, cnt, stringo):
+    if len(matches) == 1:
+        if not stav:
+            retval = "art_" + str(matches[0])
+        else:
+            retval = pom_string + "para_" + str(matches[0])
+    else:
+        matches = [int(i) for i in matches]
+        matches.sort()
+        edges = ranges(matches)
+
+        if len(edges) == 1:
+            if not stav:
+                retval = "art_" + str(matches[0]) + "->art_" + str(matches[len(matches) - 1])
+            else:
+                retval = pom_string + "para_" + str(matches[0]) + "->para_" + str(matches[len(matches) - 1])
+        else:
+            range_list_for = find_range_list(stringToScan, edges)
+            index = 0
+            for edge in edges:
+                if edge[0] == edge[1]:
+                    start = range_list_for[index][0][0] + stringStart - longerStart + longer
+                    difference = range_list_for[index][1][1] - range_list_for[index][0][0]
+                    end = difference + start
+                    if not stav:
+                        ending = "art_" + str(edge[0])
+                    else:
+                        ending = pom_string + "para_" + str(edge[0])
+                    stringo, longer, cnt = make_reference(cnt, this_id, start, end, ending, stringo, longer, False)
+                    index = index + 1
+                else:
+                    start = range_list_for[index][0][0] + stringStart - longerStart + longer
+                    difference = range_list_for[index][1][1] - range_list_for[index][0][0]
+                    end = difference + start
+                    if not stav:
+                        ending = "art_" + str(edge[0]) + "->art_" + str(edge[1])
+                    else:
+                        ending = pom_string + "para_" + str(edge[0]) + "->para_" + str(edge[1])
+                    stringo, longer, cnt = make_reference(cnt, this_id, start, end, ending, stringo,
+                                                          longer, False)
+                    index = index + 1
+            return stringo, longer, cnt
+    return retval
+
 def find_range_list(stringToScan, edges):
     position = 0;
     listOfIndex = []
     pomList = []
-    for pom in re.finditer(regexBroj, stringToScan):
+    for pom in re.finditer("[0-9]+(?=[,. ])", stringToScan):
         if int(pom.group()) == edges[position][0] and edges[position][0] == edges[position][1]:
             listOfIndex.append([pom.regs[0], pom.regs[0]])
             position = position + 1
@@ -177,52 +234,26 @@ def get_ending_clan_nabrajanje(stringo, m, cnt=0, this_id="", longer=0, stav = F
         pom_string = "art_" + pomBroj[0] + "__"
     if len(matches) != 0:
         if not stav:
-            retval = "art_" + str(matches[0]) + "->art_" + str(matches[len(matches) - 1])
+            matches_broj = re.findall("[0-9]+(?=[,. ])", stringToScan)
+            print(matches_broj)
+            if len(matches_broj) != 0:
+                retval = make_reference_for_nabrajanje_clanova(matches_broj, pom_string, stringToScan, stav, stringStart,
+                                                               longerStart, this_id, longer, cnt, stringo)
+                if type(retval) is tuple:
+                    stringo = retval[0]
+                    longer = retval[1]
+                    cnt = retval[2]
+            for i in matches:
+                ending = "art_" + str(i)
+                start = re.search(i, stringo).regs[0][0]
+                end = start + len(i)
+                stringo, longer, cnt = make_reference(cnt, this_id, start, end, ending, stringo, longer, False)
+            retval = (stringo, longer, cnt)
         else:
             retval = pom_string + "para_" + str(matches[0]) + "->para_" + str(matches[len(matches) - 1])
     else:
         matches = re.findall(regexBroj, stringToScan)
-        if len(matches) == 1:
-            if not stav:
-                retval = "art_" + str(matches[0])
-            else:
-                retval = pom_string +  "para_" + str(matches[0])
-        else:
-            matches = [int(i) for i in matches]
-            matches.sort()
-            edges = ranges(matches)
-
-            if len(edges) == 1:
-                if not stav:
-                    retval = "art_" + str(matches[0]) + "->art_" + str(matches[len(matches) - 1])
-                else:
-                    retval = pom_string + "para_" + str(matches[0]) + "->para_" + str(matches[len(matches) - 1])
-            else:
-                range_list_for = find_range_list(stringToScan, edges)
-                index = 0
-                for edge in edges:
-                    if edge[0] == edge[1]:
-                        start = range_list_for[index][0][0] + stringStart - longerStart + longer
-                        difference = range_list_for[index][1][1] - range_list_for[index][0][0]
-                        end = difference + start
-                        if not stav:
-                            ending = "art_" + str(edge[0])
-                        else:
-                            ending = pom_string + "para_" + str(edge[0])
-                        stringo, longer, cnt = make_reference(cnt, this_id, start, end, ending, stringo, longer, False)
-                        index = index + 1
-                    else:
-                        start = range_list_for[index][0][0] + stringStart - longerStart + longer
-                        difference = range_list_for[index][1][1] - range_list_for[index][0][0]
-                        end = difference + start
-                        if not stav:
-                            ending = "art_" + str(edge[0]) + "->art_" + str(edge[1])
-                        else:
-                            ending = pom_string + "para_" + str(edge[0]) + "->para_" + str(edge[1])
-                        stringo, longer, cnt = make_reference(cnt, this_id, start, end, ending, stringo,
-                                                              longer, False)
-                        index = index + 1
-                return stringo, longer, cnt
+        retval = make_reference_for_nabrajanje_clanova(matches, pom_string, stringToScan, stav, stringStart, longerStart, this_id, longer, cnt, stringo)
     return retval
 
 

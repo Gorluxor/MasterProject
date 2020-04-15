@@ -159,7 +159,7 @@ def convert_html(source, destination):
 
 
 if __name__ == "__main__":
-    nastavi = "986.html"  # ""651.html"
+    nastavi = "1139.html"  # ""651.html"
     idemo = False
     stani = [
         "1005.html"]  # Veliki fajlovi ili prbolematicni
