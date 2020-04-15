@@ -55,8 +55,8 @@ class BasicReasoner():
             if self.current_token.type == TokenType.STAV and self.current_token.value[-1:] == ":" and sanity < 10:
                 sanity = sanity + 2
                 self.expect_tacke(sanity)
-            elif sanity >= 10:
-                print(str(self.current_token.type) + "ID=" + str(self.current_token.numberstr)  +"  VREDNOST:" +  str(self.current_token.value)) #TODO FIX ERROR (QUICKFIX FOR INFI LOOP)
+            # elif sanity >= 10:
+                # print(str(self.current_token.type) + "ID=" + str(self.current_token.numberstr)  +"  VREDNOST:" +  str(self.current_token.value)) #TODO FIX ERROR (QUICKFIX FOR INFI LOOP)
 
     def deo_glava_find_title(self):
         glava = self.current_token

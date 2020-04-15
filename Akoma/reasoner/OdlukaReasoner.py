@@ -27,4 +27,4 @@ class OdlukaReasoner(BasicReasoner):
             else:
                 preface.append(self.current_token)
             if body:
-                self.reason()
+                self.reason(0)
