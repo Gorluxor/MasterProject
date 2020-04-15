@@ -25,7 +25,7 @@ except ModuleNotFoundError as sureError:
         from reasoner.BasicReasoner import BasicReasoner
         from reasoner.OdlukaReasoner import OdlukaReasoner
         from form_akoma.MetadataBuilder import MetadataBuilder
-        from named_enitity_recognition.pattern_recognition import add_refs
+        from named_enitity_recognition.references import add_refs
     except ModuleNotFoundError as newError:
         if not sureError.name.__eq__("Akoma") or not newError.name.__eq__("Akoma"):
             print(newError)
@@ -135,13 +135,13 @@ def apply_akn_tags(text: str, meta_name: str, skip_tfidf=False):
         reasoner.start()
 
     result_str = builder.result_str()
-    # try:
-    result_stablo = add_refs(akoma_root, result_str, metabuilder.expressionuri)
-    # except Exception as e:
-    #     file_ref_exeption = open(utilities.get_root_dir() + "/data/" + "za_ninu.txt", mode="a+")
-    #     file_ref_exeption.write(meta_name + ":" + str(e) + "\n")
-    #     file_ref_exeption.close()
-    #     return result_str
+    try:
+        result_stablo = add_refs(akoma_root, result_str, metabuilder.expressionuri)
+    except Exception as e:
+        file_ref_exeption = open(utilities.get_root_dir() + "/data/" + "za_ninu.txt", mode="a+")
+        file_ref_exeption.write(meta_name + ":" + str(e) + "\n")
+        file_ref_exeption.close()
+        return result_str
     result_str = ETree.prettify(result_stablo).replace("&lt;", "<").replace("&gt;", ">").replace("&quot;", "\"").replace(
         '<references source="#somebody"/>', "")
     return result_str
@@ -163,10 +163,10 @@ def convert_html(source, destination):
 
 
 if __name__ == "__main__":
-    nastavi = "1139.html"  # ""651.html"
+    nastavi = "177.html"  # ""651.html"
     idemo = False
     stani = [
-        "1005.html", "980.html", "986.html"  # problematicni
+        "1005.html", "980.html", "986.html"  # problematicni PROVERITI 176
         , "180.html"]  # Veliki fajlovi
     location_source = "data/acts"
     fajls = utilities.sort_file_names(os.listdir(location_source))
@@ -179,4 +179,9 @@ if __name__ == "__main__":
         if fajl in stani:
             continue
         print(fajl)
-        convert_html(location_source + '/' + fajl, 'data/akoma_result/' + fajl[:-5] + ".xml")
+        try:
+            convert_html(location_source + '/' + fajl, 'data/akoma_result/' + fajl[:-5] + ".xml")
+        except Exception as e:
+            file_ref_exeption = open(utilities.get_root_dir() + "/data/" + "za_andriju.txt", mode="a+")
+            file_ref_exeption.write(fajl + ":" + str(e) + "\n")
+            file_ref_exeption.close()
