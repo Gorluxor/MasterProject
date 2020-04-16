@@ -36,6 +36,7 @@ except ModuleNotFoundError as sureError:
 
 sys.setrecursionlimit(10000000)
 
+
 def repair_mode(act: str):
     import re
     while re.search("(\n\n\n|  )", act) is not None:
@@ -154,7 +155,7 @@ def convert_html(source, destination):
 
 if __name__ == "__main__":
 
-    nastavi = "90.html"  # ""651.html"
+    nastavi = "2.html"  # ""651.html"
     idemo = False
     stani = [
         "1005.html", "980.html", "986.html", "981.html", "210.html", "1033.html"  # problematicni PROVERITI 176

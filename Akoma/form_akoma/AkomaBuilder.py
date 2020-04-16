@@ -14,7 +14,7 @@ except ModuleNotFoundError:
 import xml.etree.ElementTree as ET
 
 PREFIX = "{http://docs.oasis-open.org/legaldocml/ns/akn/3.0}"
-
+STOPWORD = "!STOP!"
 
 def remove_double_space(string_input: str):
     return re.sub(' +', ' ', string_input)
@@ -83,7 +83,8 @@ class AkomaBuilder():
         parent.append(token)
 
     def add_token(self, token, identification):
-
+        if identification == STOPWORD:
+            return
         # print(token.name, identification, token.value)
         if token.type == TokenType.TACKA and token.name == 'тачка':  # QUICK FIX
             token.name = eng_tags[TokenType.TACKA]
