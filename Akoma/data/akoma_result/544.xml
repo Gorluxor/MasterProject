@@ -1,0 +1,596 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о робним берзама">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2019/52-16/main"/>
+					<FRBRuri value="/rs/act/2019/52-16"/>
+					<FRBRdate date="2019-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2019/52-16/srp@/main"/>
+					<FRBRuri value="/rs/act/2019/52-16/srp@"/>
+					<FRBRdate date="2019-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2019/52-16/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2019/52-16/srp@.akn"/>
+					<FRBRdate date="2019-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2019-07-22" name="службени гласник рс" number="52" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="XI ТРГОВИНА, ТУРИЗАМ И УГОСТИТЕЉСТВО" value="xi трговина, туризам и угоститељство" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="1. Трговина, јавне набавке и заштита потрошача" value="1. трговина, јавне набавке и заштита потрошача" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2019-07-22" wId="usvajanje"/>
+				<step by="#TODO" date="2019-07-30" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2020-04-30" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 30. јула 2019. године, а примењује се по истеку девет месеци од дана ступања на снагу, односно 30. априла 2020. године (види члан 35. Закона - 52/2019-16).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О робним берзама "Службени гласник РС", број 52 од 22. јула 2019.</p>
+			</longTitle>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>УВОДНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<heading>Предмет</heading>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређују се услови за оснивање, послови и организација робне берзе, повреде интегритета на робно-берзанском тржишту, као и надзор над применом овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<heading>Значење појединих израза</heading>
+					<paragraph wId="gla1-clan2-stav1">
+						<intro>
+							<p>Поједини изрази у смислу овог закона имају следеће значење:</p>
+						</intro>
+						<point wId="gla1-clan2-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> робна берза је правно лице које управља, односно обавља делатност посредовања у процесу трговања робом, нестандардизованим терминским уговорима и бродским простором, одређује и спроводи правила и процедуре у вези са трговањем на робној берзи;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> обрачун и плаћање су послови вођења и сравњења закључених берзанских послова на спот тржишту и терминском тржишту који се одвијају на робној берзи;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> тржишни материјал је роба и нестандардизовани термински уговори којима се тргује на робној берзи;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> роба је сваки производ који се може физички испоручити, укључујући пољопривредне производе, метале и њихове руде и легуре и енергенте, у складу са правилима робне берзе;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> термински уговор je нестандардизован угoвoр o купoпрoдajи oдрeђeнe робе пo унaпрeд дeфинисaнoj цeни, а испoрукa робе и кoнaчнo плaћaњe врши се oдрeђeнoг дaнa у будућнoсти;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> спот тржиште је тржиште на коме се роба продаје и испоручује након закључења берзанског посла;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> терминско тржиште је тржиште нестандардизованих терминских уговора на коме се испорука и плаћање врше доспећем рока предвиђеног уговором;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> листинг је списак тржишног материјала којима се тргује на робној берзи;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> бродски простор је расположиви бродски простор којим се може превозити роба на унутрашњим водним путевима;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p> чланови управе су директор и надзорни одбор.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<heading>Циљ закона</heading>
+					<paragraph wId="gla1-clan3-stav1">
+						<content>
+							<p>Циљ овог закона је уређење и организација правичног, транспарентног и ефикасног трговања тржишним материјалом и заштита интегритета тржишта на робној берзи.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ОСНИВАЊЕ, ОРГАНИЗОВАЊЕ И ПОСЛОВАЊЕ РОБНЕ БЕРЗЕ</heading>
+				<article wId="gla2-clan4">
+					<num>4.</num>
+					<paragraph wId="gla2-clan4-stav1">
+						<content>
+							<p>Робна берза се оснива као акционарско друштво, уколико поседује дозволу коју издаје Комисија за хартије од вредности (у даљем тексту: Комисија) у складу са овим законом и актима Комисије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan4-stav2">
+						<content>
+							<p>Комисија одлучује о захтеву за давање дозволе за обављање делатности робне берзе у року од 60 дана од дана пријема уредног захтева.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan4-stav3">
+						<content>
+							<p>Робна берза обавља послове организовања спот тржишта и терминског тржишта у Републици Србији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan4-stav4">
+						<content>
+							<p>Ближе услове за издавање и одузимање дозволе за обављање делатности робне берзе прописује Комисија.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan5">
+					<num>5.</num>
+					<heading>Упис у Регистар привредних субјеката и пословно име</heading>
+					<paragraph wId="gla2-clan5-stav1">
+						<content>
+							<p>Робна берза је дужна да, у року од 15 дана од дана пријема решења Комисије о давању дозволе за обављање делатности робне берзе и решења Комисије о давању претходне сагласности на избор чланова управе поднесе пријаву за упис у Регистар привредних субјеката, у складу са законом којим се уређује регистрација привредних субјеката.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav2">
+						<content>
+							<p>Извод из уписа у Регистар привредних субјеката Агенција за привредне регистре доставља Комисији по службеној дужности у року од седам дана од дана пријема решења о упису.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav3">
+						<content>
+							<p>Робна берза у свом пословном имену обавезно садржи речи „робна берза”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav4">
+						<content>
+							<p>Забрањена је употреба речи „робна берза” у пословном имену лица које није основано и нема дозволу за обављање делатности робне берзе у складу са овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan6">
+					<num>6.</num>
+					<heading>Минимални капитал</heading>
+					<paragraph wId="gla2-clan6-stav1">
+						<content>
+							<p>Минимални капитал робне берзе не може бити мањи од 50.000.000 динара.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav2">
+						<content>
+							<p>Робна берза је дужна да у свом пословању обезбеди да капитал не буде мањи од износа прописаног у <ref wId="ref0" href="akn/rs/act/2019/52-16/srp@/!main~art_6__para_1" >ставу 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan7">
+					<num>7.</num>
+					<heading>Акти које доноси робна берза</heading>
+					<paragraph wId="gla2-clan7-stav1">
+						<content>
+							<p>Робна берза доноси оснивачки акт, статут, правила пословања робне берзе, тарифник, као и друге опште акте у складу са законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav2">
+						<content>
+							<p>Правилима робне берзе из <ref wId="ref1" href="akn/rs/act/2019/52-16/srp@/!main~art_7__para_1" >става 1. овог</ref> члана нарочито се уређују питања која се односе на чланство на берзи, листинг, покривеност налога, трговање, обрачун и плаћање, контролу и мере у случају повреда правила, информисање и чување пословне тајне и друга правила у вези са берзанским пословањем.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav3">
+						<content>
+							<p>Тарифником робне берзе утврђујe се провизија коју робна берза наплаћује по основу трансакција закључених на робној берзи, накнада за чланство у робној берзи, као и остале накнаде по основу публикација, едукација, продаја лиценци и тржишних информација.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav4">
+						<content>
+							<p>Робна берза је дужна да о доношењу, односно измени правила робне берзе и тарифника обавести чланове робне берзе најкасније седам дана пре почетка његове примене објављивањем на својој интернет страници.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav5">
+						<content>
+							<p>На статут, правила робне берзе и тарифник, као и на измене ових аката Комисија даје претходну сагласност.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav6">
+						<content>
+							<p>Минималну садржину правила пословања робне берзе прописује Комисија.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan8">
+					<num>8.</num>
+					<heading>Чланови управе робне берзе</heading>
+					<paragraph wId="gla2-clan8-stav1">
+						<content>
+							<p>Чланови управе робне берзе су директор и надзорни одбор.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav2">
+						<content>
+							<p>Надлежност, права и одговорност чланова управе робне берзе ближе се уређују статутом робне берзе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav3">
+						<intro>
+							<p>Члан управе не може бити:</p>
+						</intro>
+						<point wId="gla2-clan8-stav3-tac1">
+							<num>1)</num>
+							<content>
+								<p> лице које подлеже примени правних последица осуде у складу са законом који уређује тржиште капитала и овог закона;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan8-stav3-tac2">
+							<num>2)</num>
+							<content>
+								<p> лице које је функционер, државни службеник или намештеник, осим у случају када Република Србија има власничко учешће у робној берзи;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan8-stav3-tac3">
+							<num>3)</num>
+							<content>
+								<p> лице које је члан управе, запослени, или лице са квалификованим учешћем у члану робне берзе или другој робној берзи која има дозволу за рад у складу са овим законом.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav4">
+						<content>
+							<p>Комисија издаје претходну сагласност на избор члана управе, а у складу са условима прописаним овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan9">
+					<num>9.</num>
+					<heading>Послови робне берзе</heading>
+					<paragraph wId="gla2-clan9-stav1">
+						<intro>
+							<p>Послови робне берзе су:</p>
+						</intro>
+						<point wId="gla2-clan9-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> повезивање чланова робне берзе ради куповине и продаје тржишног материјала;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan9-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> вођење регистра чланова робне берзе;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan9-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> стандардизација робе;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan9-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> израда и вођење листинга;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan9-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> обрачун и плаћање трансакција на спот и терминском тржишту;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan9-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> послови чувања и администрирања докумената и гарантних средстава;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan9-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> обезбеђивање транспарентности, чување и објављивање информација о тражњи, понуди и тржишним ценама тржишног материјала, као и других информација од значаја за трговање тржишним материјалом;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan9-stav1-tac8">
+							<num>8)</num>
+							<intro>
+								<p> одређивање услова за:</p>
+							</intro>
+							<hcontainer name="subpoint" wId="gla2-clan9-stav1-tac8-podtac1">
+								<num>(1)</num>
+								<content>
+									<p> чланство у робној берзи,</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla2-clan9-stav1-tac8-podtac2">
+								<num>(2)</num>
+								<content>
+									<p> трговање тржишним материјалом;</p>
+								</content>
+							</hcontainer>
+						</point>
+						<point wId="gla2-clan9-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> контрола чланова робне берзе у вези са трговањем тржишним материјалом, у циљу спречавања и откривања повреда интегритета тржишта и правила робне берзе;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan9-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p> покретање и вођење поступка против чланова робне берзе који се понашају супротно актима робне берзе;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan9-stav1-tac11">
+							<num>11)</num>
+							<content>
+								<p> вансудско решавање спорова у трговању на робној берзи.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav2">
+						<intro>
+							<p>Поред послова из <ref wId="ref2" href="akn/rs/act/2019/52-16/srp@/!main~art_9__para_1" >става 1. овог</ref> члана робна берза може да обавља и следеће послове:</p>
+						</intro>
+						<point wId="gla2-clan9-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> организацију берзанске трговине бродским простором;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan9-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> промоцију и развој робно-берзанског тржишта;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan9-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> продају тржишних података;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan9-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> едукацију учесника на робно-берзанском тржишту;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan9-stav2-tac5">
+							<num>5)</num>
+							<content>
+								<p> друге послове, у оквиру делатности робне берзе, у складу са законом.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav3">
+						<content>
+							<p>Комисија прописује садржину и услове за чување и објављивање евиденција и података робне берзе, као и начин извештавања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav4">
+						<content>
+							<p>Комисија прописује обавезе робне берзе у вези са обезбеђивањем транспарентности пре и после трансакције.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan10">
+					<num>10.</num>
+					<heading>Забрањени послови робне берзе</heading>
+					<paragraph wId="gla2-clan10-stav1">
+						<content>
+							<p>Није дозвољено да робна берза у своје име и за свој рачун тргује тржишним материјалом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav2">
+						<content>
+							<p>Робна берза, запослени и чланови управе, не могу давати савете о трговању тржишним материјалом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav3">
+						<content>
+							<p>Предмет трговања на робној берзи не могу бити девизе, ефективни страни новац, племенити метали и електрична енергија.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan11">
+					<num>11.</num>
+					<heading>Сукоб интереса</heading>
+					<paragraph wId="gla2-clan11-stav1">
+						<content>
+							<p>Запослени на робној берзи не могу бити чланови управе и запослени у другим привредним субјектима који су чланови робне берзе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan12">
+					<num>12.</num>
+					<heading>Кадровска оспособљеност</heading>
+					<paragraph wId="gla2-clan12-stav1">
+						<content>
+							<p>Робна берза мора да има најмање пет запослених са дозволом за обављање послова брокера коју издаје Комисија.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan13">
+					<num>13.</num>
+					<heading>Минимални технички услови за рад робне берзе</heading>
+					<paragraph wId="gla2-clan13-stav1">
+						<content>
+							<p>Робна берза је дужна да обезбеди просторије за рад робне берзе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan13-stav2">
+						<content>
+							<p>Робна берза је дужна да обезбеди ниво техничке опремљености који омогућава несметано функционисање трговања у складу са минималним техничким условима за рад робне берзе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan13-stav3">
+						<content>
+							<p>Минималне техничке услове из <ref wId="ref3" href="akn/rs/act/2019/52-16/srp@/!main~art_13__para_1->para_2" >ст. 1. и 2. овог</ref> члана прописује Комисија.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan14">
+					<num>14.</num>
+					<heading>Чланство на робној берзи</heading>
+					<paragraph wId="gla2-clan14-stav1">
+						<content>
+							<p>Чланови робне берзе могу бити домаћа и страна правна лица и регистрована пољопривредна газдинства која испуњавају услове прописане правилима робне берзе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan14-stav2">
+						<content>
+							<p>Чланство се стиче закључењем уговора о чланству са робном берзом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan14-stav3">
+						<content>
+							<p>Чланови робне берзе тргују на спот и терминском тржишту посредством брокера запослених на робној берзи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan14-stav4">
+						<content>
+							<p>Чланови робне берзе могу трговати у своје име и за свој рачун.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan14-stav5">
+						<content>
+							<p>Трговање на робној берзи, поред чланова робне берзе, могу да обављају и Република Србија и Народна банка Србије у складу са законом.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>ТРГОВАЊЕ НА РОБНОЈ БЕРЗИ</heading>
+				<article wId="gla3-clan15">
+					<num>15.</num>
+					<heading>Врсте робе и услови трговања на спот и терминском тржишту</heading>
+					<paragraph wId="gla3-clan15-stav1">
+						<content>
+							<p>Правилима пословања робне берзе уређују се врста робе и услови трговања.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan16">
+					<num>16.</num>
+					<heading>Послови робне берзе на спот тржишту</heading>
+					<paragraph wId="gla3-clan16-stav1">
+						<intro>
+							<p>Робна берза на спот тржишту обавља следеће послове:</p>
+						</intro>
+						<point wId="gla3-clan16-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Кривична дела</p>
+							</content>
+						</point>
+						<point wId="gla3-clan16-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Привредни преступи</p>
+							</content>
+						</point>
+						<point wId="gla3-clan16-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Прекршаји</p>
+							</content>
+						</point>
+						<point wId="gla3-clan16-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Кривична дела</p>
+							</content>
+						</point>
+						<point wId="gla3-clan16-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Привредни преступи</p>
+							</content>
+						</point>
+						<point wId="gla3-clan16-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Прекршаји</p>
+							</content>
+						</point>
+						<point wId="gla3-clan16-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Кривична дела</p>
+							</content>
+						</point>
+						<point wId="gla3-clan16-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Привредни преступи</p>
+							</content>
+						</point>
+						<point wId="gla3-clan16-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Прекршаји</p>
+							</content>
+						</point>
+						<point wId="gla3-clan16-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Кривична дела</p>
+							</content>
+						</point>
+						<point wId="gla3-clan16-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Привредни преступи</p>
+							</content>
+						</point>
+						<point wId="gla3-clan16-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Прекршаји</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

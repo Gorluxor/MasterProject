@@ -1,0 +1,462 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о националној инфраструктури геопросторних података">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2018/27-32/main"/>
+					<FRBRuri value="/rs/act/2018/27-32"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2018/27-32/srp@/main"/>
+					<FRBRuri value="/rs/act/2018/27-32/srp@"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2018/27-32/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2018/27-32/srp@.akn"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2018-04-06" name="службени гласник рс" number="27" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="VI СВОЈИНСКИ И ОБЛИГАЦИОНИ, ПОРОДИЧНИ И БРАЧНИ ОДНОСИ" value="vi својински и облигациони, породични и брачни односи" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="9. Премер и катастар" value="9. премер и катастар" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2018-04-05" wId="usvajanje"/>
+				<step by="#TODO" date="2018-04-14" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2018-04-14" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 14. априла 2018. године. Одредба члана 14. став 2. овог закона примењиваће се од дана приступања Републике Србије Европској унији (види члан 38. Закона).Подзаконска акта из члана 7. тач. 1) и 5) Закона донеће се у року од једне године, а подзаконска акта из члана 7. тач. 2), 3) и 4) овог закона у року од две године од дана ступања на снагу овог закона (види члан 36. Закона).</p>
+				</note>
+				<note wId="not2">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 14. априла 2018. године. Одредба члана 14. став 2. овог закона примењиваће се од дана приступања Републике Србије Европској унији (види члан 38. Закона).Подзаконска акта из члана 7. тач. 1) и 5) Закона донеће се у року од једне године, а подзаконска акта из члана 7. тач. 2), 3) и 4) овог закона у року од две године од дана ступања на снагу овог закона (види члан 36. Закона).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О националној инфраструктури геопросторних података "Службени гласник РС", број 27 од 6. априла 2018.</p>
+			</longTitle>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређује се успостављање и одржавање националне инфраструктуре геопросторних података у Републици Србији (у даљем тексту: НИГП).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav2">
+						<content>
+							<p>НИГП су метаподаци, скупови и сервиси геопросторних података; мрежни сервиси и технологије; споразуми о дељењу, приступу и коришћењу геопросторних података; као и механизми координације и праћења, процеси и поступци који су установљени, којима се управља и који се стављају на располагање у складу са овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav3">
+						<content>
+							<p>Посебан циљ НИГП-а је успостављање инфраструктуре која олакшава приступ информацијама о животној средини, тако што ће осигурати јавни приступ и уклонити препреке за размену података између органа јавне власти, како на националном нивоу тако и у оквиру прекограничне сарадње.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Овим законом преноси се у национално законодавство Директива Европске уније 2007/2/ЕЗ – Infrastructure for Spatial Information in the European Community – INSPIRE.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<paragraph wId="gla1-clan3-stav1">
+						<intro>
+							<p>Поједини изрази употребљени у овом закону имају следеће значење:</p>
+						</intro>
+						<point wId="gla1-clan3-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> „геопросторни подаци” (у даљем тексту: геоподаци) су подаци са директном или индиректном везом са одређеном локацијом или географском облашћу;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> „скуп геоподатака” је збирка геоподатака коју је могуће идентификовати;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> „сервиси геоподатака” су операције које се могу извршити позивањем рачунарске апликације над геоподацима који се налазе у скуповима геоподатака или над метаподацима са њима у вези;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> „геопросторни објекат” је апстрактан приказ појаве из стварног света, у вези са одређеном локацијом или географском облашћу;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> „дељење података” је чињење скупова и сервиса геоподатака доступним и расположивим за њихово коришћење;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> „метаподаци” су информације које описују скупове и сервисе геоподатака и омогућавају њихово проналажење, попис и коришћење;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> „интероперабилност” је могућност комбиновања скупова геоподатака и интеракције сервиса без понављања мануелних интервенција, тако да је резултат целовит и да је повећана додата вредност скупова и сервиса геоподатака;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> „INSPIRE геопортал” је интернет страница или њен еквивалент који омогућава приступ мрежним сервисима на нивоу Европске уније;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> „национални геопортал НИГП-а” је интернет страница или њен еквивалент који омогућава приступ мрежним сервисима у оквиру НИГП-а;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p> „Национална контакт тачка” је национална институција одговорна за комуникацију и сарадњу са Европском комисијом у вези са спровођењем INSPIRE директиве;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac11">
+							<num>11)</num>
+							<content>
+								<p> „органи јавне власти” су државни органи и организације, органи и организације територијалне аутономије и јединице локалне самоуправе, јавна предузећа, као и друга лица којима је поверено вршење јавних овлашћења;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac12">
+							<num>12)</num>
+							<content>
+								<p> „трећа страна” је физичко или правно лице које није орган јавне власти.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ОРГАНИ ЗА УСПОСТАВЉАЊЕ НИГП-а</heading>
+				<article wId="gla2-clan4">
+					<num>4.</num>
+					<paragraph wId="gla2-clan4-stav1">
+						<content>
+							<p>Органи за успостављање НИГП-а су Савет НИГП-а и радне групе НИГП-а.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan5">
+					<num>5.</num>
+					<paragraph wId="gla2-clan5-stav1">
+						<content>
+							<p>Савет НИГП-а има 18 чланова које именује и разрешава Влада, на период од четири године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav2">
+						<content>
+							<p>Радом Савета НИГП-а руководи председник.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav3">
+						<content>
+							<p>Председник Савета НИГП-а је директор Републичког геодетског завода.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav4">
+						<intro>
+							<p>Поред председника, чланови Савета НИГП-а су:</p>
+						</intro>
+						<point wId="gla2-clan5-stav4-tac1">
+							<num>1)</num>
+							<content>
+								<p> представник министарства надлежног за послове заштите животне средине;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav4-tac2">
+							<num>2)</num>
+							<content>
+								<p> представник министарства надлежног за послове просторног планирања;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav4-tac3">
+							<num>3)</num>
+							<content>
+								<p> представник министарства надлежног за послове е-управе;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav4-tac4">
+							<num>4)</num>
+							<content>
+								<p> представник министарства надлежног за послове пољопривреде, шумарства и водопривреде;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav4-tac5">
+							<num>5)</num>
+							<content>
+								<p> представник органа надлежног за управљање водама;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav4-tac6">
+							<num>6)</num>
+							<content>
+								<p> представник министарства надлежног за унутрашње послове;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav4-tac7">
+							<num>7)</num>
+							<content>
+								<p> представник министарства надлежног за послове саобраћаја;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav4-tac8">
+							<num>8)</num>
+							<content>
+								<p> представник министарства надлежног за послове одбране;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav4-tac9">
+							<num>9)</num>
+							<content>
+								<p> представник министарства надлежног за послове геологије;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav4-tac10">
+							<num>10)</num>
+							<content>
+								<p> представник министарства надлежног за послове финансија;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav4-tac11">
+							<num>11)</num>
+							<content>
+								<p> представник министарства надлежног за послове културе;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav4-tac12">
+							<num>12)</num>
+							<content>
+								<p> представник министарства надлежног за послове информационог друштва;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav4-tac13">
+							<num>13)</num>
+							<content>
+								<p> представник покрајинског секретаријата надлежног за послове животне средине;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav4-tac14">
+							<num>14)</num>
+							<content>
+								<p> представник посебне организације надлежне за послове статистике;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav4-tac15">
+							<num>15)</num>
+							<content>
+								<p> представник посебне организације надлежне за послове хидрометеорологије;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav4-tac16">
+							<num>16)</num>
+							<content>
+								<p> представник Сталне конференције градова и општина;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav4-tac17">
+							<num>17)</num>
+							<content>
+								<p> представник канцеларије надлежне за послове е-управе.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan6">
+					<num>6.</num>
+					<paragraph wId="gla2-clan6-stav1">
+						<intro>
+							<p>Савет НИГП-а:</p>
+						</intro>
+						<point wId="gla2-clan6-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> доноси годишњи план рада Савета НИГП-а;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> доноси одлуке и техничка упутства из области НИГП-а;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> одређује одговорног субјекта НИГП-а за скупове геоподатака који припадају некој од тема геоподатака из <ref wId="ref0" href="akn/rs/act/2018/27-32/srp@/!main~art_10" >члана 10. овог</ref> закона;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> одређује субјекте НИГП-а који користе скупове и сервисе геоподатака који припадају некој од тема геоподатака из <ref wId="ref1" href="akn/rs/act/2018/27-32/srp@/!main~art_10" >члана 10. овог</ref> закона;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> усклађује активности субјеката НИГП-а;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> врши контролу успостављања и функционисања НИГП-а;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> доноси пословник о свом раду;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> доноси одлуку о формирању радних група НИГП-а и њиховим задацима;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> доставља Влади годишњи извештај о активностима у вези са успостављањем и функционисањем НИГП-а;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p> обавештава јавност о активностима везаним за успостављање и функционисање НИГП-а.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan7">
+					<num>7.</num>
+					<paragraph wId="gla2-clan7-stav1">
+						<intro>
+							<p>Влада ће, у складу са постојећим INSPIRE спроведбеним правилима издатим од стране Европске комисије, донети подзаконска акта којима ће прописати спроведбена правила за:</p>
+						</intro>
+						<point wId="gla2-clan7-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> метаподатке;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> интероперабилност;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> мрежне сервисе;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> приступ скуповима и сервисима геоподатака, укључујући јавни приступ и размену података између органа јавне власти;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> праћење и извештавање.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan8">
+					<num>8.</num>
+					<paragraph wId="gla2-clan8-stav1">
+						<content>
+							<p>Савет НИГП-а може пуноважно да доноси одлуке ако је на седници присутно више од половине укупног броја чланова Савета НИГП-а.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav2">
+						<content>
+							<p>Одлука је донета ако је за њу гласало више од половине присутних чланова Савета НИГП-а.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav3">
+						<content>
+							<p>Савет НИГП-а има печат, који се израђује у складу са законом којим се уређује печат државних органа.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan9">
+					<num>9.</num>
+					<paragraph wId="gla2-clan9-stav1">
+						<content>
+							<p>Савет НИГП-а, у циљу ефикаснијег обављања својих активности, одлуком образује радне групе НИГП-а.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav2">
+						<content>
+							<p>Радне групе НИГП-а образују се ради обављања одређених стручних послова који се односе на успостављање и одржавање НИГП-а, као и за пружање стручне помоћи субјектима НИГП-а и другим крајњим корисницима сервиса и скупова геоподатака НИГП-а.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav3">
+						<content>
+							<p>За чланове радних група НИГП-а бирају се представници субјеката НИГП-а, као и других правних лица који су стручни и квалификовани за област за коју се формира радна група НИГП-а.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>ТЕМЕ ГЕОПОДАТАКА</heading>
+				<article wId="gla3-clan10">
+					<num>10.</num>
+					<paragraph wId="gla3-clan10-stav1">
+						<content>
+							<p>Геоподаци се, у смислу овог закона, односе на одређене теме које су систематизоване по групама.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan10-stav2">
+						<content>
+							<p>Прву групу темa из <ref wId="ref2" href="akn/rs/act/2018/27-32/srp@/!main~art_10__para_1" >става 1. овог</ref> члана чине:</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

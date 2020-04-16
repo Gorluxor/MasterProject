@@ -1,0 +1,637 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о међународној правној помоћи у кривичним стварима">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2009/20-3/main"/>
+					<FRBRuri value="/rs/act/2009/20-3"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2009/20-3/srp@/main"/>
+					<FRBRuri value="/rs/act/2009/20-3/srp@"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2009/20-3/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2009/20-3/srp@.akn"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2009-03-19" name="“службени гласник рс" number="20" showAs="“Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="III ПРАВОСУЂЕ, КАЗНЕНО ЗАКОНОДАВСТВО И ПОСТУПЦИ" value="iii правосуђе, казнено законодавство и поступци" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="7. Кривична дела и кривични поступак" value="7. кривична дела и кривични поступак" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2009-03-18" wId="usvajanje"/>
+				<step by="#TODO" date="2009-03-27" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2009-03-27" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 27. марта 2009. године (види члан 104. Закона).Ступањем на снагу овог закона престале су да важе одредбе Главе ХХХII – Поступак за пружање међународне правне помоћи и извршење међународних уговора у кривичноправним стварима (чл. 530. до 538) и Главе ХХХIII – Поступак за издавање окривљених и осуђених лица (чл. 539. до 555) Законика о кривичном поступку („Службени лист СРЈ”, бр. 70/01 и 68/02 и „Службени гласник РС”, бр. 58/04, 85/05, 115/05 и 49/07)Поступци у којима је до дана ступања на снагу овог закона поднета молба за пружање међународне правне помоћи спровешће се према одредбама Главе XXXII – Поступак за пружање међународне правне помоћи и извршење међународних уговора у кривичноправним стварима (чл. 530. до 538) и Главе XXXIII – Поступак за издавање окривљених и осуђених лица (чл. 539. до 555) Законика о кривичном поступку („Службени лист СРЈ”, бр. 70/01 и 68/02 и „Службени гласник РС”, бр. 58/04, 85/05, 115/05 и 49/07) (види члан 103. Закона).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О међународној правној помоћи у кривичним стварима “Службени гласник РС”, број 20 од 19. марта 2009.</p>
+			</longTitle>
+			<p>﻿</p>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<heading>Предмет и примена закона</heading>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређује се поступак пружања међународне правне помоћи у кривичним стварима (у даљем тексту: међународна правна помоћ), у случајевима када не постоји потврђени међународни уговор или када одређена питања њиме нису уређена.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<heading>Облици међународне правне помоћи</heading>
+					<paragraph wId="gla1-clan2-stav1">
+						<intro>
+							<p>Међународна правна помоћ обухвата:</p>
+						</intro>
+						<point wId="gla1-clan2-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> изручење окривљеног или осуђеног;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> преузимање и уступање кривичног гоњења;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> извршење кривичне пресуде;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> остале облике међународне правне помоћи.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<heading>Вршење међународне правне помоћи</heading>
+					<paragraph wId="gla1-clan3-stav1">
+						<content>
+							<p>Међународна правна помоћ пружа се у поступку који се односи на кривично дело које у тренутку када је затражена помоћ спада у надлежност суда државе молиље.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav2">
+						<content>
+							<p>Међународна правна помоћ пружа се и у поступку који је покренут пред органима управе за дело које је кажњиво према законодавству државе молиље или замољене државе, у случају када одлука управног органа може да представља основ за покретање кривичног поступка.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav3">
+						<content>
+							<p>Међународна правна помоћ пружа се и по захтеву Међународног суда правде, Међународног кривичног суда, Европског суда за људска права и других међународних институција које су основане међународним уговором који је потврдила Република Србија.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<heading>Надлежни органи</heading>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>Органи надлежни за пружање међународне правне помоћи су домаћи судови и јавна тужилаштва (у даљем тексту: домаћи правосудни органи) одређени законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav2">
+						<content>
+							<p>Поједине радње у поступку међународне правне помоћи врши министарство надлежно за правосуђе, министарство надлежно за спољне послове и министарство надлежно за унутрашње послове.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav3">
+						<content>
+							<p>Захтев за међународну правну помоћ достављен ненадлежном органу биће без одлагања упућен органу надлежном за поступање, о чему ће бити обавештен орган који је доставио захтев.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan5">
+					<num>5.</num>
+					<heading>Замолница</heading>
+					<paragraph wId="gla1-clan5-stav1">
+						<content>
+							<p>Захтев за пружање међународне правне помоћи подноси се у виду замолнице.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav2">
+						<intro>
+							<p>Замолница садржи:</p>
+						</intro>
+						<point wId="gla1-clan5-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> назив органа који је сачинио замолницу;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan5-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> назив органа коме се замолница упућује, а уколико није познат његов тачан назив, ознаку „надлежни државни орган”, уз назив замољене државе;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan5-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> правни основ за пружање међународне правне помоћи;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan5-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> ознаку кривичног предмета, законски назив кривичног дела, текст одговарајуће одредбе закона и сажет опис чињеничног стања;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan5-stav2-tac5">
+							<num>5)</num>
+							<content>
+								<p> опис радње међународне правне помоћи која се тражи и разлог за подношење замолнице;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan5-stav2-tac6">
+							<num>6)</num>
+							<content>
+								<p> податке о држављанству и друге личне податке лица, односно назив и седиште правног лица у односу на које се тражи међународна правна помоћ, као и његово својство у поступку;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan5-stav2-tac7">
+							<num>7)</num>
+							<content>
+								<p> друге податке који могу да буду од значаја за поступање по замолници.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav3">
+						<content>
+							<p>Замолница, као и писмена које достављају правосудни и други надлежни органи морају да буду потписани и оверени од стране надлежног органа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav4">
+						<content>
+							<p>Замолница и писмена достављају се са преводом на језик замољене државе или преводом на енглески језик. Превод мора да буде оверен од стране судског тумача.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav5">
+						<content>
+							<p>Захтев за међународну правну помоћ који није поднет у складу са одредбама овог закона вратиће се ради исправке или допуне, уз одређивање рока који не може бити дужи од два месеца.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan6">
+					<num>6.</num>
+					<heading>Достављање замолнице и других писмена</heading>
+					<paragraph wId="gla1-clan6-stav1">
+						<content>
+							<p>Замолница и друга писмена домаћег правосудног органа достављају се иностраном органу преко министарства надлежног за правосуђе. На захтев замољене државе замолница и друга писмена достављају се дипломатским путем.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan6-stav2">
+						<intro>
+							<p>Замолница и писмена из <ref wId="ref0" href="akn/rs/act/2009/20-3/srp@/!main~art_6__para_1" >става 1. овог</ref> члана се под условом узајамности:</p>
+						</intro>
+						<point wId="gla1-clan6-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> достављају непосредно иностраном правосудном органу;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan6-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> могу у хитним случајевима доставити посредством Међународне организације криминалистичке полиције (ИНТЕРПОЛ).</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla1-clan6-stav3">
+						<content>
+							<p>Замолница и друга писмена иностраног органа достављају се домаћем правосудном органу у складу са <ref wId="ref1" href="akn/rs/act/2009/20-3/srp@/!main~art_6__para_1->para_2" >ст. 1. и 2. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan6-stav4">
+						<content>
+							<p>У случајевима из <ref wId="ref2" href="akn/rs/act/2009/20-3/srp@/!main~art_6__para_2" >става 2. овог</ref> члана домаћи правосудни орган доставља копију замолнице министарству надлежном за правосуђе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan7">
+					<num>7.</num>
+					<heading>Претпоставке за пружање међународне правне помоћи</heading>
+					<paragraph wId="gla1-clan7-stav1">
+						<intro>
+							<p>Претпоставке за пружање међународне правне помоћи су:</p>
+						</intro>
+						<point wId="gla1-clan7-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> да кривично дело поводом којег се захтева пружање међународне правне помоћи представља кривично дело по закону Републике Србије;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan7-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> да за исто кривично дело није правноснажно окончан поступак пред домаћим судом, односно да кривична санкција није у потпуности извршена;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan7-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> да кривично гоњење, односно извршење кривичне санкције није искључено због застарелости, амнестије или помиловања;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan7-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> да се захтев за пружање међународне правне помоћи не односи на политичко кривично дело или дело повезано са политичким кривичним делом, односно на кривично дело које се састоји искључиво у повреди војних дужности;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan7-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> да пружање међународне правне помоћи не би повредило суверенитет, безбедност, јавни поредак или друге интересе од суштинског значаја за Републику Србију.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla1-clan7-stav2">
+						<content>
+							<p>Изузетно од става 1. тачка <ref wId="ref3" href="akn/rs/act/2009/20-3/srp@/!main~art_7__para_1__point_4" >4</ref>) овог члана, међународна правна помоћ ће бити пружена поводом кривичног дела против међународног хуманитарног права за које не наступа застарелост.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan7-stav3">
+						<content>
+							<p>О испуњености претпоставки из<ref wId="ref6" href="akn/rs/act/2009/20-3/srp@/!main~art_7__para_3__point_1->point_3" > тач. 1. </ref>до 3. <ref wId="ref4" href="akn/rs/act/2009/20-3/srp@/!main~art_7__para_1" >става 1. овог</ref> члана одлучује надлежни правосудни орган, а о испуњености претпоставки из тач. <ref wId="ref7" href="akn/rs/act/2009/20-3/srp@/!main~art_7__para_3__point_4" >4</ref>) и <ref wId="ref8" href="akn/rs/act/2009/20-3/srp@/!main~art_7__para_3__point_5" >5</ref>) <ref wId="ref5" href="akn/rs/act/2009/20-3/srp@/!main~art_7__para_1" >става 1. овог</ref> члана одлучује односно даје мишљење министар надлежан за правосуђе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan8">
+					<num>8.</num>
+					<heading>Узајамност</heading>
+					<paragraph wId="gla1-clan8-stav1">
+						<content>
+							<p>Домаћи правосудни органи пружају међународну правну помоћ под условом узајамности. На захтев домаћег правосудног органа, министарство надлежно за правосуђе даје обавештење о постојању узајамности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan8-stav2">
+						<content>
+							<p>Ако нема података о узајамности, претпоставља се да узајамност постоји.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan9">
+					<num>9.</num>
+					<heading>Тајност података</heading>
+					<paragraph wId="gla1-clan9-stav1">
+						<content>
+							<p>Државни органи дужни су да чувају тајност података добијених у поступку пружања међународне правне помоћи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan9-stav2">
+						<content>
+							<p>Подаци о личности могу да се користе искључиво у кривичном или управном поступку у вези са којим је поднета замолница.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan10">
+					<num>10.</num>
+					<heading>Језик</heading>
+					<paragraph wId="gla1-clan10-stav1">
+						<content>
+							<p>Поступак пружања међународне правне помоћи води се на српском језику.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan10-stav2">
+						<content>
+							<p>Пред домаћим правосудним органом на чијем подручју су у службеној употреби језици националних мањина поступак из <ref wId="ref9" href="akn/rs/act/2009/20-3/srp@/!main~art_10__para_1" >става 1. овог</ref> члана води се и на њиховом језику, у складу са Уставом и законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan11">
+					<num>11.</num>
+					<heading>Трошкови</heading>
+					<paragraph wId="gla1-clan11-stav1">
+						<content>
+							<p>Трошкове пружања међународне правне помоћи сноси замољена држава, ако овим законом није другачије прописано.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan12">
+					<num>12.</num>
+					<heading>Сходна примена закона</heading>
+					<paragraph wId="gla1-clan12-stav1">
+						<content>
+							<p>Ако овим законом није друкчије одређено, у поступку пружања међународне правне помоћи сходно се примењују одредбе Законика о кривичном поступку и закона којима се уређује организација и надлежност судова и јавних тужилаштава.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ИЗРУЧЕЊЕ ОКРИВЉЕНОГ ИЛИ ОСУЂЕНОГ</heading>
+				<point wId="gla2-clan12-tac1">
+					<num>1.</num>
+					<intro>
+						<p> ИЗРУЧЕЊЕ ОКРИВЉЕНОГ ИЛИ ОСУЂЕНОГ СТРАНОЈ ДРЖАВИ</p>
+					</intro>
+					<point wId="gla2-clan12-tac1">
+						<num>1)</num>
+						<content>
+							<p> Основне одредбе</p>
+						</content>
+					</point>
+				</point>
+				<article wId="gla2-clan13">
+					<num>13.</num>
+					<heading>Предмет изручења</heading>
+					<paragraph wId="gla2-clan13-stav1">
+						<intro>
+							<p>Изручење окривљеног или осуђеног страној држави дозвољава се:</p>
+						</intro>
+						<point wId="gla2-clan13-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> ИЗРУЧЕЊЕ ОКРИВЉЕНОГ ИЛИ ОСУЂЕНОГ РЕПУБЛИЦИ СРБИЈИ</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> ПРЕУЗИМАЊЕ КРИВИЧНОГ ГОЊЕЊА ОД СТРАНЕ ДРЖАВЕ</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> УСТУПАЊЕ КРИВИЧНОГ ГОЊЕЊА СТРАНОЈ ДРЖАВИ</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> ИЗВРШЕЊЕ СТРАНЕ КРИВИЧНЕ ПРЕСУДЕ</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> ИЗВРШЕЊЕ СТРАНЕ КРИВИЧНЕ ПРЕСУДЕ УЗ ПРЕМЕШТАЈ</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> ИЗВРШЕЊЕ ДОМАЋЕ КРИВИЧНЕ ПРЕСУДЕ</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav1-tac4">
+							<num>4.</num>
+							<content>
+								<p> ИЗВРШЕЊЕ ДОМАЋЕ КРИВИЧНЕ ПРЕСУДЕ УЗ ПРЕМЕШТАЈ</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> ОСНОВНЕ ОДРЕДБЕ</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> ПРУЖАЊЕ ОСТАЛИХ ОБЛИКА МЕЂУНАРОДНЕ ПРАВНЕ ПОМОЋИ СТРАНОЈ ДРЖАВИ</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> ЗАХТЕВАЊЕ ОСТАЛИХ ОБЛИКА МЕЂУНАРОДНЕ ПРАВНЕ ПОМОЋИ ОД СТРАНЕ ДРЖАВЕ</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> ИЗРУЧЕЊЕ ОКРИВЉЕНОГ ИЛИ ОСУЂЕНОГ СТРАНОЈ ДРЖАВИ</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> ИЗРУЧЕЊЕ ОКРИВЉЕНОГ ИЛИ ОСУЂЕНОГ РЕПУБЛИЦИ СРБИЈИ</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> ПРЕУЗИМАЊЕ КРИВИЧНОГ ГОЊЕЊА ОД СТРАНЕ ДРЖАВЕ</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> УСТУПАЊЕ КРИВИЧНОГ ГОЊЕЊА СТРАНОЈ ДРЖАВИ</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> ИЗВРШЕЊЕ СТРАНЕ КРИВИЧНЕ ПРЕСУДЕ</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> ИЗВРШЕЊЕ СТРАНЕ КРИВИЧНЕ ПРЕСУДЕ УЗ ПРЕМЕШТАЈ</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> ИЗВРШЕЊЕ ДОМАЋЕ КРИВИЧНЕ ПРЕСУДЕ</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav1-tac4">
+							<num>4.</num>
+							<content>
+								<p> ИЗВРШЕЊЕ ДОМАЋЕ КРИВИЧНЕ ПРЕСУДЕ УЗ ПРЕМЕШТАЈ</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> ОСНОВНЕ ОДРЕДБЕ</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> ПРУЖАЊЕ ОСТАЛИХ ОБЛИКА МЕЂУНАРОДНЕ ПРАВНЕ ПОМОЋИ СТРАНОЈ ДРЖАВИ</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> ЗАХТЕВАЊЕ ОСТАЛИХ ОБЛИКА МЕЂУНАРОДНЕ ПРАВНЕ ПОМОЋИ ОД СТРАНЕ ДРЖАВЕ</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> ИЗРУЧЕЊЕ ОКРИВЉЕНОГ ИЛИ ОСУЂЕНОГ СТРАНОЈ ДРЖАВИ</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> ИЗРУЧЕЊЕ ОКРИВЉЕНОГ ИЛИ ОСУЂЕНОГ РЕПУБЛИЦИ СРБИЈИ</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> ПРЕУЗИМАЊЕ КРИВИЧНОГ ГОЊЕЊА ОД СТРАНЕ ДРЖАВЕ</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> УСТУПАЊЕ КРИВИЧНОГ ГОЊЕЊА СТРАНОЈ ДРЖАВИ</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> ИЗВРШЕЊЕ СТРАНЕ КРИВИЧНЕ ПРЕСУДЕ</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> ИЗВРШЕЊЕ СТРАНЕ КРИВИЧНЕ ПРЕСУДЕ УЗ ПРЕМЕШТАЈ</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> ИЗВРШЕЊЕ ДОМАЋЕ КРИВИЧНЕ ПРЕСУДЕ</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav1-tac4">
+							<num>4.</num>
+							<content>
+								<p> ИЗВРШЕЊЕ ДОМАЋЕ КРИВИЧНЕ ПРЕСУДЕ УЗ ПРЕМЕШТАЈ</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> ОСНОВНЕ ОДРЕДБЕ</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> ПРУЖАЊЕ ОСТАЛИХ ОБЛИКА МЕЂУНАРОДНЕ ПРАВНЕ ПОМОЋИ СТРАНОЈ ДРЖАВИ</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> ЗАХТЕВАЊЕ ОСТАЛИХ ОБЛИКА МЕЂУНАРОДНЕ ПРАВНЕ ПОМОЋИ ОД СТРАНЕ ДРЖАВЕ</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> ИЗРУЧЕЊЕ ОКРИВЉЕНОГ ИЛИ ОСУЂЕНОГ СТРАНОЈ ДРЖАВИ</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> ИЗРУЧЕЊЕ ОКРИВЉЕНОГ ИЛИ ОСУЂЕНОГ РЕПУБЛИЦИ СРБИЈИ</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> ПРЕУЗИМАЊЕ КРИВИЧНОГ ГОЊЕЊА ОД СТРАНЕ ДРЖАВЕ</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> УСТУПАЊЕ КРИВИЧНОГ ГОЊЕЊА СТРАНОЈ ДРЖАВИ</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> ИЗВРШЕЊЕ СТРАНЕ КРИВИЧНЕ ПРЕСУДЕ</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> ИЗВРШЕЊЕ СТРАНЕ КРИВИЧНЕ ПРЕСУДЕ УЗ ПРЕМЕШТАЈ</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> ИЗВРШЕЊЕ ДОМАЋЕ КРИВИЧНЕ ПРЕСУДЕ</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav1-tac4">
+							<num>4.</num>
+							<content>
+								<p> ИЗВРШЕЊЕ ДОМАЋЕ КРИВИЧНЕ ПРЕСУДЕ УЗ ПРЕМЕШТАЈ</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> ОСНОВНЕ ОДРЕДБЕ</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> ПРУЖАЊЕ ОСТАЛИХ ОБЛИКА МЕЂУНАРОДНЕ ПРАВНЕ ПОМОЋИ СТРАНОЈ ДРЖАВИ</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> ЗАХТЕВАЊЕ ОСТАЛИХ ОБЛИКА МЕЂУНАРОДНЕ ПРАВНЕ ПОМОЋИ ОД СТРАНЕ ДРЖАВЕ</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

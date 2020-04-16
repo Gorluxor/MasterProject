@@ -1,0 +1,1114 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о реструктурирању дуга по   НФА и   ТДФА издавањем обвезница Републике Србије">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2005/61-46/main"/>
+					<FRBRuri value="/rs/act/2005/61-46"/>
+					<FRBRdate date="2005-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2005/61-46/srp@/main"/>
+					<FRBRuri value="/rs/act/2005/61-46/srp@"/>
+					<FRBRdate date="2005-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2005/61-46/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2005/61-46/srp@.akn"/>
+					<FRBRdate date="2005-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2005-07-18" name="службени гласник рс" number="61" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="V МОНЕТАРНИ СИСТЕМ, ФИНАНСИЈСКЕ ОРГАНИЗАЦИЈЕ И ФИНАНСИЈСКО ПОСЛОВАЊЕ" value="v монетарни систем, финансијске организације и финансијско пословање" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="9. Задуживање и гаранције" value="9. задуживање и гаранције" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2005-07-15" wId="usvajanje"/>
+				<step by="#TODO" date="2005-07-19" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2005-07-19" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу наредног дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 19. јула 2005. године (види члан 11. Закона).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О реструктурирању дуга по   нфа и   тдфа издавањем обвезница републике србије „Службени гласник РС”, број 61 од 18. јула 2005.</p>
+			</longTitle>
+		</preface>
+		<body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Овим законом уређују се услови и начин реструктурирања дуга Републике Србије по основу неизмирених рефинансираних обавеза по Новом финансијском споразуму од 20. септембра 1988. године (у даљем тексту:  НФА) и депозита по Споразуму о трговинској и депозитној олакшици од 20. септембра 1988. године (у даљем тексту:  ТДФА) издавањем дугорочних обвезница, на основу Закона о ратификацији Меморандума о разумевању о реструктурирању дуга по НФА и ТДФА између Републике Србије и Међународног координационог комитета („<ref wId="ref0" href="akn/rs/act/04/84/srp@">Службени гласник РС”, број 84/04</ref> – у даљем тексту: Закон о ратификацији).</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan1-stav2">
+					<content>
+						<p>Одредбе овог закона обухватају и обавезе према повериоцима Лондонског клуба, утврђене Законом о регулисању односа између Савезне Републике Југославије и правних лица и банака са територије Савезне Републике Југославије које су првобитни дужници или гаранти према повериоцима Париског и Лондонског клуба („<ref wId="ref1" href="akn/rs/act/02/36/srp@">Службени лист СРЈ”, бр. 36/02</ref> и 7/03).</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Главница дуга Републике Србије у смислу <ref wId="ref2" href="akn/rs/act/2005/61-46/srp@/!main~art_1" >члана 1. овог</ref> закона износи до 1.080.000.000,00 USD, што представља умањени износ за око 62% укупних неизмирених обавеза према Лондонском клубу поверилаца.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>Износ дуга из <ref wId="ref3" href="akn/rs/act/2005/61-46/srp@/!main~art_2__para_1" >става 1. овог</ref> члана биће реструктуриран на 20 година, са периодом почека од пет година, издавањем дугорочних обвезница Републике Србије (у даљем тексту: обвезнице), на иностраном финансијском тржишту.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Република Србија ће издати обвезнице у номиналној вредности до износа од 1.080.000.000,00 USD, са доспећем од 1. маја 2010. године до 1. новембра 2024. године.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav2">
+					<content>
+						<p>Укупни износ главнице дуга по издатим обвезницама биће исплаћен у 30 једнаких полугодишњих рата, у складу са следећом динамиком:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav3">
+					<content>
+						<p>датум сервисирања обавеза по основу главнице проценат</p>
+					</content>
+				</paragraph>
+			</article>
+			<section wId="od1">
+				<num>1.</num>
+				<heading> мај 2010. године3.33333 %</heading>
+				<point wId="od1-clan3-tac1">
+					<num>1.</num>
+					<intro>
+						<p> новембар 2010. године3.33333 %</p>
+					</intro>
+					<point wId="od1-clan3-tac1">
+						<num>1.</num>
+						<intro>
+							<p> мај 2011. године3.33333 %</p>
+						</intro>
+						<point wId="od1-clan3-tac1">
+							<num>1.</num>
+							<intro>
+								<p> новембар 2011. године3.33333 %</p>
+							</intro>
+							<point wId="od1-clan3-tac1">
+								<num>1.</num>
+								<intro>
+									<p> мај 2012. године3.33333 %</p>
+								</intro>
+								<point wId="od1-clan3-tac1">
+									<num>1.</num>
+									<intro>
+										<p> новембар 2012. године3.33333 %</p>
+									</intro>
+									<point wId="od1-clan3-tac1">
+										<num>1.</num>
+										<intro>
+											<p> мај 2013. године3.33333 %</p>
+										</intro>
+										<point wId="od1-clan3-tac1">
+											<num>1.</num>
+											<intro>
+												<p> новембар 2013. године3.33333 %</p>
+											</intro>
+											<point wId="od1-clan3-tac1">
+												<num>1.</num>
+												<intro>
+													<p> мај 2014. године3.33333 %</p>
+												</intro>
+												<point wId="od1-clan3-tac1">
+													<num>1.</num>
+													<intro>
+														<p> новембар 2014. године3.33333 %</p>
+													</intro>
+													<point wId="od1-clan3-tac1">
+														<num>1.</num>
+														<intro>
+															<p> мај 2015. године3.33333 %</p>
+														</intro>
+														<point wId="od1-clan3-tac1">
+															<num>1.</num>
+															<intro>
+																<p> новембар 2015. године3.33333 %</p>
+															</intro>
+															<point wId="od1-clan3-tac1">
+																<num>1.</num>
+																<intro>
+																	<p> мај 2016. године3.33333 %</p>
+																</intro>
+																<point wId="od1-clan3-tac1">
+																	<num>1.</num>
+																	<intro>
+																		<p> новембар 2016. године3.33333 %</p>
+																	</intro>
+																	<point wId="od1-clan3-tac1">
+																		<num>1.</num>
+																		<intro>
+																			<p> мај 2017. године3.33333 %</p>
+																		</intro>
+																		<point wId="od1-clan3-tac1">
+																			<num>1.</num>
+																			<intro>
+																				<p> новембар 2017. године3.33333 %</p>
+																			</intro>
+																			<point wId="od1-clan3-tac1">
+																				<num>1.</num>
+																				<intro>
+																					<p> мај 2018. године3.33333 %</p>
+																				</intro>
+																				<point wId="od1-clan3-tac1">
+																					<num>1.</num>
+																					<intro>
+																						<p> новембар 2018. године3.33333 %</p>
+																					</intro>
+																					<point wId="od1-clan3-tac1">
+																						<num>1.</num>
+																						<intro>
+																							<p> мај 2019. године3.33333 %</p>
+																						</intro>
+																						<point wId="od1-clan3-tac1">
+																							<num>1.</num>
+																							<intro>
+																								<p> новембар 2019. године3.33333 %</p>
+																							</intro>
+																							<point wId="od1-clan3-tac1">
+																								<num>1.</num>
+																								<intro>
+																									<p> мај 2020. године3.33333 %</p>
+																								</intro>
+																								<point wId="od1-clan3-tac1">
+																									<num>1.</num>
+																									<intro>
+																										<p> новембар 2020. године3.33333 %</p>
+																									</intro>
+																									<point wId="od1-clan3-tac1">
+																										<num>1.</num>
+																										<intro>
+																											<p> мај 2021. године3.33333 %</p>
+																										</intro>
+																										<point wId="od1-clan3-tac1">
+																											<num>1.</num>
+																											<intro>
+																												<p> новембар 2021. године3.33333 %</p>
+																											</intro>
+																											<point wId="od1-clan3-tac1">
+																												<num>1.</num>
+																												<intro>
+																													<p> мај 2022. године3.33333 %</p>
+																												</intro>
+																												<point wId="od1-clan3-tac1">
+																													<num>1.</num>
+																													<intro>
+																														<p> новембар 2022. године3.33333 %</p>
+																													</intro>
+																													<point wId="od1-clan3-tac1">
+																														<num>1.</num>
+																														<intro>
+																															<p> мај 2023. године3.33333 %</p>
+																														</intro>
+																														<point wId="od1-clan3-tac1">
+																															<num>1.</num>
+																															<intro>
+																																<p> новембар 2023. године3.33333 %</p>
+																															</intro>
+																															<point wId="od1-clan3-tac1">
+																																<num>1.</num>
+																																<intro>
+																																	<p> мај 2024. године3.33333 %</p>
+																																</intro>
+																																<point wId="od1-clan3-tac1">
+																																	<num>1.</num>
+																																	<content>
+																																		<p> новембар 2024. годинепреостали износ</p>
+																																	</content>
+																																</point>
+																															</point>
+																														</point>
+																													</point>
+																												</point>
+																											</point>
+																										</point>
+																									</point>
+																								</point>
+																							</point>
+																						</point>
+																					</point>
+																				</point>
+																			</point>
+																		</point>
+																	</point>
+																</point>
+															</point>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+				</point>
+				<paragraph wId="od1-clan3-stav1">
+					<content>
+						<p>Обвезнице се издају у валути  USD, са појединачном номиналном вредношћу од минимум 50.000 USD.</p>
+					</content>
+				</paragraph>
+				<article wId="od1-clan4">
+					<num>4.</num>
+					<paragraph wId="od1-clan4-stav1">
+						<intro>
+							<p>Камата на обвезнице обрачунава се почев од 1. октобра 2004. године, са каматном стопом:</p>
+						</intro>
+						<alinea wId="od1-clan4-stav1-ali1">
+							<content>
+								<p>,75% годишње од 1. октобра 2004. године до 1. новембра 2009. године;</p>
+							</content>
+						</alinea>
+						<alinea wId="od1-clan4-stav1-ali2">
+							<content>
+								<p>,75% годишње од 1. новембра 2009. године до коначног доспећа обвезница.</p>
+							</content>
+						</alinea>
+					</paragraph>
+					<paragraph wId="od1-clan4-stav2">
+						<content>
+							<p>Камата из <ref wId="ref4" href="akn/rs/act/2005/61-46/srp@/!main~art_4__para_1" >става 1. овог</ref> члана плаћа се полугодишње, с тим да прво плаћање камате доспева на дан 1. маја 2005. године.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="od1-clan5">
+					<num>5.</num>
+					<paragraph wId="od1-clan5-stav1">
+						<content>
+							<p>Све исплате реализоване од стране Републике Србије по основу главнице и камате на обвезнице, ослобођене су пореза и других дажбина у Републици Србији.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="od1-clan6">
+					<num>6.</num>
+					<paragraph wId="od1-clan6-stav1">
+						<content>
+							<p>Обвезнице ће бити издате у нематеријалном облику, а листинг и котација ће бити извршени на Луксембуршкој берзи преко фискалног агента и његових афилијација, у име и за рачун Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od1-clan6-stav2">
+						<content>
+							<p>Клиринг и салдирање обвезница обављаће се, у зависности од домицила поверилаца, преко финансијских институција – клириншких кућа DTC, Euroclear  и Clearstream.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od1-clan6-stav3">
+						<content>
+							<p>Потврде о власништву над обвезницама биће издате подобним држаоцима који су прихватили понуду за замену дуга из <ref wId="ref5" href="akn/rs/act/2005/61-46/srp@/!main~art_1" >члана 1. овог</ref> закона за обвезнице Републике Србије, сагласно Закону о ратификацији.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="od1-clan7">
+					<num>7.</num>
+					<paragraph wId="od1-clan7-stav1">
+						<content>
+							<p>Република Србија може да изврши исплату обвезница по номиналној вредности увећаној за обрачунату камату и пре рока доспећа, под условом да до момента исплате није у доцњи по било којој од издатих обвезница.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od1-clan7-stav2">
+						<content>
+							<p>Република Србија може да откупи обвезнице на тржишту или на други начин и поништи или поново прода откупљене обвезнице.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="od1-clan8">
+					<num>8.</num>
+					<paragraph wId="od1-clan8-stav1">
+						<content>
+							<p>За потребе реструктурирања дуга Република Србија може, без сагласности кредитора, издати нове обвезнице које ће са обвезницама издатим у смислу чл. <ref wId="ref6" href="akn/rs/act/2005/61-46/srp@/!main~art_2" >2</ref>. и <ref wId="ref7" href="akn/rs/act/2005/61-46/srp@/!main~art_3" >3</ref>. овог закона чинити једну серију и имати исти третман као већ издате обвезнице.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="od1-clan9">
+					<num>9.</num>
+					<paragraph wId="od1-clan9-stav1">
+						<content>
+							<p>Сва правна питања у вези са обвезницама решаваће се у складу са енглеским законодавством.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="od1-clan10">
+					<num>10.</num>
+					<paragraph wId="od1-clan10-stav1">
+						<content>
+							<p>Средства за извршавање обавеза Републике Србије, у смислу овог закона, обезбеђују се у буџету Републике Србије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="od1-clan11">
+					<num>11.</num>
+					<paragraph wId="od1-clan11-stav1">
+						<content>
+							<p>Овај закон ступа на снагу наредног дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od1-clan11-stav2">
+						<content>
+							<p>о реструктурирању дуга по   НФА и   ТДФА издавањем обвезница Републике Србије</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od1-clan11-stav3">
+						<content>
+							<p>„Службени гласник РС”, број  61 од   18. јула 2005.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="od1-clan1">
+					<num>1.</num>
+					<paragraph wId="od1-clan1-stav1">
+						<content>
+							<p>Овим законом уређују се услови и начин реструктурирања дуга Републике Србије по основу неизмирених рефинансираних обавеза по Новом финансијском споразуму од 20. септембра 1988. године (у даљем тексту:  НФА) и депозита по Споразуму о трговинској и депозитној олакшици од 20. септембра 1988. године (у даљем тексту:  ТДФА) издавањем дугорочних обвезница, на основу Закона о ратификацији Меморандума о разумевању о реструктурирању дуга по НФА и ТДФА између Републике Србије и Међународног координационог комитета („<ref wId="ref8" href="akn/rs/act/04/84/srp@">Службени гласник РС”, број 84/04</ref> – у даљем тексту: Закон о ратификацији).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od1-clan1-stav2">
+						<content>
+							<p>Одредбе овог закона обухватају и обавезе према повериоцима Лондонског клуба, утврђене Законом о регулисању односа између Савезне Републике Југославије и правних лица и банака са територије Савезне Републике Југославије које су првобитни дужници или гаранти према повериоцима Париског и Лондонског клуба („<ref wId="ref9" href="akn/rs/act/02/36/srp@">Службени лист СРЈ”, бр. 36/02</ref> и 7/03).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="od1-clan2">
+					<num>2.</num>
+					<paragraph wId="od1-clan2-stav1">
+						<content>
+							<p>Главница дуга Републике Србије у смислу <ref wId="ref10" href="akn/rs/act/2005/61-46/srp@/!main~art_1" >члана 1. овог</ref> закона износи до 1.080.000.000,00 USD, што представља умањени износ за око 62% укупних неизмирених обавеза према Лондонском клубу поверилаца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od1-clan2-stav2">
+						<content>
+							<p>Износ дуга из <ref wId="ref11" href="akn/rs/act/2005/61-46/srp@/!main~art_2__para_1" >става 1. овог</ref> члана биће реструктуриран на 20 година, са периодом почека од пет година, издавањем дугорочних обвезница Републике Србије (у даљем тексту: обвезнице), на иностраном финансијском тржишту.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="od1-clan3">
+					<num>3.</num>
+					<paragraph wId="od1-clan3-stav1">
+						<content>
+							<p>Република Србија ће издати обвезнице у номиналној вредности до износа од 1.080.000.000,00 USD, са доспећем од 1. маја 2010. године до 1. новембра 2024. године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od1-clan3-stav2">
+						<content>
+							<p>Укупни износ главнице дуга по издатим обвезницама биће исплаћен у 30 једнаких полугодишњих рата, у складу са следећом динамиком:</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od1-clan3-stav3">
+						<content>
+							<p>датум сервисирања обавеза по основу главнице проценат</p>
+						</content>
+					</paragraph>
+				</article>
+				<section wId="od1">
+					<num>1.</num>
+					<heading> мај 2010. године3.33333 %</heading>
+					<point wId="od1-clan3-tac1">
+						<num>1.</num>
+						<intro>
+							<p> новембар 2010. године3.33333 %</p>
+						</intro>
+						<point wId="od1-clan3-tac1">
+							<num>1.</num>
+							<intro>
+								<p> мај 2011. године3.33333 %</p>
+							</intro>
+							<point wId="od1-clan3-tac1">
+								<num>1.</num>
+								<intro>
+									<p> новембар 2011. године3.33333 %</p>
+								</intro>
+								<point wId="od1-clan3-tac1">
+									<num>1.</num>
+									<intro>
+										<p> мај 2012. године3.33333 %</p>
+									</intro>
+									<point wId="od1-clan3-tac1">
+										<num>1.</num>
+										<intro>
+											<p> новембар 2012. године3.33333 %</p>
+										</intro>
+										<point wId="od1-clan3-tac1">
+											<num>1.</num>
+											<intro>
+												<p> мај 2013. године3.33333 %</p>
+											</intro>
+											<point wId="od1-clan3-tac1">
+												<num>1.</num>
+												<intro>
+													<p> новембар 2013. године3.33333 %</p>
+												</intro>
+												<point wId="od1-clan3-tac1">
+													<num>1.</num>
+													<intro>
+														<p> мај 2014. године3.33333 %</p>
+													</intro>
+													<point wId="od1-clan3-tac1">
+														<num>1.</num>
+														<intro>
+															<p> новембар 2014. године3.33333 %</p>
+														</intro>
+														<point wId="od1-clan3-tac1">
+															<num>1.</num>
+															<intro>
+																<p> мај 2015. године3.33333 %</p>
+															</intro>
+															<point wId="od1-clan3-tac1">
+																<num>1.</num>
+																<intro>
+																	<p> новембар 2015. године3.33333 %</p>
+																</intro>
+																<point wId="od1-clan3-tac1">
+																	<num>1.</num>
+																	<intro>
+																		<p> мај 2016. године3.33333 %</p>
+																	</intro>
+																	<point wId="od1-clan3-tac1">
+																		<num>1.</num>
+																		<intro>
+																			<p> новембар 2016. године3.33333 %</p>
+																		</intro>
+																		<point wId="od1-clan3-tac1">
+																			<num>1.</num>
+																			<intro>
+																				<p> мај 2017. године3.33333 %</p>
+																			</intro>
+																			<point wId="od1-clan3-tac1">
+																				<num>1.</num>
+																				<intro>
+																					<p> новембар 2017. године3.33333 %</p>
+																				</intro>
+																				<point wId="od1-clan3-tac1">
+																					<num>1.</num>
+																					<intro>
+																						<p> мај 2018. године3.33333 %</p>
+																					</intro>
+																					<point wId="od1-clan3-tac1">
+																						<num>1.</num>
+																						<intro>
+																							<p> новембар 2018. године3.33333 %</p>
+																						</intro>
+																						<point wId="od1-clan3-tac1">
+																							<num>1.</num>
+																							<intro>
+																								<p> мај 2019. године3.33333 %</p>
+																							</intro>
+																							<point wId="od1-clan3-tac1">
+																								<num>1.</num>
+																								<intro>
+																									<p> новембар 2019. године3.33333 %</p>
+																								</intro>
+																								<point wId="od1-clan3-tac1">
+																									<num>1.</num>
+																									<intro>
+																										<p> мај 2020. године3.33333 %</p>
+																									</intro>
+																									<point wId="od1-clan3-tac1">
+																										<num>1.</num>
+																										<intro>
+																											<p> новембар 2020. године3.33333 %</p>
+																										</intro>
+																										<point wId="od1-clan3-tac1">
+																											<num>1.</num>
+																											<intro>
+																												<p> мај 2021. године3.33333 %</p>
+																											</intro>
+																											<point wId="od1-clan3-tac1">
+																												<num>1.</num>
+																												<intro>
+																													<p> новембар 2021. године3.33333 %</p>
+																												</intro>
+																												<point wId="od1-clan3-tac1">
+																													<num>1.</num>
+																													<intro>
+																														<p> мај 2022. године3.33333 %</p>
+																													</intro>
+																													<point wId="od1-clan3-tac1">
+																														<num>1.</num>
+																														<intro>
+																															<p> новембар 2022. године3.33333 %</p>
+																														</intro>
+																														<point wId="od1-clan3-tac1">
+																															<num>1.</num>
+																															<intro>
+																																<p> мај 2023. године3.33333 %</p>
+																															</intro>
+																															<point wId="od1-clan3-tac1">
+																																<num>1.</num>
+																																<intro>
+																																	<p> новембар 2023. године3.33333 %</p>
+																																</intro>
+																																<point wId="od1-clan3-tac1">
+																																	<num>1.</num>
+																																	<intro>
+																																		<p> мај 2024. године3.33333 %</p>
+																																	</intro>
+																																	<point wId="od1-clan3-tac1">
+																																		<num>1.</num>
+																																		<content>
+																																			<p> новембар 2024. годинепреостали износ</p>
+																																		</content>
+																																	</point>
+																																</point>
+																															</point>
+																														</point>
+																													</point>
+																												</point>
+																											</point>
+																										</point>
+																									</point>
+																								</point>
+																							</point>
+																						</point>
+																					</point>
+																				</point>
+																			</point>
+																		</point>
+																	</point>
+																</point>
+															</point>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<paragraph wId="od1-clan3-stav1">
+						<content>
+							<p>Обвезнице се издају у валути  USD, са појединачном номиналном вредношћу од минимум 50.000 USD.</p>
+						</content>
+					</paragraph>
+					<article wId="od1-clan4">
+						<num>4.</num>
+						<paragraph wId="od1-clan4-stav1">
+							<intro>
+								<p>Камата на обвезнице обрачунава се почев од 1. октобра 2004. године, са каматном стопом:</p>
+							</intro>
+							<alinea wId="od1-clan4-stav1-ali1">
+								<content>
+									<p>,75% годишње од 1. октобра 2004. године до 1. новембра 2009. године;</p>
+								</content>
+							</alinea>
+							<alinea wId="od1-clan4-stav1-ali2">
+								<content>
+									<p>,75% годишње од 1. новембра 2009. године до коначног доспећа обвезница.</p>
+								</content>
+							</alinea>
+						</paragraph>
+						<paragraph wId="od1-clan4-stav2">
+							<content>
+								<p>Камата из става 1. овог члана плаћа се полугодишње, с тим да прво плаћање камате доспева на дан 1. маја 2005. године.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="od1-clan5">
+						<num>5.</num>
+						<paragraph wId="od1-clan5-stav1">
+							<content>
+								<p>Све исплате реализоване од стране Републике Србије по основу главнице и камате на обвезнице, ослобођене су пореза и других дажбина у Републици Србији.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="od1-clan6">
+						<num>6.</num>
+						<paragraph wId="od1-clan6-stav1">
+							<content>
+								<p>Обвезнице ће бити издате у нематеријалном облику, а листинг и котација ће бити извршени на Луксембуршкој берзи преко фискалног агента и његових афилијација, у име и за рачун Републике Србије.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan6-stav2">
+							<content>
+								<p>Клиринг и салдирање обвезница обављаће се, у зависности од домицила поверилаца, преко финансијских институција – клириншких кућа DTC, Euroclear  и Clearstream.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan6-stav3">
+							<content>
+								<p>Потврде о власништву над обвезницама биће издате подобним држаоцима који су прихватили понуду за замену дуга из члана 1. овог закона за обвезнице Републике Србије, сагласно Закону о ратификацији.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="od1-clan7">
+						<num>7.</num>
+						<paragraph wId="od1-clan7-stav1">
+							<content>
+								<p>Република Србија може да изврши исплату обвезница по номиналној вредности увећаној за обрачунату камату и пре рока доспећа, под условом да до момента исплате није у доцњи по било којој од издатих обвезница.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan7-stav2">
+							<content>
+								<p>Република Србија може да откупи обвезнице на тржишту или на други начин и поништи или поново прода откупљене обвезнице.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="od1-clan8">
+						<num>8.</num>
+						<paragraph wId="od1-clan8-stav1">
+							<content>
+								<p>За потребе реструктурирања дуга Република Србија може, без сагласности кредитора, издати нове обвезнице које ће са обвезницама издатим у смислу чл. 2. и 3. овог закона чинити једну серију и имати исти третман као већ издате обвезнице.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="od1-clan9">
+						<num>9.</num>
+						<paragraph wId="od1-clan9-stav1">
+							<content>
+								<p>Сва правна питања у вези са обвезницама решаваће се у складу са енглеским законодавством.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="od1-clan10">
+						<num>10.</num>
+						<paragraph wId="od1-clan10-stav1">
+							<content>
+								<p>Средства за извршавање обавеза Републике Србије, у смислу овог закона, обезбеђују се у буџету Републике Србије.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="od1-clan11">
+						<num>11.</num>
+						<paragraph wId="od1-clan11-stav1">
+							<content>
+								<p>Овај закон ступа на снагу наредног дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan11-stav2">
+							<content>
+								<p>о реструктурирању дуга по   НФА и   ТДФА издавањем обвезница Републике Србије</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan11-stav3">
+							<content>
+								<p>„Службени гласник РС”, број  61 од   18. јула 2005.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="od1-clan1">
+						<num>1.</num>
+						<paragraph wId="od1-clan1-stav1">
+							<content>
+								<p>Овим законом уређују се услови и начин реструктурирања дуга Републике Србије по основу неизмирених рефинансираних обавеза по Новом финансијском споразуму од 20. септембра 1988. године (у даљем тексту:  НФА) и депозита по Споразуму о трговинској и депозитној олакшици од 20. септембра 1988. године (у даљем тексту:  ТДФА) издавањем дугорочних обвезница, на основу Закона о ратификацији Меморандума о разумевању о реструктурирању дуга по НФА и ТДФА између Републике Србије и Међународног координационог комитета („Службени гласник РС”, број 84/04 – у даљем тексту: Закон о ратификацији).</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan1-stav2">
+							<content>
+								<p>Одредбе овог закона обухватају и обавезе према повериоцима Лондонског клуба, утврђене Законом о регулисању односа између Савезне Републике Југославије и правних лица и банака са територије Савезне Републике Југославије које су првобитни дужници или гаранти према повериоцима Париског и Лондонског клуба („Службени лист СРЈ”, бр. 36/02 и 7/03).</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="od1-clan2">
+						<num>2.</num>
+						<paragraph wId="od1-clan2-stav1">
+							<content>
+								<p>Главница дуга Републике Србије у смислу члана 1. овог закона износи до 1.080.000.000,00 USD, што представља умањени износ за око 62% укупних неизмирених обавеза према Лондонском клубу поверилаца.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan2-stav2">
+							<content>
+								<p>Износ дуга из става 1. овог члана биће реструктуриран на 20 година, са периодом почека од пет година, издавањем дугорочних обвезница Републике Србије (у даљем тексту: обвезнице), на иностраном финансијском тржишту.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="od1-clan3">
+						<num>3.</num>
+						<paragraph wId="od1-clan3-stav1">
+							<content>
+								<p>Република Србија ће издати обвезнице у номиналној вредности до износа од 1.080.000.000,00 USD, са доспећем од 1. маја 2010. године до 1. новембра 2024. године.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan3-stav2">
+							<intro>
+								<p>Укупни износ главнице дуга по издатим обвезницама биће исплаћен у 30 једнаких полугодишњих рата, у складу са следећом динамиком:</p>
+							</intro>
+							<point wId="od1-clan3-stav2-tac1">
+								<num>1.</num>
+								<intro>
+									<p> мај 2010. године3.33333 %</p>
+								</intro>
+								<point wId="od1-clan3-stav2-tac1">
+									<num>1.</num>
+									<intro>
+										<p> новембар 2010. године3.33333 %</p>
+									</intro>
+									<point wId="od1-clan3-stav2-tac1">
+										<num>1.</num>
+										<intro>
+											<p> мај 2011. године3.33333 %</p>
+										</intro>
+										<point wId="od1-clan3-stav2-tac1">
+											<num>1.</num>
+											<intro>
+												<p> новембар 2011. године3.33333 %</p>
+											</intro>
+											<point wId="od1-clan3-stav2-tac1">
+												<num>1.</num>
+												<intro>
+													<p> мај 2012. године3.33333 %</p>
+												</intro>
+												<point wId="od1-clan3-stav2-tac1">
+													<num>1.</num>
+													<intro>
+														<p> новембар 2012. године3.33333 %</p>
+													</intro>
+													<point wId="od1-clan3-stav2-tac1">
+														<num>1.</num>
+														<intro>
+															<p> мај 2013. године3.33333 %</p>
+														</intro>
+														<point wId="od1-clan3-stav2-tac1">
+															<num>1.</num>
+															<intro>
+																<p> новембар 2013. године3.33333 %</p>
+															</intro>
+															<point wId="od1-clan3-stav2-tac1">
+																<num>1.</num>
+																<intro>
+																	<p> мај 2014. године3.33333 %</p>
+																</intro>
+																<point wId="od1-clan3-stav2-tac1">
+																	<num>1.</num>
+																	<intro>
+																		<p> новембар 2014. године3.33333 %</p>
+																	</intro>
+																	<point wId="od1-clan3-stav2-tac1">
+																		<num>1.</num>
+																		<intro>
+																			<p> мај 2015. године3.33333 %</p>
+																		</intro>
+																		<point wId="od1-clan3-stav2-tac1">
+																			<num>1.</num>
+																			<intro>
+																				<p> новембар 2015. године3.33333 %</p>
+																			</intro>
+																			<point wId="od1-clan3-stav2-tac1">
+																				<num>1.</num>
+																				<intro>
+																					<p> мај 2016. године3.33333 %</p>
+																				</intro>
+																				<point wId="od1-clan3-stav2-tac1">
+																					<num>1.</num>
+																					<intro>
+																						<p> новембар 2016. године3.33333 %</p>
+																					</intro>
+																					<point wId="od1-clan3-stav2-tac1">
+																						<num>1.</num>
+																						<intro>
+																							<p> мај 2017. године3.33333 %</p>
+																						</intro>
+																						<point wId="od1-clan3-stav2-tac1">
+																							<num>1.</num>
+																							<intro>
+																								<p> новембар 2017. године3.33333 %</p>
+																							</intro>
+																							<point wId="od1-clan3-stav2-tac1">
+																								<num>1.</num>
+																								<intro>
+																									<p> мај 2018. године3.33333 %</p>
+																								</intro>
+																								<point wId="od1-clan3-stav2-tac1">
+																									<num>1.</num>
+																									<intro>
+																										<p> новембар 2018. године3.33333 %</p>
+																									</intro>
+																									<point wId="od1-clan3-stav2-tac1">
+																										<num>1.</num>
+																										<intro>
+																											<p> мај 2019. године3.33333 %</p>
+																										</intro>
+																										<point wId="od1-clan3-stav2-tac1">
+																											<num>1.</num>
+																											<intro>
+																												<p> новембар 2019. године3.33333 %</p>
+																											</intro>
+																											<point wId="od1-clan3-stav2-tac1">
+																												<num>1.</num>
+																												<intro>
+																													<p> мај 2020. године3.33333 %</p>
+																												</intro>
+																												<point wId="od1-clan3-stav2-tac1">
+																													<num>1.</num>
+																													<intro>
+																														<p> новембар 2020. године3.33333 %</p>
+																													</intro>
+																													<point wId="od1-clan3-stav2-tac1">
+																														<num>1.</num>
+																														<intro>
+																															<p> мај 2021. године3.33333 %</p>
+																														</intro>
+																														<point wId="od1-clan3-stav2-tac1">
+																															<num>1.</num>
+																															<intro>
+																																<p> новембар 2021. године3.33333 %</p>
+																															</intro>
+																															<point wId="od1-clan3-stav2-tac1">
+																																<num>1.</num>
+																																<intro>
+																																	<p> мај 2022. године3.33333 %</p>
+																																</intro>
+																																<point wId="od1-clan3-stav2-tac1">
+																																	<num>1.</num>
+																																	<intro>
+																																		<p> новембар 2022. године3.33333 %</p>
+																																	</intro>
+																																	<point wId="od1-clan3-stav2-tac1">
+																																		<num>1.</num>
+																																		<intro>
+																																			<p> мај 2023. године3.33333 %</p>
+																																		</intro>
+																																		<point wId="od1-clan3-stav2-tac1">
+																																			<num>1.</num>
+																																			<intro>
+																																				<p> новембар 2023. године3.33333 %</p>
+																																			</intro>
+																																			<point wId="od1-clan3-stav2-tac1">
+																																				<num>1.</num>
+																																				<intro>
+																																					<p> мај 2024. године3.33333 %</p>
+																																				</intro>
+																																				<point wId="od1-clan3-stav2-tac1">
+																																					<num>1.</num>
+																																					<intro>
+																																						<p> новембар 2024. годинепреостали износ</p>
+																																					</intro>
+																																					<point wId="od1-clan3-stav2-tac1">
+																																						<num>1.</num>
+																																						<intro>
+																																							<p> мај 2010. године3.33333 %</p>
+																																						</intro>
+																																						<point wId="od1-clan3-stav2-tac1">
+																																							<num>1.</num>
+																																							<intro>
+																																								<p> новембар 2010. године3.33333 %</p>
+																																							</intro>
+																																							<point wId="od1-clan3-stav2-tac1">
+																																								<num>1.</num>
+																																								<intro>
+																																									<p> мај 2011. године3.33333 %</p>
+																																								</intro>
+																																								<point wId="od1-clan3-stav2-tac1">
+																																									<num>1.</num>
+																																									<intro>
+																																										<p> новембар 2011. године3.33333 %</p>
+																																									</intro>
+																																									<point wId="od1-clan3-stav2-tac1">
+																																										<num>1.</num>
+																																										<intro>
+																																											<p> мај 2012. године3.33333 %</p>
+																																										</intro>
+																																										<point wId="od1-clan3-stav2-tac1">
+																																											<num>1.</num>
+																																											<intro>
+																																												<p> новембар 2012. године3.33333 %</p>
+																																											</intro>
+																																											<point wId="od1-clan3-stav2-tac1">
+																																												<num>1.</num>
+																																												<intro>
+																																													<p> мај 2013. године3.33333 %</p>
+																																												</intro>
+																																												<point wId="od1-clan3-stav2-tac1">
+																																													<num>1.</num>
+																																													<intro>
+																																														<p> новембар 2013. године3.33333 %</p>
+																																													</intro>
+																																													<point wId="od1-clan3-stav2-tac1">
+																																														<num>1.</num>
+																																														<intro>
+																																															<p> мај 2014. године3.33333 %</p>
+																																														</intro>
+																																														<point wId="od1-clan3-stav2-tac1">
+																																															<num>1.</num>
+																																															<intro>
+																																																<p> новембар 2014. године3.33333 %</p>
+																																															</intro>
+																																															<point wId="od1-clan3-stav2-tac1">
+																																																<num>1.</num>
+																																																<intro>
+																																																	<p> мај 2015. године3.33333 %</p>
+																																																</intro>
+																																																<point wId="od1-clan3-stav2-tac1">
+																																																	<num>1.</num>
+																																																	<intro>
+																																																		<p> новембар 2015. године3.33333 %</p>
+																																																	</intro>
+																																																	<point wId="od1-clan3-stav2-tac1">
+																																																		<num>1.</num>
+																																																		<intro>
+																																																			<p> мај 2016. године3.33333 %</p>
+																																																		</intro>
+																																																		<point wId="od1-clan3-stav2-tac1">
+																																																			<num>1.</num>
+																																																			<intro>
+																																																				<p> новембар 2016. године3.33333 %</p>
+																																																			</intro>
+																																																			<point wId="od1-clan3-stav2-tac1">
+																																																				<num>1.</num>
+																																																				<intro>
+																																																					<p> мај 2017. године3.33333 %</p>
+																																																				</intro>
+																																																				<point wId="od1-clan3-stav2-tac1">
+																																																					<num>1.</num>
+																																																					<intro>
+																																																						<p> новембар 2017. године3.33333 %</p>
+																																																					</intro>
+																																																					<point wId="od1-clan3-stav2-tac1">
+																																																						<num>1.</num>
+																																																						<intro>
+																																																							<p> мај 2018. године3.33333 %</p>
+																																																						</intro>
+																																																						<point wId="od1-clan3-stav2-tac1">
+																																																							<num>1.</num>
+																																																							<intro>
+																																																								<p> новембар 2018. године3.33333 %</p>
+																																																							</intro>
+																																																							<point wId="od1-clan3-stav2-tac1">
+																																																								<num>1.</num>
+																																																								<intro>
+																																																									<p> мај 2019. године3.33333 %</p>
+																																																								</intro>
+																																																								<point wId="od1-clan3-stav2-tac1">
+																																																									<num>1.</num>
+																																																									<intro>
+																																																										<p> новембар 2019. године3.33333 %</p>
+																																																									</intro>
+																																																									<point wId="od1-clan3-stav2-tac1">
+																																																										<num>1.</num>
+																																																										<intro>
+																																																											<p> мај 2020. године3.33333 %</p>
+																																																										</intro>
+																																																										<point wId="od1-clan3-stav2-tac1">
+																																																											<num>1.</num>
+																																																											<intro>
+																																																												<p> новембар 2020. године3.33333 %</p>
+																																																											</intro>
+																																																											<point wId="od1-clan3-stav2-tac1">
+																																																												<num>1.</num>
+																																																												<intro>
+																																																													<p> мај 2021. године3.33333 %</p>
+																																																												</intro>
+																																																												<point wId="od1-clan3-stav2-tac1">
+																																																													<num>1.</num>
+																																																													<intro>
+																																																														<p> новембар 2021. године3.33333 %</p>
+																																																													</intro>
+																																																													<point wId="od1-clan3-stav2-tac1">
+																																																														<num>1.</num>
+																																																														<intro>
+																																																															<p> мај 2022. године3.33333 %</p>
+																																																														</intro>
+																																																														<point wId="od1-clan3-stav2-tac1">
+																																																															<num>1.</num>
+																																																															<intro>
+																																																																<p> новембар 2022. године3.33333 %</p>
+																																																															</intro>
+																																																															<point wId="od1-clan3-stav2-tac1">
+																																																																<num>1.</num>
+																																																																<intro>
+																																																																	<p> мај 2023. године3.33333 %</p>
+																																																																</intro>
+																																																																<point wId="od1-clan3-stav2-tac1">
+																																																																	<num>1.</num>
+																																																																	<intro>
+																																																																		<p> новембар 2023. године3.33333 %</p>
+																																																																	</intro>
+																																																																	<point wId="od1-clan3-stav2-tac1">
+																																																																		<num>1.</num>
+																																																																		<intro>
+																																																																			<p> мај 2024. године3.33333 %</p>
+																																																																		</intro>
+																																																																		<point wId="od1-clan3-stav2-tac1">
+																																																																			<num>1.</num>
+																																																																			<content>
+																																																																				<p> новембар 2024. годинепреостали износ</p>
+																																																																			</content>
+																																																																		</point>
+																																																																	</point>
+																																																																</point>
+																																																															</point>
+																																																														</point>
+																																																													</point>
+																																																												</point>
+																																																											</point>
+																																																										</point>
+																																																									</point>
+																																																								</point>
+																																																							</point>
+																																																						</point>
+																																																					</point>
+																																																				</point>
+																																																			</point>
+																																																		</point>
+																																																	</point>
+																																																</point>
+																																															</point>
+																																														</point>
+																																													</point>
+																																												</point>
+																																											</point>
+																																										</point>
+																																									</point>
+																																								</point>
+																																							</point>
+																																						</point>
+																																					</point>
+																																				</point>
+																																			</point>
+																																		</point>
+																																	</point>
+																																</point>
+																															</point>
+																														</point>
+																													</point>
+																												</point>
+																											</point>
+																										</point>
+																									</point>
+																								</point>
+																							</point>
+																						</point>
+																					</point>
+																				</point>
+																			</point>
+																		</point>
+																	</point>
+																</point>
+															</point>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</paragraph>
+					</article>
+				</section>
+			</section>
+		</body>
+	</act>
+</akomaNtoso>

@@ -1,0 +1,222 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон Закон  је   престао  да важи 1. фебруара 2012.  године, даном почетка примене закона о привредним друштвима ('службени  гласник рс', број 36/2011),   осим одредбе члана 456. која се примењује до окончања приватизације  постојећих друштвених предузећа и привредних друштава која послују  друштвеним или државним капиталом (види чл. 597. и 600. закона - 36/2011-3). Чл. 1. до 455.">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2004/125-76/main"/>
+					<FRBRuri value="/rs/act/2004/125-76"/>
+					<FRBRdate date="2004-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2011/36-3/srp@/main"/>
+					<FRBRuri value="/rs/act/2011/36-3/srp@"/>
+					<FRBRdate date="2011-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2011/36-3/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2011/36-3/srp@.akn"/>
+					<FRBRdate date="2011-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2004-11-22" name="службени гласник рс" number="125" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="IX ОПШТИ ПРИВРЕДНИ ПРОПИСИ И ЕКОНОМСКИ ОДНОСИ СА ИНОСТРАНСТВОМ" value="ix општи привредни прописи и економски односи са иностранством" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="1. Привредна друштва, предузећа и предузетници" value="1. привредна друштва, предузећа и предузетници" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2004-01-01" refersTo="125/2004-76" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2011-01-01" refersTo="36/2011-3" source="#somebody" type="amendment" wId="e2"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2004-11-15" wId="usvajanje"/>
+				<step by="#TODO" date="2004-11-30" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2004-11-30" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је престао да важи 1. фебруара 2012. године, даном почетка примене Закона о привредним друштвима (Службени гласник РС, број 36/2011), осим одредбе члана 456. која се примењује до окончања приватизације постојећих друштвених предузећа и привредних друштава која послују друштвеним или државним капиталом (види члан 597. Закона о привредним друштвима - 36/2011-3).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон Закон  је   престао  да важи 1. фебруара 2012.  године, даном почетка примене закона о привредним друштвима ("службени  гласник рс", број 36/2011),   осим одредбе члана 456. која се примењује до окончања приватизације  постојећих друштвених предузећа и привредних друштава која послују  друштвеним или државним капиталом (види чл. 597. и 600. закона - 36/2011-3). Чл. 1. до 455. Престали су да важе (види чл. 597. и 600. Закона - 36/2011-3)</p>
+			</longTitle>
+			<p>„Службени гласник РС”, бр. 125 од 22.  новембра 2004,  36 од 27. маја 2011 - др. закон</p>
+		</preface>
+		<preamble>
+			<p>﻿  Редакцијски пречишћен текст</p>
+			<p>о привредним  друштвима</p>
+		</preamble>
+		<body>
+			<article wId="clan456">
+				<num>456.</num>
+				<paragraph wId="clan456-stav1">
+					<content>
+						<p>Даном ступања на снагу овог  закона, престаје да важи Закон о предузећима („<ref wId="ref5" href="akn/rs/act/96/29/srp@">Службени лист СРЈ”, бр.  29/96, 33/96, 29/97, 59/98, 74/99, 9/01</ref> и 36/02), осим чл. <ref wId="ref0" href="akn/rs/act/2011/36-3/srp@/!main~art_392" >392</ref> до 399. и  чл. <ref wId="ref1" href="akn/rs/act/2011/36-3/srp@/!main~art_400а" >400а</ref>, <ref wId="ref2" href="akn/rs/act/2011/36-3/srp@/!main~art_400б" >400б</ref>, <ref wId="ref3" href="akn/rs/act/2011/36-3/srp@/!main~art_400в" >400в</ref> и <ref wId="ref4" href="akn/rs/act/2011/36-3/srp@/!main~art_421а" >421а</ref> који остају на снази до истека рокова за  приватизацију утврђених законом којим се уређује приватизација.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan456-stav2">
+					<content>
+						<p>Чл. 457.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan456-stav3">
+					<content>
+						<p>Престао  је  да важи  (види чл. <ref wId="ref6" href="akn/rs/act/2011/36-3/srp@/!main~art_597" >597</ref>. и <ref wId="ref7" href="akn/rs/act/2011/36-3/srp@/!main~art_600" >600</ref>. Закона - 36/2011-3)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan456-stav4">
+					<content>
+						<p>ЗАКОН</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan456-stav5">
+					<content>
+						<p>о привредним  друштвима</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan456-stav6">
+					<content>
+						<p>„Службени гласник РС”, бр. 125 од 22.  новембра 2004,  36 од 27. маја 2011 - др. закон</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan456-stav7">
+					<content>
+						<p>НАПОМЕНА ИЗДАВАЧА:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan456-stav8">
+					<content>
+						<p>Закон  је   престао  да важи 1. фебруара 2012.  године, даном почетка примене Закона о привредним друштвима ("<ref wId="ref11" href="akn/rs/act/2011/36/srp@">Службени  гласник РС", број 36/2011</ref>),   осим одредбе <ref wId="ref8" href="akn/rs/act/2011/36-3/srp@/!main~art_456" >члана 456. </ref>која се примењује до окончања приватизације  постојећих друштвених предузећа и привредних друштава која послују  друштвеним или државним капиталом (види чл. <ref wId="ref9" href="akn/rs/act/2011/36-3/srp@/!main~art_597" >597</ref>. и <ref wId="ref10" href="akn/rs/act/2011/36-3/srp@/!main~art_600" >600</ref>. Закона - 36/2011-3).</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan456-stav9">
+					<content>
+						<p>Чл. 1. до 455.</p>
+					</content>
+				</paragraph>
+				<article wId="clan456">
+					<num>456.</num>
+					<heading>Престали су да важе   (види чл. 597. и 600. Закона - 36/2011-3)</heading>
+					<paragraph wId="clan456-stav1">
+						<content>
+							<p>Даном ступања на снагу овог  закона, престаје да важи Закон о предузећима („Службени лист СРЈ”, бр.  29/96, 33/96, 29/97, 59/98, 74/99, 9/01 и 36/02), осим чл. 392 до 399. и  чл. 400а, 400б, 400в и 421а који остају на снази до истека рокова за  приватизацију утврђених законом којим се уређује приватизација.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="clan456-stav2">
+						<content>
+							<p>Чл. 457.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="clan456-stav3">
+						<content>
+							<p>Престао  је  да важи  (види чл. 597. и 600. Закона - 36/2011-3)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="clan456-stav4">
+						<content>
+							<p>ЗАКОН</p>
+						</content>
+					</paragraph>
+					<paragraph wId="clan456-stav5">
+						<content>
+							<p>о привредним  друштвима</p>
+						</content>
+					</paragraph>
+					<paragraph wId="clan456-stav6">
+						<content>
+							<p>„Службени гласник РС”, бр. 125 од 22.  новембра 2004,  36 од 27. маја 2011 - др. закон</p>
+						</content>
+					</paragraph>
+					<paragraph wId="clan456-stav7">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:</p>
+						</content>
+					</paragraph>
+					<paragraph wId="clan456-stav8">
+						<content>
+							<p>Закон  је   престао  да важи 1. фебруара 2012.  године, даном почетка примене Закона о привредним друштвима ("Службени  гласник РС", број 36/2011),   осим одредбе члана 456. која се примењује до окончања приватизације  постојећих друштвених предузећа и привредних друштава која послују  друштвеним или државним капиталом (види чл. 597. и 600. Закона - 36/2011-3).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="clan456-stav9">
+						<content>
+							<p>Чл. 1. до 455.</p>
+						</content>
+					</paragraph>
+					<article wId="clan456">
+						<num>456.</num>
+						<heading>Престали су да важе   (види чл. 597. и 600. Закона - 36/2011-3)</heading>
+						<paragraph wId="clan456-stav1">
+							<content>
+								<p>Даном ступања на снагу овог  закона, престаје да важи Закон о предузећима („Службени лист СРЈ”, бр.  29/96, 33/96, 29/97, 59/98, 74/99, 9/01 и 36/02), осим чл. 392 до 399. и  чл. 400а, 400б, 400в и 421а који остају на снази до истека рокова за  приватизацију утврђених законом којим се уређује приватизација.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="clan456-stav2">
+							<content>
+								<p>Чл. 457.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="clan456-stav3">
+							<content>
+								<p>Престао  је  да важи  (види чл. 597. и 600. Закона - 36/2011-3)</p>
+							</content>
+						</paragraph>
+						<paragraph wId="clan456-stav4">
+							<content>
+								<p>ЗАКОН</p>
+							</content>
+						</paragraph>
+						<paragraph wId="clan456-stav5">
+							<content>
+								<p>о привредним  друштвима</p>
+							</content>
+						</paragraph>
+						<paragraph wId="clan456-stav6">
+							<content>
+								<p>„Службени гласник РС”, бр. 125 од 22.  новембра 2004,  36 од 27. маја 2011 - др. закон</p>
+							</content>
+						</paragraph>
+						<paragraph wId="clan456-stav7">
+							<content>
+								<p>НАПОМЕНА ИЗДАВАЧА:</p>
+							</content>
+						</paragraph>
+						<paragraph wId="clan456-stav8">
+							<content>
+								<p>Закон  је   престао  да важи 1. фебруара 2012.  године, даном почетка примене Закона о привредним друштвима ("Службени  гласник РС", број 36/2011),   осим одредбе члана 456. која се примењује до окончања приватизације  постојећих друштвених предузећа и привредних друштава која послују  друштвеним или државним капиталом (види чл. 597. и 600. Закона - 36/2011-3).</p>
+							</content>
+						</paragraph>
+						<paragraph wId="clan456-stav9">
+							<content>
+								<p>Чл. 1. до 455.</p>
+							</content>
+						</paragraph>
+						<article wId="clan456">
+							<num>456.</num>
+							<heading>Престали су да важе   (види чл. 597. и 600. Закона - 36/2011-3)</heading>
+							<paragraph wId="clan456-stav1">
+								<content>
+									<p>Даном ступања на снагу овог  закона, престаје да важи Закон о предузећима („Службени лист СРЈ”, бр.  29/96, 33/96, 29/97, 59/98, 74/99, 9/01 и 36/02), осим чл. 392 до 399. и  чл. 400а, 400б, 400в и 421а који остају на снази до истека рокова за  приватизацију утврђених законом којим се уређује приватизација.</p>
+								</content>
+							</paragraph>
+							<paragraph wId="clan456-stav2">
+								<content>
+									<p>Чл. 457.</p>
+								</content>
+							</paragraph>
+						</article>
+					</article>
+				</article>
+			</article>
+		</body>
+	</act>
+</akomaNtoso>

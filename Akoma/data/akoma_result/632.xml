@@ -1,0 +1,712 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о јавним службама">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/1991/42-1657/main"/>
+					<FRBRuri value="/rs/act/1991/42-1657"/>
+					<FRBRdate date="1991-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2014/83-22/srp@/main"/>
+					<FRBRuri value="/rs/act/2014/83-22/srp@"/>
+					<FRBRdate date="2014-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2014/83-22/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2014/83-22/srp@.akn"/>
+					<FRBRdate date="2014-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="1991-07-18" name="службени гласник рс" number="42" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="XV ЈАВНЕ УСТАНОВЕ, НАУКА, ПРОСВЕТА, КУЛТУРА, ИНФОРМИСАЊЕ И СПОРТ" value="xv јавне установе, наука, просвета, култура, информисање и спорт" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="2. Јавне службе и јавне установе" value="2. јавне службе и јавне установе" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="1991-01-01" refersTo="42/1991-1657" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="1994-01-01" refersTo="71/1994-2436" source="#somebody" type="amendment" wId="e2"/>
+				<eventRef date="2005-01-01" refersTo="79/2005-12" source="#somebody" type="amendment" wId="e3"/>
+				<eventRef date="2014-01-01" refersTo="83/2014-22" source="#somebody" type="amendment" wId="e4"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="#TODO" date="1991-07-10" wId="usvajanje"/>
+				<step by="#TODO" date="1991-07-26" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="1992-01-01" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 26. јула 1991. године, а примењује се од 1. јануара 1992. године (види члан 29. Закона).Престао је да важи члан 23. овог закона (види члан 190. Закона о државним службеницима – 79/2005-12).Престале су да важе одредбе члана 3. став 3. овог закона (види члан 145. став 1. тачка 4. Закона о јавном информисању и медијима - 83/2014-22).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О јавним службама „Службени гласник РС”, бр. 42 од 18. јула 1991, 71 од 22. децембра 1994, 79 од 16. септембра 2005 - др. закон, 83 од 5. августа 2014 - др. закон</p>
+			</longTitle>
+			<p>Редакцијски пречишћен текст</p>
+		</preface>
+		<preamble>
+			<p>﻿</p>
+		</preamble>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Јавном службом у смислу овог закона сматрају се установе,  предузећа и други облици организовања утврђени законом, који обављају  делатности, односно послове којима се обезбеђује остваривање права грађана,  односно задовољавање потреба грађана и организација, као и остваривање другог  законом утврђеног интереса у одређеним областима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav2">
+						<content>
+							<p>Грађани могу обављати одређене делатности, односно послове  из <ref wId="ref0" href="akn/rs/act/2014/83-22/srp@/!main~art_1__para_1" >става 1. овог</ref> члана, у складу са законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Средства којима послују предузећа, установе и други облици  организовања из <ref wId="ref1" href="akn/rs/act/2014/83-22/srp@/!main~art_1" >члана 1. овог</ref> закона могу бити у свим облицима својине.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<paragraph wId="gla1-clan3-stav1">
+						<content>
+							<p>Ради обезбеђивања остваривања права утврђених законом и  остваривања другог законом утврђеног интереса у области: образовања, науке,  културе, физичке културе, ученичког и студентског стандарда, здравствене  заштите, социјалне заштите, друштвене бриге о деци, социјалног осигурања,  здравствене заштите животиња, оснивају се установе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav2">
+						<content>
+							<p>Делатности, односно послови у областима из <ref wId="ref2" href="akn/rs/act/2014/83-22/srp@/!main~art_3__para_1" >става 1. овог</ref>  члана којима се не обезбеђује остваривање законом утврђених права и остваривање  другог законом утврђеног интереса не обављају се као јавне службе у смислу овог  закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav3">
+						<content>
+							<p>За обављање делатности, односно послова утврђених законом у области: , ПТТ саобраћаја, енергетике, путева, комуналних услуга и другим  областима одређеним законом, оснивају се предузећа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav4">
+						<content>
+							<p>За обављање делатности, односно послова утврђених  законом који се односи на јавно информисање на језицима националних мањина, могу  се оснивати установе или предузећа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav5">
+						<content>
+							<p>*<ref wId="ref3" href="akn/rs/act/1994/71/srp@">Службени гласник РС, број 71/1994</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<heading>**Службени гласник РС, број 83/2014</heading>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>Установу, предузеће и други облик организовања за обављање  делатности, односно послова из <ref wId="ref4" href="akn/rs/act/2014/83-22/srp@/!main~art_3" >члана 3. овог</ref> закона могу основати: Република,  аутономна покрајина, град, општина и друга правна и физичка лица.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan5">
+					<num>5.</num>
+					<paragraph wId="gla1-clan5-stav1">
+						<content>
+							<p>Установа, предузеће и други облик организовања, обавља  делатност, односно послове из <ref wId="ref5" href="akn/rs/act/2014/83-22/srp@/!main~art_3" >члана 3. овог</ref> закона под условима и на начин  утврђен законом, а у складу са циљевима ради којих се оснива.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan6">
+					<num>6.</num>
+					<paragraph wId="gla1-clan6-stav1">
+						<content>
+							<p>Република, аутономна покрајина, град и општина могу  обезбедити обављање делатности, односно послова из <ref wId="ref6" href="akn/rs/act/2014/83-22/srp@/!main~art_3" >члана 3. овог</ref> закона, из  оквира својих права и дужности оснивањем установа, односно предузећа или  поверавањем вршења тих делатности, односно послова другим правним и физичким  лицима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan6-stav2">
+						<content>
+							<p>Кад Република, аутономна покрајина, град и општина  поверавају вршење делатности, односно послова из <ref wId="ref7" href="akn/rs/act/2014/83-22/srp@/!main~art_6__para_1" >става 1. овог</ref> члана, другим  правним и физичким лицима, њихова међусобна права и обавезе уређују се уговором.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan7">
+					<num>7.</num>
+					<paragraph wId="gla1-clan7-stav1">
+						<content>
+							<p>У облицима организовања који се оснивају и послују  средствима у различитим облицима својине, право управљања остварује се по основу  удела средстава, у складу са законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan8">
+					<num>8.</num>
+					<paragraph wId="gla1-clan8-stav1">
+						<content>
+							<p>Установе, предузећа и други облици организовања обављају  делатност, односно послове из <ref wId="ref8" href="akn/rs/act/2014/83-22/srp@/!main~art_3" >члана 3. овог</ref> закона на начин којим се обезбеђује  уредно и квалитетно, под једнаким условима, остваривање права грађана и  организација и задовољавање потреба корисника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan8-stav2">
+						<content>
+							<p>Установе, предузећа и други облици организовања уређују  начин пружања услуга и њихово коришћење од стране корисника, у складу са  законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan9">
+					<num>9.</num>
+					<paragraph wId="gla1-clan9-stav1">
+						<content>
+							<p>Распоред, почетак и завршетак радног времена у установи,  предузећу и другом облику организовања који обавља делатности, односно послове  из <ref wId="ref9" href="akn/rs/act/2014/83-22/srp@/!main~art_3" >члана 3. овог</ref> закона, утврђује се у складу са законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan9-stav2">
+						<content>
+							<p>Надлежни министар може утврдити распоред, почетак и  завршетак радног времена у установи, односно предузећу чији је оснивач  Република.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan10">
+					<num>10.</num>
+					<paragraph wId="gla1-clan10-stav1">
+						<content>
+							<p>Средства за обављање делатности, односно послова из <ref wId="ref10" href="akn/rs/act/2014/83-22/srp@/!main~art_3" >члана  3. овог</ref> закона, обезбеђују се из буџета, непосредно од корисника, продајом  производа и услуга на тржишту, из средстава социјалног осигурања, донаторством и  из других извора, у складу са законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan11">
+					<num>11.</num>
+					<paragraph wId="gla1-clan11-stav1">
+						<content>
+							<p>Над обављањем делатности, односно послова из <ref wId="ref11" href="akn/rs/act/2014/83-22/srp@/!main~art_3" >члана 3. овог</ref>  закона врши се управни и стручни надзор, у складу са законом.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>УСТАНОВЕ</heading>
+				<article wId="gla2-clan12">
+					<num>12.</num>
+					<paragraph wId="gla2-clan12-stav1">
+						<content>
+							<p>На оснивање, организацију и рад установе, сходно се  примењују прописи који се односе на предузећа, ако законом није друкчије  одређено.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan13">
+					<num>13.</num>
+					<paragraph wId="gla2-clan13-stav1">
+						<content>
+							<p>Оснивач установе обезбеђује средства потребна за оснивање и  почетак рада установе и доноси акт о оснивању.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan13-stav2">
+						<intro>
+							<p>Акт о оснивању садржи, нарочито:</p>
+						</intro>
+						<point wId="gla2-clan13-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> назив оснивача;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> назив и седиште установе;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> делатност установе;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> износ средстава за оснивање и почетак рада установе и  начин обезбеђивања средстава;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav2-tac5">
+							<num>5)</num>
+							<content>
+								<p> права и обавезе оснивача у погледу обављања делатности  због које је установа основана;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav2-tac6">
+							<num>6)</num>
+							<content>
+								<p> међусобна права и обавезе установе и оснивача;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav2-tac7">
+							<num>7)</num>
+							<content>
+								<p> одређивање органа управљања установе у оснивању и његова  овлашћења;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav2-tac8">
+							<num>8)</num>
+							<content>
+								<p> лице које ће, до именовања директора установе, обављати  његове послове и вршити његова овлашћења;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav2-tac9">
+							<num>9)</num>
+							<content>
+								<p> рок за доношење статута, именовање директора и органа  управљања.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan14">
+					<num>14.</num>
+					<paragraph wId="gla2-clan14-stav1">
+						<content>
+							<p>Кад установу оснива више оснивача, њихова међусобна права,  обавезе и одговорности уређују се уговором.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan15">
+					<num>15.</num>
+					<paragraph wId="gla2-clan15-stav1">
+						<content>
+							<p>Установа је правно лице.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan15-stav2">
+						<content>
+							<p>Установа се уписује у судски регистар кад надлежни орган  управе утврди да су испуњени услови за почетак рада и обављање делатности који  су утврђени законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan15-stav3">
+						<content>
+							<p>Уписом у судски регистар установа стиче својство правног  лица.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan16">
+					<num>16.</num>
+					<paragraph wId="gla2-clan16-stav1">
+						<content>
+							<p>Органи установе су директор, управни и надзорни одбор, ако  законом није друкчије одређено.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan17">
+					<num>17.</num>
+					<paragraph wId="gla2-clan17-stav1">
+						<content>
+							<p>Директор руководи установом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan18">
+					<num>18.</num>
+					<paragraph wId="gla2-clan18-stav1">
+						<content>
+							<p>Директора установе именује и разрешава оснивач.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan18-stav2">
+						<content>
+							<p>Директора установе чији је оснивач Република именује и  разрешава Влада Републике Србије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan19">
+					<num>19.</num>
+					<paragraph wId="gla2-clan19-stav1">
+						<content>
+							<p>Директор установе има права и дужности директора предузећа.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan20">
+					<num>20.</num>
+					<paragraph wId="gla2-clan20-stav1">
+						<content>
+							<p>Управни одбор установе именује и разрешава оснивач.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan20-stav2">
+						<content>
+							<p>Управни одбор има најмање три члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan20-stav3">
+						<content>
+							<p>Број чланова и састав управног одбора утврђује се актом о  оснивању. У управни одбор именују се и чланови из реда запослених у установи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan20-stav4">
+						<content>
+							<p>Управни одбор установе чији је оснивач Република именује и  разрешава Влада Републике Србије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan21">
+					<num>21.</num>
+					<paragraph wId="gla2-clan21-stav1">
+						<intro>
+							<p>Управни одбор:</p>
+						</intro>
+						<point wId="gla2-clan21-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> доноси статут установе;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan21-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> одлучује о пословању установе;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan21-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> усваја извештај о пословању и годишњи обрачун;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan21-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> доноси програм рада установе;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan21-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> одлучује о коришћењу средстава, у складу са законом;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan21-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> врши и друге послове утврђене актом о оснивању и  статутом.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan22">
+					<num>22.</num>
+					<paragraph wId="gla2-clan22-stav1">
+						<content>
+							<p>Надзорни одбор установе именује и разрешава оснивач.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan22-stav2">
+						<content>
+							<p>Број чланова и састав надзорног одбора као и његова права и  обавезе утврђују се актом о оснивању. У надзорни одбор именују се чланови из  реда запослених у установи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan22-stav3">
+						<content>
+							<p>Надзорни одбор установе чији је оснивач Република, именује  и разрешава Влада Републике Србије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan23">
+					<num>23.</num>
+				</article>
+				<article wId="gla2-clan24">
+					<num>24.</num>
+					<heading>Престао је да важи (види члан 190. Закона – 79/2005-12)</heading>
+					<paragraph wId="gla2-clan24-stav1">
+						<content>
+							<p>Надзор над законитошћу рада установе врши надлежни орган  управе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan24-stav2">
+						<content>
+							<p>Надзор над законитошћу рада установе чији је оснивач  Република и установе која обавља делатност, односно послове из оквира права и  дужности Републике врши надлежно министарство.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan25">
+					<num>25.</num>
+					<paragraph wId="gla2-clan25-stav1">
+						<content>
+							<p>Кад орган надлежан за вршење надзора над законитошћу рада  установе утврди да установа не испуњава законом прописане услове за рад или не  остварује законом утврђене циљеве и задатке, одредиће јој рок за испуњење тих  услова и о томе обавестити оснивача.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan25-stav2">
+						<content>
+							<p>Уколико установа не испуни услове из <ref wId="ref12" href="akn/rs/act/2014/83-22/srp@/!main~art_25__para_1" >става 1. овог</ref> члана у  одређеном року, надлежни орган забраниће решењем даљи рад установе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan25-stav3">
+						<content>
+							<p>Орган који је донео решење о забрани рада установе,  обавестиће о томе оснивача установе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan26">
+					<num>26.</num>
+					<paragraph wId="gla2-clan26-stav1">
+						<intro>
+							<p>Установа може бити укинута:</p>
+						</intro>
+						<point wId="gla2-clan26-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> ако не испуњава законом прописане услове за обављање  делатности;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan26-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> ако не постоје услови за обављање њене делатности.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan26-stav2">
+						<intro>
+							<p>Сматра се да не постоје услови за обављање делатности  установе ако:</p>
+						</intro>
+						<point wId="gla2-clan26-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> не постоји потреба за њеном делатношћу;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan26-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> потребе за делатношћу установе могу да се задовоље на  рационалнији и економичнији начин;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan26-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> не остварује законом утврђене циљеве и задатке.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan27">
+					<num>27.</num>
+					<paragraph wId="gla2-clan27-stav1">
+						<content>
+							<p>Поступак за укидање установе покреће оснивач или орган  надлежан за вршење надзора над законитошћу рада установе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan27-stav2">
+						<content>
+							<p>Акт о укидању установе доноси оснивач.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan27-stav3">
+						<content>
+							<p>На основу акта о укидању установе спроводи се поступак  редовне ликвидације, у складу са законом.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+				<article wId="gla3-clan28">
+					<num>28.</num>
+					<paragraph wId="gla3-clan28-stav1">
+						<content>
+							<p>Дана 31. децембра 1991. године, престаје да важи Закон о  друштвеним делатностима („<ref wId="ref13" href="akn/rs/act/90/1/srp@">Службени гласник СРС”, бр. 1/90</ref> и 21/90), Закон о  остваривању посебног друштвеног интереса у области културе („<ref wId="ref14" href="akn/rs/act/86/46/srp@">Службени гласник  СРС”, број 46/86</ref>) и Закон о остваривању посебног друштвеног интереса у пословању  организација удруженог рада које обављају делатност у области културе („<ref wId="ref15" href="akn/rs/act/75/21/srp@">Службени  лист САПВ”, број 21/75</ref>).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan29">
+					<num>29.</num>
+					<paragraph wId="gla3-clan29-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у  „Службеном гласнику Републике Србије”, а примењиваће се од 1. јануара 1992.  године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan29-stav2">
+						<content>
+							<p>ЗАКОН</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan29-stav3">
+						<content>
+							<p>о јавним службама</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan29-stav4">
+						<content>
+							<p>„Службени гласник РС”, бр. 42 од 18. јула 1991, 71 од 22.  децембра 1994, 79 од 16. септембра 2005 - др. закон, 83 од 5. августа 2014 - др.  закон</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Јавном службом у смислу овог закона сматрају се установе,  предузећа и други облици организовања утврђени законом, који обављају  делатности, односно послове којима се обезбеђује остваривање права грађана,  односно задовољавање потреба грађана и организација, као и остваривање другог  законом утврђеног интереса у одређеним областима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav2">
+						<content>
+							<p>Грађани могу обављати одређене делатности, односно послове  из става 1. овог члана, у складу са законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Средства којима послују предузећа, установе и други облици  организовања из члана 1. овог закона могу бити у свим облицима својине.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<paragraph wId="gla1-clan3-stav1">
+						<content>
+							<p>Ради обезбеђивања остваривања права утврђених законом и  остваривања другог законом утврђеног интереса у области: образовања, науке,  културе, физичке културе, ученичког и студентског стандарда, здравствене  заштите, социјалне заштите, друштвене бриге о деци, социјалног осигурања,  здравствене заштите животиња, оснивају се установе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav2">
+						<content>
+							<p>Делатности, односно послови у областима из става 1. овог  члана којима се не обезбеђује остваривање законом утврђених права и остваривање  другог законом утврђеног интереса не обављају се као јавне службе у смислу овог  закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav3">
+						<content>
+							<p>За обављање делатности, односно послова утврђених законом у области: , ПТТ саобраћаја, енергетике, путева, комуналних услуга и другим  областима одређеним законом, оснивају се предузећа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav4">
+						<content>
+							<p>За обављање делатности, односно послова утврђених  законом који се односи на јавно информисање на језицима националних мањина, могу  се оснивати установе или предузећа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav5">
+						<content>
+							<p>*Службени гласник РС, број 71/1994</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<heading>**Службени гласник РС, број 83/2014</heading>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>Установу, предузеће и други облик организовања за обављање  делатности, односно послова из члана 3. овог закона могу основати: Република,  аутономна покрајина, град, општина и друга правна и физичка лица.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan5">
+					<num>5.</num>
+					<paragraph wId="gla1-clan5-stav1">
+						<content>
+							<p>Установа, предузеће и други облик организовања, обавља  делатност, односно послове из члана 3. овог закона под условима и на начин  утврђен законом, а у складу са циљевима ради којих се оснива.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan6">
+					<num>6.</num>
+					<paragraph wId="gla1-clan6-stav1">
+						<content>
+							<p>Република, аутономна покрајина, град и општина могу  обезбедити обављање делатности, односно послова из члана 3. овог закона, из  оквира својих права и дужности оснивањем установа, односно предузећа или  поверавањем вршења тих делатности, односно послова другим правним и физичким  лицима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan6-stav2">
+						<content>
+							<p>Кад Република, аутономна покрајина, град и општина  поверавају вршење делатности, односно послова из става 1. овог члана, другим  правним и физичким лицима, њихова међусобна права и обавезе уређују се уговором.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan7">
+					<num>7.</num>
+					<paragraph wId="gla1-clan7-stav1">
+						<content>
+							<p>У облицима организовања који се оснивају и послују  средствима у различитим облицима својине, право управљања остварује се по основу  удела средстава, у складу са законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan8">
+					<num>8.</num>
+					<paragraph wId="gla1-clan8-stav1">
+						<content>
+							<p>Установе, предузећа и други облици организовања обављају  делатност, односно послове из члана 3. овог закона на начин којим се обезбеђује  уредно и квалитетно, под једнаким условима, остваривање права грађана и  организација и задовољавање потреба корисника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan8-stav2">
+						<content>
+							<p>Установе, предузећа и други облици организовања уређују  начин пружања услуга и њихово коришћење од стране корисника, у складу са  законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan9">
+					<num>9.</num>
+					<paragraph wId="gla1-clan9-stav1">
+						<content>
+							<p>Распоред, почетак и завршетак радног времена у установи,  предузећу и другом облику организовања који обавља делатности, односно послове  из члана 3. овог закона, утврђује се у складу са законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan9-stav2">
+						<content>
+							<p>Надлежни министар може утврдити распоред, почетак и  завршетак радног времена у установи, односно предузећу чији је оснивач  Република.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan10">
+					<num>10.</num>
+					<paragraph wId="gla1-clan10-stav1">
+						<content>
+							<p>Средства за обављање делатности, односно послова из члана  3. овог закона, обезбеђују се из буџета, непосредно од корисника, продајом  производа и услуга на тржишту, из средстава социјалног осигурања, донаторством и  из других извора, у складу са законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan11">
+					<num>11.</num>
+					<paragraph wId="gla1-clan11-stav1">
+						<content>
+							<p>Над обављањем делатности, односно послова из члана 3. овог  закона врши се управни и стручни надзор, у складу са законом.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>УСТАНОВЕ</heading>
+				<article wId="gla2-clan12">
+					<num>12.</num>
+					<paragraph wId="gla2-clan12-stav1">
+						<content>
+							<p>На оснивање, организацију и рад установе, сходно се  примењују прописи који се односе на предузећа, ако законом није друкчије  одређено.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan13">
+					<num>13.</num>
+					<paragraph wId="gla2-clan13-stav1">
+						<content>
+							<p>Оснивач установе обезбеђује средства потребна за оснивање и  почетак рада установе и доноси акт о оснивању.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan13-stav2">
+						<content>
+							<p>Акт о оснивању садржи, нарочито:</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

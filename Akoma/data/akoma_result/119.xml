@@ -1,0 +1,302 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о седиштима и подручјима судова и јавних тужилаштава">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2008/116-46/main"/>
+					<FRBRuri value="/rs/act/2008/116-46"/>
+					<FRBRdate date="2008-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2013/101-3/srp@/main"/>
+					<FRBRuri value="/rs/act/2013/101-3/srp@"/>
+					<FRBRdate date="2013-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2013/101-3/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2013/101-3/srp@.akn"/>
+					<FRBRdate date="2013-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="III ПРАВОСУЂЕ, КАЗНЕНО ЗАКОНОДАВСТВО И ПОСТУПЦИ" value="iii правосуђе, казнено законодавство и поступци" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="1. Суд" value="1. суд" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2008-01-01" refersTo="116/2008-46" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2013-01-01" refersTo="101/2013-3" source="#somebody" type="amendment" wId="e2"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2008-12-22" wId="usvajanje"/>
+				<step by="#TODO" date="2008-12-30" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2010-01-01" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 30. децембра 2008. године, а примењује се од 1. јануара 2010. године (види члан 19. Закона).Закон је престао да важи даном почетка примене Закона о седиштима и подручјима судова и јавних тужилаштава (Службени гласник РС, број 101/2013), односно 1. јануара 2014. године, осим одредаба члана 2. тачка 13), члана 3. тачка 11), члана 4. тачка 7), члана 9. тачка 11) и члана 10. тачка 7). Судови и јавна тужилаштва прописани овим члановима настављају са радом до доношења посебног закона о оснивању судова и јавних тужилаштава надлежних за територију Аутономне покрајине Косово и Метохија, њиховим седиштима и подручјима на којима врше надлежност (види чл. 12. и 17. Закона – 101/2013-3).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О седиштима и подручјима судова и јавних тужилаштава „Службени гласник РС“, 116 од 22. децембра 2008, 101 од 20. новембра 2013 - др. закон</p>
+			</longTitle>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>САДРЖИНА ЗАКОНА</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Престао је да  важи (види чл. <ref wId="ref0" href="akn/rs/act/2013/101-3/srp@/!main~art_17" >17</ref>. и <ref wId="ref1" href="akn/rs/act/2013/101-3/srp@/!main~art_18" >18</ref>. Закона - 101/2013-3)</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>СУДОВИ</heading>
+				<section wId="gla2-od1">
+					<num>1.</num>
+					<heading> Прекршајни судови</heading>
+					<article wId="gla2-od1-clan2">
+						<num>2.</num>
+						<paragraph wId="gla2-od1-clan2-stav1">
+							<content>
+								<p>Прекршајни судови јесу:</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla2-od1-clan2-stav2">
+							<intro>
+								<p><ref wId="ref4" href="akn/rs/act/2013/101-3/srp@/!main~art_2___point_1" >Тач.  1</ref>)  до 12)  Престале су да  важе (види чл. <ref wId="ref2" href="akn/rs/act/2013/101-3/srp@/!main~art_17" >17</ref>. и <ref wId="ref3" href="akn/rs/act/2013/101-3/srp@/!main~art_18" >18</ref>. Закона - 101/2013-3)</p>
+							</intro>
+							<point wId="gla2-od1-clan2-stav2-tac13">
+								<num>13)</num>
+								<content>
+									<p> Прекршајни суд у Косовској Митровици, за територију Аутономне покрајине Косово и Метохија, са одељењима суда у Гораждевцу, Грачаници, Ранилугу и Штрпцу,</p>
+								</content>
+							</point>
+						</paragraph>
+						<paragraph wId="gla2-od1-clan2-stav3">
+							<content>
+								<p><ref wId="ref7" href="akn/rs/act/2013/101-3/srp@/!main~art_2___point_14" >Тач.  14</ref>)  до 45)  Престале су да  важе (види чл. <ref wId="ref5" href="akn/rs/act/2013/101-3/srp@/!main~art_17" >17</ref>. и <ref wId="ref6" href="akn/rs/act/2013/101-3/srp@/!main~art_18" >18</ref>. Закона - 101/2013-3)</p>
+							</content>
+						</paragraph>
+					</article>
+				</section>
+				<section wId="gla2-od2">
+					<num>2.</num>
+					<heading> Основни судови</heading>
+					<article wId="gla2-od2-clan3">
+						<num>3.</num>
+						<paragraph wId="gla2-od2-clan3-stav1">
+							<content>
+								<p>Основни судови јесу:</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla2-od2-clan3-stav2">
+							<intro>
+								<p><ref wId="ref10" href="akn/rs/act/2013/101-3/srp@/!main~art_3___point_1" >Тач.  1</ref>)  до 10)  Престале су да  важе (види чл. <ref wId="ref8" href="akn/rs/act/2013/101-3/srp@/!main~art_17" >17</ref>. и <ref wId="ref9" href="akn/rs/act/2013/101-3/srp@/!main~art_18" >18</ref>. Закона - 101/2013-3)</p>
+							</intro>
+							<point wId="gla2-od2-clan3-stav2-tac11">
+								<num>11)</num>
+								<content>
+									<p> Основни суд у Косовској Митровици, за територију Аутономне покрајине Косово и Метохија, са судским јединицама у Гораждевцу, Грачаници, Ранилугу и Штрпцу,</p>
+								</content>
+							</point>
+						</paragraph>
+						<paragraph wId="gla2-od2-clan3-stav3">
+							<content>
+								<p><ref wId="ref13" href="akn/rs/act/2013/101-3/srp@/!main~art_3___point_12" >Тач.  12</ref>)  до 34)  Престале су да  важе (види чл. <ref wId="ref11" href="akn/rs/act/2013/101-3/srp@/!main~art_17" >17</ref>. и <ref wId="ref12" href="akn/rs/act/2013/101-3/srp@/!main~art_18" >18</ref>. Закона - 101/2013-3)</p>
+							</content>
+						</paragraph>
+					</article>
+				</section>
+				<section wId="gla2-od3">
+					<num>3.</num>
+					<heading> Виши судови</heading>
+					<article wId="gla2-od3-clan4">
+						<num>4.</num>
+						<paragraph wId="gla2-od3-clan4-stav1">
+							<content>
+								<p>Виши судови јесу:</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla2-od3-clan4-stav2">
+							<intro>
+								<p><ref wId="ref16" href="akn/rs/act/2013/101-3/srp@/!main~art_4___point_1" >Тач.   1</ref>)   до 6)  Престале су да  важе (види чл. <ref wId="ref14" href="akn/rs/act/2013/101-3/srp@/!main~art_17" >17</ref>. и <ref wId="ref15" href="akn/rs/act/2013/101-3/srp@/!main~art_18" >18</ref>. Закона - 101/2013-3)</p>
+							</intro>
+							<point wId="gla2-od3-clan4-stav2-tac7">
+								<num>7)</num>
+								<content>
+									<p> Виши суд у Косовској Митровици, за подручје Основног суда у Косовској Митровици,</p>
+								</content>
+							</point>
+						</paragraph>
+						<paragraph wId="gla2-od3-clan4-stav3">
+							<content>
+								<p><ref wId="ref19" href="akn/rs/act/2013/101-3/srp@/!main~art_4___point_8" >Тач. 8</ref>)  до 26)  Престале су да  важе (види чл. <ref wId="ref17" href="akn/rs/act/2013/101-3/srp@/!main~art_17" >17</ref>. и <ref wId="ref18" href="akn/rs/act/2013/101-3/srp@/!main~art_18" >18</ref>. Закона - 101/2013-3)</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla2-od3-clan4-stav4">
+							<content>
+								<p>Чл. 5. до 8.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla2-od3-clan4-stav5">
+							<content>
+								<p>Престали су да  важе (види чл. <ref wId="ref20" href="akn/rs/act/2013/101-3/srp@/!main~art_17" >17</ref>. и <ref wId="ref21" href="akn/rs/act/2013/101-3/srp@/!main~art_18" >18</ref>. Закона - 101/2013-3)</p>
+							</content>
+						</paragraph>
+					</article>
+				</section>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>ЈАВНА ТУЖИЛАШТВА</heading>
+				<point wId="gla3-clan4-tac1">
+					<num>1.</num>
+					<content>
+						<p> Основна јавна тужилаштва</p>
+					</content>
+				</point>
+				<article wId="gla3-clan9">
+					<num>9.</num>
+					<paragraph wId="gla3-clan9-stav1">
+						<content>
+							<p>Основна јавна тужилаштва јесу:</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan9-stav2">
+						<intro>
+							<p><ref wId="ref24" href="akn/rs/act/2013/101-3/srp@/!main~art_9___point_1" >Тач.   1</ref>)   до 10)  Престале су да  важе (види чл. <ref wId="ref22" href="akn/rs/act/2013/101-3/srp@/!main~art_17" >17</ref>. и <ref wId="ref23" href="akn/rs/act/2013/101-3/srp@/!main~art_18" >18</ref>. Закона - 101/2013-3)</p>
+						</intro>
+						<point wId="gla3-clan9-stav2-tac11">
+							<num>11)</num>
+							<content>
+								<p> Основно јавно тужилаштво у Косовској Митровици, за подручје Основног суда у Косовској Митровици,</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan9-stav3">
+						<content>
+							<p><ref wId="ref27" href="akn/rs/act/2013/101-3/srp@/!main~art_9___point_12" >Тач.   12</ref>)  до 34)  Престале су да  важе (види чл. <ref wId="ref25" href="akn/rs/act/2013/101-3/srp@/!main~art_17" >17</ref>. и <ref wId="ref26" href="akn/rs/act/2013/101-3/srp@/!main~art_18" >18</ref>. Закона - 101/2013-3)</p>
+						</content>
+					</paragraph>
+				</article>
+				<section wId="gla3-od2">
+					<num>2.</num>
+					<heading> Виша јавна тужилаштва</heading>
+					<article wId="gla3-od2-clan10">
+						<num>10.</num>
+						<paragraph wId="gla3-od2-clan10-stav1">
+							<intro>
+								<p>Виша јавна тужилаштва јесу:</p>
+							</intro>
+							<point wId="gla3-od2-clan10-stav1-tac1">
+								<num>1.</num>
+								<content>
+									<p> Прекршајни судови</p>
+								</content>
+							</point>
+							<point wId="gla3-od2-clan10-stav1-tac2">
+								<num>2.</num>
+								<content>
+									<p> Основни судови</p>
+								</content>
+							</point>
+							<point wId="gla3-od2-clan10-stav1-tac3">
+								<num>3.</num>
+								<content>
+									<p> Виши судови</p>
+								</content>
+							</point>
+							<point wId="gla3-od2-clan10-stav1-tac1">
+								<num>1.</num>
+								<content>
+									<p> Основна јавна тужилаштва</p>
+								</content>
+							</point>
+							<point wId="gla3-od2-clan10-stav1-tac2">
+								<num>2.</num>
+								<content>
+									<p> Виша јавна тужилаштва</p>
+								</content>
+							</point>
+							<point wId="gla3-od2-clan10-stav1-tac1">
+								<num>1.</num>
+								<content>
+									<p> Прекршајни судови</p>
+								</content>
+							</point>
+							<point wId="gla3-od2-clan10-stav1-tac2">
+								<num>2.</num>
+								<content>
+									<p> Основни судови</p>
+								</content>
+							</point>
+							<point wId="gla3-od2-clan10-stav1-tac3">
+								<num>3.</num>
+								<content>
+									<p> Виши судови</p>
+								</content>
+							</point>
+							<point wId="gla3-od2-clan10-stav1-tac1">
+								<num>1.</num>
+								<content>
+									<p> Основна јавна тужилаштва</p>
+								</content>
+							</point>
+							<point wId="gla3-od2-clan10-stav1-tac2">
+								<num>2.</num>
+								<content>
+									<p> Виша јавна тужилаштва</p>
+								</content>
+							</point>
+							<point wId="gla3-od2-clan10-stav1-tac1">
+								<num>1.</num>
+								<content>
+									<p> Прекршајни судови</p>
+								</content>
+							</point>
+							<point wId="gla3-od2-clan10-stav1-tac2">
+								<num>2.</num>
+								<content>
+									<p> Основни судови</p>
+								</content>
+							</point>
+							<point wId="gla3-od2-clan10-stav1-tac3">
+								<num>3.</num>
+								<content>
+									<p> Виши судови</p>
+								</content>
+							</point>
+							<point wId="gla3-od2-clan10-stav1-tac1">
+								<num>1.</num>
+								<content>
+									<p> Основна јавна тужилаштва</p>
+								</content>
+							</point>
+							<point wId="gla3-od2-clan10-stav1-tac2">
+								<num>2.</num>
+								<content>
+									<p> Виша јавна тужилаштва</p>
+								</content>
+							</point>
+						</paragraph>
+					</article>
+				</section>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

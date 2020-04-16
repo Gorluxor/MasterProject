@@ -1,0 +1,2207 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о потврђивању Међународне конвенције против регрутовања, коришћења, финансирања и обуке плаћеника">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2015/23-1/main"/>
+					<FRBRuri value="/rs/act/2015/23-1"/>
+					<FRBRdate date="2015-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2015/23-1/srp@/main"/>
+					<FRBRuri value="/rs/act/2015/23-1/srp@"/>
+					<FRBRdate date="2015-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2015/23-1/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2015/23-1/srp@.akn"/>
+					<FRBRdate date="2015-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2015-12-15" name="службени гласник рс - међународни уговори" number="23" showAs="Службени гласник РС - Међународни уговори"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="III ПРАВОСУЂЕ, КАЗНЕНО ЗАКОНОДАВСТВО И МЕЂУНАРОДНА ПРАВНА ПОМОЋ" value="iii правосуђе, казнено законодавство и међународна правна помоћ" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="4. Кривична дела" value="4. кривична дела" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2015-12-04" wId="usvajanje"/>
+				<step by="#TODO" date="2015-12-23" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2015-12-23" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Међународна конвенција против регрутовања, коришћења, финансирања и обуке плаћеника, ступила је на снагу за Републику Србију 13. фебруара 2016. године (види Обавештење: Службени гласник РС - Међународни уговори - 2/2016-25).</p>
+				</note>
+				<note wId="not2">
+					<p>Међународна конвенција против регрутовања, коришћења, финансирања и обуке плаћеника, ступила је на снагу за Републику Србију 13. фебруара 2016. године (види Обавештење: Службени гласник РС - Међународни уговори - 2/2016-25).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О потврђивању међународне конвенције против регрутовања, коришћења, финансирања и обуке плаћеника "Службени гласник РС - Међународни уговори", број 23 од 15. децембра 2015.</p>
+			</longTitle>
+			<p>Томислав Николић, с.р.</p>
+		</preface>
+		<preamble>
+			<p>На основу члана 112. став 1. тачка 2. Устава Републике Србије, доносим</p>
+			<p>УКАЗ</p>
+			<p>о проглашењу Закона о потврђивању Међународне конвенције против регрутовања, коришћења, финансирања и обуке плаћеника</p>
+			<p>Проглашава се Закон о потврђивању Међународне конвенције против регрутовања, коришћења, финансирања и обуке плаћеника, који је донела Народна скупштина Републике Србије на Седмој седници Другог редовног заседања у 2015. години, 4. децембра 2015. године.</p>
+			<p>ПР број 153</p>
+			<p>У Београду, 8. децембра 2015. године</p>
+			<p>Председник Републике,</p>
+		</preamble>
+		<body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Потврђује се Међународна конвенција против регрутовања, коришћења, финансирања и обуке плаћеника, усвојена у Њујорку 4. децембра 1989. године, у оригиналу на арапском, енглеском, француском, кинеском, руском и шпанском језику.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Текст Међународне конвенције у оригиналу на енглеском језику и у преводу на српски језик гласи:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>International Convention against the Recruitment, Use Financing and Training of Mercenaries</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav3">
+					<content>
+						<p>The States Parties to the present Convention,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav4">
+					<content>
+						<p>Reaffirming the purposes and principles enshrined in the Charter of the United Nations and in the Declaration on the Principles of International Law concerning Friendly Relations and Co-operation among States in accordance with the Charter of the United Nations,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav5">
+					<content>
+						<p>Being aware of the recruitment, use, financing and training of mercenaries for activities which violate principles of international law such as those of sovereign equality, political independence, territorial integrity of States and self-determination of peoples,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav6">
+					<content>
+						<p>Affirming that the recruitment, use, financing and training of mercenaries should be considered as offences of grave concern to all States and that any person committing any of these offences should either be prosecuted or extradited,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav7">
+					<content>
+						<p>Convinced of the necessity to develop and enhance international co-operation among States for the prevention, prosecution and punishment of such offences,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav8">
+					<content>
+						<p>Expressing concern at new unlawful international activities linking drug traffickers and mercenaries in the perpetration of violent actions which undermine the constitutional order of States,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav9">
+					<content>
+						<p>Also convinced that the adoption of a convention against the recruitment, use, financing and training of mercenaries would contribute to the eradication of these nefarious activities and thereby to the observance of the purposes and principles enshrined in the Charter of the United Nations,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav10">
+					<content>
+						<p>Cognizant that matters not regulated by such a convention continue to be governed by the rules and principles of international law,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav11">
+					<content>
+						<p>Have agreed as follows:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav12">
+					<content>
+						<p>Article 1</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav13">
+					<intro>
+						<p>For the purposes of the present Convention,</p>
+					</intro>
+					<point wId="clan2-stav13-tac1">
+						<num>1.</num>
+						<content>
+							<p> A mercenary is any person who:</p>
+						</content>
+					</point>
+				</paragraph>
+				<paragraph wId="clan2-stav14">
+					<content>
+						<p>(a) Is specially recruited locally or abroad in order to fight in an armed conflict;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav15">
+					<content>
+						<p>(b) Is motivated to take part in the hostilities essentially by the desire for private gain and, in fact, is promised, by or on behalf of a party to the conflict, material compensation substantially in excess of that promised or paid to combatants of similar rank and functions in the armed forces of that party;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav16">
+					<content>
+						<p>(c) Is neither a national of a party to the conflict nor a resident of territory controlled by а party to the conflict;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav17">
+					<content>
+						<p>(d) Is not a member of the armed forces of a party to the conflict;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav18">
+					<content>
+						<p>and</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav19">
+					<intro>
+						<p>(e) Has not been sent by a State which is not a party to the conflict on official duty as a member of its armed forces.</p>
+					</intro>
+					<point wId="clan2-stav19-tac2">
+						<num>2.</num>
+						<content>
+							<p> A mercenary is also any person who, in any other situation:</p>
+						</content>
+					</point>
+				</paragraph>
+				<paragraph wId="clan2-stav20">
+					<content>
+						<p>(a) Is specially recruited locally or abroad for the purpose of participatinq in a concerted act of violence aimed at:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav21">
+					<content>
+						<p>(i) Overthrowinq a Government or otherwise undermining the constitutional order of a State; or</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav22">
+					<content>
+						<p>(ii) Undermining the territorial integrity of a State;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav23">
+					<content>
+						<p>(b) Is motivated to take part therein essentially by the desire for significant private gain and is prompted by the promise or payment of material compensation;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav24">
+					<content>
+						<p>(c) Is neither a national nor a resident of the State against which such an act is directed;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav25">
+					<content>
+						<p>(d) Has not been sent by a State on official duty; and</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav26">
+					<content>
+						<p>(e) Is not a member of the armed forces of the State on whose territory the act is undertaken.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav27">
+					<content>
+						<p>Article 2</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav28">
+					<content>
+						<p>Any person who recruits, uses, finances or trains mercenaries, as defined in article 1 of the present Convention, commits an offence for the purposes of the Convention.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav29">
+					<content>
+						<p>Article 3</p>
+					</content>
+				</paragraph>
+			</article>
+			<section wId="od1">
+				<num>1.</num>
+				<heading> A mercenary, as defined in article 1 of the present Convention, who participates directly in hostilities or in a concerted act of violence, as the case may be, commits an offence for the purposes of the Convention.</heading>
+				<point wId="od1-clan2-tac2">
+					<num>2.</num>
+					<content>
+						<p> Nothing in this article limits the scope of application of article 4 of the present Convention.</p>
+					</content>
+				</point>
+				<paragraph wId="od1-clan2-stav1">
+					<content>
+						<p>Article 4</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav2">
+					<content>
+						<p>An offence is committed by any person who:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav3">
+					<content>
+						<p>(a) Attempts to commit one of the offences set forth in the present Convention;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav4">
+					<content>
+						<p>(b) Is the accomplice of a person who commits or attempts to commit any of the offences set forth in the present Convention.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav5">
+					<content>
+						<p>Article 5</p>
+					</content>
+				</paragraph>
+				<section wId="od1">
+					<num>1.</num>
+					<heading> States Parties shall not recruit, use, finance or train mercenaries and shall prohibit such activities in accordance with the provisions of the present Convention.</heading>
+					<point wId="od1-clan2-tac2">
+						<num>2.</num>
+						<content>
+							<p> States Parties shall not recruit, use, finance or train mercenaries for the purpose of opposinq the leqitimate exercise of the inalienable right of peoples to self-determination, as recognized by international law, and shall take, in conformity with international law, the appropriate measures to prevent the recruitment, use, financing or training of mercenaries for that purpose.</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-tac3">
+						<num>3.</num>
+						<content>
+							<p> They shall make the offences set forth in the present Convention punishable by appropriate penalties which take into account the grave nature of those offences.</p>
+						</content>
+					</point>
+					<paragraph wId="od1-clan2-stav1">
+						<content>
+							<p>Article 6</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od1-clan2-stav2">
+						<content>
+							<p>States Parties shall co-operate in the prevention of the offences set forth in the present Convention, particularly by:</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od1-clan2-stav3">
+						<content>
+							<p>(a) Taking all practicable measures to prevent preparations in their respective territories for the commission of those offences within or outside their territories, including the prohibition of illegal activities of persons, groups and organizations that encourage, instigate, organize or engage in the perpetration of such offences;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od1-clan2-stav4">
+						<content>
+							<p>(b) Co-ordinating the taking of administrative and other measures as appropriate to prevent the commission of those offences.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od1-clan2-stav5">
+						<content>
+							<p>Article 7</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od1-clan2-stav6">
+						<content>
+							<p>States Parties shall co-operate in taking the necessary measures for the implementation of the present Convention.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od1-clan2-stav7">
+						<content>
+							<p>Article 8</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od1-clan2-stav8">
+						<content>
+							<p>Any State Party havinq reason to believe that one of the offences set forth in the present Convention has been, is being or will be committed shall, in accordance with its national law, communicate the relevant information, as soon as it comes to its knowledge, directly or through the Secretary-General of the United Nations, to the States Parties affected.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od1-clan2-stav9">
+						<content>
+							<p>Article 9</p>
+						</content>
+					</paragraph>
+					<section wId="od1">
+						<num>1.</num>
+						<heading> Each state Party shall take such measures as may be necessary to establish its jurisdiction over any of the offences set forth in the present Convention which ace committed:</heading>
+						<paragraph wId="od1-clan2-stav1">
+							<content>
+								<p>(a) In its territory or on board a ship or aircraft registered in that State;</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan2-stav2">
+							<intro>
+								<p>(b) By any of its nationals or, if that State considers it appropriate, by those stateless persons who have their habitual residence in that territory.</p>
+							</intro>
+							<point wId="od1-clan2-stav2-tac2">
+								<num>2.</num>
+								<content>
+									<p> Each State Party shall likewise take such measures as may be necessary to establish its jurisdiction over the offences set forth in articles 2,3 and 4 of the present Convention in cases where the alleged offender is present in its territory and it does not extradite him to any of the States mentioned in paragraph 1 of this article.</p>
+								</content>
+							</point>
+							<point wId="od1-clan2-stav2-tac3">
+								<num>3.</num>
+								<content>
+									<p> The present Convention does not exclude any criminal jurisdiction exercised in accordance with national law.</p>
+								</content>
+							</point>
+						</paragraph>
+						<paragraph wId="od1-clan2-stav3">
+							<content>
+								<p>Article 10</p>
+							</content>
+						</paragraph>
+						<section wId="od1">
+							<num>1.</num>
+							<heading> Upon being satisfied that the circumstances so warrant, any State Party in whose territory the alleged offender is present shall, in accordance with its laws, take him into custody or take such other measures to ensure his presence for such time as is necessary to enable any criminal or extradition proceedings to be instituted. The State Party shall immediately make a preliminary inquiry into the facts.</heading>
+							<point wId="od1-clan2-tac2">
+								<num>2.</num>
+								<content>
+									<p> When a State Party, pursuant to this article, has taken a person into custody or has taken such other measures referred to in paragraph 1 of this article, it shall notify without delay either directly or through the Secretary-General of the United Nations:</p>
+								</content>
+							</point>
+							<paragraph wId="od1-clan2-stav1">
+								<content>
+									<p>(a) The State Party where the offence was committed;</p>
+								</content>
+							</paragraph>
+							<paragraph wId="od1-clan2-stav2">
+								<content>
+									<p>(b) The State Party against which the offence has been directed or attempted;</p>
+								</content>
+							</paragraph>
+							<paragraph wId="od1-clan2-stav3">
+								<content>
+									<p>(c) The State Party of which the natural or juridical person against whom the offence has been directed or attempted is a national;</p>
+								</content>
+							</paragraph>
+							<paragraph wId="od1-clan2-stav4">
+								<content>
+									<p>(d) The State Party of which the alleged offender is a national or, if he is a stateless person, in whose territory he has his habitual residence;</p>
+								</content>
+							</paragraph>
+							<paragraph wId="od1-clan2-stav5">
+								<intro>
+									<p>(s) Any other interested State Party which it considers it appropriate to notify.</p>
+								</intro>
+								<point wId="od1-clan2-stav5-tac3">
+									<num>3.</num>
+									<content>
+										<p> Any person regarding whom the measures referred to in paragraph 1 of this article are being taken shall be entitled:</p>
+									</content>
+								</point>
+							</paragraph>
+							<paragraph wId="od1-clan2-stav6">
+								<content>
+									<p>(a) To communicate without delay with the nearest appropriate representative of the State of which he is a national or which is otherwise entitled to protect his rights or, if he is a stateless person, the State in whose territory he has his habitual residence;</p>
+								</content>
+							</paragraph>
+							<paragraph wId="od1-clan2-stav7">
+								<intro>
+									<p>(b) To be visited by a representative of that State.</p>
+								</intro>
+								<point wId="od1-clan2-stav7-tac4">
+									<num>4.</num>
+									<content>
+										<p> The provisions of paragraph 3 of this article shall be without prejudice to the right of any State Party having a claim to jurisdiction in accordance with article 9, paragraph 1 (b), to invite the International Committee of the Red Cross to communicate with and visit the alleged offender.</p>
+									</content>
+								</point>
+								<point wId="od1-clan2-stav7-tac5">
+									<num>5.</num>
+									<content>
+										<p> The State which makes the preliminary inquiry contemplated in paragraph 1 of this article shall promptly report its findings to the States referred to in paragraph 2 of this article and indicate whether it intends to exercise jurisdiction.</p>
+									</content>
+								</point>
+							</paragraph>
+							<paragraph wId="od1-clan2-stav8">
+								<content>
+									<p>Article 11</p>
+								</content>
+							</paragraph>
+							<paragraph wId="od1-clan2-stav9">
+								<content>
+									<p>Any person regarding whom proceedings are being carried out in connection with any of the offences set forth in the present Convention shall be guaranteed at all stages of the proceedings fair treatment and all the rights and guarantees provided for in the law of the State in question. Applicable norms of international law should be taken into account.</p>
+								</content>
+							</paragraph>
+							<paragraph wId="od1-clan2-stav10">
+								<content>
+									<p>Article 12</p>
+								</content>
+							</paragraph>
+							<paragraph wId="od1-clan2-stav11">
+								<content>
+									<p>The State Party in whose territory the alleged offender is found shall, if it does not extradite him, be obliged, without exception whatsoever and whether or not the offence was committed in its territory, to submit the case to its competent authorities for the purpose of prosecution, through proceedings in accordance with the laws of that State. Those authorities shall take their decision in the same manner as in the case of any other offence of a grave nature under the law of that State.</p>
+								</content>
+							</paragraph>
+							<paragraph wId="od1-clan2-stav12">
+								<content>
+									<p>Article 13</p>
+								</content>
+							</paragraph>
+							<section wId="od1">
+								<num>1.</num>
+								<heading> States Parties shall afford one another the greatest measure of assistance in connection with criminal proceedings brought in respect of the offences set forth in the present Convention, including the supply of all evidence at their disposal necessary for the proceedings. The law of the State whose assistance is requested shall apply in all cases.</heading>
+								<point wId="od1-clan2-tac2">
+									<num>2.</num>
+									<content>
+										<p> The provisions of paragraph 1 of this article shall not affect obligations concerning mutual judicial assistance embodied in any other treaty.</p>
+									</content>
+								</point>
+								<paragraph wId="od1-clan2-stav1">
+									<content>
+										<p>Article 14</p>
+									</content>
+								</paragraph>
+								<paragraph wId="od1-clan2-stav2">
+									<content>
+										<p>The State Party where the alleged offender is prosecuted shall in accordance with its laws communicate the final outcome of the proceedings to the Secretary-General of the United Nations, who shall transmit the information to the other States concerned.</p>
+									</content>
+								</paragraph>
+								<paragraph wId="od1-clan2-stav3">
+									<content>
+										<p>Article 15</p>
+									</content>
+								</paragraph>
+								<section wId="od1">
+									<num>1.</num>
+									<heading> The offences set forth in articles 2, 3 and 4 of the present Convention shall be deemed to be included as extraditable offences in any extradition treaty existing between States Parties. States Parties undertake to include such offences as extraditable offences in every extradition treaty to be concluded between them.</heading>
+									<point wId="od1-clan2-tac2">
+										<num>2.</num>
+										<content>
+											<p> If a State Party which makes extradition conditional on the existence of a treaty receives a request for extradition from another State Party with which it has no extradition treaty, it may at its option consider the present Convention as the legal basis for extradition in respect of those offences. Extradition shall be subject to the other conditions provided by the law of the requested State.</p>
+										</content>
+									</point>
+									<point wId="od1-clan2-tac3">
+										<num>3.</num>
+										<content>
+											<p> States Parties which do not make extradition conditional on the existence of a treaty shall recognize those offences as extraditable offences between themselves, subject to the conditions provided by the law of the requested State.</p>
+										</content>
+									</point>
+									<point wId="od1-clan2-tac4">
+										<num>4.</num>
+										<content>
+											<p> The offences shall be treated, for the purpose of extradition between States Parties, as if they had been committed not only in the place in which they occurred but also in the territories of the States required to establish their jurisdiction in accordance with article 9 of the present Convention.</p>
+										</content>
+									</point>
+									<paragraph wId="od1-clan2-stav1">
+										<content>
+											<p>Article 16</p>
+										</content>
+									</paragraph>
+									<paragraph wId="od1-clan2-stav2">
+										<content>
+											<p>The present Convention shall be applied without prejudice to:</p>
+										</content>
+									</paragraph>
+									<paragraph wId="od1-clan2-stav3">
+										<content>
+											<p>(a) The rules relating to the international responsibility of States;</p>
+										</content>
+									</paragraph>
+									<paragraph wId="od1-clan2-stav4">
+										<content>
+											<p>(b) The law of armed conflict and international humanitarian law, including the provisions relating to the status of combatant or of prisoner of war.</p>
+										</content>
+									</paragraph>
+									<paragraph wId="od1-clan2-stav5">
+										<content>
+											<p>Article 17</p>
+										</content>
+									</paragraph>
+									<section wId="od1">
+										<num>1.</num>
+										<heading> Any dispute between two or more States Parties concerning the interpretation or application of the present Convention which is not settled by negotiation shall, at the request of one of them, be submitted to arbitration. If, within six months from the date of the request for arbitration, the parties are unable to agree on the organization of the arbitration, any one of those parties may refer the dispute to the International Court of Justice by a request in conformity with the Statute of the Court.</heading>
+										<point wId="od1-clan2-tac2">
+											<num>2.</num>
+											<content>
+												<p> Each State may, at the time of signature or ratification of the present Convention or accession thereto, declare that it does not consider itself bound by paragraph 1 of this article. The other States Parties shall not be bound by paragraph 1 of this article with respect to any State Party which has made such a reservation.</p>
+											</content>
+										</point>
+										<point wId="od1-clan2-tac3">
+											<num>3.</num>
+											<content>
+												<p> Any State Party which has made a reservation in accordance with paragraph 2 of this article may at any time withdraw that reservation by notification to the Secretary-General of the United Nations.</p>
+											</content>
+										</point>
+										<paragraph wId="od1-clan2-stav1">
+											<content>
+												<p>Article 18</p>
+											</content>
+										</paragraph>
+										<section wId="od1">
+											<num>1.</num>
+											<heading> The present Convention shall be open for signature by all States until 31 December 1990 at United Nations Headquarters in New York.</heading>
+											<point wId="od1-clan2-tac2">
+												<num>2.</num>
+												<content>
+													<p> The present Convention shall be subject to ratification. The instruments of ratification shall be deposited with the Secretary-General of the United Nations.</p>
+												</content>
+											</point>
+											<point wId="od1-clan2-tac3">
+												<num>3.</num>
+												<content>
+													<p> The present Convention shall remain open for accession by any State. The instruments of accession shall be deposited with the Secretary-General of the United Nations.</p>
+												</content>
+											</point>
+											<paragraph wId="od1-clan2-stav1">
+												<content>
+													<p>Article 19</p>
+												</content>
+											</paragraph>
+											<section wId="od1">
+												<num>1.</num>
+												<heading> The present Convention shall enter into force on the thirtieth day followinq the date of deposit of the twenty-second instrument of ratification or accession with the Secretary-General of the United Nations.</heading>
+												<point wId="od1-clan2-tac2">
+													<num>2.</num>
+													<content>
+														<p> For each State ratifying or acceding to the Convention after the deposit of the twenty-second instrument of ratification or accession, the Convention shall enter into force on the thirtieth day after deposit by such State of its instrument of ratification or accession.</p>
+													</content>
+												</point>
+												<paragraph wId="od1-clan2-stav1">
+													<content>
+														<p>Article 20</p>
+													</content>
+												</paragraph>
+												<section wId="od1">
+													<num>1.</num>
+													<heading> Any State Party may denounce the present Convention by written notification to the Secretary-General of the United Nations.</heading>
+													<point wId="od1-clan2-tac2">
+														<num>2.</num>
+														<content>
+															<p> Denunciation shall take effect one year after the date on which the notification is received by the Secretary-General of the United Nations.</p>
+														</content>
+													</point>
+													<paragraph wId="od1-clan2-stav1">
+														<content>
+															<p>Article 21</p>
+														</content>
+													</paragraph>
+													<paragraph wId="od1-clan2-stav2">
+														<content>
+															<p>The original of the present Convention, of which the Arabic, Chinese, English, French, Russian and Spanish texts are equally authentic, shall be deposited with the Secretary-General of the United Nations, who shall send certified copies thereof to all States.</p>
+														</content>
+													</paragraph>
+													<paragraph wId="od1-clan2-stav3">
+														<content>
+															<p>IN WITNESS WHEREOF the undersigned, being duly authorized thereto by their respective Governments, have signed the present Convention.</p>
+														</content>
+													</paragraph>
+													<paragraph class="special" wId="od1-clan2-stav4">
+														<content>
+															<table>
+																
+
+
+																<tr>
+																	
+
+																	<td>
+																		
+
+																		<p>I hereby certify that the foregoing text is a true сору of the International Convention against the Recruitement, Use, Financing and Training of Mercenaries, adopted by the General Assembly of the United Nations on 4 December 1989, the original of which is deposited with the Secretary-General of the United Nations, as the said Convention was opened for signature.</p>
+																		
+
+																	</td>
+																	
+
+																	<td>
+																		<p>
+</p>
+																	</td>
+																	
+
+																	<td>
+																		
+
+																		<p>Je certifie que le texte qui précède est une copie conforme de la Convention internationale contre le recrutement, l’utilisation, le financement et 1’instruction de mercenaires, adoptée par l’Assemblée générale des Nations Unies le 4 décembre 1989, dont l’original se trouve depose aupres du Secrétaire général de 1’Organisation des Nations Unies, telle que ladite Convention a été ouverte à la signature.</p>
+																		
+
+																	</td>
+																	
+
+																</tr>
+																
+
+																<tr>
+																	
+
+																	<td>
+																		
+
+																		<p>For the Secretary-General, </p>
+																		
+
+																		<p>The Legal Counsel,</p>
+																		
+
+																	</td>
+																	
+
+																	<td>
+																		<p>
+</p>
+																	</td>
+																	
+
+																	<td>
+																		
+
+																		<p>Pour le Secrétaire général, </p>
+																		
+
+																		<p>Le Conseiller juridigue,</p>
+																		
+
+																	</td>
+																	
+
+																</tr>
+																
+
+																<tr>
+																	
+
+																	<td>
+																		<p>
+</p>
+																	</td>
+																	
+
+																	<td>
+																		
+
+																		<p>Carl-August Fleischhauer</p>
+																		
+
+																	</td>
+																	
+
+																	<td>
+																		<p>
+Carl-August Fleischhauer</p>
+																	</td>
+																	
+
+																</tr>
+																
+
+																<tr>
+																	
+
+																	<td>
+																		
+
+																		<p>United Nations, New York</p>
+																		
+
+																		<p>31 January 1990</p>
+																		
+
+																	</td>
+																	
+
+																	<td>
+																		<p>
+</p>
+																	</td>
+																	
+
+																	<td>
+																		
+
+																		<p>Organisation des Nations Unies, </p>
+																		
+
+																		<p>New York</p>
+																		
+
+																		<p>le 31 janvier 1990</p>
+																		
+
+																	</td>
+																	
+
+																</tr>
+																
+
+
+															</table>
+															
+
+														</content>
+													</paragraph>
+													<paragraph wId="od1-clan2-stav5">
+														<content>
+															<p>МЕЂУНАРОДНА КОНВЕНЦИЈА ПРОТИВ РЕГРУТОВАЊА, КОРИШЋЕЊА, ФИНАНСИРАЊА И ОБУКЕ ПЛАЋЕНИКА</p>
+														</content>
+													</paragraph>
+													<paragraph wId="od1-clan2-stav6">
+														<content>
+															<p>Државе чланице ове конвенције</p>
+														</content>
+													</paragraph>
+													<paragraph wId="od1-clan2-stav7">
+														<content>
+															<p>Поново потврђујући своју приврженост циљевима и начелима садржаним у Повељи Уједињених нација и Декларацији о начелима међународног права о пријатељским односима и сарадњи међу државама, у складу са Повељом Уједињених нација,</p>
+														</content>
+													</paragraph>
+													<paragraph wId="od1-clan2-stav8">
+														<content>
+															<p>Свесни чињенице да се регрутовање, коришћење, финансирање и обука плаћеника врши у циљу активности којима се крше принципи међународног права, као што су суверена једнакост, политичка независност, територијални интегритет и право народа на самоопредељење,</p>
+														</content>
+													</paragraph>
+													<paragraph wId="od1-clan2-stav9">
+														<content>
+															<p>Потврђујући да регрутовање, коришћење, финансирање и обуку плаћеника треба сматрати кривичним делом које представља повод за велику забринутост свих држава чланица, и да свако лице које изврши било које од ових кривичних дела, треба да буде кривично гоњено или изручено,</p>
+														</content>
+													</paragraph>
+													<paragraph wId="od1-clan2-stav10">
+														<content>
+															<p>Уверени у неопходност развијања и унапређења међународне сарадње међу државама чланицама ради спречавања, кривичног гоњења и кажњавања ових кривичних дела,</p>
+														</content>
+													</paragraph>
+													<paragraph wId="od1-clan2-stav11">
+														<content>
+															<p>Изражавајући забринутост због нових облика противзаконитих међународних активности које повезују трговце наркотицима и плаћенике у вршењу радњи насиља усмерених на подривање уставног поретка држава,</p>
+														</content>
+													</paragraph>
+													<paragraph wId="od1-clan2-stav12">
+														<content>
+															<p>Такође уверени да би усвајање Конвенције против регрутовања, коришћења, финансирања и обуке плаћеника допринело искорењивању ових бесрамних активности и самим тим, поштовању циљева и начела садржаних у Повељи Уједињених нација,</p>
+														</content>
+													</paragraph>
+													<paragraph wId="od1-clan2-stav13">
+														<content>
+															<p>Свесни да ће се питања која нису уређена овом конвенцијом даље регулисати у складу са правилима и начелима међународног права,</p>
+														</content>
+													</paragraph>
+													<paragraph wId="od1-clan2-stav14">
+														<content>
+															<p>Споразумеле су се о следећем:</p>
+														</content>
+													</paragraph>
+													<article wId="od1-clan1">
+														<num>1.</num>
+														<paragraph wId="od1-clan1-stav1">
+															<intro>
+																<p>За сврхе ове конвенције,</p>
+															</intro>
+															<point wId="od1-clan1-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Плаћеник је лице:</p>
+																</content>
+															</point>
+														</paragraph>
+														<paragraph wId="od1-clan1-stav2">
+															<content>
+																<p>(a) које је посебно регрутованo, у земљи или у иностранству, за борбу у оружаном сукобу;</p>
+															</content>
+														</paragraph>
+														<paragraph wId="od1-clan1-stav3">
+															<content>
+																<p>(b) које је мотивисано да учествује у непријатељствима, ради остваривања личне користи, и коме је, заправо, у име или од стране учеснице у сукобу, обећана материјална накнада, која је значајно већа од накнаде, обећане или исплаћене борцима сличног ранга или положаја у оружаним снагама те стране;</p>
+															</content>
+														</paragraph>
+														<paragraph wId="od1-clan1-stav4">
+															<content>
+																<p>(c) које није држављанин стране у сукобу нити има пребивалиште на територији коју контролише страна у сукобу;</p>
+															</content>
+														</paragraph>
+														<paragraph wId="od1-clan1-stav5">
+															<content>
+																<p>(d) које није припадник оружаних снага стране у сукобу; и</p>
+															</content>
+														</paragraph>
+														<paragraph wId="od1-clan1-stav6">
+															<intro>
+																<p>(e) које није упутила држава која није страна у сукобу, по службеној дужности, као припадника својих оружаних снага.</p>
+															</intro>
+															<point wId="od1-clan1-stav6-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Плаћеник је и свако лице које је у било којој другој ситуацији:</p>
+																</content>
+															</point>
+														</paragraph>
+														<paragraph wId="od1-clan1-stav7">
+															<content>
+																<p>(a) посебно регрутовано, у земљи или у иностранству, с циљем учествовања у организованом акту насиља усмереном ка:</p>
+															</content>
+														</paragraph>
+														<paragraph wId="od1-clan1-stav8">
+															<content>
+																<p>(i) свргавању владе или подривању уставног поретка државе, на било који други начин; или</p>
+															</content>
+														</paragraph>
+														<paragraph wId="od1-clan1-stav9">
+															<content>
+																<p>(ii) подривању територијалног интегритета земље;</p>
+															</content>
+														</paragraph>
+														<paragraph wId="od1-clan1-stav10">
+															<content>
+																<p>(b) мотивисано да учествује у сукобу превасходно ради остварења значајне личне користи и подстакнуто обећањем односно исплатом материјалне накнаде;</p>
+															</content>
+														</paragraph>
+														<paragraph wId="od1-clan1-stav11">
+															<content>
+																<p>(c) није држављанин нити има пребивалиште у држави против које је такав акт усмерен;</p>
+															</content>
+														</paragraph>
+														<paragraph wId="od1-clan1-stav12">
+															<content>
+																<p>(d) није упућено од стране државе по службеној дужности; и</p>
+															</content>
+														</paragraph>
+														<paragraph wId="od1-clan1-stav13">
+															<content>
+																<p>(e) није припадник оружаних снага државе на чијој се територији врши такав акт.</p>
+															</content>
+														</paragraph>
+													</article>
+													<article wId="od1-clan2">
+														<num>2.</num>
+														<paragraph wId="od1-clan2-stav1">
+															<content>
+																<p>Свако лице које регрутује, користи, финансира или обучава плаћенике, дефинисане <ref wId="ref0" href="akn/rs/act/2015/23-1/srp@/!main~art_1" >чланом 1. </ref>Конвенције, чини кривично дело у смислу ове конвенције.</p>
+															</content>
+														</paragraph>
+													</article>
+													<article wId="od1-clan3">
+														<num>3.</num>
+														<point wId="od1-clan3-tac1">
+															<num>1.</num>
+															<content>
+																<p> Плаћеник из члана 1. ове конвенције, који непосредно учествује у непријатељствима или у организованом акту насиља, у зависности од околности, врши кривично дело у смислу ове конвенције.</p>
+															</content>
+														</point>
+														<point wId="od1-clan3-tac2">
+															<num>2.</num>
+															<content>
+																<p> Овим чланом се ни на који начин не ограничава обим примене члана 4. Конвенције.</p>
+															</content>
+														</point>
+													</article>
+													<article wId="od1-clan4">
+														<num>4.</num>
+														<paragraph wId="od1-clan4-stav1">
+															<content>
+																<p>Извршилац овог кривичног дела је лице које:</p>
+															</content>
+														</paragraph>
+														<paragraph wId="od1-clan4-stav2">
+															<content>
+																<p>(a) покуша да изврши неко од кривичних дела из ове конвенције;</p>
+															</content>
+														</paragraph>
+														<paragraph wId="od1-clan4-stav3">
+															<content>
+																<p>(b) је саучесник лица које врши или покуша да изврши неко од кривичних дела из ове конвенције.</p>
+															</content>
+														</paragraph>
+													</article>
+													<article wId="od1-clan5">
+														<num>5.</num>
+														<point wId="od1-clan5-tac1">
+															<num>1.</num>
+															<content>
+																<p> Државе чланице обавезују се да неће регрутовати, користити, финансирати или обучавати плаћенике и да ће такве радње инкриминисати, у складу са одредбама ове конвенције.</p>
+															</content>
+														</point>
+														<point wId="od1-clan5-tac2">
+															<num>2.</num>
+															<content>
+																<p> Државе чланице обавезују се да неће регрутовати, користити, финансирати или обучавати плаћенике са циљем супротстављања легитимном остваривању неотуђивог права народа на самоопредељење, како је предвиђено међународним правом, и предузеће, у складу са међународним правом, одговарајуће мере да спрече регрутовање, коришћење, финансирање или обуку плаћеника у ову сврху.</p>
+															</content>
+														</point>
+														<point wId="od1-clan5-tac3">
+															<num>3.</num>
+															<content>
+																<p> Државе чланице дужне су да предвиде одговарајући опсег казни за кривична дела из ове конвенције, водећи рачуна о тешкој природи ових дела.</p>
+															</content>
+														</point>
+													</article>
+													<article wId="od1-clan6">
+														<num>6.</num>
+														<paragraph wId="od1-clan6-stav1">
+															<intro>
+																<p>Државе чланице остварују сарадњу у спречавању кривичних дела из ове конвенције, посебно:</p>
+															</intro>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Свака држава чланица предузима мере неопходне за заснивање своје надлежности за било које од кривичних дела која су предмет ове конвенције:</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Свака држава чланица такође предузима мере неопходне за заснивање своје надлежности за кривична дела из чл. <ref wId="ref1" href="akn/rs/act/2015/23-1/srp@/!main~art_2" >2</ref>, <ref wId="ref2" href="akn/rs/act/2015/23-1/srp@/!main~art_3" >3</ref>. и <ref wId="ref3" href="akn/rs/act/2015/23-1/srp@/!main~art_4" >4</ref>. Конвенције, у случају када се окривљени налази на њеној територији, а не изручује га ни једној од држава наведених у <ref wId="ref4" href="akn/rs/act/2015/23-1/srp@/!main~art_6__para_1" >ставу 1. овог</ref> члана.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac3">
+																<num>3.</num>
+																<content>
+																	<p> Овом конвенцијом се не искључује било која кривична надлежност заснована у складу са националним законом.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Пошто се увери да то околности налажу, свака држава чланица на чијој територији се налази окривљени, одређује му притвор, у складу са њеним законима, или предузима друге мере којима се обезбеђује његово присуство, у трајању колико је неопходно да се покрене кривични поступак или поступак изручења. Држава чланица без одлагања предузима предистражне радње ради утврђивања чињеница.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Када држава чланица, у складу са овим чланом, одреди притвор окривљеном или предузме друге мере из <ref wId="ref5" href="akn/rs/act/2015/23-1/srp@/!main~art_6__para_1" >става 1. овог</ref> члана, она о томе, без одлагања, обавештава, непосредно или преко генералног секретара Уједињених нација:</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac3">
+																<num>3.</num>
+																<content>
+																	<p> Свако лице према којем се предузимају мере из <ref wId="ref6" href="akn/rs/act/2015/23-1/srp@/!main~art_6__para_1" >става 1. овог</ref> члана, има правo:</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac4">
+																<num>4.</num>
+																<content>
+																	<p> Одредба из <ref wId="ref8" href="akn/rs/act/2015/23-1/srp@/!main~art_6__para_3" >става 3. овог</ref> члана не прејудицира право државе чланице да заснује надлежност, у складу са <ref wId="ref7" href="akn/rs/act/2015/23-1/srp@/!main~art_9__para_1" >чланом 9. став 1</ref>(б), да упути позив Међународном комитету Црвеног крста да ступи у контакт и посети окривљеног.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac5">
+																<num>5.</num>
+																<content>
+																	<p> Држава која спроводи преткривични поступак, како је предвиђено <ref wId="ref9" href="akn/rs/act/2015/23-1/srp@/!main~art_6__para_1" >ставом 1. овог</ref> члана, обавештава одмах државе из <ref wId="ref10" href="akn/rs/act/2015/23-1/srp@/!main~art_6__para_2" >става 2. овог</ref> члана о прикупљеним доказима и изјашњава се да ли намерава да врши надлежност.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Државе чланице пружају једна другој најширу могућу помоћ у вези са кривичним поступком покренутим због кривичних дела из ове конвенције, укључујући стављање на располагање свих доказа неопходних за вођење поступка. Закон државе чија се помоћ тражи примењује се у свим случајевима.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Одредбе <ref wId="ref11" href="akn/rs/act/2015/23-1/srp@/!main~art_6__para_1" >става 1. овог</ref> члана не утичу на обавезе преузете неким другим споразумом о међународној правној помоћи.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Кривична дела из чл. <ref wId="ref12" href="akn/rs/act/2015/23-1/srp@/!main~art_2" >2</ref>, <ref wId="ref13" href="akn/rs/act/2015/23-1/srp@/!main~art_3" >3</ref>. и <ref wId="ref14" href="akn/rs/act/2015/23-1/srp@/!main~art_4" >4</ref>. Конвенције сматрају се делима за која је дозвољено изручење на основу било ког постојећег уговора о изручењу закљученог између држава чланица. Државе чланице обавезују се да, кривична дела подложна изручењу, укључе у сваки уговор о изручењу, који буде закључен између њих.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Ако држава чланица која условљава изручење постојањем уговора о изручењу, прими захтев за изручење од друге државе чланице са којом нема закључен такав уговор, може се определити да ову конвенцију узме као правни основ за изручење у погледу кривичних дела из ове конвенције. Изручење подлеже и другим условима предвиђеним правом замољене државе.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac3">
+																<num>3.</num>
+																<content>
+																	<p> Државе чланице, које не условљавају изручење постојањем уговора о изручењу, међусобно ће признати ова кривична дела као дела подложна изручењу, сходно условима предвиђеним правом замољене државе.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac4">
+																<num>4.</num>
+																<content>
+																	<p> Ова кривична дела третираће се, за потребе изручења између држава чланица, као да су извршена, не само у месту извршења већ и на територији држава које су, у складу са <ref wId="ref15" href="akn/rs/act/2015/23-1/srp@/!main~art_9" >чланом 9. </ref>ове конвенције, обавезне да заснују своју надлежност.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Сваки спор који настане, између две или више држава чланица, у вези са тумачењем или применом одредби ове конвенције, који се не реши преговорима, подноси се, на захтев једне од њих, на арбитражу. Ако у року од шест месеци, од дана подношења захтева за арбитражу, стране у спору нису у стању да се договоре о организовању арбитраже, било која од њих може покренути спор пред Међународним судом правде, на основу захтева сачињеног у складу са Статутом Суда.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Свака држава, у тренутку потписивања или ратификације ове конвенције, као и приликом накнадног приступања, може да изјави да се не сматра везаном <ref wId="ref16" href="akn/rs/act/2015/23-1/srp@/!main~art_6__para_1" >ставом 1. овог</ref> члана. Остале државе чланице неће бити везане <ref wId="ref17" href="akn/rs/act/2015/23-1/srp@/!main~art_6__para_1" >ставом 1. овог</ref> члана у односу прама оним државама чланицама које су ставиле такву резерву.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac3">
+																<num>3.</num>
+																<content>
+																	<p> Свака држава чланица која је ставила резерву у складу са <ref wId="ref18" href="akn/rs/act/2015/23-1/srp@/!main~art_6__para_2" >ставом 2. овог</ref> члана може, у сваком тренутку, повући ту резерву упућивањем обавештења генералном секретару Уједињених нација.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Конвенција је отворена за потписивање свим државама до 31. децембра 1990. године у седишту Уједињених нација у Њујорку.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Конвенција подлеже ратификацији. Ратификациони инструменти депонују се код генералног секретара Уједињених нација.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac3">
+																<num>3.</num>
+																<content>
+																	<p> Конвенција је отворена за приступање свим државама. Инструменти о приступању депонују се код генералног секретара Уједињених нација.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Конвенција ступа на снагу тридесетог дана након датума депоновања двадесет другог инструмента о ратификацији или приступању код генералног секретара Уједињених нација.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> За сваку државу која ратификује или приступа Конвенцији након депоновања двадесет другог инструмента о ратификацији или приступању, Конвенција ступа на снагу тридесетог дана након депоновања инструмента о ратификацији или приступању од стране те државе.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Свака држава чланица може отказати Конвенцију упућивањем писаног обавештења генералном секретару Уједињених нација.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Отказ ступа на снагу годину дана од датума пријема обавештења о отказу од стране генералног секретара Уједињених нација.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> A mercenary is any person who:</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> A mercenary is also any person who, in any other situation:</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> A mercenary, as defined in article 1 of the present Convention, who participates directly in hostilities or in a concerted act of violence, as the case may be, commits an offence for the purposes of the Convention.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Nothing in this article limits the scope of application of article 4 of the present Convention.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> States Parties shall not recruit, use, finance or train mercenaries and shall prohibit such activities in accordance with the provisions of the present Convention.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> States Parties shall not recruit, use, finance or train mercenaries for the purpose of opposinq the leqitimate exercise of the inalienable right of peoples to self-determination, as recognized by international law, and shall take, in conformity with international law, the appropriate measures to prevent the recruitment, use, financing or training of mercenaries for that purpose.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac3">
+																<num>3.</num>
+																<content>
+																	<p> They shall make the offences set forth in the present Convention punishable by appropriate penalties which take into account the grave nature of those offences.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Each state Party shall take such measures as may be necessary to establish its jurisdiction over any of the offences set forth in the present Convention which ace committed:</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Each State Party shall likewise take such measures as may be necessary to establish its jurisdiction over the offences set forth in articles 2,3 and 4 of the present Convention in cases where the alleged offender is present in its territory and it does not extradite him to any of the States mentioned in paragraph 1 of this article.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac3">
+																<num>3.</num>
+																<content>
+																	<p> The present Convention does not exclude any criminal jurisdiction exercised in accordance with national law.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Upon being satisfied that the circumstances so warrant, any State Party in whose territory the alleged offender is present shall, in accordance with its laws, take him into custody or take such other measures to ensure his presence for such time as is necessary to enable any criminal or extradition proceedings to be instituted. The State Party shall immediately make a preliminary inquiry into the facts.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> When a State Party, pursuant to this article, has taken a person into custody or has taken such other measures referred to in paragraph 1 of this article, it shall notify without delay either directly or through the Secretary-General of the United Nations:</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac3">
+																<num>3.</num>
+																<content>
+																	<p> Any person regarding whom the measures referred to in paragraph 1 of this article are being taken shall be entitled:</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac4">
+																<num>4.</num>
+																<content>
+																	<p> The provisions of paragraph 3 of this article shall be without prejudice to the right of any State Party having a claim to jurisdiction in accordance with article 9, paragraph 1 (b), to invite the International Committee of the Red Cross to communicate with and visit the alleged offender.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac5">
+																<num>5.</num>
+																<content>
+																	<p> The State which makes the preliminary inquiry contemplated in paragraph 1 of this article shall promptly report its findings to the States referred to in paragraph 2 of this article and indicate whether it intends to exercise jurisdiction.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> States Parties shall afford one another the greatest measure of assistance in connection with criminal proceedings brought in respect of the offences set forth in the present Convention, including the supply of all evidence at their disposal necessary for the proceedings. The law of the State whose assistance is requested shall apply in all cases.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> The provisions of paragraph 1 of this article shall not affect obligations concerning mutual judicial assistance embodied in any other treaty.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> The offences set forth in articles 2, 3 and 4 of the present Convention shall be deemed to be included as extraditable offences in any extradition treaty existing between States Parties. States Parties undertake to include such offences as extraditable offences in every extradition treaty to be concluded between them.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> If a State Party which makes extradition conditional on the existence of a treaty receives a request for extradition from another State Party with which it has no extradition treaty, it may at its option consider the present Convention as the legal basis for extradition in respect of those offences. Extradition shall be subject to the other conditions provided by the law of the requested State.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac3">
+																<num>3.</num>
+																<content>
+																	<p> States Parties which do not make extradition conditional on the existence of a treaty shall recognize those offences as extraditable offences between themselves, subject to the conditions provided by the law of the requested State.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac4">
+																<num>4.</num>
+																<content>
+																	<p> The offences shall be treated, for the purpose of extradition between States Parties, as if they had been committed not only in the place in which they occurred but also in the territories of the States required to establish their jurisdiction in accordance with article 9 of the present Convention.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Any dispute between two or more States Parties concerning the interpretation or application of the present Convention which is not settled by negotiation shall, at the request of one of them, be submitted to arbitration. If, within six months from the date of the request for arbitration, the parties are unable to agree on the organization of the arbitration, any one of those parties may refer the dispute to the International Court of Justice by a request in conformity with the Statute of the Court.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Each State may, at the time of signature or ratification of the present Convention or accession thereto, declare that it does not consider itself bound by paragraph 1 of this article. The other States Parties shall not be bound by paragraph 1 of this article with respect to any State Party which has made such a reservation.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac3">
+																<num>3.</num>
+																<content>
+																	<p> Any State Party which has made a reservation in accordance with paragraph 2 of this article may at any time withdraw that reservation by notification to the Secretary-General of the United Nations.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> The present Convention shall be open for signature by all States until 31 December 1990 at United Nations Headquarters in New York.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> The present Convention shall be subject to ratification. The instruments of ratification shall be deposited with the Secretary-General of the United Nations.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac3">
+																<num>3.</num>
+																<content>
+																	<p> The present Convention shall remain open for accession by any State. The instruments of accession shall be deposited with the Secretary-General of the United Nations.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> The present Convention shall enter into force on the thirtieth day followinq the date of deposit of the twenty-second instrument of ratification or accession with the Secretary-General of the United Nations.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> For each State ratifying or acceding to the Convention after the deposit of the twenty-second instrument of ratification or accession, the Convention shall enter into force on the thirtieth day after deposit by such State of its instrument of ratification or accession.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Any State Party may denounce the present Convention by written notification to the Secretary-General of the United Nations.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Denunciation shall take effect one year after the date on which the notification is received by the Secretary-General of the United Nations.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Плаћеник је лице:</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Плаћеник је и свако лице које је у било којој другој ситуацији:</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Плаћеник из <ref wId="ref19" href="akn/rs/act/2015/23-1/srp@/!main~art_1" >члана 1. </ref>ове конвенције, који непосредно учествује у непријатељствима или у организованом акту насиља, у зависности од околности, врши кривично дело у смислу ове конвенције.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Овим чланом се ни на који начин не ограничава обим примене <ref wId="ref20" href="akn/rs/act/2015/23-1/srp@/!main~art_4" >члана 4. </ref>Конвенције.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Државе чланице обавезују се да неће регрутовати, користити, финансирати или обучавати плаћенике и да ће такве радње инкриминисати, у складу са одредбама ове конвенције.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Државе чланице обавезују се да неће регрутовати, користити, финансирати или обучавати плаћенике са циљем супротстављања легитимном остваривању неотуђивог права народа на самоопредељење, како је предвиђено међународним правом, и предузеће, у складу са међународним правом, одговарајуће мере да спрече регрутовање, коришћење, финансирање или обуку плаћеника у ову сврху.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac3">
+																<num>3.</num>
+																<content>
+																	<p> Државе чланице дужне су да предвиде одговарајући опсег казни за кривична дела из ове конвенције, водећи рачуна о тешкој природи ових дела.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Свака држава чланица предузима мере неопходне за заснивање своје надлежности за било које од кривичних дела која су предмет ове конвенције:</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Свака држава чланица такође предузима мере неопходне за заснивање своје надлежности за кривична дела из чл. <ref wId="ref21" href="akn/rs/act/2015/23-1/srp@/!main~art_2" >2</ref>, <ref wId="ref22" href="akn/rs/act/2015/23-1/srp@/!main~art_3" >3</ref>. и <ref wId="ref23" href="akn/rs/act/2015/23-1/srp@/!main~art_4" >4</ref>. Конвенције, у случају када се окривљени налази на њеној територији, а не изручује га ни једној од држава наведених у <ref wId="ref24" href="akn/rs/act/2015/23-1/srp@/!main~art_6__para_1" >ставу 1. овог</ref> члана.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac3">
+																<num>3.</num>
+																<content>
+																	<p> Овом конвенцијом се не искључује било која кривична надлежност заснована у складу са националним законом.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Пошто се увери да то околности налажу, свака држава чланица на чијој територији се налази окривљени, одређује му притвор, у складу са њеним законима, или предузима друге мере којима се обезбеђује његово присуство, у трајању колико је неопходно да се покрене кривични поступак или поступак изручења. Држава чланица без одлагања предузима предистражне радње ради утврђивања чињеница.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Када држава чланица, у складу са овим чланом, одреди притвор окривљеном или предузме друге мере из <ref wId="ref25" href="akn/rs/act/2015/23-1/srp@/!main~art_6__para_1" >става 1. овог</ref> члана, она о томе, без одлагања, обавештава, непосредно или преко генералног секретара Уједињених нација:</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac3">
+																<num>3.</num>
+																<content>
+																	<p> Свако лице према којем се предузимају мере из <ref wId="ref26" href="akn/rs/act/2015/23-1/srp@/!main~art_6__para_1" >става 1. овог</ref> члана, има правo:</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac4">
+																<num>4.</num>
+																<content>
+																	<p> Одредба из <ref wId="ref28" href="akn/rs/act/2015/23-1/srp@/!main~art_6__para_3" >става 3. овог</ref> члана не прејудицира право државе чланице да заснује надлежност, у складу са <ref wId="ref27" href="akn/rs/act/2015/23-1/srp@/!main~art_9__para_1" >чланом 9. став 1</ref>(б), да упути позив Међународном комитету Црвеног крста да ступи у контакт и посети окривљеног.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac5">
+																<num>5.</num>
+																<content>
+																	<p> Држава која спроводи преткривични поступак, како је предвиђено <ref wId="ref29" href="akn/rs/act/2015/23-1/srp@/!main~art_6__para_1" >ставом 1. овог</ref> члана, обавештава одмах државе из <ref wId="ref30" href="akn/rs/act/2015/23-1/srp@/!main~art_6__para_2" >става 2. овог</ref> члана о прикупљеним доказима и изјашњава се да ли намерава да врши надлежност.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Државе чланице пружају једна другој најширу могућу помоћ у вези са кривичним поступком покренутим због кривичних дела из ове конвенције, укључујући стављање на располагање свих доказа неопходних за вођење поступка. Закон државе чија се помоћ тражи примењује се у свим случајевима.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Одредбе <ref wId="ref31" href="akn/rs/act/2015/23-1/srp@/!main~art_6__para_1" >става 1. овог</ref> члана не утичу на обавезе преузете неким другим споразумом о међународној правној помоћи.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Кривична дела из чл. <ref wId="ref32" href="akn/rs/act/2015/23-1/srp@/!main~art_2" >2</ref>, <ref wId="ref33" href="akn/rs/act/2015/23-1/srp@/!main~art_3" >3</ref>. и <ref wId="ref34" href="akn/rs/act/2015/23-1/srp@/!main~art_4" >4</ref>. Конвенције сматрају се делима за која је дозвољено изручење на основу било ког постојећег уговора о изручењу закљученог између држава чланица. Државе чланице обавезују се да, кривична дела подложна изручењу, укључе у сваки уговор о изручењу, који буде закључен између њих.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Ако држава чланица која условљава изручење постојањем уговора о изручењу, прими захтев за изручење од друге државе чланице са којом нема закључен такав уговор, може се определити да ову конвенцију узме као правни основ за изручење у погледу кривичних дела из ове конвенције. Изручење подлеже и другим условима предвиђеним правом замољене државе.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac3">
+																<num>3.</num>
+																<content>
+																	<p> Државе чланице, које не условљавају изручење постојањем уговора о изручењу, међусобно ће признати ова кривична дела као дела подложна изручењу, сходно условима предвиђеним правом замољене државе.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac4">
+																<num>4.</num>
+																<content>
+																	<p> Ова кривична дела третираће се, за потребе изручења између држава чланица, као да су извршена, не само у месту извршења већ и на територији држава које су, у складу са <ref wId="ref35" href="akn/rs/act/2015/23-1/srp@/!main~art_9" >чланом 9. </ref>ове конвенције, обавезне да заснују своју надлежност.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Сваки спор који настане, између две или више држава чланица, у вези са тумачењем или применом одредби ове конвенције, који се не реши преговорима, подноси се, на захтев једне од њих, на арбитражу. Ако у року од шест месеци, од дана подношења захтева за арбитражу, стране у спору нису у стању да се договоре о организовању арбитраже, било која од њих може покренути спор пред Међународним судом правде, на основу захтева сачињеног у складу са Статутом Суда.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Свака држава, у тренутку потписивања или ратификације ове конвенције, као и приликом накнадног приступања, може да изјави да се не сматра везаном <ref wId="ref36" href="akn/rs/act/2015/23-1/srp@/!main~art_6__para_1" >ставом 1. овог</ref> члана. Остале државе чланице неће бити везане <ref wId="ref37" href="akn/rs/act/2015/23-1/srp@/!main~art_6__para_1" >ставом 1. овог</ref> члана у односу прама оним државама чланицама које су ставиле такву резерву.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac3">
+																<num>3.</num>
+																<content>
+																	<p> Свака држава чланица која је ставила резерву у складу са <ref wId="ref38" href="akn/rs/act/2015/23-1/srp@/!main~art_6__para_2" >ставом 2. овог</ref> члана може, у сваком тренутку, повући ту резерву упућивањем обавештења генералном секретару Уједињених нација.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Конвенција је отворена за потписивање свим државама до 31. децембра 1990. године у седишту Уједињених нација у Њујорку.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Конвенција подлеже ратификацији. Ратификациони инструменти депонују се код генералног секретара Уједињених нација.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac3">
+																<num>3.</num>
+																<content>
+																	<p> Конвенција је отворена за приступање свим државама. Инструменти о приступању депонују се код генералног секретара Уједињених нација.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Конвенција ступа на снагу тридесетог дана након датума депоновања двадесет другог инструмента о ратификацији или приступању код генералног секретара Уједињених нација.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> За сваку државу која ратификује или приступа Конвенцији након депоновања двадесет другог инструмента о ратификацији или приступању, Конвенција ступа на снагу тридесетог дана након депоновања инструмента о ратификацији или приступању од стране те државе.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Свака држава чланица може отказати Конвенцију упућивањем писаног обавештења генералном секретару Уједињених нација.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Отказ ступа на снагу годину дана од датума пријема обавештења о отказу од стране генералног секретара Уједињених нација.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> A mercenary is any person who:</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> A mercenary is also any person who, in any other situation:</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> A mercenary, as defined in article 1 of the present Convention, who participates directly in hostilities or in a concerted act of violence, as the case may be, commits an offence for the purposes of the Convention.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Nothing in this article limits the scope of application of article 4 of the present Convention.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> States Parties shall not recruit, use, finance or train mercenaries and shall prohibit such activities in accordance with the provisions of the present Convention.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> States Parties shall not recruit, use, finance or train mercenaries for the purpose of opposinq the leqitimate exercise of the inalienable right of peoples to self-determination, as recognized by international law, and shall take, in conformity with international law, the appropriate measures to prevent the recruitment, use, financing or training of mercenaries for that purpose.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac3">
+																<num>3.</num>
+																<content>
+																	<p> They shall make the offences set forth in the present Convention punishable by appropriate penalties which take into account the grave nature of those offences.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Each state Party shall take such measures as may be necessary to establish its jurisdiction over any of the offences set forth in the present Convention which ace committed:</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Each State Party shall likewise take such measures as may be necessary to establish its jurisdiction over the offences set forth in articles 2,3 and 4 of the present Convention in cases where the alleged offender is present in its territory and it does not extradite him to any of the States mentioned in paragraph 1 of this article.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac3">
+																<num>3.</num>
+																<content>
+																	<p> The present Convention does not exclude any criminal jurisdiction exercised in accordance with national law.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Upon being satisfied that the circumstances so warrant, any State Party in whose territory the alleged offender is present shall, in accordance with its laws, take him into custody or take such other measures to ensure his presence for such time as is necessary to enable any criminal or extradition proceedings to be instituted. The State Party shall immediately make a preliminary inquiry into the facts.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> When a State Party, pursuant to this article, has taken a person into custody or has taken such other measures referred to in paragraph 1 of this article, it shall notify without delay either directly or through the Secretary-General of the United Nations:</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac3">
+																<num>3.</num>
+																<content>
+																	<p> Any person regarding whom the measures referred to in paragraph 1 of this article are being taken shall be entitled:</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac4">
+																<num>4.</num>
+																<content>
+																	<p> The provisions of paragraph 3 of this article shall be without prejudice to the right of any State Party having a claim to jurisdiction in accordance with article 9, paragraph 1 (b), to invite the International Committee of the Red Cross to communicate with and visit the alleged offender.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac5">
+																<num>5.</num>
+																<content>
+																	<p> The State which makes the preliminary inquiry contemplated in paragraph 1 of this article shall promptly report its findings to the States referred to in paragraph 2 of this article and indicate whether it intends to exercise jurisdiction.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> States Parties shall afford one another the greatest measure of assistance in connection with criminal proceedings brought in respect of the offences set forth in the present Convention, including the supply of all evidence at their disposal necessary for the proceedings. The law of the State whose assistance is requested shall apply in all cases.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> The provisions of paragraph 1 of this article shall not affect obligations concerning mutual judicial assistance embodied in any other treaty.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> The offences set forth in articles 2, 3 and 4 of the present Convention shall be deemed to be included as extraditable offences in any extradition treaty existing between States Parties. States Parties undertake to include such offences as extraditable offences in every extradition treaty to be concluded between them.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> If a State Party which makes extradition conditional on the existence of a treaty receives a request for extradition from another State Party with which it has no extradition treaty, it may at its option consider the present Convention as the legal basis for extradition in respect of those offences. Extradition shall be subject to the other conditions provided by the law of the requested State.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac3">
+																<num>3.</num>
+																<content>
+																	<p> States Parties which do not make extradition conditional on the existence of a treaty shall recognize those offences as extraditable offences between themselves, subject to the conditions provided by the law of the requested State.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac4">
+																<num>4.</num>
+																<content>
+																	<p> The offences shall be treated, for the purpose of extradition between States Parties, as if they had been committed not only in the place in which they occurred but also in the territories of the States required to establish their jurisdiction in accordance with article 9 of the present Convention.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Any dispute between two or more States Parties concerning the interpretation or application of the present Convention which is not settled by negotiation shall, at the request of one of them, be submitted to arbitration. If, within six months from the date of the request for arbitration, the parties are unable to agree on the organization of the arbitration, any one of those parties may refer the dispute to the International Court of Justice by a request in conformity with the Statute of the Court.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Each State may, at the time of signature or ratification of the present Convention or accession thereto, declare that it does not consider itself bound by paragraph 1 of this article. The other States Parties shall not be bound by paragraph 1 of this article with respect to any State Party which has made such a reservation.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac3">
+																<num>3.</num>
+																<content>
+																	<p> Any State Party which has made a reservation in accordance with paragraph 2 of this article may at any time withdraw that reservation by notification to the Secretary-General of the United Nations.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> The present Convention shall be open for signature by all States until 31 December 1990 at United Nations Headquarters in New York.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> The present Convention shall be subject to ratification. The instruments of ratification shall be deposited with the Secretary-General of the United Nations.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac3">
+																<num>3.</num>
+																<content>
+																	<p> The present Convention shall remain open for accession by any State. The instruments of accession shall be deposited with the Secretary-General of the United Nations.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> The present Convention shall enter into force on the thirtieth day followinq the date of deposit of the twenty-second instrument of ratification or accession with the Secretary-General of the United Nations.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> For each State ratifying or acceding to the Convention after the deposit of the twenty-second instrument of ratification or accession, the Convention shall enter into force on the thirtieth day after deposit by such State of its instrument of ratification or accession.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Any State Party may denounce the present Convention by written notification to the Secretary-General of the United Nations.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Denunciation shall take effect one year after the date on which the notification is received by the Secretary-General of the United Nations.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Плаћеник је лице:</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Плаћеник је и свако лице које је у било којој другој ситуацији:</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Плаћеник из <ref wId="ref39" href="akn/rs/act/2015/23-1/srp@/!main~art_1" >члана 1. </ref>ове конвенције, који непосредно учествује у непријатељствима или у организованом акту насиља, у зависности од околности, врши кривично дело у смислу ове конвенције.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Овим чланом се ни на који начин не ограничава обим примене <ref wId="ref40" href="akn/rs/act/2015/23-1/srp@/!main~art_4" >члана 4. </ref>Конвенције.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Државе чланице обавезују се да неће регрутовати, користити, финансирати или обучавати плаћенике и да ће такве радње инкриминисати, у складу са одредбама ове конвенције.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Државе чланице обавезују се да неће регрутовати, користити, финансирати или обучавати плаћенике са циљем супротстављања легитимном остваривању неотуђивог права народа на самоопредељење, како је предвиђено међународним правом, и предузеће, у складу са међународним правом, одговарајуће мере да спрече регрутовање, коришћење, финансирање или обуку плаћеника у ову сврху.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac3">
+																<num>3.</num>
+																<content>
+																	<p> Државе чланице дужне су да предвиде одговарајући опсег казни за кривична дела из ове конвенције, водећи рачуна о тешкој природи ових дела.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Свака држава чланица предузима мере неопходне за заснивање своје надлежности за било које од кривичних дела која су предмет ове конвенције:</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Свака држава чланица такође предузима мере неопходне за заснивање своје надлежности за кривична дела из чл. <ref wId="ref41" href="akn/rs/act/2015/23-1/srp@/!main~art_2" >2</ref>, <ref wId="ref42" href="akn/rs/act/2015/23-1/srp@/!main~art_3" >3</ref>. и <ref wId="ref43" href="akn/rs/act/2015/23-1/srp@/!main~art_4" >4</ref>. Конвенције, у случају када се окривљени налази на њеној територији, а не изручује га ни једној од држава наведених у <ref wId="ref44" href="akn/rs/act/2015/23-1/srp@/!main~art_6__para_1" >ставу 1. овог</ref> члана.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac3">
+																<num>3.</num>
+																<content>
+																	<p> Овом конвенцијом се не искључује било која кривична надлежност заснована у складу са националним законом.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Пошто се увери да то околности налажу, свака држава чланица на чијој територији се налази окривљени, одређује му притвор, у складу са њеним законима, или предузима друге мере којима се обезбеђује његово присуство, у трајању колико је неопходно да се покрене кривични поступак или поступак изручења. Држава чланица без одлагања предузима предистражне радње ради утврђивања чињеница.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Када држава чланица, у складу са овим чланом, одреди притвор окривљеном или предузме друге мере из <ref wId="ref45" href="akn/rs/act/2015/23-1/srp@/!main~art_6__para_1" >става 1. овог</ref> члана, она о томе, без одлагања, обавештава, непосредно или преко генералног секретара Уједињених нација:</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac3">
+																<num>3.</num>
+																<content>
+																	<p> Свако лице према којем се предузимају мере из <ref wId="ref46" href="akn/rs/act/2015/23-1/srp@/!main~art_6__para_1" >става 1. овог</ref> члана, има правo:</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac4">
+																<num>4.</num>
+																<content>
+																	<p> Одредба из <ref wId="ref48" href="akn/rs/act/2015/23-1/srp@/!main~art_6__para_3" >става 3. овог</ref> члана не прејудицира право државе чланице да заснује надлежност, у складу са <ref wId="ref47" href="akn/rs/act/2015/23-1/srp@/!main~art_9__para_1" >чланом 9. став 1</ref>(б), да упути позив Међународном комитету Црвеног крста да ступи у контакт и посети окривљеног.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac5">
+																<num>5.</num>
+																<content>
+																	<p> Држава која спроводи преткривични поступак, како је предвиђено <ref wId="ref49" href="akn/rs/act/2015/23-1/srp@/!main~art_6__para_1" >ставом 1. овог</ref> члана, обавештава одмах државе из <ref wId="ref50" href="akn/rs/act/2015/23-1/srp@/!main~art_6__para_2" >става 2. овог</ref> члана о прикупљеним доказима и изјашњава се да ли намерава да врши надлежност.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Државе чланице пружају једна другој најширу могућу помоћ у вези са кривичним поступком покренутим због кривичних дела из ове конвенције, укључујући стављање на располагање свих доказа неопходних за вођење поступка. Закон државе чија се помоћ тражи примењује се у свим случајевима.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Одредбе <ref wId="ref51" href="akn/rs/act/2015/23-1/srp@/!main~art_6__para_1" >става 1. овог</ref> члана не утичу на обавезе преузете неким другим споразумом о међународној правној помоћи.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Кривична дела из чл. <ref wId="ref52" href="akn/rs/act/2015/23-1/srp@/!main~art_2" >2</ref>, <ref wId="ref53" href="akn/rs/act/2015/23-1/srp@/!main~art_3" >3</ref>. и <ref wId="ref54" href="akn/rs/act/2015/23-1/srp@/!main~art_4" >4</ref>. Конвенције сматрају се делима за која је дозвољено изручење на основу било ког постојећег уговора о изручењу закљученог између држава чланица. Државе чланице обавезују се да, кривична дела подложна изручењу, укључе у сваки уговор о изручењу, који буде закључен између њих.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Ако држава чланица која условљава изручење постојањем уговора о изручењу, прими захтев за изручење од друге државе чланице са којом нема закључен такав уговор, може се определити да ову конвенцију узме као правни основ за изручење у погледу кривичних дела из ове конвенције. Изручење подлеже и другим условима предвиђеним правом замољене државе.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac3">
+																<num>3.</num>
+																<content>
+																	<p> Државе чланице, које не условљавају изручење постојањем уговора о изручењу, међусобно ће признати ова кривична дела као дела подложна изручењу, сходно условима предвиђеним правом замољене државе.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac4">
+																<num>4.</num>
+																<content>
+																	<p> Ова кривична дела третираће се, за потребе изручења између држава чланица, као да су извршена, не само у месту извршења већ и на територији држава које су, у складу са <ref wId="ref55" href="akn/rs/act/2015/23-1/srp@/!main~art_9" >чланом 9. </ref>ове конвенције, обавезне да заснују своју надлежност.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Сваки спор који настане, између две или више држава чланица, у вези са тумачењем или применом одредби ове конвенције, који се не реши преговорима, подноси се, на захтев једне од њих, на арбитражу. Ако у року од шест месеци, од дана подношења захтева за арбитражу, стране у спору нису у стању да се договоре о организовању арбитраже, било која од њих може покренути спор пред Међународним судом правде, на основу захтева сачињеног у складу са Статутом Суда.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Свака држава, у тренутку потписивања или ратификације ове конвенције, као и приликом накнадног приступања, може да изјави да се не сматра везаном <ref wId="ref56" href="akn/rs/act/2015/23-1/srp@/!main~art_6__para_1" >ставом 1. овог</ref> члана. Остале државе чланице неће бити везане <ref wId="ref57" href="akn/rs/act/2015/23-1/srp@/!main~art_6__para_1" >ставом 1. овог</ref> члана у односу прама оним државама чланицама које су ставиле такву резерву.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac3">
+																<num>3.</num>
+																<content>
+																	<p> Свака држава чланица која је ставила резерву у складу са <ref wId="ref58" href="akn/rs/act/2015/23-1/srp@/!main~art_6__para_2" >ставом 2. овог</ref> члана може, у сваком тренутку, повући ту резерву упућивањем обавештења генералном секретару Уједињених нација.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Конвенција је отворена за потписивање свим државама до 31. децембра 1990. године у седишту Уједињених нација у Њујорку.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Конвенција подлеже ратификацији. Ратификациони инструменти депонују се код генералног секретара Уједињених нација.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac3">
+																<num>3.</num>
+																<content>
+																	<p> Конвенција је отворена за приступање свим државама. Инструменти о приступању депонују се код генералног секретара Уједињених нација.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Конвенција ступа на снагу тридесетог дана након датума депоновања двадесет другог инструмента о ратификацији или приступању код генералног секретара Уједињених нација.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> За сваку државу која ратификује или приступа Конвенцији након депоновања двадесет другог инструмента о ратификацији или приступању, Конвенција ступа на снагу тридесетог дана након депоновања инструмента о ратификацији или приступању од стране те државе.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Свака држава чланица може отказати Конвенцију упућивањем писаног обавештења генералном секретару Уједињених нација.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Отказ ступа на снагу годину дана од датума пријема обавештења о отказу од стране генералног секретара Уједињених нација.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> A mercenary is any person who:</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> A mercenary is also any person who, in any other situation:</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> A mercenary, as defined in article 1 of the present Convention, who participates directly in hostilities or in a concerted act of violence, as the case may be, commits an offence for the purposes of the Convention.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Nothing in this article limits the scope of application of article 4 of the present Convention.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> States Parties shall not recruit, use, finance or train mercenaries and shall prohibit such activities in accordance with the provisions of the present Convention.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> States Parties shall not recruit, use, finance or train mercenaries for the purpose of opposinq the leqitimate exercise of the inalienable right of peoples to self-determination, as recognized by international law, and shall take, in conformity with international law, the appropriate measures to prevent the recruitment, use, financing or training of mercenaries for that purpose.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac3">
+																<num>3.</num>
+																<content>
+																	<p> They shall make the offences set forth in the present Convention punishable by appropriate penalties which take into account the grave nature of those offences.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Each state Party shall take such measures as may be necessary to establish its jurisdiction over any of the offences set forth in the present Convention which ace committed:</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Each State Party shall likewise take such measures as may be necessary to establish its jurisdiction over the offences set forth in articles 2,3 and 4 of the present Convention in cases where the alleged offender is present in its territory and it does not extradite him to any of the States mentioned in paragraph 1 of this article.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac3">
+																<num>3.</num>
+																<content>
+																	<p> The present Convention does not exclude any criminal jurisdiction exercised in accordance with national law.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Upon being satisfied that the circumstances so warrant, any State Party in whose territory the alleged offender is present shall, in accordance with its laws, take him into custody or take such other measures to ensure his presence for such time as is necessary to enable any criminal or extradition proceedings to be instituted. The State Party shall immediately make a preliminary inquiry into the facts.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> When a State Party, pursuant to this article, has taken a person into custody or has taken such other measures referred to in paragraph 1 of this article, it shall notify without delay either directly or through the Secretary-General of the United Nations:</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac3">
+																<num>3.</num>
+																<content>
+																	<p> Any person regarding whom the measures referred to in paragraph 1 of this article are being taken shall be entitled:</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac4">
+																<num>4.</num>
+																<content>
+																	<p> The provisions of paragraph 3 of this article shall be without prejudice to the right of any State Party having a claim to jurisdiction in accordance with article 9, paragraph 1 (b), to invite the International Committee of the Red Cross to communicate with and visit the alleged offender.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac5">
+																<num>5.</num>
+																<content>
+																	<p> The State which makes the preliminary inquiry contemplated in paragraph 1 of this article shall promptly report its findings to the States referred to in paragraph 2 of this article and indicate whether it intends to exercise jurisdiction.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> States Parties shall afford one another the greatest measure of assistance in connection with criminal proceedings brought in respect of the offences set forth in the present Convention, including the supply of all evidence at their disposal necessary for the proceedings. The law of the State whose assistance is requested shall apply in all cases.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> The provisions of paragraph 1 of this article shall not affect obligations concerning mutual judicial assistance embodied in any other treaty.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> The offences set forth in articles 2, 3 and 4 of the present Convention shall be deemed to be included as extraditable offences in any extradition treaty existing between States Parties. States Parties undertake to include such offences as extraditable offences in every extradition treaty to be concluded between them.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> If a State Party which makes extradition conditional on the existence of a treaty receives a request for extradition from another State Party with which it has no extradition treaty, it may at its option consider the present Convention as the legal basis for extradition in respect of those offences. Extradition shall be subject to the other conditions provided by the law of the requested State.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac3">
+																<num>3.</num>
+																<content>
+																	<p> States Parties which do not make extradition conditional on the existence of a treaty shall recognize those offences as extraditable offences between themselves, subject to the conditions provided by the law of the requested State.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac4">
+																<num>4.</num>
+																<content>
+																	<p> The offences shall be treated, for the purpose of extradition between States Parties, as if they had been committed not only in the place in which they occurred but also in the territories of the States required to establish their jurisdiction in accordance with article 9 of the present Convention.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Any dispute between two or more States Parties concerning the interpretation or application of the present Convention which is not settled by negotiation shall, at the request of one of them, be submitted to arbitration. If, within six months from the date of the request for arbitration, the parties are unable to agree on the organization of the arbitration, any one of those parties may refer the dispute to the International Court of Justice by a request in conformity with the Statute of the Court.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Each State may, at the time of signature or ratification of the present Convention or accession thereto, declare that it does not consider itself bound by paragraph 1 of this article. The other States Parties shall not be bound by paragraph 1 of this article with respect to any State Party which has made such a reservation.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac3">
+																<num>3.</num>
+																<content>
+																	<p> Any State Party which has made a reservation in accordance with paragraph 2 of this article may at any time withdraw that reservation by notification to the Secretary-General of the United Nations.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> The present Convention shall be open for signature by all States until 31 December 1990 at United Nations Headquarters in New York.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> The present Convention shall be subject to ratification. The instruments of ratification shall be deposited with the Secretary-General of the United Nations.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac3">
+																<num>3.</num>
+																<content>
+																	<p> The present Convention shall remain open for accession by any State. The instruments of accession shall be deposited with the Secretary-General of the United Nations.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> The present Convention shall enter into force on the thirtieth day followinq the date of deposit of the twenty-second instrument of ratification or accession with the Secretary-General of the United Nations.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> For each State ratifying or acceding to the Convention after the deposit of the twenty-second instrument of ratification or accession, the Convention shall enter into force on the thirtieth day after deposit by such State of its instrument of ratification or accession.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Any State Party may denounce the present Convention by written notification to the Secretary-General of the United Nations.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Denunciation shall take effect one year after the date on which the notification is received by the Secretary-General of the United Nations.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Плаћеник је лице:</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Плаћеник је и свако лице које је у било којој другој ситуацији:</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Плаћеник из <ref wId="ref59" href="akn/rs/act/2015/23-1/srp@/!main~art_1" >члана 1. </ref>ове конвенције, који непосредно учествује у непријатељствима или у организованом акту насиља, у зависности од околности, врши кривично дело у смислу ове конвенције.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Овим чланом се ни на који начин не ограничава обим примене <ref wId="ref60" href="akn/rs/act/2015/23-1/srp@/!main~art_4" >члана 4. </ref>Конвенције.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Државе чланице обавезују се да неће регрутовати, користити, финансирати или обучавати плаћенике и да ће такве радње инкриминисати, у складу са одредбама ове конвенције.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Државе чланице обавезују се да неће регрутовати, користити, финансирати или обучавати плаћенике са циљем супротстављања легитимном остваривању неотуђивог права народа на самоопредељење, како је предвиђено међународним правом, и предузеће, у складу са међународним правом, одговарајуће мере да спрече регрутовање, коришћење, финансирање или обуку плаћеника у ову сврху.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac3">
+																<num>3.</num>
+																<content>
+																	<p> Државе чланице дужне су да предвиде одговарајући опсег казни за кривична дела из ове конвенције, водећи рачуна о тешкој природи ових дела.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Свака држава чланица предузима мере неопходне за заснивање своје надлежности за било које од кривичних дела која су предмет ове конвенције:</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Свака држава чланица такође предузима мере неопходне за заснивање своје надлежности за кривична дела из чл. <ref wId="ref61" href="akn/rs/act/2015/23-1/srp@/!main~art_2" >2</ref>, <ref wId="ref62" href="akn/rs/act/2015/23-1/srp@/!main~art_3" >3</ref>. и <ref wId="ref63" href="akn/rs/act/2015/23-1/srp@/!main~art_4" >4</ref>. Конвенције, у случају када се окривљени налази на њеној територији, а не изручује га ни једној од држава наведених у <ref wId="ref64" href="akn/rs/act/2015/23-1/srp@/!main~art_6__para_1" >ставу 1. овог</ref> члана.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac3">
+																<num>3.</num>
+																<content>
+																	<p> Овом конвенцијом се не искључује било која кривична надлежност заснована у складу са националним законом.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Пошто се увери да то околности налажу, свака држава чланица на чијој територији се налази окривљени, одређује му притвор, у складу са њеним законима, или предузима друге мере којима се обезбеђује његово присуство, у трајању колико је неопходно да се покрене кривични поступак или поступак изручења. Држава чланица без одлагања предузима предистражне радње ради утврђивања чињеница.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Када држава чланица, у складу са овим чланом, одреди притвор окривљеном или предузме друге мере из <ref wId="ref65" href="akn/rs/act/2015/23-1/srp@/!main~art_6__para_1" >става 1. овог</ref> члана, она о томе, без одлагања, обавештава, непосредно или преко генералног секретара Уједињених нација:</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac3">
+																<num>3.</num>
+																<content>
+																	<p> Свако лице према којем се предузимају мере из <ref wId="ref66" href="akn/rs/act/2015/23-1/srp@/!main~art_6__para_1" >става 1. овог</ref> члана, има правo:</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac4">
+																<num>4.</num>
+																<content>
+																	<p> Одредба из <ref wId="ref68" href="akn/rs/act/2015/23-1/srp@/!main~art_6__para_3" >става 3. овог</ref> члана не прејудицира право државе чланице да заснује надлежност, у складу са <ref wId="ref67" href="akn/rs/act/2015/23-1/srp@/!main~art_9__para_1" >чланом 9. став 1</ref>(б), да упути позив Међународном комитету Црвеног крста да ступи у контакт и посети окривљеног.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac5">
+																<num>5.</num>
+																<content>
+																	<p> Држава која спроводи преткривични поступак, како је предвиђено <ref wId="ref69" href="akn/rs/act/2015/23-1/srp@/!main~art_6__para_1" >ставом 1. овог</ref> члана, обавештава одмах државе из <ref wId="ref70" href="akn/rs/act/2015/23-1/srp@/!main~art_6__para_2" >става 2. овог</ref> члана о прикупљеним доказима и изјашњава се да ли намерава да врши надлежност.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Државе чланице пружају једна другој најширу могућу помоћ у вези са кривичним поступком покренутим због кривичних дела из ове конвенције, укључујући стављање на располагање свих доказа неопходних за вођење поступка. Закон државе чија се помоћ тражи примењује се у свим случајевима.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Одредбе <ref wId="ref71" href="akn/rs/act/2015/23-1/srp@/!main~art_6__para_1" >става 1. овог</ref> члана не утичу на обавезе преузете неким другим споразумом о међународној правној помоћи.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Кривична дела из чл. <ref wId="ref72" href="akn/rs/act/2015/23-1/srp@/!main~art_2" >2</ref>, <ref wId="ref73" href="akn/rs/act/2015/23-1/srp@/!main~art_3" >3</ref>. и <ref wId="ref74" href="akn/rs/act/2015/23-1/srp@/!main~art_4" >4</ref>. Конвенције сматрају се делима за која је дозвољено изручење на основу било ког постојећег уговора о изручењу закљученог између држава чланица. Државе чланице обавезују се да, кривична дела подложна изручењу, укључе у сваки уговор о изручењу, који буде закључен између њих.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Ако држава чланица која условљава изручење постојањем уговора о изручењу, прими захтев за изручење од друге државе чланице са којом нема закључен такав уговор, може се определити да ову конвенцију узме као правни основ за изручење у погледу кривичних дела из ове конвенције. Изручење подлеже и другим условима предвиђеним правом замољене државе.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac3">
+																<num>3.</num>
+																<content>
+																	<p> Државе чланице, које не условљавају изручење постојањем уговора о изручењу, међусобно ће признати ова кривична дела као дела подложна изручењу, сходно условима предвиђеним правом замољене државе.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac4">
+																<num>4.</num>
+																<content>
+																	<p> Ова кривична дела третираће се, за потребе изручења између држава чланица, као да су извршена, не само у месту извршења већ и на територији држава које су, у складу са <ref wId="ref75" href="akn/rs/act/2015/23-1/srp@/!main~art_9" >чланом 9. </ref>ове конвенције, обавезне да заснују своју надлежност.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Сваки спор који настане, између две или више држава чланица, у вези са тумачењем или применом одредби ове конвенције, који се не реши преговорима, подноси се, на захтев једне од њих, на арбитражу. Ако у року од шест месеци, од дана подношења захтева за арбитражу, стране у спору нису у стању да се договоре о организовању арбитраже, било која од њих може покренути спор пред Међународним судом правде, на основу захтева сачињеног у складу са Статутом Суда.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Свака држава, у тренутку потписивања или ратификације ове конвенције, као и приликом накнадног приступања, може да изјави да се не сматра везаном <ref wId="ref76" href="akn/rs/act/2015/23-1/srp@/!main~art_6__para_1" >ставом 1. овог</ref> члана. Остале државе чланице неће бити везане <ref wId="ref77" href="akn/rs/act/2015/23-1/srp@/!main~art_6__para_1" >ставом 1. овог</ref> члана у односу прама оним државама чланицама које су ставиле такву резерву.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac3">
+																<num>3.</num>
+																<content>
+																	<p> Свака држава чланица која је ставила резерву у складу са <ref wId="ref78" href="akn/rs/act/2015/23-1/srp@/!main~art_6__para_2" >ставом 2. овог</ref> члана може, у сваком тренутку, повући ту резерву упућивањем обавештења генералном секретару Уједињених нација.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Конвенција је отворена за потписивање свим државама до 31. децембра 1990. године у седишту Уједињених нација у Њујорку.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Конвенција подлеже ратификацији. Ратификациони инструменти депонују се код генералног секретара Уједињених нација.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac3">
+																<num>3.</num>
+																<content>
+																	<p> Конвенција је отворена за приступање свим државама. Инструменти о приступању депонују се код генералног секретара Уједињених нација.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Конвенција ступа на снагу тридесетог дана након датума депоновања двадесет другог инструмента о ратификацији или приступању код генералног секретара Уједињених нација.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> За сваку државу која ратификује или приступа Конвенцији након депоновања двадесет другог инструмента о ратификацији или приступању, Конвенција ступа на снагу тридесетог дана након депоновања инструмента о ратификацији или приступању од стране те државе.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac1">
+																<num>1.</num>
+																<content>
+																	<p> Свака држава чланица може отказати Конвенцију упућивањем писаног обавештења генералном секретару Уједињених нација.</p>
+																</content>
+															</point>
+															<point wId="od1-clan6-stav1-tac2">
+																<num>2.</num>
+																<content>
+																	<p> Отказ ступа на снагу годину дана од датума пријема обавештења о отказу од стране генералног секретара Уједињених нација.</p>
+																</content>
+															</point>
+														</paragraph>
+													</article>
+												</section>
+											</section>
+										</section>
+									</section>
+								</section>
+							</section>
+						</section>
+					</section>
+				</section>
+			</section>
+		</body>
+	</act>
+</akomaNtoso>

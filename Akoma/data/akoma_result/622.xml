@@ -1,0 +1,195 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о престанку важења Закона о удруживању у  Заједницу југословенске електропривреде">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2009/104-57/main"/>
+					<FRBRuri value="/rs/act/2009/104-57"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2009/104-57/srp@/main"/>
+					<FRBRuri value="/rs/act/2009/104-57/srp@"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2009/104-57/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2009/104-57/srp@.akn"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2009-12-16" name="“службени гласник рс" number="104" showAs="“Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="XIV САОБРАЋАЈ, ВЕЗЕ И ЕНЕРГЕТИКА" value="xiv саобраћај, везе и енергетика" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="7. Енергетика" value="7. енергетика" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2009-12-11" wId="usvajanje"/>
+				<step by="#TODO" date="2009-12-24" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2009-12-24" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у Службеном гласнику Републике Србије, односно 24. децембра 2009. године (види члан 3. Закона).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О престанку важења закона о удруживању у  заједницу југословенске електропривреде “Службени гласник РС”, број 104 од 16. децембра 2009.</p>
+			</longTitle>
+			<p>﻿</p>
+		</preface>
+		<body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Престаје да важи Закон о удруживању у Заједницу југословенске електропривреде ("<ref wId="ref0" href="akn/rs/act/78/18/srp@">Службени лист СФРЈ", број 18/78</ref>).</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Даном ступања на снагу овог закона права, обавезе, средства, документацију, предмете и запослене у Заједници југословенске електропривреде преузимају Јавно предузеће "Електропривреда Србије", Београд, и Јавно предузеће "Електромрежа Србије", Београд, у складу са Споразумом о начину преузимања права, обавеза, средстава, документације и запослених Заједнице југословенске електропривреде, који су закључили Јавно предузеће "Електропривреда Србије", Београд и Јавно предузеће "Електромрежа Србије", Београд, 2007. године.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од дана објављивања у "Службеном гласнику Републике Србије".</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav2">
+					<content>
+						<p>ЗАКОН</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav3">
+					<content>
+						<p>о престанку важења Закона о удруживању у  Заједницу југословенске електропривреде</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav4">
+					<content>
+						<p>“Службени гласник РС”, број 104 од 16. децембра 2009.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Престаје да важи Закон о удруживању у Заједницу југословенске електропривреде ("Службени лист СФРЈ", број 18/78).</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Даном ступања на снагу овог закона права, обавезе, средства, документацију, предмете и запослене у Заједници југословенске електропривреде преузимају Јавно предузеће "Електропривреда Србије", Београд, и Јавно предузеће "Електромрежа Србије", Београд, у складу са Споразумом о начину преузимања права, обавеза, средстава, документације и запослених Заједнице југословенске електропривреде, који су закључили Јавно предузеће "Електропривреда Србије", Београд и Јавно предузеће "Електромрежа Србије", Београд, 2007. године.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од дана објављивања у "Службеном гласнику Републике Србије".</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav2">
+					<content>
+						<p>ЗАКОН</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav3">
+					<content>
+						<p>о престанку важења Закона о удруживању у  Заједницу југословенске електропривреде</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav4">
+					<content>
+						<p>“Службени гласник РС”, број 104 од 16. децембра 2009.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Престаје да важи Закон о удруживању у Заједницу југословенске електропривреде ("Службени лист СФРЈ", број 18/78).</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Даном ступања на снагу овог закона права, обавезе, средства, документацију, предмете и запослене у Заједници југословенске електропривреде преузимају Јавно предузеће "Електропривреда Србије", Београд, и Јавно предузеће "Електромрежа Србије", Београд, у складу са Споразумом о начину преузимања права, обавеза, средстава, документације и запослених Заједнице југословенске електропривреде, који су закључили Јавно предузеће "Електропривреда Србије", Београд и Јавно предузеће "Електромрежа Србије", Београд, 2007. године.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од дана објављивања у "Службеном гласнику Републике Србије".</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav2">
+					<content>
+						<p>ЗАКОН</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav3">
+					<content>
+						<p>о престанку важења Закона о удруживању у  Заједницу југословенске електропривреде</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav4">
+					<content>
+						<p>“Службени гласник РС”, број 104 од 16. децембра 2009.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Престаје да важи Закон о удруживању у Заједницу југословенске електропривреде ("Службени лист СФРЈ", број 18/78).</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Даном ступања на снагу овог закона права, обавезе, средства, документацију, предмете и запослене у Заједници југословенске електропривреде преузимају Јавно предузеће "Електропривреда Србије", Београд, и Јавно предузеће "Електромрежа Србије", Београд, у складу са Споразумом о начину преузимања права, обавеза, средстава, документације и запослених Заједнице југословенске електропривреде, који су закључили Јавно предузеће "Електропривреда Србије", Београд и Јавно предузеће "Електромрежа Србије", Београд, 2007. године.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од дана објављивања у "Службеном гласнику Републике Србије".</p>
+					</content>
+				</paragraph>
+			</article>
+		</body>
+	</act>
+</akomaNtoso>

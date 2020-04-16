@@ -1,0 +1,2550 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о потврђивању Споразума између Владе Републике Србије и Владе Републике Хрватске о преносу надлежности за пружање услуга у ваздушном саобраћају">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2017/4-58/main"/>
+					<FRBRuri value="/rs/act/2017/4-58"/>
+					<FRBRdate date="2017-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2017/4-58/srp@/main"/>
+					<FRBRuri value="/rs/act/2017/4-58/srp@"/>
+					<FRBRdate date="2017-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2017/4-58/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2017/4-58/srp@.akn"/>
+					<FRBRdate date="2017-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2017-05-30" name="службени гласник рс - међународни уговори" number="4" showAs="Службени гласник РС - Међународни уговори"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="XIV САОБРАЋАЈ, ЕЛЕКТРОНСКЕ КОМУНИКАЦИЈЕ И ЕНЕРГЕТИКА" value="xiv саобраћај, електронске комуникације и енергетика" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="2. Ваздушни саобраћај" value="2. ваздушни саобраћај" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2017-05-29" wId="usvajanje"/>
+				<step by="#TODO" date="2017-06-07" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2017-06-07" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p/>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О потврђивању споразума између владе републике србије и владе републике хрватске о преносу надлежности за пружање услуга у ваздушном саобраћају "Службени гласник РС - Међународни уговори", број 4 од 30. маја 2017.</p>
+			</longTitle>
+			<p>Томислав Николић, с.р.</p>
+		</preface>
+		<preamble>
+			<p>На основу члана 112. став 1. тачка 2. Устава Републике Србије, доносим</p>
+			<p>УКАЗ</p>
+			<p>о проглашењу Закона о потврђивању Споразума између Владе Републике Србије и Владе Републике Хрватске о преносу надлежности за пружање услуга у ваздушном саобраћају</p>
+			<p>Проглашава се Закон о потврђивању Споразума између Владе Републике Србије и Владе Републике Хрватске о преносу надлежности за пружање услуга у ваздушном саобраћају, који је донела Народна скупштина Републике Србије, на Петој седници Првог редовног заседања у 2017. години, 29. маја 2017. године.</p>
+			<p>ПР број 29</p>
+			<p>У Београду, 29. маја 2017. године</p>
+			<p>Председник Републике,</p>
+		</preamble>
+		<body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Потврђује се Споразум између Владе Републике Србије и Владе Републике Хрватске о преносу надлежности за пружање услуга у ваздушном саобраћају, сачињен у Београду 17. децембра 2014. године, у оригиналу на енглеском језику.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Текст Споразума између Владе Републике Србије и Владе Републике Хрватске о преносу надлежности за пружање услуга у ваздушном саобраћају у оригиналу на енглеском језику и преводу на српски језик гласи:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>AGREEMENT BETWEEN THE GOVERNMENT OF THE REPUBLIC OF SERBIAAND THE GOVERNMENT OF THE REPUBLIC OF CROATIAON THE DELEGATION OF THE RESPONSIBILITY FOR THE PROVISION OF AIR TRAFFIC SERVICES</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav3">
+					<content>
+						<p>The Government of the Republic of Serbia and the Government of the Republic of Croatia (hereinafter: “the Contracting Parties”)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav4">
+					<content>
+						<p>Desiring to facilitate the safe conduct of international flight operations across their common State boundaries in the interests of the airspace users and their passengers;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav5">
+					<content>
+						<p>For the purpose of promoting air traffic services relations between the Contracting Parties for their mutual benefit;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav6">
+					<content>
+						<p>Being Parties to the Convention on International Civil Aviation, opened for signature at Chicago on December 7, 1944 and desiring to conclude an agreement for the purpose of providing Air Traffic Services according to the international Standards and Recommended Practices set out in Annex 11 to the Chicago Convention, across and beyond their respective territories;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav7">
+					<content>
+						<p>Referring to the ECAC Institutional Strategy for ATM in Europe and the Protocol consolidating the EUROCONTROL International Convention relating to Co-operation for the Safety of Air Navigation of 13 December 1960, as variously amended, which was opened for signature on 27 June 1997 (the revised Convention);</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav8">
+					<content>
+						<p>Desiring to conclude an agreement for the purpose of providing Air Traffic Services according to the Single European Sky legislation so that its objectives can be achieved and airspace users may benefit from its implementation;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav9">
+					<content>
+						<p>Referring to the Regulation (EC) No 550/2004 of the European Parliament and of the Council on the provision of air navigation services in the Single European Sky, as amended and in particular Article 2(4) stipulating that “National supervisory authorities shall make appropriate arrangements for close cooperation with each other to ensure adequate supervision of air navigation service providers holding a valid certificate from one Member State that also provide services relating to the airspace falling under the responsibility of another Member State. Such cooperation shall include arrangements for the handling of cases involving non-compliance with the applicable common requirements set out in Article 6 or conditions set out in Annex II”. While not yet a member of the European Union the Republic of Serbia, as a European Union candidate country, is applying the said regulation as per its obligations under the Multilateral Agreement between the European Community and its Member States, the Republic of Albania, Bosnia and Herzegovina, the Republic of Bulgaria, the Republic of Croatia, the Former Yugoslav Republic of Macedonia, the Republic of Iceland, the Republic of Montenegro, the Kingdom of Norway, Romania, the Republic of Serbia and the United Nations Interim Administration Mission in Kosovo on the establishment of a European Common Aviation Area;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav10">
+					<content>
+						<p>Recognising that the conclusion of an agreement between States regarding the delegation of the responsibility for the provision of air traffic services shall not prejudice the principle that every State has complete and exclusive sovereignty over the airspace above its territory or the capacity of every State to exercise its prerogatives with regard to security and defence in its national airspace;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav11">
+					<content>
+						<p>Recognising, that the aim of this Agreement is to address legal and institutional aspects of the delegation of the responsibility for the provision of air traffic services in accordance with Appendix 1 and Appendix 2 to this Agreement;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav12">
+					<content>
+						<p>Have agreed as follows:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav13">
+					<content>
+						<p>Article 1OBJECTIVE</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav14">
+					<content>
+						<p>The objective of this Agreement is to define the rights and obligations of the Contracting Parties related to:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav15">
+					<content>
+						<p>a) delegation of the responsibility for the provision of air traffic services over a portion of airspace of the Republic of Serbia, as defined in Appendix 1 to this Agreement according to the provision set forth in Annex 11 of Chicago Convention, applicable European Union legislation and the terms of this Agreement;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav16">
+					<content>
+						<p>b) delegation of the responsibility for the provision of air traffic services over a portion of airspace of Republic of Croatia, as defined in Appendix 2 to this Agreement according to the provision set forth in Annex 11 of Chicago Convention, applicable European Union legislation and the terms of this Agreement.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav17">
+					<content>
+						<p>Article 2DEFINITIONS</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav18">
+					<intro>
+						<p>For the purpose of this Agreement, unless otherwise stated, the term:</p>
+					</intro>
+					<point wId="clan2-stav18-tac1">
+						<num>1.</num>
+						<content>
+							<p> “Agreement” means this Agreement, its Appendices and any amendments thereto.</p>
+						</content>
+					</point>
+					<point wId="clan2-stav18-tac2">
+						<num>2.</num>
+						<content>
+							<p> “Air Traffic Service (ATS)” as a generic term includes flight information service, alerting service, air traffic advisory service, air traffic control service provided by the Contracting Parties.</p>
+						</content>
+					</point>
+					<point wId="clan2-stav18-tac3">
+						<num>3.</num>
+						<content>
+							<p> “Air Navigation Service Provider (ANSP)” means any public or private entity providing air navigation services for general air traffic.</p>
+						</content>
+					</point>
+					<point wId="clan2-stav18-tac4">
+						<num>4.</num>
+						<intro>
+							<p> “Air Navigation Service Provider concerned” means an appropriate entity designated by the Contracting Party to provide Air Traffic Services, namely:</p>
+						</intro>
+						<alinea wId="clan2-stav18-tac4-ali1">
+							<content>
+								<p>or the Republic of Serbia: Serbia and Montenegro Air Traffic Services SMATSA LLC (hereinafter: SMATSA)</p>
+							</content>
+						</alinea>
+						<alinea wId="clan2-stav18-tac4-ali2">
+							<content>
+								<p>or the Republic of Croatia: Croatia Control Ltd. (hereinafter: CCL).</p>
+							</content>
+						</alinea>
+					</point>
+					<point wId="clan2-stav18-tac5">
+						<num>5.</num>
+						<content>
+							<p> “Airspace Management (ASM)” means a planning function with the primary objective of maximising the utilisation of available airspace by dynamic time-sharing and, at times, the segregation of airspace among various categories of users based on short-term needs.</p>
+						</content>
+					</point>
+					<point wId="clan2-stav18-tac6">
+						<num>6.</num>
+						<content>
+							<p> “Air Traffic Flow Management (ATFM)” means the regulation of air traffic in order to avoid exceeding airport or air traffic control capacity in handling traffic, and to ensure that available capacity is used efficiently.</p>
+						</content>
+					</point>
+					<point wId="clan2-stav18-tac7">
+						<num>7.</num>
+						<content>
+							<p> “Alerting Service” means a service provided to notify appropriate organisations regarding aircraft in need of search and rescue aid, and assist such organizations as required.</p>
+						</content>
+					</point>
+					<point wId="clan2-stav18-tac8">
+						<num>8.</num>
+						<content>
+							<p> “ATS Unit” means a generic term meaning variously, air traffic control unit, flight information centre, aerodrome flight information service unit or air traffic services reporting office.</p>
+						</content>
+					</point>
+					<point wId="clan2-stav18-tac9">
+						<num>9.</num>
+						<intro>
+							<p> “Chicago Convention” means the Convention on International Civil Aviation, opened for signature at Chicago on December 7, 1944 and includes:</p>
+						</intro>
+						<alinea wId="clan2-stav18-tac9-ali1">
+							<content>
+								<p>ny amendment thereof that has been ratified by both Contracting Parties and has entered into force under Article 94a of the Convention, and</p>
+							</content>
+						</alinea>
+						<alinea wId="clan2-stav18-tac9-ali2">
+							<content>
+								<p>ny Annex or any amendment thereto adopted under Article 90 of the Convention, insofar as the international Standards referred to in Article 37 of the Convention in such Annex or amendment are at any given time effective for both Contracting Parties.</p>
+							</content>
+						</alinea>
+					</point>
+					<point wId="clan2-stav18-tac10">
+						<num>10.</num>
+						<intro>
+							<p> “Certifying NSA” means, with respect to a particular ANSP, the national supervisory authority (NSA), nominated or established by particular Contracting Party, that has certified that ANSP, namely:</p>
+						</intro>
+						<alinea wId="clan2-stav18-tac10-ali1">
+							<content>
+								<p>he Civil Aviation Directorate of the Republic of Serbia (hereinafter: RSCAD), that has certified SMATSA;</p>
+							</content>
+						</alinea>
+						<alinea wId="clan2-stav18-tac10-ali2">
+							<content>
+								<p>he Croatian Civil Aviation Agency (hereinafter: CCAA), that has certified CCL.</p>
+							</content>
+						</alinea>
+					</point>
+					<point wId="clan2-stav18-tac11">
+						<num>11.</num>
+						<content>
+							<p> “Delegation of air traffic services” means the delegation from one State (the Delegating State) to another State (the Providing State) of the responsibility for providing air traffic services in a portion of airspace extending over the territories of the former.</p>
+						</content>
+					</point>
+					<point wId="clan2-stav18-tac12">
+						<num>12.</num>
+						<intro>
+							<p> “Delegating State” means the State which delegates to another State the responsibility for the provision of air traffic services in the portion of the airspace above its territory, as follows:</p>
+						</intro>
+						<alinea wId="clan2-stav18-tac12-ali1">
+							<content>
+								<p>he Republic of Serbia in the cases described in the Appendix 1 to this Agreement;</p>
+							</content>
+						</alinea>
+						<alinea wId="clan2-stav18-tac12-ali2">
+							<content>
+								<p>he Republic of Croatia in the cases described in Appendix 2 to this Agreement.</p>
+							</content>
+						</alinea>
+					</point>
+					<point wId="clan2-stav18-tac13">
+						<num>13.</num>
+						<content>
+							<p> “GAT” or General Air Traffic means flights conducted in accordance with the rules and provisions of the International Civil Aviation Organization.</p>
+						</content>
+					</point>
+					<point wId="clan2-stav18-tac14">
+						<num>14.</num>
+						<content>
+							<p> “MoT” – Ministry in charge of civil aviation.</p>
+						</content>
+					</point>
+					<point wId="clan2-stav18-tac15">
+						<num>15.</num>
+						<intro>
+							<p> “Providing State” means the State whose designated ANSP is responsible for the provision of air traffic services, as follows:</p>
+						</intro>
+						<alinea wId="clan2-stav18-tac15-ali1">
+							<content>
+								<p>he Republic of Serbia, over a portion of airspace defined in Appendix 1 to this Agreement;</p>
+							</content>
+						</alinea>
+						<alinea wId="clan2-stav18-tac15-ali2">
+							<content>
+								<p>he Republic of Croatia, over a portion of airspace defined in Appendix 2 to this Agreement.</p>
+							</content>
+						</alinea>
+					</point>
+					<point wId="clan2-stav18-tac16">
+						<num>16.</num>
+						<content>
+							<p> “OAT” or Operational Air Traffic means flights which do not comply with the provisions stated for GAT and for which rules and procedures have been specified by the appropriate authorities.</p>
+						</content>
+					</point>
+					<point wId="clan2-stav18-tac17">
+						<num>17.</num>
+						<intro>
+							<p> “Territorial NSA” means, with respect to a particular portion of airspace, the national supervisory authority (NSA) nominated or established by particular Contracting Party, that has responsibility for supervision of the Air Traffic Management and Air Navigation Services provision over that portion of airspace, namely:</p>
+						</intro>
+						<alinea wId="clan2-stav18-tac17-ali1">
+							<content>
+								<p>SCAD, that has responsibility over a portion of airspace defined in Appendix 1 to this Agreement;</p>
+							</content>
+						</alinea>
+						<alinea wId="clan2-stav18-tac17-ali2">
+							<content>
+								<p>CAA, that has responsibility over a portion of airspace defined in Appendix 2 to this Agreement.</p>
+							</content>
+						</alinea>
+					</point>
+					<point wId="clan2-stav18-tac18">
+						<num>18.</num>
+						<content>
+							<p> “Territory” in relation to a State, has the meaning specified in Article 2 of the Chicago Convention.</p>
+						</content>
+					</point>
+					<point wId="clan2-stav18-tac19">
+						<num>19.</num>
+						<content>
+							<p> “ICAO” means International Civil Aviation Organization. ICAO is a specialized UN agency, established in 1944 in order to promote safe and orderly development of international civil aviation in the whole world. ICAO sets standards and recommended practices necessary, among other, for the safety of air traffic, security of air traffic and environment protection in the aviation field.</p>
+						</content>
+					</point>
+					<point wId="clan2-stav18-tac20">
+						<num>20.</num>
+						<content>
+							<p> “FIR” (flight information region) means a specified region of airspace in which a flight information service and an alerting service are provided.</p>
+						</content>
+					</point>
+				</paragraph>
+				<paragraph wId="clan2-stav19">
+					<content>
+						<p>Unless stated otherwise or the context otherwise requires, other terms and expressions used in this Agreement shall be construed in accordance with their use and interpretation in the relevant European Union legislation adopted on the basis of the Treaty on the Functioning of the European Union and on the basis of the Convention on International Civil Aviation.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav20">
+					<content>
+						<p>Article 3SOVEREIGNTY</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav21">
+					<content>
+						<p>The provisions of this Agreement shall be without prejudice to the States of the Contracting Parties sovereignty over the airspace above their territories or their rights and obligations under the Chicago Convention and other instruments of international law.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav22">
+					<content>
+						<p>Article 4AUTHORISATION TO ANSPs</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav23">
+					<content>
+						<p>The Contracting Parties agree that the responsibility for the provision of air traffic services, over a portion of the airspace defined in Appendix 1 to this Agreement, shall be transferred from SMATSA to CCL, according to the terms of Annex 11 to the Chicago Convention, applicable European Union legislation and this Agreement.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav24">
+					<content>
+						<p>The Contracting Parties agree that the responsibility for the provision air traffic services, over a portion of the airspace defined in Appendix 2 to this Agreement, shall be transferred from CCL to SMATSA, according to the terms of Annex 11 to the Chicago Convention, applicable European Union legislation and this Agreement.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav25">
+					<content>
+						<p>Contracting Parties hereby agree that SMATSA and CCL may add, modify or amend the Appendices to this Agreement with prior written approval of respective MoTs of Contracting Parties. The Contracting Parties shall ensure the continuous entirety and integrity of the Agreement.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav26">
+					<content>
+						<p>Article 5LETTERS OF AGREEMENT</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav27">
+					<content>
+						<p>Contracting Parties hereby authorise SMATSA and CCL to negotiate and conclude additional Letters of Agreements containing the specific operational and technical aspects related to these matters. These agreements shall be based on this Agreement and its Appendices. In such cases SMATSA and CCL shall inform respective MoTs of the Contracting Parties in writing.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav28">
+					<content>
+						<p>The operational and technical information pertinent to the transfer of responsibility for the provision air traffic services defined in Article 4 of this Agreement shall be exchanged in writing, between the respective ANSPs taking into account the ICAO Standards and Recommended Practices, EU and national legislation in force, as well as local circumstances.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav29">
+					<content>
+						<p>These Letters of Agreement shall define and specify the rules and procedures to be applied in accordance with the provisions of this Agreement and shall follow the structure of the EUROCONTROL Common Format Letter of Agreement.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav30">
+					<content>
+						<p>Article 6APPLICATION OF RULES AND PROCEDURES</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav31">
+					<content>
+						<p>Contracting Parties agree that the rules and procedures pertaining to the provision of air traffic services in the Providing State shall apply when providing air traffic services in a portion of the airspace of the Delegating State defined in Appendix 1 and Appendix 2 to this Agreement.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav32">
+					<content>
+						<p>Contracting Parties may agree, however, that certain rules and procedures of the Delegating States pertaining to the provision of air traffic services will remain applicable in the airspace concerned.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav33">
+					<content>
+						<p>Article 7SUPERVISION</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav34">
+					<content>
+						<p>Contracting Parties agree that the Certifying NSA shall carry out all supervision and safety oversight in respect of the provision of air traffic services in the portion of the airspace defined in Appendix 1 and Appendix 2 to this Agreement.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav35">
+					<content>
+						<p>The Contracting Parties shall ensure that a written NSA Co-operation Agreement is concluded providing for the detailed conditions of the exercise of the rights and obligations of their NSAs under this Article and for the exchange and dissemination of safety-related and other relevant information.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav36">
+					<content>
+						<p>Article 8LICENSING AND TRAINING</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav37">
+					<content>
+						<p>The Contracting Parties agree that an air traffic controller licence issued by one Contracting Party, if issued in compliance with the applicable European Union legislation, is valid for the provision of air traffic services in the portion of the airspace of the other State of the Contracting Party within which the responsibility for the provision of air traffic services is delegated under the terms of this Agreement.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav38">
+					<content>
+						<p>Training of air traffic services personnel of one Contracting Party, providing air traffic services in the portion of airspace of the other State of the Contracting Party, shall include the requirements pertaining to the airspace concerned.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav39">
+					<content>
+						<p>Article 9AIRSPACE MANAGEMENT</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav40">
+					<content>
+						<p>Contracting Parties agree that Airspace Management in the portion of airspace described in Appendix 1 and Appendix 2 to this Agreement, shall be coordinated and implemented jointly by them, coordinated, in full respect of operational requirements and international obligations, standards and recommended practices.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav41">
+					<content>
+						<p>Article 10FINANCIAL ARRANGEMENTS</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav42">
+					<content>
+						<p>Each Contracting Party shall bear the costs of any activity performed by it under this Agreement, unless otherwise agreed by the Contracting Parties.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav43">
+					<content>
+						<p>Article 11LIABILITY</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav44">
+					<content>
+						<p>The Providing State shall be liable for the damage caused by its wilful misconduct and gross negligence, or that of its agents or of any other person acting on its behalf, under the provisions of this Agreement.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav45">
+					<content>
+						<p>Claims against the Providing State, its agents or any other person acting on its behalf shall be made in the courts, and subject to the law of the Providing State.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav46">
+					<content>
+						<p>The Delegating State may bring an action against the Providing State to recover any compensation or costs paid or incurred as a result of loss or damage caused by the negligence of the Providing State, its agents or any other person acting on its behalf, while applying the provisions of this Agreement. The action shall be brought in the courts, and subject to the law of the Providing State.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav47">
+					<content>
+						<p>Article 12STATE AIRCRAFT</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav48">
+					<content>
+						<p>State Aircraft other than those of the Delegating State may not enter that portion of airspace where the responsibility for the provision of air traffic services has been delegated without prior Diplomatic Clearance or special permission from the Delegating State.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav49">
+					<content>
+						<p>For State aircraft operating as GAT the same rules and procedures are to be applied as for the other GAT but where necessary, special procedures should be established to permit their access to the airspace.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav50">
+					<content>
+						<p>State aircraft operating as OAT shall be subject to prior coordination between ANSPs subject to Letters of Agreement.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav51">
+					<content>
+						<p>Article 13COORDINATION AND CONTINGENCY PROCEDURES FOR MILITARY AND OTHER REASONS</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav52">
+					<content>
+						<p>The ANSPs shall coordinate current flight plans and other data concerning the flights in the airspace where the responsibility for the provision of air traffic services has been delegated.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav53">
+					<content>
+						<p>Letters of Agreement shall be supplemented by coordination and contingency procedures established by the ANSPs concerned, subject to prior coordination with appropriate military Authorities.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav54">
+					<content>
+						<p>Article 14PUBLICATION</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav55">
+					<content>
+						<p>Contracting Parties shall agree upon the content of, and publish all relevant information regarding the portion of airspace defined in Appendix 1 and Appendix 2 to this Agreement, where the responsibility for the provision of air traffic services has been delegated, in their Aeronautical Information Package as defined in Annex 15 to the Chicago Convention.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav56">
+					<content>
+						<p>Article 15INVESTIGATION OF ACCIDENTS OR SERIOUS INCIDENTS</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav57">
+					<content>
+						<p>Contracting Parties shall institute an inquiry into the circumstances of accidents or serious incidents occurring in its territory.At its request, the Delegating State shall be provided with the necessary materials from the ANSP of the Providing State (e.g. radar data recordings, tape transcriptions, etc.) in order to enable it to conduct an inquiry into an accident or serious incident occurring in the Delegating State’s territory.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav58">
+					<content>
+						<p>The Providing State shall be given the opportunity to appoint observers to be present at the inquiry and the Delegating State shall communicate the report and findings of the inquiry to that State.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav59">
+					<content>
+						<p>Article 16DISPUTE RESOLUTION</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav60">
+					<content>
+						<p>Any dispute between the Contracting Parties as to the interpretation or application of this Agreement, including its existence, validity or termination and financial repercussions, shall be settled through negotiations between the Contracting Parties. If a dispute cannot be settled through negotiations within six months from the date of any Contracting Parties written request to hold such negotiations, any Contracting Party may submit the dispute to final and binding arbitration in accordance with the Permanent Court of Arbitration Optional Rules for Arbitrating Disputes between Two States.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav61">
+					<content>
+						<p>The number of arbitrators shall be three. If within sixty days after the date of the receipt of the notice of arbitration the Contracting Parties have not agreed on the three arbitrators, any Contracting Party may request the Secretary-General of the Permanent Court of Arbitration to appoint the arbitrators. Contracting Parties share the costs of the arbitral tribunal equally.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav62">
+					<content>
+						<p>The language to be used in the arbitral proceedings shall be English. The place of arbitration shall be The Hague. The International Bureau of the Permanent Court of Arbitration shall serve as Registrar, and shall provide such administrative services as the Permanent Court of Arbitration shall direct.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav63">
+					<content>
+						<p>Article 17TERMINATION AND SUSPENSION</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav64">
+					<content>
+						<p>This Agreement may be terminated by either Contracting Party by written notice to the other Contracting Party, through diplomatic channels.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav65">
+					<content>
+						<p>The termination shall become effective one (1) year after the date of receipt of such notice by the other Contracting Party.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav66">
+					<content>
+						<p>In the event of war, during a period of emergency or in the interest of public safety, or in other exceptional circumstances, each Contracting Party has the right to suspend or terminate the Agreement with immediate effect, and shall notify the other Contracting Party accordingly.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav67">
+					<content>
+						<p>The Letters of Agreement referred to in Article 5 shall contain provisions regarding their suspension and termination.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav68">
+					<content>
+						<p>Article 18ENTRY INTO FORCE</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav69">
+					<content>
+						<p>This Agreement shall enter into force on the date of the receipt of the last written notification by which the Contracting Parties notify each other through diplomatic channels that their respective internal legal requirements for the entry into force of this Agreement have been fulfilled.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav70">
+					<content>
+						<p>This Agreement shall be provisionally applied from the date of its signature.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav71">
+					<content>
+						<p>Article 19APPENDICES TO THE AGREEMENT</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav72">
+					<content>
+						<p>The provisions contained in the Appendices to this Agreement shall form an integral part thereof.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav73">
+					<content>
+						<p>The provisions contained in the Appendices to this Agreement may be amended under the terms set out in Article 4 of this Agreement.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav74">
+					<content>
+						<p>Article 20AMENDMENTS</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav75">
+					<content>
+						<p>If a Contracting Party considers it desirable to amend any provisions of this Agreement, it may request consultations with the other Contracting Party. Any amendments agreed by the Contracting Parties shall be in written form and shall enter into force in accordance with the provision of Article 18 paragraph 1 of this Agreement.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav76">
+					<content>
+						<p>Amendments to the related Letters of Agreement may be jointly determined by direct agreement between appropriate ANSPs of the Contracting Parties in written form.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav77">
+					<content>
+						<p>Article 21TRANSITIONAL MEASURES FOR AGREEMENTS IN FORCE</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav78">
+					<content>
+						<p>Agreements between the respective ANSPs of the Contracting Parties which are in force on the date of entry into force of this Agreement shall be assessed for possible revision in accordance with the provisions set out in this Agreement. The assessment itself shall not prevent the continuity of the existing Agreements.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav79">
+					<content>
+						<p>Article 22ICAO REGISTRATION</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav80">
+					<content>
+						<p>This Agreement and any of its amendments shall be registered with ICAO, in accordance with the provisions of Article 83 of the Chicago Convention.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav81">
+					<content>
+						<p>In witness whereof, the undersigned, being duly authorised by their respective Governments, have signed this Agreement.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav82">
+					<content>
+						<p>Done in duplicate at Belgrade on this 17th day of December 2014 in the English language.</p>
+					</content>
+				</paragraph>
+				<paragraph class="special" wId="clan2-stav83">
+					<content>
+						<table>
+							
+
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>For the Government of the Republic of Serbia</p>
+									
+
+									<p>Professor Zorana Mihajlović, PhD, s.r.</p>
+									
+
+									<p>Deputy Prime Minister and Minister for Construction, Transport and Infrastructure</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>For the Government of the Republic of Croatia</p>
+									
+
+									<p>Siniša Hajdaš Dončić, PhD, s.r.</p>
+									
+
+									<p>Minister of Maritime Affairs, Transport and Infrastructure</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+
+						</table>
+						
+
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav84">
+					<content>
+						<p>Appendix 1</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav85">
+					<content>
+						<p>Designated portion of the airspace of the Republic of Serbia for the delegation of the responsibility for the provision of air traffic services</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav86">
+					<content>
+						<p>Article 1AIRSPACE</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav87">
+					<content>
+						<p>Within the airspace of the Republic of Serbia from 1500 feet to 4000 feet MSL, the responsibility for the provision of air traffic services is delegated to CCL in the airspace east of administrative line between the Republic of Serbia and the Republic of Croatia horizontally defined by the following coordinates:</p>
+					</content>
+				</paragraph>
+				<paragraph class="special" wId="clan2-stav88">
+					<content>
+						<table>
+							
+
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>Point A</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>453312.0N;0185608.0E</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>Point B</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>453337.0N;0190205.0E</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>Point C</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>453147.0N;0190747.0E</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>Point D</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>452930.0N;0190957.0E</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>Point E</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>452408.0N;0191106.0E</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>Point F</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>451721.0N;0190724.0E</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+
+						</table>
+						
+
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav89">
+					<content>
+						<p>Article 2ATS ROUTES</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav90">
+					<content>
+						<p>The provision of air traffic services shall be based on a network of ATS routes published in appropriate Aeronautical Information Packages and applicable from the date of implementation of this Agreement.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav91">
+					<content>
+						<p>SMATSA and CCL agree that the establishment, modification, revocation and closure of ATS routes, associated with the airspace described in Article 1 of this Appendix, shall be carried out mutually and coordinated, with full respect to operational requirements, international standards and recommended practices.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav92">
+					<content>
+						<p>Article 3ALERTING SERVICE</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav93">
+					<content>
+						<p>CCL, as the air traffic services provider in the airspace defined in Article 1 this Appendix, shall implement alerting service (ALR) activities in accordance with ICAO standards and recommended practices, and all available information about the aircraft in danger shall regularly submit to the Rescue Coordination Centre (RCC Serbia), which is responsible for search and rescue coordination in the airspace concerned.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav94">
+					<content>
+						<p>SMATSA is required, before the application of this Agreement starts, to provide CCL with all relevant information about the RCC Serbia that is important for mutual coordination.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav95">
+					<content>
+						<p>Appendix 2</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav96">
+					<content>
+						<p>Designated portion of the airspace of the Republic of Croatia for the delegation of the responsibility for the provision of air traffic services</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav97">
+					<content>
+						<p>Article 1AIRSPACE</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav98">
+					<content>
+						<p>Within the airspace of the Republic of Croatia from 7000 feet MSL to FL205, the responsibility for the provision of air traffic services is delegated to SMATSA in the airspace west of administrative line between the Republic of Serbia and the Republic of Croatia horizontally defined by the following coordinates:</p>
+					</content>
+				</paragraph>
+				<paragraph class="special" wId="clan2-stav99">
+					<content>
+						<table>
+							
+
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>Point A</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>452035.0N;0190316.0E</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>Point B</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>450736.0N;0190439.0E</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+
+						</table>
+						
+
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav100">
+					<content>
+						<p>Article 2ATS ROUTES</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav101">
+					<content>
+						<p>The provision of air traffic services shall be based on a network of ATS routes published in appropriate Aeronautical Information Packages and applicable from the date of implementation of this Agreement.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav102">
+					<content>
+						<p>SMATSA and CCL agree that the establishment, modification, revocation and closure of ATS routes, associated with the airspace described in Article 1 of this Appendix, shall be carried out mutually and coordinated, with full respect to operational requirements, international standards and recommended practices.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav103">
+					<content>
+						<p>Article 3ALERTING SERVICE</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav104">
+					<content>
+						<p>SMATSA, as the air traffic services provider in the airspace defined in Article 1 this Appendix, shall implement alerting service (ALR) activities in accordance with ICAO standards and recommended practices, and all available information about the aircraft in danger shall regularly submit to the responsible Rescue Coordination Centre (RCC Croatia), which is responsible for search and rescue coordination in the airspace concerned.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav105">
+					<content>
+						<p>CCL is required, before the application of this Agreement starts, to provide SMATSA with all relevant information about the RCC Croatia that is important for mutual coordination.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav106">
+					<content>
+						<p>СПОРАЗУМ ИЗМЕЂУ ВЛАДЕ РЕПУБЛИКЕ СРБИЈЕ ИВЛАДЕ РЕПУБЛИКЕ ХРВАТСКЕО ПРЕНОСУ НАДЛЕЖНОСТИ ЗА ПРУЖАЊЕ УСЛУГА У ВАЗДУШНОМ САОБРАЋАЈУ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav107">
+					<content>
+						<p>Влада Републике Србије и Влада Републике Хрватске (у даљем тексту: „уговорне стране”)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav108">
+					<content>
+						<p>У жељи да олакшају безбедно обављање међународних летова преко њихових заједничких државних граница у интересу корисника ваздушног простора и њихових путника;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav109">
+					<content>
+						<p>За потребе подстицања односа у пружању услуга у ваздушном саобраћају између уговорних страна на обострану корист;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav110">
+					<content>
+						<p>Имајући у виду да су стране потписнице Конвенције о међународном цивилном ваздухопловству, која је отворена за потписивање 7. децембра 1944. године у Чикагу и у жељи да закључе споразум у сврху пружања услуга у ваздушном саобраћају у складу са међународним стандардима и препорученим праксама утврђеним у Анексу 11 уз Чикашку конвенцију, преко њихових територија и даље;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav111">
+					<content>
+						<p>Позивајући се на Институционалну стратегију Европске конференције цивилног ваздухопловства (ECAC) за управљање ваздушним саобраћајем у Европи (АТМ) и Протокол којим се консолидује Међународна конвенција о сарадњи у области безбедности ваздушне пловидбе ЕВРОКОНТРОЛ од 13. децембра 1960. године, више пута измењена, која је отворена за потписивање 27. јуна 1997. године (ревидирана Конвенција);</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav112">
+					<content>
+						<p>У жељи да закључе споразум за потребе пружања услуга у ваздушном саобраћају у складу са регулативом Јединственог европског неба тако да се могу постићи његови циљеви, а корисници ваздушног простора могу искористити погодности његовог спровођења;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav113">
+					<content>
+						<p>Позивајући се на Уредбу (ЕЗ) бр. 550/2004 Европског парламента и Савета о пружању услуга у ваздушној пловидби у оквиру Јединственог европског неба, са изменама и допунама, а посебно на <ref wId="ref0" href="akn/rs/act/2017/4-58/srp@/!main~art_2__para_4" >члан 2. став 4. </ref>у којем се наводи да „Национална надзорна тела блиско сарађују како би обезбедила одговарајући надзор над пружаоцима услуга у ваздушној пловидби који имају важећи сертификат који је издала једна држава чланица, а пружају услуге и у ваздушном простору који је у надлежности друге државе чланице. Таква сарадња подразумева аранжмане за решавање случајева неусаглашености са применљивим Заједничким захтевима који су утврђени у <ref wId="ref1" href="akn/rs/act/2017/4-58/srp@/!main~art_6" >члану 6. </ref>или са условима утврђеним у Анексу II”. Иако још увек није чланица Европске уније, Република Србија, као земља кандидат за чланство у Европској унији, примењује горенаведену уредбу према својим обавезама у оквиру Мултилатералног споразума између Европске заједнице и њених држава чланица, Републике Албаније, Босне и Херцеговине, Републике Бугарске, Републике Хрватске, Бивше Југословенске Републике Македоније, Републике Исланда, Републике Црне Горе, Краљевине Норвешке, Румуније, Републике Србије и Привремене управе Уједињених нација на Косову о успостављању Заједничког европског ваздухопловног подручја;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav114">
+					<content>
+						<p>Прихватајући да закључивање споразума између држава у погледу преноса надлежности за пружање услуга у ваздушном собраћају не доводи у питање начело да свака држава има потпун и искључиви суверенитет над ваздушним простором изнад своје територије нити надлежност сваке државе да спроводи своја овлашћења у погледу обезбеђивања и одбране унутар националног ваздушног простора;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav115">
+					<content>
+						<p>Прихватајући да је циљ овог споразума сагледавање правних и институционалних аспеката преноса надежности за пружање услуга у ваздушном саобраћају у складу са Додатком 1 и Додатком 2 уз овај Споразум;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav116">
+					<content>
+						<p>Споразумеле су се o следећем:</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Предмет овог споразума је дефинисање права и обавеза уговорних страна у погледу:</p>
+					</content>
+				</paragraph>
+			</article>
+			<subsection wId="podod1">
+				<num>а</num>
+				<heading> преноса надлежности за пружање услуга у ваздушном саобраћају преко дела ваздушног простора Републике Србије, како је дефинисано у Додатку 1 уз овај споразум у складу са одредбом утврђеном у Анексу 11 Чикашке конвенције, применљивим законодавством Европске уније и условима и одредбама овог споразума;</heading>
+			</subsection>
+			<subsection wId="podod2">
+				<num>б</num>
+				<heading> преноса надлежности за пружање услуга у ваздушном саобраћају преко дела ваздушног простора Републике Хрватске, како је дефинисано у Додатку 2 уз овај споразум у складу са одредбом утврђеном у Анексу 11 Чикашке конвенције, применљивим законодавством Европске уније и условима и одредбама овог споразума.</heading>
+				<article wId="podod2-clan2">
+					<num>2.</num>
+					<paragraph wId="podod2-clan2-stav1">
+						<intro>
+							<p>За потребе овог споразума, осим ако није другачије наведено, израз:</p>
+						</intro>
+						<point wId="podod2-clan2-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> „Споразум” означава овај споразум, његове додатке и све измене истих.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan2-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> „услуга у ваздушном саобраћају (ATS - Air Traffic Service )” као генерички израз укључује услугу информисања ваздухоплова у лету, услугу узбуњивања, саветодавне услуге у ваздушном саобраћају, услугу контроле летења које пружају уговорне стране.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan2-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> „пружалац услуге у ваздушној половидби (ANSP - Air Navigation Service Provider)” означава сваки јавноправни или приватноправни субјект који пружа услуге у ваздушној пловидби за потребе обављања општег ваздушног саобраћаја.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan2-stav1-tac4">
+							<num>4.</num>
+							<intro>
+								<p> „одговарајући пружалац услуге у ваздушној пловидби” означава одговарајућег субјекта којег су уговорне стране одредиле да пружа услуге у ваздушном саобраћају, наиме:</p>
+							</intro>
+							<alinea wId="podod2-clan2-stav1-tac4-ali1">
+								<content>
+									<p>а Републику Србију: Контрола летења Србије и Црне Горе SMATSA д.о.о. (у даљем тексту: SMATSA)</p>
+								</content>
+							</alinea>
+							<alinea wId="podod2-clan2-stav1-tac4-ali2">
+								<content>
+									<p>а Републику Хрватску: Хрватска контрола зрачне пловидбе д.о.о. (у даљем тексту: ХКЗП).</p>
+								</content>
+							</alinea>
+						</point>
+						<point wId="podod2-clan2-stav1-tac5">
+							<num>5.</num>
+							<content>
+								<p> „Управљање ваздушним простором (ASM - Airspace Management)” означава функцију планирања са примарним циљем побољшаног коришћења доступног ваздушног простора динамичком расподелом времена и, повремено, раздвајање ваздушног простора између различитих категорија корисника на основу краткорочних потреба.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan2-stav1-tac6">
+							<num>6.</num>
+							<content>
+								<p> „управљање током ваздушног собраћаја (ATFM - Air Traffic Flow Management)” означава регулисање ваздушног саобраћаја како би се избегло прекорачивање капацитета аеродрома или контроле летења при управљању саобраћајем, и како би се омогућило ефикасно коришћење доступног капацитета.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan2-stav1-tac7">
+							<num>7.</num>
+							<content>
+								<p> „услуга узбуњивања” означава услугу обавештавања одговарајућих организација о ваздухопловима које је потребно пронаћи и пружити им помоћ, као и пружања помоћи тим организацијама, по потреби.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan2-stav1-tac8">
+							<num>8.</num>
+							<content>
+								<p> „ATS jединица” означава генерички израз који се може односити на јединицу контроле летења, центар за информисање ваздухоплова у лету, службу аеродромског информисања у лету или пријавни биро за услуге у ваздушном саобраћају.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan2-stav1-tac9">
+							<num>9.</num>
+							<intro>
+								<p> „Чикашка конвенција” означава Конвенцију о међународном цивилном ваздухопловству, отворену за потписивање 7. децембра 1944. године у Чикагу, и обухвата:</p>
+							</intro>
+							<alinea wId="podod2-clan2-stav1-tac9-ali1">
+								<content>
+									<p>ваку њену измену коју су ратификовале обе уговорне стране и која је ступила на снагу према <ref wId="ref2" href="akn/rs/act/2017/4-58/srp@/!main~art_94а" >члану 94а </ref>Конвенције, и</p>
+								</content>
+							</alinea>
+							<alinea wId="podod2-clan2-stav1-tac9-ali2">
+								<content>
+									<p>ве Анексе или сваку измену Анекса усвојену према <ref wId="ref3" href="akn/rs/act/2017/4-58/srp@/!main~art_90" >члану 90. </ref>Конвенције, у мери у којој су међународни стандарди из <ref wId="ref4" href="akn/rs/act/2017/4-58/srp@/!main~art_37" >члана 37. </ref>Конвенције у таквом Анексу или измени у било којем тренутку на снази у обе уговорне стране.</p>
+								</content>
+							</alinea>
+						</point>
+						<point wId="podod2-clan2-stav1-tac10">
+							<num>10.</num>
+							<intro>
+								<p> „Сертификациони ННТ“ означава, у погледу одређеног ANSP-а, национално надзорно тело (ННТ) које је именовала или основала одређена уговорна страна, а које је сертификовало тај ANSP, наиме:</p>
+							</intro>
+							<alinea wId="podod2-clan2-stav1-tac10-ali1">
+								<content>
+									<p>иректорат цивилног ваздухопловства Републике Србије (у даљем тексту: РСДЦВ), који је сертификовао SMATSA;</p>
+								</content>
+							</alinea>
+							<alinea wId="podod2-clan2-stav1-tac10-ali2">
+								<content>
+									<p>рватска агенција за цивилно ваздухопловство (у даљем тексту: ХАЦВ) која је сертификовала ХКЗП.</p>
+								</content>
+							</alinea>
+						</point>
+						<point wId="podod2-clan2-stav1-tac11">
+							<num>11.</num>
+							<content>
+								<p> „Пренос услуга у ваздушном саобраћају” означава пренос надлежности са једне државе (делегирајућа држава) на другу државу (држава пружалац) за пружање услуга у ваздушном саобраћају у делу ваздушног простора који се протеже преко територије делегирајуће државе.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan2-stav1-tac12">
+							<num>12.</num>
+							<intro>
+								<p> „делегирајућа држава” означава државу која преноси другој држави надлежност за пружање услуга у ваздушном саобраћају у делу ваздушног простора изнад њене територије, како следи:</p>
+							</intro>
+							<alinea wId="podod2-clan2-stav1-tac12-ali1">
+								<content>
+									<p>епублика Србија у случајевима који су описани у Додатку 1 уз овај споразум;</p>
+								</content>
+							</alinea>
+							<alinea wId="podod2-clan2-stav1-tac12-ali2">
+								<content>
+									<p>епублика Хрватска у случајевима који су описани у Додатку 2 уз овај споразум.</p>
+								</content>
+							</alinea>
+						</point>
+						<point wId="podod2-clan2-stav1-tac13">
+							<num>13.</num>
+							<content>
+								<p> „GAT” – (General Air Traffic) или општи ваздушни саобраћај означава летове који се обављају у складу са правилима и прописима Међународне организације цивилног ваздухопловства.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan2-stav1-tac14">
+							<num>14.</num>
+							<content>
+								<p> „МС” – Министарство задужено за цивилно ваздухопловство.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan2-stav1-tac15">
+							<num>15.</num>
+							<intro>
+								<p> „држава пружалац” означава државу чији је одређени ANSP одговоран за пружање услуга у ваздушном саобраћају, како следи:</p>
+							</intro>
+							<alinea wId="podod2-clan2-stav1-tac15-ali1">
+								<content>
+									<p>епублика Србија, преко дела ваздушног простора дефинисаног у Додатку 1 уз овај споразум;</p>
+								</content>
+							</alinea>
+							<alinea wId="podod2-clan2-stav1-tac15-ali2">
+								<content>
+									<p>епублика Хрватска, преко дела ваздушног простора дефинисаног у Додатку 2 уз овај споразум.</p>
+								</content>
+							</alinea>
+						</point>
+						<point wId="podod2-clan2-stav1-tac16">
+							<num>16.</num>
+							<content>
+								<p> „ОAT” – (Operational Air Traffic) или оперативни ваздушни саобраћај означава летове који нису у складу са одредбама наведеним за ОВС и за које су правила и поступке дефинисали одговарајући органи.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan2-stav1-tac17">
+							<num>17.</num>
+							<intro>
+								<p> „Територијални ННТ” означава, у погледу одређеног дела ваздушног простора, национално надзорно тело (ННТ) које је именовала или основала конкретна уговорна страна, које је надлежно за надзор над управљањем ваздушним саобраћајем и надзор над пружањем услуга у ваздушној пловидби у том делу ваздушног простора, наиме:</p>
+							</intro>
+							<alinea wId="podod2-clan2-stav1-tac17-ali1">
+								<content>
+									<p>СДЦВ, који је надлежан за део ваздушног простора који је дефинисан у Додатку 1 уз овај споразум;</p>
+								</content>
+							</alinea>
+							<alinea wId="podod2-clan2-stav1-tac17-ali2">
+								<content>
+									<p>АЦВ, који је надлежан за део ваздушног простора који је дефинисан у Додатку 2 уз овај споразум.</p>
+								</content>
+							</alinea>
+						</point>
+						<point wId="podod2-clan2-stav1-tac18">
+							<num>18.</num>
+							<content>
+								<p> „Територија” у односу на државу има значење дефинисано у <ref wId="ref5" href="akn/rs/act/2017/4-58/srp@/!main~art_2" >члану 2. </ref>Чикашке конвенције.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan2-stav1-tac19">
+							<num>19.</num>
+							<content>
+								<p> „ICAO” означава Међународну организацију цивилног ваздухопловства. ICAO је специјализована агенција УН-а, основана 1944. године ради подстицања безбедног и неометаног развоја међународног цивилног ваздухопловства у целом свету. ICAO утврђује стандарде и препоручене праксе који су, између осталог, неопходни за безбедност и обезбеђивање ваздушног саобраћаја и заштиту животне средине у области ваздухопловства.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan2-stav1-tac20">
+							<num>20.</num>
+							<content>
+								<p> „FIR” (Flight Information Region - област информисања у лету) означава одређену област ваздушног простора у којој се пружају услуге обавештавања у лету и услуге узбуњивања.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="podod2-clan2-stav2">
+						<content>
+							<p>Осим ако није другачије наведено или ако се у одређеном контексту не захтева другачије, други изрази и појмови коришћени у овом споразуму тумаче се у складу са њиховом употребом и тумачењем у релевантном законодавству Европске уније донетом на основу Уговора о функционисању Европске уније и на основу Конвенције о међународном цивилном ваздухопловству.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod2-clan3">
+					<num>3.</num>
+					<paragraph wId="podod2-clan3-stav1">
+						<content>
+							<p>Одредбе овог Споразума не доводе у питање суверенитет држава уговорних страна над ваздушним простором изнад њихових територија или њихова права и обавезе сходно Чикашкој конвенцији и другим инструментима међународног права.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod2-clan4">
+					<num>4.</num>
+					<paragraph wId="podod2-clan4-stav1">
+						<content>
+							<p>Уговорне стране су сагласне да се надлежност за пружање услуга у ваздушном саобраћају, преко дела ваздушног простора дефинисаног у Додатку 1 уз овај Споразум, пренесе са SMATSA на ХКЗП, у складу са условима и одредбама из Анекса 11 уз Чикашку конвенцију, применљивим законодавством Европске уније и овим споразумом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod2-clan4-stav2">
+						<content>
+							<p>Уговорне стране су сагласне да се надлежност за пружање услуга у ваздушном саобраћају, преко дела ваздушног простора дефинисаног у Додатку 2 уз овај Споразум, пренесе са ХКЗП на SMATSA, у складу са условима и одредбама из Анекса 11 уз Чикашку конвенцију, применљивим законодавством Европске уније и овим споразумом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod2-clan4-stav3">
+						<content>
+							<p>Уговорне стране су овим путем сагласне да SMATSA и ХКЗП могу да додају, модификују или мењају Додатке уз овај Споразум уз претходно писано одобрење релевантних МС уговорних страна. Уговорне стране обезбеђују континуирану целовитост и интегритет Споразума.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod2-clan5">
+					<num>5.</num>
+					<paragraph wId="podod2-clan5-stav1">
+						<content>
+							<p>Уговорне стране овим путем овлашћују SMATSA и ХКЗП да преговарају и закључе додатна Писма о договору која садрже одређене оперативне и техничке аспекте у вези са овим питањима. Ти договори морају бити засновани на овом споразуму и његовим Додацима. У том случају, SMATSA и ХКЗП писаним путем обавештавају релевантна МС Уговорних страна.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod2-clan5-stav2">
+						<content>
+							<p>Оперативни и технички подаци који се односе на пренос надлежности за пружање услуга у ваздушном саобраћају из <ref wId="ref6" href="akn/rs/act/2017/4-58/srp@/!main~art_4" >члана 4. овог</ref> Споразума размењују се писаним путем између релевантних ANSP, узимајући у обзир ICAO стандарде и препоручене праксе, важеће ЕУ и национално законодавство, као и локалне околности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod2-clan5-stav3">
+						<content>
+							<p>Писмима о договору дефинишу се и прецизирају правила и поступци који се примењују у складу са одредбама овог споразума и она прате структуру општеприхваћеног формата ЕВРОКОНТРОЛ Писма о договору.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod2-clan6">
+					<num>6.</num>
+					<paragraph wId="podod2-clan6-stav1">
+						<content>
+							<p>Уговорне стране су сагласне да се правила и поступци који се односе на пружање услуга у ваздушном саобраћају у Држави пружаоцу примењују при пружању услуга у ваздушном саобраћају у делу ваздушног простора Делегирајуће државе који је дефинисан у Додатку 1 и Додатку 2 уз овај Споразум.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod2-clan6-stav2">
+						<content>
+							<p>Уговорне стране се могу сагласити да се извесна правила и поступци Делегирајуће државе, који се односе на пружање услуга у ваздушном саобраћају, и даље примењују у односном ваздушном простору.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod2-clan7">
+					<num>7.</num>
+					<paragraph wId="podod2-clan7-stav1">
+						<content>
+							<p>Уговорне стране су сагласне да Сертификационо ННТ спроводи целокупан надзор и безбедносни надзор у погледу пружања услуга у ваздушном саобраћају у делу ваздушног простора који је дефинисан у Додатку 1 и Додатку 2 уз овај Споразум.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod2-clan7-stav2">
+						<content>
+							<p>Уговорне стране обезбеђују закључивање писаног Споразума о сарадњи између ННТ у којем се наводе услови за остваривање права и обавеза њихових ННТ према овом члану и за размену и ширење безбедносних и других релевантних информација.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod2-clan8">
+					<num>8.</num>
+					<paragraph wId="podod2-clan8-stav1">
+						<content>
+							<p>Уговорне стране су сагласне да је лиценца контролора летења издата од стране једне уговорне стране, ако је издата у складу са применљивим законодавством Европске уније, валидна за пружање услуга у ваздушном саобраћају у делу ваздушног простора државе друге уговорне стране у оквиру којег се надлежност за пружање услуга у ваздушном саобраћају преноси у складу са условима из овог споразума.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod2-clan8-stav2">
+						<content>
+							<p>Обука намењена особљу за пружање услуга у ваздушном саобраћају једне уговорне стране, које пружа услуге у ваздушном саобраћају у делу ваздушног простора државе друге уговорне стране, садржи захтеве у вези са односним ваздушним простором.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod2-clan9">
+					<num>9.</num>
+					<paragraph wId="podod2-clan9-stav1">
+						<content>
+							<p>Уговорне стране су сагласне да ће заједнички, у координацији, усклађивати и спроводити поступак управљања ваздушним простором у делу ваздушног простора који је описан у Додатку 1 и Додатку 2 уз овај Споразум, уз потпуно поштовање оперативних захтева и међународних обавеза, стандарда и препоручених пракси.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod2-clan10">
+					<num>10.</num>
+					<paragraph wId="podod2-clan10-stav1">
+						<content>
+							<p>Свака уговорна страна сноси трошкове било које активности спроведене у оквиру овог Споразума, осим ако се уговорне стране не договоре другачије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod2-clan11">
+					<num>11.</num>
+					<paragraph wId="podod2-clan11-stav1">
+						<content>
+							<p>Држава пружалац је одговорна за штету насталу услед њеног вољног непоступања и грубог немара, или за штету њених посредника или за штету било којег лица које поступа у њено име, сходно одредбама овог Споразума.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod2-clan11-stav2">
+						<content>
+							<p>Потраживања од Државе пружаоца, њених посредника или било којег лица које поступа у њено име, решавају се пред судовима у складу са законом државе пружаоца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod2-clan11-stav3">
+						<content>
+							<p>Делегирајућа држава може поднети тужбу против државе пружаоца како би добила обештећење или исплату трошкова који су настали као резултат губитка или штете нанете услед немара државе пружаоца, њених посредника или било којег лица које поступа у њено име, уз примену одредаба овог Споразума. Тужба се решава пред судовима у складу са законом државе пружаоца.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod2-clan12">
+					<num>12.</num>
+					<paragraph wId="podod2-clan12-stav1">
+						<content>
+							<p>Државни ваздухоплови који нису ваздухоплови делегирајуће државе не могу, без претходног дипломатског одобрења или посебне дозволе Делегирајуће државе, ући у онај део ваздушног простора у којем је пренета надлежност за пружање услуга у ваздушном саобраћају.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod2-clan12-stav2">
+						<content>
+							<p>На државне ваздухоплове који саобраћај обављају као GAT, примењују се иста правила и поступци као и за остали GAT, али по потреби треба утврдити посебне процедуре којима се дозвољава њихов приступ ваздушном простору.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod2-clan12-stav3">
+						<content>
+							<p>Државни ваздухоплови који саобраћај обављају као ОАТ предмет су претходне координације између оба ANSP, у складу са Писмима о договору.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod2-clan13">
+					<num>13.</num>
+					<paragraph wId="podod2-clan13-stav1">
+						<content>
+							<p>ANSP координишу текуће планове лета и друге податке о летовима у ваздушном простору у којем је пренета надлежност за пружање услуга у ваздушном саобраћају.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod2-clan13-stav2">
+						<content>
+							<p>Писма о договору допуњују се поступцима за координацију и непредвиђене случајеве које су успоставили односни ANSP, у складу са претходном координацијом са одговарајућим војним органима.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod2-clan14">
+					<num>14.</num>
+					<paragraph wId="podod2-clan14-stav1">
+						<content>
+							<p>Уговорне стране саглашавају се са садржајем и објављују све релевантне информације о делу ваздушног простора дефинисаног у Додатку 1 и Додатку 2 уз овај споразум, у којем је пренета надлежност за пружање услуга у ваздушном саобраћају, у својим Ваздухопловним информативним пакетимa, а како се дефинише у Анексу 15 уз Чикашку конвенцију.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod2-clan15">
+					<num>15.</num>
+					<paragraph wId="podod2-clan15-stav1">
+						<content>
+							<p>Уговорне стране спроводе истраживање околности удеса или озбиљних незгода који су се десили на њиховој територији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod2-clan15-stav2">
+						<content>
+							<p>На захтев, делегирајућа држава добија неопходне материјале од ANSP државе пружаоца (нпр. записе радарских података, преписе трака, итд.) како би могла да спроведе истражни поступак у вези са удесом или озбиљном незгодом, који су се десили на територији делегирајуће државе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod2-clan15-stav3">
+						<content>
+							<p>Држава пружалац има могућност да именује посматраче који присуствују истражном поступку а делегирајућа држава има обавезу да тој држави проследи извештај и налазе истражних радњи.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod2-clan16">
+					<num>16.</num>
+					<paragraph wId="podod2-clan16-stav1">
+						<content>
+							<p>Сваки спор између уговорних страна у погледу тумачења или примене овог споразума, укључујући његово постојање, пуноважност или престанак и финансијске реперкусије, решавају се преговорима између уговорних страна. Уколико спор не може да се реши преговорима уговорних страна у року од шест месеци од датума када је једна од уговорних страна поднела писани захтев за одржавање преговора, било која уговорна страна може да упути спор на коначну и обавезујућу арбитражу у складу са Опционим правилима Сталног арбитражног суда за решавање спорова између две државе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod2-clan16-stav2">
+						<content>
+							<p>Број арбитара је три. Уколико се у року од шездесет дана од дана пријема обавештења о арбитражи уговорне стране не договоре око три арбитра, било која уговорна страна може да захтева да Генерални секретар Сталног арбитражног суда именује три арбитра. Уговорне стране деле трошкове арбитражног трибунала на подједнаке делове.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod2-clan16-stav3">
+						<content>
+							<p>Језик који се користи у арбитражном поступку је енглески језик. Место арбитраже је Хаг. Међународни биро Сталног арбитражног суда има улогу Регистрара и има обавезу да пружи административне услуге по налогу Сталног арбитражног суда.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod2-clan17">
+					<num>17.</num>
+					<paragraph wId="podod2-clan17-stav1">
+						<content>
+							<p>Било која од уговорних страна може раскинути овај споразум достављањем писаног обавештења другој уговорној страни, дипломатским каналима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod2-clan17-stav2">
+						<content>
+							<p>Престанак важења производи правно дејство једну (1) годину након што друга уговорна стране прими такво обавештење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod2-clan17-stav3">
+						<content>
+							<p>У случају рата, током периода ванредне ситуације или у интересу јавне безбедности, или у другим изузетним околностима, свака уговорна страна има право да суспендује или раскине Споразум са тренутним дејством, и у складу са тим обавештава другу уговорну страну.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod2-clan17-stav4">
+						<content>
+							<p>Писма о договору из <ref wId="ref7" href="akn/rs/act/2017/4-58/srp@/!main~art_5" >члана 5. </ref>садрже одредбе у погледу њихове суспензије и престанка важења.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod2-clan18">
+					<num>18.</num>
+					<paragraph wId="podod2-clan18-stav1">
+						<content>
+							<p>Овај споразум ступа на снагу датумом пријема последњег писаног обавештења у којем се уговорне стране путем димпломатских канала међусобно обавештавају да су испуњени њихови одговарајући унутрашњи законски захтеви за ступање на снагу овог споразума.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod2-clan18-stav2">
+						<content>
+							<p>Овај споразум се привремено примењује од датума његовог потписивања.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod2-clan19">
+					<num>19.</num>
+					<paragraph wId="podod2-clan19-stav1">
+						<content>
+							<p>Одредбе садржане у Додацима уз овај Споразум чине његов саставни део.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod2-clan19-stav2">
+						<content>
+							<p>Одредбе садржане у Додацима уз овај споразум могу се изменити у складу са условима утврђеним у <ref wId="ref8" href="akn/rs/act/2017/4-58/srp@/!main~art_4" >члану 4. овог</ref> споразума.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod2-clan20">
+					<num>20.</num>
+					<paragraph wId="podod2-clan20-stav1">
+						<content>
+							<p>Уколико једна уговорна  страна сматра да је пожељно изменити било коју одредбу овог споразума, може затражити консултације са другом уговорном страном. Све измене око којих су се договориле уговорне стране морају бити у писаном облику и ступају на снагу у складу са одредбом <ref wId="ref9" href="akn/rs/act/2017/4-58/srp@/!main~art_18__para_1" >члана 18. став 1. овог</ref> споразума.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod2-clan20-stav2">
+						<content>
+							<p>Одговарајући ANSP директним договором могу заједнички утврдити измене у датим Писмима о договору, у писаном облику.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod2-clan21">
+					<num>21.</num>
+					<paragraph wId="podod2-clan21-stav1">
+						<content>
+							<p>Споразуми између релевантних ANSP уговорних страна који су на снази на дан ступања на снагу овог споразума процењују се ради евентуалне ревизије, у складу са одредбама утврђеним у овом споразуму. Сама процена не спречава наставак примене постојећих споразума.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod2-clan22">
+					<num>22.</num>
+					<paragraph wId="podod2-clan22-stav1">
+						<content>
+							<p>Овај споразум и све његове измене региструју се код ICAO, у складу са одредбама <ref wId="ref10" href="akn/rs/act/2017/4-58/srp@/!main~art_83" >члана 83. </ref>Чикашке конвенције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod2-clan22-stav2">
+						<content>
+							<p>У потврду чега су, доле потписани, опуномоћени у ту сврху од стране својих односних Влада, потписали овај споразум.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod2-clan22-stav3">
+						<content>
+							<p>Сачињено у два примерка у Београду дана 17. децембра 2014. године на енглеском jезику.</p>
+						</content>
+					</paragraph>
+					<paragraph class="special" wId="podod2-clan22-stav4">
+						<content>
+							<table>
+								
+
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>За Владу Републике Србије </p>
+										
+
+										<p>Проф. др Зорана Михајловић </p>
+										
+
+										<p>Потпредседник Владе и министар грађевинарства, саобраћаја и инфраструктуре</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>За Владу Републике Хрватске</p>
+										
+
+										<p>др Синиша Хајдаш Дончић</p>
+										
+
+										<p>Министар поморства, саобраћајa и инфраструктуре</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+
+							</table>
+							
+
+						</content>
+					</paragraph>
+					<paragraph wId="podod2-clan22-stav5">
+						<content>
+							<p>Додатак 1</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod2-clan1">
+					<num>1.</num>
+					<heading>Одређени део ваздушног простора Републике Србије за пренос надлежности за пружање услуга у ваздушном саобраћају</heading>
+					<paragraph wId="podod2-clan1-stav1">
+						<content>
+							<p>У оквиру ваздушног простора Републике Србије од 1.500 стопа до 4.000 стопа од средњег нивоа мора (MSL), надлежност за пружање услуга у ваздушном саобраћају преноси се на ХКЗП у ваздушном простору источно од административне линије између Републике Србије и Републике Хрватске, која је хоризонтално дефинисана следећим координатама:</p>
+						</content>
+					</paragraph>
+					<paragraph class="special" wId="podod2-clan1-stav2">
+						<content>
+							<table>
+								
+
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>Тачка А</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>453312.0N;0185608.0E</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>Тачка B</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>453337.0N;0190205.0E</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>Тачка C</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>453147.0N;0190747.0E</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>Тачка D</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>452930.0N;0190957.0E</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>Тачка E</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>452408.0N;0191106.0E</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>Тачка F</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>451721.0N;0190724.0E</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+
+							</table>
+							
+
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod2-clan2">
+					<num>2.</num>
+					<paragraph wId="podod2-clan2-stav1">
+						<content>
+							<p>Пружање услуга у ваздушном саобраћају заснива се на мрежи ATS рута објављених у одговарајућим Ваздухопловним информативним пакетима и примењује се од датума примене овог споразума.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod2-clan2-stav2">
+						<content>
+							<p>SMATSA и ХКЗП су сагласни да се утврђивање, модификација, укидање и затварање ATS рута, које су повезане са ваздушним простором описаним у члану 1. овог додатка, спроводи узајамно и координисано, уз потпуно поштовање оперативних захтева, међународних стандарда и препоручених пракси.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod2-clan3">
+					<num>3.</num>
+					<paragraph wId="podod2-clan3-stav1">
+						<content>
+							<p>ХКЗП, као пружалац услуга у ваздушном саобраћају који је дефинисан у члану 1. овог додатка спроводи активности услуге узбуњивања (ALR) у складу са ICAO стандардима и препорученим праксама, а све доступне податке о ваздухоплову у опасности редовно доставља надлежном Координационом центру за спасавање (RCC Србија) који је одговоран за координацију трагања и спасавање у дотичном ваздушном простору.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod2-clan3-stav2">
+						<content>
+							<p>SMATSA је у обавези да, пре почетка примене овог споразума, достави ХКЗП-у све релевантне информације о RCC Србија које су важне за међусобну координацију.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod2-clan3-stav3">
+						<content>
+							<p>Додатак 2</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod2-clan1">
+					<num>1.</num>
+					<heading>Одређени део ваздушног простора Републике Хрватске за пренос надлежности за пружање услуга у ваздушном саобраћају</heading>
+					<paragraph wId="podod2-clan1-stav1">
+						<intro>
+							<p>У оквиру ваздушног простора Републике Хрватске од 7.000 стопа од средњег нивоа мора до FL205, надлежност за пружање услуга у ваздушном саобраћају преноси се на SMATSA у ваздушном простору западно од административне линије између Републике Србије и Републике Хрватске, која се хоризонтално дефинише следећим координатама:</p>
+						</intro>
+						<point wId="podod2-clan1-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> “Agreement” means this Agreement, its Appendices and any amendments thereto.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> “Air Traffic Service (ATS)” as a generic term includes flight information service, alerting service, air traffic advisory service, air traffic control service provided by the Contracting Parties.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> “Air Navigation Service Provider (ANSP)” means any public or private entity providing air navigation services for general air traffic.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac4">
+							<num>4.</num>
+							<content>
+								<p> “Air Navigation Service Provider concerned” means an appropriate entity designated by the Contracting Party to provide Air Traffic Services, namely:</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac5">
+							<num>5.</num>
+							<content>
+								<p> “Airspace Management (ASM)” means a planning function with the primary objective of maximising the utilisation of available airspace by dynamic time-sharing and, at times, the segregation of airspace among various categories of users based on short-term needs.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac6">
+							<num>6.</num>
+							<content>
+								<p> “Air Traffic Flow Management (ATFM)” means the regulation of air traffic in order to avoid exceeding airport or air traffic control capacity in handling traffic, and to ensure that available capacity is used efficiently.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac7">
+							<num>7.</num>
+							<content>
+								<p> “Alerting Service” means a service provided to notify appropriate organisations regarding aircraft in need of search and rescue aid, and assist such organizations as required.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac8">
+							<num>8.</num>
+							<content>
+								<p> “ATS Unit” means a generic term meaning variously, air traffic control unit, flight information centre, aerodrome flight information service unit or air traffic services reporting office.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac9">
+							<num>9.</num>
+							<content>
+								<p> “Chicago Convention” means the Convention on International Civil Aviation, opened for signature at Chicago on December 7, 1944 and includes:</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac10">
+							<num>10.</num>
+							<content>
+								<p> “Certifying NSA” means, with respect to a particular ANSP, the national supervisory authority (NSA), nominated or established by particular Contracting Party, that has certified that ANSP, namely:</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac11">
+							<num>11.</num>
+							<content>
+								<p> “Delegation of air traffic services” means the delegation from one State (the Delegating State) to another State (the Providing State) of the responsibility for providing air traffic services in a portion of airspace extending over the territories of the former.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac12">
+							<num>12.</num>
+							<content>
+								<p> “Delegating State” means the State which delegates to another State the responsibility for the provision of air traffic services in the portion of the airspace above its territory, as follows:</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac13">
+							<num>13.</num>
+							<content>
+								<p> “GAT” or General Air Traffic means flights conducted in accordance with the rules and provisions of the International Civil Aviation Organization.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac14">
+							<num>14.</num>
+							<content>
+								<p> “MoT” – Ministry in charge of civil aviation.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac15">
+							<num>15.</num>
+							<content>
+								<p> “Providing State” means the State whose designated ANSP is responsible for the provision of air traffic services, as follows:</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac16">
+							<num>16.</num>
+							<content>
+								<p> “OAT” or Operational Air Traffic means flights which do not comply with the provisions stated for GAT and for which rules and procedures have been specified by the appropriate authorities.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac17">
+							<num>17.</num>
+							<content>
+								<p> “Territorial NSA” means, with respect to a particular portion of airspace, the national supervisory authority (NSA) nominated or established by particular Contracting Party, that has responsibility for supervision of the Air Traffic Management and Air Navigation Services provision over that portion of airspace, namely:</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac18">
+							<num>18.</num>
+							<content>
+								<p> “Territory” in relation to a State, has the meaning specified in Article 2 of the Chicago Convention.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac19">
+							<num>19.</num>
+							<content>
+								<p> “ICAO” means International Civil Aviation Organization. ICAO is a specialized UN agency, established in 1944 in order to promote safe and orderly development of international civil aviation in the whole world. ICAO sets standards and recommended practices necessary, among other, for the safety of air traffic, security of air traffic and environment protection in the aviation field.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac20">
+							<num>20.</num>
+							<content>
+								<p> “FIR” (flight information region) means a specified region of airspace in which a flight information service and an alerting service are provided.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> „Споразум” означава овај споразум, његове додатке и све измене истих.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> „услуга у ваздушном саобраћају (ATS - Air Traffic Service )” као генерички израз укључује услугу информисања ваздухоплова у лету, услугу узбуњивања, саветодавне услуге у ваздушном саобраћају, услугу контроле летења које пружају уговорне стране.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> „пружалац услуге у ваздушној половидби (ANSP - Air Navigation Service Provider)” означава сваки јавноправни или приватноправни субјект који пружа услуге у ваздушној пловидби за потребе обављања општег ваздушног саобраћаја.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac4">
+							<num>4.</num>
+							<content>
+								<p> „одговарајући пружалац услуге у ваздушној пловидби” означава одговарајућег субјекта којег су уговорне стране одредиле да пружа услуге у ваздушном саобраћају, наиме:</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac5">
+							<num>5.</num>
+							<content>
+								<p> „Управљање ваздушним простором (ASM - Airspace Management)” означава функцију планирања са примарним циљем побољшаног коришћења доступног ваздушног простора динамичком расподелом времена и, повремено, раздвајање ваздушног простора између различитих категорија корисника на основу краткорочних потреба.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac6">
+							<num>6.</num>
+							<content>
+								<p> „управљање током ваздушног собраћаја (ATFM - Air Traffic Flow Management)” означава регулисање ваздушног саобраћаја како би се избегло прекорачивање капацитета аеродрома или контроле летења при управљању саобраћајем, и како би се омогућило ефикасно коришћење доступног капацитета.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac7">
+							<num>7.</num>
+							<content>
+								<p> „услуга узбуњивања” означава услугу обавештавања одговарајућих организација о ваздухопловима које је потребно пронаћи и пружити им помоћ, као и пружања помоћи тим организацијама, по потреби.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac8">
+							<num>8.</num>
+							<content>
+								<p> „ATS jединица” означава генерички израз који се може односити на јединицу контроле летења, центар за информисање ваздухоплова у лету, службу аеродромског информисања у лету или пријавни биро за услуге у ваздушном саобраћају.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac9">
+							<num>9.</num>
+							<content>
+								<p> „Чикашка конвенција” означава Конвенцију о међународном цивилном ваздухопловству, отворену за потписивање 7. децембра 1944. године у Чикагу, и обухвата:</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac10">
+							<num>10.</num>
+							<content>
+								<p> „Сертификациони ННТ“ означава, у погледу одређеног ANSP-а, национално надзорно тело (ННТ) које је именовала или основала одређена уговорна страна, а које је сертификовало тај ANSP, наиме:</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac11">
+							<num>11.</num>
+							<content>
+								<p> „Пренос услуга у ваздушном саобраћају” означава пренос надлежности са једне државе (делегирајућа држава) на другу државу (држава пружалац) за пружање услуга у ваздушном саобраћају у делу ваздушног простора који се протеже преко територије делегирајуће државе.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac12">
+							<num>12.</num>
+							<content>
+								<p> „делегирајућа држава” означава државу која преноси другој држави надлежност за пружање услуга у ваздушном саобраћају у делу ваздушног простора изнад њене територије, како следи:</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac13">
+							<num>13.</num>
+							<content>
+								<p> „GAT” – (General Air Traffic) или општи ваздушни саобраћај означава летове који се обављају у складу са правилима и прописима Међународне организације цивилног ваздухопловства.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac14">
+							<num>14.</num>
+							<content>
+								<p> „МС” – Министарство задужено за цивилно ваздухопловство.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac15">
+							<num>15.</num>
+							<content>
+								<p> „држава пружалац” означава државу чији је одређени ANSP одговоран за пружање услуга у ваздушном саобраћају, како следи:</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac16">
+							<num>16.</num>
+							<content>
+								<p> „ОAT” – (Operational Air Traffic) или оперативни ваздушни саобраћај означава летове који нису у складу са одредбама наведеним за ОВС и за које су правила и поступке дефинисали одговарајући органи.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac17">
+							<num>17.</num>
+							<content>
+								<p> „Територијални ННТ” означава, у погледу одређеног дела ваздушног простора, национално надзорно тело (ННТ) које је именовала или основала конкретна уговорна страна, које је надлежно за надзор над управљањем ваздушним саобраћајем и надзор над пружањем услуга у ваздушној пловидби у том делу ваздушног простора, наиме:</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac18">
+							<num>18.</num>
+							<content>
+								<p> „Територија” у односу на државу има значење дефинисано у члану 2. Чикашке конвенције.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac19">
+							<num>19.</num>
+							<content>
+								<p> „ICAO” означава Међународну организацију цивилног ваздухопловства. ICAO је специјализована агенција УН-а, основана 1944. године ради подстицања безбедног и неометаног развоја међународног цивилног ваздухопловства у целом свету. ICAO утврђује стандарде и препоручене праксе који су, између осталог, неопходни за безбедност и обезбеђивање ваздушног саобраћаја и заштиту животне средине у области ваздухопловства.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac20">
+							<num>20.</num>
+							<content>
+								<p> „FIR” (Flight Information Region - област информисања у лету) означава одређену област ваздушног простора у којој се пружају услуге обавештавања у лету и услуге узбуњивања.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> “Agreement” means this Agreement, its Appendices and any amendments thereto.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> “Air Traffic Service (ATS)” as a generic term includes flight information service, alerting service, air traffic advisory service, air traffic control service provided by the Contracting Parties.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> “Air Navigation Service Provider (ANSP)” means any public or private entity providing air navigation services for general air traffic.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac4">
+							<num>4.</num>
+							<content>
+								<p> “Air Navigation Service Provider concerned” means an appropriate entity designated by the Contracting Party to provide Air Traffic Services, namely:</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac5">
+							<num>5.</num>
+							<content>
+								<p> “Airspace Management (ASM)” means a planning function with the primary objective of maximising the utilisation of available airspace by dynamic time-sharing and, at times, the segregation of airspace among various categories of users based on short-term needs.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac6">
+							<num>6.</num>
+							<content>
+								<p> “Air Traffic Flow Management (ATFM)” means the regulation of air traffic in order to avoid exceeding airport or air traffic control capacity in handling traffic, and to ensure that available capacity is used efficiently.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac7">
+							<num>7.</num>
+							<content>
+								<p> “Alerting Service” means a service provided to notify appropriate organisations regarding aircraft in need of search and rescue aid, and assist such organizations as required.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac8">
+							<num>8.</num>
+							<content>
+								<p> “ATS Unit” means a generic term meaning variously, air traffic control unit, flight information centre, aerodrome flight information service unit or air traffic services reporting office.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac9">
+							<num>9.</num>
+							<content>
+								<p> “Chicago Convention” means the Convention on International Civil Aviation, opened for signature at Chicago on December 7, 1944 and includes:</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac10">
+							<num>10.</num>
+							<content>
+								<p> “Certifying NSA” means, with respect to a particular ANSP, the national supervisory authority (NSA), nominated or established by particular Contracting Party, that has certified that ANSP, namely:</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac11">
+							<num>11.</num>
+							<content>
+								<p> “Delegation of air traffic services” means the delegation from one State (the Delegating State) to another State (the Providing State) of the responsibility for providing air traffic services in a portion of airspace extending over the territories of the former.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac12">
+							<num>12.</num>
+							<content>
+								<p> “Delegating State” means the State which delegates to another State the responsibility for the provision of air traffic services in the portion of the airspace above its territory, as follows:</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac13">
+							<num>13.</num>
+							<content>
+								<p> “GAT” or General Air Traffic means flights conducted in accordance with the rules and provisions of the International Civil Aviation Organization.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac14">
+							<num>14.</num>
+							<content>
+								<p> “MoT” – Ministry in charge of civil aviation.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac15">
+							<num>15.</num>
+							<content>
+								<p> “Providing State” means the State whose designated ANSP is responsible for the provision of air traffic services, as follows:</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac16">
+							<num>16.</num>
+							<content>
+								<p> “OAT” or Operational Air Traffic means flights which do not comply with the provisions stated for GAT and for which rules and procedures have been specified by the appropriate authorities.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac17">
+							<num>17.</num>
+							<content>
+								<p> “Territorial NSA” means, with respect to a particular portion of airspace, the national supervisory authority (NSA) nominated or established by particular Contracting Party, that has responsibility for supervision of the Air Traffic Management and Air Navigation Services provision over that portion of airspace, namely:</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac18">
+							<num>18.</num>
+							<content>
+								<p> “Territory” in relation to a State, has the meaning specified in Article 2 of the Chicago Convention.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac19">
+							<num>19.</num>
+							<content>
+								<p> “ICAO” means International Civil Aviation Organization. ICAO is a specialized UN agency, established in 1944 in order to promote safe and orderly development of international civil aviation in the whole world. ICAO sets standards and recommended practices necessary, among other, for the safety of air traffic, security of air traffic and environment protection in the aviation field.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac20">
+							<num>20.</num>
+							<content>
+								<p> “FIR” (flight information region) means a specified region of airspace in which a flight information service and an alerting service are provided.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> „Споразум” означава овај споразум, његове додатке и све измене истих.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> „услуга у ваздушном саобраћају (ATS - Air Traffic Service )” као генерички израз укључује услугу информисања ваздухоплова у лету, услугу узбуњивања, саветодавне услуге у ваздушном саобраћају, услугу контроле летења које пружају уговорне стране.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> „пружалац услуге у ваздушној половидби (ANSP - Air Navigation Service Provider)” означава сваки јавноправни или приватноправни субјект који пружа услуге у ваздушној пловидби за потребе обављања општег ваздушног саобраћаја.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac4">
+							<num>4.</num>
+							<content>
+								<p> „одговарајући пружалац услуге у ваздушној пловидби” означава одговарајућег субјекта којег су уговорне стране одредиле да пружа услуге у ваздушном саобраћају, наиме:</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac5">
+							<num>5.</num>
+							<content>
+								<p> „Управљање ваздушним простором (ASM - Airspace Management)” означава функцију планирања са примарним циљем побољшаног коришћења доступног ваздушног простора динамичком расподелом времена и, повремено, раздвајање ваздушног простора између различитих категорија корисника на основу краткорочних потреба.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac6">
+							<num>6.</num>
+							<content>
+								<p> „управљање током ваздушног собраћаја (ATFM - Air Traffic Flow Management)” означава регулисање ваздушног саобраћаја како би се избегло прекорачивање капацитета аеродрома или контроле летења при управљању саобраћајем, и како би се омогућило ефикасно коришћење доступног капацитета.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac7">
+							<num>7.</num>
+							<content>
+								<p> „услуга узбуњивања” означава услугу обавештавања одговарајућих организација о ваздухопловима које је потребно пронаћи и пружити им помоћ, као и пружања помоћи тим организацијама, по потреби.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac8">
+							<num>8.</num>
+							<content>
+								<p> „ATS jединица” означава генерички израз који се може односити на јединицу контроле летења, центар за информисање ваздухоплова у лету, службу аеродромског информисања у лету или пријавни биро за услуге у ваздушном саобраћају.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac9">
+							<num>9.</num>
+							<content>
+								<p> „Чикашка конвенција” означава Конвенцију о међународном цивилном ваздухопловству, отворену за потписивање 7. децембра 1944. године у Чикагу, и обухвата:</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac10">
+							<num>10.</num>
+							<content>
+								<p> „Сертификациони ННТ“ означава, у погледу одређеног ANSP-а, национално надзорно тело (ННТ) које је именовала или основала одређена уговорна страна, а које је сертификовало тај ANSP, наиме:</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac11">
+							<num>11.</num>
+							<content>
+								<p> „Пренос услуга у ваздушном саобраћају” означава пренос надлежности са једне државе (делегирајућа држава) на другу државу (држава пружалац) за пружање услуга у ваздушном саобраћају у делу ваздушног простора који се протеже преко територије делегирајуће државе.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac12">
+							<num>12.</num>
+							<content>
+								<p> „делегирајућа држава” означава државу која преноси другој држави надлежност за пружање услуга у ваздушном саобраћају у делу ваздушног простора изнад њене територије, како следи:</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac13">
+							<num>13.</num>
+							<content>
+								<p> „GAT” – (General Air Traffic) или општи ваздушни саобраћај означава летове који се обављају у складу са правилима и прописима Међународне организације цивилног ваздухопловства.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac14">
+							<num>14.</num>
+							<content>
+								<p> „МС” – Министарство задужено за цивилно ваздухопловство.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac15">
+							<num>15.</num>
+							<content>
+								<p> „држава пружалац” означава државу чији је одређени ANSP одговоран за пружање услуга у ваздушном саобраћају, како следи:</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac16">
+							<num>16.</num>
+							<content>
+								<p> „ОAT” – (Operational Air Traffic) или оперативни ваздушни саобраћај означава летове који нису у складу са одредбама наведеним за ОВС и за које су правила и поступке дефинисали одговарајући органи.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac17">
+							<num>17.</num>
+							<content>
+								<p> „Територијални ННТ” означава, у погледу одређеног дела ваздушног простора, национално надзорно тело (ННТ) које је именовала или основала конкретна уговорна страна, које је надлежно за надзор над управљањем ваздушним саобраћајем и надзор над пружањем услуга у ваздушној пловидби у том делу ваздушног простора, наиме:</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac18">
+							<num>18.</num>
+							<content>
+								<p> „Територија” у односу на државу има значење дефинисано у члану 2. Чикашке конвенције.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac19">
+							<num>19.</num>
+							<content>
+								<p> „ICAO” означава Међународну организацију цивилног ваздухопловства. ICAO је специјализована агенција УН-а, основана 1944. године ради подстицања безбедног и неометаног развоја међународног цивилног ваздухопловства у целом свету. ICAO утврђује стандарде и препоручене праксе који су, између осталог, неопходни за безбедност и обезбеђивање ваздушног саобраћаја и заштиту животне средине у области ваздухопловства.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac20">
+							<num>20.</num>
+							<content>
+								<p> „FIR” (Flight Information Region - област информисања у лету) означава одређену област ваздушног простора у којој се пружају услуге обавештавања у лету и услуге узбуњивања.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> “Agreement” means this Agreement, its Appendices and any amendments thereto.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> “Air Traffic Service (ATS)” as a generic term includes flight information service, alerting service, air traffic advisory service, air traffic control service provided by the Contracting Parties.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> “Air Navigation Service Provider (ANSP)” means any public or private entity providing air navigation services for general air traffic.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac4">
+							<num>4.</num>
+							<content>
+								<p> “Air Navigation Service Provider concerned” means an appropriate entity designated by the Contracting Party to provide Air Traffic Services, namely:</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac5">
+							<num>5.</num>
+							<content>
+								<p> “Airspace Management (ASM)” means a planning function with the primary objective of maximising the utilisation of available airspace by dynamic time-sharing and, at times, the segregation of airspace among various categories of users based on short-term needs.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac6">
+							<num>6.</num>
+							<content>
+								<p> “Air Traffic Flow Management (ATFM)” means the regulation of air traffic in order to avoid exceeding airport or air traffic control capacity in handling traffic, and to ensure that available capacity is used efficiently.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac7">
+							<num>7.</num>
+							<content>
+								<p> “Alerting Service” means a service provided to notify appropriate organisations regarding aircraft in need of search and rescue aid, and assist such organizations as required.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac8">
+							<num>8.</num>
+							<content>
+								<p> “ATS Unit” means a generic term meaning variously, air traffic control unit, flight information centre, aerodrome flight information service unit or air traffic services reporting office.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac9">
+							<num>9.</num>
+							<content>
+								<p> “Chicago Convention” means the Convention on International Civil Aviation, opened for signature at Chicago on December 7, 1944 and includes:</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac10">
+							<num>10.</num>
+							<content>
+								<p> “Certifying NSA” means, with respect to a particular ANSP, the national supervisory authority (NSA), nominated or established by particular Contracting Party, that has certified that ANSP, namely:</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac11">
+							<num>11.</num>
+							<content>
+								<p> “Delegation of air traffic services” means the delegation from one State (the Delegating State) to another State (the Providing State) of the responsibility for providing air traffic services in a portion of airspace extending over the territories of the former.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac12">
+							<num>12.</num>
+							<content>
+								<p> “Delegating State” means the State which delegates to another State the responsibility for the provision of air traffic services in the portion of the airspace above its territory, as follows:</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac13">
+							<num>13.</num>
+							<content>
+								<p> “GAT” or General Air Traffic means flights conducted in accordance with the rules and provisions of the International Civil Aviation Organization.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac14">
+							<num>14.</num>
+							<content>
+								<p> “MoT” – Ministry in charge of civil aviation.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac15">
+							<num>15.</num>
+							<content>
+								<p> “Providing State” means the State whose designated ANSP is responsible for the provision of air traffic services, as follows:</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac16">
+							<num>16.</num>
+							<content>
+								<p> “OAT” or Operational Air Traffic means flights which do not comply with the provisions stated for GAT and for which rules and procedures have been specified by the appropriate authorities.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac17">
+							<num>17.</num>
+							<content>
+								<p> “Territorial NSA” means, with respect to a particular portion of airspace, the national supervisory authority (NSA) nominated or established by particular Contracting Party, that has responsibility for supervision of the Air Traffic Management and Air Navigation Services provision over that portion of airspace, namely:</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac18">
+							<num>18.</num>
+							<content>
+								<p> “Territory” in relation to a State, has the meaning specified in Article 2 of the Chicago Convention.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac19">
+							<num>19.</num>
+							<content>
+								<p> “ICAO” means International Civil Aviation Organization. ICAO is a specialized UN agency, established in 1944 in order to promote safe and orderly development of international civil aviation in the whole world. ICAO sets standards and recommended practices necessary, among other, for the safety of air traffic, security of air traffic and environment protection in the aviation field.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac20">
+							<num>20.</num>
+							<content>
+								<p> “FIR” (flight information region) means a specified region of airspace in which a flight information service and an alerting service are provided.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> „Споразум” означава овај споразум, његове додатке и све измене истих.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> „услуга у ваздушном саобраћају (ATS - Air Traffic Service )” као генерички израз укључује услугу информисања ваздухоплова у лету, услугу узбуњивања, саветодавне услуге у ваздушном саобраћају, услугу контроле летења које пружају уговорне стране.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> „пружалац услуге у ваздушној половидби (ANSP - Air Navigation Service Provider)” означава сваки јавноправни или приватноправни субјект који пружа услуге у ваздушној пловидби за потребе обављања општег ваздушног саобраћаја.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac4">
+							<num>4.</num>
+							<content>
+								<p> „одговарајући пружалац услуге у ваздушној пловидби” означава одговарајућег субјекта којег су уговорне стране одредиле да пружа услуге у ваздушном саобраћају, наиме:</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac5">
+							<num>5.</num>
+							<content>
+								<p> „Управљање ваздушним простором (ASM - Airspace Management)” означава функцију планирања са примарним циљем побољшаног коришћења доступног ваздушног простора динамичком расподелом времена и, повремено, раздвајање ваздушног простора између различитих категорија корисника на основу краткорочних потреба.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac6">
+							<num>6.</num>
+							<content>
+								<p> „управљање током ваздушног собраћаја (ATFM - Air Traffic Flow Management)” означава регулисање ваздушног саобраћаја како би се избегло прекорачивање капацитета аеродрома или контроле летења при управљању саобраћајем, и како би се омогућило ефикасно коришћење доступног капацитета.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac7">
+							<num>7.</num>
+							<content>
+								<p> „услуга узбуњивања” означава услугу обавештавања одговарајућих организација о ваздухопловима које је потребно пронаћи и пружити им помоћ, као и пружања помоћи тим организацијама, по потреби.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac8">
+							<num>8.</num>
+							<content>
+								<p> „ATS jединица” означава генерички израз који се може односити на јединицу контроле летења, центар за информисање ваздухоплова у лету, службу аеродромског информисања у лету или пријавни биро за услуге у ваздушном саобраћају.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac9">
+							<num>9.</num>
+							<content>
+								<p> „Чикашка конвенција” означава Конвенцију о међународном цивилном ваздухопловству, отворену за потписивање 7. децембра 1944. године у Чикагу, и обухвата:</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac10">
+							<num>10.</num>
+							<content>
+								<p> „Сертификациони ННТ“ означава, у погледу одређеног ANSP-а, национално надзорно тело (ННТ) које је именовала или основала одређена уговорна страна, а које је сертификовало тај ANSP, наиме:</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac11">
+							<num>11.</num>
+							<content>
+								<p> „Пренос услуга у ваздушном саобраћају” означава пренос надлежности са једне државе (делегирајућа држава) на другу државу (држава пружалац) за пружање услуга у ваздушном саобраћају у делу ваздушног простора који се протеже преко територије делегирајуће државе.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac12">
+							<num>12.</num>
+							<content>
+								<p> „делегирајућа држава” означава државу која преноси другој држави надлежност за пружање услуга у ваздушном саобраћају у делу ваздушног простора изнад њене територије, како следи:</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac13">
+							<num>13.</num>
+							<content>
+								<p> „GAT” – (General Air Traffic) или општи ваздушни саобраћај означава летове који се обављају у складу са правилима и прописима Међународне организације цивилног ваздухопловства.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac14">
+							<num>14.</num>
+							<content>
+								<p> „МС” – Министарство задужено за цивилно ваздухопловство.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac15">
+							<num>15.</num>
+							<content>
+								<p> „држава пружалац” означава државу чији је одређени ANSP одговоран за пружање услуга у ваздушном саобраћају, како следи:</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac16">
+							<num>16.</num>
+							<content>
+								<p> „ОAT” – (Operational Air Traffic) или оперативни ваздушни саобраћај означава летове који нису у складу са одредбама наведеним за ОВС и за које су правила и поступке дефинисали одговарајући органи.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac17">
+							<num>17.</num>
+							<content>
+								<p> „Територијални ННТ” означава, у погледу одређеног дела ваздушног простора, национално надзорно тело (ННТ) које је именовала или основала конкретна уговорна страна, које је надлежно за надзор над управљањем ваздушним саобраћајем и надзор над пружањем услуга у ваздушној пловидби у том делу ваздушног простора, наиме:</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac18">
+							<num>18.</num>
+							<content>
+								<p> „Територија” у односу на државу има значење дефинисано у члану 2. Чикашке конвенције.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac19">
+							<num>19.</num>
+							<content>
+								<p> „ICAO” означава Међународну организацију цивилног ваздухопловства. ICAO је специјализована агенција УН-а, основана 1944. године ради подстицања безбедног и неометаног развоја међународног цивилног ваздухопловства у целом свету. ICAO утврђује стандарде и препоручене праксе који су, између осталог, неопходни за безбедност и обезбеђивање ваздушног саобраћаја и заштиту животне средине у области ваздухопловства.</p>
+							</content>
+						</point>
+						<point wId="podod2-clan1-stav1-tac20">
+							<num>20.</num>
+							<content>
+								<p> „FIR” (Flight Information Region - област информисања у лету) означава одређену област ваздушног простора у којој се пружају услуге обавештавања у лету и услуге узбуњивања.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+			</subsection>
+		</body>
+	</act>
+</akomaNtoso>

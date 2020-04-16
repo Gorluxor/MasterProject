@@ -1,0 +1,423 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о адвокатури">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2011/31-3/main"/>
+					<FRBRuri value="/rs/act/2011/31-3"/>
+					<FRBRdate date="2011-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2012/24-28/srp@/main"/>
+					<FRBRuri value="/rs/act/2012/24-28/srp@"/>
+					<FRBRdate date="2012-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2012/24-28/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2012/24-28/srp@.akn"/>
+					<FRBRdate date="2012-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2011-05-09" name="службени гласник рс" number="31" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="III ПРАВОСУЂЕ, КАЗНЕНО ЗАКОНОДАВСТВО И ПОСТУПЦИ" value="iii правосуђе, казнено законодавство и поступци" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="4. Адвокатура, јавно бележништво и бесплатна правна помоћ" value="4. адвокатура, јавно бележништво и бесплатна правна помоћ" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2011-01-01" refersTo="31/2011-3" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2012-01-01" refersTo="24/2012-28" source="#somebody" type="amendment" wId="e2"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2011-05-05" wId="usvajanje"/>
+				<step by="#TODO" date="2011-05-17" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2011-05-17" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику РС“, односно 17. маја 2011. године.Стaтут и други oпшти aкти Адвокатске коморе Србије донеће се у року од три месеца од дана ступања на снагу овог закона, односно до 17. августа 2011. године. Адвокатске коморе у саставу Адвокатске коморе Србије донеће своје статуте и друге опште акте у року од шест месеци од дана ступања на снагу овог закона, односно до 17. новамбра 2011. године. Ако адвокатске коморе у саставу Адвокатске коморе Србије не донесу своје статуте и опште акте у утврђеном року, непосредно ће се примењивати статут и општи акти Адвокатске коморе Србије. До доношења статута и општих аката, примењиваће се важећи статути и друга општа акта који нису у супротности са овим законом (види члан 88. Закона).Oдрeдбe овог закона које се односе на aдвoкaтски испит, као и одредбе члана 37. овог закона примењиваће се након истека рока од једне године од дана ступања на снагу овог закона, односно од 18. маја 2012. године (види члан 90. Закона).Одлуком Уставног суда број IУз-163/2011 („Службени гласник РС“, број 24/2012) престале су да важе одредбе члана 64. став 4, у делу који гласи: „пренос јавних овлашћења” и члана 65. став 4. Закона о адвокатури („Службени гласник РС”, број 31/11), јер је утврђено да нису у сагласности са Уставом (види Одлуку УС – 24/2012-28).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О адвокатури "Службени гласник РС", бр. 31 од 9. маја 2011, 24 од 30. марта 2012 - УС</p>
+			</longTitle>
+			<p>Редакцијски пречишћен текст</p>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<heading>Предмет закона</heading>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређују се адвокатска служба, услови за бављење адвокатуром и облици рада адвоката, права, обавезе и одговорност адвоката и адвокатских приправника и организација и рад адвокатских комора.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<heading>Самосталност, независност и јавни значај адвокатуре</heading>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Адвокатура je независна и самостална служба пружања правне помоћи физичким и правним лицима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav2">
+						<intro>
+							<p>Самосталност и независност адвокатуре остварује се:</p>
+						</intro>
+						<point wId="gla1-clan2-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> самосталним и независним обављањем адвокатуре;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> правом странке на слободан избор адвоката;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> организовањем адвоката у Адвокатску комору Србије и адвокатске коморе у њеном саставу, као самосталне и независне организације адвоката;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> доношењем општих аката од стране адвокатских комора;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav2-tac5">
+							<num>5)</num>
+							<content>
+								<p> одлучивањем о пријему у адвокатуру и о престанку права на бављење адвокатуром.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<heading>Предмет адвокатуре</heading>
+					<paragraph wId="gla1-clan3-stav1">
+						<intro>
+							<p>Пружање правне помоћи из <ref wId="ref0" href="akn/rs/act/2012/24-28/srp@/!main~art_2__para_1" >члана 2. став 1. овог</ref> закона обухвата:</p>
+						</intro>
+						<point wId="gla1-clan3-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> давањe усмених и писмених правних савета и мишљења;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> састављање тужби, захтева, предлога, молби, правних лекова, представки и других поднесака;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> састављaњe уговора, завештaњa, поравнања, изјава, општих и појединачних аката и других исправа;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> заступањe и одбрану физичких и правних лица;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> посредовање у циљу закључења правног посла или мирног решавања спорова и спорних односа;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> обављање других послова правне помоћи у име и за рачун домаћег или страног физичког или правног лица, на основу којих се остварују права или штите слободе и други интереси.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<heading>Значење израза</heading>
+					<paragraph wId="gla1-clan4-stav1">
+						<intro>
+							<p>Поједини изрази употребљени у овом закону имају следеће значење:</p>
+						</intro>
+						<point wId="gla1-clan4-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> „адвокатура” је обављање адвокатске службе;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> „адвокат” је лице које је уписано у именик адвоката и положило адвокатску заклетву и бави се адвокатуром;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> „кандидат” је лице које је поднело захтев за упис у именик адвоката, све док није уписано у именик адвоката и положило адвокатску заклетву;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> „надлежна адвокатска комора” је адвокатска комора у чији именик је адвокат уписан;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> „странка” је физичко или правно лице које се адвокату обратило за пружање правне помоћи и лице које адвокат заступа или брани;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> „заступање” је заступање или одбрана;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> „кодекс” је Кодекс професионалне етике адвоката;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> „тарифа” је Тарифа о наградама и накнадама трошкова за рад адвоката;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> „домаћи адвокат” је адвокат који је држављанин Републике Србије;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p> „именик адвоката” је именик адвоката држављана Републике Србије;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav1-tac11">
+							<num>11)</num>
+							<content>
+								<p> „уписник А и уписник Б именика адвоката” је именик адвоката – страних држављана;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav1-tac12">
+							<num>12)</num>
+							<content>
+								<p> „именик заједничких адвокатских канцеларија” је именик уписаних заједничких адвокатских канцеларија;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav1-tac13">
+							<num>13)</num>
+							<content>
+								<p> „имeник aдвoкaтских oртaчких друштaвa” је именик уписаних адвокатских ортачких друштава;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav1-tac14">
+							<num>14)</num>
+							<content>
+								<p> „адвoкaтски припрaвник” je дипломирани правник уписан у именик адвокатских приправника, који се обављањем приправничке вежбе код адвоката, оспособљава за рад у адвокатури;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav1-tac15">
+							<num>15)</num>
+							<content>
+								<p> „именик адвокатских приправника” је именик адвокатских приправника који се оспособљавају за рад у адвокатури.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>УСЛОВИ ЗА БАВЉЕЊЕ АДВОКАТУРОМ</heading>
+				<article wId="gla2-clan5">
+					<num>5.</num>
+					<heading>Право на бављење адвокатуром</heading>
+					<paragraph wId="gla2-clan5-stav1">
+						<content>
+							<p>Право на бављење адвокатуром стиче се доношењем одлуке о упису у именик адвоката и полагањем адвокатске заклетве.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav2">
+						<content>
+							<p>Поступак за остваривање права на бављење адвокатуром покреће се захтевом кандидата за упис у именик адвоката поднетим адвокатској комори на чијем подручју ће бити седиште адвокатске канцеларије кандидата.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan6">
+					<num>6.</num>
+					<heading>Услови за упис у именик адвоката</heading>
+					<paragraph wId="gla2-clan6-stav1">
+						<intro>
+							<p>Услови за доношење одлуке о упису у именик адвоката, ако овим законом није другачије одређено, су:</p>
+						</intro>
+						<point wId="gla2-clan6-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> диплома правног факултета стечена у Републици Србији или диплома правног факултета стечена у страној држави и призната у складу са прописима који уређују област високог образовања;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> положен правосудни и адвокатски испит у Републици Србији;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> држављанство Републике Србије;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> општа здравствена и потпуна пословна способност;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> непостојање радног односа;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> неосуђиваност зa кривичнo дeлo кoje би кандидата чинилo нeдoстojним пoвeрeњa зa бављење aдвoкaтуром;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> непостојање друге регистроване самосталне делатности или статуса статутарног заступника, директора или председника управног одбора у правном лицу, члана или председника извршног одбора банке, заступника државног капитала, стечајног управника, прокуристе и лица које уговором о раду има утврђену забрану конкуренције;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> достојност за бављење адвокатуром;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> обезбеђен радни простор погодан за бављење адвокатуром и испуњеност техничких услова, у складу са актом Адвокатске коморе Србије;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p> протек најмање три године од доношења коначне одлуке о одбијању захтева за упис у именик адвоката било које од адвокатских комора у саставу Адвокатске коморе Србије, ако је кандидат претходно подносио захтев који је одбијен.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav2">
+						<content>
+							<p>Сматра се да није достојан поверења за бављење адвокатуром кандидат из чијег се живота и рада, у складу са општеприхваћеним моралним нормама и кодексом, може закључити да се неће савесно бавити адвокатуром и чувати њен углед.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav3">
+						<content>
+							<p>Испуњеност услова за упис у именик адвоката из става 1. тач. <ref wId="ref1" href="akn/rs/act/2012/24-28/srp@/!main~art_6__para_1__point_6" >6</ref>) и <ref wId="ref2" href="akn/rs/act/2012/24-28/srp@/!main~art_6__para_1__point_8" >8</ref>) овог члана адвокатска комора цени по слободној оцени.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav4">
+						<content>
+							<p>Кандидат који је обављао судијску или јавнотужилачку функцију најмање 12 година, не полаже адвокатски испит.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan7">
+					<num>7.</num>
+					<heading>Доказивање услова за упис у именик адвоката</heading>
+					<paragraph wId="gla2-clan7-stav1">
+						<content>
+							<p>Уз захтев за упис кандидат је дужан да достави доказе и податке о испуњавању услова из <ref wId="ref3" href="akn/rs/act/2012/24-28/srp@/!main~art_6__para_1__point_1->point_5" >члана 6. став 1. тач. 1) </ref>до 5) и тач. <ref wId="ref4" href="akn/rs/act/2012/24-28/srp@/!main~art_6__para_1__point_7" >7</ref>) и <ref wId="ref5" href="akn/rs/act/2012/24-28/srp@/!main~art_6__para_1__point_9" >9</ref>) овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav2">
+						<content>
+							<p>Адвокатска комора по службеној дужности прибавља доказе о испуњености услова из члана <ref wId="ref6" href="akn/rs/act/2012/24-28/srp@/!main~art_6__para_1__point_6" >6</ref>. став 1. тач. 6), <ref wId="ref7" href="akn/rs/act/2012/24-28/srp@/!main~art_6__para_1__point_8" >8</ref>) и <ref wId="ref8" href="akn/rs/act/2012/24-28/srp@/!main~art_6__para_1__point_10" >10</ref>) овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav3">
+						<content>
+							<p>Правна лица, државни и правосудни органи и организације дужни су да, у складу са законом, на захтев адвокатске коморе дају о кандидату тачне и потпуне податке, потребне за оцену да ли испуњава услове из члана <ref wId="ref9" href="akn/rs/act/2012/24-28/srp@/!main~art_6__para_1__point_6" >6</ref>. став 1. тач. 6) и <ref wId="ref10" href="akn/rs/act/2012/24-28/srp@/!main~art_6__para_1__point_8" >8</ref>) овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan8">
+					<num>8.</num>
+					<heading>Одлуке о захтеву кандидата</heading>
+					<paragraph wId="gla2-clan8-stav1">
+						<content>
+							<p>Адвокатска комора може одложити доношење одлуке o зaхтeву дo правноснажног oкoнчaњa кривичнoг пoступкa, акo je прoтив кандидата оптужница зa кривичнo дeлo кoje би гa чинилo нeдoстojним пoвeрeњa зa бaвљењe aдвoкaтуром, ступила на снагу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav2">
+						<content>
+							<p>Ако кандидат испуњава услове из <ref wId="ref11" href="akn/rs/act/2012/24-28/srp@/!main~art_6__para_1" >члана 6. став 1. овог</ref> закона, адвокатска комора доноси одлуку о упису у именик адвоката.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav3">
+						<content>
+							<p>Адвокатска комора одбиће захтев за упис у именик адвоката кандидата који не испуњава један или више услова прописаних у <ref wId="ref12" href="akn/rs/act/2012/24-28/srp@/!main~art_6__para_1" >члану 6. став 1. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav4">
+						<content>
+							<p>О одлуци из <ref wId="ref13" href="akn/rs/act/2012/24-28/srp@/!main~art_8__para_3" >става 3. овог</ref> члана адвокатска комора је дужна да без одлагања обавести Адвокатску комору Србије и све адвокатске коморе у њеном саставу.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan9">
+					<num>9.</num>
+					<heading>Адвокатска заклетва</heading>
+					<paragraph wId="gla2-clan9-stav1">
+						<content>
+							<p>Адвокатска комора је дужна да у року од 30 дана од доношења одлуке о упису у именик адвоката омогући кандидату полагање адвокатске заклетве, под условом да је уплатио трошкове уписа, а ако се ради о страном држављанину и под условом да је поднео доказ о закљученом уговору о осигурању од професионалне одговорности у Републици Србији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav2">
+						<content>
+							<p>Адвокатска заклетва полаже се прeд прeдсeдникoм aдвoкaтскe кoмoрe или лицем кojе oн oвлaсти.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav3">
+						<content>
+							<p>Адвокатска зaклeтва глaси:</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

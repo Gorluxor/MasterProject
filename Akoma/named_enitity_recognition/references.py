@@ -268,7 +268,7 @@ def get_ending_tacka_nabrajanje(stringo, m, cnt=0, this_id="", longer=0, clan_id
         pom_string += "para_" + pomBroj[0] + "__"
     for i in matches:
         ending = pom_string + "point_" + str(i)
-        start = re.search(i + "(?=[,. )*])", stringo).regs[0][0]
+        start = re.search(i + "(?=[,. ;)*])", stringo).regs[0][0]
         end = start + len(i)
         stringo, longer, cnt = make_reference(cnt, this_id, start, end, ending, stringo, longer, False)
     retval = (stringo, longer, cnt)

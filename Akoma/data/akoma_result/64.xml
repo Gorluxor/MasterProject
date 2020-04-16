@@ -1,0 +1,485 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о основама уређења служби безбедности Републике Србије">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2007/116-44/main"/>
+					<FRBRuri value="/rs/act/2007/116-44"/>
+					<FRBRdate date="2007-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2012/72-12/srp@/main"/>
+					<FRBRuri value="/rs/act/2012/72-12/srp@"/>
+					<FRBRdate date="2012-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2012/72-12/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2012/72-12/srp@.akn"/>
+					<FRBRdate date="2012-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2007-12-11" name="службени гласник рс“" number="116" showAs="Службени гласник РС“"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="II ОДБРАНА, ВОЈСКА И УНУТРАШЊИ ПОСЛОВИ" value="ii одбрана, војска и унутрашњи послови" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="1. Одбрана и безбедност" value="1. одбрана и безбедност" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2007-01-01" refersTo="116/2007-44" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2012-01-01" refersTo="72/2012-12" source="#somebody" type="amendment" wId="e2"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2007-12-11" wId="usvajanje"/>
+				<step by="#TODO" date="2007-12-19" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2007-12-19" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у ,,Службеном гласнику Републике Србије, односно 19. децембра 2007. године (види члан 23. Закона).Рад служби безбедности уредиће се посебним законима, у складу с овим законом. До ступања на снагу посебних закона којима се уређује рад служби безбедности, примењиваће се одредбе Закона о службама безбедности Савезне Републике Југославије („Службени лист СРЈ“, број 37/2002 и „Службени лист СЦГ“, број 17/2004) и Закона о Безбедносно-информативној агенцији („Службени гласник РС“, број 42/2002) које нису у супротности са одредбама овог закона (види члан 22. Закона).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О основама уређења служби безбедности републике србије „Службени гласник РС“, бр. 116 од 11. децембра 2007, 72 од 26. јула 2012.</p>
+			</longTitle>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<heading>Садржина закона</heading>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом се уређују основе безбедносно-обавештајног система Републике Србије, усмеравање и усклађивање рада служби безбедности у Републици Србији (у даљем тексту: службе безбедности) и надзор над њиховим радом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav2">
+						<content>
+							<p>У Републици Србији забрањено је оснивање и рад служби безбедности мимо одредаба овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<heading>Начела деловања служби безбедности</heading>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Службе безбедности делују на основу и у оквиру Устава, закона, других прописа и општих аката, стратегије националне безбедности, стратегије одбране и утврђене безбедносно-обавештајне политике Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav2">
+						<content>
+							<p>Припадници служби безбедности су дужни да поступају у складу са Уставом, законом, другим прописима и општим актима, према правилима струке, непристрасно и политички неутрално.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav3">
+						<content>
+							<p>Припадници служби безбедности не могу бити чланови политичких странака.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<heading>Безбедносно-обавештајни систем</heading>
+					<paragraph wId="gla1-clan3-stav1">
+						<content>
+							<p>Службе безбедности део су јединственог безбедносно-обавештајног система Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav2">
+						<content>
+							<p>За разматрање питања од значаја за националну безбедност оснива се Савет за националну безбедност и овим законом посебно уређују послови Савета од значаја за усклађивање и усмеравање рада служби безбедности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav3">
+						<content>
+							<p>За оперативно усклађивање рада служби безбедности оснива се Биро за координацију рада служби безбедности (у даљем тексту: Биро за координацију).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav4">
+						<content>
+							<p>Рад служби безбедности је под демократском цивилном контролом Народне скупштине, председника Републике, Владе, Савета за националну безбедност, других државних органа и јавности, у складу са законом.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>СЛУЖБЕ БЕЗБЕДНОСТИ</heading>
+				<article wId="gla2-clan4">
+					<num>4.</num>
+					<paragraph wId="gla2-clan4-stav1">
+						<content>
+							<p>Службе безбедности су Безбедносно-информативна агенција, као посебна организација, Војнобезбедносна агенција и Војнообавештајна агенција, као органи управе у саставу Министарства одбране.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan4-stav2">
+						<content>
+							<p>Службе безбедности обављају послове и задатке у границама своје надлежности, у складу са законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan4-stav3">
+						<content>
+							<p>Службе безбедности имају статус правних лица.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>УСМЕРАВАЊЕ И УСКЛАЂИВАЊЕ РАДА СЛУЖБИ БЕЗБЕДНОСТИ</heading>
+				<section wId="gla3-od1">
+					<num>1.</num>
+					<heading> Савет за националну безбедност</heading>
+					<paragraph wId="gla3-od1-clan4-stav1">
+						<content>
+							<p>Надлежност</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan4-stav2">
+						<content>
+							<p>Члан  5.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan4-stav3">
+						<content>
+							<p>Савет за националну безбедност (у даљем тексту: Савет) јесте тело Републике Србије које обавља одређене послове и задатке из области националне безбедности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan4-stav4">
+						<intro>
+							<p>Савет се стара о националној безбедности тако што:</p>
+						</intro>
+						<alinea wId="gla3-od1-clan4-stav4-ali1">
+							<content>
+								<p>азматра питања из области одбране, унутрашњих послова и рада служби безбедности;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla3-od1-clan4-stav4-ali2">
+							<content>
+								<p>азматра међусобну сарадњу органа надлежних за одбрану, органа надлежних за унутрашње послове и служби безбедности и њихову сарадњу с другим надлежним државним органима, као и сарадњу са органима и службама безбедности страних држава и међународних организација;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla3-od1-clan4-stav4-ali3">
+							<content>
+								<p>редлаже надлежним државним органима мере за унапређење националне безбедности;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla3-od1-clan4-stav4-ali4">
+							<content>
+								<p>азматра предлоге за унапређење националне безбедности које му упућују органи надлежни за одбрану, органи надлежни за унутрашње послове, службе безбедности и други надлежни државни органи;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla3-od1-clan4-stav4-ali5">
+							<content>
+								<p>азматра питања из делокруга органа државне управе, аутономних покрајина, општина, градова и града Београда која су значајна за националну безбедност;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla3-od1-clan4-stav4-ali6">
+							<content>
+								<p>азматра и друга питања која су значајна за националну безбедност.</p>
+							</content>
+						</alinea>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan4-stav5">
+						<intro>
+							<p>Савет усмерава и усклађује рад служби безбедности тако што:</p>
+						</intro>
+						<alinea wId="gla3-od1-clan4-stav5-ali1">
+							<content>
+								<p>азматра обавештајно-безбедносне процене и доноси закључке којима одређује приоритете и начине заштите и усмерава остваривање националних интереса који се спроводе путем обавештајно-безбедносне делатности;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla3-od1-clan4-stav5-ali2">
+							<content>
+								<p>оноси закључке у вези с радом служби безбедности и Бироа за координацију;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla3-od1-clan4-stav5-ali3">
+							<content>
+								<p>оноси закључке којима усмерава и усклађује рад служби безбедности;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla3-od1-clan4-stav5-ali4">
+							<content>
+								<p>оноси закључке којима усмерава сарадњу служби безбедности са службама безбедности страних држава и међународних организација;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla3-od1-clan4-stav5-ali5">
+							<content>
+								<p>оноси закључке којима усклађује делатности државних органа које су посвећене међународној сарадњи у области националне безбедности и одбране;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla3-od1-clan4-stav5-ali6">
+							<content>
+								<p>рати извршавање закључака које је донео;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla3-od1-clan4-stav5-ali7">
+							<content>
+								<p>аје мишљења о предлозима годишњих и средњорочних планова рада служби безбедности;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla3-od1-clan4-stav5-ali8">
+							<content>
+								<p>аје мишљења Влади о предлозима буџета служби безбедности и прати реализацију одобрених буџетских средстава;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla3-od1-clan4-stav5-ali9">
+							<content>
+								<p>аје мишљење Влади о предлогу за постављење и разрешење директора служби безбедности.</p>
+							</content>
+						</alinea>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan4-stav6">
+						<content>
+							<p>Савет се стара о усаглашеној примени прописа и стандарда за заштиту података о личности, као и других прописа којима се штите људска права која могу да буду угрожена разменом информација или другим оперативним радњама.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan4-stav7">
+						<content>
+							<p>Састав Савета</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan4-stav8">
+						<content>
+							<p>Члан  6.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan4-stav9">
+						<intro>
+							<p>Чланови Савета су:</p>
+						</intro>
+						<alinea wId="gla3-od1-clan4-stav9-ali1">
+							<content>
+								<p>редседник Републике;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla3-od1-clan4-stav9-ali2">
+							<content>
+								<p>редседник Владе;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla3-od1-clan4-stav9-ali3">
+							<content>
+								<p>инистар одбране;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla3-od1-clan4-stav9-ali4">
+							<content>
+								<p>инистар унутрашњих послова;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla3-od1-clan4-stav9-ali5">
+							<content>
+								<p>инистар правде;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla3-od1-clan4-stav9-ali6">
+							<content>
+								<p>ачелник Генералштаба Војске Србије;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla3-od1-clan4-stav9-ali7">
+							<content>
+								<p>иректори служби безбедности.</p>
+							</content>
+						</alinea>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan4-stav10">
+						<content>
+							<p>Секретар Савета</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan4-stav11">
+						<content>
+							<p>Члан  7.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan4-stav12">
+						<content>
+							<p>Савет има секретара Савета, који учествује у раду Савета без права одлучивања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan4-stav13">
+						<content>
+							<p>Секретар Савета стара се о извршавању закључака Савета и обавља друге послове који су одређени пословником и другим актима Савета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan4-stav14">
+						<content>
+							<p>Секретара Савета именује и разрешава председник Републике.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan4-stav15">
+						<content>
+							<p>*Службени гласник РС,  број 72/2012</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan4-stav16">
+						<content>
+							<p>Канцеларија Савета</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan4-stav17">
+						<content>
+							<p>Члан  8.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan4-stav18">
+						<intro>
+							<p>Влада ће уредбом образовати Канцеларију Савета за националну безбедност (у даљем тексту: Канцеларија Савета), као службу Владе, која обавља стручне и административне послове за потребе Савета, а нарочито:</p>
+						</intro>
+						<alinea wId="gla3-od1-clan4-stav18-ali1">
+							<content>
+								<p>ослове у вези са сазивањем и припремањем седница Савета;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla3-od1-clan4-stav18-ali2">
+							<content>
+								<p>тручне послове у вези са праћењем спровођења смерница и закључака Савета;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla3-od1-clan4-stav18-ali3">
+							<content>
+								<p>ослове административно-техничке подршке Бироу за координацију;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla3-od1-clan4-stav18-ali4">
+							<content>
+								<p>ување и стављање на увид члановима Савета извештаја и других аката Савета.</p>
+							</content>
+						</alinea>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan4-stav19">
+						<content>
+							<p>Начин рада Савета</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan4-stav20">
+						<content>
+							<p>Члан  9.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan4-stav21">
+						<content>
+							<p>Седницу Савета сазива председник Републике. Предлог дневног реда седнице утврђују председник Републике и председник Владе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan4-stav22">
+						<content>
+							<p>Седници Савета председава председник Републике, а ако је он спречен – председник Владе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan4-stav23">
+						<content>
+							<p>Закључке и друге акте Савета потписује председник Републике.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan4-stav24">
+						<content>
+							<p>Седнице Савета одржавају се по потреби, а најмање једном у три месеца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan4-stav25">
+						<content>
+							<p>Председник Републике може, на своју иницијативу или на иницијативу члана Савета, позвати на седнице Савета руководиоце других државних органа и институција и друга лица која нису чланови Савета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan4-stav26">
+						<content>
+							<p>Пословник Савета</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan4-stav27">
+						<content>
+							<p>Члан  10.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan4-stav28">
+						<content>
+							<p>Савет доноси пословник о свом раду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan4-stav29">
+						<intro>
+							<p>Пословником и другим општим актима Савета ближе се уређују остала питања која су значајна за рад Савета, Бироа за координацију и Канцеларије Савета, као и начин на који се обављају административни и технички послови за Савет.</p>
+						</intro>
+						<point wId="gla3-od1-clan4-stav29-tac2">
+							<num>2.</num>
+							<content>
+								<p> Биро за координацију</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan4-stav30">
+						<content>
+							<p>Надлежност Бироа</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan4-stav31">
+						<content>
+							<p>Члан  11.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan4-stav32">
+						<content>
+							<p>Биро за координацију оперативно усклађује рад служби безбедности и извршава закључке Савета о питањима из своје надлежности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan4-stav33">
+						<intro>
+							<p>Биро за координацију посебно:</p>
+						</intro>
+						<point wId="gla3-od1-clan4-stav33-tac1">
+							<num>1.</num>
+							<content>
+								<p> Савет за националну безбедност</p>
+							</content>
+						</point>
+						<point wId="gla3-od1-clan4-stav33-tac2">
+							<num>2.</num>
+							<content>
+								<p> Биро за координацију</p>
+							</content>
+						</point>
+						<point wId="gla3-od1-clan4-stav33-tac1">
+							<num>1.</num>
+							<content>
+								<p> Савет за националну безбедност</p>
+							</content>
+						</point>
+						<point wId="gla3-od1-clan4-stav33-tac2">
+							<num>2.</num>
+							<content>
+								<p> Биро за координацију</p>
+							</content>
+						</point>
+						<point wId="gla3-od1-clan4-stav33-tac1">
+							<num>1.</num>
+							<content>
+								<p> Савет за националну безбедност</p>
+							</content>
+						</point>
+						<point wId="gla3-od1-clan4-stav33-tac2">
+							<num>2.</num>
+							<content>
+								<p> Биро за координацију</p>
+							</content>
+						</point>
+					</paragraph>
+				</section>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

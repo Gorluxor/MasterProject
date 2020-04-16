@@ -1,0 +1,642 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о условима,  начину и поступку додељивања пољопривредног земљишта грађанима који желе да живе  и раде на територији Аутономне покрајине Косово и Метохија">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/1991/43-1679/main"/>
+					<FRBRuri value="/rs/act/1991/43-1679"/>
+					<FRBRdate date="1991-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/1991/43-1679/srp@/main"/>
+					<FRBRuri value="/rs/act/1991/43-1679/srp@"/>
+					<FRBRdate date="1991-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/1991/43-1679/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/1991/43-1679/srp@.akn"/>
+					<FRBRdate date="1991-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="1991-07-20" name="службени гласник рс" number="43" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="VI СВОЈИНСКИ И ОБЛИГАЦИОНИ, ПОРОДИЧНИ И БРАЧНИ ОДНОСИ" value="vi својински и облигациони, породични и брачни односи" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="5. Повраћај и додељивање земљишта" value="5. повраћај и додељивање земљишта" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="#TODO" date="1991-07-16" wId="usvajanje"/>
+				<step by="#TODO" date="1991-07-28" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="1991-07-28" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 28. јула 1991. године (види члан 13. Закона).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О условима,  начину и поступку додељивања пољопривредног земљишта грађанима који желе да живе  и раде на територији аутономне покрајине косово и метохија „Службени гласник РС”, број 43 од 20. јула 1991.</p>
+			</longTitle>
+		</preface>
+		<body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Полазећи од циљева утврђених Програмом за остваривање мира, слободе, равноправности, демократије и просперитета САП Косова („<ref wId="ref0" href="akn/rs/act/90/15/srp@">Службени гласник СРС”, број 15/90</ref>), овим законом ствара се могућност за насељавање грађана који желе да се са члановима свог домаћинства трајно настане, баве пољопривредом, живе и раде на територији АП Косово и Метохија, да им се може под условима, на начин и по поступку утврђеним овим законом доделити пољопривредно земљиште из фонда земљишта у друштвеној својини, образованог у складу са овим законом.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<intro>
+						<p>У фонд земљишта из <ref wId="ref1" href="akn/rs/act/1991/43-1679/srp@/!main~art_1" >члана 1. овог</ref> закона улази пољопривредно земљиште:</p>
+					</intro>
+					<point wId="clan2-stav1-tac1">
+						<num>1.</num>
+						<content>
+							<p> којим располаже општина, за које се, у складу са законом, изврши административни пренос за ове намене;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac2">
+						<num>2.</num>
+						<content>
+							<p> којим располажу пољопривредне организације, за које се у складу са законом, изврши административни пренос за ове намене;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac3">
+						<num>3.</num>
+						<content>
+							<p> земљиште које за ове намене Републици поклоне физичка, односно правна лица;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac4">
+						<num>4.</num>
+						<content>
+							<p> које се за ове намене откупи из приватне својине;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac5">
+						<num>5.</num>
+						<content>
+							<p> земљиште које, у складу са законом, буде одузето по поступку ревизије аграрних прописа на Косову и Метохији.</p>
+						</content>
+					</point>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Сматра се да, у смислу овог закона, постоји општи интерес за административни пренос из члана <ref wId="ref3" href="akn/rs/act/1991/43-1679/srp@/!main~art_2__para_1__point_2" >2</ref>. тач. <ref wId="ref2" href="akn/rs/act/1991/43-1679/srp@/!main~art_2__para_1__point_1" >1</ref>. и 2. овог закона.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav2">
+					<content>
+						<p>Административни пренос врши се у корист Републике.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav3">
+					<content>
+						<p>Исплата накнаде за земљиште које се обезбеди по основу из члана <ref wId="ref7" href="akn/rs/act/1991/43-1679/srp@/!main~art_2__para_3__point_2" >2</ref>. тач. <ref wId="ref6" href="akn/rs/act/1991/43-1679/srp@/!main~art_2__para_3__point_1" >1</ref>, 2. и <ref wId="ref8" href="akn/rs/act/1991/43-1679/srp@/!main~art_2__para_3__point_4" >4</ref>. овог закона вршиће се из средстава обезбеђених на начин и под условима утврђеним Законом о Фонду за подстицање развоја САП Косова у циљу заустављања исељавања и повратка Срба и Црногораца на Косово („<ref wId="ref4" href="akn/rs/act/90/35/srp@">Службени гласник СРС”, бр. 35/90, 46/90</ref> и 10/90 – Посебно гласило и „<ref wId="ref5" href="akn/rs/act/90/13/srp@">Службени гласник РС”, број 13/90</ref>).</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan4">
+				<num>4.</num>
+				<paragraph wId="clan4-stav1">
+					<content>
+						<p>По захтевима за доделу земљишта по одредбама овог закона решава републички орган управе надлежан за имовинско правне послове (у даљем тексту: орган), по претходно прибављеном мишљењу Министарства пољопривреде, шумарства и водопривреде.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan4-stav2">
+					<intro>
+						<p>Захтев из <ref wId="ref9" href="akn/rs/act/1991/43-1679/srp@/!main~art_4__para_1" >става 1. овог</ref> члана садржи:</p>
+					</intro>
+					<point wId="clan4-stav2-tac1">
+						<num>1.</num>
+						<content>
+							<p> податке о домаћинству подносиоца захтева (број чланова домаћинства, имовно, односно материјално стање, старост, социјални статус и др.);</p>
+						</content>
+					</point>
+					<point wId="clan4-stav2-tac2">
+						<num>2.</num>
+						<content>
+							<p> површину земљишта које се тражи;</p>
+						</content>
+					</point>
+					<point wId="clan4-stav2-tac3">
+						<num>3.</num>
+						<content>
+							<p> општину и место где жели да се настани, од када жели да се настани, као и евентуално посебне захтеве у вези са настањивањем.</p>
+						</content>
+					</point>
+				</paragraph>
+				<paragraph wId="clan4-stav3">
+					<content>
+						<p>Подаци о чињеницама из става 2. тачка <ref wId="ref10" href="akn/rs/act/1991/43-1679/srp@/!main~art_4__para_2__point_1" >1</ref>. овог члана доказују се одговарајућим исправама које се подносе уз захтев.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan5">
+				<num>5.</num>
+				<paragraph wId="clan5-stav1">
+					<content>
+						<p>Кад орган нађе да су испуњени услови за доделу земљишта, позваће подносиоца захтева да се у року од 15 дана изјасни да ли прихвата доделу земљишта које му се нуди.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan5-stav2">
+					<content>
+						<p>Кад се у року из <ref wId="ref11" href="akn/rs/act/1991/43-1679/srp@/!main~art_5__para_1" >става 1. овог</ref> члана подносилац захтева писмено изјасни да прихвата понуђено земљиште, орган ће донети решење о додели земљишта.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan5-stav3">
+					<intro>
+						<p>Решење из <ref wId="ref12" href="akn/rs/act/1991/43-1679/srp@/!main~art_5__para_2" >става 2. овог</ref> члана нарочито садржи:</p>
+					</intro>
+					<point wId="clan5-stav3-tac1">
+						<num>1.</num>
+						<content>
+							<p> презиме, очево име и име лица (чланова домаћинства) којима се земљиште додељује;</p>
+						</content>
+					</point>
+					<point wId="clan5-stav3-tac2">
+						<num>2.</num>
+						<content>
+							<p> катастарске податке за земљиште (број парцеле, површина, култура, класа и други подаци неопходни за упис права на том земљишту);</p>
+						</content>
+					</point>
+					<point wId="clan5-stav3-tac3">
+						<num>3.</num>
+						<content>
+							<p> обавезу подносиоца захтева да се на додељеном земљишту настани у року који не може бити дужи од једне године од дана правоснажности решења о додели земљишта;</p>
+						</content>
+					</point>
+					<point wId="clan5-stav3-tac4">
+						<num>4.</num>
+						<content>
+							<p> време и начин примопредаје додељеног земљишта.</p>
+						</content>
+					</point>
+				</paragraph>
+				<paragraph wId="clan5-stav4">
+					<content>
+						<p>Против решења о додели земљишта не може се изјавити жалба, али се може покренути управни спор код Врховног суда Србије у року од 30 дана од дана достављања решења.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan6">
+				<num>6.</num>
+				<paragraph wId="clan6-stav1">
+					<content>
+						<p>Кад орган по пријему захтева нађе да нису испуњени услови за доделу земљишта обавестиће о томе подносиоца захтева у року од 30 дана од дана подношења уредног захтева.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan7">
+				<num>7.</num>
+				<paragraph wId="clan7-stav1">
+					<content>
+						<p>Површина земљишта које се додељује по одредбама овог закона утврђује се у зависности од броја чланова домаћинства, њиховог имовног, односно материјалног стања и старости с тим што не може бити већа од 5 хектара по домаћинству.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav2">
+					<content>
+						<p>Приликом одређивања површине земљишта које се додељује имаће се у виду и квалитет земљишта (класа, култура, бонитет, положај у односу на саобраћајнице, могућност наводњавања и сл.), као и расположивост земљишта за ове намене.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan8">
+				<num>8.</num>
+				<paragraph wId="clan8-stav1">
+					<content>
+						<p>Решење о додели земљишта служи као основ за упис права својине у земљишну, односно другу јавну књигу у коју се уписују права на непокретностима.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan8-stav2">
+					<content>
+						<p>Право својине уписује се на све чланове домаћинства којима је земљиште додељено, тако да сви чланови имају једнаке сувласничке делове, ако се ова лица друкчије не споразумеју.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan9">
+				<num>9.</num>
+				<paragraph wId="clan9-stav1">
+					<content>
+						<p>Земљиште додељено по овом закону не може пре истека 30 година од дана правоснажности решења о додељивању бити продато, раздељено, или на други начин отуђено, дато у закуп или заложено ни у целини ни делимично, ако одредбама овог закона није друкчије одређено.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan9-stav2">
+					<content>
+						<p>Забрана из <ref wId="ref13" href="akn/rs/act/1991/43-1679/srp@/!main~art_9__para_1" >става 1. овог</ref> члана уписује се у земљишну, односно другу јавну књигу у коју се уписују права на непокретностима.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan9-stav3">
+					<content>
+						<p>Замена додељеног земљишта може се вршити само у случајевима када то дозволи, на писмени захтев лица која желе замену, надлежни орган из <ref wId="ref14" href="akn/rs/act/1991/43-1679/srp@/!main~art_4__para_1" >члана 4. став 1. овог</ref> закона.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan10">
+				<num>10.</num>
+				<paragraph wId="clan10-stav1">
+					<content>
+						<p>Лицима којима је додељено земљиште по одредбама овог закона могу да се дају кредити за изградњу стамбених, економских и других објеката као и кредити за набавку потребне механизације за обраду додељеног земљишта, односно куповину стоке за потребе домаћинства, из средстава Фонда за подстицање развоја САП Косова у циљу заустављања исељавања и повратка Срба и Црногораца на Косово.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan10-stav2">
+					<intro>
+						<p>Кредитна средства дају се под следећим условима:</p>
+					</intro>
+					<point wId="clan10-stav2-tac1">
+						<num>1.</num>
+						<content>
+							<p> као кредит без сопственог учешћа;</p>
+						</content>
+					</point>
+					<point wId="clan10-stav2-tac2">
+						<num>2.</num>
+						<content>
+							<p> са роком отплате до 25 година;</p>
+						</content>
+					</point>
+					<point wId="clan10-stav2-tac3">
+						<num>3.</num>
+						<content>
+							<p> са каматном стопом од 5%;</p>
+						</content>
+					</point>
+					<point wId="clan10-stav2-tac4">
+						<num>4.</num>
+						<content>
+							<p> са отплатом прве рате која доспева за пет година од дана одобравања кредита.</p>
+						</content>
+					</point>
+				</paragraph>
+				<paragraph wId="clan10-stav3">
+					<content>
+						<p>На износ искоришћеног кредита не обрачунава се интеркаларна камата.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan10-stav4">
+					<content>
+						<p>Кредити из <ref wId="ref15" href="akn/rs/act/1991/43-1679/srp@/!main~art_10__para_1" >става 1. овог</ref> члана, могу се одобравати без жираната уколико одговарајућа скупштина општине, односно Народна Скупштина Републике Србије донесе одлуку о гаранцији.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan11">
+				<num>11.</num>
+				<paragraph wId="clan11-stav1">
+					<content>
+						<p>Ако се у породици, која је постала власник земљишта из <ref wId="ref16" href="akn/rs/act/1991/43-1679/srp@/!main~art_7" >члана 7. овог</ref> закона, роди треће дете, почетак отплате прве рате кредита из <ref wId="ref17" href="akn/rs/act/1991/43-1679/srp@/!main~art_10" >члана 10. овог</ref> закона доспева за 10 година од дана одобравања кредита.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan12">
+				<num>12.</num>
+				<paragraph wId="clan12-stav1">
+					<content>
+						<p>Лица којима је додељено земљиште по одредбама овог закона, ослобађају се од плаћања пореза за то земљиште у трајању од две године, осим доприноса за здравствено и пензијско осигурање.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan13">
+				<num>13.</num>
+				<paragraph wId="clan13-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan13-stav2">
+					<content>
+						<p>ЗАКОН</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan13-stav3">
+					<content>
+						<p>о условима,  начину и поступку додељивања пољопривредног земљишта грађанима који желе да живе  и раде на територији Аутономне покрајине Косово и Метохија</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan13-stav4">
+					<content>
+						<p>„Службени гласник РС”, број 43  од 20.   јула 1991.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Полазећи од циљева утврђених Програмом за остваривање мира, слободе, равноправности, демократије и просперитета САП Косова („Службени гласник СРС”, број 15/90), овим законом ствара се могућност за насељавање грађана који желе да се са члановима свог домаћинства трајно настане, баве пољопривредом, живе и раде на територији АП Косово и Метохија, да им се може под условима, на начин и по поступку утврђеним овим законом доделити пољопривредно земљиште из фонда земљишта у друштвеној својини, образованог у складу са овим законом.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<intro>
+						<p>У фонд земљишта из члана 1. овог закона улази пољопривредно земљиште:</p>
+					</intro>
+					<point wId="clan2-stav1-tac1">
+						<num>1.</num>
+						<content>
+							<p> којим располаже општина, за које се, у складу са законом, изврши административни пренос за ове намене;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac2">
+						<num>2.</num>
+						<content>
+							<p> којим располажу пољопривредне организације, за које се у складу са законом, изврши административни пренос за ове намене;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac3">
+						<num>3.</num>
+						<content>
+							<p> земљиште које за ове намене Републици поклоне физичка, односно правна лица;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac4">
+						<num>4.</num>
+						<content>
+							<p> које се за ове намене откупи из приватне својине;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac5">
+						<num>5.</num>
+						<content>
+							<p> земљиште које, у складу са законом, буде одузето по поступку ревизије аграрних прописа на Косову и Метохији.</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac1">
+						<num>1.</num>
+						<content>
+							<p> податке о домаћинству подносиоца захтева (број чланова домаћинства, имовно, односно материјално стање, старост, социјални статус и др.);</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac2">
+						<num>2.</num>
+						<content>
+							<p> површину земљишта које се тражи;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac3">
+						<num>3.</num>
+						<content>
+							<p> општину и место где жели да се настани, од када жели да се настани, као и евентуално посебне захтеве у вези са настањивањем.</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac1">
+						<num>1.</num>
+						<content>
+							<p> презиме, очево име и име лица (чланова домаћинства) којима се земљиште додељује;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac2">
+						<num>2.</num>
+						<content>
+							<p> катастарске податке за земљиште (број парцеле, површина, култура, класа и други подаци неопходни за упис права на том земљишту);</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac3">
+						<num>3.</num>
+						<content>
+							<p> обавезу подносиоца захтева да се на додељеном земљишту настани у року који не може бити дужи од једне године од дана правоснажности решења о додели земљишта;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac4">
+						<num>4.</num>
+						<content>
+							<p> време и начин примопредаје додељеног земљишта.</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac1">
+						<num>1.</num>
+						<content>
+							<p> као кредит без сопственог учешћа;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac2">
+						<num>2.</num>
+						<content>
+							<p> са роком отплате до 25 година;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac3">
+						<num>3.</num>
+						<content>
+							<p> са каматном стопом од 5%;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac4">
+						<num>4.</num>
+						<content>
+							<p> са отплатом прве рате која доспева за пет година од дана одобравања кредита.</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac1">
+						<num>1.</num>
+						<content>
+							<p> којим располаже општина, за које се, у складу са законом, изврши административни пренос за ове намене;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac2">
+						<num>2.</num>
+						<content>
+							<p> којим располажу пољопривредне организације, за које се у складу са законом, изврши административни пренос за ове намене;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac3">
+						<num>3.</num>
+						<content>
+							<p> земљиште које за ове намене Републици поклоне физичка, односно правна лица;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac4">
+						<num>4.</num>
+						<content>
+							<p> које се за ове намене откупи из приватне својине;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac5">
+						<num>5.</num>
+						<content>
+							<p> земљиште које, у складу са законом, буде одузето по поступку ревизије аграрних прописа на Косову и Метохији.</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac1">
+						<num>1.</num>
+						<content>
+							<p> податке о домаћинству подносиоца захтева (број чланова домаћинства, имовно, односно материјално стање, старост, социјални статус и др.);</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac2">
+						<num>2.</num>
+						<content>
+							<p> површину земљишта које се тражи;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac3">
+						<num>3.</num>
+						<content>
+							<p> општину и место где жели да се настани, од када жели да се настани, као и евентуално посебне захтеве у вези са настањивањем.</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac1">
+						<num>1.</num>
+						<content>
+							<p> презиме, очево име и име лица (чланова домаћинства) којима се земљиште додељује;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac2">
+						<num>2.</num>
+						<content>
+							<p> катастарске податке за земљиште (број парцеле, површина, култура, класа и други подаци неопходни за упис права на том земљишту);</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac3">
+						<num>3.</num>
+						<content>
+							<p> обавезу подносиоца захтева да се на додељеном земљишту настани у року који не може бити дужи од једне године од дана правоснажности решења о додели земљишта;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac4">
+						<num>4.</num>
+						<content>
+							<p> време и начин примопредаје додељеног земљишта.</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac1">
+						<num>1.</num>
+						<content>
+							<p> као кредит без сопственог учешћа;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac2">
+						<num>2.</num>
+						<content>
+							<p> са роком отплате до 25 година;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac3">
+						<num>3.</num>
+						<content>
+							<p> са каматном стопом од 5%;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac4">
+						<num>4.</num>
+						<content>
+							<p> са отплатом прве рате која доспева за пет година од дана одобравања кредита.</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac1">
+						<num>1.</num>
+						<content>
+							<p> којим располаже општина, за које се, у складу са законом, изврши административни пренос за ове намене;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac2">
+						<num>2.</num>
+						<content>
+							<p> којим располажу пољопривредне организације, за које се у складу са законом, изврши административни пренос за ове намене;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac3">
+						<num>3.</num>
+						<content>
+							<p> земљиште које за ове намене Републици поклоне физичка, односно правна лица;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac4">
+						<num>4.</num>
+						<content>
+							<p> које се за ове намене откупи из приватне својине;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac5">
+						<num>5.</num>
+						<content>
+							<p> земљиште које, у складу са законом, буде одузето по поступку ревизије аграрних прописа на Косову и Метохији.</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac1">
+						<num>1.</num>
+						<content>
+							<p> податке о домаћинству подносиоца захтева (број чланова домаћинства, имовно, односно материјално стање, старост, социјални статус и др.);</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac2">
+						<num>2.</num>
+						<content>
+							<p> површину земљишта које се тражи;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac3">
+						<num>3.</num>
+						<content>
+							<p> општину и место где жели да се настани, од када жели да се настани, као и евентуално посебне захтеве у вези са настањивањем.</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac1">
+						<num>1.</num>
+						<content>
+							<p> презиме, очево име и име лица (чланова домаћинства) којима се земљиште додељује;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac2">
+						<num>2.</num>
+						<content>
+							<p> катастарске податке за земљиште (број парцеле, површина, култура, класа и други подаци неопходни за упис права на том земљишту);</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac3">
+						<num>3.</num>
+						<content>
+							<p> обавезу подносиоца захтева да се на додељеном земљишту настани у року који не може бити дужи од једне године од дана правоснажности решења о додели земљишта;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac4">
+						<num>4.</num>
+						<content>
+							<p> време и начин примопредаје додељеног земљишта.</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac1">
+						<num>1.</num>
+						<content>
+							<p> као кредит без сопственог учешћа;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac2">
+						<num>2.</num>
+						<content>
+							<p> са роком отплате до 25 година;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac3">
+						<num>3.</num>
+						<content>
+							<p> са каматном стопом од 5%;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac4">
+						<num>4.</num>
+						<content>
+							<p> са отплатом прве рате која доспева за пет година од дана одобравања кредита.</p>
+						</content>
+					</point>
+				</paragraph>
+			</article>
+		</body>
+	</act>
+</akomaNtoso>

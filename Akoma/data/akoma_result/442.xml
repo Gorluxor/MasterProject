@@ -1,0 +1,440 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о професионалној рехабилитацији и запошљавању особа са инвалидитетом">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2009/36-205/main"/>
+					<FRBRuri value="/rs/act/2009/36-205"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2013/32-13/srp@/main"/>
+					<FRBRuri value="/rs/act/2013/32-13/srp@"/>
+					<FRBRdate date="2013-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2013/32-13/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2013/32-13/srp@.akn"/>
+					<FRBRdate date="2013-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2009-05-15" name="“службени гласник рс" number="36" showAs="“Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="VII РАДНИ ОДНОСИ И ЗАПОШЉАВАЊЕ" value="vii радни односи и запошљавање" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="3. Запошљавање и упућивање запослених на привремени рад у иностранство" value="3. запошљавање и упућивање запослених на привремени рад у иностранство" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2009-01-01" refersTo="36/2009-205" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2013-01-01" refersTo="32/2013-13" source="#somebody" type="amendment" wId="e2"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2009-05-13" wId="usvajanje"/>
+				<step by="#TODO" date="2009-05-23" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2009-05-23" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 23. маја 2009. године. Одредбе чл. 24. и 29. овог закона примењују се протеком рока од годину дана од дана ступања на снагу овог закона, односно од 24. маја 2010. године (види члан 55. Закона).Закон о изменама идопунама Закона о професионалној рехабилитацији и запошљавању особа са инвалидитетом (Службени гласник РС, број 32/2013) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 16. априла 2013. године. Пропис о начину праћења извршења обавезе запошљавања особа са инвалидитетом и начину доказивања извршења те обавезе ускладиће се са овим законом у року од шест месеци од дана његовог ступања на снагу, односно до 16. октобра 2013. године (види члан 11. Закона - 32/2013-13)Поступци започети пре ступања на снагу Закона о изменама и допунама Закона о професионалној рехабилитацији и запошљавању особа са инвалидитетом (Службени гласник РС, број 32/2013) окончаће се у складу са прописима који су били на снази до дана ступања на снагу овог закона (види члан 12. Закона - 33/2013-13)</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О професионалној рехабилитацији и запошљавању особа са инвалидитетом “Службени гласник РС”, бр. 36 од 15. маја 2009, 32 од 8. априла 2013.</p>
+			</longTitle>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређују се: подстицаји за запошљавање ради стварања услова за равноправно укључивање особа са инвалидитетом на тржиште рада; процена радних способности; професионална рехабилитација; обавеза запошљавања особа са инвалидитетом; услови за оснивање и обављање делатности предузећа за професионалну рехабилитацију и запошљавање особа са инвалидитетом и других посебних облика запошљавања и радног ангажовања особа са инвалидитетом; друга питања од значаја за професионалну рехабилитацију и запошљавање особа са инвалидитетом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<paragraph wId="gla1-clan2-stav1">
+						<intro>
+							<p>Овај закон заснива се на начелима:</p>
+						</intro>
+						<point wId="gla1-clan2-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> поштовања људских права и достојанства особа са инвалидитетом;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> укључености особа са инвалидитетом у све сфере друштвеног живота на равноправној основи – у складу са професионалним способностима;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> подстицања запослености особа са инвалидитетом на одговарајућим радним местима и у одговарајућим условима рада;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> забране дискриминације особа са инвалидитетом, у складу са законом;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> једнаких права и обавеза;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> родне равноправности особа са инвалидитетом.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<paragraph wId="gla1-clan3-stav1">
+						<content>
+							<p>Особа са инвалидитетом, у смислу овог закона, јесте лице са трајним последицама телесног, сензорног, менталног или душевног оштећења или болести које се не могу отклонити лечењем или медицинском рехабилитацијом, које се суочава са социјалним и другим ограничењима од утицаја на радну способност и могућност запослења или одржања запослења и које нема могућности или има смањене могућности да се, под равноправним условима, укључи на тржиште рада и да конкурише за запошљавање са другим лицима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav2">
+						<content>
+							<p>Незапослена особа са инвалидитетом јесте особа из <ref wId="ref0" href="akn/rs/act/2013/32-13/srp@/!main~art_3__para_1" >става 1. овог</ref> члана, од 15 до 65 година живота, која није у радном односу нити је на други начин остварила право на рад, спремна да ради или прихвати професионалну рехабилитацију ради запошљавања и активно тражи запослење и води се на евиденцији незапослених лица код организације надлежне за послове запошљавања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav3">
+						<content>
+							<p>Послодавцем, у смислу овог закона, сматра се домаће или страно правно или физичко лице које запошљава једно или више лица, односно Република Србија за запослене у државним органима, аутономна покрајина за запослене у покрајинским органима и јединица локалне самоуправе за запослене у органима јединице локалне самоуправе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>Права утврђена овим законом остварује особа са инвалидитетом која има утврђен статус особе са инвалидитетом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav2">
+						<intro>
+							<p>Статус особе са инвалидитетом има:</p>
+						</intro>
+						<point wId="gla1-clan4-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> ратни војни инвалид;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> мирнодопски војни инвалид;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> цивилни инвалид рата;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> лице коме је извршена категоризација и друго лице коме је утврђена инвалидност, у складу са законом;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav2-tac5">
+							<num>5)</num>
+							<content>
+								<p> лице коме је, у складу са прописима о пензијском и инвалидском осигурању, утврђена категорија инвалидности, односно преостала радна способност;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav2-tac6">
+							<num>6)</num>
+							<content>
+								<p> лице коме се, у складу са овим законом, процени радна способност сагласно којој има могућност запослења или одржања запослења, односно радног ангажовања.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan5">
+					<num>5.</num>
+					<paragraph wId="gla1-clan5-stav1">
+						<content>
+							<p>Ако поједина питања овим законом нису другачије уређена, на права и обавезе особа са инвалидитетом примењују се прописи из области радних односа, пензијског и инвалидског осигурања, забране дискриминације, безбедности и здравља на раду, запошљавања и других области.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ПРАВА И ОБАВЕЗЕ ОСОБА СА ИНВАЛИДИТЕТОМ</heading>
+				<article wId="gla2-clan6">
+					<num>6.</num>
+					<paragraph wId="gla2-clan6-stav1">
+						<intro>
+							<p>Особа са инвалидитетом, у складу са овим законом, може да оствари право:</p>
+						</intro>
+						<point wId="gla2-clan6-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> на утврђивање статуса и процену радне способности;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> на подстицање запошљавања, радне и социјалне укључености и афирмацију једнаких могућности на тржишту рада;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> на мере и активности професионалне рехабилитације;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> на запошљавање под општим условима;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> на запошљавање под посебним условима;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> на мере активне политике запошљавања;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> на запошљавање у посебним организованим облицима запошљавања и радног ангажовања особа са инвалидитетом;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> на друга права у складу са законом.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan7">
+					<num>7.</num>
+					<paragraph wId="gla2-clan7-stav1">
+						<intro>
+							<p>Особа са инвалидитетом има обавезу:</p>
+						</intro>
+						<point wId="gla2-clan7-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> да се одазове на позив за процену радне способности и утврђивање статуса;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> да се укључује у образовање, школовање, усавршавање, стручно оспособљавање и обуку;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> да активно тражи запослење;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> да прихвати професионалну рехабилитацију;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> да сарађује са стручним радницима у току професионалне рехабилитације, запошљавања и рада и поштује радну и технолошку дисциплину;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> да прихвати мере активне политике запошљавања;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> да прихвати запослење, у складу са професионалним способностима.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>ПРОЦЕНА РАДНЕ СПОСОБНОСТИ</heading>
+				<article wId="gla3-clan8">
+					<num>8.</num>
+					<paragraph wId="gla3-clan8-stav1">
+						<content>
+							<p>Процена радне способности и могућности запослења или одржања запослења обухвата медицинске, социјалне и друге критеријуме којима се утврђују могућности и способности особе са инвалидитетом неопходне за укључивање на тржиште рада и обављање конкретних послова самостално или уз службу подршке, употребу техничких помагала, односно могућности запошљавања под општим или под посебним условима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan8-stav2">
+						<content>
+							<p>Особи са инвалидитетом којој није процењена радна способност иста се, у циљу утврђивања могућности запослења или одржања запослења, процењује у складу са овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan9">
+					<num>9.</num>
+					<paragraph wId="gla3-clan9-stav1">
+						<content>
+							<p>Захтев за процену радне способности подноси се организацији надлежној за послове запошљавања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan9-stav2">
+						<content>
+							<p>Изузетно, захтев за процену радне способности подноси се организацији надлежној за послове пензијског и инвалидског осигурања – уз захтев за остваривање права на инвалидску пензију.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan9-stav3">
+						<content>
+							<p>Налаз, мишљење и оцену у погледу радне способности и могућности запослења или одржања запослења даје орган вештачења организације надлежне за послове пензијског и инвалидског осигурања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan9-stav4">
+						<content>
+							<p>Решење о процењеној радној способности и могућности запослења или одржања запослења доноси организација надлежна за послове запошљавања, као поверени посао, на основу налаза, мишљења и оцене органа вештачења из <ref wId="ref1" href="akn/rs/act/2013/32-13/srp@/!main~art_9__para_3" >става 3. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan9-stav5">
+						<content>
+							<p>По жалби на решење из <ref wId="ref2" href="akn/rs/act/2013/32-13/srp@/!main~art_9__para_4" >става 4. овог</ref> члана решава министар надлежан за послове запошљавања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan9-stav6">
+						<content>
+							<p>Ближи начин, трошкове и критеријуме за процену радне способности и могућности запослења или одржања запослења споразумно прописују министар надлежан за послове запошљавања, министар надлежан за послове здравља и министар надлежан за послове пензијског и инвалидског осигурања.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>ПОДСТИЦАЊЕ ЗАПОШЉАВАЊА ОСОБА СА ИНВАЛИДИТЕТОМ</heading>
+				<article wId="gla4-clan10">
+					<num>10.</num>
+					<paragraph wId="gla4-clan10-stav1">
+						<content>
+							<p>Послове подстицања запошљавања особа са инвалидитетом обавља организација надлежна за послове запошљавања.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan11">
+					<num>11.</num>
+					<paragraph wId="gla4-clan11-stav1">
+						<intro>
+							<p>Послови подстицања запошљавања особа са инвалидитетом јесу:</p>
+						</intro>
+						<point wId="gla4-clan11-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Предузеће за професионалну рехабилитацију  и запошљавање особа са инвалидитетом</p>
+							</content>
+						</point>
+						<point wId="gla4-clan11-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Радни центар</p>
+							</content>
+						</point>
+						<point wId="gla4-clan11-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Социјално предузеће и организација</p>
+							</content>
+						</point>
+						<point wId="gla4-clan11-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Предузеће за професионалну рехабилитацију  и запошљавање особа са инвалидитетом</p>
+							</content>
+						</point>
+						<point wId="gla4-clan11-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Радни центар</p>
+							</content>
+						</point>
+						<point wId="gla4-clan11-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Социјално предузеће и организација</p>
+							</content>
+						</point>
+						<point wId="gla4-clan11-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Предузеће за професионалну рехабилитацију  и запошљавање особа са инвалидитетом</p>
+							</content>
+						</point>
+						<point wId="gla4-clan11-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Радни центар</p>
+							</content>
+						</point>
+						<point wId="gla4-clan11-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Социјално предузеће и организација</p>
+							</content>
+						</point>
+						<point wId="gla4-clan11-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Предузеће за професионалну рехабилитацију  и запошљавање особа са инвалидитетом</p>
+							</content>
+						</point>
+						<point wId="gla4-clan11-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Радни центар</p>
+							</content>
+						</point>
+						<point wId="gla4-clan11-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Социјално предузеће и организација</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

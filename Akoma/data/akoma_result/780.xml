@@ -1,0 +1,1412 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="ЗАКОН">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2012/2-3/main"/>
+					<FRBRuri value="/rs/act/2012/2-3"/>
+					<FRBRdate date="2012-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2012/2-3/srp@/main"/>
+					<FRBRuri value="/rs/act/2012/2-3/srp@"/>
+					<FRBRdate date="2012-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2012/2-3/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2012/2-3/srp@.akn"/>
+					<FRBRdate date="2012-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2012-09-28" name="службени гласник рс - међународни уговори" number="2" showAs="Службени гласник РС - Међународни уговори"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="II БЕЗБЕДНОСНА И ОДБРАМБЕНА ПОЛИТИКА" value="ii безбедносна и одбрамбена политика" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="1. Одбрана и безбедност" value="1. одбрана и безбедност" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2012-09-25" wId="usvajanje"/>
+				<step by="#TODO" date="2012-10-06" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2012-10-06" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p/>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон о потврђивању Меморандума о разумевању измеђуВладе Републике Србије и Уједињених нацијао доприносу систему „stand by”аранжмана Уједињених нација</p>
+			</longTitle>
+			<p>Томислав Николић, с.р.</p>
+		</preface>
+		<preamble>
+			<p>24</p>
+			<p>На основу члана 112. став 1. тачка 2. Устава Републике Србије, доносим</p>
+			<p>УКАЗ</p>
+			<p>о проглашењу Закона о потврђивању Меморандума о разумевању између Владе Републике Србијеи Уједињених нација о доприносу систему „stand by”аранжмана Уједињених нација</p>
+			<p>Проглашава се Закон о потврђивању Меморандума о разумевању између Владе Републике Србије и Уједињених нацијао доприносу систему „stand by” аранжмана Уједињених нација који је донела Народна скупштина Републике Србије на седници Деветог ванредног заседања у 2012. години, 25. септембра 2012. године.</p>
+			<p>ПР број 64</p>
+			<p>У Београду, 28. септембра 2012. године</p>
+			<p>Председник Републике,</p>
+		</preamble>
+		<body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Потврђује се Меморандум о разумевању између Владе Републике Србије и Уједињених нација о доприносу систему „stand by” аранжмана Уједињених нација, који је потписан у Њујорку, 22. новембра 2011. године, у оригиналу на енглеском језику.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Текст Меморандума о разумевању у оригиналу на енглеском језику и у преводу на српски језик гласи:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>MEMORANDUM OF UNDERSTANDINGBETWEEN THE GOVERNMENT OF THE REPUBLIC OF SERBIAAND THE UNITED NATIONSCONCERNING CONTRIBUTIONS TO THE UNITED NATIONS STAND-BY ARRANGEMENTS SYSTEM</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav3">
+					<content>
+						<p>The Government of the Republic of Serbia</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav4">
+					<content>
+						<p>and</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav5">
+					<content>
+						<p>The United Nations,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav6">
+					<content>
+						<p>Hereinafter referred to as ”the Parties”,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav7">
+					<content>
+						<p>Recognizing the need to expedite the provision of certain resources to the United Nations in order to effectively implement in a timely manner, the mandate of the United Nations peacekeeping operations authorized by the Security Council,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav8">
+					<content>
+						<p>Further recognizing that the advantages of pledging resources for peacekeeping operations contribute to enhancing flexibility and low costs,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav9">
+					<content>
+						<p>Have reached the following understanding:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav10">
+					<content>
+						<p>Article I</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav11">
+					<content>
+						<p>Purpose</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav12">
+					<content>
+						<p>The purpose of the present Memorandum of Understanding is to identify the resources which the Government of the Republic of Serbia has indicated that it will provide to the United Nations for use in United Nations peacekeeping operations under the conditions as specified in this Memorandum of Understanding.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav13">
+					<content>
+						<p>Article II</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav14">
+					<content>
+						<p>Description of resources</p>
+					</content>
+				</paragraph>
+			</article>
+			<section wId="od1">
+				<num>1.</num>
+				<heading> The detailed description of the resources to be provided by the Government of the Republic of Serbia is set out in the Annex to the present Memorandum of Understanding. The said Annex may be periodically changed with the consent of the Ministry of Defence of the Republic of Serbia and the United Nations Department of Peacekeeping Operations.</heading>
+				<point wId="od1-clan2-tac2">
+					<num>2.</num>
+					<content>
+						<p> In the preparation of the Annex, as in the case of its amendments, it is necessary to observe the guidelines for the provision of resources for United Nations Peacekeeping Operations.</p>
+					</content>
+				</point>
+				<paragraph wId="od1-clan2-stav1">
+					<content>
+						<p>Article III</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav2">
+					<content>
+						<p>Condition of provision</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav3">
+					<content>
+						<p>The final decision on deploying the resources, remains a national decision of the Republic of Serbia.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav4">
+					<content>
+						<p>Article IV</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav5">
+					<content>
+						<p>Modifications</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav6">
+					<content>
+						<p>The present Memorandum of Understanding may be modified at any time by mutual consent of the Parties, in writing. The modifications shall be applied and take effect in accordance with Article V of this Memorandum of Understanding.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav7">
+					<content>
+						<p>Article V</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav8">
+					<content>
+						<p>Entry into effect</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav9">
+					<content>
+						<p>This Memorandum of Understanding shall be provisionally applied as of the day of signature and shall enter into force on the day of the receipt of the notification by which the Republic of Serbia through diplomatic channels informs the United Nations that it has concluded the procedure necessary for this Memorandum of Understanding to enter into force in accordance with its national legislation.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav10">
+					<content>
+						<p>Article VI</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav11">
+					<content>
+						<p>Termination</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav12">
+					<content>
+						<p>This Memorandum of Understanding may be terminated at any time by either Party. The termination takes effect three (3) months upon the day of the receipt of such a notification.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav13">
+					<content>
+						<p>Signed in New York on 22 November 2011, in two originals, in the English language, both texts being equally authentic.</p>
+					</content>
+				</paragraph>
+				<paragraph class="special" wId="od1-clan2-stav14">
+					<content>
+						<table>
+							
+
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>FOR THE GOVERNMENT</p>
+									
+
+									<p>OF THE REPUBLIC OF SERBIA</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>FOR THE</p>
+									
+
+									<p>UNITED NATIONS</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>Dragan Šutanovac</p>
+									
+
+									<p>Minister of Defence</p>
+									
+
+									<p>for Peacekeeping Operations</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>Hervé Ladsous</p>
+									
+
+									<p>Under-Secretary-General </p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+
+						</table>
+						
+
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav15">
+					<content>
+						<p>Annex 1 to Memorandum of Understanding between The Government of the Republic of Serbia and the United Nations concerning Contributions to the United Nations ”Stand-By” Arrangements System</p>
+					</content>
+				</paragraph>
+				<paragraph class="special" wId="od1-clan2-stav16">
+					<content>
+						<table>
+							
+
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>National number</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>Description</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>Category</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>Source</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>Response Time</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>Strength</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>Remarks</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>1.</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>AMET</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>Medical </p>
+									
+
+									<p>Service</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>MoD and GS</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>90</p>
+									
+
+									<p>days</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>6</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>The Team is staffed with 2 doctors and 4 medical technicians. </p>
+									
+
+									<p>The team has no self-sustainment elements. For the purpose of a functional engagement it should rely on UN Owned Equipment. </p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>2.</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>Surgical</p>
+									
+
+									<p> Team</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>Medical Services</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>MoD and GS</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>90 days</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>6</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>Surgical Team is staffed with 1 surgeon, 1 orthopaedic, 1 anaesthesiologist, 1 anaesthetist technician and 2 surgical technicians. The team has no self-sustainment elements. For the purpose of a functional engagement it should rely on UN Owned Equipment. </p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>3.</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>Staff Officers</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>Headquarters</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>MoD and GS</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>60 days</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>15</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>Fluent in English spoken language and satisfy all requirements for Staff Officers.</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>4.</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>Military Observers</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>Military Observers</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>MoD and GS</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>60 days</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>10</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>Fluent in English spoken language and satisfy all requirements for UNMEM. Have experience in PKOs.</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+
+						</table>
+						
+
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav17">
+					<content>
+						<p>МЕМОРАНДУМ О РАЗУМЕВАЊУ ИЗМЕЂУ ВЛАДЕРЕПУБЛИКЕ СРБИЈЕ И УЈЕДИЊЕНИХ НАЦИЈАО ДОПРИНОСУ СИСТЕМУ „STAND BY”АРАНЖМАНА УЈЕДИЊЕНИХ НАЦИЈА</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav18">
+					<content>
+						<p>Влада Републике Србије и Уједињене нације (у даљем тексту: „Стране”),</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav19">
+					<content>
+						<p>Препознајући потребу да се убрза обезбеђивање одређених ресурса Уједињеним нацијама како би се ефективно благовремено спровео мандат мировних операција Уједињених нација по овлашћењу Савета безбедности,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav20">
+					<content>
+						<p>Препознајући да предности обавезивања на давање средстава намењених мировним операцијама доприносе побољшању флексибилности и смањењу трошкова,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav21">
+					<content>
+						<p>Споразумеле су се о следећем:</p>
+					</content>
+				</paragraph>
+				<article wId="od1-clan1">
+					<num>1.</num>
+					<paragraph wId="od1-clan1-stav1">
+						<content>
+							<p>Сврха</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od1-clan1-stav2">
+						<content>
+							<p>Сврха овог меморандума о разумевању је да се утврде ресурси које је Влада Републике Србије одредила за пружање Уједињеним нацијама ради коришћења у мировним операцијама Уједињених нација под условима дефинисаним овим меморандумом о разумевању.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="od1-clan2">
+					<num>2.</num>
+					<paragraph wId="od1-clan2-stav1">
+						<content>
+							<p>Опис ресурса</p>
+						</content>
+					</paragraph>
+				</article>
+				<section wId="od1">
+					<num>1.</num>
+					<heading> Детаљан опис ресурса које ће Влада Републике Србије обезбедити дат је у Анексу овог меморандума о разумевању. Наведени анекс може се мењати периодично, на основу сагласности Министарства одбране Републике Србије и Департмана за мировне мисије Уједињених нација.</heading>
+					<point wId="od1-clan2-tac2">
+						<num>2.</num>
+						<content>
+							<p> Приликом припреме Анекса, као и у случају његове измене и/или допуне, обавезно је поштовање смерница за обезбеђивање ресурса за мировне мисије Уједињених нација.</p>
+						</content>
+					</point>
+					<article wId="od1-clan3">
+						<num>3.</num>
+						<paragraph wId="od1-clan3-stav1">
+							<content>
+								<p>Услов обезбеђивања ресурса</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan3-stav2">
+							<content>
+								<p>Коначна одлука о упућивању ресурса, остаје национална одлука Републике Србије.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="od1-clan4">
+						<num>4.</num>
+						<paragraph wId="od1-clan4-stav1">
+							<content>
+								<p>Измене</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan4-stav2">
+							<content>
+								<p>Стране могу изменити овај меморандум о разумевању у било ком тренутку, заједничком сагласношћу, писаним путем. Измене се примењују и ступају на снагу, сагласно <ref wId="ref0" href="akn/rs/act/2012/2-3/srp@/!main~art_5" >члану 5. овог</ref> меморандума о разумевању.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="od1-clan5">
+						<num>5.</num>
+						<paragraph wId="od1-clan5-stav1">
+							<content>
+								<p>Ступање на снагу</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan5-stav2">
+							<content>
+								<p>Овај меморандум о разумевању ће се привремено примењивати од дана потписивања и ступиће на снагу даном пријема обавештења којим Република Србија дипломатским путем обавештава Уједињене нације да је у складу са својим националним законодавством спровела поступак који је неопходан за ступање на снагу овог меморандума о разумевању.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="od1-clan6">
+						<num>6.</num>
+						<paragraph wId="od1-clan6-stav1">
+							<content>
+								<p>Отказивање</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan6-stav2">
+							<content>
+								<p>Овај меморандум о разумевању могу отказати обе Стране у било ком тренутку. Отказ ступа на снагу три (3) месеца од дана пријема таквог обавештења.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan6-stav3">
+							<content>
+								<p>Потписано у Њујорку, 22. новембра 2011. године, у два истоветна примерка, на енглеском језику, при чему су оба текста једнаке важности.</p>
+							</content>
+						</paragraph>
+						<paragraph class="special" wId="od1-clan6-stav4">
+							<content>
+								<table>
+									
+
+
+									<tr>
+										
+
+										<td>
+											
+
+											<p>ЗА ВЛАДУ</p>
+											
+
+											<p>РЕПУБЛИКЕ СРБИЈЕ</p>
+											
+
+										</td>
+										
+
+										<td>
+											
+
+											<p>ЗА УЈЕДИЊЕНЕ НАЦИЈЕ</p>
+											
+
+										</td>
+										
+
+									</tr>
+									
+
+									<tr>
+										
+
+										<td>
+											
+
+											<p>Драган Шутановац, с.р.</p>
+											
+
+											<p>министар одбране</p>
+											
+
+										</td>
+										
+
+										<td>
+											
+
+											<p>Херв Ладсус, с.р.</p>
+											
+
+											<p>подсекретар за мировне операције </p>
+											
+
+										</td>
+										
+
+									</tr>
+									
+
+
+								</table>
+								
+
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan6-stav5">
+							<content>
+								<p>Aнекс 1 узМеморандум о разумевању између Владе Републике Србије и Уједињених нација о доприносу систему „stand by” аранжмана Уједињених нација</p>
+							</content>
+						</paragraph>
+						<paragraph class="special" wId="od1-clan6-stav6">
+							<content>
+								<table>
+									
+
+
+									<tr>
+										
+
+										<td>
+											
+
+											<p>Национални број</p>
+											
+
+										</td>
+										
+
+										<td>
+											
+
+											<p>Опис</p>
+											
+
+										</td>
+										
+
+										<td>
+											
+
+											<p>Категорија</p>
+											
+
+										</td>
+										
+
+										<td>
+											
+
+											<p>Извор</p>
+											
+
+										</td>
+										
+
+										<td>
+											
+
+											<p>Време одзива</p>
+											
+
+										</td>
+										
+
+										<td>
+											
+
+											<p>Бројно стање</p>
+											
+
+										</td>
+										
+
+										<td>
+											
+
+											<p>Примедбе</p>
+											
+
+										</td>
+										
+
+									</tr>
+									
+
+									<tr>
+										
+
+										<td>
+											
+
+											<p>1.</p>
+											
+
+										</td>
+										
+
+										<td>
+											
+
+											<p>АМЕТ</p>
+											
+
+										</td>
+										
+
+										<td>
+											
+
+											<p>Медицинска служба</p>
+											
+
+										</td>
+										
+
+										<td>
+											
+
+											<p>МО и ВС</p>
+											
+
+										</td>
+										
+
+										<td>
+											
+
+											<p>90 дана</p>
+											
+
+										</td>
+										
+
+										<td>
+											
+
+											<p>6</p>
+											
+
+										</td>
+										
+
+										<td>
+											
+
+											<p>Тим сачињавају 2 лекара и 4 медицинска техничара. </p>
+											
+
+											<p>Тим нема сопствене елементе самоодрживости. Ради функционалног ангажовања треба бити подржан опремом УН. </p>
+											
+
+										</td>
+										
+
+									</tr>
+									
+
+									<tr>
+										
+
+										<td>
+											
+
+											<p>2.</p>
+											
+
+										</td>
+										
+
+										<td>
+											
+
+											<p>Хируршки тим</p>
+											
+
+										</td>
+										
+
+										<td>
+											
+
+											<p>Медицинска служба</p>
+											
+
+										</td>
+										
+
+										<td>
+											
+
+											<p>МО и ВС</p>
+											
+
+										</td>
+										
+
+										<td>
+											
+
+											<p>90 дана</p>
+											
+
+										</td>
+										
+
+										<td>
+											
+
+											<p>6</p>
+											
+
+										</td>
+										
+
+										<td>
+											
+
+											<p>Тим сачињавају хирург, ортопед, анестезиолог, анестезиолог-техничар и 2 инструментара. </p>
+											
+
+											<p>Тим нема сопствене елементе самоодрживости. Ради функционалног ангажовања треба бити подржан опремом УН. </p>
+											
+
+										</td>
+										
+
+									</tr>
+									
+
+									<tr>
+										
+
+										<td>
+											
+
+											<p>3.</p>
+											
+
+										</td>
+										
+
+										<td>
+											
+
+											<p>Штабни официри</p>
+											
+
+										</td>
+										
+
+										<td>
+											
+
+											<p>Штабне дужности</p>
+											
+
+										</td>
+										
+
+										<td>
+											
+
+											<p>МО и ВС</p>
+											
+
+										</td>
+										
+
+										<td>
+											
+
+											<p>60</p>
+											
+
+											<p>дана</p>
+											
+
+										</td>
+										
+
+										<td>
+											
+
+											<p>15</p>
+											
+
+										</td>
+										
+
+										<td>
+											
+
+											<p>Поседују адекватно познавање енглеског језика и у потпуности испуњавају све услове за штабне официре. </p>
+											
+
+										</td>
+										
+
+									</tr>
+									
+
+									<tr>
+										
+
+										<td>
+											
+
+											<p>4.</p>
+											
+
+										</td>
+										
+
+										<td>
+											
+
+											<p>Војни посматрачи</p>
+											
+
+										</td>
+										
+
+										<td>
+											
+
+											<p>Војни посматрачи</p>
+											
+
+										</td>
+										
+
+										<td>
+											
+
+											<p>МО и ВС</p>
+											
+
+										</td>
+										
+
+										<td>
+											
+
+											<p>60 дана</p>
+											
+
+										</td>
+										
+
+										<td>
+											
+
+											<p>10</p>
+											
+
+										</td>
+										
+
+										<td>
+											
+
+											<p>Поседују адекватно познавање енглеског језика и у потпуности испуњавају све услове за војне експерте мисије УН. </p>
+											
+
+											<p>Поседују искуство из мировних операција УН.</p>
+											
+
+										</td>
+										
+
+									</tr>
+									
+
+
+								</table>
+								
+
+							</content>
+						</paragraph>
+					</article>
+					<article wId="od1-clan3">
+						<num>3.</num>
+						<paragraph wId="od1-clan3-stav1">
+							<content>
+								<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије – Међународни уговори”.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan3-stav2">
+							<content>
+								<p>24</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan3-stav3">
+							<content>
+								<p>На основу члана 11<ref wId="ref1" href="akn/rs/act/2012/2-3/srp@/!main~art_112__para_1__point_2" >2</ref>. став 1. тачка 2. Устава Републике Србије, доносим</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan3-stav4">
+							<content>
+								<p>УКАЗ</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan3-stav5">
+							<content>
+								<p>о проглашењу Закона о потврђивању Меморандума о разумевању између Владе Републике Србијеи Уједињених нација о доприносу систему „stand by”аранжмана Уједињених нација</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan3-stav6">
+							<content>
+								<p>Проглашава се Закон о потврђивању Меморандума о разумевању између Владе Републике Србије и Уједињених нацијао доприносу систему „stand by” аранжмана Уједињених нација који је донела Народна скупштина Републике Србије на седници Деветог ванредног заседања у 2012. години, 25. септембра 2012. године.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan3-stav7">
+							<content>
+								<p>ПР број 64</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan3-stav8">
+							<content>
+								<p>У Београду, 28. септембра 2012. године</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan3-stav9">
+							<content>
+								<p>Председник Републике,</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan3-stav10">
+							<content>
+								<p>Томислав Николић, с.р.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan3-stav11">
+							<content>
+								<p>ЗАКОН</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="od1-clan1">
+						<num>1.</num>
+						<heading>о потврђивању Меморандума о разумевању измеђуВладе Републике Србије и Уједињених нацијао доприносу систему „stand by”аранжмана Уједињених нација</heading>
+						<paragraph wId="od1-clan1-stav1">
+							<content>
+								<p>Потврђује се Меморандум о разумевању између Владе Републике Србије и Уједињених нација о доприносу систему „stand by” аранжмана Уједињених нација, који је потписан у Њујорку, 22. новембра 2011. године, у оригиналу на енглеском језику.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="od1-clan2">
+						<num>2.</num>
+						<paragraph wId="od1-clan2-stav1">
+							<content>
+								<p>Текст Меморандума о разумевању у оригиналу на енглеском језику и у преводу на српски језик гласи:</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan2-stav2">
+							<content>
+								<p>MEMORANDUM OF UNDERSTANDINGBETWEEN THE GOVERNMENT OF THE REPUBLIC OF SERBIAAND THE UNITED NATIONSCONCERNING CONTRIBUTIONS TO THE UNITED NATIONS STAND-BY ARRANGEMENTS SYSTEM</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan2-stav3">
+							<content>
+								<p>The Government of the Republic of Serbia</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan2-stav4">
+							<content>
+								<p>and</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan2-stav5">
+							<content>
+								<p>The United Nations,</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan2-stav6">
+							<content>
+								<p>Hereinafter referred to as ”the Parties”,</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan2-stav7">
+							<content>
+								<p>Recognizing the need to expedite the provision of certain resources to the United Nations in order to effectively implement in a timely manner, the mandate of the United Nations peacekeeping operations authorized by the Security Council,</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan2-stav8">
+							<content>
+								<p>Further recognizing that the advantages of pledging resources for peacekeeping operations contribute to enhancing flexibility and low costs,</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan2-stav9">
+							<intro>
+								<p>Have reached the following understanding:</p>
+							</intro>
+							<point wId="od1-clan2-stav9-tac1">
+								<num>1.</num>
+								<content>
+									<p> The detailed description of the resources to be provided by the Government of the Republic of Serbia is set out in the Annex to the present Memorandum of Understanding. The said Annex may be periodically changed with the consent of the Ministry of Defence of the Republic of Serbia and the United Nations Department of Peacekeeping Operations.</p>
+								</content>
+							</point>
+							<point wId="od1-clan2-stav9-tac2">
+								<num>2.</num>
+								<content>
+									<p> In the preparation of the Annex, as in the case of its amendments, it is necessary to observe the guidelines for the provision of resources for United Nations Peacekeeping Operations.</p>
+								</content>
+							</point>
+							<point wId="od1-clan2-stav9-tac1">
+								<num>1.</num>
+								<content>
+									<p> Детаљан опис ресурса које ће Влада Републике Србије обезбедити дат је у Анексу овог меморандума о разумевању. Наведени анекс може се мењати периодично, на основу сагласности Министарства одбране Републике Србије и Департмана за мировне мисије Уједињених нација.</p>
+								</content>
+							</point>
+							<point wId="od1-clan2-stav9-tac2">
+								<num>2.</num>
+								<content>
+									<p> Приликом припреме Анекса, као и у случају његове измене и/или допуне, обавезно је поштовање смерница за обезбеђивање ресурса за мировне мисије Уједињених нација.</p>
+								</content>
+							</point>
+							<point wId="od1-clan2-stav9-tac1">
+								<num>1.</num>
+								<content>
+									<p> The detailed description of the resources to be provided by the Government of the Republic of Serbia is set out in the Annex to the present Memorandum of Understanding. The said Annex may be periodically changed with the consent of the Ministry of Defence of the Republic of Serbia and the United Nations Department of Peacekeeping Operations.</p>
+								</content>
+							</point>
+							<point wId="od1-clan2-stav9-tac2">
+								<num>2.</num>
+								<content>
+									<p> In the preparation of the Annex, as in the case of its amendments, it is necessary to observe the guidelines for the provision of resources for United Nations Peacekeeping Operations.</p>
+								</content>
+							</point>
+							<point wId="od1-clan2-stav9-tac1">
+								<num>1.</num>
+								<content>
+									<p> Детаљан опис ресурса које ће Влада Републике Србије обезбедити дат је у Анексу овог меморандума о разумевању. Наведени анекс може се мењати периодично, на основу сагласности Министарства одбране Републике Србије и Департмана за мировне мисије Уједињених нација.</p>
+								</content>
+							</point>
+							<point wId="od1-clan2-stav9-tac2">
+								<num>2.</num>
+								<content>
+									<p> Приликом припреме Анекса, као и у случају његове измене и/или допуне, обавезно је поштовање смерница за обезбеђивање ресурса за мировне мисије Уједињених нација.</p>
+								</content>
+							</point>
+							<point wId="od1-clan2-stav9-tac1">
+								<num>1.</num>
+								<content>
+									<p> The detailed description of the resources to be provided by the Government of the Republic of Serbia is set out in the Annex to the present Memorandum of Understanding. The said Annex may be periodically changed with the consent of the Ministry of Defence of the Republic of Serbia and the United Nations Department of Peacekeeping Operations.</p>
+								</content>
+							</point>
+							<point wId="od1-clan2-stav9-tac2">
+								<num>2.</num>
+								<content>
+									<p> In the preparation of the Annex, as in the case of its amendments, it is necessary to observe the guidelines for the provision of resources for United Nations Peacekeeping Operations.</p>
+								</content>
+							</point>
+							<point wId="od1-clan2-stav9-tac1">
+								<num>1.</num>
+								<content>
+									<p> Детаљан опис ресурса које ће Влада Републике Србије обезбедити дат је у Анексу овог меморандума о разумевању. Наведени анекс може се мењати периодично, на основу сагласности Министарства одбране Републике Србије и Департмана за мировне мисије Уједињених нација.</p>
+								</content>
+							</point>
+							<point wId="od1-clan2-stav9-tac2">
+								<num>2.</num>
+								<content>
+									<p> Приликом припреме Анекса, као и у случају његове измене и/или допуне, обавезно је поштовање смерница за обезбеђивање ресурса за мировне мисије Уједињених нација.</p>
+								</content>
+							</point>
+						</paragraph>
+					</article>
+				</section>
+			</section>
+		</body>
+	</act>
+</akomaNtoso>

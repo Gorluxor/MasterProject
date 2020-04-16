@@ -1,0 +1,324 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о јавним складиштима за пољопривредне производе">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2009/41-161/main"/>
+					<FRBRuri value="/rs/act/2009/41-161"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2018/44-27/srp@/main"/>
+					<FRBRuri value="/rs/act/2018/44-27/srp@"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2018/44-27/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2018/44-27/srp@.akn"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2009-06-02" name="службени гласник рс" number="41" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="XIII ПОЉОПРИВРЕДНА ДЕЛАТНОСТ" value="xiii пољопривредна делатност" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="7. Пољопривреда и развој пољопривреде" value="7. пољопривреда и развој пољопривреде" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2009-01-01" refersTo="41/2009-161" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2018-01-01" refersTo="44/2018-27" source="#somebody" type="amendment" wId="e2"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2009-05-29" wId="usvajanje"/>
+				<step by="#TODO" date="2009-06-10" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2009-06-10" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 10. јуна 2009. године (види члан 68. Закона).Престају да важе одредбе члана 19. став 2. тачка 12) и члана 23. став 3. тачка 6) Закона, у делу у ком се установљава обавеза употребе печата у пословању друштава и предузетника, даном почетка примене члана 160. Закона о изменама и допунама Закона о привредним друштвима („Службени гласник РС“, број 44/2018), односно 1. октобра 2018. године (види члан 160. Закона – 44/2018-27).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О јавним складиштима за пољопривредне производе "Службени гласник РС", бр. 41 од 2. јуна 2009, 44 од 8. јуна 2018 - др. закон</p>
+			</longTitle>
+			<p>Редакцијски пречишћен текст</p>
+		</preface>
+		<preamble>
+			<p>﻿</p>
+		</preamble>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<heading>Садржина закона</heading>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређују се услови за одређивање јавних складишта за  пољопривредне производе, услови и начин издавања дозволе за рад јавних  складишта, као и услови и начин њиховог коришћења, начин обављања делатности у  јавном складишту, поступак издавања, промета и залоге робног записа, принудна  наплата потраживања по робном запису, одговорност јавног складишта, као и  оснивање Компензационог фонда.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>На сва питања која нису уређена овим законом примењују се одредбе Закона о  облигационим односима („<ref wId="ref0" href="akn/rs/act/78/29/srp@">Службени лист СФРЈ”, бр. 29/78, 39/85, 45/89, 57/89, </ref> „<ref wId="ref1" href="akn/rs/act/93/31/srp@">Службени лист СРЈ”, бр. 31/93, 22/99</ref> и 44/99).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<heading>Дефиниције</heading>
+					<paragraph wId="gla1-clan3-stav1">
+						<intro>
+							<p>Поједини изрази, употребљени у овом закону, имају следеће значење:</p>
+						</intro>
+						<point wId="gla1-clan3-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> јавно складиште јесте правно лице коме је издата дозвола за рад јавног  складишта за складиштење пољопривредних производа и које је уписано у Регистар  јавних складишта, у складу са овим законом;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> складиштење јесте депоновање пољопривредних производа и безбедно чување на  основу уговора о складиштењу, у складу са овим законом и другим прописима;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> пољопривредни производи јесу: житарице, индустријско биље, воће и поврће у  свежем или полупрерађеном стању;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> робни запис за пољопривредне производе (у даљем тексту: робни запис) је  хартија од вредности издата од стране јавног складишта по основу уговора о  складиштењу између оставодавца и јавног складишта, а доказује власништво над  назначеном количином и квалитетом ускладиштеног пољопривредног производа, као и  обавезу јавног складишта да чува и на захтев имаоца робног записа изврши предају  пољопривредног производа;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> ималац робног записа је правно или физичко лице које је предало  пољопривредни производ ради ускладиштења јавном складишту и којем је издат робни  запис, односно на кога је робни запис пренесен, у складу са одредбама овог  закона;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> берзанска трговина, берза, као и сви остали појмови изведени из ових  појмова јесте трговина и активности које се одвијају на робној берзи.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav2">
+						<content>
+							<p>Министар надлежан за послове пољопривреде (у даљем тексту: министар)  прописује врсте пољопривредних производа који могу да се складиште у јавним  складиштима.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ДОЗВОЛА ЗА РАД ЈАВНОГ СКЛАДИШТА</heading>
+				<article wId="gla2-clan4">
+					<num>4.</num>
+					<heading>Услови</heading>
+					<paragraph wId="gla2-clan4-stav1">
+						<content>
+							<p>Складиштењем пољопривредних производа у јавном складишту у складу са овим  законом може да се бави правно лице које је регистровано у регистар привредних  субјеката и које је уписано у Регистар јавних складишта који води министарство  надлежно за послове пољопривреде (у даљем тексту: министарство).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan4-stav2">
+						<content>
+							<p>Правно лице из <ref wId="ref2" href="akn/rs/act/2018/44-27/srp@/!main~art_4__para_1" >става 1. овог</ref> члана уписује се у регистар привредних субјеката  у складу са законом којим се уређује регистрација привредних субјеката.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan4-stav3">
+						<intro>
+							<p>Правно лице из <ref wId="ref3" href="akn/rs/act/2018/44-27/srp@/!main~art_4__para_1" >става 1. овог</ref> члана може да се бави складиштењем  пољопривредних производа у јавном складишту ако испуњава услове у погледу:</p>
+						</intro>
+						<point wId="gla2-clan4-stav3-tac1">
+							<num>1)</num>
+							<content>
+								<p> складишног простора за пријем, чување и испоруку пољопривредних производа  на начин којим се обезбеђује очување квалитета и хигијенска исправност  ускладиштених пољопривредних производа у зависности од врсте пољопривредних  производа који су предмет ускладиштења;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan4-stav3-tac2">
+							<num>2)</num>
+							<content>
+								<p> опреме за мерење количине и утврђивање квалитета пољопривредних производа  који се складиште у зависности од врсте пољопривредних производа који су предмет  ускладиштења;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan4-stav3-tac3">
+							<num>3)</num>
+							<content>
+								<p> вредности основних средстава која нису оптерећена хипотеком или другим  заложним правом у зависности од врсте пољопривредних производа који су предмет  ускладиштења;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan4-stav3-tac4">
+							<num>4)</num>
+							<content>
+								<p> показатеља финансијског пословања у претходном обрачунском периоду;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan4-stav3-tac5">
+							<num>5)</num>
+							<content>
+								<p> акта о пословању подносиоца захтева који нарочито садржи: врсте  пољопривредних производа за које је складиште оспособљено, услове пријема за  ускладиштење, цене ускладиштења (тарифе), цене услуга које складиште пружа  оставодавцима и начин, као и рокове обавештавања корисника услуга, на који  сагласност даје министарство;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan4-stav3-tac6">
+							<num>6)</num>
+							<content>
+								<p> одговорног лица.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan4-stav4">
+						<content>
+							<p>Правно лице из <ref wId="ref4" href="akn/rs/act/2018/44-27/srp@/!main~art_4__para_1" >става 1. овог</ref> члана услов у погледу одговорног лица испуњава,  ако одговорно лице има високу стручну спрему и није правоснажно осуђивано за  кривична дела против радних односа, привреде, имовине, правосуђа, јавног реда и  правног саобраћаја, као и службене дужности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan4-stav5">
+						<content>
+							<p>Министар ближе прописује услове из става <ref wId="ref7" href="akn/rs/act/2018/44-27/srp@/!main~art_4__para_3__point_3" >3</ref>. тач. <ref wId="ref5" href="akn/rs/act/2018/44-27/srp@/!main~art_4__para_3__point_1" >1</ref>), <ref wId="ref6" href="akn/rs/act/2018/44-27/srp@/!main~art_4__para_3__point_2" >2</ref>), 3) и <ref wId="ref8" href="akn/rs/act/2018/44-27/srp@/!main~art_4__para_3__point_4" >4</ref>) овог члана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan5">
+					<num>5.</num>
+					<heading>Издавање дозволе за рад јавних сладишта</heading>
+					<paragraph wId="gla2-clan5-stav1">
+						<content>
+							<p>Министарство утврђује испуњеност услова из <ref wId="ref9" href="akn/rs/act/2018/44-27/srp@/!main~art_4" >члана 4. овог</ref> закона на захтев  правног лица.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav2">
+						<intro>
+							<p>Уз захтев из <ref wId="ref10" href="akn/rs/act/2018/44-27/srp@/!main~art_5__para_1" >става 1. овог</ref> члана који садржи податке о правном лицу и шифру  делатности подносе се и следећи докази:</p>
+						</intro>
+						<point wId="gla2-clan5-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> извод из регистра у којем је правно лице регистровано;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> решење министра о испуњености услова из члана 4. став 3. тач. <ref wId="ref11" href="akn/rs/act/2018/44-27/srp@/!main~art_4__para_3__point_1" >1</ref>) и <ref wId="ref12" href="akn/rs/act/2018/44-27/srp@/!main~art_4__para_3__point_2" >2</ref>) овог  закона;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> податке о евентуалном хипотекарном задужењу и задужењу по основу ручних  залога на основним средствима;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> извештај о завршном рачуну и о извршеној ревизији за претходни обрачунски  период;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav2-tac5">
+							<num>5)</num>
+							<content>
+								<p> акт о пословању на који је сагласност дало министарство;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav2-tac6">
+							<num>6)</num>
+							<content>
+								<p> потврду да лице овлашћено за вршење пословне функције подносиоца захтева  није правоснажно осуђивано за кривична дела против радних односа, привреде,  имовине, правосуђа, јавног реда и правног саобраћаја, као и службене дужности и  потврду да поседује високу стручну спрему;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav2-tac7">
+							<num>7)</num>
+							<content>
+								<p> доказ о уплати републичке административне таксе за решавање по захтеву.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav3">
+						<content>
+							<p>Министарство издаје решење о дозволи за рад јавног складишта (у даљем тексту:  дозвола) у року од 30 дана од дана подношења захтева.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav4">
+						<content>
+							<p>Решење из <ref wId="ref13" href="akn/rs/act/2018/44-27/srp@/!main~art_5__para_3" >става 3. овог</ref> члана је коначно у управном поступку.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav5">
+						<content>
+							<p>Дозвола се издаје за све или поједине пољопривредне производе из члана <ref wId="ref14" href="akn/rs/act/2018/44-27/srp@/!main~art_3__para_1__point_3" >3</ref>.  став 1. тачка 3) овог закона са роком важења од годину дана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan6">
+					<num>6.</num>
+					<heading>Упис у Регистар јавних складишта</heading>
+					<paragraph wId="gla2-clan6-stav1">
+						<intro>
+							<p>Упис у Регистар јавних складишта врши се на основу:</p>
+						</intro>
+						<point wId="gla2-clan6-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> захтева правног лица које је добило дозволу;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> доказа о осигурању основних средстава од пожара, поплаве, земљотреса,  обијања и крађе;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> доказа о уплати чланарине у Компензациони фонд;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> гаранције банке издате у корист Компензационог фонда.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav2">
+						<content>
+							<p>Министар доноси решење о дозволи уписа у Регистар јавних складишта које је  коначно у управном поступку.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav3">
+						<content>
+							<p>Правно лице из <ref wId="ref15" href="akn/rs/act/2018/44-27/srp@/!main~art_6__para_1" >става 1. овог</ref> члана уписано у Регистар јавних складишта (у  даљем тексту: јавно складиште) је дужно да сваку промену података пријави  министарству у року од пет дана од дана настале промене.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan7">
+					<num>7.</num>
+					<heading>Остале обавезе јавног складишта</heading>
+					<paragraph wId="gla2-clan7-stav1">
+						<content>
+							<p>Јавно складиште је дужно да:</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

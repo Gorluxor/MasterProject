@@ -1,0 +1,262 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о престанку  важења Закона о електропривреди">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2005/45-24/main"/>
+					<FRBRuri value="/rs/act/2005/45-24"/>
+					<FRBRdate date="2005-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2005/45-24/srp@/main"/>
+					<FRBRuri value="/rs/act/2005/45-24/srp@"/>
+					<FRBRdate date="2005-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2005/45-24/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2005/45-24/srp@.akn"/>
+					<FRBRdate date="2005-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2005-05-31" name="“службени гласник рс" number="45" showAs="“Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="XIV САОБРАЋАЈ, ВЕЗЕ И ЕНЕРГЕТИКА" value="xiv саобраћај, везе и енергетика" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="7. Енергетика" value="7. енергетика" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2005-05-23" wId="usvajanje"/>
+				<step by="#TODO" date="2005-06-30" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2005-06-30" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу 30. јуна 2005. године (види члан 3. Закона).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О престанку  важења закона о електропривреди “Службени гласник РС”, број 45 од 31. маја 2005.</p>
+			</longTitle>
+		</preface>
+		<body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Даном  ступања на снагу овог закона престаје да важи Закон о електропривреди  ("<ref wId="ref0" href="akn/rs/act/91/45/srp@">Службени гласник РС", бр. 45/91, 53/93, 67/93, 48/94, 69/94</ref> и 44/95).</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<intro>
+						<p>Права,  обавезе, средства, запослене, документацију и предмете у вршењу јавних  овлашћења Јавног предузећа за производњу, пренос и дистрибуцију електричне  енергије и производњу угља "Електропривреда Србије" (у даљем тексту: ЈП ЕПС)  преузимају предузећа, на начин утврђен оснивачким актима тих предузећа, и  то:</p>
+					</intro>
+					<point wId="clan2-stav1-tac1">
+						<num>1)</num>
+						<content>
+							<p> Јавно  предузеће "Електропривреда Србије", основано Одлуком Владе Републике Србије  за обављање делатности производње електричне енергије, дистрибуције  електричне енергије и управљање дистрибутивним системом и делатности  трговине електричне енергије, 05 број 023-396/2005-1 од 27. јануара 2005.  године;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac2">
+						<num>2)</num>
+						<content>
+							<p> Јавно  предузеће "Електромрежа Србије", основано Одлуком Владе Републике Србије за  обављање делатности преноса електричне енергије и управљање преносним  системом, 05 број 023-397/2005-1 од 27. јануара 2005. године.</p>
+						</content>
+					</point>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>Даном  регистрације јавних предузећа из става <ref wId="ref1" href="akn/rs/act/2005/45-24/srp@/!main~art_2__para_1__point_1" >1</ref>. тач. 1) и <ref wId="ref2" href="akn/rs/act/2005/45-24/srp@/!main~art_2__para_1__point_2" >2</ref>) овог члана у регистар  привредних субјеката, брише се из регистра ЈП ЕПС.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Овај закон  ступа на снагу 30. јуна 2005. године.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav2">
+					<content>
+						<p>ЗАКОН</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav3">
+					<content>
+						<p>о престанку  важења Закона о електропривреди</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav4">
+					<content>
+						<p>“Службени  гласник РС”, број 45 од 31. маја 2005.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Даном  ступања на снагу овог закона престаје да важи Закон о електропривреди  ("Службени гласник РС", бр. 45/91, 53/93, 67/93, 48/94, 69/94 и 44/95).</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<intro>
+						<p>Права,  обавезе, средства, запослене, документацију и предмете у вршењу јавних  овлашћења Јавног предузећа за производњу, пренос и дистрибуцију електричне  енергије и производњу угља "Електропривреда Србије" (у даљем тексту: ЈП ЕПС)  преузимају предузећа, на начин утврђен оснивачким актима тих предузећа, и  то:</p>
+					</intro>
+					<point wId="clan2-stav1-tac1">
+						<num>1)</num>
+						<content>
+							<p> Јавно  предузеће "Електропривреда Србије", основано Одлуком Владе Републике Србије  за обављање делатности производње електричне енергије, дистрибуције  електричне енергије и управљање дистрибутивним системом и делатности  трговине електричне енергије, 05 број 023-396/2005-1 од 27. јануара 2005.  године;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac2">
+						<num>2)</num>
+						<content>
+							<p> Јавно  предузеће "Електромрежа Србије", основано Одлуком Владе Републике Србије за  обављање делатности преноса електричне енергије и управљање преносним  системом, 05 број 023-397/2005-1 од 27. јануара 2005. године.</p>
+						</content>
+					</point>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>Даном  регистрације јавних предузећа из става 1. тач. 1) и 2) овог члана у регистар  привредних субјеката, брише се из регистра ЈП ЕПС.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Овај закон  ступа на снагу 30. јуна 2005. године.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav2">
+					<content>
+						<p>ЗАКОН</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav3">
+					<content>
+						<p>о престанку  важења Закона о електропривреди</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav4">
+					<content>
+						<p>“Службени  гласник РС”, број 45 од 31. маја 2005.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Даном  ступања на снагу овог закона престаје да важи Закон о електропривреди  ("Службени гласник РС", бр. 45/91, 53/93, 67/93, 48/94, 69/94 и 44/95).</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<intro>
+						<p>Права,  обавезе, средства, запослене, документацију и предмете у вршењу јавних  овлашћења Јавног предузећа за производњу, пренос и дистрибуцију електричне  енергије и производњу угља "Електропривреда Србије" (у даљем тексту: ЈП ЕПС)  преузимају предузећа, на начин утврђен оснивачким актима тих предузећа, и  то:</p>
+					</intro>
+					<point wId="clan2-stav1-tac1">
+						<num>1)</num>
+						<content>
+							<p> Јавно  предузеће "Електропривреда Србије", основано Одлуком Владе Републике Србије  за обављање делатности производње електричне енергије, дистрибуције  електричне енергије и управљање дистрибутивним системом и делатности  трговине електричне енергије, 05 број 023-396/2005-1 од 27. јануара 2005.  године;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac2">
+						<num>2)</num>
+						<content>
+							<p> Јавно  предузеће "Електромрежа Србије", основано Одлуком Владе Републике Србије за  обављање делатности преноса електричне енергије и управљање преносним  системом, 05 број 023-397/2005-1 од 27. јануара 2005. године.</p>
+						</content>
+					</point>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>Даном  регистрације јавних предузећа из става 1. тач. 1) и 2) овог члана у регистар  привредних субјеката, брише се из регистра ЈП ЕПС.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Овај закон  ступа на снагу 30. јуна 2005. године.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav2">
+					<content>
+						<p>ЗАКОН</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav3">
+					<content>
+						<p>о престанку  важења Закона о електропривреди</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav4">
+					<content>
+						<p>“Службени  гласник РС”, број 45 од 31. маја 2005.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Даном  ступања на снагу овог закона престаје да важи Закон о електропривреди  ("Службени гласник РС", бр. 45/91, 53/93, 67/93, 48/94, 69/94 и 44/95).</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<intro>
+						<p>Права,  обавезе, средства, запослене, документацију и предмете у вршењу јавних  овлашћења Јавног предузећа за производњу, пренос и дистрибуцију електричне  енергије и производњу угља "Електропривреда Србије" (у даљем тексту: ЈП ЕПС)  преузимају предузећа, на начин утврђен оснивачким актима тих предузећа, и  то:</p>
+					</intro>
+					<point wId="clan2-stav1-tac1">
+						<num>1)</num>
+						<content>
+							<p> Јавно  предузеће "Електропривреда Србије", основано Одлуком Владе Републике Србије  за обављање делатности производње електричне енергије, дистрибуције  електричне енергије и управљање дистрибутивним системом и делатности  трговине електричне енергије, 05 број 023-396/2005-1 од 27. јануара 2005.  године;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac2">
+						<num>2)</num>
+						<content>
+							<p> Јавно  предузеће "Електромрежа Србије", основано Одлуком Владе Републике Србије за  обављање делатности преноса електричне енергије и управљање преносним  системом, 05 број 023-397/2005-1 од 27. јануара 2005. године.</p>
+						</content>
+					</point>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>Даном  регистрације јавних предузећа из става 1. тач. 1) и 2) овог члана у регистар  привредних субјеката, брише се из регистра ЈП ЕПС.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Овај закон  ступа на снагу 30. јуна 2005. године.</p>
+					</content>
+				</paragraph>
+			</article>
+		</body>
+	</act>
+</akomaNtoso>

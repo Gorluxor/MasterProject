@@ -1,0 +1,362 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о  оснивању учитељских факултета и о укидању и промени делатности педагошких  академија и виших школа">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/1993/49-2289/main"/>
+					<FRBRuri value="/rs/act/1993/49-2289"/>
+					<FRBRdate date="1993-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/1993/49-2289/srp@/main"/>
+					<FRBRuri value="/rs/act/1993/49-2289/srp@"/>
+					<FRBRdate date="1993-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/1993/49-2289/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/1993/49-2289/srp@.akn"/>
+					<FRBRdate date="1993-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="1993-07-01" name="службени гласник рс" number="49" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="XV ЈАВНЕ УСТАНОВЕ, НАУКА, ПРОСВЕТА, КУЛТУРА, ИНФОРМИСАЊЕ И СПОРТ" value="xv јавне установе, наука, просвета, култура, информисање и спорт" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="5. Високо образовање" value="5. високо образовање" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="#TODO" date="1993-07-01" wId="usvajanje"/>
+				<step by="#TODO" date="1993-07-09" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="1993-07-09" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 9. јула 1993. године (види члан 19. Закона).Одлуком о промени назива Учитељског факултета у Врању Универзитета у Нишу (Службени гласник РС, број 51/2015) промењен је назив Учитељског факултет у Врању Универзитета у Нишу, са седиштем у Врању, тако да сада гласи Педагошки факултет у Врању Универзитета у Нишу (види тачку 2. Одлуке - 51/2015-7).Одлуком о промени назива Учитељског факултета у Ужицу Универзитета у Крагујевцу (Службени гласник РС, број 92/2017) промењен је називУчитељског факултета у Ужицу Универзитета у Крагујевцу тако да сада гласи Педагошки факултет у Ужицу Универзитета у Крагујевцу (види тачку 2. Одлуке - 92/2017-44).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О  оснивању учитељских факултета и о укидању и промени делатности педагошких  академија и виших школа „Службени гласник РС”, број 49 од 1. јула 1993.</p>
+			</longTitle>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>УЧИТЕЉСКИ ФАКУЛТЕТИ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<paragraph wId="gla1-clan1-stav1">
+						<intro>
+							<p>За образовање учитеља са високом стручном спремом оснивају се учитељски факултети под називом:</p>
+						</intro>
+						<point wId="gla1-clan1-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> „Учитељски факултет у Београду, са потпуном одговорношћу”, са седиштем у Београду;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan1-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> „Учитељски факултет у Ужицу, са потпуном одговорношћу”, са седиштем у Ужицу;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan1-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> „Учитељски факултет у Јагодини, са потпуном одговорношћу”, са седиштем у Јагодини;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan1-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> „Учитељски факултет у Врању, са потпуном одговорношћу”, са седиштем у Врању;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan1-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> „Учитељски факултет у Сомбору, са потпуном одговорношћу”, са седиштем у Сомбору;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan1-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> „Учитељски факултет у Призрену, са потпуном одговорношћу”, са седиштем у Призрену.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Учитељски факултет у Београду у саставу је Универзитета у Београду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav2">
+						<content>
+							<p>Учитељски факултет у Ужицу у саставу је Универзитета у Крагујевцу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav3">
+						<content>
+							<p>Учитељски факултет у Јагодини у саставу је Универзитета у Крагујевцу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav4">
+						<content>
+							<p>Учитељски факултет у Врању у саставу је Универзитета у Нишу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav5">
+						<content>
+							<p>Учитељски факултет у Сомбору у саставу је Универзитета у Новом Саду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav6">
+						<content>
+							<p>Учитељски факултет у Призрену у саставу је Универзитета у Приштини.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<paragraph wId="gla1-clan3-stav1">
+						<content>
+							<p>Учитељски факултети обављају делатност основних студија и научни рад у циљу подизања квалитета наставе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav2">
+						<content>
+							<p>Учитељски факултети могу обављати облике студија за иновације знања и стручно образовање и усавршавање, као и друге делатности, односно послове, који су у функцији делатности из <ref wId="ref0" href="akn/rs/act/1993/49-2289/srp@/!main~art_3__para_1" >става 1. овог</ref> члана, у складу са законом и статутом факултета.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>На оснивање, организацију и рад учитељских факултета сходно се примењују прописи који се односе на јавне службе и факултете, ако овим законом није друкчије одређено.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan5">
+					<num>5.</num>
+					<paragraph wId="gla1-clan5-stav1">
+						<content>
+							<p>Учитељски факултети остварују наставни план и програм прве године основних студија од школске 1993/94. године.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan6">
+					<num>6.</num>
+					<paragraph wId="gla1-clan6-stav1">
+						<intro>
+							<p>Учитељски факултети преузимају имовину (средства, права и обавезе) коју користе педагошке академије, и то:</p>
+						</intro>
+						<point wId="gla1-clan6-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> Учитељски факултет у Београду – имовину Педагошке академије за образовање учитеља у Београду;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan6-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> Учитељски факултет у Ужицу – имовину Педагошке академије „Желимир Жељо Ђурић” у Ужицу;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan6-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> Учитељски факултет у Јагодини – имовину Педагошке академије у Јагодини;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan6-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> Учитељски факултет у Врању – имовину Педагошке академије „Иво Андрић” у Врању;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan6-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> Учитељски факултет у Сомбору – имовину Педагошке академије „Жарко Зрењанин” у Сомбору;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan6-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> Учитељски факултет у Призрену – имовину Педагошке академије „Ђевдет Дода” у Призрену.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla1-clan6-stav2">
+						<content>
+							<p>Завршне рачуне педагошких академија из <ref wId="ref1" href="akn/rs/act/1993/49-2289/srp@/!main~art_6__para_1" >става 1. овог</ref> члана донеће те академије, са стањем на дан 31. јула 1993. године.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan7">
+					<num>7.</num>
+					<paragraph wId="gla1-clan7-stav1">
+						<content>
+							<p>До конституисања савета учитељског факултета образује се привремени савет.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan7-stav2">
+						<content>
+							<p>Привремени савет има десет чланова које именује и разрешава Влада Републике Србије (у даљем тексту: Влада).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan8">
+					<num>8.</num>
+					<paragraph wId="gla1-clan8-stav1">
+						<intro>
+							<p>Привремени савет:</p>
+						</intro>
+						<point wId="gla1-clan8-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> донеће статут учитељског факултета до 31. јула 1993. године;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan8-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> донеће наставни план и програм основних студија, уз сагласност универзитета у чијем је саставу учитељски факултет;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan8-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> одлучује о пословању и коришћењу средстава учитељског факултета;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan8-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> именује чланове комисије за припрему извештаја за избор наставника и сарадника;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan8-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> врши избор наставника и сарадника;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan8-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> утврђује средње школе одговарајуће за упис на прву годину основних студија, садржај, начин и време полагања класификационог испита, као и мерила за утврђивање редоследа кандидата за упис у прву годину основних студија;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan8-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> објавиће конкурс за упис студената у прву годину основних студија за школску 1993/94. годину до 31. јула 1993. године;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan8-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> обавља друге послове из надлежности савета утврђене законом.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla1-clan8-stav2">
+						<content>
+							<p>Привремени савет престаје са радом даном конституисања савета учитељског факултета.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan9">
+					<num>9.</num>
+					<paragraph wId="gla1-clan9-stav1">
+						<content>
+							<p>До избора декана учитељског факултета, Влада именује лице са правима и обавезама декана утврђеним законом.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ПЕДАГОШКЕ АКАДЕМИЈЕ И ВИШЕ ПЕДАГОШКЕ ШКОЛЕ</heading>
+				<article wId="gla2-clan10">
+					<num>10.</num>
+					<paragraph wId="gla2-clan10-stav1">
+						<intro>
+							<p>Укидају се дана 31. јула 1993. године следеће педагошке академије и више педагошке школе:</p>
+						</intro>
+						<point wId="gla2-clan10-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> Педагошка академија за образовање учитеља, са седиштем у Београду;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan10-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> Педагошка академија, са седиштем у Јагодини;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan10-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> Педагошка академија „Жарко Зрењанин”, са седиштем у Сомбору;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan10-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> Педагошка академија „Желимир Жељо-Ђурић”, са седиштем у Ужицу;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan10-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> Педагошка академија „Иво Андрић”, са седиштем у Врању;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan10-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> Виша педагошка школа, са седиштем у Приштини;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan10-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> Виша педагошка школа „Ђевдет Дода”, са седиштем у Призрену;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan10-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> Виша педагошка школа, са седиштем у Ђаковици;</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan11">
+					<num>11.</num>
+					<paragraph wId="gla2-clan11-stav1">
+						<content>
+							<p>Престају са остваривањем наставних планова и програма за образовање учитеља дана 31. јула 1993. године:</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

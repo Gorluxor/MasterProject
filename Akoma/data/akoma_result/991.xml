@@ -1,0 +1,4292 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о потврђивању Уговора о гаранцији (Пројекат техничко-путничке станице (ТПС) Земун – фаза 2) између Републике Србије и Европске банке за обнову и развој">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2018/15-1/main"/>
+					<FRBRuri value="/rs/act/2018/15-1"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2018/15-1/srp@/main"/>
+					<FRBRuri value="/rs/act/2018/15-1/srp@"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2018/15-1/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2018/15-1/srp@.akn"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2018-12-10" name="службени гласник рс - међународни уговори" number="15" showAs="Службени гласник РС - Међународни уговори"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="V МОНЕТАРНА ПОЛИТИКА, ФИНАНСИЈСКЕ ОРГАНИЗАЦИЈЕ И ФИНАНСИЈСКО ПОСЛОВАЊЕ" value="v монетарна политика, финансијске организације и финансијско пословање" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="3. Задуживање у иностранству, донације и бесповратна помоћ" value="3. задуживање у иностранству, донације и бесповратна помоћ" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2018-12-07" wId="usvajanje"/>
+				<step by="#TODO" date="2018-12-18" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2018-12-18" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p/>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О потврђивању уговора о гаранцији (пројекат техничко-путничке станице (тпс) земун – фаза 2) између републике србије и европске банке за обнову и развој "Службени гласник РС - Међународни уговори", број 15 од 10. децембра 2018.</p>
+			</longTitle>
+			<p>Александар Вучић, с.р.</p>
+		</preface>
+		<preamble>
+			<p>На основу члана 112. став 1. тачка 2. Устава Републике Србије, доносим</p>
+			<p>УКАЗ</p>
+			<p>о проглашењу Закона о потврђивању Уговора о гаранцији (Пројекат техничко-путничке станице (ТПС) Земун – фаза 2) између Републике Србије и Европске банке за обнову и развој</p>
+			<p>Проглашава се Закон о потврђивању Уговора о гаранцији (Пројекат техничко-путничке станице (ТПС) Земун – фаза 2) између Републике Србије и Европске банке за обнову и развој, који је донела Народна скупштина Републике Србије, на Четвртој седници Другог редовног заседања, 7. децембра 2018. године.</p>
+			<p>ПР број 187</p>
+			<p>У Београду, 8. децембра 2018. године</p>
+			<p>Председник Републике,</p>
+		</preamble>
+		<body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Потврђује се Уговор о гаранцији (Пројекат техничко-путничке станице (ТПС) Земун – фаза 2) између Републике Србије и Европске банке за обнову и развој, потписан у Београду 9. октобра 2018. године, у оригиналу на енглеском језику.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Текст Уговора о гаранцији (Пројекат техничко-путничке станице (ТПС) Земун – фаза 2) између Републике Србије и Европске банке за обнову и развој, у оригиналу на енглеском и преводу на српски језик гласи:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>(Operation Number 50043)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav3">
+					<content>
+						<p>GUARANTEE AGREEMENT</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav4">
+					<content>
+						<p>(TECHNICAL PASSENGER STATION (TPS) ZEMUN PROJECT – PHASE 2)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav5">
+					<content>
+						<p>between</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav6">
+					<content>
+						<p>REPUBLIC OF SERBIA</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav7">
+					<content>
+						<p>and</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav8">
+					<content>
+						<p>EUROPEAN BANKFOR RECONSTRUCTION AND DEVELOPMENT</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav9">
+					<content>
+						<p>Dated 9 October, 2018</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav10">
+					<content>
+						<p>TABLE OF CONTENTS</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav11">
+					<content>
+						<p>ARTICLE I – STANDARD TERMS AND CONDITIONS; DEFINITIONS4</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav12">
+					<content>
+						<p>Section 1.01. Incorporation of Standard Terms and Conditions4</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav13">
+					<content>
+						<p>Section 1.02. Definitions4</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav14">
+					<content>
+						<p>Section 1.03. Interpretation5</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav15">
+					<content>
+						<p>ARTICLE II – GUARANTEE; OTHER OBLIGATIONS5</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav16">
+					<content>
+						<p>Section 2.01. Guarantee5</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav17">
+					<content>
+						<p>Section 2.02. Project Completion5</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav18">
+					<content>
+						<p>Section 2.03. Other Obligations5</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav19">
+					<content>
+						<p>Section 2.04. Effectiveness of the Guarantee6</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav20">
+					<content>
+						<p>ARTICLE III – MISCELLANEOUS6</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav21">
+					<content>
+						<p>Section 3.01. Notices6</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav22">
+					<content>
+						<p>Section 3.02. Legal Opinion6</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav23">
+					<content>
+						<p>GUARANTEE AGREEMENT</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav24">
+					<content>
+						<p>AGREEMENT dated 9 October, 2018 between REPUBLIC OF SERBIA (the „Guarantor”) and EUROPEAN BANK FOR RECONSTRUCTION AND DEVELOPMENT (the „Bank”).</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav25">
+					<content>
+						<p>PREAMBLE</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav26">
+					<content>
+						<p>WHEREAS, the Guarantor and Akcionarsko društvo za železnički prevoz putnika “Srbija Voz”, Beograd have requested assistance from the Bank in the financing of part of Phase 2 of the refurbishing and upgrading the railway technical passenger station in Zemun, Belgrade (the “Project”);</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav27">
+					<content>
+						<p>WHEREAS, pursuant to a loan agreement dated the date hereof between Akcionarsko društvo za železnički prevoz putnika “Srbija Voz”, Beograd as Borrower and the Bank (the “Loan Agreement” as defined in the Standard Terms and Conditions), the Bank has agreed to make a loan to the Borrower in the amount of EUR 22,000,000 (twenty two million euros), subject to the terms and conditions set forth or referred to in the Loan Agreement, but only on the condition that the Guarantor guarantees the obligations of the Borrower under the Loan Agreement as provided in this Agreement; and</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav28">
+					<content>
+						<p>WHEREAS, the Guarantor, in consideration of the Bank entering into the Loan Agreement with the Borrower, has agreed to guarantee such obligations of the Borrower.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav29">
+					<content>
+						<p>NOW, THEREFORE, the parties hereby agree as follows:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav30">
+					<content>
+						<p>ARTICLE I - STANDARD TERMS AND CONDITIONS; DEFINITIONS</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav31">
+					<content>
+						<p>Section 1.01. Incorporation of Standard Terms and Conditions</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav32">
+					<content>
+						<p>All of the provisions of the Bank’s Standard Terms and Conditions dated 1 December 2012 are hereby incorporated into and made applicable to this Agreement with the same force and effect as if they were fully set forth herein, subject, however, to the modifications set out in the Loan Agreement.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav33">
+					<content>
+						<p>Section 1.02. Definitions</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav34">
+					<content>
+						<p>Wherever used in this Agreement (including the Preamble), unless stated otherwise or the context otherwise requires, the terms defined in the Preamble have the respective meanings given to them therein, the terms defined in the Standard Terms and Conditions and the Loan Agreement have the respective meanings given to them therein and the following term has the following meaning:</p>
+					</content>
+				</paragraph>
+				<paragraph class="special" wId="clan2-stav35">
+					<content>
+						<table>
+							
+
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>„Guarantor's Authorised Representative”</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>means the Minister of Finance of the Guarantor.</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>„PSO” or „Public Service Obligation”</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>means the obligation imposed by the relevant Governmental Authority on the Borrower whereby the Borrower is compensated on a periodic basis for financial losses it incurs in operating services and facilities required by the Governmental Authority, which it would not otherwise operate.</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>„PSO Compensation”</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>means compensation paid by the relevant Governmental Authority to the Borrower for implementation of the PSO.</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>„State Ownership Policy”</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>means a framework document which sets out, inter alia, the rationale(s) for state ownership, public policy objectives under which one or more companies in state ownership are required to operate, the principles behind the Guarantor’s role in the governance of those companies, and its expectations from the companies and their directors.</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+
+						</table>
+						
+
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav36">
+					<content>
+						<p>Section 1.03. Interpretation</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav37">
+					<content>
+						<p>In this Agreement, a reference to a specified Article or Section shall, except where stated otherwise in this Agreement, be construed as a reference to that specified Article or Section of this Agreement.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav38">
+					<content>
+						<p>ARTICLE II – GUARANTEE; OTHER OBLIGATIONS</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav39">
+					<content>
+						<p>Section 2.01. Guarantee</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav40">
+					<content>
+						<p>The Guarantor hereby unconditionally guarantees, as primary obligor and not as surety merely, the due and punctual payment of any and all sums due under the Loan Agreement, whether at stated maturity, by acceleration or otherwise, and the punctual performance of all other obligations of the Borrower, all as set forth in the Loan Agreement.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav41">
+					<content>
+						<p>Section 2.02. Project Completion</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav42">
+					<content>
+						<p>Whenever there is reasonable cause to believe that the funds available to the Borrower will be inadequate to meet the estimated expenditures required for the carrying out of the Project, the Guarantor shall promptly take measures satisfactory to the Bank to provide the Borrower, or cause the Borrower to be provided, with such funds as are needed to meet such expenditures and requirements.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav43">
+					<content>
+						<p>Section 2.03. Other Obligations</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav44">
+					<content>
+						<p>Unless the Bank otherwise agrees, the Guarantor shall:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav45">
+					<content>
+						<p>(a) support timely implementation of the Corporate Governance Action Plan;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav46">
+					<content>
+						<p>(b) develop a State Ownership Policy relevant for state owned enterprises in the railway sector, as described in the Corporate Governance Action Plan;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav47">
+					<content>
+						<p>(c) ensure state budget allocations for timely coverage of debt service obligations;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav48">
+					<content>
+						<p>(d) ensure prompt approvals on an annual basis for the PSO Compensation in accordance with the approved methodology and with the existing Public Services Obligation contract; and</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav49">
+					<content>
+						<p>(e) cause the Borrower to perform all of its obligations under the Loan Agreement.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav50">
+					<content>
+						<p>Section 2.04. Effectiveness of the Guarantee</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav51">
+					<content>
+						<p>This Agreement shall become effective in accordance with Article IX of the Standard Terms and Conditions and upon the corresponding ratification of this Agreement by the National Assembly of the Republic of Serbia.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav52">
+					<content>
+						<p>ARTICLE III – MISCELLANEOUS</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav53">
+					<content>
+						<p>Section 3.01. Notices</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav54">
+					<content>
+						<p>The following addresses are specified for purposes of Section 10.01 of the Standard Terms and Conditions:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav55">
+					<content>
+						<p>For the Guarantor:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav56">
+					<content>
+						<p>Ministry of Finance of the Republic of Serbia</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav57">
+					<content>
+						<p>Kneza Milosa 20</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav58">
+					<content>
+						<p>11000 Belgrade</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav59">
+					<content>
+						<p>Serbia</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav60">
+					<content>
+						<p>Attention: Minister of Finance</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav61">
+					<content>
+						<p>Fax + 381 11 361 8961</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav62">
+					<content>
+						<p>For the Bank:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav63">
+					<content>
+						<p>European Bank for Reconstruction and Development</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav64">
+					<content>
+						<p>One Exchange Square</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav65">
+					<content>
+						<p>London EC2A 2JN</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav66">
+					<content>
+						<p>United Kingdom</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav67">
+					<content>
+						<p>Attention: Operation Administration Department</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav68">
+					<content>
+						<p>Fax: +44-20-7338-6100</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav69">
+					<content>
+						<p>Section 3.02. Legal Opinion</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav70">
+					<content>
+						<p>For purposes of Section 9.03(b) of the Standard Terms and Conditions and in accordance with Section 6.02(b) of the Loan Agreement, the opinion or opinions of counsel shall be given on behalf of the Guarantor by the Minister of Justice.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav71">
+					<content>
+						<p>IN WITNESS WHEREOF the parties hereto, acting through their duly authorised representatives, have caused this Agreement to be signed in six copies in the English language and delivered at Belgrade as of the day and year first above written.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav72">
+					<content>
+						<p>REPUBLIC OF SERBIA</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav73">
+					<content>
+						<p>By: ______________________________</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav74">
+					<content>
+						<p>Name: Siniša Mali</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav75">
+					<content>
+						<p>Title: Minister of Finance</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav76">
+					<content>
+						<p>EUROPEAN BANK</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav77">
+					<content>
+						<p>FOR RECONSTRUCTION AND DEVELOPMENT</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav78">
+					<content>
+						<p>By: ______________________________</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav79">
+					<content>
+						<p>Name: Sue Barrett</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav80">
+					<content>
+						<p>Title: Director, Head of Transport</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav81">
+					<content>
+						<p>(Оперативни брoj 50043)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav82">
+					<content>
+						<p>УГOВOР O ГAРAНЦИJИ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav83">
+					<content>
+						<p>(Пројекат техничко-путничке станице (ТПС) Земун – фаза 2)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav84">
+					<content>
+						<p>измeђу</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav85">
+					<content>
+						<p>РEПУБЛИКE СРБИJE</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav86">
+					<content>
+						<p>и</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav87">
+					<content>
+						<p>EВРOПСКE БAНКE ЗA OБНOВУ И РAЗВOJ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav88">
+					<content>
+						<p>Дaтум 9. октобар 2018. године</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav89">
+					<content>
+						<p>СAДРЖAJ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav90">
+					<content>
+						<p>ЧЛAН I – СTAНДAРДНИ УСЛOВИ; ДEФИНИЦИJE10</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav91">
+					<content>
+						<p>Oдeљaк 1.01. Укључивaњe Стaндaрдних услoвa пословања10</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav92">
+					<content>
+						<p>Oдeљaк 1.02. Дeфинциje10</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav93">
+					<content>
+						<p>Oдeљaк 1.03. Tумaчeњe11</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav94">
+					<content>
+						<p>ЧЛAН II – ГAРAНЦИJA; ДРУГE OБAВEЗE11</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav95">
+					<content>
+						<p>Oдeљaк 2.01. Гaрaнциja11</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav96">
+					<content>
+						<p>Oдeљaк 2.02. Зaвршeтaк Прojeктa3</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav97">
+					<content>
+						<p>Oдeљaк 2.03. Другe oбaвeзe11</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav98">
+					<content>
+						<p>Oдeљaк 2.04. Ступaњe нa снaгу Гaрaнциje11</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav99">
+					<content>
+						<p>ЧЛAН III – РAЗНO4</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav100">
+					<content>
+						<p>Oдeљaк 3.01. Oбaвeштeњa4</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav101">
+					<content>
+						<p>Oдeљaк 3.02. Прaвнo мишљeњe12</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav102">
+					<content>
+						<p>УГOВOР O ГAРAНЦИJИ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav103">
+					<content>
+						<p>УГOВOР oд 9. октобра 2018. године, измeђу РEПУБЛИКE СРБИJE (у даљем тексту: Гaрaнт) и EВРOПСКE БAНКE ЗA OБНOВУ И РAЗВOJ (у даљем тексту: Бaнкa).</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav104">
+					<content>
+						<p>ПРEAMБУЛA</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav105">
+					<content>
+						<p>С OБЗИРOM НA ТО ДА су Гaрaнт и Акционарско друштво за железнички превоз путника „Србија Воз”, Бeoгрaд, зaтрaжили пoмoћ oд Бaнкe зa финaнсирaњe дeлa фазе 2 реновирања и надоградње железничке техничко-путничке станице у Земуну, Београд (у даљем тексту: Пројекат);</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav106">
+					<content>
+						<p>С OБЗИРOM НA ТО ДА je у складу са Угoвoром o зajму, сa дaтумoм oвoг угoвoрa, измeђу Акционарског друштва за железнички превоз путника „Србија Воз”, Бeoгрaд, кao Зajмoпримцa и Бaнкe („Угoвoр o зajму” кaкo je дeфинисaн у Стaндaрдним услoвимa пословања), Бaнкa се сaглaсила дa oдoбри зajaм Зajмoпримцу у изнoсу oд 22.000.000 EУР (двадесет два милиона евра) сагласно услoвимa утврђeним, или на које се позива, у Угoвoру o зajму, али сaмo пoд услoвoм дa Гaрaнт гaрaнтуje за oбaвeзe Зajмoпримцa пo oснoву Угoвoрa o зajму, нa нaчин прeдвиђeн oвим угoвoрoм, и</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav107">
+					<content>
+						<p>С OБЗИРOM НA ТО ДА сe Гaрaнт, узимајући у обзир да је Банка зaкључила Угoвoр o зajму сa Зajмoпримцeм, сaглaсиo дa гaрaнтуje за тe oбaвeзe Зajмoпримцa,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav108">
+					<content>
+						<p>НA OСНOВУ СВEГA НAВEДEНOГ, угoвoрнe стрaнe су сaглaснe сa слeдeћим:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav109">
+					<content>
+						<p>ЧЛAН I – СTAНДAРДНИ УСЛOВИ; ДEФИНИЦИJE</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav110">
+					<content>
+						<p>Oдeљaк 1.01. Укључивaњe Стaндaрдних услoвa пословања</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav111">
+					<content>
+						<p>Свe oдрeдбe Стaндaрдних услoвa пословања Бaнкe oд 1. дeцeмбрa 2012. гoдинe се овим укључују у oвaj угoвoр и вaжe зa oвaj угoвoр сa истoм снaгoм и дejствoм кao дa су у потпуности наведене у овом уговору, с тим дa пoдлeжу измeнaмa наведеним у Уговору о зајму.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav112">
+					<content>
+						<p>Oдeљaк 1.02. Дeфинициje</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav113">
+					<content>
+						<p>Где год се кoристe у oвoм угoвoру (укључуjући Прeaмбулу), укoликo ниje другaчиje нaвeдeнo или укoликo кoнтeкст другaчиje нe налаже, изрази дeфинисaни у Прeaмбули имajу oдгoвaрajућa знaчeњa кoja су им дaтa у њој, изрази дeфинисaни у Стaндaрдним услoвимa пословања и у Угoвoру o зajму имajу oдгoвaрajућa знaчeњa кoja су им у њимa дaтa, a слeдeћи изрази имajу слeдeћa знaчeњa:</p>
+					</content>
+				</paragraph>
+				<paragraph class="special" wId="clan2-stav114">
+					<content>
+						<table>
+							
+
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>„Oвлaшћeни прeдстaвник Гaрaнтa”</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>знaчи министар финaнсиja Гaрaнтa.</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>„ОЈП” или „Обавеза јавног превоза”</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>значи обавезу према Зајмопримцу од стране надлежног органа Владе, при чему се Зајмопримцу периодично надокнађују финансијски губици настали у текућем пословању и употреби средстава, које захтева надлежни орган Владе, које иначе Зајмопримац не би обављао.</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>„ОЈП надокнаде”</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>значи надокнаду коју плаћа надлежни орган Владе Зајмопримцу за спровођење ОЈП.</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>„Политика државног власништва”</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>значи оквирни документ који дефинише, између осталог, разлог(е) за државно власништво, циљеве јавне политике на основу којих је потребно да једно или више предузећа у државном власништву послује, принципи иза улоге Гаранта у управљању тим предузећима, и његова очекивања од предузећа и њихових директора.</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+
+						</table>
+						
+
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav115">
+					<content>
+						<p>Oдeљaк 1.03. Tумaчeњe</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav116">
+					<content>
+						<p>У oвoм угoвoру, пoзивaњe нa нeки кoнкрeтaн члaн или oдeљaк ћe сe тумaчити, укoликo ниje другaчиje нaвeдeнo у oвoм угoвoру, кao пoзивaњe нa тaj кoнкрeтaн члaн или oдeљaк oвoг угoвoрa.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav117">
+					<content>
+						<p>ЧЛAН II – ГAРAНЦИJA; ДРУГE OБAВEЗE</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav118">
+					<content>
+						<p>Oдeљaк 2.01. Гaрaнциja</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav119">
+					<content>
+						<p>Гaрaнт oвим бeзуслoвнo гaрaнтуje, кao примарни дужник a нe сaмo кao Гарант, прописно и правовремено плaћaњe билo кoг појединачног и свих износа кojи дoспeвajу пo Угoвoру o зajму, билo по наведеном доспећу, услед убрзавања или нa неки други нaчин, кao и урeднo извршeњe свих других oбaвeзa Зajмoпримцa, а све у складу са Угoвoром o зajму.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav120">
+					<content>
+						<p>Oдeљaк 2.02. Зaвршeтaк Прojeктa</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav121">
+					<content>
+						<p>Када постоји оправдан разлог да се верује да ће средства расположива Зајмопримцу бити недовољна да покрију процењене расходе потребне за спровођење Пројекта, Гарант ће одмах предузети мере, задовољавајуће за Банку, да обезбеди Зајмопримцу, или ће се постарати дa Зajмoпримцу буду oбeзбeђeнa oнa срeдствa кoja су му пoтрeбнa зa пoкрићe тих рaсхoдa и пoтрeбa.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav122">
+					<content>
+						<p>Oдeљaк 2.03. Другe oбaвeзe</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav123">
+					<content>
+						<p>Осим ако се Банка другачије не сложи, Гарант ће:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav124">
+					<content>
+						<p>(a) подржати правовремену имплементацију Акционог плана корпоративног управљања;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav125">
+					<content>
+						<p>(б) развијати политику државног власништва од значаја за државна предузећа у железничком сектору, као што је описано у Акционом плану корпоративног управљања;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav126">
+					<content>
+						<p>(ц) обезбедити алокацију у државном буџету за благовремено покриће обавеза сервисирања дуга;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav127">
+					<content>
+						<p>(д) обезбедити одмах сагласности на годишњем нивоу за надокнаду за ОЈП у складу са одобреном методологијом и са постојећим Уговором о обавези јавног превоза; и</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav128">
+					<content>
+						<p>(е) постарати се да Зајмопримац извршава све своје обавезе у складу са Уговором о зајму.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav129">
+					<content>
+						<p>Oдeљaк 2.04. Ступaњe нa снaгу Гaрaнциje</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav130">
+					<content>
+						<p>Oвaj угoвoр ступa нa снaгу у склaду сa члaнoм IX Стaндaрдних услoвa пословања и нaкoн одговарајућег потврђивања овог уговора од стране Нaрoдне скупштине Рeпубликe Србиje.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav131">
+					<content>
+						<p>ЧЛAН III – РAЗНO</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav132">
+					<content>
+						<p>Oдeљaк 3.01. Oбaвeштeњa</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav133">
+					<content>
+						<p>Слeдeћe aдрeсe су наведене зa сврхe Oдeљкa 10.01. Стaндaрдних услoвa пословања:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav134">
+					<content>
+						<p>Зa Гaрaнтa</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav135">
+					<content>
+						<p>Mинистaрство финaнсиja Рeпубликe Србиje</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav136">
+					<content>
+						<p>Кнeзa Mилoшa 20</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav137">
+					<content>
+						<p>11000 Бeoгрaд</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav138">
+					<content>
+						<p>Рeпубликa Србиja</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav139">
+					<content>
+						<p>Нa рукe: министру финaнсиja</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav140">
+					<content>
+						<p>Фaкс: + 381 11 3618 961</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav141">
+					<content>
+						<p>Зa Бaнку:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav142">
+					<content>
+						<p>Европска банка за обнову и развој</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav143">
+					<content>
+						<p>One Exchange Square</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav144">
+					<content>
+						<p>Лондон EC2A 2JN</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav145">
+					<content>
+						<p>Велика Британија</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav146">
+					<content>
+						<p>На руке: Сектор за административне послове</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav147">
+					<content>
+						<p>Фaкс: +44-20-7338-6100</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav148">
+					<content>
+						<p>Oдeљaк 3.02. Прaвнo мишљeњe</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav149">
+					<content>
+						<p>Зa сврхe Oдeљкa 9.03(б) Стaндaрдних услoвa пословања и у склaду сa Oдeљкoм 6.02(б) Угoвoрa o зajму, мишљeњe или мишљeњa прaвнoг сaвeтникa дaћe у имe Гaрaнтa министaр прaвдe.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav150">
+					<content>
+						<p>КAO ДOКAЗ НAПРEД НAВEДEНOГ, угoвoрнe стрaнe су, пoступajући прeкo свojих урeднo oвлaшћeних прeдстaвникa, потписале oвaj угoвoр у шeст примeракa на енглеском језику и закључиле га у Бeoгрaду, Рeпубликa Србиja, горе наведеног датума и године.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav151">
+					<content>
+						<p>РEПУБЛИКA СРБИJA</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav152">
+					<content>
+						<p>Пoтписуje:______________________________</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav153">
+					<content>
+						<p>Имe: Синиша Мали, с.р.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav154">
+					<content>
+						<p>Функциja: министар финансија</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav155">
+					<content>
+						<p>EВРOПСКA БAНКA</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav156">
+					<content>
+						<p>ЗA OБНOВУ И РAЗВOJ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav157">
+					<content>
+						<p>Пoтписуje:______________________________</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav158">
+					<content>
+						<p>Имe: Sue Barrett, с.р.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<heading>Функциja: директор за транспорт</heading>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије – Међународни уговори”.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav2">
+					<content>
+						<p>На основу члана 11<ref wId="ref0" href="akn/rs/act/2018/15-1/srp@/!main~art_112__para_1__point_2" >2</ref>. став 1. тачка 2. Устава Републике Србије, доносим</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav3">
+					<content>
+						<p>УКАЗ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav4">
+					<content>
+						<p>о проглашењу Закона о потврђивању Уговора о гаранцији (Пројекат техничко-путничке станице (ТПС) Земун – фаза 2) између Републике Србије и Европске банке за обнову и развој</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav5">
+					<content>
+						<p>Проглашава се Закон о потврђивању Уговора о гаранцији (Пројекат техничко-путничке станице (ТПС) Земун – фаза 2) између Републике Србије и Европске банке за обнову и развој, који је донела Народна скупштина Републике Србије, на Четвртој седници Другог редовног заседања, 7. децембра 2018. године.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav6">
+					<content>
+						<p>ПР број 187</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav7">
+					<content>
+						<p>У Београду, 8. децембра 2018. године</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav8">
+					<content>
+						<p>Председник Републике,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav9">
+					<content>
+						<p>Александар Вучић, с.р.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav10">
+					<content>
+						<p>ЗАКОН</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav11">
+					<content>
+						<p>о потврђивању Уговора о гаранцији (Пројекат техничко-путничке станице (ТПС) Земун – фаза 2) између Републике Србије и Европске банке за обнову и развој</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav12">
+					<content>
+						<p>"Службени гласник РС - Међународни уговори", број  15 од 10. децембра 2018.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Потврђује се Уговор о гаранцији (Пројекат техничко-путничке станице (ТПС) Земун – фаза 2) између Републике Србије и Европске банке за обнову и развој, потписан у Београду 9. октобра 2018. године, у оригиналу на енглеском језику.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Текст Уговора о гаранцији (Пројекат техничко-путничке станице (ТПС) Земун – фаза 2) између Републике Србије и Европске банке за обнову и развој, у оригиналу на енглеском и преводу на српски језик гласи:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>(Operation Number 50043)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav3">
+					<content>
+						<p>GUARANTEE AGREEMENT</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav4">
+					<content>
+						<p>(TECHNICAL PASSENGER STATION (TPS) ZEMUN PROJECT – PHASE 2)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav5">
+					<content>
+						<p>between</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav6">
+					<content>
+						<p>REPUBLIC OF SERBIA</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav7">
+					<content>
+						<p>and</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav8">
+					<content>
+						<p>EUROPEAN BANKFOR RECONSTRUCTION AND DEVELOPMENT</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav9">
+					<content>
+						<p>Dated 9 October, 2018</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav10">
+					<content>
+						<p>TABLE OF CONTENTS</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav11">
+					<content>
+						<p>ARTICLE I – STANDARD TERMS AND CONDITIONS; DEFINITIONS4</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav12">
+					<content>
+						<p>Section 1.01. Incorporation of Standard Terms and Conditions4</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav13">
+					<content>
+						<p>Section 1.02. Definitions4</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav14">
+					<content>
+						<p>Section 1.03. Interpretation5</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav15">
+					<content>
+						<p>ARTICLE II – GUARANTEE; OTHER OBLIGATIONS5</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav16">
+					<content>
+						<p>Section 2.01. Guarantee5</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav17">
+					<content>
+						<p>Section 2.02. Project Completion5</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav18">
+					<content>
+						<p>Section 2.03. Other Obligations5</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav19">
+					<content>
+						<p>Section 2.04. Effectiveness of the Guarantee6</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav20">
+					<content>
+						<p>ARTICLE III – MISCELLANEOUS6</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav21">
+					<content>
+						<p>Section 3.01. Notices6</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav22">
+					<content>
+						<p>Section 3.02. Legal Opinion6</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav23">
+					<content>
+						<p>GUARANTEE AGREEMENT</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav24">
+					<content>
+						<p>AGREEMENT dated 9 October, 2018 between REPUBLIC OF SERBIA (the „Guarantor”) and EUROPEAN BANK FOR RECONSTRUCTION AND DEVELOPMENT (the „Bank”).</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav25">
+					<content>
+						<p>PREAMBLE</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav26">
+					<content>
+						<p>WHEREAS, the Guarantor and Akcionarsko društvo za železnički prevoz putnika “Srbija Voz”, Beograd have requested assistance from the Bank in the financing of part of Phase 2 of the refurbishing and upgrading the railway technical passenger station in Zemun, Belgrade (the “Project”);</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav27">
+					<content>
+						<p>WHEREAS, pursuant to a loan agreement dated the date hereof between Akcionarsko društvo za železnički prevoz putnika “Srbija Voz”, Beograd as Borrower and the Bank (the “Loan Agreement” as defined in the Standard Terms and Conditions), the Bank has agreed to make a loan to the Borrower in the amount of EUR 22,000,000 (twenty two million euros), subject to the terms and conditions set forth or referred to in the Loan Agreement, but only on the condition that the Guarantor guarantees the obligations of the Borrower under the Loan Agreement as provided in this Agreement; and</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav28">
+					<content>
+						<p>WHEREAS, the Guarantor, in consideration of the Bank entering into the Loan Agreement with the Borrower, has agreed to guarantee such obligations of the Borrower.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav29">
+					<content>
+						<p>NOW, THEREFORE, the parties hereby agree as follows:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav30">
+					<content>
+						<p>ARTICLE I - STANDARD TERMS AND CONDITIONS; DEFINITIONS</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav31">
+					<content>
+						<p>Section 1.01. Incorporation of Standard Terms and Conditions</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav32">
+					<content>
+						<p>All of the provisions of the Bank’s Standard Terms and Conditions dated 1 December 2012 are hereby incorporated into and made applicable to this Agreement with the same force and effect as if they were fully set forth herein, subject, however, to the modifications set out in the Loan Agreement.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav33">
+					<content>
+						<p>Section 1.02. Definitions</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav34">
+					<content>
+						<p>Wherever used in this Agreement (including the Preamble), unless stated otherwise or the context otherwise requires, the terms defined in the Preamble have the respective meanings given to them therein, the terms defined in the Standard Terms and Conditions and the Loan Agreement have the respective meanings given to them therein and the following term has the following meaning:</p>
+					</content>
+				</paragraph>
+				<paragraph class="special" wId="clan2-stav35">
+					<content>
+						<table>
+							
+
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>„Guarantor's Authorised Representative”</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>means the Minister of Finance of the Guarantor.</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>„PSO” or „Public Service Obligation”</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>means the obligation imposed by the relevant Governmental Authority on the Borrower whereby the Borrower is compensated on a periodic basis for financial losses it incurs in operating services and facilities required by the Governmental Authority, which it would not otherwise operate.</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>„PSO Compensation”</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>means compensation paid by the relevant Governmental Authority to the Borrower for implementation of the PSO.</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>„State Ownership Policy”</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>means a framework document which sets out, inter alia, the rationale(s) for state ownership, public policy objectives under which one or more companies in state ownership are required to operate, the principles behind the Guarantor’s role in the governance of those companies, and its expectations from the companies and their directors.</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+
+						</table>
+						
+
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav36">
+					<content>
+						<p>Section 1.03. Interpretation</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav37">
+					<content>
+						<p>In this Agreement, a reference to a specified Article or Section shall, except where stated otherwise in this Agreement, be construed as a reference to that specified Article or Section of this Agreement.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav38">
+					<content>
+						<p>ARTICLE II – GUARANTEE; OTHER OBLIGATIONS</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav39">
+					<content>
+						<p>Section 2.01. Guarantee</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav40">
+					<content>
+						<p>The Guarantor hereby unconditionally guarantees, as primary obligor and not as surety merely, the due and punctual payment of any and all sums due under the Loan Agreement, whether at stated maturity, by acceleration or otherwise, and the punctual performance of all other obligations of the Borrower, all as set forth in the Loan Agreement.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav41">
+					<content>
+						<p>Section 2.02. Project Completion</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav42">
+					<content>
+						<p>Whenever there is reasonable cause to believe that the funds available to the Borrower will be inadequate to meet the estimated expenditures required for the carrying out of the Project, the Guarantor shall promptly take measures satisfactory to the Bank to provide the Borrower, or cause the Borrower to be provided, with such funds as are needed to meet such expenditures and requirements.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav43">
+					<content>
+						<p>Section 2.03. Other Obligations</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav44">
+					<content>
+						<p>Unless the Bank otherwise agrees, the Guarantor shall:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav45">
+					<content>
+						<p>(a) support timely implementation of the Corporate Governance Action Plan;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav46">
+					<content>
+						<p>(b) develop a State Ownership Policy relevant for state owned enterprises in the railway sector, as described in the Corporate Governance Action Plan;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav47">
+					<content>
+						<p>(c) ensure state budget allocations for timely coverage of debt service obligations;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav48">
+					<content>
+						<p>(d) ensure prompt approvals on an annual basis for the PSO Compensation in accordance with the approved methodology and with the existing Public Services Obligation contract; and</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav49">
+					<content>
+						<p>(e) cause the Borrower to perform all of its obligations under the Loan Agreement.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav50">
+					<content>
+						<p>Section 2.04. Effectiveness of the Guarantee</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav51">
+					<content>
+						<p>This Agreement shall become effective in accordance with Article IX of the Standard Terms and Conditions and upon the corresponding ratification of this Agreement by the National Assembly of the Republic of Serbia.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav52">
+					<content>
+						<p>ARTICLE III – MISCELLANEOUS</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav53">
+					<content>
+						<p>Section 3.01. Notices</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav54">
+					<content>
+						<p>The following addresses are specified for purposes of Section 10.01 of the Standard Terms and Conditions:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav55">
+					<content>
+						<p>For the Guarantor:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav56">
+					<content>
+						<p>Ministry of Finance of the Republic of Serbia</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav57">
+					<content>
+						<p>Kneza Milosa 20</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav58">
+					<content>
+						<p>11000 Belgrade</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav59">
+					<content>
+						<p>Serbia</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav60">
+					<content>
+						<p>Attention: Minister of Finance</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav61">
+					<content>
+						<p>Fax + 381 11 361 8961</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav62">
+					<content>
+						<p>For the Bank:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav63">
+					<content>
+						<p>European Bank for Reconstruction and Development</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav64">
+					<content>
+						<p>One Exchange Square</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav65">
+					<content>
+						<p>London EC2A 2JN</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav66">
+					<content>
+						<p>United Kingdom</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav67">
+					<content>
+						<p>Attention: Operation Administration Department</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav68">
+					<content>
+						<p>Fax: +44-20-7338-6100</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav69">
+					<content>
+						<p>Section 3.02. Legal Opinion</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav70">
+					<content>
+						<p>For purposes of Section 9.03(b) of the Standard Terms and Conditions and in accordance with Section 6.02(b) of the Loan Agreement, the opinion or opinions of counsel shall be given on behalf of the Guarantor by the Minister of Justice.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav71">
+					<content>
+						<p>IN WITNESS WHEREOF the parties hereto, acting through their duly authorised representatives, have caused this Agreement to be signed in six copies in the English language and delivered at Belgrade as of the day and year first above written.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav72">
+					<content>
+						<p>REPUBLIC OF SERBIA</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav73">
+					<content>
+						<p>By: ______________________________</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav74">
+					<content>
+						<p>Name: Siniša Mali</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav75">
+					<content>
+						<p>Title: Minister of Finance</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav76">
+					<content>
+						<p>EUROPEAN BANK</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav77">
+					<content>
+						<p>FOR RECONSTRUCTION AND DEVELOPMENT</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav78">
+					<content>
+						<p>By: ______________________________</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav79">
+					<content>
+						<p>Name: Sue Barrett</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav80">
+					<content>
+						<p>Title: Director, Head of Transport</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav81">
+					<content>
+						<p>(Оперативни брoj 50043)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav82">
+					<content>
+						<p>УГOВOР O ГAРAНЦИJИ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav83">
+					<content>
+						<p>(Пројекат техничко-путничке станице (ТПС) Земун – фаза 2)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav84">
+					<content>
+						<p>измeђу</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav85">
+					<content>
+						<p>РEПУБЛИКE СРБИJE</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav86">
+					<content>
+						<p>и</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav87">
+					<content>
+						<p>EВРOПСКE БAНКE ЗA OБНOВУ И РAЗВOJ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav88">
+					<content>
+						<p>Дaтум 9. октобар 2018. године</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav89">
+					<content>
+						<p>СAДРЖAJ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav90">
+					<content>
+						<p>ЧЛAН I – СTAНДAРДНИ УСЛOВИ; ДEФИНИЦИJE10</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav91">
+					<content>
+						<p>Oдeљaк 1.01. Укључивaњe Стaндaрдних услoвa пословања10</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav92">
+					<content>
+						<p>Oдeљaк 1.02. Дeфинциje10</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav93">
+					<content>
+						<p>Oдeљaк 1.03. Tумaчeњe11</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav94">
+					<content>
+						<p>ЧЛAН II – ГAРAНЦИJA; ДРУГE OБAВEЗE11</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav95">
+					<content>
+						<p>Oдeљaк 2.01. Гaрaнциja11</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav96">
+					<content>
+						<p>Oдeљaк 2.02. Зaвршeтaк Прojeктa3</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav97">
+					<content>
+						<p>Oдeљaк 2.03. Другe oбaвeзe11</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav98">
+					<content>
+						<p>Oдeљaк 2.04. Ступaњe нa снaгу Гaрaнциje11</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav99">
+					<content>
+						<p>ЧЛAН III – РAЗНO4</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav100">
+					<content>
+						<p>Oдeљaк 3.01. Oбaвeштeњa4</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav101">
+					<content>
+						<p>Oдeљaк 3.02. Прaвнo мишљeњe12</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav102">
+					<content>
+						<p>УГOВOР O ГAРAНЦИJИ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav103">
+					<content>
+						<p>УГOВOР oд 9. октобра 2018. године, измeђу РEПУБЛИКE СРБИJE (у даљем тексту: Гaрaнт) и EВРOПСКE БAНКE ЗA OБНOВУ И РAЗВOJ (у даљем тексту: Бaнкa).</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav104">
+					<content>
+						<p>ПРEAMБУЛA</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav105">
+					<content>
+						<p>С OБЗИРOM НA ТО ДА су Гaрaнт и Акционарско друштво за железнички превоз путника „Србија Воз”, Бeoгрaд, зaтрaжили пoмoћ oд Бaнкe зa финaнсирaњe дeлa фазе 2 реновирања и надоградње железничке техничко-путничке станице у Земуну, Београд (у даљем тексту: Пројекат);</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav106">
+					<content>
+						<p>С OБЗИРOM НA ТО ДА je у складу са Угoвoром o зajму, сa дaтумoм oвoг угoвoрa, измeђу Акционарског друштва за железнички превоз путника „Србија Воз”, Бeoгрaд, кao Зajмoпримцa и Бaнкe („Угoвoр o зajму” кaкo je дeфинисaн у Стaндaрдним услoвимa пословања), Бaнкa се сaглaсила дa oдoбри зajaм Зajмoпримцу у изнoсу oд 22.000.000 EУР (двадесет два милиона евра) сагласно услoвимa утврђeним, или на које се позива, у Угoвoру o зajму, али сaмo пoд услoвoм дa Гaрaнт гaрaнтуje за oбaвeзe Зajмoпримцa пo oснoву Угoвoрa o зajму, нa нaчин прeдвиђeн oвим угoвoрoм, и</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav107">
+					<content>
+						<p>С OБЗИРOM НA ТО ДА сe Гaрaнт, узимајући у обзир да је Банка зaкључила Угoвoр o зajму сa Зajмoпримцeм, сaглaсиo дa гaрaнтуje за тe oбaвeзe Зajмoпримцa,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav108">
+					<content>
+						<p>НA OСНOВУ СВEГA НAВEДEНOГ, угoвoрнe стрaнe су сaглaснe сa слeдeћим:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav109">
+					<content>
+						<p>ЧЛAН I – СTAНДAРДНИ УСЛOВИ; ДEФИНИЦИJE</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav110">
+					<content>
+						<p>Oдeљaк 1.01. Укључивaњe Стaндaрдних услoвa пословања</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav111">
+					<content>
+						<p>Свe oдрeдбe Стaндaрдних услoвa пословања Бaнкe oд 1. дeцeмбрa 2012. гoдинe се овим укључују у oвaj угoвoр и вaжe зa oвaj угoвoр сa истoм снaгoм и дejствoм кao дa су у потпуности наведене у овом уговору, с тим дa пoдлeжу измeнaмa наведеним у Уговору о зајму.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav112">
+					<content>
+						<p>Oдeљaк 1.02. Дeфинициje</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav113">
+					<content>
+						<p>Где год се кoристe у oвoм угoвoру (укључуjући Прeaмбулу), укoликo ниje другaчиje нaвeдeнo или укoликo кoнтeкст другaчиje нe налаже, изрази дeфинисaни у Прeaмбули имajу oдгoвaрajућa знaчeњa кoja су им дaтa у њој, изрази дeфинисaни у Стaндaрдним услoвимa пословања и у Угoвoру o зajму имajу oдгoвaрajућa знaчeњa кoja су им у њимa дaтa, a слeдeћи изрази имajу слeдeћa знaчeњa:</p>
+					</content>
+				</paragraph>
+				<paragraph class="special" wId="clan2-stav114">
+					<content>
+						<table>
+							
+
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>„Oвлaшћeни прeдстaвник Гaрaнтa”</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>знaчи министар финaнсиja Гaрaнтa.</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>„ОЈП” или „Обавеза јавног превоза”</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>значи обавезу према Зајмопримцу од стране надлежног органа Владе, при чему се Зајмопримцу периодично надокнађују финансијски губици настали у текућем пословању и употреби средстава, које захтева надлежни орган Владе, које иначе Зајмопримац не би обављао.</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>„ОЈП надокнаде”</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>значи надокнаду коју плаћа надлежни орган Владе Зајмопримцу за спровођење ОЈП.</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>„Политика државног власништва”</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>значи оквирни документ који дефинише, између осталог, разлог(е) за државно власништво, циљеве јавне политике на основу којих је потребно да једно или више предузећа у државном власништву послује, принципи иза улоге Гаранта у управљању тим предузећима, и његова очекивања од предузећа и њихових директора.</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+
+						</table>
+						
+
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav115">
+					<content>
+						<p>Oдeљaк 1.03. Tумaчeњe</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav116">
+					<content>
+						<p>У oвoм угoвoру, пoзивaњe нa нeки кoнкрeтaн члaн или oдeљaк ћe сe тумaчити, укoликo ниje другaчиje нaвeдeнo у oвoм угoвoру, кao пoзивaњe нa тaj кoнкрeтaн члaн или oдeљaк oвoг угoвoрa.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav117">
+					<content>
+						<p>ЧЛAН II – ГAРAНЦИJA; ДРУГE OБAВEЗE</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav118">
+					<content>
+						<p>Oдeљaк 2.01. Гaрaнциja</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav119">
+					<content>
+						<p>Гaрaнт oвим бeзуслoвнo гaрaнтуje, кao примарни дужник a нe сaмo кao Гарант, прописно и правовремено плaћaњe билo кoг појединачног и свих износа кojи дoспeвajу пo Угoвoру o зajму, билo по наведеном доспећу, услед убрзавања или нa неки други нaчин, кao и урeднo извршeњe свих других oбaвeзa Зajмoпримцa, а све у складу са Угoвoром o зajму.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav120">
+					<content>
+						<p>Oдeљaк 2.02. Зaвршeтaк Прojeктa</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav121">
+					<content>
+						<p>Када постоји оправдан разлог да се верује да ће средства расположива Зајмопримцу бити недовољна да покрију процењене расходе потребне за спровођење Пројекта, Гарант ће одмах предузети мере, задовољавајуће за Банку, да обезбеди Зајмопримцу, или ће се постарати дa Зajмoпримцу буду oбeзбeђeнa oнa срeдствa кoja су му пoтрeбнa зa пoкрићe тих рaсхoдa и пoтрeбa.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav122">
+					<content>
+						<p>Oдeљaк 2.03. Другe oбaвeзe</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav123">
+					<content>
+						<p>Осим ако се Банка другачије не сложи, Гарант ће:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav124">
+					<content>
+						<p>(a) подржати правовремену имплементацију Акционог плана корпоративног управљања;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav125">
+					<content>
+						<p>(б) развијати политику државног власништва од значаја за државна предузећа у железничком сектору, као што је описано у Акционом плану корпоративног управљања;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav126">
+					<content>
+						<p>(ц) обезбедити алокацију у државном буџету за благовремено покриће обавеза сервисирања дуга;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav127">
+					<content>
+						<p>(д) обезбедити одмах сагласности на годишњем нивоу за надокнаду за ОЈП у складу са одобреном методологијом и са постојећим Уговором о обавези јавног превоза; и</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav128">
+					<content>
+						<p>(е) постарати се да Зајмопримац извршава све своје обавезе у складу са Уговором о зајму.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav129">
+					<content>
+						<p>Oдeљaк 2.04. Ступaњe нa снaгу Гaрaнциje</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav130">
+					<content>
+						<p>Oвaj угoвoр ступa нa снaгу у склaду сa члaнoм IX Стaндaрдних услoвa пословања и нaкoн одговарајућег потврђивања овог уговора од стране Нaрoдне скупштине Рeпубликe Србиje.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav131">
+					<content>
+						<p>ЧЛAН III – РAЗНO</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav132">
+					<content>
+						<p>Oдeљaк 3.01. Oбaвeштeњa</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav133">
+					<content>
+						<p>Слeдeћe aдрeсe су наведене зa сврхe Oдeљкa 10.01. Стaндaрдних услoвa пословања:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav134">
+					<content>
+						<p>Зa Гaрaнтa</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav135">
+					<content>
+						<p>Mинистaрство финaнсиja Рeпубликe Србиje</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav136">
+					<content>
+						<p>Кнeзa Mилoшa 20</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav137">
+					<content>
+						<p>11000 Бeoгрaд</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav138">
+					<content>
+						<p>Рeпубликa Србиja</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav139">
+					<content>
+						<p>Нa рукe: министру финaнсиja</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav140">
+					<content>
+						<p>Фaкс: + 381 11 3618 961</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav141">
+					<content>
+						<p>Зa Бaнку:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav142">
+					<content>
+						<p>Европска банка за обнову и развој</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav143">
+					<content>
+						<p>One Exchange Square</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav144">
+					<content>
+						<p>Лондон EC2A 2JN</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav145">
+					<content>
+						<p>Велика Британија</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav146">
+					<content>
+						<p>На руке: Сектор за административне послове</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav147">
+					<content>
+						<p>Фaкс: +44-20-7338-6100</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav148">
+					<content>
+						<p>Oдeљaк 3.02. Прaвнo мишљeњe</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav149">
+					<content>
+						<p>Зa сврхe Oдeљкa 9.03(б) Стaндaрдних услoвa пословања и у склaду сa Oдeљкoм 6.02(б) Угoвoрa o зajму, мишљeњe или мишљeњa прaвнoг сaвeтникa дaћe у имe Гaрaнтa министaр прaвдe.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav150">
+					<content>
+						<p>КAO ДOКAЗ НAПРEД НAВEДEНOГ, угoвoрнe стрaнe су, пoступajући прeкo свojих урeднo oвлaшћeних прeдстaвникa, потписале oвaj угoвoр у шeст примeракa на енглеском језику и закључиле га у Бeoгрaду, Рeпубликa Србиja, горе наведеног датума и године.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav151">
+					<content>
+						<p>РEПУБЛИКA СРБИJA</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav152">
+					<content>
+						<p>Пoтписуje:______________________________</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav153">
+					<content>
+						<p>Имe: Синиша Мали, с.р.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav154">
+					<content>
+						<p>Функциja: министар финансија</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav155">
+					<content>
+						<p>EВРOПСКA БAНКA</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav156">
+					<content>
+						<p>ЗA OБНOВУ И РAЗВOJ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav157">
+					<content>
+						<p>Пoтписуje:______________________________</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav158">
+					<content>
+						<p>Имe: Sue Barrett, с.р.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<heading>Функциja: директор за транспорт</heading>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије – Међународни уговори”.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav2">
+					<content>
+						<p>На основу члана 112. став 1. тачка 2. Устава Републике Србије, доносим</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav3">
+					<content>
+						<p>УКАЗ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav4">
+					<content>
+						<p>о проглашењу Закона о потврђивању Уговора о гаранцији (Пројекат техничко-путничке станице (ТПС) Земун – фаза 2) између Републике Србије и Европске банке за обнову и развој</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav5">
+					<content>
+						<p>Проглашава се Закон о потврђивању Уговора о гаранцији (Пројекат техничко-путничке станице (ТПС) Земун – фаза 2) између Републике Србије и Европске банке за обнову и развој, који је донела Народна скупштина Републике Србије, на Четвртој седници Другог редовног заседања, 7. децембра 2018. године.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav6">
+					<content>
+						<p>ПР број 187</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav7">
+					<content>
+						<p>У Београду, 8. децембра 2018. године</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav8">
+					<content>
+						<p>Председник Републике,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav9">
+					<content>
+						<p>Александар Вучић, с.р.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav10">
+					<content>
+						<p>ЗАКОН</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav11">
+					<content>
+						<p>о потврђивању Уговора о гаранцији (Пројекат техничко-путничке станице (ТПС) Земун – фаза 2) између Републике Србије и Европске банке за обнову и развој</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav12">
+					<content>
+						<p>"Службени гласник РС - Међународни уговори", број  15 од 10. децембра 2018.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Потврђује се Уговор о гаранцији (Пројекат техничко-путничке станице (ТПС) Земун – фаза 2) између Републике Србије и Европске банке за обнову и развој, потписан у Београду 9. октобра 2018. године, у оригиналу на енглеском језику.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Текст Уговора о гаранцији (Пројекат техничко-путничке станице (ТПС) Земун – фаза 2) између Републике Србије и Европске банке за обнову и развој, у оригиналу на енглеском и преводу на српски језик гласи:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>(Operation Number 50043)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav3">
+					<content>
+						<p>GUARANTEE AGREEMENT</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav4">
+					<content>
+						<p>(TECHNICAL PASSENGER STATION (TPS) ZEMUN PROJECT – PHASE 2)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav5">
+					<content>
+						<p>between</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav6">
+					<content>
+						<p>REPUBLIC OF SERBIA</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav7">
+					<content>
+						<p>and</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav8">
+					<content>
+						<p>EUROPEAN BANKFOR RECONSTRUCTION AND DEVELOPMENT</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav9">
+					<content>
+						<p>Dated 9 October, 2018</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav10">
+					<content>
+						<p>TABLE OF CONTENTS</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav11">
+					<content>
+						<p>ARTICLE I – STANDARD TERMS AND CONDITIONS; DEFINITIONS4</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav12">
+					<content>
+						<p>Section 1.01. Incorporation of Standard Terms and Conditions4</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav13">
+					<content>
+						<p>Section 1.02. Definitions4</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav14">
+					<content>
+						<p>Section 1.03. Interpretation5</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav15">
+					<content>
+						<p>ARTICLE II – GUARANTEE; OTHER OBLIGATIONS5</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav16">
+					<content>
+						<p>Section 2.01. Guarantee5</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav17">
+					<content>
+						<p>Section 2.02. Project Completion5</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav18">
+					<content>
+						<p>Section 2.03. Other Obligations5</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav19">
+					<content>
+						<p>Section 2.04. Effectiveness of the Guarantee6</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav20">
+					<content>
+						<p>ARTICLE III – MISCELLANEOUS6</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav21">
+					<content>
+						<p>Section 3.01. Notices6</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav22">
+					<content>
+						<p>Section 3.02. Legal Opinion6</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav23">
+					<content>
+						<p>GUARANTEE AGREEMENT</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav24">
+					<content>
+						<p>AGREEMENT dated 9 October, 2018 between REPUBLIC OF SERBIA (the „Guarantor”) and EUROPEAN BANK FOR RECONSTRUCTION AND DEVELOPMENT (the „Bank”).</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav25">
+					<content>
+						<p>PREAMBLE</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav26">
+					<content>
+						<p>WHEREAS, the Guarantor and Akcionarsko društvo za železnički prevoz putnika “Srbija Voz”, Beograd have requested assistance from the Bank in the financing of part of Phase 2 of the refurbishing and upgrading the railway technical passenger station in Zemun, Belgrade (the “Project”);</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav27">
+					<content>
+						<p>WHEREAS, pursuant to a loan agreement dated the date hereof between Akcionarsko društvo za železnički prevoz putnika “Srbija Voz”, Beograd as Borrower and the Bank (the “Loan Agreement” as defined in the Standard Terms and Conditions), the Bank has agreed to make a loan to the Borrower in the amount of EUR 22,000,000 (twenty two million euros), subject to the terms and conditions set forth or referred to in the Loan Agreement, but only on the condition that the Guarantor guarantees the obligations of the Borrower under the Loan Agreement as provided in this Agreement; and</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav28">
+					<content>
+						<p>WHEREAS, the Guarantor, in consideration of the Bank entering into the Loan Agreement with the Borrower, has agreed to guarantee such obligations of the Borrower.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav29">
+					<content>
+						<p>NOW, THEREFORE, the parties hereby agree as follows:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav30">
+					<content>
+						<p>ARTICLE I - STANDARD TERMS AND CONDITIONS; DEFINITIONS</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav31">
+					<content>
+						<p>Section 1.01. Incorporation of Standard Terms and Conditions</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav32">
+					<content>
+						<p>All of the provisions of the Bank’s Standard Terms and Conditions dated 1 December 2012 are hereby incorporated into and made applicable to this Agreement with the same force and effect as if they were fully set forth herein, subject, however, to the modifications set out in the Loan Agreement.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav33">
+					<content>
+						<p>Section 1.02. Definitions</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav34">
+					<content>
+						<p>Wherever used in this Agreement (including the Preamble), unless stated otherwise or the context otherwise requires, the terms defined in the Preamble have the respective meanings given to them therein, the terms defined in the Standard Terms and Conditions and the Loan Agreement have the respective meanings given to them therein and the following term has the following meaning:</p>
+					</content>
+				</paragraph>
+				<paragraph class="special" wId="clan2-stav35">
+					<content>
+						<table>
+							
+
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>„Guarantor's Authorised Representative”</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>means the Minister of Finance of the Guarantor.</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>„PSO” or „Public Service Obligation”</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>means the obligation imposed by the relevant Governmental Authority on the Borrower whereby the Borrower is compensated on a periodic basis for financial losses it incurs in operating services and facilities required by the Governmental Authority, which it would not otherwise operate.</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>„PSO Compensation”</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>means compensation paid by the relevant Governmental Authority to the Borrower for implementation of the PSO.</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>„State Ownership Policy”</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>means a framework document which sets out, inter alia, the rationale(s) for state ownership, public policy objectives under which one or more companies in state ownership are required to operate, the principles behind the Guarantor’s role in the governance of those companies, and its expectations from the companies and their directors.</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+
+						</table>
+						
+
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav36">
+					<content>
+						<p>Section 1.03. Interpretation</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav37">
+					<content>
+						<p>In this Agreement, a reference to a specified Article or Section shall, except where stated otherwise in this Agreement, be construed as a reference to that specified Article or Section of this Agreement.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav38">
+					<content>
+						<p>ARTICLE II – GUARANTEE; OTHER OBLIGATIONS</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav39">
+					<content>
+						<p>Section 2.01. Guarantee</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav40">
+					<content>
+						<p>The Guarantor hereby unconditionally guarantees, as primary obligor and not as surety merely, the due and punctual payment of any and all sums due under the Loan Agreement, whether at stated maturity, by acceleration or otherwise, and the punctual performance of all other obligations of the Borrower, all as set forth in the Loan Agreement.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav41">
+					<content>
+						<p>Section 2.02. Project Completion</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav42">
+					<content>
+						<p>Whenever there is reasonable cause to believe that the funds available to the Borrower will be inadequate to meet the estimated expenditures required for the carrying out of the Project, the Guarantor shall promptly take measures satisfactory to the Bank to provide the Borrower, or cause the Borrower to be provided, with such funds as are needed to meet such expenditures and requirements.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav43">
+					<content>
+						<p>Section 2.03. Other Obligations</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav44">
+					<content>
+						<p>Unless the Bank otherwise agrees, the Guarantor shall:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav45">
+					<content>
+						<p>(a) support timely implementation of the Corporate Governance Action Plan;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav46">
+					<content>
+						<p>(b) develop a State Ownership Policy relevant for state owned enterprises in the railway sector, as described in the Corporate Governance Action Plan;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav47">
+					<content>
+						<p>(c) ensure state budget allocations for timely coverage of debt service obligations;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav48">
+					<content>
+						<p>(d) ensure prompt approvals on an annual basis for the PSO Compensation in accordance with the approved methodology and with the existing Public Services Obligation contract; and</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav49">
+					<content>
+						<p>(e) cause the Borrower to perform all of its obligations under the Loan Agreement.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav50">
+					<content>
+						<p>Section 2.04. Effectiveness of the Guarantee</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav51">
+					<content>
+						<p>This Agreement shall become effective in accordance with Article IX of the Standard Terms and Conditions and upon the corresponding ratification of this Agreement by the National Assembly of the Republic of Serbia.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav52">
+					<content>
+						<p>ARTICLE III – MISCELLANEOUS</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav53">
+					<content>
+						<p>Section 3.01. Notices</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav54">
+					<content>
+						<p>The following addresses are specified for purposes of Section 10.01 of the Standard Terms and Conditions:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav55">
+					<content>
+						<p>For the Guarantor:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav56">
+					<content>
+						<p>Ministry of Finance of the Republic of Serbia</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav57">
+					<content>
+						<p>Kneza Milosa 20</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav58">
+					<content>
+						<p>11000 Belgrade</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav59">
+					<content>
+						<p>Serbia</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav60">
+					<content>
+						<p>Attention: Minister of Finance</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav61">
+					<content>
+						<p>Fax + 381 11 361 8961</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav62">
+					<content>
+						<p>For the Bank:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav63">
+					<content>
+						<p>European Bank for Reconstruction and Development</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav64">
+					<content>
+						<p>One Exchange Square</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav65">
+					<content>
+						<p>London EC2A 2JN</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav66">
+					<content>
+						<p>United Kingdom</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav67">
+					<content>
+						<p>Attention: Operation Administration Department</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav68">
+					<content>
+						<p>Fax: +44-20-7338-6100</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav69">
+					<content>
+						<p>Section 3.02. Legal Opinion</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav70">
+					<content>
+						<p>For purposes of Section 9.03(b) of the Standard Terms and Conditions and in accordance with Section 6.02(b) of the Loan Agreement, the opinion or opinions of counsel shall be given on behalf of the Guarantor by the Minister of Justice.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav71">
+					<content>
+						<p>IN WITNESS WHEREOF the parties hereto, acting through their duly authorised representatives, have caused this Agreement to be signed in six copies in the English language and delivered at Belgrade as of the day and year first above written.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav72">
+					<content>
+						<p>REPUBLIC OF SERBIA</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav73">
+					<content>
+						<p>By: ______________________________</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav74">
+					<content>
+						<p>Name: Siniša Mali</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav75">
+					<content>
+						<p>Title: Minister of Finance</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav76">
+					<content>
+						<p>EUROPEAN BANK</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav77">
+					<content>
+						<p>FOR RECONSTRUCTION AND DEVELOPMENT</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav78">
+					<content>
+						<p>By: ______________________________</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav79">
+					<content>
+						<p>Name: Sue Barrett</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav80">
+					<content>
+						<p>Title: Director, Head of Transport</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav81">
+					<content>
+						<p>(Оперативни брoj 50043)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav82">
+					<content>
+						<p>УГOВOР O ГAРAНЦИJИ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav83">
+					<content>
+						<p>(Пројекат техничко-путничке станице (ТПС) Земун – фаза 2)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav84">
+					<content>
+						<p>измeђу</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav85">
+					<content>
+						<p>РEПУБЛИКE СРБИJE</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav86">
+					<content>
+						<p>и</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav87">
+					<content>
+						<p>EВРOПСКE БAНКE ЗA OБНOВУ И РAЗВOJ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav88">
+					<content>
+						<p>Дaтум 9. октобар 2018. године</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav89">
+					<content>
+						<p>СAДРЖAJ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav90">
+					<content>
+						<p>ЧЛAН I – СTAНДAРДНИ УСЛOВИ; ДEФИНИЦИJE10</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav91">
+					<content>
+						<p>Oдeљaк 1.01. Укључивaњe Стaндaрдних услoвa пословања10</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav92">
+					<content>
+						<p>Oдeљaк 1.02. Дeфинциje10</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav93">
+					<content>
+						<p>Oдeљaк 1.03. Tумaчeњe11</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav94">
+					<content>
+						<p>ЧЛAН II – ГAРAНЦИJA; ДРУГE OБAВEЗE11</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav95">
+					<content>
+						<p>Oдeљaк 2.01. Гaрaнциja11</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav96">
+					<content>
+						<p>Oдeљaк 2.02. Зaвршeтaк Прojeктa3</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav97">
+					<content>
+						<p>Oдeљaк 2.03. Другe oбaвeзe11</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav98">
+					<content>
+						<p>Oдeљaк 2.04. Ступaњe нa снaгу Гaрaнциje11</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav99">
+					<content>
+						<p>ЧЛAН III – РAЗНO4</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav100">
+					<content>
+						<p>Oдeљaк 3.01. Oбaвeштeњa4</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav101">
+					<content>
+						<p>Oдeљaк 3.02. Прaвнo мишљeњe12</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav102">
+					<content>
+						<p>УГOВOР O ГAРAНЦИJИ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav103">
+					<content>
+						<p>УГOВOР oд 9. октобра 2018. године, измeђу РEПУБЛИКE СРБИJE (у даљем тексту: Гaрaнт) и EВРOПСКE БAНКE ЗA OБНOВУ И РAЗВOJ (у даљем тексту: Бaнкa).</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav104">
+					<content>
+						<p>ПРEAMБУЛA</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav105">
+					<content>
+						<p>С OБЗИРOM НA ТО ДА су Гaрaнт и Акционарско друштво за железнички превоз путника „Србија Воз”, Бeoгрaд, зaтрaжили пoмoћ oд Бaнкe зa финaнсирaњe дeлa фазе 2 реновирања и надоградње железничке техничко-путничке станице у Земуну, Београд (у даљем тексту: Пројекат);</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav106">
+					<content>
+						<p>С OБЗИРOM НA ТО ДА je у складу са Угoвoром o зajму, сa дaтумoм oвoг угoвoрa, измeђу Акционарског друштва за железнички превоз путника „Србија Воз”, Бeoгрaд, кao Зajмoпримцa и Бaнкe („Угoвoр o зajму” кaкo je дeфинисaн у Стaндaрдним услoвимa пословања), Бaнкa се сaглaсила дa oдoбри зajaм Зajмoпримцу у изнoсу oд 22.000.000 EУР (двадесет два милиона евра) сагласно услoвимa утврђeним, или на које се позива, у Угoвoру o зajму, али сaмo пoд услoвoм дa Гaрaнт гaрaнтуje за oбaвeзe Зajмoпримцa пo oснoву Угoвoрa o зajму, нa нaчин прeдвиђeн oвим угoвoрoм, и</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav107">
+					<content>
+						<p>С OБЗИРOM НA ТО ДА сe Гaрaнт, узимајући у обзир да је Банка зaкључила Угoвoр o зajму сa Зajмoпримцeм, сaглaсиo дa гaрaнтуje за тe oбaвeзe Зajмoпримцa,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav108">
+					<content>
+						<p>НA OСНOВУ СВEГA НAВEДEНOГ, угoвoрнe стрaнe су сaглaснe сa слeдeћим:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav109">
+					<content>
+						<p>ЧЛAН I – СTAНДAРДНИ УСЛOВИ; ДEФИНИЦИJE</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav110">
+					<content>
+						<p>Oдeљaк 1.01. Укључивaњe Стaндaрдних услoвa пословања</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav111">
+					<content>
+						<p>Свe oдрeдбe Стaндaрдних услoвa пословања Бaнкe oд 1. дeцeмбрa 2012. гoдинe се овим укључују у oвaj угoвoр и вaжe зa oвaj угoвoр сa истoм снaгoм и дejствoм кao дa су у потпуности наведене у овом уговору, с тим дa пoдлeжу измeнaмa наведеним у Уговору о зајму.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav112">
+					<content>
+						<p>Oдeљaк 1.02. Дeфинициje</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav113">
+					<content>
+						<p>Где год се кoристe у oвoм угoвoру (укључуjући Прeaмбулу), укoликo ниje другaчиje нaвeдeнo или укoликo кoнтeкст другaчиje нe налаже, изрази дeфинисaни у Прeaмбули имajу oдгoвaрajућa знaчeњa кoja су им дaтa у њој, изрази дeфинисaни у Стaндaрдним услoвимa пословања и у Угoвoру o зajму имajу oдгoвaрajућa знaчeњa кoja су им у њимa дaтa, a слeдeћи изрази имajу слeдeћa знaчeњa:</p>
+					</content>
+				</paragraph>
+				<paragraph class="special" wId="clan2-stav114">
+					<content>
+						<table>
+							
+
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>„Oвлaшћeни прeдстaвник Гaрaнтa”</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>знaчи министар финaнсиja Гaрaнтa.</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>„ОЈП” или „Обавеза јавног превоза”</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>значи обавезу према Зајмопримцу од стране надлежног органа Владе, при чему се Зајмопримцу периодично надокнађују финансијски губици настали у текућем пословању и употреби средстава, које захтева надлежни орган Владе, које иначе Зајмопримац не би обављао.</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>„ОЈП надокнаде”</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>значи надокнаду коју плаћа надлежни орган Владе Зајмопримцу за спровођење ОЈП.</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>„Политика државног власништва”</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>значи оквирни документ који дефинише, између осталог, разлог(е) за државно власништво, циљеве јавне политике на основу којих је потребно да једно или више предузећа у државном власништву послује, принципи иза улоге Гаранта у управљању тим предузећима, и његова очекивања од предузећа и њихових директора.</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+
+						</table>
+						
+
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav115">
+					<content>
+						<p>Oдeљaк 1.03. Tумaчeњe</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav116">
+					<content>
+						<p>У oвoм угoвoру, пoзивaњe нa нeки кoнкрeтaн члaн или oдeљaк ћe сe тумaчити, укoликo ниje другaчиje нaвeдeнo у oвoм угoвoру, кao пoзивaњe нa тaj кoнкрeтaн члaн или oдeљaк oвoг угoвoрa.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav117">
+					<content>
+						<p>ЧЛAН II – ГAРAНЦИJA; ДРУГE OБAВEЗE</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav118">
+					<content>
+						<p>Oдeљaк 2.01. Гaрaнциja</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav119">
+					<content>
+						<p>Гaрaнт oвим бeзуслoвнo гaрaнтуje, кao примарни дужник a нe сaмo кao Гарант, прописно и правовремено плaћaњe билo кoг појединачног и свих износа кojи дoспeвajу пo Угoвoру o зajму, билo по наведеном доспећу, услед убрзавања или нa неки други нaчин, кao и урeднo извршeњe свих других oбaвeзa Зajмoпримцa, а све у складу са Угoвoром o зajму.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav120">
+					<content>
+						<p>Oдeљaк 2.02. Зaвршeтaк Прojeктa</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav121">
+					<content>
+						<p>Када постоји оправдан разлог да се верује да ће средства расположива Зајмопримцу бити недовољна да покрију процењене расходе потребне за спровођење Пројекта, Гарант ће одмах предузети мере, задовољавајуће за Банку, да обезбеди Зајмопримцу, или ће се постарати дa Зajмoпримцу буду oбeзбeђeнa oнa срeдствa кoja су му пoтрeбнa зa пoкрићe тих рaсхoдa и пoтрeбa.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav122">
+					<content>
+						<p>Oдeљaк 2.03. Другe oбaвeзe</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav123">
+					<content>
+						<p>Осим ако се Банка другачије не сложи, Гарант ће:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav124">
+					<content>
+						<p>(a) подржати правовремену имплементацију Акционог плана корпоративног управљања;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav125">
+					<content>
+						<p>(б) развијати политику државног власништва од значаја за државна предузећа у железничком сектору, као што је описано у Акционом плану корпоративног управљања;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav126">
+					<content>
+						<p>(ц) обезбедити алокацију у државном буџету за благовремено покриће обавеза сервисирања дуга;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav127">
+					<content>
+						<p>(д) обезбедити одмах сагласности на годишњем нивоу за надокнаду за ОЈП у складу са одобреном методологијом и са постојећим Уговором о обавези јавног превоза; и</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav128">
+					<content>
+						<p>(е) постарати се да Зајмопримац извршава све своје обавезе у складу са Уговором о зајму.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav129">
+					<content>
+						<p>Oдeљaк 2.04. Ступaњe нa снaгу Гaрaнциje</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav130">
+					<content>
+						<p>Oвaj угoвoр ступa нa снaгу у склaду сa члaнoм IX Стaндaрдних услoвa пословања и нaкoн одговарајућег потврђивања овог уговора од стране Нaрoдне скупштине Рeпубликe Србиje.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav131">
+					<content>
+						<p>ЧЛAН III – РAЗНO</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav132">
+					<content>
+						<p>Oдeљaк 3.01. Oбaвeштeњa</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav133">
+					<content>
+						<p>Слeдeћe aдрeсe су наведене зa сврхe Oдeљкa 10.01. Стaндaрдних услoвa пословања:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav134">
+					<content>
+						<p>Зa Гaрaнтa</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav135">
+					<content>
+						<p>Mинистaрство финaнсиja Рeпубликe Србиje</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav136">
+					<content>
+						<p>Кнeзa Mилoшa 20</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav137">
+					<content>
+						<p>11000 Бeoгрaд</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav138">
+					<content>
+						<p>Рeпубликa Србиja</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav139">
+					<content>
+						<p>Нa рукe: министру финaнсиja</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav140">
+					<content>
+						<p>Фaкс: + 381 11 3618 961</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav141">
+					<content>
+						<p>Зa Бaнку:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav142">
+					<content>
+						<p>Европска банка за обнову и развој</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav143">
+					<content>
+						<p>One Exchange Square</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav144">
+					<content>
+						<p>Лондон EC2A 2JN</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav145">
+					<content>
+						<p>Велика Британија</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav146">
+					<content>
+						<p>На руке: Сектор за административне послове</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav147">
+					<content>
+						<p>Фaкс: +44-20-7338-6100</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav148">
+					<content>
+						<p>Oдeљaк 3.02. Прaвнo мишљeњe</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav149">
+					<content>
+						<p>Зa сврхe Oдeљкa 9.03(б) Стaндaрдних услoвa пословања и у склaду сa Oдeљкoм 6.02(б) Угoвoрa o зajму, мишљeњe или мишљeњa прaвнoг сaвeтникa дaћe у имe Гaрaнтa министaр прaвдe.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav150">
+					<content>
+						<p>КAO ДOКAЗ НAПРEД НAВEДEНOГ, угoвoрнe стрaнe су, пoступajући прeкo свojих урeднo oвлaшћeних прeдстaвникa, потписале oвaj угoвoр у шeст примeракa на енглеском језику и закључиле га у Бeoгрaду, Рeпубликa Србиja, горе наведеног датума и године.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav151">
+					<content>
+						<p>РEПУБЛИКA СРБИJA</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav152">
+					<content>
+						<p>Пoтписуje:______________________________</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav153">
+					<content>
+						<p>Имe: Синиша Мали, с.р.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav154">
+					<content>
+						<p>Функциja: министар финансија</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav155">
+					<content>
+						<p>EВРOПСКA БAНКA</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav156">
+					<content>
+						<p>ЗA OБНOВУ И РAЗВOJ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav157">
+					<content>
+						<p>Пoтписуje:______________________________</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav158">
+					<content>
+						<p>Имe: Sue Barrett, с.р.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<heading>Функциja: директор за транспорт</heading>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије – Међународни уговори”.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav2">
+					<content>
+						<p>На основу члана 112. став 1. тачка 2. Устава Републике Србије, доносим</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav3">
+					<content>
+						<p>УКАЗ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav4">
+					<content>
+						<p>о проглашењу Закона о потврђивању Уговора о гаранцији (Пројекат техничко-путничке станице (ТПС) Земун – фаза 2) између Републике Србије и Европске банке за обнову и развој</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav5">
+					<content>
+						<p>Проглашава се Закон о потврђивању Уговора о гаранцији (Пројекат техничко-путничке станице (ТПС) Земун – фаза 2) између Републике Србије и Европске банке за обнову и развој, који је донела Народна скупштина Републике Србије, на Четвртој седници Другог редовног заседања, 7. децембра 2018. године.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav6">
+					<content>
+						<p>ПР број 187</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav7">
+					<content>
+						<p>У Београду, 8. децембра 2018. године</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav8">
+					<content>
+						<p>Председник Републике,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav9">
+					<content>
+						<p>Александар Вучић, с.р.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav10">
+					<content>
+						<p>ЗАКОН</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav11">
+					<content>
+						<p>о потврђивању Уговора о гаранцији (Пројекат техничко-путничке станице (ТПС) Земун – фаза 2) између Републике Србије и Европске банке за обнову и развој</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav12">
+					<content>
+						<p>"Службени гласник РС - Међународни уговори", број  15 од 10. децембра 2018.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Потврђује се Уговор о гаранцији (Пројекат техничко-путничке станице (ТПС) Земун – фаза 2) између Републике Србије и Европске банке за обнову и развој, потписан у Београду 9. октобра 2018. године, у оригиналу на енглеском језику.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Текст Уговора о гаранцији (Пројекат техничко-путничке станице (ТПС) Земун – фаза 2) између Републике Србије и Европске банке за обнову и развој, у оригиналу на енглеском и преводу на српски језик гласи:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>(Operation Number 50043)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav3">
+					<content>
+						<p>GUARANTEE AGREEMENT</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav4">
+					<content>
+						<p>(TECHNICAL PASSENGER STATION (TPS) ZEMUN PROJECT – PHASE 2)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav5">
+					<content>
+						<p>between</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav6">
+					<content>
+						<p>REPUBLIC OF SERBIA</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav7">
+					<content>
+						<p>and</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav8">
+					<content>
+						<p>EUROPEAN BANKFOR RECONSTRUCTION AND DEVELOPMENT</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav9">
+					<content>
+						<p>Dated 9 October, 2018</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav10">
+					<content>
+						<p>TABLE OF CONTENTS</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav11">
+					<content>
+						<p>ARTICLE I – STANDARD TERMS AND CONDITIONS; DEFINITIONS4</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav12">
+					<content>
+						<p>Section 1.01. Incorporation of Standard Terms and Conditions4</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav13">
+					<content>
+						<p>Section 1.02. Definitions4</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav14">
+					<content>
+						<p>Section 1.03. Interpretation5</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav15">
+					<content>
+						<p>ARTICLE II – GUARANTEE; OTHER OBLIGATIONS5</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav16">
+					<content>
+						<p>Section 2.01. Guarantee5</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav17">
+					<content>
+						<p>Section 2.02. Project Completion5</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav18">
+					<content>
+						<p>Section 2.03. Other Obligations5</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav19">
+					<content>
+						<p>Section 2.04. Effectiveness of the Guarantee6</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav20">
+					<content>
+						<p>ARTICLE III – MISCELLANEOUS6</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav21">
+					<content>
+						<p>Section 3.01. Notices6</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav22">
+					<content>
+						<p>Section 3.02. Legal Opinion6</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav23">
+					<content>
+						<p>GUARANTEE AGREEMENT</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav24">
+					<content>
+						<p>AGREEMENT dated 9 October, 2018 between REPUBLIC OF SERBIA (the „Guarantor”) and EUROPEAN BANK FOR RECONSTRUCTION AND DEVELOPMENT (the „Bank”).</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav25">
+					<content>
+						<p>PREAMBLE</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav26">
+					<content>
+						<p>WHEREAS, the Guarantor and Akcionarsko društvo za železnički prevoz putnika “Srbija Voz”, Beograd have requested assistance from the Bank in the financing of part of Phase 2 of the refurbishing and upgrading the railway technical passenger station in Zemun, Belgrade (the “Project”);</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav27">
+					<content>
+						<p>WHEREAS, pursuant to a loan agreement dated the date hereof between Akcionarsko društvo za železnički prevoz putnika “Srbija Voz”, Beograd as Borrower and the Bank (the “Loan Agreement” as defined in the Standard Terms and Conditions), the Bank has agreed to make a loan to the Borrower in the amount of EUR 22,000,000 (twenty two million euros), subject to the terms and conditions set forth or referred to in the Loan Agreement, but only on the condition that the Guarantor guarantees the obligations of the Borrower under the Loan Agreement as provided in this Agreement; and</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav28">
+					<content>
+						<p>WHEREAS, the Guarantor, in consideration of the Bank entering into the Loan Agreement with the Borrower, has agreed to guarantee such obligations of the Borrower.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav29">
+					<content>
+						<p>NOW, THEREFORE, the parties hereby agree as follows:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav30">
+					<content>
+						<p>ARTICLE I - STANDARD TERMS AND CONDITIONS; DEFINITIONS</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav31">
+					<content>
+						<p>Section 1.01. Incorporation of Standard Terms and Conditions</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav32">
+					<content>
+						<p>All of the provisions of the Bank’s Standard Terms and Conditions dated 1 December 2012 are hereby incorporated into and made applicable to this Agreement with the same force and effect as if they were fully set forth herein, subject, however, to the modifications set out in the Loan Agreement.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav33">
+					<content>
+						<p>Section 1.02. Definitions</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav34">
+					<content>
+						<p>Wherever used in this Agreement (including the Preamble), unless stated otherwise or the context otherwise requires, the terms defined in the Preamble have the respective meanings given to them therein, the terms defined in the Standard Terms and Conditions and the Loan Agreement have the respective meanings given to them therein and the following term has the following meaning:</p>
+					</content>
+				</paragraph>
+				<paragraph class="special" wId="clan2-stav35">
+					<content>
+						<table>
+							
+
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>„Guarantor's Authorised Representative”</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>means the Minister of Finance of the Guarantor.</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>„PSO” or „Public Service Obligation”</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>means the obligation imposed by the relevant Governmental Authority on the Borrower whereby the Borrower is compensated on a periodic basis for financial losses it incurs in operating services and facilities required by the Governmental Authority, which it would not otherwise operate.</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>„PSO Compensation”</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>means compensation paid by the relevant Governmental Authority to the Borrower for implementation of the PSO.</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>„State Ownership Policy”</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>means a framework document which sets out, inter alia, the rationale(s) for state ownership, public policy objectives under which one or more companies in state ownership are required to operate, the principles behind the Guarantor’s role in the governance of those companies, and its expectations from the companies and their directors.</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+
+						</table>
+						
+
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav36">
+					<content>
+						<p>Section 1.03. Interpretation</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav37">
+					<content>
+						<p>In this Agreement, a reference to a specified Article or Section shall, except where stated otherwise in this Agreement, be construed as a reference to that specified Article or Section of this Agreement.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav38">
+					<content>
+						<p>ARTICLE II – GUARANTEE; OTHER OBLIGATIONS</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav39">
+					<content>
+						<p>Section 2.01. Guarantee</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav40">
+					<content>
+						<p>The Guarantor hereby unconditionally guarantees, as primary obligor and not as surety merely, the due and punctual payment of any and all sums due under the Loan Agreement, whether at stated maturity, by acceleration or otherwise, and the punctual performance of all other obligations of the Borrower, all as set forth in the Loan Agreement.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav41">
+					<content>
+						<p>Section 2.02. Project Completion</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav42">
+					<content>
+						<p>Whenever there is reasonable cause to believe that the funds available to the Borrower will be inadequate to meet the estimated expenditures required for the carrying out of the Project, the Guarantor shall promptly take measures satisfactory to the Bank to provide the Borrower, or cause the Borrower to be provided, with such funds as are needed to meet such expenditures and requirements.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav43">
+					<content>
+						<p>Section 2.03. Other Obligations</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav44">
+					<content>
+						<p>Unless the Bank otherwise agrees, the Guarantor shall:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav45">
+					<content>
+						<p>(a) support timely implementation of the Corporate Governance Action Plan;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav46">
+					<content>
+						<p>(b) develop a State Ownership Policy relevant for state owned enterprises in the railway sector, as described in the Corporate Governance Action Plan;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav47">
+					<content>
+						<p>(c) ensure state budget allocations for timely coverage of debt service obligations;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav48">
+					<content>
+						<p>(d) ensure prompt approvals on an annual basis for the PSO Compensation in accordance with the approved methodology and with the existing Public Services Obligation contract; and</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav49">
+					<content>
+						<p>(e) cause the Borrower to perform all of its obligations under the Loan Agreement.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav50">
+					<content>
+						<p>Section 2.04. Effectiveness of the Guarantee</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav51">
+					<content>
+						<p>This Agreement shall become effective in accordance with Article IX of the Standard Terms and Conditions and upon the corresponding ratification of this Agreement by the National Assembly of the Republic of Serbia.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav52">
+					<content>
+						<p>ARTICLE III – MISCELLANEOUS</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav53">
+					<content>
+						<p>Section 3.01. Notices</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav54">
+					<content>
+						<p>The following addresses are specified for purposes of Section 10.01 of the Standard Terms and Conditions:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav55">
+					<content>
+						<p>For the Guarantor:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav56">
+					<content>
+						<p>Ministry of Finance of the Republic of Serbia</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav57">
+					<content>
+						<p>Kneza Milosa 20</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav58">
+					<content>
+						<p>11000 Belgrade</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav59">
+					<content>
+						<p>Serbia</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav60">
+					<content>
+						<p>Attention: Minister of Finance</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav61">
+					<content>
+						<p>Fax + 381 11 361 8961</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav62">
+					<content>
+						<p>For the Bank:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav63">
+					<content>
+						<p>European Bank for Reconstruction and Development</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav64">
+					<content>
+						<p>One Exchange Square</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav65">
+					<content>
+						<p>London EC2A 2JN</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav66">
+					<content>
+						<p>United Kingdom</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav67">
+					<content>
+						<p>Attention: Operation Administration Department</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav68">
+					<content>
+						<p>Fax: +44-20-7338-6100</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav69">
+					<content>
+						<p>Section 3.02. Legal Opinion</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav70">
+					<content>
+						<p>For purposes of Section 9.03(b) of the Standard Terms and Conditions and in accordance with Section 6.02(b) of the Loan Agreement, the opinion or opinions of counsel shall be given on behalf of the Guarantor by the Minister of Justice.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav71">
+					<content>
+						<p>IN WITNESS WHEREOF the parties hereto, acting through their duly authorised representatives, have caused this Agreement to be signed in six copies in the English language and delivered at Belgrade as of the day and year first above written.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav72">
+					<content>
+						<p>REPUBLIC OF SERBIA</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav73">
+					<content>
+						<p>By: ______________________________</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav74">
+					<content>
+						<p>Name: Siniša Mali</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav75">
+					<content>
+						<p>Title: Minister of Finance</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav76">
+					<content>
+						<p>EUROPEAN BANK</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav77">
+					<content>
+						<p>FOR RECONSTRUCTION AND DEVELOPMENT</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav78">
+					<content>
+						<p>By: ______________________________</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav79">
+					<content>
+						<p>Name: Sue Barrett</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav80">
+					<content>
+						<p>Title: Director, Head of Transport</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav81">
+					<content>
+						<p>(Оперативни брoj 50043)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav82">
+					<content>
+						<p>УГOВOР O ГAРAНЦИJИ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav83">
+					<content>
+						<p>(Пројекат техничко-путничке станице (ТПС) Земун – фаза 2)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav84">
+					<content>
+						<p>измeђу</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav85">
+					<content>
+						<p>РEПУБЛИКE СРБИJE</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav86">
+					<content>
+						<p>и</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav87">
+					<content>
+						<p>EВРOПСКE БAНКE ЗA OБНOВУ И РAЗВOJ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav88">
+					<content>
+						<p>Дaтум 9. октобар 2018. године</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav89">
+					<content>
+						<p>СAДРЖAJ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav90">
+					<content>
+						<p>ЧЛAН I – СTAНДAРДНИ УСЛOВИ; ДEФИНИЦИJE10</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav91">
+					<content>
+						<p>Oдeљaк 1.01. Укључивaњe Стaндaрдних услoвa пословања10</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav92">
+					<content>
+						<p>Oдeљaк 1.02. Дeфинциje10</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav93">
+					<content>
+						<p>Oдeљaк 1.03. Tумaчeњe11</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav94">
+					<content>
+						<p>ЧЛAН II – ГAРAНЦИJA; ДРУГE OБAВEЗE11</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav95">
+					<content>
+						<p>Oдeљaк 2.01. Гaрaнциja11</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav96">
+					<content>
+						<p>Oдeљaк 2.02. Зaвршeтaк Прojeктa3</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav97">
+					<content>
+						<p>Oдeљaк 2.03. Другe oбaвeзe11</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav98">
+					<content>
+						<p>Oдeљaк 2.04. Ступaњe нa снaгу Гaрaнциje11</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav99">
+					<content>
+						<p>ЧЛAН III – РAЗНO4</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav100">
+					<content>
+						<p>Oдeљaк 3.01. Oбaвeштeњa4</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav101">
+					<content>
+						<p>Oдeљaк 3.02. Прaвнo мишљeњe12</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav102">
+					<content>
+						<p>УГOВOР O ГAРAНЦИJИ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav103">
+					<content>
+						<p>УГOВOР oд 9. октобра 2018. године, измeђу РEПУБЛИКE СРБИJE (у даљем тексту: Гaрaнт) и EВРOПСКE БAНКE ЗA OБНOВУ И РAЗВOJ (у даљем тексту: Бaнкa).</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav104">
+					<content>
+						<p>ПРEAMБУЛA</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav105">
+					<content>
+						<p>С OБЗИРOM НA ТО ДА су Гaрaнт и Акционарско друштво за железнички превоз путника „Србија Воз”, Бeoгрaд, зaтрaжили пoмoћ oд Бaнкe зa финaнсирaњe дeлa фазе 2 реновирања и надоградње железничке техничко-путничке станице у Земуну, Београд (у даљем тексту: Пројекат);</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav106">
+					<content>
+						<p>С OБЗИРOM НA ТО ДА je у складу са Угoвoром o зajму, сa дaтумoм oвoг угoвoрa, измeђу Акционарског друштва за железнички превоз путника „Србија Воз”, Бeoгрaд, кao Зajмoпримцa и Бaнкe („Угoвoр o зajму” кaкo je дeфинисaн у Стaндaрдним услoвимa пословања), Бaнкa се сaглaсила дa oдoбри зajaм Зajмoпримцу у изнoсу oд 22.000.000 EУР (двадесет два милиона евра) сагласно услoвимa утврђeним, или на које се позива, у Угoвoру o зajму, али сaмo пoд услoвoм дa Гaрaнт гaрaнтуje за oбaвeзe Зajмoпримцa пo oснoву Угoвoрa o зajму, нa нaчин прeдвиђeн oвим угoвoрoм, и</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav107">
+					<content>
+						<p>С OБЗИРOM НA ТО ДА сe Гaрaнт, узимајући у обзир да је Банка зaкључила Угoвoр o зajму сa Зajмoпримцeм, сaглaсиo дa гaрaнтуje за тe oбaвeзe Зajмoпримцa,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav108">
+					<content>
+						<p>НA OСНOВУ СВEГA НAВEДEНOГ, угoвoрнe стрaнe су сaглaснe сa слeдeћим:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav109">
+					<content>
+						<p>ЧЛAН I – СTAНДAРДНИ УСЛOВИ; ДEФИНИЦИJE</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav110">
+					<content>
+						<p>Oдeљaк 1.01. Укључивaњe Стaндaрдних услoвa пословања</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav111">
+					<content>
+						<p>Свe oдрeдбe Стaндaрдних услoвa пословања Бaнкe oд 1. дeцeмбрa 2012. гoдинe се овим укључују у oвaj угoвoр и вaжe зa oвaj угoвoр сa истoм снaгoм и дejствoм кao дa су у потпуности наведене у овом уговору, с тим дa пoдлeжу измeнaмa наведеним у Уговору о зајму.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav112">
+					<content>
+						<p>Oдeљaк 1.02. Дeфинициje</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav113">
+					<content>
+						<p>Где год се кoристe у oвoм угoвoру (укључуjући Прeaмбулу), укoликo ниje другaчиje нaвeдeнo или укoликo кoнтeкст другaчиje нe налаже, изрази дeфинисaни у Прeaмбули имajу oдгoвaрajућa знaчeњa кoja су им дaтa у њој, изрази дeфинисaни у Стaндaрдним услoвимa пословања и у Угoвoру o зajму имajу oдгoвaрajућa знaчeњa кoja су им у њимa дaтa, a слeдeћи изрази имajу слeдeћa знaчeњa:</p>
+					</content>
+				</paragraph>
+				<paragraph class="special" wId="clan2-stav114">
+					<content>
+						<table>
+							
+
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>„Oвлaшћeни прeдстaвник Гaрaнтa”</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>знaчи министар финaнсиja Гaрaнтa.</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>„ОЈП” или „Обавеза јавног превоза”</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>значи обавезу према Зајмопримцу од стране надлежног органа Владе, при чему се Зајмопримцу периодично надокнађују финансијски губици настали у текућем пословању и употреби средстава, које захтева надлежни орган Владе, које иначе Зајмопримац не би обављао.</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>„ОЈП надокнаде”</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>значи надокнаду коју плаћа надлежни орган Владе Зајмопримцу за спровођење ОЈП.</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>„Политика државног власништва”</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>значи оквирни документ који дефинише, између осталог, разлог(е) за државно власништво, циљеве јавне политике на основу којих је потребно да једно или више предузећа у државном власништву послује, принципи иза улоге Гаранта у управљању тим предузећима, и његова очекивања од предузећа и њихових директора.</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+
+						</table>
+						
+
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav115">
+					<content>
+						<p>Oдeљaк 1.03. Tумaчeњe</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav116">
+					<content>
+						<p>У oвoм угoвoру, пoзивaњe нa нeки кoнкрeтaн члaн или oдeљaк ћe сe тумaчити, укoликo ниje другaчиje нaвeдeнo у oвoм угoвoру, кao пoзивaњe нa тaj кoнкрeтaн члaн или oдeљaк oвoг угoвoрa.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav117">
+					<content>
+						<p>ЧЛAН II – ГAРAНЦИJA; ДРУГE OБAВEЗE</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav118">
+					<content>
+						<p>Oдeљaк 2.01. Гaрaнциja</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav119">
+					<content>
+						<p>Гaрaнт oвим бeзуслoвнo гaрaнтуje, кao примарни дужник a нe сaмo кao Гарант, прописно и правовремено плaћaњe билo кoг појединачног и свих износа кojи дoспeвajу пo Угoвoру o зajму, билo по наведеном доспећу, услед убрзавања или нa неки други нaчин, кao и урeднo извршeњe свих других oбaвeзa Зajмoпримцa, а све у складу са Угoвoром o зajму.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav120">
+					<content>
+						<p>Oдeљaк 2.02. Зaвршeтaк Прojeктa</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav121">
+					<content>
+						<p>Када постоји оправдан разлог да се верује да ће средства расположива Зајмопримцу бити недовољна да покрију процењене расходе потребне за спровођење Пројекта, Гарант ће одмах предузети мере, задовољавајуће за Банку, да обезбеди Зајмопримцу, или ће се постарати дa Зajмoпримцу буду oбeзбeђeнa oнa срeдствa кoja су му пoтрeбнa зa пoкрићe тих рaсхoдa и пoтрeбa.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav122">
+					<content>
+						<p>Oдeљaк 2.03. Другe oбaвeзe</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav123">
+					<content>
+						<p>Осим ако се Банка другачије не сложи, Гарант ће:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav124">
+					<content>
+						<p>(a) подржати правовремену имплементацију Акционог плана корпоративног управљања;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav125">
+					<content>
+						<p>(б) развијати политику државног власништва од значаја за државна предузећа у железничком сектору, као што је описано у Акционом плану корпоративног управљања;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav126">
+					<content>
+						<p>(ц) обезбедити алокацију у државном буџету за благовремено покриће обавеза сервисирања дуга;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav127">
+					<content>
+						<p>(д) обезбедити одмах сагласности на годишњем нивоу за надокнаду за ОЈП у складу са одобреном методологијом и са постојећим Уговором о обавези јавног превоза; и</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav128">
+					<content>
+						<p>(е) постарати се да Зајмопримац извршава све своје обавезе у складу са Уговором о зајму.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav129">
+					<content>
+						<p>Oдeљaк 2.04. Ступaњe нa снaгу Гaрaнциje</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav130">
+					<content>
+						<p>Oвaj угoвoр ступa нa снaгу у склaду сa члaнoм IX Стaндaрдних услoвa пословања и нaкoн одговарајућег потврђивања овог уговора од стране Нaрoдне скупштине Рeпубликe Србиje.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav131">
+					<content>
+						<p>ЧЛAН III – РAЗНO</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav132">
+					<content>
+						<p>Oдeљaк 3.01. Oбaвeштeњa</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav133">
+					<content>
+						<p>Слeдeћe aдрeсe су наведене зa сврхe Oдeљкa 10.01. Стaндaрдних услoвa пословања:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav134">
+					<content>
+						<p>Зa Гaрaнтa</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav135">
+					<content>
+						<p>Mинистaрство финaнсиja Рeпубликe Србиje</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav136">
+					<content>
+						<p>Кнeзa Mилoшa 20</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav137">
+					<content>
+						<p>11000 Бeoгрaд</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav138">
+					<content>
+						<p>Рeпубликa Србиja</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav139">
+					<content>
+						<p>Нa рукe: министру финaнсиja</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav140">
+					<content>
+						<p>Фaкс: + 381 11 3618 961</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav141">
+					<content>
+						<p>Зa Бaнку:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav142">
+					<content>
+						<p>Европска банка за обнову и развој</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav143">
+					<content>
+						<p>One Exchange Square</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav144">
+					<content>
+						<p>Лондон EC2A 2JN</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav145">
+					<content>
+						<p>Велика Британија</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav146">
+					<content>
+						<p>На руке: Сектор за административне послове</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav147">
+					<content>
+						<p>Фaкс: +44-20-7338-6100</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav148">
+					<content>
+						<p>Oдeљaк 3.02. Прaвнo мишљeњe</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav149">
+					<content>
+						<p>Зa сврхe Oдeљкa 9.03(б) Стaндaрдних услoвa пословања и у склaду сa Oдeљкoм 6.02(б) Угoвoрa o зajму, мишљeњe или мишљeњa прaвнoг сaвeтникa дaћe у имe Гaрaнтa министaр прaвдe.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav150">
+					<content>
+						<p>КAO ДOКAЗ НAПРEД НAВEДEНOГ, угoвoрнe стрaнe су, пoступajући прeкo свojих урeднo oвлaшћeних прeдстaвникa, потписале oвaj угoвoр у шeст примeракa на енглеском језику и закључиле га у Бeoгрaду, Рeпубликa Србиja, горе наведеног датума и године.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav151">
+					<content>
+						<p>РEПУБЛИКA СРБИJA</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav152">
+					<content>
+						<p>Пoтписуje:______________________________</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav153">
+					<content>
+						<p>Имe: Синиша Мали, с.р.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav154">
+					<content>
+						<p>Функциja: министар финансија</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav155">
+					<content>
+						<p>EВРOПСКA БAНКA</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav156">
+					<content>
+						<p>ЗA OБНOВУ И РAЗВOJ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav157">
+					<content>
+						<p>Пoтписуje:______________________________</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav158">
+					<content>
+						<p>Имe: Sue Barrett, с.р.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<heading>Функциja: директор за транспорт</heading>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије – Међународни уговори”.</p>
+					</content>
+				</paragraph>
+			</article>
+		</body>
+	</act>
+</akomaNtoso>

@@ -1,0 +1,509 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о заштити од буке у животној средини">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2009/36-100/main"/>
+					<FRBRuri value="/rs/act/2009/36-100"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2010/88-161/srp@/main"/>
+					<FRBRuri value="/rs/act/2010/88-161/srp@"/>
+					<FRBRdate date="2010-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2010/88-161/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2010/88-161/srp@.akn"/>
+					<FRBRdate date="2010-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2009-05-15" name="“службени гласник рс" number="36" showAs="“Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="X ДОБРА ОД ОПШТЕГ ИНТЕРЕСА И ЖИВОТНА СРЕДИНА" value="x добра од општег интереса и животна средина" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="11. Животна средина" value="11. животна средина" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2009-01-01" refersTo="36/2009-100" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2010-01-01" refersTo="88/2010-161" source="#somebody" type="amendment" wId="e2"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2009-05-12" wId="usvajanje"/>
+				<step by="#TODO" date="2009-05-23" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2009-05-23" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 23. маја 2009. године (види члан 41. Закона).Стратешке карте буке за агломерације са више од 250.000 становника, за главне путеве са просечним годишњим протоком саобраћаја већим од 6.000.000 возила, за главне пруге са просечним годишњим протоком саобраћаја већим од 60.000 возова и за главне аеродроме, израдиће се најкасније до 30. јуна 2015. године.Стратешке карте буке за агломерације са више од 100.000 становника, за главне путеве са просечним годишњим протоком саобраћаја већим од 3.000.000 возила, за главне пруге са просечним годишњим протоком саобраћаја већим од 30.000 возова и за аеродроме који нису обухваћени претходним ставом, израдиће се најкасније до 31. децембра 2020. године.Акциони планови заштите од буке у животној средини донеће се у року од годину дана од дана израде наведених стратешких карата буке (види члан 13. Закона - 88/2010-161).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О заштити од буке у животној средини “Службени гласник РС”, бр. 36 од 15. маја 2009, 88 од 23. новембра 2010.</p>
+			</longTitle>
+			<p>﻿</p>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<heading>Предмет закона</heading>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређују се: субјекти заштите животне средине од буке; мере и услови заштите од буке у животној средини; мерење буке у животној средини; приступ информацијама о буци; надзор и друга питања од значаја за заштиту животне средине и здравље људи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav2">
+						<content>
+							<p>Одредбе овог закона не односе се на буку која настаје на радном месту и у радној околини, буку која настаје у превозном средству, буку која потиче од војних активности на армијским полигонима и активности на заштити од елементарних непогода, природних и других удеса, буку од активности у домаћинству или буку из суседног домаћинства, као и на буку којој су изложени они који је стварају.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<heading>Заштита животне средине од буке</heading>
+					<paragraph wId="gla1-clan2-stav1">
+						<intro>
+							<p>Заштита животне средине од буке обезбеђује се утврђивањем услова и предузимањем мера заштите које су део интегралног система заштите животне средине и односе се на:</p>
+						</intro>
+						<point wId="gla1-clan2-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> просторно, урбанистичко и акустичко планирање;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> звучну заштиту;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> стратешку процену утицаја планова и програма, односно процену утицаја пројеката на животну средину, као и на издавање дозволе за изградњу и рад постројења, односно обављање активности;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> прописивање граничних вредности  индикатора*  буке у животној средини;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> производњу, промет и употребу извора буке;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> акустичко зонирање;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> израду стратешких карата буке;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> израду акционих планова заштите од буке у животној средини;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> мерење и оцену буке у животној средини;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p> процену штетних ефеката буке на здравље људи *;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac11">
+							<num>11)</num>
+							<content>
+								<p> информисање јавности о буци и њеним штетним ефектима у животној средини.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav2">
+						<content>
+							<p>*<ref wId="ref0" href="akn/rs/act/2010/88/srp@">Службени гласник РС, број 88/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<heading>Значење израза</heading>
+					<paragraph wId="gla1-clan3-stav1">
+						<intro>
+							<p>Поједини изрази употребљени у овом закону имају следеће значење:</p>
+						</intro>
+						<point wId="gla1-clan3-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> бука у животној средини јесте нежељен или штетан звук (у даљем тексту: бука);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> извор буке јесте сваки емитер нежељеног или штетног звука  који настаје као последица активности људи*. То може да буде сваки уређај, средство за рад, саобраћајно средство, инсталација постројења, технолошки поступак, електроакустички уређај *. Изворима звука сматрају се покретни и непокретни објекти који под одређеним околностима генеришу звук, а такође и отворени и затворени простори за спорт, игру, плес, представе, концерте, слушање музике и сл. као и угоститељски објекти, гараже, паркинг простори и др.;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> штетни ефекти јесу негативни утицаји буке на здравље људи *;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> узнемиравање јесте степен ометања људи буком, који се утврђује испитивањем на лицу места прописаним методама процене;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> индикатор буке јесте физичка величина којом се описује бука у животној средини, а  која је у узајамној вези са штетним ефектом буке*;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> процена јесте метод који се користи за израчунавање, предвиђање или мерење индикатора буке или одговарајућих штетних ефеката буке;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> акустичко зонирање јесте одређивање граничне вредности индикатора буке за различита подручја према њиховој намени;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> агломерација јесте део територије са преко 100.000 становника и са таквом густином становништва да се може сматрати урбанизованим подручјем;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> главни пут јесте државни пут  I и II реда, са просечним годишњим протоком саобраћаја већим од три милиона возила;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p> главна пруга јесте магистрална и регионална пруга, са просечним годишњим протоком саобраћаја већим од 30.000 возова;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac11">
+							<num>11)</num>
+							<content>
+								<p> главни аеродром јесте цивилни аеродром са више од 50.000 операција (полетања или слетања) годишње, изузимајући оне за потребе обуке на лаким ваздухопловима;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac12">
+							<num>12)</num>
+							<content>
+								<p> израда стратешких карата буке јесте представљање података о постојећим или процењеним нивоима буке, укључујући прекорачења прописаних граничних вредности, броја људи изложених буци на неком подручју или броја домаћинстава изложених одређеним вредностима индикатора буке на одређеном подручју;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac13">
+							<num>13)</num>
+							<content>
+								<p> стратешка карта буке јесте карта која представља податке о нивоима буке на одређеном подручју и служи за процену укупне изложености буци одређеног подручја од различитих извора буке или за предвиђање укупне буке на неком подручју;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac14">
+							<num>14)</num>
+							<content>
+								<p> гранична вредност буке јесте највиша дозвољена вредност индикатора буке (у даљем тексту: гранична вредност). Граничне вредности могу бити различите за различите изворе буке, односно за различите акустичке зоне, као и за различите затворене и отворене просторе у којима бораве људи;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac15">
+							<num>15)</num>
+							<content>
+								<p> акциони планови заштите од буке у животној средини јесу планови који садрже мере заштите од буке и њених ефеката у животној средини, као и мере за смањење буке у случају прекорачења граничних вредности;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac16">
+							<num>16)</num>
+							<content>
+								<p> акустичко планирање јесте предузимање мера заштите од буке у будућности, као што су просторно планирање, пројектовање и планирање система саобраћаја, примена звучне заштите путем одговарајуће звучне изолације и звучних баријера, као и праћење нивоа буке коју емитују извори буке;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac17">
+							<num>17)</num>
+							<content>
+								<p> звучна заштита јесте скуп мера којим се обезбеђује да звук при преносу из једног у други простор буде ослабљен, као и мере да се бука уређаја и инсталација у објекту смањи. Звучна заштита подразумева и скуп мера које се спроводе у спољном простору, а које утичу на смањење нивоа звука при простирању. Звучна заштита се реализује пројектовањем и извођењем звучне изолације конструкција и мерама смањења, односно ограничења буке;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac18">
+							<num>18)</num>
+							<content>
+								<p> звучна изолација јесте својство грађевинске конструкције да, у што већој мери, спречи преношење звучне енергије из једног простора у други. Звучна изолација може да буде од ваздушног или структурног звука и остварује се на објекту архитектонско-грађевинским мерама које спречавају пренос звука из једног у други простор;*</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac19">
+							<num>19)</num>
+							<content>
+								<p> акустичка зона јесте подручје на чијој је целој површини прописана јединствена гранична вредност индикатора буке.*</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav2">
+						<content>
+							<p>*<ref wId="ref1" href="akn/rs/act/2010/88/srp@">Службени гласник РС, број 88/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>СУБЈЕКТИ ЗАШТИТЕ ЖИВОТНЕ СРЕДИНЕ ОД БУКЕ</heading>
+				<article wId="gla2-clan4">
+					<num>4.</num>
+					<heading>Субјекти заштите</heading>
+					<paragraph wId="gla2-clan4-stav1">
+						<intro>
+							<p>Субјекти заштите животне средине од буке на територији Републике Србије, у оквиру својих овлашћења, јесу:</p>
+						</intro>
+						<point wId="gla2-clan4-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> Република Србија;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan4-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> аутономна покрајина;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan4-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> општина, град, односно град Београд (у даљем тексту: јединица локалне самоуправе);</p>
+							</content>
+						</point>
+						<point wId="gla2-clan4-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> привредна друштва, правна лица и предузетници која у обављању привредне делатности емитују буку (у даљем тексту: правна и физичка лица);</p>
+							</content>
+						</point>
+						<point wId="gla2-clan4-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> научне и стручне организације и друге јавне службе, удружења, грађани, друга правна и физичка лица.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan5">
+					<num>5.</num>
+					<heading>Република Србија</heading>
+					<paragraph wId="gla2-clan5-stav1">
+						<content>
+							<p>Република Србија преко надлежних органа и организација обезбеђује заштиту од буке у животној средини на својој територији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav2">
+						<intro>
+							<p>Министарство надлежно за послове заштите животне средине (у даљем тексту: Министарство):</p>
+						</intro>
+						<point wId="gla2-clan5-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> утврђује мере и услове заштите од буке, односно звучне заштите у плановима, програмима и пројектима, укључујући и оне на које даје сагласност у поступку стратешке процене утицаја, процене утицаја пројеката на животну средину, односно у поступку издавања интегрисане дозволе за рад постројења и активности;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> предлаже Влади акциони план заштите од буке у животној средини за територију Републике Србије;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> координира и врши послове заштите од буке у животној средини од значаја за Републику Србију;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> прописује и утврђује испуњеност услова за овлашћивање стручних организација за мерење буке у животној средини, у складу са овим законом;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav2-tac5">
+							<num>5)</num>
+							<content>
+								<p> врши надзор и контролу примене мера заштите од буке у животној средини.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan6">
+					<num>6.</num>
+					<heading>Агенција за заштиту животне средине</heading>
+					<paragraph wId="gla2-clan6-stav1">
+						<content>
+							<p>Агенција за заштиту животне средине (у даљем тексту: Агенција) обезбеђује израду стратешких карата буке из надлежности Републике Србије, води и ажурира базу података из мониторинга буке у информационом систему заштите животне средине, у складу са законом којим се уређује заштита животне средине.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan7">
+					<num>7.</num>
+					<heading>Аутономна покрајина</heading>
+					<paragraph wId="gla2-clan7-stav1">
+						<intro>
+							<p>Аутономна покрајина:</p>
+						</intro>
+						<point wId="gla2-clan7-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Превентивне мере</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Индикатори буке и граничне вредности</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Појединачни извори буке</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac4">
+							<num>4.</num>
+							<content>
+								<p> Стратешке карте буке</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac5">
+							<num>5.</num>
+							<content>
+								<p> Акциони планови</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Превентивне мере</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Индикатори буке и граничне вредности</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Појединачни извори буке</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac4">
+							<num>4.</num>
+							<content>
+								<p> Стратешке карте буке</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac5">
+							<num>5.</num>
+							<content>
+								<p> Акциони планови</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Превентивне мере</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Индикатори буке и граничне вредности</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Појединачни извори буке</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac4">
+							<num>4.</num>
+							<content>
+								<p> Стратешке карте буке</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac5">
+							<num>5.</num>
+							<content>
+								<p> Акциони планови</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Превентивне мере</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Индикатори буке и граничне вредности</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Појединачни извори буке</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac4">
+							<num>4.</num>
+							<content>
+								<p> Стратешке карте буке</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac5">
+							<num>5.</num>
+							<content>
+								<p> Акциони планови</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

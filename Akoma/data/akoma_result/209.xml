@@ -1,0 +1,375 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о  преузимању дела обавеза Металуршког комбината Смедерево по иностраним кредитима">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/1990/20-653/main"/>
+					<FRBRuri value="/rs/act/1990/20-653"/>
+					<FRBRdate date="1990-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/1991/66-2756/srp@/main"/>
+					<FRBRuri value="/rs/act/1991/66-2756/srp@"/>
+					<FRBRdate date="1991-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/1991/66-2756/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/1991/66-2756/srp@.akn"/>
+					<FRBRdate date="1991-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="1990-12-28" name="службени гласник рс" number="20" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="IV ЈАВНИ ПРИХОДИ" value="iv јавни приходи" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="4. Јавни зајмови" value="4. јавни зајмови" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="1990-01-01" refersTo="20/1990-653" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="1991-01-01" refersTo="66/1991-2756" source="#somebody" type="amendment" wId="e2"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="#TODO" date="1990-12-28" wId="usvajanje"/>
+				<step by="#TODO" date="1991-01-05" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="1991-01-05" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 5. јануара 1991. године (види члан 8. Закона).Престао је да важи члан 6. (види члан 8. тачку 8. Закона о престанку важења Закона о обавезном удруживању средстава друштвене репродукције за финансирање одређених неопходних потреба од општег интереса за Републику, Службени гласник Републике Србије, број 66/1991-2756).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О  преузимању дела обавеза металуршког комбината смедерево по иностраним кредитима „Службени гласник РС”, бр. 20 од 28. децембра 1990, 66 од 6. новембра 1991 - др. закон</p>
+			</longTitle>
+			<p>﻿  Редакцијски пречишћен текст</p>
+		</preface>
+		<body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Република Србија (у даљем тексту: Република) преузима део обавеза Металуршког комбината Смедерево по иностраном кредиту по уговору бр. 121-1-297 од 2. августа 1979. године у висини динарске противвредности 132 милиона америчких долара.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan1-stav2">
+					<content>
+						<p>Поред износа из <ref wId="ref0" href="akn/rs/act/1991/66-2756/srp@/!main~art_1__para_1" >става 1. овог</ref> члана Република преузима обавезу и по основу припадајућег дела камате.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Обавеза Републике по основу преузетог иностраног дуга из <ref wId="ref1" href="akn/rs/act/1991/66-2756/srp@/!main~art_1" >члана 1. овог</ref> закона извршиће се у годишњим износима утврђеним амортизационим планом о отплати дуга из <ref wId="ref2" href="akn/rs/act/1991/66-2756/srp@/!main~art_1" >члана 1. овог</ref> закона.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Средства за измирење обавезе из <ref wId="ref3" href="akn/rs/act/1991/66-2756/srp@/!main~art_2" >члана 2. овог</ref> закона обезбеђиваће се у буџету Републике, сваке године до коначне отплате преузете обавезе.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan4">
+				<num>4.</num>
+				<paragraph wId="clan4-stav1">
+					<content>
+						<p>Преузете обавезе из <ref wId="ref4" href="akn/rs/act/1991/66-2756/srp@/!main~art_1__para_1" >члана 1. став 1. овог</ref> закона представљају улог Републике у трајном капиталу Металуршког комибината ДД Смедерево.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan4-stav2">
+					<content>
+						<p>Преузете обавезе као и закључивање уговора о оснивању Металуршког комбината ДД Смедерево у име и за рачун Републике извршиће Републички фонд за развој и преструктурирање привреде.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan5">
+				<num>5.</num>
+				<paragraph wId="clan5-stav1">
+					<content>
+						<p>Курсне разлике које се по основу кредита који се преузимају <ref wId="ref5" href="akn/rs/act/1991/66-2756/srp@/!main~art_1" >чланом 1. овог</ref> закона остваре сходно савезном закону о покрићу курсних разлика, увећавају улог Републике у трајном капиталу Металуршког комбината ДД Смедерево.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan6">
+				<num>6.</num>
+				<heading>ПРЕЛАЗНЕ ОДРЕДБЕ</heading>
+			</article>
+			<article wId="clan7">
+				<num>7.</num>
+				<heading>Престао је да важи (види члан 8. Закона – 66/1991-2756)</heading>
+				<paragraph wId="clan7-stav1">
+					<content>
+						<p>До конституисања Републичког фонда за развој и преструктурирање привреде, послове из <ref wId="ref6" href="akn/rs/act/1991/66-2756/srp@/!main~art_4__para_2" >члана 4. став 2. овог</ref> закона обављаће Агенција за страна улагања, својинске и производне промене.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan8">
+				<num>8.</num>
+				<paragraph wId="clan8-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan8-stav2">
+					<content>
+						<p>ЗАКОН</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan8-stav3">
+					<content>
+						<p>о  преузимању дела обавеза Металуршког комбината Смедерево по иностраним кредитима</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<heading>„Службени гласник РС”, бр. 20 од 28.   децембра 1990, 66 од 6. новембра 1991  - др. закон</heading>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Република Србија (у даљем тексту: Република) преузима део обавеза Металуршког комбината Смедерево по иностраном кредиту по уговору бр. 121-1-297 од 2. августа 1979. године у висини динарске противвредности 132 милиона америчких долара.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan1-stav2">
+					<content>
+						<p>Поред износа из става 1. овог члана Република преузима обавезу и по основу припадајућег дела камате.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Обавеза Републике по основу преузетог иностраног дуга из члана 1. овог закона извршиће се у годишњим износима утврђеним амортизационим планом о отплати дуга из члана 1. овог закона.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Средства за измирење обавезе из члана 2. овог закона обезбеђиваће се у буџету Републике, сваке године до коначне отплате преузете обавезе.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan4">
+				<num>4.</num>
+				<paragraph wId="clan4-stav1">
+					<content>
+						<p>Преузете обавезе из члана 1. став 1. овог закона представљају улог Републике у трајном капиталу Металуршког комибината ДД Смедерево.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan4-stav2">
+					<content>
+						<p>Преузете обавезе као и закључивање уговора о оснивању Металуршког комбината ДД Смедерево у име и за рачун Републике извршиће Републички фонд за развој и преструктурирање привреде.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan5">
+				<num>5.</num>
+				<paragraph wId="clan5-stav1">
+					<content>
+						<p>Курсне разлике које се по основу кредита који се преузимају чланом 1. овог закона остваре сходно савезном закону о покрићу курсних разлика, увећавају улог Републике у трајном капиталу Металуршког комбината ДД Смедерево.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan6">
+				<num>6.</num>
+				<heading>ПРЕЛАЗНЕ ОДРЕДБЕ</heading>
+			</article>
+			<article wId="clan7">
+				<num>7.</num>
+				<heading>Престао је да важи (види члан 8. Закона – 66/1991-2756)</heading>
+				<paragraph wId="clan7-stav1">
+					<content>
+						<p>До конституисања Републичког фонда за развој и преструктурирање привреде, послове из члана 4. став 2. овог закона обављаће Агенција за страна улагања, својинске и производне промене.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan8">
+				<num>8.</num>
+				<paragraph wId="clan8-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan8-stav2">
+					<content>
+						<p>ЗАКОН</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan8-stav3">
+					<content>
+						<p>о  преузимању дела обавеза Металуршког комбината Смедерево по иностраним кредитима</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<heading>„Службени гласник РС”, бр. 20 од 28.   децембра 1990, 66 од 6. новембра 1991  - др. закон</heading>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Република Србија (у даљем тексту: Република) преузима део обавеза Металуршког комбината Смедерево по иностраном кредиту по уговору бр. 121-1-297 од 2. августа 1979. године у висини динарске противвредности 132 милиона америчких долара.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan1-stav2">
+					<content>
+						<p>Поред износа из става 1. овог члана Република преузима обавезу и по основу припадајућег дела камате.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Обавеза Републике по основу преузетог иностраног дуга из члана 1. овог закона извршиће се у годишњим износима утврђеним амортизационим планом о отплати дуга из члана 1. овог закона.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Средства за измирење обавезе из члана 2. овог закона обезбеђиваће се у буџету Републике, сваке године до коначне отплате преузете обавезе.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan4">
+				<num>4.</num>
+				<paragraph wId="clan4-stav1">
+					<content>
+						<p>Преузете обавезе из члана 1. став 1. овог закона представљају улог Републике у трајном капиталу Металуршког комибината ДД Смедерево.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan4-stav2">
+					<content>
+						<p>Преузете обавезе као и закључивање уговора о оснивању Металуршког комбината ДД Смедерево у име и за рачун Републике извршиће Републички фонд за развој и преструктурирање привреде.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan5">
+				<num>5.</num>
+				<paragraph wId="clan5-stav1">
+					<content>
+						<p>Курсне разлике које се по основу кредита који се преузимају чланом 1. овог закона остваре сходно савезном закону о покрићу курсних разлика, увећавају улог Републике у трајном капиталу Металуршког комбината ДД Смедерево.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan6">
+				<num>6.</num>
+				<heading>ПРЕЛАЗНЕ ОДРЕДБЕ</heading>
+			</article>
+			<article wId="clan7">
+				<num>7.</num>
+				<heading>Престао је да важи (види члан 8. Закона – 66/1991-2756)</heading>
+				<paragraph wId="clan7-stav1">
+					<content>
+						<p>До конституисања Републичког фонда за развој и преструктурирање привреде, послове из члана 4. став 2. овог закона обављаће Агенција за страна улагања, својинске и производне промене.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan8">
+				<num>8.</num>
+				<paragraph wId="clan8-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan8-stav2">
+					<content>
+						<p>ЗАКОН</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan8-stav3">
+					<content>
+						<p>о  преузимању дела обавеза Металуршког комбината Смедерево по иностраним кредитима</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<heading>„Службени гласник РС”, бр. 20 од 28.   децембра 1990, 66 од 6. новембра 1991  - др. закон</heading>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Република Србија (у даљем тексту: Република) преузима део обавеза Металуршког комбината Смедерево по иностраном кредиту по уговору бр. 121-1-297 од 2. августа 1979. године у висини динарске противвредности 132 милиона америчких долара.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan1-stav2">
+					<content>
+						<p>Поред износа из става 1. овог члана Република преузима обавезу и по основу припадајућег дела камате.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Обавеза Републике по основу преузетог иностраног дуга из члана 1. овог закона извршиће се у годишњим износима утврђеним амортизационим планом о отплати дуга из члана 1. овог закона.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Средства за измирење обавезе из члана 2. овог закона обезбеђиваће се у буџету Републике, сваке године до коначне отплате преузете обавезе.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan4">
+				<num>4.</num>
+				<paragraph wId="clan4-stav1">
+					<content>
+						<p>Преузете обавезе из члана 1. став 1. овог закона представљају улог Републике у трајном капиталу Металуршког комибината ДД Смедерево.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan4-stav2">
+					<content>
+						<p>Преузете обавезе као и закључивање уговора о оснивању Металуршког комбината ДД Смедерево у име и за рачун Републике извршиће Републички фонд за развој и преструктурирање привреде.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan5">
+				<num>5.</num>
+				<paragraph wId="clan5-stav1">
+					<content>
+						<p>Курсне разлике које се по основу кредита који се преузимају чланом 1. овог закона остваре сходно савезном закону о покрићу курсних разлика, увећавају улог Републике у трајном капиталу Металуршког комбината ДД Смедерево.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan6">
+				<num>6.</num>
+				<heading>ПРЕЛАЗНЕ ОДРЕДБЕ</heading>
+			</article>
+			<article wId="clan7">
+				<num>7.</num>
+				<heading>Престао је да важи (види члан 8. Закона – 66/1991-2756)</heading>
+				<paragraph wId="clan7-stav1">
+					<content>
+						<p>До конституисања Републичког фонда за развој и преструктурирање привреде, послове из члана 4. став 2. овог закона обављаће Агенција за страна улагања, својинске и производне промене.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan8">
+				<num>8.</num>
+				<paragraph wId="clan8-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+					</content>
+				</paragraph>
+			</article>
+		</body>
+	</act>
+</akomaNtoso>

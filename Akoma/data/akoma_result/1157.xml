@@ -1,0 +1,219 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о потврђивању Трговинског споразума између Владе Републике Србије и Владе Државе Кувајт">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2011/6-6/main"/>
+					<FRBRuri value="/rs/act/2011/6-6"/>
+					<FRBRdate date="2011-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2011/6-6/srp@/main"/>
+					<FRBRuri value="/rs/act/2011/6-6/srp@"/>
+					<FRBRdate date="2011-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2011/6-6/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2011/6-6/srp@.akn"/>
+					<FRBRdate date="2011-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2011-07-08" name="службени гласник рс - међународни уговори" number="6" showAs="Службени гласник РС - Међународни уговори"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="XI ТРГОВИНА, ТУРИЗАМ И УГОСТИТЕЉСТВО" value="xi трговина, туризам и угоститељство" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="1. Трговина" value="1. трговина" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2011-07-05" wId="usvajanje"/>
+				<step by="#TODO" date="2011-07-16" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2011-07-16" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Трговински споразум између Владе Републике Србије и Владе Државе Кувајт ступио је на снагу 24. јула 2013. године (види Обавештење: Службени гласник РС - Међународни уговори, број 10/2013-2)</p>
+				</note>
+				<note wId="not2">
+					<p>Трговински споразум између Владе Републике Србије и Владе Државе Кувајт ступио је на снагу 24. јула 2013. године (види Обавештење: Службени гласник РС - Међународни уговори, број 10/2013-2)</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О потврђивању трговинског споразума између владе републике србије и владе државе кувајт "Службени гласник РС - Међународни уговори", број 6 од 8. јула 2011.</p>
+			</longTitle>
+			<p>Борис Тадић, с.р.</p>
+		</preface>
+		<preamble>
+			<p>31</p>
+			<p>На основу члана 112. став 1. тачка 2. Устава Републике Србије, доносим</p>
+			<p>УКАЗ</p>
+			<p>о проглашењу Закона о потврђивању Трговинског споразума између Владе Републике Србије  и Владе Државе Кувајт</p>
+			<p>Проглашава се Закон о потврђивању Трговинског споразума између Владе Републике Србије и Владе Државе Кувајт, који је донела Народна скупштина Републике Србије на седници Петог ванредног заседања у 2011. години, 5. јула 2011. године.</p>
+			<p>ПР број 66</p>
+			<p>У Београду, 8. јула 2011. године</p>
+			<p>Председник Републике,</p>
+		</preamble>
+		<body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Потврђује се Трговински споразум између Владе Републике Србије и Владе Државе Кувајт, потписан 10. априла 2011. године у Кувајту, у оригиналу на српском, арапском и енглеском језику.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Текст Трговинског споразума између Владе Републике Србије и Владе Државе Кувајт у оригиналу на српском језику гласи:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>ТРГОВИНСКИ СПОРАЗУМ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav3">
+					<content>
+						<p>ИЗМЕЂУ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav4">
+					<content>
+						<p>ВЛАДЕ РЕПУБЛИКЕ СРБИЈЕ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav5">
+					<content>
+						<p>И</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav6">
+					<content>
+						<p>ВЛАДЕ ДРЖАВЕ КУВАЈТ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav7">
+					<content>
+						<p>Влада Републике Србије и Влада Државе Кувајт (у даљем тексту: стране уговорнице)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav8">
+					<content>
+						<p>У жељи да развијajу трговинске односе између двеју земаља, на основу равноправности и узајамне користи,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav9">
+					<content>
+						<p>У зависности од развоја и проширења размене добара и услуга, договориле су се о следећем:</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Стране уговорнице ће предузети све неопходне мере за повећање и проширење размене добара и услуга између двеју земаља, на основу овог споразума.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Стране уговорнице ће једна другој доделити третман најповлашћеније нације у односу на извоз и увоз роба пореклом са територије њихових земаља, у складу са принципима Општег споразума о царинама и трговини (ГАТТ 1994).</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Одредбе <ref wId="ref0" href="akn/rs/act/2011/6-6/srp@/!main~art_2" >члана 2. овог</ref> споразума се неће односити на:</p>
+					</content>
+				</paragraph>
+			</article>
+			<subsection wId="podod1">
+				<num>а</num>
+				<heading> предности које је било која страна уговорница одобрила или које може одобрити суседним земљама, како би олакшала пограничну трговину;</heading>
+			</subsection>
+			<subsection wId="podod2">
+				<num>б</num>
+				<heading> предности које настају из постојећег чланства или могућег чланства било које стране уговорнице у царинској унији или зони слободне трговине;</heading>
+			</subsection>
+			<subsection wId="podod3">
+				<num>в</num>
+				<heading> предности које су одобрене или које могу бити одобрене било којој трећој земљи у оквиру билатералног или мултилатералног споразума који има за циљ економску интеграцију.</heading>
+				<article wId="podod3-clan4">
+					<num>4.</num>
+					<paragraph wId="podod3-clan4-stav1">
+						<content>
+							<p>Стране уговорнице ће промовисати закључивање уговора између правних и физичких лица у Републици Србији и Држави Кувајт, овлашћених за обављање спољне трговине у складу са важећим законима и прописима у двема земљама.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod3-clan5">
+					<num>5.</num>
+					<paragraph wId="podod3-clan5-stav1">
+						<content>
+							<p>Стране уговорнице ће једна другој пружати неопходне олакшице за учешће на трговинским сајмовима и међународним изложбама, организованим у складу са важећим законима и прописима у двема земљама.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod3-clan6">
+					<num>6.</num>
+					<paragraph wId="podod3-clan6-stav1">
+						<content>
+							<p>Стране уговорнице ће подстицати узајамне посете делегација двеју земаља ради даљег повећања обима билатералних трговинских уговора, у складу са важећим законима и прописима у двема земљама.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod3-clan7">
+					<num>7.</num>
+					<paragraph wId="podod3-clan7-stav1">
+						<content>
+							<p>Плаћањa за све робе и услуге према уговорима из <ref wId="ref1" href="akn/rs/act/2011/6-6/srp@/!main~art_4" >члана 4. овог</ref> споразума, вршиће се у конвертибилним валутама.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod3-clan8">
+					<num>8.</num>
+					<paragraph wId="podod3-clan8-stav1">
+						<intro>
+							<p>Стране уговорнице ће изузети од плаћања царине и пореза, у складу са законима и прописима на снази у двема земљама, следећа добра:</p>
+						</intro>
+						<point wId="podod3-clan8-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> узорке или рекламни материјал који немају тржишну вредност и служе за промоцију и трговину,</p>
+							</content>
+						</point>
+						<point wId="podod3-clan8-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> материјал и опрему који имају тржишну вредност, али су реекспортовани након претходног увоза за потребе трговинских сајмова и изложби.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="podod3-clan9">
+					<num>9.</num>
+					<paragraph wId="podod3-clan9-stav1">
+						<content>
+							<p>Стране уговорнице ће основати Мешовити комитет за трговину, састављен од њихових представника, а његове функције биће следеће:</p>
+						</content>
+					</paragraph>
+				</article>
+			</subsection>
+		</body>
+	</act>
+</akomaNtoso>

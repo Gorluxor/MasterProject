@@ -1,0 +1,319 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о акредитацији">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2010/73-12/main"/>
+					<FRBRuri value="/rs/act/2010/73-12"/>
+					<FRBRdate date="2010-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2010/73-12/srp@/main"/>
+					<FRBRuri value="/rs/act/2010/73-12/srp@"/>
+					<FRBRdate date="2010-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2010/73-12/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2010/73-12/srp@.akn"/>
+					<FRBRdate date="2010-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2010-10-12" name="службени гласник рс“" number="73" showAs="Службени гласник РС“"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="VIII РАЗВОЈ" value="viii развој" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="5. Стандардизација" value="5. стандардизација" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2010-10-12" wId="usvajanje"/>
+				<step by="#TODO" date="2010-10-20" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2010-10-20" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 20. октобра 2010. године (види члан 27. Закона).Акти о акредитацији издати до дана ступања на снагу овог закона важе до истека периода за који су издати. Поступци акредитације који су започети пре ступања на снагу овог закона окончаће се по прописима који су важили до дана ступања на снагу овог закона (види члан 25. Закона).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О акредитацији „Службени гласник РС“, број 73 од 12. октобра 2010.</p>
+			</longTitle>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређује се акредитација, положај и рад националног тела за акредитацију у Републици Србији, као и друга питања од значаја за акредитацију.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<paragraph wId="gla1-clan2-stav1">
+						<intro>
+							<p>Поједини изрази употребљени у овом закону имају следеће значење:</p>
+						</intro>
+						<point wId="gla1-clan2-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> акредитација је утврђивање од стране националног тела за акредитацију да ли тело за оцењивање усаглашености испуњава захтеве одговарајућих српских, односно међународних и европских стандарда, и када је применљиво, све додатне захтеве дефинисане за поједине области, како би се вршили одређени послови оцењивања усаглашености;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> сертификат о акредитацији је документ којим се потврђује да је тело за оцењивање усаглашености компетентно за обављање послова оцењивања усаглашености, за одређену област и обим;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> колегијално оцењивање је поступак оцењивања у којем национална акредитациона тела других држава или међународне и европске организације за акредитацију оцењују национално тело за акредитацију, у складу с правилима међународних и европских организација за акредитацију;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> компетентност је потврђена способност за обављање послова оцењивања усаглашености;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> оцењивање усаглашености је свака активност којом се утврђује да ли су испуњени одређени захтеви који се односе на производ, процес, услугу, систем или особу;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> правила акредитације су правила националног тела за акредитацију којима се дефинише поступак акредитације, захтеви које мора испунити подносилац пријаве за добијање акредитације, као и права и обавезе учесника у поступку добијања и одржавања акредитације;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> тело за оцењивање усаглашености је правно лице или део правног лица које обавља послове оцењивања усаглашености, укључујући испитивање, еталонирање, сертификацију и контролисање;</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav2">
+						<content>
+							<p>Други изрази који се употребљавају у овом закону, а нису дефинисани у <ref wId="ref0" href="akn/rs/act/2010/73-12/srp@/!main~art_2__para_1" >ставу 1. овог</ref> члана, имају значење дефинисано законом којим се уређују технички захтеви за производе и оцењивање усаглашености.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<paragraph wId="gla1-clan3-stav1">
+						<intro>
+							<p>Акредитацијом се утврђује компетентност тела за оцењивање усаглашености за обављање послова:</p>
+						</intro>
+						<point wId="gla1-clan3-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> испитивања;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> еталонирања;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> контролисања;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> сертификације производа;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> сертификације система менаџмента;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> сертификације особа.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav2">
+						<content>
+							<p>Акредитацијом се, поред компетентности за обављање послова из <ref wId="ref1" href="akn/rs/act/2010/73-12/srp@/!main~art_3__para_1" >става 1. овог</ref> члана, утврђује и компетентност за обављање других послова оцењивања усаглашености, у складу са посебним законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>Акредитација је добровољна.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav2">
+						<content>
+							<p>Посебним законом може бити утврђено да је акредитација обавезна.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>АКРЕДИТАЦИОНО ТЕЛО СРБИЈЕ</heading>
+				<article wId="gla2-clan5">
+					<num>5.</num>
+					<paragraph wId="gla2-clan5-stav1">
+						<content>
+							<p>Акредитационо тело Србије (у даљем тексту: АТС) је једино у Републици Србији коме се овим законом поверава обављање послова акредитације из чл. <ref wId="ref2" href="akn/rs/act/2010/73-12/srp@/!main~art_3" >3</ref>. и <ref wId="ref3" href="akn/rs/act/2010/73-12/srp@/!main~art_8" >8</ref>. овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav2">
+						<content>
+							<p>Оснивач АТС-а је Република Србија, за коју оснивачка права врши Влада, у складу са законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav3">
+						<content>
+							<p>Средства којима послује АТС су у државној својини.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav4">
+						<content>
+							<p>АТС не обавља послове ради стицања добити.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan6">
+					<num>6.</num>
+					<paragraph wId="gla2-clan6-stav1">
+						<content>
+							<p>АТС је установа која се региструје у складу са законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav2">
+						<content>
+							<p>На питања оснивања, организације, положаја и делатности АТС-а примењују се одредбе закона којим се уређују јавне службе, ако овим законом није другачије одређено.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan7">
+					<num>7.</num>
+					<paragraph wId="gla2-clan7-stav1">
+						<content>
+							<p>АТС мора испуњавати захтеве стандарда којим су утврђени општи захтеви за акредитациона тела која утврђују компетентност тела за оцењивање усаглашености.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav2">
+						<content>
+							<p>Организација и начин рада АТС-а утврђује се оснивачким актом, статутом и другим општим актима АТС-а.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan8">
+					<num>8.</num>
+					<paragraph wId="gla2-clan8-stav1">
+						<intro>
+							<p>Поред послова из <ref wId="ref4" href="akn/rs/act/2010/73-12/srp@/!main~art_3" >члана 3. овог</ref> закона, АТС обавља и следеће послове:</p>
+						</intro>
+						<point wId="gla2-clan8-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> утврђује и објављује правила акредитације која су заснована на одговарајућим српским, међународним и европским стандардима и документима међународних и европских организација за акредитацију;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan8-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> води јавни регистар акредитованих тела за оцењивање усаглашености;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan8-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> учествује у раду међународних и европских организација за акредитацију;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan8-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> обавља и друге послове, у складу са законом, оснивачким актом и статутом.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav2">
+						<content>
+							<p>Садржај и начин вођења регистра из става 1. тачка <ref wId="ref5" href="akn/rs/act/2010/73-12/srp@/!main~art_8__para_1__point_2" >2</ref>) овог члана утврђује АТС.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan9">
+					<num>9.</num>
+					<paragraph wId="gla2-clan9-stav1">
+						<content>
+							<p>АТС редовно чини доступним јавности информације о пословима које обавља у складу са чл. <ref wId="ref6" href="akn/rs/act/2010/73-12/srp@/!main~art_3" >3</ref>. и <ref wId="ref7" href="akn/rs/act/2010/73-12/srp@/!main~art_8" >8</ref>. овог закона, као и резултатима колегијалног оцењивања.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan10">
+					<num>10.</num>
+					<paragraph wId="gla2-clan10-stav1">
+						<content>
+							<p>АТС је независан од тела за оцењивање усаглашености које оцењује.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav2">
+						<intro>
+							<p>АТС не сме:</p>
+						</intro>
+						<point wId="gla2-clan10-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> пружати консултантске услуге телима за оцењивање усаглашености;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan10-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> обављати послове или пружати услуге које пружају тела за оцењивање усаглашености;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan10-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> имати власничка и/или управљачка права или друге финансијске интересе у телима за оцењивање усаглашености.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan11">
+					<num>11.</num>
+					<paragraph wId="gla2-clan11-stav1">
+						<content>
+							<p>Органи АТС су:</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

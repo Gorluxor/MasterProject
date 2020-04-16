@@ -1,0 +1,346 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон Закон о изменама и допунама Закона о порезу на доходак грађана  ('Службени гласник РС', број 86/2019) ступио је на  снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”,  односно 14. децембра 2019. године.  Одредбе овог закона примењиваће се од 1. јануара 2020. године, осим одредаба  члана 5. и члана 10. у делу који се односи на ослобођење од плаћања пореза по  основу зараде код послодавца који обавља иновациону делатност, које ће се  примењивати од 1. марта 2020. године.  Одредбе чл. 12, 13, 14. и 19. овог закона (за паушално опорезивање) примењиваће  се за утврђивање пореза на паушално утврђени приход почев за 2020. годину    (види чл.  22, 25. и 27. Закона – 86/2019-6) (текст Закона пре  измена и допуна из броја 86/2019 можете погледати са десне стране у делу  'Верзије пречишћеног текста').">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2001/24-1/main"/>
+					<FRBRuri value="/rs/act/2001/24-1"/>
+					<FRBRdate date="2001-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2019/86-6/srp@/main"/>
+					<FRBRuri value="/rs/act/2019/86-6/srp@"/>
+					<FRBRdate date="2019-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2019/86-6/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2019/86-6/srp@.akn"/>
+					<FRBRdate date="2019-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2001-04-12" name="“службени гласник рс" number="24" showAs="“Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="IV ЈАВНИ ПРИХОДИ" value="iv јавни приходи" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="2. Порези и акцизе" value="2. порези и акцизе" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2001-01-01" refersTo="24/2001-1" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2002-01-01" refersTo="80/2002-27" source="#somebody" type="amendment" wId="e2"/>
+				<eventRef date="2002-01-01" refersTo="80/2002-1" source="#somebody" type="amendment" wId="e3"/>
+				<eventRef date="2004-01-01" refersTo="135/2004-44" source="#somebody" type="amendment" wId="e4"/>
+				<eventRef date="2006-01-01" refersTo="62/2006-3" source="#somebody" type="amendment" wId="e5"/>
+				<eventRef date="2006-01-01" refersTo="65/2006-16" source="#somebody" type="amendment" wId="e6"/>
+				<eventRef date="2009-01-01" refersTo="31/2009-90" source="#somebody" type="amendment" wId="e7"/>
+				<eventRef date="2009-01-01" refersTo="44/2009-4" source="#somebody" type="amendment" wId="e8"/>
+				<eventRef date="2010-01-01" refersTo="18/2010-45" source="#somebody" type="amendment" wId="e9"/>
+				<eventRef date="2011-01-01" refersTo="50/2011-6" source="#somebody" type="amendment" wId="e10"/>
+				<eventRef date="2011-01-01" refersTo="91/2011-205" source="#somebody" type="amendment" wId="e11"/>
+				<eventRef date="2012-01-01" refersTo="93/2012-16" source="#somebody" type="amendment" wId="e12"/>
+				<eventRef date="2012-01-01" refersTo="114/2012-189" source="#somebody" type="amendment" wId="e13"/>
+				<eventRef date="2013-01-01" refersTo="47/2013-18" source="#somebody" type="amendment" wId="e14"/>
+				<eventRef date="2013-01-01" refersTo="48/2013-3" source="#somebody" type="amendment" wId="e15"/>
+				<eventRef date="2013-01-01" refersTo="108/2013-4" source="#somebody" type="amendment" wId="e16"/>
+				<eventRef date="2014-01-01" refersTo="57/2014-3" source="#somebody" type="amendment" wId="e17"/>
+				<eventRef date="2014-01-01" refersTo="68/2014-3" source="#somebody" type="amendment" wId="e18"/>
+				<eventRef date="2015-01-01" refersTo="112/2015-10" source="#somebody" type="amendment" wId="e19"/>
+				<eventRef date="2017-01-01" refersTo="113/2017-185" source="#somebody" type="amendment" wId="e20"/>
+				<eventRef date="2018-01-01" refersTo="95/2018-252" source="#somebody" type="amendment" wId="e21"/>
+				<eventRef date="2019-01-01" refersTo="86/2019-6" source="#somebody" type="amendment" wId="e22"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2001-04-11" wId="usvajanje"/>
+				<step by="#TODO" date="2001-04-20" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2001-07-01" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у Службеном гласнику Републике Србије, односно 20. априла 2001. године, а примењује се од 1. јула 2001. године, осим одредаба о порезу на зараде и друге приходе које се примењују од 1. јуна 2001. године и члана 123. који се примењује од дана ступања на снагу овог закона (види члан 180. Закона).Одлуком Уставног суда IУз број 63/2009 („Службени гласник РС“, број 91/2011) престала је да важи одредба члана 14а став 1. тачка 2) Закона о порезу на доходак грађана („Службени гласник РС”, бр. 24/01, 80/02, 135/04, 62/06 и 65/06), у делу који гласи: „осим решавања стамбених потреба запослених, изабраних, именованих и постављених лица у складу са прописима који уређују становање и решавање стамбених потреба у државним органима и организацијама, органима и организацијама јединица територијалне аутономије и локалне самоуправе, јавним службама и код других корисника буџетских средстава”, јер је утврђено да није у сагласности с Уставом (види Одлуку УС - 91/2011-205).Одлуком Уставног суда број IУз-128/2011 („Службени гласник РС“, број 114/2012) престала је да важи одредба члана 9. став 1. тачка 16) Закона о порезу на доходак грађана („Службени гласник РС”, бр. 24/01, 80/02, 135/04, 62/06 и 65/06), у делу који гласи: „за спровођење избора или”, јер је утврђено да није у сагласности с Уставом (види Одлуку УС – 114/2012-189).Престали су да важе чл. 166, 167. и 168. Закона (види члан 85. Закона о изменама и допунама Закона о пореском поступку и пореској администрацији – 68/2014-3).Закон о изменама и допунама Закона о порезу на доходак грађана („Службени гласник РС“, број 86/2019) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 14. децембра 2019. године. Одредбе чл. 12, 13, 14. и 19. овог закона (за паушално опорезивање) примењиваће се за утврђивање пореза на паушално утврђени приход почев за 2020. годину. Одредбе овог закона примењиваће се од 1. јануара 2020. године, осим одредаба члана 5. и члана 10. у делу који се односи на ослобођење од плаћања пореза по основу зараде код послодавца који обавља иновациону делатност, које ће се примењивати од 1. марта 2020. године (види чл. 22, 25. и 27. Закона – 86/2019-6).Влада Републике Србије је овлашћена да објављује усклађене динарске износе утврђене законом. Усклађени износи објављени су у Службеном гласнику РС, бр. 3 од 22. јануара 2010, 4 од 28. јануара 2011, 7 од 31. јануара 2012, 8 од 25. јануара 2013, 6 од 24. јануара 2014, 5 од 20. јануара 2015, 5 од 25. јануара 2016. године, 7. од 31. јануара 2017, 7 од 26. јануара 2018, 4 од 25. јануара 2019. и 5 од 22. јануара 2020.</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон Закон о изменама и допунама закона о порезу на доходак грађана  ("службени гласник рс", број 86/2019) ступио је на  снагу осмог дана од дана објављивања у „службеном гласнику републике србије”,  односно 14. децембра 2019. године.  одредбе овог закона примењиваће се од 1. јануара 2020. године, осим одредаба  члана 5. и члана 10. у делу који се односи на ослобођење од плаћања пореза по  основу зараде код послодавца који обавља иновациону делатност, које ће се  примењивати од 1. марта 2020. године.  одредбе чл. 12, 13, 14. и 19. овог закона (за паушално опорезивање) примењиваће  се за утврђивање пореза на паушално утврђени приход почев за 2020. годину    (види чл.  22, 25. и 27. закона – 86/2019-6) (текст закона пре  измена и допуна из броја 86/2019 можете погледати са десне стране у делу  "верзије пречишћеног текста"). Влада Републике Србије је овлашћена да објављује усклађене динарске износе утврђене законом. Усклађени износи објављени су у "Службеном гласнику РС", бр. 3 од 22. јануара 2010, 4 од 28. јануара 2011, 7 од 31. јануара 2012, 8 од 25. јануара 2013, 6 од 24. јануара 2014, 5 од 20. јануара 2015, 5 од 25. јануара 2016, 7 од 31. јануара 2017, 7 од 26. јануара 2018, 4 од 25. јануара 2019. и 5 од 22. јануара 2020. Усклађени динарски неопорезиви износи ("Службени гласник РС", број 5/2020) примењују се од 1. фебруара 2020. године (види тачку 2. Усклађених динарских износа - 5/2020-37).</p>
+			</longTitle>
+			<p>"Службени гласник РС”, бр. 24 од 12. априла 2001, 80 од 26. новембра 2002, 80 од 26. новембра 2002 -  др. закон, 135 од 21. децембра 2004, 62 од 19. јула 2006, 65 од 28. јула 2006 - исправка, 31 од 30. априла 2009, 44 од 9. јуна 2009, 18 од 26. марта 2010,  50 од 8. јула 2011, 91 од 2. децембра 2011 - УС, 93 од 28. септембра 2012, 114 од 4. децембра 2012 - УС, 47 од 29. маја 2013, 48 од 31. маја 2013 - исправка, 108 од 6. децембра 2013, 57 од 30. маја  2014, 68 од 3. јула 2014 - др. закон , 112 од 30. децембра 2015, 113 од 17. децембра 2017, 95 од 8. децембра 2018, 86  од 6. децембра 2019.</p>
+		</preface>
+		<preamble>
+			<p>﻿</p>
+			<p>Редакцијски пречишћен текст</p>
+			<p>о порезу на доходак грађана</p>
+		</preamble>
+		<body>
+			<part wId="deo1">
+				<num>Део први</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="deo1-clan1">
+					<num>1.</num>
+					<paragraph wId="deo1-clan1-stav1">
+						<content>
+							<p>Порез на доходак грађана плаћају, у складу са одредбама овог закона, физичка  лица која остварују доходак.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo1-clan1-stav2">
+						<content>
+							<p>Опорезивање дохотка грађана уређује се искључиво овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo1-clan1-stav3">
+						<content>
+							<p>Пореска ослобођења и олакшице могу се уводити само овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo1-clan2">
+					<num>2.</num>
+					<heading>Доходак</heading>
+					<paragraph wId="deo1-clan2-stav1">
+						<content>
+							<p>Порез на доходак грађана плаћа се на приходе из свих извора,  осим оних који  су посебно изузети овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo1-clan2-stav2">
+						<content>
+							<p>Опорезиви приход представља разлику између бруто прихода који је по неком од  основа предвиђених у <ref wId="ref0" href="akn/rs/act/2019/86-6/srp@/!main~art_3" >члану 3. овог</ref> закона остварио порески обвезник и трошкова  које је имао при њиховом остваривању и очувању, ако је то прописано овим  законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo1-clan2-stav3">
+						<content>
+							<p>Доходак представља збир опорезивих прихода из <ref wId="ref1" href="akn/rs/act/2019/86-6/srp@/!main~art_2__para_2" >става 2. овог</ref> члана, остварених  у календарској години.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo1-clan2-stav4">
+						<content>
+							<p>*<ref wId="ref2" href="akn/rs/act/2013/47/srp@">Службени гласник РС, број 47/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo1-clan3">
+					<num>3.</num>
+					<heading>Приходи који подлежу опорезивању</heading>
+					<paragraph wId="deo1-clan3-stav1">
+						<intro>
+							<p>Порезу на доходак грађана подлежу следеће врсте  прихода:</p>
+						</intro>
+						<point wId="deo1-clan3-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> зараде;</p>
+							</content>
+						</point>
+						<point wId="deo1-clan3-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> приходи од самосталне делатности;</p>
+							</content>
+						</point>
+						<point wId="deo1-clan3-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> приходи од ауторских права, права сродних ауторском  праву и права индустријске својине;</p>
+							</content>
+						</point>
+						<point wId="deo1-clan3-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> приходи од капитала;</p>
+							</content>
+						</point>
+						<point wId="deo1-clan3-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> приходи од непокретности;</p>
+							</content>
+						</point>
+						<point wId="deo1-clan3-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> капитални добици;</p>
+							</content>
+						</point>
+						<point wId="deo1-clan3-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> остали приходи.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="deo1-clan3-stav2">
+						<content>
+							<p>Приходи из <ref wId="ref3" href="akn/rs/act/2019/86-6/srp@/!main~art_3__para_1" >става 1. овог</ref> члана опорезују се било да су остварени у новцу, у  натури, чињењем или на други начин.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo1-clan3-stav3">
+						<content>
+							<p>*<ref wId="ref4" href="akn/rs/act/2015/112/srp@">Службени гласник РС, број 112/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo1-clan4">
+					<num>4.</num>
+					<heading>Опорезивање појединих врста прихода</heading>
+					<paragraph wId="deo1-clan4-stav1">
+						<intro>
+							<p>На поједине врсте прихода из <ref wId="ref5" href="akn/rs/act/2019/86-6/srp@/!main~art_3" >члана 3. овог</ref> закона, порез на доходак грађана  плаћа се:</p>
+						</intro>
+						<point wId="deo1-clan4-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> по одбитку од сваког појединачног прихода;</p>
+							</content>
+						</point>
+						<point wId="deo1-clan4-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> на основу решења надлежног пореског органа;</p>
+							</content>
+						</point>
+						<point wId="deo1-clan4-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> самоопорезивањем.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="deo1-clan4-stav2">
+						<content>
+							<p>*<ref wId="ref6" href="akn/rs/act/2013/47/srp@">Службени гласник РС, број 47/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo1-clan5">
+					<num>5.</num>
+					<heading>Годишњи порез на доходак грађана</heading>
+					<paragraph wId="deo1-clan5-stav1">
+						<content>
+							<p>Годишњи порез на доходак грађана плаћа се по решењу надлежног пореског органа  на доходак остварен у календарској години, у складу са овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo1-clan6">
+					<num>6.</num>
+					<heading>Порески обвезник</heading>
+					<paragraph wId="deo1-clan6-stav1">
+						<content>
+							<p>Порески обвезник је физичко лице које је по одредбама овог закона дужно да  плати порез (у даљем тексту: обвезник).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo1-clan7">
+					<num>7.</num>
+					<heading>Резидент</heading>
+					<paragraph wId="deo1-clan7-stav1">
+						<content>
+							<p>Обвезник пореза на доходак грађана је резидент  Републике Србије (у даљем тексту: резидент), за доходак остварен на територији  Републике Србије (у даљем тексту: Република) и у другој држави.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo1-clan7-stav2">
+						<intro>
+							<p>Резидент Републике, у смислу овог закона, јесте  физичко лице које:</p>
+						</intro>
+						<point wId="deo1-clan7-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> на територији Републике има пребивалиште или центар  пословних и животних интереса, или</p>
+							</content>
+						</point>
+						<point wId="deo1-clan7-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> на територији Републике, непрекидно или са  прекидима, борави 183 или више дана у периоду од 12 месеци који почиње или се  завршава у односној пореској години.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="deo1-clan7-stav3">
+						<content>
+							<p>За одређивање боравка на територији Републике из става  <ref wId="ref7" href="akn/rs/act/2019/86-6/srp@/!main~art_7__para_2__point_2" >2</ref>. тачка 2) овог члана, пуним даном боравка у Републици сматраће се и боравак у  делу дана, у било ком периоду између 00 и 24 часа, осим дела дана који физичко  лице проведе у транзиту кроз Републику.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo1-clan7-stav4">
+						<content>
+							<p>Физичко лице које у одређеној пореској години није  боравило на територији Републике и које у њој не испуњава услов да се сматра  пореским резидентом по основу критеријума предвиђених у ставу 2. тачка <ref wId="ref8" href="akn/rs/act/2019/86-6/srp@/!main~art_7__para_2__point_1" >1</ref>) овог  члана, неће се сматрати резидентом Републике за ту пореску годину.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo1-clan7-stav5">
+						<content>
+							<p>Физичко лице које није било резидент у години која  претходи години доласка у Републику, неће се сматрати резидентом за период пре  дана када је оно први пут ушло на територију Републике, под условом да у периоду  године који претходи дану првог уласка на територију Републике не испуњава услов  да се сматра резидентом по основу критеријума предвиђених у ставу 2. тачка <ref wId="ref9" href="akn/rs/act/2019/86-6/srp@/!main~art_7__para_2__point_1" >1</ref>)  овог члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo1-clan7-stav6">
+						<content>
+							<p>Физичко лице које није резидент у години која следи  години у којој је оно коначно напустило Републику неће се сматрати резидентом за  период године који следи дану коначног напуштања територије Републике под  условом да се у том периоду не може сматрати резидентом Републике по основу  критеријума предвиђених у ставу 2. тачка <ref wId="ref10" href="akn/rs/act/2019/86-6/srp@/!main~art_7__para_2__point_1" >1</ref>) овог члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo1-clan7-stav7">
+						<content>
+							<p>Физичко лице које у моменту првог уласка на територију  Републике зна да ће испунити услове из става <ref wId="ref12" href="akn/rs/act/2019/86-6/srp@/!main~art_7__para_2__point_2" >2</ref>. тач. <ref wId="ref11" href="akn/rs/act/2019/86-6/srp@/!main~art_7__para_2__point_1" >1</ref>) или 2) овог члана,  сматраће се резидентом почев од момента када је први пут ушло на територију  Републике.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo1-clan7-stav8">
+						<content>
+							<p>Независно од услова предвиђених у <ref wId="ref13" href="akn/rs/act/2019/86-6/srp@/!main~art_7__para_2" >ставу 2. овог</ref> члана,  резидент Републике је и физичко лице које је из Републике упућено у другу државу  ради обављања послова у дипломатском или конзуларном представништву Републике,  односно обављања послова за Републику у међународним организацијама, у периоду  обављања делатности у том или било ком другом дипломатском или конзуларном  представништву Републике, односно међународној организацији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo1-clan7-stav9">
+						<content>
+							<p>*<ref wId="ref14" href="akn/rs/act/2013/47/srp@">Службени гласник РС, број 47/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo1-clan8">
+					<num>8.</num>
+					<heading>Нерезидент</heading>
+					<paragraph wId="deo1-clan8-stav1">
+						<content>
+							<p>Обвезник пореза на доходак грађана је и физичко лице које није резидент (у  даљем тексту: нерезидент) за доходак остварен на територији Републике.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo1-clan8-stav2">
+						<intro>
+							<p>Дохотком, у смислу <ref wId="ref15" href="akn/rs/act/2019/86-6/srp@/!main~art_8__para_1" >става 1. овог</ref> члана, нарочито се  сматра доходак који физичко лице оствари по основу:</p>
+						</intro>
+						<point wId="deo1-clan8-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> рада који обавља на територији Републике;</p>
+							</content>
+						</point>
+						<point wId="deo1-clan8-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> коришћења или располагања правом на територији  Републике.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="deo1-clan8-stav3">
+						<content>
+							<p>Брисан је ранији <ref wId="ref17" href="akn/rs/act/2019/86-6/srp@/!main~art_8__para_3" >став 3. </ref>(види <ref wId="ref16" href="akn/rs/act/2018/95/srp@/!main~/art_1">члан 1. Закона -  95/2018-252</ref>)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo1-clan8-stav4">
+						<content>
+							<p>*<ref wId="ref18" href="akn/rs/act/2018/95/srp@">Службени гласник РС, број 95/2018</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo1-clan9">
+					<num>9.</num>
+					<heading>Изузимања из дохотка за опорезивање</heading>
+					<paragraph wId="deo1-clan9-stav1">
+						<content>
+							<p>Не плаћа се порез на доходак грађана на примања остварена по основу:</p>
+						</content>
+					</paragraph>
+				</article>
+			</part>
+		</body>
+	</act>
+</akomaNtoso>

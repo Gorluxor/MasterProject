@@ -1,0 +1,499 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о тајности података">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2009/104-13/main"/>
+					<FRBRuri value="/rs/act/2009/104-13"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2009/104-13/srp@/main"/>
+					<FRBRuri value="/rs/act/2009/104-13/srp@"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2009/104-13/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2009/104-13/srp@.akn"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2009-12-16" name="службени гласник рс“" number="104" showAs="Службени гласник РС“"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="II ОДБРАНА, ВОЈСКА И УНУТРАШЊИ ПОСЛОВИ" value="ii одбрана, војска и унутрашњи послови" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="1. Одбрана и безбедност" value="1. одбрана и безбедност" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2009-12-11" wId="usvajanje"/>
+				<step by="#TODO" date="2009-12-24" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2010-01-01" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, а примењује се од 1. јануара 2010. године (види члан 110. Закона).До доношења подзаконских аката предвиђених овим законом, примењују се одредбе важећих подзаконских аката које нису у супротности са одредбама овог закона (види члан 104. Закона).</p>
+				</note>
+				<note wId="not2">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, а примењује се од 1. јануара 2010. године (види члан 110. Закона).До доношења подзаконских аката предвиђених овим законом, примењују се одредбе важећих подзаконских аката које нису у супротности са одредбама овог закона (види члан 104. Закона).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О тајности података „Службени гласник РС“ број 104 од 16. децембра 2009.</p>
+			</longTitle>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<heading>Предмет закона</heading>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређује се јединствен систем одређивања и заштите тајних података који су од интереса за националну и јавну безбедност, одбрану, унутрашње и спољне послове Републике Србије, заштите страних тајних података, приступ тајним подацима и престанак њихове тајности, надлежност органа и надзор над спровођењем овог закона, као и одговорност за неизвршавање обавеза из овог закона и друга питања од значаја за заштиту тајности података.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<heading>Појмови</heading>
+					<paragraph wId="gla1-clan2-stav1">
+						<intro>
+							<p>У смислу овог закона:</p>
+						</intro>
+						<point wId="gla1-clan2-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> податак од интереса за Републику Србију је сваки податак или документ којим располаже орган јавне власти, који се односи на територијални интегритет и сувереност, заштиту уставног поретка, људских и мањинских права и слобода, националну и јавну безбедност, одбрану, унутрашње послове и спољне послове;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> тајни податак је податак од интереса за Републику Србију који је законом, другим прописом или одлуком надлежног органа донесеном у складу са законом, одређен и означен одређеним степеном тајности;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> страни тајни податак је податак који Републици Србији повери страна држава или међународна организација уз обавезу да га чува као тајни, као и тајни податак који настане у сарадњи Републике Србије са другим државама, међународним организацијама и другим међународним субјектима, у складу са закљученим међународним споразумом који је са страном државом, међународном организацијом или другим међународним субјектом закључила Република Србија;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> документ је сваки носач податка (папир, магнетни или оптички медиј, дискета, УСБ меморија, смарт картица, компакт диск, микрофилм, видео и аудио запис и др.), на коме је записан или меморисан тајни податак;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> одређивање тајних података је поступак којим се податак, у складу са овим законом, одређује као тајни и за који се утврђује степен и рок тајности;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> означавање степена тајности је означавање тајног податка ознакама: „ДРЖАВНА ТАЈНА”, „СТРОГО ПОВЕРЉИВО”, „ПОВЕРЉИВО” или „ИНТЕРНО”;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> орган јавне власти је државни орган, орган територијалне аутономије, орган јединице локалне самоуправе, организација којој је поверено вршење јавних овлашћења, као и правно лице које оснива државни орган или се финансира у целини, односно у претежном делу из буџета, а који поступа са тајним подацима, односно који их ствара, прибавља, чува, користи, размењује или на други начин обрађује;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> безбедносна провера је поступак који пре издавања сертификата за приступ тајним подацима спроводи надлежни орган, у циљу прикупљања података о могућим безбедносним ризицима и сметњама у погледу поузданости за приступ тајним подацима;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> штета је нарушавање интереса Републике Србије настало као последица неовлашћеног приступа, откривања, уништавања и злоупотребе тајних података или као последица друге радње обраде тајних података и страних тајних података;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p> руковалац тајним податком је физичко лице или организациона јединица органа јавне власти, који предузима мере заштите тајних података у складу са одредбама овог закона (у даљем тексту: руковалац);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac11">
+							<num>11)</num>
+							<content>
+								<p> корисник тајног податка је држављанин Републике Србије или правно лице са седиштем у Републици Србији, коме је издат сертификат од стране надлежног органа, односно страно физичко или правно лице коме је на основу закљученог међународног споразума издата безбедносна дозвола за приступ тајним подацима (у даљем тексту: дозвола), као и функционер органа јавне власти који на основу овог закона има право приступа и коришћења тајних података без издавања сертификата;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac12">
+							<num>12)</num>
+							<content>
+								<p> безбедносни ризик је стварна могућност нарушавања безбедности тајних података;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac13">
+							<num>13)</num>
+							<content>
+								<p> мере заштите су опште и посебне мере које се предузимају ради спречавања настанка штете, односно мере које се односе на остваривање административне, информатичко-телекомуникационе, персоналне и физичке безбедности тајних података и страних тајних података.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<heading>Подаци који се не сматрају тајним подацима</heading>
+					<paragraph wId="gla1-clan3-stav1">
+						<content>
+							<p>Тајним податком не сматра се податак који је означен као тајна ради прикривања кривичног дела, прекорачења овлашћења или злоупотребе службеног положаја или другог незаконитог акта или поступања органа јавне власти.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<heading>Право приступа</heading>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>Приступ тајним подацима могућ је на начин и под условима утврђеним овим законом, прописима донесеним на основу овог закона и међународним споразумима.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan5">
+					<num>5.</num>
+					<heading>Сврха прикупљања</heading>
+					<paragraph wId="gla1-clan5-stav1">
+						<content>
+							<p>Тајни подаци се могу користити само у сврху због које су прикупљени, у складу са законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan6">
+					<num>6.</num>
+					<heading>Чување и коришћење</heading>
+					<paragraph wId="gla1-clan6-stav1">
+						<content>
+							<p>Тајни подаци се чувају и користе у складу са мерама заштите које су прописане овим законом, прописом донесеним на основу овог закона и међународним споразумом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan6-stav2">
+						<content>
+							<p>Лице које користи тајни податак или лице које се упознало са његовом садржином дужно је да тај податак чува без обзира на начин на који је за такав податак сазнало.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan6-stav3">
+						<content>
+							<p>Обавеза из <ref wId="ref0" href="akn/rs/act/2009/104-13/srp@/!main~art_6__para_2" >става 2. овог</ref> члана остаје и после престанка функције или радног односа, односно престанка обављања дужности или чланства у органу јавне власти или одговарајућем телу.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan7">
+					<num>7.</num>
+					<heading>Заштита пословне и друге тајне</heading>
+					<paragraph wId="gla1-clan7-stav1">
+						<content>
+							<p>Заштита пословне и друге тајне уређује се посебним законима.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ОДРЕЂИВАЊЕ ТАЈНИХ ПОДАТАКА</heading>
+				<article wId="gla2-clan8">
+					<num>8.</num>
+					<heading>Податак који се може одредити као тајни</heading>
+					<paragraph wId="gla2-clan8-stav1">
+						<content>
+							<p>Као тајни податак може се одредити податак од интереса за Републику Србију чијим би откривањем неовлашћеном лицу настала штета, ако је потреба заштите интереса Републике Србије претежнија од интереса за слободан приступ информацијама од јавног значаја.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav2">
+						<intro>
+							<p>Подаци из <ref wId="ref1" href="akn/rs/act/2009/104-13/srp@/!main~art_8__para_1" >става 1. овог</ref> члана односе се нарочито на:</p>
+						</intro>
+						<point wId="gla2-clan8-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> националну безбедност Републике Србије, јавну безбедност, односно на одбрамбене, спољнополитичке, безбедносне и обавештајне послове органа јавне власти;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan8-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> односе Републике Србије са другим државама, међународним организацијама и другим међународним субјектима;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan8-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> системе, уређаје, пројекте, планове и структуре који су у вези са подацима из тач. <ref wId="ref2" href="akn/rs/act/2009/104-13/srp@/!main~art_8__para_2__point_1" >1</ref>) и <ref wId="ref3" href="akn/rs/act/2009/104-13/srp@/!main~art_8__para_2__point_2" >2</ref>) овог става;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan8-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> научне, истраживачке, технолошке, економске и финансијске послове који су у вези са подацима из тач. <ref wId="ref4" href="akn/rs/act/2009/104-13/srp@/!main~art_8__para_2__point_1" >1</ref>) и <ref wId="ref5" href="akn/rs/act/2009/104-13/srp@/!main~art_8__para_2__point_2" >2</ref>) овог става.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan9">
+					<num>9.</num>
+					<heading>Овлашћено лице за одређивање тајности податка</heading>
+					<paragraph wId="gla2-clan9-stav1">
+						<content>
+							<p>Тајност податка, под условима и на начин утврђен овим законом, одређује овлашћено лице.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav2">
+						<intro>
+							<p>Овлашћена лица су:</p>
+						</intro>
+						<point wId="gla2-clan9-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> председник Народне скупштине;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan9-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> председник Републике;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan9-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> председник Владе;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan9-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> руководилац органа јавне власти;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan9-stav2-tac5">
+							<num>5)</num>
+							<content>
+								<p> изабрани, постављени или именовани функционер органа јавне власти који је за одређивање тајних података овлашћен законом, односно прописом донесеним на основу закона, или га је за то писмено овластио руководилац органа јавне власти;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan9-stav2-tac6">
+							<num>6)</num>
+							<content>
+								<p> лице запослено у органу јавне власти које је за то писмено овластио руководилац тог органа.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav3">
+						<content>
+							<p>Овлашћена лица из става 2. тач. <ref wId="ref6" href="akn/rs/act/2009/104-13/srp@/!main~art_9__para_2__point_5" >5</ref>) и <ref wId="ref7" href="akn/rs/act/2009/104-13/srp@/!main~art_9__para_2__point_6" >6</ref>) овог члана не могу да пренесу овлашћења на друга лица.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan10">
+					<num>10.</num>
+					<heading>Поступак одређивања тајности податка</heading>
+					<paragraph wId="gla2-clan10-stav1">
+						<content>
+							<p>Овлашћено лице из <ref wId="ref8" href="akn/rs/act/2009/104-13/srp@/!main~art_9__para_2" >члана 9. став 2. овог</ref> закона одређује тајност податка приликом његовог настанка, односно када орган јавне власти започне обављање посла чији је резултат настанак тајног податка.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav2">
+						<content>
+							<p>Изузетно од <ref wId="ref9" href="akn/rs/act/2009/104-13/srp@/!main~art_10__para_1" >става 1. овог</ref> члана овлашћено лице може одредити тајност податка и накнадно, кад се испуне критеријуми одређени овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav3">
+						<content>
+							<p>При одређивању тајности податка, овлашћено лице процењује могућу штету по интерес Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav4">
+						<content>
+							<p>Лице које је запослено, односно које обавља одређене послове у органу јавне власти дужно је да, у оквиру својих радних задатака, односно овлашћења, обавести овлашћено лице о подацима који би могли да буду одређени као тајни.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan11">
+					<num>11.</num>
+					<heading>Одлука о одређивању степена тајности</heading>
+					<paragraph wId="gla2-clan11-stav1">
+						<content>
+							<p>Одлука о одређивању степена тајности податка доноси се на основу процене из <ref wId="ref10" href="akn/rs/act/2009/104-13/srp@/!main~art_10__para_3" >члана 10. став 3. овог</ref> закона, и у складу са тим, врши се обележавање документа ознаком тајности предвиђеном овим законом (у даљем тексту: ознака тајности).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav2">
+						<content>
+							<p>При одређивању степена тајности податка овлашћено лице одређује најнижи степен тајности који спречава настанак штете по интересе Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav3">
+						<content>
+							<p>Ако документ садржи податке који се могу означити различитим степенима тајности, овлашћено лице у односу на те степене тајности обележава документ вишим степеном тајности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav4">
+						<content>
+							<p>Одлука из <ref wId="ref11" href="akn/rs/act/2009/104-13/srp@/!main~art_11__para_1" >става 1. овог</ref> члана доноси се у писаном облику, са образложењем.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan12">
+					<num>12.</num>
+					<heading>Посебни случајеви одређивања и означавања тајних података</heading>
+					<paragraph wId="gla2-clan12-stav1">
+						<content>
+							<p>Овлашћено лице одређује као тајни онај податак који је настао обједињавањем или повезивањем података који сами по себи нису тајни, ако тако обједињени или повезани представљају податак који треба заштитити из разлога утврђених овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan12-stav2">
+						<content>
+							<p>Документ који садржи податке који су већ одређени као тајни у различитим степенима и роковима чувања тајности, означава се у односу на те податке вишим степеном тајности и дужим роком чувања тајности садржаног податка.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan12-stav3">
+						<content>
+							<p>Ако мањи део документа садржи тајне податке, издваја се и прилаже уз документ као посебан прилог обележен ознаком тајности.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan13">
+					<num>13.</num>
+					<heading>Ознаке тајности</heading>
+					<paragraph wId="gla2-clan13-stav1">
+						<intro>
+							<p>Документ који садржи тајне податке означава се:</p>
+						</intro>
+						<point wId="gla2-clan13-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> ознаком степена тајности;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> начином престанка тајности;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> подацима о овлашћеном лицу;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> подацима о органу јавне власти.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan13-stav2">
+						<content>
+							<p>Изузетно од <ref wId="ref12" href="akn/rs/act/2009/104-13/srp@/!main~art_13__para_1" >става 1. овог</ref> члана податак се сматра тајним ако је документ у коме је садржан податак означен само степеном тајности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan13-stav3">
+						<content>
+							<p>Влада прописује начин и поступак означавања тајности података, односно докумената.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan14">
+					<num>14.</num>
+					<heading>Степени тајности и садржина податка</heading>
+					<paragraph wId="gla2-clan14-stav1">
+						<intro>
+							<p>Податак из <ref wId="ref13" href="akn/rs/act/2009/104-13/srp@/!main~art_8" >члана 8. овог</ref> закона, има један од следећих степена тајности:</p>
+						</intro>
+						<point wId="gla2-clan14-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Унутрашња контрола</p>
+							</content>
+						</point>
+						<point wId="gla2-clan14-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Канцеларија Савета</p>
+							</content>
+						</point>
+						<point wId="gla2-clan14-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Надзор</p>
+							</content>
+						</point>
+						<point wId="gla2-clan14-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Унутрашња контрола</p>
+							</content>
+						</point>
+						<point wId="gla2-clan14-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Канцеларија Савета</p>
+							</content>
+						</point>
+						<point wId="gla2-clan14-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Надзор</p>
+							</content>
+						</point>
+						<point wId="gla2-clan14-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Унутрашња контрола</p>
+							</content>
+						</point>
+						<point wId="gla2-clan14-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Канцеларија Савета</p>
+							</content>
+						</point>
+						<point wId="gla2-clan14-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Надзор</p>
+							</content>
+						</point>
+						<point wId="gla2-clan14-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Унутрашња контрола</p>
+							</content>
+						</point>
+						<point wId="gla2-clan14-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Канцеларија Савета</p>
+							</content>
+						</point>
+						<point wId="gla2-clan14-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Надзор</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

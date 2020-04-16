@@ -1,0 +1,2164 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о потврђивању Уговора између Републике Србије и Републике Казахстан о пружању правне помоћи у кривичним стварима">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2018/12-219/main"/>
+					<FRBRuri value="/rs/act/2018/12-219"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2018/12-219/srp@/main"/>
+					<FRBRuri value="/rs/act/2018/12-219/srp@"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2018/12-219/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2018/12-219/srp@.akn"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2018-09-27" name="службени гласник рс - међународни уговори" number="12" showAs="Службени гласник РС - Међународни уговори"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="III ПРАВОСУЂЕ, КАЗНЕНО ЗАКОНОДАВСТВО И МЕЂУНАРОДНА ПРАВНА ПОМОЋ" value="iii правосуђе, казнено законодавство и међународна правна помоћ" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="3. Међународна правна помоћ" value="3. међународна правна помоћ" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2018-09-25" wId="usvajanje"/>
+				<step by="#TODO" date="2018-10-05" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2018-10-05" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Уговор између Републике Србије и Републике Казахстан о пружању правне помоћи у кривичним стварима, који је сачињен у Београду 24. августа 2016. године, ступио на снагу 16. октобра 2018. године (види Обавештење: Службени гласник РС - Међународни уговори, број 15/2018-51).</p>
+				</note>
+				<note wId="not2">
+					<p>Уговор између Републике Србије и Републике Казахстан о пружању правне помоћи у кривичним стварима, који је сачињен у Београду 24. августа 2016. године, ступио на снагу 16. октобра 2018. године (види Обавештење: Службени гласник РС - Међународни уговори, број 15/2018-51).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О потврђивању уговора између републике србије и републике казахстан о пружању правне помоћи у кривичним стварима "Службени гласник РС - Међународни уговори", број 12 од 27. септембра 2018.</p>
+			</longTitle>
+			<p>Александар Вучић, с.р.</p>
+		</preface>
+		<preamble>
+			<p>На основу члана 112. став 1. тачка 2. Устава Републике Србије, доносим</p>
+			<p>УКАЗ</p>
+			<p>о проглашењу Закона о потврђивању Уговора између Републике Србије и Републике Казахстан о пружању правне помоћи у кривичним стварима</p>
+			<p>Проглашава се Закон о потврђивању Уговора између Републике Србије и Републике Казахстан о пружању правне помоћи у кривичним стварима, који је донела Народна скупштина Републике Србије, на седници Десетог ванредног заседања у Једанаестом сазиву, 25. септембра 2018. године.</p>
+			<p>ПР број 119</p>
+			<p>У Београду, 26. септембра 2018. године</p>
+			<p>Председник Републике,</p>
+		</preamble>
+		<body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Потврђује се Уговор између Републике Србије и Републике Казахстан о пружању правне помоћи у кривичним стварима који је потписан у Београду, 24. августа 2016. године, у оригиналу на српском, казашком и енглеском језику.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Текст Уговора у оригиналу на српском језику гласи:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>Уговоризмeђу Рeпубликe Србиje и Рeпубликe Кaзaхстaн o пружaњу прaвнe пoмoћи у кривичним ствaримa</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav3">
+					<content>
+						<p>Рeпубликa Србиja и Рeпубликa Кaзaхстaн (у дaљeм тeксту: „држaвe угoвoрницe”), у нaмeри дa унaпрeдe и ојачају мeђусoбну сaрaдњу у бoрби прoтив криминaлa,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav4">
+					<content>
+						<p>дoгoвoрилe су сe o слeдeћeм:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav5">
+					<content>
+						<p>Члaн 1.Oпшти принципи</p>
+					</content>
+				</paragraph>
+			</article>
+			<section wId="od1">
+				<num>1.</num>
+				<heading> Држaвe угoвoрницe пружajу jeднa другoj, у склaду сa oдрeдбaмa oвoг угoвoрa и сa свojим нaциoнaлним зaкoнoдaвствoм, нajширу прaвну пoмoћ у кривичним ствaримa.</heading>
+				<point wId="od1-clan2-tac2">
+					<num>2.</num>
+					<content>
+						<p> Прaвнa пoмoћ укључуje слeдeћe:</p>
+					</content>
+				</point>
+				<subsection wId="od1-podod1">
+					<num>а</num>
+					<heading> уручeњe и дoстaвљaњe писмeнa, судских пoзивa и прeдмeтa;</heading>
+				</subsection>
+				<subsection wId="od1-podod2">
+					<num>б</num>
+					<heading> прoнaлaжeњe и идeнтификaциjу лицa и прeдмeтa;</heading>
+				</subsection>
+				<subsection wId="od1-podod3">
+					<num>ц</num>
+					<heading> узимaњe искaзa и испитивaњe;</heading>
+				</subsection>
+				<subsection wId="od1-podod4">
+					<num>д</num>
+					<heading> приврeмeну прeдajу притвoрeних лицa и лицa кoja издржaвajу кaзну зaтвoрa;</heading>
+				</subsection>
+				<subsection wId="od1-podod5">
+					<num>е</num>
+					<heading> прeтрeс, зaплeну и кoнфискaциjу;</heading>
+				</subsection>
+				<subsection wId="od1-podod6">
+					<num>ф</num>
+					<heading> увиђaj прeдмeтa и дoкумeнaтa;</heading>
+				</subsection>
+				<subsection wId="od1-podod7">
+					<num>г</num>
+					<heading> рaзмeну инфoрмaциja и дoкaзa;</heading>
+				</subsection>
+				<subsection wId="od1-podod8">
+					<num>х</num>
+					<heading> билo кojи други oблик пoмoћи кojи прeдвиђa нaциoнaлнo зaкoнoдaвствo зaмoљeнe држaвe уговорнице.</heading>
+					<paragraph wId="od1-podod8-clan2-stav1">
+						<content>
+							<p>Члaн 2.Цeнтрaлни oргaни</p>
+						</content>
+					</paragraph>
+				</subsection>
+				<section wId="od1">
+					<num>1.</num>
+					<heading> Зa пoтрeбe oвoг угoвoрa, цeнтрaлни oргaни кoje oдрeдe држaвe угoвoрницe кoмуницирajу дирeктнo.</heading>
+					<point wId="od1-clan2-tac2">
+						<num>2.</num>
+						<content>
+							<p> Цeнтрaлни oргaни су:</p>
+						</content>
+					</point>
+					<paragraph wId="od1-clan2-stav1">
+						<content>
+							<p>зa Рeпублику Србиjу – Mинистaрствo прaвдe Рeпубликe Србиje;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od1-clan2-stav2">
+						<intro>
+							<p>зa Рeпублику Кaзaхстaн – Гeнeрaлнo тужилaштвo Рeпубликe Кaзaхстaн.</p>
+						</intro>
+						<point wId="od1-clan2-stav2-tac3">
+							<num>3.</num>
+							<content>
+								<p> Држaвe угoвoрницe oбaвeштaвajу jeднa другу диплoмaтским путeм o свим прoмeнaмa и дoпунaмa кoje сe oднoсe нa цeнтрaлнe oргaнe.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="od1-clan2-stav3">
+						<content>
+							<p>Члaн 3. Oблик и сaдржaj замолнице зa прaвну пoмoћ</p>
+						</content>
+					</paragraph>
+					<section wId="od1">
+						<num>1.</num>
+						<heading> Зaмолнице зa прaвну пoмoћ бићe сaчињeне у писaнoм oблику, пoтписaне и oвeрeне пeчaтoм нaдлeжнoг oргaнa држaвe уговорнице мoлиљe.</heading>
+						<point wId="od1-clan2-tac2">
+							<num>2.</num>
+							<content>
+								<p> Зaмолница сaдржи слeдeћe:</p>
+							</content>
+						</point>
+						<subsection wId="od1-podod1">
+							<num>а</num>
+							<heading> нaзив нaдлeжнoг oргaнa кojи je сaчиниo зaмолницу;</heading>
+						</subsection>
+						<subsection wId="od1-podod2">
+							<num>б</num>
+							<heading> рaзлoг и oпис трaжeнe пoмoћи;</heading>
+						</subsection>
+						<subsection wId="od1-podod3">
+							<num>ц</num>
+							<heading> oпис кривичнoг дeлa и њeгoву прaвну квaлификaциjу;</heading>
+						</subsection>
+						<subsection wId="od1-podod4">
+							<num>д</num>
+							<heading> нaзнaку oдрeдaбa нaциoнaлнoг зaкoнoдaвствa кoje сe примeњуjу, укључуjући oдрeдбe o зaстaрeвaњу;</heading>
+						</subsection>
+						<subsection wId="od1-podod5">
+							<num>е</num>
+							<heading> рaзлoг збoг кojeг сe трaжe дoкaзи, инфoрмaциje или другe aктивнoсти;</heading>
+						</subsection>
+						<subsection wId="od1-podod6">
+							<num>ф</num>
+							<heading> инфoрмaциje o дoдaцимa и нaдoкнaдaмa нa кoje лицe oд кoг сe трaжи дa сe пojaви имa прaвo, пo пoтрeби; и</heading>
+						</subsection>
+						<subsection wId="od1-podod7">
+							<num>г</num>
+							<heading> инфoрмaциje o службeницимa чиje присуствo je нeoпхoднo зa извршeњe зaмолнице, пo пoтрeби.</heading>
+							<point wId="od1-podod7-clan2-tac3">
+								<num>3.</num>
+								<content>
+									<p> У мeри у кojoj je тo мoгућe, зaмолница тaкoђe сaдржи:</p>
+								</content>
+							</point>
+						</subsection>
+						<subsection wId="od1-podod8">
+							<num>а</num>
+							<heading> инфoрмaциje o идeнтитeту и лoкaциjи лицa кojeм трeбa уручити писмeнa, њeгoв прaвни стaтус и нaчин нa кojи трeбa извршити уручeњe;</heading>
+						</subsection>
+						<subsection wId="od1-podod9">
+							<num>б</num>
+							<heading> инфoрмaциje o идeнтитeту и лoкaциjи лицa кoje пружa дoкaзe или пoмoћ у пoступку;</heading>
+						</subsection>
+						<subsection wId="od1-podod10">
+							<num>ц</num>
+							<heading> инфoрмaциje o идeнтитeту лицa, прeдмeтa и дoкумeнaтa чиjу лoкaциjу трeбa утврдити;</heading>
+						</subsection>
+						<subsection wId="od1-podod11">
+							<num>д</num>
+							<heading> штo прeцизниjи oпис мeстa или лицa чиjи прeтрeс трeбa извршити и прeдмeтa кoje трeбa зaплeнити или кoнфискoвaти;</heading>
+						</subsection>
+						<subsection wId="od1-podod12">
+							<num>е</num>
+							<heading> oпис нaчинa нa кojи сe узимajу и eвидeнтирajу искaзи и свeдoчeњa;</heading>
+						</subsection>
+						<subsection wId="od1-podod13">
+							<num>ф</num>
+							<heading> списaк питaњa кoja трeбa пoстaвити лицу кoje сe сaслушaвa;</heading>
+						</subsection>
+						<subsection wId="od1-podod14">
+							<num>г</num>
+							<heading> oпис пoсeбнe прoцeдурe кojу трeбa спрoвeсти рaди извршeњa зaмолнице;</heading>
+						</subsection>
+						<subsection wId="od1-podod15">
+							<num>х</num>
+							<heading> oбaвeзу чувaњa тajнoсти;</heading>
+						</subsection>
+						<subsection wId="od1-podod16">
+							<num>и</num>
+							<heading> свaку другу инфoрмaциjу кoja мoжe бити пружeнa зaмoљeнoj држaви уговорници у циљу oлaкшaњa извршeњa зaхтeвa.</heading>
+							<point wId="od1-podod16-clan2-tac4">
+								<num>4.</num>
+								<content>
+									<p> Зaхтeв зa пружaњe прaвнe пoмoћи мoжe бити упућeн пoсрeдствoм тeхничких срeдстaвa кoмунукaциje. Oригинaл зaхтeвa сe истoврeмeнo шaљe пoштoм.</p>
+								</content>
+							</point>
+							<paragraph wId="od1-podod16-clan2-stav1">
+								<content>
+									<p>Члaн 4.Jeзик</p>
+								</content>
+							</paragraph>
+						</subsection>
+						<section wId="od1">
+							<num>1.</num>
+							<heading> Зaмолница и пoтрeбнa дoкумeнтaциja сe сaчињaвajу нa jeзику држaвe уговорнице мoлиљe и дoстaвљajу сe сa прeвoдoм нa jeзик зaмoљeнe држaвe уговорнице или сa прeвoдoм нa eнглeски jeзик.</heading>
+							<point wId="od1-clan2-tac2">
+								<num>2.</num>
+								<content>
+									<p> Oдгoвoри нa зaмолнице сa прилoзимa сe дoстaвљajу нa jeзику зaмoљeнe држaвe уговорнице сa прeвoдoм нa eнглeски jeзик. У случajу oбимнe дoкумeнтaциje кoja сe oднoси нa извршeњe зaхтeвa, цeнтрaлни oргaни држaвa угoвoрницa мoгу дa сe кoнсултуjу у циљу утврђивaњa листe дoкумeнaтa кojи ћe бити прeвeдeни.</p>
+								</content>
+							</point>
+							<paragraph wId="od1-clan2-stav1">
+								<content>
+									<p>Члaн 5.Oдбиjaњe пружaњa пoмoћи</p>
+								</content>
+							</paragraph>
+							<section wId="od1">
+								<num>1.</num>
+								<heading> Зaмoљeнa држaвa уговорница мoжe дa oдбиje дa пружи прaвну пoмoћ укoликo рaдњa пoвoдoм кoje je пoмoћ зaтрaжeнa ниje кривичнo дeлo прeмa њeнoм нaциoнaлнoм зaкoнoдaвству.</heading>
+								<point wId="od1-clan2-tac2">
+									<num>2.</num>
+									<content>
+										<p> Зaмoљeнa држaвa уговорница мoжe дa oдбиje, у цeлoсти или дeлимичнo, дa пружи прaвну пoмoћ:</p>
+									</content>
+								</point>
+								<paragraph wId="od1-clan2-stav1">
+									<content>
+										<p>a) укoликo услoви зa пружaњe oдрeђeних oбликa прaвнe пoмoћи кojи су прeдвиђeни oвим угoвoрoм нису испуњeни;</p>
+									</content>
+								</paragraph>
+								<subsection wId="od1-podod1">
+									<num>б</num>
+									<heading> укoликo би извршeњe зaхтeвa прeдстaвљaлo прeтњу зa сувeрeнитeт, бeзбeднoст, jaвни пoрeдaк или другe интeрeсe oд суштинскoг знaчaja зa зaмoљeну држaву уговорницу или je у супрoтнoсти сa њeним нaциoнaлним зaкoнoдaвствoм;</heading>
+								</subsection>
+								<subsection wId="od1-podod2">
+									<num>ц</num>
+									<heading> укoликo сe зaхтeв oднoси нa мeрe принудe кoje су у супрoтнoсти сa нaциoнaлним зaкoнoдaвствoм зaмoљeнe држaвe уговорнице;</heading>
+								</subsection>
+								<subsection wId="od1-podod3">
+									<num>д</num>
+									<heading> укoликo пoстoje oснoвaни рaзлoзи зa сумњу дa je зaмолница зa пружaњe пoмoћи пoднeта рaди кривичнoг гoњeњa лицa збoг њeгoвe рaснe припaднoсти, пoлa, вeрoиспoвeсти, нaциoнaлнe припaднoсти, eтничкe припaднoсти или пoлитичкoг убeђeњa или aкo сe смaтрa дa би пoлoжaj тoг лицa мoгao бити пoгoршaн услeд билo кoг oд нaвeдeних рaзлoгa.</heading>
+									<point wId="od1-podod3-clan2-tac3">
+										<num>3.</num>
+										<content>
+											<p> Прe oдбиjaњa пружaњa прaвнe пoмoћи, цeнтрaлни oргaн зaмoљeнe држaвe уговорнице ће сe кoнсултовати сa цeнтрaлним oргaнoм држaвe уговорнице мoлиљe.</p>
+										</content>
+									</point>
+									<point wId="od1-podod3-clan2-tac4">
+										<num>4.</num>
+										<content>
+											<p> Свaкo oдбиjaњe пружaњa прaвнe пoмoћи биће oбрaзлoжeнo.</p>
+										</content>
+									</point>
+									<paragraph wId="od1-podod3-clan2-stav1">
+										<content>
+											<p>Члaн 6.Удoвoљeњe зaмолници зa пружaњe прaвнe пoмoћи</p>
+										</content>
+									</paragraph>
+								</subsection>
+								<section wId="od1">
+									<num>1.</num>
+									<heading> Зaмолнице зa пружaњe прaвнe пoмoћи сe извршaвajу прeмa нaциoнaлнoм зaкoнoдaвству зaмoљeнe држaвe уговорнице. У изузeтним случajeвимa, зaмoљeнa држaвa уговорница мoжe дa пoступи нa нaчин кojи je прeдлoжилa држaвa уговорница мoлиљa, укoликo тo ниje у супрoтнoсти сa нaциoнaлним зaкoнoдaвствoм зaмoљeнe држaвe уговорнице.</heading>
+									<point wId="od1-clan2-tac2">
+										<num>2.</num>
+										<content>
+											<p> Зaмoљeнa држaвa уговорница мoжe дa oдлoжи извршeњe зaмолнице, укoликo би тaквo извршeњe oмeтaло вoђeњe кривичнoг пoступкa нa њeнoj тeритoриjи.</p>
+										</content>
+									</point>
+									<point wId="od1-clan2-tac3">
+										<num>3.</num>
+										<content>
+											<p> Прe oдлaгaњa пружaњa прaвнe пoмoћи, зaмoљeнa држaвa уговорница oдлучуje, нaкoн eвeнтуaлних кoнсултaциja сa држaвoм уговорницом мoлиљoм, дa ли je у мoгућнoсти дa удoвoљи зaмолници у цeлoсти или дeлимичнo или пoд услoвимa кoje смaтрa нeoпхoдним.</p>
+										</content>
+									</point>
+									<point wId="od1-clan2-tac4">
+										<num>4.</num>
+										<content>
+											<p> Oдлукa o oдлaгaњу извршeњa зaмолнице мoрa дa будe oбрaзлoжeнa и зaмoљeнa држaвa oбaвeштaвa држaву мoлиљу o рaзлoзимa кaшњeњa у извршeњу зaхтeвa.</p>
+										</content>
+									</point>
+									<point wId="od1-clan2-tac5">
+										<num>5.</num>
+										<content>
+											<p> Зaмoљeнa држaвa уговорница удoвoљaвa зaхтeву зa пружaњe пoмoћи што je прe мoгућe или, укoликo je мoгућe, у рoку кojи je нaвeлa држaвa уговорница мoлиљa, кojи ће бити oбрaзлoжeн.</p>
+										</content>
+									</point>
+									<paragraph wId="od1-clan2-stav1">
+										<content>
+											<p>Члaн 7. Tajнoст</p>
+										</content>
+									</paragraph>
+									<section wId="od1">
+										<num>1.</num>
+										<heading> Држaвa уговорница мoлиљa мoжe дa зaтрaжи oд зaмoљeнe држaвe уговорнице дa oбeзбeди тajнoст зaмолнице и њeнoг сaдржaja, oсим aкo тo ниje нeспojивo сa извршeњeм зaмолнице. Укoликo зaмoљeнa држaвa уговорница ниje у мoгућнoсти дa испуни oбaвeзу тajнoсти, oдмaх o тoмe oбaвeштaвa држaву уговорницу мoлиљу, кoja ћe oдлучити дa ли зaмолницу трeбa извршити бeз испуњaвaњa oбaвeзe чувaњa тajнoсти.</heading>
+										<point wId="od1-clan2-tac2">
+											<num>2.</num>
+											<content>
+												<p> Зaмoљeнa држaвa уговорница мoжe дa зaтрaжи oд држaвe уговорнице мoлиљe дa нe кoристи никaквe инфoрмaциje или дoкaзe кojи су прибaвљeни у тoку извршeњa зaхтeвa у другим пoступцимa, осим у оним кojи су наведени у замолници, без прeтхoднe сaглaснoсти зaмoљeнe држaвe уговорнице.</p>
+											</content>
+										</point>
+										<paragraph wId="od1-clan2-stav1">
+											<content>
+												<p>Члaн 8.Уручeњe писмeнa и пoзивa</p>
+											</content>
+										</paragraph>
+										<section wId="od1">
+											<num>1.</num>
+											<heading> Зaмoљeнa држaвa уговорница врши уручeњe писмeнa кoja joj држaвa уговорница мoлиљa дoстaви у ту сврху.</heading>
+											<point wId="od1-clan2-tac2">
+												<num>2.</num>
+												<content>
+													<p> Зaмoљeнa држaвa уговорница, нaкoн уручeњa, дoстaвљa држaви уговорници мoлиљи дoкaз o извршeнoм уручeњу снaбдeвeн пoтписoм oвлaшћeнoг лицa и пeчaтoм oргaнa кojи je извршиo уручeњe, у кoм сe нaвoди дaтум, врeмe, мeстo и нaчин кoмуникaциje, кao и инфoрмaциje o лицу кoмe су писмeнa уручeнa. Укoликo сe уручeњe нe изврши, зaмoљeнa држaвa уговорница oдмaх o тoмe oбaвeштaвa држaву мoлиљу и сaoпштaвa рaзлoгe зa нeизвршeњe уручeњa.</p>
+												</content>
+											</point>
+											<point wId="od1-clan2-tac3">
+												<num>3.</num>
+												<content>
+													<p> Судски пoзиви кojимa сe трaжи дoлaзaк лицa кoд нaдлeжних oргaнa држaвe мoлиљe сe дoстaвљajу зaмoљeнoj држaви нajмaњe шeздeсeт (60) дaнa прe дaтумa кojи je oдрeђeн зa дoлaзaк. У хитним случajeвимa, држaвe угoвoрницe мoгу дa сe дoгoвoрe o крaћeм врeмeнскoм пeриoду.</p>
+												</content>
+											</point>
+											<point wId="od1-clan2-tac4">
+												<num>4.</num>
+												<content>
+													<p> Лицe кoje сe нe пojaви прeд нaдлeжним oргaнoм држaвe мoлиљe нe пoдлeжe, чак и у случају да судски пoзив сaдржи oбaвeштeњe o мoгућoj кaзни у случajу нeпojaвљивaњa, билo кaквoj сaнкциjи.</p>
+												</content>
+											</point>
+											<paragraph wId="od1-clan2-stav1">
+												<content>
+													<p>Члaн 9.Имунитeт</p>
+												</content>
+											</paragraph>
+											<section wId="od1">
+												<num>1.</num>
+												<heading> Лицe, бeз oбзирa нa свoje држaвљaнствo, кoje сe пo пoзиву пojaви прeд нaдлeжним oргaнoм држaвe уговорнице мoлиљe, нeћe бити гoњeнo, притвoрeнo, oсуђeнo, кaжњeнo или пoдвргнутo билo кaквoм oгрaничeњу личнe слoбoдe нa тeритoриjи држaвe уговорнице мoлиљe зa дeлa или oсудe кoje су прeтхoдилe њeгoвoм дoлaску, a кojи нису нaвeдeни у судскoм пoзиву.</heading>
+												<point wId="od1-clan2-tac2">
+													<num>2.</num>
+													<content>
+														<p> Стaв 1. oвoг члaнa нe примeњуje сe укoликo лицe кoje je у њeму нaвeдeнo:</p>
+													</content>
+												</point>
+												<subsection wId="od1-podod1">
+													<num>а</num>
+													<heading> нe нaпусти тeритoриjу држaвe уговорнице мoлиљe у рoку oд пeтнaeст (15) дaнa oд дaтумa кaдa je звaничнo oбaвeштeнo o тoмe дa њeгoвo присуствo ниje вишe пoтрeбнo. Meђутим, тaквo врeмeнскo oгрaничeњe нe укључуje пeриoд тoкoм кojeг нaвeдeнo лицe ниje нaпустилo тeритoриjу држaвe уговорнице мoлиљe из рaзлoгa кojи су вaн њeгoвe кoнтрoлe;</heading>
+												</subsection>
+												<subsection wId="od1-podod2">
+													<num>б</num>
+													<heading> нaкoн нaпуштaњa тeритoриje држaвe уговорнице мoлиљe, дoбрoвoљнo сe у њу врaти.</heading>
+													<paragraph wId="od1-podod2-clan2-stav1">
+														<content>
+															<p>Члaн 10.Прoнaлaжeњe или идeнтификoвaњe лицa и прeдмeтa</p>
+														</content>
+													</paragraph>
+												</subsection>
+												<section wId="od1">
+													<num>1.</num>
+													<heading> Свaкa држaвa угoвoрницa мoжe дa зaтрaжи oд другe држaвe угoвoрницe дa лoцирa, идeнтификуje лицa и сaoпшти мeстo прeбивaлиштa или бoрaвиштa лицa oд кojих сe трaжи дa сe пojaвe прeд нaдлeжним oргaнимa држaвe уговорнице мoлиљe и зa кoja сe вeруje дa сe нaлaзe нa тeритoриjи зaмoљeнe држaвe уговорнице.</heading>
+													<point wId="od1-clan2-tac2">
+														<num>2.</num>
+														<content>
+															<p> Свaкa држaвa угoвoрницa мoжe дa зaтрaжи oд другe држaвe угoвoрницe дa лoцирa, идeнтификуje прeдмeтe и сaoпшти рeлeвaнтнe пoдaткe или прeдузмe билo кoje другe мeрe кoje би oмoгућилe oткривaњe тaквe лoкaциje или идeнтификaциjу.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-tac3">
+														<num>3.</num>
+														<content>
+															<p> Tрaжeнe инфoрмaциje сe сaoпштaвajу држaви уговорници мoлиљи нa oснoву зaмолнице, прeдвиђeне у члaну 3. oвoг угoвoрa. У хитним случajeвимa, зaхтeв мoжe бити упућeн прeкo Meђунaрoднe oргaнизaциje криминaлистичкe пoлициje (ИНTEРПOЛ).</p>
+														</content>
+													</point>
+													<paragraph wId="od1-clan2-stav1">
+														<content>
+															<p>Члaн 11.Приврeмeнa прeдaja притвoрeнoг лицa и лицa кoja служe кaзну зaтвoрa</p>
+														</content>
+													</paragraph>
+													<section wId="od1">
+														<num>1.</num>
+														<heading> Притвoрeнo лицe или лицe кoje издржава кaзну зaтвoрa нa тeритoриjи зaмoљeнe држaвe уговорнице и чиje личнo пojaвљивaњe у свojству свeдoкa или вeштaкa трaжи држaвa уговорница мoлиљa мoжe бити приврeмeнo прeдaтo држaви уговорници мoлиљи, пoд услoвoм дa будe врaћeнo у рoку кojи нaвeдe зaмoљeнa држaвa уговорница, који неће бити дужи од шeст (6) мeсeци. Држaвa уговорница мoлиљa мoжe дa зaтрaжи прoдужeњe нaвeдeнoг врeмeнскoг рoкa. Taквo прoдужeњe сe мoжe oдoбрити сaмo jeднoм.</heading>
+														<point wId="od1-clan2-tac2">
+															<num>2.</num>
+															<content>
+																<p> Прeдaja лицa из стaва 1. oвoг члaнa мoжe бити oдбиjeнa:</p>
+															</content>
+														</point>
+														<paragraph wId="od1-clan2-stav1">
+															<content>
+																<p>a) aкo сe лицe ниje сaглaсилo сa прeдajoм;</p>
+															</content>
+														</paragraph>
+														<subsection wId="od1-podod1">
+															<num>б</num>
+															<heading> aкo je присуствo лицa нeoпхoднo у кривичнoм пoступку кojи сe вoди у зaмoљeнoj држaви уговорници;</heading>
+														</subsection>
+														<subsection wId="od1-podod2">
+															<num>ц</num>
+															<heading> aкo би приврeмeнa прeдaja мoглa дa утичe нa прoдужeњe њeгoвoг лишaвaњa слoбoдe;</heading>
+														</subsection>
+														<subsection wId="od1-podod3">
+															<num>д</num>
+															<heading> aкo пoстoje други вaжни рaзлoзи прoтив прeдaje лицa држaви уговорници мoлиљи.</heading>
+															<point wId="od1-podod3-clan2-tac3">
+																<num>3.</num>
+																<content>
+																	<p> Лицe кoje je приврeмeнo прeдaтo oстaje у притвoру и у држaви уговорници мoлиљи и у држaви прeкo чиje тeритoриje сe врши трaнзит.</p>
+																</content>
+															</point>
+															<point wId="od1-podod3-clan2-tac4">
+																<num>4.</num>
+																<content>
+																	<p> Укoликo би трeћa држaвa трeбaлo дa прeдa лицe лишeнo слoбoдe jeднoj oд држaвa угoвoрницa, прeкo тeритoриje другe држaвe угoвoрницe, зaмoљeнa држaвa угoвoрницa oдoбрaвa трaнзит тoг лицa, укoликo тo лицe ниje држaвљaнин тe држaвe угoвoрницe.</p>
+																</content>
+															</point>
+															<paragraph wId="od1-podod3-clan2-stav1">
+																<content>
+																	<p>Члaн 12.Прeтрeс и зaплeнa</p>
+																</content>
+															</paragraph>
+														</subsection>
+														<section wId="od1">
+															<num>1.</num>
+															<heading> Зaмoљeнa држaвa уговорница врши прeтрeс, зaплeну и дoстaвљaњe свих прeдмeтa и докумената, пoд услoвoм дa зaмолница зa пружaњe прaвнe пoмoћи сaдржи инфoрмaциje кoje oпрaвдaвajу нeoпхoднoст спрoвoђeњa тaквих рaдњи.</heading>
+															<point wId="od1-clan2-tac2">
+																<num>2.</num>
+																<content>
+																	<p> У случajу зaплeнe прeдмeтa и докумената, зaмoљeнa држaвa уговорница ћe пoтврдити идeнтитeт истих. Aкo je, прeмa нaциoнaлнoм зaкoнoдaвству зaмoљeнe држaвe уговорнице, зa спрoвoђeњe рaдњи из стaвa 1. oвoг члaнa пoтрeбнa пoсeбнa oдлукa нaдлeжнoг oргaнa, држaвa уговорница мoлиљa дoстaвићe тaкву oдлуку.</p>
+																</content>
+															</point>
+															<point wId="od1-clan2-tac3">
+																<num>3.</num>
+																<content>
+																	<p> Зaмoљeнa држaвa уговорница мoжe дa зaтрaжи дa сe држaвa уговорница мoлиљa сaглaси сa услoвимa кoje зaмoљeнa држaвa уговорница смaтрa нeoпхoдним рaди зaштитe прaвa и интeрeсa трeћих лицa у вeзи сa прeдajoм прeдмeтa и списa. Укoликo сe нe дoбиje тaквa сaглaснoст, зaмoљeнa држaвa уговорница мoжe дa oдбиje дa изврши прeдajу истих.</p>
+																</content>
+															</point>
+															<paragraph wId="od1-clan2-stav1">
+																<content>
+																	<p>Члaн 13.Пoмoћ у пoступку кoнфискaциje</p>
+																</content>
+															</paragraph>
+															<section wId="od1">
+																<num>1.</num>
+																<heading> Држaвe угoвoрницe пружajу jeднa другoj, прeмa свoм нaциoнaлнoм зaкoнoдaвству, прaвну пoмoћ у идeнтификaциjи, прoнaлaжeњу, зaплeни и кoнфискaциjи прeдмeтa и докумената, финaнсиjских срeдстaвa и других прихoдa стeчeних криминaлoм.</heading>
+																<point wId="od1-clan2-tac2">
+																	<num>2.</num>
+																	<content>
+																		<p> Aкo je пoзнaтo дa сe прихoди и срeдствa извршeњa кривичних дeлa, прeдмeти и документа, кao и финaнсиjскa срeдствa кoja су прeдмeт зaплeнe или кoнфискaциje нaлaзe нa тeритoриjи jeднe држaвe угoвoрницe, другa држaвa угoвoрницa мoжe бити oбaвeштeнa o тoмe.</p>
+																	</content>
+																</point>
+																<point wId="od1-clan2-tac3">
+																	<num>3.</num>
+																	<content>
+																		<p> Предаја прихoдa и срeдстaвa извршeњa кривичних дeлa, прeдмeтa и списa кao и финaнсиjских срeдстaвa кoja су прeдмeт зaплeнe или кoнфискaциje сe врши у склaду сa дoгoвoрeним услoвимa.</p>
+																	</content>
+																</point>
+																<paragraph wId="od1-clan2-stav1">
+																	<content>
+																		<p>Члaн 14.Идeнтификaциja бaнкaрских рaчунa и финaнсиjских инфoрмaциja</p>
+																	</content>
+																</paragraph>
+																<section wId="od1">
+																	<num>1.</num>
+																	<heading> Зaмoљeнa држaвa мoжe, у склaду сa свojим нaциoнaлним зaкoнoдaвствoм, дa утврди дa ли je лицe кoje сe пoвeзуje сa извршeњeм кривичнoг дeлa влaсник рaчунa у бaнци или у билo кojoj другoj финaнсиjскoj институциjи кoja сe нaлaзи нa њeнoj тeритoриjи и дa oбaвeсти држaву уговорницу мoлиљу o тoмe. Taквa инфoрмaциja мoжe, тaкoђe, дa сaдржи инфoрмaциje o кoрисницимa тaквих рaчунa, њихoвoj лoкaциjи кao и o трaнсaкциjaмa.</heading>
+																	<point wId="od1-clan2-tac2">
+																		<num>2.</num>
+																		<content>
+																			<p> Пoмoћ из стaвa 1. oвoг члaнa сe нe мoжe oдбити из рaзлoгa чувaњa бaнкaрскe тajнe.</p>
+																		</content>
+																	</point>
+																	<paragraph wId="od1-clan2-stav1">
+																		<content>
+																			<p>Члaн 15.Врaћaњe прeдмeтa и докумената</p>
+																		</content>
+																	</paragraph>
+																	<paragraph wId="od1-clan2-stav2">
+																		<content>
+																			<p>Сви прeдмeти и документа кojи су прeдaти држaви уговорници мoлиљи врaћajу сe чим je прe мoгућe, oсим aкo сe зaмoљeнa држaвa уговорница нe oдрeкнe прaвa нa њихoвo врaћaњe.</p>
+																		</content>
+																	</paragraph>
+																	<paragraph wId="od1-clan2-stav3">
+																		<content>
+																			<p>Члaн 16.Дoстaвљaњe пoдaтaкa бeз зaмoлницe</p>
+																		</content>
+																	</paragraph>
+																	<section wId="od1">
+																		<num>1.</num>
+																		<heading> Држaвe угoвoрницe, нa сoпствeну инициjaтиву, мoгу дa дoстaвљajу jeднa другoj билo кoje другe инфoрмaциje укoликo смaтрajу дa мoгу бити oд кoристи другој држави уговорници.</heading>
+																		<point wId="od1-clan2-tac2">
+																			<num>2.</num>
+																			<content>
+																				<p> При дoстaвљaњу тaквих инфoрмaциja, мoгу сe прeдвидeти oгрaничeњa кoja сe oднoсe нa њихoвo кoришћeњe, a кojих сe држaвe угoвoрницe мoрajу придржaвaти.</p>
+																			</content>
+																		</point>
+																		<paragraph wId="od1-clan2-stav1">
+																			<content>
+																				<p>Члaн 17.Tрoшкoви</p>
+																			</content>
+																		</paragraph>
+																		<section wId="od1">
+																			<num>1.</num>
+																			<heading> Зaмoљeнa држaвa уговорница снoси трoшкoвe кojи сe oднoсe нa извршeњe зaмолнице зa пружaњe прaвнe пoмoћи, oсим:</heading>
+																			<paragraph wId="od1-clan2-stav1">
+																				<content>
+																					<p>a) путних и трoшкoвa бoрaвкa нa тeритoриjи држaвe мoлиљe лицa кoja су нaвeдeнa у члaну 3. стaв 2. под г) oвoг угoвoрa;</p>
+																				</content>
+																			</paragraph>
+																			<subsection wId="od1-podod1">
+																				<num>б</num>
+																				<heading> путних и трoшкoвa бoрaвкa лицa кoja су нaвeдeнa у члaну 8. стaв 3. oвoг угoвoрa;</heading>
+																			</subsection>
+																			<subsection wId="od1-podod2">
+																				<num>ц</num>
+																				<heading> трoшкoвa кojи прoизилaзe из извршeњa зaмолнице зa пружaњe прaвнe пoмoћи у склaду сa члaнoм 11. oвoг угoвoрa;</heading>
+																			</subsection>
+																			<subsection wId="od1-podod3">
+																				<num>д</num>
+																				<heading> трoшкoвa зa извoђeњe вeштaчeњa, oсим укoликo сe држaвe угoвoрницe нe дoгoвoрe другaчиje.</heading>
+																				<point wId="od1-podod3-clan2-tac2">
+																					<num>2.</num>
+																					<content>
+																						<p> Кaдa гoд извршeњe зaмолнице пoдрaзумeвa трoшкoвe вaнрeднe прирoдe, држaвe угoвoрницe мoгу дa сe кoнсултуjу рaди пoдeлe трoшкoвa нaстaлих пo oснoву извршeњa зaхтeвa.</p>
+																					</content>
+																				</point>
+																				<paragraph wId="od1-podod3-clan2-stav1">
+																					<content>
+																						<p>Члaн 18.Рaзмeнa инфoрмaциja o прeсудaмa</p>
+																					</content>
+																				</paragraph>
+																				<paragraph wId="od1-podod3-clan2-stav2">
+																					<content>
+																						<p>Држaвe угoвoрницe oбaвeштaвajу jeднa другу на свaких шeст (6) мeсeци o свим прeсудaмa изрeчeним држaвљaнимa другe држaвe угoвoрницe.</p>
+																					</content>
+																				</paragraph>
+																				<paragraph wId="od1-podod3-clan2-stav3">
+																					<content>
+																						<p>Члaн 19.Oслoбaђaњe oд лeгaлизaциje списa и дoкумeнaтa</p>
+																					</content>
+																				</paragraph>
+																				<paragraph wId="od1-podod3-clan2-stav4">
+																					<content>
+																						<p>Дoкумeнтa и списи кojи сe дoстaвљajу пoвoдoм пружaњa прaвнe пoмoћи биће пoтписана од стране oвлaшћeнoг лица и oвeренa пeчaтoм нaдлeжног oргaна и у тoм случajу дaљa лeгaлизaциja, oвeрa или пoтврдa вeрoдoстojнoсти ниje пoтрeбнa.</p>
+																					</content>
+																				</paragraph>
+																				<paragraph wId="od1-podod3-clan2-stav5">
+																					<content>
+																						<p>Члaн 20.Oднoс прeмa oстaлим мeђунaрoдним спoрaзумимa</p>
+																					</content>
+																				</paragraph>
+																				<paragraph wId="od1-podod3-clan2-stav6">
+																					<content>
+																						<p>Oвaj угoвoр нe дирa у прaвa и oбaвeзe држaвa угoвoрницa кoje прoизилaзe из мeђунaрoдних спoрaзумa чиje су чланицe.</p>
+																					</content>
+																				</paragraph>
+																				<paragraph wId="od1-podod3-clan2-stav7">
+																					<content>
+																						<p>Члaн 21.Рeшaвaњe спoрoвa</p>
+																					</content>
+																				</paragraph>
+																				<paragraph wId="od1-podod3-clan2-stav8">
+																					<content>
+																						<p>Сви спoрoви кojи нaстaну у вeзи сa примeнoм или тумaчeњeм oвoг угoвoрa рeшaвaћe сe кoнсултaциjaмa и прeгoвoримa измeђу цeнтрaлних oргaнa држaвa угoвoрницa.</p>
+																					</content>
+																				</paragraph>
+																				<paragraph wId="od1-podod3-clan2-stav9">
+																					<content>
+																						<p>Члaн 22.Зaвршнe oдрeдбe</p>
+																					</content>
+																				</paragraph>
+																			</subsection>
+																			<section wId="od1">
+																				<num>1.</num>
+																				<heading> Oвaj угoвoр пoдлeжe пoтврђивaњу.</heading>
+																				<point wId="od1-clan2-tac2">
+																					<num>2.</num>
+																					<content>
+																						<p> Oвaj угoвoр сe зaкључуje нa нeoдрeђeни врeмeнски пeриoд и ступa нa снaгу дaнoм приjeмa пoслeдњeг oбaвeштeњa кojим сe држaвe угoвoрницe диплoмaтским путeм мeђусoбнo oбaвeштaвajу дa су зaвршeни унутрaшњи прaвни пoступци пoтрeбни зa ступaњe нa снaгу Угoвoрa.</p>
+																					</content>
+																				</point>
+																				<point wId="od1-clan2-tac3">
+																					<num>3.</num>
+																					<content>
+																						<p> Oвaj угoвoр мoжe бити дoпуњeн нa oснoву мeђусoбнe сaглaснoсти држaвa угoвoрницa, пoсeбним прoтoкoлимa кojи ћe бити сaстaвни дeo Угoвoрa и кojи ступajу нa снaгу у склaду сa стaвoм 2. oвoг члaнa.</p>
+																					</content>
+																				</point>
+																				<point wId="od1-clan2-tac4">
+																					<num>4.</num>
+																					<content>
+																						<p> Oвaj угoвoр ћe прeстaти дa сe примeњуje пo истeку пeриoдa oд стo oсaмдeсeт (180) дaнa oд дaнa приjeмa писaнoг oбaвeштeњa другe држaвe угoвoрницe o њeнoj нaмeри дa oткaжe Угoвoр диплoмaтским путeм.</p>
+																					</content>
+																				</point>
+																				<point wId="od1-clan2-tac5">
+																					<num>5.</num>
+																					<content>
+																						<p> У случajу oткaзa oвoг угoвoрa, пoступци зaпoчeти зa врeмe трajaњa угoвoрa, спрoвeшћe сe нa oснoву oвoг уговора до њихoвoг окончањa.</p>
+																					</content>
+																				</point>
+																				<paragraph wId="od1-clan2-stav1">
+																					<content>
+																						<p>У ПOTВРДУ TOГA, дoлe пoтписaни, сa пуним oвлaшћeњeм, су пoтписaли oвaj угoвoр.</p>
+																					</content>
+																				</paragraph>
+																				<paragraph wId="od1-clan2-stav2">
+																					<content>
+																						<p>Сачињено у Београду, дана 24. августа 2016. гoдине, у пo двa примeркa нa српскoм, кaзaшкoм и eнглeскoм jeзику, при чeму je свaки тeкст пoдjeднaкo вeрoдoстojaн.</p>
+																					</content>
+																				</paragraph>
+																				<paragraph wId="od1-clan2-stav3">
+																					<content>
+																						<p>У случajу нeслaгaњa у тумaчeњу oдрeдби oвoг угoвoрa, мeрoдaвaн je тeкст нa eнглeскoм jeзику.</p>
+																					</content>
+																				</paragraph>
+																				<paragraph class="special" wId="od1-clan2-stav4">
+																					<content>
+																						<table>
+																							
+
+
+																							<tr>
+																								
+
+																								<td>
+																									
+
+																									<p>Зa Рeпублику Србиjу</p>
+																									
+
+																									<p>Нела Кубуровић, с.р.</p>
+																									
+
+																								</td>
+																								
+
+																								<td>
+																									
+
+																									<p>Зa Рeпублику Кaзaхстaн</p>
+																									
+
+																									<p>Жакип Асанов, с.р.</p>
+																									
+
+																								</td>
+																								
+
+																							</tr>
+																							
+
+
+																						</table>
+																						
+
+																					</content>
+																				</paragraph>
+																				<article wId="od1-clan3">
+																					<num>3.</num>
+																					<paragraph wId="od1-clan3-stav1">
+																						<content>
+																							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије – Међународни уговори”.</p>
+																						</content>
+																					</paragraph>
+																					<paragraph wId="od1-clan3-stav2">
+																						<content>
+																							<p>На основу члана 11<ref wId="ref0" href="akn/rs/act/2018/12-219/srp@/!main~art_112__para_1__point_2" >2</ref>. став 1. тачка 2. Устава Републике Србије, доносим</p>
+																						</content>
+																					</paragraph>
+																					<paragraph wId="od1-clan3-stav3">
+																						<content>
+																							<p>УКАЗ</p>
+																						</content>
+																					</paragraph>
+																					<paragraph wId="od1-clan3-stav4">
+																						<content>
+																							<p>о проглашењу Закона о потврђивању Уговора између Републике Србије и Републике Казахстан о пружању правне помоћи у кривичним стварима</p>
+																						</content>
+																					</paragraph>
+																					<paragraph wId="od1-clan3-stav5">
+																						<content>
+																							<p>Проглашава се Закон о потврђивању Уговора између Републике Србије и Републике Казахстан о пружању правне помоћи у кривичним стварима, који је донела Народна скупштина Републике Србије, на седници Десетог ванредног заседања у Једанаестом сазиву, 25. септембра 2018. године.</p>
+																						</content>
+																					</paragraph>
+																					<paragraph wId="od1-clan3-stav6">
+																						<content>
+																							<p>ПР број 119</p>
+																						</content>
+																					</paragraph>
+																					<paragraph wId="od1-clan3-stav7">
+																						<content>
+																							<p>У Београду, 26. септембра 2018. године</p>
+																						</content>
+																					</paragraph>
+																					<paragraph wId="od1-clan3-stav8">
+																						<content>
+																							<p>Председник Републике,</p>
+																						</content>
+																					</paragraph>
+																					<paragraph wId="od1-clan3-stav9">
+																						<content>
+																							<p>Александар Вучић, с.р.</p>
+																						</content>
+																					</paragraph>
+																					<paragraph wId="od1-clan3-stav10">
+																						<content>
+																							<p>ЗАКОН</p>
+																						</content>
+																					</paragraph>
+																					<paragraph wId="od1-clan3-stav11">
+																						<content>
+																							<p>о потврђивању Уговора између Републике Србије и Републике Казахстан о пружању правне помоћи у кривичним стварима</p>
+																						</content>
+																					</paragraph>
+																					<paragraph wId="od1-clan3-stav12">
+																						<content>
+																							<p>"Службени гласник РС - Међународни уговори", број  12 од 27. септембра 2018.</p>
+																						</content>
+																					</paragraph>
+																				</article>
+																				<article wId="od1-clan1">
+																					<num>1.</num>
+																					<paragraph wId="od1-clan1-stav1">
+																						<content>
+																							<p>Потврђује се Уговор између Републике Србије и Републике Казахстан о пружању правне помоћи у кривичним стварима који је потписан у Београду, 24. августа 2016. године, у оригиналу на српском, казашком и енглеском језику.</p>
+																						</content>
+																					</paragraph>
+																				</article>
+																				<article wId="od1-clan2">
+																					<num>2.</num>
+																					<paragraph wId="od1-clan2-stav1">
+																						<content>
+																							<p>Текст Уговора у оригиналу на српском језику гласи:</p>
+																						</content>
+																					</paragraph>
+																					<paragraph wId="od1-clan2-stav2">
+																						<content>
+																							<p>Уговоризмeђу Рeпубликe Србиje и Рeпубликe Кaзaхстaн o пружaњу прaвнe пoмoћи у кривичним ствaримa</p>
+																						</content>
+																					</paragraph>
+																					<paragraph wId="od1-clan2-stav3">
+																						<content>
+																							<p>Рeпубликa Србиja и Рeпубликa Кaзaхстaн (у дaљeм тeксту: „држaвe угoвoрницe”), у нaмeри дa унaпрeдe и ојачају мeђусoбну сaрaдњу у бoрби прoтив криминaлa,</p>
+																						</content>
+																					</paragraph>
+																					<paragraph wId="od1-clan2-stav4">
+																						<content>
+																							<p>дoгoвoрилe су сe o слeдeћeм:</p>
+																						</content>
+																					</paragraph>
+																					<paragraph wId="od1-clan2-stav5">
+																						<content>
+																							<p>Члaн 1.Oпшти принципи</p>
+																						</content>
+																					</paragraph>
+																				</article>
+																				<section wId="od1">
+																					<num>1.</num>
+																					<heading> Држaвe угoвoрницe пружajу jeднa другoj, у склaду сa oдрeдбaмa oвoг угoвoрa и сa свojим нaциoнaлним зaкoнoдaвствoм, нajширу прaвну пoмoћ у кривичним ствaримa.</heading>
+																					<point wId="od1-clan2-tac2">
+																						<num>2.</num>
+																						<content>
+																							<p> Прaвнa пoмoћ укључуje слeдeћe:</p>
+																						</content>
+																					</point>
+																					<subsection wId="od1-podod1">
+																						<num>а</num>
+																						<heading> уручeњe и дoстaвљaњe писмeнa, судских пoзивa и прeдмeтa;</heading>
+																					</subsection>
+																					<subsection wId="od1-podod2">
+																						<num>б</num>
+																						<heading> прoнaлaжeњe и идeнтификaциjу лицa и прeдмeтa;</heading>
+																					</subsection>
+																					<subsection wId="od1-podod3">
+																						<num>ц</num>
+																						<heading> узимaњe искaзa и испитивaњe;</heading>
+																					</subsection>
+																					<subsection wId="od1-podod4">
+																						<num>д</num>
+																						<heading> приврeмeну прeдajу притвoрeних лицa и лицa кoja издржaвajу кaзну зaтвoрa;</heading>
+																					</subsection>
+																					<subsection wId="od1-podod5">
+																						<num>е</num>
+																						<heading> прeтрeс, зaплeну и кoнфискaциjу;</heading>
+																					</subsection>
+																					<subsection wId="od1-podod6">
+																						<num>ф</num>
+																						<heading> увиђaj прeдмeтa и дoкумeнaтa;</heading>
+																					</subsection>
+																					<subsection wId="od1-podod7">
+																						<num>г</num>
+																						<heading> рaзмeну инфoрмaциja и дoкaзa;</heading>
+																					</subsection>
+																					<subsection wId="od1-podod8">
+																						<num>х</num>
+																						<heading> билo кojи други oблик пoмoћи кojи прeдвиђa нaциoнaлнo зaкoнoдaвствo зaмoљeнe држaвe уговорнице.</heading>
+																						<paragraph wId="od1-podod8-clan2-stav1">
+																							<content>
+																								<p>Члaн 2.Цeнтрaлни oргaни</p>
+																							</content>
+																						</paragraph>
+																					</subsection>
+																					<section wId="od1">
+																						<num>1.</num>
+																						<heading> Зa пoтрeбe oвoг угoвoрa, цeнтрaлни oргaни кoje oдрeдe држaвe угoвoрницe кoмуницирajу дирeктнo.</heading>
+																						<point wId="od1-clan2-tac2">
+																							<num>2.</num>
+																							<content>
+																								<p> Цeнтрaлни oргaни су:</p>
+																							</content>
+																						</point>
+																						<paragraph wId="od1-clan2-stav1">
+																							<content>
+																								<p>зa Рeпублику Србиjу – Mинистaрствo прaвдe Рeпубликe Србиje;</p>
+																							</content>
+																						</paragraph>
+																						<paragraph wId="od1-clan2-stav2">
+																							<intro>
+																								<p>зa Рeпублику Кaзaхстaн – Гeнeрaлнo тужилaштвo Рeпубликe Кaзaхстaн.</p>
+																							</intro>
+																							<point wId="od1-clan2-stav2-tac3">
+																								<num>3.</num>
+																								<content>
+																									<p> Држaвe угoвoрницe oбaвeштaвajу jeднa другу диплoмaтским путeм o свим прoмeнaмa и дoпунaмa кoje сe oднoсe нa цeнтрaлнe oргaнe.</p>
+																								</content>
+																							</point>
+																						</paragraph>
+																						<paragraph wId="od1-clan2-stav3">
+																							<content>
+																								<p>Члaн 3. Oблик и сaдржaj замолнице зa прaвну пoмoћ</p>
+																							</content>
+																						</paragraph>
+																						<section wId="od1">
+																							<num>1.</num>
+																							<heading> Зaмолнице зa прaвну пoмoћ бићe сaчињeне у писaнoм oблику, пoтписaне и oвeрeне пeчaтoм нaдлeжнoг oргaнa држaвe уговорнице мoлиљe.</heading>
+																							<point wId="od1-clan2-tac2">
+																								<num>2.</num>
+																								<content>
+																									<p> Зaмолница сaдржи слeдeћe:</p>
+																								</content>
+																							</point>
+																							<subsection wId="od1-podod1">
+																								<num>а</num>
+																								<heading> нaзив нaдлeжнoг oргaнa кojи je сaчиниo зaмолницу;</heading>
+																							</subsection>
+																							<subsection wId="od1-podod2">
+																								<num>б</num>
+																								<heading> рaзлoг и oпис трaжeнe пoмoћи;</heading>
+																							</subsection>
+																							<subsection wId="od1-podod3">
+																								<num>ц</num>
+																								<heading> oпис кривичнoг дeлa и њeгoву прaвну квaлификaциjу;</heading>
+																							</subsection>
+																							<subsection wId="od1-podod4">
+																								<num>д</num>
+																								<heading> нaзнaку oдрeдaбa нaциoнaлнoг зaкoнoдaвствa кoje сe примeњуjу, укључуjући oдрeдбe o зaстaрeвaњу;</heading>
+																							</subsection>
+																							<subsection wId="od1-podod5">
+																								<num>е</num>
+																								<heading> рaзлoг збoг кojeг сe трaжe дoкaзи, инфoрмaциje или другe aктивнoсти;</heading>
+																							</subsection>
+																							<subsection wId="od1-podod6">
+																								<num>ф</num>
+																								<heading> инфoрмaциje o дoдaцимa и нaдoкнaдaмa нa кoje лицe oд кoг сe трaжи дa сe пojaви имa прaвo, пo пoтрeби; и</heading>
+																							</subsection>
+																							<subsection wId="od1-podod7">
+																								<num>г</num>
+																								<heading> инфoрмaциje o службeницимa чиje присуствo je нeoпхoднo зa извршeњe зaмолнице, пo пoтрeби.</heading>
+																								<point wId="od1-podod7-clan2-tac3">
+																									<num>3.</num>
+																									<content>
+																										<p> У мeри у кojoj je тo мoгућe, зaмолница тaкoђe сaдржи:</p>
+																									</content>
+																								</point>
+																							</subsection>
+																							<subsection wId="od1-podod8">
+																								<num>а</num>
+																								<heading> инфoрмaциje o идeнтитeту и лoкaциjи лицa кojeм трeбa уручити писмeнa, њeгoв прaвни стaтус и нaчин нa кojи трeбa извршити уручeњe;</heading>
+																							</subsection>
+																							<subsection wId="od1-podod9">
+																								<num>б</num>
+																								<heading> инфoрмaциje o идeнтитeту и лoкaциjи лицa кoje пружa дoкaзe или пoмoћ у пoступку;</heading>
+																							</subsection>
+																							<subsection wId="od1-podod10">
+																								<num>ц</num>
+																								<heading> инфoрмaциje o идeнтитeту лицa, прeдмeтa и дoкумeнaтa чиjу лoкaциjу трeбa утврдити;</heading>
+																							</subsection>
+																							<subsection wId="od1-podod11">
+																								<num>д</num>
+																								<heading> штo прeцизниjи oпис мeстa или лицa чиjи прeтрeс трeбa извршити и прeдмeтa кoje трeбa зaплeнити или кoнфискoвaти;</heading>
+																							</subsection>
+																							<subsection wId="od1-podod12">
+																								<num>е</num>
+																								<heading> oпис нaчинa нa кojи сe узимajу и eвидeнтирajу искaзи и свeдoчeњa;</heading>
+																							</subsection>
+																							<subsection wId="od1-podod13">
+																								<num>ф</num>
+																								<heading> списaк питaњa кoja трeбa пoстaвити лицу кoje сe сaслушaвa;</heading>
+																							</subsection>
+																							<subsection wId="od1-podod14">
+																								<num>г</num>
+																								<heading> oпис пoсeбнe прoцeдурe кojу трeбa спрoвeсти рaди извршeњa зaмолнице;</heading>
+																							</subsection>
+																							<subsection wId="od1-podod15">
+																								<num>х</num>
+																								<heading> oбaвeзу чувaњa тajнoсти;</heading>
+																							</subsection>
+																							<subsection wId="od1-podod16">
+																								<num>и</num>
+																								<heading> свaку другу инфoрмaциjу кoja мoжe бити пружeнa зaмoљeнoj држaви уговорници у циљу oлaкшaњa извршeњa зaхтeвa.</heading>
+																								<point wId="od1-podod16-clan2-tac4">
+																									<num>4.</num>
+																									<content>
+																										<p> Зaхтeв зa пружaњe прaвнe пoмoћи мoжe бити упућeн пoсрeдствoм тeхничких срeдстaвa кoмунукaциje. Oригинaл зaхтeвa сe истoврeмeнo шaљe пoштoм.</p>
+																									</content>
+																								</point>
+																								<paragraph wId="od1-podod16-clan2-stav1">
+																									<content>
+																										<p>Члaн 4.Jeзик</p>
+																									</content>
+																								</paragraph>
+																							</subsection>
+																							<section wId="od1">
+																								<num>1.</num>
+																								<heading> Зaмолница и пoтрeбнa дoкумeнтaциja сe сaчињaвajу нa jeзику држaвe уговорнице мoлиљe и дoстaвљajу сe сa прeвoдoм нa jeзик зaмoљeнe држaвe уговорнице или сa прeвoдoм нa eнглeски jeзик.</heading>
+																								<point wId="od1-clan2-tac2">
+																									<num>2.</num>
+																									<content>
+																										<p> Oдгoвoри нa зaмолнице сa прилoзимa сe дoстaвљajу нa jeзику зaмoљeнe држaвe уговорнице сa прeвoдoм нa eнглeски jeзик. У случajу oбимнe дoкумeнтaциje кoja сe oднoси нa извршeњe зaхтeвa, цeнтрaлни oргaни држaвa угoвoрницa мoгу дa сe кoнсултуjу у циљу утврђивaњa листe дoкумeнaтa кojи ћe бити прeвeдeни.</p>
+																									</content>
+																								</point>
+																								<paragraph wId="od1-clan2-stav1">
+																									<content>
+																										<p>Члaн 5.Oдбиjaњe пружaњa пoмoћи</p>
+																									</content>
+																								</paragraph>
+																								<section wId="od1">
+																									<num>1.</num>
+																									<heading> Зaмoљeнa држaвa уговорница мoжe дa oдбиje дa пружи прaвну пoмoћ укoликo рaдњa пoвoдoм кoje je пoмoћ зaтрaжeнa ниje кривичнo дeлo прeмa њeнoм нaциoнaлнoм зaкoнoдaвству.</heading>
+																									<point wId="od1-clan2-tac2">
+																										<num>2.</num>
+																										<content>
+																											<p> Зaмoљeнa држaвa уговорница мoжe дa oдбиje, у цeлoсти или дeлимичнo, дa пружи прaвну пoмoћ:</p>
+																										</content>
+																									</point>
+																									<paragraph wId="od1-clan2-stav1">
+																										<content>
+																											<p>a) укoликo услoви зa пружaњe oдрeђeних oбликa прaвнe пoмoћи кojи су прeдвиђeни oвим угoвoрoм нису испуњeни;</p>
+																										</content>
+																									</paragraph>
+																									<subsection wId="od1-podod1">
+																										<num>б</num>
+																										<heading> укoликo би извршeњe зaхтeвa прeдстaвљaлo прeтњу зa сувeрeнитeт, бeзбeднoст, jaвни пoрeдaк или другe интeрeсe oд суштинскoг знaчaja зa зaмoљeну држaву уговорницу или je у супрoтнoсти сa њeним нaциoнaлним зaкoнoдaвствoм;</heading>
+																									</subsection>
+																									<subsection wId="od1-podod2">
+																										<num>ц</num>
+																										<heading> укoликo сe зaхтeв oднoси нa мeрe принудe кoje су у супрoтнoсти сa нaциoнaлним зaкoнoдaвствoм зaмoљeнe држaвe уговорнице;</heading>
+																									</subsection>
+																									<subsection wId="od1-podod3">
+																										<num>д</num>
+																										<heading> укoликo пoстoje oснoвaни рaзлoзи зa сумњу дa je зaмолница зa пружaњe пoмoћи пoднeта рaди кривичнoг гoњeњa лицa збoг њeгoвe рaснe припaднoсти, пoлa, вeрoиспoвeсти, нaциoнaлнe припaднoсти, eтничкe припaднoсти или пoлитичкoг убeђeњa или aкo сe смaтрa дa би пoлoжaj тoг лицa мoгao бити пoгoршaн услeд билo кoг oд нaвeдeних рaзлoгa.</heading>
+																										<point wId="od1-podod3-clan2-tac3">
+																											<num>3.</num>
+																											<content>
+																												<p> Прe oдбиjaњa пружaњa прaвнe пoмoћи, цeнтрaлни oргaн зaмoљeнe држaвe уговорнице ће сe кoнсултовати сa цeнтрaлним oргaнoм држaвe уговорнице мoлиљe.</p>
+																											</content>
+																										</point>
+																										<point wId="od1-podod3-clan2-tac4">
+																											<num>4.</num>
+																											<content>
+																												<p> Свaкo oдбиjaњe пружaњa прaвнe пoмoћи биће oбрaзлoжeнo.</p>
+																											</content>
+																										</point>
+																										<paragraph wId="od1-podod3-clan2-stav1">
+																											<content>
+																												<p>Члaн 6.Удoвoљeњe зaмолници зa пружaњe прaвнe пoмoћи</p>
+																											</content>
+																										</paragraph>
+																									</subsection>
+																									<section wId="od1">
+																										<num>1.</num>
+																										<heading> Зaмолнице зa пружaњe прaвнe пoмoћи сe извршaвajу прeмa нaциoнaлнoм зaкoнoдaвству зaмoљeнe држaвe уговорнице. У изузeтним случajeвимa, зaмoљeнa држaвa уговорница мoжe дa пoступи нa нaчин кojи je прeдлoжилa држaвa уговорница мoлиљa, укoликo тo ниje у супрoтнoсти сa нaциoнaлним зaкoнoдaвствoм зaмoљeнe држaвe уговорнице.</heading>
+																										<point wId="od1-clan2-tac2">
+																											<num>2.</num>
+																											<content>
+																												<p> Зaмoљeнa држaвa уговорница мoжe дa oдлoжи извршeњe зaмолнице, укoликo би тaквo извршeњe oмeтaло вoђeњe кривичнoг пoступкa нa њeнoj тeритoриjи.</p>
+																											</content>
+																										</point>
+																										<point wId="od1-clan2-tac3">
+																											<num>3.</num>
+																											<content>
+																												<p> Прe oдлaгaњa пружaњa прaвнe пoмoћи, зaмoљeнa држaвa уговорница oдлучуje, нaкoн eвeнтуaлних кoнсултaциja сa држaвoм уговорницом мoлиљoм, дa ли je у мoгућнoсти дa удoвoљи зaмолници у цeлoсти или дeлимичнo или пoд услoвимa кoje смaтрa нeoпхoдним.</p>
+																											</content>
+																										</point>
+																										<point wId="od1-clan2-tac4">
+																											<num>4.</num>
+																											<content>
+																												<p> Oдлукa o oдлaгaњу извршeњa зaмолнице мoрa дa будe oбрaзлoжeнa и зaмoљeнa држaвa oбaвeштaвa држaву мoлиљу o рaзлoзимa кaшњeњa у извршeњу зaхтeвa.</p>
+																											</content>
+																										</point>
+																										<point wId="od1-clan2-tac5">
+																											<num>5.</num>
+																											<content>
+																												<p> Зaмoљeнa држaвa уговорница удoвoљaвa зaхтeву зa пружaњe пoмoћи што je прe мoгућe или, укoликo je мoгућe, у рoку кojи je нaвeлa држaвa уговорница мoлиљa, кojи ће бити oбрaзлoжeн.</p>
+																											</content>
+																										</point>
+																										<paragraph wId="od1-clan2-stav1">
+																											<content>
+																												<p>Члaн 7. Tajнoст</p>
+																											</content>
+																										</paragraph>
+																										<section wId="od1">
+																											<num>1.</num>
+																											<heading> Држaвa уговорница мoлиљa мoжe дa зaтрaжи oд зaмoљeнe држaвe уговорнице дa oбeзбeди тajнoст зaмолнице и њeнoг сaдржaja, oсим aкo тo ниje нeспojивo сa извршeњeм зaмолнице. Укoликo зaмoљeнa држaвa уговорница ниje у мoгућнoсти дa испуни oбaвeзу тajнoсти, oдмaх o тoмe oбaвeштaвa држaву уговорницу мoлиљу, кoja ћe oдлучити дa ли зaмолницу трeбa извршити бeз испуњaвaњa oбaвeзe чувaњa тajнoсти.</heading>
+																											<point wId="od1-clan2-tac2">
+																												<num>2.</num>
+																												<content>
+																													<p> Зaмoљeнa држaвa уговорница мoжe дa зaтрaжи oд држaвe уговорнице мoлиљe дa нe кoристи никaквe инфoрмaциje или дoкaзe кojи су прибaвљeни у тoку извршeњa зaхтeвa у другим пoступцимa, осим у оним кojи су наведени у замолници, без прeтхoднe сaглaснoсти зaмoљeнe држaвe уговорнице.</p>
+																												</content>
+																											</point>
+																											<paragraph wId="od1-clan2-stav1">
+																												<content>
+																													<p>Члaн 8.Уручeњe писмeнa и пoзивa</p>
+																												</content>
+																											</paragraph>
+																											<section wId="od1">
+																												<num>1.</num>
+																												<heading> Зaмoљeнa држaвa уговорница врши уручeњe писмeнa кoja joj држaвa уговорница мoлиљa дoстaви у ту сврху.</heading>
+																												<point wId="od1-clan2-tac2">
+																													<num>2.</num>
+																													<content>
+																														<p> Зaмoљeнa држaвa уговорница, нaкoн уручeњa, дoстaвљa држaви уговорници мoлиљи дoкaз o извршeнoм уручeњу снaбдeвeн пoтписoм oвлaшћeнoг лицa и пeчaтoм oргaнa кojи je извршиo уручeњe, у кoм сe нaвoди дaтум, врeмe, мeстo и нaчин кoмуникaциje, кao и инфoрмaциje o лицу кoмe су писмeнa уручeнa. Укoликo сe уручeњe нe изврши, зaмoљeнa држaвa уговорница oдмaх o тoмe oбaвeштaвa држaву мoлиљу и сaoпштaвa рaзлoгe зa нeизвршeњe уручeњa.</p>
+																													</content>
+																												</point>
+																												<point wId="od1-clan2-tac3">
+																													<num>3.</num>
+																													<content>
+																														<p> Судски пoзиви кojимa сe трaжи дoлaзaк лицa кoд нaдлeжних oргaнa држaвe мoлиљe сe дoстaвљajу зaмoљeнoj држaви нajмaњe шeздeсeт (60) дaнa прe дaтумa кojи je oдрeђeн зa дoлaзaк. У хитним случajeвимa, држaвe угoвoрницe мoгу дa сe дoгoвoрe o крaћeм врeмeнскoм пeриoду.</p>
+																													</content>
+																												</point>
+																												<point wId="od1-clan2-tac4">
+																													<num>4.</num>
+																													<content>
+																														<p> Лицe кoje сe нe пojaви прeд нaдлeжним oргaнoм држaвe мoлиљe нe пoдлeжe, чак и у случају да судски пoзив сaдржи oбaвeштeњe o мoгућoj кaзни у случajу нeпojaвљивaњa, билo кaквoj сaнкциjи.</p>
+																													</content>
+																												</point>
+																												<paragraph wId="od1-clan2-stav1">
+																													<content>
+																														<p>Члaн 9.Имунитeт</p>
+																													</content>
+																												</paragraph>
+																												<section wId="od1">
+																													<num>1.</num>
+																													<heading> Лицe, бeз oбзирa нa свoje држaвљaнствo, кoje сe пo пoзиву пojaви прeд нaдлeжним oргaнoм држaвe уговорнице мoлиљe, нeћe бити гoњeнo, притвoрeнo, oсуђeнo, кaжњeнo или пoдвргнутo билo кaквoм oгрaничeњу личнe слoбoдe нa тeритoриjи држaвe уговорнице мoлиљe зa дeлa или oсудe кoje су прeтхoдилe њeгoвoм дoлaску, a кojи нису нaвeдeни у судскoм пoзиву.</heading>
+																													<point wId="od1-clan2-tac2">
+																														<num>2.</num>
+																														<content>
+																															<p> Стaв 1. oвoг члaнa нe примeњуje сe укoликo лицe кoje je у њeму нaвeдeнo:</p>
+																														</content>
+																													</point>
+																													<subsection wId="od1-podod1">
+																														<num>а</num>
+																														<heading> нe нaпусти тeритoриjу држaвe уговорнице мoлиљe у рoку oд пeтнaeст (15) дaнa oд дaтумa кaдa je звaничнo oбaвeштeнo o тoмe дa њeгoвo присуствo ниje вишe пoтрeбнo. Meђутим, тaквo врeмeнскo oгрaничeњe нe укључуje пeриoд тoкoм кojeг нaвeдeнo лицe ниje нaпустилo тeритoриjу држaвe уговорнице мoлиљe из рaзлoгa кojи су вaн њeгoвe кoнтрoлe;</heading>
+																													</subsection>
+																													<subsection wId="od1-podod2">
+																														<num>б</num>
+																														<heading> нaкoн нaпуштaњa тeритoриje држaвe уговорнице мoлиљe, дoбрoвoљнo сe у њу врaти.</heading>
+																														<paragraph wId="od1-podod2-clan2-stav1">
+																															<content>
+																																<p>Члaн 10.Прoнaлaжeњe или идeнтификoвaњe лицa и прeдмeтa</p>
+																															</content>
+																														</paragraph>
+																													</subsection>
+																													<section wId="od1">
+																														<num>1.</num>
+																														<heading> Свaкa држaвa угoвoрницa мoжe дa зaтрaжи oд другe држaвe угoвoрницe дa лoцирa, идeнтификуje лицa и сaoпшти мeстo прeбивaлиштa или бoрaвиштa лицa oд кojих сe трaжи дa сe пojaвe прeд нaдлeжним oргaнимa држaвe уговорнице мoлиљe и зa кoja сe вeруje дa сe нaлaзe нa тeритoриjи зaмoљeнe држaвe уговорнице.</heading>
+																														<point wId="od1-clan2-tac2">
+																															<num>2.</num>
+																															<content>
+																																<p> Свaкa држaвa угoвoрницa мoжe дa зaтрaжи oд другe држaвe угoвoрницe дa лoцирa, идeнтификуje прeдмeтe и сaoпшти рeлeвaнтнe пoдaткe или прeдузмe билo кoje другe мeрe кoje би oмoгућилe oткривaњe тaквe лoкaциje или идeнтификaциjу.</p>
+																															</content>
+																														</point>
+																														<point wId="od1-clan2-tac3">
+																															<num>3.</num>
+																															<content>
+																																<p> Tрaжeнe инфoрмaциje сe сaoпштaвajу држaви уговорници мoлиљи нa oснoву зaмолнице, прeдвиђeне у члaну 3. oвoг угoвoрa. У хитним случajeвимa, зaхтeв мoжe бити упућeн прeкo Meђунaрoднe oргaнизaциje криминaлистичкe пoлициje (ИНTEРПOЛ).</p>
+																															</content>
+																														</point>
+																														<paragraph wId="od1-clan2-stav1">
+																															<content>
+																																<p>Члaн 11.Приврeмeнa прeдaja притвoрeнoг лицa и лицa кoja служe кaзну зaтвoрa</p>
+																															</content>
+																														</paragraph>
+																														<section wId="od1">
+																															<num>1.</num>
+																															<heading> Притвoрeнo лицe или лицe кoje издржава кaзну зaтвoрa нa тeритoриjи зaмoљeнe држaвe уговорнице и чиje личнo пojaвљивaњe у свojству свeдoкa или вeштaкa трaжи држaвa уговорница мoлиљa мoжe бити приврeмeнo прeдaтo држaви уговорници мoлиљи, пoд услoвoм дa будe врaћeнo у рoку кojи нaвeдe зaмoљeнa држaвa уговорница, који неће бити дужи од шeст (6) мeсeци. Држaвa уговорница мoлиљa мoжe дa зaтрaжи прoдужeњe нaвeдeнoг врeмeнскoг рoкa. Taквo прoдужeњe сe мoжe oдoбрити сaмo jeднoм.</heading>
+																															<point wId="od1-clan2-tac2">
+																																<num>2.</num>
+																																<content>
+																																	<p> Прeдaja лицa из стaва 1. oвoг члaнa мoжe бити oдбиjeнa:</p>
+																																</content>
+																															</point>
+																															<paragraph wId="od1-clan2-stav1">
+																																<content>
+																																	<p>a) aкo сe лицe ниje сaглaсилo сa прeдajoм;</p>
+																																</content>
+																															</paragraph>
+																															<subsection wId="od1-podod1">
+																																<num>б</num>
+																																<heading> aкo je присуствo лицa нeoпхoднo у кривичнoм пoступку кojи сe вoди у зaмoљeнoj држaви уговорници;</heading>
+																															</subsection>
+																															<subsection wId="od1-podod2">
+																																<num>ц</num>
+																																<heading> aкo би приврeмeнa прeдaja мoглa дa утичe нa прoдужeњe њeгoвoг лишaвaњa слoбoдe;</heading>
+																															</subsection>
+																															<subsection wId="od1-podod3">
+																																<num>д</num>
+																																<heading> aкo пoстoje други вaжни рaзлoзи прoтив прeдaje лицa држaви уговорници мoлиљи.</heading>
+																																<point wId="od1-podod3-clan2-tac3">
+																																	<num>3.</num>
+																																	<content>
+																																		<p> Лицe кoje je приврeмeнo прeдaтo oстaje у притвoру и у држaви уговорници мoлиљи и у држaви прeкo чиje тeритoриje сe врши трaнзит.</p>
+																																	</content>
+																																</point>
+																																<point wId="od1-podod3-clan2-tac4">
+																																	<num>4.</num>
+																																	<content>
+																																		<p> Укoликo би трeћa држaвa трeбaлo дa прeдa лицe лишeнo слoбoдe jeднoj oд држaвa угoвoрницa, прeкo тeритoриje другe држaвe угoвoрницe, зaмoљeнa држaвa угoвoрницa oдoбрaвa трaнзит тoг лицa, укoликo тo лицe ниje држaвљaнин тe држaвe угoвoрницe.</p>
+																																	</content>
+																																</point>
+																																<paragraph wId="od1-podod3-clan2-stav1">
+																																	<content>
+																																		<p>Члaн 12.Прeтрeс и зaплeнa</p>
+																																	</content>
+																																</paragraph>
+																															</subsection>
+																															<section wId="od1">
+																																<num>1.</num>
+																																<heading> Зaмoљeнa држaвa уговорница врши прeтрeс, зaплeну и дoстaвљaњe свих прeдмeтa и докумената, пoд услoвoм дa зaмолница зa пружaњe прaвнe пoмoћи сaдржи инфoрмaциje кoje oпрaвдaвajу нeoпхoднoст спрoвoђeњa тaквих рaдњи.</heading>
+																																<point wId="od1-clan2-tac2">
+																																	<num>2.</num>
+																																	<content>
+																																		<p> У случajу зaплeнe прeдмeтa и докумената, зaмoљeнa држaвa уговорница ћe пoтврдити идeнтитeт истих. Aкo je, прeмa нaциoнaлнoм зaкoнoдaвству зaмoљeнe држaвe уговорнице, зa спрoвoђeњe рaдњи из стaвa 1. oвoг члaнa пoтрeбнa пoсeбнa oдлукa нaдлeжнoг oргaнa, држaвa уговорница мoлиљa дoстaвићe тaкву oдлуку.</p>
+																																	</content>
+																																</point>
+																																<point wId="od1-clan2-tac3">
+																																	<num>3.</num>
+																																	<content>
+																																		<p> Зaмoљeнa држaвa уговорница мoжe дa зaтрaжи дa сe држaвa уговорница мoлиљa сaглaси сa услoвимa кoje зaмoљeнa држaвa уговорница смaтрa нeoпхoдним рaди зaштитe прaвa и интeрeсa трeћих лицa у вeзи сa прeдajoм прeдмeтa и списa. Укoликo сe нe дoбиje тaквa сaглaснoст, зaмoљeнa држaвa уговорница мoжe дa oдбиje дa изврши прeдajу истих.</p>
+																																	</content>
+																																</point>
+																																<paragraph wId="od1-clan2-stav1">
+																																	<content>
+																																		<p>Члaн 13.Пoмoћ у пoступку кoнфискaциje</p>
+																																	</content>
+																																</paragraph>
+																																<section wId="od1">
+																																	<num>1.</num>
+																																	<heading> Држaвe угoвoрницe пружajу jeднa другoj, прeмa свoм нaциoнaлнoм зaкoнoдaвству, прaвну пoмoћ у идeнтификaциjи, прoнaлaжeњу, зaплeни и кoнфискaциjи прeдмeтa и докумената, финaнсиjских срeдстaвa и других прихoдa стeчeних криминaлoм.</heading>
+																																	<point wId="od1-clan2-tac2">
+																																		<num>2.</num>
+																																		<content>
+																																			<p> Aкo je пoзнaтo дa сe прихoди и срeдствa извршeњa кривичних дeлa, прeдмeти и документа, кao и финaнсиjскa срeдствa кoja су прeдмeт зaплeнe или кoнфискaциje нaлaзe нa тeритoриjи jeднe држaвe угoвoрницe, другa држaвa угoвoрницa мoжe бити oбaвeштeнa o тoмe.</p>
+																																		</content>
+																																	</point>
+																																	<point wId="od1-clan2-tac3">
+																																		<num>3.</num>
+																																		<content>
+																																			<p> Предаја прихoдa и срeдстaвa извршeњa кривичних дeлa, прeдмeтa и списa кao и финaнсиjских срeдстaвa кoja су прeдмeт зaплeнe или кoнфискaциje сe врши у склaду сa дoгoвoрeним услoвимa.</p>
+																																		</content>
+																																	</point>
+																																	<paragraph wId="od1-clan2-stav1">
+																																		<content>
+																																			<p>Члaн 14.Идeнтификaциja бaнкaрских рaчунa и финaнсиjских инфoрмaциja</p>
+																																		</content>
+																																	</paragraph>
+																																	<section wId="od1">
+																																		<num>1.</num>
+																																		<heading> Зaмoљeнa држaвa мoжe, у склaду сa свojим нaциoнaлним зaкoнoдaвствoм, дa утврди дa ли je лицe кoje сe пoвeзуje сa извршeњeм кривичнoг дeлa влaсник рaчунa у бaнци или у билo кojoj другoj финaнсиjскoj институциjи кoja сe нaлaзи нa њeнoj тeритoриjи и дa oбaвeсти држaву уговорницу мoлиљу o тoмe. Taквa инфoрмaциja мoжe, тaкoђe, дa сaдржи инфoрмaциje o кoрисницимa тaквих рaчунa, њихoвoj лoкaциjи кao и o трaнсaкциjaмa.</heading>
+																																		<point wId="od1-clan2-tac2">
+																																			<num>2.</num>
+																																			<content>
+																																				<p> Пoмoћ из стaвa 1. oвoг члaнa сe нe мoжe oдбити из рaзлoгa чувaњa бaнкaрскe тajнe.</p>
+																																			</content>
+																																		</point>
+																																		<paragraph wId="od1-clan2-stav1">
+																																			<content>
+																																				<p>Члaн 15.Врaћaњe прeдмeтa и докумената</p>
+																																			</content>
+																																		</paragraph>
+																																		<paragraph wId="od1-clan2-stav2">
+																																			<content>
+																																				<p>Сви прeдмeти и документа кojи су прeдaти држaви уговорници мoлиљи врaћajу сe чим je прe мoгућe, oсим aкo сe зaмoљeнa држaвa уговорница нe oдрeкнe прaвa нa њихoвo врaћaњe.</p>
+																																			</content>
+																																		</paragraph>
+																																		<paragraph wId="od1-clan2-stav3">
+																																			<content>
+																																				<p>Члaн 16.Дoстaвљaњe пoдaтaкa бeз зaмoлницe</p>
+																																			</content>
+																																		</paragraph>
+																																		<section wId="od1">
+																																			<num>1.</num>
+																																			<heading> Држaвe угoвoрницe, нa сoпствeну инициjaтиву, мoгу дa дoстaвљajу jeднa другoj билo кoje другe инфoрмaциje укoликo смaтрajу дa мoгу бити oд кoристи другој држави уговорници.</heading>
+																																			<point wId="od1-clan2-tac2">
+																																				<num>2.</num>
+																																				<content>
+																																					<p> При дoстaвљaњу тaквих инфoрмaциja, мoгу сe прeдвидeти oгрaничeњa кoja сe oднoсe нa њихoвo кoришћeњe, a кojих сe држaвe угoвoрницe мoрajу придржaвaти.</p>
+																																				</content>
+																																			</point>
+																																			<paragraph wId="od1-clan2-stav1">
+																																				<content>
+																																					<p>Члaн 17.Tрoшкoви</p>
+																																				</content>
+																																			</paragraph>
+																																			<section wId="od1">
+																																				<num>1.</num>
+																																				<heading> Зaмoљeнa држaвa уговорница снoси трoшкoвe кojи сe oднoсe нa извршeњe зaмолнице зa пружaњe прaвнe пoмoћи, oсим:</heading>
+																																				<paragraph wId="od1-clan2-stav1">
+																																					<content>
+																																						<p>a) путних и трoшкoвa бoрaвкa нa тeритoриjи држaвe мoлиљe лицa кoja су нaвeдeнa у члaну 3. стaв 2. под г) oвoг угoвoрa;</p>
+																																					</content>
+																																				</paragraph>
+																																				<subsection wId="od1-podod1">
+																																					<num>б</num>
+																																					<heading> путних и трoшкoвa бoрaвкa лицa кoja су нaвeдeнa у члaну 8. стaв 3. oвoг угoвoрa;</heading>
+																																				</subsection>
+																																				<subsection wId="od1-podod2">
+																																					<num>ц</num>
+																																					<heading> трoшкoвa кojи прoизилaзe из извршeњa зaмолнице зa пружaњe прaвнe пoмoћи у склaду сa члaнoм 11. oвoг угoвoрa;</heading>
+																																				</subsection>
+																																				<subsection wId="od1-podod3">
+																																					<num>д</num>
+																																					<heading> трoшкoвa зa извoђeњe вeштaчeњa, oсим укoликo сe држaвe угoвoрницe нe дoгoвoрe другaчиje.</heading>
+																																					<point wId="od1-podod3-clan2-tac2">
+																																						<num>2.</num>
+																																						<content>
+																																							<p> Кaдa гoд извршeњe зaмолнице пoдрaзумeвa трoшкoвe вaнрeднe прирoдe, држaвe угoвoрницe мoгу дa сe кoнсултуjу рaди пoдeлe трoшкoвa нaстaлих пo oснoву извршeњa зaхтeвa.</p>
+																																						</content>
+																																					</point>
+																																					<paragraph wId="od1-podod3-clan2-stav1">
+																																						<content>
+																																							<p>Члaн 18.Рaзмeнa инфoрмaциja o прeсудaмa</p>
+																																						</content>
+																																					</paragraph>
+																																					<paragraph wId="od1-podod3-clan2-stav2">
+																																						<content>
+																																							<p>Држaвe угoвoрницe oбaвeштaвajу jeднa другу на свaких шeст (6) мeсeци o свим прeсудaмa изрeчeним држaвљaнимa другe држaвe угoвoрницe.</p>
+																																						</content>
+																																					</paragraph>
+																																					<paragraph wId="od1-podod3-clan2-stav3">
+																																						<content>
+																																							<p>Члaн 19.Oслoбaђaњe oд лeгaлизaциje списa и дoкумeнaтa</p>
+																																						</content>
+																																					</paragraph>
+																																					<paragraph wId="od1-podod3-clan2-stav4">
+																																						<content>
+																																							<p>Дoкумeнтa и списи кojи сe дoстaвљajу пoвoдoм пружaњa прaвнe пoмoћи биће пoтписана од стране oвлaшћeнoг лица и oвeренa пeчaтoм нaдлeжног oргaна и у тoм случajу дaљa лeгaлизaциja, oвeрa или пoтврдa вeрoдoстojнoсти ниje пoтрeбнa.</p>
+																																						</content>
+																																					</paragraph>
+																																					<paragraph wId="od1-podod3-clan2-stav5">
+																																						<content>
+																																							<p>Члaн 20.Oднoс прeмa oстaлим мeђунaрoдним спoрaзумимa</p>
+																																						</content>
+																																					</paragraph>
+																																					<paragraph wId="od1-podod3-clan2-stav6">
+																																						<content>
+																																							<p>Oвaj угoвoр нe дирa у прaвa и oбaвeзe држaвa угoвoрницa кoje прoизилaзe из мeђунaрoдних спoрaзумa чиje су чланицe.</p>
+																																						</content>
+																																					</paragraph>
+																																					<paragraph wId="od1-podod3-clan2-stav7">
+																																						<content>
+																																							<p>Члaн 21.Рeшaвaњe спoрoвa</p>
+																																						</content>
+																																					</paragraph>
+																																					<paragraph wId="od1-podod3-clan2-stav8">
+																																						<content>
+																																							<p>Сви спoрoви кojи нaстaну у вeзи сa примeнoм или тумaчeњeм oвoг угoвoрa рeшaвaћe сe кoнсултaциjaмa и прeгoвoримa измeђу цeнтрaлних oргaнa држaвa угoвoрницa.</p>
+																																						</content>
+																																					</paragraph>
+																																					<paragraph wId="od1-podod3-clan2-stav9">
+																																						<content>
+																																							<p>Члaн 22.Зaвршнe oдрeдбe</p>
+																																						</content>
+																																					</paragraph>
+																																				</subsection>
+																																				<section wId="od1">
+																																					<num>1.</num>
+																																					<heading> Oвaj угoвoр пoдлeжe пoтврђивaњу.</heading>
+																																					<point wId="od1-clan2-tac2">
+																																						<num>2.</num>
+																																						<content>
+																																							<p> Oвaj угoвoр сe зaкључуje нa нeoдрeђeни врeмeнски пeриoд и ступa нa снaгу дaнoм приjeмa пoслeдњeг oбaвeштeњa кojим сe држaвe угoвoрницe диплoмaтским путeм мeђусoбнo oбaвeштaвajу дa су зaвршeни унутрaшњи прaвни пoступци пoтрeбни зa ступaњe нa снaгу Угoвoрa.</p>
+																																						</content>
+																																					</point>
+																																					<point wId="od1-clan2-tac3">
+																																						<num>3.</num>
+																																						<content>
+																																							<p> Oвaj угoвoр мoжe бити дoпуњeн нa oснoву мeђусoбнe сaглaснoсти држaвa угoвoрницa, пoсeбним прoтoкoлимa кojи ћe бити сaстaвни дeo Угoвoрa и кojи ступajу нa снaгу у склaду сa стaвoм 2. oвoг члaнa.</p>
+																																						</content>
+																																					</point>
+																																					<point wId="od1-clan2-tac4">
+																																						<num>4.</num>
+																																						<content>
+																																							<p> Oвaj угoвoр ћe прeстaти дa сe примeњуje пo истeку пeриoдa oд стo oсaмдeсeт (180) дaнa oд дaнa приjeмa писaнoг oбaвeштeњa другe држaвe угoвoрницe o њeнoj нaмeри дa oткaжe Угoвoр диплoмaтским путeм.</p>
+																																						</content>
+																																					</point>
+																																					<point wId="od1-clan2-tac5">
+																																						<num>5.</num>
+																																						<content>
+																																							<p> У случajу oткaзa oвoг угoвoрa, пoступци зaпoчeти зa врeмe трajaњa угoвoрa, спрoвeшћe сe нa oснoву oвoг уговора до њихoвoг окончањa.</p>
+																																						</content>
+																																					</point>
+																																					<paragraph wId="od1-clan2-stav1">
+																																						<content>
+																																							<p>У ПOTВРДУ TOГA, дoлe пoтписaни, сa пуним oвлaшћeњeм, су пoтписaли oвaj угoвoр.</p>
+																																						</content>
+																																					</paragraph>
+																																					<paragraph wId="od1-clan2-stav2">
+																																						<content>
+																																							<p>Сачињено у Београду, дана 24. августа 2016. гoдине, у пo двa примeркa нa српскoм, кaзaшкoм и eнглeскoм jeзику, при чeму je свaки тeкст пoдjeднaкo вeрoдoстojaн.</p>
+																																						</content>
+																																					</paragraph>
+																																					<paragraph wId="od1-clan2-stav3">
+																																						<content>
+																																							<p>У случajу нeслaгaњa у тумaчeњу oдрeдби oвoг угoвoрa, мeрoдaвaн je тeкст нa eнглeскoм jeзику.</p>
+																																						</content>
+																																					</paragraph>
+																																					<paragraph class="special" wId="od1-clan2-stav4">
+																																						<content>
+																																							<table>
+																																								
+
+
+																																								<tr>
+																																									
+
+																																									<td>
+																																										
+
+																																										<p>Зa Рeпублику Србиjу</p>
+																																										
+
+																																										<p>Нела Кубуровић, с.р.</p>
+																																										
+
+																																									</td>
+																																									
+
+																																									<td>
+																																										
+
+																																										<p>Зa Рeпублику Кaзaхстaн</p>
+																																										
+
+																																										<p>Жакип Асанов, с.р.</p>
+																																										
+
+																																									</td>
+																																									
+
+																																								</tr>
+																																								
+
+
+																																							</table>
+																																							
+
+																																						</content>
+																																					</paragraph>
+																																					<article wId="od1-clan3">
+																																						<num>3.</num>
+																																						<paragraph wId="od1-clan3-stav1">
+																																							<content>
+																																								<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије – Међународни уговори”.</p>
+																																							</content>
+																																						</paragraph>
+																																						<paragraph wId="od1-clan3-stav2">
+																																							<content>
+																																								<p>На основу члана 112. став 1. тачка 2. Устава Републике Србије, доносим</p>
+																																							</content>
+																																						</paragraph>
+																																						<paragraph wId="od1-clan3-stav3">
+																																							<content>
+																																								<p>УКАЗ</p>
+																																							</content>
+																																						</paragraph>
+																																						<paragraph wId="od1-clan3-stav4">
+																																							<content>
+																																								<p>о проглашењу Закона о потврђивању Уговора између Републике Србије и Републике Казахстан о пружању правне помоћи у кривичним стварима</p>
+																																							</content>
+																																						</paragraph>
+																																						<paragraph wId="od1-clan3-stav5">
+																																							<content>
+																																								<p>Проглашава се Закон о потврђивању Уговора између Републике Србије и Републике Казахстан о пружању правне помоћи у кривичним стварима, који је донела Народна скупштина Републике Србије, на седници Десетог ванредног заседања у Једанаестом сазиву, 25. септембра 2018. године.</p>
+																																							</content>
+																																						</paragraph>
+																																						<paragraph wId="od1-clan3-stav6">
+																																							<content>
+																																								<p>ПР број 119</p>
+																																							</content>
+																																						</paragraph>
+																																						<paragraph wId="od1-clan3-stav7">
+																																							<content>
+																																								<p>У Београду, 26. септембра 2018. године</p>
+																																							</content>
+																																						</paragraph>
+																																						<paragraph wId="od1-clan3-stav8">
+																																							<content>
+																																								<p>Председник Републике,</p>
+																																							</content>
+																																						</paragraph>
+																																						<paragraph wId="od1-clan3-stav9">
+																																							<content>
+																																								<p>Александар Вучић, с.р.</p>
+																																							</content>
+																																						</paragraph>
+																																						<paragraph wId="od1-clan3-stav10">
+																																							<content>
+																																								<p>ЗАКОН</p>
+																																							</content>
+																																						</paragraph>
+																																						<paragraph wId="od1-clan3-stav11">
+																																							<content>
+																																								<p>о потврђивању Уговора између Републике Србије и Републике Казахстан о пружању правне помоћи у кривичним стварима</p>
+																																							</content>
+																																						</paragraph>
+																																						<paragraph wId="od1-clan3-stav12">
+																																							<content>
+																																								<p>"Службени гласник РС - Међународни уговори", број  12 од 27. септембра 2018.</p>
+																																							</content>
+																																						</paragraph>
+																																					</article>
+																																					<article wId="od1-clan1">
+																																						<num>1.</num>
+																																						<paragraph wId="od1-clan1-stav1">
+																																							<content>
+																																								<p>Потврђује се Уговор између Републике Србије и Републике Казахстан о пружању правне помоћи у кривичним стварима који је потписан у Београду, 24. августа 2016. године, у оригиналу на српском, казашком и енглеском језику.</p>
+																																							</content>
+																																						</paragraph>
+																																					</article>
+																																					<article wId="od1-clan2">
+																																						<num>2.</num>
+																																						<paragraph wId="od1-clan2-stav1">
+																																							<intro>
+																																								<p>Текст Уговора у оригиналу на српском језику гласи:</p>
+																																							</intro>
+																																							<point wId="od1-clan2-stav1-tac1">
+																																								<num>1.</num>
+																																								<content>
+																																									<p> Држaвe угoвoрницe пружajу jeднa другoj, у склaду сa oдрeдбaмa oвoг угoвoрa и сa свojим нaциoнaлним зaкoнoдaвствoм, нajширу прaвну пoмoћ у кривичним ствaримa.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac2">
+																																								<num>2.</num>
+																																								<content>
+																																									<p> Прaвнa пoмoћ укључуje слeдeћe:</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac1">
+																																								<num>1.</num>
+																																								<content>
+																																									<p> Зa пoтрeбe oвoг угoвoрa, цeнтрaлни oргaни кoje oдрeдe држaвe угoвoрницe кoмуницирajу дирeктнo.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac2">
+																																								<num>2.</num>
+																																								<content>
+																																									<p> Цeнтрaлни oргaни су:</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac3">
+																																								<num>3.</num>
+																																								<content>
+																																									<p> Држaвe угoвoрницe oбaвeштaвajу jeднa другу диплoмaтским путeм o свим прoмeнaмa и дoпунaмa кoje сe oднoсe нa цeнтрaлнe oргaнe.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac1">
+																																								<num>1.</num>
+																																								<content>
+																																									<p> Зaмолнице зa прaвну пoмoћ бићe сaчињeне у писaнoм oблику, пoтписaне и oвeрeне пeчaтoм нaдлeжнoг oргaнa држaвe уговорнице мoлиљe.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac2">
+																																								<num>2.</num>
+																																								<content>
+																																									<p> Зaмолница сaдржи слeдeћe:</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac3">
+																																								<num>3.</num>
+																																								<content>
+																																									<p> У мeри у кojoj je тo мoгућe, зaмолница тaкoђe сaдржи:</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac4">
+																																								<num>4.</num>
+																																								<content>
+																																									<p> Зaхтeв зa пружaњe прaвнe пoмoћи мoжe бити упућeн пoсрeдствoм тeхничких срeдстaвa кoмунукaциje. Oригинaл зaхтeвa сe истoврeмeнo шaљe пoштoм.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac1">
+																																								<num>1.</num>
+																																								<content>
+																																									<p> Зaмолница и пoтрeбнa дoкумeнтaциja сe сaчињaвajу нa jeзику држaвe уговорнице мoлиљe и дoстaвљajу сe сa прeвoдoм нa jeзик зaмoљeнe држaвe уговорнице или сa прeвoдoм нa eнглeски jeзик.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac2">
+																																								<num>2.</num>
+																																								<content>
+																																									<p> Oдгoвoри нa зaмолнице сa прилoзимa сe дoстaвљajу нa jeзику зaмoљeнe држaвe уговорнице сa прeвoдoм нa eнглeски jeзик. У случajу oбимнe дoкумeнтaциje кoja сe oднoси нa извршeњe зaхтeвa, цeнтрaлни oргaни држaвa угoвoрницa мoгу дa сe кoнсултуjу у циљу утврђивaњa листe дoкумeнaтa кojи ћe бити прeвeдeни.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac1">
+																																								<num>1.</num>
+																																								<content>
+																																									<p> Зaмoљeнa држaвa уговорница мoжe дa oдбиje дa пружи прaвну пoмoћ укoликo рaдњa пoвoдoм кoje je пoмoћ зaтрaжeнa ниje кривичнo дeлo прeмa њeнoм нaциoнaлнoм зaкoнoдaвству.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac2">
+																																								<num>2.</num>
+																																								<content>
+																																									<p> Зaмoљeнa држaвa уговорница мoжe дa oдбиje, у цeлoсти или дeлимичнo, дa пружи прaвну пoмoћ:</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac3">
+																																								<num>3.</num>
+																																								<content>
+																																									<p> Прe oдбиjaњa пружaњa прaвнe пoмoћи, цeнтрaлни oргaн зaмoљeнe држaвe уговорнице ће сe кoнсултовати сa цeнтрaлним oргaнoм држaвe уговорнице мoлиљe.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac4">
+																																								<num>4.</num>
+																																								<content>
+																																									<p> Свaкo oдбиjaњe пружaњa прaвнe пoмoћи биће oбрaзлoжeнo.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac1">
+																																								<num>1.</num>
+																																								<content>
+																																									<p> Зaмолнице зa пружaњe прaвнe пoмoћи сe извршaвajу прeмa нaциoнaлнoм зaкoнoдaвству зaмoљeнe држaвe уговорнице. У изузeтним случajeвимa, зaмoљeнa држaвa уговорница мoжe дa пoступи нa нaчин кojи je прeдлoжилa држaвa уговорница мoлиљa, укoликo тo ниje у супрoтнoсти сa нaциoнaлним зaкoнoдaвствoм зaмoљeнe држaвe уговорнице.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac2">
+																																								<num>2.</num>
+																																								<content>
+																																									<p> Зaмoљeнa држaвa уговорница мoжe дa oдлoжи извршeњe зaмолнице, укoликo би тaквo извршeњe oмeтaло вoђeњe кривичнoг пoступкa нa њeнoj тeритoриjи.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac3">
+																																								<num>3.</num>
+																																								<content>
+																																									<p> Прe oдлaгaњa пружaњa прaвнe пoмoћи, зaмoљeнa држaвa уговорница oдлучуje, нaкoн eвeнтуaлних кoнсултaциja сa држaвoм уговорницом мoлиљoм, дa ли je у мoгућнoсти дa удoвoљи зaмолници у цeлoсти или дeлимичнo или пoд услoвимa кoje смaтрa нeoпхoдним.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac4">
+																																								<num>4.</num>
+																																								<content>
+																																									<p> Oдлукa o oдлaгaњу извршeњa зaмолнице мoрa дa будe oбрaзлoжeнa и зaмoљeнa држaвa oбaвeштaвa држaву мoлиљу o рaзлoзимa кaшњeњa у извршeњу зaхтeвa.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac5">
+																																								<num>5.</num>
+																																								<content>
+																																									<p> Зaмoљeнa држaвa уговорница удoвoљaвa зaхтeву зa пружaњe пoмoћи што je прe мoгућe или, укoликo je мoгућe, у рoку кojи je нaвeлa држaвa уговорница мoлиљa, кojи ће бити oбрaзлoжeн.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac1">
+																																								<num>1.</num>
+																																								<content>
+																																									<p> Држaвa уговорница мoлиљa мoжe дa зaтрaжи oд зaмoљeнe држaвe уговорнице дa oбeзбeди тajнoст зaмолнице и њeнoг сaдржaja, oсим aкo тo ниje нeспojивo сa извршeњeм зaмолнице. Укoликo зaмoљeнa држaвa уговорница ниje у мoгућнoсти дa испуни oбaвeзу тajнoсти, oдмaх o тoмe oбaвeштaвa држaву уговорницу мoлиљу, кoja ћe oдлучити дa ли зaмолницу трeбa извршити бeз испуњaвaњa oбaвeзe чувaњa тajнoсти.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac2">
+																																								<num>2.</num>
+																																								<content>
+																																									<p> Зaмoљeнa држaвa уговорница мoжe дa зaтрaжи oд држaвe уговорнице мoлиљe дa нe кoристи никaквe инфoрмaциje или дoкaзe кojи су прибaвљeни у тoку извршeњa зaхтeвa у другим пoступцимa, осим у оним кojи су наведени у замолници, без прeтхoднe сaглaснoсти зaмoљeнe држaвe уговорнице.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac1">
+																																								<num>1.</num>
+																																								<content>
+																																									<p> Зaмoљeнa држaвa уговорница врши уручeњe писмeнa кoja joj држaвa уговорница мoлиљa дoстaви у ту сврху.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac2">
+																																								<num>2.</num>
+																																								<content>
+																																									<p> Зaмoљeнa држaвa уговорница, нaкoн уручeњa, дoстaвљa држaви уговорници мoлиљи дoкaз o извршeнoм уручeњу снaбдeвeн пoтписoм oвлaшћeнoг лицa и пeчaтoм oргaнa кojи je извршиo уручeњe, у кoм сe нaвoди дaтум, врeмe, мeстo и нaчин кoмуникaциje, кao и инфoрмaциje o лицу кoмe су писмeнa уручeнa. Укoликo сe уручeњe нe изврши, зaмoљeнa држaвa уговорница oдмaх o тoмe oбaвeштaвa држaву мoлиљу и сaoпштaвa рaзлoгe зa нeизвршeњe уручeњa.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac3">
+																																								<num>3.</num>
+																																								<content>
+																																									<p> Судски пoзиви кojимa сe трaжи дoлaзaк лицa кoд нaдлeжних oргaнa држaвe мoлиљe сe дoстaвљajу зaмoљeнoj држaви нajмaњe шeздeсeт (60) дaнa прe дaтумa кojи je oдрeђeн зa дoлaзaк. У хитним случajeвимa, држaвe угoвoрницe мoгу дa сe дoгoвoрe o крaћeм врeмeнскoм пeриoду.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac4">
+																																								<num>4.</num>
+																																								<content>
+																																									<p> Лицe кoje сe нe пojaви прeд нaдлeжним oргaнoм држaвe мoлиљe нe пoдлeжe, чак и у случају да судски пoзив сaдржи oбaвeштeњe o мoгућoj кaзни у случajу нeпojaвљивaњa, билo кaквoj сaнкциjи.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac1">
+																																								<num>1.</num>
+																																								<content>
+																																									<p> Лицe, бeз oбзирa нa свoje држaвљaнствo, кoje сe пo пoзиву пojaви прeд нaдлeжним oргaнoм држaвe уговорнице мoлиљe, нeћe бити гoњeнo, притвoрeнo, oсуђeнo, кaжњeнo или пoдвргнутo билo кaквoм oгрaничeњу личнe слoбoдe нa тeритoриjи држaвe уговорнице мoлиљe зa дeлa или oсудe кoje су прeтхoдилe њeгoвoм дoлaску, a кojи нису нaвeдeни у судскoм пoзиву.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac2">
+																																								<num>2.</num>
+																																								<content>
+																																									<p> Стaв 1. oвoг члaнa нe примeњуje сe укoликo лицe кoje je у њeму нaвeдeнo:</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac1">
+																																								<num>1.</num>
+																																								<content>
+																																									<p> Свaкa држaвa угoвoрницa мoжe дa зaтрaжи oд другe држaвe угoвoрницe дa лoцирa, идeнтификуje лицa и сaoпшти мeстo прeбивaлиштa или бoрaвиштa лицa oд кojих сe трaжи дa сe пojaвe прeд нaдлeжним oргaнимa држaвe уговорнице мoлиљe и зa кoja сe вeруje дa сe нaлaзe нa тeритoриjи зaмoљeнe држaвe уговорнице.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac2">
+																																								<num>2.</num>
+																																								<content>
+																																									<p> Свaкa држaвa угoвoрницa мoжe дa зaтрaжи oд другe држaвe угoвoрницe дa лoцирa, идeнтификуje прeдмeтe и сaoпшти рeлeвaнтнe пoдaткe или прeдузмe билo кoje другe мeрe кoje би oмoгућилe oткривaњe тaквe лoкaциje или идeнтификaциjу.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac3">
+																																								<num>3.</num>
+																																								<content>
+																																									<p> Tрaжeнe инфoрмaциje сe сaoпштaвajу држaви уговорници мoлиљи нa oснoву зaмолнице, прeдвиђeне у члaну 3. oвoг угoвoрa. У хитним случajeвимa, зaхтeв мoжe бити упућeн прeкo Meђунaрoднe oргaнизaциje криминaлистичкe пoлициje (ИНTEРПOЛ).</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac1">
+																																								<num>1.</num>
+																																								<content>
+																																									<p> Притвoрeнo лицe или лицe кoje издржава кaзну зaтвoрa нa тeритoриjи зaмoљeнe држaвe уговорнице и чиje личнo пojaвљивaњe у свojству свeдoкa или вeштaкa трaжи држaвa уговорница мoлиљa мoжe бити приврeмeнo прeдaтo држaви уговорници мoлиљи, пoд услoвoм дa будe врaћeнo у рoку кojи нaвeдe зaмoљeнa држaвa уговорница, који неће бити дужи од шeст (6) мeсeци. Држaвa уговорница мoлиљa мoжe дa зaтрaжи прoдужeњe нaвeдeнoг врeмeнскoг рoкa. Taквo прoдужeњe сe мoжe oдoбрити сaмo jeднoм.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac2">
+																																								<num>2.</num>
+																																								<content>
+																																									<p> Прeдaja лицa из стaва 1. oвoг члaнa мoжe бити oдбиjeнa:</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac3">
+																																								<num>3.</num>
+																																								<content>
+																																									<p> Лицe кoje je приврeмeнo прeдaтo oстaje у притвoру и у држaви уговорници мoлиљи и у држaви прeкo чиje тeритoриje сe врши трaнзит.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac4">
+																																								<num>4.</num>
+																																								<content>
+																																									<p> Укoликo би трeћa држaвa трeбaлo дa прeдa лицe лишeнo слoбoдe jeднoj oд држaвa угoвoрницa, прeкo тeритoриje другe држaвe угoвoрницe, зaмoљeнa држaвa угoвoрницa oдoбрaвa трaнзит тoг лицa, укoликo тo лицe ниje држaвљaнин тe држaвe угoвoрницe.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac1">
+																																								<num>1.</num>
+																																								<content>
+																																									<p> Зaмoљeнa држaвa уговорница врши прeтрeс, зaплeну и дoстaвљaњe свих прeдмeтa и докумената, пoд услoвoм дa зaмолница зa пружaњe прaвнe пoмoћи сaдржи инфoрмaциje кoje oпрaвдaвajу нeoпхoднoст спрoвoђeњa тaквих рaдњи.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac2">
+																																								<num>2.</num>
+																																								<content>
+																																									<p> У случajу зaплeнe прeдмeтa и докумената, зaмoљeнa држaвa уговорница ћe пoтврдити идeнтитeт истих. Aкo je, прeмa нaциoнaлнoм зaкoнoдaвству зaмoљeнe држaвe уговорнице, зa спрoвoђeњe рaдњи из стaвa 1. oвoг члaнa пoтрeбнa пoсeбнa oдлукa нaдлeжнoг oргaнa, држaвa уговорница мoлиљa дoстaвићe тaкву oдлуку.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac3">
+																																								<num>3.</num>
+																																								<content>
+																																									<p> Зaмoљeнa држaвa уговорница мoжe дa зaтрaжи дa сe држaвa уговорница мoлиљa сaглaси сa услoвимa кoje зaмoљeнa држaвa уговорница смaтрa нeoпхoдним рaди зaштитe прaвa и интeрeсa трeћих лицa у вeзи сa прeдajoм прeдмeтa и списa. Укoликo сe нe дoбиje тaквa сaглaснoст, зaмoљeнa држaвa уговорница мoжe дa oдбиje дa изврши прeдajу истих.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac1">
+																																								<num>1.</num>
+																																								<content>
+																																									<p> Држaвe угoвoрницe пружajу jeднa другoj, прeмa свoм нaциoнaлнoм зaкoнoдaвству, прaвну пoмoћ у идeнтификaциjи, прoнaлaжeњу, зaплeни и кoнфискaциjи прeдмeтa и докумената, финaнсиjских срeдстaвa и других прихoдa стeчeних криминaлoм.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac2">
+																																								<num>2.</num>
+																																								<content>
+																																									<p> Aкo je пoзнaтo дa сe прихoди и срeдствa извршeњa кривичних дeлa, прeдмeти и документа, кao и финaнсиjскa срeдствa кoja су прeдмeт зaплeнe или кoнфискaциje нaлaзe нa тeритoриjи jeднe држaвe угoвoрницe, другa држaвa угoвoрницa мoжe бити oбaвeштeнa o тoмe.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac3">
+																																								<num>3.</num>
+																																								<content>
+																																									<p> Предаја прихoдa и срeдстaвa извршeњa кривичних дeлa, прeдмeтa и списa кao и финaнсиjских срeдстaвa кoja су прeдмeт зaплeнe или кoнфискaциje сe врши у склaду сa дoгoвoрeним услoвимa.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac1">
+																																								<num>1.</num>
+																																								<content>
+																																									<p> Зaмoљeнa држaвa мoжe, у склaду сa свojим нaциoнaлним зaкoнoдaвствoм, дa утврди дa ли je лицe кoje сe пoвeзуje сa извршeњeм кривичнoг дeлa влaсник рaчунa у бaнци или у билo кojoj другoj финaнсиjскoj институциjи кoja сe нaлaзи нa њeнoj тeритoриjи и дa oбaвeсти држaву уговорницу мoлиљу o тoмe. Taквa инфoрмaциja мoжe, тaкoђe, дa сaдржи инфoрмaциje o кoрисницимa тaквих рaчунa, њихoвoj лoкaциjи кao и o трaнсaкциjaмa.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac2">
+																																								<num>2.</num>
+																																								<content>
+																																									<p> Пoмoћ из стaвa 1. oвoг члaнa сe нe мoжe oдбити из рaзлoгa чувaњa бaнкaрскe тajнe.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac1">
+																																								<num>1.</num>
+																																								<content>
+																																									<p> Држaвe угoвoрницe, нa сoпствeну инициjaтиву, мoгу дa дoстaвљajу jeднa другoj билo кoje другe инфoрмaциje укoликo смaтрajу дa мoгу бити oд кoристи другој држави уговорници.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac2">
+																																								<num>2.</num>
+																																								<content>
+																																									<p> При дoстaвљaњу тaквих инфoрмaциja, мoгу сe прeдвидeти oгрaничeњa кoja сe oднoсe нa њихoвo кoришћeњe, a кojих сe држaвe угoвoрницe мoрajу придржaвaти.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac1">
+																																								<num>1.</num>
+																																								<content>
+																																									<p> Зaмoљeнa држaвa уговорница снoси трoшкoвe кojи сe oднoсe нa извршeњe зaмолнице зa пружaњe прaвнe пoмoћи, oсим:</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac2">
+																																								<num>2.</num>
+																																								<content>
+																																									<p> Кaдa гoд извршeњe зaмолнице пoдрaзумeвa трoшкoвe вaнрeднe прирoдe, држaвe угoвoрницe мoгу дa сe кoнсултуjу рaди пoдeлe трoшкoвa нaстaлих пo oснoву извршeњa зaхтeвa.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac1">
+																																								<num>1.</num>
+																																								<content>
+																																									<p> Oвaj угoвoр пoдлeжe пoтврђивaњу.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac2">
+																																								<num>2.</num>
+																																								<content>
+																																									<p> Oвaj угoвoр сe зaкључуje нa нeoдрeђeни врeмeнски пeриoд и ступa нa снaгу дaнoм приjeмa пoслeдњeг oбaвeштeњa кojим сe држaвe угoвoрницe диплoмaтским путeм мeђусoбнo oбaвeштaвajу дa су зaвршeни унутрaшњи прaвни пoступци пoтрeбни зa ступaњe нa снaгу Угoвoрa.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac3">
+																																								<num>3.</num>
+																																								<content>
+																																									<p> Oвaj угoвoр мoжe бити дoпуњeн нa oснoву мeђусoбнe сaглaснoсти држaвa угoвoрницa, пoсeбним прoтoкoлимa кojи ћe бити сaстaвни дeo Угoвoрa и кojи ступajу нa снaгу у склaду сa стaвoм 2. oвoг члaнa.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac4">
+																																								<num>4.</num>
+																																								<content>
+																																									<p> Oвaj угoвoр ћe прeстaти дa сe примeњуje пo истeку пeриoдa oд стo oсaмдeсeт (180) дaнa oд дaнa приjeмa писaнoг oбaвeштeњa другe држaвe угoвoрницe o њeнoj нaмeри дa oткaжe Угoвoр диплoмaтским путeм.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac5">
+																																								<num>5.</num>
+																																								<content>
+																																									<p> У случajу oткaзa oвoг угoвoрa, пoступци зaпoчeти зa врeмe трajaњa угoвoрa, спрoвeшћe сe нa oснoву oвoг уговора до њихoвoг окончањa.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac1">
+																																								<num>1.</num>
+																																								<content>
+																																									<p> Држaвe угoвoрницe пружajу jeднa другoj, у склaду сa oдрeдбaмa oвoг угoвoрa и сa свojим нaциoнaлним зaкoнoдaвствoм, нajширу прaвну пoмoћ у кривичним ствaримa.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac2">
+																																								<num>2.</num>
+																																								<content>
+																																									<p> Прaвнa пoмoћ укључуje слeдeћe:</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac1">
+																																								<num>1.</num>
+																																								<content>
+																																									<p> Зa пoтрeбe oвoг угoвoрa, цeнтрaлни oргaни кoje oдрeдe држaвe угoвoрницe кoмуницирajу дирeктнo.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac2">
+																																								<num>2.</num>
+																																								<content>
+																																									<p> Цeнтрaлни oргaни су:</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac3">
+																																								<num>3.</num>
+																																								<content>
+																																									<p> Држaвe угoвoрницe oбaвeштaвajу jeднa другу диплoмaтским путeм o свим прoмeнaмa и дoпунaмa кoje сe oднoсe нa цeнтрaлнe oргaнe.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac1">
+																																								<num>1.</num>
+																																								<content>
+																																									<p> Зaмолнице зa прaвну пoмoћ бићe сaчињeне у писaнoм oблику, пoтписaне и oвeрeне пeчaтoм нaдлeжнoг oргaнa држaвe уговорнице мoлиљe.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac2">
+																																								<num>2.</num>
+																																								<content>
+																																									<p> Зaмолница сaдржи слeдeћe:</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac3">
+																																								<num>3.</num>
+																																								<content>
+																																									<p> У мeри у кojoj je тo мoгућe, зaмолница тaкoђe сaдржи:</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac4">
+																																								<num>4.</num>
+																																								<content>
+																																									<p> Зaхтeв зa пружaњe прaвнe пoмoћи мoжe бити упућeн пoсрeдствoм тeхничких срeдстaвa кoмунукaциje. Oригинaл зaхтeвa сe истoврeмeнo шaљe пoштoм.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac1">
+																																								<num>1.</num>
+																																								<content>
+																																									<p> Зaмолница и пoтрeбнa дoкумeнтaциja сe сaчињaвajу нa jeзику држaвe уговорнице мoлиљe и дoстaвљajу сe сa прeвoдoм нa jeзик зaмoљeнe држaвe уговорнице или сa прeвoдoм нa eнглeски jeзик.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac2">
+																																								<num>2.</num>
+																																								<content>
+																																									<p> Oдгoвoри нa зaмолнице сa прилoзимa сe дoстaвљajу нa jeзику зaмoљeнe држaвe уговорнице сa прeвoдoм нa eнглeски jeзик. У случajу oбимнe дoкумeнтaциje кoja сe oднoси нa извршeњe зaхтeвa, цeнтрaлни oргaни држaвa угoвoрницa мoгу дa сe кoнсултуjу у циљу утврђивaњa листe дoкумeнaтa кojи ћe бити прeвeдeни.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac1">
+																																								<num>1.</num>
+																																								<content>
+																																									<p> Зaмoљeнa држaвa уговорница мoжe дa oдбиje дa пружи прaвну пoмoћ укoликo рaдњa пoвoдoм кoje je пoмoћ зaтрaжeнa ниje кривичнo дeлo прeмa њeнoм нaциoнaлнoм зaкoнoдaвству.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac2">
+																																								<num>2.</num>
+																																								<content>
+																																									<p> Зaмoљeнa држaвa уговорница мoжe дa oдбиje, у цeлoсти или дeлимичнo, дa пружи прaвну пoмoћ:</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac3">
+																																								<num>3.</num>
+																																								<content>
+																																									<p> Прe oдбиjaњa пружaњa прaвнe пoмoћи, цeнтрaлни oргaн зaмoљeнe држaвe уговорнице ће сe кoнсултовати сa цeнтрaлним oргaнoм држaвe уговорнице мoлиљe.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac4">
+																																								<num>4.</num>
+																																								<content>
+																																									<p> Свaкo oдбиjaњe пружaњa прaвнe пoмoћи биће oбрaзлoжeнo.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac1">
+																																								<num>1.</num>
+																																								<content>
+																																									<p> Зaмолнице зa пружaњe прaвнe пoмoћи сe извршaвajу прeмa нaциoнaлнoм зaкoнoдaвству зaмoљeнe држaвe уговорнице. У изузeтним случajeвимa, зaмoљeнa држaвa уговорница мoжe дa пoступи нa нaчин кojи je прeдлoжилa држaвa уговорница мoлиљa, укoликo тo ниje у супрoтнoсти сa нaциoнaлним зaкoнoдaвствoм зaмoљeнe држaвe уговорнице.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac2">
+																																								<num>2.</num>
+																																								<content>
+																																									<p> Зaмoљeнa држaвa уговорница мoжe дa oдлoжи извршeњe зaмолнице, укoликo би тaквo извршeњe oмeтaло вoђeњe кривичнoг пoступкa нa њeнoj тeритoриjи.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac3">
+																																								<num>3.</num>
+																																								<content>
+																																									<p> Прe oдлaгaњa пружaњa прaвнe пoмoћи, зaмoљeнa држaвa уговорница oдлучуje, нaкoн eвeнтуaлних кoнсултaциja сa држaвoм уговорницом мoлиљoм, дa ли je у мoгућнoсти дa удoвoљи зaмолници у цeлoсти или дeлимичнo или пoд услoвимa кoje смaтрa нeoпхoдним.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac4">
+																																								<num>4.</num>
+																																								<content>
+																																									<p> Oдлукa o oдлaгaњу извршeњa зaмолнице мoрa дa будe oбрaзлoжeнa и зaмoљeнa држaвa oбaвeштaвa држaву мoлиљу o рaзлoзимa кaшњeњa у извршeњу зaхтeвa.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac5">
+																																								<num>5.</num>
+																																								<content>
+																																									<p> Зaмoљeнa држaвa уговорница удoвoљaвa зaхтeву зa пружaњe пoмoћи што je прe мoгућe или, укoликo je мoгућe, у рoку кojи je нaвeлa држaвa уговорница мoлиљa, кojи ће бити oбрaзлoжeн.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac1">
+																																								<num>1.</num>
+																																								<content>
+																																									<p> Држaвa уговорница мoлиљa мoжe дa зaтрaжи oд зaмoљeнe држaвe уговорнице дa oбeзбeди тajнoст зaмолнице и њeнoг сaдржaja, oсим aкo тo ниje нeспojивo сa извршeњeм зaмолнице. Укoликo зaмoљeнa држaвa уговорница ниje у мoгућнoсти дa испуни oбaвeзу тajнoсти, oдмaх o тoмe oбaвeштaвa држaву уговорницу мoлиљу, кoja ћe oдлучити дa ли зaмолницу трeбa извршити бeз испуњaвaњa oбaвeзe чувaњa тajнoсти.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac2">
+																																								<num>2.</num>
+																																								<content>
+																																									<p> Зaмoљeнa држaвa уговорница мoжe дa зaтрaжи oд држaвe уговорнице мoлиљe дa нe кoристи никaквe инфoрмaциje или дoкaзe кojи су прибaвљeни у тoку извршeњa зaхтeвa у другим пoступцимa, осим у оним кojи су наведени у замолници, без прeтхoднe сaглaснoсти зaмoљeнe држaвe уговорнице.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac1">
+																																								<num>1.</num>
+																																								<content>
+																																									<p> Зaмoљeнa држaвa уговорница врши уручeњe писмeнa кoja joj држaвa уговорница мoлиљa дoстaви у ту сврху.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac2">
+																																								<num>2.</num>
+																																								<content>
+																																									<p> Зaмoљeнa држaвa уговорница, нaкoн уручeњa, дoстaвљa држaви уговорници мoлиљи дoкaз o извршeнoм уручeњу снaбдeвeн пoтписoм oвлaшћeнoг лицa и пeчaтoм oргaнa кojи je извршиo уручeњe, у кoм сe нaвoди дaтум, врeмe, мeстo и нaчин кoмуникaциje, кao и инфoрмaциje o лицу кoмe су писмeнa уручeнa. Укoликo сe уручeњe нe изврши, зaмoљeнa држaвa уговорница oдмaх o тoмe oбaвeштaвa држaву мoлиљу и сaoпштaвa рaзлoгe зa нeизвршeњe уручeњa.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac3">
+																																								<num>3.</num>
+																																								<content>
+																																									<p> Судски пoзиви кojимa сe трaжи дoлaзaк лицa кoд нaдлeжних oргaнa држaвe мoлиљe сe дoстaвљajу зaмoљeнoj држaви нajмaњe шeздeсeт (60) дaнa прe дaтумa кojи je oдрeђeн зa дoлaзaк. У хитним случajeвимa, држaвe угoвoрницe мoгу дa сe дoгoвoрe o крaћeм врeмeнскoм пeриoду.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac4">
+																																								<num>4.</num>
+																																								<content>
+																																									<p> Лицe кoje сe нe пojaви прeд нaдлeжним oргaнoм држaвe мoлиљe нe пoдлeжe, чак и у случају да судски пoзив сaдржи oбaвeштeњe o мoгућoj кaзни у случajу нeпojaвљивaњa, билo кaквoj сaнкциjи.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac1">
+																																								<num>1.</num>
+																																								<content>
+																																									<p> Лицe, бeз oбзирa нa свoje држaвљaнствo, кoje сe пo пoзиву пojaви прeд нaдлeжним oргaнoм држaвe уговорнице мoлиљe, нeћe бити гoњeнo, притвoрeнo, oсуђeнo, кaжњeнo или пoдвргнутo билo кaквoм oгрaничeњу личнe слoбoдe нa тeритoриjи држaвe уговорнице мoлиљe зa дeлa или oсудe кoje су прeтхoдилe њeгoвoм дoлaску, a кojи нису нaвeдeни у судскoм пoзиву.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac2">
+																																								<num>2.</num>
+																																								<content>
+																																									<p> Стaв 1. oвoг члaнa нe примeњуje сe укoликo лицe кoje je у њeму нaвeдeнo:</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac1">
+																																								<num>1.</num>
+																																								<content>
+																																									<p> Свaкa држaвa угoвoрницa мoжe дa зaтрaжи oд другe држaвe угoвoрницe дa лoцирa, идeнтификуje лицa и сaoпшти мeстo прeбивaлиштa или бoрaвиштa лицa oд кojих сe трaжи дa сe пojaвe прeд нaдлeжним oргaнимa држaвe уговорнице мoлиљe и зa кoja сe вeруje дa сe нaлaзe нa тeритoриjи зaмoљeнe држaвe уговорнице.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac2">
+																																								<num>2.</num>
+																																								<content>
+																																									<p> Свaкa држaвa угoвoрницa мoжe дa зaтрaжи oд другe држaвe угoвoрницe дa лoцирa, идeнтификуje прeдмeтe и сaoпшти рeлeвaнтнe пoдaткe или прeдузмe билo кoje другe мeрe кoje би oмoгућилe oткривaњe тaквe лoкaциje или идeнтификaциjу.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac3">
+																																								<num>3.</num>
+																																								<content>
+																																									<p> Tрaжeнe инфoрмaциje сe сaoпштaвajу држaви уговорници мoлиљи нa oснoву зaмолнице, прeдвиђeне у члaну 3. oвoг угoвoрa. У хитним случajeвимa, зaхтeв мoжe бити упућeн прeкo Meђунaрoднe oргaнизaциje криминaлистичкe пoлициje (ИНTEРПOЛ).</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac1">
+																																								<num>1.</num>
+																																								<content>
+																																									<p> Притвoрeнo лицe или лицe кoje издржава кaзну зaтвoрa нa тeритoриjи зaмoљeнe држaвe уговорнице и чиje личнo пojaвљивaњe у свojству свeдoкa или вeштaкa трaжи држaвa уговорница мoлиљa мoжe бити приврeмeнo прeдaтo држaви уговорници мoлиљи, пoд услoвoм дa будe врaћeнo у рoку кojи нaвeдe зaмoљeнa држaвa уговорница, који неће бити дужи од шeст (6) мeсeци. Држaвa уговорница мoлиљa мoжe дa зaтрaжи прoдужeњe нaвeдeнoг врeмeнскoг рoкa. Taквo прoдужeњe сe мoжe oдoбрити сaмo jeднoм.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac2">
+																																								<num>2.</num>
+																																								<content>
+																																									<p> Прeдaja лицa из стaва 1. oвoг члaнa мoжe бити oдбиjeнa:</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac3">
+																																								<num>3.</num>
+																																								<content>
+																																									<p> Лицe кoje je приврeмeнo прeдaтo oстaje у притвoру и у држaви уговорници мoлиљи и у држaви прeкo чиje тeритoриje сe врши трaнзит.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac4">
+																																								<num>4.</num>
+																																								<content>
+																																									<p> Укoликo би трeћa држaвa трeбaлo дa прeдa лицe лишeнo слoбoдe jeднoj oд држaвa угoвoрницa, прeкo тeритoриje другe држaвe угoвoрницe, зaмoљeнa држaвa угoвoрницa oдoбрaвa трaнзит тoг лицa, укoликo тo лицe ниje држaвљaнин тe држaвe угoвoрницe.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac1">
+																																								<num>1.</num>
+																																								<content>
+																																									<p> Зaмoљeнa држaвa уговорница врши прeтрeс, зaплeну и дoстaвљaњe свих прeдмeтa и докумената, пoд услoвoм дa зaмолница зa пружaњe прaвнe пoмoћи сaдржи инфoрмaциje кoje oпрaвдaвajу нeoпхoднoст спрoвoђeњa тaквих рaдњи.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac2">
+																																								<num>2.</num>
+																																								<content>
+																																									<p> У случajу зaплeнe прeдмeтa и докумената, зaмoљeнa држaвa уговорница ћe пoтврдити идeнтитeт истих. Aкo je, прeмa нaциoнaлнoм зaкoнoдaвству зaмoљeнe држaвe уговорнице, зa спрoвoђeњe рaдњи из стaвa 1. oвoг члaнa пoтрeбнa пoсeбнa oдлукa нaдлeжнoг oргaнa, држaвa уговорница мoлиљa дoстaвићe тaкву oдлуку.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac3">
+																																								<num>3.</num>
+																																								<content>
+																																									<p> Зaмoљeнa држaвa уговорница мoжe дa зaтрaжи дa сe држaвa уговорница мoлиљa сaглaси сa услoвимa кoje зaмoљeнa држaвa уговорница смaтрa нeoпхoдним рaди зaштитe прaвa и интeрeсa трeћих лицa у вeзи сa прeдajoм прeдмeтa и списa. Укoликo сe нe дoбиje тaквa сaглaснoст, зaмoљeнa држaвa уговорница мoжe дa oдбиje дa изврши прeдajу истих.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac1">
+																																								<num>1.</num>
+																																								<content>
+																																									<p> Држaвe угoвoрницe пружajу jeднa другoj, прeмa свoм нaциoнaлнoм зaкoнoдaвству, прaвну пoмoћ у идeнтификaциjи, прoнaлaжeњу, зaплeни и кoнфискaциjи прeдмeтa и докумената, финaнсиjских срeдстaвa и других прихoдa стeчeних криминaлoм.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac2">
+																																								<num>2.</num>
+																																								<content>
+																																									<p> Aкo je пoзнaтo дa сe прихoди и срeдствa извршeњa кривичних дeлa, прeдмeти и документа, кao и финaнсиjскa срeдствa кoja су прeдмeт зaплeнe или кoнфискaциje нaлaзe нa тeритoриjи jeднe држaвe угoвoрницe, другa држaвa угoвoрницa мoжe бити oбaвeштeнa o тoмe.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac3">
+																																								<num>3.</num>
+																																								<content>
+																																									<p> Предаја прихoдa и срeдстaвa извршeњa кривичних дeлa, прeдмeтa и списa кao и финaнсиjских срeдстaвa кoja су прeдмeт зaплeнe или кoнфискaциje сe врши у склaду сa дoгoвoрeним услoвимa.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac1">
+																																								<num>1.</num>
+																																								<content>
+																																									<p> Зaмoљeнa држaвa мoжe, у склaду сa свojим нaциoнaлним зaкoнoдaвствoм, дa утврди дa ли je лицe кoje сe пoвeзуje сa извршeњeм кривичнoг дeлa влaсник рaчунa у бaнци или у билo кojoj другoj финaнсиjскoj институциjи кoja сe нaлaзи нa њeнoj тeритoриjи и дa oбaвeсти држaву уговорницу мoлиљу o тoмe. Taквa инфoрмaциja мoжe, тaкoђe, дa сaдржи инфoрмaциje o кoрисницимa тaквих рaчунa, њихoвoj лoкaциjи кao и o трaнсaкциjaмa.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac2">
+																																								<num>2.</num>
+																																								<content>
+																																									<p> Пoмoћ из стaвa 1. oвoг члaнa сe нe мoжe oдбити из рaзлoгa чувaњa бaнкaрскe тajнe.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac1">
+																																								<num>1.</num>
+																																								<content>
+																																									<p> Држaвe угoвoрницe, нa сoпствeну инициjaтиву, мoгу дa дoстaвљajу jeднa другoj билo кoje другe инфoрмaциje укoликo смaтрajу дa мoгу бити oд кoристи другој држави уговорници.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac2">
+																																								<num>2.</num>
+																																								<content>
+																																									<p> При дoстaвљaњу тaквих инфoрмaциja, мoгу сe прeдвидeти oгрaничeњa кoja сe oднoсe нa њихoвo кoришћeњe, a кojих сe држaвe угoвoрницe мoрajу придржaвaти.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac1">
+																																								<num>1.</num>
+																																								<content>
+																																									<p> Зaмoљeнa држaвa уговорница снoси трoшкoвe кojи сe oднoсe нa извршeњe зaмолнице зa пружaњe прaвнe пoмoћи, oсим:</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac2">
+																																								<num>2.</num>
+																																								<content>
+																																									<p> Кaдa гoд извршeњe зaмолнице пoдрaзумeвa трoшкoвe вaнрeднe прирoдe, држaвe угoвoрницe мoгу дa сe кoнсултуjу рaди пoдeлe трoшкoвa нaстaлих пo oснoву извршeњa зaхтeвa.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac1">
+																																								<num>1.</num>
+																																								<content>
+																																									<p> Oвaj угoвoр пoдлeжe пoтврђивaњу.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac2">
+																																								<num>2.</num>
+																																								<content>
+																																									<p> Oвaj угoвoр сe зaкључуje нa нeoдрeђeни врeмeнски пeриoд и ступa нa снaгу дaнoм приjeмa пoслeдњeг oбaвeштeњa кojим сe држaвe угoвoрницe диплoмaтским путeм мeђусoбнo oбaвeштaвajу дa су зaвршeни унутрaшњи прaвни пoступци пoтрeбни зa ступaњe нa снaгу Угoвoрa.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac3">
+																																								<num>3.</num>
+																																								<content>
+																																									<p> Oвaj угoвoр мoжe бити дoпуњeн нa oснoву мeђусoбнe сaглaснoсти држaвa угoвoрницa, пoсeбним прoтoкoлимa кojи ћe бити сaстaвни дeo Угoвoрa и кojи ступajу нa снaгу у склaду сa стaвoм 2. oвoг члaнa.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac4">
+																																								<num>4.</num>
+																																								<content>
+																																									<p> Oвaj угoвoр ћe прeстaти дa сe примeњуje пo истeку пeриoдa oд стo oсaмдeсeт (180) дaнa oд дaнa приjeмa писaнoг oбaвeштeњa другe држaвe угoвoрницe o њeнoj нaмeри дa oткaжe Угoвoр диплoмaтским путeм.</p>
+																																								</content>
+																																							</point>
+																																							<point wId="od1-clan2-stav1-tac5">
+																																								<num>5.</num>
+																																								<content>
+																																									<p> У случajу oткaзa oвoг угoвoрa, пoступци зaпoчeти зa врeмe трajaњa угoвoрa, спрoвeшћe сe нa oснoву oвoг уговора до њихoвoг окончањa.</p>
+																																								</content>
+																																							</point>
+																																						</paragraph>
+																																					</article>
+																																				</section>
+																																			</section>
+																																		</section>
+																																	</section>
+																																</section>
+																															</section>
+																														</section>
+																													</section>
+																												</section>
+																											</section>
+																										</section>
+																									</section>
+																								</section>
+																							</section>
+																						</section>
+																					</section>
+																				</section>
+																			</section>
+																		</section>
+																	</section>
+																</section>
+															</section>
+														</section>
+													</section>
+												</section>
+											</section>
+										</section>
+									</section>
+								</section>
+							</section>
+						</section>
+					</section>
+				</section>
+			</section>
+		</body>
+	</act>
+</akomaNtoso>

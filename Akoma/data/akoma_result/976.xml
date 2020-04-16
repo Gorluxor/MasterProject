@@ -1,0 +1,5262 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о потврђивању Oквирног споразума о зајму LD 1981 (2018) између Банке за развој Савета Европе и Републике Србије за финансирање јавног сектора – унапређење инфраструктуре у области здравственe заштите у Србији">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2019/6-148/main"/>
+					<FRBRuri value="/rs/act/2019/6-148"/>
+					<FRBRdate date="2019-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2019/6-148/srp@/main"/>
+					<FRBRuri value="/rs/act/2019/6-148/srp@"/>
+					<FRBRdate date="2019-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2019/6-148/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2019/6-148/srp@.akn"/>
+					<FRBRdate date="2019-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2019-05-23" name="службени гласник рс - међународни уговори" number="6" showAs="Службени гласник РС - Међународни уговори"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="V МОНЕТАРНА ПОЛИТИКА, ФИНАНСИЈСКЕ ОРГАНИЗАЦИЈЕ И ФИНАНСИЈСКО ПОСЛОВАЊЕ" value="v монетарна политика, финансијске организације и финансијско пословање" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="3. Задуживање у иностранству, донације и бесповратна помоћ" value="3. задуживање у иностранству, донације и бесповратна помоћ" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2019-05-21" wId="usvajanje"/>
+				<step by="#TODO" date="2019-05-29" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2019-05-29" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p/>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О потврђивању oквирног споразума о зајму ld 1981 (2018) између банке за развој савета европе и републике србије за финансирање јавног сектора – унапређење инфраструктуре у области здравственe заштите у србији "Службени гласник РС - Међународни уговори", број 6 од 23. маја 2019.</p>
+			</longTitle>
+			<p>Александар Вучић, с.р.</p>
+		</preface>
+		<preamble>
+			<p>На основу члана 112. став 1. тачка 2. Устава Републике Србије, доносим</p>
+			<p>УКАЗ</p>
+			<p>о проглашењу Закона о потврђивању Oквирног споразума о зајму LD 1981 (2018) између Банке за развој Савета Европе и Републике Србије за финансирање јавног сектора – унапређење инфраструктуре у области здравственe заштите у Србији</p>
+			<p>Проглашава се Закон о потврђивању Oквирног споразума о зајму LD 1981 (2018) између Банке за развој Савета Европе и Републике Србије за финансирање јавног сектора – унапређење инфраструктуре у области здравственe заштите у Србији, који је донела Народна скупштина Републике Србије на Петој седници Првог редовног заседања у 2019. години, 21. маја 2019. године.</p>
+			<p>ПР број 76</p>
+			<p>У Београду, 21. маја 2019. године</p>
+			<p>Председник Републике,</p>
+		</preamble>
+		<body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Потврђује се Oквирни споразум о зајму LD 1981 (2018) између Банке за развој Савета Европе и Републике Србије за финансирање јавног сектора – унапређење инфраструктуре у области здравственe заштите у Србији, који је потписан у Београду, 4. априла 2019. године и у Паризу, 15. априла 2019. године, у оригиналу на енглеском језику.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Текст Oквирног споразума о зајму LD 1981 (2018) између Банке за развој Савета Европе и Републике Србије за финансирање јавног сектора – унапређење инфраструктуре у области здравственe заштите у Србији, у оригиналу на енглеском језику и у преводу на српски језик гласи:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>LD 1981 (2018)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav3">
+					<content>
+						<p>FRAMEWORK LOAN AGREEMENT</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav4">
+					<content>
+						<p>between the</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav5">
+					<content>
+						<p>COUNCIL OF EUROPE DEVELOPMENT BANK</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav6">
+					<content>
+						<p>and</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav7">
+					<content>
+						<p>the REPUBLIC OF SERBIA</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav8">
+					<content>
+						<p>Public Sector Financing FacilityUpgrade of Healthcare infrastructure in Serbia</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav9">
+					<content>
+						<p>TABLE OF CONTENTS</p>
+					</content>
+				</paragraph>
+			</article>
+			<section wId="od1">
+				<num>1.</num>
+				<heading>INTERPRETATION6</heading>
+				<point wId="od1-clan2-tac1">
+					<num>1.</num>
+					<intro>
+						<p>1Definitions6</p>
+					</intro>
+					<point wId="od1-clan2-tac1">
+						<num>1.</num>
+						<intro>
+							<p>2Construction8</p>
+						</intro>
+						<point wId="od1-clan2-tac1">
+							<num>1.</num>
+							<intro>
+								<p>3Headings8</p>
+							</intro>
+							<point wId="od1-clan2-tac1">
+								<num>1.</num>
+								<content>
+									<p>4Rounding8</p>
+								</content>
+							</point>
+						</point>
+					</point>
+				</point>
+				<point wId="od1-clan2-tac2">
+					<num>2.</num>
+					<content>
+						<p>CONDITIONS9</p>
+					</content>
+				</point>
+				<point wId="od1-clan2-tac3">
+					<num>3.</num>
+					<content>
+						<p>PURPOSE9</p>
+					</content>
+				</point>
+				<point wId="od1-clan2-tac4">
+					<num>4.</num>
+					<intro>
+						<p>FINANCIAL CONDITIONS9</p>
+					</intro>
+					<point wId="od1-clan2-tac4">
+						<num>4.</num>
+						<intro>
+							<p>1Loan Amount9</p>
+						</intro>
+						<point wId="od1-clan2-tac4">
+							<num>4.</num>
+							<intro>
+								<p>2Disbursement Amount9</p>
+							</intro>
+							<point wId="od1-clan2-tac4">
+								<num>4.</num>
+								<intro>
+									<p>3Disbursement Procedure9</p>
+								</intro>
+								<point wId="od1-clan2-tac4">
+									<num>4.</num>
+									<intro>
+										<p>4Disbursement Period10</p>
+									</intro>
+									<point wId="od1-clan2-tac4">
+										<num>4.</num>
+										<intro>
+											<p>5Disbursement Conditions11</p>
+										</intro>
+										<point wId="od1-clan2-tac4">
+											<num>4.</num>
+											<intro>
+												<p>6Repayment11</p>
+											</intro>
+											<point wId="od1-clan2-tac4">
+												<num>4.</num>
+												<intro>
+													<p>7Early Reimbursement11</p>
+												</intro>
+												<point wId="od1-clan2-tac4">
+													<num>4.</num>
+													<intro>
+														<p>8Interest Determination12</p>
+													</intro>
+													<point wId="od1-clan2-tac4">
+														<num>4.</num>
+														<intro>
+															<p>9Default Interest Rate12</p>
+														</intro>
+														<point wId="od1-clan2-tac4">
+															<num>4.</num>
+															<intro>
+																<p>10Market Disruption Event12</p>
+															</intro>
+															<point wId="od1-clan2-tac4">
+																<num>4.</num>
+																<content>
+																	<p>11Payments13</p>
+																</content>
+															</point>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+				</point>
+				<point wId="od1-clan2-tac5">
+					<num>5.</num>
+					<intro>
+						<p>PROJECT IMPLEMENTATION14</p>
+					</intro>
+					<point wId="od1-clan2-tac5">
+						<num>5.</num>
+						<intro>
+							<p>1Duty of Care14</p>
+						</intro>
+						<point wId="od1-clan2-tac5">
+							<num>5.</num>
+							<intro>
+								<p>2Allocation Period14</p>
+							</intro>
+							<point wId="od1-clan2-tac5">
+								<num>5.</num>
+								<intro>
+									<p>3Project Costs14</p>
+								</intro>
+								<point wId="od1-clan2-tac5">
+									<num>5.</num>
+									<intro>
+										<p>4Project Specific Undertakings14</p>
+									</intro>
+									<point wId="od1-clan2-tac5">
+										<num>5.</num>
+										<intro>
+											<p>5Procurement15</p>
+										</intro>
+										<point wId="od1-clan2-tac5">
+											<num>5.</num>
+											<intro>
+												<p>6Environmental and Social Safeguards15</p>
+											</intro>
+											<point wId="od1-clan2-tac5">
+												<num>5.</num>
+												<intro>
+													<p>7Human Rights15</p>
+												</intro>
+												<point wId="od1-clan2-tac5">
+													<num>5.</num>
+													<intro>
+														<p>8Integrity15</p>
+													</intro>
+													<point wId="od1-clan2-tac5">
+														<num>5.</num>
+														<content>
+															<p>9Visibility16</p>
+														</content>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+				</point>
+				<point wId="od1-clan2-tac6">
+					<num>6.</num>
+					<intro>
+						<p>MONITORING16</p>
+					</intro>
+					<point wId="od1-clan2-tac6">
+						<num>6.</num>
+						<intro>
+							<p>1Reporting16</p>
+						</intro>
+						<point wId="od1-clan2-tac6">
+							<num>6.</num>
+							<intro>
+								<p>2Visits16</p>
+							</intro>
+							<point wId="od1-clan2-tac6">
+								<num>6.</num>
+								<intro>
+									<p>3Audit16</p>
+								</intro>
+								<point wId="od1-clan2-tac6">
+									<num>6.</num>
+									<intro>
+										<p>4Project Information16</p>
+									</intro>
+									<point wId="od1-clan2-tac6">
+										<num>6.</num>
+										<content>
+											<p>5Borrower Information17</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+				</point>
+				<point wId="od1-clan2-tac7">
+					<num>7.</num>
+					<intro>
+						<p>PARI PASSU17</p>
+					</intro>
+					<point wId="od1-clan2-tac7">
+						<num>7.</num>
+						<intro>
+							<p>1Ranking17</p>
+						</intro>
+						<point wId="od1-clan2-tac7">
+							<num>7.</num>
+							<intro>
+								<p>2Security18</p>
+							</intro>
+							<point wId="od1-clan2-tac7">
+								<num>7.</num>
+								<intro>
+									<p>3Clause by Inclusion18</p>
+								</intro>
+								<point wId="od1-clan2-tac7">
+									<num>7.</num>
+									<content>
+										<p>4Prepayment to Third Parties18</p>
+									</content>
+								</point>
+							</point>
+						</point>
+					</point>
+				</point>
+				<point wId="od1-clan2-tac8">
+					<num>8.</num>
+					<content>
+						<p>REPRESENTATIONS AND WARRANTIES18</p>
+					</content>
+				</point>
+				<point wId="od1-clan2-tac9">
+					<num>9.</num>
+					<content>
+						<p>THIRD PARTIES19</p>
+					</content>
+				</point>
+				<point wId="od1-clan2-tac10">
+					<num>10.</num>
+					<content>
+						<p>NON-WAIVER19</p>
+					</content>
+				</point>
+				<point wId="od1-clan2-tac11">
+					<num>11.</num>
+					<content>
+						<p>ASSIGNMENT19</p>
+					</content>
+				</point>
+				<point wId="od1-clan2-tac12">
+					<num>12.</num>
+					<content>
+						<p>GOVERNING LAW19</p>
+					</content>
+				</point>
+				<point wId="od1-clan2-tac13">
+					<num>13.</num>
+					<content>
+						<p>DISPUTES20</p>
+					</content>
+				</point>
+				<point wId="od1-clan2-tac14">
+					<num>14.</num>
+					<content>
+						<p>NOTICES20</p>
+					</content>
+				</point>
+				<point wId="od1-clan2-tac15">
+					<num>15.</num>
+					<content>
+						<p>TAXES AND EXPENSES20</p>
+					</content>
+				</point>
+				<point wId="od1-clan2-tac16">
+					<num>16.</num>
+					<content>
+						<p>DISCHARGE21</p>
+					</content>
+				</point>
+				<point wId="od1-clan2-tac17">
+					<num>17.</num>
+					<content>
+						<p>ENTRY INTO FORCE21</p>
+					</content>
+				</point>
+				<paragraph wId="od1-clan2-stav1">
+					<content>
+						<p>APPENDIX 122</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav2">
+					<content>
+						<p>APPENDIX 225</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav3">
+					<content>
+						<p>APPENDIX 328</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav4">
+					<content>
+						<p>APPENDIX 430</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav5">
+					<content>
+						<p>APPENDIX 531</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav6">
+					<content>
+						<p>COUNCIL OF EUROPE DEVELOPMENT BANK, international organisation with its headquarters at 55, Avenue Kléber, F-75116 Paris (France) (hereinafter, the “CEB”or the “Bank”), on the one hand,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav7">
+					<content>
+						<p>and</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav8">
+					<content>
+						<p>The REPUBLIC OF SERBIA, (hereinafter, the “Borrower” and together with the CEB, the “Parties” and each a “Party”), on the other hand,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav9">
+					<content>
+						<p>WHEREAS</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav10">
+					<content>
+						<p>(A) Having regard to the loan application submitted by the Republic of Serbia through its Ministry of Finance on 10 October 2018, approved by the CEB’s Administrative Council on 15 November 2018,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav11">
+					<content>
+						<p>(B) Having regard to the Third Protocol to the General Agreement on Privileges and Immunities of the Council of Europe dated 6 March 1959,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav12">
+					<content>
+						<p>(C) Having regard to the CEB’s Loan Regulations, as adopted by the CEB’s Administrative Council Resolution 1587 (2016) (hereinafter, the “Loan Regulations”),</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav13">
+					<content>
+						<p>(D) Having regard to the CEB’s Loan and Project Financing Policy, as adopted by the CEB’s Administrative Council Resolution 1587 (2016) (hereinafter, the “Loan Policy”),</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav14">
+					<content>
+						<p>(E) Having regard to the CEB’s Environmental and Social Safeguards Policy, as adopted by the CEB’s Administrative Council Resolution 1588 (2016) (hereinafter, the “Environmental and Social Safeguards Policy”),</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav15">
+					<content>
+						<p>(F) Having regard to the CEB’s Procurement Guidelines, as adopted by the CEB’s Administrative Council in September 2011 (hereinafter, the “Procurement Guidelines”),</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav16">
+					<intro>
+						<p>HEREBY AGREE AS FOLLOWS:</p>
+					</intro>
+					<point wId="od1-clan2-stav16-tac1">
+						<num>1.</num>
+						<intro>
+							<p> INTERPRETATION</p>
+						</intro>
+						<point wId="od1-clan2-stav16-tac1">
+							<num>1.</num>
+							<content>
+								<p>1 Definitions</p>
+							</content>
+						</point>
+					</point>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav17">
+					<content>
+						<p>The following terms shall have the meaning indicated below, except as the context requires otherwise:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav18">
+					<content>
+						<p>“Agreement” means this framework loan agreement, including its appendices.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav19">
+					<content>
+						<p>“Allocation” means the commitment of a Tranche by the Borrower to the eligible component parts of the Projecteven if such Tranche has not yet been paid out under the Project.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav20">
+					<content>
+						<p>“Allocation Period” has the meaning specified under Sub-clause 5.2.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav21">
+					<content>
+						<p>“Business Day” means:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav22">
+					<content>
+						<p>In relation to payments in Euro, any day on which TARGET 2 (the Trans European Automated Real-time Gross Settlement Express Transfer system) is operating.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav23">
+					<content>
+						<p>“Closing Date” means the date set at 30 June 2023 (as also specified under Appendix 1 hereto) from which no further disbursements may be requested by the Borrower. Such date may be modified upon prior written consent of both Parties, by means of an exchange of letters.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav24">
+					<content>
+						<p>“Completion Report” has the meaning specified under Sub-clause 6.1 (b).</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav25">
+					<content>
+						<p>“Components” means the eligible sectors of action defined under Appendix 1 hereto.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav26">
+					<content>
+						<p>“Currency” means, for the purposes of the Agreement, Euro.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav27">
+					<content>
+						<p>“Day Count Convention” means the convention for determining the number of days between two dates and the number of days in a year specified in the relevant Disbursement Notice.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav28">
+					<content>
+						<p>“Debt Instrument” means (i) any loan or other form of financial indebtedness; (ii) an instrument, including any receipt or statement of account, evidencing or constituting an obligation to repay a loan, deposit, advance or similar extension of credit (including without limitation any extension of credit under a refinancing or rescheduling agreement), (iii) a bond, note, debt security, debenture or similar written evidence of financial indebtedness; or (iv) an instrument evidencing a guarantee of an obligation constituting financial indebtedness of another.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav29">
+					<content>
+						<p>“Default Interest Rate” has the meaning specified under Sub-clause 4.9.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav30">
+					<content>
+						<p>“Disbursement Date” means the date on which a Tranche is scheduled to be disbursed pursuant to the applicable Disbursement Notice.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav31">
+					<content>
+						<p>“Disbursement Notice” has the meaning specified under Sub-clause 4.3(b).</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav32">
+					<content>
+						<p>“Disbursement Request” has the meaning specified under Sub-clause 4.3(a).</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav33">
+					<content>
+						<p>“Early Reimbursement Confirmation” has the meaning specified under Sub-clause 4.7.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav34">
+					<content>
+						<p>“Early Reimbursement Costs” has the meaning specified under Sub-clause 4.7.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav35">
+					<content>
+						<p>“Early Reimbursement Date” has the meaning specified under Sub-clause 4.7.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav36">
+					<content>
+						<p>“Early Reimbursement Notice” has the meaning specified under Sub-clause 4.7.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav37">
+					<content>
+						<p>“Effective Date” means the date of entry into force of the Agreement resulting from Clause 17.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav38">
+					<content>
+						<p>“EU” means the European Union.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav39">
+					<content>
+						<p>“EURIBOR” means the percentage rate per annum quoted on the page EURIBOR01 of the Thomson Reuters screen (or on a successor page which replaces the Thomson Reuters’ page EURIBOR01) at or about 11 a.m. Brussels time on the Interest Determination Date as the Euro interbank offered rate administrated by the European Money Market Institute (or any other entity which takes over the administration of that rate) for the same period as the relevant Interest Period.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav40">
+					<content>
+						<p>If the relevant Interest Period is not the same as a period quoted by Thomson Reuters, the applicable EURIBOR shall be the percentage rate per annum resulting from a linear interpolation by reference to two (2) EURIBOR rates for Euro term deposits, one of which is applicable for a period of whole months next shorter and the other for a period of whole months next longer than the length of the relevant Interest Period.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav41">
+					<content>
+						<p>“Euro” and the sign “EUR” means the lawful currency of the Member States of the EU which from time to time adopt it as their currency in accordance with the relevant provisions of the Treaty of the EU and the Treaty on the Functioning of the EU or their succeeding treaties.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav42">
+					<content>
+						<p>“European Convention on Human Rights” means the Convention for the Protection of Human Rights and Fundamental Freedoms dated 4 November 1950, CETS No. 5, as amended from time to time.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav43">
+					<content>
+						<p>“European Social Charter” means the European Social Charter dated 3 May 1996, CETS No. 163, as amended from time to time.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav44">
+					<content>
+						<p>“Final Beneficiaries” are specified under Appendix 1 hereto as the group benefitting from the social effects of the Project.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav45">
+					<content>
+						<p>“Fixed Interest Rate” means the interest rate per annum specified in the applicable Disbursement Notice.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav46">
+					<content>
+						<p>“Floating Interest Rate” means the interest rate per annum determined by adding or subtracting the Spread specified in the applicable Disbursement Notice to or from, as the case may be, the Reference Rate.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav47">
+					<content>
+						<p>For the avoidance of doubt, when the determination of the Floating Interest Rate results in a negative interest rate (due to a quoted negative Reference Rate, to the operation of a Spread that is subtracted from the Reference Rate or to any other circumstances), the interest to be paid by the Borrower for the Interest Period shall be deemed to be zero.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav48">
+					<content>
+						<p>“Interest Determination Date” means, for the purposes of determination of a Floating Interest Rate, the day falling two (2) Business Days prior to the first day of the Interest Period, unless otherwise specified in the relevant Disbursement Notice.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav49">
+					<content>
+						<p>“Interest Payment Dates” means the dates for the payment of interest corresponding to the relevant Interest Period specified in the applicable Disbursement Notice.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav50">
+					<content>
+						<p>“Interest Period” means the period commencing on an Interest Payment Date and ending on the day immediately prior to the following Interest Payment Date, provided that the first Interest Period applicable to each Tranche shall commence on the Disbursement Date and end on the day immediately prior to the next Interest Payment Date.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav51">
+					<content>
+						<p>“Loan” means the loan granted to the Borrower by the CEB by means of the Agreement.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav52">
+					<content>
+						<p>“Loan Amount” means the amount specified under Sub-clause 4.1.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav53">
+					<content>
+						<p>“Market Disruption Event” has the meaning specified under Sub-clause 4.10.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav54">
+					<content>
+						<p>“Material Adverse Change” means any event which, in CEB’s opinion, (i) materially impairs the Borrower’s ability to perform its financial obligations under the Agreement; or (ii) adversely affects any Security provided by the Borrower or a third-party to secure the due performance of the Borrower’s financial obligations under the Agreement.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav55">
+					<content>
+						<p>“Maturity Date” means the last Principal Repayment Date for each Tranche specified in the applicable Disbursement Notice.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav56">
+					<content>
+						<p>“Modified Following Business Day Convention” means a convention whereby if a specified date would fall on a day which is not a Business Day, such date would be the first following day that is a Business Day unless that day falls in the next calendar month, in which case that date would be the first preceding day that is a Business Day.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav57">
+					<content>
+						<p>“Principal Repayment Date(s)” means the date(s) for the repayment(s) of principal under each Tranche specified in the applicable Disbursement Notice.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav58">
+					<content>
+						<p>“Principal Repayment Period” means with respect of each Tranche the period running from its Disbursement Date to its Maturity Date.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav59">
+					<content>
+						<p>“Progress Report” has the meaning specified under Sub-clause 6.1(a).</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav60">
+					<content>
+						<p>“Prohibited Practices” has the meaning specified under Sub-clause 5.8.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav61">
+					<content>
+						<p>“Project” means the eligible investment scheme(s)/the programme of eligible Sub-Projects set forth under Appendix 1 to be partially financed with the Loan approved by the CEB’s Administrative Council with ref. LD 1981.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav62">
+					<content>
+						<p>“Project Implementing Entity” (hereinafter, the “PIE”) means the legal entity that, by delegation of the Borrower, is in charge of the implementation of the Project.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav63">
+					<content>
+						<p>“Reference Rate” means EURIBOR for a Floating Interest Rate Tranche denominated in Euro.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav64">
+					<content>
+						<p>“Security” means any agreement or arrangement creating a preferential rank, a preferential right of payment, a collateral or guarantee of any nature whatsoever which might confer enhanced rights upon third parties.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav65">
+					<content>
+						<p>“Spread” means, in connection with a Floating Interest Rate Tranche, the fixed-spread to the Reference Rate (being either plus or minus) specified in basis points in the applicable Disbursement Notice.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav66">
+					<content>
+						<p>“State of Progress of Works” means the ratio of already-incurred eligible expenditures, for all the component parts of the Project, to total eligible cost of the Project.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav67">
+					<content>
+						<p>“Sub-project” means an eligible investment scheme to be financed under the Project.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav68">
+					<intro>
+						<p>“Tranche” means an amount disbursed or to be disbursed under the Loan.</p>
+					</intro>
+					<point wId="od1-clan2-stav68-tac1">
+						<num>1.</num>
+						<content>
+							<p>2 Construction</p>
+						</content>
+					</point>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav69">
+					<intro>
+						<p>Unless the context otherwise requires, references to:</p>
+					</intro>
+					<point wId="od1-clan2-stav69-tac1">
+						<num>1.</num>
+						<intro>
+							<p>3 Headings</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac1">
+							<num>1.</num>
+							<content>
+								<p>4 Rounding</p>
+							</content>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac2">
+						<num>2.</num>
+						<content>
+							<p> CONDITIONS</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac3">
+						<num>3.</num>
+						<content>
+							<p> PURPOSE</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac4">
+						<num>4.</num>
+						<intro>
+							<p> FINANCIAL CONDITIONS</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac4">
+							<num>4.</num>
+							<intro>
+								<p>1 Loan Amount</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac4">
+								<num>4.</num>
+								<intro>
+									<p>2 Disbursement Amount</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac4">
+									<num>4.</num>
+									<intro>
+										<p>3 Disbursement Procedure</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac4">
+										<num>4.</num>
+										<intro>
+											<p>4 Disbursement Period</p>
+										</intro>
+										<point wId="od1-clan2-stav69-tac4">
+											<num>4.</num>
+											<intro>
+												<p>5 Disbursement Conditions</p>
+											</intro>
+											<point wId="od1-clan2-stav69-tac4">
+												<num>4.</num>
+												<intro>
+													<p>6 Repayment</p>
+												</intro>
+												<point wId="od1-clan2-stav69-tac4">
+													<num>4.</num>
+													<intro>
+														<p>7 Early Reimbursement</p>
+													</intro>
+													<point wId="od1-clan2-stav69-tac4">
+														<num>4.</num>
+														<intro>
+															<p>8 Interest Determination</p>
+														</intro>
+														<point wId="od1-clan2-stav69-tac4">
+															<num>4.</num>
+															<intro>
+																<p>9 Default Interest Rate</p>
+															</intro>
+															<point wId="od1-clan2-stav69-tac4">
+																<num>4.</num>
+																<intro>
+																	<p>10 Market Disruption Event</p>
+																</intro>
+																<point wId="od1-clan2-stav69-tac4">
+																	<num>4.</num>
+																	<content>
+																		<p>11 Payments</p>
+																	</content>
+																</point>
+															</point>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac5">
+						<num>5.</num>
+						<intro>
+							<p> PROJECT IMPLEMENTATION</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac5">
+							<num>5.</num>
+							<intro>
+								<p>1 Duty of Care</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac5">
+								<num>5.</num>
+								<intro>
+									<p>2 Allocation Period</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac5">
+									<num>5.</num>
+									<intro>
+										<p>3 Project Costs</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac5">
+										<num>5.</num>
+										<intro>
+											<p>4 Project Specific Undertakings</p>
+										</intro>
+										<point wId="od1-clan2-stav69-tac5">
+											<num>5.</num>
+											<intro>
+												<p>5 Procurement</p>
+											</intro>
+											<point wId="od1-clan2-stav69-tac5">
+												<num>5.</num>
+												<intro>
+													<p>6 Environmental and Social Safeguards</p>
+												</intro>
+												<point wId="od1-clan2-stav69-tac5">
+													<num>5.</num>
+													<intro>
+														<p>7 Human Rights</p>
+													</intro>
+													<point wId="od1-clan2-stav69-tac5">
+														<num>5.</num>
+														<intro>
+															<p>8 Integrity</p>
+														</intro>
+														<point wId="od1-clan2-stav69-tac5">
+															<num>5.</num>
+															<content>
+																<p>9 Visibility</p>
+															</content>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac6">
+						<num>6.</num>
+						<intro>
+							<p> MONITORING</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac6">
+							<num>6.</num>
+							<intro>
+								<p>1 Reporting</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac6">
+								<num>6.</num>
+								<intro>
+									<p>2 Visits</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac6">
+									<num>6.</num>
+									<intro>
+										<p>3 Audit</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac6">
+										<num>6.</num>
+										<intro>
+											<p>4 Project Information</p>
+										</intro>
+										<point wId="od1-clan2-stav69-tac6">
+											<num>6.</num>
+											<content>
+												<p>5 Borrower Information</p>
+											</content>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac7">
+						<num>7.</num>
+						<intro>
+							<p> PARI PASSU</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac7">
+							<num>7.</num>
+							<intro>
+								<p>1 Ranking</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac7">
+								<num>7.</num>
+								<intro>
+									<p>2 Security</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac7">
+									<num>7.</num>
+									<intro>
+										<p>3 Clause by Inclusion</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac7">
+										<num>7.</num>
+										<content>
+											<p>4 Prepayment to Third Parties</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac8">
+						<num>8.</num>
+						<content>
+							<p> REPRESENTATIONS AND WARRANTIES</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac9">
+						<num>9.</num>
+						<content>
+							<p> THIRD PARTIES</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac10">
+						<num>10.</num>
+						<content>
+							<p> NON-WAIVER</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac11">
+						<num>11.</num>
+						<content>
+							<p> ASSIGNMENT</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac12">
+						<num>12.</num>
+						<content>
+							<p> GOVERNING LAW</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac13">
+						<num>13.</num>
+						<content>
+							<p> DISPUTES</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac14">
+						<num>14.</num>
+						<content>
+							<p> NOTICES</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac15">
+						<num>15.</num>
+						<content>
+							<p> TAXES AND EXPENSES</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac16">
+						<num>16.</num>
+						<content>
+							<p> DISCHARGE</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac17">
+						<num>17.</num>
+						<content>
+							<p> ENTRY INTO FORCE</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac1">
+						<num>1.</num>
+						<intro>
+							<p>ТУМАЧЕЊЕ5</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac1">
+							<num>1.</num>
+							<intro>
+								<p>1ДЕФИНИЦИЈЕ5</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac1">
+								<num>1.</num>
+								<intro>
+									<p>2ТУМАЧЕЊЕ7</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac1">
+									<num>1.</num>
+									<intro>
+										<p>3НАСЛОВИ7</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac1">
+										<num>1.</num>
+										<content>
+											<p>4ЗАОКРУЖИВАЊЕ8</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac2">
+						<num>2.</num>
+						<content>
+							<p>УСЛОВИ8</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac3">
+						<num>3.</num>
+						<content>
+							<p>СВРХА8</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac4">
+						<num>4.</num>
+						<intro>
+							<p>ФИНАНСИЈСКИ УСЛОВИ8</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac4">
+							<num>4.</num>
+							<intro>
+								<p>1ИЗНОС ЗАЈМА8</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac4">
+								<num>4.</num>
+								<intro>
+									<p>2ИЗНОС ЗА ИСПЛАТУ8</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac4">
+									<num>4.</num>
+									<intro>
+										<p>3ПОСТУПАК ИСПЛАТЕ9</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac4">
+										<num>4.</num>
+										<intro>
+											<p>4ПЕРИОД ИСПЛАТЕ10</p>
+										</intro>
+										<point wId="od1-clan2-stav69-tac4">
+											<num>4.</num>
+											<intro>
+												<p>5УСЛОВИ ЗА ИСПЛАТУ10</p>
+											</intro>
+											<point wId="od1-clan2-stav69-tac4">
+												<num>4.</num>
+												<intro>
+													<p>6ОТПЛАТА10</p>
+												</intro>
+												<point wId="od1-clan2-stav69-tac4">
+													<num>4.</num>
+													<intro>
+														<p>7НАКНАДАЗА ПРЕВРЕМЕНУ ОТПЛАТУ10</p>
+													</intro>
+													<point wId="od1-clan2-stav69-tac4">
+														<num>4.</num>
+														<intro>
+															<p>8ОДРЕЂИВАЊЕ КАМАТЕ11</p>
+														</intro>
+														<point wId="od1-clan2-stav69-tac4">
+															<num>4.</num>
+															<intro>
+																<p>9СТОПА ЗАТЕЗНЕ КАМАТЕ11</p>
+															</intro>
+															<point wId="od1-clan2-stav69-tac4">
+																<num>4.</num>
+																<intro>
+																	<p>10ДОГАЂАЈ ПОРЕМЕЋАЈА НА ТРЖИШТУ11</p>
+																</intro>
+																<point wId="od1-clan2-stav69-tac4">
+																	<num>4.</num>
+																	<content>
+																		<p>11ИСПЛАТЕ13</p>
+																	</content>
+																</point>
+															</point>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac5">
+						<num>5.</num>
+						<intro>
+							<p>СПРОВОЂЕЊЕ ПРОЈЕКТА13</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac5">
+							<num>5.</num>
+							<intro>
+								<p>1ОБАВЕЗНА БРИГА 13</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac5">
+								<num>5.</num>
+								<intro>
+									<p>2ПЕРИОД АЛОКАЦИЈЕ13</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac5">
+									<num>5.</num>
+									<intro>
+										<p>3ТРОШКОВИ ПРОЈЕКТА13</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac5">
+										<num>5.</num>
+										<intro>
+											<p>4ПОСЕБНЕ ОБАВЕЗЕ ПО ПРОЈЕКТУ14</p>
+										</intro>
+										<point wId="od1-clan2-stav69-tac5">
+											<num>5.</num>
+											<intro>
+												<p>5НАБАВКА14</p>
+											</intro>
+											<point wId="od1-clan2-stav69-tac5">
+												<num>5.</num>
+												<intro>
+													<p>6МЕРЕ ЗАШТИТЕ У ОБЛАСТИ ЖИВОТНЕ СРЕДИНЕ И СОЦИЈАЛНЕ МЕРЕ ЗАШТИТЕ14</p>
+												</intro>
+												<point wId="od1-clan2-stav69-tac5">
+													<num>5.</num>
+													<intro>
+														<p>7ЉУДСКА ПРАВА14</p>
+													</intro>
+													<point wId="od1-clan2-stav69-tac5">
+														<num>5.</num>
+														<intro>
+															<p>8ИНТЕГРИТЕТ14</p>
+														</intro>
+														<point wId="od1-clan2-stav69-tac5">
+															<num>5.</num>
+															<content>
+																<p>9ТРАНСПАРЕНТНОСТ15</p>
+															</content>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac6">
+						<num>6.</num>
+						<intro>
+							<p>ПРАЋЕЊЕ15</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac6">
+							<num>6.</num>
+							<intro>
+								<p>1ИЗВЕШТАВАЊЕ…15</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac6">
+								<num>6.</num>
+								<intro>
+									<p>2ПОСЕТЕ16</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac6">
+									<num>6.</num>
+									<intro>
+										<p>3РЕВИЗИЈА16</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac6">
+										<num>6.</num>
+										<intro>
+											<p>4ИНФОРМАЦИЈЕ О ПРОЈЕКТУ16</p>
+										</intro>
+										<point wId="od1-clan2-stav69-tac6">
+											<num>6.</num>
+											<content>
+												<p>5ПОДАЦИ О ЗАЈМОПРИМЦУ16</p>
+											</content>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac7">
+						<num>7.</num>
+						<intro>
+							<p>PARI PASSU17</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac7">
+							<num>7.</num>
+							<intro>
+								<p>1РАНГИРАЊЕ17</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac7">
+								<num>7.</num>
+								<intro>
+									<p>2СРЕДСТВО ОБЕЗБЕЂЕЊА17</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac7">
+									<num>7.</num>
+									<intro>
+										<p>3КЛУЗУЛА КОЈА СЕ НАКНАДНО УНОСИ18</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac7">
+										<num>7.</num>
+										<content>
+											<p>4ПРЕВРЕМЕНА ОТПЛАТА ТРЕЋИМ ЛИЦИМА18</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac8">
+						<num>8.</num>
+						<content>
+							<p>ИЗЈАВЕ И ГАРАНЦИЈЕ18</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac9">
+						<num>9.</num>
+						<content>
+							<p>ТРЕЋА ЛИЦА19</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac10">
+						<num>10.</num>
+						<content>
+							<p>НЕОДРИЦАЊЕ19</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac11">
+						<num>11.</num>
+						<content>
+							<p>УСТУПАЊЕ19</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac12">
+						<num>12.</num>
+						<content>
+							<p>МЕРОДАВНО ПРАВО19</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac13">
+						<num>13.</num>
+						<content>
+							<p>СПОРОВИ19</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac14">
+						<num>14.</num>
+						<content>
+							<p>ОБАВЕШТЕЊА20</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac15">
+						<num>15.</num>
+						<content>
+							<p>ПОРЕЗИ И РАСХОДИ20</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac16">
+						<num>16.</num>
+						<content>
+							<p>ИСПЛАЋИВАЊЕ21</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac17">
+						<num>17.</num>
+						<content>
+							<p>СТУПАЊЕ НА СНАГУ21</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac1">
+						<num>1.</num>
+						<intro>
+							<p> ТУМАЧЕЊЕ</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac1">
+							<num>1.</num>
+							<intro>
+								<p>1 Дефиниције</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac1">
+								<num>1.</num>
+								<intro>
+									<p>2 Структура</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac1">
+									<num>1.</num>
+									<intro>
+										<p>3 Наслови</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac1">
+										<num>1.</num>
+										<content>
+											<p>4 Заокруживање</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac2">
+						<num>2.</num>
+						<content>
+							<p> УСЛОВИ</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac3">
+						<num>3.</num>
+						<content>
+							<p> СВРХА</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac4">
+						<num>4.</num>
+						<intro>
+							<p> ФИНАНСИЈСКИ УСЛОВИ</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac4">
+							<num>4.</num>
+							<intro>
+								<p>1 Износ Зајма</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac4">
+								<num>4.</num>
+								<intro>
+									<p>2 Износ за исплату</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac4">
+									<num>4.</num>
+									<intro>
+										<p>3 Поступак исплате</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac4">
+										<num>4.</num>
+										<intro>
+											<p>4 Период исплате</p>
+										</intro>
+										<point wId="od1-clan2-stav69-tac4">
+											<num>4.</num>
+											<intro>
+												<p>5 Услови за исплату</p>
+											</intro>
+											<point wId="od1-clan2-stav69-tac4">
+												<num>4.</num>
+												<intro>
+													<p>6 Отплата</p>
+												</intro>
+												<point wId="od1-clan2-stav69-tac4">
+													<num>4.</num>
+													<intro>
+														<p>7 Превремена отплата</p>
+													</intro>
+													<point wId="od1-clan2-stav69-tac4">
+														<num>4.</num>
+														<intro>
+															<p>8 Одређивање камате</p>
+														</intro>
+														<point wId="od1-clan2-stav69-tac4">
+															<num>4.</num>
+															<intro>
+																<p>9 Стопа затезне камате</p>
+															</intro>
+															<point wId="od1-clan2-stav69-tac4">
+																<num>4.</num>
+																<intro>
+																	<p>10 Догађај поремећаја на тржишту</p>
+																</intro>
+																<point wId="od1-clan2-stav69-tac4">
+																	<num>4.</num>
+																	<content>
+																		<p>11 Исплате</p>
+																	</content>
+																</point>
+															</point>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac5">
+						<num>5.</num>
+						<intro>
+							<p> СПРОВОЂЕЊЕ ПРОЈЕКТА</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac5">
+							<num>5.</num>
+							<intro>
+								<p>1 Обавезна брига</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac5">
+								<num>5.</num>
+								<intro>
+									<p>2 Период алокације</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac5">
+									<num>5.</num>
+									<intro>
+										<p>3 Трошкови пројекта</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac5">
+										<num>5.</num>
+										<intro>
+											<p>4 Посебне обавезе по Пројекту</p>
+										</intro>
+										<point wId="od1-clan2-stav69-tac5">
+											<num>5.</num>
+											<intro>
+												<p>5 Набавка</p>
+											</intro>
+											<point wId="od1-clan2-stav69-tac5">
+												<num>5.</num>
+												<intro>
+													<p>6 Мере заштите у области животне средине и социјалне мере заштите</p>
+												</intro>
+												<point wId="od1-clan2-stav69-tac5">
+													<num>5.</num>
+													<intro>
+														<p>7 Људска права</p>
+													</intro>
+													<point wId="od1-clan2-stav69-tac5">
+														<num>5.</num>
+														<intro>
+															<p>8 Интегритет</p>
+														</intro>
+														<point wId="od1-clan2-stav69-tac5">
+															<num>5.</num>
+															<content>
+																<p>9 Транспарентност</p>
+															</content>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac6">
+						<num>6.</num>
+						<intro>
+							<p> ПРАЋЕЊЕ</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac6">
+							<num>6.</num>
+							<intro>
+								<p>1 Извештавање</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac6">
+								<num>6.</num>
+								<intro>
+									<p>2 Посете</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac6">
+									<num>6.</num>
+									<intro>
+										<p>3 Ревизија</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac6">
+										<num>6.</num>
+										<intro>
+											<p>4 Информације о пројекту</p>
+										</intro>
+										<point wId="od1-clan2-stav69-tac6">
+											<num>6.</num>
+											<content>
+												<p>5 Подаци о Зајмопримцу</p>
+											</content>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac7">
+						<num>7.</num>
+						<intro>
+							<p> PARI PASSU</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac7">
+							<num>7.</num>
+							<intro>
+								<p>1 Рангирање</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac7">
+								<num>7.</num>
+								<intro>
+									<p>2 Средство обезбеђења</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac7">
+									<num>7.</num>
+									<intro>
+										<p>3 Клаузула која се накнадно уноси</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac7">
+										<num>7.</num>
+										<content>
+											<p>4 Превремена отплата трећим лицима</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac8">
+						<num>8.</num>
+						<content>
+							<p> ИЗЈАВЕ И ГАРАНЦИЈЕ</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac9">
+						<num>9.</num>
+						<content>
+							<p> ТРЕЋА ЛИЦА</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac10">
+						<num>10.</num>
+						<content>
+							<p> ОДРИЦАЊЕ</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac11">
+						<num>11.</num>
+						<content>
+							<p> УСТУПАЊЕ</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac12">
+						<num>12.</num>
+						<content>
+							<p> МЕРОДАВНО ПРАВО</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac13">
+						<num>13.</num>
+						<content>
+							<p> СПОРОВИ</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac14">
+						<num>14.</num>
+						<content>
+							<p> ОБАВЕШТЕЊА</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac15">
+						<num>15.</num>
+						<content>
+							<p> ПОРЕЗИ И РАСХОДИ</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac16">
+						<num>16.</num>
+						<content>
+							<p> ИСПЛАЋИВАЊЕ</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac17">
+						<num>17.</num>
+						<content>
+							<p> СТУПАЊЕ НА СНАГУ</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac1">
+						<num>1.</num>
+						<intro>
+							<p>INTERPRETATION6</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac1">
+							<num>1.</num>
+							<intro>
+								<p>1Definitions6</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac1">
+								<num>1.</num>
+								<intro>
+									<p>2Construction8</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac1">
+									<num>1.</num>
+									<intro>
+										<p>3Headings8</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac1">
+										<num>1.</num>
+										<content>
+											<p>4Rounding8</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac2">
+						<num>2.</num>
+						<content>
+							<p>CONDITIONS9</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac3">
+						<num>3.</num>
+						<content>
+							<p>PURPOSE9</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac4">
+						<num>4.</num>
+						<intro>
+							<p>FINANCIAL CONDITIONS9</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac4">
+							<num>4.</num>
+							<intro>
+								<p>1Loan Amount9</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac4">
+								<num>4.</num>
+								<intro>
+									<p>2Disbursement Amount9</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac4">
+									<num>4.</num>
+									<intro>
+										<p>3Disbursement Procedure9</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac4">
+										<num>4.</num>
+										<intro>
+											<p>4Disbursement Period10</p>
+										</intro>
+										<point wId="od1-clan2-stav69-tac4">
+											<num>4.</num>
+											<intro>
+												<p>5Disbursement Conditions11</p>
+											</intro>
+											<point wId="od1-clan2-stav69-tac4">
+												<num>4.</num>
+												<intro>
+													<p>6Repayment11</p>
+												</intro>
+												<point wId="od1-clan2-stav69-tac4">
+													<num>4.</num>
+													<intro>
+														<p>7Early Reimbursement11</p>
+													</intro>
+													<point wId="od1-clan2-stav69-tac4">
+														<num>4.</num>
+														<intro>
+															<p>8Interest Determination12</p>
+														</intro>
+														<point wId="od1-clan2-stav69-tac4">
+															<num>4.</num>
+															<intro>
+																<p>9Default Interest Rate12</p>
+															</intro>
+															<point wId="od1-clan2-stav69-tac4">
+																<num>4.</num>
+																<intro>
+																	<p>10Market Disruption Event12</p>
+																</intro>
+																<point wId="od1-clan2-stav69-tac4">
+																	<num>4.</num>
+																	<content>
+																		<p>11Payments13</p>
+																	</content>
+																</point>
+															</point>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac5">
+						<num>5.</num>
+						<intro>
+							<p>PROJECT IMPLEMENTATION14</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac5">
+							<num>5.</num>
+							<intro>
+								<p>1Duty of Care14</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac5">
+								<num>5.</num>
+								<intro>
+									<p>2Allocation Period14</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac5">
+									<num>5.</num>
+									<intro>
+										<p>3Project Costs14</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac5">
+										<num>5.</num>
+										<intro>
+											<p>4Project Specific Undertakings14</p>
+										</intro>
+										<point wId="od1-clan2-stav69-tac5">
+											<num>5.</num>
+											<intro>
+												<p>5Procurement15</p>
+											</intro>
+											<point wId="od1-clan2-stav69-tac5">
+												<num>5.</num>
+												<intro>
+													<p>6Environmental and Social Safeguards15</p>
+												</intro>
+												<point wId="od1-clan2-stav69-tac5">
+													<num>5.</num>
+													<intro>
+														<p>7Human Rights15</p>
+													</intro>
+													<point wId="od1-clan2-stav69-tac5">
+														<num>5.</num>
+														<intro>
+															<p>8Integrity15</p>
+														</intro>
+														<point wId="od1-clan2-stav69-tac5">
+															<num>5.</num>
+															<content>
+																<p>9Visibility16</p>
+															</content>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac6">
+						<num>6.</num>
+						<intro>
+							<p>MONITORING16</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac6">
+							<num>6.</num>
+							<intro>
+								<p>1Reporting16</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac6">
+								<num>6.</num>
+								<intro>
+									<p>2Visits16</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac6">
+									<num>6.</num>
+									<intro>
+										<p>3Audit16</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac6">
+										<num>6.</num>
+										<intro>
+											<p>4Project Information16</p>
+										</intro>
+										<point wId="od1-clan2-stav69-tac6">
+											<num>6.</num>
+											<content>
+												<p>5Borrower Information17</p>
+											</content>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac7">
+						<num>7.</num>
+						<intro>
+							<p>PARI PASSU17</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac7">
+							<num>7.</num>
+							<intro>
+								<p>1Ranking17</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac7">
+								<num>7.</num>
+								<intro>
+									<p>2Security18</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac7">
+									<num>7.</num>
+									<intro>
+										<p>3Clause by Inclusion18</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac7">
+										<num>7.</num>
+										<content>
+											<p>4Prepayment to Third Parties18</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac8">
+						<num>8.</num>
+						<content>
+							<p>REPRESENTATIONS AND WARRANTIES18</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac9">
+						<num>9.</num>
+						<content>
+							<p>THIRD PARTIES19</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac10">
+						<num>10.</num>
+						<content>
+							<p>NON-WAIVER19</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac11">
+						<num>11.</num>
+						<content>
+							<p>ASSIGNMENT19</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac12">
+						<num>12.</num>
+						<content>
+							<p>GOVERNING LAW19</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac13">
+						<num>13.</num>
+						<content>
+							<p>DISPUTES20</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac14">
+						<num>14.</num>
+						<content>
+							<p>NOTICES20</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac15">
+						<num>15.</num>
+						<content>
+							<p>TAXES AND EXPENSES20</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac16">
+						<num>16.</num>
+						<content>
+							<p>DISCHARGE21</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac17">
+						<num>17.</num>
+						<content>
+							<p>ENTRY INTO FORCE21</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac1">
+						<num>1.</num>
+						<intro>
+							<p> INTERPRETATION</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac1">
+							<num>1.</num>
+							<intro>
+								<p>1 Definitions</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac1">
+								<num>1.</num>
+								<intro>
+									<p>2 Construction</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac1">
+									<num>1.</num>
+									<intro>
+										<p>3 Headings</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac1">
+										<num>1.</num>
+										<content>
+											<p>4 Rounding</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac2">
+						<num>2.</num>
+						<content>
+							<p> CONDITIONS</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac3">
+						<num>3.</num>
+						<content>
+							<p> PURPOSE</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac4">
+						<num>4.</num>
+						<intro>
+							<p> FINANCIAL CONDITIONS</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac4">
+							<num>4.</num>
+							<intro>
+								<p>1 Loan Amount</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac4">
+								<num>4.</num>
+								<intro>
+									<p>2 Disbursement Amount</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac4">
+									<num>4.</num>
+									<intro>
+										<p>3 Disbursement Procedure</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac4">
+										<num>4.</num>
+										<intro>
+											<p>4 Disbursement Period</p>
+										</intro>
+										<point wId="od1-clan2-stav69-tac4">
+											<num>4.</num>
+											<intro>
+												<p>5 Disbursement Conditions</p>
+											</intro>
+											<point wId="od1-clan2-stav69-tac4">
+												<num>4.</num>
+												<intro>
+													<p>6 Repayment</p>
+												</intro>
+												<point wId="od1-clan2-stav69-tac4">
+													<num>4.</num>
+													<intro>
+														<p>7 Early Reimbursement</p>
+													</intro>
+													<point wId="od1-clan2-stav69-tac4">
+														<num>4.</num>
+														<intro>
+															<p>8 Interest Determination</p>
+														</intro>
+														<point wId="od1-clan2-stav69-tac4">
+															<num>4.</num>
+															<intro>
+																<p>9 Default Interest Rate</p>
+															</intro>
+															<point wId="od1-clan2-stav69-tac4">
+																<num>4.</num>
+																<intro>
+																	<p>10 Market Disruption Event</p>
+																</intro>
+																<point wId="od1-clan2-stav69-tac4">
+																	<num>4.</num>
+																	<content>
+																		<p>11 Payments</p>
+																	</content>
+																</point>
+															</point>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac5">
+						<num>5.</num>
+						<intro>
+							<p> PROJECT IMPLEMENTATION</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac5">
+							<num>5.</num>
+							<intro>
+								<p>1 Duty of Care</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac5">
+								<num>5.</num>
+								<intro>
+									<p>2 Allocation Period</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac5">
+									<num>5.</num>
+									<intro>
+										<p>3 Project Costs</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac5">
+										<num>5.</num>
+										<intro>
+											<p>4 Project Specific Undertakings</p>
+										</intro>
+										<point wId="od1-clan2-stav69-tac5">
+											<num>5.</num>
+											<intro>
+												<p>5 Procurement</p>
+											</intro>
+											<point wId="od1-clan2-stav69-tac5">
+												<num>5.</num>
+												<intro>
+													<p>6 Environmental and Social Safeguards</p>
+												</intro>
+												<point wId="od1-clan2-stav69-tac5">
+													<num>5.</num>
+													<intro>
+														<p>7 Human Rights</p>
+													</intro>
+													<point wId="od1-clan2-stav69-tac5">
+														<num>5.</num>
+														<intro>
+															<p>8 Integrity</p>
+														</intro>
+														<point wId="od1-clan2-stav69-tac5">
+															<num>5.</num>
+															<content>
+																<p>9 Visibility</p>
+															</content>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac6">
+						<num>6.</num>
+						<intro>
+							<p> MONITORING</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac6">
+							<num>6.</num>
+							<intro>
+								<p>1 Reporting</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac6">
+								<num>6.</num>
+								<intro>
+									<p>2 Visits</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac6">
+									<num>6.</num>
+									<intro>
+										<p>3 Audit</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac6">
+										<num>6.</num>
+										<intro>
+											<p>4 Project Information</p>
+										</intro>
+										<point wId="od1-clan2-stav69-tac6">
+											<num>6.</num>
+											<content>
+												<p>5 Borrower Information</p>
+											</content>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac7">
+						<num>7.</num>
+						<intro>
+							<p> PARI PASSU</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac7">
+							<num>7.</num>
+							<intro>
+								<p>1 Ranking</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac7">
+								<num>7.</num>
+								<intro>
+									<p>2 Security</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac7">
+									<num>7.</num>
+									<intro>
+										<p>3 Clause by Inclusion</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac7">
+										<num>7.</num>
+										<content>
+											<p>4 Prepayment to Third Parties</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac8">
+						<num>8.</num>
+						<content>
+							<p> REPRESENTATIONS AND WARRANTIES</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac9">
+						<num>9.</num>
+						<content>
+							<p> THIRD PARTIES</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac10">
+						<num>10.</num>
+						<content>
+							<p> NON-WAIVER</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac11">
+						<num>11.</num>
+						<content>
+							<p> ASSIGNMENT</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac12">
+						<num>12.</num>
+						<content>
+							<p> GOVERNING LAW</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac13">
+						<num>13.</num>
+						<content>
+							<p> DISPUTES</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac14">
+						<num>14.</num>
+						<content>
+							<p> NOTICES</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac15">
+						<num>15.</num>
+						<content>
+							<p> TAXES AND EXPENSES</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac16">
+						<num>16.</num>
+						<content>
+							<p> DISCHARGE</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac17">
+						<num>17.</num>
+						<content>
+							<p> ENTRY INTO FORCE</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac1">
+						<num>1.</num>
+						<intro>
+							<p>ТУМАЧЕЊЕ5</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac1">
+							<num>1.</num>
+							<intro>
+								<p>1ДЕФИНИЦИЈЕ5</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac1">
+								<num>1.</num>
+								<intro>
+									<p>2ТУМАЧЕЊЕ7</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac1">
+									<num>1.</num>
+									<intro>
+										<p>3НАСЛОВИ7</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac1">
+										<num>1.</num>
+										<content>
+											<p>4ЗАОКРУЖИВАЊЕ8</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac2">
+						<num>2.</num>
+						<content>
+							<p>УСЛОВИ8</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac3">
+						<num>3.</num>
+						<content>
+							<p>СВРХА8</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac4">
+						<num>4.</num>
+						<intro>
+							<p>ФИНАНСИЈСКИ УСЛОВИ8</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac4">
+							<num>4.</num>
+							<intro>
+								<p>1ИЗНОС ЗАЈМА8</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac4">
+								<num>4.</num>
+								<intro>
+									<p>2ИЗНОС ЗА ИСПЛАТУ8</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac4">
+									<num>4.</num>
+									<intro>
+										<p>3ПОСТУПАК ИСПЛАТЕ9</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac4">
+										<num>4.</num>
+										<intro>
+											<p>4ПЕРИОД ИСПЛАТЕ10</p>
+										</intro>
+										<point wId="od1-clan2-stav69-tac4">
+											<num>4.</num>
+											<intro>
+												<p>5УСЛОВИ ЗА ИСПЛАТУ10</p>
+											</intro>
+											<point wId="od1-clan2-stav69-tac4">
+												<num>4.</num>
+												<intro>
+													<p>6ОТПЛАТА10</p>
+												</intro>
+												<point wId="od1-clan2-stav69-tac4">
+													<num>4.</num>
+													<intro>
+														<p>7НАКНАДАЗА ПРЕВРЕМЕНУ ОТПЛАТУ10</p>
+													</intro>
+													<point wId="od1-clan2-stav69-tac4">
+														<num>4.</num>
+														<intro>
+															<p>8ОДРЕЂИВАЊЕ КАМАТЕ11</p>
+														</intro>
+														<point wId="od1-clan2-stav69-tac4">
+															<num>4.</num>
+															<intro>
+																<p>9СТОПА ЗАТЕЗНЕ КАМАТЕ11</p>
+															</intro>
+															<point wId="od1-clan2-stav69-tac4">
+																<num>4.</num>
+																<intro>
+																	<p>10ДОГАЂАЈ ПОРЕМЕЋАЈА НА ТРЖИШТУ11</p>
+																</intro>
+																<point wId="od1-clan2-stav69-tac4">
+																	<num>4.</num>
+																	<content>
+																		<p>11ИСПЛАТЕ13</p>
+																	</content>
+																</point>
+															</point>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac5">
+						<num>5.</num>
+						<intro>
+							<p>СПРОВОЂЕЊЕ ПРОЈЕКТА13</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac5">
+							<num>5.</num>
+							<intro>
+								<p>1ОБАВЕЗНА БРИГА 13</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac5">
+								<num>5.</num>
+								<intro>
+									<p>2ПЕРИОД АЛОКАЦИЈЕ13</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac5">
+									<num>5.</num>
+									<intro>
+										<p>3ТРОШКОВИ ПРОЈЕКТА13</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac5">
+										<num>5.</num>
+										<intro>
+											<p>4ПОСЕБНЕ ОБАВЕЗЕ ПО ПРОЈЕКТУ14</p>
+										</intro>
+										<point wId="od1-clan2-stav69-tac5">
+											<num>5.</num>
+											<intro>
+												<p>5НАБАВКА14</p>
+											</intro>
+											<point wId="od1-clan2-stav69-tac5">
+												<num>5.</num>
+												<intro>
+													<p>6МЕРЕ ЗАШТИТЕ У ОБЛАСТИ ЖИВОТНЕ СРЕДИНЕ И СОЦИЈАЛНЕ МЕРЕ ЗАШТИТЕ14</p>
+												</intro>
+												<point wId="od1-clan2-stav69-tac5">
+													<num>5.</num>
+													<intro>
+														<p>7ЉУДСКА ПРАВА14</p>
+													</intro>
+													<point wId="od1-clan2-stav69-tac5">
+														<num>5.</num>
+														<intro>
+															<p>8ИНТЕГРИТЕТ14</p>
+														</intro>
+														<point wId="od1-clan2-stav69-tac5">
+															<num>5.</num>
+															<content>
+																<p>9ТРАНСПАРЕНТНОСТ15</p>
+															</content>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac6">
+						<num>6.</num>
+						<intro>
+							<p>ПРАЋЕЊЕ15</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac6">
+							<num>6.</num>
+							<intro>
+								<p>1ИЗВЕШТАВАЊЕ…15</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac6">
+								<num>6.</num>
+								<intro>
+									<p>2ПОСЕТЕ16</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac6">
+									<num>6.</num>
+									<intro>
+										<p>3РЕВИЗИЈА16</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac6">
+										<num>6.</num>
+										<intro>
+											<p>4ИНФОРМАЦИЈЕ О ПРОЈЕКТУ16</p>
+										</intro>
+										<point wId="od1-clan2-stav69-tac6">
+											<num>6.</num>
+											<content>
+												<p>5ПОДАЦИ О ЗАЈМОПРИМЦУ16</p>
+											</content>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac7">
+						<num>7.</num>
+						<intro>
+							<p>PARI PASSU17</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac7">
+							<num>7.</num>
+							<intro>
+								<p>1РАНГИРАЊЕ17</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac7">
+								<num>7.</num>
+								<intro>
+									<p>2СРЕДСТВО ОБЕЗБЕЂЕЊА17</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac7">
+									<num>7.</num>
+									<intro>
+										<p>3КЛУЗУЛА КОЈА СЕ НАКНАДНО УНОСИ18</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac7">
+										<num>7.</num>
+										<content>
+											<p>4ПРЕВРЕМЕНА ОТПЛАТА ТРЕЋИМ ЛИЦИМА18</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac8">
+						<num>8.</num>
+						<content>
+							<p>ИЗЈАВЕ И ГАРАНЦИЈЕ18</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac9">
+						<num>9.</num>
+						<content>
+							<p>ТРЕЋА ЛИЦА19</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac10">
+						<num>10.</num>
+						<content>
+							<p>НЕОДРИЦАЊЕ19</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac11">
+						<num>11.</num>
+						<content>
+							<p>УСТУПАЊЕ19</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac12">
+						<num>12.</num>
+						<content>
+							<p>МЕРОДАВНО ПРАВО19</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac13">
+						<num>13.</num>
+						<content>
+							<p>СПОРОВИ19</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac14">
+						<num>14.</num>
+						<content>
+							<p>ОБАВЕШТЕЊА20</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac15">
+						<num>15.</num>
+						<content>
+							<p>ПОРЕЗИ И РАСХОДИ20</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac16">
+						<num>16.</num>
+						<content>
+							<p>ИСПЛАЋИВАЊЕ21</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac17">
+						<num>17.</num>
+						<content>
+							<p>СТУПАЊЕ НА СНАГУ21</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac1">
+						<num>1.</num>
+						<intro>
+							<p> ТУМАЧЕЊЕ</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac1">
+							<num>1.</num>
+							<intro>
+								<p>1 Дефиниције</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac1">
+								<num>1.</num>
+								<intro>
+									<p>2 Структура</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac1">
+									<num>1.</num>
+									<intro>
+										<p>3 Наслови</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac1">
+										<num>1.</num>
+										<content>
+											<p>4 Заокруживање</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac2">
+						<num>2.</num>
+						<content>
+							<p> УСЛОВИ</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac3">
+						<num>3.</num>
+						<content>
+							<p> СВРХА</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac4">
+						<num>4.</num>
+						<intro>
+							<p> ФИНАНСИЈСКИ УСЛОВИ</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac4">
+							<num>4.</num>
+							<intro>
+								<p>1 Износ Зајма</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac4">
+								<num>4.</num>
+								<intro>
+									<p>2 Износ за исплату</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac4">
+									<num>4.</num>
+									<intro>
+										<p>3 Поступак исплате</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac4">
+										<num>4.</num>
+										<intro>
+											<p>4 Период исплате</p>
+										</intro>
+										<point wId="od1-clan2-stav69-tac4">
+											<num>4.</num>
+											<intro>
+												<p>5 Услови за исплату</p>
+											</intro>
+											<point wId="od1-clan2-stav69-tac4">
+												<num>4.</num>
+												<intro>
+													<p>6 Отплата</p>
+												</intro>
+												<point wId="od1-clan2-stav69-tac4">
+													<num>4.</num>
+													<intro>
+														<p>7 Превремена отплата</p>
+													</intro>
+													<point wId="od1-clan2-stav69-tac4">
+														<num>4.</num>
+														<intro>
+															<p>8 Одређивање камате</p>
+														</intro>
+														<point wId="od1-clan2-stav69-tac4">
+															<num>4.</num>
+															<intro>
+																<p>9 Стопа затезне камате</p>
+															</intro>
+															<point wId="od1-clan2-stav69-tac4">
+																<num>4.</num>
+																<intro>
+																	<p>10 Догађај поремећаја на тржишту</p>
+																</intro>
+																<point wId="od1-clan2-stav69-tac4">
+																	<num>4.</num>
+																	<content>
+																		<p>11 Исплате</p>
+																	</content>
+																</point>
+															</point>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac5">
+						<num>5.</num>
+						<intro>
+							<p> СПРОВОЂЕЊЕ ПРОЈЕКТА</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac5">
+							<num>5.</num>
+							<intro>
+								<p>1 Обавезна брига</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac5">
+								<num>5.</num>
+								<intro>
+									<p>2 Период алокације</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac5">
+									<num>5.</num>
+									<intro>
+										<p>3 Трошкови пројекта</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac5">
+										<num>5.</num>
+										<intro>
+											<p>4 Посебне обавезе по Пројекту</p>
+										</intro>
+										<point wId="od1-clan2-stav69-tac5">
+											<num>5.</num>
+											<intro>
+												<p>5 Набавка</p>
+											</intro>
+											<point wId="od1-clan2-stav69-tac5">
+												<num>5.</num>
+												<intro>
+													<p>6 Мере заштите у области животне средине и социјалне мере заштите</p>
+												</intro>
+												<point wId="od1-clan2-stav69-tac5">
+													<num>5.</num>
+													<intro>
+														<p>7 Људска права</p>
+													</intro>
+													<point wId="od1-clan2-stav69-tac5">
+														<num>5.</num>
+														<intro>
+															<p>8 Интегритет</p>
+														</intro>
+														<point wId="od1-clan2-stav69-tac5">
+															<num>5.</num>
+															<content>
+																<p>9 Транспарентност</p>
+															</content>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac6">
+						<num>6.</num>
+						<intro>
+							<p> ПРАЋЕЊЕ</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac6">
+							<num>6.</num>
+							<intro>
+								<p>1 Извештавање</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac6">
+								<num>6.</num>
+								<intro>
+									<p>2 Посете</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac6">
+									<num>6.</num>
+									<intro>
+										<p>3 Ревизија</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac6">
+										<num>6.</num>
+										<intro>
+											<p>4 Информације о пројекту</p>
+										</intro>
+										<point wId="od1-clan2-stav69-tac6">
+											<num>6.</num>
+											<content>
+												<p>5 Подаци о Зајмопримцу</p>
+											</content>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac7">
+						<num>7.</num>
+						<intro>
+							<p> PARI PASSU</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac7">
+							<num>7.</num>
+							<intro>
+								<p>1 Рангирање</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac7">
+								<num>7.</num>
+								<intro>
+									<p>2 Средство обезбеђења</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac7">
+									<num>7.</num>
+									<intro>
+										<p>3 Клаузула која се накнадно уноси</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac7">
+										<num>7.</num>
+										<content>
+											<p>4 Превремена отплата трећим лицима</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac8">
+						<num>8.</num>
+						<content>
+							<p> ИЗЈАВЕ И ГАРАНЦИЈЕ</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac9">
+						<num>9.</num>
+						<content>
+							<p> ТРЕЋА ЛИЦА</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac10">
+						<num>10.</num>
+						<content>
+							<p> ОДРИЦАЊЕ</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac11">
+						<num>11.</num>
+						<content>
+							<p> УСТУПАЊЕ</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac12">
+						<num>12.</num>
+						<content>
+							<p> МЕРОДАВНО ПРАВО</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac13">
+						<num>13.</num>
+						<content>
+							<p> СПОРОВИ</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac14">
+						<num>14.</num>
+						<content>
+							<p> ОБАВЕШТЕЊА</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac15">
+						<num>15.</num>
+						<content>
+							<p> ПОРЕЗИ И РАСХОДИ</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac16">
+						<num>16.</num>
+						<content>
+							<p> ИСПЛАЋИВАЊЕ</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac17">
+						<num>17.</num>
+						<content>
+							<p> СТУПАЊЕ НА СНАГУ</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac1">
+						<num>1.</num>
+						<intro>
+							<p>INTERPRETATION6</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac1">
+							<num>1.</num>
+							<intro>
+								<p>1Definitions6</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac1">
+								<num>1.</num>
+								<intro>
+									<p>2Construction8</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac1">
+									<num>1.</num>
+									<intro>
+										<p>3Headings8</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac1">
+										<num>1.</num>
+										<content>
+											<p>4Rounding8</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac2">
+						<num>2.</num>
+						<content>
+							<p>CONDITIONS9</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac3">
+						<num>3.</num>
+						<content>
+							<p>PURPOSE9</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac4">
+						<num>4.</num>
+						<intro>
+							<p>FINANCIAL CONDITIONS9</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac4">
+							<num>4.</num>
+							<intro>
+								<p>1Loan Amount9</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac4">
+								<num>4.</num>
+								<intro>
+									<p>2Disbursement Amount9</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac4">
+									<num>4.</num>
+									<intro>
+										<p>3Disbursement Procedure9</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac4">
+										<num>4.</num>
+										<intro>
+											<p>4Disbursement Period10</p>
+										</intro>
+										<point wId="od1-clan2-stav69-tac4">
+											<num>4.</num>
+											<intro>
+												<p>5Disbursement Conditions11</p>
+											</intro>
+											<point wId="od1-clan2-stav69-tac4">
+												<num>4.</num>
+												<intro>
+													<p>6Repayment11</p>
+												</intro>
+												<point wId="od1-clan2-stav69-tac4">
+													<num>4.</num>
+													<intro>
+														<p>7Early Reimbursement11</p>
+													</intro>
+													<point wId="od1-clan2-stav69-tac4">
+														<num>4.</num>
+														<intro>
+															<p>8Interest Determination12</p>
+														</intro>
+														<point wId="od1-clan2-stav69-tac4">
+															<num>4.</num>
+															<intro>
+																<p>9Default Interest Rate12</p>
+															</intro>
+															<point wId="od1-clan2-stav69-tac4">
+																<num>4.</num>
+																<intro>
+																	<p>10Market Disruption Event12</p>
+																</intro>
+																<point wId="od1-clan2-stav69-tac4">
+																	<num>4.</num>
+																	<content>
+																		<p>11Payments13</p>
+																	</content>
+																</point>
+															</point>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac5">
+						<num>5.</num>
+						<intro>
+							<p>PROJECT IMPLEMENTATION14</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac5">
+							<num>5.</num>
+							<intro>
+								<p>1Duty of Care14</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac5">
+								<num>5.</num>
+								<intro>
+									<p>2Allocation Period14</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac5">
+									<num>5.</num>
+									<intro>
+										<p>3Project Costs14</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac5">
+										<num>5.</num>
+										<intro>
+											<p>4Project Specific Undertakings14</p>
+										</intro>
+										<point wId="od1-clan2-stav69-tac5">
+											<num>5.</num>
+											<intro>
+												<p>5Procurement15</p>
+											</intro>
+											<point wId="od1-clan2-stav69-tac5">
+												<num>5.</num>
+												<intro>
+													<p>6Environmental and Social Safeguards15</p>
+												</intro>
+												<point wId="od1-clan2-stav69-tac5">
+													<num>5.</num>
+													<intro>
+														<p>7Human Rights15</p>
+													</intro>
+													<point wId="od1-clan2-stav69-tac5">
+														<num>5.</num>
+														<intro>
+															<p>8Integrity15</p>
+														</intro>
+														<point wId="od1-clan2-stav69-tac5">
+															<num>5.</num>
+															<content>
+																<p>9Visibility16</p>
+															</content>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac6">
+						<num>6.</num>
+						<intro>
+							<p>MONITORING16</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac6">
+							<num>6.</num>
+							<intro>
+								<p>1Reporting16</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac6">
+								<num>6.</num>
+								<intro>
+									<p>2Visits16</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac6">
+									<num>6.</num>
+									<intro>
+										<p>3Audit16</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac6">
+										<num>6.</num>
+										<intro>
+											<p>4Project Information16</p>
+										</intro>
+										<point wId="od1-clan2-stav69-tac6">
+											<num>6.</num>
+											<content>
+												<p>5Borrower Information17</p>
+											</content>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac7">
+						<num>7.</num>
+						<intro>
+							<p>PARI PASSU17</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac7">
+							<num>7.</num>
+							<intro>
+								<p>1Ranking17</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac7">
+								<num>7.</num>
+								<intro>
+									<p>2Security18</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac7">
+									<num>7.</num>
+									<intro>
+										<p>3Clause by Inclusion18</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac7">
+										<num>7.</num>
+										<content>
+											<p>4Prepayment to Third Parties18</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac8">
+						<num>8.</num>
+						<content>
+							<p>REPRESENTATIONS AND WARRANTIES18</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac9">
+						<num>9.</num>
+						<content>
+							<p>THIRD PARTIES19</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac10">
+						<num>10.</num>
+						<content>
+							<p>NON-WAIVER19</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac11">
+						<num>11.</num>
+						<content>
+							<p>ASSIGNMENT19</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac12">
+						<num>12.</num>
+						<content>
+							<p>GOVERNING LAW19</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac13">
+						<num>13.</num>
+						<content>
+							<p>DISPUTES20</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac14">
+						<num>14.</num>
+						<content>
+							<p>NOTICES20</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac15">
+						<num>15.</num>
+						<content>
+							<p>TAXES AND EXPENSES20</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac16">
+						<num>16.</num>
+						<content>
+							<p>DISCHARGE21</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac17">
+						<num>17.</num>
+						<content>
+							<p>ENTRY INTO FORCE21</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac1">
+						<num>1.</num>
+						<intro>
+							<p> INTERPRETATION</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac1">
+							<num>1.</num>
+							<intro>
+								<p>1 Definitions</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac1">
+								<num>1.</num>
+								<intro>
+									<p>2 Construction</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac1">
+									<num>1.</num>
+									<intro>
+										<p>3 Headings</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac1">
+										<num>1.</num>
+										<content>
+											<p>4 Rounding</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac2">
+						<num>2.</num>
+						<content>
+							<p> CONDITIONS</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac3">
+						<num>3.</num>
+						<content>
+							<p> PURPOSE</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac4">
+						<num>4.</num>
+						<intro>
+							<p> FINANCIAL CONDITIONS</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac4">
+							<num>4.</num>
+							<intro>
+								<p>1 Loan Amount</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac4">
+								<num>4.</num>
+								<intro>
+									<p>2 Disbursement Amount</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac4">
+									<num>4.</num>
+									<intro>
+										<p>3 Disbursement Procedure</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac4">
+										<num>4.</num>
+										<intro>
+											<p>4 Disbursement Period</p>
+										</intro>
+										<point wId="od1-clan2-stav69-tac4">
+											<num>4.</num>
+											<intro>
+												<p>5 Disbursement Conditions</p>
+											</intro>
+											<point wId="od1-clan2-stav69-tac4">
+												<num>4.</num>
+												<intro>
+													<p>6 Repayment</p>
+												</intro>
+												<point wId="od1-clan2-stav69-tac4">
+													<num>4.</num>
+													<intro>
+														<p>7 Early Reimbursement</p>
+													</intro>
+													<point wId="od1-clan2-stav69-tac4">
+														<num>4.</num>
+														<intro>
+															<p>8 Interest Determination</p>
+														</intro>
+														<point wId="od1-clan2-stav69-tac4">
+															<num>4.</num>
+															<intro>
+																<p>9 Default Interest Rate</p>
+															</intro>
+															<point wId="od1-clan2-stav69-tac4">
+																<num>4.</num>
+																<intro>
+																	<p>10 Market Disruption Event</p>
+																</intro>
+																<point wId="od1-clan2-stav69-tac4">
+																	<num>4.</num>
+																	<content>
+																		<p>11 Payments</p>
+																	</content>
+																</point>
+															</point>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac5">
+						<num>5.</num>
+						<intro>
+							<p> PROJECT IMPLEMENTATION</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac5">
+							<num>5.</num>
+							<intro>
+								<p>1 Duty of Care</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac5">
+								<num>5.</num>
+								<intro>
+									<p>2 Allocation Period</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac5">
+									<num>5.</num>
+									<intro>
+										<p>3 Project Costs</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac5">
+										<num>5.</num>
+										<intro>
+											<p>4 Project Specific Undertakings</p>
+										</intro>
+										<point wId="od1-clan2-stav69-tac5">
+											<num>5.</num>
+											<intro>
+												<p>5 Procurement</p>
+											</intro>
+											<point wId="od1-clan2-stav69-tac5">
+												<num>5.</num>
+												<intro>
+													<p>6 Environmental and Social Safeguards</p>
+												</intro>
+												<point wId="od1-clan2-stav69-tac5">
+													<num>5.</num>
+													<intro>
+														<p>7 Human Rights</p>
+													</intro>
+													<point wId="od1-clan2-stav69-tac5">
+														<num>5.</num>
+														<intro>
+															<p>8 Integrity</p>
+														</intro>
+														<point wId="od1-clan2-stav69-tac5">
+															<num>5.</num>
+															<content>
+																<p>9 Visibility</p>
+															</content>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac6">
+						<num>6.</num>
+						<intro>
+							<p> MONITORING</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac6">
+							<num>6.</num>
+							<intro>
+								<p>1 Reporting</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac6">
+								<num>6.</num>
+								<intro>
+									<p>2 Visits</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac6">
+									<num>6.</num>
+									<intro>
+										<p>3 Audit</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac6">
+										<num>6.</num>
+										<intro>
+											<p>4 Project Information</p>
+										</intro>
+										<point wId="od1-clan2-stav69-tac6">
+											<num>6.</num>
+											<content>
+												<p>5 Borrower Information</p>
+											</content>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac7">
+						<num>7.</num>
+						<intro>
+							<p> PARI PASSU</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac7">
+							<num>7.</num>
+							<intro>
+								<p>1 Ranking</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac7">
+								<num>7.</num>
+								<intro>
+									<p>2 Security</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac7">
+									<num>7.</num>
+									<intro>
+										<p>3 Clause by Inclusion</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac7">
+										<num>7.</num>
+										<content>
+											<p>4 Prepayment to Third Parties</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac8">
+						<num>8.</num>
+						<content>
+							<p> REPRESENTATIONS AND WARRANTIES</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac9">
+						<num>9.</num>
+						<content>
+							<p> THIRD PARTIES</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac10">
+						<num>10.</num>
+						<content>
+							<p> NON-WAIVER</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac11">
+						<num>11.</num>
+						<content>
+							<p> ASSIGNMENT</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac12">
+						<num>12.</num>
+						<content>
+							<p> GOVERNING LAW</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac13">
+						<num>13.</num>
+						<content>
+							<p> DISPUTES</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac14">
+						<num>14.</num>
+						<content>
+							<p> NOTICES</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac15">
+						<num>15.</num>
+						<content>
+							<p> TAXES AND EXPENSES</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac16">
+						<num>16.</num>
+						<content>
+							<p> DISCHARGE</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac17">
+						<num>17.</num>
+						<content>
+							<p> ENTRY INTO FORCE</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac1">
+						<num>1.</num>
+						<intro>
+							<p>ТУМАЧЕЊЕ5</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac1">
+							<num>1.</num>
+							<intro>
+								<p>1ДЕФИНИЦИЈЕ5</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac1">
+								<num>1.</num>
+								<intro>
+									<p>2ТУМАЧЕЊЕ7</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac1">
+									<num>1.</num>
+									<intro>
+										<p>3НАСЛОВИ7</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac1">
+										<num>1.</num>
+										<content>
+											<p>4ЗАОКРУЖИВАЊЕ8</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac2">
+						<num>2.</num>
+						<content>
+							<p>УСЛОВИ8</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac3">
+						<num>3.</num>
+						<content>
+							<p>СВРХА8</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac4">
+						<num>4.</num>
+						<intro>
+							<p>ФИНАНСИЈСКИ УСЛОВИ8</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac4">
+							<num>4.</num>
+							<intro>
+								<p>1ИЗНОС ЗАЈМА8</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac4">
+								<num>4.</num>
+								<intro>
+									<p>2ИЗНОС ЗА ИСПЛАТУ8</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac4">
+									<num>4.</num>
+									<intro>
+										<p>3ПОСТУПАК ИСПЛАТЕ9</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac4">
+										<num>4.</num>
+										<intro>
+											<p>4ПЕРИОД ИСПЛАТЕ10</p>
+										</intro>
+										<point wId="od1-clan2-stav69-tac4">
+											<num>4.</num>
+											<intro>
+												<p>5УСЛОВИ ЗА ИСПЛАТУ10</p>
+											</intro>
+											<point wId="od1-clan2-stav69-tac4">
+												<num>4.</num>
+												<intro>
+													<p>6ОТПЛАТА10</p>
+												</intro>
+												<point wId="od1-clan2-stav69-tac4">
+													<num>4.</num>
+													<intro>
+														<p>7НАКНАДАЗА ПРЕВРЕМЕНУ ОТПЛАТУ10</p>
+													</intro>
+													<point wId="od1-clan2-stav69-tac4">
+														<num>4.</num>
+														<intro>
+															<p>8ОДРЕЂИВАЊЕ КАМАТЕ11</p>
+														</intro>
+														<point wId="od1-clan2-stav69-tac4">
+															<num>4.</num>
+															<intro>
+																<p>9СТОПА ЗАТЕЗНЕ КАМАТЕ11</p>
+															</intro>
+															<point wId="od1-clan2-stav69-tac4">
+																<num>4.</num>
+																<intro>
+																	<p>10ДОГАЂАЈ ПОРЕМЕЋАЈА НА ТРЖИШТУ11</p>
+																</intro>
+																<point wId="od1-clan2-stav69-tac4">
+																	<num>4.</num>
+																	<content>
+																		<p>11ИСПЛАТЕ13</p>
+																	</content>
+																</point>
+															</point>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac5">
+						<num>5.</num>
+						<intro>
+							<p>СПРОВОЂЕЊЕ ПРОЈЕКТА13</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac5">
+							<num>5.</num>
+							<intro>
+								<p>1ОБАВЕЗНА БРИГА 13</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac5">
+								<num>5.</num>
+								<intro>
+									<p>2ПЕРИОД АЛОКАЦИЈЕ13</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac5">
+									<num>5.</num>
+									<intro>
+										<p>3ТРОШКОВИ ПРОЈЕКТА13</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac5">
+										<num>5.</num>
+										<intro>
+											<p>4ПОСЕБНЕ ОБАВЕЗЕ ПО ПРОЈЕКТУ14</p>
+										</intro>
+										<point wId="od1-clan2-stav69-tac5">
+											<num>5.</num>
+											<intro>
+												<p>5НАБАВКА14</p>
+											</intro>
+											<point wId="od1-clan2-stav69-tac5">
+												<num>5.</num>
+												<intro>
+													<p>6МЕРЕ ЗАШТИТЕ У ОБЛАСТИ ЖИВОТНЕ СРЕДИНЕ И СОЦИЈАЛНЕ МЕРЕ ЗАШТИТЕ14</p>
+												</intro>
+												<point wId="od1-clan2-stav69-tac5">
+													<num>5.</num>
+													<intro>
+														<p>7ЉУДСКА ПРАВА14</p>
+													</intro>
+													<point wId="od1-clan2-stav69-tac5">
+														<num>5.</num>
+														<intro>
+															<p>8ИНТЕГРИТЕТ14</p>
+														</intro>
+														<point wId="od1-clan2-stav69-tac5">
+															<num>5.</num>
+															<content>
+																<p>9ТРАНСПАРЕНТНОСТ15</p>
+															</content>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac6">
+						<num>6.</num>
+						<intro>
+							<p>ПРАЋЕЊЕ15</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac6">
+							<num>6.</num>
+							<intro>
+								<p>1ИЗВЕШТАВАЊЕ…15</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac6">
+								<num>6.</num>
+								<intro>
+									<p>2ПОСЕТЕ16</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac6">
+									<num>6.</num>
+									<intro>
+										<p>3РЕВИЗИЈА16</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac6">
+										<num>6.</num>
+										<intro>
+											<p>4ИНФОРМАЦИЈЕ О ПРОЈЕКТУ16</p>
+										</intro>
+										<point wId="od1-clan2-stav69-tac6">
+											<num>6.</num>
+											<content>
+												<p>5ПОДАЦИ О ЗАЈМОПРИМЦУ16</p>
+											</content>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac7">
+						<num>7.</num>
+						<intro>
+							<p>PARI PASSU17</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac7">
+							<num>7.</num>
+							<intro>
+								<p>1РАНГИРАЊЕ17</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac7">
+								<num>7.</num>
+								<intro>
+									<p>2СРЕДСТВО ОБЕЗБЕЂЕЊА17</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac7">
+									<num>7.</num>
+									<intro>
+										<p>3КЛУЗУЛА КОЈА СЕ НАКНАДНО УНОСИ18</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac7">
+										<num>7.</num>
+										<content>
+											<p>4ПРЕВРЕМЕНА ОТПЛАТА ТРЕЋИМ ЛИЦИМА18</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac8">
+						<num>8.</num>
+						<content>
+							<p>ИЗЈАВЕ И ГАРАНЦИЈЕ18</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac9">
+						<num>9.</num>
+						<content>
+							<p>ТРЕЋА ЛИЦА19</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac10">
+						<num>10.</num>
+						<content>
+							<p>НЕОДРИЦАЊЕ19</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac11">
+						<num>11.</num>
+						<content>
+							<p>УСТУПАЊЕ19</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac12">
+						<num>12.</num>
+						<content>
+							<p>МЕРОДАВНО ПРАВО19</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac13">
+						<num>13.</num>
+						<content>
+							<p>СПОРОВИ19</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac14">
+						<num>14.</num>
+						<content>
+							<p>ОБАВЕШТЕЊА20</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac15">
+						<num>15.</num>
+						<content>
+							<p>ПОРЕЗИ И РАСХОДИ20</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac16">
+						<num>16.</num>
+						<content>
+							<p>ИСПЛАЋИВАЊЕ21</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac17">
+						<num>17.</num>
+						<content>
+							<p>СТУПАЊЕ НА СНАГУ21</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac1">
+						<num>1.</num>
+						<intro>
+							<p> ТУМАЧЕЊЕ</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac1">
+							<num>1.</num>
+							<intro>
+								<p>1 Дефиниције</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac1">
+								<num>1.</num>
+								<intro>
+									<p>2 Структура</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac1">
+									<num>1.</num>
+									<intro>
+										<p>3 Наслови</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac1">
+										<num>1.</num>
+										<content>
+											<p>4 Заокруживање</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac2">
+						<num>2.</num>
+						<content>
+							<p> УСЛОВИ</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac3">
+						<num>3.</num>
+						<content>
+							<p> СВРХА</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac4">
+						<num>4.</num>
+						<intro>
+							<p> ФИНАНСИЈСКИ УСЛОВИ</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac4">
+							<num>4.</num>
+							<intro>
+								<p>1 Износ Зајма</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac4">
+								<num>4.</num>
+								<intro>
+									<p>2 Износ за исплату</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac4">
+									<num>4.</num>
+									<intro>
+										<p>3 Поступак исплате</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac4">
+										<num>4.</num>
+										<intro>
+											<p>4 Период исплате</p>
+										</intro>
+										<point wId="od1-clan2-stav69-tac4">
+											<num>4.</num>
+											<intro>
+												<p>5 Услови за исплату</p>
+											</intro>
+											<point wId="od1-clan2-stav69-tac4">
+												<num>4.</num>
+												<intro>
+													<p>6 Отплата</p>
+												</intro>
+												<point wId="od1-clan2-stav69-tac4">
+													<num>4.</num>
+													<intro>
+														<p>7 Превремена отплата</p>
+													</intro>
+													<point wId="od1-clan2-stav69-tac4">
+														<num>4.</num>
+														<intro>
+															<p>8 Одређивање камате</p>
+														</intro>
+														<point wId="od1-clan2-stav69-tac4">
+															<num>4.</num>
+															<intro>
+																<p>9 Стопа затезне камате</p>
+															</intro>
+															<point wId="od1-clan2-stav69-tac4">
+																<num>4.</num>
+																<intro>
+																	<p>10 Догађај поремећаја на тржишту</p>
+																</intro>
+																<point wId="od1-clan2-stav69-tac4">
+																	<num>4.</num>
+																	<content>
+																		<p>11 Исплате</p>
+																	</content>
+																</point>
+															</point>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac5">
+						<num>5.</num>
+						<intro>
+							<p> СПРОВОЂЕЊЕ ПРОЈЕКТА</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac5">
+							<num>5.</num>
+							<intro>
+								<p>1 Обавезна брига</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac5">
+								<num>5.</num>
+								<intro>
+									<p>2 Период алокације</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac5">
+									<num>5.</num>
+									<intro>
+										<p>3 Трошкови пројекта</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac5">
+										<num>5.</num>
+										<intro>
+											<p>4 Посебне обавезе по Пројекту</p>
+										</intro>
+										<point wId="od1-clan2-stav69-tac5">
+											<num>5.</num>
+											<intro>
+												<p>5 Набавка</p>
+											</intro>
+											<point wId="od1-clan2-stav69-tac5">
+												<num>5.</num>
+												<intro>
+													<p>6 Мере заштите у области животне средине и социјалне мере заштите</p>
+												</intro>
+												<point wId="od1-clan2-stav69-tac5">
+													<num>5.</num>
+													<intro>
+														<p>7 Људска права</p>
+													</intro>
+													<point wId="od1-clan2-stav69-tac5">
+														<num>5.</num>
+														<intro>
+															<p>8 Интегритет</p>
+														</intro>
+														<point wId="od1-clan2-stav69-tac5">
+															<num>5.</num>
+															<content>
+																<p>9 Транспарентност</p>
+															</content>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac6">
+						<num>6.</num>
+						<intro>
+							<p> ПРАЋЕЊЕ</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac6">
+							<num>6.</num>
+							<intro>
+								<p>1 Извештавање</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac6">
+								<num>6.</num>
+								<intro>
+									<p>2 Посете</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac6">
+									<num>6.</num>
+									<intro>
+										<p>3 Ревизија</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac6">
+										<num>6.</num>
+										<intro>
+											<p>4 Информације о пројекту</p>
+										</intro>
+										<point wId="od1-clan2-stav69-tac6">
+											<num>6.</num>
+											<content>
+												<p>5 Подаци о Зајмопримцу</p>
+											</content>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac7">
+						<num>7.</num>
+						<intro>
+							<p> PARI PASSU</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac7">
+							<num>7.</num>
+							<intro>
+								<p>1 Рангирање</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac7">
+								<num>7.</num>
+								<intro>
+									<p>2 Средство обезбеђења</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac7">
+									<num>7.</num>
+									<intro>
+										<p>3 Клаузула која се накнадно уноси</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac7">
+										<num>7.</num>
+										<content>
+											<p>4 Превремена отплата трећим лицима</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac8">
+						<num>8.</num>
+						<content>
+							<p> ИЗЈАВЕ И ГАРАНЦИЈЕ</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac9">
+						<num>9.</num>
+						<content>
+							<p> ТРЕЋА ЛИЦА</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac10">
+						<num>10.</num>
+						<content>
+							<p> ОДРИЦАЊЕ</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac11">
+						<num>11.</num>
+						<content>
+							<p> УСТУПАЊЕ</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac12">
+						<num>12.</num>
+						<content>
+							<p> МЕРОДАВНО ПРАВО</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac13">
+						<num>13.</num>
+						<content>
+							<p> СПОРОВИ</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac14">
+						<num>14.</num>
+						<content>
+							<p> ОБАВЕШТЕЊА</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac15">
+						<num>15.</num>
+						<content>
+							<p> ПОРЕЗИ И РАСХОДИ</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac16">
+						<num>16.</num>
+						<content>
+							<p> ИСПЛАЋИВАЊЕ</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac17">
+						<num>17.</num>
+						<content>
+							<p> СТУПАЊЕ НА СНАГУ</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac1">
+						<num>1.</num>
+						<intro>
+							<p>INTERPRETATION6</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac1">
+							<num>1.</num>
+							<intro>
+								<p>1Definitions6</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac1">
+								<num>1.</num>
+								<intro>
+									<p>2Construction8</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac1">
+									<num>1.</num>
+									<intro>
+										<p>3Headings8</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac1">
+										<num>1.</num>
+										<content>
+											<p>4Rounding8</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac2">
+						<num>2.</num>
+						<content>
+							<p>CONDITIONS9</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac3">
+						<num>3.</num>
+						<content>
+							<p>PURPOSE9</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac4">
+						<num>4.</num>
+						<intro>
+							<p>FINANCIAL CONDITIONS9</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac4">
+							<num>4.</num>
+							<intro>
+								<p>1Loan Amount9</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac4">
+								<num>4.</num>
+								<intro>
+									<p>2Disbursement Amount9</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac4">
+									<num>4.</num>
+									<intro>
+										<p>3Disbursement Procedure9</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac4">
+										<num>4.</num>
+										<intro>
+											<p>4Disbursement Period10</p>
+										</intro>
+										<point wId="od1-clan2-stav69-tac4">
+											<num>4.</num>
+											<intro>
+												<p>5Disbursement Conditions11</p>
+											</intro>
+											<point wId="od1-clan2-stav69-tac4">
+												<num>4.</num>
+												<intro>
+													<p>6Repayment11</p>
+												</intro>
+												<point wId="od1-clan2-stav69-tac4">
+													<num>4.</num>
+													<intro>
+														<p>7Early Reimbursement11</p>
+													</intro>
+													<point wId="od1-clan2-stav69-tac4">
+														<num>4.</num>
+														<intro>
+															<p>8Interest Determination12</p>
+														</intro>
+														<point wId="od1-clan2-stav69-tac4">
+															<num>4.</num>
+															<intro>
+																<p>9Default Interest Rate12</p>
+															</intro>
+															<point wId="od1-clan2-stav69-tac4">
+																<num>4.</num>
+																<intro>
+																	<p>10Market Disruption Event12</p>
+																</intro>
+																<point wId="od1-clan2-stav69-tac4">
+																	<num>4.</num>
+																	<content>
+																		<p>11Payments13</p>
+																	</content>
+																</point>
+															</point>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac5">
+						<num>5.</num>
+						<intro>
+							<p>PROJECT IMPLEMENTATION14</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac5">
+							<num>5.</num>
+							<intro>
+								<p>1Duty of Care14</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac5">
+								<num>5.</num>
+								<intro>
+									<p>2Allocation Period14</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac5">
+									<num>5.</num>
+									<intro>
+										<p>3Project Costs14</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac5">
+										<num>5.</num>
+										<intro>
+											<p>4Project Specific Undertakings14</p>
+										</intro>
+										<point wId="od1-clan2-stav69-tac5">
+											<num>5.</num>
+											<intro>
+												<p>5Procurement15</p>
+											</intro>
+											<point wId="od1-clan2-stav69-tac5">
+												<num>5.</num>
+												<intro>
+													<p>6Environmental and Social Safeguards15</p>
+												</intro>
+												<point wId="od1-clan2-stav69-tac5">
+													<num>5.</num>
+													<intro>
+														<p>7Human Rights15</p>
+													</intro>
+													<point wId="od1-clan2-stav69-tac5">
+														<num>5.</num>
+														<intro>
+															<p>8Integrity15</p>
+														</intro>
+														<point wId="od1-clan2-stav69-tac5">
+															<num>5.</num>
+															<content>
+																<p>9Visibility16</p>
+															</content>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac6">
+						<num>6.</num>
+						<intro>
+							<p>MONITORING16</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac6">
+							<num>6.</num>
+							<intro>
+								<p>1Reporting16</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac6">
+								<num>6.</num>
+								<intro>
+									<p>2Visits16</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac6">
+									<num>6.</num>
+									<intro>
+										<p>3Audit16</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac6">
+										<num>6.</num>
+										<intro>
+											<p>4Project Information16</p>
+										</intro>
+										<point wId="od1-clan2-stav69-tac6">
+											<num>6.</num>
+											<content>
+												<p>5Borrower Information17</p>
+											</content>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac7">
+						<num>7.</num>
+						<intro>
+							<p>PARI PASSU17</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac7">
+							<num>7.</num>
+							<intro>
+								<p>1Ranking17</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac7">
+								<num>7.</num>
+								<intro>
+									<p>2Security18</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac7">
+									<num>7.</num>
+									<intro>
+										<p>3Clause by Inclusion18</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac7">
+										<num>7.</num>
+										<content>
+											<p>4Prepayment to Third Parties18</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac8">
+						<num>8.</num>
+						<content>
+							<p>REPRESENTATIONS AND WARRANTIES18</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac9">
+						<num>9.</num>
+						<content>
+							<p>THIRD PARTIES19</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac10">
+						<num>10.</num>
+						<content>
+							<p>NON-WAIVER19</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac11">
+						<num>11.</num>
+						<content>
+							<p>ASSIGNMENT19</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac12">
+						<num>12.</num>
+						<content>
+							<p>GOVERNING LAW19</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac13">
+						<num>13.</num>
+						<content>
+							<p>DISPUTES20</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac14">
+						<num>14.</num>
+						<content>
+							<p>NOTICES20</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac15">
+						<num>15.</num>
+						<content>
+							<p>TAXES AND EXPENSES20</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac16">
+						<num>16.</num>
+						<content>
+							<p>DISCHARGE21</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac17">
+						<num>17.</num>
+						<content>
+							<p>ENTRY INTO FORCE21</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac1">
+						<num>1.</num>
+						<intro>
+							<p> INTERPRETATION</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac1">
+							<num>1.</num>
+							<intro>
+								<p>1 Definitions</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac1">
+								<num>1.</num>
+								<intro>
+									<p>2 Construction</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac1">
+									<num>1.</num>
+									<intro>
+										<p>3 Headings</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac1">
+										<num>1.</num>
+										<content>
+											<p>4 Rounding</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac2">
+						<num>2.</num>
+						<content>
+							<p> CONDITIONS</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac3">
+						<num>3.</num>
+						<content>
+							<p> PURPOSE</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac4">
+						<num>4.</num>
+						<intro>
+							<p> FINANCIAL CONDITIONS</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac4">
+							<num>4.</num>
+							<intro>
+								<p>1 Loan Amount</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac4">
+								<num>4.</num>
+								<intro>
+									<p>2 Disbursement Amount</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac4">
+									<num>4.</num>
+									<intro>
+										<p>3 Disbursement Procedure</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac4">
+										<num>4.</num>
+										<intro>
+											<p>4 Disbursement Period</p>
+										</intro>
+										<point wId="od1-clan2-stav69-tac4">
+											<num>4.</num>
+											<intro>
+												<p>5 Disbursement Conditions</p>
+											</intro>
+											<point wId="od1-clan2-stav69-tac4">
+												<num>4.</num>
+												<intro>
+													<p>6 Repayment</p>
+												</intro>
+												<point wId="od1-clan2-stav69-tac4">
+													<num>4.</num>
+													<intro>
+														<p>7 Early Reimbursement</p>
+													</intro>
+													<point wId="od1-clan2-stav69-tac4">
+														<num>4.</num>
+														<intro>
+															<p>8 Interest Determination</p>
+														</intro>
+														<point wId="od1-clan2-stav69-tac4">
+															<num>4.</num>
+															<intro>
+																<p>9 Default Interest Rate</p>
+															</intro>
+															<point wId="od1-clan2-stav69-tac4">
+																<num>4.</num>
+																<intro>
+																	<p>10 Market Disruption Event</p>
+																</intro>
+																<point wId="od1-clan2-stav69-tac4">
+																	<num>4.</num>
+																	<content>
+																		<p>11 Payments</p>
+																	</content>
+																</point>
+															</point>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac5">
+						<num>5.</num>
+						<intro>
+							<p> PROJECT IMPLEMENTATION</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac5">
+							<num>5.</num>
+							<intro>
+								<p>1 Duty of Care</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac5">
+								<num>5.</num>
+								<intro>
+									<p>2 Allocation Period</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac5">
+									<num>5.</num>
+									<intro>
+										<p>3 Project Costs</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac5">
+										<num>5.</num>
+										<intro>
+											<p>4 Project Specific Undertakings</p>
+										</intro>
+										<point wId="od1-clan2-stav69-tac5">
+											<num>5.</num>
+											<intro>
+												<p>5 Procurement</p>
+											</intro>
+											<point wId="od1-clan2-stav69-tac5">
+												<num>5.</num>
+												<intro>
+													<p>6 Environmental and Social Safeguards</p>
+												</intro>
+												<point wId="od1-clan2-stav69-tac5">
+													<num>5.</num>
+													<intro>
+														<p>7 Human Rights</p>
+													</intro>
+													<point wId="od1-clan2-stav69-tac5">
+														<num>5.</num>
+														<intro>
+															<p>8 Integrity</p>
+														</intro>
+														<point wId="od1-clan2-stav69-tac5">
+															<num>5.</num>
+															<content>
+																<p>9 Visibility</p>
+															</content>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac6">
+						<num>6.</num>
+						<intro>
+							<p> MONITORING</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac6">
+							<num>6.</num>
+							<intro>
+								<p>1 Reporting</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac6">
+								<num>6.</num>
+								<intro>
+									<p>2 Visits</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac6">
+									<num>6.</num>
+									<intro>
+										<p>3 Audit</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac6">
+										<num>6.</num>
+										<intro>
+											<p>4 Project Information</p>
+										</intro>
+										<point wId="od1-clan2-stav69-tac6">
+											<num>6.</num>
+											<content>
+												<p>5 Borrower Information</p>
+											</content>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac7">
+						<num>7.</num>
+						<intro>
+							<p> PARI PASSU</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac7">
+							<num>7.</num>
+							<intro>
+								<p>1 Ranking</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac7">
+								<num>7.</num>
+								<intro>
+									<p>2 Security</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac7">
+									<num>7.</num>
+									<intro>
+										<p>3 Clause by Inclusion</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac7">
+										<num>7.</num>
+										<content>
+											<p>4 Prepayment to Third Parties</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac8">
+						<num>8.</num>
+						<content>
+							<p> REPRESENTATIONS AND WARRANTIES</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac9">
+						<num>9.</num>
+						<content>
+							<p> THIRD PARTIES</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac10">
+						<num>10.</num>
+						<content>
+							<p> NON-WAIVER</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac11">
+						<num>11.</num>
+						<content>
+							<p> ASSIGNMENT</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac12">
+						<num>12.</num>
+						<content>
+							<p> GOVERNING LAW</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac13">
+						<num>13.</num>
+						<content>
+							<p> DISPUTES</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac14">
+						<num>14.</num>
+						<content>
+							<p> NOTICES</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac15">
+						<num>15.</num>
+						<content>
+							<p> TAXES AND EXPENSES</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac16">
+						<num>16.</num>
+						<content>
+							<p> DISCHARGE</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac17">
+						<num>17.</num>
+						<content>
+							<p> ENTRY INTO FORCE</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac1">
+						<num>1.</num>
+						<intro>
+							<p>ТУМАЧЕЊЕ5</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac1">
+							<num>1.</num>
+							<intro>
+								<p>1ДЕФИНИЦИЈЕ5</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac1">
+								<num>1.</num>
+								<intro>
+									<p>2ТУМАЧЕЊЕ7</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac1">
+									<num>1.</num>
+									<intro>
+										<p>3НАСЛОВИ7</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac1">
+										<num>1.</num>
+										<content>
+											<p>4ЗАОКРУЖИВАЊЕ8</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac2">
+						<num>2.</num>
+						<content>
+							<p>УСЛОВИ8</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac3">
+						<num>3.</num>
+						<content>
+							<p>СВРХА8</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac4">
+						<num>4.</num>
+						<intro>
+							<p>ФИНАНСИЈСКИ УСЛОВИ8</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac4">
+							<num>4.</num>
+							<intro>
+								<p>1ИЗНОС ЗАЈМА8</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac4">
+								<num>4.</num>
+								<intro>
+									<p>2ИЗНОС ЗА ИСПЛАТУ8</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac4">
+									<num>4.</num>
+									<intro>
+										<p>3ПОСТУПАК ИСПЛАТЕ9</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac4">
+										<num>4.</num>
+										<intro>
+											<p>4ПЕРИОД ИСПЛАТЕ10</p>
+										</intro>
+										<point wId="od1-clan2-stav69-tac4">
+											<num>4.</num>
+											<intro>
+												<p>5УСЛОВИ ЗА ИСПЛАТУ10</p>
+											</intro>
+											<point wId="od1-clan2-stav69-tac4">
+												<num>4.</num>
+												<intro>
+													<p>6ОТПЛАТА10</p>
+												</intro>
+												<point wId="od1-clan2-stav69-tac4">
+													<num>4.</num>
+													<intro>
+														<p>7НАКНАДАЗА ПРЕВРЕМЕНУ ОТПЛАТУ10</p>
+													</intro>
+													<point wId="od1-clan2-stav69-tac4">
+														<num>4.</num>
+														<intro>
+															<p>8ОДРЕЂИВАЊЕ КАМАТЕ11</p>
+														</intro>
+														<point wId="od1-clan2-stav69-tac4">
+															<num>4.</num>
+															<intro>
+																<p>9СТОПА ЗАТЕЗНЕ КАМАТЕ11</p>
+															</intro>
+															<point wId="od1-clan2-stav69-tac4">
+																<num>4.</num>
+																<intro>
+																	<p>10ДОГАЂАЈ ПОРЕМЕЋАЈА НА ТРЖИШТУ11</p>
+																</intro>
+																<point wId="od1-clan2-stav69-tac4">
+																	<num>4.</num>
+																	<content>
+																		<p>11ИСПЛАТЕ13</p>
+																	</content>
+																</point>
+															</point>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac5">
+						<num>5.</num>
+						<intro>
+							<p>СПРОВОЂЕЊЕ ПРОЈЕКТА13</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac5">
+							<num>5.</num>
+							<intro>
+								<p>1ОБАВЕЗНА БРИГА 13</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac5">
+								<num>5.</num>
+								<intro>
+									<p>2ПЕРИОД АЛОКАЦИЈЕ13</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac5">
+									<num>5.</num>
+									<intro>
+										<p>3ТРОШКОВИ ПРОЈЕКТА13</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac5">
+										<num>5.</num>
+										<intro>
+											<p>4ПОСЕБНЕ ОБАВЕЗЕ ПО ПРОЈЕКТУ14</p>
+										</intro>
+										<point wId="od1-clan2-stav69-tac5">
+											<num>5.</num>
+											<intro>
+												<p>5НАБАВКА14</p>
+											</intro>
+											<point wId="od1-clan2-stav69-tac5">
+												<num>5.</num>
+												<intro>
+													<p>6МЕРЕ ЗАШТИТЕ У ОБЛАСТИ ЖИВОТНЕ СРЕДИНЕ И СОЦИЈАЛНЕ МЕРЕ ЗАШТИТЕ14</p>
+												</intro>
+												<point wId="od1-clan2-stav69-tac5">
+													<num>5.</num>
+													<intro>
+														<p>7ЉУДСКА ПРАВА14</p>
+													</intro>
+													<point wId="od1-clan2-stav69-tac5">
+														<num>5.</num>
+														<intro>
+															<p>8ИНТЕГРИТЕТ14</p>
+														</intro>
+														<point wId="od1-clan2-stav69-tac5">
+															<num>5.</num>
+															<content>
+																<p>9ТРАНСПАРЕНТНОСТ15</p>
+															</content>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac6">
+						<num>6.</num>
+						<intro>
+							<p>ПРАЋЕЊЕ15</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac6">
+							<num>6.</num>
+							<intro>
+								<p>1ИЗВЕШТАВАЊЕ…15</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac6">
+								<num>6.</num>
+								<intro>
+									<p>2ПОСЕТЕ16</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac6">
+									<num>6.</num>
+									<intro>
+										<p>3РЕВИЗИЈА16</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac6">
+										<num>6.</num>
+										<intro>
+											<p>4ИНФОРМАЦИЈЕ О ПРОЈЕКТУ16</p>
+										</intro>
+										<point wId="od1-clan2-stav69-tac6">
+											<num>6.</num>
+											<content>
+												<p>5ПОДАЦИ О ЗАЈМОПРИМЦУ16</p>
+											</content>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac7">
+						<num>7.</num>
+						<intro>
+							<p>PARI PASSU17</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac7">
+							<num>7.</num>
+							<intro>
+								<p>1РАНГИРАЊЕ17</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac7">
+								<num>7.</num>
+								<intro>
+									<p>2СРЕДСТВО ОБЕЗБЕЂЕЊА17</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac7">
+									<num>7.</num>
+									<intro>
+										<p>3КЛУЗУЛА КОЈА СЕ НАКНАДНО УНОСИ18</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac7">
+										<num>7.</num>
+										<content>
+											<p>4ПРЕВРЕМЕНА ОТПЛАТА ТРЕЋИМ ЛИЦИМА18</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac8">
+						<num>8.</num>
+						<content>
+							<p>ИЗЈАВЕ И ГАРАНЦИЈЕ18</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac9">
+						<num>9.</num>
+						<content>
+							<p>ТРЕЋА ЛИЦА19</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac10">
+						<num>10.</num>
+						<content>
+							<p>НЕОДРИЦАЊЕ19</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac11">
+						<num>11.</num>
+						<content>
+							<p>УСТУПАЊЕ19</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac12">
+						<num>12.</num>
+						<content>
+							<p>МЕРОДАВНО ПРАВО19</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac13">
+						<num>13.</num>
+						<content>
+							<p>СПОРОВИ19</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac14">
+						<num>14.</num>
+						<content>
+							<p>ОБАВЕШТЕЊА20</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac15">
+						<num>15.</num>
+						<content>
+							<p>ПОРЕЗИ И РАСХОДИ20</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac16">
+						<num>16.</num>
+						<content>
+							<p>ИСПЛАЋИВАЊЕ21</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac17">
+						<num>17.</num>
+						<content>
+							<p>СТУПАЊЕ НА СНАГУ21</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac1">
+						<num>1.</num>
+						<intro>
+							<p> ТУМАЧЕЊЕ</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac1">
+							<num>1.</num>
+							<intro>
+								<p>1 Дефиниције</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac1">
+								<num>1.</num>
+								<intro>
+									<p>2 Структура</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac1">
+									<num>1.</num>
+									<intro>
+										<p>3 Наслови</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac1">
+										<num>1.</num>
+										<content>
+											<p>4 Заокруживање</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac2">
+						<num>2.</num>
+						<content>
+							<p> УСЛОВИ</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac3">
+						<num>3.</num>
+						<content>
+							<p> СВРХА</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac4">
+						<num>4.</num>
+						<intro>
+							<p> ФИНАНСИЈСКИ УСЛОВИ</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac4">
+							<num>4.</num>
+							<intro>
+								<p>1 Износ Зајма</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac4">
+								<num>4.</num>
+								<intro>
+									<p>2 Износ за исплату</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac4">
+									<num>4.</num>
+									<intro>
+										<p>3 Поступак исплате</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac4">
+										<num>4.</num>
+										<intro>
+											<p>4 Период исплате</p>
+										</intro>
+										<point wId="od1-clan2-stav69-tac4">
+											<num>4.</num>
+											<intro>
+												<p>5 Услови за исплату</p>
+											</intro>
+											<point wId="od1-clan2-stav69-tac4">
+												<num>4.</num>
+												<intro>
+													<p>6 Отплата</p>
+												</intro>
+												<point wId="od1-clan2-stav69-tac4">
+													<num>4.</num>
+													<intro>
+														<p>7 Превремена отплата</p>
+													</intro>
+													<point wId="od1-clan2-stav69-tac4">
+														<num>4.</num>
+														<intro>
+															<p>8 Одређивање камате</p>
+														</intro>
+														<point wId="od1-clan2-stav69-tac4">
+															<num>4.</num>
+															<intro>
+																<p>9 Стопа затезне камате</p>
+															</intro>
+															<point wId="od1-clan2-stav69-tac4">
+																<num>4.</num>
+																<intro>
+																	<p>10 Догађај поремећаја на тржишту</p>
+																</intro>
+																<point wId="od1-clan2-stav69-tac4">
+																	<num>4.</num>
+																	<content>
+																		<p>11 Исплате</p>
+																	</content>
+																</point>
+															</point>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac5">
+						<num>5.</num>
+						<intro>
+							<p> СПРОВОЂЕЊЕ ПРОЈЕКТА</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac5">
+							<num>5.</num>
+							<intro>
+								<p>1 Обавезна брига</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac5">
+								<num>5.</num>
+								<intro>
+									<p>2 Период алокације</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac5">
+									<num>5.</num>
+									<intro>
+										<p>3 Трошкови пројекта</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac5">
+										<num>5.</num>
+										<intro>
+											<p>4 Посебне обавезе по Пројекту</p>
+										</intro>
+										<point wId="od1-clan2-stav69-tac5">
+											<num>5.</num>
+											<intro>
+												<p>5 Набавка</p>
+											</intro>
+											<point wId="od1-clan2-stav69-tac5">
+												<num>5.</num>
+												<intro>
+													<p>6 Мере заштите у области животне средине и социјалне мере заштите</p>
+												</intro>
+												<point wId="od1-clan2-stav69-tac5">
+													<num>5.</num>
+													<intro>
+														<p>7 Људска права</p>
+													</intro>
+													<point wId="od1-clan2-stav69-tac5">
+														<num>5.</num>
+														<intro>
+															<p>8 Интегритет</p>
+														</intro>
+														<point wId="od1-clan2-stav69-tac5">
+															<num>5.</num>
+															<content>
+																<p>9 Транспарентност</p>
+															</content>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac6">
+						<num>6.</num>
+						<intro>
+							<p> ПРАЋЕЊЕ</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac6">
+							<num>6.</num>
+							<intro>
+								<p>1 Извештавање</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac6">
+								<num>6.</num>
+								<intro>
+									<p>2 Посете</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac6">
+									<num>6.</num>
+									<intro>
+										<p>3 Ревизија</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac6">
+										<num>6.</num>
+										<intro>
+											<p>4 Информације о пројекту</p>
+										</intro>
+										<point wId="od1-clan2-stav69-tac6">
+											<num>6.</num>
+											<content>
+												<p>5 Подаци о Зајмопримцу</p>
+											</content>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac7">
+						<num>7.</num>
+						<intro>
+							<p> PARI PASSU</p>
+						</intro>
+						<point wId="od1-clan2-stav69-tac7">
+							<num>7.</num>
+							<intro>
+								<p>1 Рангирање</p>
+							</intro>
+							<point wId="od1-clan2-stav69-tac7">
+								<num>7.</num>
+								<intro>
+									<p>2 Средство обезбеђења</p>
+								</intro>
+								<point wId="od1-clan2-stav69-tac7">
+									<num>7.</num>
+									<intro>
+										<p>3 Клаузула која се накнадно уноси</p>
+									</intro>
+									<point wId="od1-clan2-stav69-tac7">
+										<num>7.</num>
+										<content>
+											<p>4 Превремена отплата трећим лицима</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="od1-clan2-stav69-tac8">
+						<num>8.</num>
+						<content>
+							<p> ИЗЈАВЕ И ГАРАНЦИЈЕ</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac9">
+						<num>9.</num>
+						<content>
+							<p> ТРЕЋА ЛИЦА</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac10">
+						<num>10.</num>
+						<content>
+							<p> ОДРИЦАЊЕ</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac11">
+						<num>11.</num>
+						<content>
+							<p> УСТУПАЊЕ</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac12">
+						<num>12.</num>
+						<content>
+							<p> МЕРОДАВНО ПРАВО</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac13">
+						<num>13.</num>
+						<content>
+							<p> СПОРОВИ</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac14">
+						<num>14.</num>
+						<content>
+							<p> ОБАВЕШТЕЊА</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac15">
+						<num>15.</num>
+						<content>
+							<p> ПОРЕЗИ И РАСХОДИ</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac16">
+						<num>16.</num>
+						<content>
+							<p> ИСПЛАЋИВАЊЕ</p>
+						</content>
+					</point>
+					<point wId="od1-clan2-stav69-tac17">
+						<num>17.</num>
+						<content>
+							<p> СТУПАЊЕ НА СНАГУ</p>
+						</content>
+					</point>
+				</paragraph>
+			</section>
+		</body>
+	</act>
+</akomaNtoso>

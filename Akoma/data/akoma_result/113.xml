@@ -1,0 +1,1038 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о приватном обезбеђењу">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2013/104-8/main"/>
+					<FRBRuri value="/rs/act/2013/104-8"/>
+					<FRBRdate date="2013-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2018/87-31/srp@/main"/>
+					<FRBRuri value="/rs/act/2018/87-31/srp@"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2018/87-31/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2018/87-31/srp@.akn"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2013-11-27" name="службени гласник рс" number="104" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="II ОДБРАНА, ВОЈСКА И УНУТРАШЊИ ПОСЛОВИ" value="ii одбрана, војска и унутрашњи послови" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="14. Детективска делатност и приватно обезбеђење" value="14. детективска делатност и приватно обезбеђење" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2013-01-01" refersTo="104/2013-8" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2015-01-01" refersTo="42/2015-3" source="#somebody" type="amendment" wId="e2"/>
+				<eventRef date="2018-01-01" refersTo="87/2018-31" source="#somebody" type="amendment" wId="e3"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2013-11-26" wId="usvajanje"/>
+				<step by="#TODO" date="2013-12-05" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2013-12-05" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 5. децембра 2013. године (види члан 91. Закона).Закон о изменама и допунама Закона о приватном обезбеђењу („Службени гласник РС“, број 87/2018) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 21. новембра 2018. године. Подзаконски акти утврђени овим законом донеће се у року од 12 месеци од дана његовог ступања на снагу. Прописи донети на основу Закона о приватном обезбеђењу („Службени гласник РС”, бр. 104/13 и 42/15) остају на снази до доношења прописа којим се стављају ван снаге, ако нису у супротности са одредбама овог закона. Сви поступци започети до ступања на снагу овог закона окончаће се применом прописа према којима су започети (види чл. 48, 49. и 50. Закона – 87/2018-31).</p>
+				</note>
+				<note wId="not2">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 5. децембра 2013. године (види члан 91. Закона).Закон о изменама и допунама Закона о приватном обезбеђењу („Службени гласник РС“, број 87/2018) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 21. новембра 2018. године. Подзаконски акти утврђени овим законом донеће се у року од 12 месеци од дана његовог ступања на снагу. Прописи донети на основу Закона о приватном обезбеђењу („Службени гласник РС”, бр. 104/13 и 42/15) остају на снази до доношења прописа којим се стављају ван снаге, ако нису у супротности са одредбама овог закона. Сви поступци започети до ступања на снагу овог закона окончаће се применом прописа према којима су започети (види чл. 48, 49. и 50. Закона – 87/2018-31).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О приватном обезбеђењу "Службени гласник РС", бр. 104 од 27. новембра 2013, 42 од 11. маја 2015, 87 од 13. новембра 2018.</p>
+			</longTitle>
+			<p>Редакцијски пречишћен текст</p>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>УВОДНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређују се обавезно обезбеђење и заштита одређених објеката, послови и рад правних и физичких лица у области приватног обезбеђења, услови за њихово лиценцирање, начин вршења послова и остваривање надзора над њиховим радом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Приватно обезбеђење, у смислу овог закона, обухвата пружање услуга, односно вршење послова заштите лица, имовине и пословања физичком и техничком заштитом када ти послови нису у искључивој надлежности државних органа, као и послове транспорта новца, вредносних и других пошиљки, одржавања реда на јавним скуповима, спортским приредбама и другим местима окупљања грађана (редарска служба), које врше правна лица и предузетници регистрована за ту делатност, као и правна лица и предузетници који су образовали унутрашњи облик организовања обезбеђења за сопствене потребе (у даљем тексту: самозаштитна делатност).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav2">
+						<content>
+							<p>Услуге приватног обезбеђења не спадају у полицијске или друге послове безбедности које врше органи државне управе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav3">
+						<content>
+							<p>Правна лица и предузетници који имају лиценцу за вршење послова приватног обезбеђења не могу вршити послове заштите лица и имовине који су у искључивој надлежности државних органа и примењивати оперативне методе и средства, односно оперативно-техничка средства и методе које ти органи примењују на основу посебних прописа.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<paragraph wId="gla1-clan3-stav1">
+						<intro>
+							<p>Појмови који се користе у овом закону  имају следеће значење:</p>
+						</intro>
+						<point wId="gla1-clan3-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> безбедносна провера представља скуп  мера и радњи којима се утврђује постојање или непостојање  безбедносне сметње, коју у складу са Законом о полицији врши  Министарство унутрашњих послова (у даљем тексту: Министарство);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> безбедносна сметња је чињеница која  онемогућава издавање лиценце физичком лицу за вршење послова  приватног обезбеђења или за вршење послова редарске службе;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> корисник услуга је правно лице,  предузетник или физичко лице које користи услуге приватног  обезбеђења;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> легитимација је јавна исправа за  легитимисање особа које врше послове приватног обезбеђења;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac5">
+							<num>5)</num>
+							<intro>
+								<p> лиценца је:</p>
+							</intro>
+							<hcontainer name="subpoint" wId="gla1-clan3-stav1-tac5-podtac1">
+								<num>(1)</num>
+								<content>
+									<p> решење којим се правним лицима и  предузетницима који испуњавају прописане услове, дозвољава  обављање делатности приватног обезбеђења,</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla1-clan3-stav1-tac5-podtac2">
+								<num>(2)</num>
+								<content>
+									<p> решење којим се физичким лицима  која испуњавају прописане услове, дозвољава вршење послова  приватног обезбеђења или вршење послова редарске службе;</p>
+								</content>
+							</hcontainer>
+						</point>
+						<point wId="gla1-clan3-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> одговорно лице је физичко лице које  је власник правног лица или је запослено у правном лицу и по  закону овлашћено да заступа правно лице, односно лице које је  регистровано у складу са законом као предузетник, осим за  послове самозаштитне делатности где се одговорно лице одређује  на основу акта о систематизацији правног лица;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> патролирање је услуга обезбеђења  коју врше службеници обезбеђења крећући се у одређено време  између више међусобно раздвојених места/објеката;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> план обезбеђења је документ са  планираним услугама обезбеђења које су предвиђене у процени  ризика или су као мере заштите захтеване од корисника услуга, у  складу са овим законом и правилима струке;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> пословни простор је објекат посебно  изграђен или прилагођен за пословне намене или простор у таквом  објекту који има просторију за рад, посебну просторију за пријем  странака, санитарни чвор и површину од најмање 20 m² и који се  искључиво користи за обављање пословних делатности;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p> правно лице за приватно обезбеђење  је привредно друштво које обавља делатност приватног обезбеђења  под условима из овог закона;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac11">
+							<num>11)</num>
+							<content>
+								<p> предузетник за приватно обезбеђење  је службеник обезбеђења који самостално обавља делатност  приватног обезбеђења под условима из овог закона и који је, у  складу са прописима, регистрован као предузетник;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac12">
+							<num>12)</num>
+							<content>
+								<p> процедура поступања је планом  обезбеђења, односно планом поступања са ризицима, утврђен начин  обављања активности на заштити лица, имовине и пословања;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac13">
+							<num>13)</num>
+							<content>
+								<p> процена ризика је анализа и оцена  ризика у заштити лица, имовине и пословања;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac14">
+							<num>14)</num>
+							<content>
+								<p> простор који се користи за јавну  употребу је сваки простор који представља јавно место и на коме  се могу без посебних услова кретати или боравити индивидуално  неодређена лица;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac15">
+							<num>15)</num>
+							<content>
+								<p> редар је физичко лице, које је  обучено за вршење послова редарске службе, које поседује лиценцу  Министарства за вршење ових послова и на које се сходно  примењују одредбе овог закона које се односе на службенике  приватног обезбеђења, ако овим законом није другачије прописано;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac16">
+							<num>16)</num>
+							<content>
+								<p> службеник обезбеђења је физичко  лице, које поседује лиценцу Министарства за вршење послова  приватног обезбеђења;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac17">
+							<num>17)</num>
+							<content>
+								<p> самозаштитна делатност је  делатност обезбеђења лица, имовине и пословања које организација  обавља за сопствене потребе;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac18">
+							<num>18)</num>
+							<content>
+								<p> унутрашња служба обезбеђења  (самозаштита) је унутрашњи облик организовања обезбеђења за  сопствене потребе;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac19">
+							<num>19)</num>
+							<content>
+								<p> штићени простор је објекат или  простор на којем се врше услуге обезбеђења;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac20">
+							<num>20)</num>
+							<content>
+								<p> физичка заштита је услуга  обезбеђења која се пружа првенствено личним присуством и  непосредном активношћу службеника обезбеђења у одређеном  простору и времену у складу са планом обезбеђења, применом мера  и овлашћења службеника обезбеђења;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac21">
+							<num>21)</num>
+							<content>
+								<p> физичко-техничка заштита је  обезбеђење лица и имовине применом физичке заштите и коришћењем  средстава техничке заштите;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac22">
+							<num>22)</num>
+							<content>
+								<p> техничка заштита је обезбеђење  лица и имовине које се врши техничким средствима и уређајима,  њиховим планирањем, пројектовањем, уградњом и одржавањем.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav2">
+						<content>
+							<p>Сви изрази у овом закону имају једнако  родно значење, без обзира да ли се користе у мушком или женском  роду и односе се подједнако на мушки и на женски род.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav3">
+						<content>
+							<p>*<ref wId="ref0" href="akn/rs/act/2018/87/srp@">Службени гласник РС, број 87/2018</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ОБАВЕЗНО ОБЕЗБЕЂЕНИ ОБЈЕКТИ</heading>
+				<article wId="gla2-clan4">
+					<num>4.</num>
+					<paragraph wId="gla2-clan4-stav1">
+						<content>
+							<p>Обавезно обезбеђени објекти су објекти од стратешког значаја  за Републику Србију и њене грађане, као и објекти од посебног  значаја чијим оштећењем или уништењем би могле наступити теже  последице по живот и здравље људи или који су од интереса за  одбрану земље, осим објеката чију заштиту обављају  државни органи и објеката чија се заштита обавља сагласно  прописима из области одбране.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan4-stav2">
+						<content>
+							<p>Под обавезно обезбеђеним објектима сматра се и простор на коме се налазе ти објекти и чине њихов саставни део, као и пратећи објекти који су у функцији тих објеката.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan5">
+					<num>5.</num>
+					<heading>*Службени гласник РС, број 42/2015</heading>
+					<paragraph wId="gla2-clan5-stav1">
+						<content>
+							<p>Заштита обавезно обезбеђених објеката обавља се, као пословна функција правног лица коме ти објекти припадају, на начин предвиђен општим актом о организацији и систематизацији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav2">
+						<content>
+							<p>Заштита обавезно обезбеђених објеката, у складу са општим актом о организацији и систематизацији, обавља се уговорним ангажовањем субјеката лиценцираних за обављање делатности приватног обезбеђења или као организована самозаштитна делатност.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav3">
+						<content>
+							<p>У правном лицу коме припадају објекти од посебног значаја за одбрану земље, самозаштитна делатност обавезно има организовану планску, организациону и контролну функцију.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav4">
+						<content>
+							<p>Брисан је ранији <ref wId="ref2" href="akn/rs/act/2018/87-31/srp@/!main~art_5__para_4" >став 4. </ref>(види <ref wId="ref1" href="akn/rs/act/2018/87/srp@/!main~/art_2">члан  2. Закона - 87/2018-31</ref>)</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>ПОСЛОВИ ПРИВАТНОГ ОБЕЗБЕЂЕЊА</heading>
+				<article wId="gla3-clan6">
+					<num>6.</num>
+					<paragraph wId="gla3-clan6-stav1">
+						<intro>
+							<p>Правна лица и предузетници за приватно обезбеђење, под условима прописаним овим законом, могу имати лиценцу за послове:</p>
+						</intro>
+						<point wId="gla3-clan6-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> процене ризика у заштити лица, имовине и пословања;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan6-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> заштите лица и имовине физичким и техничким средствима, као и послове одржавања реда на јавним скуповима, спортским приредбама и другим местима окупљања грађана у делу који није у надлежности Министарства унутрашњих послова;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan6-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> планирања, пројектовања и надзора над извођењем система техничке заштите, монтаже, пуштања у рад, одржавања система техничке заштите и обуке корисника;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan6-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> обезбеђења транспорта и преноса новца и вредносних пошиљки у делу који није у надлежности Министарства.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan6-stav2">
+						<content>
+							<p>Правна лица и предузетници за приватно обезбеђење дужни су да обезбеде услове и средства за вршење послова из <ref wId="ref3" href="akn/rs/act/2018/87-31/srp@/!main~art_6__para_1" >става 1. овог</ref> члана у складу са важећим стандардима и прописима којим се уређује област безбедности и здравља на раду.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan7">
+					<num>7.</num>
+					<paragraph wId="gla3-clan7-stav1">
+						<content>
+							<p>Правна лица и предузетници који врше послове приватног обезбеђења не могу вршити послове посредовања у наплати потраживања.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>ЛИЦЕНЦЕ ЗА ВРШЕЊЕ ПОСЛОВА ПРИВАТНОГ ОБЕЗБЕЂЕЊА</heading>
+				<article wId="gla4-clan8">
+					<num>8.</num>
+					<paragraph wId="gla4-clan8-stav1">
+						<content>
+							<p>Послове приватног обезбеђења могу вршити правна лица, предузетници и физичка лица који имају лиценцу за вршење послова приватног обезбеђења, издату од стране Министарства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan8-stav2">
+						<content>
+							<p>Послове редарске службе, под условима  из овог закона, могу вршити физичка лица која имају лиценцу  Министарства за вршење ових послова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan8-stav3">
+						<content>
+							<p>*<ref wId="ref4" href="akn/rs/act/2018/87/srp@">Службени гласник РС, број 87/2018</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<section wId="gla4-od1">
+					<num>1.</num>
+					<heading> Врсте лиценци и услови за издавање лиценци за правна лица и предузетнике</heading>
+					<article wId="gla4-od1-clan9">
+						<num>9.</num>
+						<paragraph wId="gla4-od1-clan9-stav1">
+							<intro>
+								<p>За вршење послова приватног обезбеђења правном лицу или предузетнику Министарство може издати:</p>
+							</intro>
+							<point wId="gla4-od1-clan9-stav1-tac1">
+								<num>1)</num>
+								<content>
+									<p> Лиценцу за процену ризика у заштити лица, имовине и пословања;</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan9-stav1-tac2">
+								<num>2)</num>
+								<content>
+									<p> Лиценцу за вршење послова  физичко-техничке заштите без оружја;</p>
+								</content>
+							</point>
+						</paragraph>
+						<paragraph wId="gla4-od1-clan9-stav2">
+							<intro>
+								<p>2а) Лиценцу за вршење послова  физичко-техничке заштите са оружјем;</p>
+							</intro>
+							<point wId="gla4-od1-clan9-stav2-tac3">
+								<num>3)</num>
+								<content>
+									<p> Лиценцу за вршење послова обезбеђења транспорта и преноса новца и вредносних пошиљки;</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan9-stav2-tac4">
+								<num>4)</num>
+								<content>
+									<p> Лиценцу за вршење послова планирања система техничке заштите;</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan9-stav2-tac5">
+								<num>5)</num>
+								<content>
+									<p> Лиценцу за вршење послова пројектовања и надзора над извођењем система техничке заштите;</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan9-stav2-tac6">
+								<num>6)</num>
+								<content>
+									<p> Лиценцу за вршење послова монтаже, пуштања у рад и  одржавања система техничке заштите и обуке корисника;</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan9-stav2-tac7">
+								<num>7)</num>
+								<content>
+									<p> Лиценцу за вршење послова  самозаштитне делатности;</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan9-stav2-tac8">
+								<num>8)</num>
+								<content>
+									<p> Лиценцу за вршење послова  обезбеђења транспорта и преноса новца и вредносних пошиљки у  обављању самозаштитне делатности.</p>
+								</content>
+							</point>
+						</paragraph>
+						<paragraph wId="gla4-od1-clan9-stav3">
+							<content>
+								<p>Брисан је ранији <ref wId="ref6" href="akn/rs/act/2018/87-31/srp@/!main~art_9__para_2" >став 2. </ref>(види <ref wId="ref5" href="akn/rs/act/2018/87/srp@/!main~/art_4">члан  4. Закона - 87/2018-31</ref>)</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="gla4-od1-clan10">
+						<num>10.</num>
+						<heading>*Службени гласник РС, број 87/2018</heading>
+						<paragraph wId="gla4-od1-clan10-stav1">
+							<intro>
+								<p>Лиценце за вршење послова приватног  обезбеђења могу се издати правном лицу, односно предузетнику  који испуњавају опште услове за добијање сваке од утврђених  врста лиценци, односно који:</p>
+							</intro>
+							<point wId="gla4-od1-clan10-stav1-tac1">
+								<num>1)</num>
+								<content>
+									<p> су уписани у регистар привредних  субјеката у Републици Србији, са шифром делатности приватног  обезбеђења и услуге система обезбеђења;</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav1-tac2">
+								<num>2)</num>
+								<content>
+									<p> имају акт о систематизацији радних  места, са описом послова и овлашћењима запослених за свако радно  место;</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav1-tac3">
+								<num>3)</num>
+								<content>
+									<p> имају акт који ближе прописује  изглед униформе коју носе службеници обезбеђења и изглед знака;</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav1-tac4">
+								<num>4)</num>
+								<content>
+									<p> имају одговорно лице које поседује  лиценцу за вршење послова приватног обезбеђења, која се издаје  физичком лицу;</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav1-tac5">
+								<num>5)</num>
+								<content>
+									<p> поседују пословни простор;</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav1-tac6">
+								<num>6)</num>
+								<content>
+									<p> поседују посебан простор за смештај  оружја и муниције, у складу са прописима о условима за смештај и  чување оружја и заштиту од пожара, ако послове приватног  обезбеђења обавља са оружјем;</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav1-tac7">
+								<num>7)</num>
+								<content>
+									<p> имају сопствени или уговорени  Контролни центар ако пружају услуге физичко-техничке заштите или  обезбеђења транспорта и преноса новца и вредносних пошиљки.</p>
+								</content>
+							</point>
+						</paragraph>
+						<paragraph wId="gla4-od1-clan10-stav2">
+							<intro>
+								<p>Посебни услови које треба да испуни  правно лице, односно предузетник да би добили:</p>
+							</intro>
+							<point wId="gla4-od1-clan10-stav2-tac2">
+								<num>2.</num>
+								<content>
+									<p> Врсте лиценци и услови за издавање лиценци за физичка лица</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac3">
+								<num>3.</num>
+								<content>
+									<p> Поступак и начин издавања лиценце</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac1">
+								<num>1.</num>
+								<content>
+									<p> Послови физичке заштите</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac2">
+								<num>2.</num>
+								<content>
+									<p> Послови обезбеђења са оружјем</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac3">
+								<num>3.</num>
+								<content>
+									<p> Послови техничке заштите</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac4">
+								<num>4.</num>
+								<content>
+									<p> Послови планирања, пројектовања, техничког надзора, монтаже и одржавања система техничке заштите</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac5">
+								<num>5.</num>
+								<content>
+									<p> Послови обезбеђења транспорта новца, вредносних и других пошиљки</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac6">
+								<num>6.</num>
+								<content>
+									<p> Послови редарске службе</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac7">
+								<num>7.</num>
+								<content>
+									<p> Контролни центар</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac8">
+								<num>8.</num>
+								<content>
+									<p> Самозаштитна делатност</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac1">
+								<num>1.</num>
+								<content>
+									<p> Издавање упозорења или наређења или  забрана уласка и боравка лица у штићеном објекту</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac2">
+								<num>2.</num>
+								<content>
+									<p> Провера идентитета лица</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac3">
+								<num>3.</num>
+								<content>
+									<p> Заустављање и преглед лица, предмета и  саобраћајних средстава и привремено одузимање предмета</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac4">
+								<num>4.</num>
+								<content>
+									<p> Привремено задржавање лица</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac5">
+								<num>5.</num>
+								<content>
+									<p> Употреба средстава за везивање</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac6">
+								<num>6.</num>
+								<content>
+									<p> Употреба физичке снаге</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac7">
+								<num>7.</num>
+								<content>
+									<p> Употреба посебно дресираних паса</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac8">
+								<num>8.</num>
+								<content>
+									<p> Употреба ватреног оружја</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac9">
+								<num>9.</num>
+								<content>
+									<p> Обавезе након употребе средстава принуде</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac1">
+								<num>1.</num>
+								<content>
+									<p> Униформа и ознаке службеника обезбеђења</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac2">
+								<num>2.</num>
+								<content>
+									<p> Легитимација</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac3">
+								<num>3.</num>
+								<content>
+									<p> Ознаке и опрема на возилима</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac1">
+								<num>1.</num>
+								<content>
+									<p> Врсте лиценци и услови за издавање лиценци за правна лица и предузетнике</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac2">
+								<num>2.</num>
+								<content>
+									<p> Врсте лиценци и услови за издавање лиценци за физичка лица</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac3">
+								<num>3.</num>
+								<content>
+									<p> Поступак и начин издавања лиценце</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac1">
+								<num>1.</num>
+								<content>
+									<p> Послови физичке заштите</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac2">
+								<num>2.</num>
+								<content>
+									<p> Послови обезбеђења са оружјем</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac3">
+								<num>3.</num>
+								<content>
+									<p> Послови техничке заштите</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac4">
+								<num>4.</num>
+								<content>
+									<p> Послови планирања, пројектовања, техничког надзора, монтаже и одржавања система техничке заштите</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac5">
+								<num>5.</num>
+								<content>
+									<p> Послови обезбеђења транспорта новца, вредносних и других пошиљки</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac6">
+								<num>6.</num>
+								<content>
+									<p> Послови редарске службе</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac7">
+								<num>7.</num>
+								<content>
+									<p> Контролни центар</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac8">
+								<num>8.</num>
+								<content>
+									<p> Самозаштитна делатност</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac1">
+								<num>1.</num>
+								<content>
+									<p> Издавање упозорења или наређења или  забрана уласка и боравка лица у штићеном објекту</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac2">
+								<num>2.</num>
+								<content>
+									<p> Провера идентитета лица</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac3">
+								<num>3.</num>
+								<content>
+									<p> Заустављање и преглед лица, предмета и  саобраћајних средстава и привремено одузимање предмета</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac4">
+								<num>4.</num>
+								<content>
+									<p> Привремено задржавање лица</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac5">
+								<num>5.</num>
+								<content>
+									<p> Употреба средстава за везивање</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac6">
+								<num>6.</num>
+								<content>
+									<p> Употреба физичке снаге</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac7">
+								<num>7.</num>
+								<content>
+									<p> Употреба посебно дресираних паса</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac8">
+								<num>8.</num>
+								<content>
+									<p> Употреба ватреног оружја</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac9">
+								<num>9.</num>
+								<content>
+									<p> Обавезе након употребе средстава принуде</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac1">
+								<num>1.</num>
+								<content>
+									<p> Униформа и ознаке службеника обезбеђења</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac2">
+								<num>2.</num>
+								<content>
+									<p> Легитимација</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac3">
+								<num>3.</num>
+								<content>
+									<p> Ознаке и опрема на возилима</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac1">
+								<num>1.</num>
+								<content>
+									<p> Врсте лиценци и услови за издавање лиценци за правна лица и предузетнике</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac2">
+								<num>2.</num>
+								<content>
+									<p> Врсте лиценци и услови за издавање лиценци за физичка лица</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac3">
+								<num>3.</num>
+								<content>
+									<p> Поступак и начин издавања лиценце</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac1">
+								<num>1.</num>
+								<content>
+									<p> Послови физичке заштите</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac2">
+								<num>2.</num>
+								<content>
+									<p> Послови обезбеђења са оружјем</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac3">
+								<num>3.</num>
+								<content>
+									<p> Послови техничке заштите</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac4">
+								<num>4.</num>
+								<content>
+									<p> Послови планирања, пројектовања, техничког надзора, монтаже и одржавања система техничке заштите</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac5">
+								<num>5.</num>
+								<content>
+									<p> Послови обезбеђења транспорта новца, вредносних и других пошиљки</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac6">
+								<num>6.</num>
+								<content>
+									<p> Послови редарске службе</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac7">
+								<num>7.</num>
+								<content>
+									<p> Контролни центар</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac8">
+								<num>8.</num>
+								<content>
+									<p> Самозаштитна делатност</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac1">
+								<num>1.</num>
+								<content>
+									<p> Издавање упозорења или наређења или  забрана уласка и боравка лица у штићеном објекту</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac2">
+								<num>2.</num>
+								<content>
+									<p> Провера идентитета лица</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac3">
+								<num>3.</num>
+								<content>
+									<p> Заустављање и преглед лица, предмета и  саобраћајних средстава и привремено одузимање предмета</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac4">
+								<num>4.</num>
+								<content>
+									<p> Привремено задржавање лица</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac5">
+								<num>5.</num>
+								<content>
+									<p> Употреба средстава за везивање</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac6">
+								<num>6.</num>
+								<content>
+									<p> Употреба физичке снаге</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac7">
+								<num>7.</num>
+								<content>
+									<p> Употреба посебно дресираних паса</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac8">
+								<num>8.</num>
+								<content>
+									<p> Употреба ватреног оружја</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac9">
+								<num>9.</num>
+								<content>
+									<p> Обавезе након употребе средстава принуде</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac1">
+								<num>1.</num>
+								<content>
+									<p> Униформа и ознаке службеника обезбеђења</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac2">
+								<num>2.</num>
+								<content>
+									<p> Легитимација</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac3">
+								<num>3.</num>
+								<content>
+									<p> Ознаке и опрема на возилима</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac1">
+								<num>1.</num>
+								<content>
+									<p> Врсте лиценци и услови за издавање лиценци за правна лица и предузетнике</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac2">
+								<num>2.</num>
+								<content>
+									<p> Врсте лиценци и услови за издавање лиценци за физичка лица</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac3">
+								<num>3.</num>
+								<content>
+									<p> Поступак и начин издавања лиценце</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac1">
+								<num>1.</num>
+								<content>
+									<p> Послови физичке заштите</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac2">
+								<num>2.</num>
+								<content>
+									<p> Послови обезбеђења са оружјем</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac3">
+								<num>3.</num>
+								<content>
+									<p> Послови техничке заштите</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac4">
+								<num>4.</num>
+								<content>
+									<p> Послови планирања, пројектовања, техничког надзора, монтаже и одржавања система техничке заштите</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac5">
+								<num>5.</num>
+								<content>
+									<p> Послови обезбеђења транспорта новца, вредносних и других пошиљки</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac6">
+								<num>6.</num>
+								<content>
+									<p> Послови редарске службе</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac7">
+								<num>7.</num>
+								<content>
+									<p> Контролни центар</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac8">
+								<num>8.</num>
+								<content>
+									<p> Самозаштитна делатност</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac1">
+								<num>1.</num>
+								<content>
+									<p> Издавање упозорења или наређења или  забрана уласка и боравка лица у штићеном објекту</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac2">
+								<num>2.</num>
+								<content>
+									<p> Провера идентитета лица</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac3">
+								<num>3.</num>
+								<content>
+									<p> Заустављање и преглед лица, предмета и  саобраћајних средстава и привремено одузимање предмета</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac4">
+								<num>4.</num>
+								<content>
+									<p> Привремено задржавање лица</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac5">
+								<num>5.</num>
+								<content>
+									<p> Употреба средстава за везивање</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac6">
+								<num>6.</num>
+								<content>
+									<p> Употреба физичке снаге</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac7">
+								<num>7.</num>
+								<content>
+									<p> Употреба посебно дресираних паса</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac8">
+								<num>8.</num>
+								<content>
+									<p> Употреба ватреног оружја</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac9">
+								<num>9.</num>
+								<content>
+									<p> Обавезе након употребе средстава принуде</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac1">
+								<num>1.</num>
+								<content>
+									<p> Униформа и ознаке службеника обезбеђења</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac2">
+								<num>2.</num>
+								<content>
+									<p> Легитимација</p>
+								</content>
+							</point>
+							<point wId="gla4-od1-clan10-stav2-tac3">
+								<num>3.</num>
+								<content>
+									<p> Ознаке и опрема на возилима</p>
+								</content>
+							</point>
+						</paragraph>
+					</article>
+				</section>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

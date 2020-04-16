@@ -1,0 +1,195 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о престанку важења Закона о организацији и пословању привредних јединица  установа за извршење кривичних санкција">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2009/111-52/main"/>
+					<FRBRuri value="/rs/act/2009/111-52"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2009/111-52/srp@/main"/>
+					<FRBRuri value="/rs/act/2009/111-52/srp@"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2009/111-52/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2009/111-52/srp@.akn"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2009-12-29" name="службени гласник рс“" number="111" showAs="Службени гласник РС“"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="III ПРАВОСУЂЕ, КАЗНЕНО ЗАКОНОДАВСТВО И ПОСТУПЦИ" value="iii правосуђе, казнено законодавство и поступци" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="9. Извршење кривичних санкција и алтернативних санкција и мера" value="9. извршење кривичних санкција и алтернативних санкција и мера" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2009-12-29" wId="usvajanje"/>
+				<step by="#TODO" date="2010-01-06" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2010-01-06" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 6. јануара 2010. године (види члан 3. Закона).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О престанку важења закона о организацији и пословању привредних јединица  установа за извршење кривичних санкција „Службени гласник РС“, број 111 од 29. децембра 2009.</p>
+			</longTitle>
+			<p>﻿</p>
+		</preface>
+		<body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Даном почетка примене овог закона престаје да важи Закон о организацији и пословању привредних јединица установа за извршење кривичних санкција („<ref wId="ref0" href="akn/rs/act/77/27/srp@">Службени гласник СРС”, број 27/77</ref>).</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Права, обавезе, средства, имовину, документацију и архиву привредних јединица основаних по Закону о организацији и пословању привредних јединица установа за извршење кривичних санкција преузимају заводи за извршење кривичних санкција у којима су привредне јединице основане, са стањем на дан 31. децембра 2009. године.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav2">
+					<content>
+						<p>ЗАКОН</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav3">
+					<content>
+						<p>о престанку важења Закона о организацији и пословању привредних јединица  установа за извршење кривичних санкција</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav4">
+					<content>
+						<p>„Службени гласник РС“, број 111 од 29. децембра 2009.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Даном почетка примене овог закона престаје да важи Закон о организацији и пословању привредних јединица установа за извршење кривичних санкција („Службени гласник СРС”, број 27/77).</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Права, обавезе, средства, имовину, документацију и архиву привредних јединица основаних по Закону о организацији и пословању привредних јединица установа за извршење кривичних санкција преузимају заводи за извршење кривичних санкција у којима су привредне јединице основане, са стањем на дан 31. децембра 2009. године.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav2">
+					<content>
+						<p>ЗАКОН</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav3">
+					<content>
+						<p>о престанку важења Закона о организацији и пословању привредних јединица  установа за извршење кривичних санкција</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav4">
+					<content>
+						<p>„Службени гласник РС“, број 111 од 29. децембра 2009.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Даном почетка примене овог закона престаје да важи Закон о организацији и пословању привредних јединица установа за извршење кривичних санкција („Службени гласник СРС”, број 27/77).</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Права, обавезе, средства, имовину, документацију и архиву привредних јединица основаних по Закону о организацији и пословању привредних јединица установа за извршење кривичних санкција преузимају заводи за извршење кривичних санкција у којима су привредне јединице основане, са стањем на дан 31. децембра 2009. године.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav2">
+					<content>
+						<p>ЗАКОН</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav3">
+					<content>
+						<p>о престанку важења Закона о организацији и пословању привредних јединица  установа за извршење кривичних санкција</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav4">
+					<content>
+						<p>„Службени гласник РС“, број 111 од 29. децембра 2009.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Даном почетка примене овог закона престаје да важи Закон о организацији и пословању привредних јединица установа за извршење кривичних санкција („Службени гласник СРС”, број 27/77).</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Права, обавезе, средства, имовину, документацију и архиву привредних јединица основаних по Закону о организацији и пословању привредних јединица установа за извршење кривичних санкција преузимају заводи за извршење кривичних санкција у којима су привредне јединице основане, са стањем на дан 31. децембра 2009. године.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+					</content>
+				</paragraph>
+			</article>
+		</body>
+	</act>
+</akomaNtoso>

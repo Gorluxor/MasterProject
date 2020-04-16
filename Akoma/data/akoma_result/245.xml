@@ -1,0 +1,717 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о Државној ревизорској институцији">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2005/101-111/main"/>
+					<FRBRuri value="/rs/act/2005/101-111"/>
+					<FRBRdate date="2005-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2018/44-27/srp@/main"/>
+					<FRBRuri value="/rs/act/2018/44-27/srp@"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2018/44-27/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2018/44-27/srp@.akn"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2005-11-21" name="службени гласник рс" number="101" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="V МОНЕТАРНИ СИСТЕМ, ФИНАНСИЈСКЕ ОРГАНИЗАЦИЈЕ И ФИНАНСИЈСКО ПОСЛОВАЊЕ" value="v монетарни систем, финансијске организације и финансијско пословање" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="4. Рачуноводство и ревизија" value="4. рачуноводство и ревизија" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2005-01-01" refersTo="101/2005-111" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2007-01-01" refersTo="54/2007-4" source="#somebody" type="amendment" wId="e2"/>
+				<eventRef date="2010-01-01" refersTo="36/2010-10" source="#somebody" type="amendment" wId="e3"/>
+				<eventRef date="2018-01-01" refersTo="44/2018-27" source="#somebody" type="amendment" wId="e4"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2005-11-14" wId="usvajanje"/>
+				<step by="#TODO" date="2005-11-29" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2006-05-29" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у Службеном гласнику Републике Србије, односно 29. новембра 2005. године, а почео је да се примењује у року од шест месеци од дана ступања на снагу, односно од 29. маја 2006. године (види члан 65. Закона).Престаје да важи одредба члана 40. став 2. Закона, у делу у ком се установљава обавеза употребе печата у пословању друштава и предузетника, даном почетка примене члана 160. Закона о изменама и допунама Закона о привредним друштвима („Службени гласник РС“, број 44/2018), односно 1. октобра 2018. године (види члан 160. Закона – 44/2018-27).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О државној ревизорској институцији "Службени гласник РС", бр. 101 од 21. новембра 2005, 54 од 13. јуна 2007, 36 од 28. маја 2010, 44 од 8. јуна 2018 - др. закон</p>
+			</longTitle>
+			<p>Редакцијски пречишћен текст</p>
+		</preface>
+		<preamble>
+			<p>﻿</p>
+		</preamble>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<heading>Предмет уређивања</heading>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређују се оснивање и делатност, правни положај, надлежност,  организација и начин рада Државне ревизорске институције (у даљем тексту:  Институција) и друга питања од значаја за рад Институције, као и права и обавезе  субјеката ревизије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<heading>Значење појединих појмова</heading>
+					<paragraph wId="gla1-clan2-stav1">
+						<intro>
+							<p>Поједини појмови, употребљени у смислу овог закона имају следеће значење:</p>
+						</intro>
+						<point wId="gla1-clan2-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> Ревизија финансијских извештаја представља испитивање докумената, исправа,  извештаја и других информација, ради прикупљања довољног, адекватног и поузданог  доказа за изражавање мишљења да ли финансијски извештаји субјекта ревизије  истинито и објективно приказују његово финансијско стање, резултате пословања и  новчане токове, у складу са прихваћеним рачуноводственим начелима и стандардима;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> Ревидирање пословања према овом закону значи прибављање довољног,  адекватног и поузданог доказа за изражавање мишљења о правилности и  сврсисходности пословања корисника јавних средстава;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> Ревизија правилности пословања значи испитивање финансијских трансакција и  одлука у вези са примањима и издацима, ради утврђивања да ли су односне  трансакције извршене у складу са законом, другим прописима, датим овлашћењима, и  за планиране сврхе;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> Ревизија сврсисходности пословања значи испитивање трошења средстава из  буџета и других јавних средстава, ради стицања довољног, адекватног и поузданог  доказа за извештавање да ли су средства од стране субјекта ревизије употребљена  у складу са начелима економије, ефикасности и ефективности као и у складу са  планираним циљевима;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> Начело економије подразумева минимални утрошак средстава за одређену  активност, водећи рачуна да се тиме не доводи у питање очекивани квалитет;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> Начело ефикасности представља однос између постигнутих резултата у  производњи роба или пружању услуга и искоришћених ресурса за производњу, односно  пружање услуга;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> Начело ефективности (успешности) представља степен до кога су постигнути  постављени циљеви, као и однос између планираних и остварених ефеката одређене  активности;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac8">
+							<num>8)</num>
+							<intro>
+								<p> Пословање субјекта ревизије у поступку ревизије по овом закону чине:</p>
+							</intro>
+							<hcontainer name="subpoint" wId="gla1-clan2-stav1-tac8-podtac1">
+								<num>(1)</num>
+								<content>
+									<p> сви поступци субјекта ревизије, који утичу на његова примања, односно  издатке али и на средства односно обавезе према изворима средстава (пословање у  ужем смислу);</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla1-clan2-stav1-tac8-podtac2">
+								<num>(2)</num>
+								<content>
+									<p> сви поступци субјекта ревизије, који утичу на стање јавне имовине, стање  јавног дуга, обезбеђивање јавних добара или на стање животне средине (пословање  у ширем смислу);</p>
+								</content>
+							</hcontainer>
+						</point>
+						<point wId="gla1-clan2-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> Ревизиони налаз означава скуп утврђених чињеница и констатација на бази  процене о одређеном сегменту пословања ревидираног субјекта;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p> Овлашћено лице јесте било који представник којег председник Институције  овласти, у писменој форми, да врши послове у оквиру овлашћења или да обавља  функције;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac11">
+							<num>11)</num>
+							<content>
+								<p> Мера исправљања односи се на меру коју субјект ревизије предузима да би  отклонио одређену неправилност или нецелисходност у свом пословању или за то да  умањи ризик од појављивања одређене неправилности или несврсисходности у свом  будућем пословању;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac12">
+							<num>12)</num>
+							<content>
+								<p> Неправилност у пословању означава неусклађеност пословања са прописима  или усмерењима, која је дужан да уважава субјект ревизије у своме деловању;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac13">
+							<num>13)</num>
+							<content>
+								<p> Несврсисходност у пословању јесте збирни израз за неекономичност,  неефикасност и неуспешност пословања.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<heading>Правни положај Институције</heading>
+					<paragraph wId="gla1-clan3-stav1">
+						<content>
+							<p>Институција је највиши државни орган ревизије јавних средстава у Републици  Србији (у даљем тексту: Република).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav2">
+						<content>
+							<p>Институција је самосталан и независан државни орган.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav3">
+						<content>
+							<p>За обављање послова из своје надлежности Институција је одговорна Народној  скупштини Републике Србије (у даљем тексту: Скупштина).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav4">
+						<content>
+							<p>Акта којима Институција врши своју надлежност ревизије не могу бити предмет  оспоравања пред судовима и другим државним органима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav5">
+						<content>
+							<p>Институција има својство правног лица.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav6">
+						<content>
+							<p>Институција има печат, у складу са законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<heading>Седиште Институције. Организационе јединице Институције</heading>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>Седиште Институције је у Београду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav2">
+						<content>
+							<p>Институција може образовати организационе јединице изван седишта.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav3">
+						<content>
+							<p>Организационе јединице изван седишта Институције немају својство правног  лица.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>НАДЛЕЖНОСТ ИНСТИТУЦИЈЕ</heading>
+				<article wId="gla2-clan5">
+					<num>5.</num>
+					<heading>Послови у надлежности Институције</heading>
+					<paragraph wId="gla2-clan5-stav1">
+						<intro>
+							<p>У оквиру своје надлежности, Институција обавља следеће послове:</p>
+						</intro>
+						<point wId="gla2-clan5-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> планира и обавља ревизију, у складу са овим законом;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> доноси подзаконске и друге акте ради спровођења овог закона;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> подноси извештаје у складу са чл. <ref wId="ref0" href="akn/rs/act/2018/44-27/srp@/!main~art_43" >43</ref>. и <ref wId="ref1" href="akn/rs/act/2018/44-27/srp@/!main~art_44" >44</ref>. овог закона;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> заузима ставове и даје мишљења као и друге облике јавних саопштења у вези  са применом и спровођењем појединих одредаба овог закона;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> по потреби и у складу са својим могућностима, пружа стручну помоћ  Скупштини, Влади Републике Србије (у даљем тексту: Влада) и другим државним  органима о појединим значајним мерама и важним пројектима, на начин којим се не  умањује независност Институције;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> може да даје савете корисницима јавних средстава;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> може давати примедбе на радне нацрте предлога законских текстова и других  прописа и може давати мишљења о питањима из области јавних финансија;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> може да даје препоруке за измене важећих закона на основу информација до  којих је дошла у поступку обављања ревизије, а односе се на то да производе или  могу произвести негативне последице или доводе до непланираних резултата;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> усваја и објављује стандарде ревизије у вези са јавним средствима који се  односе на извршавање ревизијске надлежности Институције, на приручнике за  ревизију и на другу стручну литературу од значаја за унапређење ревизорске  струке;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p> утврђује програм образовања и испитни програм за стицање звања државни  ревизор и овлашћени државни ревизор, организује полагање испита за стицање  ревизорских звања државни ревизор и овлашћени државни ревизор и води Регистар  лица која су стекла ова звања;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac11">
+							<num>11)</num>
+							<content>
+								<p> утврђује критеријуме и врши нострификацију стручних звања из надлежности  Институције стечених у иностранству;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac12">
+							<num>12)</num>
+							<content>
+								<p> сарађује са међународним ревизорским и рачуноводственим организацијама у  областима које се односе на рачуноводство и ревизију у оквиру јавног сектора;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac13">
+							<num>13)</num>
+							<content>
+								<p> обавља друге послове утврђене законом.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan6">
+					<num>6.</num>
+					<heading>Пословник Институције</heading>
+					<paragraph wId="gla2-clan6-stav1">
+						<content>
+							<p>Институција има пословник којим, у складу са овим законом, ближе уређује  начин и поступак по коме Институција врши своју надлежност ревизије, начин  обезбеђивања јавности рада Институције, одлучивање и друга питања утврђена  Законом која су од значаја за рад Институције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav2">
+						<content>
+							<p>Савет доноси пословник уз претходно добијену сагласност Скупштине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav3">
+						<content>
+							<p>Институција може уређивати организацију и начин рада Институције и другим  актима.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan7">
+					<num>7.</num>
+					<heading>Сходна примена других законских одредби</heading>
+					<paragraph wId="gla2-clan7-stav1">
+						<content>
+							<p>Ако се у извршавању ревизорске надлежности Институције појави питање које  није уређено овим законом, сходно се примењују одговарајуће одредбе закона,  којима се уређује управни поступак.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan8">
+					<num>8.</num>
+					<heading>Објављивање</heading>
+					<paragraph wId="gla2-clan8-stav1">
+						<content>
+							<p>Пословник и друга акта Институције у складу са овим законом, објављују се у  „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan9">
+					<num>9.</num>
+					<heading>Предмет ревизије</heading>
+					<paragraph wId="gla2-clan9-stav1">
+						<intro>
+							<p>Предмет ревизије у складу са овим законом су:</p>
+						</intro>
+						<point wId="gla2-clan9-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> примања и издаци у складу са прописима о буџетском систему и прописима о  јавним приходима и расходима;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan9-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> финансијски извештаји, финансијске трансакције, обрачуни, анализе и друге  евиденције и информације субјеката ревизије;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan9-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> правилност пословања субјеката ревизије у складу са законом, другим  прописима и датим овлашћењима;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan9-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> сврсисходност располагања јавним средствима у целости или у одређеном  делу;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan9-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> систем финансијског управљања и контроле буџетског система и система  осталих органа и организација које су субјект ревизије Институције;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan9-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> систем интерних контрола, интерне ревизије, рачуноводствених и  финансијских поступака код субјекта ревизије;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan9-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> акта и радње субјекта ревизије које производе или могу произвести  финансијске ефекте на примања и издатке корисника јавних средстава, имовину  државе, задуживање и давање гаранција као и на сврсисходну употребу средстава  којима располажу субјекти ревизије;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan9-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> правилност рада органа руковођења, управљања и других одговорних лица  надлежних за планирање, извођење и надзор пословања корисника јавних средстава;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan9-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> друге области предвиђене посебним законима.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav2">
+						<content>
+							<p>Институција може ревидирати акт о протеклом, текућем, као и о планираном  пословању корисника јавних средстава.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav3">
+						<content>
+							<p>Акт из претходног става може да буде акт, који је прописан законом или  посебан рачуноводствени исказ, односно извештај, који корисник јавних средстава  мора да састави на захтев Институције.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan10">
+					<num>10.</num>
+					<heading>Субјекти ревизије</heading>
+					<paragraph wId="gla2-clan10-stav1">
+						<intro>
+							<p>Субјекти ревизије, у складу са овим законом су:</p>
+						</intro>
+						<point wId="gla2-clan10-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> директни и индиректни корисници буџетских средстава Републике,  територијалних аутомија и локалних власти у складу са прописима којима се  уређује буџетски систем и систем јавних прихода и расхода;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan10-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> организације обавезног социјалног осигурања;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan10-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> буџетски фондови основани посебним законом или подзаконским актом;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan10-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> Народна банка Србије у делу који се односи на коришћење јавних средстава и  на пословање са државним буџетом;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan10-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> јавна предузећа, привредна друштва и друга правна лица које је основао  директни односно индиректни корисник јавних средстава ;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan10-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> правна лица код којих директни односно индиректни корисници имају учешће у  капиталу односно у управљању;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan10-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> правна лица која су основала правна лица у којим држава има учешће у  капиталу односно у управљању;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan10-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> правна и физичка лица која примају од Републике,територијалних аутономија  и локалних власти дотације и друга бесповратна давања или гаранције;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan10-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> субјекти који се баве прихватањем, чувањем, издавањем и коришћењем јавних  резерви;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan10-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p> политичке странке, у складу са законом којим се уређује финансирање  политичких странака;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan10-stav1-tac11">
+							<num>11)</num>
+							<content>
+								<p> корисници средстава ЕУ, донација и помоћи међународних организација,  страних влада и невладиних организација;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan10-stav1-tac12">
+							<num>12)</num>
+							<content>
+								<p> уговорна страна у вези са извршењем међународних уговора, споразума,  конвенција и осталих међународних аката, када је то одређено међународним актом  или када то одреди овлашћени орган; и</p>
+							</content>
+						</point>
+						<point wId="gla2-clan10-stav1-tac13">
+							<num>13)</num>
+							<content>
+								<p> други субјекти који користе средства и имовину под контролом и на  располагању Републике, територијалних аутономија, локалних власти или  организација обавезног социјалног осигурања.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav2">
+						<content>
+							<p>Субјекти ревизије из <ref wId="ref2" href="akn/rs/act/2018/44-27/srp@/!main~art_10__para_1" >става 1. овог</ref> члана сматрају се корисницима јавних  средстава у складу са овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav3">
+						<content>
+							<p>Субјект ревизије из <ref wId="ref3" href="akn/rs/act/2018/44-27/srp@/!main~art_10__para_1" >става 1. овог</ref> члана на чије се пословање мишљење ревизије  односи, дужан је да то мишљење разматра и предузме мере за отклањање утврђених  неправилности и несврсисходности.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan11">
+					<num>11.</num>
+					<heading>Правна лица повезана са субјектима ревизије</heading>
+					<paragraph wId="gla2-clan11-stav1">
+						<content>
+							<p>Институција може, у складу са овим законом, да врши ревизију пословања и код  правних лица која послују са субјектима ревизије из <ref wId="ref4" href="akn/rs/act/2018/44-27/srp@/!main~art_10" >члана 10. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav2">
+						<content>
+							<p>Ревизија пословања код правних лица из <ref wId="ref5" href="akn/rs/act/2018/44-27/srp@/!main~art_11__para_1" >става 1. овог</ref> члана врши се само у  погледу њиховог пословања са субјектима ревизије утврђеним овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav3">
+						<content>
+							<p>Институција ће својим актом ближе утврдити начин вршења ревизије код правних  лица из <ref wId="ref6" href="akn/rs/act/2018/44-27/srp@/!main~art_11__para_1" >става 1. овог</ref> члана тако да њихова права на које се односе радње у  поступку ревизије, буду заштићена.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>ОРГАНИЗАЦИЈА И САСТАВ ИНСТИТУЦИЈЕ</heading>
+				<article wId="gla3-clan12">
+					<num>12.</num>
+					<heading>Организација и органи</heading>
+					<paragraph wId="gla3-clan12-stav1">
+						<content>
+							<p>Институција има председника Институције, потпредседника, Савет, ревизорске  службе и пратеће службе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan12-stav2">
+						<content>
+							<p>Делокруг и начин обављања послова служби Институције, унутрашња организација  и систематизација радних места ближе се уређују актом Институције, који на  предлог председника Институције доноси Савет.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan13">
+					<num>13.</num>
+					<heading>Савет</heading>
+					<paragraph wId="gla3-clan13-stav1">
+						<content>
+							<p>Савет је највиши орган Институције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan13-stav2">
+						<content>
+							<p>Савет је колегијални орган.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan13-stav3">
+						<content>
+							<p>Савет има пет чланова, и то: председника, потпредседника и три члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan13-stav4">
+						<content>
+							<p>Председник Савета је истовремено председник Институције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan13-stav5">
+						<content>
+							<p>Савет одлучује на седницама којима председава председник Савета или  потпредседник који га замењује.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan13-stav6">
+						<content>
+							<p>Савет доноси одлуке већином гласова свих чланова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan13-stav7">
+						<content>
+							<p>Чланови Савета не могу довести у питање независност при доношењу својих  одлука, као ни независност Институције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan13-stav8">
+						<content>
+							<p>Пословником о раду Савета Институције ближе ће се уредити питања везана за  рад Савета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan13-stav9">
+						<content>
+							<p>Акт из <ref wId="ref7" href="akn/rs/act/2018/44-27/srp@/!main~art_13__para_8" >става 8. овог</ref> члана доноси Савет.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan14">
+					<num>14.</num>
+					<heading>Надлежности Савета</heading>
+					<paragraph wId="gla3-clan14-stav1">
+						<intro>
+							<p>Савет обавља следеће послове:</p>
+						</intro>
+						<point wId="gla3-clan14-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> ревидираном субјекту;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan14-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> одговорном лицу ревидираног субјекта из времена на које се односи обављена  ревизија;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan14-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Скупштини;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan14-stav1-tac4">
+							<num>4.</num>
+							<content>
+								<p> другим органима за које Савет оцени да треба да буду обавештени о налазима  ревизије.</p>
+							</content>
+						</point>
+						<point wId="gla3-clan14-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> ревидираном субјекту;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan14-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> одговорном лицу ревидираног субјекта из времена на које се односи обављена  ревизија;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan14-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Скупштини;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan14-stav1-tac4">
+							<num>4.</num>
+							<content>
+								<p> другим органима за које Савет оцени да треба да буду обавештени о налазима  ревизије.</p>
+							</content>
+						</point>
+						<point wId="gla3-clan14-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> ревидираном субјекту;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan14-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> одговорном лицу ревидираног субјекта из времена на које се односи обављена  ревизија;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan14-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Скупштини;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan14-stav1-tac4">
+							<num>4.</num>
+							<content>
+								<p> другим органима за које Савет оцени да треба да буду обавештени о налазима  ревизије.</p>
+							</content>
+						</point>
+						<point wId="gla3-clan14-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> ревидираном субјекту;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan14-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> одговорном лицу ревидираног субјекта из времена на које се односи обављена  ревизија;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan14-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Скупштини;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan14-stav1-tac4">
+							<num>4.</num>
+							<content>
+								<p> другим органима за које Савет оцени да треба да буду обавештени о налазима  ревизије.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

@@ -1,0 +1,451 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о Агенцији за осигурање депозита">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2015/14-10/main"/>
+					<FRBRuri value="/rs/act/2015/14-10"/>
+					<FRBRdate date="2015-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2017/51-3/srp@/main"/>
+					<FRBRuri value="/rs/act/2017/51-3/srp@"/>
+					<FRBRdate date="2017-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2017/51-3/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2017/51-3/srp@.akn"/>
+					<FRBRdate date="2017-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2015-02-04" name="службени гласник рс" number="14" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="IX ОПШТИ ПРИВРЕДНИ ПРОПИСИ И ЕКОНОМСКИ ОДНОСИ СА ИНОСТРАНСТВОМ" value="ix општи привредни прописи и економски односи са иностранством" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="3. Осигурање" value="3. осигурање" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2015-01-01" refersTo="14/2015-10" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2017-01-01" refersTo="51/2017-3" source="#somebody" type="amendment" wId="e2"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2015-02-03" wId="usvajanje"/>
+				<step by="#TODO" date="2015-02-12" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2015-04-01" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 12. фебруара 2015. године, a примeњуje се од 1. априла 2015. године (види члан 31. Закона).Агенција је дужна да, у складу са одредбама овог закона донесе статут најкасније у року од 30 дана од именовања Управног одбора. До доношења Статута остају на снази статут и други општи акти Агенције, ако нису у супротности са овим законом (види члан 29. Закона).Закон о допуни Закона о Агенцији за осигурање депозита (Службени гласник РС, број 51/2017) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 2. јуна 2017. године (види члан 2. Закона - 51/2017-3).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О агенцији за осигурање депозита "Службени гласник РС", бр. 14 од 4. фебруара 2015, 51 од 25. маја 2017.</p>
+			</longTitle>
+			<p>Редакцијски пречишћен текст</p>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>УВОДНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређују се положај, организација, овлашћења и функције Агенције за осигурање депозита (у даљем тексту: Агенција) основане Законом о Агенцији за осигурање депозита („<ref wId="ref0" href="akn/rs/act/05/61/srp@">Службени гласник РС”, бр. 61/05, 116/08</ref> и 91/10).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav2">
+						<content>
+							<p>Агенција је самостални правни субјект који обавља послове утврђене овим и другим законом и функционално је независна од било ког државног органа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav3">
+						<content>
+							<p>Агенција има својство правног лица и уписана је у судски регистар правних лица и других субјеката.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav4">
+						<content>
+							<p>Седиште Агенције је у Београду.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Агенција обавља послове обавезног осигурања депозита и исплате осигураних износа, у складу са законом којим се уређује осигурање депозита.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav2">
+						<intro>
+							<p>Поред послова из <ref wId="ref1" href="akn/rs/act/2017/51-3/srp@/!main~art_2__para_1" >става 1. овог</ref> члана, Агенција:</p>
+						</intro>
+						<point wId="gla1-clan2-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> управља имовином пренетом у поступку реструктурирања банака и обавља друге послове у вези с поступком реструктурирања банака, у складу са законом којим се уређују банке;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> обавља функцију стечајног или ликвидационог управника у банкама, друштвима за осигурање и даваоцима лизинга, у складу са законом којим се уређује стечај и ликвидација банака и друштава за осигурање и законом којим се уређује финансијски лизинг;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> организује фонд за заштиту инвеститора, у складу са законом којим се уређује тржиште капитала.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<paragraph wId="gla1-clan3-stav1">
+						<content>
+							<p>Агенција има статут, који усваја Управни одбор Агенције (у даљем тексту: Управни одбор).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav2">
+						<intro>
+							<p>Статутом Агенције уређују се:</p>
+						</intro>
+						<point wId="gla1-clan3-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> организација и начин обављања послова Агенције;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> делокруг органа Агенције;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> заступање и представљање Агенције;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> подаци и исправе који се одређују као тајни и начин поступања с тим подацима и исправама;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav2-tac5">
+							<num>5)</num>
+							<content>
+								<p> друга питања значајна за рад Агенције.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav3">
+						<content>
+							<p>Статут Агенције објављује се у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>На права, обавезе и одговорности из радног односа запослених у Агенцији примењују се општи прописи о раду, ако овим законом није друкчије одређено.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav2">
+						<content>
+							<p>Агенција се не сматра корисником буџетских нити јавних средстава, у смислу закона којим се уређују јавне набавке у случају избора банке исплатиоца на начин дефинисан законом којим се уређује осигурање депозита, закона којим се регулише рад јавних агенција, прописа којима се ограничава број запослених у јавном сектору, као и прописа којима се уређује буџетски систем.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ПОСЛОВИ АГЕНЦИЈЕ</heading>
+				<point wId="gla2-clan4-tac1">
+					<num>1.</num>
+					<content>
+						<p> Осигурање депозита</p>
+					</content>
+				</point>
+				<article wId="gla2-clan5">
+					<num>5.</num>
+					<paragraph wId="gla2-clan5-stav1">
+						<intro>
+							<p>Агенција осигурава депозите код банака под условима и на начин утврђен законом којим се уређује осигурање депозита и врши исплату осигураних износа у складу с тим законом.</p>
+						</intro>
+						<point wId="gla2-clan5-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Управљање имовином пренетом у поступку реструктурирања банака</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan6">
+					<num>6.</num>
+					<paragraph wId="gla2-clan6-stav1">
+						<content>
+							<p>Агенција управља имовином и обавезама банке у реструктурирању или банке за посебне намене које су решењем Народне банке Србије на њу пренете.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav2">
+						<content>
+							<p>Агенција је дужна да послове у вези са пренетом имовином и обавезама из <ref wId="ref2" href="akn/rs/act/2017/51-3/srp@/!main~art_6__para_1" >става 1. овог</ref> члана обавља с пажњом доброг привредника и о томе извештава Народну банку Србије, у роковима и на начин утврђеним решењем Народне банке Србије.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>СРЕДСТВА АГЕНЦИЈЕ</heading>
+				<article wId="gla3-clan7">
+					<num>7.</num>
+					<paragraph wId="gla3-clan7-stav1">
+						<intro>
+							<p>Средства која Агенција користи за своје пословање чине:</p>
+						</intro>
+						<point wId="gla3-clan7-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> фонд средстава за осигурање депозита (у даљем тексту: фонд за осигурање депозита) ради обављања послова из <ref wId="ref3" href="akn/rs/act/2017/51-3/srp@/!main~art_2__para_1" >члана 2. став 1. овог</ref> закона;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan7-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> фонд средстава за заштиту инвеститора (у даљем тексту: фонд за заштиту инвеститора) ради обављања послова из члана 2. став 2. тачка <ref wId="ref4" href="akn/rs/act/2017/51-3/srp@/!main~art_2__para_2__point_3" >3</ref>) овог закона;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan7-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> средства која Агенција користи за обављање послова из члана <ref wId="ref6" href="akn/rs/act/2017/51-3/srp@/!main~art_2__para_2__point_2" >2</ref>. став 2. тач. <ref wId="ref5" href="akn/rs/act/2017/51-3/srp@/!main~art_2__para_2__point_1" >1</ref>) и 2) овог закона;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan7-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> средства која Агенција користи за обављање послова из <ref wId="ref7" href="akn/rs/act/2017/51-3/srp@/!main~art_27" >члана 27. овог</ref> закона.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan7-stav2">
+						<content>
+							<p>За покриће оперативних трошкова Агенције у вези с пословима који се односе на осигурање депозита издвајају се средства фонда за осигурање депозита и то у износу који на годишњем нивоу не прелази износ од 1,7% средстава прикупљених у том периоду по основу уплате редовне премије, у складу са законом којим се уређује осигурање депозита.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan7-stav3">
+						<content>
+							<p>Директор Агенције утврђује критеријуме за распоређивање оперативних трошкова Агенције из <ref wId="ref8" href="akn/rs/act/2017/51-3/srp@/!main~art_7__para_2" >става 2. овог</ref> члана и за раздвајање ових трошкова од трошкова насталих обављањем других послова Агенције, како би се обезбедило да средства издвојена из фонда за осигурање депозита у складу с тим ставом Агенција користи искључиво за покривање оперативних трошкова из тог става.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan7-stav4">
+						<content>
+							<p>Агенција средства за обављање послова из <ref wId="ref9" href="akn/rs/act/2017/51-3/srp@/!main~art_2" >члана 2. овог</ref> закона обезбеђује из прихода које оствари својим пословањем, накнада за обављање послова из <ref wId="ref10" href="akn/rs/act/2017/51-3/srp@/!main~art_2__para_2" >члана 2. став 2. овог</ref> закона, донација, буџета Републике Србије, задуживањем у земљи и иностранству и на други начин, у складу са законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan7-stav5">
+						<content>
+							<p>За износ вишка прихода над расходима, односно вишка расхода над приходима оствареног пословањем средствима фонда за осигурање депозита и утврђеног у складу са одредбама закона којим се регулише рачуноводство, врши се увећање, односно умањење тог фонда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan7-stav6">
+						<content>
+							<p>Средства Фонда за осигурање депозита не подлежу опорезивању.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan8">
+					<num>8.</num>
+					<paragraph wId="gla3-clan8-stav1">
+						<content>
+							<p>Агенција је дужна да средства из члана 7. став <ref wId="ref11" href="akn/rs/act/2017/51-3/srp@/!main~art_7__para_1__point_1" >1</ref>. тач. 1) и <ref wId="ref12" href="akn/rs/act/2017/51-3/srp@/!main~art_7__para_1__point_2" >2</ref>) овог закона, држи на посебним депозитним рачунима отвореним код Народне банке Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan8-stav2">
+						<content>
+							<p>Динарска средства из <ref wId="ref13" href="akn/rs/act/2017/51-3/srp@/!main~art_8__para_1" >става 1. овог</ref> члана Агенција улаже у дужничке хартије од вредности које издаје Република Србија или Народна банка Србије, а девизна средства из тог става Народна банка Србије, на основу уговора закљученог са Агенцијом и по налогу Агенције, у своје име, а за рачун Агенције, улаже у стране хартије од вредности или их полаже као депозит код страних банака, у складу с политиком управљања девизним резервама.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan8-stav3">
+						<content>
+							<p>Изузетно, у околностима значајних  промена на међународном финансијском тржишту узрокованих  постојањем негативне каматне стопе на депозите код страних  банака, Агенција може до једне четвртине девизних средстава из  <ref wId="ref14" href="akn/rs/act/2017/51-3/srp@/!main~art_8__para_1" >става 1. овог</ref> члана улагати и у девизне дужничке хартије од  вредности које издаје Република Србија или Народна банка Србије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan9">
+					<num>9.</num>
+					<heading>*Службени гласник РС, број 51/2017</heading>
+					<paragraph wId="gla3-clan9-stav1">
+						<content>
+							<p>У случају да средства из члана 7. став <ref wId="ref15" href="akn/rs/act/2017/51-3/srp@/!main~art_7__para_1__point_1" >1</ref>. тачка 1) овог закона нису довољна за обављање послова Агенције, Влада је дужна да, на захтев Агенције, по хитном поступку донесе одлуку о обезбеђењу средстава из буџета Републике Србије или задуживањем у земљи и иностранству на основу акта Народне скупштине и у складу са законом о буџету и законом којим се регулише јавни дуг.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan9-stav2">
+						<content>
+							<p>О конкретном износу задужења Републике Србије за намене утврђене <ref wId="ref16" href="akn/rs/act/2017/51-3/srp@/!main~art_9__para_1" >ставом 1. овог</ref> члана, одлучује Влада.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>ОРГАНИ АГЕНЦИЈЕ</heading>
+				<article wId="gla4-clan10">
+					<num>10.</num>
+					<paragraph wId="gla4-clan10-stav1">
+						<content>
+							<p>Органи Агенције су Управни одбор и директор Агенције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan10-stav2">
+						<content>
+							<p>Агенција може имати једног директора или три или више директора који чине Одбор директора. Тачан број директора и начин рада Одбора директора уређују се Статутом. Ако Статутом није другачије прописано, Агенција има једног директора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan10-stav3">
+						<content>
+							<p>Осим уколико овим законом није другачије одређено, све одредбе које се тичу директора Агенције сходно се примењују на директоре који чине Одбор директора, односно на Одбор директора Агенције.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan11">
+					<num>11.</num>
+					<paragraph wId="gla4-clan11-stav1">
+						<content>
+							<p>Управни одбор има пет чланова од којих су три независна.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan11-stav2">
+						<content>
+							<p>Једног члана, на предлог министарства надлежног за послове финансија, именује и разрешава Влада.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan11-stav3">
+						<content>
+							<p>Једног члана именује и разрешава Народна банка Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan11-stav4">
+						<content>
+							<p>Независне чланове Управног одбора именује Влада на предлог министарства надлежног за послове финансија, уз претходно прибављену сагласност Народне банке Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan11-stav5">
+						<content>
+							<p>Независне чланове Управног одбора разрешава Влада на предлог министарства надлежног за послове финансија, односно Народне банке Србије уз обавезно претходно прибављање позитивног мишљења институције која није предложила разрешење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan11-stav6">
+						<content>
+							<p>Разлози за разрешење чланова Управног одбора дефинисани су <ref wId="ref17" href="akn/rs/act/2017/51-3/srp@/!main~art_17" >чланом 17. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan11-stav7">
+						<content>
+							<p>Мандат свих чланова Управног одбора је четири године, с правом поновног избора на мандат од годину дана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan11-stav8">
+						<content>
+							<p>Управни одбор већином гласова укупног броја својих чланова бира за председника једног од независних чланова.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan12">
+					<num>12.</num>
+					<paragraph wId="gla4-clan12-stav1">
+						<intro>
+							<p>За члана Управног одбора може бити именовано лице:</p>
+						</intro>
+						<point wId="gla4-clan12-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> које испуњава опште услове за заснивање радног односа;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan12-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> које има високо образовање стечено на студијама другог степена и најмање осам година радног искуства у областима финансија, банкарства, осигурања или привредног и финансијског права;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan12-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> које није осуђивано за кривично дело на безусловну казну затвора, нити за кривично дело које га чини недостојним вршења функције члана овог одбора;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan12-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> коме радни однос није отказиван због повреде радне обавезе;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan12-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> које није функционер у смислу прописа којима се уређује спречавање сукоба интереса при вршењу јавних функција, не обавља функцију у политичкој странци или синдикалној организацији, није члан органа управљања банке, друге финансијске институције или удружења банака, друштва за ревизију које врши ревизију финансијских извештаја Агенције, другог правног лица с којим Агенција сарађује у обављању својих послова у складу са одредбама <ref wId="ref18" href="akn/rs/act/2017/51-3/srp@/!main~art_2" >члана 2. овог</ref> закона или банака, друштава за осигурање и других финансијских институција, нити је запослен у тим лицима, односно њихов сарадник.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla4-clan12-stav2">
+						<intro>
+							<p>Поред услова из <ref wId="ref19" href="akn/rs/act/2017/51-3/srp@/!main~art_12__para_1" >става 1. овог</ref> члана, лице које се именује за независног члана Управног одбора мора да испуњава и следеће услове:</p>
+						</intro>
+						<point wId="gla4-clan12-stav2-tac1">
+							<num>1.</num>
+							<content>
+								<p> Осигурање депозита</p>
+							</content>
+						</point>
+						<point wId="gla4-clan12-stav2-tac2">
+							<num>2.</num>
+							<content>
+								<p> Управљање имовином пренетом у поступку реструктурирања банака</p>
+							</content>
+						</point>
+						<point wId="gla4-clan12-stav2-tac1">
+							<num>1.</num>
+							<content>
+								<p> Осигурање депозита</p>
+							</content>
+						</point>
+						<point wId="gla4-clan12-stav2-tac2">
+							<num>2.</num>
+							<content>
+								<p> Управљање имовином пренетом у поступку реструктурирања банака</p>
+							</content>
+						</point>
+						<point wId="gla4-clan12-stav2-tac1">
+							<num>1.</num>
+							<content>
+								<p> Осигурање депозита</p>
+							</content>
+						</point>
+						<point wId="gla4-clan12-stav2-tac2">
+							<num>2.</num>
+							<content>
+								<p> Управљање имовином пренетом у поступку реструктурирања банака</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

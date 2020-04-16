@@ -1,0 +1,589 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о забрани развоја, производње, складиштења и употребе хемијског оружја и о његовом уништавању">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2009/36-7/main"/>
+					<FRBRuri value="/rs/act/2009/36-7"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2013/104-24/srp@/main"/>
+					<FRBRuri value="/rs/act/2013/104-24/srp@"/>
+					<FRBRdate date="2013-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2013/104-24/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2013/104-24/srp@.akn"/>
+					<FRBRdate date="2013-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2009-05-15" name="службени гласник рс“" number="36" showAs="Службени гласник РС“"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="II ОДБРАНА, ВОЈСКА И УНУТРАШЊИ ПОСЛОВИ" value="ii одбрана, војска и унутрашњи послови" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="5. Оружје, муниција, опасне и експлозивне материје" value="5. оружје, муниција, опасне и експлозивне материје" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2009-01-01" refersTo="36/2009-7" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2013-01-01" refersTo="104/2013-24" source="#somebody" type="amendment" wId="e2"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2009-05-11" wId="usvajanje"/>
+				<step by="#TODO" date="2009-05-23" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2009-05-23" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 23. маја 2009. године (види члан 51. Закона).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О забрани развоја, производње, складиштења и употребе хемијског оружја и о његовом уништавању "Службени гласник РС", бр. 36 од 15. маја 2009, 104 од 27. новембра 2013.</p>
+			</longTitle>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом прописују се забране и ограничења развоја, производње, складиштења и употребе хемијског оружја и хемијских супстанци које служе за производњу тог оружја, начин и услови управљања хемијским супстанцама са двоструком наменом, што обухвата њихову производњу, прераду, коришћење и складиштење, у складу са потврђеном   Конвенцијом о забрани развоја, производње, складиштења и употребе хемијског оружја и о његовом уништавању („<ref wId="ref0" href="akn/rs/act/00/2/srp@">Службени лист СРЈ – Међународи уговори”, број 2/00</ref>) – у даљем тексту: Конвенција, као и надзор над спровођењем овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<paragraph wId="gla1-clan2-stav1">
+						<intro>
+							<p>Поједини појмови употребљени у овом закону имају следеће значење:</p>
+						</intro>
+						<point wId="gla1-clan2-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> Хемијско оружје је:</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<subsection wId="gla1-podod1">
+					<num>а</num>
+					<heading> отровна хемијска супстанца и њени прекурсори, осим за сврхе које нису забрањене Конвенцијом, све док су врсте и количине у складу са циљевима Конвенције;</heading>
+				</subsection>
+				<subsection wId="gla1-podod2">
+					<num>б</num>
+					<heading> муниција и средства, посебно направљени да изазову смрт или повреде отровним својствима хемијских супстанци наведеним у тачки а) овог става;</heading>
+				</subsection>
+				<subsection wId="gla1-podod3">
+					<num>в</num>
+					<heading> свака опрема која је посебно пројектована за употребу у непосредној вези са муницијом и средствима наведеним у тачки б) овог става;</heading>
+					<point wId="gla1-podod3-clan2-tac2">
+						<num>2)</num>
+						<content>
+							<p> Отровна хемијска супстанца је свака хемијска супстанца која својим хемијским дејством на животне процесе може да изазове смрт, привремену онеспособљеност или трајне последице по људе или животиње, без обзира на њено порекло или начин на који је произведена;</p>
+						</content>
+					</point>
+					<point wId="gla1-podod3-clan2-tac3">
+						<num>3)</num>
+						<content>
+							<p> Прекурсор је сваки хемијски реактант који учествује у било ком стадијуму производње хемијске супстанце употребом било које методе, укључујући и било коју кључну компоненту бинарног или вишекомпонентног хемијског система,</p>
+						</content>
+					</point>
+					<point wId="gla1-podod3-clan2-tac4">
+						<num>4)</num>
+						<content>
+							<p> Производња отровне хемијске супстанце представља добијање те хемијске супстанце путем хемијске реакције;</p>
+						</content>
+					</point>
+					<point wId="gla1-podod3-clan2-tac5">
+						<num>5)</num>
+						<content>
+							<p> Прерада отровне хемијске супстанце представља физички поступак као што је израда смеша, екстракција или пречишћавање, при чему се једна отровна хемијска супстанца не претвара у другу отровну хемијску супстанцу,</p>
+						</content>
+					</point>
+					<point wId="gla1-podod3-clan2-tac6">
+						<num>6)</num>
+						<content>
+							<p> Коришћење отровне хемијске супстанце представља претварање те хемијске супстанце у другу хемијску супстанцу путем хемијске реакције,</p>
+						</content>
+					</point>
+					<point wId="gla1-podod3-clan2-tac7">
+						<num>7)</num>
+						<content>
+							<p> Анекс подразумева Анекс о хемикалијама уз Конвенцију, који чине Упутства за листу хемикалија и Листу 1, 2. и 3;</p>
+						</content>
+					</point>
+					<point wId="gla1-podod3-clan2-tac8">
+						<num>8)</num>
+						<content>
+							<p> Дискретна органска супстанца представља сваку хемијску супстанцу која припада  групи хемијских једињења која садржe угљеник, осим оксида и сулфида угљеника и  карбоната метала, а која се може идентификовати по хемијском називу, структурној  формули, ако је позната, и CAS броју, уколико је одређен;*</p>
+						</content>
+					</point>
+					<point wId="gla1-podod3-clan2-tac9">
+						<num>9)</num>
+						<content>
+							<p> PSF супстанца је органска хемијска супстанца која садржи елементе фосфор, сумпор или флуор.</p>
+						</content>
+					</point>
+					<article wId="gla1-podod3-clan3">
+						<num>3.</num>
+						<heading>*Службени гласник РС,  број 104/2013</heading>
+						<paragraph wId="gla1-podod3-clan3-stav1">
+							<intro>
+								<p>На територији Републике Србије забрањено је у било којим околностима:</p>
+							</intro>
+							<point wId="gla1-podod3-clan3-stav1-tac1">
+								<num>1)</num>
+								<content>
+									<p> развијати, производити, стицати, задржавати или, директно или индиректно преносити хемијско оружје на друга лица;</p>
+								</content>
+							</point>
+							<point wId="gla1-podod3-clan3-stav1-tac2">
+								<num>2)</num>
+								<content>
+									<p> употребљавати хемијско оружје;</p>
+								</content>
+							</point>
+							<point wId="gla1-podod3-clan3-stav1-tac3">
+								<num>3)</num>
+								<content>
+									<p> на било који начин укључивати у војне припреме употребу хемијског оружја;</p>
+								</content>
+							</point>
+							<point wId="gla1-podod3-clan3-stav1-tac4">
+								<num>4)</num>
+								<content>
+									<p> на било који начин помагати, охрабривати или подстицати друге да се укључе у активности које су забрањене овим законом;</p>
+								</content>
+							</point>
+							<point wId="gla1-podod3-clan3-stav1-tac5">
+								<num>5)</num>
+								<content>
+									<p> користити агенсе за сузбијање нереда као метод ратовања.</p>
+								</content>
+							</point>
+						</paragraph>
+					</article>
+					<article wId="gla1-podod3-clan4">
+						<num>4.</num>
+						<paragraph wId="gla1-podod3-clan4-stav1">
+							<intro>
+								<p>Забране из <ref wId="ref1" href="akn/rs/act/2013/104-24/srp@/!main~art_3" >члана 3. овог</ref> закона не односе се на производњу, поседовање, прераду и коришћење отровних хемијских супстанци и њихових прекурсора (у даљем тексту: хемијске супстанце) за сврхе које нису забрањене Конвенцијом, као што су:</p>
+							</intro>
+							<point wId="gla1-podod3-clan4-stav1-tac1">
+								<num>1)</num>
+								<content>
+									<p> индустријске, пољопривредне, истраживачке, медицинске, фармацеутске или друге мирољубиве сврхе;</p>
+								</content>
+							</point>
+							<point wId="gla1-podod3-clan4-stav1-tac2">
+								<num>2)</num>
+								<content>
+									<p> заштитне сврхе, односно, оне сврхе које се директно односе на заштиту од отровних хемијских супстанци и хемијског оружја;</p>
+								</content>
+							</point>
+							<point wId="gla1-podod3-clan4-stav1-tac3">
+								<num>3)</num>
+								<content>
+									<p> војне сврхе које нису у вези са употребом хемијског оружја и не зависе од употребе отровних својстава хемијских супстанци као метода ратовања.</p>
+								</content>
+							</point>
+						</paragraph>
+						<paragraph wId="gla1-podod3-clan4-stav2">
+							<content>
+								<p>Хемијске супстанце из <ref wId="ref2" href="akn/rs/act/2013/104-24/srp@/!main~art_4__para_1" >става 1. овог</ref> члана разврстане су на хемијске супстанце са Листе 1, 2. и 3. Анекса (у даљем тексту: Листе 1, 2. и 3). Листе 1, 2. и 3. чине саставни део овог закона и одштампане су уз њега.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="gla1-podod3-clan5">
+						<num>5.</num>
+						<paragraph wId="gla1-podod3-clan5-stav1">
+							<content>
+								<p>О производњи, преради, коришћењу и складиштењу хемијских супстанци са Листе 1, 2. и 3, о постројењима за њихову производњу, прераду и коришћење као и о постројењима за производњу дискретних органских супстанци мора се поднети декларација Организацији за забрану хемијског оружја (у даљем тексту: Организација), најкасније до 31. марта текуће године за претходну годину.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="gla1-podod3-clan6">
+						<num>6.</num>
+						<paragraph wId="gla1-podod3-clan6-stav1">
+							<content>
+								<p>Организација врши верификацију спровођења Конвенције у погледу производње, прераде, коришћења и складиштења хемијских супстанци, као и у погледу постројења за њихову производњу, прераду и коришћење, на основу декларације из <ref wId="ref3" href="akn/rs/act/2013/104-24/srp@/!main~art_5" >члана 5. овог</ref> закона и извештаја међународне инспекције.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="gla1-podod3-clan7">
+						<num>7.</num>
+						<paragraph wId="gla1-podod3-clan7-stav1">
+							<content>
+								<p>Забране из <ref wId="ref4" href="akn/rs/act/2013/104-24/srp@/!main~art_3" >члана 3. овог</ref> закона не односе се на хемијске супстанце које нису наведене у Листи 1, 2. и 3, а које служе у сврху одржавања јавног реда и потребе сузбијања унутрашњих нереда.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla1-podod3-clan7-stav2">
+							<content>
+								<p>О поседовању хемијске супстанце из <ref wId="ref5" href="akn/rs/act/2013/104-24/srp@/!main~art_7__para_1" >става 1. овог</ref> члана министарство надлежно за унутрашње послове подноси декларацију Организацији преко Комисије за спровођење Конвенције, најкасније 30 дана по прибављању нове хемијске супстанце за те намере.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla1-podod3-clan7-stav3">
+							<content>
+								<p>Декларација мора да садржи хемијски назив, структурну формулу и CAS број ако је одређен.</p>
+							</content>
+						</paragraph>
+					</article>
+				</subsection>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>КОМИСИЈА ЗА СПРОВОЂЕЊЕ КОНВЕНЦИЈЕ</heading>
+				<article wId="gla2-clan8">
+					<num>8.</num>
+					<paragraph wId="gla2-clan8-stav1">
+						<content>
+							<p>Комисија за спровођење Конвенције (у даљем тексту: Комисија) прати и координира активности у вези са спровођењем међународних обавеза из Конвенције, сарађује са Секретаријатом Организације и националним телима других држава чланица Конвенције, као и са међународном инспекцијом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav2">
+						<content>
+							<p>Комисију образује Влада.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan9">
+					<num>9.</num>
+					<paragraph wId="gla2-clan9-stav1">
+						<content>
+							<p>О спровођењу овог закона Комисија подноси извештај Влади најмање једном у шест месеци.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan10">
+					<num>10.</num>
+					<paragraph wId="gla2-clan10-stav1">
+						<content>
+							<p>Чланови Комисије и представници надлежних органа који учествују у спровођењу овог закона, дужни су да штите поверљиве информације до којих дођу у вршењу послова у вези са применом Конвенције.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>АКТИВНОСТИ КОЈЕ СУ ДОЗВОЉЕНЕ КОНВЕНЦИЈОМ</heading>
+				<point wId="gla3-clan10-tac1">
+					<num>1.</num>
+					<content>
+						<p> Обавеза пријављивања</p>
+					</content>
+				</point>
+				<article wId="gla3-clan11">
+					<num>11.</num>
+					<paragraph wId="gla3-clan11-stav1">
+						<content>
+							<p>Научни и војни институти, привредно друштво и друго правно лице (у даљем тексту: правно лице) пре започињања производње хемијске супстанце са Листе 1. морају имати одобрење министарства надлежног за одбрану.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan11-stav2">
+						<intro>
+							<p>Уз захтев за одобрење правно лице из <ref wId="ref6" href="akn/rs/act/2013/104-24/srp@/!main~art_11__para_1" >става 1. овог</ref> члана подноси податке:</p>
+						</intro>
+						<point wId="gla3-clan11-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> о фабрици, погону, односно постројењу за производњу хемијске супстанце са Листе 1;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan11-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> о количини која ће се производити;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan11-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> о хемијској супстанци која ће се производити;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan11-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> у које сврхе ће се користити произведена хемијска супстанца.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan11-stav3">
+						<content>
+							<p>Захтев из <ref wId="ref7" href="akn/rs/act/2013/104-24/srp@/!main~art_11__para_2" >става 2. овог</ref> члана мора се поднети најкасније 210 дана пре дана предузимања активности за које се тражи одобрење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan11-stav4">
+						<content>
+							<p>Министарство надлежно за одбрану издаће одобрење ако се према поднетим подацима може оценити да је сврха производње и количина хемијске супстанце у складу са <ref wId="ref8" href="akn/rs/act/2013/104-24/srp@/!main~art_18" >чланом 18. овог</ref> закона, као и да је постројење за производњу такво да одговара условима из чл. <ref wId="ref9" href="akn/rs/act/2013/104-24/srp@/!main~art_19" >19</ref>. и <ref wId="ref10" href="akn/rs/act/2013/104-24/srp@/!main~art_20" >20</ref>. овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan11-stav5">
+						<content>
+							<p>По издавању одобрења из <ref wId="ref11" href="akn/rs/act/2013/104-24/srp@/!main~art_11__para_4" >става 4. овог</ref> члана министарство надлежно за одбрану је дужно да о томе обавести Организацију преко Комисије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan12">
+					<num>12.</num>
+					<paragraph wId="gla3-clan12-stav1">
+						<content>
+							<p>Правно лице које користи или складишти хемијску супстанцу са Листе 1, односно производи, прерађује, користи или складишти хемијску супстанцу са Листе <ref wId="ref12" href="akn/rs/act/2013/104-24/srp@/!main~art_4__para_1__point_2" >2</ref>, односно производи хемијску супстанцу са Листе <ref wId="ref13" href="akn/rs/act/2013/104-24/srp@/!main~art_4__para_1__point_3" >3</ref>. у сврхе из члана 4. став 1. тач. 2) и 3) овог закона, као и власник, односно корисник фабрике, погона, односно постројења за њихову производњу, прераду и коришћење, дужни су да пре започињања своје делатности поднесу пријаву министарству надлежном за одбрану.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan12-stav2">
+						<intro>
+							<p>Пријава из <ref wId="ref14" href="akn/rs/act/2013/104-24/srp@/!main~art_12__para_1" >става 1. овог</ref> члана садржи нарочито:</p>
+						</intro>
+						<point wId="gla3-clan12-stav2-tac2">
+							<num>2.</num>
+							<content>
+								<p> Хемијске супстанце са Листе 1.</p>
+							</content>
+						</point>
+						<point wId="gla3-clan12-stav2-tac3">
+							<num>3.</num>
+							<content>
+								<p> Хемијске супстанце са Листе 2.</p>
+							</content>
+						</point>
+						<point wId="gla3-clan12-stav2-tac4">
+							<num>4.</num>
+							<content>
+								<p> Хемијске супстанце са Листе 3.</p>
+							</content>
+						</point>
+						<point wId="gla3-clan12-stav2-tac5">
+							<num>5.</num>
+							<content>
+								<p> Дискретне органске супстанце</p>
+							</content>
+						</point>
+						<point wId="gla3-clan12-stav2-tac6">
+							<num>6.</num>
+							<content>
+								<p> Декларације</p>
+							</content>
+						</point>
+						<point wId="gla3-clan12-stav2-tac1">
+							<num>1.</num>
+							<content>
+								<p> Међународна верификација</p>
+							</content>
+						</point>
+						<point wId="gla3-clan12-stav2-tac2">
+							<num>2.</num>
+							<content>
+								<p> Инспекцијски надзор</p>
+							</content>
+						</point>
+						<point wId="gla3-clan12-stav2-tac1">
+							<num>1.</num>
+							<content>
+								<p> Привредни преступи</p>
+							</content>
+						</point>
+						<point wId="gla3-clan12-stav2-tac2">
+							<num>2.</num>
+							<content>
+								<p> Прекршаји</p>
+							</content>
+						</point>
+						<point wId="gla3-clan12-stav2-tac1">
+							<num>1.</num>
+							<content>
+								<p> Обавеза пријављивања</p>
+							</content>
+						</point>
+						<point wId="gla3-clan12-stav2-tac2">
+							<num>2.</num>
+							<content>
+								<p> Хемијске супстанце са Листе 1.</p>
+							</content>
+						</point>
+						<point wId="gla3-clan12-stav2-tac3">
+							<num>3.</num>
+							<content>
+								<p> Хемијске супстанце са Листе 2.</p>
+							</content>
+						</point>
+						<point wId="gla3-clan12-stav2-tac4">
+							<num>4.</num>
+							<content>
+								<p> Хемијске супстанце са Листе 3.</p>
+							</content>
+						</point>
+						<point wId="gla3-clan12-stav2-tac5">
+							<num>5.</num>
+							<content>
+								<p> Дискретне органске супстанце</p>
+							</content>
+						</point>
+						<point wId="gla3-clan12-stav2-tac6">
+							<num>6.</num>
+							<content>
+								<p> Декларације</p>
+							</content>
+						</point>
+						<point wId="gla3-clan12-stav2-tac1">
+							<num>1.</num>
+							<content>
+								<p> Међународна верификација</p>
+							</content>
+						</point>
+						<point wId="gla3-clan12-stav2-tac2">
+							<num>2.</num>
+							<content>
+								<p> Инспекцијски надзор</p>
+							</content>
+						</point>
+						<point wId="gla3-clan12-stav2-tac1">
+							<num>1.</num>
+							<content>
+								<p> Привредни преступи</p>
+							</content>
+						</point>
+						<point wId="gla3-clan12-stav2-tac2">
+							<num>2.</num>
+							<content>
+								<p> Прекршаји</p>
+							</content>
+						</point>
+						<point wId="gla3-clan12-stav2-tac1">
+							<num>1.</num>
+							<content>
+								<p> Обавеза пријављивања</p>
+							</content>
+						</point>
+						<point wId="gla3-clan12-stav2-tac2">
+							<num>2.</num>
+							<content>
+								<p> Хемијске супстанце са Листе 1.</p>
+							</content>
+						</point>
+						<point wId="gla3-clan12-stav2-tac3">
+							<num>3.</num>
+							<content>
+								<p> Хемијске супстанце са Листе 2.</p>
+							</content>
+						</point>
+						<point wId="gla3-clan12-stav2-tac4">
+							<num>4.</num>
+							<content>
+								<p> Хемијске супстанце са Листе 3.</p>
+							</content>
+						</point>
+						<point wId="gla3-clan12-stav2-tac5">
+							<num>5.</num>
+							<content>
+								<p> Дискретне органске супстанце</p>
+							</content>
+						</point>
+						<point wId="gla3-clan12-stav2-tac6">
+							<num>6.</num>
+							<content>
+								<p> Декларације</p>
+							</content>
+						</point>
+						<point wId="gla3-clan12-stav2-tac1">
+							<num>1.</num>
+							<content>
+								<p> Међународна верификација</p>
+							</content>
+						</point>
+						<point wId="gla3-clan12-stav2-tac2">
+							<num>2.</num>
+							<content>
+								<p> Инспекцијски надзор</p>
+							</content>
+						</point>
+						<point wId="gla3-clan12-stav2-tac1">
+							<num>1.</num>
+							<content>
+								<p> Привредни преступи</p>
+							</content>
+						</point>
+						<point wId="gla3-clan12-stav2-tac2">
+							<num>2.</num>
+							<content>
+								<p> Прекршаји</p>
+							</content>
+						</point>
+						<point wId="gla3-clan12-stav2-tac1">
+							<num>1.</num>
+							<content>
+								<p> Обавеза пријављивања</p>
+							</content>
+						</point>
+						<point wId="gla3-clan12-stav2-tac2">
+							<num>2.</num>
+							<content>
+								<p> Хемијске супстанце са Листе 1.</p>
+							</content>
+						</point>
+						<point wId="gla3-clan12-stav2-tac3">
+							<num>3.</num>
+							<content>
+								<p> Хемијске супстанце са Листе 2.</p>
+							</content>
+						</point>
+						<point wId="gla3-clan12-stav2-tac4">
+							<num>4.</num>
+							<content>
+								<p> Хемијске супстанце са Листе 3.</p>
+							</content>
+						</point>
+						<point wId="gla3-clan12-stav2-tac5">
+							<num>5.</num>
+							<content>
+								<p> Дискретне органске супстанце</p>
+							</content>
+						</point>
+						<point wId="gla3-clan12-stav2-tac6">
+							<num>6.</num>
+							<content>
+								<p> Декларације</p>
+							</content>
+						</point>
+						<point wId="gla3-clan12-stav2-tac1">
+							<num>1.</num>
+							<content>
+								<p> Међународна верификација</p>
+							</content>
+						</point>
+						<point wId="gla3-clan12-stav2-tac2">
+							<num>2.</num>
+							<content>
+								<p> Инспекцијски надзор</p>
+							</content>
+						</point>
+						<point wId="gla3-clan12-stav2-tac1">
+							<num>1.</num>
+							<content>
+								<p> Привредни преступи</p>
+							</content>
+						</point>
+						<point wId="gla3-clan12-stav2-tac2">
+							<num>2.</num>
+							<content>
+								<p> Прекршаји</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

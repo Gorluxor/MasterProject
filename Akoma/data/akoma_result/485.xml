@@ -1,0 +1,1036 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о јавним предузећима">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2016/15-3/main"/>
+					<FRBRuri value="/rs/act/2016/15-3"/>
+					<FRBRdate date="2016-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2019/88-5/srp@/main"/>
+					<FRBRuri value="/rs/act/2019/88-5/srp@"/>
+					<FRBRdate date="2019-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2019/88-5/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2019/88-5/srp@.akn"/>
+					<FRBRdate date="2019-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2016-02-25" name="службени гласник рс" number="15" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="IX ОПШТИ ПРИВРЕДНИ ПРОПИСИ И ЕКОНОМСКИ ОДНОСИ СА ИНОСТРАНСТВОМ" value="ix општи привредни прописи и економски односи са иностранством" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="1. Привредна друштва, предузећа и предузетници" value="1. привредна друштва, предузећа и предузетници" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2016-01-01" refersTo="15/2016-3" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2019-01-01" refersTo="88/2019-5" source="#somebody" type="amendment" wId="e2"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2016-02-24" wId="usvajanje"/>
+				<step by="#TODO" date="2016-03-04" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2016-03-04" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 4. марта 2016. године (види члан 83. Закона).Оснивачи јавних предузећа и друштава капитала из члана 3. став 2. тач. 1) и 2) овог закона ускладиће оснивачка акта са одредбама овог закона у року од шест месеци од дана ступања на снагу овог закона. Јавна предузећа, као и друштва капитала из члана 3. став 2. тач. 1) и 2) овог закона дужни су да своја општа акта усагласе са овим законом и оснивачким актом, у року од 90 дана од дана усклађивања оснивачких аката са одредбама овог закона (види члан 79. Закона).Уговори о поверавању обављања делатности од општег интереса закључени у складу са одредбом члана 8. Закона о јавним предузећима („Службени гласник РС”, бр. 119/12, 116/13 – аутентично тумачење и 44/14 – др. закон) остају на снази, а анекси ових уговора закључиваће се на начин и под условима под којима је закључен основни уговор (види члан 80. Закона).Поступци започети до дана ступања на снагу овог закона, а који се односе на располагање имовином јавног предузећа велике вредности која је у непосредној функцији обављања делатности за коју је основано јавно предузеће, наставиће се и окончати у складу са прописима по којима су и започети (види члан 81. Закона).Влада ће донети подзаконске акте из члана 18. став 3, члана 29. став 2. и члана 75. став 2. овог закона у року од шест месеци од дана ступања на снагу овог закона. Влада ће донети подзаконске акте из члана 23. став 2, члана 40. став 4. и члана 66. став 2. овог закона у року од 90 дана од дана ступања на снагу овог закона. Јавно предузеће ће донети дугорочни и средњорочни план пословне стратегије и развоја из члана 59. став 1. овог закона у року од годину дана од дана ступања на снагу овог закона. Министар надлежан за послове привреде донеће обрасце из члана 63. став 4. овог закона у року од 60 дана од дана ступања на снагу овог закона (види члан 82. Закона).До доношења подзаконских акта из чл. 40. и 66. овог закона, примењиваће се Уредба о мерилима за именовање директора јавног предузећа чији је оснивач Република Србија („Службени гласник РС”, број 102/13) и Уредба о начину и контроли обрачуна и исплате зарада у јавним предузећима („Службени гласник РС”, број 27/14) (види члан 83. Закона).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О јавним предузећима "Службени гласник РС", бр. 15 од 25. фебруара 2016, 88 од 13. децембра 2019.</p>
+			</longTitle>
+			<p>Редакцијски пречишћен текст</p>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>УВОДНЕ ОДРЕДБЕ</heading>
+				<section wId="gla1-od1">
+					<num>1.</num>
+					<heading> Предмет закона</heading>
+					<article wId="gla1-od1-clan1">
+						<num>1.</num>
+						<paragraph wId="gla1-od1-clan1-stav1">
+							<content>
+								<p>Овим законом уређује се правни положај јавних предузећа и других облика организовања који обављају делатност од општег интереса, а нарочито оснивање, пословање, управљање, имовина и друга питања од значаја за њихов положај.</p>
+							</content>
+						</paragraph>
+					</article>
+				</section>
+				<section wId="gla1-od2">
+					<num>2.</num>
+					<heading> Делатности од општег интереса</heading>
+					<article wId="gla1-od2-clan2">
+						<num>2.</num>
+						<paragraph wId="gla1-od2-clan2-stav1">
+							<content>
+								<p>Делатности од општег интереса, у смислу овог закона, јесу делатности које су као такве одређене законом у области: рударства и енергетике, саобраћаја, електронских комуникација, издавања службеног гласила Републике Србије и издавања уџбеника, нуклеарних објеката, наоружања и војне опреме, коришћења, управљања, заштите, уређивања и унапређивања добара од општег интереса и добара у општој употреби (воде, путеви, шуме, пловне реке, језера, обале, бање, дивљач, заштићена подручја и др.), управљањa отпадом и другим областима.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla1-od2-clan2-stav2">
+							<content>
+								<p>Делатности у смислу <ref wId="ref0" href="akn/rs/act/2019/88-5/srp@/!main~art_2__para_1" >става 1. овог</ref> члана јесу и комуналне делатности, као и друге делатности одређене законом као делатности од општег интереса.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla1-od2-clan2-stav3">
+							<content>
+								<p>У оквиру обављања делатности из <ref wId="ref1" href="akn/rs/act/2019/88-5/srp@/!main~art_2__para_1" >става 1. овог</ref> члана из области енергетике пружају се услуге од општег економског интереса.</p>
+							</content>
+						</paragraph>
+					</article>
+				</section>
+				<section wId="gla1-od3">
+					<num>3.</num>
+					<heading> Појам јавног предузећа и других облика организовања</heading>
+					<article wId="gla1-od3-clan3">
+						<num>3.</num>
+						<paragraph wId="gla1-od3-clan3-stav1">
+							<content>
+								<p>Јавно предузеће jе предузеће које обавља делатност од општег интереса, а које оснива Република Србија, аутономна покрајина или јединица локалне самоуправе (у даљем тексту: јавно предузеће).</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla1-od3-clan3-stav2">
+							<intro>
+								<p>Поред јавног предузећа, делатност од општег интереса може да обавља и:</p>
+							</intro>
+							<point wId="gla1-od3-clan3-stav2-tac1">
+								<num>1)</num>
+								<content>
+									<p> друштво с ограниченом одговорношћу и акционарско друштво (у даљем тексту: друштво капитала) чији је једини власник јавно предузеће;</p>
+								</content>
+							</point>
+							<point wId="gla1-od3-clan3-stav2-tac2">
+								<num>2)</num>
+								<content>
+									<p> друштво капитала чији је једини власник Република Србија, аутономна покрајина, јединица локалне самоуправе, као и зависно друштво чији је једини власник то друштво капитала;</p>
+								</content>
+							</point>
+							<point wId="gla1-od3-clan3-stav2-tac3">
+								<num>3)</num>
+								<content>
+									<p> друго друштво капитала и предузетник, коме је надлежни орган поверио обављање те делатности.</p>
+								</content>
+							</point>
+						</paragraph>
+					</article>
+				</section>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ЦИЉ ОСНИВАЊА, ОСНИВАЊЕ И ПОСЛОВАЊЕ ЈАВНОГ ПРЕДУЗЕЋА</heading>
+				<point wId="gla2-clan3-tac1">
+					<num>1.</num>
+					<content>
+						<p> Циљ оснивања јавног предузећа</p>
+					</content>
+				</point>
+				<article wId="gla2-clan4">
+					<num>4.</num>
+					<paragraph wId="gla2-clan4-stav1">
+						<intro>
+							<p>Јавно предузеће и друштво капитала из члана 3. став <ref wId="ref3" href="akn/rs/act/2019/88-5/srp@/!main~art_3__para_2__point_2" >2</ref>. тач. <ref wId="ref2" href="akn/rs/act/2019/88-5/srp@/!main~art_3__para_2__point_1" >1</ref>) и 2) овог закона оснива се и послује ради:</p>
+						</intro>
+						<point wId="gla2-clan4-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> обезбеђивања трајног обављања делатности од општег интереса и редовног задовољавања потреба корисника производа и услуга;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan4-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> развоја и унапређивања обављања делатности од општег интереса;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan4-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> обезбеђивања техничко-технолошког и економског јединства система и усклађености његовог развоја;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan4-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> стицања добити;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan4-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> остваривања другог законом утврђеног интереса.</p>
+							</content>
+						</point>
+						<point wId="gla2-clan4-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Оснивање јавног предузећа</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan5">
+					<num>5.</num>
+					<paragraph wId="gla2-clan5-stav1">
+						<content>
+							<p>Ако јавно предузеће оснива Република Србија, акт о оснивању јавног предузећа доноси Влада, која врши права оснивача.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav2">
+						<content>
+							<p>Ако јавно предузеће оснива аутономна покрајина, акт о оснивању јавног предузећа доноси скупштина аутономне покрајине, која врши права оснивача.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav3">
+						<content>
+							<p>Ако јавно предузеће оснива јединица локалне самоуправе, акт о оснивању јавног предузећа доноси скупштина јединице локалне самоуправе, која врши права оснивача.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan6">
+					<num>6.</num>
+					<paragraph wId="gla2-clan6-stav1">
+						<intro>
+							<p>Акт о оснивању јавног предузећа (у даљем тексту: оснивачки акт) садржи одредбе о:</p>
+						</intro>
+						<point wId="gla2-clan6-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> називу, седишту и матичном броју оснивача;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> пословном имену и седишту јавног предузећа;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> претежној делатности јавног предузећа;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> правима, обавезама и одговорностима оснивача према јавном предузећу и јавног предузећа према оснивачу;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> условима и начину утврђивања и распоређивања добити, односно начину покрића губитка и сношењу ризика;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> условима и начину задужења јавног предузећа;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> заступању јавног предузећа;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> износу основног капитала, као и опису, врсти и вредности неновчаног улога;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> податак о уделима оснивача у основном капиталу израженог у процентима;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p> органима јавног предузећа и њиховој надлежности;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac11">
+							<num>11)</num>
+							<content>
+								<p> имовини која се не може отуђити;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac12">
+							<num>12)</num>
+							<content>
+								<p> о располагању стварима у јавној својини која су пренета у својину јавног предузећа у складу са законом;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac13">
+							<num>13)</num>
+							<content>
+								<p> заштити животне средине;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac14">
+							<num>14)</num>
+							<content>
+								<p> другим питањима која су од значаја за несметано обављање делатности за коју се оснива јавно предузеће.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav2">
+						<intro>
+							<p>Акт о оснивању друштва капитала из члана 3. став <ref wId="ref6" href="akn/rs/act/2019/88-5/srp@/!main~art_3__para_2__point_2" >2</ref>. тач. <ref wId="ref5" href="akn/rs/act/2019/88-5/srp@/!main~art_3__para_2__point_1" >1</ref>) и 2), поред одредаба из <ref wId="ref4" href="akn/rs/act/2019/88-5/srp@/!main~art_6__para_1" >става 1. овог</ref> члана, садржи и одредбе прописане законом којим се уређује његов правни положај и правна форма.</p>
+						</intro>
+						<point wId="gla2-clan6-stav2-tac3">
+							<num>3.</num>
+							<content>
+								<p> Услови за обављање делатности од општег интереса</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan7">
+					<num>7.</num>
+					<paragraph wId="gla2-clan7-stav1">
+						<intro>
+							<p>Јавно предузеће, друштво капитала и предузетник из <ref wId="ref7" href="akn/rs/act/2019/88-5/srp@/!main~art_3" >члана 3. овог</ref> закона, могу да отпочну обављање делатности од општег интереса кад надлежни државни орган, односно ималац јавних овлашћења, у складу са законом, утврди да су испуњени услови за обављање те делатности у погледу:</p>
+						</intro>
+						<point wId="gla2-clan7-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> техничке опремљености;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> кадровске оспособљености;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> безбедности и здравља на раду;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> заштите и унапређења животне средине;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> других услова прописаних законом.</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac4">
+							<num>4.</num>
+							<content>
+								<p> Упис у регистар</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan8">
+					<num>8.</num>
+					<paragraph wId="gla2-clan8-stav1">
+						<content>
+							<p>Јавно предузеће стиче својство правног лица уписом у регистар у складу са законом којим се уређује правни положај и поступак регистрације привредних друштава.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan9">
+					<num>9.</num>
+					<paragraph wId="gla2-clan9-stav1">
+						<intro>
+							<p>Поверавање обављања делатности од општег интереса друштву капитала и предузетнику из члана <ref wId="ref8" href="akn/rs/act/2019/88-5/srp@/!main~art_3__para_2__point_3" >3</ref>. став 2. тачка 3) овог закона врши се у складу са законом којим се уређује јавно-приватно партнерство и концесије, осим ако посебним законом није другачије прописано.</p>
+						</intro>
+						<point wId="gla2-clan9-stav1-tac5">
+							<num>5.</num>
+							<content>
+								<p> Имовина и основни капитал</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan10">
+					<num>10.</num>
+					<paragraph wId="gla2-clan10-stav1">
+						<content>
+							<p>Јавно предузеће и друштвo капитала из члана 3. став <ref wId="ref10" href="akn/rs/act/2019/88-5/srp@/!main~art_3__para_2__point_2" >2</ref>. тач. <ref wId="ref9" href="akn/rs/act/2019/88-5/srp@/!main~art_3__para_2__point_1" >1</ref>) и 2) овог закона својом имовином управљају и располажу у складу са законом и оснивачким актом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav2">
+						<content>
+							<p>Имовину јавног предузећа и друштвa капитала из <ref wId="ref11" href="akn/rs/act/2019/88-5/srp@/!main~art_10__para_1" >става 1. овог</ref> члана чине право својине на покретним и непокретним стварима, новчана средства и хартије од вредности и друга имовинска права, која су пренета у својину јавног предузећа у складу са законом, укључујући и право коришћења на стварима у јавној својини.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav3">
+						<content>
+							<p>Друштво капитала и предузетник из члана <ref wId="ref12" href="akn/rs/act/2019/88-5/srp@/!main~art_3__para_2__point_3" >3</ref>. став 2. тачка 3) овог закона јавном својином управљају у складу са законом којим се уређује право јавне својине и уговором.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav4">
+						<content>
+							<p>Друштво капитала и предузетник из <ref wId="ref13" href="akn/rs/act/2019/88-5/srp@/!main~art_10__para_3" >става 3. овог</ref> члана својом имовином управљају и располажу у складу са законом којим се уређује правни положај привредних друштава и уговором.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav5">
+						<content>
+							<p>Основни капитал јавног предузећа и друштва капитала из <ref wId="ref14" href="akn/rs/act/2019/88-5/srp@/!main~art_10__para_1" >става 1. овог</ref> члана је вредност уписаних улога њихових оснивача или чланова, изражена у новцу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav6">
+						<content>
+							<p>Вредност неновчаног улога оснивача или члана утврђује се на основу процене извршене на начин прописан законом којим се уређује правни положај привредних друштава.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav7">
+						<intro>
+							<p>По основу улагања у капитал, оснивач стиче удео у јавном предузећу или уделе и акције у друштву капитала, као и права по основу стечених удела, односно акција.</p>
+						</intro>
+						<point wId="gla2-clan10-stav7-tac6">
+							<num>6.</num>
+							<content>
+								<p> Оснивачка права и улагање капитала</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan11">
+					<num>11.</num>
+					<paragraph wId="gla2-clan11-stav1">
+						<content>
+							<p>Јавно предузеће може, уз претходну сагласност оснивача, основати друштво капитала за обављање делатности од општег интереса и друштво капитала за обављање делатности која није делатност од општег интереса.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan12">
+					<num>12.</num>
+					<paragraph wId="gla2-clan12-stav1">
+						<intro>
+							<p>Јавно предузеће може улагати капитал у већ основана друштва капитала, уз претходну сагласност оснивача.</p>
+						</intro>
+						<point wId="gla2-clan12-stav1-tac7">
+							<num>7.</num>
+							<content>
+								<p> Одговорност за обавезе</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan13">
+					<num>13.</num>
+					<paragraph wId="gla2-clan13-stav1">
+						<content>
+							<p>Јавно предузеће за своје обавезе одговара целокупном својом имовином.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan14">
+					<num>14.</num>
+					<paragraph wId="gla2-clan14-stav1">
+						<content>
+							<p>Оснивач је дужан да обезбеди да се делатност од општег интереса обавља у континуитету.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan14-stav2">
+						<content>
+							<p>Оснивач не може основати друго јавно предузеће или друштво капитала из члана 3. став <ref wId="ref16" href="akn/rs/act/2019/88-5/srp@/!main~art_3__para_2__point_2" >2</ref>. тач. <ref wId="ref15" href="akn/rs/act/2019/88-5/srp@/!main~art_3__para_2__point_1" >1</ref>) и 2) овог закона за обављање исте делатности од општег интереса, осим у случајевима реализације пројеката јавно-приватног партнерства, у смислу закона којим се уређује јавно-приватно партнерство и концесије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan14-stav3">
+						<intro>
+							<p>Одредба <ref wId="ref17" href="akn/rs/act/2019/88-5/srp@/!main~art_14__para_2" >става 2. овог</ref> члана не примењује се на град и град Београд.</p>
+						</intro>
+						<point wId="gla2-clan14-stav3-tac8">
+							<num>8.</num>
+							<content>
+								<p> Органи јавног предузећа</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan15">
+					<num>15.</num>
+					<paragraph wId="gla2-clan15-stav1">
+						<intro>
+							<p>Органи јавног предузећа су:</p>
+						</intro>
+						<point wId="gla2-clan15-stav1-tac9">
+							<num>9.</num>
+							<content>
+								<p> Поступак за именовање директора</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac10">
+							<num>10.</num>
+							<content>
+								<p> Престанак мандата</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac11">
+							<num>11.</num>
+							<content>
+								<p> Суспензија</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac12">
+							<num>12.</num>
+							<content>
+								<p> Вршилац дужности</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac13">
+							<num>13.</num>
+							<content>
+								<p> Сукоб интереса</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac14">
+							<num>14.</num>
+							<content>
+								<p> Комисија за ревизију</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac15">
+							<num>15.</num>
+							<content>
+								<p> Општи акти</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac16">
+							<num>16.</num>
+							<content>
+								<p> Расподела добити</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac17">
+							<num>17.</num>
+							<content>
+								<p> Однос према оснивачу</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac18">
+							<num>18.</num>
+							<content>
+								<p> Овлашћења оснивача</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac19">
+							<num>19.</num>
+							<content>
+								<p> Обезбеђивање заштите општег интереса</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac20">
+							<num>20.</num>
+							<content>
+								<p> Јавност у раду</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac21">
+							<num>21.</num>
+							<content>
+								<p> Остваривање права на штрајк</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac22">
+							<num>22.</num>
+							<content>
+								<p> Привредна друштва од стратешког значаја за Републику Србију</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac23">
+							<num>23.</num>
+							<content>
+								<p> Надзор</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Предмет закона</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Делатности од општег интереса</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Појам јавног предузећа и других облика организовања</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Циљ оснивања јавног предузећа</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Оснивање јавног предузећа</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Услови за обављање делатности од општег интереса</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac4">
+							<num>4.</num>
+							<content>
+								<p> Упис у регистар</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac5">
+							<num>5.</num>
+							<content>
+								<p> Имовина и основни капитал</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac6">
+							<num>6.</num>
+							<content>
+								<p> Оснивачка права и улагање капитала</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac7">
+							<num>7.</num>
+							<content>
+								<p> Одговорност за обавезе</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac8">
+							<num>8.</num>
+							<content>
+								<p> Органи јавног предузећа</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac9">
+							<num>9.</num>
+							<content>
+								<p> Поступак за именовање директора</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac10">
+							<num>10.</num>
+							<content>
+								<p> Престанак мандата</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac11">
+							<num>11.</num>
+							<content>
+								<p> Суспензија</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac12">
+							<num>12.</num>
+							<content>
+								<p> Вршилац дужности</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac13">
+							<num>13.</num>
+							<content>
+								<p> Сукоб интереса</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac14">
+							<num>14.</num>
+							<content>
+								<p> Комисија за ревизију</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac15">
+							<num>15.</num>
+							<content>
+								<p> Општи акти</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac16">
+							<num>16.</num>
+							<content>
+								<p> Расподела добити</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac17">
+							<num>17.</num>
+							<content>
+								<p> Однос према оснивачу</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac18">
+							<num>18.</num>
+							<content>
+								<p> Овлашћења оснивача</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac19">
+							<num>19.</num>
+							<content>
+								<p> Обезбеђивање заштите општег интереса</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac20">
+							<num>20.</num>
+							<content>
+								<p> Јавност у раду</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac21">
+							<num>21.</num>
+							<content>
+								<p> Остваривање права на штрајк</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac22">
+							<num>22.</num>
+							<content>
+								<p> Привредна друштва од стратешког значаја за Републику Србију</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac23">
+							<num>23.</num>
+							<content>
+								<p> Надзор</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Предмет закона</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Делатности од општег интереса</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Појам јавног предузећа и других облика организовања</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Циљ оснивања јавног предузећа</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Оснивање јавног предузећа</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Услови за обављање делатности од општег интереса</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac4">
+							<num>4.</num>
+							<content>
+								<p> Упис у регистар</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac5">
+							<num>5.</num>
+							<content>
+								<p> Имовина и основни капитал</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac6">
+							<num>6.</num>
+							<content>
+								<p> Оснивачка права и улагање капитала</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac7">
+							<num>7.</num>
+							<content>
+								<p> Одговорност за обавезе</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac8">
+							<num>8.</num>
+							<content>
+								<p> Органи јавног предузећа</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac9">
+							<num>9.</num>
+							<content>
+								<p> Поступак за именовање директора</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac10">
+							<num>10.</num>
+							<content>
+								<p> Престанак мандата</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac11">
+							<num>11.</num>
+							<content>
+								<p> Суспензија</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac12">
+							<num>12.</num>
+							<content>
+								<p> Вршилац дужности</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac13">
+							<num>13.</num>
+							<content>
+								<p> Сукоб интереса</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac14">
+							<num>14.</num>
+							<content>
+								<p> Комисија за ревизију</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac15">
+							<num>15.</num>
+							<content>
+								<p> Општи акти</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac16">
+							<num>16.</num>
+							<content>
+								<p> Расподела добити</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac17">
+							<num>17.</num>
+							<content>
+								<p> Однос према оснивачу</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac18">
+							<num>18.</num>
+							<content>
+								<p> Овлашћења оснивача</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac19">
+							<num>19.</num>
+							<content>
+								<p> Обезбеђивање заштите општег интереса</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac20">
+							<num>20.</num>
+							<content>
+								<p> Јавност у раду</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac21">
+							<num>21.</num>
+							<content>
+								<p> Остваривање права на штрајк</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac22">
+							<num>22.</num>
+							<content>
+								<p> Привредна друштва од стратешког значаја за Републику Србију</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac23">
+							<num>23.</num>
+							<content>
+								<p> Надзор</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Предмет закона</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Делатности од општег интереса</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Појам јавног предузећа и других облика организовања</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Циљ оснивања јавног предузећа</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Оснивање јавног предузећа</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Услови за обављање делатности од општег интереса</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac4">
+							<num>4.</num>
+							<content>
+								<p> Упис у регистар</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac5">
+							<num>5.</num>
+							<content>
+								<p> Имовина и основни капитал</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac6">
+							<num>6.</num>
+							<content>
+								<p> Оснивачка права и улагање капитала</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac7">
+							<num>7.</num>
+							<content>
+								<p> Одговорност за обавезе</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac8">
+							<num>8.</num>
+							<content>
+								<p> Органи јавног предузећа</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac9">
+							<num>9.</num>
+							<content>
+								<p> Поступак за именовање директора</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac10">
+							<num>10.</num>
+							<content>
+								<p> Престанак мандата</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac11">
+							<num>11.</num>
+							<content>
+								<p> Суспензија</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac12">
+							<num>12.</num>
+							<content>
+								<p> Вршилац дужности</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac13">
+							<num>13.</num>
+							<content>
+								<p> Сукоб интереса</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac14">
+							<num>14.</num>
+							<content>
+								<p> Комисија за ревизију</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac15">
+							<num>15.</num>
+							<content>
+								<p> Општи акти</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac16">
+							<num>16.</num>
+							<content>
+								<p> Расподела добити</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac17">
+							<num>17.</num>
+							<content>
+								<p> Однос према оснивачу</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac18">
+							<num>18.</num>
+							<content>
+								<p> Овлашћења оснивача</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac19">
+							<num>19.</num>
+							<content>
+								<p> Обезбеђивање заштите општег интереса</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac20">
+							<num>20.</num>
+							<content>
+								<p> Јавност у раду</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac21">
+							<num>21.</num>
+							<content>
+								<p> Остваривање права на штрајк</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac22">
+							<num>22.</num>
+							<content>
+								<p> Привредна друштва од стратешког значаја за Републику Србију</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac23">
+							<num>23.</num>
+							<content>
+								<p> Надзор</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

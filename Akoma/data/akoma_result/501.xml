@@ -1,0 +1,873 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о спољнотрговинском пословању">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2009/36-163/main"/>
+					<FRBRuri value="/rs/act/2009/36-163"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2015/89-3/srp@/main"/>
+					<FRBRuri value="/rs/act/2015/89-3/srp@"/>
+					<FRBRdate date="2015-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2015/89-3/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2015/89-3/srp@.akn"/>
+					<FRBRdate date="2015-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2009-05-15" name="“службени гласник рс" number="36" showAs="“Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="IX ОПШТИ ПРИВРЕДНИ ПРОПИСИ И ЕКОНОМСКИ ОДНОСИ СА ИНОСТРАНСТВОМ" value="ix општи привредни прописи и економски односи са иностранством" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="7. Спољнотрговинско пословање" value="7. спољнотрговинско пословање" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2009-01-01" refersTo="36/2009-163" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2011-01-01" refersTo="36/2011-3" source="#somebody" type="amendment" wId="e2"/>
+				<eventRef date="2011-01-01" refersTo="88/2011-50" source="#somebody" type="amendment" wId="e3"/>
+				<eventRef date="2015-01-01" refersTo="89/2015-3" source="#somebody" type="amendment" wId="e4"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2009-05-13" wId="usvajanje"/>
+				<step by="#TODO" date="2009-05-23" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2009-05-23" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 23. маја 2009. године (види члан 53. Закона).До доношења прописа за извршавање овог закона, примењиваће се прописи донети на основу Закона о спољнотрговинском пословању („Службени гласник РС“, број 101/2005) (види члан 52. Закона).Закон о изменама и допунама Закона о спољнотрговинском пословању (Службени гласник РС, број 88/2011) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, а примењује се од 1. фебруара 2012. године (види члан 24. Закона - 88/2011-50).Престала је да важи глава VIII „Промоција извоза и страних улагања” даном ступања на снагу Закона о улагањима (Службени гласник РС, број 89/2015), односно 4. новембра 2015. године (види члан 46. Закона - 89/2015-3).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О спољнотрговинском пословању “Службени гласник РС”, бр. 36 од 15. маја 2009, 36 од 27. маја 2011. - др. закон, 88 од 24. новембра 2011, 89 од 27. октобра 2015 - др. закон</p>
+			</longTitle>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<heading>Предмет закона</heading>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређује се спољнотрговинско пословање у складу са правилима Светске  трговинске организације (СТО) и прописима Европске уније (ЕУ), као и надлежност  Агенције за страна улагања и промоцију извоза.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav2">
+						<content>
+							<p>Спољнотрговинско пословање је спољнотрговински промет робе и услуга и обављање  привредних делатности страног лица у Републици Србији и домаћег лица у другој  држави или царинској територији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav3">
+						<content>
+							<p>Спољнотрговински промет поједином врстом робе и услуге може се посебно уредити у  складу са правилима СТО и прописима ЕУ.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav4">
+						<content>
+							<p>Спољна трговина наоружањем, војном опремом и робом двоструке намене уређује се  посебним законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<heading>Значење појединих појмова</heading>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Спољнотрговински промет је промет између домаћих и страних лица који се обавља  на основу уговора закључених у складу са домаћим прописима и међународним  уговорима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav2">
+						<content>
+							<p>Обављање привредних делатности обухвата директно улагање и инвестиционе радове  страног лица у Републици Србији, односно домаћег лица у другој држави или  царинској територији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav3">
+						<intro>
+							<p>У  смислу <ref wId="ref0" href="akn/rs/act/2015/89-3/srp@/!main~art_2__para_2" >става 2. овог</ref> члана:</p>
+						</intro>
+						<point wId="gla1-clan2-stav3-tac1">
+							<num>1)</num>
+							<content>
+								<p> директно улагање је оснивање привредног друштва, огранка, представништва,  куповина удела или акција у капиталу привредног друштва, докапитализација  привредног друштва и сваки други облик улагања страног лица у Републици Србији,  односно домаћег лица у другој држави или царинској територији.</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav3-tac2">
+							<num>2)</num>
+							<content>
+								<p> инвестициони радови су пројектовање, грађевински и занатски радови,  инжењерски радови и сви остали радови и услуге на објектима које врши, односно  пружа страно лице у Републици Србији, односно домаће лице у другој држави или  царинској територији.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<heading>Лица у спољнотрговинском пословању</heading>
+					<paragraph wId="gla1-clan3-stav1">
+						<content>
+							<p>Домаће лице, у смислу овог закона је, правно лице, огранак домаћег и страног  правног лица и предузетник који имају седиште, односно који су регистровани у  Републици Србији, као и физичко лице које има пребивалиште у Републици Србији,  осим физичког лица које има пребивалиште, односно боравиште ван Републике Србије  дуже од годину дана.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav2">
+						<content>
+							<p>Страно лице, у смислу овог закона, је свако лице које није наведено у <ref wId="ref1" href="akn/rs/act/2015/89-3/srp@/!main~art_3__para_1" >ставу  1. овог</ref> члана.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav3">
+						<content>
+							<p>*<ref wId="ref2" href="akn/rs/act/2011/88/srp@">Службени гласник РС, 88/2011</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<heading>Брисан је назив изнад члана 4. (види члан 2. Закона - 88/2011-50)</heading>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>Брисан је  (види <ref wId="ref3" href="akn/rs/act/2011/88/srp@/!main~/art_2">члан 2. Закона - 88/2011-50</ref>)</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ПРИНЦИПИ СПОЉНОТРГОВИНСКОГ ПОСЛОВАЊА</heading>
+				<article wId="gla2-clan5">
+					<num>5.</num>
+					<heading>Слобода спољнотрговинског  промета робом*</heading>
+					<paragraph wId="gla2-clan5-stav1">
+						<content>
+							<p>Спољнотрговински промет робом је слободан и може се ограничити само у складу  са одредбама овог закона.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav2">
+						<content>
+							<p>Домаћа и страна правна лица, њихови огранци, као и предузетници, стичу право  и обављају спољнотрговински промет робом под једнаким условима.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav3">
+						<content>
+							<p>Представништво страног правног лица обавља послове везане за  спољнотрговинско пословање у складу са законом којим се уређују привредна  друштва.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav4">
+						<content>
+							<p>Домаћа и страна физичка лица имају иста права у спољнотрговинском промету  робом и тај промет обављају искључиво за сопствене потребе.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav5">
+						<content>
+							<p>Државни органи, верске, спортске, хуманитарне и остале организације  спољнотрговински промет робом обављају искључиво за сопствене потребе.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav6">
+						<content>
+							<p>*<ref wId="ref4" href="akn/rs/act/2011/88/srp@">Службени гласник РС, 88/2011</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan6">
+					<num>6.</num>
+					<heading>Третман најповлашћеније нације</heading>
+					<paragraph wId="gla2-clan6-stav1">
+						<content>
+							<p>Третман најповлашћеније нације се примењује* у спољнотрговинском промету са   државом или царинском територијом* којој је овај третман додељен  међународним споразумом или одлуком Владе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav2">
+						<content>
+							<p>Третман најповлашћеније нације у односу на робу, у  смислу овог закона, подразумева да се све предности, погодности, повластице или  изузећа које Република Србија одобри било којој роби пореклом из или која је  намењена другој држави или царинској територији, одмах и без одлагања одобравају  истој или сличној роби пореклом из или која је намењена било којој држави или  цaринској територији.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav3">
+						<content>
+							<p>Третман најповлашћеније нације у односу на услуге, у  смислу овог закона, подразумева третман услуга и пружаоца услуга, који потичу из  једне државе или царинске територије, који није неповољнији од третмана сличних  услуга и пружаоца сличних услуга из било које друге државе или царинске  територије.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav4">
+						<content>
+							<p>Третман најповлашћеније нације не укључује* услове који су одобрени споразумом о слободној трговини, споразумом о  царинској унији, аранжманом о пограничној трговини и услове одобрене или  засноване на прелазним споразумима о успостављању зоне слободне трговине или  царинске уније.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav5">
+						<content>
+							<p>*<ref wId="ref5" href="akn/rs/act/2011/88/srp@">Службени гласник РС, 88/2011</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan7">
+					<num>7.</num>
+					<heading>Национални третман</heading>
+					<paragraph wId="gla2-clan7-stav1">
+						<content>
+							<p>Страна роба увезена на територију Републике Србије неће имати мање повољан  третман од третмана који има слична домаћа роба.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav2">
+						<content>
+							<p>Национални третман у односу на услуге, у смислу овог закона, подразумева да  све мере које утичу на услуге које потичу из друге државе или царинске  територије, као и на пружаоце услуга из друге државе или царинске територије, не  могу бити неповољније од мера које се примењују на сличне домаће услуге или на  домаће пружаоце услуга.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav3">
+						<content>
+							<p>Услуге које потичу из друге државе или царинске територије, као и пружаоци  услуга из друге државе или царинске територије, уживају национални третман на  основу међународног споразума.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav4">
+						<content>
+							<p>Права интелектуалне својине страних лица неће имати мање повољан третман од  третмана који је дат правима интелектуалне својине домаћих лица.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav5">
+						<content>
+							<p>*<ref wId="ref6" href="akn/rs/act/2011/88/srp@">Службени гласник РС, 88/2011</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan8">
+					<num>8.</num>
+					<heading>Забрана квантитативних ограничења</heading>
+					<paragraph wId="gla2-clan8-stav1">
+						<content>
+							<p>У  спољнотрговинском промету робом не могу се уводити нова нити задржавати  постојећа квантитативна ограничења, осим оних која су прописана овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan9">
+					<num>9.</num>
+					<heading>Јавност</heading>
+					<paragraph wId="gla2-clan9-stav1">
+						<content>
+							<p>Мере које утичу на спољнотрговинско пословање које се доносе у складу са овим  законом објављују се у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav2">
+						<content>
+							<p>Министарство надлежно за послове економских односа са иностранством (у даљем  тексту: министарство), на захтев заинтересованог лица, даје информације о  примени овог закона и мерама које се на основу њега доносе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan10">
+					<num>10.</num>
+					<heading>Поверљивост информација</heading>
+					<paragraph wId="gla2-clan10-stav1">
+						<content>
+							<p>Информације прибављене у складу са овим законом сматрају се поверљивим и не могу  се објавити, нити доставити трећим лицима без писмене сагласности лица на које  се односе, осим када је надлежни орган обавезан да то учини у складу са законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan11">
+					<num>11.</num>
+					<heading>Изузеци од принципа спољнотрговинског пословања</heading>
+					<paragraph wId="gla2-clan11-stav1">
+						<intro>
+							<p>Одредбе овог закона неће се тумачити тако да спречавају увођење или примену  мера које утичу на спољнотрговински промет робом, уколико се ове мере не  примењују тако да чине произвољну или неоправдану дискриминацију међу државама,  односно царинским територијама где су на снази исти услови или као прикривено  ограничавање међународне трговине и ако се ове мере:*</p>
+						</intro>
+						<point wId="gla2-clan11-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> уводе или примењују у циљу неопходне заштите јавног морала,*</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> уводе или примењују у циљу неопходне заштите живота и здравља људи,  животиња или биљака,*</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> односе на увоз или извоз злата или сребра,*</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> уводе или примењују као неопходне да обезбеде усаглашеност са прописима  који нису у супротности са одредбама споразума СТО, укључујући примену царинских  прописа, прописа којима се уређује заштита патената, жигова и ауторских права,  као и спречавање довођења у заблуду,*</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> односе на производе израђене у затворима,*</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> уводе у циљу заштите уметничког, историјског или археолошког блага,*</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> односе на заштиту необновљивих природних богатстава, ако се те мере  примењују упоредо са ограничењем домаће производње или потрошње,*</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> предузимају у циљу поштовања обавеза из међународног робног споразума  који је у сагласности са критеријумима поднетим чланицама СТО или који је поднет  чланицама СТО, а чланице СТО нису имале примедаба,*</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> односе на ограничавање извоза сировина произведених у Републици Србији и  потребних да се домаћој прерађивачкој индустрији обезбеде неопходне количине тих  сировина у периодима када се домаћа цена одржава на нивоу испод светске цене по  одлуци Владе у оквиру стабилизацијe тржишта те робе, под условом да то  ограничавање нема за последицу повећање извоза или заштите за ту домаћу  индустрију и да се том мером не врши никаква дискриминација,*</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p> уводе или примењују због несташице производа (опште или локалне) како би  се ти производи прибавили или расподелили, под условом да све државе имају право  на правичан удео у снабдевању овим производима и да се такве мере укидају када  престану да постоје разлози због којих су уведене, или*</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav1-tac11">
+							<num>11)</num>
+							<intro>
+								<p> уводе или примењују у циљу заштите безбедности ако се:*</p>
+							</intro>
+							<alinea wId="gla2-clan11-stav1-tac11-ali1">
+								<content>
+									<p>дносе на фисионе материјале или материјале од којих они потичу,*</p>
+								</content>
+							</alinea>
+							<alinea wId="gla2-clan11-stav1-tac11-ali2">
+								<content>
+									<p>дносе на промет оружја, муниције и средстава за вођење рата, као и на  промет друге робе и материјала који се врши посредно или непосредно за потребе  снабдевања оружаних снага,*</p>
+								</content>
+							</alinea>
+							<alinea wId="gla2-clan11-stav1-tac11-ali3">
+								<content>
+									<p>редузимају у време рата или других ванредних ситуација у међународним  односима, или*</p>
+								</content>
+							</alinea>
+							<alinea wId="gla2-clan11-stav1-tac11-ali4">
+								<content>
+									<p>воде или примењују у циљу испуњавања обавеза из Повеље Уједињених нација  у смислу одржавања међународног мира и безбедности.*</p>
+								</content>
+							</alinea>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav2">
+						<content>
+							<p>*<ref wId="ref7" href="akn/rs/act/2011/88/srp@">Службени гласник РС, 88/2011</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>МЕРЕ КОЈЕ УТИЧУ НА СПОЉНОТРГОВИНСКО  ПОСЛОВАЊЕ</heading>
+				<article wId="gla3-clan12">
+					<num>12.</num>
+					<heading>Мере</heading>
+					<paragraph wId="gla3-clan12-stav1">
+						<content>
+							<p>Мере које утичу на спољнотрговинско пословање (у даљем тексту: мере) прописују  се, спроводе и тумаче у складу са принципима овог закона и правилима СТО,  прописима ЕУ и обавезама из међународних споразума.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan12-stav2">
+						<intro>
+							<p>Мере из <ref wId="ref8" href="akn/rs/act/2015/89-3/srp@/!main~art_12__para_1" >става 1. овог</ref> члана дозвољене су само у случају када:</p>
+						</intro>
+						<point wId="gla3-clan12-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p>  је то неопходно за постизање циљева предвиђених овим законом,</p>
+							</content>
+						</point>
+						<point wId="gla3-clan12-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p>  је то изричито прописано законом, и</p>
+							</content>
+						</point>
+						<point wId="gla3-clan12-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p>  су степен, обим и трајање мере сразмерни њеној сврси, односно када су ограничени  на минимум неопходан за постизање циљева мере.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan13">
+					<num>13.</num>
+					<heading>Примена мера</heading>
+					<paragraph wId="gla3-clan13-stav1">
+						<content>
+							<p>Мера која се уводи у складу са овим законом не сме да има за циљ или последицу  нарушавање слободе трговине и конкурентности учесника у одређеном  спољнотрговинском послу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan13-stav2">
+						<content>
+							<p>Мера се укида, или се њен степен или обим умањује када престану да постоје  разлози за њену примену, или када се промене околности због којих је мера  уведена.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan14">
+					<num>14.</num>
+					<heading>Надлежност за увођење мера</heading>
+					<paragraph wId="gla3-clan14-stav1">
+						<content>
+							<p>Мере и ближе услове за примену мера*  прописује Влада, на предлог министарства или  другог надлежног органа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan14-stav2">
+						<content>
+							<p>Брисан  је ранији <ref wId="ref10" href="akn/rs/act/2015/89-3/srp@/!main~art_14__para_2" >став 2. </ref>(види <ref wId="ref9" href="akn/rs/act/2011/88/srp@/!main~/art_7">члан 7. Закона - 88/2011-50</ref>)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan14-stav3">
+						<content>
+							<p>Ако  се мером из <ref wId="ref11" href="akn/rs/act/2015/89-3/srp@/!main~art_14__para_1" >става 1. овог</ref> члана прописује прибављање исправе која је услов за  увоз, извоз или транзит робе, списак такве робе објављује се у „Службеном  гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan14-stav4">
+						<content>
+							<p>*<ref wId="ref12" href="akn/rs/act/2011/88/srp@">Службени гласник РС, 88/2011</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan15">
+					<num>15.</num>
+					<heading>Управни поступак и управни спор</heading>
+					<paragraph wId="gla3-clan15-stav1">
+						<content>
+							<p>На  поступак доношења појединачних управних аката, у смислу овог закона, примењују  се одредбе закона којима се уређује општи управни поступак, осим ако овим  законом није другачије предвиђено.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav2">
+						<content>
+							<p>Против акта из <ref wId="ref13" href="akn/rs/act/2015/89-3/srp@/!main~art_15__para_1" >става 1. овог</ref> члана може да се покрене управни спор.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan16">
+					<num>16.</num>
+					<heading>Административне накнаде за рад органа</heading>
+					<paragraph wId="gla3-clan16-stav1">
+						<intro>
+							<p>Износ накнада за административне услуге које органи, односно лица којима су  законом поверена јавна овлашћења, пружају лицима у спољнотрговинском пословању  не може:</p>
+						</intro>
+						<point wId="gla3-clan16-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p>  бити већи од стварних трошкова пружених услуга,</p>
+							</content>
+						</point>
+						<point wId="gla3-clan16-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p>  представљати индиректну заштиту домаће производње, и</p>
+							</content>
+						</point>
+						<point wId="gla3-clan16-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p>  представљати индиректно оптерећење увоза и извоза.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>СПОЉНОТРГОВИНСКИ ПРОМЕТ РОБОМ</heading>
+				<point wId="gla4-clan16-tac1">
+					<num>1)</num>
+					<content>
+						<p> Извоз, увоз и транзит</p>
+					</content>
+				</point>
+				<article wId="gla4-clan17">
+					<num>17.</num>
+					<paragraph wId="gla4-clan17-stav1">
+						<content>
+							<p>Извоз робе је изношење, слање, односно испорука робе са територије Републике  Србије на територију друге државе или царинске територије, у складу са царинским  прописима Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan17-stav2">
+						<content>
+							<p>Увоз робе је уношење, допремање, односно испорука робе са територије друге  државе или царинске територије на територију Републике Србије, у складу са  царинским прописима Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan17-stav3">
+						<content>
+							<p>Транзит робе је прелазак робе преко царинске територије Републике Србије, у  складу са царинским прописима Републике Србије.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan17-stav4">
+						<intro>
+							<p>*<ref wId="ref14" href="akn/rs/act/2011/88/srp@">Службени гласник РС, 88/2011</ref></p>
+						</intro>
+						<point wId="gla4-clan17-stav4-tac2">
+							<num>2)</num>
+							<content>
+								<p> Квантитативна ограничења</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan18">
+					<num>18.</num>
+					<paragraph wId="gla4-clan18-stav1">
+						<content>
+							<p>Квантитативно ограничење је највећи укупан обим поједине робе одређен по  вредности или по количини који може да се извезе или увезе у прописаном року.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan18-stav2">
+						<content>
+							<p>Квантитативно ограничење расподељује се на квоте, осим ако није другачије  прописано.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan19">
+					<num>19.</num>
+					<heading>Услови за увођење квантитативног ограничења</heading>
+					<paragraph wId="gla4-clan19-stav1">
+						<intro>
+							<p>Квантитативно ограничење увоза може да се уведе ради:*</p>
+						</intro>
+						<point wId="gla4-clan19-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> заштите од прекомерног увоза у складу са <ref wId="ref15" href="akn/rs/act/2015/89-3/srp@/!main~art_34" >чланом 34. овог</ref> закона, или*</p>
+							</content>
+						</point>
+						<point wId="gla4-clan19-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> заштите платног биланса у складу са чл. <ref wId="ref16" href="akn/rs/act/2015/89-3/srp@/!main~art_35" >35</ref>, <ref wId="ref17" href="akn/rs/act/2015/89-3/srp@/!main~art_36" >36</ref>. и <ref wId="ref18" href="akn/rs/act/2015/89-3/srp@/!main~art_36а" >36а</ref> овог закона.*</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla4-clan19-stav2">
+						<content>
+							<p>Квантитативно ограничење извоза може да се уведе привремено, у циљу  спречавања критичне несташице основних производа или ради ублажавања последица  такве несташице у Републици Србији.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan19-stav3">
+						<intro>
+							<p>Квантитативна ограничења увоза и извоза могу да се уведу:*</p>
+						</intro>
+						<point wId="gla4-clan19-stav3-tac1">
+							<num>1)</num>
+							<content>
+								<p> у случајевима предвиђеним <ref wId="ref19" href="akn/rs/act/2015/89-3/srp@/!main~art_11" >чланом 11. овог</ref> закона, или*</p>
+							</content>
+						</point>
+						<point wId="gla4-clan19-stav3-tac2">
+							<num>2)</num>
+							<content>
+								<p> ради примене норми или прописа о класификацији, рангирању или пласирању  робе у међународној трговини.*</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla4-clan19-stav4">
+						<content>
+							<p>Влада, на предлог министарства, уводи квантитативна ограничења из <ref wId="ref20" href="akn/rs/act/2015/89-3/srp@/!main~art_19__para_1->para_2" >ст. 1. и  2. овог</ref> члана, а на предлог министарства или другог надлежног органа –  квантитативна ограничења из <ref wId="ref21" href="akn/rs/act/2015/89-3/srp@/!main~art_19__para_3" >става 3. овог</ref> члана.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan19-stav5">
+						<content>
+							<p>*<ref wId="ref22" href="akn/rs/act/2011/88/srp@">Службени гласник РС, 88/2011</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan20">
+					<num>20.</num>
+					<heading>Расподела квота</heading>
+					<paragraph wId="gla4-clan20-stav1">
+						<intro>
+							<p>Министарство,   односно други надлежни орган* расподељује квоте на захтев  подносиоца, у складу са условима који укључују нарочито:</p>
+						</intro>
+						<point wId="gla4-clan20-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p>  економски оправдану количину робе обухваћену квотом,</p>
+							</content>
+						</point>
+						<point wId="gla4-clan20-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p>  степен искоришћености раније додељених квота и</p>
+							</content>
+						</point>
+						<point wId="gla4-clan20-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p>  могућност доделе квоте лицима којима раније нису додељиване квоте.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla4-clan20-stav2">
+						<intro>
+							<p>Квоте се расподељују:*</p>
+						</intro>
+						<point wId="gla4-clan20-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> издавањем дозвола на неаутоматски начин за увоз, односно извоз додељене  квоте,*</p>
+							</content>
+						</point>
+						<point wId="gla4-clan20-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> отписивањем од стране надлежног царинског органа, у моменту царињења  робе, према редоследу прихватања царинске декларације.*</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla4-clan20-stav3">
+						<content>
+							<p>Додељена квота је непреносива.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan20-stav4">
+						<content>
+							<p>Квота се може искористити у року који не може бити дужи од годину дана* од дана њене доделе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan20-stav5">
+						<content>
+							<p>Број испорука током рока у коме се квота може искористити није ограничен.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan20-stav6">
+						<content>
+							<p>Ако  лице не користи квоту у складу са  * условима  утврђеним прописом о увођењу квантитативног ограничења, односно актом о  додели квоте,*  министарство,   односно други надлежни орган*  може да стави ван снаге акт о додели квоте.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan20-stav7">
+						<content>
+							<p>Влада може да пропише ближе услове за расподелу квота.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan20-stav8">
+						<intro>
+							<p>*<ref wId="ref23" href="akn/rs/act/2011/88/srp@">Службени гласник РС, 88/2011</ref></p>
+						</intro>
+						<point wId="gla4-clan20-stav8-tac3">
+							<num>3)</num>
+							<content>
+								<p> Дозволе</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan21">
+					<num>21.</num>
+					<paragraph wId="gla4-clan21-stav1">
+						<content>
+							<p>Дозвола је исправа која се, на захтев подносиоца, издаје за увоз, извоз или  транзит поједине робе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan21-stav2">
+						<content>
+							<p>Издавање дозволе може бити аутоматско и неаутоматско.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan21-stav3">
+						<content>
+							<p>Аутоматско издавање дозволе је издавање дозволе када се захтев одобрава у  свим случајевима уз поднету прописану документацију.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan21-stav4">
+						<content>
+							<p>Неаутоматско издавање дозволе је издавање дозволе које није обухваћено одредбом  <ref wId="ref24" href="akn/rs/act/2015/89-3/srp@/!main~art_21__para_3" >става 3. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan21-stav5">
+						<content>
+							<p>*<ref wId="ref25" href="akn/rs/act/2011/88/srp@">Службени гласник РС, 88/2011</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan22">
+					<num>22.</num>
+					<heading>Надлежност за издавање дозволе</heading>
+					<paragraph wId="gla4-clan22-stav1">
+						<content>
+							<p>Министарство, односно други надлежни орган, у складу са прописима, одлучује о  захтеву за издавање дозволе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan22-stav2">
+						<content>
+							<p>Ако  је у поступку одлучивања о захтеву за издавање дозволе потребно, орган из <ref wId="ref26" href="akn/rs/act/2015/89-3/srp@/!main~art_22__para_1" >става  1. овог</ref> члана прибавља мишљење других органа, организација, институција и  удружења, који су дужни да доставе мишљење у року који одреди орган из <ref wId="ref27" href="akn/rs/act/2015/89-3/srp@/!main~art_22__para_1" >става 1.  овог</ref> члана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan23">
+					<num>23.</num>
+					<heading>Поступак издавања, коришћења и укидања дозвола</heading>
+					<paragraph wId="gla4-clan23-stav1">
+						<content>
+							<p>Захтев за издавање дозволе подноси се органу из <ref wId="ref28" href="akn/rs/act/2015/89-3/srp@/!main~art_22__para_1" >члана 22. став 1. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan23-stav2">
+						<content>
+							<p>Брисан  је ранији <ref wId="ref30" href="akn/rs/act/2015/89-3/srp@/!main~art_23__para_2" >став 2. </ref>(види <ref wId="ref29" href="akn/rs/act/2011/88/srp@/!main~/art_12">члан 12. Закона - 88/2011-50</ref>)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan23-stav3">
+						<content>
+							<p>Захтев за издавање дозволе не може да буде одбијен због мањих недостатака у  документацији који не утичу на основне податке садржане у захтеву.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan23-stav4">
+						<content>
+							<p>Пропис из <ref wId="ref31" href="akn/rs/act/2015/89-3/srp@/!main~art_14__para_1" >члана 14. став 1. овог</ref> закона којим се утврђује издавање увозне  дозволе, као и пропис којим се утврђују изузећа, одступања или измене услова за  издавање увозне дозволе, односно списак робе која се увози на основу дозволе,  објављује се кад год је то могуће 21 дан пре дана почетка његове примене.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan23-stav5">
+						<content>
+							<p>Прописом из <ref wId="ref32" href="akn/rs/act/2015/89-3/srp@/!main~art_23__para_3" >става 3. овог</ref> члана којим се утврђују изузећа од обавезе  прибављања дозволе, обавезно се утврђују и критеријуми за та изузећа, начин  подношења захтева за та изузећа, као и начин одлучивања о захтеву за изузеће.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan23-stav6">
+						<content>
+							<p>Начин подношења захтева за издавање дозволе, за измену, односно продужење  дозволе, прописује се тако да буде што једноставнији.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan23-stav7">
+						<content>
+							<p>Захтев за издавање дозволе подноси се једном органу, а изузетно, у случају  када је неопходно, доставља се највише у три органа.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan23-stav8">
+						<content>
+							<p>Влада, на предлог органа из <ref wId="ref33" href="akn/rs/act/2015/89-3/srp@/!main~art_22__para_1" >члана 22. став 1. овог</ref> закона, прописује* ближе услове за издавање, коришћење и укидање дозвола, у складу са  правилима СТО и прописима ЕУ.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan23-stav9">
+						<intro>
+							<p>*<ref wId="ref34" href="akn/rs/act/2011/88/srp@">Службени гласник РС, 88/2011</ref></p>
+						</intro>
+						<point wId="gla4-clan23-stav9-tac4">
+							<num>4)</num>
+							<content>
+								<p> Посебни услови</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan24">
+					<num>24.</num>
+					<heading>Посебна надлежност</heading>
+					<paragraph wId="gla4-clan24-stav1">
+						<content>
+							<p>Ако  је уговором, домаћим или страним прописом или потврђеним међународним уговором  предвиђено да робу у извозу, увозу и транзиту прате одређене исправе, а  надлежност за издавање или оверу тих исправа није прописана, те исправе издаје  или оверава орган, односно друго лице које на предлог министарства овласти  Влада.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan24-stav2">
+						<content>
+							<p>Влада, на предлог министарства, прописује начин издавања и овере исправа из  <ref wId="ref35" href="akn/rs/act/2015/89-3/srp@/!main~art_24__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan25">
+					<num>25.</num>
+					<heading>Санитарни, ветеринарски и фитосанитарни захтеви</heading>
+					<paragraph wId="gla4-clan25-stav1">
+						<content>
+							<p>Роба која се извози, увози, транзитира или се налази у неком царинском поступку  подлеже испуњењу санитарних, ветеринарских и фитосанитарних услова, у складу са  прописима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan25-stav2">
+						<content>
+							<p>Услови из <ref wId="ref36" href="akn/rs/act/2015/89-3/srp@/!main~art_25__para_1" >става 1. овог</ref> члана не могу да имају за последицу додатно ограничење  извоза, увоза или транзита.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan26">
+					<num>26.</num>
+					<heading>Технички прописи и стандарди</heading>
+					<paragraph wId="gla4-clan26-stav1">
+						<content>
+							<p>Брисан  је ранији <ref wId="ref38" href="akn/rs/act/2015/89-3/srp@/!main~art_26__para_1" >став 1. </ref>(види <ref wId="ref37" href="akn/rs/act/2011/88/srp@/!main~/art_13">члан 13. Закона - 88/2011-50</ref>)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan26-stav2">
+						<content>
+							<p>Технички пропис, у смислу закона којим се уређују технички захтеви за  производе и оцењивање усаглашености, може се применити на увоз робе, а његова  примена не може имати за последицу додатно ограничење увоза.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan26-stav3">
+						<content>
+							<p>Усаглашеност са стандардима није услов за увоз робе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan26-stav4">
+						<content>
+							<p>*<ref wId="ref39" href="akn/rs/act/2011/88/srp@">Службени гласник РС, 88/2011</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>СПОЉНОТРГОВИНСКИ ПРОМЕТ УСЛУГА</heading>
+				<article wId="gla5-clan27">
+					<num>27.</num>
+					<heading>Услови</heading>
+					<paragraph wId="gla5-clan27-stav1">
+						<content>
+							<p>Спољнотрговински промет услуга обавља се у складу са законом, међународним  споразумима и преузетим обавезама Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan27-stav2">
+						<content>
+							<p>Пружање услуга домаћег лица у другој држави или царинској територији, слободно  је.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan27-stav3">
+						<content>
+							<p>Страна лица на територији Републике Србије пружају услуге у складу са прописима  који уређују пружање појединих врста услуга.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan28">
+					<num>28.</num>
+					<heading>Дан пружања услуга</heading>
+					<paragraph wId="gla5-clan28-stav1">
+						<content>
+							<p>Дан  пружања услуге у спољнотрговинском промету одређује се уговором.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan28-stav2">
+						<content>
+							<p>Министарство прописује дан пружања услуге ако тај дан није одређен или одредив  на основу уговора.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla6">
+				<num>VI</num>
+				<heading>МЕРЕ ЗАШТИТЕ</heading>
+				<article wId="gla6-clan29">
+					<num>29.</num>
+					<heading>Врсте мера</heading>
+					<paragraph wId="gla6-clan29-stav1">
+						<content>
+							<p>Влада може да пропише следеће мере заштите:</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

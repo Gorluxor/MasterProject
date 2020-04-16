@@ -1,0 +1,478 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о Фонду за науку Републике Србије">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2018/95-353/main"/>
+					<FRBRuri value="/rs/act/2018/95-353"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2018/95-353/srp@/main"/>
+					<FRBRuri value="/rs/act/2018/95-353/srp@"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2018/95-353/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2018/95-353/srp@.akn"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2018-12-08" name="службени гласник рс" number="95" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="XV ЈАВНЕ УСТАНОВЕ, НАУКА, ПРОСВЕТА, КУЛТУРА, ИНФОРМИСАЊЕ И СПОРТ" value="xv јавне установе, наука, просвета, култура, информисање и спорт" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="4. Научноистраживачка делатност" value="4. научноистраживачка делатност" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2018-12-07" wId="usvajanje"/>
+				<step by="#TODO" date="2018-12-16" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2018-12-16" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 16. децембра 2018. године (види члан 30. Закона).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О фонду за науку републике србије "Службени гласник РС", број 95 од 8. децембра 2018.</p>
+			</longTitle>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређује се оснивање и рад Фонда за науку (у даљем тексту: Фонд), у циљу обезбеђивања услова за континуирани развој научноистраживачких и развојних активности у Републици Србији, неопходних за напредак друштва заснованог на знању.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Фонд кроз своје деловање омогућава развој научних истраживања и примену њихових резултата ради бржег друштвеног, технолошког, културног и економског развоја Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav2">
+						<content>
+							<p>Фонд обезбеђује финансијска средства и пружа стручну подршку истраживачима из акредитованих научноистраживачких организација у реализацији научних пројеката (у даљем тексту: пројекти) у оквиру програма Фонда утврђених овим законом (у даљем тексту: програми).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<paragraph wId="gla1-clan3-stav1">
+						<content>
+							<p>Научноистраживачке и развојне активности реализују се преко научних, технолошких и развојних програма у оквиру којих се реализују пројекти, ради остваривања циљева садржаних у стратегији научног и технолошког развоја Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav2">
+						<content>
+							<p>Финансирање пројеката спроводи се на начин који обезбеђује конкурентност и квалитет резултата, ефикасност примене истраживања, отвореност и доступност резултата програма и пројеката, као и развој научних кадрова, интеграцију у међународне научне и технолошке пројекте и системе, сарадњу са научном дијаспором, привредним сектором и уређивање својинских права на резултатима истраживања, заштита интелектуалне својине и ауторских права, као и заштиту података.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav3">
+						<content>
+							<p>Програмима Фонда у оквиру којих се реализују пројекти путем јавних позива, обезбеђује се висок научни ниво и иновативност резултата, конкурентност на међународном нивоу и релевантност у односу на изазове друштва у целини.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ПРАВНИ ПОЛОЖАЈ ФОНДА</heading>
+				<article wId="gla2-clan4">
+					<num>4.</num>
+					<paragraph wId="gla2-clan4-stav1">
+						<content>
+							<p>Оснивач Фонда је Република Србија.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan4-stav2">
+						<content>
+							<p>Фонд има својство правног лица, које стиче уписом у судски регистар.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan4-stav3">
+						<content>
+							<p>Фонд послује под називом: Фонд за науку Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan4-stav4">
+						<content>
+							<p>Назив Фонда у међународној коресподенцији је: „Science Fund of The Republic of Serbia”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan4-stav5">
+						<content>
+							<p>Седиште Фонда је у Београду.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan5">
+					<num>5.</num>
+					<paragraph wId="gla2-clan5-stav1">
+						<content>
+							<p>Средства за оснивање и рад Фонда обезбеђују се из буџета Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav2">
+						<content>
+							<p>Фонд почиње са радом даном уписа у судски регистар.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>ПОСЛОВИ ФОНДА</heading>
+				<article wId="gla3-clan6">
+					<num>6.</num>
+					<paragraph wId="gla3-clan6-stav1">
+						<content>
+							<p>Фонд обавља послове у вези са финансирањем припреме, реализације и развоја програма, пројеката и других активности у области спровођења научноистраживачке политике.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan6-stav2">
+						<intro>
+							<p>Фонд обавља следеће послове:</p>
+						</intro>
+						<point wId="gla3-clan6-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> реализује програме из <ref wId="ref0" href="akn/rs/act/2018/95-353/srp@/!main~art_20" >члана 20. овог</ref> закона;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan6-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> обезбеђује финансирање научноистраживачких пројеката преко јавних позива у оквиру програма, а у циљу обезбеђивања континуитета развоја науке и научног кадра, као и општег развоја друштва. Јавним позивом утврђује се: право учешћа, рок за подношење пријаве, услови и време за реализацију пројекта, као и друга питања од значаја за спровођење јавног позива;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan6-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> спроводи процедуру евалуације предлога пројеката приспелих на јавне конкурсе и јавне позиве за реализацију програма Фонда, као и праћење и оцењивање пројеката финансираних од стране Фонда;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan6-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> управља базама података о програмима, пројектима и другим активностима у области које Фонд финансира;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan6-stav2-tac5">
+							<num>5)</num>
+							<content>
+								<p> обезбеђује финансијску и другу подршку пројектима међународне сарадње;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan6-stav2-tac6">
+							<num>6)</num>
+							<content>
+								<p> одређује и спроводи посебне програме за унапређење услова рада и развоја научних кадрова;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan6-stav2-tac7">
+							<num>7)</num>
+							<content>
+								<p> реализује инфраструктурне програме у циљу додатног јачања капацитета научноистраживачких организација (НИО) у складу са стратегијом научног и технолошког развоја, паметном специјализацијом (RIS3) и мапом пута за истраживачке инфраструктуре;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan6-stav2-tac8">
+							<num>8)</num>
+							<content>
+								<p> сарађује са Фондом за иновациону делатност и другим привредним субјектима у специфичним програмима везаним за област иновација и сарадње са привредом;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan6-stav2-tac9">
+							<num>9)</num>
+							<content>
+								<p> спроводи активности промоције науке и резултата истраживања у циљу подизања опште друштвене свести о значају науке;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan6-stav2-tac10">
+							<num>10)</num>
+							<content>
+								<p> ангажује трећа лица из земље и иностранства као чланове стручних тела у складу са законом.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>ФИНАНСИРАЊЕ ФОНДА</heading>
+				<article wId="gla4-clan7">
+					<num>7.</num>
+					<paragraph wId="gla4-clan7-stav1">
+						<intro>
+							<p>Финансирање Фонда се остварује из:</p>
+						</intro>
+						<point wId="gla4-clan7-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> средстава буџета Републике Србије;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan7-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> донација, прилога, поклона и помоћи;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan7-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> средстава остварених по основу реализације пројеката са привредом;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan7-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> средстава из других извора, фондова и других организација;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan7-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> прихода од управљања слободним новчаним средствима Фонда, изузев средстава из тачке <ref wId="ref1" href="akn/rs/act/2018/95-353/srp@/!main~art_7__para_1__point_1" >1</ref>) овог члана;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan7-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> средстава остварених по основу реализације односно примене резултата научноистраживачких активности чији је развој Фонд финансирао, а у складу са уговором одређеним правима на интелектуалну и другу својину;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan7-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> других извора, у складу са законом.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla4-clan7-stav2">
+						<content>
+							<p>Приходи се могу користити према годишњем финансијском плану Фонда који усваја Управни одбор Фонда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan7-stav3">
+						<content>
+							<p>Годишњи финансијски план Фонда доставља се на сагласност министарству надлежном за научноистраживачку делатност, најкасније у року од 15 дана од дана усвајања акта о буџету Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan7-stav4">
+						<content>
+							<p>Финансијска година почиње 1. јануара и завршава се 31. децембра сваке године.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>СРЕДСТВА ФОНДА</heading>
+				<article wId="gla5-clan8">
+					<num>8.</num>
+					<paragraph wId="gla5-clan8-stav1">
+						<content>
+							<p>Средства Фонда омогућавају финансирање реализације програма Фонда и користе се за финансирање научноистраживачке делатности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan8-stav2">
+						<content>
+							<p>Фонд у обављању својих послова, а нарочито у планирању и коришћењу средстава, примењује принципе објективности и одговорности, међународно признате стандарде добре праксе и јавности у раду и доношењу одлука.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan9">
+					<num>9.</num>
+					<paragraph wId="gla5-clan9-stav1">
+						<content>
+							<p>Фонд може учествовати и у суфинансирању научноистраживачких програма, пројеката и других активности ако их организују и финансирају међународне организације, финансијске институције и тела надлежна за научноистраживачки рад или друга страна и домаћа правна и физичка лица, у складу са стратегијом која се односи на научни и технолошки развој, уз сагласност министарства надлежног за научноистраживачку делатност.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla6">
+				<num>VI</num>
+				<heading>ОРГАНИ ФОНДА</heading>
+				<article wId="gla6-clan10">
+					<num>10.</num>
+					<paragraph wId="gla6-clan10-stav1">
+						<content>
+							<p>Органи Фонда су: Надзорни одбор, Управни одбор, директор и Научни савет Фонда.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan11">
+					<num>11.</num>
+					<paragraph wId="gla6-clan11-stav1">
+						<content>
+							<p>Надзорни одбор има председника и два члана које именује и разрешава Влада, на предлог министарства надлежног за научноистраживачку делатност, на период од четири године, од којих су најмање два члана економско-финансијске струке. Надзорни одбор прати материјално-финансијско пословање Фонда и годишњи извештај доставља министру надлежном за научноистраживачку делатност.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan12">
+					<num>12.</num>
+					<paragraph wId="gla6-clan12-stav1">
+						<content>
+							<p>Управни одбор има председника и четири члана које именује и разрешава Влада, на предлог министарства надлежног за научноистраживачку делатност. Чланови Управног одбора морају да имају међународно искуство у пословима обухваћеним овим законом као и искуство у управљачким пословима и најмање 15 година радног искуства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan12-stav2">
+						<content>
+							<p>Мандат чланова Управног одбора је четири године, са могућношћу још једног именовања. Чланови Управног одбора не могу се пријављивати, нити учествовати у пројектима и програмима Фонда за време трајања њиховог чланства у органима Фонда, као ни годину дана након престанка тог чланства.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan13">
+					<num>13.</num>
+					<paragraph wId="gla6-clan13-stav1">
+						<intro>
+							<p>Послови Управног одбора Фонда:</p>
+						</intro>
+						<point wId="gla6-clan13-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> доноси статут Фонда;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan13-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> доноси опште акте Фонда;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan13-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> доноси програме Фонда на предлог Научног савета Фонда;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan13-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> усваја годишње програме рада Фонда и финансијске планове Фонда на предлог директора;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan13-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> усваја извештај о пословању и завршни рачун Фонда;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan13-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> доставља министарству надлежном за научноистраживачку делатност периодичне извештаје о раду Фонда, као и годишњи извештај о пословању за претходну годину најкасније до 31. марта текуће године;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan13-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> одлучује о коришћењу средстава Фонда у складу са условима и начином утврђеним статутом и програмом рада Фонда;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan13-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> доноси пословник о свом раду;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan13-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> обавља и друге послове у складу са законом.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan14">
+					<num>14.</num>
+					<paragraph wId="gla6-clan14-stav1">
+						<content>
+							<p>Директора Фонда именује и разрешава Влада на предлог Управног одбора Фонда, уз претходно прибављену сагласност министра надлежног за научноистраживачку делатност.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan14-stav2">
+						<content>
+							<p>Директор се именује на основу јавног конкурса на период од четири године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan14-stav3">
+						<intro>
+							<p>За директора Фонда може бити именовано лице које испуњава следеће услове:</p>
+						</intro>
+						<point wId="gla6-clan14-stav3-tac1">
+							<num>1)</num>
+							<content>
+								<p> да је пунолетно и пословно способно;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan14-stav3-tac2">
+							<num>2)</num>
+							<content>
+								<p> да има докторске академске студије (академски назив доктор наука), најмање десет година радног искуства у струци; познавање најмање једног светског језика и познавање рада на рачунару;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan14-stav3-tac3">
+							<num>3)</num>
+							<content>
+								<p> да има најмање седам година радног искуства у управљачким пословима за које се захтева најмање високо образовање;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan14-stav3-tac4">
+							<num>4)</num>
+							<content>
+								<p> да није члан органа политичке странке;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan14-stav3-tac5">
+							<num>5)</num>
+							<content>
+								<p> да није осуђивано на казну затвора од најмање шест месеци.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla6-clan14-stav4">
+						<content>
+							<p>Статутом могу бити одређени и други услови које лице мора да испуни да би било именовано за директора Фонда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan14-stav5">
+						<content>
+							<p>Директор Фонда је функционер који обавља јавну функцију.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan14-stav6">
+						<content>
+							<p>Директор је у радном односу у Фонду са пуним радним временом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan15">
+					<num>15.</num>
+					<paragraph wId="gla6-clan15-stav1">
+						<content>
+							<p>Директор Фонда:</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

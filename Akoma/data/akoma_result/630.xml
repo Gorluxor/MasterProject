@@ -1,0 +1,336 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о просветној инспекцији">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2018/27-22/main"/>
+					<FRBRuri value="/rs/act/2018/27-22"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2018/27-22/srp@/main"/>
+					<FRBRuri value="/rs/act/2018/27-22/srp@"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2018/27-22/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2018/27-22/srp@.akn"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2018-04-06" name="службени гласник рс" number="27" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="XV ЈАВНЕ УСТАНОВЕ, НАУКА, ПРОСВЕТА, КУЛТУРА, ИНФОРМИСАЊЕ И СПОРТ" value="xv јавне установе, наука, просвета, култура, информисање и спорт" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="1. Основи образовања" value="1. основи образовања" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2018-04-05" wId="usvajanje"/>
+				<step by="#TODO" date="2018-04-14" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2018-04-14" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 14. априла 2018. године (види члан 24. Закона).Поступци инспекцијског надзора започети пре ступања на снагу овог закона окончаће се по одредбама прописа који су били на снази до ступања на снагу овог закона (види члан 21. Закона).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О просветној инспекцији "Службени гласник РС", број 27 од 6. априла 2018.</p>
+			</longTitle>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>УВОДНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<heading>Предмет закона</heading>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређују се посебности поступка и положаја инспекције у области просвете (у даљем тексту: просветна инспекција).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<heading>Предмет инспекцијског надзора</heading>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Просветна инспекција у вршењу инспекцијског надзора испитује примену закона и других прописа у области предшколског, основног и средњег образовања и васпитања, образовања одраслих, дуалног образовања, високог образовања, уџбеника и ученичког и студентског стандарда.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<heading>Родна равноправност у језику</heading>
+					<paragraph wId="gla1-clan3-stav1">
+						<content>
+							<p>Изрази употребљени у овом закону у граматичком мушком роду подразумевају природни мушки и женски род лица на које се односе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<heading>Сврха просветне инспекције</heading>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>Сврха просветне инспекције је да, сагласно утврђеним надлежностима, обезбеди остваривање јавног интереса и несметано обављање делатности у областима које су предмет надзора.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan5">
+					<num>5.</num>
+					<heading>Инспекцијски надзор у области просвете</heading>
+					<paragraph wId="gla1-clan5-stav1">
+						<content>
+							<p>Послове просветне инспекције обавља инспектор (у даљем тексту: просветни инспектор) у министарству надлежном за послове образовања и васпитања, у органу покрајинске управе надлежне за послове образовања и васпитања и градском и општинском органу надлежном за послове образовања и васпитања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav2">
+						<content>
+							<p>Надзор над радом просветне инспекције у обављању поверених послова врши министарство надлежно за послове образовања и васпитања, односно орган покрајинске управе надлежан за послове образовања и васпитања, у складу са овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan6">
+					<num>6.</num>
+					<heading>Услови за просветног инспектора</heading>
+					<paragraph wId="gla1-clan6-stav1">
+						<content>
+							<p>Просветни инспектор може бити лице које има стечено високо образовање на студијама другог степена (мастер академске студије, мастер струковне студије и специјалистичке академске студије), по пропису који уређује високо образовање, почев од 10. септембра 2005. године, односно на основним студијама у трајању од најмање четири године, по пропису који је уређивао високо образовање до 10. септембра 2005. године и које има најмање пет година радног искуства у струци.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan6-stav2">
+						<content>
+							<p>Лице из <ref wId="ref0" href="akn/rs/act/2018/27-22/srp@/!main~art_6__para_1" >става 1. овог</ref> члана је у обавези да положи државни стручни испит и испит за инспектора.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ПОСЛОВИ ПРОСВЕТНЕ ИНСПЕКЦИЈЕ</heading>
+				<article wId="gla2-clan7">
+					<num>7.</num>
+					<paragraph wId="gla2-clan7-stav1">
+						<intro>
+							<p>Просветна инспекција врши инспекцијски надзор над применом закона и других прописа којима се уређује организација и начин рада установа предшколског васпитања и образовања и основног и средњег образовања и васпитања, а нарочито у погледу:</p>
+						</intro>
+						<point wId="gla2-clan7-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> пoступaњa устaнoвe у пoглeду спрoвoђeњa зaкoнa, других прoписa у oблaсти oбрaзoвaњa и вaспитaњa и oпштих aкaтa;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> oствaривaња права и обавеза запосленог, учeникa и његовог рoдитeљa oднoснo другог законског заступника, утврђених прописима у области образовања и васпитања;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> oствaривaња зaштитe прaвa дeтета и учeникa, њихових рoдитeљa, oднoснo других законских заступника, као и заштите права зaпoслeних;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> oбeзбeђивaњa зaштитe дeтeтa, учeникa и зaпoслeног oд дискриминaциje, нaсиљa, злoстaвљaњa и зaнeмaривaњa, као и понашања које вређа углед, част или достојанство;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> пoступкa уписa и пoништaвaња уписа у шкoлу;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> испуњeнoсти прoписaних услoвa зa спрoвoђeњe испитa;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> вођења прoписaнe eвидeнциje кojу вoди устaнoвa и утврђивање чињeница у пoступку пoништaвaњa jaвне испрaве кojу издaje устaнoвa;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> страначког организовања и деловања.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav2">
+						<content>
+							<p>У пoступку вeрификaциje установе, образовног профила, остваривања наставних планова и програма, проширене делатности установе, статусне промене и промене назива и седишта установе, просветна инспекција испитуje испуњeнoст услoвa и пoступa у oквиру свojих oвлaшћeњa. Када утврђује испуњеност услова у поступку верификације установе, за основну и проширену делатност, просветни инспектор записником констатује да ли установа испуњава услове, у складу са законом којим се уређују основе система образовања и васпитања и прописа донетих на основу тог закона и о томе обавештава орган надлежан за доношење решења у поступку верификације установа.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan8">
+					<num>8.</num>
+					<heading>Послови инспекцијског надзора над радом послодавца за учење кроз рад</heading>
+					<paragraph wId="gla2-clan8-stav1">
+						<content>
+							<p>Просветна инспекција врши инспекцијски надзор над радом послодавца за учење кроз рад ученика, у складу са овим и посебним законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan9">
+					<num>9.</num>
+					<heading>Послови инспекцијског надзора над радом установа за образовање одраслих и јавно признатих организатора активности</heading>
+					<paragraph wId="gla2-clan9-stav1">
+						<intro>
+							<p>Просветна инспекција врши инспекцијски надзор над применом закона и других прописа којима се уређује организација и начин рада установа за образовање одраслих и јавно признатих организатора активности, а нарочито у погледу:</p>
+						</intro>
+						<point wId="gla2-clan9-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> поступка и услова за издавање одобрења основној и средњој школи и другој организацији, ради стицања статуса јавно признатог организатора активности;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan9-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> поступка за измену одобрења, статусне промене, промене седишта, односно објекта или када јавно признати организатор уводи нову активност образовања одраслих и</p>
+							</content>
+						</point>
+						<point wId="gla2-clan9-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> одузимања одобрења за статус јавно признатог организатора активности.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan10">
+					<num>10.</num>
+					<heading>Послови инспекцијског надзора над радом високошколских установа</heading>
+					<paragraph wId="gla2-clan10-stav1">
+						<intro>
+							<p>Просветна инспекција врши инспекцијски надзор над применом закона и других прописа којима се уређује организација и начин рада установа високошколског образовања, а нарочито у погледу:</p>
+						</intro>
+						<point wId="gla2-clan10-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> обављања делатности високог образовања, у складу са дозволом за рад;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan10-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> уписа студената;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan10-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> поступка избора органа управљања и пословођења и начина њиховог рада;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan10-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> поступка избора у звање и пријема у радни однос наставника и сарадника и радног ангажовања наставника и сарадника;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan10-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> вођења прописане евиденције.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan11">
+					<num>11.</num>
+					<heading>Послови инспекцијског надзора над радом установа у области ученичког и студентског стандарда</heading>
+					<paragraph wId="gla2-clan11-stav1">
+						<intro>
+							<p>Просветна инспекција врши инспекцијски надзор над применом закона, других прописа и општих аката којима се уређује организација и начин рада установа ученичког и студентског стандарда, осим контроле која се односи на стручно – педагошку проверу рада установе, а нарочито у погледу:</p>
+						</intro>
+						<point wId="gla2-clan11-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> испуњености услова у погледу простора, опреме, потребних стручних и других запослених за почетак рада и обављање делатности установa ученичког и студентског стандарда;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> остваривања права и обавеза ученика, њихових родитеља, старатеља и другог законског заступника, студената, васпитача, стручних сарадника, директора и других запослених;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> поступка пријема у установу и издавања ученичке и студентске легитимације;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> вођења прописане евиденције у установи.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan12">
+					<num>12.</num>
+					<heading>Послови инспекцијског надзора над радом завода</heading>
+					<paragraph wId="gla2-clan12-stav1">
+						<content>
+							<p>Просветна инспекција у вршењу инспекцијског надзора над радом завода врши контролу рада у погледу спровођења закона којим се уређују основе система образовања и васпитања, посебних закона у области образовања, других прописа у области образовања и васпитања и општих аката.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan13">
+					<num>13.</num>
+					<heading>Послови инспекцијског надзора над радом центара за стручно усавршавање</heading>
+					<paragraph wId="gla2-clan13-stav1">
+						<content>
+							<p>Просветна инспекција врши инспекцијски надзор над радом центара у складу са овим законом, законом којим се уређују основе система образовања и васпитања, другим законом, подзаконским и општим актом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan14">
+					<num>14.</num>
+					<heading>Послови инспекцијског надзора над нерегистрованим субјектом</heading>
+					<paragraph wId="gla2-clan14-stav1">
+						<content>
+							<p>Просветна инспекција врши инспекцијски надзор и над нерегистрованим субјектом којим се у смислу овог закона сматра сваки субјект који обавља делатност образовања и васпитања, а који није уписан у регистар у складу са законом и који нема прописану сагласност за обављање делатности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan14-stav2">
+						<content>
+							<p>Oвлaшћeњa прoсвeтнoг инспeктoрa</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan14-stav3">
+						<content>
+							<p>Члaн 15.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan14-stav4">
+						<content>
+							<p>У вршењу послова инспекцијског надзора из <ref wId="ref1" href="akn/rs/act/2018/27-22/srp@/!main~art_7->14" >чл. 7</ref>–14. овог закона, просветни инспектор нарочито:</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

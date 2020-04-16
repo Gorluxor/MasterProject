@@ -1,0 +1,265 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о порезима на имовину">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2001/26-1/main"/>
+					<FRBRuri value="/rs/act/2001/26-1"/>
+					<FRBRdate date="2001-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2019/86-29/srp@/main"/>
+					<FRBRuri value="/rs/act/2019/86-29/srp@"/>
+					<FRBRdate date="2019-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2019/86-29/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2019/86-29/srp@.akn"/>
+					<FRBRdate date="2019-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2001-04-20" name="“службени гласник рс" number="26" showAs="“Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="IV ЈАВНИ ПРИХОДИ" value="iv јавни приходи" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="2. Порези и акцизе" value="2. порези и акцизе" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2001-01-01" refersTo="26/2001-1" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2002-01-01" refersTo="45/2002-34" source="#somebody" type="amendment" wId="e2"/>
+				<eventRef date="2002-01-01" refersTo="80/2002-1" source="#somebody" type="amendment" wId="e3"/>
+				<eventRef date="2002-01-01" refersTo="80/2002-26" source="#somebody" type="amendment" wId="e4"/>
+				<eventRef date="2004-01-01" refersTo="135/2004-50" source="#somebody" type="amendment" wId="e5"/>
+				<eventRef date="2007-01-01" refersTo="61/2007-14" source="#somebody" type="amendment" wId="e6"/>
+				<eventRef date="2009-01-01" refersTo="5/2009-3" source="#somebody" type="amendment" wId="e7"/>
+				<eventRef date="2010-01-01" refersTo="101/2010-240" source="#somebody" type="amendment" wId="e8"/>
+				<eventRef date="2011-01-01" refersTo="24/2011-66" source="#somebody" type="amendment" wId="e9"/>
+				<eventRef date="2011-01-01" refersTo="78/2011-248" source="#somebody" type="amendment" wId="e10"/>
+				<eventRef date="2012-01-01" refersTo="57/2012-17" source="#somebody" type="amendment" wId="e11"/>
+				<eventRef date="2013-01-01" refersTo="47/2013-3" source="#somebody" type="amendment" wId="e12"/>
+				<eventRef date="2014-01-01" refersTo="68/2014-3" source="#somebody" type="amendment" wId="e13"/>
+				<eventRef date="2018-01-01" refersTo="95/2018-260" source="#somebody" type="amendment" wId="e14"/>
+				<eventRef date="2018-01-01" refersTo="99/2018-99" source="#somebody" type="amendment" wId="e15"/>
+				<eventRef date="2019-01-01" refersTo="86/2019-29" source="#somebody" type="amendment" wId="e16"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2001-04-18" wId="usvajanje"/>
+				<step by="#TODO" date="2001-04-28" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2001-04-28" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у Службеном гласнику Републике Србије, односно 28. априла 2001. године (види члан 50. Закона).Одлуком Савезног Уставног суда IУ број 176/98 („Службени гласник РС“, број 45/2002) престала је да важи одредба члана 38. Закона о порезима на имовину (Службени гласник РС број 26/2001) јер је утврђено да није сагласна са Уставом СРЈ и Законом о основама својинскоправних односа (Службени лист СФРЈ бр. 6/80, 36/90 и Службени лист СРЈ број 29/96) (види Одлуку СУС – 45/2002-34).Престао је да важи члан 41. (види члан 192. Закона о пореском поступку и пореској администрацији – 80/2002-1).Одлуком Уставног суда број IУз 225/2005 („Службени гласник РС“, број 57/2012) престала је да важи одредба члана 38а Закона о порезима на имовину (Службени гласник РС, бр. 26/01, 45/02, 80/02 и 135/04) јер је утврђено да није у сагласности с Уставом (види Одуку УС – 57/2012-17).Закон о изменама и допунама Закона о порезима на имовину (Службени гласник РС, број 47/2013) ступио је на снагу наредног дана од дана објављивања у Службеном гласнику РС, односно 30. маја 2013. године, а одредбе чл. 1. до 11. и чл. 25, 27. и 31. до 33. овог закона којима се мењају чл. 2, 4, 5, 6, 6а, 7, 7а, 9, 10. и 12. и члан 13. став 1. Закона о порезима на имовину, примењују се од 1. јануара 2014. године, осим одредбе члана 10. став 4. овог закона којом се мења члан 12. став 1. тачка 7а Закона о порезима на имовину, која ће се примењивати од 1. јануара 2016. године. Од 1. јануара 2014. године до 31. децембра 2015. године порез на имовину не плаћа се на водно земљиште, као и на водне објекте за које је издата правоснажна водна сагласност, односно за које се водна дозвола не издаје у складу са законом којим се уређују воде, осим на објекте за узгој риба (рибњаке) (види члан 39. Закона - 47/2013-3).Престао је да важи члан 44. Закона (види члан 85. Закона о изменама и допунама Закона о пореском поступку и пореској администрацији – 68/2014-3).Одлуком Уставног суда број IУз 155/2014 („Службени гласник РС“, број 99/2018) престала је да важи одредба члана 5. став 4. Закона о порезима на имовину („Службени гласник РС”, бр. 26/01, 54/02, 80/02, 135/04, 61/07, 5/09, 101/10, 24/11, 78/11, 57/12 и 47/13) јер је утврђено да није у сагласности с Уставом (види Одуку УС – 99/2018-99).Закон о изменама и допунама Закона о порезима на имовину („Службени гласник РС“, број 86/2019) ступио је на снагу 1. јануара 2020. године (види члан 14. Закон – 86/2019-29).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О порезима на имовину "Службени гласник РС", бр. 26 од 20. априла 2001, 45 од 2. јула 2002 - СУС, 80 од 26. новембра 2002, 80 од 26. новембра 2002 - др. закон, 135 од 21. децембра 2004, 61 од 30. јуна 2007, 5 од 22. јануара 2009, 101 од 29. децембра 2010, 24 од 4. априла 2011, 78 од 19. октобра 2011, 57 од 8. јуна 2012 - УС, 47 од 29. маја 2013, 68 од 3. јула 2014 - др. закон, 95 од 8. децембра 2018, 99 од 18. децембра 2018 - УС, 86 од 6. децембра 2019.</p>
+			</longTitle>
+			<p>Редакцијски пречишћен текст</p>
+		</preface>
+		<preamble>
+			<p>﻿</p>
+		</preamble>
+		<body>
+			<part wId="deo1">
+				<num>Део први</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="deo1-clan1">
+					<num>1.</num>
+					<paragraph wId="deo1-clan1-stav1">
+						<intro>
+							<p>Порезима на имовину, у смислу овог закона, сматрају  се:</p>
+						</intro>
+						<point wId="deo1-clan1-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> порез на имовину;</p>
+							</content>
+						</point>
+						<point wId="deo1-clan1-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> порез на наслеђе и поклон;</p>
+							</content>
+						</point>
+						<point wId="deo1-clan1-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> порез на пренос апсолутних права.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+			</part>
+			<part wId="deo2">
+				<num>Део други</num>
+				<heading>ПОРЕЗ НА ИМОВИНУ</heading>
+				<article wId="deo2-clan2">
+					<num>2.</num>
+					<heading>Предмет опорезивања</heading>
+					<paragraph wId="deo2-clan2-stav1">
+						<intro>
+							<p>Порез на имовину из члана <ref wId="ref0" href="akn/rs/act/2019/86-29/srp@/!main~art_1__para_1__point_1" >1</ref>. тачка 1) овог закона (у  даљем тексту: порез на имовину), плаћа се на непокретности које се налазе на  територији Републике Србије, и то на:</p>
+						</intro>
+						<point wId="deo2-clan2-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> право својине, односно на право својине на земљишту  површине преко 10 ари;</p>
+							</content>
+						</point>
+						<point wId="deo2-clan2-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> право закупа, односно коришћења, стана или куће за  становање, конституисано у корист физичког лица;</p>
+							</content>
+						</point>
+						<point wId="deo2-clan2-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> право коришћења грађевинског земљишта површине  преко 10 ари, у складу са законом којим се уређује правни режим грађевинског  земљишта;</p>
+							</content>
+						</point>
+						<point wId="deo2-clan2-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> право коришћења непокретности у јавној својини од  стране имаоца права коришћења, у складу са законом којим се уређује јавна  својина;</p>
+							</content>
+						</point>
+						<point wId="deo2-clan2-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> коришћење непокретности у јавној својини од стране  корисника непокретности, у складу са законом којим се уређује јавна својина;</p>
+							</content>
+						</point>
+						<point wId="deo2-clan2-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> државину непокретности на којој ималац права  својине није познат или није одређен;</p>
+							</content>
+						</point>
+						<point wId="deo2-clan2-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> државину непокретности у јавној својини, без  правног основа;</p>
+							</content>
+						</point>
+						<point wId="deo2-clan2-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> државину и коришћење непокретности по основу  уговора о финансијском лизингу.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="deo2-clan2-stav2">
+						<intro>
+							<p>Непокретностима, у смислу <ref wId="ref1" href="akn/rs/act/2019/86-29/srp@/!main~art_2__para_1" >става 1. овог</ref> члана,  сматрају се:</p>
+						</intro>
+						<point wId="deo2-clan2-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> земљиште, и то: грађевинско, пољопривредно, шумско  и друго;</p>
+							</content>
+						</point>
+						<point wId="deo2-clan2-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> стамбене, пословне и друге зграде, станови,  пословне просторије, гараже и други (надземни и подземни) грађевински објекти,  односно њихови делови (у даљем тексту: објекти).</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="deo2-clan2-stav3">
+						<content>
+							<p>Брисан је ранији <ref wId="ref3" href="akn/rs/act/2019/86-29/srp@/!main~art_2__para_3" >став 3. </ref>(види <ref wId="ref2" href="akn/rs/act/2019/86/srp@/!main~/art_1">члан 1. Закона -  86/2019-29</ref>)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo2-clan2-stav4">
+						<content>
+							<p>Кад се порез плаћа на право из става <ref wId="ref4" href="akn/rs/act/2019/86-29/srp@/!main~art_2__para_1__point_1" >1</ref>. тач. 1) и <ref wId="ref5" href="akn/rs/act/2019/86-29/srp@/!main~art_2__para_1__point_3" >3</ref>)  овог члана предмет опорезивања је укупна површина тог земљишта.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo2-clan2-stav5">
+						<intro>
+							<p>Правом закупа стана или кућe за становање  конституисаним у корист физичког лица, у смислу става 1. тачка <ref wId="ref6" href="akn/rs/act/2019/86-29/srp@/!main~art_2__para_1__point_2" >2</ref>) овог члана  сматра се право закупа за период дужи од једне године или на неодређено време,  за који jе прописано плаћање непрофитне закупнине или закупнине која се  обрачунава применом прописаних критеријума и мерила, у складу са законима којима  се уређују:</p>
+						</intro>
+						<hcontainer name="subpoint" wId="deo2-clan2-stav5-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> становање и одржавање зграда, односно у складу са  посебним прописима којима је било уређено становање који су престали да важе  даном почетка примене закона којим је уређено становање и одржавање зграда;</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="deo2-clan2-stav5-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> јавна својина;</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="deo2-clan2-stav5-podtac3">
+							<num>(3)</num>
+							<content>
+								<p> права бораца, војних инвалида и породица палих  бораца;</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="deo2-clan2-stav5-podtac4">
+							<num>(4)</num>
+							<content>
+								<p> збрињавање избеглица.</p>
+							</content>
+						</hcontainer>
+					</paragraph>
+					<paragraph wId="deo2-clan2-stav6">
+						<content>
+							<p>Правом коришћења стана или кућe за становање  конституисаним у корист физичког лица, у смислу става 1. тачка <ref wId="ref8" href="akn/rs/act/2019/86-29/srp@/!main~art_2__para_1__point_2" >2</ref>) овог члана  сматра се право коришћења за период из <ref wId="ref7" href="akn/rs/act/2019/86-29/srp@/!main~art_2__para_4" >става  4. овог</ref> члана, у складу са законом  којим се уређује збрињавање избеглица.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo2-clan2-stav7">
+						<content>
+							<p>*<ref wId="ref9" href="akn/rs/act/2013/47/srp@">Службени гласник РС, број 47/2013</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo2-clan2-stav8">
+						<content>
+							<p>**<ref wId="ref10" href="akn/rs/act/2018/95/srp@">Службени гласник РС, број 95/2018</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo2-clan2.а">
+					<num>2а</num>
+					<heading>***Службени гласник РС, број 86/2019</heading>
+					<paragraph wId="deo2-clan2.а-stav1">
+						<content>
+							<p>Кад на непокретности, поред права својине, постоји  неко од права, односно коришћење или државина, из <ref wId="ref11" href="akn/rs/act/2019/86-29/srp@/!main~art_2__para_1__point_2->point_5" >члана 2. став 1. тач. 2) </ref>до 5)  и тач. <ref wId="ref12" href="akn/rs/act/2019/86-29/srp@/!main~art_2__para_1__point_7" >7</ref>) и <ref wId="ref13" href="akn/rs/act/2019/86-29/srp@/!main~art_2__para_1__point_8" >8</ref>) овог закона, односно у случају из тачке <ref wId="ref14" href="akn/rs/act/2019/86-29/srp@/!main~art_2__para_1__point_6" >6</ref>) тог члана, порез на  имовину плаћа се на то право, односно на коришћење или државину, а не на право  својине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo2-clan2.а-stav2">
+						<content>
+							<p>Кад на непокретности, поред права, односно коришћења  из <ref wId="ref15" href="akn/rs/act/2019/86-29/srp@/!main~art_2__para_1__point_2->point_5" >члана <ref wId="ref18" href="akn/rs/act/2019/86-29/srp@/!main~art_2__para_1__point_2" >2</ref>. став 1. тач. 2) </ref>до 5) и тачка <ref wId="ref16" href="akn/rs/act/2019/86-29/srp@/!main~art_2__para_1__point_8" >8</ref>) овог закона, постоји и државина из  тачке <ref wId="ref17" href="akn/rs/act/2019/86-29/srp@/!main~art_2__para_1__point_7" >7</ref>) тог става, порез на имовину плаћа се на државину, а не на право,  односно на коришћење из тач. 2) до 5) и тачке <ref wId="ref19" href="akn/rs/act/2019/86-29/srp@/!main~art_2__para_1__point_8" >8</ref>) овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo2-clan2.а-stav3">
+						<content>
+							<p>Кад на стану или кући за становање, поред права из  члана <ref wId="ref20" href="akn/rs/act/2019/86-29/srp@/!main~art_2__para_1__point_2" >2</ref>. став 1. тачка <ref wId="ref23" href="akn/rs/act/2019/86-29/srp@/!main~art_2__para_1__point_2" >2</ref>) овог закона, постоји и право или коришћење из тач. <ref wId="ref21" href="akn/rs/act/2019/86-29/srp@/!main~art_2__para_1__point_4" >4</ref>)  и <ref wId="ref22" href="akn/rs/act/2019/86-29/srp@/!main~art_2__para_1__point_5" >5</ref>) тог става, порез на имовину плаћа се на право закупа или право коришћења из  тачке 2), а не на право, односно коришћење из тач. <ref wId="ref24" href="akn/rs/act/2019/86-29/srp@/!main~art_2__para_1__point_4" >4</ref>) и <ref wId="ref25" href="akn/rs/act/2019/86-29/srp@/!main~art_2__para_1__point_5" >5</ref>) тог члана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo2-clan2.б">
+					<num>2б</num>
+					<heading>*Службени гласник РС, број 95/2018</heading>
+					<paragraph wId="deo2-clan2.б-stav1">
+						<content>
+							<p>Саставним делом земљишта, у смислу предмета  опорезивања порезом на имовину, сматра се и не опорезује као објекат:</p>
+						</content>
+					</paragraph>
+				</article>
+			</part>
+		</body>
+	</act>
+</akomaNtoso>

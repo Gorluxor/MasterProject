@@ -1,0 +1,527 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о етанолу">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2009/41-158/main"/>
+					<FRBRuri value="/rs/act/2009/41-158"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2009/41-158/srp@/main"/>
+					<FRBRuri value="/rs/act/2009/41-158/srp@"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2009/41-158/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2009/41-158/srp@.akn"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2009-06-02" name="службени гласник рс" number="41" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="XIII ПОЉОПРИВРЕДНА ДЕЛАТНОСТ" value="xiii пољопривредна делатност" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="5. Алкохолна пића" value="5. алкохолна пића" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2009-05-29" wId="usvajanje"/>
+				<step by="#TODO" date="2009-06-10" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2009-06-10" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 10 јуна 2009. године (види члан 31. Закона).</p>
+				</note>
+				<note wId="not2">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 10 јуна 2009. године (види члан 31. Закона).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О етанолу "Службени гласник РС", број 41 од 2. јуна 2009.\</p>
+			</longTitle>
+			<p>﻿</p>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређују се услови производње етанола, контрола квалитета, декларисање, увоз, промет и употреба етанола, као и надзор над спровођењем овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Етанол мора да испуњава прописане норме квалитета и услове у погледу паковања и декларисања, утврђене овим законом и прописима којима се уређује његов квалитет.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<paragraph wId="gla1-clan3-stav1">
+						<content>
+							<p>Произвођач и увозник етанола не може да се бави производњом вина, производа од грожђа и вина, ракије од воћа и других производа од ракије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>Етанолом, у смислу овог закона, сматра се етил алкохол који је произведен ферментацијом сировине пољопривредног порекла и њеном ректификацијом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav2">
+						<intro>
+							<p>Етанол може бити:</p>
+						</intro>
+						<point wId="gla1-clan4-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> сирови етил алкохол алкохолне јачине до 88 %v/v;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> технички етил алкохол алкохолне јачине од 88 до 96 %v/v;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> рафинисани етил алкохол алкохолне јачине од 96 до 99 %v/v;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> апсолутни етил алкохол алкохолне јачине од 99 до 99,99 %v/v.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav3">
+						<content>
+							<p>Одредбе овог закона не односе се на синтетички етанол.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>УСЛОВИ ПРОИЗВОДЊЕ</heading>
+				<article wId="gla2-clan5">
+					<num>5.</num>
+					<paragraph wId="gla2-clan5-stav1">
+						<content>
+							<p>Производњом етанола може да се бави правно лице (у даљем тексту: произвођач) ако има објекте, одвојене просторије за складиштење сировина и етанола, опрему за припрему сировине и производњу микроорганизама за ферментацију и ректификацију, као и континуални мерач (бројач) количина произведеног етанола за непрекидно мерење у року од три године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav2">
+						<content>
+							<p>Произвођач етанола, поред услова из <ref wId="ref0" href="akn/rs/act/2009/41-158/srp@/!main~art_5__para_1" >става 1. овог</ref> члана, мора да има одвојену просторију за пуњење етанола у оригинално паковање са уређајем за пуњење етанола, одвојену просторију за складиштење готовог упакованог производа, као и лабораторију са опремом за контролу квалитета сировине и етанола, у складу са прописима којима се уређује квалитет етанола.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav3">
+						<content>
+							<p>Сва места могућег отакања етанола у просторији за производњу морају бити пломбирана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan6">
+					<num>6.</num>
+					<paragraph wId="gla2-clan6-stav1">
+						<content>
+							<p>Произвођач етанола дужан је да обезбеди стручно руковођење процесом производње етанола и контролом квалитета сировине етанола.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav2">
+						<content>
+							<p>Процесом производње може да руководи дипломирани инжењер, односно дипломирани инжењер master-а биотехнолошког, односно прехрамбено технолошког смера који по наставном програму има положене предмете из области технологије алкохолних ферментација, са најмање две године радног искуства на пословима производње етанола, односно дестилованих алкохолних пића и који је код произвођача етанола у радном односу на неодређено време.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan7">
+					<num>7.</num>
+					<paragraph wId="gla2-clan7-stav1">
+						<content>
+							<p>Произвођач може да производи етанол ако испуњава услове из чл. <ref wId="ref1" href="akn/rs/act/2009/41-158/srp@/!main~art_5" >5</ref>. и <ref wId="ref2" href="akn/rs/act/2009/41-158/srp@/!main~art_6" >6</ref>. овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav2">
+						<content>
+							<p>Испуњеност услова из <ref wId="ref3" href="akn/rs/act/2009/41-158/srp@/!main~art_7__para_1" >става 1. овог</ref> члана, на захтев произвођача, утврђује решењем министар надлежан за послове пољопривреде (у даљем тексту: министар).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav3">
+						<content>
+							<p>Решење министра из <ref wId="ref4" href="akn/rs/act/2009/41-158/srp@/!main~art_7__para_2" >става 2. овог</ref> члана је коначно и против њега се може покренути управни спор.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan8">
+					<num>8.</num>
+					<paragraph wId="gla2-clan8-stav1">
+						<content>
+							<p>Произвођач етанола дужан је да о почетку производње и о месечно произведеним количинама и квалитету етанола обавештава у електронском облику министарство надлежно за послове пољопривреде (у даљем тексту: Министарство).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav2">
+						<content>
+							<p>Произвођач етанола дужан је да води евиденцију писмено и у електронском облику са подацима о количини и квалитету употребљене сировине и количини, као и квалитету произведеног и продатог етанола исказаног у хектолитрима апсолутног алкохола (hl).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav3">
+						<content>
+							<p>Министар ближе прописује начин вођења евиденције производње етанола.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan9">
+					<num>9.</num>
+					<paragraph wId="gla2-clan9-stav1">
+						<content>
+							<p>За конзервисање, односно пулпирање воћа може се користити само етанол који одговара прописаним стандардима и нормама квалитета и уз сагласност Министарства.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>КОНТРОЛА КВАЛИТЕТА</heading>
+				<article wId="gla3-clan10">
+					<num>10.</num>
+					<paragraph wId="gla3-clan10-stav1">
+						<content>
+							<p>Етанол, пре декларисања и стављања у промет, подлеже обавезном испитивању квалитета, у складу са овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan10-stav2">
+						<content>
+							<p>За квалитет етанола одговоран је произвођач, односно увозник.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan10-stav3">
+						<content>
+							<p>Министар прописује услове које у погледу квалитета мора да испуњава етанол.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan10-stav4">
+						<content>
+							<p>Испитивање квалитета сировине и етанола врши акредитована лабораторија овлашћена од стране Министарства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan10-stav5">
+						<content>
+							<p>Министар прописује услове које мора да испуњава акредитована лабораторија у погледу техничке опремљености и професионалне оспособљености.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan10-stav6">
+						<content>
+							<p>Овлашћење се издаје решењем министра.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan10-stav7">
+						<content>
+							<p>Овлашћење министар одузима ако се утврди да акредитована лабораторија не испуњава прописане услове или се утврди да је овлашћење издато на основу нетачних и неистинитих података.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan11">
+					<num>11.</num>
+					<paragraph wId="gla3-clan11-stav1">
+						<intro>
+							<p>Свака оригинална јединица етанола мора да има декларацију заштићену од штетних спољних утицаја на којој су јасно и читко унети следећи подаци:</p>
+						</intro>
+						<alinea wId="gla3-clan11-stav1-ali1">
+							<content>
+								<p>азив производа;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla3-clan11-stav1-ali2">
+							<content>
+								<p>едиште и адреса произвођача;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla3-clan11-stav1-ali3">
+							<content>
+								<p>знака квалитета;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla3-clan11-stav1-ali4">
+							<content>
+								<p>ето запремина производа у литрима;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla3-clan11-stav1-ali5">
+							<content>
+								<p>атум паковања;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla3-clan11-stav1-ali6">
+							<content>
+								<p>адржај етанола у %  v/v;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla3-clan11-stav1-ali7">
+							<content>
+								<p>знака стандарда.</p>
+							</content>
+						</alinea>
+					</paragraph>
+					<paragraph wId="gla3-clan11-stav2">
+						<content>
+							<p>Под оригиналном јединицом етанола подразумева се свако појединачно паковање које се било којим поступком не може вратити у првобитно стање.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>ПРОМЕТ</heading>
+				<article wId="gla4-clan12">
+					<num>12.</num>
+					<paragraph wId="gla4-clan12-stav1">
+						<content>
+							<p>Етанол се ставља у промет у оригиналном паковању или у ринфузном стању.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan13">
+					<num>13.</num>
+					<paragraph wId="gla4-clan13-stav1">
+						<content>
+							<p>Забрањено је продавати, односно куповати етанол у ринфузном стању ради даље препродаје.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan13-stav2">
+						<content>
+							<p>Забрањено је физичком лицу да продаје етанол у ринфузном стању.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan13-stav3">
+						<content>
+							<p>Забрањено је продавати етанол у оригиналном паковању у малопродаји ако исти није набављен директно од произвођача, односно увозника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan13-stav4">
+						<content>
+							<p>Забрањено је препакивање увезеног етанола у оригиналном паковању.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan14">
+					<num>14.</num>
+					<paragraph wId="gla4-clan14-stav1">
+						<content>
+							<p>Увоз етанола може да се врши у ринфузном стању и у оригиналном паковању.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan14-stav2">
+						<content>
+							<p>Увозник етанола дужан је да о месечно увезеним и продатим количинама, врсти и квалитету етанола писмено обавештава Министарство.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan14-stav3">
+						<content>
+							<p>Увозник етанола води евиденцију писмено и у електронском облику о количини, квалитету и врсти увезеног етанола, а ако је у ринфузном стању и продатог етанола исказаног у хектолитрима апсолутног алкохола (hl), као и о врстама и броју продатих појединачних паковања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan14-stav4">
+						<content>
+							<p>Одредбе <ref wId="ref5" href="akn/rs/act/2009/41-158/srp@/!main~art_14__para_1->para_2" >ст. 1. и 2. овог</ref> члана односе се на етанол над којим је спроведен царински поступак пуштања робе у слободан промет.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan15">
+					<num>15.</num>
+					<paragraph wId="gla4-clan15-stav1">
+						<content>
+							<p>Произвођач, односно увозник етанола дужан је да о продаји етанола сачињава писмени извештај који доставља Министарству до петог у месецу за претходни месец.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan15-stav2">
+						<content>
+							<p>Извештај из <ref wId="ref6" href="akn/rs/act/2009/41-158/srp@/!main~art_15__para_1" >става 1. овог</ref> члана садржи назив, седиште и адресу купца, врсту етанола, испоручену количину етанола са датумом испоруке.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan16">
+					<num>16.</num>
+					<paragraph wId="gla4-clan16-stav1">
+						<intro>
+							<p>Етанол у оригиналном паковању може да стави у промет:</p>
+						</intro>
+						<point wId="gla4-clan16-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> произвођач етанола у специјализованој продавници која се налази у кругу просторија за производњу етанола (производни погон);</p>
+							</content>
+						</point>
+						<point wId="gla4-clan16-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> увозник етанола у регистрованом централном магацину.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla4-clan16-stav2">
+						<content>
+							<p>У специјализованој продавници и у регистрованом централном магацину етанол се може продавати у оригиналном паковању до 25 l, а у малопродајним објектима у оригиналном паковању до једног l денатурисаног етанола, само крајњем купцу.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan17">
+					<num>17.</num>
+					<paragraph wId="gla4-clan17-stav1">
+						<content>
+							<p>Етанол у оригиналном паковању намењен продаји на мало мора бити денатурисан (обојен).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan17-stav2">
+						<content>
+							<p>Етанол који се продаје у оригиналном паковању већем од један l у специјализованој продавници произвођача не мора бити денатурисан, ако купац приложи доказ: о обављању производње у којој је етанол сировина и произвођачку спецификацију којом потврђује употребу купљеног етанола као сировину у производњи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan17-stav3">
+						<content>
+							<p>Министар ближе прописује начин денатурисања етанола.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan18">
+					<num>18.</num>
+					<paragraph wId="gla4-clan18-stav1">
+						<content>
+							<p>Произвођач, односно увозник етанола може продавати етанол у ринфузном стању правном лицу које има регистровану производњу у којој је етанол сировина према приложеној произвођачкој спецификацији и изјавом купца о намени купљеног етанола датој на меморандуму фирме.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan18-stav2">
+						<content>
+							<p>Произвођач, односно увозник етанола може продавати етанол и у оригиналном паковању од један л као денатурисан правном лицу, односно предузетнику само ради продаје у сопственом малопродајном објекту.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan18-stav3">
+						<content>
+							<p>Етанол у унутрашњем транспорту мора да прати потписана и печатом оверена отпремница са подацима о произвођачу и купцу, количини у литрима, јачини етанола, извештајем о испитивању квалитета, односно усаглашености са прописима о квалитету и број регистарске ознаке превозног средства.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan19">
+					<num>19.</num>
+					<paragraph wId="gla4-clan19-stav1">
+						<content>
+							<p>Правно лице дужно је да произведени сирови етанол, као споредни производ у технолошком процесу производње за сточну храну, прода произвођачу етанола.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan20">
+					<num>20.</num>
+					<paragraph wId="gla4-clan20-stav1">
+						<content>
+							<p>Евиденција произвођача, односно увозника о продатом етанолу садржи: назив, седиште и адресу купца, количину и врсту етанола према произвођачкој спецификацији, број и датум отпремнице, број произвођачке спецификације и изјаву о намени купљеног етанола, а за етанол у ринфузном стању и регистарску ознаку превозног средства којим се купљени етанол транспортује.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan21">
+					<num>21.</num>
+					<paragraph wId="gla4-clan21-stav1">
+						<content>
+							<p>Купац, односно корисник етанола дужан је да води писмено и у електронском облику евиденцију о употреби купљеног етанола која садржи: назив, седиште и адресу произвођача, односно увозника, број и датум отпремнице, количину, врсту и квалитет етанола према произвођачкој спецификацији, као и намену купљеног етанола.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>НАДЗОР</heading>
+				<article wId="gla5-clan22">
+					<num>22.</num>
+					<paragraph wId="gla5-clan22-stav1">
+						<content>
+							<p>Инспекцијски надзор над применом овог закона и прописа донетих на основу овог закона врши Министарство преко пољопривредног инспектора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan22-stav2">
+						<content>
+							<p>Послове пољопривредног инспектора може да обавља дипломирани инжењер прехрамбене технологије, односно дипломирани инжењер master-а, односно дипломирани инжењер пољопривреде, односно дипломирани инжењер master-а смера технологије прехрамбених производа, односно дипломирани инжењер биотехнолошког смера, односно дипломирани инжењер master-а, са најмање три године радног искуства и са положеним државним стручним испитом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan22-stav3">
+						<content>
+							<p>Послове пољопривредног инспектора могу обављати и лица са високим образовањем које су стекла до дана ступања на снагу овог закона, ако су до дана ступања на снагу овог закона обављала послове пољопривредног инспектора.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan23">
+					<num>23.</num>
+					<paragraph wId="gla5-clan23-stav1">
+						<content>
+							<p>Надзор над радом акредитоване лабораторије у вршењу поверених послова испитивање квалитета етанола врши Министарство, у складу са прописима којима се уређује државна управа.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan24">
+					<num>24.</num>
+					<paragraph wId="gla5-clan24-stav1">
+						<intro>
+							<p>У вршењу послова инспекцијског надзора пољопривредни инспектор има право и дужност да:</p>
+						</intro>
+						<point wId="gla5-clan24-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> проверава испуњеност услова за производњу етанола;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan24-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> проверава производњу етанола;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan24-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> проверава квалитет сировине и произведеног етанола;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan24-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> проверава промет сировина и етанола у производњи и промету.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla5-clan24-stav2">
+						<content>
+							<p>У вршењу послова пољопривредни инспектор може да узима узорке сировина и етанола без накнаде ради испитивања и утврђивања квалитета.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan25">
+					<num>25.</num>
+					<paragraph wId="gla5-clan25-stav1">
+						<content>
+							<p>У вршењу послова из <ref wId="ref7" href="akn/rs/act/2009/41-158/srp@/!main~art_24__para_1" >члана 24. став 1. овог</ref> закона пољопривредни инспектор може да:</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>
