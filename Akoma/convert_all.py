@@ -14,12 +14,14 @@ try:
     from Akoma.reasoner.OdlukaReasoner import OdlukaReasoner
     from Akoma.form_akoma.MetadataBuilder import MetadataBuilder
     from Akoma.named_enitity_recognition.references import add_refs
+    from Akoma.tokenizer.BasicTokenizer import BasicTokenizer
 except ModuleNotFoundError as sureError:
     try:
         from utilities import ETree, utilities
         from convertToLatin import regex_patterns
         from preprocessing import init_akoma
         from tokenizer.HTMLTokenizer import HTMLTokenizer
+        from tokenizer.BasicTokenizer import BasicTokenizer
         from form_akoma.AkomaBuilder import AkomaBuilder
         from tokenizer import patterns
         from reasoner.BasicReasoner import BasicReasoner
@@ -31,26 +33,6 @@ except ModuleNotFoundError as sureError:
             print(newError)
             print("Error")
             exit(-1)
-
-
-def structure_repair_one(act: str, tag_name: str):
-    import re
-    text_find = "<\/" + tag_name + ">"
-    text_replace = "</" + tag_name + ">"
-    text_to_find = r'' + text_find + "[ ]*" + text_find
-    act = re.sub(text_to_find, text_replace, act)
-    return act
-
-
-def structure_repair(act: str):
-    exepted_tag = ["p", "table", "tr", "td", "img", "th"]
-    for i in range(0, len(exepted_tag)):
-        act = structure_repair_one(act, exepted_tag[i])
-    return act
-
-
-def advance_repair_mode(act: str):
-    pass
 
 
 def repair_mode(act: str):
@@ -104,7 +86,7 @@ def apply_akn_tags(text: str, meta_name: str, skip_tfidf=False):
     repaired = False
     if text.find("<p") == -1:
         repaired = True
-        new_html_root = repair_mode(text)
+        # new_html_root = repair_mode(text)
     else:
         text = regex_patterns.strip_html_tags_exept(text)
     if not repaired:
@@ -115,14 +97,18 @@ def apply_akn_tags(text: str, meta_name: str, skip_tfidf=False):
             text = got.prettify().replace("<html>", "").replace("</html>", "").replace("<body>", "").replace("</body",
                                                                                                              "")
             html_root = ET.fromstring("<article>" + text + "</article>")
-    elif repaired:
-        html_root = new_html_root
+    # elif repaired:
+        # html_root = new_html_root
+
 
     metabuilder = MetadataBuilder("data/meta/allmeta.csv")
     metabuilder.build(meta_name, akoma_root, skip_tfidf)
     print(ETree.prettify(akoma_root))
     builder = AkomaBuilder(akoma_root)
-    reasoner = BasicReasoner(HTMLTokenizer(html_root), builder)
+    if not repaired:
+        reasoner = BasicReasoner(HTMLTokenizer(html_root), builder)
+    else:
+        reasoner = BasicReasoner(BasicTokenizer(text), builder)
     reasoner.start()
 
     if reasoner.current_hierarchy[4] == 0:
@@ -131,7 +117,10 @@ def apply_akn_tags(text: str, meta_name: str, skip_tfidf=False):
         metabuilder.build(fajl, akoma_root, skip_tfidf=skip_tfidf)
 
         builder = AkomaBuilder(akoma_root)
-        reasoner = OdlukaReasoner(HTMLTokenizer(html_root), builder)
+        if not repaired:
+            reasoner = OdlukaReasoner(HTMLTokenizer(html_root), builder)
+        else:
+            reasoner = OdlukaReasoner(BasicTokenizer(text), builder)
         reasoner.start()
 
     result_str = builder.result_str()
@@ -153,8 +142,7 @@ def convert_html(source, destination):
     except FileNotFoundError:
         raise FileNotFoundError("File not exist")
     text = "".join(opened.readlines())
-    full_strip = regex_patterns.strip_html_tags_exept(text)
-    # full_strip = remove_html.preprocessing(source)  # full_strip = remove_html.preprocessing(source, full_strip=True)
+    full_strip = regex_patterns.strip_html_tags_exept(text)  #
     meta_file_name = source.split("/")[-1]
     result_str = apply_akn_tags(full_strip, meta_file_name, skip_tfidf=True)
     f = io.open(destination, mode="w", encoding="utf-8")
@@ -182,6 +170,6 @@ if __name__ == "__main__":
         # try:
         convert_html(location_source + '/' + fajl, 'data/akoma_result/' + fajl[:-5] + ".xml")
         # except Exception as e:
-        #     file_ref_exeption = open(utilities.get_root_dir() + "/data/" + "za_andriju.txt", mode="a+")
-        #     file_ref_exeption.write(fajl + ":" + str(e) + "\n")
-        #     file_ref_exeption.close()
+        #     file_exeption = open(utilities.get_root_dir() + "/data/" + "za_andriju.txt", mode="a+")
+        #     file_exeption.write(fajl + ":" + str(e) + "\n")
+        #     file_exeption.close()

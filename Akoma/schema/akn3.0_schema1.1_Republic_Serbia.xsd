@@ -2858,7 +2858,7 @@ no elements elements as prohibited.
                <xsd:assert
                   test="
                      every $x in (*)
-                        satisfies $x/name() = ('componentRef', 'num', 'heading', 'subheading', 'content', 'subsection')"/>
+                        satisfies $x/name() = ('componentRef', 'num', 'heading', 'subheading', 'content', 'subsection','article')"/>
 
             </xsd:extension>
          </xsd:complexContent>
@@ -2918,7 +2918,7 @@ no elements elements as prohibited.
                <xsd:assert
                   test="
                      every $x in (*)
-                        satisfies $x/name() = ('componentRef', 'num', 'heading', 'subheading', 'content', 'intro', 'point')"/>
+                        satisfies $x/name() = ('componentRef', 'num', 'heading', 'subheading', 'content', 'intro', 'point', 'alinea')"/>
 
             </xsd:extension>
          </xsd:complexContent>
