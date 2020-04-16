@@ -432,14 +432,14 @@ def add_refs(stablo, stringo, this_id):
 
     for el_clan in listaClanova:  # Primer pristupa svakom članu
         clan_id = el_clan.attrib['wId']
-        if ("clan7" in clan_id):
+        if ("clan3" in clan_id):
             print("")
         for el_stav in el_clan.iter('paragraph'):
             stav_id = el_stav.attrib['wId']
             if stav_id not in listaObradjenihParagrafa:
                 if el_stav.attrib.get('class') is not 'special':
                     for el_content_p_tag in el_stav.iter('p'):
-                        stav_text = el_content_p_tag.text
+                        stav_text = el_content_p_tag.text.replace(">", "~vece;").replace("<", "~manje;").replace("\"", "~navod;")
                         stringoRet, cnt = add_refs_stavNabrajanje(stav_text, cnt, this_id, clan_id)
                         stringoRet, cnt = add_refs1(stringoRet, cnt, this_id)
                         stringoRet, cnt = add_refsCl(stringoRet, cnt, this_id)
