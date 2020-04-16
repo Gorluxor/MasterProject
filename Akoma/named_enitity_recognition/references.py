@@ -256,7 +256,7 @@ def get_ending_clan_nabrajanje(stringo, m, cnt=0, this_id="", longer=0):
     matches = re.findall(regexBrojSlovo, stringToScan)
     for i in matches:
         ending = "art_" + str(i)
-        start = re.search(i + "(?=[,. )])", stringo).regs[0][0]
+        start = re.search(i + "(?=[,. )*])", stringo).regs[0][0]
         end = start + len(i)
         stringo, longer, cnt = make_reference(cnt, this_id, start, end, ending, stringo, longer, False)
     retval = (stringo, longer, cnt)
