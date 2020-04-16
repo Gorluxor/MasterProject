@@ -14,6 +14,7 @@ try:
     from Akoma.reasoner.OdlukaReasoner import OdlukaReasoner
     from Akoma.form_akoma.MetadataBuilder import MetadataBuilder
     from Akoma.named_enitity_recognition.references import add_refs
+    from Akoma.tokenizer.BasicTokenizer import BasicTokenizer
 except ModuleNotFoundError as sureError:
     try:
         from utilities import ETree, utilities
@@ -96,8 +97,7 @@ def apply_akn_tags(text: str, meta_name: str, skip_tfidf=False):
             text = got.prettify().replace("<html>", "").replace("</html>", "").replace("<body>", "").replace("</body",
                                                                                                              "")
             html_root = ET.fromstring("<article>" + text + "</article>")
-    elif repaired:
-        gg = 1
+    # elif repaired:
         # html_root = new_html_root
 
 
@@ -151,10 +151,10 @@ def convert_html(source, destination):
 
 
 if __name__ == "__main__":
-    nastavi = "1.html"  # ""651.html"
+    nastavi = "1205.html"  # ""651.html"
     idemo = False
     stani = [
-        "1005.html", "980.html", "986.html"  # problematicni PROVERITI 176
+        "1005.html", "980.html", "986.html", "981.html", "210.html", "1033", "1204"  # problematicni PROVERITI 176
         , "180.html"]  # Veliki fajlovi
     location_source = "data/acts"
     fajls = utilities.sort_file_names(os.listdir(location_source))

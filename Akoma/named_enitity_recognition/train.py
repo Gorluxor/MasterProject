@@ -12,10 +12,12 @@ import pickle
 
 try:
     import Akoma
-    from Akoma.named_enitity_recognition.readutils import SentenceGetter, word2features, read_and_prepare_csv
+    from Akoma.named_enitity_recognition.readutils import SentenceGetter, word2features, read_and_prepare_csv, \
+        sent2features, sent2labels, sent2tokens
 except ModuleNotFoundError as sureError:
     try:
-        from named_enitity_recognition.readutils import SentenceGetter, word2features, read_and_prepare_csv
+        from named_enitity_recognition.readutils import SentenceGetter, word2features, read_and_prepare_csv, \
+            sent2features, sent2labels, sent2tokens
     except ModuleNotFoundError as newError:
         if not sureError.name.__eq__("Akoma") or not newError.name.__eq__("Akoma"):
             print(newError)
@@ -30,8 +32,8 @@ df = read_and_prepare_csv('../data/ner/datasetReldiSD.csv')
 y = df.Tag.values
 classes = np.unique(y)
 classes = classes.tolist()
-#X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.33, random_state=0)
-#print(X_train.shape, y_train.shape)
+# X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.33, random_state=0)
+# print(X_train.shape, y_train.shape)
 
 # per = Perceptron(verbose=10, n_jobs=-1, max_iter=5)
 # per.partial_fit(X_train, y_train, classes)
@@ -57,28 +59,15 @@ import sklearn_crfsuite
 from sklearn_crfsuite import scorers
 from sklearn_crfsuite import metrics
 from collections import Counter
-
+from sgt import Sgt
 
 getter = SentenceGetter(df)
 sentences = getter.sentences
 
-
-def sent2features(sent):
-    return [word2features(sent, i) for i in range(len(sent))]
-
-
-def sent2labels(sent):
-    return [label for token, postag, label in sent]
-
-
-def sent2tokens(sent):
-    return [token for token, postag, label in sent]
-
-
 X = [sent2features(s) for s in sentences]
 y = [sent2labels(s) for s in sentences]
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.33, random_state=0)
 
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.33, random_state=0)
 
 crf = sklearn_crfsuite.CRF(
     algorithm='lbfgs',
@@ -95,7 +84,6 @@ print(new_classes)
 
 y_pred = crf.predict(X_test)
 print(metrics.flat_classification_report(y_test, y_pred, labels=new_classes))
-
 
 # def print_transitions(trans_features):
 #     for (label_from, label_to), weight in trans_features:
