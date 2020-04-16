@@ -54,7 +54,7 @@ nabrajanjeClCrtaClan = '(чл.\\s*[0-9]+' + azbuka_pattern + ')(–|-)((чл.\\s
 nabrajanje2 = '(члан.?.?\\s*[0-9]+' + azbuka_pattern + ')?' + further + '(став.?.?\\s*[0-9]+)?' + further + '(тач.?.?.?\.?.?\\s*[0-9]+)?'
 nabrajanjeStavTacka = '(став(ом|а|у)?\\s*[0-9]+\.?)\\s*(тач.?.?.?\.?\.?\\s*([0-9]+)\)?)?'
 nabrajanjeTacka = '(члан.?.?\\s*[0-9]+' + azbuka_pattern + ')?\\s*(став.?.?\\s*[0-9]+)?\\s*(тач.?.?.?\.?\\s*[0-9]+)'
-nabrajanjeClZakon = '(члан.?\\s*([0-9]+' + azbuka_pattern + ').?)(\\s*)(Закона\\s*-\\s*([0-9]+)\/([0-9]+)-[0-9]+)'
+nabrajanjeClZakon = '(члан.?\\s*([0-9]+' + azbuka_pattern + ').?)(\\s*)(Закона\\s*[–-]\\s*([0-9]+)\/([0-9]+)-[0-9]+)'
 nabrajanjeStavUzastopno = '(чл.?.?.?.?\.?\\s*[0-9]+.?\\s*)?(ст.(?<=[ ,.])\\s*[0-9]+\.?)((\\s*до\\s*)|(\\s*–\\s*|\\s*-\\s*))((ст.\\s*)?[0-9]+(\.|,)?)'
 nabrajanjeStav = '(чл.?.?.?.?\.?\\s*[0-9]+.?\\s*)?(ст.(?<=[ ,.])\\s*[0-9]+\.?)(((,)|(.?\\s*и)|(\\s*или\\s*))(\\s*[0-9]+\.?))*'
 nabrajanjeTacakaUzastopno = '(чл.?.?.?.?\.?\\s*[0-9]+.?\\s*)?(ст.?.?.?.?\.?(?<=[ ,.])\\s*[0-9]+\.?)?\\s*(тач.?.?.?.?\.?[0-9]+(\.|\))?)((\\s*до\\s*)|(\\s*–\\s*|\\s*-\\s*))((тач.?.?.?.?\.?\\s*)?[0-9]+(\.|,|\))?)'
@@ -206,11 +206,11 @@ def get_reference_for_tacka_nabrajanje(m, stringo, clan_id="", stav_id = ""):
     if m.group(3):
         m1 = re.search("([0-9]+" + azbuka_pattern + ")", m.group(3))
         if m1:
-            retval += pom_string + "para_" + m1.group(0) + "->"
+            retval += pom_string + "point_" + m1.group(0) + "->"
     if m.group(8):
         m2 = re.search("([0-9]+" + azbuka_pattern + ")", m.group(8))
         if m2:
-            retval += "para_" + m2.group(0) + "_"
+            retval += "point_" + m2.group(0) + "_"
     return retval[:-1]
 
 def get_reference_for_clan_stav_tacka(m):
@@ -256,7 +256,7 @@ def get_ending_clan_nabrajanje(stringo, m, cnt=0, this_id="", longer=0):
     matches = re.findall(regexBrojSlovo, stringToScan)
     for i in matches:
         ending = "art_" + str(i)
-        start = re.search(i, stringo).regs[0][0]
+        start = re.search(i + "(?=[,. )])", stringo).regs[0][0]
         end = start + len(i)
         stringo, longer, cnt = make_reference(cnt, this_id, start, end, ending, stringo, longer, False)
     retval = (stringo, longer, cnt)
@@ -437,22 +437,21 @@ def add_refs_tacka(stringo, cnt, this_id, clan_id, stav_id):
 def add_refs_tackaNabrajanje(stringo, cnt, this_id, clan_id, stav_id):
     longer = 0
     for m in re.finditer(nabrajanjeTackaNeuzastopno + '\\s*(овог)?', stringo):
-        if not re.search(nabrajanje, stringo[m.regs[0][0]:m.regs[0][0] + 20]) and not re.search(nabrajanjeStavTacka, stringo[m.regs[0][0]:m.regs[0][0] + 20]):
-            clan_id = m.group(1) if m.group(1) else clan_id
-            stav_id = m.group(2) if m.group(2) else stav_id
-            findPattern = re.match(nabrajanjeTacakaUzastopno, stringo[m.regs[0][0]:m.regs[0][0] + 20])
-            if findPattern:
-                firstIndex = findPattern.regs[0][0] + m.regs[0][0] + longer
-                lastIndex = findPattern.regs[0][1] + m.regs[0][0] + longer
-                ending = get_reference_for_tacka_nabrajanje(findPattern, stringo[firstIndex:lastIndex], clan_id, stav_id)
-            else:
-                ending = get_ending_tacka_nabrajanje(stringo, m, cnt, this_id, longer, clan_id, stav_id)
-                if type(ending) is tuple:
-                    stringo = ending[0]
-                    longer = ending[1]
-                    cnt = ending[2]
-                    continue
-
+        clan_id = m.group(1) if m.group(1) else clan_id
+        stav_id = m.group(2) if m.group(2) else stav_id
+        findPattern = re.match(nabrajanjeTacakaUzastopno, stringo[m.regs[0][0]:m.regs[0][1] + 20])
+        if findPattern:
+            firstIndex = findPattern.regs[0][0] + m.regs[0][0] + longer
+            lastIndex = findPattern.regs[0][1] + m.regs[0][0] + longer
+            ending = get_reference_for_tacka_nabrajanje(findPattern, stringo[firstIndex:lastIndex], clan_id, stav_id)
+            stringo, longer, cnt = make_reference(cnt, this_id, m.start(), m.end(), ending, stringo, longer)
+        else:
+            ending = get_ending_tacka_nabrajanje(stringo, m, cnt, this_id, longer, clan_id, stav_id)
+            if type(ending) is tuple:
+                stringo = ending[0]
+                longer = ending[1]
+                cnt = ending[2]
+                continue
             stringo, longer, cnt = make_reference(cnt, this_id, m.start(), m.end(), ending, stringo, longer)
     return stringo, cnt
 
@@ -464,7 +463,7 @@ def add_refs(stablo, stringo, this_id):
 
     for el_clan in listaClanova:  # Primer pristupa svakom članu
         clan_id = el_clan.attrib['wId']
-        if ("clan15" in clan_id):
+        if ("clan4" in clan_id):
             print("")
         for el_stav in el_clan.iter('paragraph'):
             stav_id = el_stav.attrib['wId']
@@ -475,11 +474,11 @@ def add_refs(stablo, stringo, this_id):
                         stringoRet, cnt = add_refs_stavNabrajanje(stav_text, cnt, this_id, clan_id)
                         stringoRet, cnt = add_refs1(stringoRet, cnt, this_id)
                         stringoRet, cnt = add_refsCl(stringoRet, cnt, this_id)
-                        stringoRet, cnt = add_refs_tacka(stringoRet, cnt, this_id, clan_id, stav_id)
-                        stringoRet, cnt = add_refs_tackaNabrajanje(stringoRet, cnt, this_id, clan_id, stav_id)
                         # print("PHASE 2")
                         stringoRet, cnt = add_refs_sluzbeni_glasnik(stringoRet, cnt)
                         stringoRet, cnt = add_refs3(stringoRet, cnt, this_id, clan_id)
+                        stringoRet, cnt = add_refs_tacka(stringoRet, cnt, this_id, clan_id, stav_id)
+                        stringoRet, cnt = add_refs_tackaNabrajanje(stringoRet, cnt, this_id, clan_id, stav_id)
                         el_content_p_tag.text = stringoRet
                     # print(prettify(stablo))
                 # print(el_stav.tag)
