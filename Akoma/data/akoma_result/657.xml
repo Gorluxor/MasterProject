@@ -1,0 +1,813 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о јавним медијским сервисима">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2014/83-53/main"/>
+					<FRBRuri value="/rs/act/2014/83-53"/>
+					<FRBRdate date="2014-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2016/108-3/srp@/main"/>
+					<FRBRuri value="/rs/act/2016/108-3/srp@"/>
+					<FRBRdate date="2016-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2016/108-3/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2016/108-3/srp@.akn"/>
+					<FRBRdate date="2016-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2014-08-05" name="службени гласник рс" number="83" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="XV ЈАВНЕ УСТАНОВЕ, НАУКА, ПРОСВЕТА, КУЛТУРА, ИНФОРМИСАЊЕ И СПОРТ" value="xv јавне установе, наука, просвета, култура, информисање и спорт" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="9. Информисање и оглашавање" value="9. информисање и оглашавање" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2014-01-01" refersTo="83/2014-53" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2015-01-01" refersTo="103/2015-156" source="#somebody" type="amendment" wId="e2"/>
+				<eventRef date="2016-01-01" refersTo="108/2016-3" source="#somebody" type="amendment" wId="e3"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2014-08-02" wId="usvajanje"/>
+				<step by="#TODO" date="2014-08-13" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2014-08-13" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 13. августа 2014. године (види члан 64. Закона).Одредбе чл. 37–42. овог закона примењју се од 1. јануара 2016. године (види члан 61. Закона).Даном ступања на снагу овог закона, односно 13. августа 2014. године, Радиодифузна установа Србије, односно Радиодифузна установа Војводине, основане Законом о радиодифузији („Службени гласник РС”, бр. 42/02, 97/04, 76/05, 79/05 – др. закон, 62/06, 85/06 и 41/09), настављају са радом као Јавна медијска установа „Радио телевизија Србије”, односно као Јавна медијска установа „Радио телевизија Војводине” (види члан 56. став 1. Закона).РТС и РТВ су дужни да до 1. октобра 2015. године формирају јединствену евиденцију обвезника плаћања таксе и донесу одлуку о садржају и форми јединственог обрасца за наплату таксе и јединственог обрасца за ослобађање од таксе (види члан 58. Закона).Влада ће у року од шест месеци од дана ступања на снагу овог закона решити питање располагања непокретностима и средствима емисионе инфраструктуре која користи РТВ на основу деобног биланса са РТС објављеном у „Службеном гласнику РС”, број 25/06 а нису обухваћена Одлуком Владе о оснивању Јавног предузећа за управљање емисионом инфраструктуром („Службени гласник РС”, број 84/09). Јавно предузеће Емисиона техника и везе преузима у року из става 1. овог члана, запослене Радио телевизије Војводине, који обављају послове управљања, организовања, одржавања и развоја емисионе технике и веза (види члан 60. Закона).Од 1. јануара 2016. године до 31. децембра 2018. године Јавна медијска установа „Радио телевизија Србије” и Јавна медијска установа „Радио телевизија Војводине”, делимично се финансирају из буџета Републике Србије, за обављање основне делатности. Буџетска средства за рад Јавне медијске установе „Радио телевизија Србије” и Јавне медијске установе „Радио телевизија Војводине”, опредељују се на позицији министарства надлежног за послове јавног информисања (види члан 62. ст. 1. и 2. Закона, члан 1. Закона о измени Закона о јавним медијским сервисима – 103/2015-156 и члан 1. Закона о измени Закона о јавним медијским сервисима – 108/2016-3).Закон о измени Закона о јавним медијским сервисима („Службени гласник РС“, број 103/2015) ступио је на снагу наредног дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 15. децембра 2015. године (види члан 2. Закона – 103/2015-156).Закон о измени Закона о јавним медијским сервисима („Службени гласник РС“, број 108/2016) ступио је на снагу наредног дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 30. децембра 2016. године (види члан 2. Закона - 108-2016-3).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О јавним медијским сервисима "Службени гласник РС", бр. 83 од 5. августа 2014, 103 од 14. децембра 2015, 108 од 29. децембра 2016.</p>
+			</longTitle>
+			<p>Редакцијски  пречишћен текст</p>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<section wId="gla1-od1">
+					<num>1.</num>
+					<heading> Предмет закона</heading>
+					<article wId="gla1-od1-clan1">
+						<num>1.</num>
+						<paragraph wId="gla1-od1-clan1-stav1">
+							<content>
+								<p>Овим законом уређује се, у складу са европским стандардима и међународним документима у области електронских медија, рад јавних медијских сервиса и то Јавне медијске установе „Радио-телевизија Србије” и Јавне медијске установе „Радио-телевизија Војводине”, њихова делатност и начела на којима се заснива обављање делатности, јавни интерес који остварују, јавност рада, начин избора органа и њихова надлежност, доношење аката, као и обезбеђивање средства за рад и начин њиховог финансирања.</p>
+							</content>
+						</paragraph>
+					</article>
+				</section>
+				<section wId="gla1-od2">
+					<num>2.</num>
+					<heading> Јавни медијски сервис</heading>
+					<article wId="gla1-od2-clan2">
+						<num>2.</num>
+						<paragraph wId="gla1-od2-clan2-stav1">
+							<content>
+								<p>Јавни медијски сервис је независан и самосталан правни субјект који, обављањем своје основне делатности, омогућава остваривање јавног интереса у области јавног информисања, и пружа опште и свеобухватне медијске услуге које подразумевају информативне, образовне, културне и забавне садржаје намењене свим деловима друштва.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla1-od2-clan2-stav2">
+							<content>
+								<p>Јавни медијски сервис из <ref wId="ref0" href="akn/rs/act/2016/108-3/srp@/!main~art_2__para_1" >става 1. овог</ref> члана чине републички и покрајински јавни медијски сервис.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla1-od2-clan2-stav3">
+							<content>
+								<p>Републички јавни медијски сервис је Јавна медијска установа „Радио-телевизија Србије” (у даљем тексту: РТС), са седиштем у Београду.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla1-od2-clan2-stav4">
+							<content>
+								<p>Покрајински јавни медијски сервис је Јавна медијска установа „Радио-телевизија Војводине” (у даљем тексту: РТВ), са седиштем у Новом Саду.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla1-od2-clan2-stav5">
+							<content>
+								<p>РТС и РТВ сарађују у обављању своје основне делатности.</p>
+							</content>
+						</paragraph>
+					</article>
+				</section>
+				<section wId="gla1-od3">
+					<num>3.</num>
+					<heading> Делатност јавног медијског сервиса</heading>
+					<article wId="gla1-od3-clan3">
+						<num>3.</num>
+						<paragraph wId="gla1-od3-clan3-stav1">
+							<content>
+								<p>Основна делатност јавног медијског сервиса у функцији је остваривања јавног интереса дефинисаног овим законом, а подразумева производњу, куповину, обраду и објављивање радио, телевизијских и мултимедијалних садржаја, нарочито информативних, образовних, културно-уметничких, дечјих, забавних, спортских, верских и других који су од јавног интереса за грађане, а који за циљ имају остваривање људских права и слобода, размену идеја и мишљења, неговање вредности демократског друштва, унапређивање политичке, полне, међунационалне и верске толеранције и разумевања, као и очување националног идентитета српског народа и националних мањина, као и пружање аудио и аудио-визуелних медијских услуга и објављивање електронских издања као услуга од јавног интереса.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla1-od3-clan3-stav2">
+							<intro>
+								<p>Поред делатности из <ref wId="ref1" href="akn/rs/act/2016/108-3/srp@/!main~art_3__para_1" >става 1. овог</ref> члана јавни медијски сервис може обављати и комерцијалну делатност, којом се не сме угрозити обављање основне делатности, као што је :</p>
+							</intro>
+							<point wId="gla1-od3-clan3-stav2-tac1">
+								<num>1)</num>
+								<content>
+									<p> уступање права на јавно саопштавање радијских, телевизијских или других медијских садржаја;</p>
+								</content>
+							</point>
+							<point wId="gla1-od3-clan3-stav2-tac2">
+								<num>2)</num>
+								<content>
+									<p> објављивања огласних порука или другог облика аудио-визуелне комерцијалне комуникације (нпр. спонзорство, пласирање производа и др.);</p>
+								</content>
+							</point>
+							<point wId="gla1-od3-clan3-stav2-tac3">
+								<num>3)</num>
+								<content>
+									<p> пружање интерактивних услуга које су у вези са медијским услугама или других интерактивних услуга;</p>
+								</content>
+							</point>
+							<point wId="gla1-od3-clan3-stav2-tac4">
+								<num>4)</num>
+								<content>
+									<p> организовање јавног извођења музичких садржаја и других приредби које нису саставни део услуга јавног медијског сервиса;</p>
+								</content>
+							</point>
+							<point wId="gla1-od3-clan3-stav2-tac5">
+								<num>5)</num>
+								<content>
+									<p> производња, давање у закуп и продаја фонограма и видеограма;</p>
+								</content>
+							</point>
+							<point wId="gla1-od3-clan3-stav2-tac6">
+								<num>6)</num>
+								<content>
+									<p> пружање техничких услуга и изнајмљивање производних и других капацитета;</p>
+								</content>
+							</point>
+							<point wId="gla1-od3-clan3-stav2-tac7">
+								<num>7)</num>
+								<content>
+									<p> друге комерцијалне делатности које служе обављању основне делатности, ако се оне у мањем опсегу или уобичајено обављају уз ту делатност (пружање интелектуалних услуга, издавачка делатност и сл.).</p>
+								</content>
+							</point>
+							<point wId="gla1-od3-clan3-stav2-tac4">
+								<num>4.</num>
+								<content>
+									<p> Основна начела рада јавног медијског сервиса</p>
+								</content>
+							</point>
+						</paragraph>
+					</article>
+					<article wId="gla1-od3-clan4">
+						<num>4.</num>
+						<paragraph wId="gla1-od3-clan4-stav1">
+							<intro>
+								<p>Рад јавног медијског сервиса заснива се на следећим начелима:</p>
+							</intro>
+							<point wId="gla1-od3-clan4-stav1-tac1">
+								<num>1)</num>
+								<content>
+									<p> истинито, непристрасно, потпуно и благовремено информисање;</p>
+								</content>
+							</point>
+							<point wId="gla1-od3-clan4-stav1-tac2">
+								<num>2)</num>
+								<content>
+									<p> независност уређивачке политике;</p>
+								</content>
+							</point>
+							<point wId="gla1-od3-clan4-stav1-tac3">
+								<num>3)</num>
+								<content>
+									<p> независност од извора финансирања;</p>
+								</content>
+							</point>
+							<point wId="gla1-od3-clan4-stav1-tac4">
+								<num>4)</num>
+								<content>
+									<p> забрана сваког облика цензуре и незаконитог утицаја на рад јавног медијског сервиса, редакције и новинара;</p>
+								</content>
+							</point>
+							<point wId="gla1-od3-clan4-stav1-tac5">
+								<num>5)</num>
+								<content>
+									<p> примена међународно признатих норми и принципа, а нарочито поштовање људских права и слобода и демократских вредности;</p>
+								</content>
+							</point>
+							<point wId="gla1-od3-clan4-stav1-tac6">
+								<num>6)</num>
+								<content>
+									<p> поштовање професионалних стандарда и кодекса.</p>
+								</content>
+							</point>
+							<point wId="gla1-od3-clan4-stav1-tac5">
+								<num>5.</num>
+								<content>
+									<p> Институционална аутономија</p>
+								</content>
+							</point>
+						</paragraph>
+					</article>
+					<article wId="gla1-od3-clan5">
+						<num>5.</num>
+						<paragraph wId="gla1-od3-clan5-stav1">
+							<intro>
+								<p>У обављању основне делатности јавни медијски сервис има институционалну аутономију и уређивачку независност а нарочито у погледу:</p>
+							</intro>
+							<point wId="gla1-od3-clan5-stav1-tac1">
+								<num>1)</num>
+								<content>
+									<p> утврђивања концепције и одређивања програмских садржаја, у складу са законом;</p>
+								</content>
+							</point>
+							<point wId="gla1-od3-clan5-stav1-tac2">
+								<num>2)</num>
+								<content>
+									<p> уређивања програмске шеме;</p>
+								</content>
+							</point>
+							<point wId="gla1-od3-clan5-stav1-tac3">
+								<num>3)</num>
+								<content>
+									<p> организације делатности;</p>
+								</content>
+							</point>
+							<point wId="gla1-od3-clan5-stav1-tac4">
+								<num>4)</num>
+								<content>
+									<p> избора руководилаца, главних и одговорних уредника и запошљавања;</p>
+								</content>
+							</point>
+							<point wId="gla1-od3-clan5-stav1-tac5">
+								<num>5)</num>
+								<content>
+									<p> набавке и продаје робе и услуга;</p>
+								</content>
+							</point>
+							<point wId="gla1-od3-clan5-stav1-tac6">
+								<num>6)</num>
+								<content>
+									<p> управљања финансијским средствима, у складу са законом;</p>
+								</content>
+							</point>
+							<point wId="gla1-od3-clan5-stav1-tac7">
+								<num>7)</num>
+								<content>
+									<p> припреме и извршавања финансијског плана;</p>
+								</content>
+							</point>
+							<point wId="gla1-od3-clan5-stav1-tac8">
+								<num>8)</num>
+								<content>
+									<p> преговарања, односно припреме и потписивања правних аката који се односе на пословање установа;</p>
+								</content>
+							</point>
+							<point wId="gla1-od3-clan5-stav1-tac9">
+								<num>9)</num>
+								<content>
+									<p> избора заступника у правним пословима и у другим правним стварима.</p>
+								</content>
+							</point>
+							<point wId="gla1-od3-clan5-stav1-tac6">
+								<num>6.</num>
+								<content>
+									<p> Однос јавног медијског сервиса према јавности</p>
+								</content>
+							</point>
+						</paragraph>
+					</article>
+					<article wId="gla1-od3-clan6">
+						<num>6.</num>
+						<paragraph wId="gla1-od3-clan6-stav1">
+							<content>
+								<p>У свом деловању јавни медијски сервис остварује јавни интерес, уважава захтеве јавности и за своје деловање одговара јавности.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla1-od3-clan6-stav2">
+							<intro>
+								<p>Одговорност јавног медијског сервиса према јавности као и утицај јавности на његово деловање остварује се посебно:</p>
+							</intro>
+							<alinea wId="gla1-od3-clan6-stav2-ali1">
+								<content>
+									<p>авношћу поступка именовања органа јавног медијског сервиса;</p>
+								</content>
+							</alinea>
+							<alinea wId="gla1-od3-clan6-stav2-ali2">
+								<content>
+									<p>чешћем јавности у унапређивању радијског и телевизијског програма;</p>
+								</content>
+							</alinea>
+							<alinea wId="gla1-od3-clan6-stav2-ali3">
+								<content>
+									<p>бавезом јавног медијског сервиса да правовремено и истинито обавештава јавност о обављању своје делатности, о условима и начину пружања својих услуга и о другим питањима која се тичу обављања делатности за које је основан;</p>
+								</content>
+							</alinea>
+							<alinea wId="gla1-od3-clan6-stav2-ali4">
+								<content>
+									<p>бјављивањем плана рада, финансијског плана и извештаја о раду и пословању;</p>
+								</content>
+							</alinea>
+							<alinea wId="gla1-od3-clan6-stav2-ali5">
+								<content>
+									<p>одношењем извештаја о раду и пословању јавног медијског сервиса Народној скупштини и Савету Регулатора;</p>
+								</content>
+							</alinea>
+							<alinea wId="gla1-od3-clan6-stav2-ali6">
+								<content>
+									<p>лаговременим испуњавањем обавеза прописаним законом којим се уређује слободан приступ информацијама од јавног значаја.</p>
+								</content>
+							</alinea>
+						</paragraph>
+					</article>
+				</section>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ЈАВНИ ИНТЕРЕС КОЈИ ОСТВАРУЈЕ ЈАВНИ МЕДИЈСКИ СЕРВИС</heading>
+				<article wId="gla2-clan7">
+					<num>7.</num>
+					<paragraph wId="gla2-clan7-stav1">
+						<intro>
+							<p>Јавни интерес, у складу са законом којим се уређује област јавног информисања, који јавни медијски сервис остварује кроз своје програмске садржаје, је:</p>
+						</intro>
+						<point wId="gla2-clan7-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Статус, програми и нове медијске услуге</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac2">
+							<num>2.</num>
+							<intro>
+								<p> Органи јавног медијског сервиса</p>
+							</intro>
+							<point wId="gla2-clan7-stav1-tac2">
+								<num>2.</num>
+								<intro>
+									<p>1 Управни одбор</p>
+								</intro>
+								<point wId="gla2-clan7-stav1-tac2">
+									<num>2.</num>
+									<intro>
+										<p>2. Генерални директор</p>
+									</intro>
+									<point wId="gla2-clan7-stav1-tac2">
+										<num>2.</num>
+										<content>
+											<p>3. Програмски савет</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+						<point wId="gla2-clan7-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Статут јавног медијског сервиса</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Средства за рад јавног медијског сервиса</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Финансирање делатности јавног медијског сервиса</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac3">
+							<num>3.</num>
+							<intro>
+								<p> Извори финансирања</p>
+							</intro>
+							<point wId="gla2-clan7-stav1-tac3">
+								<num>3.</num>
+								<intro>
+									<p>1 Такса за јавни медијски сервис</p>
+								</intro>
+								<point wId="gla2-clan7-stav1-tac3">
+									<num>3.</num>
+									<intro>
+										<p>2 Финасирање из средстава буџета</p>
+									</intro>
+									<point wId="gla2-clan7-stav1-tac3">
+										<num>3.</num>
+										<intro>
+											<p>3 Нето-корист</p>
+										</intro>
+										<point wId="gla2-clan7-stav1-tac3">
+											<num>3.</num>
+											<intro>
+												<p>4 Комерцијални приходи</p>
+											</intro>
+											<point wId="gla2-clan7-stav1-tac3">
+												<num>3.</num>
+												<content>
+													<p>5 Остали приходи</p>
+												</content>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+						<point wId="gla2-clan7-stav1-tac4">
+							<num>4.</num>
+							<content>
+								<p> Расходи јавног медијског сервиса</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Предмет закона</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Јавни медијски сервис</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Делатност јавног медијског сервиса</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac4">
+							<num>4.</num>
+							<content>
+								<p> Основна начела рада јавног медијског сервиса</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac5">
+							<num>5.</num>
+							<content>
+								<p> Институционална аутономија</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac6">
+							<num>6.</num>
+							<content>
+								<p> Однос јавног медијског сервиса према јавности</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Статус, програми и нове медијске услуге</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac2">
+							<num>2.</num>
+							<intro>
+								<p> Органи јавног медијског сервиса</p>
+							</intro>
+							<point wId="gla2-clan7-stav1-tac2">
+								<num>2.</num>
+								<intro>
+									<p>1 Управни одбор</p>
+								</intro>
+								<point wId="gla2-clan7-stav1-tac2">
+									<num>2.</num>
+									<intro>
+										<p>2. Генерални директор</p>
+									</intro>
+									<point wId="gla2-clan7-stav1-tac2">
+										<num>2.</num>
+										<content>
+											<p>3. Програмски савет</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+						<point wId="gla2-clan7-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Статут јавног медијског сервиса</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Средства за рад јавног медијског сервиса</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Финансирање делатности јавног медијског сервиса</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac3">
+							<num>3.</num>
+							<intro>
+								<p> Извори финансирања</p>
+							</intro>
+							<point wId="gla2-clan7-stav1-tac3">
+								<num>3.</num>
+								<intro>
+									<p>1 Такса за јавни медијски сервис</p>
+								</intro>
+								<point wId="gla2-clan7-stav1-tac3">
+									<num>3.</num>
+									<intro>
+										<p>2 Финасирање из средстава буџета</p>
+									</intro>
+									<point wId="gla2-clan7-stav1-tac3">
+										<num>3.</num>
+										<intro>
+											<p>3 Нето-корист</p>
+										</intro>
+										<point wId="gla2-clan7-stav1-tac3">
+											<num>3.</num>
+											<intro>
+												<p>4 Комерцијални приходи</p>
+											</intro>
+											<point wId="gla2-clan7-stav1-tac3">
+												<num>3.</num>
+												<content>
+													<p>5 Остали приходи</p>
+												</content>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+						<point wId="gla2-clan7-stav1-tac4">
+							<num>4.</num>
+							<content>
+								<p> Расходи јавног медијског сервиса</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Предмет закона</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Јавни медијски сервис</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Делатност јавног медијског сервиса</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac4">
+							<num>4.</num>
+							<content>
+								<p> Основна начела рада јавног медијског сервиса</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac5">
+							<num>5.</num>
+							<content>
+								<p> Институционална аутономија</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac6">
+							<num>6.</num>
+							<content>
+								<p> Однос јавног медијског сервиса према јавности</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Статус, програми и нове медијске услуге</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac2">
+							<num>2.</num>
+							<intro>
+								<p> Органи јавног медијског сервиса</p>
+							</intro>
+							<point wId="gla2-clan7-stav1-tac2">
+								<num>2.</num>
+								<intro>
+									<p>1 Управни одбор</p>
+								</intro>
+								<point wId="gla2-clan7-stav1-tac2">
+									<num>2.</num>
+									<intro>
+										<p>2. Генерални директор</p>
+									</intro>
+									<point wId="gla2-clan7-stav1-tac2">
+										<num>2.</num>
+										<content>
+											<p>3. Програмски савет</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+						<point wId="gla2-clan7-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Статут јавног медијског сервиса</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Средства за рад јавног медијског сервиса</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Финансирање делатности јавног медијског сервиса</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac3">
+							<num>3.</num>
+							<intro>
+								<p> Извори финансирања</p>
+							</intro>
+							<point wId="gla2-clan7-stav1-tac3">
+								<num>3.</num>
+								<intro>
+									<p>1 Такса за јавни медијски сервис</p>
+								</intro>
+								<point wId="gla2-clan7-stav1-tac3">
+									<num>3.</num>
+									<intro>
+										<p>2 Финасирање из средстава буџета</p>
+									</intro>
+									<point wId="gla2-clan7-stav1-tac3">
+										<num>3.</num>
+										<intro>
+											<p>3 Нето-корист</p>
+										</intro>
+										<point wId="gla2-clan7-stav1-tac3">
+											<num>3.</num>
+											<intro>
+												<p>4 Комерцијални приходи</p>
+											</intro>
+											<point wId="gla2-clan7-stav1-tac3">
+												<num>3.</num>
+												<content>
+													<p>5 Остали приходи</p>
+												</content>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+						<point wId="gla2-clan7-stav1-tac4">
+							<num>4.</num>
+							<content>
+								<p> Расходи јавног медијског сервиса</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Предмет закона</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Јавни медијски сервис</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Делатност јавног медијског сервиса</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac4">
+							<num>4.</num>
+							<content>
+								<p> Основна начела рада јавног медијског сервиса</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac5">
+							<num>5.</num>
+							<content>
+								<p> Институционална аутономија</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac6">
+							<num>6.</num>
+							<content>
+								<p> Однос јавног медијског сервиса према јавности</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Статус, програми и нове медијске услуге</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac2">
+							<num>2.</num>
+							<intro>
+								<p> Органи јавног медијског сервиса</p>
+							</intro>
+							<point wId="gla2-clan7-stav1-tac2">
+								<num>2.</num>
+								<intro>
+									<p>1 Управни одбор</p>
+								</intro>
+								<point wId="gla2-clan7-stav1-tac2">
+									<num>2.</num>
+									<intro>
+										<p>2. Генерални директор</p>
+									</intro>
+									<point wId="gla2-clan7-stav1-tac2">
+										<num>2.</num>
+										<content>
+											<p>3. Програмски савет</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+						<point wId="gla2-clan7-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Статут јавног медијског сервиса</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Средства за рад јавног медијског сервиса</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Финансирање делатности јавног медијског сервиса</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac3">
+							<num>3.</num>
+							<intro>
+								<p> Извори финансирања</p>
+							</intro>
+							<point wId="gla2-clan7-stav1-tac3">
+								<num>3.</num>
+								<intro>
+									<p>1 Такса за јавни медијски сервис</p>
+								</intro>
+								<point wId="gla2-clan7-stav1-tac3">
+									<num>3.</num>
+									<intro>
+										<p>2 Финасирање из средстава буџета</p>
+									</intro>
+									<point wId="gla2-clan7-stav1-tac3">
+										<num>3.</num>
+										<intro>
+											<p>3 Нето-корист</p>
+										</intro>
+										<point wId="gla2-clan7-stav1-tac3">
+											<num>3.</num>
+											<intro>
+												<p>4 Комерцијални приходи</p>
+											</intro>
+											<point wId="gla2-clan7-stav1-tac3">
+												<num>3.</num>
+												<content>
+													<p>5 Остали приходи</p>
+												</content>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+						<point wId="gla2-clan7-stav1-tac4">
+							<num>4.</num>
+							<content>
+								<p> Расходи јавног медијског сервиса</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

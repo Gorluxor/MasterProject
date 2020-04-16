@@ -1,0 +1,320 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о управљању отпадом">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2009/36-115/main"/>
+					<FRBRuri value="/rs/act/2009/36-115"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2018/95-267/srp@/main"/>
+					<FRBRuri value="/rs/act/2018/95-267/srp@"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2018/95-267/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2018/95-267/srp@.akn"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2009-05-15" name="“службени гласник рс" number="36" showAs="“Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="X ДОБРА ОД ОПШТЕГ ИНТЕРЕСА И ЖИВОТНА СРЕДИНА" value="x добра од општег интереса и животна средина" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="15. Управљање отпадом" value="15. управљање отпадом" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2009-01-01" refersTo="36/2009-115" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2010-01-01" refersTo="88/2010-170" source="#somebody" type="amendment" wId="e2"/>
+				<eventRef date="2016-01-01" refersTo="14/2016-17" source="#somebody" type="amendment" wId="e3"/>
+				<eventRef date="2018-01-01" refersTo="95/2018-267" source="#somebody" type="amendment" wId="e4"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2009-05-12" wId="usvajanje"/>
+				<step by="#TODO" date="2009-05-23" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2009-05-23" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 23. маја 2009. године (види члан 105. Закона).Одредба члана 16. став 2. тач. 5) и 6) Закона о изменама и допунама Закона о управљању отпадом („Службени гласник РС“, број 88/2010) која се односи на доношење одлуке по захтеву за одобравање увоза, извоза и транзита отпада важи до дана приступања Републике Србије Светској трговинској организацији (види члан 25. Закона - 88/2010-170).Закон о изменама и допунама Закона о управљању отпадом („Службени гласник РС“, број 14/2016) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 1. марта 2016. године, осим одредаба члана 5. овог закона у делу који се односи на обавештавање Европске уније о престанку статуса отпада, које се примењују од дана приступања Републике Србије Европској унији, као и одредаба члана 18. овог закона и одредаба члана 42. овог закона у делу који се односи на обавезу вођења регистра посредника у управљању отпадом, односно трговаца отпадом и обавезу тромесечног достављања података које се примењују од 2020. године (види члан 56. Закона- 14/2016-17).Прописи који се доносе на основу Закона о изменама и допунама Закона o управљању отпадом („Службени гласник РС“, број 14/2016) донеће се у року од годину дана од дана ступања на снагу овог закона. Влада ће донети Стратегију управљања отпадом у року од годину дана од дана ступања на снагу овог закона. Аутономна покрајина, односно јединица локалне самоуправе дужна је да усклади регионалне и локалне планове управљања отпадом у року од годину дана од дана доношења Стратегије о управљању отпадом (види члан 52. Закона – 14/2016-17).Одлагање, односно деконтаминација уређаја из члана 52. став 5. Закона о управљању отпадом („Службени гласник РС”, бр. 36/09 и 88/10) који садрже PCB и одлагање PCB из тих уређаја, извршиће се најкасније до 31. децембра 2019. године. Изузетно, власник и/или други држалац уређаја који садржи између 0,05–0,005 процената масеног удела PCB дужан је да обезбеди одлагање, односно деконтаминацију уређаја по престанку њихове употребе. План замене, односно одлагања и деконтаминације уређаја који садржи PCB власник и/или други држалац уређаја дужан је да донесе до 31. децембра 2017. године (види члан 55. Закона – 14/2016-17).Престале су да важе одредбе члана 79. ст. 4–6. Закона даном почетка примене Закона о накнадама за коришћење јавних добара („Службени гласник РС“, број 95/2018), односно 1. јануара 2019. године (види члан 279. Закона – 95/2018-267).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О управљању отпадом “Службени гласник РС”, бр. 36 од 15. маја 2009, 88 од 23. новембра 2010, 14 од 22. фебруара 2016, 95 од 8. децембра 2018 - др. закон</p>
+			</longTitle>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<heading>Предмет уређивања</heading>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређују се: врсте и класификација отпада; планирање управљања отпадом; субјекти управљања отпадом; одговорности и обавезе у управљању отпадом; организовање управљања отпадом; управљање посебним токовима отпада; услови и поступак издавања дозвола; прекогранично кретање отпада; извештавање о отпаду и база података; финансирање управљања отпадом; надзор, као и друга питања од значаја за управљање отпадом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav2">
+						<content>
+							<p>Управљање отпадом је делатност од општег интереса.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<heading>Циљ закона</heading>
+					<paragraph wId="gla1-clan2-stav1">
+						<intro>
+							<p>Циљ овог закона је да се обезбеде и осигурају услови за:</p>
+						</intro>
+						<point wId="gla1-clan2-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> управљање отпадом на начин којим се не угрожава здравље људи и животна средина;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> превенцију настајања отпада, посебно развојем чистијих технологија и рационалним коришћењем природних богатстава, као и отклањање опасности од његовог штетног дејства на здравље људи и животну средину;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> поновно искоришћење и рециклажу отпада, издвајање секундарних сировина из отпада и коришћење отпада као енергента;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> развој поступака и метода за одлагање отпада;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> санацију неуређених одлагалишта отпада;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> праћење стања постојећих и новоформираних одлагалишта отпада;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> развијање свести о управљању отпадом.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<heading>Начин управљања отпадом</heading>
+					<paragraph wId="gla1-clan3-stav1">
+						<intro>
+							<p>Управљање отпадом врши се на начин којим се обезбеђује најмањи ризик по угрожавање живота и здравља људи и животне средине, контролом и мерама смањења:</p>
+						</intro>
+						<point wId="gla1-clan3-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> загађења вода, ваздуха и земљишта;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> опасности по биљни и животињски свет;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> опасности од настајања удеса, експлозија или пожара;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> негативних утицаја на пределе и природна добра посебних вредности;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> нивоа буке и непријатних мириса.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<heading>Изузеци од примене</heading>
+					<paragraph wId="gla1-clan4-stav1">
+						<intro>
+							<p>Одредбе овог закона не примењују се на:</p>
+						</intro>
+						<point wId="gla1-clan4-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> гасовите материје које се испуштају у атмосферу;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> земљу (in situ) укључујући неископану контаминирану  земљу и грађевине трајно повезане са земљиштем;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> неконтаминирано земљиште и друге материјале из  природе ископане током грађевинских активности где је извесно да ће материјал  бити коришћен у грађевинске сврхе у свом природном облику на градилишту на ком  је ископан;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> радиоактивни отпад;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> деактивиране експлозиве;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> фекалије, ако нису обухваћене ставом <ref wId="ref0" href="akn/rs/act/2018/95-267/srp@/!main~art_4__para_1__point_2" >2</ref>. тачка 2)  овог члана;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> сламу и друге природне безопасне пољопривредне или  шумске материјале коришћене у пољопривреди, шумарству или за производњу енергије  од такве биомасе кроз процесе или методе, који не штете животној средини или  угрожавају здравље људи;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> муљ из канализационих система и садржај септичких  јама, осим муља из постројења за третман отпадних вода.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav2">
+						<intro>
+							<p>Одредбе овог закона, у мери у којој је управљање  отпадом уређено другим прописима, не примењују се на:</p>
+						</intro>
+						<point wId="gla1-clan4-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> отпадне воде;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> споредне производе животињског порекла, укључујући  и добијене производе на које се примењују прописи у области ветеринарства, осим  оних који су намењени за спаљивање, коришћење у постројењима за биогас или  постројењима за компостирање или одлагање на санитарну депонију под посебним  условима, у складу са посебним прописом;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> лешеве животиња које нису заклане, као и на убијене  животиње у циљу искорењивања епизоотичне болести, а које су одложене у складу са  прописима у области ветеринарства;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> отпад који настаје при истраживању, ископавању,  експлоатацији, припреми и складиштењу минералних сировина, као и при раду у  каменоломима на које се примењују прописи о управљању рударским отпадом.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav3">
+						<content>
+							<p>На седименте премештене унутар површинских вода ради  управљања водама и водним путевима или спречавања поплава или смањења ефеката  поплава или суша или мелиорације земљишта, не примењују се одредбе овог закона,  ако је утврђено да су седименти неопасни.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav4">
+						<content>
+							<p>*<ref wId="ref1" href="akn/rs/act/2016/14/srp@">Службени гласник РС, број 14/2016</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan5">
+					<num>5.</num>
+					<heading>Значење израза</heading>
+					<paragraph wId="gla1-clan5-stav1">
+						<intro>
+							<p>Изрази употребљени у овом закону имају следеће значење:</p>
+						</intro>
+						<point wId="gla1-clan5-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Привредни преступи</p>
+							</content>
+						</point>
+						<point wId="gla1-clan5-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Прекршаји</p>
+							</content>
+						</point>
+						<point wId="gla1-clan5-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Привредни преступи</p>
+							</content>
+						</point>
+						<point wId="gla1-clan5-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Прекршаји</p>
+							</content>
+						</point>
+						<point wId="gla1-clan5-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Привредни преступи</p>
+							</content>
+						</point>
+						<point wId="gla1-clan5-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Прекршаји</p>
+							</content>
+						</point>
+						<point wId="gla1-clan5-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Привредни преступи</p>
+							</content>
+						</point>
+						<point wId="gla1-clan5-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Прекршаји</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

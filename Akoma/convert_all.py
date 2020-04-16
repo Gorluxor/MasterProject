@@ -124,7 +124,7 @@ def apply_akn_tags(text: str, meta_name: str, skip_tfidf=False):
             reasoner = OdlukaReasoner(BasicTokenizer(text), builder)
         reasoner.start()
 
-    result_str = builder.result_str()
+    result_str = builder.result_str().replace("&lt;", "~vece;").replace("&gt;", "~manje;").replace("&quot;", "~navod;")
     # try:
     result_stablo = add_refs(akoma_root, result_str, metabuilder.expressionuri)
     # except Exception as e:
@@ -134,6 +134,7 @@ def apply_akn_tags(text: str, meta_name: str, skip_tfidf=False):
     #     return result_str
     result_str = ETree.prettify(result_stablo).replace("&lt;", "<").replace("&gt;", ">").replace("&quot;", "\"").replace(
         '<references source="#somebody"/>', "")
+    result_str = result_str.replace("~vece;", "&gt;").replace("~manje;", "&lt;").replace("~navod;", "&quot;")
     return result_str
 
 
@@ -152,10 +153,11 @@ def convert_html(source, destination):
 
 
 if __name__ == "__main__":
-    nastavi = "329.html"  # ""651.html"
+
+    nastavi = "90.html"  # ""651.html"
     idemo = False
     stani = [
-        "1005.html", "980.html", "986.html", "981.html", "210.html", "1033.html", "1204.html"  # problematicni PROVERITI 176
+        "1005.html", "980.html", "986.html", "981.html", "210.html", "1033.html"  # problematicni PROVERITI 176
         , "180.html"]  # Veliki fajlovi
     location_source = "data/acts"
     fajls = utilities.sort_file_names(os.listdir(location_source))

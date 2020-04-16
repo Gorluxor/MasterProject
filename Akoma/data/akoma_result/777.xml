@@ -1,0 +1,2715 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о потврђивању Меморандума о разумевању између Владе Републике Србије и Владе Републике Индонезије о сарадњи у области одбране">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2012/6-6/main"/>
+					<FRBRuri value="/rs/act/2012/6-6"/>
+					<FRBRdate date="2012-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2012/6-6/srp@/main"/>
+					<FRBRuri value="/rs/act/2012/6-6/srp@"/>
+					<FRBRdate date="2012-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2012/6-6/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2012/6-6/srp@.akn"/>
+					<FRBRdate date="2012-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2012-12-24" name="службени гласник рс - међународни уговори" number="6" showAs="Службени гласник РС - Међународни уговори"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="II БЕЗБЕДНОСНА И ОДБРАМБЕНА ПОЛИТИКА" value="ii безбедносна и одбрамбена политика" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="1. Одбрана и безбедност" value="1. одбрана и безбедност" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2012-12-24" wId="usvajanje"/>
+				<step by="#TODO" date="2013-01-01" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2013-01-01" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Меморандум о разумевању између Владе Републике Србије и Владе Републике Индонезије о сарадњи у области одбране, ступио je на снагу 20. фебруара 2019. године (види Обавештење: Службени гласник РС - Међународни уговори, број 3/2019-13).</p>
+				</note>
+				<note wId="not2">
+					<p>Меморандум о разумевању између Владе Републике Србије и Владе Републике Индонезије о сарадњи у области одбране, ступио je на снагу 20. фебруара 2019. године (види Обавештење: Службени гласник РС - Међународни уговори, број 3/2019-13).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О потврђивању меморандума о разумевању између владе републике србије и владе републике индонезије о сарадњи у области одбране "Службени гласник РС - Међународни уговори", број 6 од 24. децембра 2012.</p>
+			</longTitle>
+			<p>Томислав Николић, с.р.</p>
+		</preface>
+		<preamble>
+			<p>На основу члана 112. став 1. тачка 2. Устава Републике Србије, доносим</p>
+			<p>УКАЗ</p>
+			<p>о проглашењу Закона о потврђивању Меморандума о разумевању између Владе Републике Србије и Владе Републике Индонезије о сарадњи у области одбране</p>
+			<p>Проглашава се Закон о потврђивању Меморандума о разумевању између Владе Републике Србије и Владе Републике Индонезије о сарадњи у области одбране, који је донела Народна скупштина Републике Србије на Деветој седници Другог редовног заседања у 2012. години, 24. децембра 2012. године.</p>
+			<p>ПР број 114</p>
+			<p>У Београду, 24. децембра 2012. године</p>
+			<p>Председник Републике,</p>
+		</preamble>
+		<body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Потврђује се Меморандум о разумевању између Владе Републике Србије и Владе Републике Индонезије о сарадњи у области одбране, који је потписан у Џакарти, 15. септембра 2011. године, у оригиналу на српском, индонежанском и енглеском језику.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Текст Меморандума у оригиналу на српском језику гласи:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>МЕМОРАНДУМ О РАЗУМЕВАЊУ ИЗМЕЂУ ВЛАДЕ РЕПУБЛИКЕ СРБИЈЕ И ВЛАДЕ РЕПУБЛИКЕ ИНДОНЕЗИЈЕ О САРАДЊИ У ОБЛАСТИ ОДБРАНЕ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav3">
+					<content>
+						<p>Влада Републике Србије и Влада Републике Индонезије (у даљем тексту: „Стране”),</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav4">
+					<content>
+						<p>узимајући у обзир пријатељске и кооперативне односе који постоје између две државе, њихових влада и народа,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav5">
+					<content>
+						<p>у жељи да сарадњом у области одбране, унапреде и ојачају билатералне односе између две државе,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav6">
+					<content>
+						<p>полазећи од циљева и принципа Повеље Уједињених нација, у жељи да допринесу миру у свету,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav7">
+					<content>
+						<p>понашајући се у духу партнерства и сарадње и са жељом да се развију добри односи у области одбране, ради побољшања узајамног поштовања, поверења и разумевања,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav8">
+					<content>
+						<p>свесне чињенице да ће јачање сарадње у области одбране бити корисно за системе одбране обе државе, а посебно за њихове оружане снаге,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav9">
+					<content>
+						<p>у складу са важећим законима и прописима две државе,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav10">
+					<content>
+						<p>споразумеле су се о следећем:</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Дефиниције</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan1-stav2">
+					<intro>
+						<p>Термини који се користе у овом меморандуму о разумевању (у даљем тексту: „МоР”) имају следеће значење:</p>
+					</intro>
+					<hcontainer name="subpoint" wId="clan1-stav2-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> „Страна пошиљалац” oзначава државу која шаље особље, средства и опрему на територију државе Стране примаоца;</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="clan1-stav2-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> „Страна прималац” означава државу на чијој територији се налазе особље, средства и опрема Стране пошиљаоца;</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="clan1-stav2-podtac3">
+						<num>(3)</num>
+						<content>
+							<p> „Особље” означава војна и цивилна лица на служби у институцијама и органима Страна.</p>
+						</content>
+					</hcontainer>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<intro>
+						<p>Циљ</p>
+					</intro>
+					<hcontainer name="subpoint" wId="clan2-stav1-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Циљ овог МоР је успостављање општих принципа и процедура за сарадњу Страна у области одбране.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="clan2-stav1-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Сарадња између Страна заснива се на принципима равноправности, реципроцитета и заједничких интереса, као и пуног поштовања суверенитета и територијалног интегритета обе државе.</p>
+						</content>
+					</hcontainer>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Однос МоР са другим уговорима</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav2">
+					<content>
+						<p>Овај МоР неће утицати на права и обавезе Страна које проистичу из међународних уговора које су појединачно или заједно закључиле са другим државама или међународним организацијама.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan4">
+				<num>4.</num>
+				<paragraph wId="clan4-stav1">
+					<intro>
+						<p>Надлежни органи</p>
+					</intro>
+					<hcontainer name="subpoint" wId="clan4-stav1-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Надлежни органи за спровођење овог МоР су Министарство одбране Републике Србије и Министарство одбране Републике Индонезије.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="clan4-stav1-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Ради реализације овог МоР, надлежни органи Страна могу да закључе посебне уговоре.</p>
+						</content>
+					</hcontainer>
+				</paragraph>
+			</article>
+			<article wId="clan5">
+				<num>5.</num>
+				<paragraph wId="clan5-stav1">
+					<content>
+						<p>Области сарадње</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan5-stav2">
+					<intro>
+						<p>Стране могу сарађивати у следећим областима:</p>
+					</intro>
+					<point wId="clan5-stav2-tac1">
+						<num>1)</num>
+						<content>
+							<p> одбрамбене и стратегијске политике;</p>
+						</content>
+					</point>
+					<point wId="clan5-stav2-tac2">
+						<num>2)</num>
+						<content>
+							<p> логистичке подршке и одбрамбене индустрије;</p>
+						</content>
+					</point>
+					<point wId="clan5-stav2-tac3">
+						<num>3)</num>
+						<content>
+							<p> школовања и обуке, и</p>
+						</content>
+					</point>
+					<point wId="clan5-stav2-tac4">
+						<num>4)</num>
+						<content>
+							<p> другим областима од заједничког интереса, о којима се Стране или њихови надлежни органи договоре.</p>
+						</content>
+					</point>
+				</paragraph>
+			</article>
+			<article wId="clan6">
+				<num>6.</num>
+				<paragraph wId="clan6-stav1">
+					<content>
+						<p>Облици сарадње</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan6-stav2">
+					<intro>
+						<p>Сарадња између Страна може се остваривати путем:</p>
+					</intro>
+					<point wId="clan6-stav2-tac1">
+						<num>1)</num>
+						<content>
+							<p> званичних посета;</p>
+						</content>
+					</point>
+					<point wId="clan6-stav2-tac2">
+						<num>2)</num>
+						<content>
+							<p> консултација у области одбране и стратегије;</p>
+						</content>
+					</point>
+					<point wId="clan6-stav2-tac3">
+						<num>3)</num>
+						<content>
+							<p> размене обавештајних података;</p>
+						</content>
+					</point>
+					<point wId="clan6-stav2-tac4">
+						<num>4)</num>
+						<content>
+							<p> размене искустава и консултација;</p>
+						</content>
+					</point>
+					<point wId="clan6-stav2-tac5">
+						<num>5)</num>
+						<content>
+							<p> програма обуке и школовања;</p>
+						</content>
+					</point>
+					<point wId="clan6-stav2-tac6">
+						<num>6)</num>
+						<content>
+							<p> учешћа на конференцијама, симпозијумима и семинарима;</p>
+						</content>
+					</point>
+					<point wId="clan6-stav2-tac7">
+						<num>7)</num>
+						<content>
+							<p> куповине одбрамбених производа, трансфера технологије, техничке помоћи у оквиру сарадње у области одбрамбене индустрије, и</p>
+						</content>
+					</point>
+					<point wId="clan6-stav2-tac8">
+						<num>8)</num>
+						<content>
+							<p> на друге начине о којима се Стране или њихови надлежни органи договоре.</p>
+						</content>
+					</point>
+				</paragraph>
+			</article>
+			<article wId="clan7">
+				<num>7.</num>
+				<paragraph wId="clan7-stav1">
+					<intro>
+						<p>Заједничка комисија</p>
+					</intro>
+					<hcontainer name="subpoint" wId="clan7-stav1-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Заједничка комисија ће бити формирана у циљу делотворног остваривања циљева овог МоР.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="clan7-stav1-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Састанцима ће копредседавати високи званичници из области одбране Страна.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="clan7-stav1-podtac3">
+						<num>(3)</num>
+						<content>
+							<p> Заједничка комисија ће:</p>
+						</content>
+					</hcontainer>
+				</paragraph>
+			</article>
+			<subsection wId="podod1">
+				<num>а</num>
+				<heading> дефинисати заједничке циљеве и питања од обостраног интереса;</heading>
+			</subsection>
+			<subsection wId="podod2">
+				<num>б</num>
+				<heading> препоручивати активности и програме сарадње у оквиру МоР;</heading>
+			</subsection>
+			<subsection wId="podod3">
+				<num>в</num>
+				<heading> координирати, пратити и контролисати реализацију тих активности и програма сарадње;</heading>
+			</subsection>
+			<subsection wId="podod4">
+				<num>г</num>
+				<heading> вршити преглед и давати оцену о спровођењу МоР;</heading>
+			</subsection>
+			<subsection wId="podod5">
+				<num>д</num>
+				<heading> подносити извештаје министрима одбране обе Стране;</heading>
+			</subsection>
+			<subsection wId="podod6">
+				<num>ђ</num>
+				<heading> решавати неспоразуме и неслагања у погледу спровођења МоР.</heading>
+				<hcontainer name="subpoint" wId="podod6-clan7-podtac4">
+					<num>(4)</num>
+					<content>
+						<p> Стране ће се заједнички договорити о члановима који чине састав Заједничке комисије.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="podod6-clan7-podtac5">
+					<num>(5)</num>
+					<content>
+						<p> Заједничка комисија састајаће се једном у две године или у случају потребе, а место и датум одржавања састанка биће заједнички договорени.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="podod6-clan7-podtac6">
+					<num>(6)</num>
+					<content>
+						<p> Када оцени да је то неопходно за спровођење активности, програма или других конкретних задатака у оквиру сарадње, Заједничка комисија може успоставити поткомисије. Поткомисије ће за свој рад одговарати Заједничкој комисији.</p>
+					</content>
+				</hcontainer>
+				<article wId="podod6-clan8">
+					<num>8.</num>
+					<paragraph wId="podod6-clan8-stav1">
+						<intro>
+							<p>Размена података</p>
+						</intro>
+						<hcontainer name="subpoint" wId="podod6-clan8-stav1-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> Током реализације МоР, Стране ће размењивати искључиво податке за јавну употребу.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod6-clan8-stav1-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Размена и заштита тајних података биће регулисана посебним уговором.</p>
+							</content>
+						</hcontainer>
+					</paragraph>
+				</article>
+				<article wId="podod6-clan9">
+					<num>9.</num>
+					<paragraph wId="podod6-clan9-stav1">
+						<intro>
+							<p>Трошкови</p>
+						</intro>
+						<hcontainer name="subpoint" wId="podod6-clan9-stav1-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> Страна која је домаћин састанка Заједничке комисије, сноси трошкове реализације састанка, као и трошкове угоститељских услуга (смештај и исхрана). Делегација сваке од Страна сносиће сопствене путне трошкове који настану у вези са њиховим присуствовањем тим састанцима.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod6-clan9-stav1-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Остали трошкови до којих дође током реализације овог МоР биће предмет посебног финансијског аранжмана који ће Стране међусобно закључити.</p>
+							</content>
+						</hcontainer>
+					</paragraph>
+				</article>
+				<article wId="podod6-clan10">
+					<num>10.</num>
+					<paragraph wId="podod6-clan10-stav1">
+						<content>
+							<p>Заштита права интелектуалне својине</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod6-clan10-stav2">
+						<content>
+							<p>Ради реализације овог МоР, Стране могу закључити посебан уговор о заштити права интелектуалне својине.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod6-clan11">
+					<num>11.</num>
+					<paragraph wId="podod6-clan11-stav1">
+						<intro>
+							<p>Опште одредбе</p>
+						</intro>
+						<hcontainer name="subpoint" wId="podod6-clan11-stav1-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> Током активности које се, у складу са овим МоР, реализују на територији државе Стране примаоца, особље Стране пошиљаоца је обавезно да поштује законе, прописе и процедуре Стране примаоца.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod6-clan11-stav1-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Особље Стране пошиљаоца дисциплински је одговорно свом команданту, односно вишем државном службенику или војном представнику на територији државе Стране примаоца.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod6-clan11-stav1-podtac3">
+							<num>(3)</num>
+							<content>
+								<p> За свако почињено кривично дело на територији државе Стране примаоца, особље Стране пошиљаоца, биће под кривичном јурисдикцијом Стране примаоца.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod6-clan11-stav1-podtac4">
+							<num>(4)</num>
+							<content>
+								<p> Свака од Страна одриче се потраживања накнаде штете у случају смрти, повреде или штете, које могу задесити особље или имовину те Стране, а које проистичу из чињења или нечињења проузрокованих од стране особља друге Стране у току реализације овог МоР.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod6-clan11-stav1-podtac5">
+							<num>(5)</num>
+							<content>
+								<p> Изузетно од одредбе става (4) овог члана, захтеви за накнаду штете могу се потраживати у случају ако се то чињење или нечињење изврши намерно или услед грубе непажње. У том случају, захтеви за накнаду штете решаваће се директним преговорима између Страна, без предавања трећој страни на решавање.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod6-clan11-stav1-podtac6">
+							<num>(6)</num>
+							<content>
+								<p> У случају смрти, повреде или штете које трећој страни нанесе особље Страна у току вршења активности у складу са овим МоР, Стране ће се договорити у вези са плаћањем накнаде. Уколико се договор не постигне, случај ће бити предат надлежним судовима државе у којој се догодио инцидент који је проузроковао штету.</p>
+							</content>
+						</hcontainer>
+					</paragraph>
+				</article>
+				<article wId="podod6-clan12">
+					<num>12.</num>
+					<paragraph wId="podod6-clan12-stav1">
+						<content>
+							<p>Медицинска заштита</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod6-clan12-stav2">
+						<content>
+							<p>Страна прималац пружиће, у случају потребе, без накнаде, хитну медицинску и стоматолошку заштиту особљу Стране пошиљаоца док борави на територији државе Стране примаоца у циљу реализације овог МоР.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod6-clan13">
+					<num>13.</num>
+					<paragraph wId="podod6-clan13-stav1">
+						<intro>
+							<p>Решавање спорова</p>
+						</intro>
+						<hcontainer name="subpoint" wId="podod6-clan13-stav1-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> У случају било каквог спора у вези са тумачењем и спровођењем овог МоР, представници Страна ће, у оквиру Заједничке комисије, преговарати у циљу решавања неспоразума на пријатељски начин.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod6-clan13-stav1-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> У случају да се спор не реши на овом нивоу, оба копредседавајућа Заједничке комисије ће предмет уступити Странама на решавање, званичним путем, уколико то буде потребно.</p>
+							</content>
+						</hcontainer>
+					</paragraph>
+				</article>
+				<article wId="podod6-clan14">
+					<num>14.</num>
+					<paragraph wId="podod6-clan14-stav1">
+						<content>
+							<p>Измене и допуне</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod6-clan14-stav2">
+						<content>
+							<p>Стране могу да измене и допуне МоР у било које време, заједничком писаном сагласношћу. Усаглашене измене и допуне ступиће на снагу, у складу са <ref wId="ref0" href="akn/rs/act/2012/6-6/srp@/!main~art_16" >чланом 16. овог</ref> МоР.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod6-clan15">
+					<num>15.</num>
+					<paragraph wId="podod6-clan15-stav1">
+						<intro>
+							<p>Отказивање Меморандума</p>
+						</intro>
+						<hcontainer name="subpoint" wId="podod6-clan15-stav1-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> Свака од Страна може да откаже МоР писаним обавештењем другој Страни. МоР ће престати да важи шест месеци након пријема таквог писаног обавештења.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod6-clan15-stav1-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> У случају престанка важења МоР, све активности започете у периоду његовог важења биће реализоване под истим условима под којима су и започете.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod6-clan15-stav1-podtac3">
+							<num>(3)</num>
+							<content>
+								<p> У случају престанка важења МоР, уговори из <ref wId="ref1" href="akn/rs/act/2012/6-6/srp@/!main~art_4" >члана 4. </ref>став (2) МоР, остају и даље на снази, осим ако тим уговорима није другачије предвиђено.</p>
+							</content>
+						</hcontainer>
+					</paragraph>
+				</article>
+				<article wId="podod6-clan16">
+					<num>16.</num>
+					<paragraph wId="podod6-clan16-stav1">
+						<intro>
+							<p>Ступање на снагу и период важења</p>
+						</intro>
+						<hcontainer name="subpoint" wId="podod6-clan16-stav1-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> Овај МоР ступа на снагу даном пријема последњег обавештења којим се Стране међусобно обавештавају да су, у складу са националним законодавством, спровеле поступак који је неопходан за ступање на снагу МоР.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod6-clan16-stav1-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Овај МоР остаје на снази 5 (пет) година и може бити аутоматски продужен на период од наредних 5 (пет) година, осим ако било која од Страна, писаним путем, не обавести другу Страну о својој намери да откаже МоР.</p>
+							</content>
+						</hcontainer>
+					</paragraph>
+					<paragraph wId="podod6-clan16-stav2">
+						<content>
+							<p>Сачињено у Џакарти, 15. септембра 2011. године, у два истоветна примерка на српском, индонежанском и енглеском језику. У случају разлика у тумачењу МоР, меродаван је текст на енглеском језику.</p>
+						</content>
+					</paragraph>
+					<paragraph class="special" wId="podod6-clan16-stav3">
+						<content>
+							<table>
+								
+
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>ЗА ВЛАДУ</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>ЗА ВЛАДУ</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>РЕПУБЛИКЕ СРБИЈЕ</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p> РЕПУБЛИКЕ ИНДОНЕЗИЈЕ</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>министар одбране </p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>министар одбране</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>Драган Шутановац, с.р. </p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>Пурномо Јусгианторо, с.р.</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+
+							</table>
+							
+
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod6-clan3">
+					<num>3.</num>
+					<paragraph wId="podod6-clan3-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије – Међународни уговори”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod6-clan3-stav2">
+						<content>
+							<p>На основу члана 11<ref wId="ref2" href="akn/rs/act/2012/6-6/srp@/!main~art_112__para_1__point_2" >2</ref>. став 1. тачка 2. Устава Републике Србије, доносим</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod6-clan3-stav3">
+						<content>
+							<p>УКАЗ</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod6-clan3-stav4">
+						<content>
+							<p>о проглашењу Закона о потврђивању Меморандума о разумевању између Владе Републике Србије и Владе Републике Индонезије о сарадњи у области одбране</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod6-clan3-stav5">
+						<content>
+							<p>Проглашава се Закон о потврђивању Меморандума о разумевању између Владе Републике Србије и Владе Републике Индонезије о сарадњи у области одбране, који је донела Народна скупштина Републике Србије на Деветој седници Другог редовног заседања у 2012. години, 24. децембра 2012. године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod6-clan3-stav6">
+						<content>
+							<p>ПР број 114</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod6-clan3-stav7">
+						<content>
+							<p>У Београду, 24. децембра 2012. године</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod6-clan3-stav8">
+						<content>
+							<p>Председник Републике,</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod6-clan3-stav9">
+						<content>
+							<p>Томислав Николић, с.р.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod6-clan3-stav10">
+						<content>
+							<p>ЗАКОН</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod6-clan3-stav11">
+						<content>
+							<p>о потврђивању Меморандума о разумевању између Владе Републике Србије и Владе Републике Индонезије о сарадњи у области одбране</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod6-clan3-stav12">
+						<content>
+							<p>"Службени гласник РС - Међународни  уговори", број 6 од 24.  децембра 2012.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod6-clan1">
+					<num>1.</num>
+					<paragraph wId="podod6-clan1-stav1">
+						<content>
+							<p>Потврђује се Меморандум о разумевању између Владе Републике Србије и Владе Републике Индонезије о сарадњи у области одбране, који је потписан у Џакарти, 15. септембра 2011. године, у оригиналу на српском, индонежанском и енглеском језику.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod6-clan2">
+					<num>2.</num>
+					<paragraph wId="podod6-clan2-stav1">
+						<content>
+							<p>Текст Меморандума у оригиналу на српском језику гласи:</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod6-clan2-stav2">
+						<content>
+							<p>МЕМОРАНДУМ О РАЗУМЕВАЊУ ИЗМЕЂУ ВЛАДЕ РЕПУБЛИКЕ СРБИЈЕ И ВЛАДЕ РЕПУБЛИКЕ ИНДОНЕЗИЈЕ О САРАДЊИ У ОБЛАСТИ ОДБРАНЕ</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod6-clan2-stav3">
+						<content>
+							<p>Влада Републике Србије и Влада Републике Индонезије (у даљем тексту: „Стране”),</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod6-clan2-stav4">
+						<content>
+							<p>узимајући у обзир пријатељске и кооперативне односе који постоје између две државе, њихових влада и народа,</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod6-clan2-stav5">
+						<content>
+							<p>у жељи да сарадњом у области одбране, унапреде и ојачају билатералне односе између две државе,</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod6-clan2-stav6">
+						<content>
+							<p>полазећи од циљева и принципа Повеље Уједињених нација, у жељи да допринесу миру у свету,</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod6-clan2-stav7">
+						<content>
+							<p>понашајући се у духу партнерства и сарадње и са жељом да се развију добри односи у области одбране, ради побољшања узајамног поштовања, поверења и разумевања,</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod6-clan2-stav8">
+						<content>
+							<p>свесне чињенице да ће јачање сарадње у области одбране бити корисно за системе одбране обе државе, а посебно за њихове оружане снаге,</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod6-clan2-stav9">
+						<content>
+							<p>у складу са важећим законима и прописима две државе,</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod6-clan2-stav10">
+						<content>
+							<p>споразумеле су се о следећем:</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod6-clan1">
+					<num>1.</num>
+					<paragraph wId="podod6-clan1-stav1">
+						<content>
+							<p>Дефиниције</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod6-clan1-stav2">
+						<intro>
+							<p>Термини који се користе у овом меморандуму о разумевању (у даљем тексту: „МоР”) имају следеће значење:</p>
+						</intro>
+						<hcontainer name="subpoint" wId="podod6-clan1-stav2-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> „Страна пошиљалац” oзначава државу која шаље особље, средства и опрему на територију државе Стране примаоца;</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod6-clan1-stav2-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> „Страна прималац” означава државу на чијој територији се налазе особље, средства и опрема Стране пошиљаоца;</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod6-clan1-stav2-podtac3">
+							<num>(3)</num>
+							<content>
+								<p> „Особље” означава војна и цивилна лица на служби у институцијама и органима Страна.</p>
+							</content>
+						</hcontainer>
+					</paragraph>
+				</article>
+				<article wId="podod6-clan2">
+					<num>2.</num>
+					<paragraph wId="podod6-clan2-stav1">
+						<intro>
+							<p>Циљ</p>
+						</intro>
+						<hcontainer name="subpoint" wId="podod6-clan2-stav1-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> Циљ овог МоР је успостављање општих принципа и процедура за сарадњу Страна у области одбране.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod6-clan2-stav1-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Сарадња између Страна заснива се на принципима равноправности, реципроцитета и заједничких интереса, као и пуног поштовања суверенитета и територијалног интегритета обе државе.</p>
+							</content>
+						</hcontainer>
+					</paragraph>
+				</article>
+				<article wId="podod6-clan3">
+					<num>3.</num>
+					<paragraph wId="podod6-clan3-stav1">
+						<content>
+							<p>Однос МоР са другим уговорима</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod6-clan3-stav2">
+						<content>
+							<p>Овај МоР неће утицати на права и обавезе Страна које проистичу из међународних уговора које су појединачно или заједно закључиле са другим државама или међународним организацијама.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod6-clan4">
+					<num>4.</num>
+					<paragraph wId="podod6-clan4-stav1">
+						<intro>
+							<p>Надлежни органи</p>
+						</intro>
+						<hcontainer name="subpoint" wId="podod6-clan4-stav1-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> Надлежни органи за спровођење овог МоР су Министарство одбране Републике Србије и Министарство одбране Републике Индонезије.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod6-clan4-stav1-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Ради реализације овог МоР, надлежни органи Страна могу да закључе посебне уговоре.</p>
+							</content>
+						</hcontainer>
+					</paragraph>
+				</article>
+				<article wId="podod6-clan5">
+					<num>5.</num>
+					<paragraph wId="podod6-clan5-stav1">
+						<content>
+							<p>Области сарадње</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod6-clan5-stav2">
+						<intro>
+							<p>Стране могу сарађивати у следећим областима:</p>
+						</intro>
+						<point wId="podod6-clan5-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> одбрамбене и стратегијске политике;</p>
+							</content>
+						</point>
+						<point wId="podod6-clan5-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> логистичке подршке и одбрамбене индустрије;</p>
+							</content>
+						</point>
+						<point wId="podod6-clan5-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> школовања и обуке, и</p>
+							</content>
+						</point>
+						<point wId="podod6-clan5-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> другим областима од заједничког интереса, о којима се Стране или њихови надлежни органи договоре.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="podod6-clan6">
+					<num>6.</num>
+					<paragraph wId="podod6-clan6-stav1">
+						<content>
+							<p>Облици сарадње</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod6-clan6-stav2">
+						<intro>
+							<p>Сарадња између Страна може се остваривати путем:</p>
+						</intro>
+						<point wId="podod6-clan6-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> званичних посета;</p>
+							</content>
+						</point>
+						<point wId="podod6-clan6-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> консултација у области одбране и стратегије;</p>
+							</content>
+						</point>
+						<point wId="podod6-clan6-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> размене обавештајних података;</p>
+							</content>
+						</point>
+						<point wId="podod6-clan6-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> размене искустава и консултација;</p>
+							</content>
+						</point>
+						<point wId="podod6-clan6-stav2-tac5">
+							<num>5)</num>
+							<content>
+								<p> програма обуке и школовања;</p>
+							</content>
+						</point>
+						<point wId="podod6-clan6-stav2-tac6">
+							<num>6)</num>
+							<content>
+								<p> учешћа на конференцијама, симпозијумима и семинарима;</p>
+							</content>
+						</point>
+						<point wId="podod6-clan6-stav2-tac7">
+							<num>7)</num>
+							<content>
+								<p> куповине одбрамбених производа, трансфера технологије, техничке помоћи у оквиру сарадње у области одбрамбене индустрије, и</p>
+							</content>
+						</point>
+						<point wId="podod6-clan6-stav2-tac8">
+							<num>8)</num>
+							<content>
+								<p> на друге начине о којима се Стране или њихови надлежни органи договоре.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="podod6-clan7">
+					<num>7.</num>
+					<paragraph wId="podod6-clan7-stav1">
+						<intro>
+							<p>Заједничка комисија</p>
+						</intro>
+						<hcontainer name="subpoint" wId="podod6-clan7-stav1-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> Заједничка комисија ће бити формирана у циљу делотворног остваривања циљева овог МоР.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod6-clan7-stav1-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Састанцима ће копредседавати високи званичници из области одбране Страна.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod6-clan7-stav1-podtac3">
+							<num>(3)</num>
+							<content>
+								<p> Заједничка комисија ће:</p>
+							</content>
+						</hcontainer>
+					</paragraph>
+				</article>
+			</subsection>
+			<subsection wId="podod7">
+				<num>а</num>
+				<heading> дефинисати заједничке циљеве и питања од обостраног интереса;</heading>
+			</subsection>
+			<subsection wId="podod8">
+				<num>б</num>
+				<heading> препоручивати активности и програме сарадње у оквиру МоР;</heading>
+			</subsection>
+			<subsection wId="podod9">
+				<num>в</num>
+				<heading> координирати, пратити и контролисати реализацију тих активности и програма сарадње;</heading>
+			</subsection>
+			<subsection wId="podod10">
+				<num>г</num>
+				<heading> вршити преглед и давати оцену о спровођењу МоР;</heading>
+			</subsection>
+			<subsection wId="podod11">
+				<num>д</num>
+				<heading> подносити извештаје министрима одбране обе Стране;</heading>
+			</subsection>
+			<subsection wId="podod12">
+				<num>ђ</num>
+				<heading> решавати неспоразуме и неслагања у погледу спровођења МоР.</heading>
+				<hcontainer name="subpoint" wId="podod12-clan7-podtac4">
+					<num>(4)</num>
+					<content>
+						<p> Стране ће се заједнички договорити о члановима који чине састав Заједничке комисије.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="podod12-clan7-podtac5">
+					<num>(5)</num>
+					<content>
+						<p> Заједничка комисија састајаће се једном у две године или у случају потребе, а место и датум одржавања састанка биће заједнички договорени.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="podod12-clan7-podtac6">
+					<num>(6)</num>
+					<content>
+						<p> Када оцени да је то неопходно за спровођење активности, програма или других конкретних задатака у оквиру сарадње, Заједничка комисија може успоставити поткомисије. Поткомисије ће за свој рад одговарати Заједничкој комисији.</p>
+					</content>
+				</hcontainer>
+				<article wId="podod12-clan8">
+					<num>8.</num>
+					<paragraph wId="podod12-clan8-stav1">
+						<intro>
+							<p>Размена података</p>
+						</intro>
+						<hcontainer name="subpoint" wId="podod12-clan8-stav1-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> Током реализације МоР, Стране ће размењивати искључиво податке за јавну употребу.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod12-clan8-stav1-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Размена и заштита тајних података биће регулисана посебним уговором.</p>
+							</content>
+						</hcontainer>
+					</paragraph>
+				</article>
+				<article wId="podod12-clan9">
+					<num>9.</num>
+					<paragraph wId="podod12-clan9-stav1">
+						<intro>
+							<p>Трошкови</p>
+						</intro>
+						<hcontainer name="subpoint" wId="podod12-clan9-stav1-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> Страна која је домаћин састанка Заједничке комисије, сноси трошкове реализације састанка, као и трошкове угоститељских услуга (смештај и исхрана). Делегација сваке од Страна сносиће сопствене путне трошкове који настану у вези са њиховим присуствовањем тим састанцима.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod12-clan9-stav1-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Остали трошкови до којих дође током реализације овог МоР биће предмет посебног финансијског аранжмана који ће Стране међусобно закључити.</p>
+							</content>
+						</hcontainer>
+					</paragraph>
+				</article>
+				<article wId="podod12-clan10">
+					<num>10.</num>
+					<paragraph wId="podod12-clan10-stav1">
+						<content>
+							<p>Заштита права интелектуалне својине</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod12-clan10-stav2">
+						<content>
+							<p>Ради реализације овог МоР, Стране могу закључити посебан уговор о заштити права интелектуалне својине.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod12-clan11">
+					<num>11.</num>
+					<paragraph wId="podod12-clan11-stav1">
+						<intro>
+							<p>Опште одредбе</p>
+						</intro>
+						<hcontainer name="subpoint" wId="podod12-clan11-stav1-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> Током активности које се, у складу са овим МоР, реализују на територији државе Стране примаоца, особље Стране пошиљаоца је обавезно да поштује законе, прописе и процедуре Стране примаоца.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod12-clan11-stav1-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Особље Стране пошиљаоца дисциплински је одговорно свом команданту, односно вишем државном службенику или војном представнику на територији државе Стране примаоца.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod12-clan11-stav1-podtac3">
+							<num>(3)</num>
+							<content>
+								<p> За свако почињено кривично дело на територији државе Стране примаоца, особље Стране пошиљаоца, биће под кривичном јурисдикцијом Стране примаоца.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod12-clan11-stav1-podtac4">
+							<num>(4)</num>
+							<content>
+								<p> Свака од Страна одриче се потраживања накнаде штете у случају смрти, повреде или штете, које могу задесити особље или имовину те Стране, а које проистичу из чињења или нечињења проузрокованих од стране особља друге Стране у току реализације овог МоР.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod12-clan11-stav1-podtac5">
+							<num>(5)</num>
+							<content>
+								<p> Изузетно од одредбе става (4) овог члана, захтеви за накнаду штете могу се потраживати у случају ако се то чињење или нечињење изврши намерно или услед грубе непажње. У том случају, захтеви за накнаду штете решаваће се директним преговорима између Страна, без предавања трећој страни на решавање.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod12-clan11-stav1-podtac6">
+							<num>(6)</num>
+							<content>
+								<p> У случају смрти, повреде или штете које трећој страни нанесе особље Страна у току вршења активности у складу са овим МоР, Стране ће се договорити у вези са плаћањем накнаде. Уколико се договор не постигне, случај ће бити предат надлежним судовима државе у којој се догодио инцидент који је проузроковао штету.</p>
+							</content>
+						</hcontainer>
+					</paragraph>
+				</article>
+				<article wId="podod12-clan12">
+					<num>12.</num>
+					<paragraph wId="podod12-clan12-stav1">
+						<content>
+							<p>Медицинска заштита</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod12-clan12-stav2">
+						<content>
+							<p>Страна прималац пружиће, у случају потребе, без накнаде, хитну медицинску и стоматолошку заштиту особљу Стране пошиљаоца док борави на територији државе Стране примаоца у циљу реализације овог МоР.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod12-clan13">
+					<num>13.</num>
+					<paragraph wId="podod12-clan13-stav1">
+						<intro>
+							<p>Решавање спорова</p>
+						</intro>
+						<hcontainer name="subpoint" wId="podod12-clan13-stav1-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> У случају било каквог спора у вези са тумачењем и спровођењем овог МоР, представници Страна ће, у оквиру Заједничке комисије, преговарати у циљу решавања неспоразума на пријатељски начин.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod12-clan13-stav1-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> У случају да се спор не реши на овом нивоу, оба копредседавајућа Заједничке комисије ће предмет уступити Странама на решавање, званичним путем, уколико то буде потребно.</p>
+							</content>
+						</hcontainer>
+					</paragraph>
+				</article>
+				<article wId="podod12-clan14">
+					<num>14.</num>
+					<paragraph wId="podod12-clan14-stav1">
+						<content>
+							<p>Измене и допуне</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod12-clan14-stav2">
+						<content>
+							<p>Стране могу да измене и допуне МоР у било које време, заједничком писаном сагласношћу. Усаглашене измене и допуне ступиће на снагу, у складу са <ref wId="ref3" href="akn/rs/act/2012/6-6/srp@/!main~art_16" >чланом 16. овог</ref> МоР.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod12-clan15">
+					<num>15.</num>
+					<paragraph wId="podod12-clan15-stav1">
+						<intro>
+							<p>Отказивање Меморандума</p>
+						</intro>
+						<hcontainer name="subpoint" wId="podod12-clan15-stav1-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> Свака од Страна може да откаже МоР писаним обавештењем другој Страни. МоР ће престати да важи шест месеци након пријема таквог писаног обавештења.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod12-clan15-stav1-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> У случају престанка важења МоР, све активности започете у периоду његовог важења биће реализоване под истим условима под којима су и започете.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod12-clan15-stav1-podtac3">
+							<num>(3)</num>
+							<content>
+								<p> У случају престанка важења МоР, уговори из <ref wId="ref4" href="akn/rs/act/2012/6-6/srp@/!main~art_4" >члана 4. </ref>став (2) МоР, остају и даље на снази, осим ако тим уговорима није другачије предвиђено.</p>
+							</content>
+						</hcontainer>
+					</paragraph>
+				</article>
+				<article wId="podod12-clan16">
+					<num>16.</num>
+					<paragraph wId="podod12-clan16-stav1">
+						<intro>
+							<p>Ступање на снагу и период важења</p>
+						</intro>
+						<hcontainer name="subpoint" wId="podod12-clan16-stav1-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> Овај МоР ступа на снагу даном пријема последњег обавештења којим се Стране међусобно обавештавају да су, у складу са националним законодавством, спровеле поступак који је неопходан за ступање на снагу МоР.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod12-clan16-stav1-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Овај МоР остаје на снази 5 (пет) година и може бити аутоматски продужен на период од наредних 5 (пет) година, осим ако било која од Страна, писаним путем, не обавести другу Страну о својој намери да откаже МоР.</p>
+							</content>
+						</hcontainer>
+					</paragraph>
+					<paragraph wId="podod12-clan16-stav2">
+						<content>
+							<p>Сачињено у Џакарти, 15. септембра 2011. године, у два истоветна примерка на српском, индонежанском и енглеском језику. У случају разлика у тумачењу МоР, меродаван је текст на енглеском језику.</p>
+						</content>
+					</paragraph>
+					<paragraph class="special" wId="podod12-clan16-stav3">
+						<content>
+							<table>
+								
+
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>ЗА ВЛАДУ</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>ЗА ВЛАДУ</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>РЕПУБЛИКЕ СРБИЈЕ</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p> РЕПУБЛИКЕ ИНДОНЕЗИЈЕ</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>министар одбране </p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>министар одбране</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>Драган Шутановац, с.р. </p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>Пурномо Јусгианторо, с.р.</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+
+							</table>
+							
+
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod12-clan3">
+					<num>3.</num>
+					<paragraph wId="podod12-clan3-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије – Међународни уговори”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod12-clan3-stav2">
+						<content>
+							<p>На основу члана 11<ref wId="ref5" href="akn/rs/act/2012/6-6/srp@/!main~art_112__para_1__point_2" >2</ref>. став 1. тачка 2. Устава Републике Србије, доносим</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod12-clan3-stav3">
+						<content>
+							<p>УКАЗ</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod12-clan3-stav4">
+						<content>
+							<p>о проглашењу Закона о потврђивању Меморандума о разумевању између Владе Републике Србије и Владе Републике Индонезије о сарадњи у области одбране</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod12-clan3-stav5">
+						<content>
+							<p>Проглашава се Закон о потврђивању Меморандума о разумевању између Владе Републике Србије и Владе Републике Индонезије о сарадњи у области одбране, који је донела Народна скупштина Републике Србије на Деветој седници Другог редовног заседања у 2012. години, 24. децембра 2012. године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod12-clan3-stav6">
+						<content>
+							<p>ПР број 114</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod12-clan3-stav7">
+						<content>
+							<p>У Београду, 24. децембра 2012. године</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod12-clan3-stav8">
+						<content>
+							<p>Председник Републике,</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod12-clan3-stav9">
+						<content>
+							<p>Томислав Николић, с.р.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod12-clan3-stav10">
+						<content>
+							<p>ЗАКОН</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod12-clan3-stav11">
+						<content>
+							<p>о потврђивању Меморандума о разумевању између Владе Републике Србије и Владе Републике Индонезије о сарадњи у области одбране</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod12-clan3-stav12">
+						<content>
+							<p>"Службени гласник РС - Међународни  уговори", број 6 од 24.  децембра 2012.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod12-clan1">
+					<num>1.</num>
+					<paragraph wId="podod12-clan1-stav1">
+						<content>
+							<p>Потврђује се Меморандум о разумевању између Владе Републике Србије и Владе Републике Индонезије о сарадњи у области одбране, који је потписан у Џакарти, 15. септембра 2011. године, у оригиналу на српском, индонежанском и енглеском језику.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod12-clan2">
+					<num>2.</num>
+					<paragraph wId="podod12-clan2-stav1">
+						<content>
+							<p>Текст Меморандума у оригиналу на српском језику гласи:</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod12-clan2-stav2">
+						<content>
+							<p>МЕМОРАНДУМ О РАЗУМЕВАЊУ ИЗМЕЂУ ВЛАДЕ РЕПУБЛИКЕ СРБИЈЕ И ВЛАДЕ РЕПУБЛИКЕ ИНДОНЕЗИЈЕ О САРАДЊИ У ОБЛАСТИ ОДБРАНЕ</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod12-clan2-stav3">
+						<content>
+							<p>Влада Републике Србије и Влада Републике Индонезије (у даљем тексту: „Стране”),</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod12-clan2-stav4">
+						<content>
+							<p>узимајући у обзир пријатељске и кооперативне односе који постоје између две државе, њихових влада и народа,</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod12-clan2-stav5">
+						<content>
+							<p>у жељи да сарадњом у области одбране, унапреде и ојачају билатералне односе између две државе,</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod12-clan2-stav6">
+						<content>
+							<p>полазећи од циљева и принципа Повеље Уједињених нација, у жељи да допринесу миру у свету,</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod12-clan2-stav7">
+						<content>
+							<p>понашајући се у духу партнерства и сарадње и са жељом да се развију добри односи у области одбране, ради побољшања узајамног поштовања, поверења и разумевања,</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod12-clan2-stav8">
+						<content>
+							<p>свесне чињенице да ће јачање сарадње у области одбране бити корисно за системе одбране обе државе, а посебно за њихове оружане снаге,</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod12-clan2-stav9">
+						<content>
+							<p>у складу са важећим законима и прописима две државе,</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod12-clan2-stav10">
+						<content>
+							<p>споразумеле су се о следећем:</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod12-clan1">
+					<num>1.</num>
+					<paragraph wId="podod12-clan1-stav1">
+						<content>
+							<p>Дефиниције</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod12-clan1-stav2">
+						<intro>
+							<p>Термини који се користе у овом меморандуму о разумевању (у даљем тексту: „МоР”) имају следеће значење:</p>
+						</intro>
+						<hcontainer name="subpoint" wId="podod12-clan1-stav2-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> „Страна пошиљалац” oзначава државу која шаље особље, средства и опрему на територију државе Стране примаоца;</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod12-clan1-stav2-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> „Страна прималац” означава државу на чијој територији се налазе особље, средства и опрема Стране пошиљаоца;</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod12-clan1-stav2-podtac3">
+							<num>(3)</num>
+							<content>
+								<p> „Особље” означава војна и цивилна лица на служби у институцијама и органима Страна.</p>
+							</content>
+						</hcontainer>
+					</paragraph>
+				</article>
+				<article wId="podod12-clan2">
+					<num>2.</num>
+					<paragraph wId="podod12-clan2-stav1">
+						<intro>
+							<p>Циљ</p>
+						</intro>
+						<hcontainer name="subpoint" wId="podod12-clan2-stav1-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> Циљ овог МоР је успостављање општих принципа и процедура за сарадњу Страна у области одбране.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod12-clan2-stav1-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Сарадња између Страна заснива се на принципима равноправности, реципроцитета и заједничких интереса, као и пуног поштовања суверенитета и територијалног интегритета обе државе.</p>
+							</content>
+						</hcontainer>
+					</paragraph>
+				</article>
+				<article wId="podod12-clan3">
+					<num>3.</num>
+					<paragraph wId="podod12-clan3-stav1">
+						<content>
+							<p>Однос МоР са другим уговорима</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod12-clan3-stav2">
+						<content>
+							<p>Овај МоР неће утицати на права и обавезе Страна које проистичу из међународних уговора које су појединачно или заједно закључиле са другим државама или међународним организацијама.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod12-clan4">
+					<num>4.</num>
+					<paragraph wId="podod12-clan4-stav1">
+						<intro>
+							<p>Надлежни органи</p>
+						</intro>
+						<hcontainer name="subpoint" wId="podod12-clan4-stav1-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> Надлежни органи за спровођење овог МоР су Министарство одбране Републике Србије и Министарство одбране Републике Индонезије.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod12-clan4-stav1-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Ради реализације овог МоР, надлежни органи Страна могу да закључе посебне уговоре.</p>
+							</content>
+						</hcontainer>
+					</paragraph>
+				</article>
+				<article wId="podod12-clan5">
+					<num>5.</num>
+					<paragraph wId="podod12-clan5-stav1">
+						<content>
+							<p>Области сарадње</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod12-clan5-stav2">
+						<intro>
+							<p>Стране могу сарађивати у следећим областима:</p>
+						</intro>
+						<point wId="podod12-clan5-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> одбрамбене и стратегијске политике;</p>
+							</content>
+						</point>
+						<point wId="podod12-clan5-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> логистичке подршке и одбрамбене индустрије;</p>
+							</content>
+						</point>
+						<point wId="podod12-clan5-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> школовања и обуке, и</p>
+							</content>
+						</point>
+						<point wId="podod12-clan5-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> другим областима од заједничког интереса, о којима се Стране или њихови надлежни органи договоре.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="podod12-clan6">
+					<num>6.</num>
+					<paragraph wId="podod12-clan6-stav1">
+						<content>
+							<p>Облици сарадње</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod12-clan6-stav2">
+						<intro>
+							<p>Сарадња између Страна може се остваривати путем:</p>
+						</intro>
+						<point wId="podod12-clan6-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> званичних посета;</p>
+							</content>
+						</point>
+						<point wId="podod12-clan6-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> консултација у области одбране и стратегије;</p>
+							</content>
+						</point>
+						<point wId="podod12-clan6-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> размене обавештајних података;</p>
+							</content>
+						</point>
+						<point wId="podod12-clan6-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> размене искустава и консултација;</p>
+							</content>
+						</point>
+						<point wId="podod12-clan6-stav2-tac5">
+							<num>5)</num>
+							<content>
+								<p> програма обуке и школовања;</p>
+							</content>
+						</point>
+						<point wId="podod12-clan6-stav2-tac6">
+							<num>6)</num>
+							<content>
+								<p> учешћа на конференцијама, симпозијумима и семинарима;</p>
+							</content>
+						</point>
+						<point wId="podod12-clan6-stav2-tac7">
+							<num>7)</num>
+							<content>
+								<p> куповине одбрамбених производа, трансфера технологије, техничке помоћи у оквиру сарадње у области одбрамбене индустрије, и</p>
+							</content>
+						</point>
+						<point wId="podod12-clan6-stav2-tac8">
+							<num>8)</num>
+							<content>
+								<p> на друге начине о којима се Стране или њихови надлежни органи договоре.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="podod12-clan7">
+					<num>7.</num>
+					<paragraph wId="podod12-clan7-stav1">
+						<intro>
+							<p>Заједничка комисија</p>
+						</intro>
+						<hcontainer name="subpoint" wId="podod12-clan7-stav1-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> Заједничка комисија ће бити формирана у циљу делотворног остваривања циљева овог МоР.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod12-clan7-stav1-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Састанцима ће копредседавати високи званичници из области одбране Страна.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod12-clan7-stav1-podtac3">
+							<num>(3)</num>
+							<content>
+								<p> Заједничка комисија ће:</p>
+							</content>
+						</hcontainer>
+					</paragraph>
+				</article>
+			</subsection>
+			<subsection wId="podod13">
+				<num>а</num>
+				<heading> дефинисати заједничке циљеве и питања од обостраног интереса;</heading>
+			</subsection>
+			<subsection wId="podod14">
+				<num>б</num>
+				<heading> препоручивати активности и програме сарадње у оквиру МоР;</heading>
+			</subsection>
+			<subsection wId="podod15">
+				<num>в</num>
+				<heading> координирати, пратити и контролисати реализацију тих активности и програма сарадње;</heading>
+			</subsection>
+			<subsection wId="podod16">
+				<num>г</num>
+				<heading> вршити преглед и давати оцену о спровођењу МоР;</heading>
+			</subsection>
+			<subsection wId="podod17">
+				<num>д</num>
+				<heading> подносити извештаје министрима одбране обе Стране;</heading>
+			</subsection>
+			<subsection wId="podod18">
+				<num>ђ</num>
+				<heading> решавати неспоразуме и неслагања у погледу спровођења МоР.</heading>
+				<hcontainer name="subpoint" wId="podod18-clan7-podtac4">
+					<num>(4)</num>
+					<content>
+						<p> Стране ће се заједнички договорити о члановима који чине састав Заједничке комисије.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="podod18-clan7-podtac5">
+					<num>(5)</num>
+					<content>
+						<p> Заједничка комисија састајаће се једном у две године или у случају потребе, а место и датум одржавања састанка биће заједнички договорени.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="podod18-clan7-podtac6">
+					<num>(6)</num>
+					<content>
+						<p> Када оцени да је то неопходно за спровођење активности, програма или других конкретних задатака у оквиру сарадње, Заједничка комисија може успоставити поткомисије. Поткомисије ће за свој рад одговарати Заједничкој комисији.</p>
+					</content>
+				</hcontainer>
+				<article wId="podod18-clan8">
+					<num>8.</num>
+					<paragraph wId="podod18-clan8-stav1">
+						<intro>
+							<p>Размена података</p>
+						</intro>
+						<hcontainer name="subpoint" wId="podod18-clan8-stav1-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> Током реализације МоР, Стране ће размењивати искључиво податке за јавну употребу.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod18-clan8-stav1-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Размена и заштита тајних података биће регулисана посебним уговором.</p>
+							</content>
+						</hcontainer>
+					</paragraph>
+				</article>
+				<article wId="podod18-clan9">
+					<num>9.</num>
+					<paragraph wId="podod18-clan9-stav1">
+						<intro>
+							<p>Трошкови</p>
+						</intro>
+						<hcontainer name="subpoint" wId="podod18-clan9-stav1-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> Страна која је домаћин састанка Заједничке комисије, сноси трошкове реализације састанка, као и трошкове угоститељских услуга (смештај и исхрана). Делегација сваке од Страна сносиће сопствене путне трошкове који настану у вези са њиховим присуствовањем тим састанцима.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod18-clan9-stav1-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Остали трошкови до којих дође током реализације овог МоР биће предмет посебног финансијског аранжмана који ће Стране међусобно закључити.</p>
+							</content>
+						</hcontainer>
+					</paragraph>
+				</article>
+				<article wId="podod18-clan10">
+					<num>10.</num>
+					<paragraph wId="podod18-clan10-stav1">
+						<content>
+							<p>Заштита права интелектуалне својине</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod18-clan10-stav2">
+						<content>
+							<p>Ради реализације овог МоР, Стране могу закључити посебан уговор о заштити права интелектуалне својине.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod18-clan11">
+					<num>11.</num>
+					<paragraph wId="podod18-clan11-stav1">
+						<intro>
+							<p>Опште одредбе</p>
+						</intro>
+						<hcontainer name="subpoint" wId="podod18-clan11-stav1-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> Током активности које се, у складу са овим МоР, реализују на територији државе Стране примаоца, особље Стране пошиљаоца је обавезно да поштује законе, прописе и процедуре Стране примаоца.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod18-clan11-stav1-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Особље Стране пошиљаоца дисциплински је одговорно свом команданту, односно вишем државном службенику или војном представнику на територији државе Стране примаоца.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod18-clan11-stav1-podtac3">
+							<num>(3)</num>
+							<content>
+								<p> За свако почињено кривично дело на територији државе Стране примаоца, особље Стране пошиљаоца, биће под кривичном јурисдикцијом Стране примаоца.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod18-clan11-stav1-podtac4">
+							<num>(4)</num>
+							<content>
+								<p> Свака од Страна одриче се потраживања накнаде штете у случају смрти, повреде или штете, које могу задесити особље или имовину те Стране, а које проистичу из чињења или нечињења проузрокованих од стране особља друге Стране у току реализације овог МоР.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod18-clan11-stav1-podtac5">
+							<num>(5)</num>
+							<content>
+								<p> Изузетно од одредбе става (4) овог члана, захтеви за накнаду штете могу се потраживати у случају ако се то чињење или нечињење изврши намерно или услед грубе непажње. У том случају, захтеви за накнаду штете решаваће се директним преговорима између Страна, без предавања трећој страни на решавање.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod18-clan11-stav1-podtac6">
+							<num>(6)</num>
+							<content>
+								<p> У случају смрти, повреде или штете које трећој страни нанесе особље Страна у току вршења активности у складу са овим МоР, Стране ће се договорити у вези са плаћањем накнаде. Уколико се договор не постигне, случај ће бити предат надлежним судовима државе у којој се догодио инцидент који је проузроковао штету.</p>
+							</content>
+						</hcontainer>
+					</paragraph>
+				</article>
+				<article wId="podod18-clan12">
+					<num>12.</num>
+					<paragraph wId="podod18-clan12-stav1">
+						<content>
+							<p>Медицинска заштита</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod18-clan12-stav2">
+						<content>
+							<p>Страна прималац пружиће, у случају потребе, без накнаде, хитну медицинску и стоматолошку заштиту особљу Стране пошиљаоца док борави на територији државе Стране примаоца у циљу реализације овог МоР.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod18-clan13">
+					<num>13.</num>
+					<paragraph wId="podod18-clan13-stav1">
+						<intro>
+							<p>Решавање спорова</p>
+						</intro>
+						<hcontainer name="subpoint" wId="podod18-clan13-stav1-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> У случају било каквог спора у вези са тумачењем и спровођењем овог МоР, представници Страна ће, у оквиру Заједничке комисије, преговарати у циљу решавања неспоразума на пријатељски начин.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod18-clan13-stav1-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> У случају да се спор не реши на овом нивоу, оба копредседавајућа Заједничке комисије ће предмет уступити Странама на решавање, званичним путем, уколико то буде потребно.</p>
+							</content>
+						</hcontainer>
+					</paragraph>
+				</article>
+				<article wId="podod18-clan14">
+					<num>14.</num>
+					<paragraph wId="podod18-clan14-stav1">
+						<content>
+							<p>Измене и допуне</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod18-clan14-stav2">
+						<content>
+							<p>Стране могу да измене и допуне МоР у било које време, заједничком писаном сагласношћу. Усаглашене измене и допуне ступиће на снагу, у складу са <ref wId="ref6" href="akn/rs/act/2012/6-6/srp@/!main~art_16" >чланом 16. овог</ref> МоР.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod18-clan15">
+					<num>15.</num>
+					<paragraph wId="podod18-clan15-stav1">
+						<intro>
+							<p>Отказивање Меморандума</p>
+						</intro>
+						<hcontainer name="subpoint" wId="podod18-clan15-stav1-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> Свака од Страна може да откаже МоР писаним обавештењем другој Страни. МоР ће престати да важи шест месеци након пријема таквог писаног обавештења.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod18-clan15-stav1-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> У случају престанка важења МоР, све активности започете у периоду његовог важења биће реализоване под истим условима под којима су и започете.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod18-clan15-stav1-podtac3">
+							<num>(3)</num>
+							<content>
+								<p> У случају престанка важења МоР, уговори из <ref wId="ref7" href="akn/rs/act/2012/6-6/srp@/!main~art_4" >члана 4. </ref>став (2) МоР, остају и даље на снази, осим ако тим уговорима није другачије предвиђено.</p>
+							</content>
+						</hcontainer>
+					</paragraph>
+				</article>
+				<article wId="podod18-clan16">
+					<num>16.</num>
+					<paragraph wId="podod18-clan16-stav1">
+						<intro>
+							<p>Ступање на снагу и период важења</p>
+						</intro>
+						<hcontainer name="subpoint" wId="podod18-clan16-stav1-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> Овај МоР ступа на снагу даном пријема последњег обавештења којим се Стране међусобно обавештавају да су, у складу са националним законодавством, спровеле поступак који је неопходан за ступање на снагу МоР.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod18-clan16-stav1-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Овај МоР остаје на снази 5 (пет) година и може бити аутоматски продужен на период од наредних 5 (пет) година, осим ако било која од Страна, писаним путем, не обавести другу Страну о својој намери да откаже МоР.</p>
+							</content>
+						</hcontainer>
+					</paragraph>
+					<paragraph wId="podod18-clan16-stav2">
+						<content>
+							<p>Сачињено у Џакарти, 15. септембра 2011. године, у два истоветна примерка на српском, индонежанском и енглеском језику. У случају разлика у тумачењу МоР, меродаван је текст на енглеском језику.</p>
+						</content>
+					</paragraph>
+					<paragraph class="special" wId="podod18-clan16-stav3">
+						<content>
+							<table>
+								
+
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>ЗА ВЛАДУ</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>ЗА ВЛАДУ</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>РЕПУБЛИКЕ СРБИЈЕ</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p> РЕПУБЛИКЕ ИНДОНЕЗИЈЕ</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>министар одбране </p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>министар одбране</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>Драган Шутановац, с.р. </p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>Пурномо Јусгианторо, с.р.</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+
+							</table>
+							
+
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod18-clan3">
+					<num>3.</num>
+					<paragraph wId="podod18-clan3-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије – Међународни уговори”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod18-clan3-stav2">
+						<content>
+							<p>На основу члана 11<ref wId="ref8" href="akn/rs/act/2012/6-6/srp@/!main~art_112__para_1__point_2" >2</ref>. став 1. тачка 2. Устава Републике Србије, доносим</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod18-clan3-stav3">
+						<content>
+							<p>УКАЗ</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod18-clan3-stav4">
+						<content>
+							<p>о проглашењу Закона о потврђивању Меморандума о разумевању између Владе Републике Србије и Владе Републике Индонезије о сарадњи у области одбране</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod18-clan3-stav5">
+						<content>
+							<p>Проглашава се Закон о потврђивању Меморандума о разумевању између Владе Републике Србије и Владе Републике Индонезије о сарадњи у области одбране, који је донела Народна скупштина Републике Србије на Деветој седници Другог редовног заседања у 2012. години, 24. децембра 2012. године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod18-clan3-stav6">
+						<content>
+							<p>ПР број 114</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod18-clan3-stav7">
+						<content>
+							<p>У Београду, 24. децембра 2012. године</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod18-clan3-stav8">
+						<content>
+							<p>Председник Републике,</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod18-clan3-stav9">
+						<content>
+							<p>Томислав Николић, с.р.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod18-clan3-stav10">
+						<content>
+							<p>ЗАКОН</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod18-clan3-stav11">
+						<content>
+							<p>о потврђивању Меморандума о разумевању између Владе Републике Србије и Владе Републике Индонезије о сарадњи у области одбране</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod18-clan3-stav12">
+						<content>
+							<p>"Службени гласник РС - Међународни  уговори", број 6 од 24.  децембра 2012.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod18-clan1">
+					<num>1.</num>
+					<paragraph wId="podod18-clan1-stav1">
+						<content>
+							<p>Потврђује се Меморандум о разумевању између Владе Републике Србије и Владе Републике Индонезије о сарадњи у области одбране, који је потписан у Џакарти, 15. септембра 2011. године, у оригиналу на српском, индонежанском и енглеском језику.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod18-clan2">
+					<num>2.</num>
+					<paragraph wId="podod18-clan2-stav1">
+						<content>
+							<p>Текст Меморандума у оригиналу на српском језику гласи:</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod18-clan2-stav2">
+						<content>
+							<p>МЕМОРАНДУМ О РАЗУМЕВАЊУ ИЗМЕЂУ ВЛАДЕ РЕПУБЛИКЕ СРБИЈЕ И ВЛАДЕ РЕПУБЛИКЕ ИНДОНЕЗИЈЕ О САРАДЊИ У ОБЛАСТИ ОДБРАНЕ</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod18-clan2-stav3">
+						<content>
+							<p>Влада Републике Србије и Влада Републике Индонезије (у даљем тексту: „Стране”),</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod18-clan2-stav4">
+						<content>
+							<p>узимајући у обзир пријатељске и кооперативне односе који постоје између две државе, њихових влада и народа,</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod18-clan2-stav5">
+						<content>
+							<p>у жељи да сарадњом у области одбране, унапреде и ојачају билатералне односе између две државе,</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod18-clan2-stav6">
+						<content>
+							<p>полазећи од циљева и принципа Повеље Уједињених нација, у жељи да допринесу миру у свету,</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod18-clan2-stav7">
+						<content>
+							<p>понашајући се у духу партнерства и сарадње и са жељом да се развију добри односи у области одбране, ради побољшања узајамног поштовања, поверења и разумевања,</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod18-clan2-stav8">
+						<content>
+							<p>свесне чињенице да ће јачање сарадње у области одбране бити корисно за системе одбране обе државе, а посебно за њихове оружане снаге,</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod18-clan2-stav9">
+						<content>
+							<p>у складу са важећим законима и прописима две државе,</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod18-clan2-stav10">
+						<content>
+							<p>споразумеле су се о следећем:</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod18-clan1">
+					<num>1.</num>
+					<paragraph wId="podod18-clan1-stav1">
+						<content>
+							<p>Дефиниције</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod18-clan1-stav2">
+						<intro>
+							<p>Термини који се користе у овом меморандуму о разумевању (у даљем тексту: „МоР”) имају следеће значење:</p>
+						</intro>
+						<hcontainer name="subpoint" wId="podod18-clan1-stav2-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> „Страна пошиљалац” oзначава државу која шаље особље, средства и опрему на територију државе Стране примаоца;</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod18-clan1-stav2-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> „Страна прималац” означава државу на чијој територији се налазе особље, средства и опрема Стране пошиљаоца;</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod18-clan1-stav2-podtac3">
+							<num>(3)</num>
+							<content>
+								<p> „Особље” означава војна и цивилна лица на служби у институцијама и органима Страна.</p>
+							</content>
+						</hcontainer>
+					</paragraph>
+				</article>
+				<article wId="podod18-clan2">
+					<num>2.</num>
+					<paragraph wId="podod18-clan2-stav1">
+						<intro>
+							<p>Циљ</p>
+						</intro>
+						<hcontainer name="subpoint" wId="podod18-clan2-stav1-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> Циљ овог МоР је успостављање општих принципа и процедура за сарадњу Страна у области одбране.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod18-clan2-stav1-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Сарадња између Страна заснива се на принципима равноправности, реципроцитета и заједничких интереса, као и пуног поштовања суверенитета и територијалног интегритета обе државе.</p>
+							</content>
+						</hcontainer>
+					</paragraph>
+				</article>
+				<article wId="podod18-clan3">
+					<num>3.</num>
+					<paragraph wId="podod18-clan3-stav1">
+						<content>
+							<p>Однос МоР са другим уговорима</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod18-clan3-stav2">
+						<content>
+							<p>Овај МоР неће утицати на права и обавезе Страна које проистичу из међународних уговора које су појединачно или заједно закључиле са другим државама или међународним организацијама.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod18-clan4">
+					<num>4.</num>
+					<paragraph wId="podod18-clan4-stav1">
+						<intro>
+							<p>Надлежни органи</p>
+						</intro>
+						<hcontainer name="subpoint" wId="podod18-clan4-stav1-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> Надлежни органи за спровођење овог МоР су Министарство одбране Републике Србије и Министарство одбране Републике Индонезије.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod18-clan4-stav1-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Ради реализације овог МоР, надлежни органи Страна могу да закључе посебне уговоре.</p>
+							</content>
+						</hcontainer>
+					</paragraph>
+				</article>
+				<article wId="podod18-clan5">
+					<num>5.</num>
+					<paragraph wId="podod18-clan5-stav1">
+						<content>
+							<p>Области сарадње</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod18-clan5-stav2">
+						<intro>
+							<p>Стране могу сарађивати у следећим областима:</p>
+						</intro>
+						<point wId="podod18-clan5-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> одбрамбене и стратегијске политике;</p>
+							</content>
+						</point>
+						<point wId="podod18-clan5-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> логистичке подршке и одбрамбене индустрије;</p>
+							</content>
+						</point>
+						<point wId="podod18-clan5-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> школовања и обуке, и</p>
+							</content>
+						</point>
+						<point wId="podod18-clan5-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> другим областима од заједничког интереса, о којима се Стране или њихови надлежни органи договоре.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="podod18-clan6">
+					<num>6.</num>
+					<paragraph wId="podod18-clan6-stav1">
+						<content>
+							<p>Облици сарадње</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod18-clan6-stav2">
+						<intro>
+							<p>Сарадња између Страна може се остваривати путем:</p>
+						</intro>
+						<point wId="podod18-clan6-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> званичних посета;</p>
+							</content>
+						</point>
+						<point wId="podod18-clan6-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> консултација у области одбране и стратегије;</p>
+							</content>
+						</point>
+						<point wId="podod18-clan6-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> размене обавештајних података;</p>
+							</content>
+						</point>
+						<point wId="podod18-clan6-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> размене искустава и консултација;</p>
+							</content>
+						</point>
+						<point wId="podod18-clan6-stav2-tac5">
+							<num>5)</num>
+							<content>
+								<p> програма обуке и школовања;</p>
+							</content>
+						</point>
+						<point wId="podod18-clan6-stav2-tac6">
+							<num>6)</num>
+							<content>
+								<p> учешћа на конференцијама, симпозијумима и семинарима;</p>
+							</content>
+						</point>
+						<point wId="podod18-clan6-stav2-tac7">
+							<num>7)</num>
+							<content>
+								<p> куповине одбрамбених производа, трансфера технологије, техничке помоћи у оквиру сарадње у области одбрамбене индустрије, и</p>
+							</content>
+						</point>
+						<point wId="podod18-clan6-stav2-tac8">
+							<num>8)</num>
+							<content>
+								<p> на друге начине о којима се Стране или њихови надлежни органи договоре.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="podod18-clan7">
+					<num>7.</num>
+					<paragraph wId="podod18-clan7-stav1">
+						<intro>
+							<p>Заједничка комисија</p>
+						</intro>
+						<hcontainer name="subpoint" wId="podod18-clan7-stav1-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> Заједничка комисија ће бити формирана у циљу делотворног остваривања циљева овог МоР.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod18-clan7-stav1-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Састанцима ће копредседавати високи званичници из области одбране Страна.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod18-clan7-stav1-podtac3">
+							<num>(3)</num>
+							<content>
+								<p> Заједничка комисија ће:</p>
+							</content>
+						</hcontainer>
+					</paragraph>
+				</article>
+			</subsection>
+			<subsection wId="podod19">
+				<num>а</num>
+				<heading> дефинисати заједничке циљеве и питања од обостраног интереса;</heading>
+			</subsection>
+			<subsection wId="podod20">
+				<num>б</num>
+				<heading> препоручивати активности и програме сарадње у оквиру МоР;</heading>
+			</subsection>
+			<subsection wId="podod21">
+				<num>в</num>
+				<heading> координирати, пратити и контролисати реализацију тих активности и програма сарадње;</heading>
+			</subsection>
+			<subsection wId="podod22">
+				<num>г</num>
+				<heading> вршити преглед и давати оцену о спровођењу МоР;</heading>
+			</subsection>
+			<subsection wId="podod23">
+				<num>д</num>
+				<heading> подносити извештаје министрима одбране обе Стране;</heading>
+			</subsection>
+			<subsection wId="podod24">
+				<num>ђ</num>
+				<heading> решавати неспоразуме и неслагања у погледу спровођења МоР.</heading>
+				<hcontainer name="subpoint" wId="podod24-clan7-podtac4">
+					<num>(4)</num>
+					<content>
+						<p> Стране ће се заједнички договорити о члановима који чине састав Заједничке комисије.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="podod24-clan7-podtac5">
+					<num>(5)</num>
+					<content>
+						<p> Заједничка комисија састајаће се једном у две године или у случају потребе, а место и датум одржавања састанка биће заједнички договорени.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="podod24-clan7-podtac6">
+					<num>(6)</num>
+					<content>
+						<p> Када оцени да је то неопходно за спровођење активности, програма или других конкретних задатака у оквиру сарадње, Заједничка комисија може успоставити поткомисије. Поткомисије ће за свој рад одговарати Заједничкој комисији.</p>
+					</content>
+				</hcontainer>
+				<article wId="podod24-clan8">
+					<num>8.</num>
+					<paragraph wId="podod24-clan8-stav1">
+						<intro>
+							<p>Размена података</p>
+						</intro>
+						<hcontainer name="subpoint" wId="podod24-clan8-stav1-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> Током реализације МоР, Стране ће размењивати искључиво податке за јавну употребу.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod24-clan8-stav1-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Размена и заштита тајних података биће регулисана посебним уговором.</p>
+							</content>
+						</hcontainer>
+					</paragraph>
+				</article>
+				<article wId="podod24-clan9">
+					<num>9.</num>
+					<paragraph wId="podod24-clan9-stav1">
+						<intro>
+							<p>Трошкови</p>
+						</intro>
+						<hcontainer name="subpoint" wId="podod24-clan9-stav1-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> Страна која је домаћин састанка Заједничке комисије, сноси трошкове реализације састанка, као и трошкове угоститељских услуга (смештај и исхрана). Делегација сваке од Страна сносиће сопствене путне трошкове који настану у вези са њиховим присуствовањем тим састанцима.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod24-clan9-stav1-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Остали трошкови до којих дође током реализације овог МоР биће предмет посебног финансијског аранжмана који ће Стране међусобно закључити.</p>
+							</content>
+						</hcontainer>
+					</paragraph>
+				</article>
+				<article wId="podod24-clan10">
+					<num>10.</num>
+					<paragraph wId="podod24-clan10-stav1">
+						<content>
+							<p>Заштита права интелектуалне својине</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod24-clan10-stav2">
+						<content>
+							<p>Ради реализације овог МоР, Стране могу закључити посебан уговор о заштити права интелектуалне својине.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod24-clan11">
+					<num>11.</num>
+					<paragraph wId="podod24-clan11-stav1">
+						<intro>
+							<p>Опште одредбе</p>
+						</intro>
+						<hcontainer name="subpoint" wId="podod24-clan11-stav1-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> Током активности које се, у складу са овим МоР, реализују на територији државе Стране примаоца, особље Стране пошиљаоца је обавезно да поштује законе, прописе и процедуре Стране примаоца.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod24-clan11-stav1-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Особље Стране пошиљаоца дисциплински је одговорно свом команданту, односно вишем државном службенику или војном представнику на територији државе Стране примаоца.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod24-clan11-stav1-podtac3">
+							<num>(3)</num>
+							<content>
+								<p> За свако почињено кривично дело на територији државе Стране примаоца, особље Стране пошиљаоца, биће под кривичном јурисдикцијом Стране примаоца.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod24-clan11-stav1-podtac4">
+							<num>(4)</num>
+							<content>
+								<p> Свака од Страна одриче се потраживања накнаде штете у случају смрти, повреде или штете, које могу задесити особље или имовину те Стране, а које проистичу из чињења или нечињења проузрокованих од стране особља друге Стране у току реализације овог МоР.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod24-clan11-stav1-podtac5">
+							<num>(5)</num>
+							<content>
+								<p> Изузетно од одредбе става (4) овог члана, захтеви за накнаду штете могу се потраживати у случају ако се то чињење или нечињење изврши намерно или услед грубе непажње. У том случају, захтеви за накнаду штете решаваће се директним преговорима између Страна, без предавања трећој страни на решавање.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod24-clan11-stav1-podtac6">
+							<num>(6)</num>
+							<content>
+								<p> У случају смрти, повреде или штете које трећој страни нанесе особље Страна у току вршења активности у складу са овим МоР, Стране ће се договорити у вези са плаћањем накнаде. Уколико се договор не постигне, случај ће бити предат надлежним судовима државе у којој се догодио инцидент који је проузроковао штету.</p>
+							</content>
+						</hcontainer>
+					</paragraph>
+				</article>
+				<article wId="podod24-clan12">
+					<num>12.</num>
+					<paragraph wId="podod24-clan12-stav1">
+						<content>
+							<p>Медицинска заштита</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod24-clan12-stav2">
+						<content>
+							<p>Страна прималац пружиће, у случају потребе, без накнаде, хитну медицинску и стоматолошку заштиту особљу Стране пошиљаоца док борави на територији државе Стране примаоца у циљу реализације овог МоР.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod24-clan13">
+					<num>13.</num>
+					<paragraph wId="podod24-clan13-stav1">
+						<intro>
+							<p>Решавање спорова</p>
+						</intro>
+						<hcontainer name="subpoint" wId="podod24-clan13-stav1-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> У случају било каквог спора у вези са тумачењем и спровођењем овог МоР, представници Страна ће, у оквиру Заједничке комисије, преговарати у циљу решавања неспоразума на пријатељски начин.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod24-clan13-stav1-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> У случају да се спор не реши на овом нивоу, оба копредседавајућа Заједничке комисије ће предмет уступити Странама на решавање, званичним путем, уколико то буде потребно.</p>
+							</content>
+						</hcontainer>
+					</paragraph>
+				</article>
+				<article wId="podod24-clan14">
+					<num>14.</num>
+					<paragraph wId="podod24-clan14-stav1">
+						<content>
+							<p>Измене и допуне</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod24-clan14-stav2">
+						<content>
+							<p>Стране могу да измене и допуне МоР у било које време, заједничком писаном сагласношћу. Усаглашене измене и допуне ступиће на снагу, у складу са <ref wId="ref9" href="akn/rs/act/2012/6-6/srp@/!main~art_16" >чланом 16. овог</ref> МоР.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod24-clan15">
+					<num>15.</num>
+					<paragraph wId="podod24-clan15-stav1">
+						<intro>
+							<p>Отказивање Меморандума</p>
+						</intro>
+						<hcontainer name="subpoint" wId="podod24-clan15-stav1-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> Свака од Страна може да откаже МоР писаним обавештењем другој Страни. МоР ће престати да важи шест месеци након пријема таквог писаног обавештења.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod24-clan15-stav1-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> У случају престанка важења МоР, све активности започете у периоду његовог важења биће реализоване под истим условима под којима су и започете.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod24-clan15-stav1-podtac3">
+							<num>(3)</num>
+							<content>
+								<p> У случају престанка важења МоР, уговори из <ref wId="ref10" href="akn/rs/act/2012/6-6/srp@/!main~art_4" >члана 4. </ref>став (2) МоР, остају и даље на снази, осим ако тим уговорима није другачије предвиђено.</p>
+							</content>
+						</hcontainer>
+					</paragraph>
+				</article>
+				<article wId="podod24-clan16">
+					<num>16.</num>
+					<paragraph wId="podod24-clan16-stav1">
+						<intro>
+							<p>Ступање на снагу и период важења</p>
+						</intro>
+						<hcontainer name="subpoint" wId="podod24-clan16-stav1-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> Овај МоР ступа на снагу даном пријема последњег обавештења којим се Стране међусобно обавештавају да су, у складу са националним законодавством, спровеле поступак који је неопходан за ступање на снагу МоР.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="podod24-clan16-stav1-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Овај МоР остаје на снази 5 (пет) година и може бити аутоматски продужен на период од наредних 5 (пет) година, осим ако било која од Страна, писаним путем, не обавести другу Страну о својој намери да откаже МоР.</p>
+							</content>
+						</hcontainer>
+					</paragraph>
+					<paragraph wId="podod24-clan16-stav2">
+						<content>
+							<p>Сачињено у Џакарти, 15. септембра 2011. године, у два истоветна примерка на српском, индонежанском и енглеском језику. У случају разлика у тумачењу МоР, меродаван је текст на енглеском језику.</p>
+						</content>
+					</paragraph>
+					<paragraph class="special" wId="podod24-clan16-stav3">
+						<content>
+							<table>
+								
+
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>ЗА ВЛАДУ</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>ЗА ВЛАДУ</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>РЕПУБЛИКЕ СРБИЈЕ</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p> РЕПУБЛИКЕ ИНДОНЕЗИЈЕ</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>министар одбране </p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>министар одбране</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>Драган Шутановац, с.р. </p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>Пурномо Јусгианторо, с.р.</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+
+							</table>
+							
+
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod24-clan3">
+					<num>3.</num>
+					<paragraph wId="podod24-clan3-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије – Међународни уговори”.</p>
+						</content>
+					</paragraph>
+				</article>
+			</subsection>
+		</body>
+	</act>
+</akomaNtoso>

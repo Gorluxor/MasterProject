@@ -1,0 +1,934 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о меници">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/1946/104-1362/main"/>
+					<FRBRuri value="/rs/act/1946/104-1362"/>
+					<FRBRdate date="1946-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/1996/46-18/srp@/main"/>
+					<FRBRuri value="/rs/act/1996/46-18/srp@"/>
+					<FRBRdate date="1996-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/1996/46-18/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/1996/46-18/srp@.akn"/>
+					<FRBRdate date="1996-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="1946-12-24" name="службени лист фнрј" number="104" showAs="Службени лист ФНРЈ"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="V МОНЕТАРНИ СИСТЕМ, ФИНАНСИЈСКЕ ОРГАНИЗАЦИЈЕ И ФИНАНСИЈСКО ПОСЛОВАЊЕ" value="v монетарни систем, финансијске организације и финансијско пословање" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="7. Хартије од вредности" value="7. хартије од вредности" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="1946-01-01" refersTo="104/1946-1362" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="1965-01-01" refersTo="16/1965-746" source="#somebody" type="amendment" wId="e2"/>
+				<eventRef date="1970-01-01" refersTo="54/1970-1298" source="#somebody" type="amendment" wId="e3"/>
+				<eventRef date="1989-01-01" refersTo="57/1989-1439" source="#somebody" type="amendment" wId="e4"/>
+				<eventRef date="1996-01-01" refersTo="46/1996-18" source="#somebody" type="amendment" wId="e5"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="#TODO" date="1946-12-12" wId="usvajanje"/>
+				<step by="#TODO" date="1946-12-24" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="1946-12-24" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу даном објављивања у „Службеном листу ФНРЈ”, односно 24. децембра 1946. године (види члан 115. Закона).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О меници „Службени лист ФНРЈ”, број 104 од 24. децембра 1946, „Службени лист СФРЈ”, бр. 16 од 6. априла 1965, 54 од 3. децембра 1970, 57 од 29. септембра 1989, „Службени лист СРЈ”, број 46 од 4. октобра 1996.</p>
+			</longTitle>
+		</preface>
+		<body>
+			<part wId="deo1">
+				<num>ПРВИ ДЕО</num>
+				<heading>Трасирана меница</heading>
+				<chapter wId="deo1-gla1">
+					<num>I</num>
+					<heading>Издање и облик трасиране менице</heading>
+					<article wId="deo1-gla1-clan1">
+						<num>1.</num>
+						<paragraph wId="deo1-gla1-clan1-stav1">
+							<intro>
+								<p>Трасирана меница садржи:</p>
+							</intro>
+							<point wId="deo1-gla1-clan1-stav1-tac1">
+								<num>1)</num>
+								<content>
+									<p> означење да је меница, написано у самом слогу исправе, на језику на коме је она састављена;</p>
+								</content>
+							</point>
+							<point wId="deo1-gla1-clan1-stav1-tac2">
+								<num>2)</num>
+								<content>
+									<p> безусловни упут да се плати одређена свота новца;</p>
+								</content>
+							</point>
+							<point wId="deo1-gla1-clan1-stav1-tac3">
+								<num>3)</num>
+								<content>
+									<p> име онога који треба да плати (трасат);</p>
+								</content>
+							</point>
+							<point wId="deo1-gla1-clan1-stav1-tac4">
+								<num>4)</num>
+								<content>
+									<p> означење доспелости;</p>
+								</content>
+							</point>
+							<point wId="deo1-gla1-clan1-stav1-tac5">
+								<num>5)</num>
+								<content>
+									<p> место где плаћање треба да се изврши;</p>
+								</content>
+							</point>
+							<point wId="deo1-gla1-clan1-stav1-tac6">
+								<num>6)</num>
+								<content>
+									<p> име онога коме се или по чијој се наредби мора платити (ремитент);</p>
+								</content>
+							</point>
+							<point wId="deo1-gla1-clan1-stav1-tac7">
+								<num>7)</num>
+								<content>
+									<p> означење дана и места издања менице;</p>
+								</content>
+							</point>
+							<point wId="deo1-gla1-clan1-stav1-tac8">
+								<num>8)</num>
+								<content>
+									<p> потпис онога који је издао меницу (трасант).</p>
+								</content>
+							</point>
+						</paragraph>
+					</article>
+					<article wId="deo1-gla1-clan2">
+						<num>2.</num>
+						<paragraph wId="deo1-gla1-clan2-stav1">
+							<content>
+								<p>Исправа у којој не би било ма којег од састојака побројаних у претходном члану не вреди као трасирана меница, осим у случајевима који су одређени у следећим ставовима.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla1-clan2-stav2">
+							<content>
+								<p>Трасирана меница у којој није означена доспелост сматра се као меница по виђењу.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla1-clan2-stav3">
+							<content>
+								<p>Ако није нарочито одређено, важи као место плаћања, а уједно и као место трасатовог пребивања, оно место које је назначено поред трасатовог имена.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla1-clan2-stav4">
+							<content>
+								<p>Трасирана меница на којој није назначено место издања сматра се да је издата у месту које је означено поред трасантовог потписа.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo1-gla1-clan3">
+						<num>3.</num>
+						<paragraph wId="deo1-gla1-clan3-stav1">
+							<content>
+								<p>Трасирана меница може да гласи по наредби самога трасанта.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla1-clan3-stav2">
+							<content>
+								<p>Она се може вући (трасирати) и на трасанта.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla1-clan3-stav3">
+							<content>
+								<p>Она се може издати (трасирати) за рачун трећег лица.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo1-gla1-clan4">
+						<num>4.</num>
+						<paragraph wId="deo1-gla1-clan4-stav1">
+							<content>
+								<p>Трасирана меница може бити платива код којега трећег лица, било у месту у коме трасат пребива, било у којем другом месту (домицилирана трасирана меница).</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo1-gla1-clan5">
+						<num>5.</num>
+						<paragraph wId="deo1-gla1-clan5-stav1">
+							<content>
+								<p>У трасираној меници, плативој по виђењу или на одређено време по виђењу, трасант може одредити да свота у њој означена носи камату. У свакој другој трасираној меници ова одредба о камати сматра се као да није написана.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla1-clan5-stav2">
+							<content>
+								<p>Каматна стопа мора да се назначи у меници; ако се то не учини, одредба о камати сматра се као да није написана.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla1-clan5-stav3">
+							<content>
+								<p>Камата тече од дана издања менице, ако није друкчије означено.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo1-gla1-clan6">
+						<num>6.</num>
+						<paragraph wId="deo1-gla1-clan6-stav1">
+							<content>
+								<p>Ако је менична свота написана словима и бројевима, у случају неслагања вреди свота написана словима.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla1-clan6-stav2">
+							<content>
+								<p>Ако је менична свота написана више пута словима, или више пута бројевима, онда вреди најмања свота.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo1-gla1-clan7">
+						<num>7.</num>
+						<paragraph wId="deo1-gla1-clan7-stav1">
+							<content>
+								<p>Иако се на меници налазе потписи лица која су неспособна да се менично обвежу, или лажни потписи, или потписи измишљених лица, или потписи који из ма којег другог разлога не обавезују лица која су потписала меницу, или у име којих је она потписана, ипак су обавезе осталих потписника пуноважне.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo1-gla1-clan8">
+						<num>8.</num>
+						<paragraph wId="deo1-gla1-clan8-stav1">
+							<content>
+								<p>Ко се на меници потпише као заступник другога, мада за то није био овлашћен, лично је по њој обавезан, а ако је платио, има иста права која би имао тобоже заступани. Исто важи и за заступника који је прекорачио своје овлашћење.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo1-gla1-clan9">
+						<num>9.</num>
+						<paragraph wId="deo1-gla1-clan9-stav1">
+							<content>
+								<p>Трасант одговара да ће меница бити акцептирана и исплаћена.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla1-clan9-stav2">
+							<content>
+								<p>Он се може ослободити одговорности за акцепт, а свака одредба којом би себе ослобађао за исплату сматра се као да није ни написана.</p>
+							</content>
+						</paragraph>
+					</article>
+				</chapter>
+				<chapter wId="deo1-gla2">
+					<num>II</num>
+					<heading>Индосамент</heading>
+					<article wId="deo1-gla2-clan10">
+						<num>10.</num>
+						<paragraph wId="deo1-gla2-clan10-stav1">
+							<content>
+								<p>Свака меница, и онда кад није изричито трасирана по наредби, може се преносити индосаментом.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla2-clan10-stav2">
+							<content>
+								<p>Меница у којој је трасант ставио речи: „Не по наредби” или други израз, који значи то исто, може се пренети само у облику и са дејством обичног уступања (цесије).</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla2-clan10-stav3">
+							<content>
+								<p>Меница се може индосирати и на самог трасата, било да ју је он акцептирао или не, на трасанта или на ма ког другог обвезника. Ова лица могу је и даље индосирати.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo1-gla2-clan11">
+						<num>11.</num>
+						<paragraph wId="deo1-gla2-clan11-stav1">
+							<content>
+								<p>Индосамент мора бити безуслован. Сваки услов који би био стављен сматра се као да није написан.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla2-clan11-stav2">
+							<content>
+								<p>Делимичан индосамент је ништав.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla2-clan11-stav3">
+							<content>
+								<p>Индосамент на доносиоца вреди као бланко индосамент.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo1-gla2-clan12">
+						<num>12.</num>
+						<paragraph wId="deo1-gla2-clan12-stav1">
+							<content>
+								<p>Индосамент се мора написати на меници или на листу који је за њу везан (алонжу) и мора га индосант потписати.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla2-clan12-stav2">
+							<content>
+								<p>Индосамент не мора означавати корисника, а може се састојати и из самог потписа индосанта (бланко индосамент). У овом последњем случају индосамент, да би био пуноважан, мора бити написан на полеђини менице или на алонжу.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo1-gla2-clan13">
+						<num>13.</num>
+						<paragraph wId="deo1-gla2-clan13-stav1">
+							<content>
+								<p>Индосаментом се преносе сва права која проистичку из менице.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla2-clan13-stav2">
+							<intro>
+								<p>Када је индосамент неиспуњен (бланко), онда ималац менице може:</p>
+							</intro>
+							<point wId="deo1-gla2-clan13-stav2-tac1">
+								<num>1)</num>
+								<content>
+									<p> испунити бланко индосамент било својим именом било именом другог лица;</p>
+								</content>
+							</point>
+							<point wId="deo1-gla2-clan13-stav2-tac2">
+								<num>2)</num>
+								<content>
+									<p> даље индосирати меницу бланко или на име друго лица;</p>
+								</content>
+							</point>
+							<point wId="deo1-gla2-clan13-stav2-tac3">
+								<num>3)</num>
+								<content>
+									<p> просто предати меницу трећем лицу, не испуњујући бланко индосамент нити стављајући нов индосамент.</p>
+								</content>
+							</point>
+						</paragraph>
+					</article>
+					<article wId="deo1-gla2-clan14">
+						<num>14.</num>
+						<paragraph wId="deo1-gla2-clan14-stav1">
+							<content>
+								<p>Индосант одговара да ће меница бити акцептирана и исплаћена, осим ако је у индосаменту друкчије одређено.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla2-clan14-stav2">
+							<content>
+								<p>Он може забранити да се меница даље индосира; у том случају не одговара лицима на која буде меница доцније индосирана.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo1-gla2-clan15">
+						<num>15.</num>
+						<paragraph wId="deo1-gla2-clan15-stav1">
+							<content>
+								<p>Онај ко држи меницу сматра се за њеног законитог имаоца ако своје право докаже непрекинутим низом индосамената. То важи и када је последњи индосамент бланко (<ref wId="ref0" href="akn/rs/act/1996/46-18/srp@/!main~art_11__para_3" >члан 11. став 3. овог</ref> закона). У погледу овога доказивања, пребрисани индосаменти сматрају се да не постоје. Кад иза бланко индосамента долази други индосамент, сматра се да је потписник тог другог индосамента стекао меницу бланко индосаментом.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla2-clan15-stav2">
+							<content>
+								<p>Ако је неко, било каквим догађајем, лишен менице, онај који је држи и који је своје право доказао онако како је прописано у предњем ставу, није дужан да меницу преда, осим ако ју је стекао зломислено или је при стицању поступио с великом немарношћу.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo1-gla2-clan16">
+						<num>16.</num>
+						<paragraph wId="deo1-gla2-clan16-stav1">
+							<content>
+								<p>Лица против којих је постављен захтев да испуне своје обавезе из менице не могу према њеном имаоцу истицати приговоре који имају основа у њиховим личним односима са трасантом или са којим ранијим имаоцем менице, осима ако је садањи ималац менице, приликом њеног стицање, свесно поступио на штету дужника.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla2-clan16-stav2">
+							<content>
+								<p>Ако је меница, која је у време издања била непотпуна, накнадно испуњена противно постојећем споразуму, повреда овог споразума не може се приговорити имаоцу менице, осим ако ју је стекао зломислено или ако је при стицању менице поступио с великом немарношћу.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo1-gla2-clan17">
+						<num>17.</num>
+						<paragraph wId="deo1-gla2-clan17-stav1">
+							<content>
+								<p>Канд индосамент садржи напомену „вредност за наплату”, „за инкасо”, „као пуномоћје” или ма какву другу напомену која значи налог, ималац менице може вршити сва права која из ње проистичу, али меницу може индосирати само као пренос пуномоћја.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla2-clan17-stav2">
+							<content>
+								<p>Менични обвезници у таквом случају могу истаћи према имаоцу менице само оне приговоре који се могу истаћи према индосанту.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla2-clan17-stav3">
+							<content>
+								<p>Налог садржан у индосаменту из <ref wId="ref1" href="akn/rs/act/1996/46-18/srp@/!main~art_17__para_1" >става 1. овог</ref> члана (индосамент-пуномоћје) не престаје услед смрти налогодавца нити услед наступања његове пословне неспособности.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo1-gla2-clan18">
+						<num>18.</num>
+						<paragraph wId="deo1-gla2-clan18-stav1">
+							<content>
+								<p>Кад индосамент садржи напомену „вредност за обезбеђење”, „вредност за залогу” или ма какву другу напомену под којом се разуме залагање, ималац менице, може вршити сва права која из ње проистичу, али меницу може индосирати само као пренос пуномоћја.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla2-clan18-stav2">
+							<content>
+								<p>Менични обвезници у таквом случају не могу истаћи против имаоца менице приговоре који имају основа у њиховим личним односима са индосантом, осим ако је ималац, стичући меницу, свесно поступио на штету дужника.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo1-gla2-clan19">
+						<num>19.</num>
+						<paragraph wId="deo1-gla2-clan19-stav1">
+							<content>
+								<p>Индосирање после доспелости производи исто дејство као и индосирање пре доспелости. Али индосирање после протеста због неисплате или после протека рока одређеног за подизање таквог протеста производи само дејство обичног уступљења.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla2-clan19-stav2">
+							<content>
+								<p>Док се не докаже противно, недатирани индосамент сматра се да је учињен пре протека рока одређеног за подизање протеста.</p>
+							</content>
+						</paragraph>
+					</article>
+				</chapter>
+				<chapter wId="deo1-gla3">
+					<num>III</num>
+					<heading>Акцептирање</heading>
+					<article wId="deo1-gla3-clan20">
+						<num>20.</num>
+						<paragraph wId="deo1-gla3-clan20-stav1">
+							<content>
+								<p>Ималац трасиране менице, као и онај који је само држи, може је, све до доспелости, поднети на акцептирање трасату у месту његовог пребивања.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo1-gla3-clan21">
+						<num>21.</num>
+						<paragraph wId="deo1-gla3-clan21-stav1">
+							<content>
+								<p>У свакој трасираној меници трасант може да нареди да се она поднесе на акцептирање, назначујући или не назначујући за то рок.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla3-clan21-stav2">
+							<content>
+								<p>Трасант може и забранити да се меница поднесе на акцептирање, осим када је у питању трасирана меница платива код трећег лица или у месту различитом од места у коме трасант пребива, или кад је у питању трасирана меница на одређено време по виђењу.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla3-clan21-stav3">
+							<content>
+								<p>Трасант може исто тако наредити да се меница не подноси на акцептирање пре одређеног времена.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla3-clan21-stav4">
+							<content>
+								<p>И сваки индосант може наредити да се трасирана меница поднесе на акцептирање, назначујући за то рок или не, осим када је трасант у њој забранио да се она подноси на акцептирање.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo1-gla3-clan22">
+						<num>22.</num>
+						<paragraph wId="deo1-gla3-clan22-stav1">
+							<content>
+								<p>Меница трасирана на одређено време по виђењу мора се поднети на акцептирање у року од једне године од дана издања.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla3-clan22-stav2">
+							<content>
+								<p>Трасант може овај рок скратити или одредити дужи.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla3-clan22-stav3">
+							<content>
+								<p>Те рокове индосанти могу скратити.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo1-gla3-clan23">
+						<num>23.</num>
+						<paragraph wId="deo1-gla3-clan23-stav1">
+							<content>
+								<p>Трасант може захтевати да му се меница поднесе још једанпут сутрадан после првог подношења на акцептирање. Заинтересована лица могу се позивати на то да овај захтев није испуњен, само онда када је тај захтев забележен у протесту.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla3-clan23-stav2">
+							<content>
+								<p>Ималац менице није дужан да меницу коју подноси на акцептирање остави код трасата.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo1-gla3-clan24">
+						<num>24.</num>
+						<paragraph wId="deo1-gla3-clan24-stav1">
+							<content>
+								<p>Акцепт се пише на самој меници. Изражава се речју „признајем”, „примљена”, „прихваћена”, или којом другом речју која то исто значи, акцепт потписује трасат. Као акцепт вреди и сам трасатов потпис када је стављен на лицу менице.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla3-clan24-stav2">
+							<content>
+								<p>Кад је трасирана меница платива на одређено време по виђењу или кад на основу нарочитог наређења има да се поднесе на акцептирање у одређеном року, онда акцепт мора бити датиран даном којега је дат, осим ако ималац менице захтева да се датира даном којега је меницу поднео на акцептирање. Ако се акцепт не датира, ималац менице, да би одржао своја регресна права против индосаната и трасанта, мора тај пропуст да установи благовремено подигнутим протестом.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo1-gla3-clan25">
+						<num>25.</num>
+						<paragraph wId="deo1-gla3-clan25-stav1">
+							<content>
+								<p>Акцепт мора бити безуслован, али трасат може да га ограничи на један део меничне своте.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla3-clan25-stav2">
+							<content>
+								<p>Свако друго у акцепту садржано одступање од састојака менице, равно је одбијању акцепта. Ипак је акцептант обавезан према садржини свога акцепта.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo1-gla3-clan26">
+						<num>26.</num>
+						<paragraph wId="deo1-gla3-clan26-stav1">
+							<content>
+								<p>Кад је у меници трасант као место плаћања означио неко место различито од онога у коме трасат пребива, не именујући лице код кога треба да се изврши исплата (домицилијат), онда трасат приликом акцептирања може означити то лице. Кад се то не учини, сматра се да се акцептант обавезао да сам плати у месту плаћања.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla3-clan26-stav2">
+							<content>
+								<p>Ако је меница платива у месту трасатовог пребивања, овај може приликом акцептирања означити адресу у том месту, где се исплата има да изврши (платиште).</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo1-gla3-clan27">
+						<num>27.</num>
+						<paragraph wId="deo1-gla3-clan27-stav1">
+							<content>
+								<p>Акцептом се трасат обавезује да меницу плати о доспелости.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla3-clan27-stav2">
+							<content>
+								<p>Ако меница не буде плаћена, њен ималац, па ма то био и сам трасант, има на основу ње право на непосредну тужбу против акцептанта за све што се може захтевати према чл. <ref wId="ref2" href="akn/rs/act/1996/46-18/srp@/!main~art_47" >47</ref>. и <ref wId="ref3" href="akn/rs/act/1996/46-18/srp@/!main~art_48" >48</ref>. овог закона.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo1-gla3-clan28">
+						<num>28.</num>
+						<paragraph wId="deo1-gla3-clan28-stav1">
+							<content>
+								<p>Сматра се да је трасат одбио акцептирање менице ако је написани акцепт пребрисао пре него што је меницу вратио. Док се не докаже противно, сматра се да је акцепт пребрисан пре него што је меница враћена.Али ако је трасат писмено известио имаоца менице или кога потписника да је мницу акцептирао, он је према њима обавезан по садржини датог акцепта.</p>
+							</content>
+						</paragraph>
+					</article>
+				</chapter>
+				<chapter wId="deo1-gla4">
+					<num>IV</num>
+					<heading>Авал</heading>
+					<article wId="deo1-gla4-clan29">
+						<num>29.</num>
+						<paragraph wId="deo1-gla4-clan29-stav1">
+							<content>
+								<p>Исплата менице може се за целу меничну своту или за известан њен део обезбедити авалом (меничним јемством).</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla4-clan29-stav2">
+							<content>
+								<p>Ово обезбеђење може дати треће лице или чак и неко од потписника менице.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo1-gla4-clan30">
+						<num>30.</num>
+						<paragraph wId="deo1-gla4-clan30-stav1">
+							<content>
+								<p>Авал се даје на меници или на алонжу и потписује га валиста.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla4-clan30-stav2">
+							<content>
+								<p>Авал се изражава речима „пер авал”, „као јемац”, „као порук”, или ма којим другим изразом који то исто значи.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla4-clan30-stav3">
+							<content>
+								<p>За давање авала довољан је потпис на лицу менице, осим ако је у питању потпис трасата или трасанта.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla4-clan30-stav4">
+							<content>
+								<p>Из авала треба да се види за кога је дат. Ако се то не види, важи као да је дат за трасанта.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo1-gla4-clan31">
+						<num>31.</num>
+						<paragraph wId="deo1-gla4-clan31-stav1">
+							<content>
+								<p>Авалиста одговара онако како одговара онај за кога јемчи.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla4-clan31-stav2">
+							<content>
+								<p>Његова обавеза вреди и онда ако је обавеза за коју јемчи ништава из ма ког другог разлога осим због формалног недостатка.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla4-clan31-stav3">
+							<content>
+								<p>Кад исплати меницу, авалиста стиче права из менице против онога за кога је јемчио, као и против оних који су овоме по меници одговорни (право на регрес).</p>
+							</content>
+						</paragraph>
+					</article>
+				</chapter>
+				<chapter wId="deo1-gla5">
+					<num>V</num>
+					<heading>Доспелост</heading>
+					<article wId="deo1-gla5-clan32">
+						<num>32.</num>
+						<paragraph wId="deo1-gla5-clan32-stav1">
+							<intro>
+								<p>Меница се може издати:</p>
+							</intro>
+							<alinea wId="deo1-gla5-clan32-stav1-ali1">
+								<content>
+									<p>о виђењу;</p>
+								</content>
+							</alinea>
+							<alinea wId="deo1-gla5-clan32-stav1-ali2">
+								<content>
+									<p>а одређено време по виђењу;</p>
+								</content>
+							</alinea>
+							<alinea wId="deo1-gla5-clan32-stav1-ali3">
+								<content>
+									<p>а одређено време од дана издања;</p>
+								</content>
+							</alinea>
+							<alinea wId="deo1-gla5-clan32-stav1-ali4">
+								<content>
+									<p>а одређени дан.</p>
+								</content>
+							</alinea>
+						</paragraph>
+						<paragraph wId="deo1-gla5-clan32-stav2">
+							<content>
+								<p>Ништаве су менице у којима је доспелост друкчије назначена, као и менице са више доспелости.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo1-gla5-clan33">
+						<num>33.</num>
+						<paragraph wId="deo1-gla5-clan33-stav1">
+							<content>
+								<p>Меница по виђењу платива је чим се поднесе. Она се мора поднети на исплату у року од једне године од дана издања. Трасат може овај рок скратити или дужи одредити. Ове рокове индосанти могу скратити.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla5-clan33-stav2">
+							<content>
+								<p>Трасант може наредити да меница платива по виђењу не сме бити поднета на исплату пре назначеног времена. У таквом случају рок за подношење почиње тећи од тога времена.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo1-gla5-clan34">
+						<num>34.</num>
+						<paragraph wId="deo1-gla5-clan34-stav1">
+							<content>
+								<p>Доспелост менице на одређено време по виђењу израчунава се било према дану акцепта било према дану протеста.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla5-clan34-stav2">
+							<content>
+								<p>Кад протест није подигнут, онда се у погледу акцептанта сматра да је недатирани акцепт стављен последњег дана рока предвиђеног за подношење на акцептирање.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo1-gla5-clan35">
+						<num>35.</num>
+						<paragraph wId="deo1-gla5-clan35-stav1">
+							<content>
+								<p>Меница која гласи на један или више месеци од дана издавања или од виђења доспева одговарајућег дана у оном месецу када има да се изврши исплата. Ако у томе месецу нема одговарајућег дана, онда меница доспева последњег дана истог месеца.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla5-clan35-stav2">
+							<content>
+								<p>Ако меница гласи на један или више целих месеци и половину месеца од дана издања или од виђења, онда се најпре рачунају цели месеци.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla5-clan35-stav3">
+							<content>
+								<p>Ако је доспелост одређена за почетак, за половину (средином јануара, средином фебруара итд.) или за крај месеца, онда се под тим изразима подразумевају први, петнаести или последњи дан месеца.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla5-clan35-stav4">
+							<content>
+								<p>Израз „осам дана” или „петнаест дана” не значи једну или две седмице, него пуних осам или петнаест дана.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla5-clan35-stav5">
+							<content>
+								<p>Израз „по месеца” значи рок од петнаест дана.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo1-gla5-clan36">
+						<num>36.</num>
+						<paragraph wId="deo1-gla5-clan36-stav1">
+							<content>
+								<p>Кад је меница платива на одређени дан у таквом месту у коме не важи исти календар који важи у месту издања, онда се сматра да је дан доспелости одређен по календару који важи у месту плаћања.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla5-clan36-stav2">
+							<content>
+								<p>Кад се меница, платива на одређено време од дана издања, трасира из једног места на неко друго место и кад у тим местима не важе исти календари, онда се дан издања доводи на дан који му одговара у календару важећем у месту плаћања, па се према томе одређује доспелост.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla5-clan36-stav3">
+							<content>
+								<p>Рокови за подношење меница рачунају се према прописима предњег става.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla5-clan36-stav4">
+							<content>
+								<p>Ови се прописи не примењују ако нека посебна одредба у меници или битни састојци менице показују да се намеравало што друго.</p>
+							</content>
+						</paragraph>
+					</article>
+				</chapter>
+				<chapter wId="deo1-gla6">
+					<num>VI</num>
+					<heading>Плаћање</heading>
+					<article wId="deo1-gla6-clan37">
+						<num>37.</num>
+						<paragraph wId="deo1-gla6-clan37-stav1">
+							<content>
+								<p>Меница платива на одређени дан или на одређено време после дана издања или виђења, мора се поднети на исплату било на сам дан плаћања, било једног од два радна дана који долазе одмах за њим.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla6-clan37-stav2">
+							<content>
+								<p>Кад се меница поднесе неком обрачунском заводу, сматра се да је поднета на исплату.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo1-gla6-clan38">
+						<num>38.</num>
+						<paragraph wId="deo1-gla6-clan38-stav1">
+							<content>
+								<p>Приликом плаћања менице, трасат може захтевати да му је ималац преда са потврдом на меници да је исплаћена.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla6-clan38-stav2">
+							<content>
+								<p>Ималац менице не може одбити делимичну исплату.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla6-clan38-stav3">
+							<content>
+								<p>У случају делимичне исплате трасат може захтевати да се ова исплата забележи на меници и да му се уз то изда признаница.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo1-gla6-clan39">
+						<num>39.</num>
+						<paragraph wId="deo1-gla6-clan39-stav1">
+							<content>
+								<p>Ималац менице не може се принудити да прими исплату пре доспелости менице.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla6-clan39-stav2">
+							<content>
+								<p>Трасат који плаћа меницу пре доспелости чини то на своју опасност и штету.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla6-clan39-stav3">
+							<content>
+								<p>Ко плати меницу о доспелости, пуноважно је ослобођен обавезе, осим ако је то учинио из зле намере или велике немарности. Он је дужан да испита правилност низа индосамената, али не и истинитост потписа индосаната.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo1-gla6-clan40">
+						<num>40.</num>
+						<paragraph wId="deo1-gla6-clan40-stav1">
+							<content>
+								<p>Када је меница платива у новцу који није у течају у месту плаћања, менична свота може се платити новцем који је ту у течају, а по вредности који има на дан доспелости. Ако је дужник у задоцњењу, ималац менице може, по свом избору, тражити да се менична свота исплати домаћим новцем по курсу који важи било на дан доспелости било на дан исплате.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla6-clan40-stav2">
+							<content>
+								<p>Вредност страног новца одредиће се по обичајима који важе у месту плаћања, али трасант може одредити да се свота коју треба платити обрачуна по крусу одређеном у меници.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla6-clan40-stav3">
+							<content>
+								<p>Ови прописи не примењују се када је трасант одредио да се исплата изврши баш у новцу означеном у меници (одредба ефективне исплате у страном новцу).</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla6-clan40-stav4">
+							<content>
+								<p>Прописи <ref wId="ref4" href="akn/rs/act/1996/46-18/srp@/!main~art_40__para_2->para_3" >ст. 2. и 3. овог</ref> члана примењују се уколико нису у противности са важећим валутним и девизним прописима.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla6-clan40-stav5">
+							<content>
+								<p>Ако је менична свота означена у новцу који има исти назив, али различиту вредност у земљи у којој је меница издата и у оној где је платива, сматра се да се имао у виду новац места плаћања.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo1-gla6-clan41">
+						<num>41.</num>
+						<paragraph wId="deo1-gla6-clan41-stav1">
+							<content>
+								<p>Ако се меница не поднесе на исплату у року који је означен у <ref wId="ref5" href="akn/rs/act/1996/46-18/srp@/!main~art_37" >члану 37. овог</ref> закона, сваки дужник је овлашћен да меничну своту положи у месту плаћања код* првостепеног редовног** суда, а ако овога нема код надлежног органа управе општинске скупштине*, на трошак, опасност и штету имаоца менице.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla6-clan41-stav2">
+							<content>
+								<p>*<ref wId="ref6" href="akn/rs/act/1965/16/srp@">Службени лист СФРJ, број 16/1965</ref></p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla6-clan41-stav3">
+							<content>
+								<p>**<ref wId="ref7" href="akn/rs/act/1989/57/srp@">Службени лист СРЈ, број 57/1989</ref></p>
+							</content>
+						</paragraph>
+					</article>
+				</chapter>
+				<chapter wId="deo1-gla7">
+					<num>VII</num>
+					<heading>Регрес због неакцептирања и због неислате</heading>
+					<article wId="deo1-gla7-clan42">
+						<num>42.</num>
+						<paragraph wId="deo1-gla7-clan42-stav1">
+							<content>
+								<p>Ималац менице може вршити регрес против индосаната, трасанта и осталих обвезника:</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo1-gla7-clan42-stav2">
+							<intro>
+								<p>о доспелости:</p>
+							</intro>
+							<point wId="deo1-gla7-clan42-stav2-tac1">
+								<num>1.</num>
+								<content>
+									<p> Заједнички прописи</p>
+								</content>
+							</point>
+							<point wId="deo1-gla7-clan42-stav2-tac2">
+								<num>2.</num>
+								<content>
+									<p> Акцептирање интервенцијом</p>
+								</content>
+							</point>
+							<point wId="deo1-gla7-clan42-stav2-tac3">
+								<num>3.</num>
+								<content>
+									<p> Исплата интервенцијом</p>
+								</content>
+							</point>
+							<point wId="deo1-gla7-clan42-stav2-tac1">
+								<num>1.</num>
+								<content>
+									<p> Умножавање</p>
+								</content>
+							</point>
+							<point wId="deo1-gla7-clan42-stav2-tac2">
+								<num>2.</num>
+								<content>
+									<p> Преписи</p>
+								</content>
+							</point>
+							<point wId="deo1-gla7-clan42-stav2-tac1">
+								<num>1.</num>
+								<content>
+									<p> Заједнички прописи</p>
+								</content>
+							</point>
+							<point wId="deo1-gla7-clan42-stav2-tac2">
+								<num>2.</num>
+								<content>
+									<p> Акцептирање интервенцијом</p>
+								</content>
+							</point>
+							<point wId="deo1-gla7-clan42-stav2-tac3">
+								<num>3.</num>
+								<content>
+									<p> Исплата интервенцијом</p>
+								</content>
+							</point>
+							<point wId="deo1-gla7-clan42-stav2-tac1">
+								<num>1.</num>
+								<content>
+									<p> Умножавање</p>
+								</content>
+							</point>
+							<point wId="deo1-gla7-clan42-stav2-tac2">
+								<num>2.</num>
+								<content>
+									<p> Преписи</p>
+								</content>
+							</point>
+							<point wId="deo1-gla7-clan42-stav2-tac1">
+								<num>1.</num>
+								<content>
+									<p> Заједнички прописи</p>
+								</content>
+							</point>
+							<point wId="deo1-gla7-clan42-stav2-tac2">
+								<num>2.</num>
+								<content>
+									<p> Акцептирање интервенцијом</p>
+								</content>
+							</point>
+							<point wId="deo1-gla7-clan42-stav2-tac3">
+								<num>3.</num>
+								<content>
+									<p> Исплата интервенцијом</p>
+								</content>
+							</point>
+							<point wId="deo1-gla7-clan42-stav2-tac1">
+								<num>1.</num>
+								<content>
+									<p> Умножавање</p>
+								</content>
+							</point>
+							<point wId="deo1-gla7-clan42-stav2-tac2">
+								<num>2.</num>
+								<content>
+									<p> Преписи</p>
+								</content>
+							</point>
+							<point wId="deo1-gla7-clan42-stav2-tac1">
+								<num>1.</num>
+								<content>
+									<p> Заједнички прописи</p>
+								</content>
+							</point>
+							<point wId="deo1-gla7-clan42-stav2-tac2">
+								<num>2.</num>
+								<content>
+									<p> Акцептирање интервенцијом</p>
+								</content>
+							</point>
+							<point wId="deo1-gla7-clan42-stav2-tac3">
+								<num>3.</num>
+								<content>
+									<p> Исплата интервенцијом</p>
+								</content>
+							</point>
+							<point wId="deo1-gla7-clan42-stav2-tac1">
+								<num>1.</num>
+								<content>
+									<p> Умножавање</p>
+								</content>
+							</point>
+							<point wId="deo1-gla7-clan42-stav2-tac2">
+								<num>2.</num>
+								<content>
+									<p> Преписи</p>
+								</content>
+							</point>
+						</paragraph>
+					</article>
+				</chapter>
+			</part>
+		</body>
+	</act>
+</akomaNtoso>

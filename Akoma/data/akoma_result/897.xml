@@ -1,0 +1,1843 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о потврђивању Споразума између Савета министара Републике Албаније, Савета министара Босне и Херцеговине, Владе Републике Македоније, Владе Црне Горе, Владе Републике Србије и Владе Републике Словеније о оснивању Балканских војномедицинских снага">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2017/4-43/main"/>
+					<FRBRuri value="/rs/act/2017/4-43"/>
+					<FRBRdate date="2017-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2017/4-43/srp@/main"/>
+					<FRBRuri value="/rs/act/2017/4-43/srp@"/>
+					<FRBRdate date="2017-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2017/4-43/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2017/4-43/srp@.akn"/>
+					<FRBRdate date="2017-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2017-05-30" name="службени гласник рс - међународни уговори" number="4" showAs="Службени гласник РС - Међународни уговори"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="II БЕЗБЕДНОСНА И ОДБРАМБЕНА ПОЛИТИКА" value="ii безбедносна и одбрамбена политика" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="10. Ванредне ситуације, цивилна заштита, елементарне и друге непогоде" value="10. ванредне ситуације, цивилна заштита, елементарне и друге непогоде" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2017-05-29" wId="usvajanje"/>
+				<step by="#TODO" date="2017-06-07" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2017-06-07" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Споразум између Савета министара Републике Албаније, Савета министара Босне и Херцеговине, Владе Македоније, Владе Црне Горе, Владе Републике Србије и Владе Републике Словеније о оснивању Балканских војномедицинских снага ступио је на снагу 4. маја 2018. године (види Обавештење - Службени гласник РС - Међународни уговори, број 5/2018-47).</p>
+				</note>
+				<note wId="not2">
+					<p>Споразум између Савета министара Републике Албаније, Савета министара Босне и Херцеговине, Владе Македоније, Владе Црне Горе, Владе Републике Србије и Владе Републике Словеније о оснивању Балканских војномедицинских снага ступио је на снагу 4. маја 2018. године (види Обавештење - Службени гласник РС - Међународни уговори, број 5/2018-47).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О потврђивању споразума између савета министара републике албаније, савета министара босне и херцеговине, владе републике македоније, владе црне горе, владе републике србије и владе републике словеније о оснивању балканских војномедицинских снага "Службени гласник РС - Међународни уговори", број 4 од 30. маја 2017.</p>
+			</longTitle>
+			<p>Томислав Николић, с.р.</p>
+		</preface>
+		<preamble>
+			<p>На основу члана 112. став 1. тачка 2. Устава Републике Србије, доносим</p>
+			<p>УКАЗ</p>
+			<p>о проглашењу Закона о потврђивању Споразума између Савета министара Републике Албаније, Савета министара Босне и Херцеговине, Владе Републике Македоније, Владе Црне Горе, Владе Републике Србије и Владе Републике Словеније о оснивању Балканских војномедицинских снага</p>
+			<p>Проглашава се Закон о потврђивању Споразума између Савета министара Републике Албаније, Савета министара Босне и Херцеговине, Владе Републике Македоније, Владе Црне Горе, Владе Републике Србије и Владе Републике Словеније о оснивању Балканских војномедицинских снага, који је донела Народна скупштина Републике Србије, на Петој седници Првог редовног заседања у 2017. години, 29. маја 2017. године.</p>
+			<p>ПР број 23</p>
+			<p>У Београду, 29. маја 2017. године</p>
+			<p>Председник Републике,</p>
+		</preamble>
+		<body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Потврђује се Споразум између Савета министара Републике Албаније, Савета министара Босне и Херцеговине, Владе Републике Македоније, Владе Црне Горе, Владе Републике Србије и Владе Републике Словеније о оснивању Балканских војномедицинских снага, који је потписан у Београду, 14. јануара 2016. године, у оригиналу на енглеском језику.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Текст Споразума у оригиналу на енглеском језику и у преводу на српски језик гласи:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>AGREEMENT AMONGTHE COUNCIL OF MINISTERS OF THE REPUBLIC OF ALBANIA,THE COUNCIL OF MINISTERS OF BOSNIA AND HERCEGOVINA,THE GOVERNMENT OF THE REPUBLIC OF MACEDONIA,THE GOVERNMENT OF MONTENEGRO,THE GOVERNMENT OF THE REPUBLIC OF SERBIAAND THE GOVERNMENT OF THE REPUBLIC OF SLOVENIAON THE ESTABLISHMENT OF THE BALKAN MEDICAL TASK FORCE</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav3">
+					<content>
+						<p>The Council of Ministers of the Republic of Albania, the Council of Ministers of Bosnia and Herzegovina, the Government of the Republic of Macedonia, the Government of Montenegro, the Government of the Republic of Serbia and the Government of the Republic of Slovenia hereinafter referred to as “the Parties”;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav4">
+					<content>
+						<p>Identifying medical operational regional capabilities and recognizing the need for enhanced utilization of existing military medical capabilities in the West-Balkan region and noting that being part of a multinational co-operation initiative allows nations to use their medical assets more efficiently, without duplication and the loss of effectiveness,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav5">
+					<content>
+						<p>Referring to the aim of developing a concept that has been approved by the signature of the Balkan Medical Task Force Assessment Group Declaration of Intent dated on .... 2014.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav6">
+					<content>
+						<p>Have agreed on the following:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav7">
+					<content>
+						<p>Article 1Definitions</p>
+					</content>
+				</paragraph>
+			</article>
+			<section wId="od1">
+				<num>1.</num>
+				<heading> Balkan Medical Task Force (BMTF): Multinational Medical Military Unit composed of medical modules formed by contributions of the Parties.</heading>
+				<point wId="od1-clan2-tac2">
+					<num>2.</num>
+					<content>
+						<p> Framework Nation (FN): a Party that provides, on a rotational basis, the core infrastructure, personnel and equipment necessary for ROLE 2 capability, in addition to its obligation as a Party, as defined herein and in the implementing arrangements.</p>
+					</content>
+				</point>
+				<point wId="od1-clan2-tac3">
+					<num>3.</num>
+					<content>
+						<p> Sponsor: any nation, organization or entity, other than BMTF Participants, that provides financial and/or other support to the BMTF as defined in an appropriate arrangement.</p>
+					</content>
+				</point>
+				<point wId="od1-clan2-tac4">
+					<num>4.</num>
+					<content>
+						<p> Host Nation (HN): The Republic of Macedonia hosting the BMTF Standing Organization.</p>
+					</content>
+				</point>
+				<point wId="od1-clan2-tac5">
+					<num>5.</num>
+					<content>
+						<p> BMTF Standing Organization: a permanent peacetime body of the BMTF responsible for organizing and planning the training activities and peacetime and/or contingency operations of the BMTF.</p>
+					</content>
+				</point>
+				<paragraph wId="od1-clan2-stav1">
+					<content>
+						<p>Article 2Purpose of the Agreement</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav2">
+					<content>
+						<p>The purpose of this Agreement is to regulate the procedures and responsibilities among the Parties on the establishment and operation of the BMTF.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od1-clan2-stav3">
+					<content>
+						<p>Article 3Mission of the BMTF</p>
+					</content>
+				</paragraph>
+				<section wId="od1">
+					<num>1.</num>
+					<heading> In order to identify, enhance and facilitate the medical operational capabilities of the West Balkan region the purpose of the BMTF is to provide medical support at the Role 2 level on Crisis Response Operations (CRO) in a sustainable manner and rapidly respond to a broad spectrum of regional disaster relief situations. The goal is to enable the participating nations to provide vital capabilities to international operations, enhance national medical service capacities, and to achieve national, NATO and Partnership for Peace (PfP) force / partnership goals (capability targets).</heading>
+					<point wId="od1-clan2-tac2">
+						<num>2.</num>
+						<content>
+							<p> In order to fulfill the above mentioned goals, the BMTF shall be able to:</p>
+						</content>
+					</point>
+					<paragraph wId="od1-clan2-stav1">
+						<content>
+							<p>a) plan, conduct and participate in multinational training activities aimed at reaching and maintaining appropriate readiness, capabilities and operational effectiveness, as well as contributing to the improvement of interoperability;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od1-clan2-stav2">
+						<content>
+							<p>b) participate in UN mandated missions within the agreed area of responsibility;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od1-clan2-stav3">
+						<content>
+							<p>c) conduct other commonly agreed activities by the Parties.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od1-clan2-stav4">
+						<content>
+							<p>Article 4Activation of the BMTF</p>
+						</content>
+					</paragraph>
+					<section wId="od1">
+						<num>1.</num>
+						<heading> BMTF shall be available for possible activation:</heading>
+						<paragraph wId="od1-clan2-stav1">
+							<content>
+								<p>a) upon the request of one or more Parties or</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan2-stav2">
+							<content>
+								<p>b) upon the request of the respective international organization or</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan2-stav3">
+							<intro>
+								<p>c) upon the request of any other nation.</p>
+							</intro>
+							<point wId="od1-clan2-stav3-tac2">
+								<num>2.</num>
+								<content>
+									<p> Upon prior consent of each Parties’ national authorities the activation of the BMTF shall be subject to SB decision.</p>
+								</content>
+							</point>
+						</paragraph>
+						<paragraph wId="od1-clan2-stav4">
+							<content>
+								<p>Article 5BMTF Structure, command relations and decision making</p>
+							</content>
+						</paragraph>
+						<section wId="od1">
+							<num>1.</num>
+							<heading> BMTF will function in peacetime and in crises, as detailed in this Article.</heading>
+							<point wId="od1-clan2-tac2">
+								<num>2.</num>
+								<content>
+									<p> BMTF shall be a multinational medical unit as a deployable modular military capability built upon the existing national medical capabilities.</p>
+								</content>
+							</point>
+							<point wId="od1-clan2-tac3">
+								<num>3.</num>
+								<content>
+									<p> BMTF Standing Organization (BMTF SO) is a permanent peacetime body of the BMTF responsible for organizing and planning the training activities, as well as peacetime and/or contingency operations of the BMTF. It is also responsible for unit preparation, training and certification.</p>
+								</content>
+							</point>
+							<point wId="od1-clan2-tac4">
+								<num>4.</num>
+								<content>
+									<p> The Steering Board (SB) is the highest decision making body, consisting of authorized political and military representatives from each Party. The SB makes its decisions unanimously.</p>
+								</content>
+							</point>
+							<point wId="od1-clan2-tac5">
+								<num>5.</num>
+								<content>
+									<p> The BMTF detailed structure and command relations shall be settled in the Memorandum of Understanding or other relevant documents to be signed by the appropriate authorities of the Parties.</p>
+								</content>
+							</point>
+							<point wId="od1-clan2-tac6">
+								<num>6.</num>
+								<content>
+									<p> The organizational structure of the activated BMTF becomes effective in crises and shall be settled in the Memorandum of Understanding or other relevant documents to be signed by the appropriate authorities of the Parties.</p>
+								</content>
+							</point>
+							<paragraph wId="od1-clan2-stav1">
+								<content>
+									<p>Article 6Official and Working Languages</p>
+								</content>
+							</paragraph>
+							<paragraph wId="od1-clan2-stav2">
+								<content>
+									<p>The official languages of the BMTF are the national languages of the Parties. English will be the working language and all operational documents are to be issued in this language.</p>
+								</content>
+							</paragraph>
+							<paragraph wId="od1-clan2-stav3">
+								<content>
+									<p>Article 7Financial Aspects</p>
+								</content>
+							</paragraph>
+							<section wId="od1">
+								<num>1.</num>
+								<heading> The costs related to the establishment, administration and operation of the BMTF shall be financed by the Parties and/or Sponsors.</heading>
+								<point wId="od1-clan2-tac2">
+									<num>2.</num>
+									<content>
+										<p> The common expenditures for the BMTF SO will be borne by a multinational budget funded by the Parties in accordance with the cost-share formula to be determined in the Memorandum of Understanding.</p>
+									</content>
+								</point>
+								<point wId="od1-clan2-tac3">
+									<num>3.</num>
+									<content>
+										<p> Equipment purchased from common funds and equipment provided by Sponsors shall be property of the BMTF. The title of ownership of the national equipment provided by the HN shall remain with the HN.</p>
+									</content>
+								</point>
+								<point wId="od1-clan2-tac4">
+									<num>4.</num>
+									<content>
+										<p> Detailed principles and the methods for financing the BMTF shall be covered by the Memorandum of Understanding.</p>
+									</content>
+								</point>
+								<paragraph wId="od1-clan2-stav1">
+									<content>
+										<p>Article 8Host Nation and Framework Nation Support</p>
+									</content>
+								</paragraph>
+								<section wId="od1">
+									<num>1.</num>
+									<heading> The HN will provide logistic support for the BMTF SO, as defined in the Memorandum of Understanding.</heading>
+									<point wId="od1-clan2-tac2">
+										<num>2.</num>
+										<content>
+											<p> One of the Parties shall, on a rotational basis, assume the role of the Framework Nation (FN). As such it shall, in addition to its obligation as a Party, provide the core infrastructure, personnel and equipment necessary for ROLE 2 capability. The detailed obligations of a FN shall be regulated in the Memorandum of Understanding.</p>
+										</content>
+									</point>
+									<paragraph wId="od1-clan2-stav1">
+										<content>
+											<p>Article 9Legal Considerations</p>
+										</content>
+									</paragraph>
+									<paragraph wId="od1-clan2-stav2">
+										<content>
+											<p>The provisions of the ‘Agreement between the Parties of the North Atlantic Treaty regarding the Status of their Forces’ (NATO SOFA, dated 19 June 1951), Agreement among the States Parties to the North Atlantic Treaty and the other States participating in the Partnership for Peace regarding the Status of their Forces (PfP SOFA, dated 19 June 1995) and UN Convention on Privileges and Immunities of the United Nations (dated 13 February 1946) shall regulate the status of BMTF personnel, as applicable.</p>
+										</content>
+									</paragraph>
+									<paragraph wId="od1-clan2-stav3">
+										<content>
+											<p>Article 10Accession to the BMTF and participation at the BMTF activities</p>
+										</content>
+									</paragraph>
+									<section wId="od1">
+										<num>1.</num>
+										<heading> Any state may accede to this Agreement upon obtaining prior written consent of all Parties and signature of a Note of Accession to this Agreement.</heading>
+										<point wId="od1-clan2-tac2">
+											<num>2.</num>
+											<content>
+												<p> Any international organization, entity, or any nation / nation’s force can participate in BMTF training activities or operations upon prior consent of all Parties and upon signing a relevant agreement.</p>
+											</content>
+										</point>
+										<paragraph wId="od1-clan2-stav1">
+											<content>
+												<p>Article 11Security Clauses</p>
+											</content>
+										</paragraph>
+										<section wId="od1">
+											<num>1.</num>
+											<heading> All information exchanged or generated in connection with this Agreement shall be used, transmitted, stored, handled and/or safeguarded in accordance with the Parties’ applicable national and international laws and regulations.</heading>
+											<point wId="od1-clan2-tac2">
+												<num>2.</num>
+												<content>
+													<p> Information shall be transferred only through allowed channels.</p>
+												</content>
+											</point>
+											<point wId="od1-clan2-tac3">
+												<num>3.</num>
+												<content>
+													<p> The Parties shall ensure that all information exchange shall be used only for the intended purposes within the objectives and the scope of this Agreement.</p>
+												</content>
+											</point>
+											<paragraph wId="od1-clan2-stav1">
+												<content>
+													<p>Article 12Settlement of Disputes</p>
+												</content>
+											</paragraph>
+											<paragraph wId="od1-clan2-stav2">
+												<content>
+													<p>Any disputes regarding the interpretation or application of this Agreement shall solely be resolved by the mutual consensus between the Parties and shall not be referred to any national or international tribunal or Third Party for settlement.</p>
+												</content>
+											</paragraph>
+											<paragraph wId="od1-clan2-stav3">
+												<content>
+													<p>Article 13Implementation Arrangements</p>
+												</content>
+											</paragraph>
+											<paragraph wId="od1-clan2-stav4">
+												<content>
+													<p>Detailed questions concerning the BMTF shall be settled in a separate Memorandum of Understanding or other relevant documents signed by the appropriate authorities of the Parties.</p>
+												</content>
+											</paragraph>
+											<paragraph wId="od1-clan2-stav5">
+												<content>
+													<p>Article 14Final Provisions</p>
+												</content>
+											</paragraph>
+											<section wId="od1">
+												<num>1.</num>
+												<heading> This Agreement shall be concluded for an indefinite period of time.</heading>
+												<point wId="od1-clan2-tac2">
+													<num>2.</num>
+													<content>
+														<p> This Agreement will come into effect on the 30th day upon last notification by the Parties to the HN that all internal procedures to set in on force have been concluded.</p>
+													</content>
+												</point>
+												<point wId="od1-clan2-tac3">
+													<num>3.</num>
+													<content>
+														<p> This Agreement shall be amended by the mutual consent of the Parties. The amendment shall be proposed in writing, through diplomatic channels, and shall enter into force according to paragraph 2 of this Article.</p>
+													</content>
+												</point>
+												<point wId="od1-clan2-tac4">
+													<num>4.</num>
+													<content>
+														<p> This Agreement shall be terminated by unanimous consent of the Parties at any time. Any Party may withdraw from the Agreement by given six (6) month’s written notice to the HN, who will inform the other Parties by diplomatic ways.</p>
+													</content>
+												</point>
+												<point wId="od1-clan2-tac5">
+													<num>5.</num>
+													<content>
+														<p> If this Agreement is terminated, or if any of the Parties withdraw from the Agreement, the Parties shall settle all outstanding issues and other possible areas of interested related to the termination or withdrawal from the Agreement.</p>
+													</content>
+												</point>
+												<point wId="od1-clan2-tac6">
+													<num>6.</num>
+													<content>
+														<p> Termination of the Agreement terminates all implementing Agreements/MOUs.</p>
+													</content>
+												</point>
+												<point wId="od1-clan2-tac7">
+													<num>7.</num>
+													<content>
+														<p> Host Nation will be the depositor of this Agreement.</p>
+													</content>
+												</point>
+												<paragraph wId="od1-clan2-stav1">
+													<content>
+														<p>In witness thereof, the undersigned Representatives, duly authorized by their respective Governments, have signed this agreement.</p>
+													</content>
+												</paragraph>
+												<paragraph wId="od1-clan2-stav2">
+													<content>
+														<p>Signed in six (6) original copies in the English language.</p>
+													</content>
+												</paragraph>
+												<paragraph wId="od1-clan2-stav3">
+													<content>
+														<p>For the Council of Ministers of the Republic of Albania:</p>
+													</content>
+												</paragraph>
+												<paragraph wId="od1-clan2-stav4">
+													<content>
+														<p>_______________________________________</p>
+													</content>
+												</paragraph>
+												<paragraph wId="od1-clan2-stav5">
+													<content>
+														<p>Signed in ……………….. on …………………..</p>
+													</content>
+												</paragraph>
+												<paragraph wId="od1-clan2-stav6">
+													<content>
+														<p>For the Council of Ministers of Bosnia and Herzegovina:</p>
+													</content>
+												</paragraph>
+												<paragraph wId="od1-clan2-stav7">
+													<content>
+														<p>_______________________________________</p>
+													</content>
+												</paragraph>
+												<paragraph wId="od1-clan2-stav8">
+													<content>
+														<p>Signed in ……………….. on …………………..</p>
+													</content>
+												</paragraph>
+												<paragraph wId="od1-clan2-stav9">
+													<intro>
+														<p>For the Government of the Republic of Macedonia:</p>
+													</intro>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> Балканске војномедицинске снаге (БMС): Мултинационална медицинска војна јединица састављена од медицинских модула који се формирају од доприноса Страна.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> Водећа земља (ВЗ): Страна која обезбеђује, на бази ротације, основну инфраструктуру, особље и опрему који су неопходни за способност 2. нивоа, поред своје обавезе као Стране, како је дефинисано у даљем тексту и у уговорима о спровођењу.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac3">
+														<num>3.</num>
+														<content>
+															<p> Спонзор: свака земља, организација или установа, осим учесника БМС, која обезбеђује финансијску и/или другу подршку за БМС како је дефинисано у одговарајућем уговору.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac4">
+														<num>4.</num>
+														<content>
+															<p> Земља домаћин (ЗД): Република Македонија која је домаћин Сталне организације БMС.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac5">
+														<num>5.</num>
+														<content>
+															<p> Стална организација БMС: стални мирнодопски орган БMС одговоран за организовање и планирање активности обуке и мирнодопске и/или непредвиђене операције БМС.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> Да би се утврдила, унапредила и олакшала употреба медицинских оперативних способности у региону западног Балкана, сврха БМС је да обезбеди медицинску подршку способности 2. нивоа у операцијама реаговања у кризним ситуацијама на одржив начин и да се брзо реагује у широком спектру ситуација отклањања последица катастрофа у региону. Циљ је да се омогући земљама учесницама да обезбеде неопходне способности за међународне операције, унапреде националне капацитете за пружање медицинских услуга, као и да се достигну национални циљеви и циљеви снага НАТО и Партнерства за мир (ПзМ) односно партнерски циљеви (циљане способности).</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> Ради испуњења поменутих циљева, БМС треба да буде у стању да:</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> БМС је на располагању за евентуално активирање:</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> На основу претходне сагласности државних органа сваке од Страна, активирање БМС зависи од одлуке Управног одбора.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> БМС обавља своју функцију у миру и у кризним ситуацијама, као што је детаљно наведено у овом члану.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> БМС је мултинационална медицинска јединица као покретна модуларна војна способност изграђена на постојећим националним медицинским способностима.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac3">
+														<num>3.</num>
+														<content>
+															<p> Стална организација БМС (СО БМС) је стално мирнодопско тело БМС одговорно за организовање и планирање активности обуке, као и за мирнодопске и/или непредвиђене операције БМС. Оно је одговорно и за припрему јединица, обуку и сертификацију.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac4">
+														<num>4.</num>
+														<content>
+															<p> Управни одбор (УО) је највиши орган одлучивања, који се састоји од овлашћених политичких и војних представника сваке Стране. УО доноси своје одлуке једногласно.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac5">
+														<num>5.</num>
+														<content>
+															<p> Детаљна структура БМС и командни односи дефинишу се у оквиру меморандума о разумевању или другим релевантним документима које потписују одговарајући надлежни органи Страна.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac6">
+														<num>6.</num>
+														<content>
+															<p> Организациона структура активираног БМС почиње да се примењује у кризним ситуацијама и утврђује се у меморандуму о разумевању или другим релевантним докуменатима које потписују одговарајући надлежни органи Страна.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> Трошкове који се односе на оснивање, управљање и рад БМС финансирају Стране и/или спонзори.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> Заједнички трошкови за СО БМС покривају се из мултинационалног буџета који финансирају Стране у складу са формулом расподеле трошкова која ће бити утврђена у меморандуму о разумевању.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac3">
+														<num>3.</num>
+														<content>
+															<p> Опрема која се набави заједничким финансијским средствима, као и опрема коју обезбеде спонзори представља имовину БМС. Право власништва над националном опремом коју обезбеђује ЗД задржава ЗД.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac4">
+														<num>4.</num>
+														<content>
+															<p> Детаљни принципи и начини финансирања БМС дефинишу се у оквиру меморандума о разумевању.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> ЗД ће обезбедити логистичку подршку за потребе СО БМС како је дефинисано у меморандуму о разумевању.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> Једна од Страна, на бази ротације, преузима улогу водеће земље (ВЗ). Као таква, она, поред своје обавезе као Стране, обезбеђује и основну инфраструктуру, особље и опрему који су неопходни за способност 2. нивоа. Детаљне обавезе ВЗ уређују се меморандумом о разумевању.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> Свака држава може да приступи овом споразуму по добијању претходне писане сагласности свих Страна и потписивању ноте о приступању овом споразуму.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> Свака међународна организација, установа, односно било која земља/снаге било које земље могу да учествују у активностима обуке или операцијама БМС уз претходну сагласност свих Страна и након потписивања одговарајућег уговора.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> Сви подаци који се размене или настану у вези са овим споразумом користе се, преносе, складиште, њима се рукује и/или се чувају у складу са важећим националним и међународним законима и прописима Страна.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> Подаци се преносе само дозвољеним начинима.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac3">
+														<num>3.</num>
+														<content>
+															<p> Стране се старају да се размена свих података користи само за предвиђене сврхе у оквиру циљева и делокруга овог споразума.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> Овај споразум се закључује на неодређено време.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> Овај споразум ступа на снагу 30 дана након последњег обавештења којим Стране обавештавају ЗД да су спроведене све интерне процедуре неопходне за његово ступање на снагу.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac3">
+														<num>3.</num>
+														<content>
+															<p> Овај споразум се мења и допуњава на основу међусобне сагласности Страна. Измена и допуна предлаже се у писаној форми, дипломатским путем, а ступа на снагу у складу са ставом 2. овог члана.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac4">
+														<num>4.</num>
+														<content>
+															<p> Примена Споразума се обуставља у било ком тренутку уз једногласну сагласност Страна. Свака Страна може једнострано да откаже овај споразум слањем писаног обавештења ЗД шест (6) месеци унапред, која ће о томе обавестити остале Стране, дипломатским путем.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac5">
+														<num>5.</num>
+														<content>
+															<p> Уколико се примена овог споразума обустави, или га било која од Страна једнострано откаже, Стране су дужне да реше сва отворена питања и друге могуће области интересовања које се односе на обуставу примене или једнострано отказивање овог споразума.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac6">
+														<num>6.</num>
+														<content>
+															<p> Обуставом примене овог споразума престају да важе и сви уговори о спровођењу, односно меморандуми о разумевању.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac7">
+														<num>7.</num>
+														<content>
+															<p> Земља домаћин биће депозитар Споразума.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> Balkan Medical Task Force (BMTF): Multinational Medical Military Unit composed of medical modules formed by contributions of the Parties.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> Framework Nation (FN): a Party that provides, on a rotational basis, the core infrastructure, personnel and equipment necessary for ROLE 2 capability, in addition to its obligation as a Party, as defined herein and in the implementing arrangements.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac3">
+														<num>3.</num>
+														<content>
+															<p> Sponsor: any nation, organization or entity, other than BMTF Participants, that provides financial and/or other support to the BMTF as defined in an appropriate arrangement.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac4">
+														<num>4.</num>
+														<content>
+															<p> Host Nation (HN): The Republic of Macedonia hosting the BMTF Standing Organization.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac5">
+														<num>5.</num>
+														<content>
+															<p> BMTF Standing Organization: a permanent peacetime body of the BMTF responsible for organizing and planning the training activities and peacetime and/or contingency operations of the BMTF.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> In order to identify, enhance and facilitate the medical operational capabilities of the West Balkan region the purpose of the BMTF is to provide medical support at the Role 2 level on Crisis Response Operations (CRO) in a sustainable manner and rapidly respond to a broad spectrum of regional disaster relief situations. The goal is to enable the participating nations to provide vital capabilities to international operations, enhance national medical service capacities, and to achieve national, NATO and Partnership for Peace (PfP) force / partnership goals (capability targets).</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> In order to fulfill the above mentioned goals, the BMTF shall be able to:</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> BMTF shall be available for possible activation:</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> Upon prior consent of each Parties’ national authorities the activation of the BMTF shall be subject to SB decision.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> BMTF will function in peacetime and in crises, as detailed in this Article.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> BMTF shall be a multinational medical unit as a deployable modular military capability built upon the existing national medical capabilities.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac3">
+														<num>3.</num>
+														<content>
+															<p> BMTF Standing Organization (BMTF SO) is a permanent peacetime body of the BMTF responsible for organizing and planning the training activities, as well as peacetime and/or contingency operations of the BMTF. It is also responsible for unit preparation, training and certification.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac4">
+														<num>4.</num>
+														<content>
+															<p> The Steering Board (SB) is the highest decision making body, consisting of authorized political and military representatives from each Party. The SB makes its decisions unanimously.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac5">
+														<num>5.</num>
+														<content>
+															<p> The BMTF detailed structure and command relations shall be settled in the Memorandum of Understanding or other relevant documents to be signed by the appropriate authorities of the Parties.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac6">
+														<num>6.</num>
+														<content>
+															<p> The organizational structure of the activated BMTF becomes effective in crises and shall be settled in the Memorandum of Understanding or other relevant documents to be signed by the appropriate authorities of the Parties.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> The costs related to the establishment, administration and operation of the BMTF shall be financed by the Parties and/or Sponsors.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> The common expenditures for the BMTF SO will be borne by a multinational budget funded by the Parties in accordance with the cost-share formula to be determined in the Memorandum of Understanding.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac3">
+														<num>3.</num>
+														<content>
+															<p> Equipment purchased from common funds and equipment provided by Sponsors shall be property of the BMTF. The title of ownership of the national equipment provided by the HN shall remain with the HN.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac4">
+														<num>4.</num>
+														<content>
+															<p> Detailed principles and the methods for financing the BMTF shall be covered by the Memorandum of Understanding.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> The HN will provide logistic support for the BMTF SO, as defined in the Memorandum of Understanding.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> One of the Parties shall, on a rotational basis, assume the role of the Framework Nation (FN). As such it shall, in addition to its obligation as a Party, provide the core infrastructure, personnel and equipment necessary for ROLE 2 capability. The detailed obligations of a FN shall be regulated in the Memorandum of Understanding.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> Any state may accede to this Agreement upon obtaining prior written consent of all Parties and signature of a Note of Accession to this Agreement.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> Any international organization, entity, or any nation / nation’s force can participate in BMTF training activities or operations upon prior consent of all Parties and upon signing a relevant agreement.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> All information exchanged or generated in connection with this Agreement shall be used, transmitted, stored, handled and/or safeguarded in accordance with the Parties’ applicable national and international laws and regulations.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> Information shall be transferred only through allowed channels.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac3">
+														<num>3.</num>
+														<content>
+															<p> The Parties shall ensure that all information exchange shall be used only for the intended purposes within the objectives and the scope of this Agreement.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> This Agreement shall be concluded for an indefinite period of time.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> This Agreement will come into effect on the 30th day upon last notification by the Parties to the HN that all internal procedures to set in on force have been concluded.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac3">
+														<num>3.</num>
+														<content>
+															<p> This Agreement shall be amended by the mutual consent of the Parties. The amendment shall be proposed in writing, through diplomatic channels, and shall enter into force according to paragraph 2 of this Article.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac4">
+														<num>4.</num>
+														<content>
+															<p> This Agreement shall be terminated by unanimous consent of the Parties at any time. Any Party may withdraw from the Agreement by given six (6) month’s written notice to the HN, who will inform the other Parties by diplomatic ways.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac5">
+														<num>5.</num>
+														<content>
+															<p> If this Agreement is terminated, or if any of the Parties withdraw from the Agreement, the Parties shall settle all outstanding issues and other possible areas of interested related to the termination or withdrawal from the Agreement.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac6">
+														<num>6.</num>
+														<content>
+															<p> Termination of the Agreement terminates all implementing Agreements/MOUs.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac7">
+														<num>7.</num>
+														<content>
+															<p> Host Nation will be the depositor of this Agreement.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> Балканске војномедицинске снаге (БMС): Мултинационална медицинска војна јединица састављена од медицинских модула који се формирају од доприноса Страна.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> Водећа земља (ВЗ): Страна која обезбеђује, на бази ротације, основну инфраструктуру, особље и опрему који су неопходни за способност 2. нивоа, поред своје обавезе као Стране, како је дефинисано у даљем тексту и у уговорима о спровођењу.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac3">
+														<num>3.</num>
+														<content>
+															<p> Спонзор: свака земља, организација или установа, осим учесника БМС, која обезбеђује финансијску и/или другу подршку за БМС како је дефинисано у одговарајућем уговору.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac4">
+														<num>4.</num>
+														<content>
+															<p> Земља домаћин (ЗД): Република Македонија која је домаћин Сталне организације БMС.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac5">
+														<num>5.</num>
+														<content>
+															<p> Стална организација БMС: стални мирнодопски орган БMС одговоран за организовање и планирање активности обуке и мирнодопске и/или непредвиђене операције БМС.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> Да би се утврдила, унапредила и олакшала употреба медицинских оперативних способности у региону западног Балкана, сврха БМС је да обезбеди медицинску подршку способности 2. нивоа у операцијама реаговања у кризним ситуацијама на одржив начин и да се брзо реагује у широком спектру ситуација отклањања последица катастрофа у региону. Циљ је да се омогући земљама учесницама да обезбеде неопходне способности за међународне операције, унапреде националне капацитете за пружање медицинских услуга, као и да се достигну национални циљеви и циљеви снага НАТО и Партнерства за мир (ПзМ) односно партнерски циљеви (циљане способности).</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> Ради испуњења поменутих циљева, БМС треба да буде у стању да:</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> БМС је на располагању за евентуално активирање:</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> На основу претходне сагласности државних органа сваке од Страна, активирање БМС зависи од одлуке Управног одбора.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> БМС обавља своју функцију у миру и у кризним ситуацијама, као што је детаљно наведено у овом члану.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> БМС је мултинационална медицинска јединица као покретна модуларна војна способност изграђена на постојећим националним медицинским способностима.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac3">
+														<num>3.</num>
+														<content>
+															<p> Стална организација БМС (СО БМС) је стално мирнодопско тело БМС одговорно за организовање и планирање активности обуке, као и за мирнодопске и/или непредвиђене операције БМС. Оно је одговорно и за припрему јединица, обуку и сертификацију.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac4">
+														<num>4.</num>
+														<content>
+															<p> Управни одбор (УО) је највиши орган одлучивања, који се састоји од овлашћених политичких и војних представника сваке Стране. УО доноси своје одлуке једногласно.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac5">
+														<num>5.</num>
+														<content>
+															<p> Детаљна структура БМС и командни односи дефинишу се у оквиру меморандума о разумевању или другим релевантним документима које потписују одговарајући надлежни органи Страна.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac6">
+														<num>6.</num>
+														<content>
+															<p> Организациона структура активираног БМС почиње да се примењује у кризним ситуацијама и утврђује се у меморандуму о разумевању или другим релевантним докуменатима које потписују одговарајући надлежни органи Страна.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> Трошкове који се односе на оснивање, управљање и рад БМС финансирају Стране и/или спонзори.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> Заједнички трошкови за СО БМС покривају се из мултинационалног буџета који финансирају Стране у складу са формулом расподеле трошкова која ће бити утврђена у меморандуму о разумевању.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac3">
+														<num>3.</num>
+														<content>
+															<p> Опрема која се набави заједничким финансијским средствима, као и опрема коју обезбеде спонзори представља имовину БМС. Право власништва над националном опремом коју обезбеђује ЗД задржава ЗД.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac4">
+														<num>4.</num>
+														<content>
+															<p> Детаљни принципи и начини финансирања БМС дефинишу се у оквиру меморандума о разумевању.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> ЗД ће обезбедити логистичку подршку за потребе СО БМС како је дефинисано у меморандуму о разумевању.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> Једна од Страна, на бази ротације, преузима улогу водеће земље (ВЗ). Као таква, она, поред своје обавезе као Стране, обезбеђује и основну инфраструктуру, особље и опрему који су неопходни за способност 2. нивоа. Детаљне обавезе ВЗ уређују се меморандумом о разумевању.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> Свака држава може да приступи овом споразуму по добијању претходне писане сагласности свих Страна и потписивању ноте о приступању овом споразуму.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> Свака међународна организација, установа, односно било која земља/снаге било које земље могу да учествују у активностима обуке или операцијама БМС уз претходну сагласност свих Страна и након потписивања одговарајућег уговора.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> Сви подаци који се размене или настану у вези са овим споразумом користе се, преносе, складиште, њима се рукује и/или се чувају у складу са важећим националним и међународним законима и прописима Страна.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> Подаци се преносе само дозвољеним начинима.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac3">
+														<num>3.</num>
+														<content>
+															<p> Стране се старају да се размена свих података користи само за предвиђене сврхе у оквиру циљева и делокруга овог споразума.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> Овај споразум се закључује на неодређено време.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> Овај споразум ступа на снагу 30 дана након последњег обавештења којим Стране обавештавају ЗД да су спроведене све интерне процедуре неопходне за његово ступање на снагу.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac3">
+														<num>3.</num>
+														<content>
+															<p> Овај споразум се мења и допуњава на основу међусобне сагласности Страна. Измена и допуна предлаже се у писаној форми, дипломатским путем, а ступа на снагу у складу са ставом 2. овог члана.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac4">
+														<num>4.</num>
+														<content>
+															<p> Примена Споразума се обуставља у било ком тренутку уз једногласну сагласност Страна. Свака Страна може једнострано да откаже овај споразум слањем писаног обавештења ЗД шест (6) месеци унапред, која ће о томе обавестити остале Стране, дипломатским путем.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac5">
+														<num>5.</num>
+														<content>
+															<p> Уколико се примена овог споразума обустави, или га било која од Страна једнострано откаже, Стране су дужне да реше сва отворена питања и друге могуће области интересовања које се односе на обуставу примене или једнострано отказивање овог споразума.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac6">
+														<num>6.</num>
+														<content>
+															<p> Обуставом примене овог споразума престају да важе и сви уговори о спровођењу, односно меморандуми о разумевању.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac7">
+														<num>7.</num>
+														<content>
+															<p> Земља домаћин биће депозитар Споразума.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> Balkan Medical Task Force (BMTF): Multinational Medical Military Unit composed of medical modules formed by contributions of the Parties.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> Framework Nation (FN): a Party that provides, on a rotational basis, the core infrastructure, personnel and equipment necessary for ROLE 2 capability, in addition to its obligation as a Party, as defined herein and in the implementing arrangements.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac3">
+														<num>3.</num>
+														<content>
+															<p> Sponsor: any nation, organization or entity, other than BMTF Participants, that provides financial and/or other support to the BMTF as defined in an appropriate arrangement.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac4">
+														<num>4.</num>
+														<content>
+															<p> Host Nation (HN): The Republic of Macedonia hosting the BMTF Standing Organization.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac5">
+														<num>5.</num>
+														<content>
+															<p> BMTF Standing Organization: a permanent peacetime body of the BMTF responsible for organizing and planning the training activities and peacetime and/or contingency operations of the BMTF.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> In order to identify, enhance and facilitate the medical operational capabilities of the West Balkan region the purpose of the BMTF is to provide medical support at the Role 2 level on Crisis Response Operations (CRO) in a sustainable manner and rapidly respond to a broad spectrum of regional disaster relief situations. The goal is to enable the participating nations to provide vital capabilities to international operations, enhance national medical service capacities, and to achieve national, NATO and Partnership for Peace (PfP) force / partnership goals (capability targets).</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> In order to fulfill the above mentioned goals, the BMTF shall be able to:</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> BMTF shall be available for possible activation:</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> Upon prior consent of each Parties’ national authorities the activation of the BMTF shall be subject to SB decision.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> BMTF will function in peacetime and in crises, as detailed in this Article.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> BMTF shall be a multinational medical unit as a deployable modular military capability built upon the existing national medical capabilities.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac3">
+														<num>3.</num>
+														<content>
+															<p> BMTF Standing Organization (BMTF SO) is a permanent peacetime body of the BMTF responsible for organizing and planning the training activities, as well as peacetime and/or contingency operations of the BMTF. It is also responsible for unit preparation, training and certification.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac4">
+														<num>4.</num>
+														<content>
+															<p> The Steering Board (SB) is the highest decision making body, consisting of authorized political and military representatives from each Party. The SB makes its decisions unanimously.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac5">
+														<num>5.</num>
+														<content>
+															<p> The BMTF detailed structure and command relations shall be settled in the Memorandum of Understanding or other relevant documents to be signed by the appropriate authorities of the Parties.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac6">
+														<num>6.</num>
+														<content>
+															<p> The organizational structure of the activated BMTF becomes effective in crises and shall be settled in the Memorandum of Understanding or other relevant documents to be signed by the appropriate authorities of the Parties.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> The costs related to the establishment, administration and operation of the BMTF shall be financed by the Parties and/or Sponsors.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> The common expenditures for the BMTF SO will be borne by a multinational budget funded by the Parties in accordance with the cost-share formula to be determined in the Memorandum of Understanding.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac3">
+														<num>3.</num>
+														<content>
+															<p> Equipment purchased from common funds and equipment provided by Sponsors shall be property of the BMTF. The title of ownership of the national equipment provided by the HN shall remain with the HN.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac4">
+														<num>4.</num>
+														<content>
+															<p> Detailed principles and the methods for financing the BMTF shall be covered by the Memorandum of Understanding.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> The HN will provide logistic support for the BMTF SO, as defined in the Memorandum of Understanding.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> One of the Parties shall, on a rotational basis, assume the role of the Framework Nation (FN). As such it shall, in addition to its obligation as a Party, provide the core infrastructure, personnel and equipment necessary for ROLE 2 capability. The detailed obligations of a FN shall be regulated in the Memorandum of Understanding.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> Any state may accede to this Agreement upon obtaining prior written consent of all Parties and signature of a Note of Accession to this Agreement.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> Any international organization, entity, or any nation / nation’s force can participate in BMTF training activities or operations upon prior consent of all Parties and upon signing a relevant agreement.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> All information exchanged or generated in connection with this Agreement shall be used, transmitted, stored, handled and/or safeguarded in accordance with the Parties’ applicable national and international laws and regulations.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> Information shall be transferred only through allowed channels.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac3">
+														<num>3.</num>
+														<content>
+															<p> The Parties shall ensure that all information exchange shall be used only for the intended purposes within the objectives and the scope of this Agreement.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> This Agreement shall be concluded for an indefinite period of time.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> This Agreement will come into effect on the 30th day upon last notification by the Parties to the HN that all internal procedures to set in on force have been concluded.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac3">
+														<num>3.</num>
+														<content>
+															<p> This Agreement shall be amended by the mutual consent of the Parties. The amendment shall be proposed in writing, through diplomatic channels, and shall enter into force according to paragraph 2 of this Article.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac4">
+														<num>4.</num>
+														<content>
+															<p> This Agreement shall be terminated by unanimous consent of the Parties at any time. Any Party may withdraw from the Agreement by given six (6) month’s written notice to the HN, who will inform the other Parties by diplomatic ways.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac5">
+														<num>5.</num>
+														<content>
+															<p> If this Agreement is terminated, or if any of the Parties withdraw from the Agreement, the Parties shall settle all outstanding issues and other possible areas of interested related to the termination or withdrawal from the Agreement.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac6">
+														<num>6.</num>
+														<content>
+															<p> Termination of the Agreement terminates all implementing Agreements/MOUs.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac7">
+														<num>7.</num>
+														<content>
+															<p> Host Nation will be the depositor of this Agreement.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> Балканске војномедицинске снаге (БMС): Мултинационална медицинска војна јединица састављена од медицинских модула који се формирају од доприноса Страна.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> Водећа земља (ВЗ): Страна која обезбеђује, на бази ротације, основну инфраструктуру, особље и опрему који су неопходни за способност 2. нивоа, поред своје обавезе као Стране, како је дефинисано у даљем тексту и у уговорима о спровођењу.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac3">
+														<num>3.</num>
+														<content>
+															<p> Спонзор: свака земља, организација или установа, осим учесника БМС, која обезбеђује финансијску и/или другу подршку за БМС како је дефинисано у одговарајућем уговору.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac4">
+														<num>4.</num>
+														<content>
+															<p> Земља домаћин (ЗД): Република Македонија која је домаћин Сталне организације БMС.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac5">
+														<num>5.</num>
+														<content>
+															<p> Стална организација БMС: стални мирнодопски орган БMС одговоран за организовање и планирање активности обуке и мирнодопске и/или непредвиђене операције БМС.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> Да би се утврдила, унапредила и олакшала употреба медицинских оперативних способности у региону западног Балкана, сврха БМС је да обезбеди медицинску подршку способности 2. нивоа у операцијама реаговања у кризним ситуацијама на одржив начин и да се брзо реагује у широком спектру ситуација отклањања последица катастрофа у региону. Циљ је да се омогући земљама учесницама да обезбеде неопходне способности за међународне операције, унапреде националне капацитете за пружање медицинских услуга, као и да се достигну национални циљеви и циљеви снага НАТО и Партнерства за мир (ПзМ) односно партнерски циљеви (циљане способности).</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> Ради испуњења поменутих циљева, БМС треба да буде у стању да:</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> БМС је на располагању за евентуално активирање:</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> На основу претходне сагласности државних органа сваке од Страна, активирање БМС зависи од одлуке Управног одбора.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> БМС обавља своју функцију у миру и у кризним ситуацијама, као што је детаљно наведено у овом члану.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> БМС је мултинационална медицинска јединица као покретна модуларна војна способност изграђена на постојећим националним медицинским способностима.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac3">
+														<num>3.</num>
+														<content>
+															<p> Стална организација БМС (СО БМС) је стално мирнодопско тело БМС одговорно за организовање и планирање активности обуке, као и за мирнодопске и/или непредвиђене операције БМС. Оно је одговорно и за припрему јединица, обуку и сертификацију.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac4">
+														<num>4.</num>
+														<content>
+															<p> Управни одбор (УО) је највиши орган одлучивања, који се састоји од овлашћених политичких и војних представника сваке Стране. УО доноси своје одлуке једногласно.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac5">
+														<num>5.</num>
+														<content>
+															<p> Детаљна структура БМС и командни односи дефинишу се у оквиру меморандума о разумевању или другим релевантним документима које потписују одговарајући надлежни органи Страна.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac6">
+														<num>6.</num>
+														<content>
+															<p> Организациона структура активираног БМС почиње да се примењује у кризним ситуацијама и утврђује се у меморандуму о разумевању или другим релевантним докуменатима које потписују одговарајући надлежни органи Страна.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> Трошкове који се односе на оснивање, управљање и рад БМС финансирају Стране и/или спонзори.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> Заједнички трошкови за СО БМС покривају се из мултинационалног буџета који финансирају Стране у складу са формулом расподеле трошкова која ће бити утврђена у меморандуму о разумевању.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac3">
+														<num>3.</num>
+														<content>
+															<p> Опрема која се набави заједничким финансијским средствима, као и опрема коју обезбеде спонзори представља имовину БМС. Право власништва над националном опремом коју обезбеђује ЗД задржава ЗД.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac4">
+														<num>4.</num>
+														<content>
+															<p> Детаљни принципи и начини финансирања БМС дефинишу се у оквиру меморандума о разумевању.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> ЗД ће обезбедити логистичку подршку за потребе СО БМС како је дефинисано у меморандуму о разумевању.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> Једна од Страна, на бази ротације, преузима улогу водеће земље (ВЗ). Као таква, она, поред своје обавезе као Стране, обезбеђује и основну инфраструктуру, особље и опрему који су неопходни за способност 2. нивоа. Детаљне обавезе ВЗ уређују се меморандумом о разумевању.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> Свака држава може да приступи овом споразуму по добијању претходне писане сагласности свих Страна и потписивању ноте о приступању овом споразуму.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> Свака међународна организација, установа, односно било која земља/снаге било које земље могу да учествују у активностима обуке или операцијама БМС уз претходну сагласност свих Страна и након потписивања одговарајућег уговора.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> Сви подаци који се размене или настану у вези са овим споразумом користе се, преносе, складиште, њима се рукује и/или се чувају у складу са важећим националним и међународним законима и прописима Страна.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> Подаци се преносе само дозвољеним начинима.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac3">
+														<num>3.</num>
+														<content>
+															<p> Стране се старају да се размена свих података користи само за предвиђене сврхе у оквиру циљева и делокруга овог споразума.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> Овај споразум се закључује на неодређено време.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> Овај споразум ступа на снагу 30 дана након последњег обавештења којим Стране обавештавају ЗД да су спроведене све интерне процедуре неопходне за његово ступање на снагу.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac3">
+														<num>3.</num>
+														<content>
+															<p> Овај споразум се мења и допуњава на основу међусобне сагласности Страна. Измена и допуна предлаже се у писаној форми, дипломатским путем, а ступа на снагу у складу са ставом 2. овог члана.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac4">
+														<num>4.</num>
+														<content>
+															<p> Примена Споразума се обуставља у било ком тренутку уз једногласну сагласност Страна. Свака Страна може једнострано да откаже овај споразум слањем писаног обавештења ЗД шест (6) месеци унапред, која ће о томе обавестити остале Стране, дипломатским путем.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac5">
+														<num>5.</num>
+														<content>
+															<p> Уколико се примена овог споразума обустави, или га било која од Страна једнострано откаже, Стране су дужне да реше сва отворена питања и друге могуће области интересовања које се односе на обуставу примене или једнострано отказивање овог споразума.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac6">
+														<num>6.</num>
+														<content>
+															<p> Обуставом примене овог споразума престају да важе и сви уговори о спровођењу, односно меморандуми о разумевању.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac7">
+														<num>7.</num>
+														<content>
+															<p> Земља домаћин биће депозитар Споразума.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> Balkan Medical Task Force (BMTF): Multinational Medical Military Unit composed of medical modules formed by contributions of the Parties.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> Framework Nation (FN): a Party that provides, on a rotational basis, the core infrastructure, personnel and equipment necessary for ROLE 2 capability, in addition to its obligation as a Party, as defined herein and in the implementing arrangements.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac3">
+														<num>3.</num>
+														<content>
+															<p> Sponsor: any nation, organization or entity, other than BMTF Participants, that provides financial and/or other support to the BMTF as defined in an appropriate arrangement.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac4">
+														<num>4.</num>
+														<content>
+															<p> Host Nation (HN): The Republic of Macedonia hosting the BMTF Standing Organization.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac5">
+														<num>5.</num>
+														<content>
+															<p> BMTF Standing Organization: a permanent peacetime body of the BMTF responsible for organizing and planning the training activities and peacetime and/or contingency operations of the BMTF.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> In order to identify, enhance and facilitate the medical operational capabilities of the West Balkan region the purpose of the BMTF is to provide medical support at the Role 2 level on Crisis Response Operations (CRO) in a sustainable manner and rapidly respond to a broad spectrum of regional disaster relief situations. The goal is to enable the participating nations to provide vital capabilities to international operations, enhance national medical service capacities, and to achieve national, NATO and Partnership for Peace (PfP) force / partnership goals (capability targets).</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> In order to fulfill the above mentioned goals, the BMTF shall be able to:</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> BMTF shall be available for possible activation:</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> Upon prior consent of each Parties’ national authorities the activation of the BMTF shall be subject to SB decision.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> BMTF will function in peacetime and in crises, as detailed in this Article.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> BMTF shall be a multinational medical unit as a deployable modular military capability built upon the existing national medical capabilities.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac3">
+														<num>3.</num>
+														<content>
+															<p> BMTF Standing Organization (BMTF SO) is a permanent peacetime body of the BMTF responsible for organizing and planning the training activities, as well as peacetime and/or contingency operations of the BMTF. It is also responsible for unit preparation, training and certification.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac4">
+														<num>4.</num>
+														<content>
+															<p> The Steering Board (SB) is the highest decision making body, consisting of authorized political and military representatives from each Party. The SB makes its decisions unanimously.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac5">
+														<num>5.</num>
+														<content>
+															<p> The BMTF detailed structure and command relations shall be settled in the Memorandum of Understanding or other relevant documents to be signed by the appropriate authorities of the Parties.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac6">
+														<num>6.</num>
+														<content>
+															<p> The organizational structure of the activated BMTF becomes effective in crises and shall be settled in the Memorandum of Understanding or other relevant documents to be signed by the appropriate authorities of the Parties.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> The costs related to the establishment, administration and operation of the BMTF shall be financed by the Parties and/or Sponsors.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> The common expenditures for the BMTF SO will be borne by a multinational budget funded by the Parties in accordance with the cost-share formula to be determined in the Memorandum of Understanding.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac3">
+														<num>3.</num>
+														<content>
+															<p> Equipment purchased from common funds and equipment provided by Sponsors shall be property of the BMTF. The title of ownership of the national equipment provided by the HN shall remain with the HN.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac4">
+														<num>4.</num>
+														<content>
+															<p> Detailed principles and the methods for financing the BMTF shall be covered by the Memorandum of Understanding.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> The HN will provide logistic support for the BMTF SO, as defined in the Memorandum of Understanding.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> One of the Parties shall, on a rotational basis, assume the role of the Framework Nation (FN). As such it shall, in addition to its obligation as a Party, provide the core infrastructure, personnel and equipment necessary for ROLE 2 capability. The detailed obligations of a FN shall be regulated in the Memorandum of Understanding.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> Any state may accede to this Agreement upon obtaining prior written consent of all Parties and signature of a Note of Accession to this Agreement.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> Any international organization, entity, or any nation / nation’s force can participate in BMTF training activities or operations upon prior consent of all Parties and upon signing a relevant agreement.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> All information exchanged or generated in connection with this Agreement shall be used, transmitted, stored, handled and/or safeguarded in accordance with the Parties’ applicable national and international laws and regulations.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> Information shall be transferred only through allowed channels.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac3">
+														<num>3.</num>
+														<content>
+															<p> The Parties shall ensure that all information exchange shall be used only for the intended purposes within the objectives and the scope of this Agreement.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> This Agreement shall be concluded for an indefinite period of time.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> This Agreement will come into effect on the 30th day upon last notification by the Parties to the HN that all internal procedures to set in on force have been concluded.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac3">
+														<num>3.</num>
+														<content>
+															<p> This Agreement shall be amended by the mutual consent of the Parties. The amendment shall be proposed in writing, through diplomatic channels, and shall enter into force according to paragraph 2 of this Article.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac4">
+														<num>4.</num>
+														<content>
+															<p> This Agreement shall be terminated by unanimous consent of the Parties at any time. Any Party may withdraw from the Agreement by given six (6) month’s written notice to the HN, who will inform the other Parties by diplomatic ways.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac5">
+														<num>5.</num>
+														<content>
+															<p> If this Agreement is terminated, or if any of the Parties withdraw from the Agreement, the Parties shall settle all outstanding issues and other possible areas of interested related to the termination or withdrawal from the Agreement.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac6">
+														<num>6.</num>
+														<content>
+															<p> Termination of the Agreement terminates all implementing Agreements/MOUs.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac7">
+														<num>7.</num>
+														<content>
+															<p> Host Nation will be the depositor of this Agreement.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> Балканске војномедицинске снаге (БMС): Мултинационална медицинска војна јединица састављена од медицинских модула који се формирају од доприноса Страна.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> Водећа земља (ВЗ): Страна која обезбеђује, на бази ротације, основну инфраструктуру, особље и опрему који су неопходни за способност 2. нивоа, поред своје обавезе као Стране, како је дефинисано у даљем тексту и у уговорима о спровођењу.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac3">
+														<num>3.</num>
+														<content>
+															<p> Спонзор: свака земља, организација или установа, осим учесника БМС, која обезбеђује финансијску и/или другу подршку за БМС како је дефинисано у одговарајућем уговору.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac4">
+														<num>4.</num>
+														<content>
+															<p> Земља домаћин (ЗД): Република Македонија која је домаћин Сталне организације БMС.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac5">
+														<num>5.</num>
+														<content>
+															<p> Стална организација БMС: стални мирнодопски орган БMС одговоран за организовање и планирање активности обуке и мирнодопске и/или непредвиђене операције БМС.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> Да би се утврдила, унапредила и олакшала употреба медицинских оперативних способности у региону западног Балкана, сврха БМС је да обезбеди медицинску подршку способности 2. нивоа у операцијама реаговања у кризним ситуацијама на одржив начин и да се брзо реагује у широком спектру ситуација отклањања последица катастрофа у региону. Циљ је да се омогући земљама учесницама да обезбеде неопходне способности за међународне операције, унапреде националне капацитете за пружање медицинских услуга, као и да се достигну национални циљеви и циљеви снага НАТО и Партнерства за мир (ПзМ) односно партнерски циљеви (циљане способности).</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> Ради испуњења поменутих циљева, БМС треба да буде у стању да:</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> БМС је на располагању за евентуално активирање:</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> На основу претходне сагласности државних органа сваке од Страна, активирање БМС зависи од одлуке Управног одбора.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> БМС обавља своју функцију у миру и у кризним ситуацијама, као што је детаљно наведено у овом члану.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> БМС је мултинационална медицинска јединица као покретна модуларна војна способност изграђена на постојећим националним медицинским способностима.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac3">
+														<num>3.</num>
+														<content>
+															<p> Стална организација БМС (СО БМС) је стално мирнодопско тело БМС одговорно за организовање и планирање активности обуке, као и за мирнодопске и/или непредвиђене операције БМС. Оно је одговорно и за припрему јединица, обуку и сертификацију.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac4">
+														<num>4.</num>
+														<content>
+															<p> Управни одбор (УО) је највиши орган одлучивања, који се састоји од овлашћених политичких и војних представника сваке Стране. УО доноси своје одлуке једногласно.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac5">
+														<num>5.</num>
+														<content>
+															<p> Детаљна структура БМС и командни односи дефинишу се у оквиру меморандума о разумевању или другим релевантним документима које потписују одговарајући надлежни органи Страна.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac6">
+														<num>6.</num>
+														<content>
+															<p> Организациона структура активираног БМС почиње да се примењује у кризним ситуацијама и утврђује се у меморандуму о разумевању или другим релевантним докуменатима које потписују одговарајући надлежни органи Страна.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> Трошкове који се односе на оснивање, управљање и рад БМС финансирају Стране и/или спонзори.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> Заједнички трошкови за СО БМС покривају се из мултинационалног буџета који финансирају Стране у складу са формулом расподеле трошкова која ће бити утврђена у меморандуму о разумевању.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac3">
+														<num>3.</num>
+														<content>
+															<p> Опрема која се набави заједничким финансијским средствима, као и опрема коју обезбеде спонзори представља имовину БМС. Право власништва над националном опремом коју обезбеђује ЗД задржава ЗД.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac4">
+														<num>4.</num>
+														<content>
+															<p> Детаљни принципи и начини финансирања БМС дефинишу се у оквиру меморандума о разумевању.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> ЗД ће обезбедити логистичку подршку за потребе СО БМС како је дефинисано у меморандуму о разумевању.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> Једна од Страна, на бази ротације, преузима улогу водеће земље (ВЗ). Као таква, она, поред своје обавезе као Стране, обезбеђује и основну инфраструктуру, особље и опрему који су неопходни за способност 2. нивоа. Детаљне обавезе ВЗ уређују се меморандумом о разумевању.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> Свака држава може да приступи овом споразуму по добијању претходне писане сагласности свих Страна и потписивању ноте о приступању овом споразуму.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> Свака међународна организација, установа, односно било која земља/снаге било које земље могу да учествују у активностима обуке или операцијама БМС уз претходну сагласност свих Страна и након потписивања одговарајућег уговора.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> Сви подаци који се размене или настану у вези са овим споразумом користе се, преносе, складиште, њима се рукује и/или се чувају у складу са важећим националним и међународним законима и прописима Страна.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> Подаци се преносе само дозвољеним начинима.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac3">
+														<num>3.</num>
+														<content>
+															<p> Стране се старају да се размена свих података користи само за предвиђене сврхе у оквиру циљева и делокруга овог споразума.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac1">
+														<num>1.</num>
+														<content>
+															<p> Овај споразум се закључује на неодређено време.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac2">
+														<num>2.</num>
+														<content>
+															<p> Овај споразум ступа на снагу 30 дана након последњег обавештења којим Стране обавештавају ЗД да су спроведене све интерне процедуре неопходне за његово ступање на снагу.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac3">
+														<num>3.</num>
+														<content>
+															<p> Овај споразум се мења и допуњава на основу међусобне сагласности Страна. Измена и допуна предлаже се у писаној форми, дипломатским путем, а ступа на снагу у складу са ставом 2. овог члана.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac4">
+														<num>4.</num>
+														<content>
+															<p> Примена Споразума се обуставља у било ком тренутку уз једногласну сагласност Страна. Свака Страна може једнострано да откаже овај споразум слањем писаног обавештења ЗД шест (6) месеци унапред, која ће о томе обавестити остале Стране, дипломатским путем.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac5">
+														<num>5.</num>
+														<content>
+															<p> Уколико се примена овог споразума обустави, или га било која од Страна једнострано откаже, Стране су дужне да реше сва отворена питања и друге могуће области интересовања које се односе на обуставу примене или једнострано отказивање овог споразума.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac6">
+														<num>6.</num>
+														<content>
+															<p> Обуставом примене овог споразума престају да важе и сви уговори о спровођењу, односно меморандуми о разумевању.</p>
+														</content>
+													</point>
+													<point wId="od1-clan2-stav9-tac7">
+														<num>7.</num>
+														<content>
+															<p> Земља домаћин биће депозитар Споразума.</p>
+														</content>
+													</point>
+												</paragraph>
+											</section>
+										</section>
+									</section>
+								</section>
+							</section>
+						</section>
+					</section>
+				</section>
+			</section>
+		</body>
+	</act>
+</akomaNtoso>

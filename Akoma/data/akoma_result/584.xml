@@ -1,0 +1,659 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о заштити права оплемењивача биљних сорти">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2009/41-209/main"/>
+					<FRBRuri value="/rs/act/2009/41-209"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2011/88-65/srp@/main"/>
+					<FRBRuri value="/rs/act/2011/88-65/srp@"/>
+					<FRBRdate date="2011-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2011/88-65/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2011/88-65/srp@.akn"/>
+					<FRBRdate date="2011-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2009-06-02" name="службени гласник рс" number="41" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="XIII ПОЉОПРИВРЕДНА ДЕЛАТНОСТ" value="xiii пољопривредна делатност" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="4. Заштита биља" value="4. заштита биља" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2009-01-01" refersTo="41/2009-209" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2011-01-01" refersTo="88/2011-65" source="#somebody" type="amendment" wId="e2"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2009-05-29" wId="usvajanje"/>
+				<step by="#TODO" date="2009-06-10" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2009-06-10" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 10. јуна 2009. године (види члан 56. Закона).Захтеви за додељивање права оплемењивача који су поднети до дана ступања на снагу овог закона, а по којима поступак није окончан, биће решени у складу са овим законом (види члан 51. Закона).Прописи за извршавање овог закона донеће се у року од две године од дана ступања на снагу овог закона, односно до 10. јуна 2011. године (види члан 53. Закона).До доношења прописа на основу овлашћења из овог закона примењиваће се прописи донети на основу Закона о заштити сорти пољопривредног и шумског биља („Службени лист СРЈ“, број 28/00 и „Службени гласник РС“, број 101/05 – др. Закон), ако нису у супротности са овим законом (види члан 54. Закона).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О заштити права оплемењивача биљних сорти "Службени гласник РС", бр. 41 од 2. јуна 2009. године, 88 од 24. новембра 2011.</p>
+			</longTitle>
+			<p>Редакцијски пречишћен текст</p>
+		</preface>
+		<preamble>
+			<p>﻿</p>
+		</preamble>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<heading>Предмет уређивања</heading>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређују се услови, начин и поступак за заштиту права оплемењивача биљних сорти.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav2">
+						<content>
+							<p>Заштита права оплемењивача из <ref wId="ref0" href="akn/rs/act/2011/88-65/srp@/!main~art_1__para_1" >става 1. овог</ref> члана обухвата услове за додељивање права оплемењивача, поступак за додељивање права оплемењивача, право оплемењивача (обим права оплемењивача, изузеци од права оплемењивача, исцрпљење права оплемењивача, претходна заштита права оплемењивача), пренос права оплемењивача и уступање права коришћења заштићене сорте, престанак права оплемењивача, као и грађанско-правну заштиту права оплемењивача.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav3">
+						<content>
+							<p>Овај закон примењује се на све биљне родове и врсте.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<heading>Значење израза</heading>
+					<paragraph wId="gla1-clan2-stav1">
+						<intro>
+							<p>Поједини изрази употребљени у овом закону имају следеће значење:</p>
+						</intro>
+						<point wId="gla1-clan2-stav1-tac1">
+							<num>1)</num>
+							<intro>
+								<p>  биљна сорта (у даљем тексту: сорта) јесте скуп биљака унутар јединствене ботаничке класификације најниже познате категорије који је, без обзира на то да ли су услови за додељивање права оплемењивача испуњени:</p>
+							</intro>
+							<alinea wId="gla1-clan2-stav1-tac1-ali1">
+								<content>
+									<p>ефинисан изражавањем особина које су последица утицаја датог генотипа или комбинације генотипова,</p>
+								</content>
+							</alinea>
+							<alinea wId="gla1-clan2-stav1-tac1-ali2">
+								<content>
+									<p>азличит од другог скупа биљака по изражавању најмање једне од датих особина,</p>
+								</content>
+							</alinea>
+							<alinea wId="gla1-clan2-stav1-tac1-ali3">
+								<content>
+									<p>оји представља јединицу у односу на могућност сорте за умножавање без промена;</p>
+								</content>
+							</alinea>
+						</point>
+						<point wId="gla1-clan2-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> брисана је (види <ref wId="ref1" href="akn/rs/act/2011/88/srp@/!main~/art_1">члан 1. Закона - 88/2011-65</ref>)</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p>  заштићена сорта јесте сорта која је заштићена у складу са одредбама овог закона;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p>  лице јесте физичко или правно лице;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p>  домаће лице јесте лице које има пребивалиште, односно седиште у Републици Србији;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> страно лице јесте лице које има пребивалиште, односно седиште изван територије Републике Србије;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac7">
+							<num>7)</num>
+							<intro>
+								<p>  оплемењивач јесте:</p>
+							</intro>
+							<alinea wId="gla1-clan2-stav1-tac7-ali1">
+								<content>
+									<p>ице које је створило или открило и развило нову сорту,</p>
+								</content>
+							</alinea>
+							<alinea wId="gla1-clan2-stav1-tac7-ali2">
+								<content>
+									<p>ослодавац лица које је у радном односу створило или открило и развило нову сорту или лица које је по његовом овлашћењу обавило посао,</p>
+								</content>
+							</alinea>
+							<alinea wId="gla1-clan2-stav1-tac7-ali3">
+								<content>
+									<p>ице које је правни следбеник лица које је створило или открило и развило нову сорту или његовог послодавца;</p>
+								</content>
+							</alinea>
+						</point>
+						<point wId="gla1-clan2-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p>  право оплемењивача јесте право које се оплемењивачу додељује у складу са одредбама овог закона;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p>  носилац права оплемењивача јесте оплемењивач коме је додељено право оплемењивача;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p>  Регистар захтева за додељивање права оплемењивача биљних сорти јесте регистар у који се уписују уредно поднети захтеви за додељивање права оплемењивача;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac11">
+							<num>11)</num>
+							<content>
+								<p>  Регистар заштићених биљних сорти јесте регистар у који се уписују заштићене сорте и додељено право оплемењивача;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac12">
+							<num>12)</num>
+							<content>
+								<p> Регистар пренесених права оплемењивача јесте регистар у који се уписују пренесена права оплемењивача;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac13">
+							<num>13)</num>
+							<content>
+								<p>  Регистар уговора о лиценци јесте регистар у који се уписују уступљена права искоришћавања заштићене сорте;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac14">
+							<num>14)</num>
+							<content>
+								<p>  UPOV јесте Међународна унија за заштиту нових биљних сорти.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<heading>Стручни савет за заштиту права оплемењивача биљних сорти</heading>
+					<paragraph wId="gla1-clan3-stav1">
+						<content>
+							<p>Послове заштите права оплемењивача који су одређени овим законом у Републици Србији обавља министарство надлежно за послове пољопривреде (у даљем тексту: Министарство).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav2">
+						<content>
+							<p>Ради праћења стања у области заштите права оплемењивача, разматрања стручних питања, давања стручних мишљења и предлога, као и учешћа у реализацији пројектних задатака у области заштите права оплемењивача, министар надлежан за послове пољопривреде (у даљем тексту: министар), у складу са прописима којима се уређује државна управа, решењем оснива посебну радну групу – Стручни савет за заштиту права оплемењивача биљних сорти (у даљем тексту: Стручни савет).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<heading>Положај оплемењивача у погледу права на заштиту права оплемењивача</heading>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>Право оплемењивача додељује се оплемењивачу сорте.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav2">
+						<content>
+							<p>Ако су два или више оплемењивача заједно   створили или открили и развили сорту имају једнако право на заштиту права оплемењивача.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav3">
+						<content>
+							<p>Ако су два или више оплемењивача, независно један од другог,  створили или открили и развили сорту, право оплемењивача има оплемењивач који је први поднео захтев за додељивање права оплемењивача биљне сорте.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav4">
+						<content>
+							<p>*<ref wId="ref2" href="akn/rs/act/2011/88/srp@">Службени гласник РС,  број 88/2011</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan5">
+					<num>5.</num>
+					<heading>Положај страног лица у погледу заштите права оплемењивача</heading>
+					<paragraph wId="gla1-clan5-stav1">
+						<content>
+							<p>Страна лица у погледу заштите права оплемењивача у Републици Србији имају иста права као и домаћа лица, ако то произлази из међународних уговора који обавезују Републику Србију.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav2">
+						<content>
+							<p>Страно лице у поступку заштите права оплемењивача мора да заступа овлашћени заступник који има седиште у Републици Србији.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>УСЛОВИ ЗА ДОДЕЉИВАЊЕ ПРАВА ОПЛЕМЕЊИВАЧА</heading>
+				<article wId="gla2-clan6">
+					<num>6.</num>
+					<heading>Општи услови за додељивање права оплемењивача</heading>
+					<paragraph wId="gla2-clan6-stav1">
+						<content>
+							<p>Право оплемењивача додељује се ако је сорта нова, различита, униформна, стабилна и ако испуњава услове за давање имена сорте, у складу са одредбама овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan7">
+					<num>7.</num>
+					<heading>Новитет сорте</heading>
+					<paragraph wId="gla2-clan7-stav1">
+						<content>
+							<p>Сорта се сматра новом ако на дан подношења захтева за додељивање права оплемењивача биљне сорте репродукциони или убрани материјал те сорте није продат или на други начин отуђен од стране оплемењивача или уз његову сагласност, а ради њеног коришћења у Републици Србији дуже од једне године или на територији друге државе дуже од четири године, односно дуже од шест година у случају винове лозе, дрвенастих воћних врста и осталог дрвећа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav2">
+						<intro>
+							<p>Сорта из <ref wId="ref3" href="akn/rs/act/2011/88-65/srp@/!main~art_7__para_1" >става 1. овог</ref> члана сматра се новом и ако је отуђена на неки од следећих начина:</p>
+						</intro>
+						<point wId="gla2-clan7-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> уговором о преносу права на сорту правном следбенику;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> уговором о отуђењу материјала сорте између привредних друштава повезаних  капиталом где је једно од тих привредних друштава власник другог или између  привредних друштава која су у власништву трећег привредног друштва, под условом  да отуђење материјала сорте није у сврху коришћења сорте;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> уговором на основу кога се у име оплемењивача  умножава репродукциони материјал сорте и на основу кога се власништво умноженог  материјала враћа оплемењивачу;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> уговором на основу кога се предузимају испитивања на огледном пољу и у лабораторији, ради вредновања сорте.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav3">
+						<content>
+							<p>Сорта из <ref wId="ref4" href="akn/rs/act/2011/88-65/srp@/!main~art_7__para_1" >става 1. овог</ref> члана сматра се новом и ако је располагање том сортом од стране оплемењивача резултат представљања те сорте на изложбама које су званично признате у смислу Конвенције о међународним изложбама закључене 22. новембра 1928. године у Паризу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav4">
+						<content>
+							<p>*<ref wId="ref5" href="akn/rs/act/2011/88/srp@">Службени гласник РС,  број 88/2011</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan8">
+					<num>8.</num>
+					<heading>Различитост сорте</heading>
+					<paragraph wId="gla2-clan8-stav1">
+						<content>
+							<p>Сорта се сматра различитом ако се јасно разликује у односу на било коју другу сорту чије је постојање општепознато у време подношења захтева за додељивање права оплемењивача биљне сорте.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav2">
+						<content>
+							<p>Ако је поднет захтев за додељивање права оплемењивача биљне сорте или захтев за упис неке сорте у званични регистар сорти у било којој држави или међувладиној организацији, таква сорта сматра се општепознатом од дана подношења захтева, под условом да је на основу таквог захтева додељено право оплемењивача, односно одобрен упис такве сорте у званични регистар сорти.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav3">
+						<content>
+							<p>Министар прописује методе испитивања различитости сорте.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav4">
+						<content>
+							<p>*<ref wId="ref6" href="akn/rs/act/2011/88/srp@">Службени гласник РС,  број 88/2011</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan9">
+					<num>9.</num>
+					<heading>Униформност сорте</heading>
+					<paragraph wId="gla2-clan9-stav1">
+						<content>
+							<p>Сорта се сматра униформном ако је довољно уједначена у  изражавању релевантних особина, с обзиром на одступања која се могу очекивати због особености њеног умножавања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav2">
+						<content>
+							<p>Министар прописује методе испитивања униформности сорте.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav3">
+						<content>
+							<p>*<ref wId="ref7" href="akn/rs/act/2011/88/srp@">Службени гласник РС,  број 88/2011</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan10">
+					<num>10.</num>
+					<heading>Стабилност сорте</heading>
+					<paragraph wId="gla2-clan10-stav1">
+						<content>
+							<p>Сорта се сматра стабилном ако  њене релевантне особине остају непромењене и после поновљеног умножавања или у случају појединачног циклуса умножавања после сваког таквог циклуса.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav2">
+						<content>
+							<p>Министар прописује методе испитивања стабилности сорте.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav3">
+						<content>
+							<p>*<ref wId="ref8" href="akn/rs/act/2011/88/srp@">Службени гласник РС,  број 88/2011</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan11">
+					<num>11.</num>
+					<heading>Име сорте</heading>
+					<paragraph wId="gla2-clan11-stav1">
+						<content>
+							<p>Сорта се означава именом које је њена својствена ознака.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav2">
+						<intro>
+							<p>Име сорте:</p>
+						</intro>
+						<point wId="gla2-clan11-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> мора бити такво да се на основу њега може извршити идентификација сорте;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> не може се састојати само од бројева, осим у случају када такав начин означавања сорте представља уобичајену праксу;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> мора бити такво да не доводи у забуну или проузрокује недоумице у погледу  особина, вредности или идентитета сорте, односно идентитета оплемењивача, а  нарочито се мора разликовати од сваког имена које на територији других чланица  UPOV-а носи нека друга сорта која припада истој или блиској биљној врсти;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> брисана је (види <ref wId="ref9" href="akn/rs/act/2011/88/srp@/!main~/art_7">члан 7. Закона - 88/2011-65</ref>)</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav2-tac5">
+							<num>5)</num>
+							<content>
+								<p> брисана је (види <ref wId="ref10" href="akn/rs/act/2011/88/srp@/!main~/art_7">члан 7. Закона - 88/2011-65</ref>)</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav2-tac6">
+							<num>6)</num>
+							<content>
+								<p>  брисана је (види <ref wId="ref11" href="akn/rs/act/2011/88/srp@/!main~/art_7">члан 7. Закона - 88/2011-65</ref>)</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav2-tac7">
+							<num>7)</num>
+							<content>
+								<p> не сме бити неподесно за употребу у Републици Србији.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav3">
+						<content>
+							<p>Ако је сорта заштићена у чланици  UPOV-а или ако је захтев за додељивање права оплемењивача биљне сорте за исту сорту поднет у чланици UPOV-а, оплемењивач који подноси захтев за додељивање права оплемењивача биљне сорте у Републици Србији може предложити само име сорте које је већ предложено или уписано у регистар у тој чланици UPOV-а.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav4">
+						<content>
+							<p>На раније стечена права трећих лица не сме се утицати. Ако се због раније стеченог права трећег лица коришћење имена сорте забрани лицу које је у обавези да га користи, Министарство ће захтевати од оплемењивача да предложи друго име за сорту.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav5">
+						<content>
+							<p>Министар прописује биљне врсте које се сматрају међусобно блиским.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav6">
+						<content>
+							<p>*<ref wId="ref12" href="akn/rs/act/2011/88/srp@">Службени гласник РС,  број 88/2011</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan12">
+					<num>12.</num>
+					<heading>Предлагање имена сорте</heading>
+					<paragraph wId="gla2-clan12-stav1">
+						<content>
+							<p>Оплемењивач је дужан да у захтеву за додељивање права оплемењивача биљне сорте предложи име сорте.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan12-stav2">
+						<content>
+							<p>Министарство обавештава надлежне органе свих чланица  UPOV-а о питањима која се односе на име сорте, а нарочито о предлогу, регистрацији и укидању имена сорте.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan12-stav3">
+						<content>
+							<p>Надлежни органи чланица  UPOV-а могу своје примедбе на име сорте да доставе Министарству.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan12-stav4">
+						<content>
+							<p>*<ref wId="ref13" href="akn/rs/act/2011/88/srp@">Службени гласник РС,  број 88/2011</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan13">
+					<num>13.</num>
+					<heading>Укидање регистрованог имена сорте</heading>
+					<paragraph wId="gla2-clan13-stav1">
+						<content>
+							<p>Министарство ће укинути регистровано име сорте ако је оно у супротности са одредбама <ref wId="ref14" href="akn/rs/act/2011/88-65/srp@/!main~art_11" >члана 11. овог</ref> закона, као и на основу одлуке суда о забрани коришћења таквог имена.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan13-stav2">
+						<content>
+							<p>Ако је име сорте укинуто, Министарство о томе обавештава оплемењивача и позива га да предложи ново име сорте у року од 60 дана од дана пријема обавештења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan13-stav3">
+						<content>
+							<p>*<ref wId="ref15" href="akn/rs/act/2011/88/srp@">Службени гласник РС,  број 88/2011</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan14">
+					<num>14.</num>
+					<heading>Обавеза коришћења регистрованог имена сорте</heading>
+					<paragraph wId="gla2-clan14-stav1">
+						<content>
+							<p>Лице које нуди на продају или ставља у промет репродукциони материјал заштићене сорте дужно је да користи регистровано име те сорте.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan14-stav2">
+						<content>
+							<p>Обавеза коришћења регистрованог имена сорте не престаје истеком периода трајања права оплемењивача на заштићену сорту из <ref wId="ref16" href="akn/rs/act/2011/88-65/srp@/!main~art_23" >члана 23. овог</ref> закона, осим у случају када раније стечена права трећих лица онемогућавају коришћење тог имена.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan14-stav3">
+						<content>
+							<p>Када се заштићена сорта нуди на продају или ставља у промет дозвољено је уз регистровано име те сорте користити и заштитни знак, трговачки назив или другу сличну ознаку, под условом да име сорте остаје лако препознатљиво.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>ПОСТУПАК ЗА ДОДЕЉИВАЊЕ ПРАВА ОПЛЕМЕЊИВАЧА БИЉНЕ СОРТЕ</heading>
+				<article wId="gla3-clan15">
+					<num>15.</num>
+					<heading>Захтев за додељивање права оплемењивача биљне сорте</heading>
+					<paragraph wId="gla3-clan15-stav1">
+						<content>
+							<p>Поступак за додељивање права оплемењивача биљне сорте покреће се на основу захтева за додељивање права оплемењивача биљне сорте који оплемењивач, односно његов овлашћени заступник подноси Министарству (у даљем тексту: захтев за додељивање права оплемењивача).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav2">
+						<content>
+							<p>Уз захтев из <ref wId="ref17" href="akn/rs/act/2011/88-65/srp@/!main~art_15__para_1" >става 1. овог</ref> члана оплемењивач, односно његов овлашћени заступник дужан је да достави документацију о стварању сорте и предлог имена сорте, а на захтев Министарства дужан је да достави и одговарајуће узорке репродукционог материјала сорте ради испитивања, у циљу утврђивања испуњености услова за додељивање права оплемењивача.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav3">
+						<content>
+							<p>Материјал сорте за коју је поднет захтев за додељивање права оплемењивача и приложена документација сматрају се службеном тајном и са њима се поступа као са поверљивим подацима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav4">
+						<content>
+							<p>Министар прописује образац и садржину захтева за додељивање права оплемењивача, као и потребну документацију, количину и начин достављања узорака из <ref wId="ref18" href="akn/rs/act/2011/88-65/srp@/!main~art_15__para_2" >става 2. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan16">
+					<num>16.</num>
+					<heading>Испитивање уредности захтева за додељивање права оплемењивача</heading>
+					<paragraph wId="gla3-clan16-stav1">
+						<content>
+							<p>По пријему захтева за додељивање права оплемењивача, Министарство утврђује да ли је захтев уредан и да ли испуњава услове прописане овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan16-stav2">
+						<content>
+							<p>Ако утврди да захтев није уредан, Министарство ће, уз навођење разлога, позвати  оплемењивача, односно његовог овлашћеног заступника да у року од 60 дана од дана пријема обавештења отклони утврђене недостатке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan16-stav3">
+						<content>
+							<p>Ако оплемењивач, односно његов овлашћени заступник у одређеном року не отклони недостатке, министар ће захтев закључком одбацити.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan16-stav4">
+						<content>
+							<p>Закључак из <ref wId="ref19" href="akn/rs/act/2011/88-65/srp@/!main~art_16__para_3" >става 3. овог</ref> члана је коначан и против њега се може покренути управни спор.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan16-stav5">
+						<content>
+							<p>*<ref wId="ref20" href="akn/rs/act/2011/88/srp@">Службени гласник РС,  број 88/2011</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan17">
+					<num>17.</num>
+					<heading>Упис захтева за додељивање права оплемењивача и предложеног имена сорте у Регистар захтева</heading>
+					<paragraph wId="gla3-clan17-stav1">
+						<content>
+							<p>Захтев за додељивање права оплемењивача за који Министарство утврди да је уредан и предложено име сорте уписују се у Регистар захтева за додељивање права оплемењивача биљних сорти (у даљем тексту: Регистар захтева), који води Министарство и објављују на интернет страници Министарства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan17-stav2">
+						<content>
+							<p>Изузетно од <ref wId="ref21" href="akn/rs/act/2011/88-65/srp@/!main~art_17__para_1" >става 1. овог</ref> члана, предложено име сорте неће се уписати у Регистар захтева, односно објавити на интернет страници Министарства ако се утврди да је предложено име неподесно за употребу у Републици Србији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan17-stav3">
+						<content>
+							<p>У случају из <ref wId="ref22" href="akn/rs/act/2011/88-65/srp@/!main~art_17__para_2" >става 2. овог</ref> члана Министарство ће од оплемењивача затражити да предложи друго име сорте у року од три месеца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan17-stav4">
+						<content>
+							<p>Министар ће решењем одбити предлог за име сорте, ако утврди да је предложено име у супротности са одредбама <ref wId="ref23" href="akn/rs/act/2011/88-65/srp@/!main~art_11" >члана 11. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan17-stav5">
+						<intro>
+							<p>Регистар захтева нарочито садржи:</p>
+						</intro>
+						<point wId="gla3-clan17-stav5-tac1">
+							<num>1)</num>
+							<content>
+								<p> име и презиме оплемењивача, односно његовог овлашћеног заступника;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan17-stav5-tac2">
+							<num>2)</num>
+							<content>
+								<p> адресу пребивалишта, односно седишта оплемењивача, односно његовог овлашћеног заступника;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan17-stav5-tac3">
+							<num>3)</num>
+							<content>
+								<p> предложено име сорте и биљну врсту;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan17-stav5-tac4">
+							<num>4)</num>
+							<content>
+								<p> датум и време подношења захтева за додељивање права оплемењивача.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan17-stav6">
+						<content>
+							<p>Подаци из Регистра захтева су јавни, осим података који се сматрају поверљивим у складу са <ref wId="ref24" href="akn/rs/act/2011/88-65/srp@/!main~art_15__para_3" >чланом 15. став 3. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan17-stav7">
+						<content>
+							<p>Решење министра из <ref wId="ref25" href="akn/rs/act/2011/88-65/srp@/!main~art_17__para_4" >става 4. овог</ref> члана је коначно и против њега се може покренути управни спор.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan17-stav8">
+						<content>
+							<p>Министар прописује ближу садржину и начин вођења Регистра захтева.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan18">
+					<num>18.</num>
+					<heading>Право приоритета на додељивање права оплемењивача</heading>
+					<paragraph wId="gla3-clan18-stav1">
+						<content>
+							<p>Оплемењивач који је уредно поднео захтев за додељивање права оплемењивача код надлежног органа друге чланице UPOV-а (у даљем тексту: први захтев) има право приоритета на додељивање права оплемењивача у Републици Србији у периоду од 12 месеци од дана подношења првог захтева, с тим што се дан подношења првог захтева не рачуна у овај период.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan18-stav2">
+						<content>
+							<p>Ради стицања права приоритета на додељивање права оплемењивача оплемењивач је дужан да се приликом подношења захтева за додељивање права оплемењивача позове на приоритет првог захтева и да у року од три месеца од дана подношења захтева за додељивање права оплемењивача Министарству достави:</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

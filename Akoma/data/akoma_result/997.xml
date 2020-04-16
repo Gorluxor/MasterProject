@@ -1,0 +1,5338 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о потврђивању Финансијског уговора „Апекс зајам за мала и средња предузећа и друге приоритете III/Б” између Републике Србије и Европске инвестиционе банке и Народне банке Србије">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2016/10-84/main"/>
+					<FRBRuri value="/rs/act/2016/10-84"/>
+					<FRBRdate date="2016-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2016/10-84/srp@/main"/>
+					<FRBRuri value="/rs/act/2016/10-84/srp@"/>
+					<FRBRdate date="2016-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2016/10-84/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2016/10-84/srp@.akn"/>
+					<FRBRdate date="2016-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2016-11-15" name="службени гласник рс - међународни уговори" number="10" showAs="Службени гласник РС - Међународни уговори"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="V МОНЕТАРНА ПОЛИТИКА, ФИНАНСИЈСКЕ ОРГАНИЗАЦИЈЕ И ФИНАНСИЈСКО ПОСЛОВАЊЕ" value="v монетарна политика, финансијске организације и финансијско пословање" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="3. Задуживање у иностранству, донације и бесповратна помоћ" value="3. задуживање у иностранству, донације и бесповратна помоћ" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2016-11-10" wId="usvajanje"/>
+				<step by="#TODO" date="2016-11-23" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2016-11-23" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p/>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О потврђивању финансијског уговора „апекс зајам за мала и средња предузећа и друге приоритете iii/б” између републике србије и европске инвестиционе банке и народне банке србије "Службени гласник РС - Међународни уговори", број 10 од 15. новембра 2016.</p>
+			</longTitle>
+			<p>Томислав Николић, с.р.</p>
+		</preface>
+		<preamble>
+			<p>На основу члана 112. став 1. тачка 2. Устава Републике Србије, доносим</p>
+			<p>УКАЗ</p>
+			<p>о проглашењу Закона о потврђивању Финансијског уговора „Апекс зајам за мала и средња предузећа и друге приоритете III/Б” између Републике Србије и Европске инвестиционе банке и Народне банке Србије</p>
+			<p>Проглашава се Закон о потврђивању Финансијског уговора „Апекс зајам за мала и средња предузећа и друге приоритете III/Б” између Републике Србије и Европске инвестиционе банке и Народне банке Србије, који је донела Народна скупштина Републике Србије, на Трећој седници Другог редовног заседања у 2016. години, 10. новембра 2016. године.</p>
+			<p>ПР број 51</p>
+			<p>У Београду, 14. новембра 2016. године</p>
+			<p>Председник Републике,</p>
+		</preamble>
+		<body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Потврђује се Финансијски уговор „Апекс зајам за мала и средња предузећа и друге приоритете III/Б” између Републике Србије и Европске инвестиционе банке и Народне банке Србије, који је потписан 13. јуна 2016. године у Београду, у оригиналу на енглеском језику.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Текст Финансијског уговора „Апекс зајам за мала и средња предузећа и друге приоритете III/Б” између Републике Србије и Европске инвестиционе банке и Народне банке Србије, у оригиналу на енглеском језику и у преводу на српски језик гласи:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>FI N° 82.642 (RS)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav3">
+					<content>
+						<p>SERAPIS N. 2013-0072</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav4">
+					<content>
+						<p>APEX LOAN FOR SMES AND OTHER PRIORITIES III / B</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav5">
+					<content>
+						<p>Finance Contract</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav6">
+					<content>
+						<p>between</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav7">
+					<content>
+						<p>Republic of Serbia</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav8">
+					<content>
+						<p>and the</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav9">
+					<content>
+						<p>European Investment Bank</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav10">
+					<content>
+						<p>and the</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav11">
+					<content>
+						<p>National Bank of Serbia</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav12">
+					<content>
+						<p>Belgrade, 13 June 2016</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav13">
+					<content>
+						<p>THIS CONTRACT IS MADE BETWEEN:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav14">
+					<content>
+						<p>the Republic of Serbia, represented by theMinistry of Finance, Mr. Dušan Vujović, Ph.D., on behalf of the Government as representative of the Republic of Serbia,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav15">
+					<content>
+						<p>hereinafter called: the “Borrower”</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav16">
+					<content>
+						<p>of the first part,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav17">
+					<content>
+						<p>the European Investment Bank having its seat at 100 boulevard Konrad Adenauer, Luxembourg, L-2950 Luxembourg, represented by the Vice-President, Mr Dario Scannapieco,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav18">
+					<content>
+						<p>hereinafter called: the “Bank”</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav19">
+					<content>
+						<p>of the second part, and</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav20">
+					<content>
+						<p>the National Bank of Serbia, having its seat in Belgrade, acting as agent of the Borrower, represented by the Governor Ms. Jorgovanka Tabaković</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav21">
+					<content>
+						<p>hereinafter called: the “Agent”</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav22">
+					<content>
+						<p>of the third part.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav23">
+					<intro>
+						<p>WHEREAS:</p>
+					</intro>
+					<point wId="clan2-stav23-tac1">
+						<num>1)</num>
+						<content>
+							<p> The Borrower has requested the Bank to establish in its favour a credit in a total amount equivalent to EUR 500,000,000.00 (five hundred million euro) (hereinafter referred to as the “Approved Credit”) to be used for the financing in the Republic of Serbia of (i) small and medium sized projects (“SME and Mid-Cap Projects” including WB JfY Project as defined below) carried out by small and medium-sized enterprises (“SMEs”) and mid-cap enterprises (“Mid-Caps”), and (ii) priority investments of limited scale promoted by final beneficiaries of any size in the fields of knowledge economy, energy, environmental protection, health and education (“Priorities Projects” and together the SME and Mid-Cap Projects, each a “Project” or a “SME and Priority Projects”).</p>
+						</content>
+					</point>
+					<point wId="clan2-stav23-tac2">
+						<num>2)</num>
+						<content>
+							<p> The eligibility criteria and allocation procedures for the SME and Priority Projects will be set out in side-letters issued by the Bank (hereinafter called the “Side-Letters” or individually a “Side-Letter”) that can be modified at the Bank’s sole discretion from time to time subject to the notice period as set forth in the Side-Letters and provided that such modifications shall not apply to SME and Priority Projects that were already approved for allocation by the Bank. At least 70% (seventy per cent.) of the Credit (as defined below) shall be allocated to eligible SMEs and Mid-Caps out of which up to 30% (thirty per cent.) for Mid-Caps, and up to 30% (thirty per cent.) of the Credit shall be allocated to Priority Projects. The SME and Priority Projects are required to be eligible for financing by the Bank having regard to the Bank’s Statutes and to the provisions of Article 309 of the Treaty in the Functioning of the European Union and the provisions of this finance contract. Up to an amount of EUR 75,000,000.00 (seventy five million euros) shall be allocated to WB JfY Projects.</p>
+						</content>
+					</point>
+					<point wId="clan2-stav23-tac3">
+						<num>3)</num>
+						<content>
+							<p> The provision of finance for each project is to be the subject of (i) a loan agreement between the Agent, on behalf of the Borrower, and the relevant Intermediary for the purpose of onlending funds disbursed hereunder (each hereinafter called an “Intermediary Agreement”) and (ii) a loan agreement (each hereinafter called an “Onlending Agreement”) between an Intermediary and each enterprise which is to carry out the project in question (each hereinafter called a “Final Beneficiary”), for the purpose of onlending to such enterprise funds disbursed under an Intermediary Agreement. The administration of the loan to be provided hereunder will be carried out for the Borrower by the Agent. Certain of the financial advantages provided by the Bank to the Borrower pursuant to this finance contract shall be passed on to the Final Beneficiaries, as detailed in this finance contract. The Intermediary Agreements and Оnlending Agreements have to respect provisions of this finance contract and of the Side-Letter(s).</p>
+						</content>
+					</point>
+					<point wId="clan2-stav23-tac4">
+						<num>4)</num>
+						<content>
+							<p> The Bank, considering that the financing of the SME and Priority Projects falls within the scope of its functions, and having regard to the statements and facts cited in these Recitals, has decided to give effect to the Borrower’s request providing to it a second credit in an amount equivalent to EUR 150,000,000.00 (one hundred and fifty million euro) on the terms and conditions set out in this contract (the “Contract”).</p>
+						</content>
+					</point>
+					<point wId="clan2-stav23-tac5">
+						<num>5)</num>
+						<content>
+							<p> By Decision No. 466/2014/EU the European Parliament and the Council of the European Union have decided to grant a guarantee to the Bank against losses incurred by it under loans and loan guarantees granted from 2014 to 2020 in accordance with its own rules and procedures for projects carried out in certain countries outside the European Union listed in the said Decision;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav23-tac6">
+						<num>6)</num>
+						<content>
+							<p> On 11 May 2009 the Republic of Serbia (formerly Federal Republic of Yugoslavia) concluded with the Bank a Framework Agreement governing the Bank’s activities in the territory of the Republic of Serbia (hereinafter the “Framework Agreement”);</p>
+						</content>
+					</point>
+					<point wId="clan2-stav23-tac7">
+						<num>7)</num>
+						<content>
+							<p> The Government of the Republic of Serbia acknowledges that the loan financing to be provided hereunder falls within the scope of the Framework Agreement; the Borrower confirms the Bank’s preferred creditor status as an international financial institution;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav23-tac8">
+						<num>8)</num>
+						<content>
+							<p> By Article 3 of the Framework Agreement, the Republic of Serbia agreed that interest and all other payments due to the Bank and arising out of activities envisaged by the Framework Agreement, as well as the assets and revenues of the Bank connected with such activities, shall be exempt from tax;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav23-tac9">
+						<num>9)</num>
+						<content>
+							<p> By Article 4 of the Framework Agreement, the Republic of Serbia agreed that throughout the life of any financial operation concluded pursuant to the Framework Agreement it shall:</p>
+						</content>
+					</point>
+				</paragraph>
+				<paragraph wId="clan2-stav24">
+					<content>
+						<p>(a) ensure (i) that Final Beneficiaries may convert into any fully convertible currency, at the prevailing market exchange rate, the amounts in the national currency of the Republic of Serbia necessary for the timely payment of all sums due to the Bank in respect of loans and guarantees in connection with any project; and (ii) that such amounts shall be freely, immediately and effectively transferable outside the territory of the Republic of Serbia in accordance with the terms of the relevant contractual or other instrument;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav25">
+					<intro>
+						<p>(b) ensure (i) that the Bank may convert into any fully convertible currency, at the prevailing market exchange rate, the amounts in the national currency of the Republic of Serbia received by the Bank by way of payments arising in respect of loans and guarantees or any other activity and that the Bank may freely, immediately and effectively transfer the amounts so converted outside the territory of the Republic of Serbia to such bank accounts as the Bank may freely determine; or, at the Bank’s option, (ii) that it may freely dispose of such amounts within the territory of the Republic of Serbia; and (iii) that the Bank may convert into the national currency of the Republic of Serbia, at the prevailing market exchange rate, any amounts in any fully convertible currency;</p>
+					</intro>
+					<point wId="clan2-stav25-tac10">
+						<num>10)</num>
+						<content>
+							<p> The Bank has launched an initiative titled “Western Balkans Jobs for Youth” (“WB Jobs for Youth Initiative”) to support the employment of young people by SMEs and Midcaps. The Bank has invited the Borrower to participate in the WB Jobs for Youth Initiative on the terms set out in this Contract and the Side-Letter. The Borrower has indicated that it wishes to participate in the WB Jobs for Youth Initiative and to target certain SMEs and Midcaps that promote Projects that satisfy the eligibility criteria of the WB Jobs for Youth Initiative, as further defined in the Side-Letter and this Contract (each such Project being referred to as a “WB JfY Project”).</p>
+						</content>
+					</point>
+					<point wId="clan2-stav25-tac11">
+						<num>11)</num>
+						<content>
+							<p> The Statute of the Bank provides that the Bank shall ensure that its funds are used as rationally as possible in the interests of the European Union; and, accordingly, the terms and conditions of the Bank’s loan operations must be consistent with relevant policies of the European Union.</p>
+						</content>
+					</point>
+					<point wId="clan2-stav25-tac12">
+						<num>12)</num>
+						<content>
+							<p> The Bank considers that access to information plays an essential role in the reduction of environmental and social risks, including human rights violations, linked to the projects it finances and has therefore established its Transparency policy, the purpose of which is to enhance the accountability of the EIB Group towards its stakeholders and the citizens of the European Union in general.</p>
+						</content>
+					</point>
+					<point wId="clan2-stav25-tac13">
+						<num>13)</num>
+						<content>
+							<p> The processing of personal data shall be carried out by the Bank in accordance with applicable European Union legislation on the protection of individuals with regard to the processing of personal data by the EC institutions and bodies and on the free movement of such data.</p>
+						</content>
+					</point>
+				</paragraph>
+				<paragraph wId="clan2-stav26">
+					<content>
+						<p>NOW THEREFORE it is hereby agreed as follows:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav27">
+					<content>
+						<p>INTERPRETATION AND DEFINITIONS</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav28">
+					<content>
+						<p>(a) Interpretation</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav29">
+					<content>
+						<p>In this Contract:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav30">
+					<content>
+						<p>(i) references to Articles, Recitals and Schedules are, save if explicitly stipulated otherwise, references respectively to articles of, and recitals, schedules and annexes to this Contract;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav31">
+					<content>
+						<p>(ii) references to a provision of law are references to that provision as amended or re-enacted; and</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav32">
+					<content>
+						<p>(iii) references to any other agreement or instrument are references to that other agreement or instrument as amended, novated, supplemented, extended or restated.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav33">
+					<content>
+						<p>(b) Definitions</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav34">
+					<content>
+						<p>In this Contract:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav35">
+					<content>
+						<p>“Acceptance Deadline” for a notice means:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav36">
+					<content>
+						<p>(a) 16h00 Luxembourg time on the day of delivery, if the notice is delivered by 14h00 Luxembourg time on a Business Day; or</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav37">
+					<content>
+						<p>(b) 11h00 Luxembourg time on the next following day which is a Business Day, if the notice is delivered after 14h00 Luxembourg time on any such day or is delivered on a day which is not a Business Day.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav38">
+					<content>
+						<p>“Allocation” has the meaning given to it in Article 1.08B.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav39">
+					<content>
+						<p>“Allocation Period” means the period between the date of the signature of this Contract and 15 March 2019.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav40">
+					<content>
+						<p>“Allocation Request” has the meaning given to it in Article 1.08A.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav41">
+					<content>
+						<p>“Authorisation” means an authorisation, permit, consent, approval, resolution, licence, exemption, filing, notarisation or registration.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav42">
+					<content>
+						<p>“Business Day” means a day (other than a Saturday or Sunday) on which the Bank and commercial banks are open for general business in Luxembourg and in Belgrade.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav43">
+					<content>
+						<p>“Change-of-Law Event” has the meaning given to it in Article 4.03A(3).</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav44">
+					<content>
+						<p>“Contract” has the meaning given to it in Recital (4).</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav45">
+					<content>
+						<p>“Credit” has the meaning given to it in Article 1.01.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav46">
+					<content>
+						<p>“Criminal offence” means any of the following criminal offences as applicable: fraud, corruption, coercion, collusion, obstruction, money laundering, financing of terrorism.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav47">
+					<intro>
+						<p>“Deferment Indemnity” means an indemnity calculated on the amount of disbursement deferred or suspended at the percentage rate (if higher than zero) by which:</p>
+					</intro>
+					<alinea wId="clan2-stav47-ali1">
+						<content>
+							<p>he interest rate that would have been applicable to such amount had it been disbursed to the Borrower on the Scheduled Disbursement Date</p>
+						</content>
+					</alinea>
+				</paragraph>
+				<paragraph wId="clan2-stav48">
+					<intro>
+						<p>exceeds</p>
+					</intro>
+					<alinea wId="clan2-stav48-ali1">
+						<content>
+							<p>he Relevant Interbank Rate (one month rate) less 0.125% (12.5 basis points), unless this value is less than zero, in which case it will be set at zero.</p>
+						</content>
+					</alinea>
+				</paragraph>
+				<paragraph wId="clan2-stav49">
+					<content>
+						<p>Such indemnity shall accrue from the Scheduled Disbursement Date to the Disbursement Date or, as the case may be, until the date of cancellation of the Notified Tranche in accordance with this Contract.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav50">
+					<content>
+						<p>“Disbursement Date” means the date on which actual disbursement of a Tranche is made by the Bank.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav51">
+					<content>
+						<p>“Disbursement Notice” means a notice from the Bank to the Borrower pursuant to and in accordance with Article 1.02C.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav52">
+					<content>
+						<p>“Disbursement Request” means a notice substantially in the form set out in Schedule C1.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav53">
+					<content>
+						<p>“Disruption Event” means either or both of:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav54">
+					<content>
+						<p>(a) a material disruption to those payment or communications systems or to those financial markets which are, in each case, required to operate in order for payments to be made in connection with this Contract; or</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav55">
+					<content>
+						<p>(b) the occurrence of any other event which results in a disruption (of a technical or systems-related nature) to the treasury or payments operations of either the Bank or the Borrower, preventing that party:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav56">
+					<content>
+						<p>(i) from performing its payment obligations under this Contract; or</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav57">
+					<content>
+						<p>(ii) from communicating with other parties,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav58">
+					<content>
+						<p>and which disruption (in either such case as per (a) or (b) above) is not caused by, and is beyond the control of, the party whose operations are disrupted.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav59">
+					<content>
+						<p>“EIB Allocation Report” has the meaning given to it in Article 1.08F.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav60">
+					<content>
+						<p>“EIB Decision” means 16 July 2013, the date on which the Management Committee of the EIB approved the transaction.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav61">
+					<content>
+						<p>“Environment” means the following, in so far as they affect human health and social well-being:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav62">
+					<content>
+						<p>(a) fauna and flora;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav63">
+					<content>
+						<p>(b) soil, water, air, climate and the landscape; and</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav64">
+					<content>
+						<p>(c) cultural heritage and the built environment,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav65">
+					<content>
+						<p>and includes, without limitation, occupational and community health and safety.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav66">
+					<content>
+						<p>“Environmental Law” means:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav67">
+					<content>
+						<p>(a) EU law, including principles and standards;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav68">
+					<content>
+						<p>(b) laws and regulations of Republic of Serbia; and</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav69">
+					<content>
+						<p>(c) applicable international treaties</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav70">
+					<content>
+						<p>of which a principal objective is the preservation, protection or improvement of the Environment.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav71">
+					<content>
+						<p>“Environmental or Social Approval” means any permit, licence, authorisation, consent or other approval required by an Environmental Law or a Social Law in connection with the construction or operation of a Project.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav72">
+					<content>
+						<p>“Environmental or Social Claim” means any claim, proceeding, formal notice or investigation by any person in respect of the Environment or Social Matters affecting the Project including any breach or alleged breach of any Environmental and Social Standard.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav73">
+					<content>
+						<p>“EU” means the European Union.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav74">
+					<content>
+						<p>“EURIBOR” has the meaning given to it in Schedule B.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav75">
+					<content>
+						<p>“EUR” or “euro” means the lawful currency of the Member States of the European Union which adopt or have adopted it as their currency in accordance with the relevant provisions of the Treaty on European Union and the Treaty on the Functioning of the European Union or their succeeding treaties.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav76">
+					<content>
+						<p>“Event of Default” means any of the circumstances, events or occurrences specified in Article 10.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav77">
+					<content>
+						<p>“Final Availability Date” means 15 June 2019 or a later date if approved in writing by the Bank upon formal request in writing of the Borrower.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav78">
+					<content>
+						<p>“Final Beneficiaries” has the meaning given to it in Recital (3).</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav79">
+					<content>
+						<p>“Financing of Terrorism” means the provision or collection of funds, by any means, directly or indirectly, with the intention that they should be used or in the knowledge that they are to be used, in full or in part, in order to carry out any of the offences within the meaning of Articles 1 to 4 of the EU Council Framework Decision 2002/475/JHA of 13 June 2002 on combating terrorism.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav80">
+					<content>
+						<p>“Fixed Rate” means an annual interest rate determined by the Bank in accordance with the applicable principles from time to time laid down by the governing bodies of the Bank for loans made at a fixed rate of interest, denominated in the currency of the Tranche and bearing equivalent terms for the repayment of capital and the payment of interest.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav81">
+					<content>
+						<p>“Fixed Rate Tranche” means a Tranche on which Fixed Rate is applied.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav82">
+					<content>
+						<p>“Floating Rate” means a fixed-spread floating interest rate, that is to say an annual interest rate determined by the Bank for each successive Floating Rate Reference Period equal to the Relevant Interbank Rate plus the Spread.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav83">
+					<content>
+						<p>“Floating Rate Reference Period” means each period from one Payment Date to the next relevant Payment Date and the first Floating Rate Reference Period shall commence on the date of disbursement of the Tranche.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav84">
+					<content>
+						<p>“Floating Rate Tranche” means a Tranche on which Floating Rate is applied.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav85">
+					<content>
+						<p>“GAAP” means generally accepted accounting principles in Republic of Serbia, including IFRS as provided for under the Serbian Law on Accounting (Official Gazette of the Republic of Serbia No 62/13).</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav86">
+					<content>
+						<p>“GBP” means the lawful currency of the United Kingdom.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav87">
+					<content>
+						<p>“Guide to Procurement” means the Guide to Procurement published on EIB’s website1 that informs the promoters of projects financed in whole or in part by the EIB of the arrangements to be made for procuring works, goods and services required for the Project.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav88">
+					<content>
+						<p>“IFRS” means international accounting standards within the meaning of IAS Regulation 1606/2002 to the extent applicable to the relevant financial statements.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav89">
+					<content>
+						<p>“ILO” means the International Labour Organisation.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav90">
+					<content>
+						<p>“ILO Standards” means any treaty, convention or covenant of the ILO signed and ratified by or otherwise applicable and binding on the Republic of Serbia, and the Core Labour Standards (as defined in the ILO Declaration on Fundamental Principles and Rights at Work).</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav91">
+					<content>
+						<p>“Indemnifiable Prepayment Event” means a Prepayment Event other than those specified in Article 4.03A(2) and Article 4.03A(4).</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav92">
+					<content>
+						<p>“Interest Revision/Conversion” means the determination of new financial conditions relative to the interest rate, specifically the same interest rate basis (“revision”) or a different interest rate basis (“conversion”) which can be offered for the remaining term of a Tranche or until a next Interest Revision/Conversion Date, if any, for an amount which, at the proposed Interest Revision/Conversion Date, is not less than EUR 10,000,000.00 (ten million euros) or the equivalent thereof.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav93">
+					<content>
+						<p>“Interest Revision/Conversion Date” means the date, which shall be a Payment Date, specified by the Bank pursuant to Article 1.02C in the Disbursement Notice or pursuant to Article 3 and Schedule D.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav94">
+					<content>
+						<p>“Interest Revision/Conversion Proposal” means a proposal made by the Bank under Schedule D.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav95">
+					<content>
+						<p>“Interest Revision/Conversion Request” means a written notice from the Borrower, delivered at least 75 (seventy-five) days before an Interest Revision/Conversion Date, requesting the Bank to submit to it an Interest Revision/Conversion Proposal. The Interest Revision/Conversion Request shall also specify:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav96">
+					<content>
+						<p>(a) Payment Dates chosen in accordance with the provisions of Article 3.01;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav97">
+					<content>
+						<p>(b) the preferred repayment schedule chosen in accordance with Article 4.01; and</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav98">
+					<content>
+						<p>(c) any further Interest Revision/Conversion Date chosen in accordance with Article 3.01.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav99">
+					<content>
+						<p>“Intermediary” any bank or any financial institution in the Republic of Serbia which is selected by the Bank, and approved by the Borrower and the Agent, for onlending funds disbursed hereunder to final beneficiaries.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav100">
+					<content>
+						<p>“Intermediary Agreement” has the meaning given to it in Recital 3.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav101">
+					<content>
+						<p>“Letter of Allocation” has the meaning given to it in Article 1.08B.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav102">
+					<content>
+						<p>“LIBOR” has the meaning given to it in Schedule B.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav103">
+					<content>
+						<p>“Loan” means the aggregate amount of Tranches disbursed from time to time by the Bank under this Contract.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav104">
+					<intro>
+						<p>“Market Disruption Event” means any of the following circumstances:</p>
+					</intro>
+					<point wId="clan2-stav104-tac1">
+						<num>1.</num>
+						<intro>
+							<p>01 Amount of Credit</p>
+						</intro>
+						<point wId="clan2-stav104-tac1">
+							<num>1.</num>
+							<intro>
+								<p>02 Disbursement procedure</p>
+							</intro>
+							<point wId="clan2-stav104-tac1">
+								<num>1.</num>
+								<intro>
+									<p>02A Tranches</p>
+								</intro>
+								<point wId="clan2-stav104-tac1">
+									<num>1.</num>
+									<intro>
+										<p>02B Disbursement Request</p>
+									</intro>
+									<point wId="clan2-stav104-tac1">
+										<num>1.</num>
+										<intro>
+											<p>02C Disbursement Notice</p>
+										</intro>
+										<point wId="clan2-stav104-tac1">
+											<num>1.</num>
+											<intro>
+												<p>02D Disbursement Account</p>
+											</intro>
+											<point wId="clan2-stav104-tac1">
+												<num>1.</num>
+												<intro>
+													<p>03 Currency of disbursement</p>
+												</intro>
+												<point wId="clan2-stav104-tac1">
+													<num>1.</num>
+													<intro>
+														<p>04 Conditions of disbursement</p>
+													</intro>
+													<point wId="clan2-stav104-tac1">
+														<num>1.</num>
+														<intro>
+															<p>04A First Tranche</p>
+														</intro>
+														<point wId="clan2-stav104-tac1">
+															<num>1.</num>
+															<intro>
+																<p>04B All Tranches</p>
+															</intro>
+															<point wId="clan2-stav104-tac1">
+																<num>1.</num>
+																<intro>
+																	<p>05 Deferment of disbursement</p>
+																</intro>
+																<point wId="clan2-stav104-tac1">
+																	<num>1.</num>
+																	<intro>
+																		<p>05A Grounds for deferment</p>
+																	</intro>
+																	<point wId="clan2-stav104-tac1">
+																		<num>1.</num>
+																		<intro>
+																			<p>05B Cancellation of disbursement deferred by six (6) months</p>
+																		</intro>
+																		<point wId="clan2-stav104-tac1">
+																			<num>1.</num>
+																			<intro>
+																				<p>06 Cancellation and suspension</p>
+																			</intro>
+																			<point wId="clan2-stav104-tac1">
+																				<num>1.</num>
+																				<intro>
+																					<p>06A Borrower’s right to cancel</p>
+																				</intro>
+																				<point wId="clan2-stav104-tac1">
+																					<num>1.</num>
+																					<intro>
+																						<p>06B Bank’s right to suspend and cancel</p>
+																					</intro>
+																					<point wId="clan2-stav104-tac1">
+																						<num>1.</num>
+																						<intro>
+																							<p>06C Indemnity for suspension and cancellation of a Tranche</p>
+																						</intro>
+																						<point wId="clan2-stav104-tac1">
+																							<num>1.</num>
+																							<intro>
+																								<p>06C(1) SUSPENSION</p>
+																							</intro>
+																							<point wId="clan2-stav104-tac1">
+																								<num>1.</num>
+																								<intro>
+																									<p>06C(2) CANCELLATION</p>
+																								</intro>
+																								<point wId="clan2-stav104-tac1">
+																									<num>1.</num>
+																									<intro>
+																										<p>07 Cancellation after expiry of the Credit</p>
+																									</intro>
+																									<point wId="clan2-stav104-tac1">
+																										<num>1.</num>
+																										<intro>
+																											<p>08 Allocation Procedure</p>
+																										</intro>
+																										<point wId="clan2-stav104-tac1">
+																											<num>1.</num>
+																											<intro>
+																												<p>08A Allocation Requests</p>
+																											</intro>
+																											<point wId="clan2-stav104-tac1">
+																												<num>1.</num>
+																												<intro>
+																													<p>08B Allocation</p>
+																												</intro>
+																												<point wId="clan2-stav104-tac1">
+																													<num>1.</num>
+																													<intro>
+																														<p>08C Re-allocation</p>
+																													</intro>
+																													<point wId="clan2-stav104-tac1">
+																														<num>1.</num>
+																														<intro>
+																															<p>08D Re-employment of funds</p>
+																														</intro>
+																														<point wId="clan2-stav104-tac1">
+																															<num>1.</num>
+																															<intro>
+																																<p>08E Deadline for disbursement to Final Beneficiaries</p>
+																															</intro>
+																															<point wId="clan2-stav104-tac1">
+																																<num>1.</num>
+																																<intro>
+																																	<p>08F EIB Allocation Report</p>
+																																</intro>
+																																<point wId="clan2-stav104-tac1">
+																																	<num>1.</num>
+																																	<content>
+																																		<p>09 Sums due under Article 1</p>
+																																	</content>
+																																</point>
+																															</point>
+																														</point>
+																													</point>
+																												</point>
+																											</point>
+																										</point>
+																									</point>
+																								</point>
+																							</point>
+																						</point>
+																					</point>
+																				</point>
+																			</point>
+																		</point>
+																	</point>
+																</point>
+															</point>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac2">
+						<num>2.</num>
+						<intro>
+							<p>01 Amount of Loan</p>
+						</intro>
+						<point wId="clan2-stav104-tac2">
+							<num>2.</num>
+							<intro>
+								<p>02 Currency of repayment, interest and other charges</p>
+							</intro>
+							<point wId="clan2-stav104-tac2">
+								<num>2.</num>
+								<content>
+									<p>03 Confirmation by the Bank</p>
+								</content>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac3">
+						<num>3.</num>
+						<intro>
+							<p>01 Rate of interest</p>
+						</intro>
+						<point wId="clan2-stav104-tac3">
+							<num>3.</num>
+							<intro>
+								<p>01A Fixed Rate Tranches</p>
+							</intro>
+							<point wId="clan2-stav104-tac3">
+								<num>3.</num>
+								<intro>
+									<p>01B Floating Rate Tranches</p>
+								</intro>
+								<point wId="clan2-stav104-tac3">
+									<num>3.</num>
+									<intro>
+										<p>01C Revision or Conversion of Tranches</p>
+									</intro>
+									<point wId="clan2-stav104-tac3">
+										<num>3.</num>
+										<intro>
+											<p>02 Interest on overdue sums</p>
+										</intro>
+										<point wId="clan2-stav104-tac3">
+											<num>3.</num>
+											<content>
+												<p>03 Market Disruption Event</p>
+											</content>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac4">
+						<num>4.</num>
+						<intro>
+							<p>01 Normal Repayment</p>
+						</intro>
+						<point wId="clan2-stav104-tac4">
+							<num>4.</num>
+							<intro>
+								<p>01A Repayment by instalments</p>
+							</intro>
+							<point wId="clan2-stav104-tac4">
+								<num>4.</num>
+								<intro>
+									<p>01B Single instalment</p>
+								</intro>
+								<point wId="clan2-stav104-tac4">
+									<num>4.</num>
+									<intro>
+										<p>02 Voluntary prepayment</p>
+									</intro>
+									<point wId="clan2-stav104-tac4">
+										<num>4.</num>
+										<intro>
+											<p>02A Prepayment option</p>
+										</intro>
+										<point wId="clan2-stav104-tac4">
+											<num>4.</num>
+											<intro>
+												<p>02B Prepayment indemnity</p>
+											</intro>
+											<point wId="clan2-stav104-tac4">
+												<num>4.</num>
+												<intro>
+													<p>02B(1) FIXED RATE TRANCHE</p>
+												</intro>
+												<point wId="clan2-stav104-tac4">
+													<num>4.</num>
+													<intro>
+														<p>02B(2) FLOATING RATE TRANCHE</p>
+													</intro>
+													<point wId="clan2-stav104-tac4">
+														<num>4.</num>
+														<intro>
+															<p>02B(3) Unless the Borrower has accepted in writing a Fixed Rate in respect of an Interest Revision/Conversion Proposal pursuant to Schedule D, prepayment of a Tranche on its Interest Revision/Conversion Date as notified under Article 1.02C(a)(viii), or in accordance with Schedule C1 or D, as the case may be, may be effected without indemnity.</p>
+														</intro>
+														<point wId="clan2-stav104-tac4">
+															<num>4.</num>
+															<intro>
+																<p>02C Prepayment mechanics</p>
+															</intro>
+															<point wId="clan2-stav104-tac4">
+																<num>4.</num>
+																<intro>
+																	<p>03 Compulsory prepayment</p>
+																</intro>
+																<point wId="clan2-stav104-tac4">
+																	<num>4.</num>
+																	<intro>
+																		<p>03A Prepayment Events</p>
+																	</intro>
+																	<point wId="clan2-stav104-tac4">
+																		<num>4.</num>
+																		<intro>
+																			<p>03A(1) NON-UTILISATION OF THE LOAN</p>
+																		</intro>
+																		<point wId="clan2-stav104-tac4">
+																			<num>4.</num>
+																			<intro>
+																				<p>03A(2) PARI PASSU TO NON-EIB FINANCING</p>
+																			</intro>
+																			<point wId="clan2-stav104-tac4">
+																				<num>4.</num>
+																				<intro>
+																					<p>03A(3) CHANGE OF LAW</p>
+																				</intro>
+																				<point wId="clan2-stav104-tac4">
+																					<num>4.</num>
+																					<intro>
+																						<p>03A(4) ILLEGALITY</p>
+																					</intro>
+																					<point wId="clan2-stav104-tac4">
+																						<num>4.</num>
+																						<intro>
+																							<p>03A(5) FAILURE TO INFORM OR TRANSFER THE FINANCIAL ADVANTAGE</p>
+																						</intro>
+																						<point wId="clan2-stav104-tac4">
+																							<num>4.</num>
+																							<intro>
+																								<p>03B Prepayment mechanics</p>
+																							</intro>
+																							<point wId="clan2-stav104-tac4">
+																								<num>4.</num>
+																								<intro>
+																									<p>03C Prepayment indemnity</p>
+																								</intro>
+																								<point wId="clan2-stav104-tac4">
+																									<num>4.</num>
+																									<content>
+																										<p>04 General</p>
+																									</content>
+																								</point>
+																							</point>
+																						</point>
+																					</point>
+																				</point>
+																			</point>
+																		</point>
+																	</point>
+																</point>
+															</point>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac5">
+						<num>5.</num>
+						<intro>
+							<p>01 Day count convention</p>
+						</intro>
+						<point wId="clan2-stav104-tac5">
+							<num>5.</num>
+							<intro>
+								<p>02 Time and place of payment</p>
+							</intro>
+							<point wId="clan2-stav104-tac5">
+								<num>5.</num>
+								<intro>
+									<p>03 No set off by the Borrower</p>
+								</intro>
+								<point wId="clan2-stav104-tac5">
+									<num>5.</num>
+									<intro>
+										<p>04 Disruption to Payment Systems</p>
+									</intro>
+									<point wId="clan2-stav104-tac5">
+										<num>5.</num>
+										<content>
+											<p>05 Application of sums received</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac6">
+						<num>6.</num>
+						<intro>
+							<p>01 Use of Loan</p>
+						</intro>
+						<point wId="clan2-stav104-tac6">
+							<num>6.</num>
+							<intro>
+								<p>02 Other undertakings</p>
+							</intro>
+							<point wId="clan2-stav104-tac6">
+								<num>6.</num>
+								<intro>
+									<p>03 Compliance with laws</p>
+								</intro>
+								<point wId="clan2-stav104-tac6">
+									<num>6.</num>
+									<intro>
+										<p>04 General Representations and Warranties</p>
+									</intro>
+									<point wId="clan2-stav104-tac6">
+										<num>6.</num>
+										<intro>
+											<p>05 Integrity</p>
+										</intro>
+										<point wId="clan2-stav104-tac6">
+											<num>6.</num>
+											<content>
+												<p>06 Legitimacy of the funds used for the SME Projects</p>
+											</content>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac7">
+						<num>7.</num>
+						<intro>
+							<p>01 Pari Passu</p>
+						</intro>
+						<point wId="clan2-stav104-tac7">
+							<num>7.</num>
+							<intro>
+								<p>02 Security</p>
+							</intro>
+							<point wId="clan2-stav104-tac7">
+								<num>7.</num>
+								<content>
+									<p>03 Clauses by inclusion</p>
+								</content>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac8">
+						<num>8.</num>
+						<intro>
+							<p>01 Information concerning SME and Priority Projects and Final Beneficiaries</p>
+						</intro>
+						<point wId="clan2-stav104-tac8">
+							<num>8.</num>
+							<intro>
+								<p>02 Information concerning Borrower and the Agent</p>
+							</intro>
+							<point wId="clan2-stav104-tac8">
+								<num>8.</num>
+								<intro>
+									<p>03 Investigations and information</p>
+								</intro>
+								<point wId="clan2-stav104-tac8">
+									<num>8.</num>
+									<content>
+										<p>04 Visits by the Bank</p>
+									</content>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac9">
+						<num>9.</num>
+						<intro>
+							<p>01 Taxes, duties and fees</p>
+						</intro>
+						<point wId="clan2-stav104-tac9">
+							<num>9.</num>
+							<intro>
+								<p>02 Other charges</p>
+							</intro>
+							<point wId="clan2-stav104-tac9">
+								<num>9.</num>
+								<content>
+									<p>03 Increased costs, indemnity and set-off</p>
+								</content>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac10">
+						<num>10.</num>
+						<intro>
+							<p>01 Righttodemandrepayment</p>
+						</intro>
+						<point wId="clan2-stav104-tac10">
+							<num>10.</num>
+							<intro>
+								<p>01A Immediate demand</p>
+							</intro>
+							<point wId="clan2-stav104-tac10">
+								<num>10.</num>
+								<intro>
+									<p>01B Demand after notice to remedy</p>
+								</intro>
+								<point wId="clan2-stav104-tac10">
+									<num>10.</num>
+									<intro>
+										<p>02 Other rights at law</p>
+									</intro>
+									<point wId="clan2-stav104-tac10">
+										<num>10.</num>
+										<intro>
+											<p>03 Indemnity</p>
+										</intro>
+										<point wId="clan2-stav104-tac10">
+											<num>10.</num>
+											<intro>
+												<p>03A Fixed Rate Tranches</p>
+											</intro>
+											<point wId="clan2-stav104-tac10">
+												<num>10.</num>
+												<intro>
+													<p>03B Floating Rate Tranches</p>
+												</intro>
+												<point wId="clan2-stav104-tac10">
+													<num>10.</num>
+													<intro>
+														<p>03C General</p>
+													</intro>
+													<point wId="clan2-stav104-tac10">
+														<num>10.</num>
+														<content>
+															<p>04 Non-Waiver</p>
+														</content>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac11">
+						<num>11.</num>
+						<intro>
+							<p>01 Governing Law</p>
+						</intro>
+						<point wId="clan2-stav104-tac11">
+							<num>11.</num>
+							<intro>
+								<p>02 Jurisdiction</p>
+							</intro>
+							<point wId="clan2-stav104-tac11">
+								<num>11.</num>
+								<intro>
+									<p>03 Place of performance</p>
+								</intro>
+								<point wId="clan2-stav104-tac11">
+									<num>11.</num>
+									<intro>
+										<p>04 Evidence of sums due</p>
+									</intro>
+									<point wId="clan2-stav104-tac11">
+										<num>11.</num>
+										<content>
+											<p>05 Amendments</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac12">
+						<num>12.</num>
+						<intro>
+							<p>01 Notices to either party</p>
+						</intro>
+						<point wId="clan2-stav104-tac12">
+							<num>12.</num>
+							<intro>
+								<p>02 Form of notice</p>
+							</intro>
+							<point wId="clan2-stav104-tac12">
+								<num>12.</num>
+								<intro>
+									<p>03 Changes to parties</p>
+								</intro>
+								<point wId="clan2-stav104-tac12">
+									<num>12.</num>
+									<intro>
+										<p>04 Entry into force</p>
+									</intro>
+									<point wId="clan2-stav104-tac12">
+										<num>12.</num>
+										<content>
+											<p>05 Recitals andSchedules</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac1">
+						<num>1.</num>
+						<intro>
+							<p>01 Износ кредита</p>
+						</intro>
+						<point wId="clan2-stav104-tac1">
+							<num>1.</num>
+							<intro>
+								<p>02 Поступак исплате</p>
+							</intro>
+							<point wId="clan2-stav104-tac1">
+								<num>1.</num>
+								<intro>
+									<p>02A Транше</p>
+								</intro>
+								<point wId="clan2-stav104-tac1">
+									<num>1.</num>
+									<intro>
+										<p>02Б Захтев за исплату</p>
+									</intro>
+									<point wId="clan2-stav104-tac1">
+										<num>1.</num>
+										<intro>
+											<p>02Ц Обавештење о исплати</p>
+										</intro>
+										<point wId="clan2-stav104-tac1">
+											<num>1.</num>
+											<intro>
+												<p>02Д Рачун за исплату</p>
+											</intro>
+											<point wId="clan2-stav104-tac1">
+												<num>1.</num>
+												<intro>
+													<p>03 Валута исплате</p>
+												</intro>
+												<point wId="clan2-stav104-tac1">
+													<num>1.</num>
+													<intro>
+														<p>04 Услови исплате</p>
+													</intro>
+													<point wId="clan2-stav104-tac1">
+														<num>1.</num>
+														<intro>
+															<p>04A Прва транша</p>
+														</intro>
+														<point wId="clan2-stav104-tac1">
+															<num>1.</num>
+															<intro>
+																<p>04Б Све транше</p>
+															</intro>
+															<point wId="clan2-stav104-tac1">
+																<num>1.</num>
+																<intro>
+																	<p>05 Одлагање исплате</p>
+																</intro>
+																<point wId="clan2-stav104-tac1">
+																	<num>1.</num>
+																	<intro>
+																		<p>05A Основ за одлагање</p>
+																	</intro>
+																	<point wId="clan2-stav104-tac1">
+																		<num>1.</num>
+																		<intro>
+																			<p>05Б Отказивање исплате одложене шест (6) месеци</p>
+																		</intro>
+																		<point wId="clan2-stav104-tac10">
+																			<num>10.</num>
+																			<content>
+																				<p>6 Отказивање и обустава</p>
+																			</content>
+																		</point>
+																		<point wId="clan2-stav104-tac1">
+																			<num>1.</num>
+																			<intro>
+																				<p>06A Право Зајмопримца на отказивање</p>
+																			</intro>
+																			<point wId="clan2-stav104-tac1">
+																				<num>1.</num>
+																				<intro>
+																					<p>06Б Право Банке на обуставу и отказивање</p>
+																				</intro>
+																				<point wId="clan2-stav104-tac1">
+																					<num>1.</num>
+																					<intro>
+																						<p>06Ц Обештећење за обуставу и отказивање транше</p>
+																					</intro>
+																					<point wId="clan2-stav104-tac1">
+																						<num>1.</num>
+																						<intro>
+																							<p>06Ц(1) ОБУСТАВА</p>
+																						</intro>
+																						<point wId="clan2-stav104-tac1">
+																							<num>1.</num>
+																							<intro>
+																								<p>06Ц(2) ОТКАЗИВАЊЕ</p>
+																							</intro>
+																							<point wId="clan2-stav104-tac1">
+																								<num>1.</num>
+																								<intro>
+																									<p>07 Отказивање након истека кредита</p>
+																								</intro>
+																								<point wId="clan2-stav104-tac1">
+																									<num>1.</num>
+																									<intro>
+																										<p>08 Поступак доделе средстава</p>
+																									</intro>
+																									<point wId="clan2-stav104-tac1">
+																										<num>1.</num>
+																										<intro>
+																											<p>08A Захтеви за доделу средстава</p>
+																										</intro>
+																										<point wId="clan2-stav104-tac1">
+																											<num>1.</num>
+																											<intro>
+																												<p>08Б Додела средстава</p>
+																											</intro>
+																											<point wId="clan2-stav104-tac1">
+																												<num>1.</num>
+																												<intro>
+																													<p>08Ц Прерасподела</p>
+																												</intro>
+																												<point wId="clan2-stav104-tac1">
+																													<num>1.</num>
+																													<intro>
+																														<p>08Д Репласман средстава</p>
+																													</intro>
+																													<point wId="clan2-stav104-tac1">
+																														<num>1.</num>
+																														<intro>
+																															<p>08E Рок за исплату Крајњим корисницима</p>
+																														</intro>
+																														<point wId="clan2-stav104-tac1">
+																															<num>1.</num>
+																															<intro>
+																																<p>08Ф Извештај о додели средстава за ЕИБ</p>
+																															</intro>
+																															<point wId="clan2-stav104-tac1">
+																																<num>1.</num>
+																																<content>
+																																	<p>09 Износи доспели на основу <ref wId="ref0" href="akn/rs/act/2016/10-84/srp@/!main~art_1" >члана 1.</ref></p>
+																																</content>
+																															</point>
+																														</point>
+																													</point>
+																												</point>
+																											</point>
+																										</point>
+																									</point>
+																								</point>
+																							</point>
+																						</point>
+																					</point>
+																				</point>
+																			</point>
+																		</point>
+																	</point>
+																</point>
+															</point>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac2">
+						<num>2.</num>
+						<intro>
+							<p>01 Износ зајма</p>
+						</intro>
+						<point wId="clan2-stav104-tac2">
+							<num>2.</num>
+							<intro>
+								<p>02 Валута отплате, камате и осталих накнада</p>
+							</intro>
+							<point wId="clan2-stav104-tac2">
+								<num>2.</num>
+								<content>
+									<p>03 Потврда Банке</p>
+								</content>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac3">
+						<num>3.</num>
+						<intro>
+							<p>01 Каматна стопа</p>
+						</intro>
+						<point wId="clan2-stav104-tac3">
+							<num>3.</num>
+							<intro>
+								<p>01A Транше с фиксном каматном стопом</p>
+							</intro>
+							<point wId="clan2-stav104-tac3">
+								<num>3.</num>
+								<intro>
+									<p>01Б Транше с променљивом каматном стопом</p>
+								</intro>
+								<point wId="clan2-stav104-tac3">
+									<num>3.</num>
+									<intro>
+										<p>01Ц Промена или конверзија транши</p>
+									</intro>
+									<point wId="clan2-stav104-tac3">
+										<num>3.</num>
+										<intro>
+											<p>02 Камата на доспеле неизмирене износе</p>
+										</intro>
+										<point wId="clan2-stav104-tac3">
+											<num>3.</num>
+											<content>
+												<p>03 Догађај поремећаја тржишта</p>
+											</content>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac4">
+						<num>4.</num>
+						<intro>
+							<p>01 Редовна отплата</p>
+						</intro>
+						<point wId="clan2-stav104-tac4">
+							<num>4.</num>
+							<intro>
+								<p>01A Отплата у ратама</p>
+							</intro>
+							<point wId="clan2-stav104-tac4">
+								<num>4.</num>
+								<intro>
+									<p>01Б Једнократна отплата</p>
+								</intro>
+								<point wId="clan2-stav104-tac4">
+									<num>4.</num>
+									<intro>
+										<p>02 Добровољна превремена отплата</p>
+									</intro>
+									<point wId="clan2-stav104-tac4">
+										<num>4.</num>
+										<intro>
+											<p>02A Могућност превремене отплате</p>
+										</intro>
+										<point wId="clan2-stav104-tac4">
+											<num>4.</num>
+											<intro>
+												<p>02Б Обештећење за превремену отплату</p>
+											</intro>
+											<point wId="clan2-stav104-tac4">
+												<num>4.</num>
+												<intro>
+													<p>02Б(1) ТРАНША С ФИКСНОМ КАМАТНОМ СТОПОМ</p>
+												</intro>
+												<point wId="clan2-stav104-tac4">
+													<num>4.</num>
+													<intro>
+														<p>02Б(2) ТРАНША С ПРОМЕНЉИВОМ КАМАТНОМ СТОПОМ</p>
+													</intro>
+													<point wId="clan2-stav104-tac4">
+														<num>4.</num>
+														<intro>
+															<p>02Б(3) Осим ако је Зајмопримац у писаном облику прихватио фиксну каматну стопу у односу на предлог за промену/конверзију камате у складу с Прилогом Д, превремена отплата транше на датум промене/конверзије камате према обавештењу из <ref wId="ref1" href="akn/rs/act/2016/10-84/srp@/!main~art_1" >члана 1.</ref>02Ц(a)(viii), односно у складу с Прилогом Ц1 или Д, може да се изврши без обештећења.</p>
+														</intro>
+														<point wId="clan2-stav104-tac4">
+															<num>4.</num>
+															<intro>
+																<p>02Ц Начини превремене отплате</p>
+															</intro>
+															<point wId="clan2-stav104-tac4">
+																<num>4.</num>
+																<intro>
+																	<p>03 Обавезна превремена отплата</p>
+																</intro>
+																<point wId="clan2-stav104-tac4">
+																	<num>4.</num>
+																	<intro>
+																		<p>03A Догађаји превремене отплате</p>
+																	</intro>
+																	<point wId="clan2-stav104-tac4">
+																		<num>4.</num>
+																		<intro>
+																			<p>03A(1) НЕКОРИШЋЕЊЕ ЗАЈМА</p>
+																		</intro>
+																		<point wId="clan2-stav104-tac4">
+																			<num>4.</num>
+																			<intro>
+																				<p>03A(2) РАНГИРАЊЕ PARI PASSU У ОДНОСУ НА ФИНАНСИРАЊЕ КОЈЕ НЕ ОБЕЗБЕЂУЈЕ ЕИБ</p>
+																			</intro>
+																			<point wId="clan2-stav104-tac4">
+																				<num>4.</num>
+																				<intro>
+																					<p>03A(3) ПРОМЕНА ЗАКОНА</p>
+																				</intro>
+																				<point wId="clan2-stav104-tac4">
+																					<num>4.</num>
+																					<intro>
+																						<p>03A(4) НЕЗАКОНИТОСТ</p>
+																					</intro>
+																					<point wId="clan2-stav104-tac4">
+																						<num>4.</num>
+																						<intro>
+																							<p>03A(5) ПРОПУСТ У ИНФОРМИСАЊУ ИЛИ ПРЕНОСУ ФИНАНСИЈСКИХ ПОГОДНОСТИ</p>
+																						</intro>
+																						<point wId="clan2-stav104-tac4">
+																							<num>4.</num>
+																							<intro>
+																								<p>03Б Начини превремене отплате</p>
+																							</intro>
+																							<point wId="clan2-stav104-tac4">
+																								<num>4.</num>
+																								<intro>
+																									<p>03Ц Обештећење за превремену отплату</p>
+																								</intro>
+																								<point wId="clan2-stav104-tac4">
+																									<num>4.</num>
+																									<content>
+																										<p>04 Опште</p>
+																									</content>
+																								</point>
+																							</point>
+																						</point>
+																					</point>
+																				</point>
+																			</point>
+																		</point>
+																	</point>
+																</point>
+															</point>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac5">
+						<num>5.</num>
+						<intro>
+							<p>01 Метод одређивања броја дана</p>
+						</intro>
+						<point wId="clan2-stav104-tac5">
+							<num>5.</num>
+							<intro>
+								<p>02 Време и место плаћања</p>
+							</intro>
+							<point wId="clan2-stav104-tac5">
+								<num>5.</num>
+								<intro>
+									<p>03 Забрана поравнања од стране Зајмопримца</p>
+								</intro>
+								<point wId="clan2-stav104-tac5">
+									<num>5.</num>
+									<intro>
+										<p>04 Поремећај платних система</p>
+									</intro>
+									<point wId="clan2-stav104-tac5">
+										<num>5.</num>
+										<content>
+											<p>05 Употреба примљених средстава</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac6">
+						<num>6.</num>
+						<intro>
+							<p>01 Коришћење зајма</p>
+						</intro>
+						<point wId="clan2-stav104-tac6">
+							<num>6.</num>
+							<intro>
+								<p>02 Остале обавезе</p>
+							</intro>
+							<point wId="clan2-stav104-tac6">
+								<num>6.</num>
+								<intro>
+									<p>03 Поштовање закона</p>
+								</intro>
+								<point wId="clan2-stav104-tac6">
+									<num>6.</num>
+									<intro>
+										<p>04 Опште изјаве и гаранције</p>
+									</intro>
+									<point wId="clan2-stav104-tac6">
+										<num>6.</num>
+										<intro>
+											<p>05 Интегритет</p>
+										</intro>
+										<point wId="clan2-stav104-tac6">
+											<num>6.</num>
+											<content>
+												<p>06 Законитост средстава која се користе за пројекте МСП</p>
+											</content>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac7">
+						<num>7.</num>
+						<intro>
+							<p>01 Рангирање Pari Passu</p>
+						</intro>
+						<point wId="clan2-stav104-tac7">
+							<num>7.</num>
+							<intro>
+								<p>02 Обезбеђење</p>
+							</intro>
+							<point wId="clan2-stav104-tac7">
+								<num>7.</num>
+								<content>
+									<p>03 Клаузуле које се накнадно уносе</p>
+								</content>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac8">
+						<num>8.</num>
+						<intro>
+							<p>01 Информације о пројектима МСП и приоритетним пројектима и крајњим корисницима</p>
+						</intro>
+						<point wId="clan2-stav104-tac8">
+							<num>8.</num>
+							<intro>
+								<p>02 Информације о Зајмопримцу и Агенту</p>
+							</intro>
+							<point wId="clan2-stav104-tac8">
+								<num>8.</num>
+								<intro>
+									<p>03 Истраге и информације</p>
+								</intro>
+								<point wId="clan2-stav104-tac8">
+									<num>8.</num>
+									<content>
+										<p>04 Посете од стране Банке</p>
+									</content>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac9">
+						<num>9.</num>
+						<intro>
+							<p>01 Порези, дажбине и накнаде</p>
+						</intro>
+						<point wId="clan2-stav104-tac9">
+							<num>9.</num>
+							<intro>
+								<p>02 Остали трошкови</p>
+							</intro>
+							<point wId="clan2-stav104-tac9">
+								<num>9.</num>
+								<content>
+									<p>03 Увећани трошкови, обештећење и поравнање</p>
+								</content>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac10">
+						<num>10.</num>
+						<intro>
+							<p>01 Право на захтевање отплате</p>
+						</intro>
+						<point wId="clan2-stav104-tac10">
+							<num>10.</num>
+							<intro>
+								<p>01A Хитан захтев</p>
+							</intro>
+							<point wId="clan2-stav104-tac10">
+								<num>10.</num>
+								<intro>
+									<p>01Б Захтев након опомене о исправци</p>
+								</intro>
+								<point wId="clan2-stav104-tac10">
+									<num>10.</num>
+									<intro>
+										<p>02 Остала права по закону</p>
+									</intro>
+									<point wId="clan2-stav104-tac10">
+										<num>10.</num>
+										<intro>
+											<p>03 Обештећење</p>
+										</intro>
+										<point wId="clan2-stav104-tac10">
+											<num>10.</num>
+											<intro>
+												<p>03A Транше с фиксном каматном стопом</p>
+											</intro>
+											<point wId="clan2-stav104-tac10">
+												<num>10.</num>
+												<intro>
+													<p>03Б Транше с променљивом каматном стопом</p>
+												</intro>
+												<point wId="clan2-stav104-tac10">
+													<num>10.</num>
+													<intro>
+														<p>03Ц Опште</p>
+													</intro>
+													<point wId="clan2-stav104-tac10">
+														<num>10.</num>
+														<content>
+															<p>04 Неодрицање од права</p>
+														</content>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac11">
+						<num>11.</num>
+						<intro>
+							<p>01 Меродавно право</p>
+						</intro>
+						<point wId="clan2-stav104-tac11">
+							<num>11.</num>
+							<intro>
+								<p>02 Судска надлежност</p>
+							</intro>
+							<point wId="clan2-stav104-tac11">
+								<num>11.</num>
+								<intro>
+									<p>03 Место извршења</p>
+								</intro>
+								<point wId="clan2-stav104-tac11">
+									<num>11.</num>
+									<intro>
+										<p>04 Доказ о доспелим износима</p>
+									</intro>
+									<point wId="clan2-stav104-tac11">
+										<num>11.</num>
+										<content>
+											<p>05 Измене и допуне</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac12">
+						<num>12.</num>
+						<intro>
+							<p>01 Обавештења упућена другој уговорној страни</p>
+						</intro>
+						<point wId="clan2-stav104-tac12">
+							<num>12.</num>
+							<intro>
+								<p>02 Форма обавештења</p>
+							</intro>
+							<point wId="clan2-stav104-tac12">
+								<num>12.</num>
+								<intro>
+									<p>03 Промене уговорних страна</p>
+								</intro>
+								<point wId="clan2-stav104-tac12">
+									<num>12.</num>
+									<intro>
+										<p>04 Ступање на снагу</p>
+									</intro>
+									<point wId="clan2-stav104-tac12">
+										<num>12.</num>
+										<content>
+											<p>05 Преамбула и прилози</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac1">
+						<num>1.</num>
+						<intro>
+							<p>01 Amount of Credit</p>
+						</intro>
+						<point wId="clan2-stav104-tac1">
+							<num>1.</num>
+							<intro>
+								<p>02 Disbursement procedure</p>
+							</intro>
+							<point wId="clan2-stav104-tac1">
+								<num>1.</num>
+								<intro>
+									<p>02A Tranches</p>
+								</intro>
+								<point wId="clan2-stav104-tac1">
+									<num>1.</num>
+									<intro>
+										<p>02B Disbursement Request</p>
+									</intro>
+									<point wId="clan2-stav104-tac1">
+										<num>1.</num>
+										<intro>
+											<p>02C Disbursement Notice</p>
+										</intro>
+										<point wId="clan2-stav104-tac1">
+											<num>1.</num>
+											<intro>
+												<p>02D Disbursement Account</p>
+											</intro>
+											<point wId="clan2-stav104-tac1">
+												<num>1.</num>
+												<intro>
+													<p>03 Currency of disbursement</p>
+												</intro>
+												<point wId="clan2-stav104-tac1">
+													<num>1.</num>
+													<intro>
+														<p>04 Conditions of disbursement</p>
+													</intro>
+													<point wId="clan2-stav104-tac1">
+														<num>1.</num>
+														<intro>
+															<p>04A First Tranche</p>
+														</intro>
+														<point wId="clan2-stav104-tac1">
+															<num>1.</num>
+															<intro>
+																<p>04B All Tranches</p>
+															</intro>
+															<point wId="clan2-stav104-tac1">
+																<num>1.</num>
+																<intro>
+																	<p>05 Deferment of disbursement</p>
+																</intro>
+																<point wId="clan2-stav104-tac1">
+																	<num>1.</num>
+																	<intro>
+																		<p>05A Grounds for deferment</p>
+																	</intro>
+																	<point wId="clan2-stav104-tac1">
+																		<num>1.</num>
+																		<intro>
+																			<p>05B Cancellation of disbursement deferred by six (6) months</p>
+																		</intro>
+																		<point wId="clan2-stav104-tac1">
+																			<num>1.</num>
+																			<intro>
+																				<p>06 Cancellation and suspension</p>
+																			</intro>
+																			<point wId="clan2-stav104-tac1">
+																				<num>1.</num>
+																				<intro>
+																					<p>06A Borrower’s right to cancel</p>
+																				</intro>
+																				<point wId="clan2-stav104-tac1">
+																					<num>1.</num>
+																					<intro>
+																						<p>06B Bank’s right to suspend and cancel</p>
+																					</intro>
+																					<point wId="clan2-stav104-tac1">
+																						<num>1.</num>
+																						<intro>
+																							<p>06C Indemnity for suspension and cancellation of a Tranche</p>
+																						</intro>
+																						<point wId="clan2-stav104-tac1">
+																							<num>1.</num>
+																							<intro>
+																								<p>06C(1) SUSPENSION</p>
+																							</intro>
+																							<point wId="clan2-stav104-tac1">
+																								<num>1.</num>
+																								<intro>
+																									<p>06C(2) CANCELLATION</p>
+																								</intro>
+																								<point wId="clan2-stav104-tac1">
+																									<num>1.</num>
+																									<intro>
+																										<p>07 Cancellation after expiry of the Credit</p>
+																									</intro>
+																									<point wId="clan2-stav104-tac1">
+																										<num>1.</num>
+																										<intro>
+																											<p>08 Allocation Procedure</p>
+																										</intro>
+																										<point wId="clan2-stav104-tac1">
+																											<num>1.</num>
+																											<intro>
+																												<p>08A Allocation Requests</p>
+																											</intro>
+																											<point wId="clan2-stav104-tac1">
+																												<num>1.</num>
+																												<intro>
+																													<p>08B Allocation</p>
+																												</intro>
+																												<point wId="clan2-stav104-tac1">
+																													<num>1.</num>
+																													<intro>
+																														<p>08C Re-allocation</p>
+																													</intro>
+																													<point wId="clan2-stav104-tac1">
+																														<num>1.</num>
+																														<intro>
+																															<p>08D Re-employment of funds</p>
+																														</intro>
+																														<point wId="clan2-stav104-tac1">
+																															<num>1.</num>
+																															<intro>
+																																<p>08E Deadline for disbursement to Final Beneficiaries</p>
+																															</intro>
+																															<point wId="clan2-stav104-tac1">
+																																<num>1.</num>
+																																<intro>
+																																	<p>08F EIB Allocation Report</p>
+																																</intro>
+																																<point wId="clan2-stav104-tac1">
+																																	<num>1.</num>
+																																	<content>
+																																		<p>09 Sums due under Article 1</p>
+																																	</content>
+																																</point>
+																															</point>
+																														</point>
+																													</point>
+																												</point>
+																											</point>
+																										</point>
+																									</point>
+																								</point>
+																							</point>
+																						</point>
+																					</point>
+																				</point>
+																			</point>
+																		</point>
+																	</point>
+																</point>
+															</point>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac2">
+						<num>2.</num>
+						<intro>
+							<p>01 Amount of Loan</p>
+						</intro>
+						<point wId="clan2-stav104-tac2">
+							<num>2.</num>
+							<intro>
+								<p>02 Currency of repayment, interest and other charges</p>
+							</intro>
+							<point wId="clan2-stav104-tac2">
+								<num>2.</num>
+								<content>
+									<p>03 Confirmation by the Bank</p>
+								</content>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac3">
+						<num>3.</num>
+						<intro>
+							<p>01 Rate of interest</p>
+						</intro>
+						<point wId="clan2-stav104-tac3">
+							<num>3.</num>
+							<intro>
+								<p>01A Fixed Rate Tranches</p>
+							</intro>
+							<point wId="clan2-stav104-tac3">
+								<num>3.</num>
+								<intro>
+									<p>01B Floating Rate Tranches</p>
+								</intro>
+								<point wId="clan2-stav104-tac3">
+									<num>3.</num>
+									<intro>
+										<p>01C Revision or Conversion of Tranches</p>
+									</intro>
+									<point wId="clan2-stav104-tac3">
+										<num>3.</num>
+										<intro>
+											<p>02 Interest on overdue sums</p>
+										</intro>
+										<point wId="clan2-stav104-tac3">
+											<num>3.</num>
+											<content>
+												<p>03 Market Disruption Event</p>
+											</content>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac4">
+						<num>4.</num>
+						<intro>
+							<p>01 Normal Repayment</p>
+						</intro>
+						<point wId="clan2-stav104-tac4">
+							<num>4.</num>
+							<intro>
+								<p>01A Repayment by instalments</p>
+							</intro>
+							<point wId="clan2-stav104-tac4">
+								<num>4.</num>
+								<intro>
+									<p>01B Single instalment</p>
+								</intro>
+								<point wId="clan2-stav104-tac4">
+									<num>4.</num>
+									<intro>
+										<p>02 Voluntary prepayment</p>
+									</intro>
+									<point wId="clan2-stav104-tac4">
+										<num>4.</num>
+										<intro>
+											<p>02A Prepayment option</p>
+										</intro>
+										<point wId="clan2-stav104-tac4">
+											<num>4.</num>
+											<intro>
+												<p>02B Prepayment indemnity</p>
+											</intro>
+											<point wId="clan2-stav104-tac4">
+												<num>4.</num>
+												<intro>
+													<p>02B(1) FIXED RATE TRANCHE</p>
+												</intro>
+												<point wId="clan2-stav104-tac4">
+													<num>4.</num>
+													<intro>
+														<p>02B(2) FLOATING RATE TRANCHE</p>
+													</intro>
+													<point wId="clan2-stav104-tac4">
+														<num>4.</num>
+														<intro>
+															<p>02B(3) Unless the Borrower has accepted in writing a Fixed Rate in respect of an Interest Revision/Conversion Proposal pursuant to Schedule D, prepayment of a Tranche on its Interest Revision/Conversion Date as notified under Article 1.02C(a)(viii), or in accordance with Schedule C1 or D, as the case may be, may be effected without indemnity.</p>
+														</intro>
+														<point wId="clan2-stav104-tac4">
+															<num>4.</num>
+															<intro>
+																<p>02C Prepayment mechanics</p>
+															</intro>
+															<point wId="clan2-stav104-tac4">
+																<num>4.</num>
+																<intro>
+																	<p>03 Compulsory prepayment</p>
+																</intro>
+																<point wId="clan2-stav104-tac4">
+																	<num>4.</num>
+																	<intro>
+																		<p>03A Prepayment Events</p>
+																	</intro>
+																	<point wId="clan2-stav104-tac4">
+																		<num>4.</num>
+																		<intro>
+																			<p>03A(1) NON-UTILISATION OF THE LOAN</p>
+																		</intro>
+																		<point wId="clan2-stav104-tac4">
+																			<num>4.</num>
+																			<intro>
+																				<p>03A(2) PARI PASSU TO NON-EIB FINANCING</p>
+																			</intro>
+																			<point wId="clan2-stav104-tac4">
+																				<num>4.</num>
+																				<intro>
+																					<p>03A(3) CHANGE OF LAW</p>
+																				</intro>
+																				<point wId="clan2-stav104-tac4">
+																					<num>4.</num>
+																					<intro>
+																						<p>03A(4) ILLEGALITY</p>
+																					</intro>
+																					<point wId="clan2-stav104-tac4">
+																						<num>4.</num>
+																						<intro>
+																							<p>03A(5) FAILURE TO INFORM OR TRANSFER THE FINANCIAL ADVANTAGE</p>
+																						</intro>
+																						<point wId="clan2-stav104-tac4">
+																							<num>4.</num>
+																							<intro>
+																								<p>03B Prepayment mechanics</p>
+																							</intro>
+																							<point wId="clan2-stav104-tac4">
+																								<num>4.</num>
+																								<intro>
+																									<p>03C Prepayment indemnity</p>
+																								</intro>
+																								<point wId="clan2-stav104-tac4">
+																									<num>4.</num>
+																									<content>
+																										<p>04 General</p>
+																									</content>
+																								</point>
+																							</point>
+																						</point>
+																					</point>
+																				</point>
+																			</point>
+																		</point>
+																	</point>
+																</point>
+															</point>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac5">
+						<num>5.</num>
+						<intro>
+							<p>01 Day count convention</p>
+						</intro>
+						<point wId="clan2-stav104-tac5">
+							<num>5.</num>
+							<intro>
+								<p>02 Time and place of payment</p>
+							</intro>
+							<point wId="clan2-stav104-tac5">
+								<num>5.</num>
+								<intro>
+									<p>03 No set off by the Borrower</p>
+								</intro>
+								<point wId="clan2-stav104-tac5">
+									<num>5.</num>
+									<intro>
+										<p>04 Disruption to Payment Systems</p>
+									</intro>
+									<point wId="clan2-stav104-tac5">
+										<num>5.</num>
+										<content>
+											<p>05 Application of sums received</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac6">
+						<num>6.</num>
+						<intro>
+							<p>01 Use of Loan</p>
+						</intro>
+						<point wId="clan2-stav104-tac6">
+							<num>6.</num>
+							<intro>
+								<p>02 Other undertakings</p>
+							</intro>
+							<point wId="clan2-stav104-tac6">
+								<num>6.</num>
+								<intro>
+									<p>03 Compliance with laws</p>
+								</intro>
+								<point wId="clan2-stav104-tac6">
+									<num>6.</num>
+									<intro>
+										<p>04 General Representations and Warranties</p>
+									</intro>
+									<point wId="clan2-stav104-tac6">
+										<num>6.</num>
+										<intro>
+											<p>05 Integrity</p>
+										</intro>
+										<point wId="clan2-stav104-tac6">
+											<num>6.</num>
+											<content>
+												<p>06 Legitimacy of the funds used for the SME Projects</p>
+											</content>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac7">
+						<num>7.</num>
+						<intro>
+							<p>01 Pari Passu</p>
+						</intro>
+						<point wId="clan2-stav104-tac7">
+							<num>7.</num>
+							<intro>
+								<p>02 Security</p>
+							</intro>
+							<point wId="clan2-stav104-tac7">
+								<num>7.</num>
+								<content>
+									<p>03 Clauses by inclusion</p>
+								</content>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac8">
+						<num>8.</num>
+						<intro>
+							<p>01 Information concerning SME and Priority Projects and Final Beneficiaries</p>
+						</intro>
+						<point wId="clan2-stav104-tac8">
+							<num>8.</num>
+							<intro>
+								<p>02 Information concerning Borrower and the Agent</p>
+							</intro>
+							<point wId="clan2-stav104-tac8">
+								<num>8.</num>
+								<intro>
+									<p>03 Investigations and information</p>
+								</intro>
+								<point wId="clan2-stav104-tac8">
+									<num>8.</num>
+									<content>
+										<p>04 Visits by the Bank</p>
+									</content>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac9">
+						<num>9.</num>
+						<intro>
+							<p>01 Taxes, duties and fees</p>
+						</intro>
+						<point wId="clan2-stav104-tac9">
+							<num>9.</num>
+							<intro>
+								<p>02 Other charges</p>
+							</intro>
+							<point wId="clan2-stav104-tac9">
+								<num>9.</num>
+								<content>
+									<p>03 Increased costs, indemnity and set-off</p>
+								</content>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac10">
+						<num>10.</num>
+						<intro>
+							<p>01 Righttodemandrepayment</p>
+						</intro>
+						<point wId="clan2-stav104-tac10">
+							<num>10.</num>
+							<intro>
+								<p>01A Immediate demand</p>
+							</intro>
+							<point wId="clan2-stav104-tac10">
+								<num>10.</num>
+								<intro>
+									<p>01B Demand after notice to remedy</p>
+								</intro>
+								<point wId="clan2-stav104-tac10">
+									<num>10.</num>
+									<intro>
+										<p>02 Other rights at law</p>
+									</intro>
+									<point wId="clan2-stav104-tac10">
+										<num>10.</num>
+										<intro>
+											<p>03 Indemnity</p>
+										</intro>
+										<point wId="clan2-stav104-tac10">
+											<num>10.</num>
+											<intro>
+												<p>03A Fixed Rate Tranches</p>
+											</intro>
+											<point wId="clan2-stav104-tac10">
+												<num>10.</num>
+												<intro>
+													<p>03B Floating Rate Tranches</p>
+												</intro>
+												<point wId="clan2-stav104-tac10">
+													<num>10.</num>
+													<intro>
+														<p>03C General</p>
+													</intro>
+													<point wId="clan2-stav104-tac10">
+														<num>10.</num>
+														<content>
+															<p>04 Non-Waiver</p>
+														</content>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac11">
+						<num>11.</num>
+						<intro>
+							<p>01 Governing Law</p>
+						</intro>
+						<point wId="clan2-stav104-tac11">
+							<num>11.</num>
+							<intro>
+								<p>02 Jurisdiction</p>
+							</intro>
+							<point wId="clan2-stav104-tac11">
+								<num>11.</num>
+								<intro>
+									<p>03 Place of performance</p>
+								</intro>
+								<point wId="clan2-stav104-tac11">
+									<num>11.</num>
+									<intro>
+										<p>04 Evidence of sums due</p>
+									</intro>
+									<point wId="clan2-stav104-tac11">
+										<num>11.</num>
+										<content>
+											<p>05 Amendments</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac12">
+						<num>12.</num>
+						<intro>
+							<p>01 Notices to either party</p>
+						</intro>
+						<point wId="clan2-stav104-tac12">
+							<num>12.</num>
+							<intro>
+								<p>02 Form of notice</p>
+							</intro>
+							<point wId="clan2-stav104-tac12">
+								<num>12.</num>
+								<intro>
+									<p>03 Changes to parties</p>
+								</intro>
+								<point wId="clan2-stav104-tac12">
+									<num>12.</num>
+									<intro>
+										<p>04 Entry into force</p>
+									</intro>
+									<point wId="clan2-stav104-tac12">
+										<num>12.</num>
+										<content>
+											<p>05 Recitals andSchedules</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac1">
+						<num>1.</num>
+						<intro>
+							<p>01 Износ кредита</p>
+						</intro>
+						<point wId="clan2-stav104-tac1">
+							<num>1.</num>
+							<intro>
+								<p>02 Поступак исплате</p>
+							</intro>
+							<point wId="clan2-stav104-tac1">
+								<num>1.</num>
+								<intro>
+									<p>02A Транше</p>
+								</intro>
+								<point wId="clan2-stav104-tac1">
+									<num>1.</num>
+									<intro>
+										<p>02Б Захтев за исплату</p>
+									</intro>
+									<point wId="clan2-stav104-tac1">
+										<num>1.</num>
+										<intro>
+											<p>02Ц Обавештење о исплати</p>
+										</intro>
+										<point wId="clan2-stav104-tac1">
+											<num>1.</num>
+											<intro>
+												<p>02Д Рачун за исплату</p>
+											</intro>
+											<point wId="clan2-stav104-tac1">
+												<num>1.</num>
+												<intro>
+													<p>03 Валута исплате</p>
+												</intro>
+												<point wId="clan2-stav104-tac1">
+													<num>1.</num>
+													<intro>
+														<p>04 Услови исплате</p>
+													</intro>
+													<point wId="clan2-stav104-tac1">
+														<num>1.</num>
+														<intro>
+															<p>04A Прва транша</p>
+														</intro>
+														<point wId="clan2-stav104-tac1">
+															<num>1.</num>
+															<intro>
+																<p>04Б Све транше</p>
+															</intro>
+															<point wId="clan2-stav104-tac1">
+																<num>1.</num>
+																<intro>
+																	<p>05 Одлагање исплате</p>
+																</intro>
+																<point wId="clan2-stav104-tac1">
+																	<num>1.</num>
+																	<intro>
+																		<p>05A Основ за одлагање</p>
+																	</intro>
+																	<point wId="clan2-stav104-tac1">
+																		<num>1.</num>
+																		<intro>
+																			<p>05Б Отказивање исплате одложене шест (6) месеци</p>
+																		</intro>
+																		<point wId="clan2-stav104-tac10">
+																			<num>10.</num>
+																			<content>
+																				<p>6 Отказивање и обустава</p>
+																			</content>
+																		</point>
+																		<point wId="clan2-stav104-tac1">
+																			<num>1.</num>
+																			<intro>
+																				<p>06A Право Зајмопримца на отказивање</p>
+																			</intro>
+																			<point wId="clan2-stav104-tac1">
+																				<num>1.</num>
+																				<intro>
+																					<p>06Б Право Банке на обуставу и отказивање</p>
+																				</intro>
+																				<point wId="clan2-stav104-tac1">
+																					<num>1.</num>
+																					<intro>
+																						<p>06Ц Обештећење за обуставу и отказивање транше</p>
+																					</intro>
+																					<point wId="clan2-stav104-tac1">
+																						<num>1.</num>
+																						<intro>
+																							<p>06Ц(1) ОБУСТАВА</p>
+																						</intro>
+																						<point wId="clan2-stav104-tac1">
+																							<num>1.</num>
+																							<intro>
+																								<p>06Ц(2) ОТКАЗИВАЊЕ</p>
+																							</intro>
+																							<point wId="clan2-stav104-tac1">
+																								<num>1.</num>
+																								<intro>
+																									<p>07 Отказивање након истека кредита</p>
+																								</intro>
+																								<point wId="clan2-stav104-tac1">
+																									<num>1.</num>
+																									<intro>
+																										<p>08 Поступак доделе средстава</p>
+																									</intro>
+																									<point wId="clan2-stav104-tac1">
+																										<num>1.</num>
+																										<intro>
+																											<p>08A Захтеви за доделу средстава</p>
+																										</intro>
+																										<point wId="clan2-stav104-tac1">
+																											<num>1.</num>
+																											<intro>
+																												<p>08Б Додела средстава</p>
+																											</intro>
+																											<point wId="clan2-stav104-tac1">
+																												<num>1.</num>
+																												<intro>
+																													<p>08Ц Прерасподела</p>
+																												</intro>
+																												<point wId="clan2-stav104-tac1">
+																													<num>1.</num>
+																													<intro>
+																														<p>08Д Репласман средстава</p>
+																													</intro>
+																													<point wId="clan2-stav104-tac1">
+																														<num>1.</num>
+																														<intro>
+																															<p>08E Рок за исплату Крајњим корисницима</p>
+																														</intro>
+																														<point wId="clan2-stav104-tac1">
+																															<num>1.</num>
+																															<intro>
+																																<p>08Ф Извештај о додели средстава за ЕИБ</p>
+																															</intro>
+																															<point wId="clan2-stav104-tac1">
+																																<num>1.</num>
+																																<content>
+																																	<p>09 Износи доспели на основу <ref wId="ref2" href="akn/rs/act/2016/10-84/srp@/!main~art_1" >члана 1.</ref></p>
+																																</content>
+																															</point>
+																														</point>
+																													</point>
+																												</point>
+																											</point>
+																										</point>
+																									</point>
+																								</point>
+																							</point>
+																						</point>
+																					</point>
+																				</point>
+																			</point>
+																		</point>
+																	</point>
+																</point>
+															</point>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac2">
+						<num>2.</num>
+						<intro>
+							<p>01 Износ зајма</p>
+						</intro>
+						<point wId="clan2-stav104-tac2">
+							<num>2.</num>
+							<intro>
+								<p>02 Валута отплате, камате и осталих накнада</p>
+							</intro>
+							<point wId="clan2-stav104-tac2">
+								<num>2.</num>
+								<content>
+									<p>03 Потврда Банке</p>
+								</content>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac3">
+						<num>3.</num>
+						<intro>
+							<p>01 Каматна стопа</p>
+						</intro>
+						<point wId="clan2-stav104-tac3">
+							<num>3.</num>
+							<intro>
+								<p>01A Транше с фиксном каматном стопом</p>
+							</intro>
+							<point wId="clan2-stav104-tac3">
+								<num>3.</num>
+								<intro>
+									<p>01Б Транше с променљивом каматном стопом</p>
+								</intro>
+								<point wId="clan2-stav104-tac3">
+									<num>3.</num>
+									<intro>
+										<p>01Ц Промена или конверзија транши</p>
+									</intro>
+									<point wId="clan2-stav104-tac3">
+										<num>3.</num>
+										<intro>
+											<p>02 Камата на доспеле неизмирене износе</p>
+										</intro>
+										<point wId="clan2-stav104-tac3">
+											<num>3.</num>
+											<content>
+												<p>03 Догађај поремећаја тржишта</p>
+											</content>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac4">
+						<num>4.</num>
+						<intro>
+							<p>01 Редовна отплата</p>
+						</intro>
+						<point wId="clan2-stav104-tac4">
+							<num>4.</num>
+							<intro>
+								<p>01A Отплата у ратама</p>
+							</intro>
+							<point wId="clan2-stav104-tac4">
+								<num>4.</num>
+								<intro>
+									<p>01Б Једнократна отплата</p>
+								</intro>
+								<point wId="clan2-stav104-tac4">
+									<num>4.</num>
+									<intro>
+										<p>02 Добровољна превремена отплата</p>
+									</intro>
+									<point wId="clan2-stav104-tac4">
+										<num>4.</num>
+										<intro>
+											<p>02A Могућност превремене отплате</p>
+										</intro>
+										<point wId="clan2-stav104-tac4">
+											<num>4.</num>
+											<intro>
+												<p>02Б Обештећење за превремену отплату</p>
+											</intro>
+											<point wId="clan2-stav104-tac4">
+												<num>4.</num>
+												<intro>
+													<p>02Б(1) ТРАНША С ФИКСНОМ КАМАТНОМ СТОПОМ</p>
+												</intro>
+												<point wId="clan2-stav104-tac4">
+													<num>4.</num>
+													<intro>
+														<p>02Б(2) ТРАНША С ПРОМЕНЉИВОМ КАМАТНОМ СТОПОМ</p>
+													</intro>
+													<point wId="clan2-stav104-tac4">
+														<num>4.</num>
+														<intro>
+															<p>02Б(3) Осим ако је Зајмопримац у писаном облику прихватио фиксну каматну стопу у односу на предлог за промену/конверзију камате у складу с Прилогом Д, превремена отплата транше на датум промене/конверзије камате према обавештењу из <ref wId="ref3" href="akn/rs/act/2016/10-84/srp@/!main~art_1" >члана 1.</ref>02Ц(a)(viii), односно у складу с Прилогом Ц1 или Д, може да се изврши без обештећења.</p>
+														</intro>
+														<point wId="clan2-stav104-tac4">
+															<num>4.</num>
+															<intro>
+																<p>02Ц Начини превремене отплате</p>
+															</intro>
+															<point wId="clan2-stav104-tac4">
+																<num>4.</num>
+																<intro>
+																	<p>03 Обавезна превремена отплата</p>
+																</intro>
+																<point wId="clan2-stav104-tac4">
+																	<num>4.</num>
+																	<intro>
+																		<p>03A Догађаји превремене отплате</p>
+																	</intro>
+																	<point wId="clan2-stav104-tac4">
+																		<num>4.</num>
+																		<intro>
+																			<p>03A(1) НЕКОРИШЋЕЊЕ ЗАЈМА</p>
+																		</intro>
+																		<point wId="clan2-stav104-tac4">
+																			<num>4.</num>
+																			<intro>
+																				<p>03A(2) РАНГИРАЊЕ PARI PASSU У ОДНОСУ НА ФИНАНСИРАЊЕ КОЈЕ НЕ ОБЕЗБЕЂУЈЕ ЕИБ</p>
+																			</intro>
+																			<point wId="clan2-stav104-tac4">
+																				<num>4.</num>
+																				<intro>
+																					<p>03A(3) ПРОМЕНА ЗАКОНА</p>
+																				</intro>
+																				<point wId="clan2-stav104-tac4">
+																					<num>4.</num>
+																					<intro>
+																						<p>03A(4) НЕЗАКОНИТОСТ</p>
+																					</intro>
+																					<point wId="clan2-stav104-tac4">
+																						<num>4.</num>
+																						<intro>
+																							<p>03A(5) ПРОПУСТ У ИНФОРМИСАЊУ ИЛИ ПРЕНОСУ ФИНАНСИЈСКИХ ПОГОДНОСТИ</p>
+																						</intro>
+																						<point wId="clan2-stav104-tac4">
+																							<num>4.</num>
+																							<intro>
+																								<p>03Б Начини превремене отплате</p>
+																							</intro>
+																							<point wId="clan2-stav104-tac4">
+																								<num>4.</num>
+																								<intro>
+																									<p>03Ц Обештећење за превремену отплату</p>
+																								</intro>
+																								<point wId="clan2-stav104-tac4">
+																									<num>4.</num>
+																									<content>
+																										<p>04 Опште</p>
+																									</content>
+																								</point>
+																							</point>
+																						</point>
+																					</point>
+																				</point>
+																			</point>
+																		</point>
+																	</point>
+																</point>
+															</point>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac5">
+						<num>5.</num>
+						<intro>
+							<p>01 Метод одређивања броја дана</p>
+						</intro>
+						<point wId="clan2-stav104-tac5">
+							<num>5.</num>
+							<intro>
+								<p>02 Време и место плаћања</p>
+							</intro>
+							<point wId="clan2-stav104-tac5">
+								<num>5.</num>
+								<intro>
+									<p>03 Забрана поравнања од стране Зајмопримца</p>
+								</intro>
+								<point wId="clan2-stav104-tac5">
+									<num>5.</num>
+									<intro>
+										<p>04 Поремећај платних система</p>
+									</intro>
+									<point wId="clan2-stav104-tac5">
+										<num>5.</num>
+										<content>
+											<p>05 Употреба примљених средстава</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac6">
+						<num>6.</num>
+						<intro>
+							<p>01 Коришћење зајма</p>
+						</intro>
+						<point wId="clan2-stav104-tac6">
+							<num>6.</num>
+							<intro>
+								<p>02 Остале обавезе</p>
+							</intro>
+							<point wId="clan2-stav104-tac6">
+								<num>6.</num>
+								<intro>
+									<p>03 Поштовање закона</p>
+								</intro>
+								<point wId="clan2-stav104-tac6">
+									<num>6.</num>
+									<intro>
+										<p>04 Опште изјаве и гаранције</p>
+									</intro>
+									<point wId="clan2-stav104-tac6">
+										<num>6.</num>
+										<intro>
+											<p>05 Интегритет</p>
+										</intro>
+										<point wId="clan2-stav104-tac6">
+											<num>6.</num>
+											<content>
+												<p>06 Законитост средстава која се користе за пројекте МСП</p>
+											</content>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac7">
+						<num>7.</num>
+						<intro>
+							<p>01 Рангирање Pari Passu</p>
+						</intro>
+						<point wId="clan2-stav104-tac7">
+							<num>7.</num>
+							<intro>
+								<p>02 Обезбеђење</p>
+							</intro>
+							<point wId="clan2-stav104-tac7">
+								<num>7.</num>
+								<content>
+									<p>03 Клаузуле које се накнадно уносе</p>
+								</content>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac8">
+						<num>8.</num>
+						<intro>
+							<p>01 Информације о пројектима МСП и приоритетним пројектима и крајњим корисницима</p>
+						</intro>
+						<point wId="clan2-stav104-tac8">
+							<num>8.</num>
+							<intro>
+								<p>02 Информације о Зајмопримцу и Агенту</p>
+							</intro>
+							<point wId="clan2-stav104-tac8">
+								<num>8.</num>
+								<intro>
+									<p>03 Истраге и информације</p>
+								</intro>
+								<point wId="clan2-stav104-tac8">
+									<num>8.</num>
+									<content>
+										<p>04 Посете од стране Банке</p>
+									</content>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac9">
+						<num>9.</num>
+						<intro>
+							<p>01 Порези, дажбине и накнаде</p>
+						</intro>
+						<point wId="clan2-stav104-tac9">
+							<num>9.</num>
+							<intro>
+								<p>02 Остали трошкови</p>
+							</intro>
+							<point wId="clan2-stav104-tac9">
+								<num>9.</num>
+								<content>
+									<p>03 Увећани трошкови, обештећење и поравнање</p>
+								</content>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac10">
+						<num>10.</num>
+						<intro>
+							<p>01 Право на захтевање отплате</p>
+						</intro>
+						<point wId="clan2-stav104-tac10">
+							<num>10.</num>
+							<intro>
+								<p>01A Хитан захтев</p>
+							</intro>
+							<point wId="clan2-stav104-tac10">
+								<num>10.</num>
+								<intro>
+									<p>01Б Захтев након опомене о исправци</p>
+								</intro>
+								<point wId="clan2-stav104-tac10">
+									<num>10.</num>
+									<intro>
+										<p>02 Остала права по закону</p>
+									</intro>
+									<point wId="clan2-stav104-tac10">
+										<num>10.</num>
+										<intro>
+											<p>03 Обештећење</p>
+										</intro>
+										<point wId="clan2-stav104-tac10">
+											<num>10.</num>
+											<intro>
+												<p>03A Транше с фиксном каматном стопом</p>
+											</intro>
+											<point wId="clan2-stav104-tac10">
+												<num>10.</num>
+												<intro>
+													<p>03Б Транше с променљивом каматном стопом</p>
+												</intro>
+												<point wId="clan2-stav104-tac10">
+													<num>10.</num>
+													<intro>
+														<p>03Ц Опште</p>
+													</intro>
+													<point wId="clan2-stav104-tac10">
+														<num>10.</num>
+														<content>
+															<p>04 Неодрицање од права</p>
+														</content>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac11">
+						<num>11.</num>
+						<intro>
+							<p>01 Меродавно право</p>
+						</intro>
+						<point wId="clan2-stav104-tac11">
+							<num>11.</num>
+							<intro>
+								<p>02 Судска надлежност</p>
+							</intro>
+							<point wId="clan2-stav104-tac11">
+								<num>11.</num>
+								<intro>
+									<p>03 Место извршења</p>
+								</intro>
+								<point wId="clan2-stav104-tac11">
+									<num>11.</num>
+									<intro>
+										<p>04 Доказ о доспелим износима</p>
+									</intro>
+									<point wId="clan2-stav104-tac11">
+										<num>11.</num>
+										<content>
+											<p>05 Измене и допуне</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac12">
+						<num>12.</num>
+						<intro>
+							<p>01 Обавештења упућена другој уговорној страни</p>
+						</intro>
+						<point wId="clan2-stav104-tac12">
+							<num>12.</num>
+							<intro>
+								<p>02 Форма обавештења</p>
+							</intro>
+							<point wId="clan2-stav104-tac12">
+								<num>12.</num>
+								<intro>
+									<p>03 Промене уговорних страна</p>
+								</intro>
+								<point wId="clan2-stav104-tac12">
+									<num>12.</num>
+									<intro>
+										<p>04 Ступање на снагу</p>
+									</intro>
+									<point wId="clan2-stav104-tac12">
+										<num>12.</num>
+										<content>
+											<p>05 Преамбула и прилози</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac1">
+						<num>1.</num>
+						<intro>
+							<p>01 Amount of Credit</p>
+						</intro>
+						<point wId="clan2-stav104-tac1">
+							<num>1.</num>
+							<intro>
+								<p>02 Disbursement procedure</p>
+							</intro>
+							<point wId="clan2-stav104-tac1">
+								<num>1.</num>
+								<intro>
+									<p>02A Tranches</p>
+								</intro>
+								<point wId="clan2-stav104-tac1">
+									<num>1.</num>
+									<intro>
+										<p>02B Disbursement Request</p>
+									</intro>
+									<point wId="clan2-stav104-tac1">
+										<num>1.</num>
+										<intro>
+											<p>02C Disbursement Notice</p>
+										</intro>
+										<point wId="clan2-stav104-tac1">
+											<num>1.</num>
+											<intro>
+												<p>02D Disbursement Account</p>
+											</intro>
+											<point wId="clan2-stav104-tac1">
+												<num>1.</num>
+												<intro>
+													<p>03 Currency of disbursement</p>
+												</intro>
+												<point wId="clan2-stav104-tac1">
+													<num>1.</num>
+													<intro>
+														<p>04 Conditions of disbursement</p>
+													</intro>
+													<point wId="clan2-stav104-tac1">
+														<num>1.</num>
+														<intro>
+															<p>04A First Tranche</p>
+														</intro>
+														<point wId="clan2-stav104-tac1">
+															<num>1.</num>
+															<intro>
+																<p>04B All Tranches</p>
+															</intro>
+															<point wId="clan2-stav104-tac1">
+																<num>1.</num>
+																<intro>
+																	<p>05 Deferment of disbursement</p>
+																</intro>
+																<point wId="clan2-stav104-tac1">
+																	<num>1.</num>
+																	<intro>
+																		<p>05A Grounds for deferment</p>
+																	</intro>
+																	<point wId="clan2-stav104-tac1">
+																		<num>1.</num>
+																		<intro>
+																			<p>05B Cancellation of disbursement deferred by six (6) months</p>
+																		</intro>
+																		<point wId="clan2-stav104-tac1">
+																			<num>1.</num>
+																			<intro>
+																				<p>06 Cancellation and suspension</p>
+																			</intro>
+																			<point wId="clan2-stav104-tac1">
+																				<num>1.</num>
+																				<intro>
+																					<p>06A Borrower’s right to cancel</p>
+																				</intro>
+																				<point wId="clan2-stav104-tac1">
+																					<num>1.</num>
+																					<intro>
+																						<p>06B Bank’s right to suspend and cancel</p>
+																					</intro>
+																					<point wId="clan2-stav104-tac1">
+																						<num>1.</num>
+																						<intro>
+																							<p>06C Indemnity for suspension and cancellation of a Tranche</p>
+																						</intro>
+																						<point wId="clan2-stav104-tac1">
+																							<num>1.</num>
+																							<intro>
+																								<p>06C(1) SUSPENSION</p>
+																							</intro>
+																							<point wId="clan2-stav104-tac1">
+																								<num>1.</num>
+																								<intro>
+																									<p>06C(2) CANCELLATION</p>
+																								</intro>
+																								<point wId="clan2-stav104-tac1">
+																									<num>1.</num>
+																									<intro>
+																										<p>07 Cancellation after expiry of the Credit</p>
+																									</intro>
+																									<point wId="clan2-stav104-tac1">
+																										<num>1.</num>
+																										<intro>
+																											<p>08 Allocation Procedure</p>
+																										</intro>
+																										<point wId="clan2-stav104-tac1">
+																											<num>1.</num>
+																											<intro>
+																												<p>08A Allocation Requests</p>
+																											</intro>
+																											<point wId="clan2-stav104-tac1">
+																												<num>1.</num>
+																												<intro>
+																													<p>08B Allocation</p>
+																												</intro>
+																												<point wId="clan2-stav104-tac1">
+																													<num>1.</num>
+																													<intro>
+																														<p>08C Re-allocation</p>
+																													</intro>
+																													<point wId="clan2-stav104-tac1">
+																														<num>1.</num>
+																														<intro>
+																															<p>08D Re-employment of funds</p>
+																														</intro>
+																														<point wId="clan2-stav104-tac1">
+																															<num>1.</num>
+																															<intro>
+																																<p>08E Deadline for disbursement to Final Beneficiaries</p>
+																															</intro>
+																															<point wId="clan2-stav104-tac1">
+																																<num>1.</num>
+																																<intro>
+																																	<p>08F EIB Allocation Report</p>
+																																</intro>
+																																<point wId="clan2-stav104-tac1">
+																																	<num>1.</num>
+																																	<content>
+																																		<p>09 Sums due under Article 1</p>
+																																	</content>
+																																</point>
+																															</point>
+																														</point>
+																													</point>
+																												</point>
+																											</point>
+																										</point>
+																									</point>
+																								</point>
+																							</point>
+																						</point>
+																					</point>
+																				</point>
+																			</point>
+																		</point>
+																	</point>
+																</point>
+															</point>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac2">
+						<num>2.</num>
+						<intro>
+							<p>01 Amount of Loan</p>
+						</intro>
+						<point wId="clan2-stav104-tac2">
+							<num>2.</num>
+							<intro>
+								<p>02 Currency of repayment, interest and other charges</p>
+							</intro>
+							<point wId="clan2-stav104-tac2">
+								<num>2.</num>
+								<content>
+									<p>03 Confirmation by the Bank</p>
+								</content>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac3">
+						<num>3.</num>
+						<intro>
+							<p>01 Rate of interest</p>
+						</intro>
+						<point wId="clan2-stav104-tac3">
+							<num>3.</num>
+							<intro>
+								<p>01A Fixed Rate Tranches</p>
+							</intro>
+							<point wId="clan2-stav104-tac3">
+								<num>3.</num>
+								<intro>
+									<p>01B Floating Rate Tranches</p>
+								</intro>
+								<point wId="clan2-stav104-tac3">
+									<num>3.</num>
+									<intro>
+										<p>01C Revision or Conversion of Tranches</p>
+									</intro>
+									<point wId="clan2-stav104-tac3">
+										<num>3.</num>
+										<intro>
+											<p>02 Interest on overdue sums</p>
+										</intro>
+										<point wId="clan2-stav104-tac3">
+											<num>3.</num>
+											<content>
+												<p>03 Market Disruption Event</p>
+											</content>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac4">
+						<num>4.</num>
+						<intro>
+							<p>01 Normal Repayment</p>
+						</intro>
+						<point wId="clan2-stav104-tac4">
+							<num>4.</num>
+							<intro>
+								<p>01A Repayment by instalments</p>
+							</intro>
+							<point wId="clan2-stav104-tac4">
+								<num>4.</num>
+								<intro>
+									<p>01B Single instalment</p>
+								</intro>
+								<point wId="clan2-stav104-tac4">
+									<num>4.</num>
+									<intro>
+										<p>02 Voluntary prepayment</p>
+									</intro>
+									<point wId="clan2-stav104-tac4">
+										<num>4.</num>
+										<intro>
+											<p>02A Prepayment option</p>
+										</intro>
+										<point wId="clan2-stav104-tac4">
+											<num>4.</num>
+											<intro>
+												<p>02B Prepayment indemnity</p>
+											</intro>
+											<point wId="clan2-stav104-tac4">
+												<num>4.</num>
+												<intro>
+													<p>02B(1) FIXED RATE TRANCHE</p>
+												</intro>
+												<point wId="clan2-stav104-tac4">
+													<num>4.</num>
+													<intro>
+														<p>02B(2) FLOATING RATE TRANCHE</p>
+													</intro>
+													<point wId="clan2-stav104-tac4">
+														<num>4.</num>
+														<intro>
+															<p>02B(3) Unless the Borrower has accepted in writing a Fixed Rate in respect of an Interest Revision/Conversion Proposal pursuant to Schedule D, prepayment of a Tranche on its Interest Revision/Conversion Date as notified under Article 1.02C(a)(viii), or in accordance with Schedule C1 or D, as the case may be, may be effected without indemnity.</p>
+														</intro>
+														<point wId="clan2-stav104-tac4">
+															<num>4.</num>
+															<intro>
+																<p>02C Prepayment mechanics</p>
+															</intro>
+															<point wId="clan2-stav104-tac4">
+																<num>4.</num>
+																<intro>
+																	<p>03 Compulsory prepayment</p>
+																</intro>
+																<point wId="clan2-stav104-tac4">
+																	<num>4.</num>
+																	<intro>
+																		<p>03A Prepayment Events</p>
+																	</intro>
+																	<point wId="clan2-stav104-tac4">
+																		<num>4.</num>
+																		<intro>
+																			<p>03A(1) NON-UTILISATION OF THE LOAN</p>
+																		</intro>
+																		<point wId="clan2-stav104-tac4">
+																			<num>4.</num>
+																			<intro>
+																				<p>03A(2) PARI PASSU TO NON-EIB FINANCING</p>
+																			</intro>
+																			<point wId="clan2-stav104-tac4">
+																				<num>4.</num>
+																				<intro>
+																					<p>03A(3) CHANGE OF LAW</p>
+																				</intro>
+																				<point wId="clan2-stav104-tac4">
+																					<num>4.</num>
+																					<intro>
+																						<p>03A(4) ILLEGALITY</p>
+																					</intro>
+																					<point wId="clan2-stav104-tac4">
+																						<num>4.</num>
+																						<intro>
+																							<p>03A(5) FAILURE TO INFORM OR TRANSFER THE FINANCIAL ADVANTAGE</p>
+																						</intro>
+																						<point wId="clan2-stav104-tac4">
+																							<num>4.</num>
+																							<intro>
+																								<p>03B Prepayment mechanics</p>
+																							</intro>
+																							<point wId="clan2-stav104-tac4">
+																								<num>4.</num>
+																								<intro>
+																									<p>03C Prepayment indemnity</p>
+																								</intro>
+																								<point wId="clan2-stav104-tac4">
+																									<num>4.</num>
+																									<content>
+																										<p>04 General</p>
+																									</content>
+																								</point>
+																							</point>
+																						</point>
+																					</point>
+																				</point>
+																			</point>
+																		</point>
+																	</point>
+																</point>
+															</point>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac5">
+						<num>5.</num>
+						<intro>
+							<p>01 Day count convention</p>
+						</intro>
+						<point wId="clan2-stav104-tac5">
+							<num>5.</num>
+							<intro>
+								<p>02 Time and place of payment</p>
+							</intro>
+							<point wId="clan2-stav104-tac5">
+								<num>5.</num>
+								<intro>
+									<p>03 No set off by the Borrower</p>
+								</intro>
+								<point wId="clan2-stav104-tac5">
+									<num>5.</num>
+									<intro>
+										<p>04 Disruption to Payment Systems</p>
+									</intro>
+									<point wId="clan2-stav104-tac5">
+										<num>5.</num>
+										<content>
+											<p>05 Application of sums received</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac6">
+						<num>6.</num>
+						<intro>
+							<p>01 Use of Loan</p>
+						</intro>
+						<point wId="clan2-stav104-tac6">
+							<num>6.</num>
+							<intro>
+								<p>02 Other undertakings</p>
+							</intro>
+							<point wId="clan2-stav104-tac6">
+								<num>6.</num>
+								<intro>
+									<p>03 Compliance with laws</p>
+								</intro>
+								<point wId="clan2-stav104-tac6">
+									<num>6.</num>
+									<intro>
+										<p>04 General Representations and Warranties</p>
+									</intro>
+									<point wId="clan2-stav104-tac6">
+										<num>6.</num>
+										<intro>
+											<p>05 Integrity</p>
+										</intro>
+										<point wId="clan2-stav104-tac6">
+											<num>6.</num>
+											<content>
+												<p>06 Legitimacy of the funds used for the SME Projects</p>
+											</content>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac7">
+						<num>7.</num>
+						<intro>
+							<p>01 Pari Passu</p>
+						</intro>
+						<point wId="clan2-stav104-tac7">
+							<num>7.</num>
+							<intro>
+								<p>02 Security</p>
+							</intro>
+							<point wId="clan2-stav104-tac7">
+								<num>7.</num>
+								<content>
+									<p>03 Clauses by inclusion</p>
+								</content>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac8">
+						<num>8.</num>
+						<intro>
+							<p>01 Information concerning SME and Priority Projects and Final Beneficiaries</p>
+						</intro>
+						<point wId="clan2-stav104-tac8">
+							<num>8.</num>
+							<intro>
+								<p>02 Information concerning Borrower and the Agent</p>
+							</intro>
+							<point wId="clan2-stav104-tac8">
+								<num>8.</num>
+								<intro>
+									<p>03 Investigations and information</p>
+								</intro>
+								<point wId="clan2-stav104-tac8">
+									<num>8.</num>
+									<content>
+										<p>04 Visits by the Bank</p>
+									</content>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac9">
+						<num>9.</num>
+						<intro>
+							<p>01 Taxes, duties and fees</p>
+						</intro>
+						<point wId="clan2-stav104-tac9">
+							<num>9.</num>
+							<intro>
+								<p>02 Other charges</p>
+							</intro>
+							<point wId="clan2-stav104-tac9">
+								<num>9.</num>
+								<content>
+									<p>03 Increased costs, indemnity and set-off</p>
+								</content>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac10">
+						<num>10.</num>
+						<intro>
+							<p>01 Righttodemandrepayment</p>
+						</intro>
+						<point wId="clan2-stav104-tac10">
+							<num>10.</num>
+							<intro>
+								<p>01A Immediate demand</p>
+							</intro>
+							<point wId="clan2-stav104-tac10">
+								<num>10.</num>
+								<intro>
+									<p>01B Demand after notice to remedy</p>
+								</intro>
+								<point wId="clan2-stav104-tac10">
+									<num>10.</num>
+									<intro>
+										<p>02 Other rights at law</p>
+									</intro>
+									<point wId="clan2-stav104-tac10">
+										<num>10.</num>
+										<intro>
+											<p>03 Indemnity</p>
+										</intro>
+										<point wId="clan2-stav104-tac10">
+											<num>10.</num>
+											<intro>
+												<p>03A Fixed Rate Tranches</p>
+											</intro>
+											<point wId="clan2-stav104-tac10">
+												<num>10.</num>
+												<intro>
+													<p>03B Floating Rate Tranches</p>
+												</intro>
+												<point wId="clan2-stav104-tac10">
+													<num>10.</num>
+													<intro>
+														<p>03C General</p>
+													</intro>
+													<point wId="clan2-stav104-tac10">
+														<num>10.</num>
+														<content>
+															<p>04 Non-Waiver</p>
+														</content>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac11">
+						<num>11.</num>
+						<intro>
+							<p>01 Governing Law</p>
+						</intro>
+						<point wId="clan2-stav104-tac11">
+							<num>11.</num>
+							<intro>
+								<p>02 Jurisdiction</p>
+							</intro>
+							<point wId="clan2-stav104-tac11">
+								<num>11.</num>
+								<intro>
+									<p>03 Place of performance</p>
+								</intro>
+								<point wId="clan2-stav104-tac11">
+									<num>11.</num>
+									<intro>
+										<p>04 Evidence of sums due</p>
+									</intro>
+									<point wId="clan2-stav104-tac11">
+										<num>11.</num>
+										<content>
+											<p>05 Amendments</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac12">
+						<num>12.</num>
+						<intro>
+							<p>01 Notices to either party</p>
+						</intro>
+						<point wId="clan2-stav104-tac12">
+							<num>12.</num>
+							<intro>
+								<p>02 Form of notice</p>
+							</intro>
+							<point wId="clan2-stav104-tac12">
+								<num>12.</num>
+								<intro>
+									<p>03 Changes to parties</p>
+								</intro>
+								<point wId="clan2-stav104-tac12">
+									<num>12.</num>
+									<intro>
+										<p>04 Entry into force</p>
+									</intro>
+									<point wId="clan2-stav104-tac12">
+										<num>12.</num>
+										<content>
+											<p>05 Recitals andSchedules</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac1">
+						<num>1.</num>
+						<intro>
+							<p>01 Износ кредита</p>
+						</intro>
+						<point wId="clan2-stav104-tac1">
+							<num>1.</num>
+							<intro>
+								<p>02 Поступак исплате</p>
+							</intro>
+							<point wId="clan2-stav104-tac1">
+								<num>1.</num>
+								<intro>
+									<p>02A Транше</p>
+								</intro>
+								<point wId="clan2-stav104-tac1">
+									<num>1.</num>
+									<intro>
+										<p>02Б Захтев за исплату</p>
+									</intro>
+									<point wId="clan2-stav104-tac1">
+										<num>1.</num>
+										<intro>
+											<p>02Ц Обавештење о исплати</p>
+										</intro>
+										<point wId="clan2-stav104-tac1">
+											<num>1.</num>
+											<intro>
+												<p>02Д Рачун за исплату</p>
+											</intro>
+											<point wId="clan2-stav104-tac1">
+												<num>1.</num>
+												<intro>
+													<p>03 Валута исплате</p>
+												</intro>
+												<point wId="clan2-stav104-tac1">
+													<num>1.</num>
+													<intro>
+														<p>04 Услови исплате</p>
+													</intro>
+													<point wId="clan2-stav104-tac1">
+														<num>1.</num>
+														<intro>
+															<p>04A Прва транша</p>
+														</intro>
+														<point wId="clan2-stav104-tac1">
+															<num>1.</num>
+															<intro>
+																<p>04Б Све транше</p>
+															</intro>
+															<point wId="clan2-stav104-tac1">
+																<num>1.</num>
+																<intro>
+																	<p>05 Одлагање исплате</p>
+																</intro>
+																<point wId="clan2-stav104-tac1">
+																	<num>1.</num>
+																	<intro>
+																		<p>05A Основ за одлагање</p>
+																	</intro>
+																	<point wId="clan2-stav104-tac1">
+																		<num>1.</num>
+																		<intro>
+																			<p>05Б Отказивање исплате одложене шест (6) месеци</p>
+																		</intro>
+																		<point wId="clan2-stav104-tac10">
+																			<num>10.</num>
+																			<content>
+																				<p>6 Отказивање и обустава</p>
+																			</content>
+																		</point>
+																		<point wId="clan2-stav104-tac1">
+																			<num>1.</num>
+																			<intro>
+																				<p>06A Право Зајмопримца на отказивање</p>
+																			</intro>
+																			<point wId="clan2-stav104-tac1">
+																				<num>1.</num>
+																				<intro>
+																					<p>06Б Право Банке на обуставу и отказивање</p>
+																				</intro>
+																				<point wId="clan2-stav104-tac1">
+																					<num>1.</num>
+																					<intro>
+																						<p>06Ц Обештећење за обуставу и отказивање транше</p>
+																					</intro>
+																					<point wId="clan2-stav104-tac1">
+																						<num>1.</num>
+																						<intro>
+																							<p>06Ц(1) ОБУСТАВА</p>
+																						</intro>
+																						<point wId="clan2-stav104-tac1">
+																							<num>1.</num>
+																							<intro>
+																								<p>06Ц(2) ОТКАЗИВАЊЕ</p>
+																							</intro>
+																							<point wId="clan2-stav104-tac1">
+																								<num>1.</num>
+																								<intro>
+																									<p>07 Отказивање након истека кредита</p>
+																								</intro>
+																								<point wId="clan2-stav104-tac1">
+																									<num>1.</num>
+																									<intro>
+																										<p>08 Поступак доделе средстава</p>
+																									</intro>
+																									<point wId="clan2-stav104-tac1">
+																										<num>1.</num>
+																										<intro>
+																											<p>08A Захтеви за доделу средстава</p>
+																										</intro>
+																										<point wId="clan2-stav104-tac1">
+																											<num>1.</num>
+																											<intro>
+																												<p>08Б Додела средстава</p>
+																											</intro>
+																											<point wId="clan2-stav104-tac1">
+																												<num>1.</num>
+																												<intro>
+																													<p>08Ц Прерасподела</p>
+																												</intro>
+																												<point wId="clan2-stav104-tac1">
+																													<num>1.</num>
+																													<intro>
+																														<p>08Д Репласман средстава</p>
+																													</intro>
+																													<point wId="clan2-stav104-tac1">
+																														<num>1.</num>
+																														<intro>
+																															<p>08E Рок за исплату Крајњим корисницима</p>
+																														</intro>
+																														<point wId="clan2-stav104-tac1">
+																															<num>1.</num>
+																															<intro>
+																																<p>08Ф Извештај о додели средстава за ЕИБ</p>
+																															</intro>
+																															<point wId="clan2-stav104-tac1">
+																																<num>1.</num>
+																																<content>
+																																	<p>09 Износи доспели на основу <ref wId="ref4" href="akn/rs/act/2016/10-84/srp@/!main~art_1" >члана 1.</ref></p>
+																																</content>
+																															</point>
+																														</point>
+																													</point>
+																												</point>
+																											</point>
+																										</point>
+																									</point>
+																								</point>
+																							</point>
+																						</point>
+																					</point>
+																				</point>
+																			</point>
+																		</point>
+																	</point>
+																</point>
+															</point>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac2">
+						<num>2.</num>
+						<intro>
+							<p>01 Износ зајма</p>
+						</intro>
+						<point wId="clan2-stav104-tac2">
+							<num>2.</num>
+							<intro>
+								<p>02 Валута отплате, камате и осталих накнада</p>
+							</intro>
+							<point wId="clan2-stav104-tac2">
+								<num>2.</num>
+								<content>
+									<p>03 Потврда Банке</p>
+								</content>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac3">
+						<num>3.</num>
+						<intro>
+							<p>01 Каматна стопа</p>
+						</intro>
+						<point wId="clan2-stav104-tac3">
+							<num>3.</num>
+							<intro>
+								<p>01A Транше с фиксном каматном стопом</p>
+							</intro>
+							<point wId="clan2-stav104-tac3">
+								<num>3.</num>
+								<intro>
+									<p>01Б Транше с променљивом каматном стопом</p>
+								</intro>
+								<point wId="clan2-stav104-tac3">
+									<num>3.</num>
+									<intro>
+										<p>01Ц Промена или конверзија транши</p>
+									</intro>
+									<point wId="clan2-stav104-tac3">
+										<num>3.</num>
+										<intro>
+											<p>02 Камата на доспеле неизмирене износе</p>
+										</intro>
+										<point wId="clan2-stav104-tac3">
+											<num>3.</num>
+											<content>
+												<p>03 Догађај поремећаја тржишта</p>
+											</content>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac4">
+						<num>4.</num>
+						<intro>
+							<p>01 Редовна отплата</p>
+						</intro>
+						<point wId="clan2-stav104-tac4">
+							<num>4.</num>
+							<intro>
+								<p>01A Отплата у ратама</p>
+							</intro>
+							<point wId="clan2-stav104-tac4">
+								<num>4.</num>
+								<intro>
+									<p>01Б Једнократна отплата</p>
+								</intro>
+								<point wId="clan2-stav104-tac4">
+									<num>4.</num>
+									<intro>
+										<p>02 Добровољна превремена отплата</p>
+									</intro>
+									<point wId="clan2-stav104-tac4">
+										<num>4.</num>
+										<intro>
+											<p>02A Могућност превремене отплате</p>
+										</intro>
+										<point wId="clan2-stav104-tac4">
+											<num>4.</num>
+											<intro>
+												<p>02Б Обештећење за превремену отплату</p>
+											</intro>
+											<point wId="clan2-stav104-tac4">
+												<num>4.</num>
+												<intro>
+													<p>02Б(1) ТРАНША С ФИКСНОМ КАМАТНОМ СТОПОМ</p>
+												</intro>
+												<point wId="clan2-stav104-tac4">
+													<num>4.</num>
+													<intro>
+														<p>02Б(2) ТРАНША С ПРОМЕНЉИВОМ КАМАТНОМ СТОПОМ</p>
+													</intro>
+													<point wId="clan2-stav104-tac4">
+														<num>4.</num>
+														<intro>
+															<p>02Б(3) Осим ако је Зајмопримац у писаном облику прихватио фиксну каматну стопу у односу на предлог за промену/конверзију камате у складу с Прилогом Д, превремена отплата транше на датум промене/конверзије камате према обавештењу из <ref wId="ref5" href="akn/rs/act/2016/10-84/srp@/!main~art_1" >члана 1.</ref>02Ц(a)(viii), односно у складу с Прилогом Ц1 или Д, може да се изврши без обештећења.</p>
+														</intro>
+														<point wId="clan2-stav104-tac4">
+															<num>4.</num>
+															<intro>
+																<p>02Ц Начини превремене отплате</p>
+															</intro>
+															<point wId="clan2-stav104-tac4">
+																<num>4.</num>
+																<intro>
+																	<p>03 Обавезна превремена отплата</p>
+																</intro>
+																<point wId="clan2-stav104-tac4">
+																	<num>4.</num>
+																	<intro>
+																		<p>03A Догађаји превремене отплате</p>
+																	</intro>
+																	<point wId="clan2-stav104-tac4">
+																		<num>4.</num>
+																		<intro>
+																			<p>03A(1) НЕКОРИШЋЕЊЕ ЗАЈМА</p>
+																		</intro>
+																		<point wId="clan2-stav104-tac4">
+																			<num>4.</num>
+																			<intro>
+																				<p>03A(2) РАНГИРАЊЕ PARI PASSU У ОДНОСУ НА ФИНАНСИРАЊЕ КОЈЕ НЕ ОБЕЗБЕЂУЈЕ ЕИБ</p>
+																			</intro>
+																			<point wId="clan2-stav104-tac4">
+																				<num>4.</num>
+																				<intro>
+																					<p>03A(3) ПРОМЕНА ЗАКОНА</p>
+																				</intro>
+																				<point wId="clan2-stav104-tac4">
+																					<num>4.</num>
+																					<intro>
+																						<p>03A(4) НЕЗАКОНИТОСТ</p>
+																					</intro>
+																					<point wId="clan2-stav104-tac4">
+																						<num>4.</num>
+																						<intro>
+																							<p>03A(5) ПРОПУСТ У ИНФОРМИСАЊУ ИЛИ ПРЕНОСУ ФИНАНСИЈСКИХ ПОГОДНОСТИ</p>
+																						</intro>
+																						<point wId="clan2-stav104-tac4">
+																							<num>4.</num>
+																							<intro>
+																								<p>03Б Начини превремене отплате</p>
+																							</intro>
+																							<point wId="clan2-stav104-tac4">
+																								<num>4.</num>
+																								<intro>
+																									<p>03Ц Обештећење за превремену отплату</p>
+																								</intro>
+																								<point wId="clan2-stav104-tac4">
+																									<num>4.</num>
+																									<content>
+																										<p>04 Опште</p>
+																									</content>
+																								</point>
+																							</point>
+																						</point>
+																					</point>
+																				</point>
+																			</point>
+																		</point>
+																	</point>
+																</point>
+															</point>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac5">
+						<num>5.</num>
+						<intro>
+							<p>01 Метод одређивања броја дана</p>
+						</intro>
+						<point wId="clan2-stav104-tac5">
+							<num>5.</num>
+							<intro>
+								<p>02 Време и место плаћања</p>
+							</intro>
+							<point wId="clan2-stav104-tac5">
+								<num>5.</num>
+								<intro>
+									<p>03 Забрана поравнања од стране Зајмопримца</p>
+								</intro>
+								<point wId="clan2-stav104-tac5">
+									<num>5.</num>
+									<intro>
+										<p>04 Поремећај платних система</p>
+									</intro>
+									<point wId="clan2-stav104-tac5">
+										<num>5.</num>
+										<content>
+											<p>05 Употреба примљених средстава</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac6">
+						<num>6.</num>
+						<intro>
+							<p>01 Коришћење зајма</p>
+						</intro>
+						<point wId="clan2-stav104-tac6">
+							<num>6.</num>
+							<intro>
+								<p>02 Остале обавезе</p>
+							</intro>
+							<point wId="clan2-stav104-tac6">
+								<num>6.</num>
+								<intro>
+									<p>03 Поштовање закона</p>
+								</intro>
+								<point wId="clan2-stav104-tac6">
+									<num>6.</num>
+									<intro>
+										<p>04 Опште изјаве и гаранције</p>
+									</intro>
+									<point wId="clan2-stav104-tac6">
+										<num>6.</num>
+										<intro>
+											<p>05 Интегритет</p>
+										</intro>
+										<point wId="clan2-stav104-tac6">
+											<num>6.</num>
+											<content>
+												<p>06 Законитост средстава која се користе за пројекте МСП</p>
+											</content>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac7">
+						<num>7.</num>
+						<intro>
+							<p>01 Рангирање Pari Passu</p>
+						</intro>
+						<point wId="clan2-stav104-tac7">
+							<num>7.</num>
+							<intro>
+								<p>02 Обезбеђење</p>
+							</intro>
+							<point wId="clan2-stav104-tac7">
+								<num>7.</num>
+								<content>
+									<p>03 Клаузуле које се накнадно уносе</p>
+								</content>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac8">
+						<num>8.</num>
+						<intro>
+							<p>01 Информације о пројектима МСП и приоритетним пројектима и крајњим корисницима</p>
+						</intro>
+						<point wId="clan2-stav104-tac8">
+							<num>8.</num>
+							<intro>
+								<p>02 Информације о Зајмопримцу и Агенту</p>
+							</intro>
+							<point wId="clan2-stav104-tac8">
+								<num>8.</num>
+								<intro>
+									<p>03 Истраге и информације</p>
+								</intro>
+								<point wId="clan2-stav104-tac8">
+									<num>8.</num>
+									<content>
+										<p>04 Посете од стране Банке</p>
+									</content>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac9">
+						<num>9.</num>
+						<intro>
+							<p>01 Порези, дажбине и накнаде</p>
+						</intro>
+						<point wId="clan2-stav104-tac9">
+							<num>9.</num>
+							<intro>
+								<p>02 Остали трошкови</p>
+							</intro>
+							<point wId="clan2-stav104-tac9">
+								<num>9.</num>
+								<content>
+									<p>03 Увећани трошкови, обештећење и поравнање</p>
+								</content>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac10">
+						<num>10.</num>
+						<intro>
+							<p>01 Право на захтевање отплате</p>
+						</intro>
+						<point wId="clan2-stav104-tac10">
+							<num>10.</num>
+							<intro>
+								<p>01A Хитан захтев</p>
+							</intro>
+							<point wId="clan2-stav104-tac10">
+								<num>10.</num>
+								<intro>
+									<p>01Б Захтев након опомене о исправци</p>
+								</intro>
+								<point wId="clan2-stav104-tac10">
+									<num>10.</num>
+									<intro>
+										<p>02 Остала права по закону</p>
+									</intro>
+									<point wId="clan2-stav104-tac10">
+										<num>10.</num>
+										<intro>
+											<p>03 Обештећење</p>
+										</intro>
+										<point wId="clan2-stav104-tac10">
+											<num>10.</num>
+											<intro>
+												<p>03A Транше с фиксном каматном стопом</p>
+											</intro>
+											<point wId="clan2-stav104-tac10">
+												<num>10.</num>
+												<intro>
+													<p>03Б Транше с променљивом каматном стопом</p>
+												</intro>
+												<point wId="clan2-stav104-tac10">
+													<num>10.</num>
+													<intro>
+														<p>03Ц Опште</p>
+													</intro>
+													<point wId="clan2-stav104-tac10">
+														<num>10.</num>
+														<content>
+															<p>04 Неодрицање од права</p>
+														</content>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac11">
+						<num>11.</num>
+						<intro>
+							<p>01 Меродавно право</p>
+						</intro>
+						<point wId="clan2-stav104-tac11">
+							<num>11.</num>
+							<intro>
+								<p>02 Судска надлежност</p>
+							</intro>
+							<point wId="clan2-stav104-tac11">
+								<num>11.</num>
+								<intro>
+									<p>03 Место извршења</p>
+								</intro>
+								<point wId="clan2-stav104-tac11">
+									<num>11.</num>
+									<intro>
+										<p>04 Доказ о доспелим износима</p>
+									</intro>
+									<point wId="clan2-stav104-tac11">
+										<num>11.</num>
+										<content>
+											<p>05 Измене и допуне</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac12">
+						<num>12.</num>
+						<intro>
+							<p>01 Обавештења упућена другој уговорној страни</p>
+						</intro>
+						<point wId="clan2-stav104-tac12">
+							<num>12.</num>
+							<intro>
+								<p>02 Форма обавештења</p>
+							</intro>
+							<point wId="clan2-stav104-tac12">
+								<num>12.</num>
+								<intro>
+									<p>03 Промене уговорних страна</p>
+								</intro>
+								<point wId="clan2-stav104-tac12">
+									<num>12.</num>
+									<intro>
+										<p>04 Ступање на снагу</p>
+									</intro>
+									<point wId="clan2-stav104-tac12">
+										<num>12.</num>
+										<content>
+											<p>05 Преамбула и прилози</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac1">
+						<num>1.</num>
+						<intro>
+							<p>01 Amount of Credit</p>
+						</intro>
+						<point wId="clan2-stav104-tac1">
+							<num>1.</num>
+							<intro>
+								<p>02 Disbursement procedure</p>
+							</intro>
+							<point wId="clan2-stav104-tac1">
+								<num>1.</num>
+								<intro>
+									<p>02A Tranches</p>
+								</intro>
+								<point wId="clan2-stav104-tac1">
+									<num>1.</num>
+									<intro>
+										<p>02B Disbursement Request</p>
+									</intro>
+									<point wId="clan2-stav104-tac1">
+										<num>1.</num>
+										<intro>
+											<p>02C Disbursement Notice</p>
+										</intro>
+										<point wId="clan2-stav104-tac1">
+											<num>1.</num>
+											<intro>
+												<p>02D Disbursement Account</p>
+											</intro>
+											<point wId="clan2-stav104-tac1">
+												<num>1.</num>
+												<intro>
+													<p>03 Currency of disbursement</p>
+												</intro>
+												<point wId="clan2-stav104-tac1">
+													<num>1.</num>
+													<intro>
+														<p>04 Conditions of disbursement</p>
+													</intro>
+													<point wId="clan2-stav104-tac1">
+														<num>1.</num>
+														<intro>
+															<p>04A First Tranche</p>
+														</intro>
+														<point wId="clan2-stav104-tac1">
+															<num>1.</num>
+															<intro>
+																<p>04B All Tranches</p>
+															</intro>
+															<point wId="clan2-stav104-tac1">
+																<num>1.</num>
+																<intro>
+																	<p>05 Deferment of disbursement</p>
+																</intro>
+																<point wId="clan2-stav104-tac1">
+																	<num>1.</num>
+																	<intro>
+																		<p>05A Grounds for deferment</p>
+																	</intro>
+																	<point wId="clan2-stav104-tac1">
+																		<num>1.</num>
+																		<intro>
+																			<p>05B Cancellation of disbursement deferred by six (6) months</p>
+																		</intro>
+																		<point wId="clan2-stav104-tac1">
+																			<num>1.</num>
+																			<intro>
+																				<p>06 Cancellation and suspension</p>
+																			</intro>
+																			<point wId="clan2-stav104-tac1">
+																				<num>1.</num>
+																				<intro>
+																					<p>06A Borrower’s right to cancel</p>
+																				</intro>
+																				<point wId="clan2-stav104-tac1">
+																					<num>1.</num>
+																					<intro>
+																						<p>06B Bank’s right to suspend and cancel</p>
+																					</intro>
+																					<point wId="clan2-stav104-tac1">
+																						<num>1.</num>
+																						<intro>
+																							<p>06C Indemnity for suspension and cancellation of a Tranche</p>
+																						</intro>
+																						<point wId="clan2-stav104-tac1">
+																							<num>1.</num>
+																							<intro>
+																								<p>06C(1) SUSPENSION</p>
+																							</intro>
+																							<point wId="clan2-stav104-tac1">
+																								<num>1.</num>
+																								<intro>
+																									<p>06C(2) CANCELLATION</p>
+																								</intro>
+																								<point wId="clan2-stav104-tac1">
+																									<num>1.</num>
+																									<intro>
+																										<p>07 Cancellation after expiry of the Credit</p>
+																									</intro>
+																									<point wId="clan2-stav104-tac1">
+																										<num>1.</num>
+																										<intro>
+																											<p>08 Allocation Procedure</p>
+																										</intro>
+																										<point wId="clan2-stav104-tac1">
+																											<num>1.</num>
+																											<intro>
+																												<p>08A Allocation Requests</p>
+																											</intro>
+																											<point wId="clan2-stav104-tac1">
+																												<num>1.</num>
+																												<intro>
+																													<p>08B Allocation</p>
+																												</intro>
+																												<point wId="clan2-stav104-tac1">
+																													<num>1.</num>
+																													<intro>
+																														<p>08C Re-allocation</p>
+																													</intro>
+																													<point wId="clan2-stav104-tac1">
+																														<num>1.</num>
+																														<intro>
+																															<p>08D Re-employment of funds</p>
+																														</intro>
+																														<point wId="clan2-stav104-tac1">
+																															<num>1.</num>
+																															<intro>
+																																<p>08E Deadline for disbursement to Final Beneficiaries</p>
+																															</intro>
+																															<point wId="clan2-stav104-tac1">
+																																<num>1.</num>
+																																<intro>
+																																	<p>08F EIB Allocation Report</p>
+																																</intro>
+																																<point wId="clan2-stav104-tac1">
+																																	<num>1.</num>
+																																	<content>
+																																		<p>09 Sums due under Article 1</p>
+																																	</content>
+																																</point>
+																															</point>
+																														</point>
+																													</point>
+																												</point>
+																											</point>
+																										</point>
+																									</point>
+																								</point>
+																							</point>
+																						</point>
+																					</point>
+																				</point>
+																			</point>
+																		</point>
+																	</point>
+																</point>
+															</point>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac2">
+						<num>2.</num>
+						<intro>
+							<p>01 Amount of Loan</p>
+						</intro>
+						<point wId="clan2-stav104-tac2">
+							<num>2.</num>
+							<intro>
+								<p>02 Currency of repayment, interest and other charges</p>
+							</intro>
+							<point wId="clan2-stav104-tac2">
+								<num>2.</num>
+								<content>
+									<p>03 Confirmation by the Bank</p>
+								</content>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac3">
+						<num>3.</num>
+						<intro>
+							<p>01 Rate of interest</p>
+						</intro>
+						<point wId="clan2-stav104-tac3">
+							<num>3.</num>
+							<intro>
+								<p>01A Fixed Rate Tranches</p>
+							</intro>
+							<point wId="clan2-stav104-tac3">
+								<num>3.</num>
+								<intro>
+									<p>01B Floating Rate Tranches</p>
+								</intro>
+								<point wId="clan2-stav104-tac3">
+									<num>3.</num>
+									<intro>
+										<p>01C Revision or Conversion of Tranches</p>
+									</intro>
+									<point wId="clan2-stav104-tac3">
+										<num>3.</num>
+										<intro>
+											<p>02 Interest on overdue sums</p>
+										</intro>
+										<point wId="clan2-stav104-tac3">
+											<num>3.</num>
+											<content>
+												<p>03 Market Disruption Event</p>
+											</content>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac4">
+						<num>4.</num>
+						<intro>
+							<p>01 Normal Repayment</p>
+						</intro>
+						<point wId="clan2-stav104-tac4">
+							<num>4.</num>
+							<intro>
+								<p>01A Repayment by instalments</p>
+							</intro>
+							<point wId="clan2-stav104-tac4">
+								<num>4.</num>
+								<intro>
+									<p>01B Single instalment</p>
+								</intro>
+								<point wId="clan2-stav104-tac4">
+									<num>4.</num>
+									<intro>
+										<p>02 Voluntary prepayment</p>
+									</intro>
+									<point wId="clan2-stav104-tac4">
+										<num>4.</num>
+										<intro>
+											<p>02A Prepayment option</p>
+										</intro>
+										<point wId="clan2-stav104-tac4">
+											<num>4.</num>
+											<intro>
+												<p>02B Prepayment indemnity</p>
+											</intro>
+											<point wId="clan2-stav104-tac4">
+												<num>4.</num>
+												<intro>
+													<p>02B(1) FIXED RATE TRANCHE</p>
+												</intro>
+												<point wId="clan2-stav104-tac4">
+													<num>4.</num>
+													<intro>
+														<p>02B(2) FLOATING RATE TRANCHE</p>
+													</intro>
+													<point wId="clan2-stav104-tac4">
+														<num>4.</num>
+														<intro>
+															<p>02B(3) Unless the Borrower has accepted in writing a Fixed Rate in respect of an Interest Revision/Conversion Proposal pursuant to Schedule D, prepayment of a Tranche on its Interest Revision/Conversion Date as notified under Article 1.02C(a)(viii), or in accordance with Schedule C1 or D, as the case may be, may be effected without indemnity.</p>
+														</intro>
+														<point wId="clan2-stav104-tac4">
+															<num>4.</num>
+															<intro>
+																<p>02C Prepayment mechanics</p>
+															</intro>
+															<point wId="clan2-stav104-tac4">
+																<num>4.</num>
+																<intro>
+																	<p>03 Compulsory prepayment</p>
+																</intro>
+																<point wId="clan2-stav104-tac4">
+																	<num>4.</num>
+																	<intro>
+																		<p>03A Prepayment Events</p>
+																	</intro>
+																	<point wId="clan2-stav104-tac4">
+																		<num>4.</num>
+																		<intro>
+																			<p>03A(1) NON-UTILISATION OF THE LOAN</p>
+																		</intro>
+																		<point wId="clan2-stav104-tac4">
+																			<num>4.</num>
+																			<intro>
+																				<p>03A(2) PARI PASSU TO NON-EIB FINANCING</p>
+																			</intro>
+																			<point wId="clan2-stav104-tac4">
+																				<num>4.</num>
+																				<intro>
+																					<p>03A(3) CHANGE OF LAW</p>
+																				</intro>
+																				<point wId="clan2-stav104-tac4">
+																					<num>4.</num>
+																					<intro>
+																						<p>03A(4) ILLEGALITY</p>
+																					</intro>
+																					<point wId="clan2-stav104-tac4">
+																						<num>4.</num>
+																						<intro>
+																							<p>03A(5) FAILURE TO INFORM OR TRANSFER THE FINANCIAL ADVANTAGE</p>
+																						</intro>
+																						<point wId="clan2-stav104-tac4">
+																							<num>4.</num>
+																							<intro>
+																								<p>03B Prepayment mechanics</p>
+																							</intro>
+																							<point wId="clan2-stav104-tac4">
+																								<num>4.</num>
+																								<intro>
+																									<p>03C Prepayment indemnity</p>
+																								</intro>
+																								<point wId="clan2-stav104-tac4">
+																									<num>4.</num>
+																									<content>
+																										<p>04 General</p>
+																									</content>
+																								</point>
+																							</point>
+																						</point>
+																					</point>
+																				</point>
+																			</point>
+																		</point>
+																	</point>
+																</point>
+															</point>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac5">
+						<num>5.</num>
+						<intro>
+							<p>01 Day count convention</p>
+						</intro>
+						<point wId="clan2-stav104-tac5">
+							<num>5.</num>
+							<intro>
+								<p>02 Time and place of payment</p>
+							</intro>
+							<point wId="clan2-stav104-tac5">
+								<num>5.</num>
+								<intro>
+									<p>03 No set off by the Borrower</p>
+								</intro>
+								<point wId="clan2-stav104-tac5">
+									<num>5.</num>
+									<intro>
+										<p>04 Disruption to Payment Systems</p>
+									</intro>
+									<point wId="clan2-stav104-tac5">
+										<num>5.</num>
+										<content>
+											<p>05 Application of sums received</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac6">
+						<num>6.</num>
+						<intro>
+							<p>01 Use of Loan</p>
+						</intro>
+						<point wId="clan2-stav104-tac6">
+							<num>6.</num>
+							<intro>
+								<p>02 Other undertakings</p>
+							</intro>
+							<point wId="clan2-stav104-tac6">
+								<num>6.</num>
+								<intro>
+									<p>03 Compliance with laws</p>
+								</intro>
+								<point wId="clan2-stav104-tac6">
+									<num>6.</num>
+									<intro>
+										<p>04 General Representations and Warranties</p>
+									</intro>
+									<point wId="clan2-stav104-tac6">
+										<num>6.</num>
+										<intro>
+											<p>05 Integrity</p>
+										</intro>
+										<point wId="clan2-stav104-tac6">
+											<num>6.</num>
+											<content>
+												<p>06 Legitimacy of the funds used for the SME Projects</p>
+											</content>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac7">
+						<num>7.</num>
+						<intro>
+							<p>01 Pari Passu</p>
+						</intro>
+						<point wId="clan2-stav104-tac7">
+							<num>7.</num>
+							<intro>
+								<p>02 Security</p>
+							</intro>
+							<point wId="clan2-stav104-tac7">
+								<num>7.</num>
+								<content>
+									<p>03 Clauses by inclusion</p>
+								</content>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac8">
+						<num>8.</num>
+						<intro>
+							<p>01 Information concerning SME and Priority Projects and Final Beneficiaries</p>
+						</intro>
+						<point wId="clan2-stav104-tac8">
+							<num>8.</num>
+							<intro>
+								<p>02 Information concerning Borrower and the Agent</p>
+							</intro>
+							<point wId="clan2-stav104-tac8">
+								<num>8.</num>
+								<intro>
+									<p>03 Investigations and information</p>
+								</intro>
+								<point wId="clan2-stav104-tac8">
+									<num>8.</num>
+									<content>
+										<p>04 Visits by the Bank</p>
+									</content>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac9">
+						<num>9.</num>
+						<intro>
+							<p>01 Taxes, duties and fees</p>
+						</intro>
+						<point wId="clan2-stav104-tac9">
+							<num>9.</num>
+							<intro>
+								<p>02 Other charges</p>
+							</intro>
+							<point wId="clan2-stav104-tac9">
+								<num>9.</num>
+								<content>
+									<p>03 Increased costs, indemnity and set-off</p>
+								</content>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac10">
+						<num>10.</num>
+						<intro>
+							<p>01 Righttodemandrepayment</p>
+						</intro>
+						<point wId="clan2-stav104-tac10">
+							<num>10.</num>
+							<intro>
+								<p>01A Immediate demand</p>
+							</intro>
+							<point wId="clan2-stav104-tac10">
+								<num>10.</num>
+								<intro>
+									<p>01B Demand after notice to remedy</p>
+								</intro>
+								<point wId="clan2-stav104-tac10">
+									<num>10.</num>
+									<intro>
+										<p>02 Other rights at law</p>
+									</intro>
+									<point wId="clan2-stav104-tac10">
+										<num>10.</num>
+										<intro>
+											<p>03 Indemnity</p>
+										</intro>
+										<point wId="clan2-stav104-tac10">
+											<num>10.</num>
+											<intro>
+												<p>03A Fixed Rate Tranches</p>
+											</intro>
+											<point wId="clan2-stav104-tac10">
+												<num>10.</num>
+												<intro>
+													<p>03B Floating Rate Tranches</p>
+												</intro>
+												<point wId="clan2-stav104-tac10">
+													<num>10.</num>
+													<intro>
+														<p>03C General</p>
+													</intro>
+													<point wId="clan2-stav104-tac10">
+														<num>10.</num>
+														<content>
+															<p>04 Non-Waiver</p>
+														</content>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac11">
+						<num>11.</num>
+						<intro>
+							<p>01 Governing Law</p>
+						</intro>
+						<point wId="clan2-stav104-tac11">
+							<num>11.</num>
+							<intro>
+								<p>02 Jurisdiction</p>
+							</intro>
+							<point wId="clan2-stav104-tac11">
+								<num>11.</num>
+								<intro>
+									<p>03 Place of performance</p>
+								</intro>
+								<point wId="clan2-stav104-tac11">
+									<num>11.</num>
+									<intro>
+										<p>04 Evidence of sums due</p>
+									</intro>
+									<point wId="clan2-stav104-tac11">
+										<num>11.</num>
+										<content>
+											<p>05 Amendments</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac12">
+						<num>12.</num>
+						<intro>
+							<p>01 Notices to either party</p>
+						</intro>
+						<point wId="clan2-stav104-tac12">
+							<num>12.</num>
+							<intro>
+								<p>02 Form of notice</p>
+							</intro>
+							<point wId="clan2-stav104-tac12">
+								<num>12.</num>
+								<intro>
+									<p>03 Changes to parties</p>
+								</intro>
+								<point wId="clan2-stav104-tac12">
+									<num>12.</num>
+									<intro>
+										<p>04 Entry into force</p>
+									</intro>
+									<point wId="clan2-stav104-tac12">
+										<num>12.</num>
+										<content>
+											<p>05 Recitals andSchedules</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac1">
+						<num>1.</num>
+						<intro>
+							<p>01 Износ кредита</p>
+						</intro>
+						<point wId="clan2-stav104-tac1">
+							<num>1.</num>
+							<intro>
+								<p>02 Поступак исплате</p>
+							</intro>
+							<point wId="clan2-stav104-tac1">
+								<num>1.</num>
+								<intro>
+									<p>02A Транше</p>
+								</intro>
+								<point wId="clan2-stav104-tac1">
+									<num>1.</num>
+									<intro>
+										<p>02Б Захтев за исплату</p>
+									</intro>
+									<point wId="clan2-stav104-tac1">
+										<num>1.</num>
+										<intro>
+											<p>02Ц Обавештење о исплати</p>
+										</intro>
+										<point wId="clan2-stav104-tac1">
+											<num>1.</num>
+											<intro>
+												<p>02Д Рачун за исплату</p>
+											</intro>
+											<point wId="clan2-stav104-tac1">
+												<num>1.</num>
+												<intro>
+													<p>03 Валута исплате</p>
+												</intro>
+												<point wId="clan2-stav104-tac1">
+													<num>1.</num>
+													<intro>
+														<p>04 Услови исплате</p>
+													</intro>
+													<point wId="clan2-stav104-tac1">
+														<num>1.</num>
+														<intro>
+															<p>04A Прва транша</p>
+														</intro>
+														<point wId="clan2-stav104-tac1">
+															<num>1.</num>
+															<intro>
+																<p>04Б Све транше</p>
+															</intro>
+															<point wId="clan2-stav104-tac1">
+																<num>1.</num>
+																<intro>
+																	<p>05 Одлагање исплате</p>
+																</intro>
+																<point wId="clan2-stav104-tac1">
+																	<num>1.</num>
+																	<intro>
+																		<p>05A Основ за одлагање</p>
+																	</intro>
+																	<point wId="clan2-stav104-tac1">
+																		<num>1.</num>
+																		<intro>
+																			<p>05Б Отказивање исплате одложене шест (6) месеци</p>
+																		</intro>
+																		<point wId="clan2-stav104-tac10">
+																			<num>10.</num>
+																			<content>
+																				<p>6 Отказивање и обустава</p>
+																			</content>
+																		</point>
+																		<point wId="clan2-stav104-tac1">
+																			<num>1.</num>
+																			<intro>
+																				<p>06A Право Зајмопримца на отказивање</p>
+																			</intro>
+																			<point wId="clan2-stav104-tac1">
+																				<num>1.</num>
+																				<intro>
+																					<p>06Б Право Банке на обуставу и отказивање</p>
+																				</intro>
+																				<point wId="clan2-stav104-tac1">
+																					<num>1.</num>
+																					<intro>
+																						<p>06Ц Обештећење за обуставу и отказивање транше</p>
+																					</intro>
+																					<point wId="clan2-stav104-tac1">
+																						<num>1.</num>
+																						<intro>
+																							<p>06Ц(1) ОБУСТАВА</p>
+																						</intro>
+																						<point wId="clan2-stav104-tac1">
+																							<num>1.</num>
+																							<intro>
+																								<p>06Ц(2) ОТКАЗИВАЊЕ</p>
+																							</intro>
+																							<point wId="clan2-stav104-tac1">
+																								<num>1.</num>
+																								<intro>
+																									<p>07 Отказивање након истека кредита</p>
+																								</intro>
+																								<point wId="clan2-stav104-tac1">
+																									<num>1.</num>
+																									<intro>
+																										<p>08 Поступак доделе средстава</p>
+																									</intro>
+																									<point wId="clan2-stav104-tac1">
+																										<num>1.</num>
+																										<intro>
+																											<p>08A Захтеви за доделу средстава</p>
+																										</intro>
+																										<point wId="clan2-stav104-tac1">
+																											<num>1.</num>
+																											<intro>
+																												<p>08Б Додела средстава</p>
+																											</intro>
+																											<point wId="clan2-stav104-tac1">
+																												<num>1.</num>
+																												<intro>
+																													<p>08Ц Прерасподела</p>
+																												</intro>
+																												<point wId="clan2-stav104-tac1">
+																													<num>1.</num>
+																													<intro>
+																														<p>08Д Репласман средстава</p>
+																													</intro>
+																													<point wId="clan2-stav104-tac1">
+																														<num>1.</num>
+																														<intro>
+																															<p>08E Рок за исплату Крајњим корисницима</p>
+																														</intro>
+																														<point wId="clan2-stav104-tac1">
+																															<num>1.</num>
+																															<intro>
+																																<p>08Ф Извештај о додели средстава за ЕИБ</p>
+																															</intro>
+																															<point wId="clan2-stav104-tac1">
+																																<num>1.</num>
+																																<content>
+																																	<p>09 Износи доспели на основу <ref wId="ref6" href="akn/rs/act/2016/10-84/srp@/!main~art_1" >члана 1.</ref></p>
+																																</content>
+																															</point>
+																														</point>
+																													</point>
+																												</point>
+																											</point>
+																										</point>
+																									</point>
+																								</point>
+																							</point>
+																						</point>
+																					</point>
+																				</point>
+																			</point>
+																		</point>
+																	</point>
+																</point>
+															</point>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac2">
+						<num>2.</num>
+						<intro>
+							<p>01 Износ зајма</p>
+						</intro>
+						<point wId="clan2-stav104-tac2">
+							<num>2.</num>
+							<intro>
+								<p>02 Валута отплате, камате и осталих накнада</p>
+							</intro>
+							<point wId="clan2-stav104-tac2">
+								<num>2.</num>
+								<content>
+									<p>03 Потврда Банке</p>
+								</content>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac3">
+						<num>3.</num>
+						<intro>
+							<p>01 Каматна стопа</p>
+						</intro>
+						<point wId="clan2-stav104-tac3">
+							<num>3.</num>
+							<intro>
+								<p>01A Транше с фиксном каматном стопом</p>
+							</intro>
+							<point wId="clan2-stav104-tac3">
+								<num>3.</num>
+								<intro>
+									<p>01Б Транше с променљивом каматном стопом</p>
+								</intro>
+								<point wId="clan2-stav104-tac3">
+									<num>3.</num>
+									<intro>
+										<p>01Ц Промена или конверзија транши</p>
+									</intro>
+									<point wId="clan2-stav104-tac3">
+										<num>3.</num>
+										<intro>
+											<p>02 Камата на доспеле неизмирене износе</p>
+										</intro>
+										<point wId="clan2-stav104-tac3">
+											<num>3.</num>
+											<content>
+												<p>03 Догађај поремећаја тржишта</p>
+											</content>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac4">
+						<num>4.</num>
+						<intro>
+							<p>01 Редовна отплата</p>
+						</intro>
+						<point wId="clan2-stav104-tac4">
+							<num>4.</num>
+							<intro>
+								<p>01A Отплата у ратама</p>
+							</intro>
+							<point wId="clan2-stav104-tac4">
+								<num>4.</num>
+								<intro>
+									<p>01Б Једнократна отплата</p>
+								</intro>
+								<point wId="clan2-stav104-tac4">
+									<num>4.</num>
+									<intro>
+										<p>02 Добровољна превремена отплата</p>
+									</intro>
+									<point wId="clan2-stav104-tac4">
+										<num>4.</num>
+										<intro>
+											<p>02A Могућност превремене отплате</p>
+										</intro>
+										<point wId="clan2-stav104-tac4">
+											<num>4.</num>
+											<intro>
+												<p>02Б Обештећење за превремену отплату</p>
+											</intro>
+											<point wId="clan2-stav104-tac4">
+												<num>4.</num>
+												<intro>
+													<p>02Б(1) ТРАНША С ФИКСНОМ КАМАТНОМ СТОПОМ</p>
+												</intro>
+												<point wId="clan2-stav104-tac4">
+													<num>4.</num>
+													<intro>
+														<p>02Б(2) ТРАНША С ПРОМЕНЉИВОМ КАМАТНОМ СТОПОМ</p>
+													</intro>
+													<point wId="clan2-stav104-tac4">
+														<num>4.</num>
+														<intro>
+															<p>02Б(3) Осим ако је Зајмопримац у писаном облику прихватио фиксну каматну стопу у односу на предлог за промену/конверзију камате у складу с Прилогом Д, превремена отплата транше на датум промене/конверзије камате према обавештењу из <ref wId="ref7" href="akn/rs/act/2016/10-84/srp@/!main~art_1" >члана 1.</ref>02Ц(a)(viii), односно у складу с Прилогом Ц1 или Д, може да се изврши без обештећења.</p>
+														</intro>
+														<point wId="clan2-stav104-tac4">
+															<num>4.</num>
+															<intro>
+																<p>02Ц Начини превремене отплате</p>
+															</intro>
+															<point wId="clan2-stav104-tac4">
+																<num>4.</num>
+																<intro>
+																	<p>03 Обавезна превремена отплата</p>
+																</intro>
+																<point wId="clan2-stav104-tac4">
+																	<num>4.</num>
+																	<intro>
+																		<p>03A Догађаји превремене отплате</p>
+																	</intro>
+																	<point wId="clan2-stav104-tac4">
+																		<num>4.</num>
+																		<intro>
+																			<p>03A(1) НЕКОРИШЋЕЊЕ ЗАЈМА</p>
+																		</intro>
+																		<point wId="clan2-stav104-tac4">
+																			<num>4.</num>
+																			<intro>
+																				<p>03A(2) РАНГИРАЊЕ PARI PASSU У ОДНОСУ НА ФИНАНСИРАЊЕ КОЈЕ НЕ ОБЕЗБЕЂУЈЕ ЕИБ</p>
+																			</intro>
+																			<point wId="clan2-stav104-tac4">
+																				<num>4.</num>
+																				<intro>
+																					<p>03A(3) ПРОМЕНА ЗАКОНА</p>
+																				</intro>
+																				<point wId="clan2-stav104-tac4">
+																					<num>4.</num>
+																					<intro>
+																						<p>03A(4) НЕЗАКОНИТОСТ</p>
+																					</intro>
+																					<point wId="clan2-stav104-tac4">
+																						<num>4.</num>
+																						<intro>
+																							<p>03A(5) ПРОПУСТ У ИНФОРМИСАЊУ ИЛИ ПРЕНОСУ ФИНАНСИЈСКИХ ПОГОДНОСТИ</p>
+																						</intro>
+																						<point wId="clan2-stav104-tac4">
+																							<num>4.</num>
+																							<intro>
+																								<p>03Б Начини превремене отплате</p>
+																							</intro>
+																							<point wId="clan2-stav104-tac4">
+																								<num>4.</num>
+																								<intro>
+																									<p>03Ц Обештећење за превремену отплату</p>
+																								</intro>
+																								<point wId="clan2-stav104-tac4">
+																									<num>4.</num>
+																									<content>
+																										<p>04 Опште</p>
+																									</content>
+																								</point>
+																							</point>
+																						</point>
+																					</point>
+																				</point>
+																			</point>
+																		</point>
+																	</point>
+																</point>
+															</point>
+														</point>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac5">
+						<num>5.</num>
+						<intro>
+							<p>01 Метод одређивања броја дана</p>
+						</intro>
+						<point wId="clan2-stav104-tac5">
+							<num>5.</num>
+							<intro>
+								<p>02 Време и место плаћања</p>
+							</intro>
+							<point wId="clan2-stav104-tac5">
+								<num>5.</num>
+								<intro>
+									<p>03 Забрана поравнања од стране Зајмопримца</p>
+								</intro>
+								<point wId="clan2-stav104-tac5">
+									<num>5.</num>
+									<intro>
+										<p>04 Поремећај платних система</p>
+									</intro>
+									<point wId="clan2-stav104-tac5">
+										<num>5.</num>
+										<content>
+											<p>05 Употреба примљених средстава</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac6">
+						<num>6.</num>
+						<intro>
+							<p>01 Коришћење зајма</p>
+						</intro>
+						<point wId="clan2-stav104-tac6">
+							<num>6.</num>
+							<intro>
+								<p>02 Остале обавезе</p>
+							</intro>
+							<point wId="clan2-stav104-tac6">
+								<num>6.</num>
+								<intro>
+									<p>03 Поштовање закона</p>
+								</intro>
+								<point wId="clan2-stav104-tac6">
+									<num>6.</num>
+									<intro>
+										<p>04 Опште изјаве и гаранције</p>
+									</intro>
+									<point wId="clan2-stav104-tac6">
+										<num>6.</num>
+										<intro>
+											<p>05 Интегритет</p>
+										</intro>
+										<point wId="clan2-stav104-tac6">
+											<num>6.</num>
+											<content>
+												<p>06 Законитост средстава која се користе за пројекте МСП</p>
+											</content>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac7">
+						<num>7.</num>
+						<intro>
+							<p>01 Рангирање Pari Passu</p>
+						</intro>
+						<point wId="clan2-stav104-tac7">
+							<num>7.</num>
+							<intro>
+								<p>02 Обезбеђење</p>
+							</intro>
+							<point wId="clan2-stav104-tac7">
+								<num>7.</num>
+								<content>
+									<p>03 Клаузуле које се накнадно уносе</p>
+								</content>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac8">
+						<num>8.</num>
+						<intro>
+							<p>01 Информације о пројектима МСП и приоритетним пројектима и крајњим корисницима</p>
+						</intro>
+						<point wId="clan2-stav104-tac8">
+							<num>8.</num>
+							<intro>
+								<p>02 Информације о Зајмопримцу и Агенту</p>
+							</intro>
+							<point wId="clan2-stav104-tac8">
+								<num>8.</num>
+								<intro>
+									<p>03 Истраге и информације</p>
+								</intro>
+								<point wId="clan2-stav104-tac8">
+									<num>8.</num>
+									<content>
+										<p>04 Посете од стране Банке</p>
+									</content>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac9">
+						<num>9.</num>
+						<intro>
+							<p>01 Порези, дажбине и накнаде</p>
+						</intro>
+						<point wId="clan2-stav104-tac9">
+							<num>9.</num>
+							<intro>
+								<p>02 Остали трошкови</p>
+							</intro>
+							<point wId="clan2-stav104-tac9">
+								<num>9.</num>
+								<content>
+									<p>03 Увећани трошкови, обештећење и поравнање</p>
+								</content>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac10">
+						<num>10.</num>
+						<intro>
+							<p>01 Право на захтевање отплате</p>
+						</intro>
+						<point wId="clan2-stav104-tac10">
+							<num>10.</num>
+							<intro>
+								<p>01A Хитан захтев</p>
+							</intro>
+							<point wId="clan2-stav104-tac10">
+								<num>10.</num>
+								<intro>
+									<p>01Б Захтев након опомене о исправци</p>
+								</intro>
+								<point wId="clan2-stav104-tac10">
+									<num>10.</num>
+									<intro>
+										<p>02 Остала права по закону</p>
+									</intro>
+									<point wId="clan2-stav104-tac10">
+										<num>10.</num>
+										<intro>
+											<p>03 Обештећење</p>
+										</intro>
+										<point wId="clan2-stav104-tac10">
+											<num>10.</num>
+											<intro>
+												<p>03A Транше с фиксном каматном стопом</p>
+											</intro>
+											<point wId="clan2-stav104-tac10">
+												<num>10.</num>
+												<intro>
+													<p>03Б Транше с променљивом каматном стопом</p>
+												</intro>
+												<point wId="clan2-stav104-tac10">
+													<num>10.</num>
+													<intro>
+														<p>03Ц Опште</p>
+													</intro>
+													<point wId="clan2-stav104-tac10">
+														<num>10.</num>
+														<content>
+															<p>04 Неодрицање од права</p>
+														</content>
+													</point>
+												</point>
+											</point>
+										</point>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac11">
+						<num>11.</num>
+						<intro>
+							<p>01 Меродавно право</p>
+						</intro>
+						<point wId="clan2-stav104-tac11">
+							<num>11.</num>
+							<intro>
+								<p>02 Судска надлежност</p>
+							</intro>
+							<point wId="clan2-stav104-tac11">
+								<num>11.</num>
+								<intro>
+									<p>03 Место извршења</p>
+								</intro>
+								<point wId="clan2-stav104-tac11">
+									<num>11.</num>
+									<intro>
+										<p>04 Доказ о доспелим износима</p>
+									</intro>
+									<point wId="clan2-stav104-tac11">
+										<num>11.</num>
+										<content>
+											<p>05 Измене и допуне</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+					<point wId="clan2-stav104-tac12">
+						<num>12.</num>
+						<intro>
+							<p>01 Обавештења упућена другој уговорној страни</p>
+						</intro>
+						<point wId="clan2-stav104-tac12">
+							<num>12.</num>
+							<intro>
+								<p>02 Форма обавештења</p>
+							</intro>
+							<point wId="clan2-stav104-tac12">
+								<num>12.</num>
+								<intro>
+									<p>03 Промене уговорних страна</p>
+								</intro>
+								<point wId="clan2-stav104-tac12">
+									<num>12.</num>
+									<intro>
+										<p>04 Ступање на снагу</p>
+									</intro>
+									<point wId="clan2-stav104-tac12">
+										<num>12.</num>
+										<content>
+											<p>05 Преамбула и прилози</p>
+										</content>
+									</point>
+								</point>
+							</point>
+						</point>
+					</point>
+				</paragraph>
+			</article>
+		</body>
+	</act>
+</akomaNtoso>

@@ -1,0 +1,372 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон 'Службени гласник РС', бр. 41 од 31. маја 2018, 91  од 24. децембра 2019.">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2018/41-119/main"/>
+					<FRBRuri value="/rs/act/2018/41-119"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2019/91-83/srp@/main"/>
+					<FRBRuri value="/rs/act/2019/91-83/srp@"/>
+					<FRBRdate date="2019-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2019/91-83/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2019/91-83/srp@.akn"/>
+					<FRBRdate date="2019-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2018-05-31" name="службени гласник рс" number="41" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="IX ОПШТИ ПРИВРЕДНИ ПРОПИСИ И ЕКОНОМСКИ ОДНОСИ СА ИНОСТРАНСТВОМ" value="ix општи привредни прописи и економски односи са иностранством" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="11. Регистрација привредних субјеката" value="11. регистрација привредних субјеката" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2018-01-01" refersTo="41/2018-119" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2019-01-01" refersTo="91/2019-83" source="#somebody" type="amendment" wId="e2"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2018-05-25" wId="usvajanje"/>
+				<step by="#TODO" date="2018-06-08" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2018-06-08" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања закона у „Службеном гласнику Републике Србије”, односно 8. јуна 2018. године (види члан 18. Закона).Подзаконски акти за спровођење овог закона донеће се у року од три месеца од дана ступања на снагу овог закона. Агенција за привредне регистре ће успоставити Централну евиденцију, најкасније до 31. децембра 2018. године. Овлашћено лице дужно је да најкасније до 31. јануара 2019. године евидентира податке из члана 5. став 2. овог закона за Регистрованог субјекта основаног до 31. децембра 2018. године (види чл. 16. и 17. Закона).Закон о изменама и допуни Закона о о Централној евиденцији стварних власника („Службени гласник РС“, број 91/2019) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 1. јануара 2020. године (види члан 5. Закона – 91/2019-83).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон "службени гласник рс", бр. 41 од 31. маја 2018, 91  од 24. децембра 2019. Предмет закона</p>
+			</longTitle>
+			<p>о Централној евиденцији стварних власника</p>
+		</preface>
+		<preamble>
+			<p>Редакцијски пречишћен текст</p>
+		</preamble>
+		<body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Овим законом уређује се успостављање, садржина, основи евидентирања и начин вођења Централне евиденције стварних власника правних лица и других субјеката регистрованих у Републици Србији у складу са законом (у даљем тексту: Централна евиденција), као и друга питања од значаја за евидентирање стварних власника.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<heading>Примена закона</heading>
+				<paragraph wId="clan2-stav1">
+					<intro>
+						<p>Овај закон примењује се на следећа правна лица и друге субјекте регистроване у Републици Србији у складу са законом (у даљем тексту: Регистровани субјекти):</p>
+					</intro>
+					<point wId="clan2-stav1-tac1">
+						<num>1)</num>
+						<content>
+							<p> привредна друштва, осим јавних акционарских друштава;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac2">
+						<num>2)</num>
+						<content>
+							<p> задруге;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac3">
+						<num>3)</num>
+						<content>
+							<p> огранке страних привредних друштава;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac4">
+						<num>4)</num>
+						<content>
+							<p> пословна удружења и удружења, осим политичких странака, синдиката, спортских организација и удружења, цркава и верских заједница;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac5">
+						<num>5)</num>
+						<content>
+							<p> фондације и задужбине;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac6">
+						<num>6)</num>
+						<content>
+							<p> установe;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac7">
+						<num>7)</num>
+						<content>
+							<p> представништва страних привредних друштава, удружења, фондација и задужбина.</p>
+						</content>
+					</point>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>Овај закон не примењује се на привредна друштва и установе у којима је Република Србија, аутономна покрајина или јединица локалне самоуправе једини члан, односно оснивач.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<heading>Значење појмова</heading>
+				<paragraph wId="clan3-stav1">
+					<intro>
+						<p>Поједини појмови употребљени у овом закону имају следеће значење:</p>
+					</intro>
+					<point wId="clan3-stav1-tac1">
+						<num>1)</num>
+						<content>
+							<p> Централна евиденција је јавна, јединствена, централна, електронска база података о физичким лицима која су стварни власници Регистрованог субјекта;</p>
+						</content>
+					</point>
+					<point wId="clan3-stav1-tac2">
+						<num>2)</num>
+						<content>
+							<p> евидентирање је упис, промена или брисање података који су овим законом и другим прописима одређени као предмет евидентирања у Централној евиденцији;</p>
+						</content>
+					</point>
+					<point wId="clan3-stav1-tac3">
+						<num>3)</num>
+						<intro>
+							<p> стварни власник Регистрованог субјекта јесте:</p>
+						</intro>
+						<hcontainer name="subpoint" wId="clan3-stav1-tac3-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> физичко лице, које је посредно или непосредно ималац 25% или више удела, акција, права гласа или других права, на основу којих учествује у управљању Регистрованим субјектом, односно учествује у капиталу Регистрованог субјекта са 25% или више удела;</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="clan3-stav1-tac3-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> физичко лице које посредно или непосредно има преовлађујући утицај на вођење послова и доношење одлука;</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="clan3-stav1-tac3-podtac3">
+							<num>(3)</num>
+							<content>
+								<p> физичко лице, које Регистрованом субјекту посредно обезбеди или обезбеђује средства и по том основу битно утиче на доношење одлука органа управљања Регистрованог субјекта приликом одлучивања о финансирању и пословању;</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="clan3-stav1-tac3-podtac4">
+							<num>(4)</num>
+							<content>
+								<p> физичко лице које је оснивач, повереник, заштитник, корисник ако је одређен, као и лице које има доминантан положај у управљању трастом, односно у другом лицу страног права;</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="clan3-stav1-tac3-podtac5">
+							<num>(5)</num>
+							<content>
+								<p> физичко лице које је регистровано за заступање задруга, удружења, фондација, задужбина и установа, ако овлашћено лице за заступање није пријавило друго физичко лице као стварног власника.</p>
+							</content>
+						</hcontainer>
+					</point>
+				</paragraph>
+				<paragraph wId="clan3-stav2">
+					<content>
+						<p>Изузетно, ако није могуће одредити физичко лице из става <ref wId="ref1" href="akn/rs/act/2019/91-83/srp@/!main~art_3__para_1__point_1" >1</ref>. тачка <ref wId="ref0" href="akn/rs/act/2019/91-83/srp@/!main~art_3__para_1__point_3" >3</ref>) подтач. (1)–(4) овог члана на начин како је то прописано, стварни власник Регистрованог субјекта је физичко лице које је регистровано за заступање, односно које је регистровано као члан органа тог субјекта.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav3">
+					<content>
+						<p>Други појмови који се употребљавају у овом закону, а који нису дефинисани у <ref wId="ref2" href="akn/rs/act/2019/91-83/srp@/!main~art_3__para_1" >ставу 1. овог</ref> члана, имају значење дефинисано посебним законима.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan4">
+				<num>4.</num>
+				<heading>Централна евиденција</heading>
+				<paragraph wId="clan4-stav1">
+					<content>
+						<p>Централну евиденцију води Агенција за привредне регистре (у даљем тексту: Агенција) у електронској форми, преко регистратора.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan5">
+				<num>5.</num>
+				<heading>Садржина Централне евиденције</heading>
+				<paragraph wId="clan5-stav1">
+					<intro>
+						<p>Централна евиденција, у зависности од правне форме, односно облика организовања, садржи следеће податке o Регистрованом субјекту:</p>
+					</intro>
+					<point wId="clan5-stav1-tac1">
+						<num>1)</num>
+						<content>
+							<p> пословно име, односно назив;</p>
+						</content>
+					</point>
+					<point wId="clan5-stav1-tac2">
+						<num>2)</num>
+						<content>
+							<p> адреса седишта;</p>
+						</content>
+					</point>
+					<point wId="clan5-stav1-tac3">
+						<num>3)</num>
+						<content>
+							<p> датум уписа, промене или брисања податка;</p>
+						</content>
+					</point>
+					<point wId="clan5-stav1-tac4">
+						<num>4)</num>
+						<content>
+							<p> матични број додељен од Републичког завода за статистику;</p>
+						</content>
+					</point>
+					<point wId="clan5-stav1-tac5">
+						<num>5)</num>
+						<content>
+							<p> порески идентификациони број (ПИБ);</p>
+						</content>
+					</point>
+					<point wId="clan5-stav1-tac6">
+						<num>6)</num>
+						<content>
+							<p> статус регистрованог субјекта (нпр. активан, у стечају, у ликвидацији, у принудној ликвидацији, брисан);</p>
+						</content>
+					</point>
+					<point wId="clan5-stav1-tac7">
+						<num>7)</num>
+						<content>
+							<p> правна форма, односно облик организовања;</p>
+						</content>
+					</point>
+					<point wId="clan5-stav1-tac8">
+						<num>8)</num>
+						<content>
+							<p> шифра претежне делатности, односно област остваривања циљева;</p>
+						</content>
+					</point>
+					<point wId="clan5-stav1-tac9">
+						<num>9)</num>
+						<content>
+							<p> податак о заступнику;</p>
+						</content>
+					</point>
+					<point wId="clan5-stav1-tac10">
+						<num>10)</num>
+						<content>
+							<p> физичко лице које је регистровано као члан органа;</p>
+						</content>
+					</point>
+					<point wId="clan5-stav1-tac11">
+						<num>11)</num>
+						<content>
+							<p> основни (регистровани) капитал;</p>
+						</content>
+					</point>
+					<point wId="clan5-stav1-tac12">
+						<num>12)</num>
+						<content>
+							<p> податке о члановима, односно оснивачима и проценту њиховог удела, oдносно броју и проценту њихових акција;</p>
+						</content>
+					</point>
+					<point wId="clan5-stav1-tac13">
+						<num>13)</num>
+						<content>
+							<p> скраћено пословно име;</p>
+						</content>
+					</point>
+					<point wId="clan5-stav1-tac14">
+						<num>14)</num>
+						<content>
+							<p> пословно име на страном језику;</p>
+						</content>
+					</point>
+					<point wId="clan5-stav1-tac15">
+						<num>15)</num>
+						<content>
+							<p> скраћено пословно име на страном језику;</p>
+						</content>
+					</point>
+					<point wId="clan5-stav1-tac16">
+						<num>16)</num>
+						<content>
+							<p> адресу за пријем поште;</p>
+						</content>
+					</point>
+					<point wId="clan5-stav1-tac17">
+						<num>17)</num>
+						<content>
+							<p> адресу за пријем електронске поште;</p>
+						</content>
+					</point>
+					<point wId="clan5-stav1-tac18">
+						<num>18)</num>
+						<content>
+							<p> бројеве рачуна у банкама;</p>
+						</content>
+					</point>
+					<point wId="clan5-stav1-tac19">
+						<num>19)</num>
+						<content>
+							<p> контакт податке, ако су регистровани.</p>
+						</content>
+					</point>
+				</paragraph>
+				<paragraph wId="clan5-stav2">
+					<intro>
+						<p>Централна евиденција садржи следеће податке o стварном власнику Регистрованог субјекта:</p>
+					</intro>
+					<point wId="clan5-stav2-tac1">
+						<num>1)</num>
+						<content>
+							<p> за домаће физичко лице – лично име, јединствени матични број грађана и држава пребивалишта;</p>
+						</content>
+					</point>
+					<point wId="clan5-stav2-tac2">
+						<num>2)</num>
+						<content>
+							<p> за странца – лично име, број пасоша и држава издавања и/или лични број за странца и/или број личне карте странца и земља издавања у складу са прописима којима се уређују услови за улазак, кретање и боравак странаца на територији Републике Србије, дан, месец, година и место рођења, држава пребивалишта и држављанство;</p>
+						</content>
+					</point>
+					<point wId="clan5-stav2-tac3">
+						<num>3)</num>
+						<content>
+							<p> за избегла или прогнана лица – лично име, број легитимације, дан, месец, година и место рођења и држава боравишта;</p>
+						</content>
+					</point>
+					<point wId="clan5-stav2-tac4">
+						<num>4)</num>
+						<content>
+							<p> основ за стицање својства стварног власника Регистрованог субјекта из члана <ref wId="ref3" href="akn/rs/act/2019/91-83/srp@/!main~art_3__para_1__point_3" >3</ref>. став <ref wId="ref4" href="akn/rs/act/2019/91-83/srp@/!main~art_3__para_1__point_1" >1</ref>. тачка 3) подтач. (1)–(5) и ставa 2. овог закона.</p>
+						</content>
+					</point>
+				</paragraph>
+				<paragraph wId="clan5-stav3">
+					<content>
+						<p>Поред података из <ref wId="ref5" href="akn/rs/act/2019/91-83/srp@/!main~art_5__para_1->para_2" >ст. 1. и 2. овог</ref> члана Централна евиденција садржи и датуме о евидентирању података.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan5-stav4">
+					<content>
+						<p>Министар надлежан за послове привредe ближе прописује садржину Централне евиденције ради спровођења евидентирања стварних власника Регистрованог субјекта.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan6">
+				<num>6.</num>
+				<heading>Основи евидентирања</heading>
+				<paragraph wId="clan6-stav1">
+					<content>
+						<p>Основи евидентирања у Централну евиденцију су:</p>
+					</content>
+				</paragraph>
+			</article>
+		</body>
+	</act>
+</akomaNtoso>

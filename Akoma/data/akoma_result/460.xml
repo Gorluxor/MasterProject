@@ -1,0 +1,515 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о Фонду за развој Републике Србије">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2009/36-159/main"/>
+					<FRBRuri value="/rs/act/2009/36-159"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2015/5-3/srp@/main"/>
+					<FRBRuri value="/rs/act/2015/5-3/srp@"/>
+					<FRBRdate date="2015-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2015/5-3/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2015/5-3/srp@.akn"/>
+					<FRBRdate date="2015-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2009-05-15" name="“службени гласник рс" number="36" showAs="“Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="VIII РАЗВОЈ" value="viii развој" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="1. Планирање развоја, регионални развој и неразвијена подручја" value="1. планирање развоја, регионални развој и неразвијена подручја" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2009-01-01" refersTo="36/2009-159" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2010-01-01" refersTo="88/2010-187" source="#somebody" type="amendment" wId="e2"/>
+				<eventRef date="2012-01-01" refersTo="119/2012-27" source="#somebody" type="amendment" wId="e3"/>
+				<eventRef date="2015-01-01" refersTo="5/2015-3" source="#somebody" type="amendment" wId="e4"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2009-05-12" wId="usvajanje"/>
+				<step by="#TODO" date="2009-05-16" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2009-05-16" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу наредног дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 16. маја 2009. године (види члан 30. Закона).Фонд је правни следбеник Гаранцијског фонда (види члан 23. Закона).Закон о изменама Закона о Фонду за развој Републике Србије (Службени гласник РС, број 5/2015) ступио је на снагу наредног дана од дана објављивања у Службеном гласнику Републике Србије, односно 21. јануара 2015. године (види члан 5. Закона - 5/2015-3).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О фонду за развој републике србије “Службени гласник РС”, бр. 36 од 15. маја 2009, 88 од 23. новембра 2010, 119 од 17. децембра 2012, 5 од 20. јануара 2015.</p>
+			</longTitle>
+			<p>Редакцијски пречишћен текст</p>
+		</preface>
+		<preamble>
+			<p>﻿</p>
+		</preamble>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређује се положај, начин финансирања,  послови, управљање, контрола рада, надзор и друга питања од значаја за рад Фонда  за развој Републике Србије (у даљем тексту: Фонд).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<paragraph wId="gla1-clan2-stav1">
+						<intro>
+							<p>Фонд својом делатношћу остварује следеће циљеве:</p>
+						</intro>
+						<point wId="gla1-clan2-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> подстицања равномерног регионалног развоја, укључујући и  развој недовољно развијених подручја;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> подстицања пословања правних лица и предузетника у  Републици Србији;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> подстицања конкурентности и ликвидности привреде  Републике Србије;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> подстицања запошљавања;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> подстицања извоза.</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> брисана је (види <ref wId="ref0" href="akn/rs/act/2012/119/srp@/!main~/art_1">члан 1. Закона - 119/2012-27</ref>)</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav2">
+						<content>
+							<p>*<ref wId="ref1" href="akn/rs/act/2010/88/srp@">Службени гласник РС, број 88/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<heading>**Службени гласник РС, број 119/2012</heading>
+					<paragraph wId="gla1-clan3-stav1">
+						<content>
+							<p>Фонд има својство правног лица са правима, обавезама и  одговорностима утврђеним овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav2">
+						<content>
+							<p>Фонд се уписује у судски регистар.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav3">
+						<content>
+							<p>Фонд за своје обавезе одговара својом имовином .</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav4">
+						<content>
+							<p>Седиште Фонда је у Нишу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav5">
+						<content>
+							<p>Фонд може да има филијале у другим градовима у  Републици Србији, о чијем образовању Управни одбор Фонда доноси одлуку.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav6">
+						<content>
+							<p>*<ref wId="ref2" href="akn/rs/act/2010/88/srp@">Службени гласник РС, број 88/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<heading>**Службени гласник РС, број 5/2015</heading>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>Фонд може, у складу са законом, да се организује као  акционарско друштво.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav2">
+						<content>
+							<p>Када се Фонд организује као акционарско друштво, на начин  оснивања, оснивачки акт, одговорност и права оснивача, начин управљања,  заступање и заступнике, дивиденде, информисање и друга питања, примењују се  одредбе закона којим се уређује положај привредних друштава ако нису у  супротности са овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav3">
+						<content>
+							<p>У случају из <ref wId="ref3" href="akn/rs/act/2015/5-3/srp@/!main~art_4__para_2" >става 2. овог</ref> члана Фонд издаје Републици  Србији најмање 51% акција са правом гласа. Остали акционари могу бити домаћа и  страна правна и физичка лица.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ПОСЛОВИ ФОНДА, СРЕДСТВА И НАМЕНА СРЕДСТАВА ФОНДА</heading>
+				<article wId="gla2-clan5">
+					<num>5.</num>
+					<paragraph wId="gla2-clan5-stav1">
+						<intro>
+							<p>Фонд обавља послове који се односе на:</p>
+						</intro>
+						<point wId="gla2-clan5-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> одобравање кредита;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> издавање гаранција;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> куповину хартија од вредности, стицање акција и удела на  основу правних послова, укључујући и конверзију потраживања;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> друге послове у име и за рачун Републике Србије, у  складу са законом.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav2">
+						<content>
+							<p>Конверзија потраживања у улог из става 1. тачка <ref wId="ref4" href="akn/rs/act/2015/5-3/srp@/!main~art_5__para_1__point_3" >3</ref>)  овог члана може се вршити ради наплате потраживања која Фонд има према тим  привредним субјектима, ако је то целисходно и ако је Влада дала сагласност на  такав начин наплате потраживања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav3">
+						<content>
+							<p>Стручне и финансијско-техничке послове у Фонду обављају  запослени у Фонду, у складу са статутом Фонда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav4">
+						<content>
+							<p>Запослени у Фонду имају права и обавезе у складу са законом  о раду и колективним уговором.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan6">
+					<num>6.</num>
+					<heading>*Службени гласник РС, број 88/2010</heading>
+					<paragraph wId="gla2-clan6-stav1">
+						<intro>
+							<p>Средства за обављање послова Фонда обезбеђују се из:</p>
+						</intro>
+						<point wId="gla2-clan6-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> прихода Фонда;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> буџета Републике Србије;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> других извора у складу са законом.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav2">
+						<content>
+							<p>Средства из <ref wId="ref5" href="akn/rs/act/2015/5-3/srp@/!main~art_6__para_1" >става 1. овог</ref> члана воде се на посебним  рачунима Фонда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav3">
+						<content>
+							<p>Средства Фонда користе се за намене из <ref wId="ref6" href="akn/rs/act/2015/5-3/srp@/!main~art_7" >члана 7. овог</ref>  закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan7">
+					<num>7.</num>
+					<paragraph wId="gla2-clan7-stav1">
+						<content>
+							<p>Кредити из члана 5. тачка <ref wId="ref7" href="akn/rs/act/2015/5-3/srp@/!main~art_5__para_1__point_1" >1</ref>. овог закона одобравају се за  подстицање развоја привредних субјеката.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav2">
+						<content>
+							<p>Кредити и гаранције из средстава Фонда могу се  одобравати привредним субјектима који су у већинском приватном или државном  власништву, осим јавним предузећима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav3">
+						<content>
+							<p>Кредити и гаранције из средстава Фонда могу се  одобравати и привредним субјектима који имају учешће друштвеног капитала мање од  40%.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav4">
+						<content>
+							<p>Фонд може, у складу са посебним актима Владе,  преузимати обавезе привредних субјеката и других правних лица у већинском  државном власништву у случајевима у којима су за те обавезе гаранције, по  посебним програмима Владе, издала правна лица чији је оснивач Република Србија,  а која се баве кредитним пословима, пословима осигурања, односно пословима  издавања гаранција, при чему за тако преузете обавезе остају средства обезбеђена  у складу са наведеним посебним програмима Владе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav5">
+						<content>
+							<p>Брисан је ранији <ref wId="ref9" href="akn/rs/act/2015/5-3/srp@/!main~art_7__para_5" >став 5. </ref>(види <ref wId="ref8" href="akn/rs/act/2015/5/srp@/!main~/art_2">члан 2. Закона - 5/2015-3</ref>)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav6">
+						<content>
+							<p>Фонд не може по захтеву једног подносиоца одобравати и  кредит и гаранцију ако се и кредит и гаранција односе на исти правни посао.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav7">
+						<content>
+							<p>Фонд може слободна средства пласирати за куповину  првокласних хартија од вредности, уз сагласност Владе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav8">
+						<content>
+							<p>*<ref wId="ref10" href="akn/rs/act/2010/88/srp@">Службени гласник РС, број 88/2010</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav9">
+						<content>
+							<p>**<ref wId="ref11" href="akn/rs/act/2012/119/srp@">Службени гласник РС, број 119/2012</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan8">
+					<num>8.</num>
+					<heading>***Службени гласник РС, број 5/2015</heading>
+					<paragraph wId="gla2-clan8-stav1">
+						<content>
+							<p>Фонд је дужан да одржава основни капитал у износу од  најмање 10 милиона евра ради стабилног и сигурног пословања.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan9">
+					<num>9.</num>
+					<heading>*Службени гласник РС, број 88/2010</heading>
+					<paragraph wId="gla2-clan9-stav1">
+						<content>
+							<p>Фонду се могу одобрити средства за докапитализацију и рад у  складу са законом којим се уређује буџет Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav2">
+						<content>
+							<p>Динамику докапитализације Фонда одређује Влада на предлог  министарства надлежног за послове финансија.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan10">
+					<num>10.</num>
+					<heading>*Службени гласник РС, број 119/2012</heading>
+					<paragraph wId="gla2-clan10-stav1">
+						<content>
+							<p>Средства Фонда користе се у складу са законом, статутом и програмом рада Фонда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav2">
+						<content>
+							<p>Програм рада Фонда садржи намену, висину, услове и начин  коришћења средстава Фонда, услове, критеријуме и процедуре за одобравање кредита  и издавање гаранција, као и друга питања од значаја за рад Фонда .</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav3">
+						<content>
+							<p>На програм рада Фонда сагласност даје Влада.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav4">
+						<content>
+							<p>Средства која се Фонду преносе у складу са законом о  буџету, а која Фонд не пласира до краја буџетске године, враћају се у буџет  Републике Србије или ова средства Фонд може пласирати у наредној буџетској  години на основу посебног акта Владе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav5">
+						<content>
+							<p>*<ref wId="ref12" href="akn/rs/act/2015/5/srp@">Службени гласник РС, број 5/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>УПРАВЉАЊЕ РИЗИЦИМА</heading>
+				<article wId="gla3-clan11">
+					<num>11.</num>
+					<paragraph wId="gla3-clan11-stav1">
+						<content>
+							<p>Фонд је дужан да идентификује, мери и процењује ризике  којим је изложен у свом пословању и да управља тим ризицима.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan12">
+					<num>12.</num>
+					<paragraph wId="gla3-clan12-stav1">
+						<intro>
+							<p>Ризици у смислу овог закона обухватају све врсте ризика  којима је Фонд изложен у свом пословању и то:</p>
+						</intro>
+						<point wId="gla3-clan12-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> ризик ликвидности;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan12-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> кредитни ризик;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan12-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> каматни ризик;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan12-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> остали тржишни ризици.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan12-stav2">
+						<content>
+							<p>Фонд својом имовином и обавезама управља на начин који  омогућава да у сваком тренутку испуни своје доспеле обавезе (ликвидност) и да  трајно испуњава све своје обавезе (солвентност).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan12-stav3">
+						<content>
+							<p>Кредитни ризик, као могућност настанка негативних ефеката  на финансијски резултат и капитал Фонда, Фонд је дужан да идентификује, мери и  процењује према кредитној способности дужника и његовој уредности у вршењу  обавеза према Фонду, као и према квалитету инструмената обезбеђења потраживања  Фонда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan12-stav4">
+						<content>
+							<p>Каматни ризик је ризик могућности настанка негативних  ефеката на финансијски резултат и капитал Фонда услед промена каматних стопа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan12-stav5">
+						<content>
+							<p>Фонд је дужан да својим општим актима пропише процедуре за  идентификовање ризика и активе као и да редовно извештава органе о квалитету  кредитног портфолија.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>ОПШТИ АКТИ</heading>
+				<article wId="gla4-clan13">
+					<num>13.</num>
+					<paragraph wId="gla4-clan13-stav1">
+						<content>
+							<p>Општи акти Фонда су статут, правилник о унутрашњој  организацији и систематизацији радних места и други акти којима се на општи  начин уређују одређена питања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan13-stav2">
+						<content>
+							<p>Статут Фонда садржи одредбе о: називу и седишту Фонда,  органима Фонда, њиховој делатности и начину одлучивања органа,  критеријумима за  образовање филијала Фонда, као и о заступању Фонда, поступку измене статута и  другим питањима од значаја за рад Фонда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan13-stav3">
+						<content>
+							<p>Влада даје сагласност на статут Фонда и правилник о  унутрашњој организацији и систематизацији радних места.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan13-stav4">
+						<content>
+							<p>*<ref wId="ref13" href="akn/rs/act/2010/88/srp@">Службени гласник РС, број 88/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>ОРГАНИ ФОНДА</heading>
+				<article wId="gla5-clan14">
+					<num>14.</num>
+					<paragraph wId="gla5-clan14-stav1">
+						<content>
+							<p>Органи Фонда су: управни одбор и директор.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan15">
+					<num>15.</num>
+					<paragraph wId="gla5-clan15-stav1">
+						<content>
+							<p>Управни одбор Фонда има председника и десет чланова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan15-stav2">
+						<content>
+							<p>Председника и чланове Управног одбора именује и  разрешава Влада на предлог министра надлежног за послове финансија.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan15-stav3">
+						<content>
+							<p>За председника Управног одбора може бити именован  министар надлежан за послове финансија или министар надлежан за послове  регионалног развоја или министар надлежан за послове привреде.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan15-stav4">
+						<content>
+							<p>Чланови Управног одбора, укључујући и председника  Управног одбора, су: министар надлежан за послове регионалног развоја, министар  надлежан за послове финансија, министар надлежан за послове привреде, министар  надлежан за послове запошљавања, министар надлежан за послове енергетике,  министар надлежан за послове заштите животне средине, министар надлежан за  послове грађевинарства, министар надлежан за послове економских односа са  иностранством, министар надлежан за послове пољопривреде, министар надлежан за  послове саобраћаја и министар без портфеља задужен за област одрживог развоја  недовољно развијених подручја.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan15-stav5">
+						<content>
+							<p>Изузетно, за члана Управног одбора, осим председника,  уместо министра из <ref wId="ref14" href="akn/rs/act/2015/5-3/srp@/!main~art_15__para_4" >става 4. овог</ref> члана може бити именован државни секретар у  министарству образованом за област из надлежности тог министра.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan15-stav6">
+						<content>
+							<p>Мандат председника и чланова Управног одбора траје  четири године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan15-stav7">
+						<content>
+							<p>Када се Фонд организује као акционарско друштво, број  чланова Управног одбора се мења, сразмерно висини уложеног капитала и бира их  Скупштина.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan16">
+					<num>16.</num>
+					<heading>*Службени гласник РС, број 119/2012</heading>
+					<paragraph wId="gla5-clan16-stav1">
+						<content>
+							<p>Управни одбор Фонда:</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

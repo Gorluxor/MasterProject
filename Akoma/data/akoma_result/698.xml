@@ -1,0 +1,352 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о отпису камате на доспеле обавезе по основу одређених пореза и доприноса за обавезно социјално осигурање">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2008/102-79/main"/>
+					<FRBRuri value="/rs/act/2008/102-79"/>
+					<FRBRdate date="2008-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2008/102-79/srp@/main"/>
+					<FRBRuri value="/rs/act/2008/102-79/srp@"/>
+					<FRBRdate date="2008-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2008/102-79/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2008/102-79/srp@.akn"/>
+					<FRBRdate date="2008-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2008-11-05" name="службени гласник рс" number="102" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="XVI СОЦИЈАЛНО ОСИГУРАЊЕ, ЗДРАВСТВЕНА, СОЦИЈАЛНА И БОРАЧКА ЗАШТИТА" value="xvi социјално осигурање, здравствена, социјална и борачка заштита" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="9. Доприноси за обавезно социјално осигурање" value="9. доприноси за обавезно социјално осигурање" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2008-11-05" wId="usvajanje"/>
+				<step by="#TODO" date="2008-11-13" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2008-11-13" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 13. новембра 2005. године (види члан 6. Закона).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О отпису камате на доспеле обавезе по основу одређених пореза и доприноса за обавезно социјално осигурање "Службени гласник РС", број 102 од 5. новембра 2008.</p>
+			</longTitle>
+		</preface>
+		<body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<intro>
+						<p>Овим законом уређују се услови, обим и поступак отписа обрачунате а неплаћене камате на обавезе које су доспеле за плаћање до 31. децембра 2007. године (у даљем тексту: камата) по основу јавних прихода, и то:</p>
+					</intro>
+					<point wId="clan1-stav1-tac1">
+						<num>1)</num>
+						<content>
+							<p> пореза на доходак грађана, укључујући и порез на приходе од самосталне делатности;</p>
+						</content>
+					</point>
+					<point wId="clan1-stav1-tac2">
+						<num>2)</num>
+						<content>
+							<p> пореза на добит предузећа;</p>
+						</content>
+					</point>
+					<point wId="clan1-stav1-tac3">
+						<num>3)</num>
+						<content>
+							<p> пореза на пренос апсолутних права;</p>
+						</content>
+					</point>
+					<point wId="clan1-stav1-tac4">
+						<num>4)</num>
+						<content>
+							<p> пореза на наслеђе и поклон;</p>
+						</content>
+					</point>
+					<point wId="clan1-stav1-tac5">
+						<num>5)</num>
+						<content>
+							<p> пореза на промет;</p>
+						</content>
+					</point>
+					<point wId="clan1-stav1-tac6">
+						<num>6)</num>
+						<content>
+							<p> пореза на регистровано оружје;</p>
+						</content>
+					</point>
+					<point wId="clan1-stav1-tac7">
+						<num>7)</num>
+						<content>
+							<p> пореза на фонд зарада;</p>
+						</content>
+					</point>
+					<point wId="clan1-stav1-tac8">
+						<num>8)</num>
+						<content>
+							<p> пореза на финансијске трансакције;</p>
+						</content>
+					</point>
+					<point wId="clan1-stav1-tac9">
+						<num>9)</num>
+						<content>
+							<p> доприноса за обавезно пензијско и инвалидско осигурање;</p>
+						</content>
+					</point>
+					<point wId="clan1-stav1-tac10">
+						<num>10)</num>
+						<content>
+							<p> доприноса за обавезно осигурање за случај незапослености.</p>
+						</content>
+					</point>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Право на отпис камате на обавезе по основу јавних прихода из <ref wId="ref0" href="akn/rs/act/2008/102-79/srp@/!main~art_1" >члана 1. овог</ref> закона (у даљем тексту: обавезе) остварује се на основу захтева обвезника, односно лица одговорног за испуњење обавезе обвезника (у даљем тексту: подносилац захтева), који се подноси по испуњењу услова прописаних овим чланом, најкасније до 31. јула 2009. године.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>Уз захтев се подноси документација из које произлази да су испуњени прописани услови за отпис камате.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav3">
+					<content>
+						<p>Садржину и образац захтева из <ref wId="ref1" href="akn/rs/act/2008/102-79/srp@/!main~art_2__para_1" >става 1. овог</ref> члана ближе уређује министар надлежан за послове финансија.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav4">
+					<content>
+						<p>Захтев се подноси за сваку врсту обавеза из <ref wId="ref2" href="akn/rs/act/2008/102-79/srp@/!main~art_1" >члана 1. овог</ref> закона, Пореској управи – организационој једници код које се подносилац захтева задужује обавезама за које захтева отпис камате.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav5">
+					<content>
+						<p>Подносилац захтева који је, према обиму својих пореских обавеза, сврстан у велике пореске обвезнике, за обавезу за коју се задужује код Пореске управе – организационе јединице надлежне за велике пореске обвезнике, захтев подноси тој организационој јединици.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav6">
+					<intro>
+						<p>Отпис камате у складу са овим законом, врши се подносиоцу захтева – резиденту Републике Србије, који је:</p>
+					</intro>
+					<point wId="clan2-stav6-tac1">
+						<num>1)</num>
+						<content>
+							<p> на прописане уплатне рачуне јавних прихода уплатио главни дуг по основу обавеза из <ref wId="ref3" href="akn/rs/act/2008/102-79/srp@/!main~art_1" >члана 1. овог</ref> закона за које подноси захтев за отпис камате и споредна пореска давања по основу тих обавеза, осим камате, доспелих за плаћање до 31. децембра 2007. године;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav6-tac2">
+						<num>2)</num>
+						<content>
+							<p> на прописане уплатне рачуне јавних прихода уплатио главни дуг по основу обавеза из <ref wId="ref4" href="akn/rs/act/2008/102-79/srp@/!main~art_1" >члана 1. овог</ref> закона за које подноси захтев за отпис камате и споредна пореска давања по основу тих обавеза, доспелих за плаћање од 1. јануара 2008. године до дана подношења захтева.</p>
+						</content>
+					</point>
+				</paragraph>
+				<paragraph wId="clan2-stav7">
+					<content>
+						<p>Обавезе из <ref wId="ref5" href="akn/rs/act/2008/102-79/srp@/!main~art_1" >члана 1. овог</ref> закона доспеле до 31. децембра 2007. године, чије је плаћање одложено, сматраће се обавезама које су доспеле до 31. децембра 2007. године, у односу на камату на обавезе, односно рате обавеза, која до дана ступања на снагу овог закона није плаћена.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav8">
+					<content>
+						<p>Обавезе из <ref wId="ref6" href="akn/rs/act/2008/102-79/srp@/!main~art_1" >члана 1. овог</ref> закона доспеле до 31. децембра 2007. године, за чију је наплату покренут поступак принудне наплате, сматраће се обавезама које су доспеле до 31. децембра 2007. године, у односу на камату која до дана ступања на снагу овог закона није плаћена.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<paragraph wId="clan3-stav1">
+					<intro>
+						<p>Подносиоцу захтева који је испунио услове из <ref wId="ref7" href="akn/rs/act/2008/102-79/srp@/!main~art_2" >члана 2. овог</ref> закона отписаће се камата по основу обавезе коју је уплатио, и то:</p>
+					</intro>
+					<point wId="clan3-stav1-tac1">
+						<num>1)</num>
+						<content>
+							<p> 100% камате, ако је уплату у складу са <ref wId="ref8" href="akn/rs/act/2008/102-79/srp@/!main~art_2__para_6" >чланом 2. став 6. овог</ref> закона извршио најкасније до 31. децембра 2008. године;</p>
+						</content>
+					</point>
+					<point wId="clan3-stav1-tac2">
+						<num>2)</num>
+						<content>
+							<p> 75% камате, ако је уплату у складу са <ref wId="ref9" href="akn/rs/act/2008/102-79/srp@/!main~art_2__para_6" >чланом 2. став 6. овог</ref> закона извршио најкасније до 31. марта 2009. године;</p>
+						</content>
+					</point>
+					<point wId="clan3-stav1-tac3">
+						<num>3)</num>
+						<content>
+							<p> 50% камате, ако је уплату у складу са <ref wId="ref10" href="akn/rs/act/2008/102-79/srp@/!main~art_2__para_6" >чланом 2. став 6. овог</ref> закона извршио најкасније до 30. јуна 2009. године.</p>
+						</content>
+					</point>
+				</paragraph>
+			</article>
+			<article wId="clan4">
+				<num>4.</num>
+				<paragraph wId="clan4-stav1">
+					<content>
+						<p>Право на отпис камате утврђује се решењем надлежног пореског органа, у складу са законом.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan4-stav2">
+					<content>
+						<p>Начин и поступак за остваривање права на отпис камате у складу са овим законом ближе ће уредити министар надлежан за послове финансија.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan4-stav3">
+					<content>
+						<p>Пореска управа води евиденцију о остваривању права у складу са овим законом и стара се о спровођењу овог закона.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan5">
+				<num>5.</num>
+				<paragraph wId="clan5-stav1">
+					<content>
+						<p>Прописе из <ref wId="ref11" href="akn/rs/act/2008/102-79/srp@/!main~art_2__para_3" >члана 2. став 3. </ref>и <ref wId="ref12" href="akn/rs/act/2008/102-79/srp@/!main~art_4__para_2" >члана 4. став 2. овог</ref> закона министар надлежан за послове финансија донеће у року од 30 дана од дана ступања на снагу овог закона.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan6">
+				<num>6.</num>
+				<paragraph wId="clan6-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan6-stav2">
+					<content>
+						<p>ЗАКОН</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan6-stav3">
+					<content>
+						<p>о отпису камате на доспеле обавезе по основу одређених пореза и доприноса за обавезно социјално осигурање</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan6-stav4">
+					<content>
+						<p>"Службени гласник РС", број 102 од 5. новембра 2008.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<intro>
+						<p>Овим законом уређују се услови, обим и поступак отписа обрачунате а неплаћене камате на обавезе које су доспеле за плаћање до 31. децембра 2007. године (у даљем тексту: камата) по основу јавних прихода, и то:</p>
+					</intro>
+					<point wId="clan1-stav1-tac1">
+						<num>1)</num>
+						<content>
+							<p> пореза на доходак грађана, укључујући и порез на приходе од самосталне делатности;</p>
+						</content>
+					</point>
+					<point wId="clan1-stav1-tac2">
+						<num>2)</num>
+						<content>
+							<p> пореза на добит предузећа;</p>
+						</content>
+					</point>
+					<point wId="clan1-stav1-tac3">
+						<num>3)</num>
+						<content>
+							<p> пореза на пренос апсолутних права;</p>
+						</content>
+					</point>
+					<point wId="clan1-stav1-tac4">
+						<num>4)</num>
+						<content>
+							<p> пореза на наслеђе и поклон;</p>
+						</content>
+					</point>
+					<point wId="clan1-stav1-tac5">
+						<num>5)</num>
+						<content>
+							<p> пореза на промет;</p>
+						</content>
+					</point>
+					<point wId="clan1-stav1-tac6">
+						<num>6)</num>
+						<content>
+							<p> пореза на регистровано оружје;</p>
+						</content>
+					</point>
+					<point wId="clan1-stav1-tac7">
+						<num>7)</num>
+						<content>
+							<p> пореза на фонд зарада;</p>
+						</content>
+					</point>
+					<point wId="clan1-stav1-tac8">
+						<num>8)</num>
+						<content>
+							<p> пореза на финансијске трансакције;</p>
+						</content>
+					</point>
+					<point wId="clan1-stav1-tac9">
+						<num>9)</num>
+						<content>
+							<p> доприноса за обавезно пензијско и инвалидско осигурање;</p>
+						</content>
+					</point>
+					<point wId="clan1-stav1-tac10">
+						<num>10)</num>
+						<content>
+							<p> доприноса за обавезно осигурање за случај незапослености.</p>
+						</content>
+					</point>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Право на отпис камате на обавезе по основу јавних прихода из члана 1. овог закона (у даљем тексту: обавезе) остварује се на основу захтева обвезника, односно лица одговорног за испуњење обавезе обвезника (у даљем тексту: подносилац захтева), који се подноси по испуњењу услова прописаних овим чланом, најкасније до 31. јула 2009. године.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>Уз захтев се подноси документација из које произлази да су испуњени прописани услови за отпис камате.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav3">
+					<content>
+						<p>Садржину и образац захтева из става 1. овог члана ближе уређује министар надлежан за послове финансија.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav4">
+					<content>
+						<p>Захтев се подноси за сваку врсту обавеза из члана 1. овог закона, Пореској управи – организационој једници код које се подносилац захтева задужује обавезама за које захтева отпис камате.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav5">
+					<content>
+						<p>Подносилац захтева који је, према обиму својих пореских обавеза, сврстан у велике пореске обвезнике, за обавезу за коју се задужује код Пореске управе – организационе јединице надлежне за велике пореске обвезнике, захтев подноси тој организационој јединици.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav6">
+					<content>
+						<p>Отпис камате у складу са овим законом, врши се подносиоцу захтева – резиденту Републике Србије, који је:</p>
+					</content>
+				</paragraph>
+			</article>
+		</body>
+	</act>
+</akomaNtoso>

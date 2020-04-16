@@ -1,0 +1,739 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о потврђивању Протокола број 15 којим се мења Конвенција за заштиту људских права и основних слобода">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2015/10-1/main"/>
+					<FRBRuri value="/rs/act/2015/10-1"/>
+					<FRBRdate date="2015-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2015/10-1/srp@/main"/>
+					<FRBRuri value="/rs/act/2015/10-1/srp@"/>
+					<FRBRdate date="2015-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2015/10-1/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2015/10-1/srp@.akn"/>
+					<FRBRdate date="2015-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2015-05-11" name="службени гласник рс - међународни уговори" number="10" showAs="Службени гласник РС - Међународни уговори"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="I ОСНОВНА ПРАВА И СЛОБОДЕ, ЊИХОВА ЗАШТИТА И СПОЉНА ПОЛИТИКА" value="i основна права и слободе, њихова заштита и спољна политика" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="1. Заштита људских права и права припадника националних мањина" value="1. заштита људских права и права припадника националних мањина" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2015-05-08" wId="usvajanje"/>
+				<step by="#TODO" date="2015-05-19" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2015-05-19" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p/>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О потврђивању протокола број 15 којим се мења конвенција за заштиту људских права и основних слобода "Службени гласник РС - Међународни уговори", број 10 од 11. маја 2015.</p>
+			</longTitle>
+			<p>Томислав Николић, с.р.</p>
+		</preface>
+		<preamble>
+			<p>На основу члана 112. став 1. тачка 2. Устава Републике Србије, доносим</p>
+			<p>УКАЗ</p>
+			<p>о проглашењу Закона о потврђивању Протокола број 15 којим се мења Конвенција за заштиту људских права и основних слобода</p>
+			<p>Проглашава се Закон о потврђивању Протокола број 15 којим се мења Конвенција за заштиту људских права и основних слобода, који је донела Народна скупштина Републике Србије на Шестој седници Првог редовног заседања у 2015. години, 8. маја 2015. године.</p>
+			<p>ПР број 63</p>
+			<p>У Београду, 11. маја 2015. године</p>
+			<p>Председник Републике,</p>
+		</preamble>
+		<body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Потврђује се Протокол број 15 којим се мења Конвенција за заштиту људских права и основних слобода, сачињен 24. јуна 2013. године у Стразбуру, у оригиналу на енглеском и француском језику.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Текст Протокола у оригиналу на енглеском језику и у преводу на српски језик гласи:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>PROTOCOL NO. 15 AMENDINGTHE CONVENTION ON THE PROTECTION OF HUMAN RIGHTS AND FUNDAMENTAL FREEDOMS</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav3">
+					<content>
+						<p>Strasbourg, 24. VI 2013</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav4">
+					<content>
+						<p>Preamble</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav5">
+					<content>
+						<p>The member States of the Council of Europe and the other High Contracting Parties to the Convention for the Protection of Human Rights and Fundamental Freedoms, signed at Rome on 4 November 1950 (hereinafter referred to as „the Convention”), signatory hereto,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav6">
+					<content>
+						<p>Having regard to the declaration adopted at the High Level Conference on the Future of the European Court of Human Rights, held in Brighton on 19 and 20 April 2012, as well as the declarations adopted at the conferences held in Interlaken on 18 and 19 February 2010 and Izmir on 26 and 27 April 2011;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav7">
+					<content>
+						<p>Having regard to Opinion No. 283 (2013) adopted by the Parliamentary Assembly of the Council of Europe on 26 April 2013;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav8">
+					<content>
+						<p>Considering the need to ensure that the European Court of Human Rights (hereinafter referred to as „the Court”) can continue to play its pre-eminent role in protecting human rights in Europe,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav9">
+					<content>
+						<p>Have agreed as follows:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav10">
+					<content>
+						<p>Article 1</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav11">
+					<content>
+						<p>At the end of the preamble to the Convention, a new recital shall be added, which shall read as follows:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav12">
+					<content>
+						<p>„Affirming that the High Contracting Parties, in accordance with the principle of subsidiarity, have the primary responsibility to secure the rights and freedoms defined in this Convention and the Protocols thereto, and that in doing so they enjoy a margin of appreciation, subject to the supervisory jurisdiction of the European Court of Human Rights established by this Convention,”</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav13">
+					<content>
+						<p>Article 2</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav14">
+					<content>
+						<p>1 In Article 21 of the Convention, a new paragraph 2 shall be inserted, which shall read as follows:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav15">
+					<content>
+						<p>„Candidates shall be less than 65 years of age at the date by which the list of three candidates has been requested by the Parliamentary Assembly, further to Article 22.”</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav16">
+					<content>
+						<p>2 Paragraphs 2 and 3 of Article 21 of the Convention shall become paragraphs 3 and 4 of Article 21 respectively.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav17">
+					<content>
+						<p>3 Paragraph 2 of Article 23 of the Convention shall be deleted. Paragraphs 3 and 4 of Article23 shall become paragraphs 2 and 3 of Article 23 respectively.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav18">
+					<content>
+						<p>Article 3</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav19">
+					<content>
+						<p>In Article 30 of the Convention, the words „unless one of the parties to the case objects” shall be deleted.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav20">
+					<content>
+						<p>Article 4</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav21">
+					<content>
+						<p>In Article 35, paragraph 1 of the Convention, the words „within a period of six months” shall be replaced by the words „within a period of four months”.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav22">
+					<content>
+						<p>Article 5</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav23">
+					<content>
+						<p>In Article 35, paragraph 3, sub-paragraph b of the Convention, the words „and provided that no case may be rejected on this ground which has not been duly considered by a domestic tribunal” shall be deleted.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav24">
+					<content>
+						<p>Final and transitional provisions</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav25">
+					<content>
+						<p>Article 6</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav26">
+					<content>
+						<p>1 This Protocol shall be open for signature by the High Contracting Parties to the Convention, which may express their consent to be bound by:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav27">
+					<content>
+						<p>a signature without reservation as to ratification, acceptance or approval; or</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav28">
+					<content>
+						<p>b signature subject to ratification, acceptance or approval, followed by ratification, acceptance or approval.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav29">
+					<content>
+						<p>2 The instruments of ratification, acceptance or approval shall be deposited with the Secretary General of the Council of Europe.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav30">
+					<content>
+						<p>Article 7</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav31">
+					<content>
+						<p>This Protocol shall enter into force on the first day of the month following the expiration of a period of three months after the date on which all High Contracting Parties to the Convention have expressed their consent to be bound by the Protocol, in accordance with the provisions of Article 6.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav32">
+					<content>
+						<p>Article 8</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav33">
+					<content>
+						<p>1 The amendments introduced by Article 2 of this Protocol shall apply only to candidates on lists submitted to the Parliamentary Assembly by the High Contracting Parties under Article 22 of the Convention after the entry into force of this Protocol.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav34">
+					<content>
+						<p>2 The amendment introduced by Article 3 of this Protocol shall not apply to any pending case in which one of the parties has objected, prior to the date of entry into force of this Protocol, to a proposal by a Chamber of the Court to relinquish jurisdiction in favour of the Grand Chamber.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav35">
+					<content>
+						<p>3 Article 4 of this Protocol shall enter into force following the expiration of a period of six months after the date of entry into force of this Protocol. Article 4 of this Protocol shall not apply to applications in respect of which the final decision within the meaning of Article 35, paragraph 1 of the Convention was taken prior to the date of entry into force of Article 4 of this Protocol.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav36">
+					<content>
+						<p>4 All other provisions of this Protocol shall apply from its date of entry into force, in accordance with the provisions of Article 7.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav37">
+					<content>
+						<p>Article 9</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav38">
+					<content>
+						<p>The Secretary General of the Council of Europe shall notify the member States of the Council of Europe and the other High Contracting Parties to the Convention of:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav39">
+					<content>
+						<p>a any signature;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav40">
+					<content>
+						<p>b the deposit of any instrument of ratification, acceptance or approval;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav41">
+					<content>
+						<p>c the date of entry into force of this Protocol in accordance with Article 7; and</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav42">
+					<content>
+						<p>d any other act, notification or communication relating to this Protocol.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav43">
+					<content>
+						<p>In witness whereof, the undersigned, being duly authorised thereto, have signed this Protocol.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav44">
+					<content>
+						<p>Done at Strasbourg, this 24th day of June 2013, in English and in French, both texts being equally authentic, in a single copy which shall be deposited in the archives of the Council of Europe. The Secretary General of the Council of Europe shall transmit certified copies to each member State of the Council of Europe and to the other High Contracting Parties to the Convention.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav45">
+					<content>
+						<p>ПРОТОКОЛ БРОЈ 15 КОЈИМ СЕ МЕЊА КОНВЕНЦИЈА ЗА ЗАШТИТУ ЉУДСКИХ ПРАВА И ОСНОВНИХ СЛОБОДА</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav46">
+					<content>
+						<p>Стразбур, 24. јун 2013. године</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav47">
+					<content>
+						<p>Преамбула</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav48">
+					<content>
+						<p>Државе чланице Савета Европе и друге Високе стране уговорнице Конвенције за заштиту људских права и основних слобода, потписанe у Риму 4. новембра 1950. године (у даљем тексту: „Конвенција”), овде потписнице,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav49">
+					<content>
+						<p>Имајући у виду декларацију која је усвојена на Конференцији о будућности Европског суда за људска права, одржаној у Брајтону 19. и 20. априла 2012. године, као и декларације усвојене на конференцијама одржаним у Интерлакену 18. и 19. фебруара 2010. године и Измиру 26. и 27. априла 2011. године;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav50">
+					<content>
+						<p>Имајући у виду Мишљење број 283 (2013) које је усвојила Парламентарна скупштина Савета Европе 26. априла 2013. године;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav51">
+					<content>
+						<p>С обзиром на потребу да се обезбеди да Европски суд за људска права (у даљем тексту: „Суд”) задржи кључну улогу у заштити људских права у Европи,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav52">
+					<content>
+						<p>Сагласиле су се о следећем:</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Додаје се нова реченица на крају преамбуле Конвенције, која гласи:</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<heading>„Потврђујући да Високе стране уговорнице, у складу са начелом супсидијарности, сносе главну одговорност за обезбеђивање права и слобода гарантованих Конвенцијом и Протоколима уз њу, и да у ту сврху уживају поље слободне процене које је подвргнуто контролној надлежности Европског суда за људска права који је основан овом Конвенцијом.”</heading>
+				<point wId="clan2-tac1">
+					<num>1.</num>
+					<content>
+						<p> У члану 21. Конвенције додаје се нови став 2. који гласи:</p>
+					</content>
+				</point>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>„Кандидати морају бити млађи од 65 година на дан подношења захтева Парламентарне скупштине да јој се достави листа од три кандидата у складу са чланом 22.”</p>
+					</content>
+				</paragraph>
+			</article>
+			<section wId="od2">
+				<num>2.</num>
+				<heading> У члану 21. ст. 2. и 3. постају ст. 3. и 4.</heading>
+				<point wId="od2-clan2-tac3">
+					<num>3.</num>
+					<content>
+						<p> У члану 23. Конвенције, став 2. брише се. У члану 23. ст. 3. и 4. постају ст. 2. и 3.</p>
+					</content>
+				</point>
+				<article wId="od2-clan3">
+					<num>3.</num>
+					<paragraph wId="od2-clan3-stav1">
+						<content>
+							<p>У <ref wId="ref0" href="akn/rs/act/2015/10-1/srp@/!main~art_30" >члану 30. </ref>Конвенције бришу се речи: „изузев када се томе противи једна од странака у спору”.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="od2-clan4">
+					<num>4.</num>
+					<paragraph wId="od2-clan4-stav1">
+						<content>
+							<p>У <ref wId="ref1" href="akn/rs/act/2015/10-1/srp@/!main~art_35__para_1" >члану 35. став 1. </ref>Конвенције речи: „у року од шест месеци” замењују се речима: „у року од четири месеца”.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="od2-clan5">
+					<num>5.</num>
+					<paragraph wId="od2-clan5-stav1">
+						<content>
+							<p>У <ref wId="ref2" href="akn/rs/act/2015/10-1/srp@/!main~art_35__para_3" >члану 35. став 3. </ref>тачка б. Конвенције бришу се речи: „с тим да се представка не може одбацити по овом основу уколико случај није претходно с дужном пажњом размотрио домаћи суд”.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="od2-clan6">
+					<num>6.</num>
+					<heading>Прелазне и завршне одредбе</heading>
+					<point wId="od2-clan6-tac1">
+						<num>1.</num>
+						<content>
+							<p> Овај протокол је отворен Високим странама уговорнице Конвенције за потписивање, које могу изразити свој пристанак да буду везане:</p>
+						</content>
+					</point>
+					<paragraph wId="od2-clan6-stav1">
+						<content>
+							<p>а. потписом без резерве у погледу потврђивања, прихватања односно одобрења; или</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od2-clan6-stav2">
+						<intro>
+							<p>б. потписом који подлеже потврђивању, прихватању односно одобрeњу, коме ће следити потврђивање, прихватање односно одобрење.</p>
+						</intro>
+						<point wId="od2-clan6-stav2-tac2">
+							<num>2.</num>
+							<content>
+								<p> Инструменти потврђивања, прихватања и одобрења депонују се код Генералног секретара Савета Европе.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="od2-clan7">
+					<num>7.</num>
+					<paragraph wId="od2-clan7-stav1">
+						<content>
+							<p>Овај протокол ступа на снагу првог дана у месецу који наступа по протеку периода од три месеца од дана када су све Високе стране уговорнице Конвенције изразиле свој пристанак да их овај протокол обавезује, у складу са одредбама <ref wId="ref3" href="akn/rs/act/2015/10-1/srp@/!main~art_6" >члана 6.</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="od2-clan8">
+					<num>8.</num>
+					<point wId="od2-clan8-tac1">
+						<num>1.</num>
+						<content>
+							<p> Измене у члану 2. овог протокола примењују се само на оне кандидате на листама које су Високе стране уговорнице поднеле Парламентарној скупштини на основу члана 22. Конвенције након ступања на снагу овог протокола.</p>
+						</content>
+					</point>
+					<point wId="od2-clan8-tac2">
+						<num>2.</num>
+						<content>
+							<p> Измене у члану 3. овог протокола се не примењују ни на један поступак у току у којем је једна од страна приговорила, пре него што је овај протокол ступио на снагу, предлогу већа Суда да уступи надлежност Великом већу.</p>
+						</content>
+					</point>
+					<point wId="od2-clan8-tac3">
+						<num>3.</num>
+						<content>
+							<p> Члан 4. овог протокола ступа на снагу шест месеци након ступања овог протокола на снагу. Члан 4. Протокола се не примењује на оне представке за које је донета коначна одлука у смислу члана 35. став 1. Конвенције, пре него што је ступио на снагу члан 4. овог протокола.</p>
+						</content>
+					</point>
+					<point wId="od2-clan8-tac4">
+						<num>4.</num>
+						<content>
+							<p> Све друге одредбе Протокола примењују се од дана ступања на снагу у складу са одредбама члана 7.</p>
+						</content>
+					</point>
+				</article>
+				<article wId="od2-clan9">
+					<num>9.</num>
+					<paragraph wId="od2-clan9-stav1">
+						<content>
+							<p>Генерални секретар Савета Европе обавештава све државе чланице Савета Европе и остале Високе стране уговорнице Конвенције о:</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od2-clan9-stav2">
+						<content>
+							<p>а. сваком потпису;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od2-clan9-stav3">
+						<content>
+							<p>б. депоновању инструмента потврђивања, прихватања или одобрења;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od2-clan9-stav4">
+						<content>
+							<p>ц. датуму ступања на снагу овог протокола у складу са <ref wId="ref4" href="akn/rs/act/2015/10-1/srp@/!main~art_7" >чланом 7</ref>; и</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od2-clan9-stav5">
+						<content>
+							<p>д. сваком другом акту, обавештењу или саопштењу у вези са овим протоколом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od2-clan9-stav6">
+						<content>
+							<p>У потврду чега су доле потписани, као прописно овлашћени у ту сврху, потписали овај протокол.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od2-clan9-stav7">
+						<content>
+							<p>Сачињено у Стразбуру, дана 24. јуна 2013. године на енглеском и француском језику, при чему су оба текста подједнако веродостојна, у по једном примерку који се депонује у архиви Савета Европе. Генерални секретар Савета Европе доставиће оверене копије свакој држави чланици Савета Европе и другим Високим странама уговорницама Конвенције.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="od2-clan3">
+					<num>3.</num>
+					<paragraph wId="od2-clan3-stav1">
+						<content>
+							<p>О извршавању овог протокола стара се министарство надлежно за правосуђе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="od2-clan4">
+					<num>4.</num>
+					<paragraph wId="od2-clan4-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије – Међународни уговори”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od2-clan4-stav2">
+						<content>
+							<p>На основу члана 11<ref wId="ref5" href="akn/rs/act/2015/10-1/srp@/!main~art_112__para_1__point_2" >2</ref>. став 1. тачка 2. Устава Републике Србије, доносим</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od2-clan4-stav3">
+						<content>
+							<p>УКАЗ</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od2-clan4-stav4">
+						<content>
+							<p>о проглашењу Закона о потврђивању Протокола број 15 којим се мења Конвенција за заштиту људских права и основних слобода</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od2-clan4-stav5">
+						<content>
+							<p>Проглашава се Закон о потврђивању Протокола број 15 којим се мења Конвенција за заштиту људских права и основних слобода, који је донела Народна скупштина Републике Србије на Шестој седници Првог редовног заседања у 2015. години, 8. маја 2015. године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od2-clan4-stav6">
+						<content>
+							<p>ПР број 63</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od2-clan4-stav7">
+						<content>
+							<p>У Београду, 11. маја 2015. године</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od2-clan4-stav8">
+						<content>
+							<p>Председник Републике,</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od2-clan4-stav9">
+						<content>
+							<p>Томислав Николић, с.р.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od2-clan4-stav10">
+						<content>
+							<p>ЗАКОН</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od2-clan4-stav11">
+						<content>
+							<p>о потврђивању Протокола број 15 којим се мења Конвенција за заштиту људских права и основних слобода</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od2-clan4-stav12">
+						<content>
+							<p>"Службени гласник РС - Међународни уговори",  број 10 од 11. маја 2015.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="od2-clan1">
+					<num>1.</num>
+					<paragraph wId="od2-clan1-stav1">
+						<content>
+							<p>Потврђује се Протокол број 15 којим се мења Конвенција за заштиту људских права и основних слобода, сачињен 24. јуна 2013. године у Стразбуру, у оригиналу на енглеском и француском језику.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="od2-clan2">
+					<num>2.</num>
+					<paragraph wId="od2-clan2-stav1">
+						<intro>
+							<p>Текст Протокола у оригиналу на енглеском језику и у преводу на српски језик гласи:</p>
+						</intro>
+						<point wId="od2-clan2-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> У <ref wId="ref6" href="akn/rs/act/2015/10-1/srp@/!main~art_21" >члану 21. </ref>Конвенције додаје се нови <ref wId="ref7" href="akn/rs/act/2015/10-1/srp@/!main~art_2__para_2" >став 2. </ref>који гласи:</p>
+							</content>
+						</point>
+						<point wId="od2-clan2-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> У <ref wId="ref8" href="akn/rs/act/2015/10-1/srp@/!main~art_21__para_2->para_3" >члану 21. ст. 2. и 3. </ref>постају <ref wId="ref9" href="akn/rs/act/2015/10-1/srp@/!main~art_21__para_3->para_4" >ст. 3. и 4.</ref></p>
+							</content>
+						</point>
+						<point wId="od2-clan2-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> У <ref wId="ref12" href="akn/rs/act/2015/10-1/srp@/!main~art_23" >члану 23. </ref>Конвенције, став 2. брише се. У <ref wId="ref10" href="akn/rs/act/2015/10-1/srp@/!main~art_23__para_3->para_4" >члану 23. ст. 3. и 4. </ref>постају <ref wId="ref11" href="akn/rs/act/2015/10-1/srp@/!main~art_23__para_2->para_3" >ст. 2. и 3.</ref></p>
+							</content>
+						</point>
+						<point wId="od2-clan2-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Овај протокол је отворен Високим странама уговорнице Конвенције за потписивање, које могу изразити свој пристанак да буду везане:</p>
+							</content>
+						</point>
+						<point wId="od2-clan2-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Инструменти потврђивања, прихватања и одобрења депонују се код Генералног секретара Савета Европе.</p>
+							</content>
+						</point>
+						<point wId="od2-clan2-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Измене у <ref wId="ref13" href="akn/rs/act/2015/10-1/srp@/!main~art_2" >члану 2. овог</ref> протокола примењују се само на оне кандидате на листама које су Високе стране уговорнице поднеле Парламентарној скупштини на основу <ref wId="ref14" href="akn/rs/act/2015/10-1/srp@/!main~art_22" >члана 22. </ref>Конвенције након ступања на снагу овог протокола.</p>
+							</content>
+						</point>
+						<point wId="od2-clan2-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Измене у <ref wId="ref15" href="akn/rs/act/2015/10-1/srp@/!main~art_3" >члану 3. овог</ref> протокола се не примењују ни на један поступак у току у којем је једна од страна приговорила, пре него што је овај протокол ступио на снагу, предлогу већа Суда да уступи надлежност Великом већу.</p>
+							</content>
+						</point>
+						<point wId="od2-clan2-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Члан 4. овог протокола ступа на снагу шест месеци након ступања овог протокола на снагу. Члан 4. Протокола се не примењује на оне представке за које је донета коначна одлука у смислу <ref wId="ref16" href="akn/rs/act/2015/10-1/srp@/!main~art_35__para_1" >члана 35. став 1. </ref>Конвенције, пре него што је ступио на снагу <ref wId="ref17" href="akn/rs/act/2015/10-1/srp@/!main~art_4" >члан 4. овог</ref> протокола.</p>
+							</content>
+						</point>
+						<point wId="od2-clan2-stav1-tac4">
+							<num>4.</num>
+							<content>
+								<p> Све друге одредбе Протокола примењују се од дана ступања на снагу у складу са одредбама <ref wId="ref18" href="akn/rs/act/2015/10-1/srp@/!main~art_7" >члана 7.</ref></p>
+							</content>
+						</point>
+						<point wId="od2-clan2-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> У <ref wId="ref19" href="akn/rs/act/2015/10-1/srp@/!main~art_21" >члану 21. </ref>Конвенције додаје се нови <ref wId="ref20" href="akn/rs/act/2015/10-1/srp@/!main~art_2__para_2" >став 2. </ref>који гласи:</p>
+							</content>
+						</point>
+						<point wId="od2-clan2-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> У <ref wId="ref21" href="akn/rs/act/2015/10-1/srp@/!main~art_21__para_2->para_3" >члану 21. ст. 2. и 3. </ref>постају <ref wId="ref22" href="akn/rs/act/2015/10-1/srp@/!main~art_21__para_3->para_4" >ст. 3. и 4.</ref></p>
+							</content>
+						</point>
+						<point wId="od2-clan2-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> У <ref wId="ref25" href="akn/rs/act/2015/10-1/srp@/!main~art_23" >члану 23. </ref>Конвенције, став 2. брише се. У <ref wId="ref23" href="akn/rs/act/2015/10-1/srp@/!main~art_23__para_3->para_4" >члану 23. ст. 3. и 4. </ref>постају <ref wId="ref24" href="akn/rs/act/2015/10-1/srp@/!main~art_23__para_2->para_3" >ст. 2. и 3.</ref></p>
+							</content>
+						</point>
+						<point wId="od2-clan2-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Овај протокол је отворен Високим странама уговорнице Конвенције за потписивање, које могу изразити свој пристанак да буду везане:</p>
+							</content>
+						</point>
+						<point wId="od2-clan2-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Инструменти потврђивања, прихватања и одобрења депонују се код Генералног секретара Савета Европе.</p>
+							</content>
+						</point>
+						<point wId="od2-clan2-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Измене у <ref wId="ref26" href="akn/rs/act/2015/10-1/srp@/!main~art_2" >члану 2. овог</ref> протокола примењују се само на оне кандидате на листама које су Високе стране уговорнице поднеле Парламентарној скупштини на основу <ref wId="ref27" href="akn/rs/act/2015/10-1/srp@/!main~art_22" >члана 22. </ref>Конвенције након ступања на снагу овог протокола.</p>
+							</content>
+						</point>
+						<point wId="od2-clan2-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Измене у <ref wId="ref28" href="akn/rs/act/2015/10-1/srp@/!main~art_3" >члану 3. овог</ref> протокола се не примењују ни на један поступак у току у којем је једна од страна приговорила, пре него што је овај протокол ступио на снагу, предлогу већа Суда да уступи надлежност Великом већу.</p>
+							</content>
+						</point>
+						<point wId="od2-clan2-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Члан 4. овог протокола ступа на снагу шест месеци након ступања овог протокола на снагу. Члан 4. Протокола се не примењује на оне представке за које је донета коначна одлука у смислу <ref wId="ref29" href="akn/rs/act/2015/10-1/srp@/!main~art_35__para_1" >члана 35. став 1. </ref>Конвенције, пре него што је ступио на снагу <ref wId="ref30" href="akn/rs/act/2015/10-1/srp@/!main~art_4" >члан 4. овог</ref> протокола.</p>
+							</content>
+						</point>
+						<point wId="od2-clan2-stav1-tac4">
+							<num>4.</num>
+							<content>
+								<p> Све друге одредбе Протокола примењују се од дана ступања на снагу у складу са одредбама <ref wId="ref31" href="akn/rs/act/2015/10-1/srp@/!main~art_7" >члана 7.</ref></p>
+							</content>
+						</point>
+						<point wId="od2-clan2-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> У <ref wId="ref32" href="akn/rs/act/2015/10-1/srp@/!main~art_21" >члану 21. </ref>Конвенције додаје се нови <ref wId="ref33" href="akn/rs/act/2015/10-1/srp@/!main~art_2__para_2" >став 2. </ref>који гласи:</p>
+							</content>
+						</point>
+						<point wId="od2-clan2-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> У <ref wId="ref34" href="akn/rs/act/2015/10-1/srp@/!main~art_21__para_2->para_3" >члану 21. ст. 2. и 3. </ref>постају <ref wId="ref35" href="akn/rs/act/2015/10-1/srp@/!main~art_21__para_3->para_4" >ст. 3. и 4.</ref></p>
+							</content>
+						</point>
+						<point wId="od2-clan2-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> У <ref wId="ref38" href="akn/rs/act/2015/10-1/srp@/!main~art_23" >члану 23. </ref>Конвенције, став 2. брише се. У <ref wId="ref36" href="akn/rs/act/2015/10-1/srp@/!main~art_23__para_3->para_4" >члану 23. ст. 3. и 4. </ref>постају <ref wId="ref37" href="akn/rs/act/2015/10-1/srp@/!main~art_23__para_2->para_3" >ст. 2. и 3.</ref></p>
+							</content>
+						</point>
+						<point wId="od2-clan2-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Овај протокол је отворен Високим странама уговорнице Конвенције за потписивање, које могу изразити свој пристанак да буду везане:</p>
+							</content>
+						</point>
+						<point wId="od2-clan2-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Инструменти потврђивања, прихватања и одобрења депонују се код Генералног секретара Савета Европе.</p>
+							</content>
+						</point>
+						<point wId="od2-clan2-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Измене у <ref wId="ref39" href="akn/rs/act/2015/10-1/srp@/!main~art_2" >члану 2. овог</ref> протокола примењују се само на оне кандидате на листама које су Високе стране уговорнице поднеле Парламентарној скупштини на основу <ref wId="ref40" href="akn/rs/act/2015/10-1/srp@/!main~art_22" >члана 22. </ref>Конвенције након ступања на снагу овог протокола.</p>
+							</content>
+						</point>
+						<point wId="od2-clan2-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Измене у <ref wId="ref41" href="akn/rs/act/2015/10-1/srp@/!main~art_3" >члану 3. овог</ref> протокола се не примењују ни на један поступак у току у којем је једна од страна приговорила, пре него што је овај протокол ступио на снагу, предлогу већа Суда да уступи надлежност Великом већу.</p>
+							</content>
+						</point>
+						<point wId="od2-clan2-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Члан 4. овог протокола ступа на снагу шест месеци након ступања овог протокола на снагу. Члан 4. Протокола се не примењује на оне представке за које је донета коначна одлука у смислу <ref wId="ref42" href="akn/rs/act/2015/10-1/srp@/!main~art_35__para_1" >члана 35. став 1. </ref>Конвенције, пре него што је ступио на снагу <ref wId="ref43" href="akn/rs/act/2015/10-1/srp@/!main~art_4" >члан 4. овог</ref> протокола.</p>
+							</content>
+						</point>
+						<point wId="od2-clan2-stav1-tac4">
+							<num>4.</num>
+							<content>
+								<p> Све друге одредбе Протокола примењују се од дана ступања на снагу у складу са одредбама <ref wId="ref44" href="akn/rs/act/2015/10-1/srp@/!main~art_7" >члана 7.</ref></p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+			</section>
+		</body>
+	</act>
+</akomaNtoso>

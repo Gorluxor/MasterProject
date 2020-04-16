@@ -1,0 +1,417 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о електронској трговини">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2009/41-68/main"/>
+					<FRBRuri value="/rs/act/2009/41-68"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2019/52-14/srp@/main"/>
+					<FRBRuri value="/rs/act/2019/52-14/srp@"/>
+					<FRBRdate date="2019-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2019/52-14/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2019/52-14/srp@.akn"/>
+					<FRBRdate date="2019-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2009-06-02" name="службени гласник рс" number="41" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="XI ТРГОВИНА, ТУРИЗАМ И УГОСТИТЕЉСТВО" value="xi трговина, туризам и угоститељство" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="1. Трговина, јавне набавке и заштита потрошача" value="1. трговина, јавне набавке и заштита потрошача" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2009-01-01" refersTo="41/2009-68" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2013-01-01" refersTo="95/2013-14" source="#somebody" type="amendment" wId="e2"/>
+				<eventRef date="2019-01-01" refersTo="52/2019-14" source="#somebody" type="amendment" wId="e3"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2009-05-29" wId="usvajanje"/>
+				<step by="#TODO" date="2009-06-10" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2009-06-10" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 10. јуна 2009. године (види члан 23. Закона).Закон о изменама и допунама Закона о електронској трговини (Службени гласник РС, број 52/2019) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 30. јула 2019. године, осим одредаба члана 2. овог закона (нови члан 5а) и члана 8. овог закона (у делу измењеног члана 21. ст. 3. и 4), које се примењују од дана уласка Републике Србије у Европску унију (види члан 10. Закона - 52/2019-16).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О електронској трговини "Службени гласник РС", бр. 41 од 2. јуна 2009, 95 од 31. октобра 2013, 52 од 22. јула 2019.</p>
+			</longTitle>
+			<p>Редакцијски пречишћен текст</p>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<heading>Предмет</heading>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређују се услови и начин пружања услуга информационог друштва, обавезе информисања корисника услуга, комерцијална порука, правила у вези са закључењем уговора у електронском облику, одговорност пружаоца услуга информационог друштва, надзор и прекршаји.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<heading>Области на које се закон не примењује</heading>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Одредбе овог закона не примењују се на: заштиту података  о личности, делатност  јавних бележника и других сродних професија у погледу примене поверених јавних  овлашћења, рестриктивне споразуме у смислу прописа о заштити конкуренције, опорезивање, заступање странака и заштиту њихових интереса пред судовима, као ни на игре на срећу са новчаним улозима, укључујући лутријске игре, игре у казинима, кладионичке игре и игре на срећу на аутоматима, ако посебним законом није друкчије одређено.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav2">
+						<content>
+							<p>*<ref wId="ref0" href="akn/rs/act/2013/95/srp@">Службени  гласник РС, број 95/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<heading>Значење појединих израза</heading>
+					<paragraph wId="gla1-clan3-stav1">
+						<intro>
+							<p>Поједини изрази у смислу овог закона имају следеће  значење:</p>
+						</intro>
+						<point wId="gla1-clan3-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> услуга информационог друштва је услуга која се  пружа на даљину, по правилу уз накнаду путем електронске опреме за обраду и  складиштење података, на лични захтев корисника услуга, а посебно трговина путем  интернета, нуђење података и оглашавање путем интернета, електронски  претраживачи, као и омогућавање тражења података и услуга које се преносе  електронском мрежом, обезбеђивање приступа мрежи или складиштење података  корисника услуга;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> пружалац услуге информационог друштва је правно или  физичко лице. Пружање услуга информационог друштва у комерцијалне сврхе може  обављати правно или физичко лице које је регистровано за обављање одређене  делатности у складу са законом;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> корисник услуга је свако физичко лице, физичко лице  које је регистровано за обављање одређене делатности у складу са законом или  правно лице које због професионалних или других циљева користи услуге  информационог друштва;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> потрошач је физичко лице које купује робу, односно  услуге ради задовољавања личних потреба или потреба домаћинства;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> уговор у електронском облику је уговор закључен  између пружаоца услуге информационог друштва и корисника услуге електронским  путем употребом електронских средстава;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac6">
+							<num>6)</num>
+							<intro>
+								<p> комерцијална порука је сваки облик комуникације у  циљу промовисања робе, услуга или пословног угледа правног или физичког лица  које обавља регистровану делатност, са изузетком:</p>
+							</intro>
+							<hcontainer name="subpoint" wId="gla1-clan3-stav1-tac6-podtac1">
+								<num>(1)</num>
+								<content>
+									<p> давања информација које омогућавају непосредан  приступ делатности овог лица, као што су информације о његовој електронској  адреси или адреси електронске поште;</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla1-clan3-stav1-tac6-podtac2">
+								<num>(2)</num>
+								<content>
+									<p> давања, без накнаде, информација које су  прикупљене истраживањима или на други сличан начин, о роби, услугама или  пословном угледу овог лица;</p>
+								</content>
+							</hcontainer>
+						</point>
+						<point wId="gla1-clan3-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> оператор електронских комуникација је лице  дефинисано у смислу закона којим се уређују електронске комуникације.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav2">
+						<content>
+							<p>*<ref wId="ref1" href="akn/rs/act/2019/52/srp@">Службени гласник РС, број 52/2019</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<heading>Примена</heading>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>Пружалац услуга са седиштем у Републици Србији дужан је да поступа и пружа услуге у складу са законима и прописима донетим на основу закона Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav2">
+						<content>
+							<p>Електронска трговина робом и услугама јесте  вид даљинске трговине у смислу закона којим се уређује трговина.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav3">
+						<content>
+							<p>Одредбе овог закона примењују се и на питања заштите потрошача, ако су повољније за потрошача.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav4">
+						<content>
+							<p>Овлашћена струковна удружења и организације пружалаца услуга, могу да уређују пословање својих чланова својим унутрашњим правилима – кодексима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav5">
+						<content>
+							<p>Ако овим законом није друкчије одређено, на правне односе настале из или у вези са уговорима закљученим електронским путем односно у електронском облику, примењују се прописи којима се уређују облигациони односи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav6">
+						<content>
+							<p>*<ref wId="ref2" href="akn/rs/act/2013/95/srp@">Службени  гласник РС, број 95/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan5">
+					<num>5.</num>
+					<heading>Слобода пружања услуга</heading>
+					<paragraph wId="gla1-clan5-stav1">
+						<content>
+							<p>Пружање услуга информационог друштва слободно је.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav2">
+						<content>
+							<p>За пружање услуга информационог друштва није потребна посебна дозвола или одобрење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav3">
+						<content>
+							<p>Брисани су ранији <ref wId="ref3" href="akn/rs/act/2019/52-14/srp@/!main~art_5__para_3->para_4" >ст. 3. и 4. </ref>(види <ref wId="ref4" href="akn/rs/act/2013/95/srp@/!main~/art_4">члан 4. Закона - 95/2013-14</ref>)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav4">
+						<content>
+							<p>Слобода прекограничног пружања услуга информационог друштва</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav5">
+						<content>
+							<p>*<ref wId="ref5" href="akn/rs/act/2019/52/srp@">Службени гласник РС, број 52/2019</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav6">
+						<content>
+							<p>Члан 5a</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav7">
+						<content>
+							<p>Прекогранично пружање услуга је пружање услуга у  Републици Србији или Европској унији када пружалац услуге нема седиште, односно  није пословно настањен на територији државе у којој се услуга пружа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav8">
+						<content>
+							<p>Прекогранично пружање услуга је слободно.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav9">
+						<intro>
+							<p>Министарство надлежно за електронске комуникације и  информационо друштво (у даљем тексту: министарство) преко инспекције може,  сразмерно циљу који се жели постићи, предузети мере ограничавања слободе пружања  услуга информационог друштва из <ref wId="ref6" href="akn/rs/act/2019/52-14/srp@/!main~art_21__para_3" >члана 21. став 3. овог</ref> закона пружаоцима услуга  са седиштем у земљама чланицама Европске уније, само ако је то неопходно за  заштиту (од стварне и озбиљне опасности):</p>
+						</intro>
+						<point wId="gla1-clan5-stav9-tac1">
+							<num>1)</num>
+							<content>
+								<p> јавног поретка, а нарочито спречавањe, истраживање,  откривање и гоњење извршилаца кривичних дела, заштиту малолетника и борбу против  изазивања мржње по основу расе, пола, вере или националности и повреде људског  достојанства појединца;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan5-stav9-tac2">
+							<num>2)</num>
+							<content>
+								<p> јавне безбедности, укључујући заштиту националне  безбедности и одбрану;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan5-stav9-tac3">
+							<num>3)</num>
+							<content>
+								<p> јавног здравља;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan5-stav9-tac4">
+							<num>4)</num>
+							<content>
+								<p> заштиту потрошача укључујући и улагаче.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav10">
+						<intro>
+							<p>У случају наступања околности из <ref wId="ref7" href="akn/rs/act/2019/52-14/srp@/!main~art_5__para_3" >става 3. овог</ref> члана,  министарство је дужно да:</p>
+						</intro>
+						<point wId="gla1-clan5-stav10-tac1">
+							<num>1)</num>
+							<content>
+								<p> о намери изрицања мере из <ref wId="ref8" href="akn/rs/act/2019/52-14/srp@/!main~art_5__para_3" >става 3. овог</ref> члана  обавести Европску комисију и надлежни орган земље чланице Европске уније у којој  пружалац услуге има седиште;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan5-stav10-tac2">
+							<num>2)</num>
+							<content>
+								<p> тражи од надлежног органа државе седишта пружаоца  услуге да предузме мере ограничавања слободе пружања услуге информационог  друштва.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav11">
+						<content>
+							<p>Ако надлежни орган државе седишта пружаоца услуге не  предузме мере у року од 15 дана од дана достављања захтева из <ref wId="ref9" href="akn/rs/act/2019/52-14/srp@/!main~art_5__para_4" >става 4. овог</ref>  члана или су предузете мере недовољне, министарство може предузети мере  ограничавања слободе пружања услуга информационог друштва уз претходно  обавештавање надлежног органа државе седишта пружаоца услуге и Европске  комисије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav12">
+						<content>
+							<p>Изузетно од <ref wId="ref10" href="akn/rs/act/2019/52-14/srp@/!main~art_5__para_4->para_5" >ст. 4. и 5. овог</ref> члана, министарство може  предузети мере ограничавања слободе пружања услуга информационог друштва  пружаоца услуга са седиштем у земљи чланици Европске уније без претходног  обавештења земље чланице Европске уније у којој пружалац услуга има седиште и  Европске комисије, ако постоји основана опасност од настанка штете због одлагања  предузимања мера.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav13">
+						<content>
+							<p>У случају из <ref wId="ref11" href="akn/rs/act/2019/52-14/srp@/!main~art_5__para_6" >става 6. овог</ref> члана министарство је дужно  да, без одлагања, а најкасније у року од 15 дана од дана предузимања мера  обавести надлежни орган државе седишта пружаоца услуге и Европску комисију о  изреченој мери и разлозима због којих се сматра да се ради о хитном случају.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav14">
+						<content>
+							<p>Министарство поступа у складу са овим чланом на  образложени предлог органа јавне власти надлежног за питања из <ref wId="ref12" href="akn/rs/act/2019/52-14/srp@/!main~art_5__para_3__point_1->point_4" >става 3. тач.  1)</ref>–4) овог члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav15">
+						<content>
+							<p>Покретање судског поступка услед наступања околности  из <ref wId="ref13" href="akn/rs/act/2019/52-14/srp@/!main~art_5__para_3" >става 3. овог</ref> члана не искључује обавезу министарства за поступање у складу  са овим чланом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav16">
+						<content>
+							<p>Мере којима се ограничава слобода пружања услуга  информационог друштва потребно је укинути или опозвати одмах након престанка  постојања разлога због којег су одређене, а на захтев пружаоца услуге  информационог друштва коме је мера изречена, другог заинтересованог лица или  Европске комисије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav17">
+						<content>
+							<p>Меру из <ref wId="ref14" href="akn/rs/act/2019/52-14/srp@/!main~art_5__para_10" >става 10. овог</ref> члана може опозвати или укинути  надлежно министарство по службеној дужности након престанка разлога због којих  је мера одређена.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav18">
+						<content>
+							<p>Влада уређује спровођење административне сарадње и  електронске размене података са земљама чланицама Европске уније у вези са  надзором над пружањем услуга информационог друштва и предузимањем мера  упозорења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav19">
+						<content>
+							<p>*<ref wId="ref15" href="akn/rs/act/2019/52/srp@">Службени гласник РС, број 52/2019</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav20">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА: Закон о изменама и допунама Закона о електронској  трговини ступио на снагу осмог дана од дана објављивања у „Службеном гласнику  Републике Србије”, односно 30. јула 2019. године, осим одредаба <ref wId="ref16" href="akn/rs/act/2019/52-14/srp@/!main~art_2" >члана 2. овог</ref>  закона (нови <ref wId="ref17" href="akn/rs/act/2019/52-14/srp@/!main~art_5а" >члан 5а</ref>) које се примењују од дана уласка Републике Србије у  Европску унију (види члан 10. Закона - 52/2019-16).<ref wId="ref18" href="akn/rs/act/2019/52/srp@/!main~/art_10"></ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ОБАВЕЗА ИНФОРМИСАЊА И КОМЕРЦИЈАЛНА ПОРУКА</heading>
+				<article wId="gla2-clan6">
+					<num>6.</num>
+					<heading>Обавезне информације</heading>
+					<paragraph wId="gla2-clan6-stav1">
+						<intro>
+							<p>Пружалац услуга дужан је да, у облику и на начин који је непосредно и стално доступан, корисницима услуга и надлежним органима државне управе пружи следеће информације:</p>
+						</intro>
+						<point wId="gla2-clan6-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> име и презиме или назив пружаоца услуга;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> седиште пружаоца услуга;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> остале податке о пружаоцу услуга на основу којих корисник услуга може са њим брзо и несметано да оствари комуникацију, укључујући и електронску адресу;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> податке о упису у Регистар привредних субјеката, односно други јавни  регистар;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> појединости о надлежном органу, ако делатност пружаоца услуга подлеже службеном надзору;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac6">
+							<num>6)</num>
+							<intro>
+								<p> у погледу посебно регулисних делатности, односно професија:</p>
+							</intro>
+							<alinea wId="gla2-clan6-stav1-tac6-ali1">
+								<content>
+									<p>рофесионално или слично струковно удружење код кога је пружалац услуга регистрован;</p>
+								</content>
+							</alinea>
+							<alinea wId="gla2-clan6-stav1-tac6-ali2">
+								<content>
+									<p>рофесионални назив и држава која га је одобрила;</p>
+								</content>
+							</alinea>
+							<alinea wId="gla2-clan6-stav1-tac6-ali3">
+								<content>
+									<p>путства о професионалним правилима у држави у којој се обавља делатност и месту њихове доступности;</p>
+								</content>
+							</alinea>
+						</point>
+						<point wId="gla2-clan6-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> порески идентификациони број (ПИБ), као и број обвезника пореза на додату вредност, из потврде о извршеном евидентирању за порез на додату вредност издате од стране надлежног пореског органа, ако је пружалац услуга обвезник пореза на додату вредност.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav2">
+						<content>
+							<p>Ако пружалац услуга наводи цене, оне морају бити јасно и недвосмислено назначене, а посебно мора назначити да ли су у те цене укључени трошкови доставе, остали манипулативни трошкови, порез и други трошкови који на њих утичу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav3">
+						<content>
+							<p>*<ref wId="ref19" href="akn/rs/act/2013/95/srp@">Службени  гласник РС, број 95/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan7">
+					<num>7.</num>
+					<heading>Комерцијална порука</heading>
+					<paragraph wId="gla2-clan7-stav1">
+						<content>
+							<p>Комерцијална порука која је делимично или у целини  услуга информационог друштва мора да задовољи следеће услове:</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

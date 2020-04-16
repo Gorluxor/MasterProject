@@ -1,0 +1,911 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о потврђивању Уговора између Владе Републике Србије и Организације за образовање, науку и културу Уједињених нација (УНЕСКО) у вези са оснивањем Центра за воде за одрживи развој и прилагођавање климатским променама као Центра категорије 2 под покровитељством УНЕСКА">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2014/10-91/main"/>
+					<FRBRuri value="/rs/act/2014/10-91"/>
+					<FRBRdate date="2014-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2014/10-91/srp@/main"/>
+					<FRBRuri value="/rs/act/2014/10-91/srp@"/>
+					<FRBRdate date="2014-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2014/10-91/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2014/10-91/srp@.akn"/>
+					<FRBRdate date="2014-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2014-09-09" name="службени гласник рс - међународни уговори" number="10" showAs="Службени гласник РС - Међународни уговори"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="XV ОБРАЗОВАЊЕ, КУЛТУРА, НАУКА, ИНФОРМИСАЊЕ И СПОРТ" value="xv образовање, култура, наука, информисање и спорт" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="2. Култура, наука, омладина, спорт" value="2. култура, наука, омладина, спорт" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2014-09-08" wId="usvajanje"/>
+				<step by="#TODO" date="2014-09-17" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2014-09-17" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Уговор између Владе Републике Србије и Организације за образовање, науку и културу Уједињених нација (УНЕСКО) у вези са оснивањем Центра за воде за одрживи развој и прилагођавање климатским променама, као центра категорије 2 под покровитељством УНЕСКА, који је сачињен 24. априла 2013. године у Паризу, ступио је на снагу 1. јула 2015. године (види Обавештење - 14/2015-21).</p>
+				</note>
+				<note wId="not2">
+					<p>Уговор између Владе Републике Србије и Организације за образовање, науку и културу Уједињених нација (УНЕСКО) у вези са оснивањем Центра за воде за одрживи развој и прилагођавање климатским променама, као центра категорије 2 под покровитељством УНЕСКА, који је сачињен 24. априла 2013. године у Паризу, ступио је на снагу 1. јула 2015. године (види Обавештење - 14/2015-21).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О потврђивању уговора између владе републике србије и организације за образовање, науку и културу уједињених нација (унеско) у вези са оснивањем центра за воде за одрживи развој и прилагођавање климатским променама као центра категорије 2 под покровитељством унеска "Службени гласник РС - Међународни уговори", број 10 од 9. септембра 2014.</p>
+			</longTitle>
+			<p>Томислав Николић, с.р.</p>
+		</preface>
+		<preamble>
+			<p>На основу члана 112. став 1. тачка 2. Устава Републике Србије, доносим</p>
+			<p>УКАЗ</p>
+			<p>о проглашењу Закона о потврђивању Уговора између Владе Републике Србије и Организације за образовање, науку и културу Уједињених нација (УНЕСКО) у вези са оснивањем Центра за воде за одрживи развој и прилагођавање климатским променама као Центра категорије 2 под покровитељством УНЕСКА</p>
+			<p>"Службени гласник РС - Међународни  уговори", број 10 од 9. септембра 2014.</p>
+			<p>Проглашава се Закон о потврђивању Уговора између Владе Републике Србије и Организације за образовање, науку и културу Уједињених нација (УНЕСКО) у вези са оснивањем Центра за воде за одрживи развој и прилагођавање климатским променама као Центра категорије 2 под покровитељством УНЕСКА, који је донела Народна скупштина Републике Србије на седници Деветог ванредног заседања у 2014. години, 8. септембра 2014. године.</p>
+			<p>ПР број 69</p>
+			<p>У Београду, 9. септембра 2014. године</p>
+			<p>Председник Републике,</p>
+		</preamble>
+		<body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Потврђује се Уговор између Владе Републике Србије и Организације за образовање, науку и културу (УНЕСКО) у вези са оснивањем Центра за воде за одрживи развој и прилагођавање климатским променама као Центра категорије 2 под покровитељством УНЕСКО, сачињен у Паризу 24. априла 2013. године, у оригиналу на српском и енглеском језику.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Текст Уговора између Владе Републике Србије и Организације за образовање, науку и културу (УНЕСКО) о оснивању Центра за воде за одрживи развој и прилагођавање климатским променама као Центра категорије 2 под покровитељством УНЕСКО у оригиналу на српском језику гласи:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>УГОВОР</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav3">
+					<content>
+						<p>ИЗМЕЂУ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav4">
+					<content>
+						<p>ВЛАДЕ РЕПУБЛИКЕ СРБИЈЕ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav5">
+					<content>
+						<p>И</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav6">
+					<content>
+						<p>ОРГАНИЗАЦИЈЕ ЗА ОБРАЗОВАЊЕ, НАУКУ И КУЛТУРУ УЈЕДИЊЕНИХ НАЦИЈА (УНЕСКО)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav7">
+					<content>
+						<p>У ВЕЗИ СА</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav8">
+					<content>
+						<p>ОСНИВАЊЕМ ЦЕНТРА ЗА ВОДЕ ЗА ОДРЖИВИ РАЗВОЈ И ПРИЛАГОЂАВАЊЕ КЛИМАТСКИМ ПРОМЕНАМА КАО ЦЕНТРА КАТЕГОРИЈЕ 2 ПОД ПОКРОВИТЕЉСТВОМ УНЕСКА</p>
+					</content>
+				</paragraph>
+			</article>
+			<section wId="od24">
+				<num>24.</num>
+				<heading> април 2013.</heading>
+				<paragraph wId="od24-clan2-stav1">
+					<content>
+						<p>Влада Републике Србије</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od24-clan2-stav2">
+					<content>
+						<p>и</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od24-clan2-stav3">
+					<content>
+						<p>Организација за образовање, науку и културу Уједињених нација,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od24-clan2-stav4">
+					<content>
+						<p>(у даљем тексту: Стране),</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od24-clan2-stav5">
+					<content>
+						<p>У вези са резолуцијом 36Ц/22 према којој Генерална конференција УНЕСКА жели да подстакне међународну сарадњу кроз оснивање Центра водних ресурса за одрживи развој и прилагођавање климатским променама у Београду, Република Србија.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od24-clan2-stav6">
+					<content>
+						<p>Имајући у виду да је Генерални директор овлашћен од стране Генералне конференције УНЕСКА да са Владом Републике Србије закључи уговор у складу са нацртом који је поднет Генералној конференцији УНЕСКА,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od24-clan2-stav7">
+					<content>
+						<p>У намери да дефинишу одредбе и услове под којима ће се пружити допринос Центру који је наведен у овом уговору,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od24-clan2-stav8">
+					<content>
+						<p>САГЛАСНИ СУ У СЛЕДЕЋЕМ:</p>
+					</content>
+				</paragraph>
+				<article wId="od24-clan1">
+					<num>1.</num>
+					<hcontainer name="subpoint" wId="od24-clan1-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> У овом уговору „УНЕСКО” се односи на Организацију за образовање, науку и културу Уједињених нација;</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="od24-clan1-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> „Влада” означава Владу Републике Србије;</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="od24-clan1-podtac3">
+						<num>(3)</num>
+						<content>
+							<p> „Центар” означава Центар за воде за одржив развој и прилагођавање климатским променама, у Институту за водопривреду „Јарослав Черни”, у Београду, Република Србија.</p>
+						</content>
+					</hcontainer>
+				</article>
+				<article wId="od24-clan2">
+					<num>2.</num>
+					<paragraph wId="od24-clan2-stav1">
+						<content>
+							<p>Влада ће у току 2013. године предузети све потребне мере за отварање Центра у Републици Србији, као што је предвиђено овим уговором.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="od24-clan3">
+					<num>3.</num>
+					<paragraph wId="od24-clan3-stav1">
+						<content>
+							<p>Сврха овог уговора је да дефинише одредбе и услове који регулишу сарадњу између УНЕСКА и Владе, а такође и права и обавезе које из њега проистичу за Стране.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="od24-clan4">
+					<num>4.</num>
+					<hcontainer name="subpoint" wId="od24-clan4-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Центар је независан од УНЕСКА.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="od24-clan4-podtac2">
+						<num>(2)</num>
+						<intro>
+							<p> Центар на територији Републике Србије има функционалну аутономију неопходну за вршење својих активности и правну способност:</p>
+						</intro>
+						<alinea wId="od24-clan4-podtac2-ali1">
+							<content>
+								<p>а склапа уговоре;</p>
+							</content>
+						</alinea>
+						<alinea wId="od24-clan4-podtac2-ali2">
+							<content>
+								<p>а покреће судске поступке;</p>
+							</content>
+						</alinea>
+						<alinea wId="od24-clan4-podtac2-ali3">
+							<content>
+								<p>а прибавља и располаже покретном и непокретном имовином.</p>
+							</content>
+						</alinea>
+					</hcontainer>
+				</article>
+				<article wId="od24-clan5">
+					<num>5.</num>
+					<paragraph wId="od24-clan5-stav1">
+						<content>
+							<p>Оснивачки акт Центра мора да укључује одредбе које се односе на:</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od24-clan5-stav2">
+						<content>
+							<p>(а) правни статус који је одобрен Центру, у оквиру националног правног система Републике Србије, правну способност неопходну за извршавање својих делатности и примање средстава, примање уплата за пружене услуге и прибављање и располагање имовином која је неопходна за функционисање Центра;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od24-clan5-stav3">
+						<content>
+							<p>(б) управљачку структуру Центра која омогућава заступање УНЕСКА у оквиру управног тела.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="od24-clan6">
+					<num>6.</num>
+					<paragraph wId="od24-clan6-stav1">
+						<intro>
+							<p>Деловање/циљеви Центра су:</p>
+						</intro>
+						<point wId="od24-clan6-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> подстицање научне координације и размена информација између различитих организација које су укључене у одрживо управљање водним ресурсима и развој стратегија прилагођавања услед климатских промена у сарадњи са партнерским институцијама у Србији и југоисточној Европи;</p>
+							</content>
+						</point>
+						<point wId="od24-clan6-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> ширење, стварање и обезбеђивање научних и техничких информација о питањима управљања водним ресурсима ради формулисања исправне политике која води ка одрживом и интегрисаном управљању водним ресурсима на локалном, националном, регионалном и глобалном нивоу;</p>
+							</content>
+						</point>
+						<point wId="od24-clan6-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> процена утицаја глобалних промена и развој стратегија прилагођавања развијањем нових показатеља;</p>
+							</content>
+						</point>
+						<point wId="od24-clan6-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> промовисање развоја регионалних програма истраживања, повезивање са регионалним и глобалним иницијативама, са посебним усмерењем на проблем одрживог управљања водним ресурсима у условима климатских промена, у оквиру текућих релевантних иницијатива УНЕСКА, посебно Међународног Хидролошког Програма (ИХП – International Hidrological Prodramme), Седишта и Центри за водне ресурсе;</p>
+							</content>
+						</point>
+						<point wId="od24-clan6-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> предузимање ефикасних активности за оспособљавање на институционалном и професионалном нивоу ради јачања кадровских и институционалних капацитета за процену утицаја глобалних промена на управљање водним ресурсима, коришћењем напредних метода и технологија укључујући показатеље;</p>
+							</content>
+						</point>
+						<point wId="od24-clan6-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> организација програма за информисање који је намењен различитим групама, као што су доносиоци одлука и општа јавност на националном и регионалном нивоу, о стратегијама прилагођавања климатским променама и утицају на одрживо управљање водним ресурсима;</p>
+							</content>
+						</point>
+						<point wId="od24-clan6-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> објављивање резултата истраживања која су спроведена, путем семинара: радионица, курсева обуке, конференција и периодичних публикација, широј научној јавности и ИХП мрежама.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="od24-clan7">
+					<num>7.</num>
+					<hcontainer name="subpoint" wId="od24-clan7-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Активностима Центра управља и координира управни одбор, који се обнавља сваке три године и који чине:</p>
+						</content>
+					</hcontainer>
+					<paragraph wId="od24-clan7-stav1">
+						<content>
+							<p>(а) представник министарства надлежног за просвету, науку и технолошки развој Републике Србије;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od24-clan7-stav2">
+						<content>
+							<p>(б) представник министарства надлежног за пољопривреду, шумарство и водопривреду Републике Србије;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od24-clan7-stav3">
+						<content>
+							<p>(ц) представник Института за водопривреду „Јарослав Черни”;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od24-clan7-stav4">
+						<content>
+							<p>(д) Директор Центра или његов/њен заменик (као члан који нема право гласа);</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od24-clan7-stav5">
+						<content>
+							<p>(е) представници држава чланица УНЕСКА, које су Центру послале обавештење и изразиле заинтересованост да учествују у његовим активностима и буду представљене у Одбору;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od24-clan7-stav6">
+						<content>
+							<p>(ф) представник Генералног директора УНЕСКА.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od24-clan7-stav7">
+						<intro>
+							<p>Следећи представници ће бити позвани као посматрачи без права гласа:</p>
+						</intro>
+						<point wId="od24-clan7-stav7-tac1">
+							<num>1.</num>
+							<content>
+								<p> In this Agreement, ”UNESCO” refers to the United Nations Educational, Scientific and Cultural Organization;</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac2">
+							<num>2.</num>
+							<content>
+								<p> ”Government” means the Government of the Republic of Serbia;</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac3">
+							<num>3.</num>
+							<content>
+								<p> ”Centre” means Water for Sustainable Development and Adaptation to Climate Change Centre, at the ”Jaroslav Cerni” Institute for the Development of Water Resources, in Belgrade (Serbia);</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac1">
+							<num>1.</num>
+							<content>
+								<p> The Centre shall be independent of UNESCO.</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac2">
+							<num>2.</num>
+							<content>
+								<p> The Centre shall have on the territory of the Republic of Serbia, the functional autonomy necessary for the execution of its activities and the legal capacity to:</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac1">
+							<num>1.</num>
+							<content>
+								<p> The Centre’s activities shall be guided and coordinated by a Governing Board, renewed every three years and composed of:</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac2">
+							<num>2.</num>
+							<content>
+								<p> The Governing Board shall:</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac3">
+							<num>3.</num>
+							<content>
+								<p> The Governing Board shall meet in ordinary session at regular intervals, at least once every calendar year; it shall meet in extraordinary session if convened by its Chairperson, either on his or her own initiative or at the request of the Director-General of UNESCO or of the majority of the members of the Governing Board.</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac4">
+							<num>4.</num>
+							<content>
+								<p> The Governing Board adopts its own rules of procedure. For its first meeting, the procedure shall be established by the Parties.</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac1">
+							<num>1.</num>
+							<content>
+								<p> UNESCO may provide assistance, as needed, in the form of technical assistance for the programme activities of the Centre, in accordance with the strategic goals and objectives of UNESCO by:</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac2">
+							<num>2.</num>
+							<content>
+								<p> In the cases listed in paragraph 1 of this Article, such assistance shall not be undertaken except within the provisions of UNESCO’s programme and budget and UNESCO will provide Member States with accounts relating to the use of its staff and associated costs.</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac1">
+							<num>1.</num>
+							<intro>
+								<p> The Government shall provide all the needed financial resources for the administration and proper functioning of the Centre from the budget of the Republic of Serbia, through the Ministry responsible for Education, Science and Technological Development, the Ministry responsible for Agriculture, Forestry and Water Management and the Ministry responsible for the Environmental Protection, as well as through the ”Jaroslav Cerni” Institute for the Development of Water Resources, namely:</p>
+							</intro>
+							<point wId="od24-clan7-stav7-tac1">
+								<num>1.</num>
+								<content>
+									<p> The Centre encourages the participation of Member States and Associate Members of UNESCO which, by their common interest in the objectives of the Centre, desire to cooperate with the Centre.</p>
+								</content>
+							</point>
+						</point>
+						<point wId="od24-clan7-stav7-tac2">
+							<num>2.</num>
+							<content>
+								<p> Member States and Associate Members of UNESCO wishing to participate in the Centre’s activities, as provided for under this Agreement, shall send to the Centre notification to this effect. The Director of the Centre shall inform the Parties to the Agreement and other Member States of the receipt of such notifications.</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac1">
+							<num>1.</num>
+							<content>
+								<p> UNESCO may, at any time, carry out an evaluation of the activities of the Centre in order to ascertain:</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac2">
+							<num>2.</num>
+							<content>
+								<p> UNESCO undertakes to submit to the Government, at the earliest opportunity, a report on any evaluation conducted.</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac3">
+							<num>3.</num>
+							<content>
+								<p> Following the results of an evaluation, referred to in paragraph 2 of this Article, each of the contracting Parties shall have the option of requesting a revision of its contents or of denouncing the Agreement, as envisaged in Articles 16 and 17.</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac1">
+							<num>1.</num>
+							<content>
+								<p> The Centre may mention its affiliation with UNESCO. It may, therefore, use after its title the mention ”under the auspices of UNESCO”.</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac2">
+							<num>2.</num>
+							<content>
+								<p> The Centre is authorized to use the UNESCO logo or a version thereof on its letter headed paper and documents, including electronic documents and web pages, in accordance with the conditions established by the governing bodies of UNESCO.</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac1">
+							<num>1.</num>
+							<content>
+								<p> Each of the contracting Parties shall be entitled to denounce this Agreement unilaterally.</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac2">
+							<num>2.</num>
+							<content>
+								<p> The denunciation shall take effect within 30 days, following receipt of the notification sent by one of the contracting Parties to the other.</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac1">
+							<num>1.</num>
+							<content>
+								<p> Any dispute between the Parties concerning the interpretation or application of this Agreement, if not settled by negotiation or any other appropriate method agreed to by the Parties, shall be submitted for final decision to an arbitration tribunal composed of three members, one of whom shall be appointed by a representative of the Government, another by the Director-General of UNESCO and a third, who shall preside over the tribunal, shall be chosen by the first two. If the two arbitrators cannot agree on the choice of a third, the appointment shall be made by the President of the International Court of Justice.</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac2">
+							<num>2.</num>
+							<intro>
+								<p> The Tribunal’s decision shall be final.</p>
+							</intro>
+							<point wId="od24-clan7-stav7-tac24">
+								<num>24.</num>
+								<content>
+									<p> април 2013.</p>
+								</content>
+							</point>
+						</point>
+						<point wId="od24-clan7-stav7-tac1">
+							<num>1.</num>
+							<content>
+								<p> In this Agreement, ”UNESCO” refers to the United Nations Educational, Scientific and Cultural Organization;</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac2">
+							<num>2.</num>
+							<content>
+								<p> ”Government” means the Government of the Republic of Serbia;</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac3">
+							<num>3.</num>
+							<content>
+								<p> ”Centre” means Water for Sustainable Development and Adaptation to Climate Change Centre, at the ”Jaroslav Cerni” Institute for the Development of Water Resources, in Belgrade (Serbia);</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac1">
+							<num>1.</num>
+							<content>
+								<p> The Centre shall be independent of UNESCO.</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac2">
+							<num>2.</num>
+							<content>
+								<p> The Centre shall have on the territory of the Republic of Serbia, the functional autonomy necessary for the execution of its activities and the legal capacity to:</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac1">
+							<num>1.</num>
+							<content>
+								<p> The Centre’s activities shall be guided and coordinated by a Governing Board, renewed every three years and composed of:</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac2">
+							<num>2.</num>
+							<content>
+								<p> The Governing Board shall:</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac3">
+							<num>3.</num>
+							<content>
+								<p> The Governing Board shall meet in ordinary session at regular intervals, at least once every calendar year; it shall meet in extraordinary session if convened by its Chairperson, either on his or her own initiative or at the request of the Director-General of UNESCO or of the majority of the members of the Governing Board.</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac4">
+							<num>4.</num>
+							<content>
+								<p> The Governing Board adopts its own rules of procedure. For its first meeting, the procedure shall be established by the Parties.</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac1">
+							<num>1.</num>
+							<content>
+								<p> UNESCO may provide assistance, as needed, in the form of technical assistance for the programme activities of the Centre, in accordance with the strategic goals and objectives of UNESCO by:</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac2">
+							<num>2.</num>
+							<content>
+								<p> In the cases listed in paragraph 1 of this Article, such assistance shall not be undertaken except within the provisions of UNESCO’s programme and budget and UNESCO will provide Member States with accounts relating to the use of its staff and associated costs.</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac1">
+							<num>1.</num>
+							<intro>
+								<p> The Government shall provide all the needed financial resources for the administration and proper functioning of the Centre from the budget of the Republic of Serbia, through the Ministry responsible for Education, Science and Technological Development, the Ministry responsible for Agriculture, Forestry and Water Management and the Ministry responsible for the Environmental Protection, as well as through the ”Jaroslav Cerni” Institute for the Development of Water Resources, namely:</p>
+							</intro>
+							<point wId="od24-clan7-stav7-tac1">
+								<num>1.</num>
+								<content>
+									<p> The Centre encourages the participation of Member States and Associate Members of UNESCO which, by their common interest in the objectives of the Centre, desire to cooperate with the Centre.</p>
+								</content>
+							</point>
+						</point>
+						<point wId="od24-clan7-stav7-tac2">
+							<num>2.</num>
+							<content>
+								<p> Member States and Associate Members of UNESCO wishing to participate in the Centre’s activities, as provided for under this Agreement, shall send to the Centre notification to this effect. The Director of the Centre shall inform the Parties to the Agreement and other Member States of the receipt of such notifications.</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac1">
+							<num>1.</num>
+							<content>
+								<p> UNESCO may, at any time, carry out an evaluation of the activities of the Centre in order to ascertain:</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac2">
+							<num>2.</num>
+							<content>
+								<p> UNESCO undertakes to submit to the Government, at the earliest opportunity, a report on any evaluation conducted.</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac3">
+							<num>3.</num>
+							<content>
+								<p> Following the results of an evaluation, referred to in paragraph 2 of this Article, each of the contracting Parties shall have the option of requesting a revision of its contents or of denouncing the Agreement, as envisaged in Articles 16 and 17.</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac1">
+							<num>1.</num>
+							<content>
+								<p> The Centre may mention its affiliation with UNESCO. It may, therefore, use after its title the mention ”under the auspices of UNESCO”.</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac2">
+							<num>2.</num>
+							<content>
+								<p> The Centre is authorized to use the UNESCO logo or a version thereof on its letter headed paper and documents, including electronic documents and web pages, in accordance with the conditions established by the governing bodies of UNESCO.</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac1">
+							<num>1.</num>
+							<content>
+								<p> Each of the contracting Parties shall be entitled to denounce this Agreement unilaterally.</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac2">
+							<num>2.</num>
+							<content>
+								<p> The denunciation shall take effect within 30 days, following receipt of the notification sent by one of the contracting Parties to the other.</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac1">
+							<num>1.</num>
+							<content>
+								<p> Any dispute between the Parties concerning the interpretation or application of this Agreement, if not settled by negotiation or any other appropriate method agreed to by the Parties, shall be submitted for final decision to an arbitration tribunal composed of three members, one of whom shall be appointed by a representative of the Government, another by the Director-General of UNESCO and a third, who shall preside over the tribunal, shall be chosen by the first two. If the two arbitrators cannot agree on the choice of a third, the appointment shall be made by the President of the International Court of Justice.</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac2">
+							<num>2.</num>
+							<intro>
+								<p> The Tribunal’s decision shall be final.</p>
+							</intro>
+							<point wId="od24-clan7-stav7-tac24">
+								<num>24.</num>
+								<content>
+									<p> април 2013.</p>
+								</content>
+							</point>
+						</point>
+						<point wId="od24-clan7-stav7-tac1">
+							<num>1.</num>
+							<content>
+								<p> In this Agreement, ”UNESCO” refers to the United Nations Educational, Scientific and Cultural Organization;</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac2">
+							<num>2.</num>
+							<content>
+								<p> ”Government” means the Government of the Republic of Serbia;</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac3">
+							<num>3.</num>
+							<content>
+								<p> ”Centre” means Water for Sustainable Development and Adaptation to Climate Change Centre, at the ”Jaroslav Cerni” Institute for the Development of Water Resources, in Belgrade (Serbia);</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac1">
+							<num>1.</num>
+							<content>
+								<p> The Centre shall be independent of UNESCO.</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac2">
+							<num>2.</num>
+							<content>
+								<p> The Centre shall have on the territory of the Republic of Serbia, the functional autonomy necessary for the execution of its activities and the legal capacity to:</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac1">
+							<num>1.</num>
+							<content>
+								<p> The Centre’s activities shall be guided and coordinated by a Governing Board, renewed every three years and composed of:</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac2">
+							<num>2.</num>
+							<content>
+								<p> The Governing Board shall:</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac3">
+							<num>3.</num>
+							<content>
+								<p> The Governing Board shall meet in ordinary session at regular intervals, at least once every calendar year; it shall meet in extraordinary session if convened by its Chairperson, either on his or her own initiative or at the request of the Director-General of UNESCO or of the majority of the members of the Governing Board.</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac4">
+							<num>4.</num>
+							<content>
+								<p> The Governing Board adopts its own rules of procedure. For its first meeting, the procedure shall be established by the Parties.</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac1">
+							<num>1.</num>
+							<content>
+								<p> UNESCO may provide assistance, as needed, in the form of technical assistance for the programme activities of the Centre, in accordance with the strategic goals and objectives of UNESCO by:</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac2">
+							<num>2.</num>
+							<content>
+								<p> In the cases listed in paragraph 1 of this Article, such assistance shall not be undertaken except within the provisions of UNESCO’s programme and budget and UNESCO will provide Member States with accounts relating to the use of its staff and associated costs.</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac1">
+							<num>1.</num>
+							<intro>
+								<p> The Government shall provide all the needed financial resources for the administration and proper functioning of the Centre from the budget of the Republic of Serbia, through the Ministry responsible for Education, Science and Technological Development, the Ministry responsible for Agriculture, Forestry and Water Management and the Ministry responsible for the Environmental Protection, as well as through the ”Jaroslav Cerni” Institute for the Development of Water Resources, namely:</p>
+							</intro>
+							<point wId="od24-clan7-stav7-tac1">
+								<num>1.</num>
+								<content>
+									<p> The Centre encourages the participation of Member States and Associate Members of UNESCO which, by their common interest in the objectives of the Centre, desire to cooperate with the Centre.</p>
+								</content>
+							</point>
+						</point>
+						<point wId="od24-clan7-stav7-tac2">
+							<num>2.</num>
+							<content>
+								<p> Member States and Associate Members of UNESCO wishing to participate in the Centre’s activities, as provided for under this Agreement, shall send to the Centre notification to this effect. The Director of the Centre shall inform the Parties to the Agreement and other Member States of the receipt of such notifications.</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac1">
+							<num>1.</num>
+							<content>
+								<p> UNESCO may, at any time, carry out an evaluation of the activities of the Centre in order to ascertain:</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac2">
+							<num>2.</num>
+							<content>
+								<p> UNESCO undertakes to submit to the Government, at the earliest opportunity, a report on any evaluation conducted.</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac3">
+							<num>3.</num>
+							<content>
+								<p> Following the results of an evaluation, referred to in paragraph 2 of this Article, each of the contracting Parties shall have the option of requesting a revision of its contents or of denouncing the Agreement, as envisaged in Articles 16 and 17.</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac1">
+							<num>1.</num>
+							<content>
+								<p> The Centre may mention its affiliation with UNESCO. It may, therefore, use after its title the mention ”under the auspices of UNESCO”.</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac2">
+							<num>2.</num>
+							<content>
+								<p> The Centre is authorized to use the UNESCO logo or a version thereof on its letter headed paper and documents, including electronic documents and web pages, in accordance with the conditions established by the governing bodies of UNESCO.</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac1">
+							<num>1.</num>
+							<content>
+								<p> Each of the contracting Parties shall be entitled to denounce this Agreement unilaterally.</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac2">
+							<num>2.</num>
+							<content>
+								<p> The denunciation shall take effect within 30 days, following receipt of the notification sent by one of the contracting Parties to the other.</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac1">
+							<num>1.</num>
+							<content>
+								<p> Any dispute between the Parties concerning the interpretation or application of this Agreement, if not settled by negotiation or any other appropriate method agreed to by the Parties, shall be submitted for final decision to an arbitration tribunal composed of three members, one of whom shall be appointed by a representative of the Government, another by the Director-General of UNESCO and a third, who shall preside over the tribunal, shall be chosen by the first two. If the two arbitrators cannot agree on the choice of a third, the appointment shall be made by the President of the International Court of Justice.</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac2">
+							<num>2.</num>
+							<intro>
+								<p> The Tribunal’s decision shall be final.</p>
+							</intro>
+							<point wId="od24-clan7-stav7-tac24">
+								<num>24.</num>
+								<content>
+									<p> април 2013.</p>
+								</content>
+							</point>
+						</point>
+						<point wId="od24-clan7-stav7-tac1">
+							<num>1.</num>
+							<content>
+								<p> In this Agreement, ”UNESCO” refers to the United Nations Educational, Scientific and Cultural Organization;</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac2">
+							<num>2.</num>
+							<content>
+								<p> ”Government” means the Government of the Republic of Serbia;</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac3">
+							<num>3.</num>
+							<content>
+								<p> ”Centre” means Water for Sustainable Development and Adaptation to Climate Change Centre, at the ”Jaroslav Cerni” Institute for the Development of Water Resources, in Belgrade (Serbia);</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac1">
+							<num>1.</num>
+							<content>
+								<p> The Centre shall be independent of UNESCO.</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac2">
+							<num>2.</num>
+							<content>
+								<p> The Centre shall have on the territory of the Republic of Serbia, the functional autonomy necessary for the execution of its activities and the legal capacity to:</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac1">
+							<num>1.</num>
+							<content>
+								<p> The Centre’s activities shall be guided and coordinated by a Governing Board, renewed every three years and composed of:</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac2">
+							<num>2.</num>
+							<content>
+								<p> The Governing Board shall:</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac3">
+							<num>3.</num>
+							<content>
+								<p> The Governing Board shall meet in ordinary session at regular intervals, at least once every calendar year; it shall meet in extraordinary session if convened by its Chairperson, either on his or her own initiative or at the request of the Director-General of UNESCO or of the majority of the members of the Governing Board.</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac4">
+							<num>4.</num>
+							<content>
+								<p> The Governing Board adopts its own rules of procedure. For its first meeting, the procedure shall be established by the Parties.</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac1">
+							<num>1.</num>
+							<content>
+								<p> UNESCO may provide assistance, as needed, in the form of technical assistance for the programme activities of the Centre, in accordance with the strategic goals and objectives of UNESCO by:</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac2">
+							<num>2.</num>
+							<content>
+								<p> In the cases listed in paragraph 1 of this Article, such assistance shall not be undertaken except within the provisions of UNESCO’s programme and budget and UNESCO will provide Member States with accounts relating to the use of its staff and associated costs.</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac1">
+							<num>1.</num>
+							<intro>
+								<p> The Government shall provide all the needed financial resources for the administration and proper functioning of the Centre from the budget of the Republic of Serbia, through the Ministry responsible for Education, Science and Technological Development, the Ministry responsible for Agriculture, Forestry and Water Management and the Ministry responsible for the Environmental Protection, as well as through the ”Jaroslav Cerni” Institute for the Development of Water Resources, namely:</p>
+							</intro>
+							<point wId="od24-clan7-stav7-tac1">
+								<num>1.</num>
+								<content>
+									<p> The Centre encourages the participation of Member States and Associate Members of UNESCO which, by their common interest in the objectives of the Centre, desire to cooperate with the Centre.</p>
+								</content>
+							</point>
+						</point>
+						<point wId="od24-clan7-stav7-tac2">
+							<num>2.</num>
+							<content>
+								<p> Member States and Associate Members of UNESCO wishing to participate in the Centre’s activities, as provided for under this Agreement, shall send to the Centre notification to this effect. The Director of the Centre shall inform the Parties to the Agreement and other Member States of the receipt of such notifications.</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac1">
+							<num>1.</num>
+							<content>
+								<p> UNESCO may, at any time, carry out an evaluation of the activities of the Centre in order to ascertain:</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac2">
+							<num>2.</num>
+							<content>
+								<p> UNESCO undertakes to submit to the Government, at the earliest opportunity, a report on any evaluation conducted.</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac3">
+							<num>3.</num>
+							<content>
+								<p> Following the results of an evaluation, referred to in paragraph 2 of this Article, each of the contracting Parties shall have the option of requesting a revision of its contents or of denouncing the Agreement, as envisaged in Articles 16 and 17.</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac1">
+							<num>1.</num>
+							<content>
+								<p> The Centre may mention its affiliation with UNESCO. It may, therefore, use after its title the mention ”under the auspices of UNESCO”.</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac2">
+							<num>2.</num>
+							<content>
+								<p> The Centre is authorized to use the UNESCO logo or a version thereof on its letter headed paper and documents, including electronic documents and web pages, in accordance with the conditions established by the governing bodies of UNESCO.</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac1">
+							<num>1.</num>
+							<content>
+								<p> Each of the contracting Parties shall be entitled to denounce this Agreement unilaterally.</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac2">
+							<num>2.</num>
+							<content>
+								<p> The denunciation shall take effect within 30 days, following receipt of the notification sent by one of the contracting Parties to the other.</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac1">
+							<num>1.</num>
+							<content>
+								<p> Any dispute between the Parties concerning the interpretation or application of this Agreement, if not settled by negotiation or any other appropriate method agreed to by the Parties, shall be submitted for final decision to an arbitration tribunal composed of three members, one of whom shall be appointed by a representative of the Government, another by the Director-General of UNESCO and a third, who shall preside over the tribunal, shall be chosen by the first two. If the two arbitrators cannot agree on the choice of a third, the appointment shall be made by the President of the International Court of Justice.</p>
+							</content>
+						</point>
+						<point wId="od24-clan7-stav7-tac2">
+							<num>2.</num>
+							<content>
+								<p> The Tribunal’s decision shall be final.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+			</section>
+		</body>
+	</act>
+</akomaNtoso>

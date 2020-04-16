@@ -1,0 +1,842 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о потврђивању Споразума између Владе Републике Србије и Владе Републике Словеније о бављењу плаћеним пословима чланова породица особља дипломатско-конзуларних представништава">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2013/4-1/main"/>
+					<FRBRuri value="/rs/act/2013/4-1"/>
+					<FRBRdate date="2013-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2013/4-1/srp@/main"/>
+					<FRBRuri value="/rs/act/2013/4-1/srp@"/>
+					<FRBRdate date="2013-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2013/4-1/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2013/4-1/srp@.akn"/>
+					<FRBRdate date="2013-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2013-04-08" name="службени гласник рс - међународни уговори" number="4" showAs="Службени гласник РС - Међународни уговори"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="VII РАД И ЗАПОШЉАВАЊЕ" value="vii рад и запошљавање" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="1. Рад, запошљавање и заштита на раду" value="1. рад, запошљавање и заштита на раду" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2013-04-08" wId="usvajanje"/>
+				<step by="#TODO" date="2013-04-16" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2013-04-16" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Споразум између Владе Републике Србије и Владе Републике Словеније о бављењу плаћеним пословима чланова породица особља дипломатско-конзуларних представништава ступио је на снагу 22. априла 2013. године (види Обавештење: Службени гласник РС – Међународни уговори, број 6/2013-16)</p>
+				</note>
+				<note wId="not2">
+					<p>Споразум између Владе Републике Србије и Владе Републике Словеније о бављењу плаћеним пословима чланова породица особља дипломатско-конзуларних представништава ступио је на снагу 22. априла 2013. године (види Обавештење: Службени гласник РС – Међународни уговори, број 6/2013-16)</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О потврђивању споразума између владе републике србије и владе републике словеније о бављењу плаћеним пословима чланова породица особља дипломатско-конзуларних представништава "Службени гласник РС - Међународни уговори", број 4 од 8. априла 2013.</p>
+			</longTitle>
+			<p>Томислав Николић, с.р.</p>
+		</preface>
+		<preamble>
+			<p>На основу члана 112. став 1. тачка 2. Устава Републике Србије, доносим</p>
+			<p>УКАЗ</p>
+			<p>о проглашењу Закона о потврђивању Споразума између Владе Републике Србије и Владе Републике Словеније о бављењу плаћеним пословима чланова породица особља дипломатско-конзуларних представништава</p>
+			<p>Проглашава се Закон о потврђивању Споразума између Владе Републике Србије и Владе Републике Словеније о бављењу плаћеним пословима чланова породица особља дипломатско-конзуларних представништава, који је донела Народна скупштина Републике Србије на Другој седници Првог редовног заседања у 2013. години, 8. априла 2013. године.</p>
+			<p>ПР број 43</p>
+			<p>У Београду, 8. априла 2013. године</p>
+			<p>Председник Републике,</p>
+		</preamble>
+		<body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Потврђује се Споразум између Владе Рeпубликe Србијe и Владе Републике Словеније о бављењу плаћеним пословима чланова породица особља дипломатско-конзуларних представништава, потписан 26. октобра 2012. године у Љубљани, у оригиналу на енглеском језику.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Текст Споразума у оригиналу на енглеском језику и у преводу на српски језик гласи:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>AGREEMENT BETWEEN THE GOVERNMENT OF THE REPUBLIC  OF SERBIA AND THE GOVERNMENT OF THE REPUBLIC OF SLOVENIA ON THE GAINFUL OCCUPATION  OF DEPENDANTS OF MEMBERS OF DIPLOMATIC MISSIONS AND CONSULAR POSTS</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav3">
+					<content>
+						<p>The Government of the Republic of Serbia and the Government of the Republic of Slovenia (hereinafter referred to as the “Contracting Parties”);</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav4">
+					<content>
+						<p>Accepting that, on the basis of reciprocity, dependants of accredited employees of the sending State assigned to official duty in the receiving State as members of a diplomatic mission or consular post will be granted authorisation to engage in gainful occupation in the receiving State,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav5">
+					<content>
+						<p>Have agreed as follows:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav6">
+					<content>
+						<p>Article 1</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav7">
+					<intro>
+						<p>For the purpose of this Agreement:</p>
+					</intro>
+					<point wId="clan2-stav7-tac1">
+						<num>1.</num>
+						<content>
+							<p> “Member of a diplomatic mission or consular post” shall mean an employee of the sending State who is not a national of the receiving State and who is assigned to official duty in the receiving State at a diplomatic mission, consular post or mission to an international organisation.</p>
+						</content>
+					</point>
+					<point wId="clan2-stav7-tac2">
+						<num>2.</num>
+						<content>
+							<p> “Dependants” shall mean:</p>
+						</content>
+					</point>
+				</paragraph>
+				<paragraph wId="clan2-stav8">
+					<content>
+						<p>(a) spouse or common-law partner of a member of a diplomatic mission or consular post;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav9">
+					<content>
+						<p>(b) unmarried dependent children of a member of a diplomatic mission or consular post up to 18, or up to 26 years of age if in full-time attendance as students at a post-secondary educational institution; and</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav10">
+					<content>
+						<p>(c) unmarried dependent children of a member of a diplomatic mission or consular post who are physically or mentally disabled.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav11">
+					<content>
+						<p>Article 2</p>
+					</content>
+				</paragraph>
+			</article>
+			<section wId="od1">
+				<num>1.</num>
+				<heading> No restrictions shall be placed on the type of gainful occupation of a dependant. However, in those professions where particular qualifications are required in order to undertake gainful occupation, the dependant must have those qualifications.</heading>
+				<point wId="od1-clan2-tac2">
+					<num>2.</num>
+					<content>
+						<p> Authorisation to engage in gainful occupation may be denied in cases where, for security reasons, only nationals of the receiving State may be employed.</p>
+					</content>
+				</point>
+				<point wId="od1-clan2-tac3">
+					<num>3.</num>
+					<content>
+						<p> The receiving State may, at any time, refuse or revoke authorisation to engage in gainful occupation, if the dependant does not abide by the laws of the receiving State.</p>
+					</content>
+				</point>
+				<point wId="od1-clan2-tac4">
+					<num>4.</num>
+					<content>
+						<p> Should the dependant seek another employment after having been granted authorisation to engage in gainful occupation under this Agreement, the dependant shall re-apply for authorisation via the diplomatic mission.</p>
+					</content>
+				</point>
+				<point wId="od1-clan2-tac5">
+					<num>5.</num>
+					<content>
+						<p> The authorisation granted to the dependant to engage in gainful occupation in the receiving State shall expire in two months from the date when the assignment of the member of a diplomatic mission or consular post terminates.</p>
+					</content>
+				</point>
+				<point wId="od1-clan2-tac6">
+					<num>6.</num>
+					<content>
+						<p> The authorisation to engage in gainful occupation shall expire in the case of legal separation or divorce, or in the case the unmarried dependent children cease to form part of the household of the member of a diplomatic mission or consular post.</p>
+					</content>
+				</point>
+				<paragraph wId="od1-clan2-stav1">
+					<content>
+						<p>Article 3</p>
+					</content>
+				</paragraph>
+				<section wId="od1">
+					<num>1.</num>
+					<heading> Before a dependant may engage in gainful occupation in the receiving State, the diplomatic mission of the sending State shall make an official request to the protocol division of the ministry of foreign affairs of the receiving State.</heading>
+					<point wId="od1-clan2-tac2">
+						<num>2.</num>
+						<content>
+							<p> Upon verification whether the person in question falls within the categories defined in this Agreement and after observing applicable domestic procedures, the protocol division shall promptly notify the diplomatic mission that the person concerned has been granted authorisation to engage in gainful occupation in accordance with the applicable laws and regulations of the receiving State, including the issuance of a work permit, if necessary.</p>
+						</content>
+					</point>
+					<paragraph wId="od1-clan2-stav1">
+						<content>
+							<p>Article 4</p>
+						</content>
+					</paragraph>
+					<section wId="od1">
+						<num>1.</num>
+						<heading> For dependants who engage in gainful occupation under this Agreement and have immunity from the jurisdiction of the receiving State in accordance with the Vienna Convention on Diplomatic Relations of April 18, 1961 or the Vienna Convention on Consular Relations of April 24, 1963, immunity from civil and administrative jurisdiction with respect to all matters arising from such gainful occupation is hereby irrevocably waived by the sending State.</heading>
+						<point wId="od1-clan2-tac2">
+							<num>2.</num>
+							<content>
+								<p> In the event that a dependant who has immunity from criminal jurisdiction in accordance with the Vienna Convention on Diplomatic Relations is accused of a criminal offence committed in relation to their gainful occupation, the sending State shall give serious consideration to any written request that may be submitted by the receiving State for waiving such immunity.</p>
+							</content>
+						</point>
+						<paragraph wId="od1-clan2-stav1">
+							<content>
+								<p>Article 5</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan2-stav2">
+							<content>
+								<p>Dependants who engage in gainful occupation under this Agreement shall be subject to fiscal and social security regimes of the receiving State for all matters relating to their gainful occupation in that State.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan2-stav3">
+							<content>
+								<p>Article 6</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan2-stav4">
+							<content>
+								<p>The Contracting Parties shall undertake to apply the present Agreement in good faith and shall amend it as appropriate, in line with the needs and interests of both Contracting Parties.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan2-stav5">
+							<content>
+								<p>Article 7</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan2-stav6">
+							<content>
+								<p>Any differences or disputes arising from the interpretation or application of this Agreement shall be settled through diplomatic channels and by mutual consent.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan2-stav7">
+							<content>
+								<p>Article 8</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan2-stav8">
+							<content>
+								<p>This Agreement shall enter into force on the date of receipt of the last written notification by which the Contracting Parties notify each other that all necessary internal requirements for the entry into force of this Agreement have been fulfilled.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan2-stav9">
+							<content>
+								<p>Article 9</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan2-stav10">
+							<content>
+								<p>This Agreement shall be concluded for an indefinite period of time. Either Contracting Party may terminate it at any time by giving six months’ notice in writing to the other Contracting Party.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan2-stav11">
+							<content>
+								<p>Done at Ljubljana, on 26 October 2012, in two original copies in English.</p>
+							</content>
+						</paragraph>
+						<paragraph class="special" wId="od1-clan2-stav12">
+							<content>
+								<table>
+									
+
+
+									<tr>
+										
+
+										<td>
+											
+
+											<p>FOR THE GOVERNMENT 
+</p>
+											
+
+											<p>OF THE REPUBLIC OF SERBIA</p>
+											
+
+											<p>Zoran Marković, s.r. 
+</p>
+										</td>
+										
+
+										<td>
+											
+
+											<p>FOR THE GOVERNMENT OF THE REPUBLIC OF SLOVENIA 
+</p>
+											
+
+											<p>Tomaž Kunstelj, s.r.</p>
+											
+
+										</td>
+										
+
+									</tr>
+									
+
+
+								</table>
+								
+
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan2-stav13">
+							<content>
+								<p>СПОРАЗУМ ИЗМЕЂУ ВЛАДЕ РЕПУБЛИКЕ СРБИЈЕ И ВЛАДЕ  РЕПУБЛИКЕ СЛОВЕНИЈЕ О БАВЉЕЊУ ПЛАЋЕНИМ ПОСЛОВИМА ЧЛАНОВА ПОРОДИЦА ОСОБЉА  ДИПЛОМАТСКО-КОНЗУЛАРНИХ ПРЕДСТАВНИШТАВА</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan2-stav14">
+							<content>
+								<p>Влада Републике Србије и Влада Републике Словеније (у даљем тексту: „Стране уговорнице”);</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan2-stav15">
+							<content>
+								<p>Изражавајући сагласност да, на основу реципроцитета, дају одобрење члановима породица службеника државе именовања који су у својству особља дипломатско-конзуларних представништава упућени на службену дужност у државу пријема, да се баве плаћеним пословима у држави пријема,</p>
+							</content>
+						</paragraph>
+						<paragraph wId="od1-clan2-stav16">
+							<content>
+								<p>Договориле су се о следећем:</p>
+							</content>
+						</paragraph>
+						<article wId="od1-clan1">
+							<num>1.</num>
+							<paragraph wId="od1-clan1-stav1">
+								<intro>
+									<p>За потребе овог споразума:</p>
+								</intro>
+								<point wId="od1-clan1-stav1-tac1">
+									<num>1)</num>
+									<content>
+										<p> „члан особља дипломатско-конзуларног представништва” означава службеника државе именовања који није држављанин државе пријема и који је упућен на службену дужност у државу пријема у дипломатско-конзуларно представништво или мисију при међународној организацији.</p>
+									</content>
+								</point>
+								<point wId="od1-clan1-stav1-tac2">
+									<num>2)</num>
+									<content>
+										<p> „чланови породица” су:</p>
+									</content>
+								</point>
+							</paragraph>
+						</article>
+						<subsection wId="od1-podod1">
+							<num>а</num>
+							<heading> супружник или ванбрачни партнер чланова особља дипломатско-конзуларног представништва;</heading>
+						</subsection>
+						<subsection wId="od1-podod2">
+							<num>б</num>
+							<heading> неожењена и неудата деца чланова особља дипломатско-конзуларних представништава до 18 година старости, односно до 26 година старости уколико редовно похађају наставу у вишим и високошколским образовним установама, и</heading>
+						</subsection>
+						<subsection wId="od1-podod3">
+							<num>ц</num>
+							<heading> неожењена и неудата деца чланова особља дипломатско-конзуларних представништава физички или ментално ометену у развоју.</heading>
+							<article wId="od1-podod3-clan2">
+								<num>2.</num>
+								<point wId="od1-podod3-clan2-tac1">
+									<num>1)</num>
+									<content>
+										<p> Не постоје ограничења у погледу врсте плаћеног посла који се може обављати. Уколико су за нека занимања потребне посебне квалификације, чланови породице су дужни да испуне те услове.</p>
+									</content>
+								</point>
+								<point wId="od1-podod3-clan2-tac2">
+									<num>2)</num>
+									<content>
+										<p> Издавање одобрења за бављење плаћеним послом биће одбијено у случајевима ако из безбедносних разлога, само држављани државе пријема могу да заснују радни однос.</p>
+									</content>
+								</point>
+								<point wId="od1-podod3-clan2-tac3">
+									<num>3)</num>
+									<content>
+										<p> Држава пријема може у свако доба да одбије или повуче одобрење за бављење плаћеним послом ако члан породице не поштује законе државе пријема.</p>
+									</content>
+								</point>
+								<point wId="od1-podod3-clan2-tac4">
+									<num>4)</num>
+									<content>
+										<p> Уколико члан породице, по добијању одобрења за бављење плаћеним послом на основу овог споразума, жели да се бави неким другим плаћеним послом потребно је да, преко дипломатског представништва, поново поднесе захтев за добијање одобрења.</p>
+									</content>
+								</point>
+								<point wId="od1-podod3-clan2-tac5">
+									<num>5)</num>
+									<content>
+										<p> Одобрење издато члану породице за бављење плаћеним послом у држави пријема престаје да важи два месеца по престанку службе члана особља дипломатско-конзуларног представништва.</p>
+									</content>
+								</point>
+								<point wId="od1-podod3-clan2-tac6">
+									<num>6)</num>
+									<content>
+										<p> Одобрење за бављење плаћеним послом престаје да важи у случају законитог раздвајања, односно развода или престанка живота у заједничком домаћинству ако се ради о неожењеној и неудатој деци.</p>
+									</content>
+								</point>
+							</article>
+							<article wId="od1-podod3-clan3">
+								<num>3.</num>
+								<point wId="od1-podod3-clan3-tac1">
+									<num>1)</num>
+									<content>
+										<p> Дипломатско представништво државе именовања треба да поднесе званичан захтев одељењу за протокол министарства спољних послова државе пријема да би члан породице могао да се бави плаћеним послом у држави пријема.</p>
+									</content>
+								</point>
+								<point wId="od1-podod3-clan3-tac2">
+									<num>2)</num>
+									<content>
+										<p> Одељење за протокол ће, пошто утврди да односно лице спада у категорију обухваћену овим споразумом и пошто спроведе унутрашњу процедуру, без одлагања обавестити дипломатско представништво да је том лицу одобрено да се бави плаћеним послом, у складу са правним прописима државе пријема, укључујући издавање радне дозволе, уколико је то потребно.</p>
+									</content>
+								</point>
+							</article>
+							<article wId="od1-podod3-clan4">
+								<num>4.</num>
+								<point wId="od1-podod3-clan4-tac1">
+									<num>1)</num>
+									<content>
+										<p> Држава именовања се неопозиво одриче имунитета у односу на члана породице који се бави плаћеним послом на основу овог споразума, а који ужива имунитет од грађанског и управног судства државе пријема у складу са одредбама   Бечке конвенције о дипломатским односима од 18. априла 1961. године и   Бечке конвенције о конзуларним односима од 24. априла 1963. године у вези са питањима која произлазе из тог плаћеног посла.</p>
+									</content>
+								</point>
+								<point wId="od1-podod3-clan4-tac2">
+									<num>2)</num>
+									<content>
+										<p> У случају када је члан породице који ужива имунитет од кривичног судства државе пријема у складу са Бечком конвенцијом о дипломатским односима оптужен за кривично дело у вези са обављањем плаћеног посла, држава именовања ће озбиљно размотрити сваки писмени захтев који јој евентуално може поднети држава пријема у циљу одрицања од имунитета.</p>
+									</content>
+								</point>
+							</article>
+							<article wId="od1-podod3-clan5">
+								<num>5.</num>
+								<paragraph wId="od1-podod3-clan5-stav1">
+									<content>
+										<p>Члан породице који се бави плаћеним послом на основу овог споразума подлеже прописима из области пореза и социјалног осигурања државе пријема у погледу питања која су везана за обављање плаћеног посла.</p>
+									</content>
+								</paragraph>
+							</article>
+							<article wId="od1-podod3-clan6">
+								<num>6.</num>
+								<paragraph wId="od1-podod3-clan6-stav1">
+									<content>
+										<p>Стране уговорнице овај споразум примењују у доброј вери и мењају га и допуњавају у складу са потребама и интересима обе Стране уговорнице.</p>
+									</content>
+								</paragraph>
+							</article>
+							<article wId="od1-podod3-clan7">
+								<num>7.</num>
+								<paragraph wId="od1-podod3-clan7-stav1">
+									<content>
+										<p>Сваки спор око тумачења или примене овог споразума решаваће се дипломатским путем на основу узајамне сагласности.</p>
+									</content>
+								</paragraph>
+							</article>
+							<article wId="od1-podod3-clan8">
+								<num>8.</num>
+								<paragraph wId="od1-podod3-clan8-stav1">
+									<content>
+										<p>Овај споразум ступа на снагу на дан пријема последњег писменог обавештења којим се Стране уговорнице узајамно обавештавају да су испуниле своје унутрашње правне услове неопходне за ступање на снагу Споразума.</p>
+									</content>
+								</paragraph>
+							</article>
+							<article wId="od1-podod3-clan9">
+								<num>9.</num>
+								<paragraph wId="od1-podod3-clan9-stav1">
+									<content>
+										<p>Овај споразум се закључује на неодређено време. Свака Страна уговорница може раскинути овај споразум у сваком тренутку обавештавајући о томе другу страну писменим путем шест месеци унапред.</p>
+									</content>
+								</paragraph>
+								<paragraph wId="od1-podod3-clan9-stav2">
+									<content>
+										<p>Сачињено у Љубљани, 26. октобра 2012. године, у два оригинала на енглеском језику.</p>
+									</content>
+								</paragraph>
+								<paragraph class="special" wId="od1-podod3-clan9-stav3">
+									<content>
+										<table>
+											
+
+
+											<tr>
+												
+
+												<td>
+													
+
+													<p>ЗА ВЛАДУ РЕПУБЛИКЕ СРБИЈЕ</p>
+												</td>
+												
+
+												<td>
+													
+
+													<p>ЗА ВЛАДУ РЕПУБЛИКЕ СЛОВЕНИЈЕ</p>
+												</td>
+												
+
+											</tr>
+											
+
+											<tr>
+												
+
+												<td>
+													
+
+													<p>Зоран Марковић, с.р.</p>
+												</td>
+												
+
+												<td>
+													
+
+													<p>Томаж Кунстељ, с.р.</p>
+												</td>
+												
+
+											</tr>
+											
+
+
+										</table>
+										
+
+									</content>
+								</paragraph>
+							</article>
+							<article wId="od1-podod3-clan3">
+								<num>3.</num>
+								<paragraph wId="od1-podod3-clan3-stav1">
+									<content>
+										<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије – Међународни уговори”.</p>
+									</content>
+								</paragraph>
+								<paragraph wId="od1-podod3-clan3-stav2">
+									<content>
+										<p>На основу члана 11<ref wId="ref0" href="akn/rs/act/2013/4-1/srp@/!main~art_112__para_1__point_2" >2</ref>. став 1. тачка 2. Устава Републике Србије, доносим</p>
+									</content>
+								</paragraph>
+								<paragraph wId="od1-podod3-clan3-stav3">
+									<content>
+										<p>УКАЗ</p>
+									</content>
+								</paragraph>
+								<paragraph wId="od1-podod3-clan3-stav4">
+									<content>
+										<p>о проглашењу Закона о потврђивању Споразума између Владе Републике Србије и Владе Републике Словеније о бављењу плаћеним пословима чланова породица особља дипломатско-конзуларних представништава</p>
+									</content>
+								</paragraph>
+								<paragraph wId="od1-podod3-clan3-stav5">
+									<content>
+										<p>Проглашава се Закон о потврђивању Споразума између Владе Републике Србије и Владе Републике Словеније о бављењу плаћеним пословима чланова породица особља дипломатско-конзуларних представништава, који је донела Народна скупштина Републике Србије на Другој седници Првог редовног заседања у 2013. години, 8. априла 2013. године.</p>
+									</content>
+								</paragraph>
+								<paragraph wId="od1-podod3-clan3-stav6">
+									<content>
+										<p>ПР број 43</p>
+									</content>
+								</paragraph>
+								<paragraph wId="od1-podod3-clan3-stav7">
+									<content>
+										<p>У Београду, 8. априла 2013. године</p>
+									</content>
+								</paragraph>
+								<paragraph wId="od1-podod3-clan3-stav8">
+									<content>
+										<p>Председник Републике,</p>
+									</content>
+								</paragraph>
+								<paragraph wId="od1-podod3-clan3-stav9">
+									<content>
+										<p>Томислав Николић, с.р.</p>
+									</content>
+								</paragraph>
+								<paragraph wId="od1-podod3-clan3-stav10">
+									<content>
+										<p>ЗАКОН</p>
+									</content>
+								</paragraph>
+								<paragraph wId="od1-podod3-clan3-stav11">
+									<content>
+										<p>о потврђивању Споразума између Владе Републике Србије и Владе Републике Словеније о бављењу плаћеним пословима чланова породица особља дипломатско-конзуларних представништава</p>
+									</content>
+								</paragraph>
+								<paragraph wId="od1-podod3-clan3-stav12">
+									<content>
+										<p>"Службени гласник РС - Међународни уговори",  број 4 од 8. априла 2013.</p>
+									</content>
+								</paragraph>
+							</article>
+							<article wId="od1-podod3-clan1">
+								<num>1.</num>
+								<paragraph wId="od1-podod3-clan1-stav1">
+									<content>
+										<p>Потврђује се Споразум између Владе Рeпубликe Србијe и Владе Републике Словеније о бављењу плаћеним пословима чланова породица особља дипломатско-конзуларних представништава, потписан 26. октобра 2012. године у Љубљани, у оригиналу на енглеском језику.</p>
+									</content>
+								</paragraph>
+							</article>
+							<article wId="od1-podod3-clan2">
+								<num>2.</num>
+								<paragraph wId="od1-podod3-clan2-stav1">
+									<content>
+										<p>Текст Споразума у оригиналу на енглеском језику и у преводу на српски језик гласи:</p>
+									</content>
+								</paragraph>
+								<paragraph wId="od1-podod3-clan2-stav2">
+									<content>
+										<p>AGREEMENT BETWEEN THE GOVERNMENT OF THE REPUBLIC  OF SERBIA AND THE GOVERNMENT OF THE REPUBLIC OF SLOVENIA ON THE GAINFUL OCCUPATION  OF DEPENDANTS OF MEMBERS OF DIPLOMATIC MISSIONS AND CONSULAR POSTS</p>
+									</content>
+								</paragraph>
+								<paragraph wId="od1-podod3-clan2-stav3">
+									<content>
+										<p>The Government of the Republic of Serbia and the Government of the Republic of Slovenia (hereinafter referred to as the “Contracting Parties”);</p>
+									</content>
+								</paragraph>
+								<paragraph wId="od1-podod3-clan2-stav4">
+									<content>
+										<p>Accepting that, on the basis of reciprocity, dependants of accredited employees of the sending State assigned to official duty in the receiving State as members of a diplomatic mission or consular post will be granted authorisation to engage in gainful occupation in the receiving State,</p>
+									</content>
+								</paragraph>
+								<paragraph wId="od1-podod3-clan2-stav5">
+									<intro>
+										<p>Have agreed as follows:</p>
+									</intro>
+									<point wId="od1-podod3-clan2-stav5-tac1">
+										<num>1.</num>
+										<content>
+											<p> “Member of a diplomatic mission or consular post” shall mean an employee of the sending State who is not a national of the receiving State and who is assigned to official duty in the receiving State at a diplomatic mission, consular post or mission to an international organisation.</p>
+										</content>
+									</point>
+									<point wId="od1-podod3-clan2-stav5-tac2">
+										<num>2.</num>
+										<content>
+											<p> “Dependants” shall mean:</p>
+										</content>
+									</point>
+									<point wId="od1-podod3-clan2-stav5-tac1">
+										<num>1.</num>
+										<content>
+											<p> No restrictions shall be placed on the type of gainful occupation of a dependant. However, in those professions where particular qualifications are required in order to undertake gainful occupation, the dependant must have those qualifications.</p>
+										</content>
+									</point>
+									<point wId="od1-podod3-clan2-stav5-tac2">
+										<num>2.</num>
+										<content>
+											<p> Authorisation to engage in gainful occupation may be denied in cases where, for security reasons, only nationals of the receiving State may be employed.</p>
+										</content>
+									</point>
+									<point wId="od1-podod3-clan2-stav5-tac3">
+										<num>3.</num>
+										<content>
+											<p> The receiving State may, at any time, refuse or revoke authorisation to engage in gainful occupation, if the dependant does not abide by the laws of the receiving State.</p>
+										</content>
+									</point>
+									<point wId="od1-podod3-clan2-stav5-tac4">
+										<num>4.</num>
+										<content>
+											<p> Should the dependant seek another employment after having been granted authorisation to engage in gainful occupation under this Agreement, the dependant shall re-apply for authorisation via the diplomatic mission.</p>
+										</content>
+									</point>
+									<point wId="od1-podod3-clan2-stav5-tac5">
+										<num>5.</num>
+										<content>
+											<p> The authorisation granted to the dependant to engage in gainful occupation in the receiving State shall expire in two months from the date when the assignment of the member of a diplomatic mission or consular post terminates.</p>
+										</content>
+									</point>
+									<point wId="od1-podod3-clan2-stav5-tac6">
+										<num>6.</num>
+										<content>
+											<p> The authorisation to engage in gainful occupation shall expire in the case of legal separation or divorce, or in the case the unmarried dependent children cease to form part of the household of the member of a diplomatic mission or consular post.</p>
+										</content>
+									</point>
+									<point wId="od1-podod3-clan2-stav5-tac1">
+										<num>1.</num>
+										<content>
+											<p> Before a dependant may engage in gainful occupation in the receiving State, the diplomatic mission of the sending State shall make an official request to the protocol division of the ministry of foreign affairs of the receiving State.</p>
+										</content>
+									</point>
+									<point wId="od1-podod3-clan2-stav5-tac2">
+										<num>2.</num>
+										<content>
+											<p> Upon verification whether the person in question falls within the categories defined in this Agreement and after observing applicable domestic procedures, the protocol division shall promptly notify the diplomatic mission that the person concerned has been granted authorisation to engage in gainful occupation in accordance with the applicable laws and regulations of the receiving State, including the issuance of a work permit, if necessary.</p>
+										</content>
+									</point>
+									<point wId="od1-podod3-clan2-stav5-tac1">
+										<num>1.</num>
+										<content>
+											<p> For dependants who engage in gainful occupation under this Agreement and have immunity from the jurisdiction of the receiving State in accordance with the Vienna Convention on Diplomatic Relations of April 18, 1961 or the Vienna Convention on Consular Relations of April 24, 1963, immunity from civil and administrative jurisdiction with respect to all matters arising from such gainful occupation is hereby irrevocably waived by the sending State.</p>
+										</content>
+									</point>
+									<point wId="od1-podod3-clan2-stav5-tac2">
+										<num>2.</num>
+										<content>
+											<p> In the event that a dependant who has immunity from criminal jurisdiction in accordance with the Vienna Convention on Diplomatic Relations is accused of a criminal offence committed in relation to their gainful occupation, the sending State shall give serious consideration to any written request that may be submitted by the receiving State for waiving such immunity.</p>
+										</content>
+									</point>
+									<point wId="od1-podod3-clan2-stav5-tac1">
+										<num>1.</num>
+										<content>
+											<p> “Member of a diplomatic mission or consular post” shall mean an employee of the sending State who is not a national of the receiving State and who is assigned to official duty in the receiving State at a diplomatic mission, consular post or mission to an international organisation.</p>
+										</content>
+									</point>
+									<point wId="od1-podod3-clan2-stav5-tac2">
+										<num>2.</num>
+										<content>
+											<p> “Dependants” shall mean:</p>
+										</content>
+									</point>
+									<point wId="od1-podod3-clan2-stav5-tac1">
+										<num>1.</num>
+										<content>
+											<p> No restrictions shall be placed on the type of gainful occupation of a dependant. However, in those professions where particular qualifications are required in order to undertake gainful occupation, the dependant must have those qualifications.</p>
+										</content>
+									</point>
+									<point wId="od1-podod3-clan2-stav5-tac2">
+										<num>2.</num>
+										<content>
+											<p> Authorisation to engage in gainful occupation may be denied in cases where, for security reasons, only nationals of the receiving State may be employed.</p>
+										</content>
+									</point>
+									<point wId="od1-podod3-clan2-stav5-tac3">
+										<num>3.</num>
+										<content>
+											<p> The receiving State may, at any time, refuse or revoke authorisation to engage in gainful occupation, if the dependant does not abide by the laws of the receiving State.</p>
+										</content>
+									</point>
+									<point wId="od1-podod3-clan2-stav5-tac4">
+										<num>4.</num>
+										<content>
+											<p> Should the dependant seek another employment after having been granted authorisation to engage in gainful occupation under this Agreement, the dependant shall re-apply for authorisation via the diplomatic mission.</p>
+										</content>
+									</point>
+									<point wId="od1-podod3-clan2-stav5-tac5">
+										<num>5.</num>
+										<content>
+											<p> The authorisation granted to the dependant to engage in gainful occupation in the receiving State shall expire in two months from the date when the assignment of the member of a diplomatic mission or consular post terminates.</p>
+										</content>
+									</point>
+									<point wId="od1-podod3-clan2-stav5-tac6">
+										<num>6.</num>
+										<content>
+											<p> The authorisation to engage in gainful occupation shall expire in the case of legal separation or divorce, or in the case the unmarried dependent children cease to form part of the household of the member of a diplomatic mission or consular post.</p>
+										</content>
+									</point>
+									<point wId="od1-podod3-clan2-stav5-tac1">
+										<num>1.</num>
+										<content>
+											<p> Before a dependant may engage in gainful occupation in the receiving State, the diplomatic mission of the sending State shall make an official request to the protocol division of the ministry of foreign affairs of the receiving State.</p>
+										</content>
+									</point>
+									<point wId="od1-podod3-clan2-stav5-tac2">
+										<num>2.</num>
+										<content>
+											<p> Upon verification whether the person in question falls within the categories defined in this Agreement and after observing applicable domestic procedures, the protocol division shall promptly notify the diplomatic mission that the person concerned has been granted authorisation to engage in gainful occupation in accordance with the applicable laws and regulations of the receiving State, including the issuance of a work permit, if necessary.</p>
+										</content>
+									</point>
+									<point wId="od1-podod3-clan2-stav5-tac1">
+										<num>1.</num>
+										<content>
+											<p> For dependants who engage in gainful occupation under this Agreement and have immunity from the jurisdiction of the receiving State in accordance with the Vienna Convention on Diplomatic Relations of April 18, 1961 or the Vienna Convention on Consular Relations of April 24, 1963, immunity from civil and administrative jurisdiction with respect to all matters arising from such gainful occupation is hereby irrevocably waived by the sending State.</p>
+										</content>
+									</point>
+									<point wId="od1-podod3-clan2-stav5-tac2">
+										<num>2.</num>
+										<content>
+											<p> In the event that a dependant who has immunity from criminal jurisdiction in accordance with the Vienna Convention on Diplomatic Relations is accused of a criminal offence committed in relation to their gainful occupation, the sending State shall give serious consideration to any written request that may be submitted by the receiving State for waiving such immunity.</p>
+										</content>
+									</point>
+									<point wId="od1-podod3-clan2-stav5-tac1">
+										<num>1.</num>
+										<content>
+											<p> “Member of a diplomatic mission or consular post” shall mean an employee of the sending State who is not a national of the receiving State and who is assigned to official duty in the receiving State at a diplomatic mission, consular post or mission to an international organisation.</p>
+										</content>
+									</point>
+									<point wId="od1-podod3-clan2-stav5-tac2">
+										<num>2.</num>
+										<content>
+											<p> “Dependants” shall mean:</p>
+										</content>
+									</point>
+									<point wId="od1-podod3-clan2-stav5-tac1">
+										<num>1.</num>
+										<content>
+											<p> No restrictions shall be placed on the type of gainful occupation of a dependant. However, in those professions where particular qualifications are required in order to undertake gainful occupation, the dependant must have those qualifications.</p>
+										</content>
+									</point>
+									<point wId="od1-podod3-clan2-stav5-tac2">
+										<num>2.</num>
+										<content>
+											<p> Authorisation to engage in gainful occupation may be denied in cases where, for security reasons, only nationals of the receiving State may be employed.</p>
+										</content>
+									</point>
+									<point wId="od1-podod3-clan2-stav5-tac3">
+										<num>3.</num>
+										<content>
+											<p> The receiving State may, at any time, refuse or revoke authorisation to engage in gainful occupation, if the dependant does not abide by the laws of the receiving State.</p>
+										</content>
+									</point>
+									<point wId="od1-podod3-clan2-stav5-tac4">
+										<num>4.</num>
+										<content>
+											<p> Should the dependant seek another employment after having been granted authorisation to engage in gainful occupation under this Agreement, the dependant shall re-apply for authorisation via the diplomatic mission.</p>
+										</content>
+									</point>
+									<point wId="od1-podod3-clan2-stav5-tac5">
+										<num>5.</num>
+										<content>
+											<p> The authorisation granted to the dependant to engage in gainful occupation in the receiving State shall expire in two months from the date when the assignment of the member of a diplomatic mission or consular post terminates.</p>
+										</content>
+									</point>
+									<point wId="od1-podod3-clan2-stav5-tac6">
+										<num>6.</num>
+										<content>
+											<p> The authorisation to engage in gainful occupation shall expire in the case of legal separation or divorce, or in the case the unmarried dependent children cease to form part of the household of the member of a diplomatic mission or consular post.</p>
+										</content>
+									</point>
+									<point wId="od1-podod3-clan2-stav5-tac1">
+										<num>1.</num>
+										<content>
+											<p> Before a dependant may engage in gainful occupation in the receiving State, the diplomatic mission of the sending State shall make an official request to the protocol division of the ministry of foreign affairs of the receiving State.</p>
+										</content>
+									</point>
+									<point wId="od1-podod3-clan2-stav5-tac2">
+										<num>2.</num>
+										<content>
+											<p> Upon verification whether the person in question falls within the categories defined in this Agreement and after observing applicable domestic procedures, the protocol division shall promptly notify the diplomatic mission that the person concerned has been granted authorisation to engage in gainful occupation in accordance with the applicable laws and regulations of the receiving State, including the issuance of a work permit, if necessary.</p>
+										</content>
+									</point>
+									<point wId="od1-podod3-clan2-stav5-tac1">
+										<num>1.</num>
+										<content>
+											<p> For dependants who engage in gainful occupation under this Agreement and have immunity from the jurisdiction of the receiving State in accordance with the Vienna Convention on Diplomatic Relations of April 18, 1961 or the Vienna Convention on Consular Relations of April 24, 1963, immunity from civil and administrative jurisdiction with respect to all matters arising from such gainful occupation is hereby irrevocably waived by the sending State.</p>
+										</content>
+									</point>
+									<point wId="od1-podod3-clan2-stav5-tac2">
+										<num>2.</num>
+										<content>
+											<p> In the event that a dependant who has immunity from criminal jurisdiction in accordance with the Vienna Convention on Diplomatic Relations is accused of a criminal offence committed in relation to their gainful occupation, the sending State shall give serious consideration to any written request that may be submitted by the receiving State for waiving such immunity.</p>
+										</content>
+									</point>
+								</paragraph>
+							</article>
+						</subsection>
+					</section>
+				</section>
+			</section>
+		</body>
+	</act>
+</akomaNtoso>

@@ -1,0 +1,2283 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон Закон  је престао да важи, осим чл. 392. до 399. и чл. 400а, 400б, 400в и 421а, који  остају на снази до истека рокова за приватизацију утврђених законом којим се  уређује приватизација (види члан 456. закона  о привредним  друштвима – 125/2004-79). Закон о привредним друштвима („службени гласник рс“, број 125/2004) престао   је да  важи даном почетка примене закона о привредним друштвима („службени гласник рс“,  број 36/2011), 1. фебруара 2012. године,  осим  одредбе члана 456. тог закона која се примењује до окончања приватизације  постојећих друштвених предузећа и привредних друштава која послују друштвеним  или државним капиталом  (види члан 597. закона о привредним друштвима  –  36/2011-3). Чл. 1. до  391.">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/1996/29-1/main"/>
+					<FRBRuri value="/rs/act/1996/29-1"/>
+					<FRBRdate date="1996-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2011/36-3/srp@/main"/>
+					<FRBRuri value="/rs/act/2011/36-3/srp@"/>
+					<FRBRdate date="2011-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2011/36-3/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2011/36-3/srp@.akn"/>
+					<FRBRdate date="2011-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="1996-06-26" name="службени лист срј" number="29." showAs="Службени лист СРЈ"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="IX ОПШТИ ПРИВРЕДНИ ПРОПИСИ И ЕКОНОМСКИ ОДНОСИ СА ИНОСТРАНСТВОМ" value="ix општи привредни прописи и економски односи са иностранством" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="1. Привредна друштва, предузећа и предузетници" value="1. привредна друштва, предузећа и предузетници" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="1996-01-01" refersTo="29/1996-1" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="1996-01-01" refersTo="33/1996-15" source="#somebody" type="amendment" wId="e2"/>
+				<eventRef date="1997-01-01" refersTo="29/1997-6" source="#somebody" type="amendment" wId="e3"/>
+				<eventRef date="1998-01-01" refersTo="59/1998-38" source="#somebody" type="amendment" wId="e4"/>
+				<eventRef date="1999-01-01" refersTo="74/1999-52" source="#somebody" type="amendment" wId="e5"/>
+				<eventRef date="2001-01-01" refersTo="9/2001-11" source="#somebody" type="amendment" wId="e6"/>
+				<eventRef date="2002-01-01" refersTo="36/2002-11" source="#somebody" type="amendment" wId="e7"/>
+				<eventRef date="2004-01-01" refersTo="125/2004-76" source="#somebody" type="amendment" wId="e8"/>
+				<eventRef date="2011-01-01" refersTo="36/2011-3" source="#somebody" type="amendment" wId="e9"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="#TODO" date="1996-05-15" wId="usvajanje"/>
+				<step by="#TODO" date="1996-05-23" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="1996-05-23" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Одредба члана 59. став 3. није сагласна са Уставом СРЈ (види Одлуку СУС -9/2001-11).Закон је престао да важи, осим чл. 392. до 399. и чл. 400а, 400б, 400в. и 412а, који остају на снази до истека рокова за приватизацију утврђених законом којим се уређује приватизација (види члан 456. Закона – 125/2004-79).Закон о привредним друштвима („Службени гласник РС“, број 125/2004) престаје да важи даном почетка примене Закона о привредним друштвима („Службени гласник РС“, број 36/2011), 1. фебруара 2012. године, осим одредбе члана 456. тог закона која се примењује до окончања приватизације постојећих друштвених предузећа и привредних друштава која послују друштвеним или државним капиталом (види члан 597. Закона о привредним друштвима 36/2011-3).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон Закон  је престао да важи, осим чл. 392. до 399. и чл. 400а, 400б, 400в и 421а, који  остају на снази до истека рокова за приватизацију утврђених законом којим се  уређује приватизација (види члан 456. закона  о привредним  друштвима – 125/2004-79). Закон о привредним друштвима („службени гласник рс“, број 125/2004) престао   је да  важи даном почетка примене закона о привредним друштвима („службени гласник рс“,  број 36/2011), 1. фебруара 2012. године,  осим  одредбе члана 456. тог закона која се примењује до окончања приватизације  постојећих друштвених предузећа и привредних друштава која послују друштвеним  или државним капиталом  (види члан 597. закона о привредним друштвима  –  36/2011-3). Чл. 1. до  391. Престали су да важе (види члан 456. Закона - 125/2004-79)</p>
+			</longTitle>
+			<p>„Службени лист СРЈ”, бр. 29. од 26.   јуна  1996, 33 од 19.   јула  1996  (исправка),  29 од 27.   јуна  1997, 59 oд 4.   децембра  1998, 74 од 25.   децембра  1999,  9 од 2. марта 2001 (СУС),  36 од 3.   јула  2002. и „Службени гласник РС”, бр.    125 од 22. новембра 2004. (др.  закон),   36 од 27. маја 2011 (др. закон)</p>
+		</preface>
+		<preamble>
+			<p>о  предузећима</p>
+		</preamble>
+		<body>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>ДРУШТВЕНО ПРЕДУЗЕЋЕ</heading>
+				<section wId="gla3-od1">
+					<num>1.</num>
+					<heading>  Појам</heading>
+					<paragraph wId="gla3-od1-stav1">
+						<intro>
+							<p>Члан  392.</p>
+						</intro>
+						<hcontainer name="subpoint" wId="gla3-od1-stav1-podtac1">
+							<num>(1)</num>
+							<content>
+								<p>  Друштвено предузеће је предузеће које у целини послује друштвеним капиталом.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla3-od1-stav1-podtac2">
+							<num>(2)</num>
+							<content>
+								<p>  Друштвени капитал друштвеног предузећа подељен је на акције или уделе одређене  номиналне вредности и уписује се у регистар.</p>
+							</content>
+						</hcontainer>
+					</paragraph>
+				</section>
+				<section wId="gla3-od2">
+					<num>2.</num>
+					<heading>  Органи</heading>
+					<section wId="gla3-od2">
+						<num>2.</num>
+						<heading>1. Врсте</heading>
+						<paragraph wId="gla3-od2-stav1">
+							<intro>
+								<p>Члан  393.</p>
+							</intro>
+							<hcontainer name="subpoint" wId="gla3-od2-stav1-podtac1">
+								<num>(1)</num>
+								<content>
+									<p>  Органи друштвеног предузећа су: скупштина, управни одбор, директор и надзорни  одбор.</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla3-od2-stav1-podtac2">
+								<num>(2)</num>
+								<content>
+									<p> У  друштвеном предузећу које има до 50 запослених не бира се управни и надзорни  одбор, ако статутом предузећа није друкчије одређено.</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla3-od2-stav1-podtac3">
+								<num>(3)</num>
+								<content>
+									<p> У  друштвеном предузећу у коме се не бира управни и надзорни одбор њихове функције  врше се на начин утврђен статутом.</p>
+								</content>
+							</hcontainer>
+						</paragraph>
+						<section wId="gla3-od2">
+							<num>2.</num>
+							<heading>2. Скупштина</heading>
+							<paragraph wId="gla3-od2-stav1">
+								<intro>
+									<p>Члан  394.</p>
+								</intro>
+								<hcontainer name="subpoint" wId="gla3-od2-stav1-podtac1">
+									<num>(1)</num>
+									<content>
+										<p>  Скупштину друштвеног предузећа чине представници запослених.</p>
+									</content>
+								</hcontainer>
+								<hcontainer name="subpoint" wId="gla3-od2-stav1-podtac2">
+									<num>(2)</num>
+									<content>
+										<p>  Скупштину друштвеног предузећа које има делове чине представници запослених у  свим деловима.</p>
+									</content>
+								</hcontainer>
+								<hcontainer name="subpoint" wId="gla3-od2-stav1-podtac3">
+									<num>(3)</num>
+									<content>
+										<p>  Статутом се утврђује број чланова, начин избора, мандат, састав и одговорност  чланова скупштине.</p>
+									</content>
+								</hcontainer>
+								<hcontainer name="subpoint" wId="gla3-od2-stav1-podtac4">
+									<num>(4)</num>
+									<content>
+										<p>  Скупштина друштвеног предузећа, по правилу, одлучује јавним гласањем.</p>
+									</content>
+								</hcontainer>
+								<hcontainer name="subpoint" wId="gla3-od2-stav1-podtac5">
+									<num>(5)</num>
+									<content>
+										<p>  Скупштина може одлучивати тајним гласањем о избору и опозиву чланова органа  друштвеног предузећа.</p>
+									</content>
+								</hcontainer>
+								<hcontainer name="subpoint" wId="gla3-od2-stav1-podtac6">
+									<num>(6)</num>
+									<content>
+										<p> У  друштвеном предузећу с мање од 50 запослених функцију скупштине врше сви  запослени.</p>
+									</content>
+								</hcontainer>
+								<hcontainer name="subpoint" wId="gla3-od2-stav1-podtac7">
+									<num>(7)</num>
+									<content>
+										<p>  Скупштина друштвеног предузећа одлучује већином гласова свих чланова, ако  статутом није предвиђена друга квалификована већина.</p>
+									</content>
+								</hcontainer>
+								<hcontainer name="subpoint" wId="gla3-od2-stav1-podtac8">
+									<num>(8)</num>
+									<content>
+										<p>  Скупштина друштвеног предузећа, поред делокруга из члана 61. овог закона,  одлучује и о:</p>
+									</content>
+								</hcontainer>
+								<point wId="gla3-od2-stav1-tac1">
+									<num>1)</num>
+									<content>
+										<p>  остаривању захтева према члановима управе и надзорног одбора у вези с накнадом  штете насталом у вођењу послова, као и захтевима за поништај незаконите одлуке;</p>
+									</content>
+								</point>
+								<point wId="gla3-od2-stav1-tac2">
+									<num>2)</num>
+									<content>
+										<p>  заступању друштвеног предузећа у судским поступцима против чланова управе;</p>
+									</content>
+								</point>
+								<point wId="gla3-od2-stav1-tac3">
+									<num>3)</num>
+									<content>
+										<p>  питањима из делокруга управног одбора – само на захтев управног одбора.</p>
+									</content>
+								</point>
+							</paragraph>
+							<section wId="gla3-od2">
+								<num>2.</num>
+								<heading>3. Управни одбор</heading>
+								<paragraph wId="gla3-od2-stav1">
+									<intro>
+										<p>Члан  395.</p>
+									</intro>
+									<hcontainer name="subpoint" wId="gla3-od2-stav1-podtac1">
+										<num>(1)</num>
+										<content>
+											<p>  Управни одбор друштвеног предузећа бира скупштина.</p>
+										</content>
+									</hcontainer>
+									<hcontainer name="subpoint" wId="gla3-od2-stav1-podtac2">
+										<num>(2)</num>
+										<content>
+											<p>  Чланови управног одбора могу се бирати и из реда стручњака изван друштвеног  предузећа.</p>
+										</content>
+									</hcontainer>
+									<hcontainer name="subpoint" wId="gla3-od2-stav1-podtac3">
+										<num>(3)</num>
+										<content>
+											<p> На  управни одбор друштвеног предузећа сходно се примењују одредбе овог закона о  делокругу и начину одлучивања управног одбора, заменицима, опозиву, искључењу  права гласа и одговорности чланова управног одбора акционарског друштва.</p>
+										</content>
+									</hcontainer>
+								</paragraph>
+								<section wId="gla3-od2">
+									<num>2.</num>
+									<heading>4. Директор</heading>
+									<paragraph wId="gla3-od2-stav1">
+										<intro>
+											<p>Члан  396.</p>
+										</intro>
+										<hcontainer name="subpoint" wId="gla3-od2-stav1-podtac1">
+											<num>(1)</num>
+											<content>
+												<p>  Директора друштвеног предузећа бира и разрешава управни одбор.</p>
+											</content>
+										</hcontainer>
+										<hcontainer name="subpoint" wId="gla3-od2-stav1-podtac2">
+											<num>(2)</num>
+											<content>
+												<p> У  друштвеном предузећу у коме се не образује управни одбор, директора бира и  разрешава скупштина.</p>
+											</content>
+										</hcontainer>
+										<hcontainer name="subpoint" wId="gla3-od2-stav1-podtac3">
+											<num>(3)</num>
+											<content>
+												<p>  Ако директор друштвеног предузећа није изабран, управни одбор, односно скупштина  ако управни одбор није образован, поставља вршиоца дужности директора, с  правима, дужностима и одговорностима директора, на период до годину дана.</p>
+											</content>
+										</hcontainer>
+										<hcontainer name="subpoint" wId="gla3-od2-stav1-podtac4">
+											<num>(4)</num>
+											<content>
+												<p>  Директор друштвеног предузећа врши своје функције у интересу предузећа.</p>
+											</content>
+										</hcontainer>
+										<hcontainer name="subpoint" wId="gla3-od2-stav1-podtac5">
+											<num>(5)</num>
+											<content>
+												<p>  Поред делокруга утврђеног у одредбама члана 63. овог закона, директор друштвеног  предузећа врши и друге послове који законом, статутом или другим општим актом  нису стављени у делокруг скупштине, управног одбора и надзорног одбора.</p>
+											</content>
+										</hcontainer>
+										<hcontainer name="subpoint" wId="gla3-od2-stav1-podtac6">
+											<num>(6)</num>
+											<content>
+												<p>  Директор друштвеног предузећа може бити разрешен ако постоје губици у пословању,  ако прекрши правила клаузуле конкуренције и правила поступања у случају сукоба  интереса с предузећем, због неспособности, као и из других разлога утврђених  статутом.</p>
+											</content>
+										</hcontainer>
+									</paragraph>
+									<section wId="gla3-od2">
+										<num>2.</num>
+										<heading>5. Извршни одбор директора</heading>
+										<paragraph wId="gla3-od2-stav1">
+											<intro>
+												<p>Члан  397.</p>
+											</intro>
+											<hcontainer name="subpoint" wId="gla3-od2-stav1-podtac1">
+												<num>(1)</num>
+												<content>
+													<p>  Статутом друштвеног предузећа може се предвидети постојање извршног одбора  директора.</p>
+												</content>
+											</hcontainer>
+											<hcontainer name="subpoint" wId="gla3-od2-stav1-podtac2">
+												<num>(2)</num>
+												<content>
+													<p>  Извршни одбор директора је помоћни и извршни орган директора.</p>
+												</content>
+											</hcontainer>
+											<hcontainer name="subpoint" wId="gla3-od2-stav1-podtac3">
+												<num>(3)</num>
+												<content>
+													<p>  Чланови извршног одбора директора постављају се и разрешавају на начин утврђен  статутом.</p>
+												</content>
+											</hcontainer>
+											<hcontainer name="subpoint" wId="gla3-od2-stav1-podtac4">
+												<num>(4)</num>
+												<content>
+													<p>  Чланови извршног одбора директора могу бити изабрани за чланове управног одбора,  с тим што број тих чланова не може прећи трећину чланова управног одбора.</p>
+												</content>
+											</hcontainer>
+										</paragraph>
+										<section wId="gla3-od2">
+											<num>2.</num>
+											<heading>6. Надзорни одбор</heading>
+											<paragraph wId="gla3-od2-stav1">
+												<intro>
+													<p>Члан  398.</p>
+												</intro>
+												<hcontainer name="subpoint" wId="gla3-od2-stav1-podtac1">
+													<num>(1)</num>
+													<content>
+														<p>  Надзорни одбор друштвеног предузећа има најмање три члана.</p>
+													</content>
+												</hcontainer>
+												<hcontainer name="subpoint" wId="gla3-od2-stav1-podtac2">
+													<num>(2)</num>
+													<content>
+														<p>  Чланови надзорног одбора могу се бирати и из реда стручњака изван друштвеног  предузећа.</p>
+													</content>
+												</hcontainer>
+												<hcontainer name="subpoint" wId="gla3-od2-stav1-podtac3">
+													<num>(3)</num>
+													<content>
+														<p> На  надзорни одбор друштвеног предузећа сходно се примењују одредбе овог закона о  надзорном одбору акционарског друштва.</p>
+													</content>
+												</hcontainer>
+											</paragraph>
+											<hcontainer name="subpoint" wId="gla3-od2-clan398.а-podtac1">
+												<num>(1)</num>
+												<content>
+													<p>  Предузеће које послује већинским друштвеним капиталом не може, без претходне  сагласности агенције републике чланице надлежне за послове приватизације  доносити одлуке о: смањењу или повећању капитала; реорганизацији или  реструктурирању; инвестиционом улагању; продаји дела имовине; оптерећивању  имовине; залагањем ствари или успостављањем хипотеке; дугорочном закупу;  поравнању са повериоцима; узимању или одобравању кредита или издавању гаранција,  ван тока редовног пословања.</p>
+												</content>
+											</hcontainer>
+											<hcontainer name="subpoint" wId="gla3-od2-clan398.а-podtac2">
+												<num>(2)</num>
+												<content>
+													<p>  Одлуке донете супротно одредби става 1. овог члана поништиће агенција републике  чланице надлежна за послове приватизације.</p>
+												</content>
+											</hcontainer>
+										</section>
+										<article wId="gla3-od2-clan398.а">
+											<num>398а</num>
+											<paragraph wId="gla3-od2-clan398.а-stav1">
+												<content>
+													<p>*<ref wId="ref0" href="akn/rs/act/2002/36/srp@">Службени лист СРЈ, број 36/2002</ref></p>
+												</content>
+											</paragraph>
+										</article>
+									</section>
+								</section>
+							</section>
+						</section>
+					</section>
+				</section>
+				<section wId="gla3-od3">
+					<num>3.</num>
+					<heading>  Садржина статута</heading>
+					<paragraph wId="gla3-od3-clan398.а-stav1">
+						<content>
+							<p>Члан  399.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-clan398.а-stav2">
+						<content>
+							<p>Статут  друштвеног предузећа садржи одредбе о:</p>
+						</content>
+						<point wId="gla3-od3-clan398.а-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p>  фирми и седишту предузећа;</p>
+							</content>
+						</point>
+						<point wId="gla3-od3-clan398.а-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p>  делатности предузећа;</p>
+							</content>
+						</point>
+						<point wId="gla3-od3-clan398.а-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p>  заступању;</p>
+							</content>
+						</point>
+						<point wId="gla3-od3-clan398.а-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p>  начину распоређивања добити и покрићу губитака;</p>
+							</content>
+						</point>
+						<point wId="gla3-od3-clan398.а-stav2-tac5">
+							<num>5)</num>
+							<content>
+								<p>  резервама;</p>
+							</content>
+						</point>
+						<point wId="gla3-od3-clan398.а-stav2-tac6">
+							<num>6)</num>
+							<content>
+								<p>  органима предузећа и избору, опозиву и делокругу органа предузећа;</p>
+							</content>
+						</point>
+						<point wId="gla3-od3-clan398.а-stav2-tac7">
+							<num>7)</num>
+							<content>
+								<p>  општим актима и начину њиховог доношења;</p>
+							</content>
+						</point>
+						<point wId="gla3-od3-clan398.а-stav2-tac8">
+							<num>8)</num>
+							<content>
+								<p>  правима, обавезама и одговорностима органа предузећа;</p>
+							</content>
+						</point>
+						<point wId="gla3-od3-clan398.а-stav2-tac9">
+							<num>9)</num>
+							<content>
+								<p>  овлашћењима делова предузећа у правном промету;</p>
+							</content>
+						</point>
+						<point wId="gla3-od3-clan398.а-stav2-tac10">
+							<num>10)</num>
+							<content>
+								<p>  начину статусних промена предузећа;</p>
+							</content>
+						</point>
+						<point wId="gla3-od3-clan398.а-stav2-tac11">
+							<num>11)</num>
+							<content>
+								<p>  заштити животне средине;</p>
+							</content>
+						</point>
+						<point wId="gla3-od3-clan398.а-stav2-tac12">
+							<num>12)</num>
+							<content>
+								<p>  другим питањима значајним за рад и пословање предузећа и за остваривање права,  обавеза и одговорности запослених у предузећу.</p>
+							</content>
+						</point>
+					</paragraph>
+					<article wId="gla3-od3-clan400">
+						<num>400.</num>
+						<paragraph wId="gla3-od3-clan400-stav1">
+							<content>
+								<p>Брисан је (види <ref wId="ref1" href="akn/rs/act/2002/36/srp@/!main~/art_14">члан 14. Закона - 36/2002-11</ref>)</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla3-od3-clan400-stav2">
+							<content>
+								<p>IIIа. ПОСЕБНЕ ОДРЕДБЕ О УПРАВЉАЊУ ПРЕДУЗЕЋЕМ У ПОСТУПКУ ПРИВАТИЗАЦИЈЕ*</p>
+							</content>
+						</paragraph>
+						<hcontainer name="subpoint" wId="gla3-od3-clan400.а-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> У  предузећу које послује друштвеним или државним капиталом влада републике чланице  именује представнике друштвеног или државног капитала у скупштини и управном  одбору од лица из предузећа или изван предузећа, кад орган надлежан за  спровођење поступка приватизације утврди да је орган предузећа донео одлуку  којом се спречава или отежава спровођење поступка приватизације, као и кад овај  орган пропусти да донесе одлуку, закључи уговор или предузме друге мере у  поступку приватизације .</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla3-od3-clan400.а-podtac2">
+							<num>(2)</num>
+							<content>
+								<p>  Одлука којом се спречава или отежава поступак приватизације ништава је.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla3-od3-clan400.а-podtac3">
+							<num>(3)</num>
+							<content>
+								<p> У  предузећу које послује друштвеним капиталом, друштвени капитал исказује се у  акцијама или уделима одређене номиналне вредности који немају статус сопствених  акција, односно удела, у смислу овог закона.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla3-od3-clan400.б-podtac1">
+							<num>(1)</num>
+							<content>
+								<p>  Купац друштвеног, односно државног капитала или имовине стиче право својине над  тим капиталом или имовином исплатом продајне цене. Исплатом продајне цене сматра  се и уплата продајне цене на девизни рачун са посебном наменом. Изузетно, када  се продајна цена плаћа у ратама, купац стиче право својине над капиталом уплатом  у висини од 45% од продајне цене.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla3-od3-clan400.б-podtac2">
+							<num>(2)</num>
+							<content>
+								<p>  Купцу капитала или имовине из става 1. овог члана издаје се потврда о акцијама  или уделима, у складу са савезним законом, која се може заменити за акције или  уделе.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla3-od3-clan400.б-podtac3">
+							<num>(3)</num>
+							<content>
+								<p>  Одредба става 1. овог члана не односи се на уговоре о куповини акција или удела  друштвеног, односно државног капитала закључене до дана ступања на снагу овог  закона.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla3-od3-clan400.в-podtac1">
+							<num>(1)</num>
+							<content>
+								<p>  Зависно предузеће може, ради спровођења поступка приватизације, да донесе одлуку  о иступању из холдинга, односно матичног предузећа у случајевима организовања  преносом капитала без накнаде, поделе имовине, стицања капитала у другом  предузећу, инвестирања капитала у нова предузећа, као и у другим случајевима.*</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla3-od3-clan400.в-podtac2">
+							<num>(2)</num>
+							<content>
+								<p>  Право на иступање из холдинга, односно матичног предузећа не може се статутом  искључити, односно ограничити.*</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla3-od3-clan400.в-podtac3">
+							<num>(3)</num>
+							<content>
+								<p> У  случају из става 1. овог члана холдинг, односно матично предузеће обавезно је  да, без накнаде, пренесе на зависно друштво акције или уделе које поседује у  њему, односно акције или уделе које поседује по основу дела друштвеног, односно  државног капитала.*</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla3-od3-clan400.в-podtac4">
+							<num>(4)</num>
+							<content>
+								<p>  Зависно предузеће које иступи из холдинга, односно матичног предузећа одговара  неограничено солидарно са холдингом, односно матичним предузећем за обавезе  зависног предузећа настале до дана иступања.*</p>
+							</content>
+						</hcontainer>
+					</article>
+					<article wId="gla3-od3-clan400.а">
+						<num>400а</num>
+						<heading>*Службени лист СРЈ, број 36/2002</heading>
+					</article>
+					<article wId="gla3-od3-clan400.б">
+						<num>400б</num>
+						<heading>*Службени лист СРЈ, број 36/2002</heading>
+					</article>
+					<article wId="gla3-od3-clan400.в">
+						<num>400в</num>
+						<heading>*Службени лист СРЈ, број 36/2002</heading>
+						<paragraph wId="gla3-od3-clan400.в-stav1">
+							<content>
+								<p>*<ref wId="ref2" href="akn/rs/act/2002/36/srp@">Службени лист СРЈ, број 36/2002</ref></p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla3-od3-clan400.в-stav2">
+							<content>
+								<p>Чл.  401.  до 421.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla3-od3-clan400.в-stav3">
+							<content>
+								<p>Престали су да важе (види <ref wId="ref3" href="akn/rs/act/2004/125/srp@/!main~/art_456">члан 456. Закона - 125/2004-79</ref>)</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla3-od3-clan400.в-stav4">
+							<content>
+								<p>Део  Четврти</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla3-od3-clan400.в-stav5">
+							<content>
+								<p>СТАТУСНЕ ПРОМЕНЕ И ПРОМЕНЕ ОБЛИКА ПРЕДУЗЕЋА</p>
+							</content>
+						</paragraph>
+					</article>
+				</section>
+				<section wId="gla3-od1">
+					<num>1.</num>
+					<heading>  Општа правила</heading>
+					<hcontainer name="subpoint" wId="gla3-od1-clan421.а-podtac1">
+						<num>(1)</num>
+						<content>
+							<p>  Одлуке о статусним променама и променама облика предузећа које послује већинским  друштвеним капиталом не могу се доносити без претходне сагласности владе  републике чланице.*</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="gla3-od1-clan421.а-podtac2">
+						<num>(2)</num>
+						<content>
+							<p>  Одлуке донете супротно одредбе члана 1. овог члана ништаве су.*</p>
+						</content>
+					</hcontainer>
+				</section>
+				<article wId="gla3-od1-clan421.а">
+					<num>421а</num>
+					<paragraph wId="gla3-od1-clan421.а-stav1">
+						<content>
+							<p>*<ref wId="ref4" href="akn/rs/act/2002/36/srp@">Службени лист СРЈ, број 36/2002</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan421.а-stav2">
+						<content>
+							<p>Чл.  422.  до 450.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan421.а-stav3">
+						<content>
+							<p>Престали су да важе (види <ref wId="ref5" href="akn/rs/act/2004/125/srp@/!main~/art_456">члан 456. Закона - 125/2004-79</ref>)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan421.а-stav4">
+						<content>
+							<p>ЗАКОН</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan421.а-stav5">
+						<content>
+							<p>о  предузећима</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan421.а-stav6">
+						<content>
+							<p>„Службени лист СРЈ”, бр. 29. од 26.   јуна  1996, 33 од 19.   јула  1996  (исправка),  29 од 27.   јуна  1997, 59 oд 4.   децембра  1998, 74 од 25.   децембра  1999,  9 од 2. марта 2001 (СУС),  36 од 3.   јула  2002. и „Службени гласник РС”, бр.    125 од 22. новембра 2004. (др.  закон),   36 од 27. маја 2011 (др. закон)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan421.а-stav7">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА:</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan421.а-stav8">
+						<content>
+							<p>Закон  је престао да важи, осим <ref wId="ref7" href="akn/rs/act/2011/36-3/srp@/!main~art_392->399" >чл. 392. </ref>до 399. и чл. <ref wId="ref8" href="akn/rs/act/2011/36-3/srp@/!main~art_400а" >400а</ref>, <ref wId="ref9" href="akn/rs/act/2011/36-3/srp@/!main~art_400б" >400б</ref>, <ref wId="ref10" href="akn/rs/act/2011/36-3/srp@/!main~art_400в" >400в</ref> и <ref wId="ref11" href="akn/rs/act/2011/36-3/srp@/!main~art_421а" >421а</ref>, који  остају на снази до истека рокова за приватизацију утврђених законом којим се  уређује приватизација (види <ref wId="ref6" href="akn/rs/act/2011/36-3/srp@/!main~art_456" >члан 456. </ref>Закона  о привредним  друштвима – 125/2004-79).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan421.а-stav9">
+						<content>
+							<p>Закон о привредним друштвима („<ref wId="ref14" href="akn/rs/act/2004/125/srp@">Службени гласник РС“, број 125/2004</ref>) престао   је да  важи даном почетка примене Закона о привредним друштвима („<ref wId="ref15" href="akn/rs/act/2011/36/srp@">Службени гласник РС“,  број 36/2011</ref>), 1. фебруара 2012. године,  осим  одредбе <ref wId="ref12" href="akn/rs/act/2011/36-3/srp@/!main~art_456" >члана 456. </ref>тог закона која се примењује до окончања приватизације  постојећих друштвених предузећа и привредних друштава која послују друштвеним  или државним капиталом  (види <ref wId="ref13" href="akn/rs/act/2011/36-3/srp@/!main~art_597" >члан 597. </ref>Закона о привредним друштвима  –  36/2011-3).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan421.а-stav10">
+						<content>
+							<p>Чл. 1. до  391.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan421.а-stav11">
+						<content>
+							<p>Престали су  да важе (види <ref wId="ref16" href="akn/rs/act/2004/125/srp@/!main~/art_456">члан 456. Закона - 125/2004-79</ref>)</p>
+						</content>
+					</paragraph>
+				</article>
+				<chapter wId="gla3">
+					<num>III</num>
+					<heading>ДРУШТВЕНО ПРЕДУЗЕЋЕ</heading>
+					<paragraph wId="gla3-clan421.а-stav1">
+						<content>
+							<p>Члан  392.</p>
+						</content>
+						<hcontainer name="subpoint" wId="gla3-clan421.а-stav1-podtac1">
+							<num>(1)</num>
+							<content>
+								<p>  Друштвено предузеће је предузеће које у целини послује друштвеним капиталом.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla3-clan421.а-stav1-podtac2">
+							<num>(2)</num>
+							<content>
+								<p>  Друштвени капитал друштвеног предузећа подељен је на акције или уделе одређене  номиналне вредности и уписује се у регистар.</p>
+							</content>
+						</hcontainer>
+						<point wId="gla3-clan421.а-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p>  Органи</p>
+							</content>
+							<point wId="gla3-clan421.а-stav1-tac2">
+								<num>2.</num>
+								<content>
+									<p>1. Врсте</p>
+								</content>
+							</point>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan421.а-stav2">
+						<content>
+							<p>Члан  393.</p>
+						</content>
+						<hcontainer name="subpoint" wId="gla3-clan421.а-stav2-podtac1">
+							<num>(1)</num>
+							<content>
+								<p>  Органи друштвеног предузећа су: скупштина, управни одбор, директор и надзорни  одбор.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla3-clan421.а-stav2-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> У  друштвеном предузећу које има до 50 запослених не бира се управни и надзорни  одбор, ако статутом предузећа није друкчије одређено.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla3-clan421.а-stav2-podtac3">
+							<num>(3)</num>
+							<content>
+								<p> У  друштвеном предузећу у коме се не бира управни и надзорни одбор њихове функције  врше се на начин утврђен статутом.</p>
+							</content>
+						</hcontainer>
+						<point wId="gla3-clan421.а-stav2-tac2">
+							<num>2.</num>
+							<content>
+								<p>2. Скупштина</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan421.а-stav3">
+						<content>
+							<p>Члан  394.</p>
+						</content>
+						<hcontainer name="subpoint" wId="gla3-clan421.а-stav3-podtac1">
+							<num>(1)</num>
+							<content>
+								<p>  Скупштину друштвеног предузећа чине представници запослених.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla3-clan421.а-stav3-podtac2">
+							<num>(2)</num>
+							<content>
+								<p>  Скупштину друштвеног предузећа које има делове чине представници запослених у  свим деловима.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla3-clan421.а-stav3-podtac3">
+							<num>(3)</num>
+							<content>
+								<p>  Статутом се утврђује број чланова, начин избора, мандат, састав и одговорност  чланова скупштине.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla3-clan421.а-stav3-podtac4">
+							<num>(4)</num>
+							<content>
+								<p>  Скупштина друштвеног предузећа, по правилу, одлучује јавним гласањем.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla3-clan421.а-stav3-podtac5">
+							<num>(5)</num>
+							<content>
+								<p>  Скупштина може одлучивати тајним гласањем о избору и опозиву чланова органа  друштвеног предузећа.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla3-clan421.а-stav3-podtac6">
+							<num>(6)</num>
+							<content>
+								<p> У  друштвеном предузећу с мање од 50 запослених функцију скупштине врше сви  запослени.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla3-clan421.а-stav3-podtac7">
+							<num>(7)</num>
+							<content>
+								<p>  Скупштина друштвеног предузећа одлучује већином гласова свих чланова, ако  статутом није предвиђена друга квалификована већина.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla3-clan421.а-stav3-podtac8">
+							<num>(8)</num>
+							<content>
+								<p>  Скупштина друштвеног предузећа, поред делокруга из члана 61. овог закона,  одлучује и о:</p>
+							</content>
+						</hcontainer>
+						<point wId="gla3-clan421.а-stav3-tac1">
+							<num>1)</num>
+							<content>
+								<p>  остаривању захтева према члановима управе и надзорног одбора у вези с накнадом  штете насталом у вођењу послова, као и захтевима за поништај незаконите одлуке;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan421.а-stav3-tac2">
+							<num>2)</num>
+							<content>
+								<p>  заступању друштвеног предузећа у судским поступцима против чланова управе;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan421.а-stav3-tac3">
+							<num>3)</num>
+							<content>
+								<p>  питањима из делокруга управног одбора – само на захтев управног одбора.</p>
+							</content>
+						</point>
+						<point wId="gla3-clan421.а-stav3-tac2">
+							<num>2.</num>
+							<content>
+								<p>3. Управни одбор</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan421.а-stav4">
+						<content>
+							<p>Члан  395.</p>
+						</content>
+						<hcontainer name="subpoint" wId="gla3-clan421.а-stav4-podtac1">
+							<num>(1)</num>
+							<content>
+								<p>  Управни одбор друштвеног предузећа бира скупштина.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla3-clan421.а-stav4-podtac2">
+							<num>(2)</num>
+							<content>
+								<p>  Чланови управног одбора могу се бирати и из реда стручњака изван друштвеног  предузећа.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla3-clan421.а-stav4-podtac3">
+							<num>(3)</num>
+							<content>
+								<p> На  управни одбор друштвеног предузећа сходно се примењују одредбе овог закона о  делокругу и начину одлучивања управног одбора, заменицима, опозиву, искључењу  права гласа и одговорности чланова управног одбора акционарског друштва.</p>
+							</content>
+						</hcontainer>
+						<point wId="gla3-clan421.а-stav4-tac2">
+							<num>2.</num>
+							<content>
+								<p>4. Директор</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan421.а-stav5">
+						<content>
+							<p>Члан  396.</p>
+						</content>
+						<hcontainer name="subpoint" wId="gla3-clan421.а-stav5-podtac1">
+							<num>(1)</num>
+							<content>
+								<p>  Директора друштвеног предузећа бира и разрешава управни одбор.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla3-clan421.а-stav5-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> У  друштвеном предузећу у коме се не образује управни одбор, директора бира и  разрешава скупштина.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla3-clan421.а-stav5-podtac3">
+							<num>(3)</num>
+							<content>
+								<p>  Ако директор друштвеног предузећа није изабран, управни одбор, односно скупштина  ако управни одбор није образован, поставља вршиоца дужности директора, с  правима, дужностима и одговорностима директора, на период до годину дана.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla3-clan421.а-stav5-podtac4">
+							<num>(4)</num>
+							<content>
+								<p>  Директор друштвеног предузећа врши своје функције у интересу предузећа.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla3-clan421.а-stav5-podtac5">
+							<num>(5)</num>
+							<content>
+								<p>  Поред делокруга утврђеног у одредбама члана 63. овог закона, директор друштвеног  предузећа врши и друге послове који законом, статутом или другим општим актом  нису стављени у делокруг скупштине, управног одбора и надзорног одбора.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla3-clan421.а-stav5-podtac6">
+							<num>(6)</num>
+							<content>
+								<p>  Директор друштвеног предузећа може бити разрешен ако постоје губици у пословању,  ако прекрши правила клаузуле конкуренције и правила поступања у случају сукоба  интереса с предузећем, због неспособности, као и из других разлога утврђених  статутом.</p>
+							</content>
+						</hcontainer>
+						<point wId="gla3-clan421.а-stav5-tac2">
+							<num>2.</num>
+							<content>
+								<p>5. Извршни одбор директора</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan421.а-stav6">
+						<content>
+							<p>Члан  397.</p>
+						</content>
+						<hcontainer name="subpoint" wId="gla3-clan421.а-stav6-podtac1">
+							<num>(1)</num>
+							<content>
+								<p>  Статутом друштвеног предузећа може се предвидети постојање извршног одбора  директора.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla3-clan421.а-stav6-podtac2">
+							<num>(2)</num>
+							<content>
+								<p>  Извршни одбор директора је помоћни и извршни орган директора.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla3-clan421.а-stav6-podtac3">
+							<num>(3)</num>
+							<content>
+								<p>  Чланови извршног одбора директора постављају се и разрешавају на начин утврђен  статутом.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla3-clan421.а-stav6-podtac4">
+							<num>(4)</num>
+							<content>
+								<p>  Чланови извршног одбора директора могу бити изабрани за чланове управног одбора,  с тим што број тих чланова не може прећи трећину чланова управног одбора.</p>
+							</content>
+						</hcontainer>
+						<point wId="gla3-clan421.а-stav6-tac2">
+							<num>2.</num>
+							<content>
+								<p>6. Надзорни одбор</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan421.а-stav7">
+						<content>
+							<p>Члан  398.</p>
+						</content>
+						<hcontainer name="subpoint" wId="gla3-clan421.а-stav7-podtac1">
+							<num>(1)</num>
+							<content>
+								<p>  Надзорни одбор друштвеног предузећа има најмање три члана.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla3-clan421.а-stav7-podtac2">
+							<num>(2)</num>
+							<content>
+								<p>  Чланови надзорног одбора могу се бирати и из реда стручњака изван друштвеног  предузећа.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla3-clan421.а-stav7-podtac3">
+							<num>(3)</num>
+							<content>
+								<p> На  надзорни одбор друштвеног предузећа сходно се примењују одредбе овог закона о  надзорном одбору акционарског друштва.</p>
+							</content>
+						</hcontainer>
+					</paragraph>
+					<hcontainer name="subpoint" wId="gla3-clan398.а-podtac1">
+						<num>(1)</num>
+						<content>
+							<p>  Предузеће које послује већинским друштвеним капиталом не може, без претходне  сагласности агенције републике чланице надлежне за послове приватизације  доносити одлуке о: смањењу или повећању капитала; реорганизацији или  реструктурирању; инвестиционом улагању; продаји дела имовине; оптерећивању  имовине; залагањем ствари или успостављањем хипотеке; дугорочном закупу;  поравнању са повериоцима; узимању или одобравању кредита или издавању гаранција,  ван тока редовног пословања.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="gla3-clan398.а-podtac2">
+						<num>(2)</num>
+						<content>
+							<p>  Одлуке донете супротно одредби става 1. овог члана поништиће агенција републике  чланице надлежна за послове приватизације.</p>
+						</content>
+					</hcontainer>
+					<section wId="gla3-od3">
+						<num>3.</num>
+						<heading>  Садржина статута</heading>
+						<paragraph wId="gla3-od3-clan398.а-stav1">
+							<content>
+								<p>Члан  399.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla3-od3-clan398.а-stav2">
+							<content>
+								<p>Статут  друштвеног предузећа садржи одредбе о:</p>
+							</content>
+							<point wId="gla3-od3-clan398.а-stav2-tac1">
+								<num>1)</num>
+								<content>
+									<p>  фирми и седишту предузећа;</p>
+								</content>
+							</point>
+							<point wId="gla3-od3-clan398.а-stav2-tac2">
+								<num>2)</num>
+								<content>
+									<p>  делатности предузећа;</p>
+								</content>
+							</point>
+							<point wId="gla3-od3-clan398.а-stav2-tac3">
+								<num>3)</num>
+								<content>
+									<p>  заступању;</p>
+								</content>
+							</point>
+							<point wId="gla3-od3-clan398.а-stav2-tac4">
+								<num>4)</num>
+								<content>
+									<p>  начину распоређивања добити и покрићу губитака;</p>
+								</content>
+							</point>
+							<point wId="gla3-od3-clan398.а-stav2-tac5">
+								<num>5)</num>
+								<content>
+									<p>  резервама;</p>
+								</content>
+							</point>
+							<point wId="gla3-od3-clan398.а-stav2-tac6">
+								<num>6)</num>
+								<content>
+									<p>  органима предузећа и избору, опозиву и делокругу органа предузећа;</p>
+								</content>
+							</point>
+							<point wId="gla3-od3-clan398.а-stav2-tac7">
+								<num>7)</num>
+								<content>
+									<p>  општим актима и начину њиховог доношења;</p>
+								</content>
+							</point>
+							<point wId="gla3-od3-clan398.а-stav2-tac8">
+								<num>8)</num>
+								<content>
+									<p>  правима, обавезама и одговорностима органа предузећа;</p>
+								</content>
+							</point>
+							<point wId="gla3-od3-clan398.а-stav2-tac9">
+								<num>9)</num>
+								<content>
+									<p>  овлашћењима делова предузећа у правном промету;</p>
+								</content>
+							</point>
+							<point wId="gla3-od3-clan398.а-stav2-tac10">
+								<num>10)</num>
+								<content>
+									<p>  начину статусних промена предузећа;</p>
+								</content>
+							</point>
+							<point wId="gla3-od3-clan398.а-stav2-tac11">
+								<num>11)</num>
+								<content>
+									<p>  заштити животне средине;</p>
+								</content>
+							</point>
+							<point wId="gla3-od3-clan398.а-stav2-tac12">
+								<num>12)</num>
+								<content>
+									<p>  другим питањима значајним за рад и пословање предузећа и за остваривање права,  обавеза и одговорности запослених у предузећу.</p>
+								</content>
+							</point>
+						</paragraph>
+						<article wId="gla3-od3-clan400">
+							<num>400.</num>
+							<paragraph wId="gla3-od3-clan400-stav1">
+								<content>
+									<p>Брисан је (види члан 14. Закона - 36/2002-11)</p>
+								</content>
+							</paragraph>
+							<paragraph wId="gla3-od3-clan400-stav2">
+								<content>
+									<p>IIIа. ПОСЕБНЕ ОДРЕДБЕ О УПРАВЉАЊУ ПРЕДУЗЕЋЕМ У ПОСТУПКУ ПРИВАТИЗАЦИЈЕ*</p>
+								</content>
+							</paragraph>
+							<hcontainer name="subpoint" wId="gla3-od3-clan400.а-podtac1">
+								<num>(1)</num>
+								<content>
+									<p> У  предузећу које послује друштвеним или државним капиталом влада републике чланице  именује представнике друштвеног или државног капитала у скупштини и управном  одбору од лица из предузећа или изван предузећа, кад орган надлежан за  спровођење поступка приватизације утврди да је орган предузећа донео одлуку  којом се спречава или отежава спровођење поступка приватизације, као и кад овај  орган пропусти да донесе одлуку, закључи уговор или предузме друге мере у  поступку приватизације .</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla3-od3-clan400.а-podtac2">
+								<num>(2)</num>
+								<content>
+									<p>  Одлука којом се спречава или отежава поступак приватизације ништава је.</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla3-od3-clan400.а-podtac3">
+								<num>(3)</num>
+								<content>
+									<p> У  предузећу које послује друштвеним капиталом, друштвени капитал исказује се у  акцијама или уделима одређене номиналне вредности који немају статус сопствених  акција, односно удела, у смислу овог закона.</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla3-od3-clan400.б-podtac1">
+								<num>(1)</num>
+								<content>
+									<p>  Купац друштвеног, односно државног капитала или имовине стиче право својине над  тим капиталом или имовином исплатом продајне цене. Исплатом продајне цене сматра  се и уплата продајне цене на девизни рачун са посебном наменом. Изузетно, када  се продајна цена плаћа у ратама, купац стиче право својине над капиталом уплатом  у висини од 45% од продајне цене.</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla3-od3-clan400.б-podtac2">
+								<num>(2)</num>
+								<content>
+									<p>  Купцу капитала или имовине из става 1. овог члана издаје се потврда о акцијама  или уделима, у складу са савезним законом, која се може заменити за акције или  уделе.</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla3-od3-clan400.б-podtac3">
+								<num>(3)</num>
+								<content>
+									<p>  Одредба става 1. овог члана не односи се на уговоре о куповини акција или удела  друштвеног, односно државног капитала закључене до дана ступања на снагу овог  закона.</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla3-od3-clan400.в-podtac1">
+								<num>(1)</num>
+								<content>
+									<p>  Зависно предузеће може, ради спровођења поступка приватизације, да донесе одлуку  о иступању из холдинга, односно матичног предузећа у случајевима организовања  преносом капитала без накнаде, поделе имовине, стицања капитала у другом  предузећу, инвестирања капитала у нова предузећа, као и у другим случајевима.*</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla3-od3-clan400.в-podtac2">
+								<num>(2)</num>
+								<content>
+									<p>  Право на иступање из холдинга, односно матичног предузећа не може се статутом  искључити, односно ограничити.*</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla3-od3-clan400.в-podtac3">
+								<num>(3)</num>
+								<content>
+									<p> У  случају из става 1. овог члана холдинг, односно матично предузеће обавезно је  да, без накнаде, пренесе на зависно друштво акције или уделе које поседује у  њему, односно акције или уделе које поседује по основу дела друштвеног, односно  државног капитала.*</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla3-od3-clan400.в-podtac4">
+								<num>(4)</num>
+								<content>
+									<p>  Зависно предузеће које иступи из холдинга, односно матичног предузећа одговара  неограничено солидарно са холдингом, односно матичним предузећем за обавезе  зависног предузећа настале до дана иступања.*</p>
+								</content>
+							</hcontainer>
+						</article>
+						<article wId="gla3-od3-clan400.а">
+							<num>400а</num>
+							<heading>*Службени лист СРЈ, број 36/2002</heading>
+						</article>
+						<article wId="gla3-od3-clan400.б">
+							<num>400б</num>
+							<heading>*Службени лист СРЈ, број 36/2002</heading>
+						</article>
+						<article wId="gla3-od3-clan400.в">
+							<num>400в</num>
+							<heading>*Службени лист СРЈ, број 36/2002</heading>
+							<paragraph wId="gla3-od3-clan400.в-stav1">
+								<content>
+									<p>*Службени лист СРЈ, број 36/2002</p>
+								</content>
+							</paragraph>
+							<paragraph wId="gla3-od3-clan400.в-stav2">
+								<content>
+									<p>Чл.  401.  до 421.</p>
+								</content>
+							</paragraph>
+							<paragraph wId="gla3-od3-clan400.в-stav3">
+								<content>
+									<p>Престали су да важе (види члан 456. Закона - 125/2004-79)</p>
+								</content>
+							</paragraph>
+							<paragraph wId="gla3-od3-clan400.в-stav4">
+								<content>
+									<p>Део  Четврти</p>
+								</content>
+							</paragraph>
+							<paragraph wId="gla3-od3-clan400.в-stav5">
+								<content>
+									<p>СТАТУСНЕ ПРОМЕНЕ И ПРОМЕНЕ ОБЛИКА ПРЕДУЗЕЋА</p>
+								</content>
+							</paragraph>
+						</article>
+					</section>
+					<section wId="gla3-od1">
+						<num>1.</num>
+						<heading>  Општа правила</heading>
+						<hcontainer name="subpoint" wId="gla3-od1-clan421.а-podtac1">
+							<num>(1)</num>
+							<content>
+								<p>  Одлуке о статусним променама и променама облика предузећа које послује већинским  друштвеним капиталом не могу се доносити без претходне сагласности владе  републике чланице.*</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla3-od1-clan421.а-podtac2">
+							<num>(2)</num>
+							<content>
+								<p>  Одлуке донете супротно одредбе члана 1. овог члана ништаве су.*</p>
+							</content>
+						</hcontainer>
+					</section>
+					<article wId="gla3-od1-clan421.а">
+						<num>421а</num>
+						<paragraph wId="gla3-od1-clan421.а-stav1">
+							<content>
+								<p>*Службени лист СРЈ, број 36/2002</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla3-od1-clan421.а-stav2">
+							<content>
+								<p>Чл.  422.  до 450.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla3-od1-clan421.а-stav3">
+							<content>
+								<p>Престали су да важе (види члан 456. Закона - 125/2004-79)</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla3-od1-clan421.а-stav4">
+							<content>
+								<p>ЗАКОН</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla3-od1-clan421.а-stav5">
+							<content>
+								<p>о  предузећима</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla3-od1-clan421.а-stav6">
+							<content>
+								<p>„Службени лист СРЈ”, бр. 29. од 26.   јуна  1996, 33 од 19.   јула  1996  (исправка),  29 од 27.   јуна  1997, 59 oд 4.   децембра  1998, 74 од 25.   децембра  1999,  9 од 2. марта 2001 (СУС),  36 од 3.   јула  2002. и „Службени гласник РС”, бр.    125 од 22. новембра 2004. (др.  закон),   36 од 27. маја 2011 (др. закон)</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla3-od1-clan421.а-stav7">
+							<content>
+								<p>НАПОМЕНА ИЗДАВАЧА:</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla3-od1-clan421.а-stav8">
+							<content>
+								<p>Закон  је престао да важи, осим чл. 392. до 399. и чл. 400а, 400б, 400в и 421а, који  остају на снази до истека рокова за приватизацију утврђених законом којим се  уређује приватизација (види члан 456. Закона  о привредним  друштвима – 125/2004-79).</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla3-od1-clan421.а-stav9">
+							<content>
+								<p>Закон о привредним друштвима („Службени гласник РС“, број 125/2004) престао   је да  важи даном почетка примене Закона о привредним друштвима („Службени гласник РС“,  број 36/2011), 1. фебруара 2012. године,  осим  одредбе члана 456. тог закона која се примењује до окончања приватизације  постојећих друштвених предузећа и привредних друштава која послују друштвеним  или државним капиталом  (види члан 597. Закона о привредним друштвима  –  36/2011-3).</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla3-od1-clan421.а-stav10">
+							<content>
+								<p>Чл. 1. до  391.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla3-od1-clan421.а-stav11">
+							<content>
+								<p>Престали су  да важе (види члан 456. Закона - 125/2004-79)</p>
+							</content>
+						</paragraph>
+					</article>
+					<chapter wId="gla3">
+						<num>III</num>
+						<heading>ДРУШТВЕНО ПРЕДУЗЕЋЕ</heading>
+						<paragraph wId="gla3-clan421.а-stav1">
+							<content>
+								<p>Члан  392.</p>
+							</content>
+							<hcontainer name="subpoint" wId="gla3-clan421.а-stav1-podtac1">
+								<num>(1)</num>
+								<content>
+									<p>  Друштвено предузеће је предузеће које у целини послује друштвеним капиталом.</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla3-clan421.а-stav1-podtac2">
+								<num>(2)</num>
+								<content>
+									<p>  Друштвени капитал друштвеног предузећа подељен је на акције или уделе одређене  номиналне вредности и уписује се у регистар.</p>
+								</content>
+							</hcontainer>
+							<point wId="gla3-clan421.а-stav1-tac2">
+								<num>2.</num>
+								<content>
+									<p>  Органи</p>
+								</content>
+								<point wId="gla3-clan421.а-stav1-tac2">
+									<num>2.</num>
+									<content>
+										<p>1. Врсте</p>
+									</content>
+								</point>
+							</point>
+						</paragraph>
+						<paragraph wId="gla3-clan421.а-stav2">
+							<content>
+								<p>Члан  393.</p>
+							</content>
+							<hcontainer name="subpoint" wId="gla3-clan421.а-stav2-podtac1">
+								<num>(1)</num>
+								<content>
+									<p>  Органи друштвеног предузећа су: скупштина, управни одбор, директор и надзорни  одбор.</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla3-clan421.а-stav2-podtac2">
+								<num>(2)</num>
+								<content>
+									<p> У  друштвеном предузећу које има до 50 запослених не бира се управни и надзорни  одбор, ако статутом предузећа није друкчије одређено.</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla3-clan421.а-stav2-podtac3">
+								<num>(3)</num>
+								<content>
+									<p> У  друштвеном предузећу у коме се не бира управни и надзорни одбор њихове функције  врше се на начин утврђен статутом.</p>
+								</content>
+							</hcontainer>
+							<point wId="gla3-clan421.а-stav2-tac2">
+								<num>2.</num>
+								<content>
+									<p>2. Скупштина</p>
+								</content>
+							</point>
+						</paragraph>
+						<paragraph wId="gla3-clan421.а-stav3">
+							<content>
+								<p>Члан  394.</p>
+							</content>
+							<hcontainer name="subpoint" wId="gla3-clan421.а-stav3-podtac1">
+								<num>(1)</num>
+								<content>
+									<p>  Скупштину друштвеног предузећа чине представници запослених.</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla3-clan421.а-stav3-podtac2">
+								<num>(2)</num>
+								<content>
+									<p>  Скупштину друштвеног предузећа које има делове чине представници запослених у  свим деловима.</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla3-clan421.а-stav3-podtac3">
+								<num>(3)</num>
+								<content>
+									<p>  Статутом се утврђује број чланова, начин избора, мандат, састав и одговорност  чланова скупштине.</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla3-clan421.а-stav3-podtac4">
+								<num>(4)</num>
+								<content>
+									<p>  Скупштина друштвеног предузећа, по правилу, одлучује јавним гласањем.</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla3-clan421.а-stav3-podtac5">
+								<num>(5)</num>
+								<content>
+									<p>  Скупштина може одлучивати тајним гласањем о избору и опозиву чланова органа  друштвеног предузећа.</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla3-clan421.а-stav3-podtac6">
+								<num>(6)</num>
+								<content>
+									<p> У  друштвеном предузећу с мање од 50 запослених функцију скупштине врше сви  запослени.</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla3-clan421.а-stav3-podtac7">
+								<num>(7)</num>
+								<content>
+									<p>  Скупштина друштвеног предузећа одлучује већином гласова свих чланова, ако  статутом није предвиђена друга квалификована већина.</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla3-clan421.а-stav3-podtac8">
+								<num>(8)</num>
+								<content>
+									<p>  Скупштина друштвеног предузећа, поред делокруга из члана 61. овог закона,  одлучује и о:</p>
+								</content>
+							</hcontainer>
+							<point wId="gla3-clan421.а-stav3-tac1">
+								<num>1)</num>
+								<content>
+									<p>  остаривању захтева према члановима управе и надзорног одбора у вези с накнадом  штете насталом у вођењу послова, као и захтевима за поништај незаконите одлуке;</p>
+								</content>
+							</point>
+							<point wId="gla3-clan421.а-stav3-tac2">
+								<num>2)</num>
+								<content>
+									<p>  заступању друштвеног предузећа у судским поступцима против чланова управе;</p>
+								</content>
+							</point>
+							<point wId="gla3-clan421.а-stav3-tac3">
+								<num>3)</num>
+								<content>
+									<p>  питањима из делокруга управног одбора – само на захтев управног одбора.</p>
+								</content>
+							</point>
+							<point wId="gla3-clan421.а-stav3-tac2">
+								<num>2.</num>
+								<content>
+									<p>3. Управни одбор</p>
+								</content>
+							</point>
+						</paragraph>
+						<paragraph wId="gla3-clan421.а-stav4">
+							<content>
+								<p>Члан  395.</p>
+							</content>
+							<hcontainer name="subpoint" wId="gla3-clan421.а-stav4-podtac1">
+								<num>(1)</num>
+								<content>
+									<p>  Управни одбор друштвеног предузећа бира скупштина.</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla3-clan421.а-stav4-podtac2">
+								<num>(2)</num>
+								<content>
+									<p>  Чланови управног одбора могу се бирати и из реда стручњака изван друштвеног  предузећа.</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla3-clan421.а-stav4-podtac3">
+								<num>(3)</num>
+								<content>
+									<p> На  управни одбор друштвеног предузећа сходно се примењују одредбе овог закона о  делокругу и начину одлучивања управног одбора, заменицима, опозиву, искључењу  права гласа и одговорности чланова управног одбора акционарског друштва.</p>
+								</content>
+							</hcontainer>
+							<point wId="gla3-clan421.а-stav4-tac2">
+								<num>2.</num>
+								<content>
+									<p>4. Директор</p>
+								</content>
+							</point>
+						</paragraph>
+						<paragraph wId="gla3-clan421.а-stav5">
+							<content>
+								<p>Члан  396.</p>
+							</content>
+							<hcontainer name="subpoint" wId="gla3-clan421.а-stav5-podtac1">
+								<num>(1)</num>
+								<content>
+									<p>  Директора друштвеног предузећа бира и разрешава управни одбор.</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla3-clan421.а-stav5-podtac2">
+								<num>(2)</num>
+								<content>
+									<p> У  друштвеном предузећу у коме се не образује управни одбор, директора бира и  разрешава скупштина.</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla3-clan421.а-stav5-podtac3">
+								<num>(3)</num>
+								<content>
+									<p>  Ако директор друштвеног предузећа није изабран, управни одбор, односно скупштина  ако управни одбор није образован, поставља вршиоца дужности директора, с  правима, дужностима и одговорностима директора, на период до годину дана.</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla3-clan421.а-stav5-podtac4">
+								<num>(4)</num>
+								<content>
+									<p>  Директор друштвеног предузећа врши своје функције у интересу предузећа.</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla3-clan421.а-stav5-podtac5">
+								<num>(5)</num>
+								<content>
+									<p>  Поред делокруга утврђеног у одредбама члана 63. овог закона, директор друштвеног  предузећа врши и друге послове који законом, статутом или другим општим актом  нису стављени у делокруг скупштине, управног одбора и надзорног одбора.</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla3-clan421.а-stav5-podtac6">
+								<num>(6)</num>
+								<content>
+									<p>  Директор друштвеног предузећа може бити разрешен ако постоје губици у пословању,  ако прекрши правила клаузуле конкуренције и правила поступања у случају сукоба  интереса с предузећем, због неспособности, као и из других разлога утврђених  статутом.</p>
+								</content>
+							</hcontainer>
+							<point wId="gla3-clan421.а-stav5-tac2">
+								<num>2.</num>
+								<content>
+									<p>5. Извршни одбор директора</p>
+								</content>
+							</point>
+						</paragraph>
+						<paragraph wId="gla3-clan421.а-stav6">
+							<content>
+								<p>Члан  397.</p>
+							</content>
+							<hcontainer name="subpoint" wId="gla3-clan421.а-stav6-podtac1">
+								<num>(1)</num>
+								<content>
+									<p>  Статутом друштвеног предузећа може се предвидети постојање извршног одбора  директора.</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla3-clan421.а-stav6-podtac2">
+								<num>(2)</num>
+								<content>
+									<p>  Извршни одбор директора је помоћни и извршни орган директора.</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla3-clan421.а-stav6-podtac3">
+								<num>(3)</num>
+								<content>
+									<p>  Чланови извршног одбора директора постављају се и разрешавају на начин утврђен  статутом.</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla3-clan421.а-stav6-podtac4">
+								<num>(4)</num>
+								<content>
+									<p>  Чланови извршног одбора директора могу бити изабрани за чланове управног одбора,  с тим што број тих чланова не може прећи трећину чланова управног одбора.</p>
+								</content>
+							</hcontainer>
+							<point wId="gla3-clan421.а-stav6-tac2">
+								<num>2.</num>
+								<content>
+									<p>6. Надзорни одбор</p>
+								</content>
+							</point>
+						</paragraph>
+						<paragraph wId="gla3-clan421.а-stav7">
+							<content>
+								<p>Члан  398.</p>
+							</content>
+							<hcontainer name="subpoint" wId="gla3-clan421.а-stav7-podtac1">
+								<num>(1)</num>
+								<content>
+									<p>  Надзорни одбор друштвеног предузећа има најмање три члана.</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla3-clan421.а-stav7-podtac2">
+								<num>(2)</num>
+								<content>
+									<p>  Чланови надзорног одбора могу се бирати и из реда стручњака изван друштвеног  предузећа.</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla3-clan421.а-stav7-podtac3">
+								<num>(3)</num>
+								<content>
+									<p> На  надзорни одбор друштвеног предузећа сходно се примењују одредбе овог закона о  надзорном одбору акционарског друштва.</p>
+								</content>
+							</hcontainer>
+						</paragraph>
+						<hcontainer name="subpoint" wId="gla3-clan398.а-podtac1">
+							<num>(1)</num>
+							<content>
+								<p>  Предузеће које послује већинским друштвеним капиталом не може, без претходне  сагласности агенције републике чланице надлежне за послове приватизације  доносити одлуке о: смањењу или повећању капитала; реорганизацији или  реструктурирању; инвестиционом улагању; продаји дела имовине; оптерећивању  имовине; залагањем ствари или успостављањем хипотеке; дугорочном закупу;  поравнању са повериоцима; узимању или одобравању кредита или издавању гаранција,  ван тока редовног пословања.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla3-clan398.а-podtac2">
+							<num>(2)</num>
+							<content>
+								<p>  Одлуке донете супротно одредби става 1. овог члана поништиће агенција републике  чланице надлежна за послове приватизације.</p>
+							</content>
+						</hcontainer>
+						<section wId="gla3-od3">
+							<num>3.</num>
+							<heading>  Садржина статута</heading>
+							<paragraph wId="gla3-od3-clan398.а-stav1">
+								<content>
+									<p>Члан  399.</p>
+								</content>
+							</paragraph>
+							<paragraph wId="gla3-od3-clan398.а-stav2">
+								<content>
+									<p>Статут  друштвеног предузећа садржи одредбе о:</p>
+								</content>
+								<point wId="gla3-od3-clan398.а-stav2-tac1">
+									<num>1)</num>
+									<content>
+										<p>  фирми и седишту предузећа;</p>
+									</content>
+								</point>
+								<point wId="gla3-od3-clan398.а-stav2-tac2">
+									<num>2)</num>
+									<content>
+										<p>  делатности предузећа;</p>
+									</content>
+								</point>
+								<point wId="gla3-od3-clan398.а-stav2-tac3">
+									<num>3)</num>
+									<content>
+										<p>  заступању;</p>
+									</content>
+								</point>
+								<point wId="gla3-od3-clan398.а-stav2-tac4">
+									<num>4)</num>
+									<content>
+										<p>  начину распоређивања добити и покрићу губитака;</p>
+									</content>
+								</point>
+								<point wId="gla3-od3-clan398.а-stav2-tac5">
+									<num>5)</num>
+									<content>
+										<p>  резервама;</p>
+									</content>
+								</point>
+								<point wId="gla3-od3-clan398.а-stav2-tac6">
+									<num>6)</num>
+									<content>
+										<p>  органима предузећа и избору, опозиву и делокругу органа предузећа;</p>
+									</content>
+								</point>
+								<point wId="gla3-od3-clan398.а-stav2-tac7">
+									<num>7)</num>
+									<content>
+										<p>  општим актима и начину њиховог доношења;</p>
+									</content>
+								</point>
+								<point wId="gla3-od3-clan398.а-stav2-tac8">
+									<num>8)</num>
+									<content>
+										<p>  правима, обавезама и одговорностима органа предузећа;</p>
+									</content>
+								</point>
+								<point wId="gla3-od3-clan398.а-stav2-tac9">
+									<num>9)</num>
+									<content>
+										<p>  овлашћењима делова предузећа у правном промету;</p>
+									</content>
+								</point>
+								<point wId="gla3-od3-clan398.а-stav2-tac10">
+									<num>10)</num>
+									<content>
+										<p>  начину статусних промена предузећа;</p>
+									</content>
+								</point>
+								<point wId="gla3-od3-clan398.а-stav2-tac11">
+									<num>11)</num>
+									<content>
+										<p>  заштити животне средине;</p>
+									</content>
+								</point>
+								<point wId="gla3-od3-clan398.а-stav2-tac12">
+									<num>12)</num>
+									<content>
+										<p>  другим питањима значајним за рад и пословање предузећа и за остваривање права,  обавеза и одговорности запослених у предузећу.</p>
+									</content>
+								</point>
+							</paragraph>
+							<article wId="gla3-od3-clan400">
+								<num>400.</num>
+								<paragraph wId="gla3-od3-clan400-stav1">
+									<content>
+										<p>Брисан је (види члан 14. Закона - 36/2002-11)</p>
+									</content>
+								</paragraph>
+								<paragraph wId="gla3-od3-clan400-stav2">
+									<content>
+										<p>IIIа. ПОСЕБНЕ ОДРЕДБЕ О УПРАВЉАЊУ ПРЕДУЗЕЋЕМ У ПОСТУПКУ ПРИВАТИЗАЦИЈЕ*</p>
+									</content>
+								</paragraph>
+								<hcontainer name="subpoint" wId="gla3-od3-clan400.а-podtac1">
+									<num>(1)</num>
+									<content>
+										<p> У  предузећу које послује друштвеним или државним капиталом влада републике чланице  именује представнике друштвеног или државног капитала у скупштини и управном  одбору од лица из предузећа или изван предузећа, кад орган надлежан за  спровођење поступка приватизације утврди да је орган предузећа донео одлуку  којом се спречава или отежава спровођење поступка приватизације, као и кад овај  орган пропусти да донесе одлуку, закључи уговор или предузме друге мере у  поступку приватизације .</p>
+									</content>
+								</hcontainer>
+								<hcontainer name="subpoint" wId="gla3-od3-clan400.а-podtac2">
+									<num>(2)</num>
+									<content>
+										<p>  Одлука којом се спречава или отежава поступак приватизације ништава је.</p>
+									</content>
+								</hcontainer>
+								<hcontainer name="subpoint" wId="gla3-od3-clan400.а-podtac3">
+									<num>(3)</num>
+									<content>
+										<p> У  предузећу које послује друштвеним капиталом, друштвени капитал исказује се у  акцијама или уделима одређене номиналне вредности који немају статус сопствених  акција, односно удела, у смислу овог закона.</p>
+									</content>
+								</hcontainer>
+								<hcontainer name="subpoint" wId="gla3-od3-clan400.б-podtac1">
+									<num>(1)</num>
+									<content>
+										<p>  Купац друштвеног, односно државног капитала или имовине стиче право својине над  тим капиталом или имовином исплатом продајне цене. Исплатом продајне цене сматра  се и уплата продајне цене на девизни рачун са посебном наменом. Изузетно, када  се продајна цена плаћа у ратама, купац стиче право својине над капиталом уплатом  у висини од 45% од продајне цене.</p>
+									</content>
+								</hcontainer>
+								<hcontainer name="subpoint" wId="gla3-od3-clan400.б-podtac2">
+									<num>(2)</num>
+									<content>
+										<p>  Купцу капитала или имовине из става 1. овог члана издаје се потврда о акцијама  или уделима, у складу са савезним законом, која се може заменити за акције или  уделе.</p>
+									</content>
+								</hcontainer>
+								<hcontainer name="subpoint" wId="gla3-od3-clan400.б-podtac3">
+									<num>(3)</num>
+									<content>
+										<p>  Одредба става 1. овог члана не односи се на уговоре о куповини акција или удела  друштвеног, односно државног капитала закључене до дана ступања на снагу овог  закона.</p>
+									</content>
+								</hcontainer>
+								<hcontainer name="subpoint" wId="gla3-od3-clan400.в-podtac1">
+									<num>(1)</num>
+									<content>
+										<p>  Зависно предузеће може, ради спровођења поступка приватизације, да донесе одлуку  о иступању из холдинга, односно матичног предузећа у случајевима организовања  преносом капитала без накнаде, поделе имовине, стицања капитала у другом  предузећу, инвестирања капитала у нова предузећа, као и у другим случајевима.*</p>
+									</content>
+								</hcontainer>
+								<hcontainer name="subpoint" wId="gla3-od3-clan400.в-podtac2">
+									<num>(2)</num>
+									<content>
+										<p>  Право на иступање из холдинга, односно матичног предузећа не може се статутом  искључити, односно ограничити.*</p>
+									</content>
+								</hcontainer>
+								<hcontainer name="subpoint" wId="gla3-od3-clan400.в-podtac3">
+									<num>(3)</num>
+									<content>
+										<p> У  случају из става 1. овог члана холдинг, односно матично предузеће обавезно је  да, без накнаде, пренесе на зависно друштво акције или уделе које поседује у  њему, односно акције или уделе које поседује по основу дела друштвеног, односно  државног капитала.*</p>
+									</content>
+								</hcontainer>
+								<hcontainer name="subpoint" wId="gla3-od3-clan400.в-podtac4">
+									<num>(4)</num>
+									<content>
+										<p>  Зависно предузеће које иступи из холдинга, односно матичног предузећа одговара  неограничено солидарно са холдингом, односно матичним предузећем за обавезе  зависног предузећа настале до дана иступања.*</p>
+									</content>
+								</hcontainer>
+							</article>
+							<article wId="gla3-od3-clan400.а">
+								<num>400а</num>
+								<heading>*Службени лист СРЈ, број 36/2002</heading>
+							</article>
+							<article wId="gla3-od3-clan400.б">
+								<num>400б</num>
+								<heading>*Службени лист СРЈ, број 36/2002</heading>
+							</article>
+							<article wId="gla3-od3-clan400.в">
+								<num>400в</num>
+								<heading>*Службени лист СРЈ, број 36/2002</heading>
+								<paragraph wId="gla3-od3-clan400.в-stav1">
+									<content>
+										<p>*Службени лист СРЈ, број 36/2002</p>
+									</content>
+								</paragraph>
+								<paragraph wId="gla3-od3-clan400.в-stav2">
+									<content>
+										<p>Чл.  401.  до 421.</p>
+									</content>
+								</paragraph>
+								<paragraph wId="gla3-od3-clan400.в-stav3">
+									<content>
+										<p>Престали су да важе (види члан 456. Закона - 125/2004-79)</p>
+									</content>
+								</paragraph>
+								<paragraph wId="gla3-od3-clan400.в-stav4">
+									<content>
+										<p>Део  Четврти</p>
+									</content>
+								</paragraph>
+								<paragraph wId="gla3-od3-clan400.в-stav5">
+									<content>
+										<p>СТАТУСНЕ ПРОМЕНЕ И ПРОМЕНЕ ОБЛИКА ПРЕДУЗЕЋА</p>
+									</content>
+								</paragraph>
+							</article>
+						</section>
+						<section wId="gla3-od1">
+							<num>1.</num>
+							<heading>  Општа правила</heading>
+							<hcontainer name="subpoint" wId="gla3-od1-clan421.а-podtac1">
+								<num>(1)</num>
+								<content>
+									<p>  Одлуке о статусним променама и променама облика предузећа које послује већинским  друштвеним капиталом не могу се доносити без претходне сагласности владе  републике чланице.*</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla3-od1-clan421.а-podtac2">
+								<num>(2)</num>
+								<content>
+									<p>  Одлуке донете супротно одредбе члана 1. овог члана ништаве су.*</p>
+								</content>
+							</hcontainer>
+						</section>
+						<article wId="gla3-od1-clan421.а">
+							<num>421а</num>
+							<paragraph wId="gla3-od1-clan421.а-stav1">
+								<content>
+									<p>*Службени лист СРЈ, број 36/2002</p>
+								</content>
+							</paragraph>
+							<paragraph wId="gla3-od1-clan421.а-stav2">
+								<content>
+									<p>Чл.  422.  до 450.</p>
+								</content>
+							</paragraph>
+							<paragraph wId="gla3-od1-clan421.а-stav3">
+								<content>
+									<p>Престали су да важе (види члан 456. Закона - 125/2004-79)</p>
+								</content>
+							</paragraph>
+							<paragraph wId="gla3-od1-clan421.а-stav4">
+								<content>
+									<p>ЗАКОН</p>
+								</content>
+							</paragraph>
+							<paragraph wId="gla3-od1-clan421.а-stav5">
+								<content>
+									<p>о  предузећима</p>
+								</content>
+							</paragraph>
+							<paragraph wId="gla3-od1-clan421.а-stav6">
+								<content>
+									<p>„Службени лист СРЈ”, бр. 29. од 26.   јуна  1996, 33 од 19.   јула  1996  (исправка),  29 од 27.   јуна  1997, 59 oд 4.   децембра  1998, 74 од 25.   децембра  1999,  9 од 2. марта 2001 (СУС),  36 од 3.   јула  2002. и „Службени гласник РС”, бр.    125 од 22. новембра 2004. (др.  закон),   36 од 27. маја 2011 (др. закон)</p>
+								</content>
+							</paragraph>
+							<paragraph wId="gla3-od1-clan421.а-stav7">
+								<content>
+									<p>НАПОМЕНА ИЗДАВАЧА:</p>
+								</content>
+							</paragraph>
+							<paragraph wId="gla3-od1-clan421.а-stav8">
+								<content>
+									<p>Закон  је престао да важи, осим чл. 392. до 399. и чл. 400а, 400б, 400в и 421а, који  остају на снази до истека рокова за приватизацију утврђених законом којим се  уређује приватизација (види члан 456. Закона  о привредним  друштвима – 125/2004-79).</p>
+								</content>
+							</paragraph>
+							<paragraph wId="gla3-od1-clan421.а-stav9">
+								<content>
+									<p>Закон о привредним друштвима („Службени гласник РС“, број 125/2004) престао   је да  важи даном почетка примене Закона о привредним друштвима („Службени гласник РС“,  број 36/2011), 1. фебруара 2012. године,  осим  одредбе члана 456. тог закона која се примењује до окончања приватизације  постојећих друштвених предузећа и привредних друштава која послују друштвеним  или државним капиталом  (види члан 597. Закона о привредним друштвима  –  36/2011-3).</p>
+								</content>
+							</paragraph>
+							<paragraph wId="gla3-od1-clan421.а-stav10">
+								<content>
+									<p>Чл. 1. до  391.</p>
+								</content>
+							</paragraph>
+							<paragraph wId="gla3-od1-clan421.а-stav11">
+								<content>
+									<p>Престали су  да важе (види члан 456. Закона - 125/2004-79)</p>
+								</content>
+							</paragraph>
+						</article>
+						<chapter wId="gla3">
+							<num>III</num>
+							<heading>ДРУШТВЕНО ПРЕДУЗЕЋЕ</heading>
+							<paragraph wId="gla3-clan421.а-stav1">
+								<content>
+									<p>Члан  392.</p>
+								</content>
+								<hcontainer name="subpoint" wId="gla3-clan421.а-stav1-podtac1">
+									<num>(1)</num>
+									<content>
+										<p>  Друштвено предузеће је предузеће које у целини послује друштвеним капиталом.</p>
+									</content>
+								</hcontainer>
+								<hcontainer name="subpoint" wId="gla3-clan421.а-stav1-podtac2">
+									<num>(2)</num>
+									<content>
+										<p>  Друштвени капитал друштвеног предузећа подељен је на акције или уделе одређене  номиналне вредности и уписује се у регистар.</p>
+									</content>
+								</hcontainer>
+								<point wId="gla3-clan421.а-stav1-tac2">
+									<num>2.</num>
+									<content>
+										<p>  Органи</p>
+									</content>
+									<point wId="gla3-clan421.а-stav1-tac2">
+										<num>2.</num>
+										<content>
+											<p>1. Врсте</p>
+										</content>
+									</point>
+								</point>
+							</paragraph>
+							<paragraph wId="gla3-clan421.а-stav2">
+								<content>
+									<p>Члан  393.</p>
+								</content>
+								<hcontainer name="subpoint" wId="gla3-clan421.а-stav2-podtac1">
+									<num>(1)</num>
+									<content>
+										<p>  Органи друштвеног предузећа су: скупштина, управни одбор, директор и надзорни  одбор.</p>
+									</content>
+								</hcontainer>
+								<hcontainer name="subpoint" wId="gla3-clan421.а-stav2-podtac2">
+									<num>(2)</num>
+									<content>
+										<p> У  друштвеном предузећу које има до 50 запослених не бира се управни и надзорни  одбор, ако статутом предузећа није друкчије одређено.</p>
+									</content>
+								</hcontainer>
+								<hcontainer name="subpoint" wId="gla3-clan421.а-stav2-podtac3">
+									<num>(3)</num>
+									<content>
+										<p> У  друштвеном предузећу у коме се не бира управни и надзорни одбор њихове функције  врше се на начин утврђен статутом.</p>
+									</content>
+								</hcontainer>
+								<point wId="gla3-clan421.а-stav2-tac2">
+									<num>2.</num>
+									<content>
+										<p>2. Скупштина</p>
+									</content>
+								</point>
+							</paragraph>
+							<paragraph wId="gla3-clan421.а-stav3">
+								<content>
+									<p>Члан  394.</p>
+								</content>
+								<hcontainer name="subpoint" wId="gla3-clan421.а-stav3-podtac1">
+									<num>(1)</num>
+									<content>
+										<p>  Скупштину друштвеног предузећа чине представници запослених.</p>
+									</content>
+								</hcontainer>
+								<hcontainer name="subpoint" wId="gla3-clan421.а-stav3-podtac2">
+									<num>(2)</num>
+									<content>
+										<p>  Скупштину друштвеног предузећа које има делове чине представници запослених у  свим деловима.</p>
+									</content>
+								</hcontainer>
+								<hcontainer name="subpoint" wId="gla3-clan421.а-stav3-podtac3">
+									<num>(3)</num>
+									<content>
+										<p>  Статутом се утврђује број чланова, начин избора, мандат, састав и одговорност  чланова скупштине.</p>
+									</content>
+								</hcontainer>
+								<hcontainer name="subpoint" wId="gla3-clan421.а-stav3-podtac4">
+									<num>(4)</num>
+									<content>
+										<p>  Скупштина друштвеног предузећа, по правилу, одлучује јавним гласањем.</p>
+									</content>
+								</hcontainer>
+								<hcontainer name="subpoint" wId="gla3-clan421.а-stav3-podtac5">
+									<num>(5)</num>
+									<content>
+										<p>  Скупштина може одлучивати тајним гласањем о избору и опозиву чланова органа  друштвеног предузећа.</p>
+									</content>
+								</hcontainer>
+								<hcontainer name="subpoint" wId="gla3-clan421.а-stav3-podtac6">
+									<num>(6)</num>
+									<content>
+										<p> У  друштвеном предузећу с мање од 50 запослених функцију скупштине врше сви  запослени.</p>
+									</content>
+								</hcontainer>
+								<hcontainer name="subpoint" wId="gla3-clan421.а-stav3-podtac7">
+									<num>(7)</num>
+									<content>
+										<p>  Скупштина друштвеног предузећа одлучује већином гласова свих чланова, ако  статутом није предвиђена друга квалификована већина.</p>
+									</content>
+								</hcontainer>
+								<hcontainer name="subpoint" wId="gla3-clan421.а-stav3-podtac8">
+									<num>(8)</num>
+									<content>
+										<p>  Скупштина друштвеног предузећа, поред делокруга из члана 61. овог закона,  одлучује и о:</p>
+									</content>
+								</hcontainer>
+								<point wId="gla3-clan421.а-stav3-tac1">
+									<num>1)</num>
+									<content>
+										<p>  остаривању захтева према члановима управе и надзорног одбора у вези с накнадом  штете насталом у вођењу послова, као и захтевима за поништај незаконите одлуке;</p>
+									</content>
+								</point>
+								<point wId="gla3-clan421.а-stav3-tac2">
+									<num>2)</num>
+									<content>
+										<p>  заступању друштвеног предузећа у судским поступцима против чланова управе;</p>
+									</content>
+								</point>
+								<point wId="gla3-clan421.а-stav3-tac3">
+									<num>3)</num>
+									<content>
+										<p>  питањима из делокруга управног одбора – само на захтев управног одбора.</p>
+									</content>
+								</point>
+								<point wId="gla3-clan421.а-stav3-tac2">
+									<num>2.</num>
+									<content>
+										<p>3. Управни одбор</p>
+									</content>
+								</point>
+							</paragraph>
+							<paragraph wId="gla3-clan421.а-stav4">
+								<content>
+									<p>Члан  395.</p>
+								</content>
+								<hcontainer name="subpoint" wId="gla3-clan421.а-stav4-podtac1">
+									<num>(1)</num>
+									<content>
+										<p>  Управни одбор друштвеног предузећа бира скупштина.</p>
+									</content>
+								</hcontainer>
+								<hcontainer name="subpoint" wId="gla3-clan421.а-stav4-podtac2">
+									<num>(2)</num>
+									<content>
+										<p>  Чланови управног одбора могу се бирати и из реда стручњака изван друштвеног  предузећа.</p>
+									</content>
+								</hcontainer>
+								<hcontainer name="subpoint" wId="gla3-clan421.а-stav4-podtac3">
+									<num>(3)</num>
+									<content>
+										<p> На  управни одбор друштвеног предузећа сходно се примењују одредбе овог закона о  делокругу и начину одлучивања управног одбора, заменицима, опозиву, искључењу  права гласа и одговорности чланова управног одбора акционарског друштва.</p>
+									</content>
+								</hcontainer>
+								<point wId="gla3-clan421.а-stav4-tac2">
+									<num>2.</num>
+									<content>
+										<p>4. Директор</p>
+									</content>
+								</point>
+							</paragraph>
+							<paragraph wId="gla3-clan421.а-stav5">
+								<content>
+									<p>Члан  396.</p>
+								</content>
+								<hcontainer name="subpoint" wId="gla3-clan421.а-stav5-podtac1">
+									<num>(1)</num>
+									<content>
+										<p>  Директора друштвеног предузећа бира и разрешава управни одбор.</p>
+									</content>
+								</hcontainer>
+								<hcontainer name="subpoint" wId="gla3-clan421.а-stav5-podtac2">
+									<num>(2)</num>
+									<content>
+										<p> У  друштвеном предузећу у коме се не образује управни одбор, директора бира и  разрешава скупштина.</p>
+									</content>
+								</hcontainer>
+								<hcontainer name="subpoint" wId="gla3-clan421.а-stav5-podtac3">
+									<num>(3)</num>
+									<content>
+										<p>  Ако директор друштвеног предузећа није изабран, управни одбор, односно скупштина  ако управни одбор није образован, поставља вршиоца дужности директора, с  правима, дужностима и одговорностима директора, на период до годину дана.</p>
+									</content>
+								</hcontainer>
+								<hcontainer name="subpoint" wId="gla3-clan421.а-stav5-podtac4">
+									<num>(4)</num>
+									<content>
+										<p>  Директор друштвеног предузећа врши своје функције у интересу предузећа.</p>
+									</content>
+								</hcontainer>
+								<hcontainer name="subpoint" wId="gla3-clan421.а-stav5-podtac5">
+									<num>(5)</num>
+									<content>
+										<p>  Поред делокруга утврђеног у одредбама члана 63. овог закона, директор друштвеног  предузећа врши и друге послове који законом, статутом или другим општим актом  нису стављени у делокруг скупштине, управног одбора и надзорног одбора.</p>
+									</content>
+								</hcontainer>
+								<hcontainer name="subpoint" wId="gla3-clan421.а-stav5-podtac6">
+									<num>(6)</num>
+									<content>
+										<p>  Директор друштвеног предузећа може бити разрешен ако постоје губици у пословању,  ако прекрши правила клаузуле конкуренције и правила поступања у случају сукоба  интереса с предузећем, због неспособности, као и из других разлога утврђених  статутом.</p>
+									</content>
+								</hcontainer>
+								<point wId="gla3-clan421.а-stav5-tac2">
+									<num>2.</num>
+									<content>
+										<p>5. Извршни одбор директора</p>
+									</content>
+								</point>
+							</paragraph>
+							<paragraph wId="gla3-clan421.а-stav6">
+								<content>
+									<p>Члан  397.</p>
+								</content>
+								<hcontainer name="subpoint" wId="gla3-clan421.а-stav6-podtac1">
+									<num>(1)</num>
+									<content>
+										<p>  Статутом друштвеног предузећа може се предвидети постојање извршног одбора  директора.</p>
+									</content>
+								</hcontainer>
+								<hcontainer name="subpoint" wId="gla3-clan421.а-stav6-podtac2">
+									<num>(2)</num>
+									<content>
+										<p>  Извршни одбор директора је помоћни и извршни орган директора.</p>
+									</content>
+								</hcontainer>
+								<hcontainer name="subpoint" wId="gla3-clan421.а-stav6-podtac3">
+									<num>(3)</num>
+									<content>
+										<p>  Чланови извршног одбора директора постављају се и разрешавају на начин утврђен  статутом.</p>
+									</content>
+								</hcontainer>
+								<hcontainer name="subpoint" wId="gla3-clan421.а-stav6-podtac4">
+									<num>(4)</num>
+									<content>
+										<p>  Чланови извршног одбора директора могу бити изабрани за чланове управног одбора,  с тим што број тих чланова не може прећи трећину чланова управног одбора.</p>
+									</content>
+								</hcontainer>
+								<point wId="gla3-clan421.а-stav6-tac2">
+									<num>2.</num>
+									<content>
+										<p>6. Надзорни одбор</p>
+									</content>
+								</point>
+							</paragraph>
+							<paragraph wId="gla3-clan421.а-stav7">
+								<content>
+									<p>Члан  398.</p>
+								</content>
+								<hcontainer name="subpoint" wId="gla3-clan421.а-stav7-podtac1">
+									<num>(1)</num>
+									<content>
+										<p>  Надзорни одбор друштвеног предузећа има најмање три члана.</p>
+									</content>
+								</hcontainer>
+								<hcontainer name="subpoint" wId="gla3-clan421.а-stav7-podtac2">
+									<num>(2)</num>
+									<content>
+										<p>  Чланови надзорног одбора могу се бирати и из реда стручњака изван друштвеног  предузећа.</p>
+									</content>
+								</hcontainer>
+								<hcontainer name="subpoint" wId="gla3-clan421.а-stav7-podtac3">
+									<num>(3)</num>
+									<content>
+										<p> На  надзорни одбор друштвеног предузећа сходно се примењују одредбе овог закона о  надзорном одбору акционарског друштва.</p>
+									</content>
+								</hcontainer>
+							</paragraph>
+							<hcontainer name="subpoint" wId="gla3-clan398.а-podtac1">
+								<num>(1)</num>
+								<content>
+									<p>  Предузеће које послује већинским друштвеним капиталом не може, без претходне  сагласности агенције републике чланице надлежне за послове приватизације  доносити одлуке о: смањењу или повећању капитала; реорганизацији или  реструктурирању; инвестиционом улагању; продаји дела имовине; оптерећивању  имовине; залагањем ствари или успостављањем хипотеке; дугорочном закупу;  поравнању са повериоцима; узимању или одобравању кредита или издавању гаранција,  ван тока редовног пословања.</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla3-clan398.а-podtac2">
+								<num>(2)</num>
+								<content>
+									<p>  Одлуке донете супротно одредби става 1. овог члана поништиће агенција републике  чланице надлежна за послове приватизације.</p>
+								</content>
+							</hcontainer>
+							<section wId="gla3-od3">
+								<num>3.</num>
+								<heading>  Садржина статута</heading>
+								<paragraph wId="gla3-od3-clan398.а-stav1">
+									<content>
+										<p>Члан  399.</p>
+									</content>
+								</paragraph>
+								<paragraph wId="gla3-od3-clan398.а-stav2">
+									<content>
+										<p>Статут  друштвеног предузећа садржи одредбе о:</p>
+									</content>
+									<point wId="gla3-od3-clan398.а-stav2-tac1">
+										<num>1)</num>
+										<content>
+											<p>  фирми и седишту предузећа;</p>
+										</content>
+									</point>
+									<point wId="gla3-od3-clan398.а-stav2-tac2">
+										<num>2)</num>
+										<content>
+											<p>  делатности предузећа;</p>
+										</content>
+									</point>
+									<point wId="gla3-od3-clan398.а-stav2-tac3">
+										<num>3)</num>
+										<content>
+											<p>  заступању;</p>
+										</content>
+									</point>
+									<point wId="gla3-od3-clan398.а-stav2-tac4">
+										<num>4)</num>
+										<content>
+											<p>  начину распоређивања добити и покрићу губитака;</p>
+										</content>
+									</point>
+									<point wId="gla3-od3-clan398.а-stav2-tac5">
+										<num>5)</num>
+										<content>
+											<p>  резервама;</p>
+										</content>
+									</point>
+									<point wId="gla3-od3-clan398.а-stav2-tac6">
+										<num>6)</num>
+										<content>
+											<p>  органима предузећа и избору, опозиву и делокругу органа предузећа;</p>
+										</content>
+									</point>
+									<point wId="gla3-od3-clan398.а-stav2-tac7">
+										<num>7)</num>
+										<content>
+											<p>  општим актима и начину њиховог доношења;</p>
+										</content>
+									</point>
+									<point wId="gla3-od3-clan398.а-stav2-tac8">
+										<num>8)</num>
+										<content>
+											<p>  правима, обавезама и одговорностима органа предузећа;</p>
+										</content>
+									</point>
+									<point wId="gla3-od3-clan398.а-stav2-tac9">
+										<num>9)</num>
+										<content>
+											<p>  овлашћењима делова предузећа у правном промету;</p>
+										</content>
+									</point>
+									<point wId="gla3-od3-clan398.а-stav2-tac10">
+										<num>10)</num>
+										<content>
+											<p>  начину статусних промена предузећа;</p>
+										</content>
+									</point>
+									<point wId="gla3-od3-clan398.а-stav2-tac11">
+										<num>11)</num>
+										<content>
+											<p>  заштити животне средине;</p>
+										</content>
+									</point>
+									<point wId="gla3-od3-clan398.а-stav2-tac12">
+										<num>12)</num>
+										<content>
+											<p>  другим питањима значајним за рад и пословање предузећа и за остваривање права,  обавеза и одговорности запослених у предузећу.</p>
+										</content>
+									</point>
+								</paragraph>
+								<article wId="gla3-od3-clan400">
+									<num>400.</num>
+									<paragraph wId="gla3-od3-clan400-stav1">
+										<content>
+											<p>Брисан је (види члан 14. Закона - 36/2002-11)</p>
+										</content>
+									</paragraph>
+									<paragraph wId="gla3-od3-clan400-stav2">
+										<content>
+											<p>IIIа. ПОСЕБНЕ ОДРЕДБЕ О УПРАВЉАЊУ ПРЕДУЗЕЋЕМ У ПОСТУПКУ ПРИВАТИЗАЦИЈЕ*</p>
+										</content>
+									</paragraph>
+									<hcontainer name="subpoint" wId="gla3-od3-clan400.а-podtac1">
+										<num>(1)</num>
+										<content>
+											<p> У  предузећу које послује друштвеним или државним капиталом влада републике чланице  именује представнике друштвеног или државног капитала у скупштини и управном  одбору од лица из предузећа или изван предузећа, кад орган надлежан за  спровођење поступка приватизације утврди да је орган предузећа донео одлуку  којом се спречава или отежава спровођење поступка приватизације, као и кад овај  орган пропусти да донесе одлуку, закључи уговор или предузме друге мере у  поступку приватизације .</p>
+										</content>
+									</hcontainer>
+									<hcontainer name="subpoint" wId="gla3-od3-clan400.а-podtac2">
+										<num>(2)</num>
+										<content>
+											<p>  Одлука којом се спречава или отежава поступак приватизације ништава је.</p>
+										</content>
+									</hcontainer>
+									<hcontainer name="subpoint" wId="gla3-od3-clan400.а-podtac3">
+										<num>(3)</num>
+										<content>
+											<p> У  предузећу које послује друштвеним капиталом, друштвени капитал исказује се у  акцијама или уделима одређене номиналне вредности који немају статус сопствених  акција, односно удела, у смислу овог закона.</p>
+										</content>
+									</hcontainer>
+									<hcontainer name="subpoint" wId="gla3-od3-clan400.б-podtac1">
+										<num>(1)</num>
+										<content>
+											<p>  Купац друштвеног, односно државног капитала или имовине стиче право својине над  тим капиталом или имовином исплатом продајне цене. Исплатом продајне цене сматра  се и уплата продајне цене на девизни рачун са посебном наменом. Изузетно, када  се продајна цена плаћа у ратама, купац стиче право својине над капиталом уплатом  у висини од 45% од продајне цене.</p>
+										</content>
+									</hcontainer>
+									<hcontainer name="subpoint" wId="gla3-od3-clan400.б-podtac2">
+										<num>(2)</num>
+										<content>
+											<p>  Купцу капитала или имовине из става 1. овог члана издаје се потврда о акцијама  или уделима, у складу са савезним законом, која се може заменити за акције или  уделе.</p>
+										</content>
+									</hcontainer>
+									<hcontainer name="subpoint" wId="gla3-od3-clan400.б-podtac3">
+										<num>(3)</num>
+										<content>
+											<p>  Одредба става 1. овог члана не односи се на уговоре о куповини акција или удела  друштвеног, односно државног капитала закључене до дана ступања на снагу овог  закона.</p>
+										</content>
+									</hcontainer>
+									<hcontainer name="subpoint" wId="gla3-od3-clan400.в-podtac1">
+										<num>(1)</num>
+										<content>
+											<p>  Зависно предузеће може, ради спровођења поступка приватизације, да донесе одлуку  о иступању из холдинга, односно матичног предузећа у случајевима организовања  преносом капитала без накнаде, поделе имовине, стицања капитала у другом  предузећу, инвестирања капитала у нова предузећа, као и у другим случајевима.*</p>
+										</content>
+									</hcontainer>
+									<hcontainer name="subpoint" wId="gla3-od3-clan400.в-podtac2">
+										<num>(2)</num>
+										<content>
+											<p>  Право на иступање из холдинга, односно матичног предузећа не може се статутом  искључити, односно ограничити.*</p>
+										</content>
+									</hcontainer>
+									<hcontainer name="subpoint" wId="gla3-od3-clan400.в-podtac3">
+										<num>(3)</num>
+										<content>
+											<p> У  случају из става 1. овог члана холдинг, односно матично предузеће обавезно је  да, без накнаде, пренесе на зависно друштво акције или уделе које поседује у  њему, односно акције или уделе које поседује по основу дела друштвеног, односно  државног капитала.*</p>
+										</content>
+									</hcontainer>
+									<hcontainer name="subpoint" wId="gla3-od3-clan400.в-podtac4">
+										<num>(4)</num>
+										<content>
+											<p>  Зависно предузеће које иступи из холдинга, односно матичног предузећа одговара  неограничено солидарно са холдингом, односно матичним предузећем за обавезе  зависног предузећа настале до дана иступања.*</p>
+										</content>
+									</hcontainer>
+								</article>
+								<article wId="gla3-od3-clan400.а">
+									<num>400а</num>
+									<heading>*Службени лист СРЈ, број 36/2002</heading>
+								</article>
+								<article wId="gla3-od3-clan400.б">
+									<num>400б</num>
+									<heading>*Службени лист СРЈ, број 36/2002</heading>
+								</article>
+								<article wId="gla3-od3-clan400.в">
+									<num>400в</num>
+									<heading>*Службени лист СРЈ, број 36/2002</heading>
+									<paragraph wId="gla3-od3-clan400.в-stav1">
+										<content>
+											<p>*Службени лист СРЈ, број 36/2002</p>
+										</content>
+									</paragraph>
+									<paragraph wId="gla3-od3-clan400.в-stav2">
+										<content>
+											<p>Чл.  401.  до 421.</p>
+										</content>
+									</paragraph>
+									<paragraph wId="gla3-od3-clan400.в-stav3">
+										<content>
+											<p>Престали су да важе (види члан 456. Закона - 125/2004-79)</p>
+										</content>
+									</paragraph>
+									<paragraph wId="gla3-od3-clan400.в-stav4">
+										<content>
+											<p>Део  Четврти</p>
+										</content>
+									</paragraph>
+									<paragraph wId="gla3-od3-clan400.в-stav5">
+										<content>
+											<p>СТАТУСНЕ ПРОМЕНЕ И ПРОМЕНЕ ОБЛИКА ПРЕДУЗЕЋА</p>
+										</content>
+									</paragraph>
+								</article>
+							</section>
+							<section wId="gla3-od1">
+								<num>1.</num>
+								<heading>  Општа правила</heading>
+								<hcontainer name="subpoint" wId="gla3-od1-clan421.а-podtac1">
+									<num>(1)</num>
+									<content>
+										<p>  Одлуке о статусним променама и променама облика предузећа које послује већинским  друштвеним капиталом не могу се доносити без претходне сагласности владе  републике чланице.*</p>
+									</content>
+								</hcontainer>
+								<hcontainer name="subpoint" wId="gla3-od1-clan421.а-podtac2">
+									<num>(2)</num>
+									<content>
+										<p>  Одлуке донете супротно одредбе члана 1. овог члана ништаве су.*</p>
+									</content>
+								</hcontainer>
+							</section>
+							<article wId="gla3-od1-clan421.а">
+								<num>421а</num>
+								<paragraph wId="gla3-od1-clan421.а-stav1">
+									<content>
+										<p>*Службени лист СРЈ, број 36/2002</p>
+									</content>
+								</paragraph>
+								<paragraph wId="gla3-od1-clan421.а-stav2">
+									<content>
+										<p>Чл.  422.  до 450.</p>
+									</content>
+								</paragraph>
+							</article>
+						</chapter>
+						<point wId="gla3-clan421.а-tac1">
+							<num>1.</num>
+							<content>
+								<p>  Појам</p>
+							</content>
+						</point>
+						<article wId="gla3-clan398.а">
+							<num>398а</num>
+							<paragraph wId="gla3-clan398.а-stav1">
+								<content>
+									<p>*<ref wId="ref17" href="akn/rs/act/2002/36/srp@">Службени лист СРЈ, број 36/2002</ref></p>
+								</content>
+							</paragraph>
+						</article>
+					</chapter>
+					<point wId="gla3-clan421.а-tac1">
+						<num>1.</num>
+						<content>
+							<p>  Појам</p>
+						</content>
+					</point>
+					<article wId="gla3-clan398.а">
+						<num>398а</num>
+						<paragraph wId="gla3-clan398.а-stav1">
+							<content>
+								<p>*Службени лист СРЈ, број 36/2002</p>
+							</content>
+						</paragraph>
+					</article>
+				</chapter>
+				<point wId="gla3-clan421.а-tac1">
+					<num>1.</num>
+					<content>
+						<p>  Појам</p>
+					</content>
+				</point>
+				<article wId="gla3-clan398.а">
+					<num>398а</num>
+					<paragraph wId="gla3-clan398.а-stav1">
+						<content>
+							<p>*Службени лист СРЈ, број 36/2002</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

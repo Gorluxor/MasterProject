@@ -1,0 +1,956 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о јавном дугу">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2005/61-30/main"/>
+					<FRBRuri value="/rs/act/2005/61-30"/>
+					<FRBRdate date="2005-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2019/91-63/srp@/main"/>
+					<FRBRuri value="/rs/act/2019/91-63/srp@"/>
+					<FRBRdate date="2019-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2019/91-63/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2019/91-63/srp@.akn"/>
+					<FRBRdate date="2019-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2005-07-18" name="службени гласник рс" number="61" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="IV ЈАВНИ ПРИХОДИ" value="iv јавни приходи" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="4. Јавни зајмови" value="4. јавни зајмови" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2005-01-01" refersTo="61/2005-30" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2009-01-01" refersTo="107/2009-181" source="#somebody" type="amendment" wId="e2"/>
+				<eventRef date="2011-01-01" refersTo="78/2011-248" source="#somebody" type="amendment" wId="e3"/>
+				<eventRef date="2015-01-01" refersTo="68/2015-14" source="#somebody" type="amendment" wId="e4"/>
+				<eventRef date="2018-01-01" refersTo="95/2018-240" source="#somebody" type="amendment" wId="e5"/>
+				<eventRef date="2019-01-01" refersTo="91/2019-63" source="#somebody" type="amendment" wId="e6"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2005-07-15" wId="usvajanje"/>
+				<step by="#TODO" date="2005-07-26" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2005-07-26" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 26. јула 2005. године (види члан 54. Закона).Закон о изменама и допунама Закона о јавном дугу („Службени гласник РС“, број 68/2015) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије, односно 12. августа 2015. године (види члан 22. Закона – 68/2015-14).Закон о изменама и допунама Закона о јавном дугу („Службени гласник РС“, број 95/2018) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије, односно 16. децембра 2018. године (види члан 4. Закона – 95/2018-240).Закон о изменама и допунама Закона о јавном дугу („Службени гласник РС“, број 91/2019) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије, односно 1. јануара 2020. године (види члан 4. Закона – 91/2019-63).</p>
+				</note>
+				<note wId="not2">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 26. јула 2005. године (види члан 54. Закона).Закон о изменама и допунама Закона о јавном дугу („Службени гласник РС“, број 68/2015) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије, односно 12. августа 2015. године (види члан 22. Закона – 68/2015-14).Закон о изменама и допунама Закона о јавном дугу („Службени гласник РС“, број 95/2018) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије, односно 16. децембра 2018. године (види члан 4. Закона – 95/2018-240).Закон о изменама и допунама Закона о јавном дугу („Службени гласник РС“, број 91/2019) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије, односно 1. јануара 2020. године (види члан 4. Закона – 91/2019-63).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О јавном дугу „Службени гласник РС“, бр. 61 од 18. јула 2005, 107 од 23. децембра 2009, 78 од 19. октобра 2011, 68 од 4. августа 2015, 95 од 8. децембра 2018, 91 од 24. децембра 2019.</p>
+			</longTitle>
+			<p>Редакцијски пречишћен текст</p>
+		</preface>
+		<preamble>
+			<p>﻿</p>
+		</preamble>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<heading>Предмет уређивања</heading>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређују се услови, начин и поступак  задуживања Републике Србије (у даљем тексту: Република), јединица територијалне  аутономије и локалне самоуправе (у даљем тексту: локална власт),  Републичког  фонда за здравствено осигурање, Републичког фонда за пензијско и инвалидско  осигурање и Националне службе за запошљавање (у даљем тексту: организације  обавезног социјалног осигурања), као и јавних предузећа и других правних лица,  чији је оснивач Република (у даљем тексту: правна лица), давање гаранција  Републике, начин и поступак управљања јавним дугом и вођење евиденције о јавном  дугу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav2">
+						<content>
+							<p>*<ref wId="ref0" href="akn/rs/act/2015/68/srp@">Службени гласник РС, број 68/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<heading>Значење израза</heading>
+					<paragraph wId="gla1-clan2-stav1">
+						<intro>
+							<p>Поједини изрази употребљени у овом закону имају  следеће значење:</p>
+						</intro>
+						<point wId="gla1-clan2-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> Дуг је новчана обавеза или обавеза отплаћивања  новчаног задуживања;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac2">
+							<num>2)</num>
+							<intro>
+								<p> Јавни дуг Републике јесте:</p>
+							</intro>
+							<hcontainer name="subpoint" wId="gla1-clan2-stav1-tac2-podtac1">
+								<num>(1)</num>
+								<content>
+									<p> дуг Републике који настаје по основу уговора који  закључи Република,</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla1-clan2-stav1-tac2-podtac2">
+								<num>(2)</num>
+								<content>
+									<p> дуг Републике по основу хартија од вредности (у  даљем тексту: државне хартије од вредности),</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla1-clan2-stav1-tac2-podtac3">
+								<num>(3)</num>
+								<content>
+									<p> дуг Републике по основу уговора, односно  споразума којим су репрограмиране обавезе које је Република преузела по раније  закљученим уговорима, као и емитованим хартијама од вредности по посебним  законима,</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla1-clan2-stav1-tac2-podtac4">
+								<num>(4)</num>
+								<content>
+									<p> дуг Републике који настаје по основу дате гаранције Републике (у даљем  тексту: гаранција), или по основу непосредног преузимања обавезе у својству  дужника за исплату дуга по основу дате гаранције,</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla1-clan2-stav1-tac2-podtac5">
+								<num>(5)</num>
+								<content>
+									<p> дуг локалне власти, као и правних лица из <ref wId="ref1" href="akn/rs/act/2019/91-63/srp@/!main~art_1" >члана  1. овог</ref> закона за које је Република дала гаранцију;</p>
+								</content>
+							</hcontainer>
+						</point>
+						<point wId="gla1-clan2-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> Задуживање јесте узимање кредита, односно зајмова  (у даљем тексту: кредит) и емитовање државних хартија од вредности за  финансирање буџетског дефицита и дефицита текуће ликвидности,  за рефинансирање  обавеза по основу јавног дуга и за финансирање инвестиционих пројеката, као и  давање гаранција ;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> Гаранција јесте условна обавеза Републике да плати  доспелу, а неизмирену новчану обавезу у случају ако локална власт, односно  правно лице за које је Република дала гаранцију не изврши плаћање о року  доспећа;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> брисана је (види <ref wId="ref2" href="akn/rs/act/2015/68/srp@/!main~/art_2">члан 2. Закона - 68/2015-14</ref>)</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> Државне хартије од вредности јесу краткорочне и  дугорочне хартије од вредности које емитује Република;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> Финансијске институције, у смислу овог закона,  јесу банке, друштва за осигурање, брокерско-дилерска друштва, пензиони фондови,  инвестициони фондови ;</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav2">
+						<intro>
+							<p>7а) Примарни дилери су финансијске институције које је  министарство надлежно за послове финансија изабрало да обављају одређене  активности на тржишту државних хартија од вредности, као и да унапређују  примарно и секундарно тржиште и чије је учешће на тржишту државних хартија од  вредности, као и друге активности којима се унапређује управљање јавним дугом и  развој тржишта државних хартија од вредности, уређено уговором са Републиком;</p>
+						</intro>
+						<point wId="gla1-clan2-stav2-tac8">
+							<num>8)</num>
+							<content>
+								<p> Примарно тржиште јесте тржиште на којем се врши  иницијална продаја државних хартија од вредности, непосредно или преко  посредника;</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav3">
+						<intro>
+							<p>8а) Секундарно тржиште јесте тржиште на коме се врши  купопродаја државних хартија од вредности након продаје на примарном тржишту;</p>
+						</intro>
+						<point wId="gla1-clan2-stav3-tac9">
+							<num>9)</num>
+							<content>
+								<p> Страна валута јесте валута стране државе;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav3-tac10">
+							<num>10)</num>
+							<content>
+								<p> Привилегована информација јесте информација која  није доступна јавности, а значајна је за утврђивање цене државне хартије од  вредности и чијим коришћењем се може стећи финансијска корист.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav4">
+						<content>
+							<p>*<ref wId="ref3" href="akn/rs/act/2015/68/srp@">Службени гласник РС, број 68/2015</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav5">
+						<content>
+							<p>**<ref wId="ref4" href="akn/rs/act/2018/95/srp@">Службени гласник РС, број 95/2018</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ЗАДУЖИВАЊЕ РЕПУБЛИКЕ</heading>
+				<article wId="gla2-clan3">
+					<num>3.</num>
+					<heading>Задуживање у земљи и иностранству</heading>
+					<paragraph wId="gla2-clan3-stav1">
+						<content>
+							<p>Република се може задуживати у земљи и иностранству,  односно на домаћем и иностраном тржишту.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan4">
+					<num>4.</num>
+					<heading>Задуживање у домаћој и страној валути</heading>
+					<paragraph wId="gla2-clan4-stav1">
+						<content>
+							<p>Република се може задуживати у домаћој и страној  валути, у складу са овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan4-stav2">
+						<content>
+							<p>Задуживање емисијом краткорочних државних хартија од  вредности у земљи може се вршити искључиво у домаћој валути.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan5">
+					<num>5.</num>
+					<heading>Овлашћење за задуживање</heading>
+					<paragraph wId="gla2-clan5-stav1">
+						<content>
+							<p>Република се може задужити ради финансирања буџетског  дефицита, текуће ликвидности, рефинансирања доспелих обавеза по основу  јавног дуга, за инвестиције у капитална улагања и набавку финансијске имовине,  као и за извршавање обавеза по датим гаранцијама.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav2">
+						<content>
+							<p>Народна скупштина Републике Србије одлучује о  задуживању Републике путем узимања дугорочних кредита, задуживању за финансирање  инвестиционих пројеката, о давању гаранција , као и о непосредном преузимању  обавезе у својству дужника по основу дате гаранције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav3">
+						<content>
+							<p>Влада Републике Србије (у даљем тексту: Влада)  одлучује о емитовању дугорочних државних хартија од вредности, ако законом није  друкчије одређено.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav4">
+						<content>
+							<p>Министар надлежан за послове финансија (у даљем  тексту: министар финансија) одлучује о узимању краткорочних кредита за  финансирање буџетског дефицита, текуће ликвидности и за  рефинансирање  доспелих обавеза по основу јавног дуга, као и о емитовању краткорочних  државних хартија од вредности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav5">
+						<content>
+							<p>Министар финансија је једини овлашћен да у име Владе  и за рачун Републике уговара задуживање и закључује уговоре о кредиту, односно  емитује државне хартије од вредности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav6">
+						<content>
+							<p>Изузетно од <ref wId="ref5" href="akn/rs/act/2019/91-63/srp@/!main~art_5__para_5" >става 5. овог</ref> члана, за закључивање  уговора о кредиту, односно за емисију државних хартија од вредности, министар  финансија може решењем овластити постављено лице у министарству надлежном за  послове финансија (у даљем тексту: Министарство).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav7">
+						<content>
+							<p>Дугорочним кредитима, односно дугорочним државним  хартијама од вредности, у смислу овог закона, сматрају се кредити, односно  државне хартије од вредности чији се период отплате протеже и на наредне  буџетске године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav8">
+						<content>
+							<p>Узимање кредита, односно емитовање хартија од  вредности из <ref wId="ref6" href="akn/rs/act/2019/91-63/srp@/!main~art_5__para_3->para_4" >ст. 3. и 4. овог</ref> члана врши се у оквиру лимита утврђеног законом  којим се уређује буџет Републике.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav9">
+						<content>
+							<p>Акти о емитовању државних хартија од вредности из <ref wId="ref7" href="akn/rs/act/2019/91-63/srp@/!main~art_5__para_3->para_4" >ст.  3. и 4. овог</ref> члана објављују се у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav10">
+						<content>
+							<p>*<ref wId="ref8" href="akn/rs/act/2011/78/srp@">Службени гласник РС, број 78/2011</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav11">
+						<content>
+							<p>**<ref wId="ref9" href="akn/rs/act/2015/68/srp@">Службени гласник РС, број 68/2015</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav12">
+						<content>
+							<p>Задуживање за финансирање текуће ликвидности</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan6">
+					<num>6.</num>
+					<heading>*Службени гласник РС, број 68/2015</heading>
+					<paragraph wId="gla2-clan6-stav1">
+						<content>
+							<p>Задуживање за финансирање текуће ликвидности јесте  узимање кредита, односно емитовање државних хартија од вредности ради  финансирања неусклађених кретања у приходима и расходима буџета у току буџетске  године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav2">
+						<content>
+							<p>Укупан дуг по основу задуживања из <ref wId="ref10" href="akn/rs/act/2019/91-63/srp@/!main~art_6__para_1" >става 1. овог</ref>  члана мора се вратити до 31. децембра текуће буџетске године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav3">
+						<content>
+							<p>У току буџетске године, задуживање за финансирање текуће ликвидности не сме прећи 5% укупно остварених прихода у претходној  буџетској години.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav4">
+						<content>
+							<p>*<ref wId="ref11" href="akn/rs/act/2015/68/srp@">Службени гласник РС, број 68/2015</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav5">
+						<content>
+							<p>Задуживање за финансирање буџетског дефицита и  рефинансирање доспелих обавеза по основу јавног дуга</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan7">
+					<num>7.</num>
+					<heading>*Службени гласник РС, број 68/2015</heading>
+					<paragraph wId="gla2-clan7-stav1">
+						<content>
+							<p>Задуживање за финансирање буџетског дефицита јесте  узимање кредита, односно емитовање државних хартија од вредности, код којег се  дуг преноси у наредне буџетске године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav2">
+						<content>
+							<p>Република се може задуживати за рефинансирање обавеза  по основу јавног дуга узимањем кредита, односно емитовањем државних хартија од  вредности, под условом да се средства од тог задуживања користе за плаћање  неизмиреног износа дуга или плаћања по основу издатих гаранција.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav3">
+						<content>
+							<p>Износ задужења за финансирање буџетског дефицита и  рефинансирање доспелих обавеза по основу јавног дуга не сме бити већи од  ограничења утврђеног у закону којим се уређује буџет Републике за ту годину.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav4">
+						<content>
+							<p>Брисани су ранији <ref wId="ref12" href="akn/rs/act/2019/91-63/srp@/!main~art_7__para_3->para_4" >ст. 3. и 4. </ref>(види <ref wId="ref13" href="akn/rs/act/2015/68/srp@/!main~/art_5">члан 5. Закона -  68/2015-14</ref>)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav5">
+						<content>
+							<p>*<ref wId="ref14" href="akn/rs/act/2015/68/srp@">Службени гласник РС, број 68/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan8">
+					<num>8.</num>
+					<heading>Брисан је назив члана 8. (види члан 6. Закона -  68/2015-14)</heading>
+					<paragraph wId="gla2-clan8-stav1">
+						<content>
+							<p>Брисан је (види <ref wId="ref15" href="akn/rs/act/2015/68/srp@/!main~/art_6">члан 6. Закона - 68/2015-14</ref>)</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan9">
+					<num>9.</num>
+					<heading>Задуживање за финансирање инвестиционих пројеката</heading>
+					<paragraph wId="gla2-clan9-stav1">
+						<content>
+							<p>Задуживање за финансирање инвестиционих пројеката  јесте узимање кредита, односно емитовање државних хартија од вредности ради  финансирања развојних пројеката који ће омогућити унапређење, ефикасност и  ефективност привреде и економског развоја Републике, под условом да се  финансирање врши на рок дужи од једне године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav2">
+						<content>
+							<p>Влада посебним актом уређује начин праћења реализације  инвестиционих пројеката који се финансирају из кредита или државних хартија од  вредности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav3">
+						<content>
+							<p>*<ref wId="ref16" href="akn/rs/act/2015/68/srp@">Службени гласник РС, број 68/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan10">
+					<num>10.</num>
+					<heading>Поступак задуживања</heading>
+					<paragraph wId="gla2-clan10-stav1">
+						<content>
+							<p>На предлог Министарства, Влада утврђује предлог  основе за преговоре о задуживању Републике путем узимања кредита и одређује  састав делегације за вођење преговора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav2">
+						<content>
+							<p>Представник Министарства присуствује од почетка  поступка на свим преговорима о задуживању Републике.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav3">
+						<content>
+							<p>Министарство доставља Влади извештај са преговора из  <ref wId="ref17" href="akn/rs/act/2019/91-63/srp@/!main~art_10__para_1" >става 1. овог</ref> члана, са нацртом уговора о кредиту.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>УПРАВЉАЊЕ ЈАВНИМ ДУГОМ</heading>
+				<article wId="gla3-clan11">
+					<num>11.</num>
+					<heading>Дефиниција и стратегија за управљање јавним дугом</heading>
+					<paragraph wId="gla3-clan11-stav1">
+						<content>
+							<p>Циљ управљања јавним дугом је обезбеђивање средстава  за редовно сервисирање буџетских потреба по најповољнијим условима и трошковима  финансирања уз прихватљив ниво ризика.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan11-stav2">
+						<intro>
+							<p>Управљање јавним дугом обухвата:</p>
+						</intro>
+						<point wId="gla3-clan11-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> обављање трансакција ради управљања ризиком,  укључујући и смањивање или елиминисање ризика од промене курса, каматних стопа и  других ризика;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan11-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> доношење одлука о куповини и продаји страних  валута;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan11-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> праћење дневног салда на систему консолидованог  рачуна трезора;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan11-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> управљање приливима по основу јавног дуга,  инвестирање и обављање осталих трансакција са вишковима ликвидности, односно  средствима финансијске имовине Републике Србије под управљањем.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan11-stav3">
+						<content>
+							<p>Влада уређује опште услове за пословање са  финансијским дериватима од стране Републике, којим би се обављале трансакције из  става 2. тачка <ref wId="ref18" href="akn/rs/act/2019/91-63/srp@/!main~art_11__para_2__point_1" >1</ref>) овог члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan11-stav4">
+						<content>
+							<p>Министар управља јавним дугом и припрема стратегију  за управљање јавним дугом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan11-stav5">
+						<content>
+							<p>У циљу активног управљања јавним дугом Влада именује  Комитет за управљање јавним дугом и средствима финансијске имовине Републике  Србије под управљањем, који за свој рад одговара Министру.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan11-stav6">
+						<content>
+							<p>Министар ће донети Правилник о задацима, функционисању  и организацији Комитета за управљање јавним дугом и средствима финансијске  имовине Републике Србије под управљањем, у року од 90 дана од дана ступања на  снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan11-stav7">
+						<content>
+							<p>Министар доноси акт којим се утврђује која је  финансијска имовина под управљањем.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan11-stav8">
+						<content>
+							<p>Стратегија из <ref wId="ref19" href="akn/rs/act/2019/91-63/srp@/!main~art_11__para_3" >става 3. овог</ref> члана је саставни део  Фискалне стратегије за наредни средњорочни период.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan11-stav9">
+						<content>
+							<p>*<ref wId="ref20" href="akn/rs/act/2015/68/srp@">Службени гласник РС, број 68/2015</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan11-stav10">
+						<content>
+							<p>**<ref wId="ref21" href="akn/rs/act/2018/95/srp@">Службени гласник РС, број 95/2018</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan12">
+					<num>12.</num>
+					<heading>Управљање приливима по основу јавног дуга</heading>
+					<paragraph wId="gla3-clan12-stav1">
+						<content>
+							<p>За потребе управљања приливима по основу јавног дуга  и отплате јавног дуга, консолидовани рачун трезора Републике има подрачуне у  домаћој и страној валути.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan12-stav2">
+						<content>
+							<p>Подрачуни у страној валути из <ref wId="ref22" href="akn/rs/act/2019/91-63/srp@/!main~art_12__para_1" >става 1. овог</ref> члана  воде се у Народној банци Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan12-stav3">
+						<content>
+							<p>Ако министар финансија, односно постављено лице у  Министарству које он овласти, одлучи да је салдо на подрачуну прилива по основу  јавног дуга довољан да омогући куповину и продају страних валута за неодложно  исплаћивање јавног дуга, он је овлашћен да конвертује, обави своп послове или  друге трансакције са тим средствима, како би се дошло до одговарајућег износа  потребне валуте.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan12-stav4">
+						<content>
+							<p>Послове из <ref wId="ref23" href="akn/rs/act/2019/91-63/srp@/!main~art_12__para_3" >става 3. овог</ref> члана са средствима која  гласе на страну валуту обавља Народна банка Србије.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>СТАТУС ЈАВНОГ ДУГА</heading>
+				<article wId="gla4-clan13">
+					<num>13.</num>
+					<heading>Обавеза отплате јавног дуга</heading>
+					<paragraph wId="gla4-clan13-stav1">
+						<content>
+							<p>Јавни дуг представља безусловну и неопозиву обавезу  Републике у односу на отплату главнице, камате и осталих припадајућих трошкова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan13-stav2">
+						<content>
+							<p>Обавеза отплате јавног дуга из <ref wId="ref24" href="akn/rs/act/2019/91-63/srp@/!main~art_13__para_1" >става 1. овог</ref> члана  може бити у домаћој или страној валути.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan13-stav3">
+						<content>
+							<p>Отплата јавног дуга има сталну апропријацију у буџету  Републике и приоритет у исплати у односу на остале јавне расходе утврђене  законом којим се уређује буџет Републике.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan13-stav4">
+						<content>
+							<p>Одредбе закона којим се уређује буџетски</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan13-stav5">
+						<content>
+							<p>систем које се односе на привремену обуставу извршења  буџета, не односе се на отплату јавног дуга.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan14">
+					<num>14.</num>
+					<heading>Износ јавног дуга</heading>
+					<paragraph wId="gla4-clan14-stav1">
+						<content>
+							<p>Износ јавног дуга јесте укупан износ дуга, изражен у  домаћој валути, који Република мора да отплати за обавезе утврђене у члану <ref wId="ref25" href="akn/rs/act/2019/91-63/srp@/!main~art_2__para_1__point_2" >2</ref>.  тачка <ref wId="ref27" href="akn/rs/act/2019/91-63/srp@/!main~art_2__para_1__point_2" >2</ref>) подтач. (<ref wId="ref26" href="akn/rs/act/2019/91-63/srp@/!main~art_2__para_1__point_1" >1</ref>) до (3) овог закона, односно који постаје обавеза Републике  када се за то испуне услови из гаранције за обавезе из члана 2. тачка 2) подтач.  (<ref wId="ref28" href="akn/rs/act/2019/91-63/srp@/!main~art_2__para_1__point_4" >4</ref>) и (5) овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan14-stav2">
+						<content>
+							<p>Уколико је обавеза настала у страној валути, за  потребе обрачуна јавног дуга, јавни дуг ће</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan14-stav3">
+						<content>
+							<p>се обрачунати у домаћој валути по званичном средњем  курсу Народне банке Србије, на дан обрачуна.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan15">
+					<num>15.</num>
+					<heading>Отплата јавног дуга</heading>
+					<paragraph wId="gla4-clan15-stav1">
+						<content>
+							<p>У току извршења буџета Републике не могу се вршити  измене у плану амортизације јавног дуга, као ни у методологији за примењивање  тог плана, осим у случају прилагођавања ових плаћања променама у обавезама на  име јавног дуга.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan15-stav2">
+						<content>
+							<p>Услови уговора који се односе на јавни дуг не могу се  једнострано мењати.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan15-stav3">
+						<content>
+							<p>Министар финансија може закључити уговор са Народном  банком Србије или неком другом државном институцијом за обављање појединих  послова у вези са отплатом јавног дуга.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan15-stav4">
+						<content>
+							<p>*<ref wId="ref29" href="akn/rs/act/2015/68/srp@">Службени гласник РС, број 68/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>ДАВАЊЕ ГАРАНЦИЈЕ</heading>
+				<article wId="gla5-clan16">
+					<num>16.</num>
+					<heading>Овлашћење за давање гаранције</heading>
+					<paragraph wId="gla5-clan16-stav1">
+						<content>
+							<p>Брисан је ранији <ref wId="ref31" href="akn/rs/act/2019/91-63/srp@/!main~art_16__para_1" >став 1. </ref>(види <ref wId="ref30" href="akn/rs/act/2015/68/srp@/!main~/art_10">члан 10. Закона -  68/2015-14</ref>)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan16-stav2">
+						<content>
+							<p>Република може дати гаранцију за измирење дуга  локалне власти и правних лица из <ref wId="ref32" href="akn/rs/act/2019/91-63/srp@/!main~art_1" >члана 1. овог</ref> закона (у даљем тексту: дужник).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan16-stav3">
+						<content>
+							<p>Република може дати гаранције из <ref wId="ref33" href="akn/rs/act/2019/91-63/srp@/!main~art_16__para_1" >става 1. овог</ref> члана  у складу са законом којим се уређује буџет Републике за текућу годину.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan16-stav4">
+						<content>
+							<p>Република може дати гаранције из <ref wId="ref34" href="akn/rs/act/2019/91-63/srp@/!main~art_16__para_1" >става 1. овог</ref> члана  само ако се средствима кредита за који се даје гаранција финансирају капитална  улагања дужника. Република не може дати гаранције из <ref wId="ref35" href="akn/rs/act/2019/91-63/srp@/!main~art_16__para_1" >става 1. овог</ref> члана ако се  средствима кредита за који се даје гаранција финансира текуће пословање дужника  односно за потребе ликвидности дужника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan16-stav5">
+						<content>
+							<p>Гаранције из <ref wId="ref36" href="akn/rs/act/2019/91-63/srp@/!main~art_16__para_1" >става 1. овог</ref> члана дају се у форми  закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan16-stav6">
+						<content>
+							<p>*<ref wId="ref37" href="akn/rs/act/2015/68/srp@">Службени гласник РС, број 68/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan17">
+					<num>17.</num>
+					<heading>Обим средстава за давање гаранције</heading>
+					<paragraph wId="gla5-clan17-stav1">
+						<content>
+							<p>Република може дати гаранцију за измирење дуга  дужника под условима из <ref wId="ref38" href="akn/rs/act/2019/91-63/srp@/!main~art_16__para_2" >члана 16. став 2. овог</ref> закона, у висини средстава која  се утврђују у складу са законом и уговором о кредиту.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan17-stav2">
+						<content>
+							<p>*<ref wId="ref39" href="akn/rs/act/2015/68/srp@">Службени гласник РС, број 68/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan18">
+					<num>18.</num>
+					<heading>Услови за давање гаранције</heading>
+					<paragraph wId="gla5-clan18-stav1">
+						<content>
+							<p>За давање гаранције може се наплаћивати провизија.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan18-stav2">
+						<content>
+							<p>Министар финансија ближе уређује услове које морају  да испуњавају дужници да би Република дала гаранцију, поступак за подношење  захтева, садржину захтева за давање гаранције, услове у погледу инструмената  обезбеђења, као и висину провизије из <ref wId="ref40" href="akn/rs/act/2019/91-63/srp@/!main~art_18__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan19">
+					<num>19.</num>
+					<heading>Рачун за посебне намене</heading>
+					<paragraph wId="gla5-clan19-stav1">
+						<content>
+							<p>Министар финансија отвара рачун за посебне намене за  депоновање средстава иностраних кредита у страној валути (у даљем тексту:  специјални рачун), код Народне банке Србије, за кредите дужника у чију корист је  дата гаранција, ако споразумом, односно уговором о кредиту није друкчије  одређено.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan19-stav2">
+						<content>
+							<p>Министар финансија, или постављено лице у  Министарству које он овласти, даје налог за пренос средстава кредита са  специјалног рачуна на рачун корисника кредита.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan20">
+					<num>20.</num>
+					<heading>Отплата обавезе</heading>
+					<paragraph wId="gla5-clan20-stav1">
+						<content>
+							<p>Отплату обавезе за коју је Република дала гаранцију  врши дужник.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan21">
+					<num>21.</num>
+					<heading>Отплата обавезе по основу дате гаранције</heading>
+					<paragraph wId="gla5-clan21-stav1">
+						<content>
+							<p>Отплата обавезе настале по основу дате гаранције,  условна је обавеза Републике.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan21-stav2">
+						<content>
+							<p>Република отплаћује доспелу, а неизмирену обавезу из  <ref wId="ref41" href="akn/rs/act/2019/91-63/srp@/!main~art_21__para_1" >става 1. овог</ref> члана, уколико дужник не изврши своју обавезу благовремено, у  складу са условима утврђеним у уговору о кредиту.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan22">
+					<num>22.</num>
+					<heading>Регресно право</heading>
+					<paragraph wId="gla5-clan22-stav1">
+						<content>
+							<p>Дужник има безусловну и апсолутну обавезу да плати  Републици износ обавезе коју је она извршила према повериоцу по основу дате  гаранције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan22-stav2">
+						<content>
+							<p>Ако је по основу дате гаранције, као и у случају  непосредног преузимања обавеза у својству дужника по основу дате гаранције,  Република извршила ту обавезу уместо дужника, Република има право на повраћај  главнице, камате и осталих трошкова који настану због неизвршења, односно  неблаговременог извршења обавеза, до висине износа измирене обавезе, као и право  да од дужника наплати обрачунату законску затезну камату.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan22-stav3">
+						<content>
+							<p>Право на повраћај средстава из <ref wId="ref42" href="akn/rs/act/2019/91-63/srp@/!main~art_22__para_1" >става 1. овог</ref> члана  Република остварује тако што смањује средства од утврђених буџетских  апропријација и субвенција дужника у износу који је једнак висини измирене  обавезе и обрачунате законске затезне камате из <ref wId="ref43" href="akn/rs/act/2019/91-63/srp@/!main~art_22__para_2" >става 2. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan22-stav4">
+						<content>
+							<p>Ако дужник није корисник буџетских средстава  Републике, Република на основу овлашћења добијеног од дужника, или других  инструмената обезбеђења, иницира наплату средстава са рачуна дужника у складу са  законом и другим прописима којима се регулише платни промет, у износу који је  једнак висини измирене обавезе и обрачунате законске затезне камате из <ref wId="ref44" href="akn/rs/act/2019/91-63/srp@/!main~art_22__para_2" >става 2.  овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan22-stav5">
+						<content>
+							<p>Министар финансија ближе уређује поступак и рокове за  пренос средстава из <ref wId="ref45" href="akn/rs/act/2019/91-63/srp@/!main~art_22__para_3->para_4" >ст. 3. и 4. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan23">
+					<num>23.</num>
+					<heading>Престанак важења гаранције</heading>
+					<paragraph wId="gla5-clan23-stav1">
+						<intro>
+							<p>Гаранција престаје да важи:</p>
+						</intro>
+						<point wId="gla5-clan23-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> када дужник у потпуности измири обавезу на коју се  гаранција односи;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan23-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> истеком рока важења гаранције;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan23-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> када се изврши плаћање по гаранцији у складу са  издатом гаранцијом.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan24">
+					<num>24.</num>
+					<heading>Поступак давања гаранције</heading>
+					<paragraph wId="gla5-clan24-stav1">
+						<content>
+							<p>На предлог Министарства, Влада утврђује предлог  основе за давање гаранције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan24-stav2">
+						<content>
+							<p>Представник Министарства присуствује од почетка  поступка на свим преговорима о задуживању локалне власти и правних лица, када се  тражи гаранција Републике.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan24-stav3">
+						<content>
+							<p>Министарство доставља Влади извештај са преговора из  <ref wId="ref46" href="akn/rs/act/2019/91-63/srp@/!main~art_24__para_2" >става 2. овог</ref> члана, са нацртом уговора о кредиту.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan25">
+					<num>25.</num>
+					<heading>Брисан је назив члана 25. (види члан 12. Закона -  68/2015-14)</heading>
+					<paragraph wId="gla5-clan25-stav1">
+						<content>
+							<p>Брисан је (види <ref wId="ref47" href="akn/rs/act/2015/68/srp@/!main~/art_12">члан 12. Закона - 68/2015-14</ref>)</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla6">
+				<num>VI</num>
+				<heading>ДРЖАВНЕ ХАРТИЈЕ ОД ВРЕДНОСТИ</heading>
+				<paragraph wId="gla6-clan25-stav1">
+					<content>
+						<p>Емитовање и трговање државним хартијама од вредности</p>
+					</content>
+				</paragraph>
+				<article wId="gla6-clan26">
+					<num>26.</num>
+					<heading>*Службени гласник РС, број 68/2015</heading>
+					<paragraph wId="gla6-clan26-stav1">
+						<content>
+							<p>Влада уређује опште услове за емисију и продају  државних хартија од вредности на примарном тржишту и ближе елементе примарног  тржишта државних хартија од вредности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan26-stav2">
+						<content>
+							<p>Влада ближе уређује услове за стицање статуса  овлашћених учесника и примарних дилера на примарном тржишту.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan26-stav3">
+						<content>
+							<p>Државне хартије од вредности емитују се у  нематеријализованом облику.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan26-stav4">
+						<content>
+							<p>Министар финансија може закључити уговор са Народном  банком Србије или Централним регистром, депоом и клирингом хартија од вредности  а.д. Београд (у даљем тексту: Централни регистар ) за обављање појединих  послова у вези са државним хартијама од вредности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan26-stav5">
+						<content>
+							<p>За обављање појединих послова у вези са државним  хартијама од вредности, у складу са законом који уређује тржиште капитала, може  се ангажовати једно или више страних правних лица која обављају послове клиринга  и салдирања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan26-stav6">
+						<content>
+							<p>Страна правна лица из <ref wId="ref48" href="akn/rs/act/2019/91-63/srp@/!main~art_26__para_5" >става 5. овог</ref> члана ангажују се  на основу одлуке коју доноси Влада на предлог Министарства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan26-stav7">
+						<content>
+							<p>Државним хартијама од вредности може се трговати  на регулисаном тржишту и ОТЦ тржишту под условима које прописује Влада.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan26-stav8">
+						<content>
+							<p>*<ref wId="ref49" href="akn/rs/act/2015/68/srp@">Службени гласник РС, број 68/2015</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan26-stav9">
+						<content>
+							<p>**<ref wId="ref50" href="akn/rs/act/2018/95/srp@">Службени гласник РС, број 95/2018</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan26-stav10">
+						<content>
+							<p>***<ref wId="ref51" href="akn/rs/act/2019/91/srp@">Службени гласник РС, број 91/2019</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan27">
+					<num>27.</num>
+					<heading>Купци државних хартија од вредности</heading>
+					<paragraph wId="gla6-clan27-stav1">
+						<content>
+							<p>Државне хартије од вредности могу куповати сва домаћа  правна и физичка лица.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan27-stav2">
+						<content>
+							<p>Страна правна и физичка лица могу куповати државне  хартије од вредности под условима које прописује Влада.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan28">
+					<num>28.</num>
+					<heading>Клиринг и салдирање</heading>
+					<paragraph wId="gla6-clan28-stav1">
+						<content>
+							<p>Министар финансија, или постављено лице у  Министарству које он овласти, доноси одлуку о клирингу и салдирању у примарној  емисији државних хартија од вредности којима се може трговати на иностраном  финансијском тржишту.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan28-stav2">
+						<content>
+							<p>Брисан је ранији <ref wId="ref53" href="akn/rs/act/2019/91-63/srp@/!main~art_28__para_2" >став 2. </ref>(види <ref wId="ref52" href="akn/rs/act/2015/68/srp@/!main~/art_14">члан 14. Закона -  68/2015-14</ref>)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan28-stav3">
+						<content>
+							<p>Клиринг и салдирање државних хартија од  вредности емитованих на домаћем тржишту обавља Централни регистар и/или страно  правно лице које обавља послове клиринга и салдирања, у складу са условима које  прописује Влада.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan28-stav4">
+						<content>
+							<p>*<ref wId="ref54" href="akn/rs/act/2019/91/srp@">Службени гласник РС, број 91/2019</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan29">
+					<num>29.</num>
+					<heading>Исплата државних хартија од вредности</heading>
+					<paragraph wId="gla6-clan29-stav1">
+						<content>
+							<p>Државне хартије од вредности исплаћују се на дан  доспећа утврђен у акту о емисији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan29-stav2">
+						<content>
+							<p>У случају да рок доспећа државних хартија од  вредности падне у нерадан дан, исплата доспелих државних хартија од вредности ће  се обавити првог наредног радног дана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan29-stav3">
+						<content>
+							<p>На основу решења министра финансија, или постављеног  лица у Министарству које он овласти, Република може пре рока доспећа исплатити  државне хартије од вредности, само уколико је таква могућност предвиђена у акту  о емисији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan29-stav4">
+						<content>
+							<p>Република може откупити државне хартије од вредности  које је емитовала пре рока њиховог доспећа, под условом да свим инвеститорима  буде омогућено да учествују у откупу државних хартија од вредности пре рока  њиховог доспећа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan29-stav5">
+						<content>
+							<p>Министар финансија, или постављено лице у  Министарству које он овласти одлучује о откупу државних хартија од вредности пре  рока њиховог доспећа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan29-stav6">
+						<content>
+							<p>Министарство објављује јавни позив за откуп државних  хартија од вредности пре рока њиховог доспећа.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan30">
+					<num>30.</num>
+					<heading>Забрана коришћења привилегованих информација</heading>
+					<paragraph wId="gla6-clan30-stav1">
+						<content>
+							<p>Нико не може да купује државне хартије од вредности  коришћењем привилегованих информација.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan30-stav2">
+						<intro>
+							<p>Забрана коришћења привилегованих информација односи  се нарочито на лица која располажу привилегованим информацијама, као што су:</p>
+						</intro>
+						<point wId="gla6-clan30-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> запослени код емитента, као и брачни друг или  ванбрачни друг запосленог, крвни сродник запосленог у правој линији, у побочној  линији закључно са другим степеном сродства, усвојилац или усвојеник, тазбински  сродник закључно са првим степеном сродства и свако друго правно или физичко  лице које се, према другим основама и околностима, може оправдано сматрати  интересно повезаним са запосленим;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan30-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> сва лица која су у обављању својих послова сазнала  за привилеговане информације;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan30-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> сва друга лица која су знала или су могла знати да  су стекла привилеговану информацију.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla6-clan30-stav3">
+						<content>
+							<p>Лице из <ref wId="ref55" href="akn/rs/act/2019/91-63/srp@/!main~art_30__para_2" >става 2. овог</ref> члана коме су доступне  привилеговане информације, не сме их саопштавати другим лицима, нити на основу  њих препоручивати другим лицима да тргују државним хартијама од вредности.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan31">
+					<num>31.</num>
+					<heading>Изрицање мера</heading>
+					<paragraph wId="gla6-clan31-stav1">
+						<content>
+							<p>Учеснику на примарном тржишту (у даљем тексту:  учесник) може се изрећи забрана учествовања у куповини државних хартија од  вредности на примарном тржишту.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan31-stav2">
+						<content>
+							<p>Учеснику се може изрећи мера забране учествовања у  куповини државних хартија од вредности, у трајању од једне до три године, ако:</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

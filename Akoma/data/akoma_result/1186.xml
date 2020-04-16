@@ -1,0 +1,283 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о потврђивању Споразума између Владе Републике Србије и Владе Републике Индије о сарадњи у области здравља биља и биљног карантина">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2019/2-145/main"/>
+					<FRBRuri value="/rs/act/2019/2-145"/>
+					<FRBRdate date="2019-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2019/2-145/srp@/main"/>
+					<FRBRuri value="/rs/act/2019/2-145/srp@"/>
+					<FRBRdate date="2019-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2019/2-145/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2019/2-145/srp@.akn"/>
+					<FRBRdate date="2019-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2019-02-18" name="службени гласник рс - међународни уговори" number="2" showAs="Службени гласник РС - Међународни уговори"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="XIII ПОЉОПРИВРЕДА И РУРАЛНИ РАЗВОЈ" value="xiii пољопривреда и рурални развој" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="2. Семе, садни материјал и заштита биља" value="2. семе, садни материјал и заштита биља" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2019-02-14" wId="usvajanje"/>
+				<step by="#TODO" date="2019-02-26" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2019-02-26" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Подаци у личној карти односе се на закон о потврђивању међународног уговора</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О потврђивању споразума између владе републике србије и владе републике индије о сарадњи у области здравља биља и биљног карантина "Службени гласник РС - Међународни уговори", број 2 од 18. фебруара 2019.</p>
+			</longTitle>
+			<p>Александар Вучић, с.р.</p>
+		</preface>
+		<preamble>
+			<p>На основу члана 112. став 1. тачка 2. Устава Републике Србије, доносим</p>
+			<p>УКАЗ</p>
+			<p>о проглашењу Закона о потврђивању Споразума између Владе Републике Србије и Владе Републике Индије о сарадњи у области здравља биља и биљног карантина</p>
+			<p>Проглашава се Закон о потврђивању Споразума између Владе Републике Србије и Владе Републике Индије о сарадњи у области здравља биља и биљног карантина, који је донела Народна скупштина Републике Србије, на Једанаестом ванредном заседању у Једанаестом сазиву, 14. фебруара 2019. године.</p>
+			<p>ПР број 31</p>
+			<p>У Београду, 15. фебруара 2019. године</p>
+			<p>Председник Републике,</p>
+		</preamble>
+		<body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Потврђује се Споразум између Владе Републике Србије и Владе Републике Индије о сарадњи у области здравља биља и биљног карантина, сачињен у Београду, 15. септембра 2018. године, у оригиналу на српском, хиндуском и енглеском језику.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Текст Споразума између Владе Републике Србије и Владе Републике Индије о сарадњи у области здравља биља и биљног карантина у оригиналу на српском језику гласи:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>СПОРАЗУМ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav3">
+					<content>
+						<p>између Владе Републике Србије и Владе Републике Индије о сарадњи у области здравља биља и биљног карантина</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav4">
+					<content>
+						<p>Влада Републике Србије и Влада Републике Индије, (у даљем тексту: Уговорне стране),</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav5">
+					<content>
+						<p>у жељи да подстичу билатералну сарадњу у области заштите биља и биљног карантина,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav6">
+					<content>
+						<p>препознајући користи међународне сарадње у области биљног карантина, ради спречавања уношења, успостављања, контаминације или ширења регулисаних штеточина које су подвргнуте карантину,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav7">
+					<content>
+						<p>да би олакшале међусобну трговину и размену биља и биљних производа на пољу биљног карантина,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav8">
+					<content>
+						<p>споразумеле су се о следећем:</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Надлежни органи задужени за координацију и примену одредаба овог споразума су:</p>
+					</content>
+				</paragraph>
+				<paragraph class="special" wId="clan1-stav2">
+					<content>
+						<table>
+							
+
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>У Републици Србији:</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>Министарство пољопривреде, шумарства и водопривреде,</p>
+									
+
+									<p>Управа за заштиту биља, са седиштем у Београду;</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>У Републици Индији: </p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>Министарство пољопривреде и добробити фармера, </p>
+									
+
+									<p>са седиштем у Њу Делхију.</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+
+						</table>
+						
+
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Изрази који се примењују у контексту овог споразума имају значења која су наведена у Међународном стандарду за фитосанитарне мере 5 (ИСПМ-5):</p>
+					</content>
+				</paragraph>
+			</article>
+			<subsection wId="podod1">
+				<num>а</num>
+				<heading>биље: живе биљке и делови живих биљака, укључујући семе и гермплазму;</heading>
+			</subsection>
+			<subsection wId="podod2">
+				<num>б</num>
+				<heading>биљни производи: непрерађени материјал биљног порекла (укључујући и зрно), као и прерађени производи који, по својој природи или природи прераде, могу представљати ризик за уношење и ширење штетних организама;</heading>
+			</subsection>
+			<subsection wId="podod3">
+				<num>в</num>
+				<heading>штетни организми: било која врста, сој или биотип биљака, животиња или патогених организама који је штетан за биље или биљне производе;</heading>
+			</subsection>
+			<subsection wId="podod4">
+				<num>г</num>
+				<heading> регулисани штетни организми: карантински штетни организам: штетни организам од потенцијалног економског значаја за подручје које угрожавају, а на којем још није присутан или је присутан, али није широко распрострањен и под службеним је надзором; регулисани некарантински штетни организам: некарантински штетни организам чије присуство на биљу намењеном за садњу може проузроковати економски неприхватљиве последице, и који је из тог разлога регулисана на територији државе стране увознице.</heading>
+				<article wId="podod4-clan3">
+					<num>3.</num>
+					<paragraph wId="podod4-clan3-stav1">
+						<content>
+							<p>Уговорне стране ће обавештавати једна другу о листама регулисаних штетних организама, као и специфичним фитосанитарним захтевима (забране, ограничења, услови) који се односе на увоз или транзит биља и биљних производа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod4-clan3-stav2">
+						<content>
+							<p>Уговорне стране могу навести у неким приликама додатне фитосанитарне захтеве који се односе на увоз или транзит биља и биљних производа који подлежу фитосанитарној контроли.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod4-clan4">
+					<num>4.</num>
+					<paragraph wId="podod4-clan4-stav1">
+						<content>
+							<p>Надлежни органи држава Уговорних страна ће информисати једни друге, без одлагања, о променама на листама регулисаних штетних организама, као и о предузетим фитосанитарним мерама.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod4-clan5">
+					<num>5.</num>
+					<paragraph wId="podod4-clan5-stav1">
+						<content>
+							<p>Надлежни органи држава Уговорних страна ће обезбедити да се извоз или транзит пошиљки у/преко територије државе Уговорне стране врши у складу са законским одредбама државе увознице или транзитне земље, респективно.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod4-clan6">
+					<num>6.</num>
+					<paragraph wId="podod4-clan6-stav1">
+						<content>
+							<p>Сваку пошиљку за извоз, која подлеже фитосанитарној контроли, мора пратити фитосанитарни сертификат издат у складу са обрасцем наведеним у Међународној конвенцији о заштити биља и издат од надлежног органа државе Уговорне стране.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod4-clan6-stav2">
+						<content>
+							<p>Фитосанитарни сертификат не искључује право земље увознице да на одговарајући начин врши фитосанитарни преглед и предузима потребне мере у складу са важећим прописима те земље.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="podod4-clan6-stav3">
+						<content>
+							<p>У случају ре-експорта, фитосанитарни сертификат за ре-експорт мора пратити оригинална копија фитосанитарног сертификата земље порекла.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod4-clan7">
+					<num>7.</num>
+					<paragraph wId="podod4-clan7-stav1">
+						<content>
+							<p>Надлежни органи држава Уговорних страна ће обавештавати једни друге о граничним прелазима на којима се може обављати увоз, извоз и транзит пошиљака.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod4-clan8">
+					<num>8.</num>
+					<paragraph wId="podod4-clan8-stav1">
+						<content>
+							<p>Надлежни органи држава Уговорних страна могу приликом увоза одбити, уништити биље или предузети друге неопходне фитосанитарне мере у случају да током фитосанитарног прегледа констатују да нису поштовани фитосанитарни прописи који важе на територији држава Уговорних страна.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="podod4-clan9">
+					<num>9.</num>
+					<paragraph wId="podod4-clan9-stav1">
+						<content>
+							<p>Надлежни органи држава Уговорних страна ће:</p>
+						</content>
+					</paragraph>
+				</article>
+			</subsection>
+		</body>
+	</act>
+</akomaNtoso>

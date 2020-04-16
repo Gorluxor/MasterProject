@@ -1,0 +1,421 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о  поступку прекида трудноће у здравственој установи">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/1995/16-497/main"/>
+					<FRBRuri value="/rs/act/1995/16-497"/>
+					<FRBRdate date="1995-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2005/101-28/srp@/main"/>
+					<FRBRuri value="/rs/act/2005/101-28/srp@"/>
+					<FRBRdate date="2005-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2005/101-28/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2005/101-28/srp@.akn"/>
+					<FRBRdate date="2005-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="1995-05-12" name="службени гласник рс" number="16" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="XVI СОЦИЈАЛНО ОСИГУРАЊЕ, ЗДРАВСТВЕНА, СОЦИЈАЛНА И БОРАЧКА ЗАШТИТА" value="xvi социјално осигурање, здравствена, социјална и борачка заштита" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="7. Заштита генетичког и репродуктивног здравља" value="7. заштита генетичког и репродуктивног здравља" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="1995-01-01" refersTo="16/1995-497" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2005-01-01" refersTo="101/2005-28" source="#somebody" type="amendment" wId="e2"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="#TODO" date="1995-05-11" wId="usvajanje"/>
+				<step by="#TODO" date="1995-05-20" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="1995-05-20" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 20. маја 1995. године (види члан 17. Закона).Промењене су висине новчаних казни (види члан 101. Закона – 101/2005-28).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О  поступку прекида трудноће у здравственој установи „Службени гласник РС”, бр. 16 од 12. маја 1995, 101 од 21. новембра 2005 - др. закон</p>
+			</longTitle>
+			<p>﻿  Редакцијски пречишћен текст</p>
+		</preface>
+		<body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Овим законом уређују се услови и поступак прекида трудноће, као хируршке интервенције, у здравственој установи.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Прекид трудноће може се извршити само на захтев трудне жене.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>За прекид трудноће код лица млађег од 16 година и лица потпуно лишеног пословне способности, потребна је и писмена сагласност родитеља, односно стараоца.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav3">
+					<content>
+						<p>Ако се сагласност не може прибавити од родитеља односно стараоца због њихове одсутности или спречености, потребно је прибавити сагласност надлежног органа старатељства.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Прекид трудноће не може се извршити када се утврди да би се њиме теже нарушило здравље или угрозио живот жене.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan4">
+				<num>4.</num>
+				<paragraph wId="clan4-stav1">
+					<content>
+						<p>На поступак прекида трудноће примењују се одредбе Закона о здравственој заштити, ако овим законом није другачије одређено.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan5">
+				<num>5.</num>
+				<paragraph wId="clan5-stav1">
+					<content>
+						<p>Жена која жели да прекине трудноћу обраћа се усменим захтевом специјалисти акушерства и гинекологије одговарајуће здравствене установе.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan5-stav2">
+					<intro>
+						<p>Лекар специјалиста акушерства и гинекологије здравствене установе из <ref wId="ref0" href="akn/rs/act/2005/101-28/srp@/!main~art_5__para_1" >става 1. овог</ref> члана:</p>
+					</intro>
+					<point wId="clan5-stav2-tac1">
+						<num>1)</num>
+						<content>
+							<p> утврђује старост трудноће;</p>
+						</content>
+					</point>
+					<point wId="clan5-stav2-tac2">
+						<num>2)</num>
+						<content>
+							<p> прибавља налазе о крвној групи трудне жене, RH фактору и анамнестичке податке о ранијим болестима;</p>
+						</content>
+					</point>
+					<point wId="clan5-stav2-tac3">
+						<num>3)</num>
+						<content>
+							<p> самостално, а по потреби и уз консултацију лекара специјалисте из других грана медицине, утврђује да ли постоји опасност да се због прекида трудноће здравље жене наруши;</p>
+						</content>
+					</point>
+					<point wId="clan5-stav2-tac4">
+						<num>4)</num>
+						<content>
+							<p> указује жени на опасност и последице прекида трудноће;</p>
+						</content>
+					</point>
+					<point wId="clan5-stav2-tac5">
+						<num>5)</num>
+						<content>
+							<p> упознаје жену са другим методама и средствима заштите од нежељене трудноће.</p>
+						</content>
+					</point>
+				</paragraph>
+			</article>
+			<article wId="clan6">
+				<num>6.</num>
+				<paragraph wId="clan6-stav1">
+					<content>
+						<p>Прекид трудноће може се извршити до навршене десете недеље трудноће.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan6-stav2">
+					<intro>
+						<p>Изузетно, прекид трудноће може се извршити и после навршене десете недеље трудноће:</p>
+					</intro>
+					<point wId="clan6-stav2-tac1">
+						<num>1)</num>
+						<content>
+							<p> када се на основу медицинских индикација утврди да се на други начин не може спасити живот или отклонити тешко нарушавање здравља жене;</p>
+						</content>
+					</point>
+					<point wId="clan6-stav2-tac2">
+						<num>2)</num>
+						<content>
+							<p> када се на основу научно-медицинских сазнања може очекивати да ће се дете родити са тешким телесним или душевним недостацима;</p>
+						</content>
+					</point>
+					<point wId="clan6-stav2-tac3">
+						<num>3)</num>
+						<content>
+							<p> када је до зачећа дошло извршењем кривичног дела (силовање, обљуба над немоћним лицем, обљуба над малолетним лицем, обљуба злоупотребом положаја, завођење и родоскрнављење).</p>
+						</content>
+					</point>
+				</paragraph>
+			</article>
+			<article wId="clan7">
+				<num>7.</num>
+				<paragraph wId="clan7-stav1">
+					<intro>
+						<p>Постојање услова за прекид трудноће утврђује:</p>
+					</intro>
+					<point wId="clan7-stav1-tac1">
+						<num>1)</num>
+						<content>
+							<p> до навршене десете недеље трудноће – лекар специјалиста акушерства и гинекологије здравствене установе;</p>
+						</content>
+					</point>
+					<point wId="clan7-stav1-tac2">
+						<num>2)</num>
+						<content>
+							<p> од навршене десете недеље трудноће до навршене двадесете недеље трудноће – конзилијум лекара одговарајуће здравствене установе;</p>
+						</content>
+					</point>
+					<point wId="clan7-stav1-tac3">
+						<num>3)</num>
+						<content>
+							<p> после навршене двадесете недеље трудноће – етички одбор здравствене установе.</p>
+						</content>
+					</point>
+				</paragraph>
+			</article>
+			<article wId="clan8">
+				<num>8.</num>
+				<paragraph wId="clan8-stav1">
+					<content>
+						<p>Председника и чланове етичког одбора именује на период од две године министарство надлежно за послове здравља на предлог одговарајуће здравствене установе.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan8-stav2">
+					<content>
+						<p>Број, састав и начин рада етичког одбора утврђује министарство надлежно за послове здравља.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan9">
+				<num>9.</num>
+				<paragraph wId="clan9-stav1">
+					<content>
+						<p>Прекид трудноће може се извршити када трудна жена да писмену сагласност за прекид.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan10">
+				<num>10.</num>
+				<paragraph wId="clan10-stav1">
+					<content>
+						<p>Прекид трудноће до навршене двадесете недеље трудноће обавља се у здравственој установи која има болничку службу из гинекологије и акушерства, операциону салу и службу трансфузије крви.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan10-stav2">
+					<content>
+						<p>Прекид трудноће после навршене двадесете недеље трудноће обавља се у: клиници, институту, клиничко-болничком центру или клиничком центру.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan10-stav3">
+					<content>
+						<p>Прекид трудноће до навршене десете недеље трудноће може се обавити и у дому здравља, односно лекарској ординацији специјалисте из гинекологије и акушерства, који имају обезбеђену здравствену заштиту жена и хитну медицинску помоћ.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan10-stav4">
+					<content>
+						<p>Прекид трудноће под анестезијом обавља се у здравственој установи, односно лекарској ординацији специјалисте из гинекологије и акушерства из <ref wId="ref1" href="akn/rs/act/2005/101-28/srp@/!main~art_10__para_1->para_3" >ст. 1. </ref>до 3. овог члана која има и специјалисту анестезиологије са реаниматологијом.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan10-stav5">
+					<content>
+						<p>Ближе услове у погледу кадрова, опреме, простора и садржаја рада лекарске ординације из <ref wId="ref2" href="akn/rs/act/2005/101-28/srp@/!main~art_10__para_3" >става 3. овог</ref> члана утврђује министарство надлежно за послове здравља.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan10-stav6">
+					<content>
+						<p>Испуњеност услова за обављање прекида трудноће из <ref wId="ref3" href="akn/rs/act/2005/101-28/srp@/!main~art_10__para_3->para_5" >ст. 3. </ref>до 5. овог члана утврђује министарство надлежно за послове здравља.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan11">
+				<num>11.</num>
+				<paragraph wId="clan11-stav1">
+					<content>
+						<p>Здравствена установа је дужна да жени којој је извршен прекид трудноће обезбеди контролу здравственог стања.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan12">
+				<num>12.</num>
+				<paragraph wId="clan12-stav1">
+					<content>
+						<p>Здравствена установа у којој се врши прекид трудноће дужна је да води евиденцију и медицинску документацију о извршеним прекидима трудноће и да прописане извештаје доставља надлежном заводу за заштиту здравља, под условима и на начин утврђен законом.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan12-stav2">
+					<content>
+						<p>Евиденција и документација из <ref wId="ref4" href="akn/rs/act/2005/101-28/srp@/!main~art_12__para_1" >става 1. овог</ref> члана имају карактер лекарске тајне и чувају се у посебној архиви здравствене установе.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan13">
+				<num>13.</num>
+				<paragraph wId="clan13-stav1">
+					<content>
+						<p>Ако се при прекиду трудноће посумња да је прекид започет ван здравствене установе кривичним делом, овлашћени лекар здравствене установе обавештава о томе орган надлежан за унутрашње послове.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan14">
+				<num>14.</num>
+				<paragraph wId="clan14-stav1">
+					<content>
+						<p>Одредбе овог закона које се односе на здравствену установу сходно се примењују и на лекарску ординацију специјалисте акушерства и гинекологије када се у њој обавља прекид трудноће, у складу са овим законом.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan15">
+				<num>15.</num>
+				<paragraph wId="clan15-stav1">
+					<intro>
+						<p>Новчаном казном   од 10.000   до 1.000.000   динара* казниће се за прекршај здравствена установа ако:</p>
+					</intro>
+					<point wId="clan15-stav1-tac1">
+						<num>1)</num>
+						<content>
+							<p> изврши прекид трудноће код малолетног лица супротно <ref wId="ref5" href="akn/rs/act/2005/101-28/srp@/!main~art_2__para_2" >члану 2. став 2. овог</ref> закона;</p>
+						</content>
+					</point>
+					<point wId="clan15-stav1-tac2">
+						<num>2)</num>
+						<content>
+							<p> изврши прекид трудноће супротно чл. <ref wId="ref6" href="akn/rs/act/2005/101-28/srp@/!main~art_6" >6</ref>. и <ref wId="ref7" href="akn/rs/act/2005/101-28/srp@/!main~art_9" >9</ref>. овог закона;</p>
+						</content>
+					</point>
+					<point wId="clan15-stav1-tac3">
+						<num>3)</num>
+						<content>
+							<p> врши прекид трудноће а не испуњава услове из <ref wId="ref8" href="akn/rs/act/2005/101-28/srp@/!main~art_10" >члана 10. овог</ref> закона;</p>
+						</content>
+					</point>
+					<point wId="clan15-stav1-tac4">
+						<num>4)</num>
+						<content>
+							<p> не обавести орган надлежан за унутрашње послове, у складу са <ref wId="ref9" href="akn/rs/act/2005/101-28/srp@/!main~art_13" >чланом 13. овог</ref> закона.</p>
+						</content>
+					</point>
+				</paragraph>
+				<paragraph wId="clan15-stav2">
+					<content>
+						<p>Новчаном казном   од 5.000   до 500.000   динара* казниће се за прекршај из <ref wId="ref11" href="akn/rs/act/2005/101-28/srp@/!main~art_15__para_1__point_1->point_4" >става 1. тач. 1) </ref>до 4) овог члана и предузетник – оснивач лекарске ординације из <ref wId="ref10" href="akn/rs/act/2005/101-28/srp@/!main~art_10__para_3" >члана 10. став 3. овог</ref> закона.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan15-stav3">
+					<content>
+						<p>Новчаном казном   од 10.000   до 30.000   динара* казниће се за прекршај из <ref wId="ref12" href="akn/rs/act/2005/101-28/srp@/!main~art_15__para_1__point_1->point_4" >става 1. тач. 1. </ref>до 4. овог члана и здравствени радник који изврши прекид трудноће.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan15-stav4">
+					<content>
+						<p>Новчаном казном   од 10.000   до 50.000   динара* казниће се за прекршај из <ref wId="ref13" href="akn/rs/act/2005/101-28/srp@/!main~art_15__para_1" >става 1. овог</ref> члана и директор здравствене установе.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan16">
+				<num>16.</num>
+				<heading>*Службени  гласник РС, број  101/2005</heading>
+				<paragraph wId="clan16-stav1">
+					<content>
+						<p>Даном ступања на снагу овог закона престаје да важи Закон о условима и поступку за прекид трудноће („<ref wId="ref14" href="akn/rs/act/77/26/srp@">Службени гласник СРС”, бр. 26/77, 24/85</ref> и „<ref wId="ref15" href="akn/rs/act/91/44/srp@">Службени гласник РС”, број 44/91</ref>).</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan17">
+				<num>17.</num>
+				<paragraph wId="clan17-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan17-stav2">
+					<content>
+						<p>ЗАКОН</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan17-stav3">
+					<content>
+						<p>о  поступку прекида трудноће у здравственој установи</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<heading>„Службени гласник РС”, бр. 16 од 12.  маја 1995,  101 од 21.  новембра 2005 - др. закон</heading>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Овим законом уређују се услови и поступак прекида трудноће, као хируршке интервенције, у здравственој установи.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Прекид трудноће може се извршити само на захтев трудне жене.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>За прекид трудноће код лица млађег од 16 година и лица потпуно лишеног пословне способности, потребна је и писмена сагласност родитеља, односно стараоца.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav3">
+					<content>
+						<p>Ако се сагласност не може прибавити од родитеља односно стараоца због њихове одсутности или спречености, потребно је прибавити сагласност надлежног органа старатељства.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Прекид трудноће не може се извршити када се утврди да би се њиме теже нарушило здравље или угрозио живот жене.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan4">
+				<num>4.</num>
+				<paragraph wId="clan4-stav1">
+					<content>
+						<p>На поступак прекида трудноће примењују се одредбе Закона о здравственој заштити, ако овим законом није другачије одређено.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan5">
+				<num>5.</num>
+				<paragraph wId="clan5-stav1">
+					<content>
+						<p>Жена која жели да прекине трудноћу обраћа се усменим захтевом специјалисти акушерства и гинекологије одговарајуће здравствене установе.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan5-stav2">
+					<content>
+						<p>Лекар специјалиста акушерства и гинекологије здравствене установе из става 1. овог члана:</p>
+					</content>
+				</paragraph>
+			</article>
+		</body>
+	</act>
+</akomaNtoso>

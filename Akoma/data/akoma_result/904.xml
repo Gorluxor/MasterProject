@@ -1,0 +1,334 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о потврђивању Споразума између Владе Републике Србије и Владе Руске Федерације о оснивању Српско-руског хуманитарног центра">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2012/6-1/main"/>
+					<FRBRuri value="/rs/act/2012/6-1"/>
+					<FRBRdate date="2012-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2012/6-1/srp@/main"/>
+					<FRBRuri value="/rs/act/2012/6-1/srp@"/>
+					<FRBRdate date="2012-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2012/6-1/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2012/6-1/srp@.akn"/>
+					<FRBRdate date="2012-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2012-12-24" name="службени гласник рс - међународни уговори" number="6" showAs="Службени гласник РС - Међународни уговори"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="II БЕЗБЕДНОСНА И ОДБРАМБЕНА ПОЛИТИКА" value="ii безбедносна и одбрамбена политика" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="10. Ванредне ситуације, цивилна заштита, елементарне и друге непогоде" value="10. ванредне ситуације, цивилна заштита, елементарне и друге непогоде" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2012-12-24" wId="usvajanje"/>
+				<step by="#TODO" date="2013-01-01" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2013-01-01" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p/>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О потврђивању споразума између владе републике србије и владе руске федерације о оснивању српско-руског хуманитарног центра "Службени гласник РС - Међународни уговори", број 6 од 24. децембра 2012.</p>
+			</longTitle>
+			<p>Томислав Николић, с.р.</p>
+		</preface>
+		<preamble>
+			<p>На основу члана 112. став 1. тачка 2. Устава Републике Србије, доносим</p>
+			<p>УКАЗ</p>
+			<p>о проглашењу Закона о потврђивању Споразума између Владе Републике Србије и Владе Руске Федерације о оснивању Српско-руског хуманитарног центра</p>
+			<p>Проглашава се Закон о потврђивању Споразума између Владе Републике Србије и Владе Руске Федерације о оснивању Српско-руског хуманитарног центра, који је донела Народна скупштина Републике Србије на Деветој седници Другог редовног заседања у 2012. години, 24. децембра 2012. године.</p>
+			<p>ПР број 111</p>
+			<p>У Београду, 24. децембра 2012. године</p>
+			<p>Председник Републике,</p>
+		</preamble>
+		<body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Потврђује се Споразум између Владе Републике Србије и Владе Руске Федерације o оснивању Српско-руског хуманитарног центра, који је потписан у Нишу, дана 25. априла 2012. године, у оригиналу на српском и руском језику.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Текст Споразума у оригиналу на српском језику гласи:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>СПОРАЗУМ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav3">
+					<content>
+						<p>између Владе Републике Србије и Владе Руске Федерације о оснивању Српско-руског хуманитарног центра</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav4">
+					<content>
+						<p>Влада Републике Србије и Влада Руске Федерације, (у даљем тексту: Стране), руководећи се Споразумом између Владе Републике Србије и Владе Руске Федерације о сарадњи у области ванредног хуманитарног реаговања, спречавања елементарних непогода и техногених хаварија и уклањања њихових последица од 20. октобра 2009. године,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav5">
+					<content>
+						<p>споразумеле су се о следећем:</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Стране оснивају Српско-руски хуманитарни центар (у даљем тексту: Центар) ради обављања задатака хуманитарног реаговања у ванредним ситуацијама на територији Републике Србије и других земаља у окружењу.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan1-stav2">
+					<content>
+						<p>Статут Центра утврђује се посебним Споразумом између Страна.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Центар се оснива на територији Републике Србије, са седиштем у граду Нишу.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>На територији Републике Србије Центар може да оснива филијале и представништва.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Центар је међувладина хуманитарна непрофитна организација која ужива права правног лица на територијама држава Страна у складу с њиховим прописима.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav2">
+					<content>
+						<p>Центар се региструје у Републици Србији у складу са прописима Републике Србије.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan4">
+				<num>4.</num>
+				<paragraph wId="clan4-stav1">
+					<content>
+						<p>Центар обавља своју делатност у складу са овим споразумом, другим међународним споразумима у којима учествују државе Стране, прописима Републике Србије и Статутом Центра.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan4-stav2">
+					<content>
+						<p>Приликом обављања своје делатности Центар сарађује с државним органима, органима територијалне аутономије и органима јединица локалне самоуправе Републике Србије, као и са профилним европским и другим међународним структурама.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan4-stav3">
+					<content>
+						<p>Центар не може да обавља делатност која је директно или индиректно усмерена против интереса једне од Страна.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan5">
+				<num>5.</num>
+				<paragraph wId="clan5-stav1">
+					<intro>
+						<p>Центар обавља следеће задатке:</p>
+					</intro>
+					<alinea wId="clan5-stav1-ali1">
+						<content>
+							<p>чешће у акцијама спречавања и ликвидације ванредних ситуација, укључујући гашење пожара;</p>
+						</content>
+					</alinea>
+					<alinea wId="clan5-stav1-ali2">
+						<content>
+							<p>ружање ванредне хуманитарне помоћи становништву погођеном ванредном ситуацијом;</p>
+						</content>
+					</alinea>
+					<alinea wId="clan5-stav1-ali3">
+						<content>
+							<p>еализација заједничких пројеката и програма на територији Републике Србије и других земаља у окружењу, укључујући пројекте и програме хуманитарног разминирања;</p>
+						</content>
+					</alinea>
+					<alinea wId="clan5-stav1-ali4">
+						<content>
+							<p>бука и стручно усавршавање кадрова из области спречавања и ликвидације ванредних ситуација;</p>
+						</content>
+					</alinea>
+					<alinea wId="clan5-stav1-ali5">
+						<content>
+							<p>естирање и демонстрација савремених ватрогасно-спасилачких средстава и технологија;</p>
+						</content>
+					</alinea>
+					<alinea wId="clan5-stav1-ali6">
+						<content>
+							<p>бављање других задатака који не противурече циљевима оснивања Центра.</p>
+						</content>
+					</alinea>
+				</paragraph>
+				<paragraph wId="clan5-stav2">
+					<content>
+						<p>Ради обезбеђивања реализације задатака поверених Центру Стране издвајају усаглашену количину снага и средстава, формирају и одржавају залихе материјално-техничких средстава.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan6">
+				<num>6.</num>
+				<paragraph wId="clan6-stav1">
+					<intro>
+						<p>Органи Страна надлежни за примену овог споразума су:</p>
+					</intro>
+					<point wId="clan6-stav1-tac1">
+						<num>1)</num>
+						<content>
+							<p> са српске Стране – Министарство унутрашњих послова Републике Србије;</p>
+						</content>
+					</point>
+					<point wId="clan6-stav1-tac2">
+						<num>2)</num>
+						<content>
+							<p> са руске Стране – Министарство Руске Федерације за цивилну заштиту, ванредне ситуације и уклањање последица елементарних непогода.</p>
+						</content>
+					</point>
+				</paragraph>
+			</article>
+			<article wId="clan7">
+				<num>7.</num>
+				<paragraph wId="clan7-stav1">
+					<content>
+						<p>Радно-правни статус српског особља Центра одређује се у складу са прописима Републике Србије.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav2">
+					<content>
+						<p>Руско особље Центра током његовог боравка на територији Републике Србије ужива правни статус утврђен за административно и техничко особље Амбасаде Руске Федерације, у складу са Бечком конвенцијом о дипломатским односима из 1961. године.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan8">
+				<num>8.</num>
+				<paragraph wId="clan8-stav1">
+					<content>
+						<p>Центар се оснива на основу почетних удела Страна.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan8-stav2">
+					<content>
+						<p>Почетни удео Страна укључује буџетска средства Руске Федерације и Републике Србије, као и покретну и непокретну имовину, коју Стране дају Центру на коришћење.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan9">
+				<num>9.</num>
+				<paragraph wId="clan9-stav1">
+					<content>
+						<p>Имовину Центра чине новчана средства и имовина коју су Стране предале на коришћење у својству почетног удела, као и имовина, новчана и друга средства и интелектуална својина, стечена током његовог рада.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan10">
+				<num>10.</num>
+				<paragraph wId="clan10-stav1">
+					<content>
+						<p>Средства за рад Центра не могу да буду предмет претреса, реквизиције, конфискације, експропријације или неког другог облика административног ни судског извршења.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan11">
+				<num>11.</num>
+				<paragraph wId="clan11-stav1">
+					<content>
+						<p>Органи управљања Центром су: Управни одбор, Дирекција и Надзорни одбор.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan12">
+				<num>12.</num>
+				<paragraph wId="clan12-stav1">
+					<content>
+						<p>Управни одбор је највиши орган управљања Центром.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan12-stav2">
+					<content>
+						<p>Свака Страна именује три члана Управног одбора, у року од месец дана од дана потписивања овог споразума.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan12-stav3">
+					<content>
+						<p>Управни одбор доноси одлуке консензусом, на начин предвиђен Статутом Центра.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan13">
+				<num>13.</num>
+				<paragraph wId="clan13-stav1">
+					<content>
+						<p>Дирекција Центра је извршни орган Центра.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan13-stav2">
+					<content>
+						<p>Дирекцију Центра чине директор Центра, кодиректор Центра, заменици директора Центра и чланови Дирекције, који се именују по принципу паритета.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan13-stav3">
+					<content>
+						<p>Директора, кодиректора Центра и заменике директора Центра именује Управни одбор, на две године. Након оснивања Центра првим на функцију директора именује се представник српске Стране.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan14">
+				<num>14.</num>
+				<paragraph wId="clan14-stav1">
+					<content>
+						<p>Надзорни одбор је надзорни орган Центра.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan14-stav2">
+					<content>
+						<p>Чланове Надзорног одбора Центра именују Стране по принципу паритета.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan15">
+				<num>15.</num>
+				<paragraph wId="clan15-stav1">
+					<content>
+						<p>Структура, начин функционисања и организација Центра и поступак реорганизације утврђују се Статутом Центра.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan16">
+				<num>16.</num>
+				<paragraph wId="clan16-stav1">
+					<content>
+						<p>Делатност Центра финансира се из:</p>
+					</content>
+				</paragraph>
+			</article>
+		</body>
+	</act>
+</akomaNtoso>

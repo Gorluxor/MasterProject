@@ -1,0 +1,541 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о амнестији">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2002/37-6/main"/>
+					<FRBRuri value="/rs/act/2002/37-6"/>
+					<FRBRdate date="2002-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2002/37-6/srp@/main"/>
+					<FRBRuri value="/rs/act/2002/37-6/srp@"/>
+					<FRBRdate date="2002-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2002/37-6/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2002/37-6/srp@.akn"/>
+					<FRBRdate date="2002-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2002-07-03" name="службени лист срј" number="37" showAs="Службени лист СРЈ"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="III ПРАВОСУЂЕ, КАЗНЕНО ЗАКОНОДАВСТВО И ПОСТУПЦИ" value="iii правосуђе, казнено законодавство и поступци" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="10. Рехабилитација, амнестија и помиловање" value="10. рехабилитација, амнестија и помиловање" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2002-07-02" wId="usvajanje"/>
+				<step by="#TODO" date="2002-07-11" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2002-07-11" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном листу СРЈ”, односно 11. јула 2002. године (види члан 9. Закона).</p>
+				</note>
+				<note wId="not2">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном листу СРЈ”, односно 11. јула 2002. године (види члан 9. Закона).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О амнестији „Службени лист СРЈ”, број 37 од 3. јула 2002.</p>
+			</longTitle>
+		</preface>
+		<body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Даје се амнестија лицима – југословенским држављанима, која су у периоду од 1. јануара 1999. године до 31. маја 2001. године на територији општина Прешево, Медвеђа и Бујановац учинила, односно за која постоји основана сумња да су учинила кривично дело тероризма из <ref wId="ref0" href="akn/rs/act/2002/37-6/srp@/!main~art_125" >члана 125. </ref>и кривично дело удруживања ради непријатељске делатности из <ref wId="ref1" href="akn/rs/act/2002/37-6/srp@/!main~art_136" >члана 136, </ref>прописана Кривичним законом Савезне Републике Југославије („<ref wId="ref2" href="akn/rs/act/76/44/srp@">Службени лист СФРЈ”, бр. 44/76, 36/77, 34/84, 37/84, 74/87, 57/89, 3/90, 38/90, 45/90, 54/90</ref> и „<ref wId="ref3" href="akn/rs/act/92/35/srp@">Службени лист СРЈ”, бр. 35/92, 16/93, 37/93, 24/94</ref> и 61/2001).</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan1-stav2">
+					<content>
+						<p>Амнестија из <ref wId="ref10" href="akn/rs/act/2002/37-6/srp@/!main~art_1__para_1" >става 1. овог</ref> члана обухвата и лица – југословенске држављане, која су учинила, односно за која постоји основана сумња да су учинила кривично дело тероризма из <ref wId="ref6" href="akn/rs/act/2002/37-6/srp@/!main~art_125" >члана 125. </ref>у вези са <ref wId="ref7" href="akn/rs/act/2002/37-6/srp@/!main~art_139" >чланом 139. </ref>ста. 1. и 3. и кривично дело удруживања ради непријатељске делатности из <ref wId="ref8" href="akn/rs/act/2002/37-6/srp@/!main~art_136" >члана 136. </ref>у вези са <ref wId="ref9" href="akn/rs/act/2002/37-6/srp@/!main~art_139" >чланом 139. </ref>ст. <ref wId="ref4" href="akn/rs/act/2002/37-6/srp@/!main~art_139__para_1" >1</ref>. и <ref wId="ref5" href="akn/rs/act/2002/37-6/srp@/!main~art_139__para_3" >3</ref>. Кривичног закона Савезне Републике Југославије.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan1-stav3">
+					<content>
+						<p>Амнестија из <ref wId="ref11" href="akn/rs/act/2002/37-6/srp@/!main~art_1__para_1->para_2" >ст. 1. и 2. овог</ref> члана обухвата ослобођење од кривичног гоњења и ослобођење од извршења казне.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Ако против лица из <ref wId="ref12" href="akn/rs/act/2002/37-6/srp@/!main~art_1" >члана 1. овог</ref> закона није покренут кривични поступак, поступак се неће покренути, а ако је кривични поступак у току – обуставиће се.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>Ако је лицу из <ref wId="ref13" href="akn/rs/act/2002/37-6/srp@/!main~art_1" >члана 1. овог</ref> закона правоснажно изречена казна затвора, ослободиће се од извршења те казне у целини или у делу који није извршен.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Аменстија не дира у права трећих лица која се заснивају на осуди.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan4">
+				<num>4.</num>
+				<paragraph wId="clan4-stav1">
+					<content>
+						<p>За лице против кога се води кривични поступак или је тај поступак правоснажно окончан, решење о амнестији доноси надлежни суд првог степена по службеној дужности.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan5">
+				<num>5.</num>
+				<paragraph wId="clan5-stav1">
+					<content>
+						<p>Ако се лице из <ref wId="ref14" href="akn/rs/act/2002/37-6/srp@/!main~art_1" >члана 1. </ref>на које се односи амнестија налази у притвору, надлежни првостепени суд донеће решење о укидању притвора.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan5-stav2">
+					<content>
+						<p>За лице из <ref wId="ref15" href="akn/rs/act/2002/37-6/srp@/!main~art_1" >члана 1. </ref>које се налази на издржавању казне затвора решење о ослобођењу од даљег издржавања казне донеће првостепени суд опште надлежности на чијем се подручју налази казнено-поправна установа.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan5-stav3">
+					<content>
+						<p>Решења из <ref wId="ref16" href="akn/rs/act/2002/37-6/srp@/!main~art_5__para_1->para_2" >ст. 1. и 2. овог</ref> члана донеће се по службеној дужности, у року од три дана од дана ступања на снагу овог закона.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan6">
+				<num>6.</num>
+				<paragraph wId="clan6-stav1">
+					<content>
+						<p>Решење из чл. <ref wId="ref17" href="akn/rs/act/2002/37-6/srp@/!main~art_4" >4</ref>. и <ref wId="ref18" href="akn/rs/act/2002/37-6/srp@/!main~art_5" >5</ref>. овог члана донеће се по службеној дужности, у року од три дана од дана ступања на снагу овог закона.</p>
+					</content>
+				</paragraph>
+				<article wId="clan6">
+					<num>6.</num>
+					<paragraph wId="clan6-stav1">
+						<content>
+							<p>Решење из чл. 4. и 5. овог закона може се донети и на захтев окривљеног или осуђеног лица или осуђеног лица или лица које у корист оптуженог може изјавити жалбу.</p>
+						</content>
+					</paragraph>
+				</article>
+			</article>
+			<article wId="clan7">
+				<num>7.</num>
+				<paragraph wId="clan7-stav1">
+					<content>
+						<p>Против решења о примени амнестије жалбу могу изјавити тужилац, окривљени и његов бранилац, осуђени и лице које је овлашћено да у корист оптуженог изјави жалбу ако је оно поднело захтев.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav2">
+					<content>
+						<p>Жалба из <ref wId="ref19" href="akn/rs/act/2002/37-6/srp@/!main~art_7__para_1" >става 1. овог</ref> члана не задржава извршење решења.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan8">
+				<num>8.</num>
+				<paragraph wId="clan8-stav1">
+					<content>
+						<p>Ако овим законом није друкчије одређено, поступак о примени амнестије по овом закону спроводи се по одредбама Законика о кривичном поступку.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan9">
+				<num>9.</num>
+				<paragraph wId="clan9-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном листу СРЈ”.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan9-stav2">
+					<content>
+						<p>ЗАКОН</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan9-stav3">
+					<content>
+						<p>о амнестији</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan9-stav4">
+					<content>
+						<p>„Службени лист СРЈ”, број 37 од 3.  јула 2002.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Даје се амнестија лицима – југословенским држављанима, која су у периоду од 1. јануара 1999. године до 31. маја 2001. године на територији општина Прешево, Медвеђа и Бујановац учинила, односно за која постоји основана сумња да су учинила кривично дело тероризма из члана 125. и кривично дело удруживања ради непријатељске делатности из члана 136, прописана Кривичним законом Савезне Републике Југославије („Службени лист СФРЈ”, бр. 44/76, 36/77, 34/84, 37/84, 74/87, 57/89, 3/90, 38/90, 45/90, 54/90 и „Службени лист СРЈ”, бр. 35/92, 16/93, 37/93, 24/94 и 61/2001).</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan1-stav2">
+					<content>
+						<p>Амнестија из става 1. овог члана обухвата и лица – југословенске држављане, која су учинила, односно за која постоји основана сумња да су учинила кривично дело тероризма из члана 125. у вези са чланом 139. ста. 1. и 3. и кривично дело удруживања ради непријатељске делатности из члана 136. у вези са чланом 139. ст. 1. и 3. Кривичног закона Савезне Републике Југославије.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan1-stav3">
+					<content>
+						<p>Амнестија из ст. 1. и 2. овог члана обухвата ослобођење од кривичног гоњења и ослобођење од извршења казне.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Ако против лица из члана 1. овог закона није покренут кривични поступак, поступак се неће покренути, а ако је кривични поступак у току – обуставиће се.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>Ако је лицу из члана 1. овог закона правоснажно изречена казна затвора, ослободиће се од извршења те казне у целини или у делу који није извршен.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Аменстија не дира у права трећих лица која се заснивају на осуди.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan4">
+				<num>4.</num>
+				<paragraph wId="clan4-stav1">
+					<content>
+						<p>За лице против кога се води кривични поступак или је тај поступак правоснажно окончан, решење о амнестији доноси надлежни суд првог степена по службеној дужности.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan5">
+				<num>5.</num>
+				<paragraph wId="clan5-stav1">
+					<content>
+						<p>Ако се лице из члана 1. на које се односи амнестија налази у притвору, надлежни првостепени суд донеће решење о укидању притвора.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan5-stav2">
+					<content>
+						<p>За лице из члана 1. које се налази на издржавању казне затвора решење о ослобођењу од даљег издржавања казне донеће првостепени суд опште надлежности на чијем се подручју налази казнено-поправна установа.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan5-stav3">
+					<content>
+						<p>Решења из ст. 1. и 2. овог члана донеће се по службеној дужности, у року од три дана од дана ступања на снагу овог закона.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan6">
+				<num>6.</num>
+				<paragraph wId="clan6-stav1">
+					<content>
+						<p>Решење из чл. 4. и 5. овог члана донеће се по службеној дужности, у року од три дана од дана ступања на снагу овог закона.</p>
+					</content>
+				</paragraph>
+				<article wId="clan6">
+					<num>6.</num>
+					<paragraph wId="clan6-stav1">
+						<content>
+							<p>Решење из чл. 4. и 5. овог закона може се донети и на захтев окривљеног или осуђеног лица или осуђеног лица или лица које у корист оптуженог може изјавити жалбу.</p>
+						</content>
+					</paragraph>
+				</article>
+			</article>
+			<article wId="clan7">
+				<num>7.</num>
+				<paragraph wId="clan7-stav1">
+					<content>
+						<p>Против решења о примени амнестије жалбу могу изјавити тужилац, окривљени и његов бранилац, осуђени и лице које је овлашћено да у корист оптуженог изјави жалбу ако је оно поднело захтев.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav2">
+					<content>
+						<p>Жалба из става 1. овог члана не задржава извршење решења.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan8">
+				<num>8.</num>
+				<paragraph wId="clan8-stav1">
+					<content>
+						<p>Ако овим законом није друкчије одређено, поступак о примени амнестије по овом закону спроводи се по одредбама Законика о кривичном поступку.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan9">
+				<num>9.</num>
+				<paragraph wId="clan9-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном листу СРЈ”.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan9-stav2">
+					<content>
+						<p>ЗАКОН</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan9-stav3">
+					<content>
+						<p>о амнестији</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan9-stav4">
+					<content>
+						<p>„Службени лист СРЈ”, број 37 од 3.  јула 2002.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Даје се амнестија лицима – југословенским држављанима, која су у периоду од 1. јануара 1999. године до 31. маја 2001. године на територији општина Прешево, Медвеђа и Бујановац учинила, односно за која постоји основана сумња да су учинила кривично дело тероризма из члана 125. и кривично дело удруживања ради непријатељске делатности из члана 136, прописана Кривичним законом Савезне Републике Југославије („Службени лист СФРЈ”, бр. 44/76, 36/77, 34/84, 37/84, 74/87, 57/89, 3/90, 38/90, 45/90, 54/90 и „Службени лист СРЈ”, бр. 35/92, 16/93, 37/93, 24/94 и 61/2001).</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan1-stav2">
+					<content>
+						<p>Амнестија из става 1. овог члана обухвата и лица – југословенске држављане, која су учинила, односно за која постоји основана сумња да су учинила кривично дело тероризма из члана 125. у вези са чланом 139. ста. 1. и 3. и кривично дело удруживања ради непријатељске делатности из члана 136. у вези са чланом 139. ст. 1. и 3. Кривичног закона Савезне Републике Југославије.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan1-stav3">
+					<content>
+						<p>Амнестија из ст. 1. и 2. овог члана обухвата ослобођење од кривичног гоњења и ослобођење од извршења казне.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Ако против лица из члана 1. овог закона није покренут кривични поступак, поступак се неће покренути, а ако је кривични поступак у току – обуставиће се.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>Ако је лицу из члана 1. овог закона правоснажно изречена казна затвора, ослободиће се од извршења те казне у целини или у делу који није извршен.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Аменстија не дира у права трећих лица која се заснивају на осуди.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan4">
+				<num>4.</num>
+				<paragraph wId="clan4-stav1">
+					<content>
+						<p>За лице против кога се води кривични поступак или је тај поступак правоснажно окончан, решење о амнестији доноси надлежни суд првог степена по службеној дужности.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan5">
+				<num>5.</num>
+				<paragraph wId="clan5-stav1">
+					<content>
+						<p>Ако се лице из члана 1. на које се односи амнестија налази у притвору, надлежни првостепени суд донеће решење о укидању притвора.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan5-stav2">
+					<content>
+						<p>За лице из члана 1. које се налази на издржавању казне затвора решење о ослобођењу од даљег издржавања казне донеће првостепени суд опште надлежности на чијем се подручју налази казнено-поправна установа.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan5-stav3">
+					<content>
+						<p>Решења из ст. 1. и 2. овог члана донеће се по службеној дужности, у року од три дана од дана ступања на снагу овог закона.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan6">
+				<num>6.</num>
+				<paragraph wId="clan6-stav1">
+					<content>
+						<p>Решење из чл. 4. и 5. овог члана донеће се по службеној дужности, у року од три дана од дана ступања на снагу овог закона.</p>
+					</content>
+				</paragraph>
+				<article wId="clan6">
+					<num>6.</num>
+					<paragraph wId="clan6-stav1">
+						<content>
+							<p>Решење из чл. 4. и 5. овог закона може се донети и на захтев окривљеног или осуђеног лица или осуђеног лица или лица које у корист оптуженог може изјавити жалбу.</p>
+						</content>
+					</paragraph>
+				</article>
+			</article>
+			<article wId="clan7">
+				<num>7.</num>
+				<paragraph wId="clan7-stav1">
+					<content>
+						<p>Против решења о примени амнестије жалбу могу изјавити тужилац, окривљени и његов бранилац, осуђени и лице које је овлашћено да у корист оптуженог изјави жалбу ако је оно поднело захтев.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav2">
+					<content>
+						<p>Жалба из става 1. овог члана не задржава извршење решења.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan8">
+				<num>8.</num>
+				<paragraph wId="clan8-stav1">
+					<content>
+						<p>Ако овим законом није друкчије одређено, поступак о примени амнестије по овом закону спроводи се по одредбама Законика о кривичном поступку.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan9">
+				<num>9.</num>
+				<paragraph wId="clan9-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном листу СРЈ”.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan9-stav2">
+					<content>
+						<p>ЗАКОН</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan9-stav3">
+					<content>
+						<p>о амнестији</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan9-stav4">
+					<content>
+						<p>„Службени лист СРЈ”, број 37 од 3.  јула 2002.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Даје се амнестија лицима – југословенским држављанима, која су у периоду од 1. јануара 1999. године до 31. маја 2001. године на територији општина Прешево, Медвеђа и Бујановац учинила, односно за која постоји основана сумња да су учинила кривично дело тероризма из члана 125. и кривично дело удруживања ради непријатељске делатности из члана 136, прописана Кривичним законом Савезне Републике Југославије („Службени лист СФРЈ”, бр. 44/76, 36/77, 34/84, 37/84, 74/87, 57/89, 3/90, 38/90, 45/90, 54/90 и „Службени лист СРЈ”, бр. 35/92, 16/93, 37/93, 24/94 и 61/2001).</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan1-stav2">
+					<content>
+						<p>Амнестија из става 1. овог члана обухвата и лица – југословенске држављане, која су учинила, односно за која постоји основана сумња да су учинила кривично дело тероризма из члана 125. у вези са чланом 139. ста. 1. и 3. и кривично дело удруживања ради непријатељске делатности из члана 136. у вези са чланом 139. ст. 1. и 3. Кривичног закона Савезне Републике Југославије.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan1-stav3">
+					<content>
+						<p>Амнестија из ст. 1. и 2. овог члана обухвата ослобођење од кривичног гоњења и ослобођење од извршења казне.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Ако против лица из члана 1. овог закона није покренут кривични поступак, поступак се неће покренути, а ако је кривични поступак у току – обуставиће се.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>Ако је лицу из члана 1. овог закона правоснажно изречена казна затвора, ослободиће се од извршења те казне у целини или у делу који није извршен.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Аменстија не дира у права трећих лица која се заснивају на осуди.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan4">
+				<num>4.</num>
+				<paragraph wId="clan4-stav1">
+					<content>
+						<p>За лице против кога се води кривични поступак или је тај поступак правоснажно окончан, решење о амнестији доноси надлежни суд првог степена по службеној дужности.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan5">
+				<num>5.</num>
+				<paragraph wId="clan5-stav1">
+					<content>
+						<p>Ако се лице из члана 1. на које се односи амнестија налази у притвору, надлежни првостепени суд донеће решење о укидању притвора.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan5-stav2">
+					<content>
+						<p>За лице из члана 1. које се налази на издржавању казне затвора решење о ослобођењу од даљег издржавања казне донеће првостепени суд опште надлежности на чијем се подручју налази казнено-поправна установа.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan5-stav3">
+					<content>
+						<p>Решења из ст. 1. и 2. овог члана донеће се по службеној дужности, у року од три дана од дана ступања на снагу овог закона.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan6">
+				<num>6.</num>
+				<paragraph wId="clan6-stav1">
+					<content>
+						<p>Решење из чл. 4. и 5. овог члана донеће се по службеној дужности, у року од три дана од дана ступања на снагу овог закона.</p>
+					</content>
+				</paragraph>
+				<article wId="clan6">
+					<num>6.</num>
+					<paragraph wId="clan6-stav1">
+						<content>
+							<p>Решење из чл. 4. и 5. овог закона може се донети и на захтев окривљеног или осуђеног лица или осуђеног лица или лица које у корист оптуженог може изјавити жалбу.</p>
+						</content>
+					</paragraph>
+				</article>
+			</article>
+			<article wId="clan7">
+				<num>7.</num>
+				<paragraph wId="clan7-stav1">
+					<content>
+						<p>Против решења о примени амнестије жалбу могу изјавити тужилац, окривљени и његов бранилац, осуђени и лице које је овлашћено да у корист оптуженог изјави жалбу ако је оно поднело захтев.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav2">
+					<content>
+						<p>Жалба из става 1. овог члана не задржава извршење решења.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan8">
+				<num>8.</num>
+				<paragraph wId="clan8-stav1">
+					<content>
+						<p>Ако овим законом није друкчије одређено, поступак о примени амнестије по овом закону спроводи се по одредбама Законика о кривичном поступку.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan9">
+				<num>9.</num>
+				<paragraph wId="clan9-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном листу СРЈ”.</p>
+					</content>
+				</paragraph>
+			</article>
+		</body>
+	</act>
+</akomaNtoso>

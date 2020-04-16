@@ -1,0 +1,215 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о потврђивању Споразума између Министарства унутрашњих послова Републике Србије и Федералне службе обезбеђења Руске Федерације о сарадњи и заједничком деловању">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2018/2-5/main"/>
+					<FRBRuri value="/rs/act/2018/2-5"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2018/2-5/srp@/main"/>
+					<FRBRuri value="/rs/act/2018/2-5/srp@"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2018/2-5/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2018/2-5/srp@.akn"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2018-03-27" name="службени гласник рс - међународни уговори" number="2" showAs="Службени гласник РС - Међународни уговори"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="II БЕЗБЕДНОСНА И ОДБРАМБЕНА ПОЛИТИКА" value="ii безбедносна и одбрамбена политика" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="4. Полицијска сарадња" value="4. полицијска сарадња" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2018-03-22" wId="usvajanje"/>
+				<step by="#TODO" date="2018-04-04" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2018-04-04" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Споразум између Министарства унутрашњих послова Републике Србије и Федералне службе обезбеђења Руске Федерације о сарадњи и заједничком деловању, ступио је на снагу 2. августа 2018. године (види Обавештење: Службени гласник РС - Међународни уговори, број 11/2018-109).</p>
+				</note>
+				<note wId="not2">
+					<p>Споразум између Министарства унутрашњих послова Републике Србије и Федералне службе обезбеђења Руске Федерације о сарадњи и заједничком деловању, ступио је на снагу 2. августа 2018. године (види Обавештење: Службени гласник РС - Међународни уговори, број 11/2018-109).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О потврђивању споразума између министарства унутрашњих послова републике србије и федералне службе обезбеђења руске федерације о сарадњи и заједничком деловању "Службени гласник РС - Међународни уговори", број 2 од 27. марта 2018.</p>
+			</longTitle>
+			<p>Александар Вучић, с.р.</p>
+		</preface>
+		<preamble>
+			<p>На основу члана 112. став 1. тачка 2. Устава Републике Србије, доносим</p>
+			<p>УКАЗ</p>
+			<p>о проглашењу Закона о потврђивању Споразума између Министарства унутрашњих послова Републике Србије и Федералне службе обезбеђења Руске Федерације о сарадњи и заједничком деловању</p>
+			<p>Проглашава се Закон о потврђивању Споразума између Министарства унутрашњих послова Републике Србије и Федералне службе обезбеђења Руске Федерације о сарадњи и заједничком деловању, који је донела Народна скупштина Републике Србије, на Првој седници Првог редовног заседања у 2018. години, 22. марта 2018. године.</p>
+			<p>ПР број 12</p>
+			<p>У Београду, 26. марта 2018. године</p>
+			<p>Председник Републике,</p>
+		</preamble>
+		<body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Потврђује се Споразум између Министарства унутрашњих послова Републике Србије и Федералне службе обезбеђења Руске Федерације о сарадњи и заједничком деловању, закључен у Москви, дана 23. маја 2017. године, у оригиналу на српском и руском језику.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Текст Споразума у оригина лу на српском језику гласи:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>Споразум</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav3">
+					<content>
+						<p>између</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav4">
+					<content>
+						<p>Министарства унутрашњих послова Републике Србије</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav5">
+					<content>
+						<p>и</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav6">
+					<content>
+						<p>Федералне службе обезбеђења Руске Федерације</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav7">
+					<content>
+						<p>о сарадњи и заједничком деловању</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav8">
+					<content>
+						<p>Министарство унутрашњих послова Републике Србије и Федерална служба обезбеђења Руске Федерације (у даљем тексту: Стране),</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav9">
+					<content>
+						<p>истичући међусобну заинтересованост за јачање и унапређење односа сарадње у области обезбеђења штићених лица, утврђених законодавством држава Страна,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav10">
+					<content>
+						<p>полазећи од узајамног поштовања, поверења и узимања у обзир интереса сваке од Страна,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav11">
+					<content>
+						<p>договориле су се о следећем:</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>У овом споразуму употребљавају се следећи основни појмови:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan1-stav2">
+					<content>
+						<p>безбедносна заштита јесу мере и радње усмерене ка обезбеђењу штићених лица и штићених објеката које се обављају на основу скупа организационих, заштитних, системских, техничких, информационих и других мера, у складу са законодавством држава Страна;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan1-stav3">
+					<content>
+						<p>обезбеђење јесте скуп активности усмерених ка обезбеђењу штићених лица и штићених објеката које Стране обављају самостално или уз ангажовање снага и средстава других државних органа надлежних за обезбеђење;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan1-stav4">
+					<content>
+						<p>штићено лице јесте лице које подлеже безбедносној заштити у складу са законодавством држава Страна;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan1-stav5">
+					<content>
+						<p>штићени објекти јесу зграде, грађевине, грађевински објекти и земљишне парцеле (водени објекти) које им припадају, територије (акваторије) које Стране штите у циљу обезбеђења штићених лица;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan1-stav6">
+					<content>
+						<p>гостујућа Страна јесте Страна која обезбеђује безбедносну заштиту из чије државе штићена лица долазе на територију државе друге Стране;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan1-stav7">
+					<content>
+						<p>Страна домаћин јесте Страна која обезбеђује безбедносну заштиту на територији чије државе се обавља обезбеђење штићених лица гостујуће Стране;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan1-stav8">
+					<content>
+						<p>унутрашња безбедност јесте стање ефикасне заштићености Стране од спољних и унутрашњих претњи које омогућава способност супротстављања различитим факторима који је угрожавају.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>У складу са законодавством својих држава Стране остварују заједничко деловање и координацију своје делатности у следећим основним правцима:</p>
+					</content>
+				</paragraph>
+			</article>
+			<subsection wId="podod1">
+				<num>а</num>
+				<heading> обезбеђење штићених лица и штићених објеката;</heading>
+			</subsection>
+			<subsection wId="podod2">
+				<num>б</num>
+				<heading> размена информација у вези са обезбеђењем штићених лица и штићених објеката;</heading>
+			</subsection>
+			<subsection wId="podod3">
+				<num>в</num>
+				<heading> коришћење материјала, техничких и превозних средстава, опреме, оружја, муниције, специјалних средстава, уређаја и средстава за везу приликом обављања безбедносне заштите;</heading>
+			</subsection>
+			<subsection wId="podod4">
+				<num>г</num>
+				<heading> обезбеђење унутрашње безбедности;</heading>
+			</subsection>
+			<subsection wId="podod5">
+				<num>д</num>
+				<heading> професионално образовање, допунско професионално образовање и специјалистичка обука;</heading>
+			</subsection>
+			<subsection wId="podod6">
+				<num>ђ</num>
+				<heading> разрада и реализација заједничких активности за неутрализацију компјутерских напада на државне информационе ресурсе од виталног значаја.</heading>
+				<article wId="podod6-clan3">
+					<num>3.</num>
+					<paragraph wId="podod6-clan3-stav1">
+						<content>
+							<p>У области обезбеђења штићених лица и штићених објеката Стране остварују заједничко деловање и координацију:</p>
+						</content>
+					</paragraph>
+				</article>
+			</subsection>
+		</body>
+	</act>
+</akomaNtoso>

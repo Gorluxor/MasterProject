@@ -1,0 +1,1754 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о потврђивању Протокола о привилегијама и имунитетима Центра за спровођење закона у југоисточној Европи">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2011/8-151/main"/>
+					<FRBRuri value="/rs/act/2011/8-151"/>
+					<FRBRdate date="2011-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2011/8-151/srp@/main"/>
+					<FRBRuri value="/rs/act/2011/8-151/srp@"/>
+					<FRBRdate date="2011-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2011/8-151/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2011/8-151/srp@.akn"/>
+					<FRBRdate date="2011-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2011-10-19" name="службени гласник рс - међународни уговори" number="8" showAs="Службени гласник РС - Међународни уговори"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="II БЕЗБЕДНОСНА И ОДБРАМБЕНА ПОЛИТИКА" value="ii безбедносна и одбрамбена политика" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="4. Полицијска сарадња" value="4. полицијска сарадња" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2011-10-18" wId="usvajanje"/>
+				<step by="#TODO" date="2011-10-27" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2011-10-27" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Протокол о привилегијама и имунитетима Центра за спровођење закона у Југоисточној Европи (SELEC), сачињен је 24. новембра 2010. године у Букурешту, објављен у „Службеном гласнику РС – Међународни уговори”, број 8/2011 и ступио је на снагу 12. јула 2014. године (види: Обавештење - Службени гласник РС - Међународни уговори - 8/2014-112).</p>
+				</note>
+				<note wId="not2">
+					<p>Протокол о привилегијама и имунитетима Центра за спровођење закона у Југоисточној Европи (SELEC), сачињен је 24. новембра 2010. године у Букурешту, објављен у „Службеном гласнику РС – Међународни уговори”, број 8/2011 и ступио је на снагу 12. јула 2014. године (види: Обавештење - Службени гласник РС - Међународни уговори - 8/2014-112).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О потврђивању протокола о привилегијама и имунитетима центра за спровођење закона у југоисточној европи "Службени гласник РС - Међународни уговори", број 8 од 19. октобра 2011.</p>
+			</longTitle>
+			<p>Борис Тадић, с.р.</p>
+		</preface>
+		<preamble>
+			<p>На основу члана 112. став 1. тачка 2. Устава Републике Србије, доносим</p>
+			<p>УКАЗ</p>
+			<p>о проглашењу Закона о потврђивању Протокола о привилегијама и имунитетима Центра за спровођење закона у југоисточној Европи</p>
+			<p>Проглашава се Закон о потврђивању Протокола о привилегијама и имунитетима Центра за спровођење закона у југоисточној Европи, који је донела Народна скупштина Републике Србије на Првој седници Другог редовног заседања у 2011. години, 18. октобра 2011. године.</p>
+			<p>ПР број 115</p>
+			<p>У Београду, 19. октобра 2011. године</p>
+			<p>Председник Републике,</p>
+		</preamble>
+		<body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Потврђује се Протокол о привилегијама и имунитетима Центра за спровођење закона у југоисточној Европи, потписан у Букурешту 24. новембра 2010. године, у оригиналу на енглеском језику.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Текст Протокола о привилегијама и имунитетима Центра за спровођење закона у југоисточној Европи, у оригиналу на енглеском језику и у преводу на српски језик, гласи:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>PROTOCOL ON THE PRIVILEGES AND IMMUNITIES OF THE SOUTHEAST EUROPEAN LAW ENFORCEMENT CENTER</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav3">
+					<content>
+						<p>The Parties to this Protocol,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav4">
+					<content>
+						<p>Considering that the Convention of the Southeast European Law Enforcement Center, done at Bucharest, Romania on December 9, 2009, provides that the Member States shall conclude a Protocol on the Privileges and Immunities of the Southeast European Law Enforcement Center,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav5">
+					<content>
+						<p>Have agreed as follows:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav6">
+					<content>
+						<p>Title I</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav7">
+					<content>
+						<p>General Provisions</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav8">
+					<content>
+						<p>Article 1Definitions</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav9">
+					<content>
+						<p>For the purposes of this Protocol:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav10">
+					<content>
+						<p>(a) „SELEC Convention“ means the Convention of the Southeast European Law Enforcement Center, done at Bucharest, Romania on December 9, 2009;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav11">
+					<content>
+						<p>(b) „SELEC“ means the Southeast European Law Enforcement Center;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav12">
+					<content>
+						<p>(c) „Host Country“ means the country where the headquarters of SELEC is located;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav13">
+					<content>
+						<p>(d) „Representatives of the Member States“ means members of national delegations participating in meetings convened by SELEC;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav14">
+					<content>
+						<p>(e) „SELEC Staff‘ means all persons working under the authority and control of the Director General and Directors;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav15">
+					<content>
+						<p>(f) „Director General“ means the Director General of SELEC;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav16">
+					<content>
+						<p>(g) „Directors“ means the Directors of the SELEC;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav17">
+					<content>
+						<p>(h) „Liaison Officers“ means the officers posted by the Member States to the SELEC headquarters;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav18">
+					<content>
+						<p>(i) „Meeting convened by SELEC“ means any meeting of any SELEC organ or a subsidiary body or any conference convened by SELEC;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav19">
+					<content>
+						<p>(j) „Property“ means all income of SELEC and all property, including funds, assets and other properties that belong to SELEC, either owned or held/administered by the SELEC, in accordance with the official duties performed by the SELEC;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav20">
+					<content>
+						<p>(k) „Premises“ means the buildings or parts of buildings including the land ancillary thereto, used only for the purposes of the SELEC, irrespective of ownership;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav21">
+					<content>
+						<p>(I) „Archives“ means all records, correspondence, documents, manuscripts, computer and media data, photographs, films, video, sound recordings and any other data, belonging to or held by SELEC.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav22">
+					<content>
+						<p>Article 2Implementation of the Protocol</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav23">
+					<content>
+						<p>SELEC shall cooperate at all times with the appropriate authorities of the Parties to facilitate the proper administration of justice and shall prevent any abuse of the privileges and immunities granted under the provisions of this Protocol.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav24">
+					<content>
+						<p>Title II</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav25">
+					<content>
+						<p>Privileges and Immunities of SELEC</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav26">
+					<intro>
+						<p>Article 3Immunity from Legal Process</p>
+					</intro>
+					<hcontainer name="subpoint" wId="clan2-stav26-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> SELEC and its property, wherever located and by whomsoever held, shall enjoy immunity from every form of legal process except insofar as in any particular case, the Council, by its decision, has authorized the waiver of this immunity. No such waiver of immunity shall extend to any measure of execution, for which a separate waiver shall be necessary.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="clan2-stav26-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Without prejudice to the previous paragraph, SELEC shall not enjoy immunity in respect of:</p>
+						</content>
+					</hcontainer>
+				</paragraph>
+				<paragraph wId="clan2-stav27">
+					<content>
+						<p>(a) a civil action based on a contractual obligation of SELEC;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav28">
+					<content>
+						<p>(b) a counter-claim directly connected to proceedings instituted by SELEC;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav29">
+					<content>
+						<p>(c) a civil action related to a breach of the rules on the protection of personal data as defined in the SELEC Convention;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav30">
+					<content>
+						<p>(d) a civil action for damages arising out of an accident caused by a vehicle, vessel, or aircraft belonging to or operated on behalf of the SELEC, where these damages are not recoverable from insurance.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav31">
+					<intro>
+						<p>Article 4 Inviolability</p>
+					</intro>
+					<hcontainer name="subpoint" wId="clan2-stav31-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> The premises of the SELEC shall be inviolable. Its property, wherever located and by whomsoever held, shall be immune from search, requisition, confiscation, expropriation or any other form of interference, whether by executive, administrative, judicial or legislative action.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="clan2-stav31-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> The archives of the SELEC shall be inviolable wherever located and by whomsoever held.</p>
+						</content>
+					</hcontainer>
+				</paragraph>
+				<paragraph wId="clan2-stav32">
+					<content>
+						<p>Article 5Flag and Emblem</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav33">
+					<content>
+						<p>SELEC shall be entitled to display its flag and emblem in its premises and on its means of transport when used for official purposes. The flags of the Member States shall be displayed in the SELEC premises.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav34">
+					<intro>
+						<p>Article 6Facilities and Immunities in Respect of Communications and Publications</p>
+					</intro>
+					<hcontainer name="subpoint" wId="clan2-stav34-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> The Parties shall permit SELEC to communicate freely and without the need for special permission, for all official purposes, and shall protect the right of SELEC to do so. SELEC shall have the right to use encrypted systems as well as codes and to dispatch and receive official correspondence and other official communications by courier or in sealed bags which shall be subject to the same privileges and immunities as diplomatic couriers and bags.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="clan2-stav34-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> SELEC shall enjoy, for its official communications, treatment not less favorable than that accorded by the Parties to the diplomatic missions of any state.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="clan2-stav34-podtac3">
+						<num>(3)</num>
+						<content>
+							<p> The Parties recognize the right of SELEC to publish within their territories for purposes specified in the SELEC Convention. All official communications directed to SELEC and all outward official communications of SELEC, by whatever means or whatever form transmitted shall be inviolable.</p>
+						</content>
+					</hcontainer>
+				</paragraph>
+				<paragraph wId="clan2-stav35">
+					<intro>
+						<p>Article 7Exemptions</p>
+					</intro>
+					<hcontainer name="subpoint" wId="clan2-stav35-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Within the scope of its official activities, SELEC and its property shall be exempt from:</p>
+						</content>
+					</hcontainer>
+				</paragraph>
+				<paragraph wId="clan2-stav36">
+					<content>
+						<p>(a) all direct taxes, whether levied by national, regional or municipal authorities; it is understood, however, that the SELEC shall not claim exemption from rates, taxes or dues which are no more than charges for public utility services;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav37">
+					<content>
+						<p>(b) customs duties, prohibitions or restrictions on the import or export of goods for official usage, provided that the goods imported are not to be sold or otherwise disposed of in the territory of the Party concerned, except under conditions approved by that Party;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav38">
+					<content>
+						<p>(c) customs duties, prohibitions or restrictions on the import or export of publications for official purposes;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav39">
+					<intro>
+						<p>(d) indirect taxation on goods and services, provided for official purposes, including value added tax on these goods and services, under the same conditions as are applied to diplomatic missions in the territory of the Party concerned.</p>
+					</intro>
+					<hcontainer name="subpoint" wId="clan2-stav39-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> The exemptions provided for in paragraph (1), point (d) of this Article may be granted by way of a refund under the same procedures as are applied to diplomatic missions in the territory of the Party concerned.</p>
+						</content>
+					</hcontainer>
+				</paragraph>
+				<paragraph wId="clan2-stav40">
+					<content>
+						<p>Article 8Freedom of Financial Assets from Restrictions</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav41">
+					<content>
+						<p>Without being subject to any financial controls or moratoria of any kind, SELEC may, within the territory of the Parties, freely:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav42">
+					<content>
+						<p>(a) purchase any currencies through authorized channels and hold and dispose of them; and</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav43">
+					<content>
+						<p>(b) operate accounts in any currency.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav44">
+					<content>
+						<p>Title III</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav45">
+					<content>
+						<p>Privileges and Immunities of the Persons Involved in the Work of SELEC</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav46">
+					<intro>
+						<p>Article 9Privileges and Immunities of the Representatives of the Member States</p>
+					</intro>
+					<hcontainer name="subpoint" wId="clan2-stav46-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> The Representatives of the Member States, while exercising their mission at SELEC and during their journey to and from the place of the meetings convened by SELEC, shall enjoy the following privileges and immunities:</p>
+						</content>
+					</hcontainer>
+				</paragraph>
+				<paragraph wId="clan2-stav47">
+					<content>
+						<p>(a) immunity from personal arrest or detention and from seizure of their personal baggage;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav48">
+					<content>
+						<p>(b) immunity from legal process of any kind in respect of words spoken or written and all acts done by them in their capacity as Representatives; this immunity shall continue to be accorded notwithstanding that the persons concerned may have ceased the exercise of their functions as representatives;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav49">
+					<content>
+						<p>(c) inviolability of official documentation, data and other official material in their possession;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav50">
+					<content>
+						<p>(d) the right to use codes and to receive papers or correspondence by courier or in sealed bags;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav51">
+					<content>
+						<p>(e) exemption in respect of themselves and their spouse from immigration restrictions and formalities for aliens registration in the Party they are visiting or through which they are passing in the exercise of their functions;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav52">
+					<content>
+						<p>(f) the same facilities in respect of currency or exchange restrictions as are accorded to representatives of foreign governments on temporary official missions;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav53">
+					<intro>
+						<p>(g) the same immunities and facilities in respect of their personal baggage as are accorded to diplomatic agents.</p>
+					</intro>
+					<hcontainer name="subpoint" wId="clan2-stav53-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Paragraph (1) of this Article shall not apply between a Representative and the Member State of which he/she is a national or permanent resident or he/she is or has been a Representative.</p>
+						</content>
+					</hcontainer>
+				</paragraph>
+				<paragraph wId="clan2-stav54">
+					<intro>
+						<p>Article 10Privileges and Immunities of Liaison Officers</p>
+					</intro>
+					<hcontainer name="subpoint" wId="clan2-stav54-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Liaison Officers shall be accorded, in the Host Country, in respect of themselves and the members of their family forming part of their household the privileges and immunities, exemptions and facilities accorded to diplomatic agents and the members of their family in accordance with the Vienna Convention on Diplomatic Relations of 18 April 1961.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="clan2-stav54-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Liaison Officers shall not engage in any gainful occupation in the Host Country other than the one resulting from their official functions at SELEC.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="clan2-stav54-podtac3">
+						<num>(3)</num>
+						<content>
+							<p> Liaison Officers who are nationals of or permanent residents in the Host Country shall enjoy immunity from legal process and inviolability only in respect of official acts performed in the exercise of their functions.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="clan2-stav54-podtac4">
+						<num>(4)</num>
+						<content>
+							<p> In the territory of Parties other than .the Host Country, Liaison Officers, while exercising their functions related to the work of the SELEC, shall enjoy the privileges and immunities applicable for Representatives of the Member States as specified in Article 9 with the exceptions of points (e) and (g) of Article 9, paragraph (1).</p>
+						</content>
+					</hcontainer>
+				</paragraph>
+				<paragraph wId="clan2-stav55">
+					<intro>
+						<p>Article 11Privileges and Immunities of the Director General, Directors and SELEC Staff</p>
+					</intro>
+					<hcontainer name="subpoint" wId="clan2-stav55-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> The Director General, Directors, and SELEC Staff shall:</p>
+						</content>
+					</hcontainer>
+				</paragraph>
+				<paragraph wId="clan2-stav56">
+					<content>
+						<p>(a) be immune from legal process, even after termination of their duties at the SELEC, in respect of words spoken or written and all acts performed by them in their official capacity and within the limit of their authority;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav57">
+					<content>
+						<p>(b) be exempt from taxation on the salaries, remuneration, and emoluments paid to them by the SELEC;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav58">
+					<content>
+						<p>(c) be exempt, together with the members of their family forming part of their household, from immigration restrictions and formalities for aliens registration;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav59">
+					<content>
+						<p>(d) be accorded the same facilities in respect of currency or exchange restrictions as are accorded to members of comparable rank of diplomatic missions;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav60">
+					<content>
+						<p>(e) be given, together with the members of their family forming part of their household, the same repatriation facilities in time of international crisis as accorded to members of comparable rank of diplomatic missions;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav61">
+					<content>
+						<p>(f) have the right, in the Host Country, in accordance with its laws and regulations, to import free of duty their furniture and effects, including a motor vehicle, at the time of first taking up their post and the right to export them free of duty upon termination of their functions in SELEC;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav62">
+					<content>
+						<p>(g) not be obliged to give evidence as a witness in connection to their official tasks; and</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav63">
+					<intro>
+						<p>(h) enjoy inviolability of all papers, documents and other official material related to SELEC.</p>
+					</intro>
+					<hcontainer name="subpoint" wId="clan2-stav63-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> In-addition to the privileges and immunities specified‘in paragraph (1) of this Article, the Director General and the Directors shall be accorded in the Host Country in respect of themselves and the members of their family forming part of their household the privileges and immunities, exemptions and facilities accorded to diplomatic agents and the members of their family in accordance with the Vienna Convention on Diplomatic Relations of 18 April 1961.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="clan2-stav63-podtac3">
+						<num>(3)</num>
+						<content>
+							<p> The privileges and immunities of the Director General, Directors, and SELEC Staff set forth in paragraph (1) of this Article, points (b) through (f), and paragraph (2) of this Article, shall not apply vis-a-vis the Party of which the individual is a national or permanent resident.</p>
+						</content>
+					</hcontainer>
+				</paragraph>
+				<paragraph wId="clan2-stav64">
+					<content>
+						<p>Article 12Privileges and Immunities of Representatives of Operational Partners</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav65">
+					<content>
+						<p>Representatives of Operational Partners who are posted to SELEC under a cooperation agreement shall be accorded the privileges and immunities that are accorded to Liaison Officers of the Member States, except to the extent those privileges and Immunities are limited by the cooperation agreement concluded between the Operational Partner and SELEC.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav66">
+					<intro>
+						<p>Article 13Notification</p>
+					</intro>
+					<hcontainer name="subpoint" wId="clan2-stav66-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Each Party shall notify the names and positions/functions of its Representatives and Liaison Officers, as well as the members of the Liaison Officers‘ family forming part of their household to the Director General and Depositary.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="clan2-stav66-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Each Operational Partner shall notify the names of its Representatives to the Director General and Depositary.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="clan2-stav66-podtac3">
+						<num>(3)</num>
+						<content>
+							<p> Director General shall specify on an updated list that shall be communicated to each Party the names and positions of persons listed below:</p>
+						</content>
+					</hcontainer>
+				</paragraph>
+				<paragraph wId="clan2-stav67">
+					<content>
+						<p>(a) Director General;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav68">
+					<content>
+						<p>(b) Directors;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav69">
+					<content>
+						<p>(c) Members of SELEC Staff;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav70">
+					<content>
+						<p>(d) Liaison Officers; and</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav71">
+					<content>
+						<p>(e) Representatives of Operational Partners.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav72">
+					<content>
+						<p>Article 14Entry, Stay, Departure and Transit</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav73">
+					<content>
+						<p>The Parties shall facilitate, if necessary, the entry into and stay in the territory of a Party and shall not put any impediment in the way of the departure from that Party of the persons listed below where that entry or stay is related to SELEC‘s official activity, and shall ensure that no impediment is put in the way of their transit to or from a place of official business in connection with SELEC:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav74">
+					<content>
+						<p>(a) the Representatives of Member States;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav75">
+					<content>
+						<p>(b) the Liaison Officers; and</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav76">
+					<content>
+						<p>(c) the Director General, Directors, and SELEC Staff.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav77">
+					<intro>
+						<p>Article 15Duration of Privileges and Immunities</p>
+					</intro>
+					<hcontainer name="subpoint" wId="clan2-stav77-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> In the territory of the Host Country, each person entitled to privileges and immunities in accordance with this Title shall enjoy those privileges and immunities from the moment he/she enters the Host Country on proceeding to take up his/her post or, if already in the Host Country, from the moment his/her arrival is notified by the sending Party to the competent authorities of the Host Country. When the functions of these persons come to an end, privileges and immunities that they enjoy in the Host Country shall normally cease at the moment when they leave the Host Country, or on expiry of a reasonable period in which to do so. However, with respect to the acts done by those persons in the exercise of their functions, immunity shall continue.to subsist.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="clan2-stav77-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> While exercising his/her official business in a connection with SELEC in the territory of the Parties other than the Host Country, each person entitled to privileges and immunities in accordance with this Title shall enjoy those privileges and immunities from the moment he/she enters the territory and during his/her stay in the territory of the Party concerned. However, it is understood that nothing in this Protocol shall prevent the relevant authorities of the Parties to require a reasonable evidence provided by SELEC confirming that the persons claiming the treatment provided in this Protocol are travelling on the official business of SELEC.</p>
+						</content>
+					</hcontainer>
+				</paragraph>
+				<paragraph wId="clan2-stav78">
+					<content>
+						<p>Article 16Limitation of Immunities</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav79">
+					<content>
+						<p>Immunity from legal process shall not apply in respect of a civil action for damages arising from an accident in the territory of a Party caused by a vehicle, vessel or aircraft operated by any Representative of a Member State, Liaison Officer, Director General, Director, member of the SELEC Staff, or Representative of an Operational Partner, nor shall immunity from legal process apply in respect of a traffic offense.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav80">
+					<intro>
+						<p>Article 17Waiver of Immunities</p>
+					</intro>
+					<hcontainer name="subpoint" wId="clan2-stav80-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Privileges and immunities in this Protocol are accorded not for the personal benefit of individuals themselves, but in order to safeguard the independent exercise of their functions in connection with SELEC.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="clan2-stav80-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Without prejudice to their privileges and immunities, it is the duty of all persons enjoying such privileges and immunities in accordance with this Protocol to respect the laws and regulations of the Host Country and other Parties.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="clan2-stav80-podtac3">
+						<num>(3)</num>
+						<content>
+							<p> Competence of waiving immunity shall be as follows:</p>
+						</content>
+					</hcontainer>
+				</paragraph>
+				<paragraph wId="clan2-stav81">
+					<content>
+						<p>(a) in respect of Representatives of the Member States and Liaison Officers the waiving of immunity shall be within the competence of the sending Party. Such Party shall have the right and duty to waive the immunity in cases where, in its opinion, the immunity would impede the course of justice and would not prejudice the purposes for which the immunity is accorded;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav82">
+					<content>
+						<p>(b) in respect of the Director General and the Directors, the Council shall have the right and duty to waive the immunity where the immunity would impede the course of justice and can be waived without prejudice to the interests of SELEC;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav83">
+					<content>
+						<p>(c) in respect of a member of the SELEC Staff; the Director General shall have the right and duty to waive the immunity where the immunity would impede the course of justice and can be waived without prejudice to the interests of SELEC;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav84">
+					<intro>
+						<p>(d) in respect of Representatives of an Operational Partner, the waiving of immunity shall be within the competence of the sending Operational Partner. Such Operational Partner shall have the right and duty to waive the immunity in cases where, in its opinion, the immunity would impede the course of justice and would not prejudice the purposes for which the immunity is accorded.</p>
+					</intro>
+					<hcontainer name="subpoint" wId="clan2-stav84-podtac4">
+						<num>(4)</num>
+						<content>
+							<p> No such waiver of immunity shall extend to any measure of execution, for which a separate waiver shall be necessary.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="clan2-stav84-podtac5">
+						<num>(5)</num>
+						<content>
+							<p> SELEC shall cooperate at all times with the competent authorities of the Parties and Operational Partners in order to facilitate the proper administration of justice and shall prevent any abuse of the privileges and immunities granted under the provisions of this Protocol.</p>
+						</content>
+					</hcontainer>
+				</paragraph>
+				<paragraph wId="clan2-stav85">
+					<content>
+						<p>Title IV</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav86">
+					<content>
+						<p>Final provisions</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav87">
+					<intro>
+						<p>Article 18Signature, Ratification, Acceptance, Approval and Accession</p>
+					</intro>
+					<hcontainer name="subpoint" wId="clan2-stav87-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> This Protocol shall be open for signature by the signatory States to the SELEC Convention.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="clan2-stav87-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> This Protocol is subject to ratification, acceptance or approval by the signatory States in accordance with their respective legal requirements.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="clan2-stav87-podtac3">
+						<num>(3)</num>
+						<content>
+							<p> After its entry into force, any other Party to the SELEC Convention may accede to this Protocol.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="clan2-stav87-podtac4">
+						<num>(4)</num>
+						<content>
+							<p> Instruments of ratification, acceptance, approval or accession shall be deposited with the Depositary.</p>
+						</content>
+					</hcontainer>
+				</paragraph>
+				<paragraph wId="clan2-stav88">
+					<content>
+						<p>Article 19Reservations</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav89">
+					<content>
+						<p>No reservations may be made to this Protocol.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav90">
+					<intro>
+						<p>Article 20Entry into Force and Duration of the Protocol</p>
+					</intro>
+					<hcontainer name="subpoint" wId="clan2-stav90-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> This Protocol shall enter into force on the sixtieth day following the date when nine signatory States have deposited their instruments of ratification, acceptance or approval.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="clan2-stav90-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> For each State which ratifies, accepts, approves or accedes to this Protocol after the date of its entry into force, this Protocol shall enter into force on the date of the deposit by that State of its respective instruments.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="clan2-stav90-podtac3">
+						<num>(3)</num>
+						<content>
+							<p> This Protocol shall remain in force so long as the SELEC Convention remains in force.</p>
+						</content>
+					</hcontainer>
+				</paragraph>
+				<paragraph wId="clan2-stav91">
+					<intro>
+						<p>Article 21Amendments</p>
+					</intro>
+					<hcontainer name="subpoint" wId="clan2-stav91-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> This Protocol may be amended on the proposal of any Party.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="clan2-stav91-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Any such proposal shall be communicated by the Director General to the Parties at least six months before submission to the Council for consideration and approval.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="clan2-stav91-podtac3">
+						<num>(3)</num>
+						<content>
+							<p> Amendments to this Protocol approved pursuant to paragraph (2) above shall be subject to ratification, acceptance or approval by the Parties and shall enter into force according to the procedures set forth in Article 20.</p>
+						</content>
+					</hcontainer>
+				</paragraph>
+				<paragraph wId="clan2-stav92">
+					<content>
+						<p>Article 22Settlement of Disputes</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav93">
+					<content>
+						<p>In case of a dispute between two or more Parties or between a Party and SELEC concerning the interpretation or application of this Protocol, the parties concerned shall seek a solution through mutual consultations and negotiations. Should such consultations and negotiations fail to resolve the dispute within six months, the parties shall submit the dispute to the Council for consideration and appropriate action.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav94">
+					<intro>
+						<p>Article 23Withdrawal</p>
+					</intro>
+					<hcontainer name="subpoint" wId="clan2-stav94-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Each Party may withdraw from this Protocol at any time by written notification to the SELEC Secretariat and to the Depositary, which shall then transmit a certified copy of that notification to each Party.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="clan2-stav94-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Each Party that withdraws from the SELEC Convention, according to the procedures set forth in Article 51 of that Convention, withdraws at the same time from this Protocol.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="clan2-stav94-podtac3">
+						<num>(3)</num>
+						<content>
+							<p> Withdrawal shall take effect three months from the date on which the notification was received by the Depositary.</p>
+						</content>
+					</hcontainer>
+				</paragraph>
+				<paragraph wId="clan2-stav95">
+					<intro>
+						<p>Article 24Depositary</p>
+					</intro>
+					<hcontainer name="subpoint" wId="clan2-stav95-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> The Government of Romania shall act as Depositary of this Protocol.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="clan2-stav95-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> The Depositary shall transmit a certified copy of the original to the Secretariat of the United Nations for registration and publication in accordance with Article 102 of the Charter of the United Nations.</p>
+						</content>
+					</hcontainer>
+				</paragraph>
+				<paragraph wId="clan2-stav96">
+					<content>
+						<p>The original of this Protocol in a single copy in the English language shall be deposited with the Depositary which shall transmit a certified copy to each Party.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav97">
+					<content>
+						<p>IN WITNESS WHEREOF, the undersigned, being duly authorized by their respective Governments, have signed this Protocol</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav98">
+					<content>
+						<p>Done at Bucharest, Romania on November 24, 2010.</p>
+					</content>
+				</paragraph>
+				<paragraph class="special" wId="clan2-stav99">
+					<content>
+						<table>
+							
+
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>Charge d’affaires – Embassy</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>H.E. Mr. Luan TOPCIU</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>Deputy Minister – Ministry of Security</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>H.E. Mr. Samir RIZVO</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>Ambassador Extraordinary </p>
+									
+
+								</td>
+								
+
+								<td>
+									<p>
+</p>
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>and Plenipotentiary</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>H.E.Мr. Valentin RADOMIRSKI</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>Assistant Director General – </p>
+									
+
+								</td>
+								
+
+								<td>
+									<p>
+</p>
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>Customs Directorate</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>Mrs Ivana SOIC</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>Ambassador Extraordinary </p>
+									
+
+								</td>
+								
+
+								<td>
+									<p>
+</p>
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>and Plenipotentiary</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>H.E. Mr. Ljupco ARSOVSKI</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>Ambassador Extraordinary </p>
+									
+
+								</td>
+								
+
+								<td>
+									<p>
+</p>
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>and Plenipotentiary</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>H.E. Mr. Georgios POUKAMISSAS</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>Police Brigadier General, Deputy High </p>
+									
+
+								</td>
+								
+
+								<td>
+									<p>
+</p>
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>Commissioner – Police</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>Mr. Attila PETOFI</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>Deputy Minister - Ministry of Internal Affairs </p>
+									
+
+								</td>
+								
+
+								<td>
+									<p>
+</p>
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>and Public Administration</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>H.E. Mr. Vladimir VUKOTIC</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>Head of Schengen Department –Ministry </p>
+									
+
+								</td>
+								
+
+								<td>
+									<p>
+</p>
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>of Administration and Interior</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>Mr. Marian TUTILESCU</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>Ambassador Extraordinary </p>
+									
+
+								</td>
+								
+
+								<td>
+									<p>
+</p>
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>and Plenipotentiary</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>H.E.Mr. Zoran POPOVIC</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>Deputy Director General – Police</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>Mrs. Tatjana BOBNAR</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>Deputy Director General –</p>
+									
+
+								</td>
+								
+
+								<td>
+									<p>
+</p>
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>Undersecretariat of Customs</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>Mr. Mehmet GUZEL</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+
+						</table>
+						
+
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav100">
+					<content>
+						<p>ПРОТОКОЛ О ПРИВИЛЕГИЈАМА И ИМУНИТЕТИМА ЦЕНТРА ЗА СПРОВОЂЕЊЕ ЗАКОНА У ЈУГОИСТОЧНОЈ ЕВРОПИ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav101">
+					<content>
+						<p>Чланице овог Протокола,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav102">
+					<content>
+						<p>Имајући у виду да Конвенција о оснивању Центра за спровођењу закона у југоисточној Европи, сачињена у Букурешту, Румунији, 9. децембра 2009. године, предвиђа да ће државе чланице закључити Протокол о привилегијама и имунитетима Центра за спровођење закона у југоисточној Европи,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav103">
+					<content>
+						<p>Договориле су се о следећем:</p>
+					</content>
+				</paragraph>
+			</article>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОПШТЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>За потребе овог Протокола:</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav2">
+						<content>
+							<p>(а) „SELEC Конвенција” означава Конвенцију о оснивању Центра за спровођење закона у југоисточној Европи, сачињену у Букурешту, Румунији, 9. децембра 2009. године;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav3">
+						<content>
+							<p>(б) „SELEC” означава Центар за спровођење закона у југоисточној Европи;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav4">
+						<content>
+							<p>(в) „Држава седишта” означава државу у којој се налази седиште SELEC;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav5">
+						<content>
+							<p>(г) „Представници држава чланица“ означава чланове националних делегација које учествују на састанцима које сазива SELEC;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav6">
+						<content>
+							<p>(д) „особље SELEC” означава сва лица која раде под руководством и контролом генералног директора и директора;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav7">
+						<content>
+							<p>(ђ) „Генерални директор” означава генералног директора SELEC;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav8">
+						<content>
+							<p>(е) „Директори” означава директоре SELEC;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav9">
+						<content>
+							<p>(ж) „официри за везу” означава официре које постављају државе чланице при седишту SELEC;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav10">
+						<content>
+							<p>(з) „Састанци које сазива SELEC” означава било који састанак било ког органа SELEC или његовог помоћног органа, односно било какву конференцију коју сазива SELEC;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav11">
+						<content>
+							<p>(и) „Имовина” означава све приходе SELEC и сву имовину, укључујући фондове, активу или другу имовину која припада SELEC, било да се налази у власништву или да њиме располаже SELEC у складу са службеним дужностима које SELEC врши;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav12">
+						<content>
+							<p>(ј) „Просторије” означавају зграде или делове зграде укључујући припадајуће земљиште, које се користе искључиво за потребе SELEC, независно од тога ко је њихов власник;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav13">
+						<content>
+							<p>(к) „Архивa” означава све записе, преписку, документе, рукописе, компјутерске и друге податке, фотографије, филмове, видео и звучне записе и било које друге податке који припадају или који су у поседу SELEC.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>SELEC ће све време сарађивати са свим надлежним органима чланица како би омогућио адекватно спровођење правде и спречио било какву злоупотребу привилегија и имунитета који су предвиђени одредбама овог протокола.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ПРИВИЛЕГИЈЕ И ИМУНИТЕТИ SELEC</heading>
+				<article wId="gla2-clan3">
+					<num>3.</num>
+					<hcontainer name="subpoint" wId="gla2-clan3-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> SELEC и његова имовина, без обзира где се налази и у чијем је поседу, ужива имунитет од сваког облика правног поступка осим уколико се у било ком конкретном случају Савет, својом одлуком, не одрекне тог имунитета. Такво одрицање од имунитета неће се односити на било какву меру извршења, за коју је потребно посебно одрицање.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="gla2-clan3-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Независно од одредбе претходног става SELEC неће уживати имунитет у вези са:</p>
+						</content>
+					</hcontainer>
+					<paragraph wId="gla2-clan3-stav1">
+						<content>
+							<p>(а) парничним поступком који се односи на уговорну обавезу SELEC;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan3-stav2">
+						<content>
+							<p>(б) противтужбом која је непосредно повезана са поступком који је покренуо SELEC;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan3-stav3">
+						<content>
+							<p>(в) парничним поступком који се односи на повреду права заштите личних података како је то дефинисано Конвенцијом SELEC;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan3-stav4">
+						<content>
+							<p>(г) парничним поступком за штету почињену у несрећи коју је проузроковало возило, пловни објекат или ваздухоплов која припада или којим се управља у име SELEC, уколико се та штета не може надокнадити из осигурања.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan4">
+					<num>4.</num>
+					<hcontainer name="subpoint" wId="gla2-clan4-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Просторије SELEC су неповредиве. Његова имовина, без обзира где да се налази и у чијем је поседу, биће изузета од претреса, реквизиције, конфискације, експропријације и било каквог ометања у извршном, управном, административном, судском или законодавном поступку.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="gla2-clan4-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Архива SELEC је неповредива без обзира где се налази и у чијем је поседу.</p>
+						</content>
+					</hcontainer>
+				</article>
+				<article wId="gla2-clan5">
+					<num>5.</num>
+					<paragraph wId="gla2-clan5-stav1">
+						<content>
+							<p>SELEC има право да истакне своју заставу и симбол на просторијама и на превозним средствима када се она употребљавају у службене сврхе. Застава држава чланица ће бити истакнуте у просторијама SELEC.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan6">
+					<num>6.</num>
+					<hcontainer name="subpoint" wId="gla2-clan6-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Чланице ће дозволити да SELEC слободно општи, без потребе да прибавља посебна одобрења, у све службене сврхе, и штитиће право SELEC на слободу општења. SELEC има право да употребљава шифроване системе и кодове и да шаље и прима службену преписку и друга службена обавештења путем курира или у запечаћеним врећама које ће уживати исте привилегије и имунитете као дипломатски курири и пошиљке.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="gla2-clan6-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> SELEC ће, када је у питању службено општење, уживати третман који није мање повољан од оног који чланице гарантују дипломатским мисијама било које друге државе.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="gla2-clan6-podtac3">
+						<num>(3)</num>
+						<content>
+							<p> Чланице на својој територији признају право SELEC на објављивање у сврхе утврђене у Конвенцији SELEC. Службена преписка упућена SELEC и сва службена преписка коју SELEC упућује, било којим средством и у било којој форми биће неповредива.</p>
+						</content>
+					</hcontainer>
+				</article>
+				<article wId="gla2-clan7">
+					<num>7.</num>
+					<hcontainer name="subpoint" wId="gla2-clan7-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> У оквиру службених активности, SELEC и његова имовина изузети су од:</p>
+						</content>
+					</hcontainer>
+					<paragraph wId="gla2-clan7-stav1">
+						<content>
+							<p>(а) свих директних пореза без обзира да ли су наметнути од стране државних, регионалних или општинских власти. Међутим, ово не значи да SELEC може да тражи изузеће када су у питању порези, таксе или дажбине које представљају накнаду за пружене јавне услуге;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav2">
+						<content>
+							<p>(б) царина, забрана и ограничења у погледу увоза или извоза предмета за службену употребу, под условом да се предмети који се увозе неће продавати или ће се њима на други начин располагати на територији односне Стране, изузев под условима које та Страна одобри;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav3">
+						<content>
+							<p>(в) царинских дажбина, забрана или ограничења на увоз или извоз публикација за службене сврхе;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav4">
+						<intro>
+							<p>(г) индиректних пореза на робу или услуге, који су намењени службеним потребама, укључујући порез на додату вредност на ту робу и услуге, под истим условима који се примењују на дипломатске мисије на територији односне Стране.</p>
+						</intro>
+						<hcontainer name="subpoint" wId="gla2-clan7-stav4-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Изузетци предвиђени у ставу (1) тачка (г) овог члана могу се обезбедити путем надокнаде у истом поступку који се примењује на дипломатске мисије на територији односне Стране.</p>
+							</content>
+						</hcontainer>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan8">
+					<num>8.</num>
+					<paragraph wId="gla2-clan8-stav1">
+						<content>
+							<p>SELEC неће бити предмет било каквих финансијских контрола или забрана и може на територији Стране слободно да:</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav2">
+						<content>
+							<p>(а) купује било какву валуту путем званичних канала и да поседује и располаже истом и</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav3">
+						<content>
+							<p>(б) поседује рачуне у било којој валути.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>ПРИВИЛЕГИЈЕ И ИМУНИТЕТИ ЛИЦА КОЈА УЧЕСТВУЈУ У РАДУ SELEC</heading>
+				<article wId="gla3-clan9">
+					<num>9.</num>
+					<hcontainer name="subpoint" wId="gla3-clan9-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Представници држава чланица, док врше своју мисију у SELEC и док путују ка месту и из места у којем се одржава састанак SELEC, уживаће следеће привилегије и имунитете:</p>
+						</content>
+					</hcontainer>
+					<paragraph wId="gla3-clan9-stav1">
+						<content>
+							<p>(а) имунитет од хапшења, задржавања и заплене личног пртљага;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan9-stav2">
+						<content>
+							<p>(б) имунитет од судског поступка у вези са усменим и писменим изјавама и свим радњама извршеним у својству представника. Овај имунитет ће се продужити и када лице на које се односи престане да врши функцију представника;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan9-stav3">
+						<content>
+							<p>(в) неповредивост службене документације, података и других службених материјала који се налазе у њиховом поседу;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan9-stav4">
+						<content>
+							<p>(г) право да употребљавају шифру и примају документе или преписку куриром или у запечаћеним пакетима;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan9-stav5">
+						<content>
+							<p>(д) лично изузеће и изузеће брачног друга од имиграционих ограничења и формалности које се односе на регистрацију странаца у Страни коју посећују или кроз коју пролазе у вршењу своје функције;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan9-stav6">
+						<content>
+							<p>(ђ) исте олакшице у погледу валуте или ограничења у размени валуте које се додељују представницима страних влада који се налазе у временски ограниченим службеним мисијама;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan9-stav7">
+						<intro>
+							<p>(е) исте имунитете и олакшице у вези са личним пртљагом као што се додељују дипломатским представницима.</p>
+						</intro>
+						<hcontainer name="subpoint" wId="gla3-clan9-stav7-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Став (1) овог члана неће се применити између представника и државе чланице чији је то лице држављанин или у којој има стално боравиште или чији јесте или је био представник.</p>
+							</content>
+						</hcontainer>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan10">
+					<num>10.</num>
+					<hcontainer name="subpoint" wId="gla3-clan10-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Официру за везу у држави седишта и члановима његове породице који са њим живе у заједничком домаћинству припадају исте привилегије и имунитети, ослобођења и олакшице које се признају дипломатским представницима и члановима њихових породица, у складу са Бечком конвенцијом о дипломатским односима од 18. априла 1961. године.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="gla3-clan10-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Официр за везу неће обављати никакву лукративну делатност у држави седишта, осим оне која је у вези са његовим службеним функцијама у SELEC.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="gla3-clan10-podtac3">
+						<num>(3)</num>
+						<content>
+							<p> Официр за везу који има држављанство или стално боравиште у држави седишта ужива имунитете од правног поступка и неповредивост само у вези са службеним радњама које обавља вршећи своју функцију.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="gla3-clan10-podtac4">
+						<num>(4)</num>
+						<content>
+							<p> На територији Стране која није држава седишта официр за везу, док врши своје функције везане за свој раду у SELEC, уживаће привилегије и имунитете који се примењују на представнике држава чланица, као што је предвиђено чланом 9, изузимајући тачке (д) и (е) става (1) члана 9.</p>
+						</content>
+					</hcontainer>
+				</article>
+				<article wId="gla3-clan11">
+					<num>11.</num>
+					<hcontainer name="subpoint" wId="gla3-clan11-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Генерални директор, директори и особље SELEC ће:</p>
+						</content>
+					</hcontainer>
+					<paragraph wId="gla3-clan11-stav1">
+						<content>
+							<p>(а) уживати имунитет од правног поступка чак и након престанка њихових дужности у SELEC, у вези са датим усменим и писменим изјавама и свим радњама извршеним у службеном својству и у оквиру својих овлашћења;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan11-stav2">
+						<content>
+							<p>(б) бити изузети од такси на плате, награде и приходе које им је исплатио SELEC;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan11-stav3">
+						<content>
+							<p>(в) бити изузети, заједно са члановима своје породице који чине њихово породично домаћинство, од имиграционих ограничења, формалности и регистрације странаца;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan11-stav4">
+						<content>
+							<p>(г) уживати исте олакшице у погледу валуте или ограничења замене исте као чланови дипломатских мисија одговарајућег ранга;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan11-stav5">
+						<content>
+							<p>(д) уживати, заједно са члановима своје породице који чине њихово породично домаћинство, исте олакшице у погледу репатријације у време међународних криза које се додељују члановима дипломатских мисија одговарајућег ранга;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan11-stav6">
+						<content>
+							<p>(ђ) имати право да у држави седишта, у складу са њеним законима и другим прописима, увозе без плаћања царине намештај и покућство, укључујући и моторно возило, када први пут преузимају дужност, као и право да исте извезу без плаћања царине након окончања њихових функција у SELEC;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan11-stav7">
+						<content>
+							<p>(е) бити изузети од обавезе да пруже доказе у својству сведока у вези са својим службеним задацима и</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan11-stav8">
+						<intro>
+							<p>(ж) уживати неповредивост када су у питању папири и документи и други службени материјал који се односи на SELEC.</p>
+						</intro>
+						<hcontainer name="subpoint" wId="gla3-clan11-stav8-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Поред привилегија и имунитета наведених у ставу (1) овог члана, генерални директор и директори, као и чланови њихових породица који чине њихово породично домаћинство, у држави седишта уживаће право на привилегије, имунитете, изузећа и олакшице које се признају дипломатским представницима и члановима њихових домаћинстава у складу са Бечком конвенцијом о дипломатским односима од 18. априла 1961. године.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla3-clan11-stav8-podtac3">
+							<num>(3)</num>
+							<content>
+								<p> Генерални директор, директор и особље SELEC неће уживати привилегије и имунитете наведене у ставу (1) овог члана у тачкама од (б) до (ђ) и ставу (2) овог члана у односу на Страну чије држављанство поседују, односно у којој имају стално боравиште.</p>
+							</content>
+						</hcontainer>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan12">
+					<num>12.</num>
+					<paragraph wId="gla3-clan12-stav1">
+						<content>
+							<p>Представницима оперативних партнера који су постављени при SELEC на основу уговора о сарадњи биће признате привилегије и имунитети који се признају официрима за везу држава чланица, осим уколико обим привилегија и имунитета није ограничен уговором о сарадњи закљученим између оперативног партнера и SELEC у ком случају им се признају у уговором предвиђеном обиму.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan13">
+					<num>13.</num>
+					<hcontainer name="subpoint" wId="gla3-clan13-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Свака страна ће обавестити генералног директора и депозитара о именима, звањима, односно функцијама својих представника, официра за везу, као и члановима породице официра за везу који са њим живе у заједничком домаћинству.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="gla3-clan13-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Сваки оперативни партнер ће обавестити генералног директора и депозитара о именима својих представника.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="gla3-clan13-podtac3">
+						<num>(3)</num>
+						<content>
+							<p> Генерални директор ће на ажурираној листи која ће бити достављена свакој Страни навести имена и позицију доле наведених лица:</p>
+						</content>
+					</hcontainer>
+					<paragraph wId="gla3-clan13-stav1">
+						<content>
+							<p>(а) генералног директора;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan13-stav2">
+						<content>
+							<p>(б) директора;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan13-stav3">
+						<content>
+							<p>(в) чланова особља SELEC;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan13-stav4">
+						<content>
+							<p>(г) официра за везу и</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan13-stav5">
+						<content>
+							<p>(д) представника оперативних партнера.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan14">
+					<num>14.</num>
+					<paragraph wId="gla3-clan14-stav1">
+						<content>
+							<p>Лицима која су доле наведена Стране ће, уколико је то потребно, олакшати улазак и боравак на територији Стране и неће стварати никакву препреку приликом напуштања те Стране, када је улазак и боравак повезан са службеним активностима SELEC и обезбедиће да никакве препреке не ометају њихов транзит ка или од места њиховог службеног посла који се односи на SELEC:</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

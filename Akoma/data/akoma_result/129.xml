@@ -1,0 +1,565 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о Правосудној академији">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2009/104-7/main"/>
+					<FRBRuri value="/rs/act/2009/104-7"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2015/106-62/srp@/main"/>
+					<FRBRuri value="/rs/act/2015/106-62/srp@"/>
+					<FRBRdate date="2015-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2015/106-62/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2015/106-62/srp@.akn"/>
+					<FRBRdate date="2015-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2009-12-16" name="службени гласник рс“" number="104" showAs="Службени гласник РС“"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="III ПРАВОСУЂЕ, КАЗНЕНО ЗАКОНОДАВСТВО И ПОСТУПЦИ" value="iii правосуђе, казнено законодавство и поступци" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="6. Правосудна академија и правосудни испит" value="6. правосудна академија и правосудни испит" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2009-01-01" refersTo="104/2009-7" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2014-01-01" refersTo="32/2014-15" source="#somebody" type="amendment" wId="e2"/>
+				<eventRef date="2015-01-01" refersTo="106/2015-62" source="#somebody" type="amendment" wId="e3"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2009-12-11" wId="usvajanje"/>
+				<step by="#TODO" date="2009-12-24" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2009-12-24" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 24. децембра 2009. године (види члан 31. Закона).Послове Правосудног центра за обуку и стручно усаврашавање, прописане чланом 165. Закона о малолетним учиноцима кривичних дела и кривичноправној заштити малолетних лица („Службени гласник РС”, број 85/05), односно прописане Правилником о програму и начину стицања посебних знања из области права детета судија који суде у поступцима у вези са породичним односима („Службени гласник РС”, број 44/06), од дана ступања на снагу овог закона, односно 24. децембра 2009. обавља Академија (види члан 54. Закона).Одлуком Уставног суда број IУз-497/2011 (Службени гласник РС, број 32/2014) престале су да важе одредбe члана 40. ст. 8, 9. и 11. Закона о Правосудној академији („Службени гласник РС”, број 32/2014) јер је утврђено да нису у сагласности са Уставом (види Одлуку УС – 32/2014-15).Закон о изменама и допунама Закона о Правосудној академији (Службени гласник РС, број 106/2015), ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 29. децембра 2015. године (види члан 8. Закона - 106/2015-62).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О правосудној академији „Службени гласник РС“ бр. 104 од 16. децембра 2009, 32 од 20. марта 2014 - УС, 106 од 21. децембра 2015.</p>
+			</longTitle>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<heading>Предмет закона</heading>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом се оснива Правосудна академија (у даљем тексту: Академија) и уређују се њен статус, делатност, органи управљања и финансирање, као и почетна и стална обука судија, јавних тужилаца и заменика јавних тужилаца (у даљем тексту: тужиоци), обука судијских и тужилачких помоћника и приправника и обука судског и тужилачког особља.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<heading>Циљ оснивања Академије</heading>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Циљ оснивања Академије јесте да допринесе професионалном, независном, непристрасном и ефикасном обављању судијске и тужилачке функције и стручном и ефикасном обављању послова судског и тужилачког особља.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<heading>Статус Академије</heading>
+					<paragraph wId="gla1-clan3-stav1">
+						<content>
+							<p>Оснивач Академије је Република Србија.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav2">
+						<content>
+							<p>Академија се оснива као установа која обавља делатности ради обезбеђивања остваривања права утврђених законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav3">
+						<content>
+							<p>Академија има својство правног лица.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav4">
+						<content>
+							<p>Седиште Академије је у Београду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav5">
+						<content>
+							<p>На унутрашње уређење и послове које обавља Академија, сходно се примењују одредбе закона који уређује јавне службе, ако овим законом није друкчије одређено.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav6">
+						<content>
+							<p>Надзор над законитошћу рада Академије врши министарство надлежно за правосуђе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<heading>Печат Академије</heading>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>Академија има свој печат.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav2">
+						<content>
+							<p>Садржина и начин коришћења печата Академије утврђује се Статутом Академије, у складу са законом који уређује печат државних и других органа.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ДЕЛАТНОСТ И ОРГАНИЗАЦИЈА АКАДЕМИЈЕ</heading>
+				<article wId="gla2-clan5">
+					<num>5.</num>
+					<heading>Делатност Академије</heading>
+					<paragraph wId="gla2-clan5-stav1">
+						<intro>
+							<p>Академија:</p>
+						</intro>
+						<alinea wId="gla2-clan5-stav1-ali1">
+							<content>
+								<p>рганизује и спроводи пријемни испит за почетну обуку;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan5-stav1-ali2">
+							<content>
+								<p>рганизује и спроводи почетну обуку;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan5-stav1-ali3">
+							<content>
+								<p>рганизује и спроводи сталну обуку судија и тужилаца;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan5-stav1-ali4">
+							<content>
+								<p>рганизује и спроводи обуку предавача и ментора;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan5-stav1-ali5">
+							<content>
+								<p>рганизује и спроводи стручно усавршавање судског и тужилачког особља;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan5-stav1-ali6">
+							<content>
+								<p>споставља и одржава сарадњу са домаћим, страним и међународним институцијама, организацијама и удружењима, у вези са пословима које обавља;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan5-stav1-ali7">
+							<content>
+								<p>здаје публикације и обавља другу издавачку делатност;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan5-stav1-ali8">
+							<content>
+								<p>бавља истраживачко аналитичке послове и сарађује са научним институцијама;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan5-stav1-ali9">
+							<content>
+								<p>истематски прикупља податке који су од значаја за рад Академије, а нарочито о спровођењу обуке и резултатима обуке и води документационо информациони центар;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan5-stav1-ali10">
+							<content>
+								<p>рикупља и обрађује судску праксу;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan5-stav1-ali11">
+							<content>
+								<p>бавља и друге послове утврђене законом и Статутом Академије (у даљем тексту: Статут).</p>
+							</content>
+						</alinea>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav2">
+						<content>
+							<p>Академија може спроводити програме стручног усавршавања извршитеља,  јавних бележника, јавнобележничких помоћника и јавнобележничких приправника, на  основу уговора између Академије и Коморе извршитеља, односно Јавнобележничке  коморе.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav3">
+						<content>
+							<p>*<ref wId="ref0" href="akn/rs/act/2015/106/srp@">Службени гласник РС, број 106/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan6">
+					<num>6.</num>
+					<heading>Органи Академије</heading>
+					<paragraph wId="gla2-clan6-stav1">
+						<content>
+							<p>Органи Академије су Управни одбор, директор и Програмски савет.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan7">
+					<num>7.</num>
+					<heading>Управни одбор</heading>
+					<paragraph wId="gla2-clan7-stav1">
+						<content>
+							<p>Управни одбор је орган који управља Академијом и његов састав чини девет чланова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav2">
+						<content>
+							<p>Чланови Управног одбора су: четири члана које именује Високи савет судства из реда судија, од којих два именује на предлог удружења судија; два члана које именује Државно веће тужилаца из реда тужилаца, од којих једног именује на предлог удружења тужилаца; и три члана које именује Влада, од којих је један државни секретар у министарству надлежном за правосуђе задужен за стручно усавршавање запослених у правосуђу, а један из реда запослених у Академији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav3">
+						<content>
+							<p>Чланови Високог савета судства и Државног већа тужилаца не могу бити чланови Управног одбора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav4">
+						<content>
+							<p>Мандат чланова Управног одбора траје четири године, с могућношћу поновног избора на још један мандат.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav5">
+						<content>
+							<p>Чланови и председник Управног одбора имају право на накнаду за рад у висини од 30% од основне плате судије основног суда.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan8">
+					<num>8.</num>
+					<heading>Председник Управног одбора</heading>
+					<paragraph wId="gla2-clan8-stav1">
+						<content>
+							<p>Чланови Управног одбора бирају председника Управног одбора међу члановима Управног одбора из реда судија и тужилаца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav2">
+						<content>
+							<p>Мандат председника Управног одбора траје четири године, са могућношћу поновног избора на још један мандат.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav3">
+						<content>
+							<p>Председник Управног одбора сазива и председава седницама Управног одбора.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan9">
+					<num>9.</num>
+					<heading>Надлежности Управног одбора</heading>
+					<paragraph wId="gla2-clan9-stav1">
+						<intro>
+							<p>Управни одбор Академије:</p>
+						</intro>
+						<alinea wId="gla2-clan9-stav1-ali1">
+							<content>
+								<p>оноси Статут и друге акте Академије у складу са законом и прати њихову примену;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan9-stav1-ali2">
+							<content>
+								<p>ира и разрешава председника Управног одбора;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan9-stav1-ali3">
+							<content>
+								<p>ира и разрешава директора Академије, на основу претходно спроведеног јавног конкурса;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan9-stav1-ali4">
+							<content>
+								<p>ира и разрешава чланове Програмског савета;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan9-stav1-ali5">
+							<content>
+								<p>сваја програм пријемног испита за почетну обуку;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan9-stav1-ali6">
+							<content>
+								<p>сваја правилник о полагању пријемног испита за почетну обуку;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan9-stav1-ali7">
+							<content>
+								<p>сваја правилник о полагању завршног испита почетне обуке;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan9-stav1-ali8">
+							<content>
+								<p>сваја програме почетне обуке и доставља их Високом савету и Државном већу тужилаца ради утврђивања;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan9-stav1-ali9">
+							<content>
+								<p>сваја програме сталне обуке, уз сагласност Високог савета судства и Државног већа тужилаца;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan9-stav1-ali10">
+							<content>
+								<p>сваја програм обуке судског и тужилачког особља, уз сагласност Високог савета судства, односно Државног већа тужилаца;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan9-stav1-ali11">
+							<content>
+								<p>сваја посебни програм обуке судијских помоћника и приправника, уз сагласност Високог савета судства;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan9-stav1-ali12">
+							<content>
+								<p>сваја посебан програм обуке тужилачких помоћника и приправника и доставља га Државном већу тужилаца ради утврђивања;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan9-stav1-ali13">
+							<content>
+								<p>оноси програм пријемног испита за судијске и тужилачке приправнике;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan9-stav1-ali14">
+							<content>
+								<p>сваја програм обуке ментора и предавача;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan9-stav1-ali15">
+							<content>
+								<p>длучује о висини накнаде за рад ментора и предавача;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan9-stav1-ali16">
+							<content>
+								<p>сваја годишњи извештај о раду Академије и годишњи обрачун;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan9-stav1-ali17">
+							<content>
+								<p>аје сагласност на одлуку о именовању чланова сталних комисија;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan9-stav1-ali18">
+							<content>
+								<p>оноси пословник о свом раду;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan9-stav1-ali19">
+							<content>
+								<p>аје сагласност на акт о унутрашњем уређењу и систематизацији радних места у Академији;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan9-stav1-ali20">
+							<content>
+								<p>длучује о коришћењу средства Академије, у складу са законом;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan9-stav1-ali21">
+							<content>
+								<p>бавља и друге послове у складу са законом и Статутом.</p>
+							</content>
+						</alinea>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan10">
+					<num>10.</num>
+					<heading>Престанак функције чланова и председника Управног одбора</heading>
+					<paragraph wId="gla2-clan10-stav1">
+						<intro>
+							<p>Члану Управног одбора престаје функција:</p>
+						</intro>
+						<alinea wId="gla2-clan10-stav1-ali1">
+							<content>
+								<p>стеком мандата на који је изабран;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan10-stav1-ali2">
+							<content>
+								<p>а лични захтев;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan10-stav1-ali3">
+							<content>
+								<p>лану Управног одбора који је судија, тужилац или државни секретар министарства надлежног за правосуђе, престанком те функције;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan10-stav1-ali4">
+							<content>
+								<p> случају спречености обављања функције члана Управног одбора у периоду дужем од шест месеци;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan10-stav1-ali5">
+							<content>
+								<p>азрешењем.</p>
+							</content>
+						</alinea>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav2">
+						<content>
+							<p>Одлуку о престанку функције члана Управног одбора доноси орган који га је именовао.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav3">
+						<content>
+							<p>Орган надлежан за именовање, именује новог члана у року од 30 дана од дана доношења одлуке о престанку функције члана Управног одбора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav4">
+						<content>
+							<p>Поред разлога из <ref wId="ref1" href="akn/rs/act/2015/106-62/srp@/!main~art_10__para_1" >става 1. овог</ref> члана, председнику Управног одбора може престати та фунција и разрешењем на основу одлуке Управног одбора.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan11">
+					<num>11.</num>
+					<heading>Начин рада Управног одбора</heading>
+					<paragraph wId="gla2-clan11-stav1">
+						<content>
+							<p>Седнице Управног одбора сазива и њима председава председник Управног одбора. Управни одбор одржава најмање четири седнице годишње.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav2">
+						<content>
+							<p>Председник Управног одбора сазива седницу на предлог најмање једне трећине чланова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav3">
+						<content>
+							<p>Седница Управног одбора може бити сазвана и на основу образложеног писменог захтева директора Академије или члана Управног одбора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav4">
+						<content>
+							<p>Управни одбор одржава седнице ако је присутно више од половине укупног броја чланова.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan12">
+					<num>12.</num>
+					<heading>Начин одлучивања Управног одбора</heading>
+					<paragraph wId="gla2-clan12-stav1">
+						<content>
+							<p>Управни одбор доноси одлуке већином гласова присутног броја чланова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan12-stav2">
+						<content>
+							<p>Одлуке о избору и разрешењу председника Управног одбора и директора Академије, Статут и пословник доносе се двотрећинском већином гласова свих чланова Управног одбора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan12-stav3">
+						<content>
+							<p>Начин рада и одлучивања Управног одбора ближе се уређује пословником.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan13">
+					<num>13.</num>
+					<heading>Директор Академије</heading>
+					<paragraph wId="gla2-clan13-stav1">
+						<content>
+							<p>Директор је извршни орган Академије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan13-stav2">
+						<content>
+							<p>Директор Академије бира се на период од пет година, уз могућност поновног избора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan13-stav3">
+						<intro>
+							<p>За директора Академије може се изабрати лице које поред општих услова за рад у државним органима испуњава следеће услове:</p>
+						</intro>
+						<alinea wId="gla2-clan13-stav3-ali1">
+							<content>
+								<p>а има високу стручну спрему;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav3-ali2">
+							<content>
+								<p>а има најмање седам година радног искуства у струци;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav3-ali3">
+							<content>
+								<p>а има организационе и руководеће способности;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav3-ali4">
+							<content>
+								<p>а има активно знање једног светског језика.</p>
+							</content>
+						</alinea>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan14">
+					<num>14.</num>
+					<heading>Надлежности Директора</heading>
+					<paragraph wId="gla2-clan14-stav1">
+						<intro>
+							<p>Директор:</p>
+						</intro>
+						<point wId="gla2-clan14-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Почетна обука</p>
+							</content>
+						</point>
+						<point wId="gla2-clan14-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Стална обука</p>
+							</content>
+						</point>
+						<point wId="gla2-clan14-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Почетна обука</p>
+							</content>
+						</point>
+						<point wId="gla2-clan14-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Стална обука</p>
+							</content>
+						</point>
+						<point wId="gla2-clan14-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Почетна обука</p>
+							</content>
+						</point>
+						<point wId="gla2-clan14-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Стална обука</p>
+							</content>
+						</point>
+						<point wId="gla2-clan14-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Почетна обука</p>
+							</content>
+						</point>
+						<point wId="gla2-clan14-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Стална обука</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

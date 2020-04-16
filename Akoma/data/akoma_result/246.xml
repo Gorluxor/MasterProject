@@ -1,0 +1,609 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о спречавању прања новца и финансирања тероризма">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2017/113-231/main"/>
+					<FRBRuri value="/rs/act/2017/113-231"/>
+					<FRBRdate date="2017-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2019/91-64/srp@/main"/>
+					<FRBRuri value="/rs/act/2019/91-64/srp@"/>
+					<FRBRdate date="2019-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2019/91-64/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2019/91-64/srp@.akn"/>
+					<FRBRdate date="2019-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2017-12-17" name="службени гласник рс" number="113" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="V МОНЕТАРНИ СИСТЕМ, ФИНАНСИЈСКЕ ОРГАНИЗАЦИЈЕ И ФИНАНСИЈСКО ПОСЛОВАЊЕ" value="v монетарни систем, финансијске организације и финансијско пословање" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="5. Спречавање прања новца и финансирања тероризма и ограничавање располагања имовином" value="5. спречавање прања новца и финансирања тероризма и ограничавање располагања имовином" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2017-01-01" refersTo="113/2017-231" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2019-01-01" refersTo="91/2019-64" source="#somebody" type="amendment" wId="e2"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2017-12-14" wId="usvajanje"/>
+				<step by="#TODO" date="2017-12-25" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2018-04-01" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 25. децембра 2017. године, а примењује се од 1. априла 2018. године (види члан 128. Закона - 113/2017-231).Управа за спречавање прања новца образована Законом о спречавању прања новца (Службени гласник РС, број 107/2005) наставља са радом у складу са овлашћењима утврђеним овим законом (види члан 127. Закона).Закон о изменама и допунама Закона о спречавању прања новца и финансирања тероризма („Службени гласник РС“, број 91/2019) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 1. јануара 2020. године. Одредбе члана 34. овог закона примењују се од 1. јануара 2021. године, а одредбе члана 56. овог закона примењују се од 1. јуна 2020. године (види чл. 72. и 73. Закона – 91/2019-64).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О спречавању прања новца и финансирања тероризма "Службени гласник РС", бр. 113 од 17. децембра 2017, 91 од 24. децембра 2019.</p>
+			</longTitle>
+			<p>Редакцијски пречишћен текст</p>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>УВОДНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<heading>Предмет закона</heading>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом прописују се радње и мере које се предузимају ради спречавања и откривања прања новца и финансирања тероризма.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav2">
+						<content>
+							<p>Овим законом уређује се надлежност Управе за спречавање прања новца (у даљем тексту: Управа) и надлежност других органа за спровођење одредаба овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<heading>Прање новца и финансирање тероризма</heading>
+					<paragraph wId="gla1-clan2-stav1">
+						<intro>
+							<p>Прањем новца, у смислу овог закона, сматра се:</p>
+						</intro>
+						<point wId="gla1-clan2-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> конверзија или пренос имовине стечене извршењем кривичног дела;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> прикривање или нетачно приказивање праве природе, порекла, места налажења, кретања, располагања, власништва или права у вези са имовином која је стечена извршењем кривичног дела;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> стицање, држање или коришћење имовине стечене извршењем кривичног дела.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav2">
+						<content>
+							<p>Прањем новца, у смислу овог  закона, сматрају се и активности из <ref wId="ref0" href="akn/rs/act/2019/91-64/srp@/!main~art_2__para_1" >става 1. овог</ref> члана извршене  изван територије Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav3">
+						<intro>
+							<p>Финансирањем тероризма, у смислу овог закона, сматра се обезбеђивање или прикупљање имовине или покушај њеног обезбеђивања или прикупљања, у намери да се користи или са знањем да може бити коришћена, у целости или делимично:</p>
+						</intro>
+						<point wId="gla1-clan2-stav3-tac1">
+							<num>1)</num>
+							<content>
+								<p> за извршење терористичког акта;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav3-tac2">
+							<num>2)</num>
+							<content>
+								<p> од стране терориста;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav3-tac3">
+							<num>3)</num>
+							<content>
+								<p> од стране терористичких организација.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav4">
+						<content>
+							<p>Под финансирањем тероризма сматра се и подстрекавање и помагање у обезбеђивању и прикупљању имовине, без обзира да ли је терористички акт извршен и да ли је имовина коришћена за извршење терористичког акта.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav5">
+						<content>
+							<p>Терористичким актом, у смислу овог закона, сматра се дело утврђено споразумима наведеним у анексу уз Међународну конвенцију о сузбијању финансирања тероризма, као и било које друго дело чији је циљ да изазове смрт или тежу телесну повреду цивила или било ког другог лица које не учествује активно у непријатељствима у случају оружаног сукоба, када је сврха таквог дела, по његовој природи или сплету околности повезаних са тим делом, да застраши становништво, или да примора неку владу или неку међународну организацију да учини или да се уздржи од чињења неког дела.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav6">
+						<intro>
+							<p>Терористом, у смислу овог закона, сматра се лице које само или са другим лицима са умишљајем:</p>
+						</intro>
+						<point wId="gla1-clan2-stav6-tac1">
+							<num>1)</num>
+							<content>
+								<p> покуша или учини терористички акт на било који начин, непосредно или посредно;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav6-tac2">
+							<num>2)</num>
+							<content>
+								<p> подстрекава и помаже у извршењу терористичког акта;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav6-tac3">
+							<num>3)</num>
+							<content>
+								<p> располаже сазнањем о намери групе терориста да изврши терористички акт, допринесе извршењу или помогне групи настављање вршења терористичког акта са заједничком сврхом.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav7">
+						<intro>
+							<p>Терористичком организацијом, у смислу овог закона, сматра се група терориста која:</p>
+						</intro>
+						<point wId="gla1-clan2-stav7-tac1">
+							<num>1)</num>
+							<content>
+								<p> покуша или учини терористички акт на било који начин, непосредно или посредно;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav7-tac2">
+							<num>2)</num>
+							<content>
+								<p> подстрекава и помаже у извршењу терористичког акта;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav7-tac3">
+							<num>3)</num>
+							<content>
+								<p> располаже сазнањем о намери групе терориста да изврши терористички акт, допринесе извршењу или помогне групи настављање вршења терористичког акта са заједничком сврхом.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav8">
+						<content>
+							<p>*<ref wId="ref1" href="akn/rs/act/2019/91/srp@">Службени гласник РС, број 91/2019</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<heading>Појмови</heading>
+					<paragraph wId="gla1-clan3-stav1">
+						<intro>
+							<p>Поједини  појмови у смислу овог закона имају следеће значење:</p>
+						</intro>
+						<point wId="gla1-clan3-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Опште одредбе</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Познавање и праћење странке</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Достављање информација, података и документације Управи</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac4">
+							<num>4.</num>
+							<content>
+								<p> Спровођење радњи и  мера у пословним јединицама и подређеним друштвима правног лица  у већинском власништву обвезника</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac5">
+							<num>5.</num>
+							<content>
+								<p> Овлашћено лице, образовање и унутрашња контрола</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Опште одредбе</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Откривање прања новца и финансирања тероризма</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Међународна сарадња</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac4">
+							<num>4.</num>
+							<content>
+								<p> Спречавање прања новца и финансирања тероризма</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac5">
+							<num>5.</num>
+							<content>
+								<p> Остале обавезе</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Заштита података</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Чување података</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Евиденције</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac4">
+							<num>4.</num>
+							<content>
+								<p> Регистри</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Органи надлежни за вршење надзора</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Обавештавање Управе у вези са надзором</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Доношење препорука и смерница</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Опште одредбе</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Познавање и праћење странке</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Достављање информација, података и документације Управи</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac4">
+							<num>4.</num>
+							<content>
+								<p> Спровођење радњи и  мера у пословним јединицама и подређеним друштвима правног лица  у већинском власништву обвезника</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac5">
+							<num>5.</num>
+							<content>
+								<p> Овлашћено лице, образовање и унутрашња контрола</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Опште одредбе</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Откривање прања новца и финансирања тероризма</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Међународна сарадња</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac4">
+							<num>4.</num>
+							<content>
+								<p> Спречавање прања новца и финансирања тероризма</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac5">
+							<num>5.</num>
+							<content>
+								<p> Остале обавезе</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Заштита података</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Чување података</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Евиденције</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac4">
+							<num>4.</num>
+							<content>
+								<p> Регистри</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Органи надлежни за вршење надзора</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Обавештавање Управе у вези са надзором</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Доношење препорука и смерница</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Опште одредбе</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Познавање и праћење странке</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Достављање информација, података и документације Управи</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac4">
+							<num>4.</num>
+							<content>
+								<p> Спровођење радњи и  мера у пословним јединицама и подређеним друштвима правног лица  у већинском власништву обвезника</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac5">
+							<num>5.</num>
+							<content>
+								<p> Овлашћено лице, образовање и унутрашња контрола</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Опште одредбе</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Откривање прања новца и финансирања тероризма</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Међународна сарадња</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac4">
+							<num>4.</num>
+							<content>
+								<p> Спречавање прања новца и финансирања тероризма</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac5">
+							<num>5.</num>
+							<content>
+								<p> Остале обавезе</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Заштита података</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Чување података</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Евиденције</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac4">
+							<num>4.</num>
+							<content>
+								<p> Регистри</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Органи надлежни за вршење надзора</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Обавештавање Управе у вези са надзором</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Доношење препорука и смерница</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Опште одредбе</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Познавање и праћење странке</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Достављање информација, података и документације Управи</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac4">
+							<num>4.</num>
+							<content>
+								<p> Спровођење радњи и  мера у пословним јединицама и подређеним друштвима правног лица  у већинском власништву обвезника</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac5">
+							<num>5.</num>
+							<content>
+								<p> Овлашћено лице, образовање и унутрашња контрола</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Опште одредбе</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Откривање прања новца и финансирања тероризма</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Међународна сарадња</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac4">
+							<num>4.</num>
+							<content>
+								<p> Спречавање прања новца и финансирања тероризма</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac5">
+							<num>5.</num>
+							<content>
+								<p> Остале обавезе</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Заштита података</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Чување података</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Евиденције</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac4">
+							<num>4.</num>
+							<content>
+								<p> Регистри</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> Органи надлежни за вршење надзора</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Обавештавање Управе у вези са надзором</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> Доношење препорука и смерница</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

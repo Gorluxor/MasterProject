@@ -1,0 +1,272 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон “Службени гласник РС”, број 51 од 14. јула 2009.">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2009/51-19/main"/>
+					<FRBRuri value="/rs/act/2009/51-19"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2009/51-19/srp@/main"/>
+					<FRBRuri value="/rs/act/2009/51-19/srp@"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2009/51-19/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2009/51-19/srp@.akn"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2009-07-14" name="“службени гласник рс" number="51" showAs="“Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="XI ТРГОВИНА, ТУРИЗАМ И УГОСТИТЕЉСТВО" value="xi трговина, туризам и угоститељство" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="3. Заштита конкуренције и контрола државне помоћи" value="3. заштита конкуренције и контрола државне помоћи" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2009-07-08" wId="usvajanje"/>
+				<step by="#TODO" date="2009-07-22" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2010-01-01" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 22. јула 2009. године, а примењује се од 1. јануара 2010. године (види члан 26. Закона).Закон престаје да важи даном почетка примене Закона о контроли државне помоћи (Службени гласник РС, број 73/2019), односно 1. јануара 2020. године (види члан 63. Закона - 73/2019-3).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон “службени гласник рс”, број 51 од 14. јула 2009. Предмет и циљ закона</p>
+			</longTitle>
+			<p>о контроли државне помоћи</p>
+		</preface>
+		<preamble>
+			<p>Неважећи акт</p>
+		</preamble>
+		<body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Овим законом уређују се општи услови и поступак контроле државне помоћи у циљу заштите слободне конкуренције на тржишту, применом начела тржишне економије и подстицања привредног развоја, обезбеђења транспарентности у додели државне помоћи, као и извршавања преузетих обавеза по закљученим међународним уговорима, који садрже одредбе о државној помоћи.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan1-stav2">
+					<content>
+						<p>Одредбе овог закона не односе се на пољопривредне производе и производе рибарства.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<heading>Значење појмова</heading>
+				<paragraph wId="clan2-stav1">
+					<intro>
+						<p>Поједини појмови употребљени у овом закону имају следеће значење:</p>
+					</intro>
+					<point wId="clan2-stav1-tac1">
+						<num>1)</num>
+						<content>
+							<p> државна помоћ је сваки стварни или потенцијални јавни расход или умањено остварење јавног прихода, којим корисник државне помоћи стиче повољнији положај на тржишту у односу на конкуренте, чиме се нарушава или постоји опасност од нарушавања конкуренције на тржишту;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac2">
+						<num>2)</num>
+						<content>
+							<p> давалац државне помоћи је Република Србија, аутономна покрајина и јединица локалне самоуправе, преко надлежних органа, и свако правно лице које управља и/или располаже јавним средствима и додељује државну помоћ у било ком облику;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac3">
+						<num>3)</num>
+						<content>
+							<p> корисник државне помоћи је свако правно и физичко лице, које у обављању делатности производње и/или промета робе и/или пружања услуга на тржишту, користи државну помоћ у било ком облику;</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac4">
+						<num>4)</num>
+						<content>
+							<p> потпуна пријава државне помоћи је скуп свих података и информација наведених у пријави државне помоћи и оних које је подносилац пријаве дужан да достави Комисији за контролу државне помоћи (у даљем тексту: Комисија), на њен захтев, а на основу којих Комисија може да одлучује у поступку претходне, односно накнадне контроле државне помоћи.</p>
+						</content>
+					</point>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<heading>Недозвољена државна помоћ</heading>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Државна помоћ додељена у било ком облику, која нарушава или прети да наруши конкуренцију на тржишту, осим ако није другачије прописано овим законом, или која је супротна закљученим међународним уговорима, није дозвољена.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan4">
+				<num>4.</num>
+				<heading>Дозвољена државна помоћ</heading>
+				<paragraph wId="clan4-stav1">
+					<intro>
+						<p>У складу са овим законом, дозвољено је доделити државну помоћ:</p>
+					</intro>
+					<point wId="clan4-stav1-tac1">
+						<num>1)</num>
+						<content>
+							<p> која је социјалног карактера, а додељује се индивидуалним потрошачима без дискриминације у односу на порекло робе, односно производа, који чине конкретну помоћ;</p>
+						</content>
+					</point>
+					<point wId="clan4-stav1-tac2">
+						<num>2)</num>
+						<content>
+							<p> која се додељује ради отклањања штета проузрокованих природним непогодама или другим ванредним ситуацијама.</p>
+						</content>
+					</point>
+				</paragraph>
+			</article>
+			<article wId="clan5">
+				<num>5.</num>
+				<heading>Државна помоћ која може бити дозвољена</heading>
+				<paragraph wId="clan5-stav1">
+					<intro>
+						<p>У складу са овим законом, може бити дозвољена државна помоћ која се додељује:</p>
+					</intro>
+					<point wId="clan5-stav1-tac1">
+						<num>1)</num>
+						<content>
+							<p> ради унапређења економског развоја подручја Републике Србије са изузетно ниским животним стандардом или са високом стопом незапослености;</p>
+						</content>
+					</point>
+					<point wId="clan5-stav1-tac2">
+						<num>2)</num>
+						<content>
+							<p> ради отклањања озбиљног поремећаја у привреди Републике Србије или извођења одређеног пројекта од посебног значаја за Републику Србију;</p>
+						</content>
+					</point>
+					<point wId="clan5-stav1-tac3">
+						<num>3)</num>
+						<content>
+							<p> за унапређење развоја одређених привредних делатности или одређених привредних подручја у Републици Србији, уколико се тиме озбиљно не нарушава, нити постоји претња озбиљном нарушавању конкуренције на тржишту;</p>
+						</content>
+					</point>
+					<point wId="clan5-stav1-tac4">
+						<num>4)</num>
+						<content>
+							<p> за унапређење заштите и очувања културног наслеђа.</p>
+						</content>
+					</point>
+				</paragraph>
+			</article>
+			<article wId="clan6">
+				<num>6.</num>
+				<heading>Комисија</heading>
+				<paragraph wId="clan6-stav1">
+					<content>
+						<p>Контролу државне помоћи у складу са овим законом врши Комисија коју образује Влада на предлог: министарства надлежног за послове финансија; министарства надлежног за послове економије и регионалног развоја; министарства надлежног за послове инфраструктуре; министарства надлежног за послове заштите животне средине; Комисије за заштиту конкуренције.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan6-stav2">
+					<content>
+						<p>Представник министарства надлежног за послове финансија (у даљем тексту: министарство), је уједно и председник Комисије, а представник Комисије за заштиту конкуренције је заменик председника Комисије.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan6-stav3">
+					<content>
+						<p>Комисија има пет чланова.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan6-stav4">
+					<content>
+						<p>За члана Комисије може бити предложено лице које је држављанин Републике Србије, које има најмање висок степен стручне спреме и поседује потребно стручно знање из области државне помоћи, конкуренције и/или права Европске уније.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan6-stav5">
+					<content>
+						<p>Члан Комисије прима накнаду за рад у Комисији, коју утврђује Влада.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan6-stav6">
+					<content>
+						<p>Комисија доноси пословник.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan6-stav7">
+					<content>
+						<p>Комисија је оперативно независна у раду.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan7">
+				<num>7.</num>
+				<heading>Средства и услови за рад Комисије</heading>
+				<paragraph wId="clan7-stav1">
+					<content>
+						<p>Средства за рад Комисије обезбеђују се у буџету Републике Србије.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav2">
+					<content>
+						<p>Министарство обезбеђује простор и друге услове за рад Комисије.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan8">
+				<num>8.</num>
+				<heading>Именовање и престанак мандата члана Комисије</heading>
+				<paragraph wId="clan8-stav1">
+					<content>
+						<p>Члан Комисије именује се на период од пет година и може бити поново именован, на предлог истог предлагача.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan8-stav2">
+					<intro>
+						<p>Мандат члана Комисије престаје:</p>
+					</intro>
+					<point wId="clan8-stav2-tac1">
+						<num>1)</num>
+						<content>
+							<p> истеком времена на које је именован;</p>
+						</content>
+					</point>
+					<point wId="clan8-stav2-tac2">
+						<num>2)</num>
+						<content>
+							<p> ако поступа супротно одредбама овог закона;</p>
+						</content>
+					</point>
+					<point wId="clan8-stav2-tac3">
+						<num>3)</num>
+						<content>
+							<p> ако се у раду не придржава одредаба пословника;</p>
+						</content>
+					</point>
+					<point wId="clan8-stav2-tac4">
+						<num>4)</num>
+						<content>
+							<p> ако је осуђен на безусловну казну затвора од најмање шест месеци;</p>
+						</content>
+					</point>
+					<point wId="clan8-stav2-tac5">
+						<num>5)</num>
+						<content>
+							<p> на лични захтев, подношењем писмене оставке.</p>
+						</content>
+					</point>
+				</paragraph>
+			</article>
+			<article wId="clan9">
+				<num>9.</num>
+				<heading>Надлежност Комисије</heading>
+				<paragraph wId="clan9-stav1">
+					<content>
+						<p>Комисија:</p>
+					</content>
+				</paragraph>
+			</article>
+		</body>
+	</act>
+</akomaNtoso>

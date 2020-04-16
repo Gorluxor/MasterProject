@@ -1,0 +1,570 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о  Српској књижевној задрузи">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/1997/20-431/main"/>
+					<FRBRuri value="/rs/act/1997/20-431"/>
+					<FRBRdate date="1997-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2019/10-12/srp@/main"/>
+					<FRBRuri value="/rs/act/2019/10-12/srp@"/>
+					<FRBRdate date="2019-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2019/10-12/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2019/10-12/srp@.akn"/>
+					<FRBRdate date="2019-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="1997-05-14" name="службени гласник рс" number="20" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="XV ЈАВНЕ УСТАНОВЕ, НАУКА, ПРОСВЕТА, КУЛТУРА, ИНФОРМИСАЊЕ И СПОРТ" value="xv јавне установе, наука, просвета, култура, информисање и спорт" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="12. Издаваштво" value="12. издаваштво" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="1997-01-01" refersTo="20/1997-431" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2019-01-01" refersTo="10/2019-12" source="#somebody" type="amendment" wId="e2"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="#TODO" date="1997-05-13" wId="usvajanje"/>
+				<step by="#TODO" date="1997-05-22" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="1997-05-22" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у Службеном гласнику Републике Србије, односно 22. маја 1997. године (види члан 10. Закона).Закон о изменама и допунама Закона о Српској књижевној задрузи (Службени гласник РС, број 10/2019) ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 23. фебруара 2019. године (види члан 7. Закона - 10/2019-12).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О  српској књижевној задрузи "Службени гласник РС", бр. 20 од 14. маја 1997, 10 од 15. фебруара 2019.</p>
+			</longTitle>
+			<p>Редакцијски пречишћен текст</p>
+		</preface>
+		<body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Српска књижевна задруга, основана 1892. године као  друштво које својим радом, а нарочито издавањем одабраних дела из области  културног стваралаштва, доприноси ширењу опште просвећености и културе народа,  је јединствена, самостална, невладина и недобитна организација, којом управљају  њени чланови.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<heading>*Службени гласник РС, број 10/2019</heading>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Српска књижевна задруга има својство правног лица у складу с овим законом и својим општим актом.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>Седиште Српске књижевне задруге је у Београду.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav3">
+					<content>
+						<p>Српска књижевна задруга користи име и знак установљене приликом њеног оснивања, који се не могу мењати.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav4">
+					<content>
+						<p>Нико не може користити име и знак Српске књижевне задруге без њене сагласности.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Српска књижевна задруга не може вршити статусне промене, нити мењати облик организовања, као ни променити своје циљеве утврђене оснивачким актом из 1892. године.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan4">
+				<num>4.</num>
+				<paragraph wId="clan4-stav1">
+					<intro>
+						<p>Српска књижевна задруга обавља послове и остварује циљеве од трајног значаја за културу, утврђене оснивачким актом од 16. априла 1892. године, и то:</p>
+					</intro>
+					<point wId="clan4-stav1-tac1">
+						<num>1)</num>
+						<content>
+							<p> критички приређује издања наших старијих и савремених књижевника и научника;</p>
+						</content>
+					</point>
+					<point wId="clan4-stav1-tac2">
+						<num>2)</num>
+						<content>
+							<p> издаје одабрана дела из књижевности, науке, уметности и других области културног стваралаштва;</p>
+						</content>
+					</point>
+					<point wId="clan4-stav1-tac3">
+						<num>3)</num>
+						<content>
+							<p> издаје преводе књижевних дела ради упознавања и ширења књижевности словенских и других народа;</p>
+						</content>
+					</point>
+					<point wId="clan4-stav1-tac4">
+						<num>4)</num>
+						<content>
+							<p> помаже развитак и ширење народне књижевности и приређује популарна издања књига из ове области;</p>
+						</content>
+					</point>
+					<point wId="clan4-stav1-tac5">
+						<num>5)</num>
+						<content>
+							<p> издаје сваке године „Коло” Српске књижевне задруге, најстарију српску књижевну едицију;</p>
+						</content>
+					</point>
+				</paragraph>
+				<paragraph wId="clan4-stav2">
+					<content>
+						<p>5а) организује научно-истраживачке послове у  складу са циљевима утврђеним овим законом;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan4-stav3">
+					<intro>
+						<p>5б) организатор је и носилац националних  издавачких подухвата из области књижевности, историје и уметности;</p>
+					</intro>
+					<point wId="clan4-stav3-tac6">
+						<num>6)</num>
+						<content>
+							<p> остварује и друге циљеве утврђене актима Српске књижевне задруге.</p>
+						</content>
+					</point>
+				</paragraph>
+			</article>
+			<article wId="clan5">
+				<num>5.</num>
+				<heading>*Службени гласник РС, број 10/2019</heading>
+				<paragraph wId="clan5-stav1">
+					<intro>
+						<p>Српска књижевна задруга обезбеђује средства за обављање послова и остваривање својих циљева:</p>
+					</intro>
+					<point wId="clan5-stav1-tac1">
+						<num>1)</num>
+						<content>
+							<p> од улога чланова и претплатника;</p>
+						</content>
+					</point>
+					<point wId="clan5-stav1-tac2">
+						<num>2)</num>
+						<content>
+							<p> из прихода од обављања својих послова и продаје својих публикација, као и публикација других издавача;</p>
+						</content>
+					</point>
+					<point wId="clan5-stav1-tac3">
+						<num>3)</num>
+						<content>
+							<p> из задужбина и фондова, поклона, легата и дотација;</p>
+						</content>
+					</point>
+				</paragraph>
+				<paragraph wId="clan5-stav2">
+					<intro>
+						<p>3а) из буџета Републике Србије, покрајине и  јединица локалне самоуправе, у складу са законом којим се регулише оснивање  и правни положај удружења;</p>
+					</intro>
+					<point wId="clan5-stav2-tac4">
+						<num>4)</num>
+						<content>
+							<p> из других извора у складу са законом.</p>
+						</content>
+					</point>
+				</paragraph>
+			</article>
+			<article wId="clan6">
+				<num>6.</num>
+				<heading>*Службени гласник РС, број 10/2019</heading>
+				<paragraph wId="clan6-stav1">
+					<content>
+						<p>Органи Српске књижевне задруге јесу: Скупштина,  Управни и Надзорни одбор, управник и главни уредник.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan6-stav2">
+					<content>
+						<p>Правилима и другим општим актима Српске књижевне задруге ближе се утврђује начин избора органа и делокруг њиховог рада.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan6-stav3">
+					<content>
+						<p>Правила из <ref wId="ref0" href="akn/rs/act/2019/10-12/srp@/!main~art_6__para_2" >става 2. овог</ref> члана доноси Скупштина Српске књижевне задруге, на предлог Управног одбора.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan7">
+				<num>7.</num>
+				<heading>*Службени гласник РС, број 10/2019</heading>
+				<paragraph wId="clan7-stav1">
+					<content>
+						<p>Надзор над применом одредаба овог закона врши министарство надлежно за послове културе.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan8">
+				<num>8.</num>
+				<paragraph wId="clan8-stav1">
+					<content>
+						<p>Непокретности и друга средства којима располаже Српска књижевна задруга на дан ступања на снагу овог закона, својина су Српске књижевне задруге и могу се користити само за остваривање њених циљева, у складу с овим законом.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan8-stav2">
+					<content>
+						<p>Српска књижевна задруга дужна је да одржава и сачува непокретну имовину из <ref wId="ref1" href="akn/rs/act/2019/10-12/srp@/!main~art_8__para_1" >става 1. овог</ref> члана.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan8-stav3">
+					<content>
+						<p>Српска књижевна задруга има свој Књижевни архив  и Библиотеку.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan9">
+				<num>9.</num>
+				<heading>*Службени гласник РС, број 10/2019</heading>
+				<paragraph wId="clan9-stav1">
+					<content>
+						<p>Српска књижевна задруга ускладиће своју организацију, рад, пословање и акте са одредбама овог закона и извршити упис делатности у судски регистар, у року од три месеца од дана ступања на снагу овог закона.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan10">
+				<num>10.</num>
+				<paragraph wId="clan10-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan10-stav2">
+					<content>
+						<p>ОДРЕДБЕ КОЈЕ НИСУ УНЕТЕ У "ПРЕЧИШЋЕН ТЕКСТ" ЗАКОНА</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan6">
+				<num>6.</num>
+				<heading>Закон о изменама и допунама Закона о Српској књижевној задрузи:  "Службени гласник РС", број 10/2019-12</heading>
+				<paragraph wId="clan6-stav1">
+					<content>
+						<p>Српска књижевна задруга ускладиће своју  организацију, рад, пословање и акте са одредбама овог закона у року од три  месеца до дана ступања на снагу овог закона.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan7">
+				<num>7.</num>
+				<paragraph wId="clan7-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од  дана објављивања у „Службеном гласнику Републике Србије”.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav2">
+					<content>
+						<p>ЗАКОН</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav3">
+					<content>
+						<p>о  Српској књижевној задрузи</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav4">
+					<content>
+						<p>"Службени гласник РС", бр. 20 од 14. маја 1997, 10 од 15. фебруара 2019.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Српска књижевна задруга, основана 1892. године као  друштво које својим радом, а нарочито издавањем одабраних дела из области  културног стваралаштва, доприноси ширењу опште просвећености и културе народа,  је јединствена, самостална, невладина и недобитна организација, којом управљају  њени чланови.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<heading>*Службени гласник РС, број 10/2019</heading>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Српска књижевна задруга има својство правног лица у складу с овим законом и својим општим актом.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>Седиште Српске књижевне задруге је у Београду.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav3">
+					<content>
+						<p>Српска књижевна задруга користи име и знак установљене приликом њеног оснивања, који се не могу мењати.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav4">
+					<content>
+						<p>Нико не може користити име и знак Српске књижевне задруге без њене сагласности.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Српска књижевна задруга не може вршити статусне промене, нити мењати облик организовања, као ни променити своје циљеве утврђене оснивачким актом из 1892. године.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan4">
+				<num>4.</num>
+				<paragraph wId="clan4-stav1">
+					<intro>
+						<p>Српска књижевна задруга обавља послове и остварује циљеве од трајног значаја за културу, утврђене оснивачким актом од 16. априла 1892. године, и то:</p>
+					</intro>
+					<point wId="clan4-stav1-tac1">
+						<num>1)</num>
+						<content>
+							<p> критички приређује издања наших старијих и савремених књижевника и научника;</p>
+						</content>
+					</point>
+					<point wId="clan4-stav1-tac2">
+						<num>2)</num>
+						<content>
+							<p> издаје одабрана дела из књижевности, науке, уметности и других области културног стваралаштва;</p>
+						</content>
+					</point>
+					<point wId="clan4-stav1-tac3">
+						<num>3)</num>
+						<content>
+							<p> издаје преводе књижевних дела ради упознавања и ширења књижевности словенских и других народа;</p>
+						</content>
+					</point>
+					<point wId="clan4-stav1-tac4">
+						<num>4)</num>
+						<content>
+							<p> помаже развитак и ширење народне књижевности и приређује популарна издања књига из ове области;</p>
+						</content>
+					</point>
+					<point wId="clan4-stav1-tac5">
+						<num>5)</num>
+						<content>
+							<p> издаје сваке године „Коло” Српске књижевне задруге, најстарију српску књижевну едицију;</p>
+						</content>
+					</point>
+				</paragraph>
+				<paragraph wId="clan4-stav2">
+					<content>
+						<p>5а) организује научно-истраживачке послове у  складу са циљевима утврђеним овим законом;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan4-stav3">
+					<intro>
+						<p>5б) организатор је и носилац националних  издавачких подухвата из области књижевности, историје и уметности;</p>
+					</intro>
+					<point wId="clan4-stav3-tac6">
+						<num>6)</num>
+						<content>
+							<p> остварује и друге циљеве утврђене актима Српске књижевне задруге.</p>
+						</content>
+					</point>
+				</paragraph>
+			</article>
+			<article wId="clan5">
+				<num>5.</num>
+				<heading>*Службени гласник РС, број 10/2019</heading>
+				<paragraph wId="clan5-stav1">
+					<intro>
+						<p>Српска књижевна задруга обезбеђује средства за обављање послова и остваривање својих циљева:</p>
+					</intro>
+					<point wId="clan5-stav1-tac1">
+						<num>1)</num>
+						<content>
+							<p> од улога чланова и претплатника;</p>
+						</content>
+					</point>
+					<point wId="clan5-stav1-tac2">
+						<num>2)</num>
+						<content>
+							<p> из прихода од обављања својих послова и продаје својих публикација, као и публикација других издавача;</p>
+						</content>
+					</point>
+					<point wId="clan5-stav1-tac3">
+						<num>3)</num>
+						<content>
+							<p> из задужбина и фондова, поклона, легата и дотација;</p>
+						</content>
+					</point>
+				</paragraph>
+				<paragraph wId="clan5-stav2">
+					<intro>
+						<p>3а) из буџета Републике Србије, покрајине и  јединица локалне самоуправе, у складу са законом којим се регулише оснивање  и правни положај удружења;</p>
+					</intro>
+					<point wId="clan5-stav2-tac4">
+						<num>4)</num>
+						<content>
+							<p> из других извора у складу са законом.</p>
+						</content>
+					</point>
+				</paragraph>
+			</article>
+			<article wId="clan6">
+				<num>6.</num>
+				<heading>*Службени гласник РС, број 10/2019</heading>
+				<paragraph wId="clan6-stav1">
+					<content>
+						<p>Органи Српске књижевне задруге јесу: Скупштина,  Управни и Надзорни одбор, управник и главни уредник.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan6-stav2">
+					<content>
+						<p>Правилима и другим општим актима Српске књижевне задруге ближе се утврђује начин избора органа и делокруг њиховог рада.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan6-stav3">
+					<content>
+						<p>Правила из става 2. овог члана доноси Скупштина Српске књижевне задруге, на предлог Управног одбора.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan7">
+				<num>7.</num>
+				<heading>*Службени гласник РС, број 10/2019</heading>
+				<paragraph wId="clan7-stav1">
+					<content>
+						<p>Надзор над применом одредаба овог закона врши министарство надлежно за послове културе.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan8">
+				<num>8.</num>
+				<paragraph wId="clan8-stav1">
+					<content>
+						<p>Непокретности и друга средства којима располаже Српска књижевна задруга на дан ступања на снагу овог закона, својина су Српске књижевне задруге и могу се користити само за остваривање њених циљева, у складу с овим законом.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan8-stav2">
+					<content>
+						<p>Српска књижевна задруга дужна је да одржава и сачува непокретну имовину из става 1. овог члана.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan8-stav3">
+					<content>
+						<p>Српска књижевна задруга има свој Књижевни архив  и Библиотеку.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan9">
+				<num>9.</num>
+				<heading>*Службени гласник РС, број 10/2019</heading>
+				<paragraph wId="clan9-stav1">
+					<content>
+						<p>Српска књижевна задруга ускладиће своју организацију, рад, пословање и акте са одредбама овог закона и извршити упис делатности у судски регистар, у року од три месеца од дана ступања на снагу овог закона.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan10">
+				<num>10.</num>
+				<paragraph wId="clan10-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan10-stav2">
+					<content>
+						<p>ОДРЕДБЕ КОЈЕ НИСУ УНЕТЕ У "ПРЕЧИШЋЕН ТЕКСТ" ЗАКОНА</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan6">
+				<num>6.</num>
+				<heading>Закон о изменама и допунама Закона о Српској књижевној задрузи:  "Службени гласник РС", број 10/2019-12</heading>
+				<paragraph wId="clan6-stav1">
+					<content>
+						<p>Српска књижевна задруга ускладиће своју  организацију, рад, пословање и акте са одредбама овог закона у року од три  месеца до дана ступања на снагу овог закона.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan7">
+				<num>7.</num>
+				<paragraph wId="clan7-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од  дана објављивања у „Службеном гласнику Републике Србије”.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav2">
+					<content>
+						<p>ЗАКОН</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav3">
+					<content>
+						<p>о  Српској књижевној задрузи</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav4">
+					<content>
+						<p>"Службени гласник РС", бр. 20 од 14. маја 1997, 10 од 15. фебруара 2019.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Српска књижевна задруга, основана 1892. године као  друштво које својим радом, а нарочито издавањем одабраних дела из области  културног стваралаштва, доприноси ширењу опште просвећености и културе народа,  је јединствена, самостална, невладина и недобитна организација, којом управљају  њени чланови.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<heading>*Службени гласник РС, број 10/2019</heading>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Српска књижевна задруга има својство правног лица у складу с овим законом и својим општим актом.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>Седиште Српске књижевне задруге је у Београду.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav3">
+					<content>
+						<p>Српска књижевна задруга користи име и знак установљене приликом њеног оснивања, који се не могу мењати.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav4">
+					<content>
+						<p>Нико не може користити име и знак Српске књижевне задруге без њене сагласности.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Српска књижевна задруга не може вршити статусне промене, нити мењати облик организовања, као ни променити своје циљеве утврђене оснивачким актом из 1892. године.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan4">
+				<num>4.</num>
+				<paragraph wId="clan4-stav1">
+					<content>
+						<p>Српска књижевна задруга обавља послове и остварује циљеве од трајног значаја за културу, утврђене оснивачким актом од 16. априла 1892. године, и то:</p>
+					</content>
+				</paragraph>
+			</article>
+		</body>
+	</act>
+</akomaNtoso>

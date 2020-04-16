@@ -1,0 +1,1195 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о осигурању">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2004/55-2/main"/>
+					<FRBRuri value="/rs/act/2004/55-2"/>
+					<FRBRdate date="2004-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2014/139-3/srp@/main"/>
+					<FRBRuri value="/rs/act/2014/139-3/srp@"/>
+					<FRBRdate date="2014-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2014/139-3/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2014/139-3/srp@.akn"/>
+					<FRBRdate date="2014-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2004-05-21" name="службени гласник рс“" number="55" showAs="Службени гласник РС“"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="IX ОПШТИ ПРИВРЕДНИ ПРОПИСИ И ЕКОНОМСКИ ОДНОСИ СА ИНОСТРАНСТВОМ" value="ix општи привредни прописи и економски односи са иностранством" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="3. Осигурање" value="3. осигурање" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2004-01-01" refersTo="55/2004-2" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2004-01-01" refersTo="70/2004-16" source="#somebody" type="amendment" wId="e2"/>
+				<eventRef date="2005-01-01" refersTo="61/2005-15" source="#somebody" type="amendment" wId="e3"/>
+				<eventRef date="2005-01-01" refersTo="61/2005-19" source="#somebody" type="amendment" wId="e4"/>
+				<eventRef date="2005-01-01" refersTo="85/2005-30" source="#somebody" type="amendment" wId="e5"/>
+				<eventRef date="2007-01-01" refersTo="101/2007-8" source="#somebody" type="amendment" wId="e6"/>
+				<eventRef date="2009-01-01" refersTo="63/2009-42" source="#somebody" type="amendment" wId="e7"/>
+				<eventRef date="2009-01-01" refersTo="107/2009-181" source="#somebody" type="amendment" wId="e8"/>
+				<eventRef date="2011-01-01" refersTo="99/2011-20" source="#somebody" type="amendment" wId="e9"/>
+				<eventRef date="2012-01-01" refersTo="119/2012-29" source="#somebody" type="amendment" wId="e10"/>
+				<eventRef date="2013-01-01" refersTo="116/2013-3" source="#somebody" type="amendment" wId="e11"/>
+				<eventRef date="2014-01-01" refersTo="139/2014-3" source="#somebody" type="amendment" wId="e12"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2004-05-21" wId="usvajanje"/>
+				<step by="#TODO" date="2004-05-29" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2004-05-29" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 29. маја 2004. године (види члан 247. Закона). Одредба члана 119. став 2. овог закона примењује се од 1. јануара 2007. године (види члан 246. Закона).До доношења прописа за спровођење овог закона, примењиваће се прописи донети на основу Закона о осигурању имовине и лица („Службени лист СРЈ“, бр. 30/1996, 57/1998, 53/1999 и 55/1999), осим оних одредаба које су у супротности са одредбама овог закона (види члан 239. Закона).Престали су да важе члан 177. и чл. 203. до 207. овог закона и одредбе чл. 202. и 208. овог закона у делу који се односи на друштва за осигурање (види члан 31. Закона о стечају и ликвидацији банака и друштава за осигурање – 61/2005-19).Престале су да важе кривичноправне одредбе садржане у члану 221. овог закона (види члан 431. Кривичног законика – 85/2005-30).Одредбе чл. 1. и 2. Закона о изменама и допунама Закона о осигурању („Службени гласник РС“, број 101/2007-8), примењују се по истеку 5 година од дана приступања Републике Србије Светској трговинској организацији, а одредбе члана 3, члана 10. став 2. и члана 13. став 2. тог закона од дана приступања Републике Србије Светској трговинској организацији (види члан 25. Закона – 101/2007-8).Одлуком Уставног суда број IУ-468/2004 („Службени гласник РС“, број 63/2009) престала је да важи одредба члана 174. став 1. тачка 15) Закона о осигурању („Службени гласник РС”, бр. 55/2004, 70/2004 - исправка, 61/2005, 85/2005 – др. законик, 101/2007), јер је утврђено да није у сагласности са Уставом (види Одлуку УС – 63/2009-42).Закон престаје да важи даном почетка примене Закона о осигурању („Службени гласник РС”, број 139/2014), односно 27. јуна 2015. године, осим члана 234. Закона који је престао да важи 26. децембра 2014. године. Изузетно, одредбе чл. од 243. до 243в и чл. од 243д до 243ж примењују се на друштва за осигурање до окончања поступка приватизације тих друштава (види члан 280. Закона – 139/2014-3).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О осигурању „Службени гласник РС“, бр. 55 од 21. маја 2004, 70 од 18. јуна 2004 - испрaвка, 61 од 18. јула 2005, 61 од 18. јула 2005 - др. закон, 85 од 6. октобра 2005 - др. законик, 101 од 6. новембра 2007, 63 од 7. августа 2009 - УС, 107 од 23. децембра 2009, 99 од 27. децембра 2011, 119 од 17. децембра 2012, 116 од 26. децембра 2013, 139 од 18. децембра 2014 - др. закон</p>
+			</longTitle>
+			<p>﻿</p>
+		</preface>
+		<body>
+			<article wId="clan116">
+				<num>1-116.</num>
+				<paragraph wId="clan116-stav1">
+					<content>
+						<p>Престали су да важе (види <ref wId="ref0" href="akn/rs/act/2014/139/srp@/!main~/art_280">члан  280.  Закона - 139/2014-3</ref>)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan116-stav2">
+					<content>
+						<p>Члан  117.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan116-stav3">
+					<content>
+						<p>Брисан је (види <ref wId="ref1" href="akn/rs/act/2005/61/srp@/!main~/art_19">члан 19. Закона – 61/2005-15</ref>)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan116-stav4">
+					<content>
+						<p>Чл.118-203.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan116-stav5">
+					<content>
+						<p>Престали су да важе (види  <ref wId="ref2" href="akn/rs/act/2014/139/srp@/!main~/art_280">члан 280.  Закона - 139/2014-3</ref>)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan116-stav6">
+					<content>
+						<p>Члан  203-207.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan116-stav7">
+					<content>
+						<p>Престали  су да важе (види <ref wId="ref3" href="akn/rs/act/2005/61/srp@/!main~/art_31">члан 31. Закона – 61/2005-19</ref>)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan116-stav8">
+					<content>
+						<p>Члан 208-220</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan221">
+				<num>221.</num>
+				<heading>Престали  су да важе (види  члан 280.  Закона - 139/2014-3)</heading>
+				<paragraph wId="clan221-stav1">
+					<content>
+						<p>Престао је да важи  (види <ref wId="ref4" href="akn/rs/act/2014/139-3/srp@/!main~art_431" >члан 431.   </ref>Законика – 85/2005-30)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan221-stav2">
+					<content>
+						<p>Чл.  222-242.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan221-stav3">
+					<content>
+						<p>Престали  су да важе (види  <ref wId="ref5" href="akn/rs/act/2014/139/srp@/!main~/art_280">члан 280.  Закона - 139/2014-3</ref>)</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan243">
+				<num>243.</num>
+				<heading>Приватизација друштава за осигурање</heading>
+				<paragraph wId="clan243-stav1">
+					<content>
+						<p>Предмет приватизације је друштвени, односно државни капитал у друштвима за осигурање*  исказан у акцијама** (у даљем тексту: капитал).*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243-stav2">
+					<content>
+						<p>Друштва за осигурање дужна су да искажу капитал из <ref wId="ref6" href="akn/rs/act/2014/139-3/srp@/!main~art_243__para_1" >става 1. овог</ref> члана у акцијама и упишу те акције у Централни регистар, депо и клиринг хартија од вредности.**</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243-stav3">
+					<content>
+						<p>У поступку приватизације може се продати имовина или део имовине друштва за осигурање, на начин и под условима прописаним овим законом.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243-stav4">
+					<content>
+						<p>Поступак приватизације капитала из <ref wId="ref7" href="akn/rs/act/2014/139-3/srp@/!main~art_243__para_1" >става 1. овог</ref> члана решењем покреће Министарство.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243-stav5">
+					<content>
+						<p>Агенција за осигурање депозита основана посебним законом (у даљем тексту: Агенција) организује и спроводи поступак приватизације капитала из <ref wId="ref8" href="akn/rs/act/2014/139-3/srp@/!main~art_243__para_1" >става 1. овог</ref> члана.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243-stav6">
+					<content>
+						<p>Министарство врши надзор над спровођењем поступка из става*  5**. овог члана.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243-stav7">
+					<content>
+						<p>*<ref wId="ref9" href="akn/rs/act/2005/61/srp@">Службени гласник РС, број 61/2005</ref></p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan243.а">
+				<num>243а</num>
+				<heading>**Службени гласник РС, број 101/2007</heading>
+				<paragraph wId="clan243.а-stav1">
+					<content>
+						<p>У поступку приватизације продаје се*  70 % друштвеног капитала који се приватизује**   у друштву за осигурање (у даљем тексту: субјект приватизације).*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.а-stav2">
+					<content>
+						<p>Агенција је овлашћена да спроведе поступак продаје делова имовине друштва за осигурање које послује са друштвеним капиталом, ако процени да би се поступак приватизације на тај начин ефикасније спровео.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.а-stav3">
+					<content>
+						<p>Предмет продаје у смислу <ref wId="ref10" href="akn/rs/act/2014/139-3/srp@/!main~art_243__para_2" >става 2. овог</ref> члана не могу бити непокретности или покретне ствари које непосредно служе обављању делатности субјекта приватизације.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.а-stav4">
+					<content>
+						<p>Продаја капитала, односно имовине или делова имовине из <ref wId="ref11" href="akn/rs/act/2014/139-3/srp@/!main~art_243__para_1->para_2" >ст. 1. и 2. овог</ref> члана спроводи се методом јавног тендера.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.а-stav5">
+					<content>
+						<p>Влада прописује поступак продаје капитала и имовине из <ref wId="ref12" href="akn/rs/act/2014/139-3/srp@/!main~art_243__para_4" >става 4. овог</ref> члана.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.а-stav6">
+					<content>
+						<p>*<ref wId="ref13" href="akn/rs/act/2005/61/srp@">Службени гласник РС, број 61/2005</ref></p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan243.б">
+				<num>243б</num>
+				<heading>**Службени гласник РС, број 101/2007</heading>
+				<paragraph wId="clan243.б-stav1">
+					<content>
+						<p>Агенција закључује уговор о продаји капитала из <ref wId="ref14" href="akn/rs/act/2014/139-3/srp@/!main~art_243а" >члана 243а овог</ref> закона са купцем. Уговор се сматра закљученим када га потпишу Агенција и купац.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.б-stav2">
+					<content>
+						<p>Купац стиче власништво на капиталу из <ref wId="ref15" href="akn/rs/act/2014/139-3/srp@/!main~art_243а__para_1" >члана 243а став 1. овог</ref> закона у складу са одредбама уговора о продаји капитала.*</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan243.в">
+				<num>243в</num>
+				<heading>*Службени гласник РС, број 61/2005</heading>
+				<paragraph wId="clan243.в-stav1">
+					<content>
+						<p>Купопродајна цена из уговора о продаји капитала из <ref wId="ref16" href="akn/rs/act/2014/139-3/srp@/!main~art_243б__para_1" >члана 243б став 1. овог</ref> закона уплаћује се на рачун Агенције.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.в-stav2">
+					<content>
+						<p>Из средстава из <ref wId="ref17" href="akn/rs/act/2014/139-3/srp@/!main~art_243__para_1" >става 1. овог</ref> члана измирују се трошкови продаје у поступку приватизације  и посебна накнада остварена закључењем уговора о продаји капитала, односно имовине (провизија).**</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.в-stav3">
+					<content>
+						<p>Трошковима продаје, у смислу <ref wId="ref18" href="akn/rs/act/2014/139-3/srp@/!main~art_243__para_2" >става 2. овог</ref> члана, сматрају се издаци за ангажовање финансијских и правних саветника у поступку приватизације, накнаде за оглашавање јавних позива и других информација које су од значаја за спровођење поступка приватизације, као и други трошкови у поступку приватизације.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.в-stav4">
+					<content>
+						<p>Висину провизије из <ref wId="ref19" href="akn/rs/act/2014/139-3/srp@/!main~art_243__para_2" >става 2. овог</ref> члана прописује министар надлежан за послове финансија.**</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.в-stav5">
+					<content>
+						<p>*<ref wId="ref20" href="akn/rs/act/2005/61/srp@">Службени гласник РС, број 61/2005</ref></p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.в-stav6">
+					<content>
+						<p>**<ref wId="ref21" href="akn/rs/act/2007/101/srp@">Службени гласник РС, број 101/2007</ref></p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.в-stav7">
+					<content>
+						<p>Члан  243г</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan243.д">
+				<num>243д</num>
+				<heading>Брисан је члан 243г  који је додат у броју 61/2005 (види члан 22. Закона – 101/2007-8)</heading>
+				<paragraph wId="clan243.д-stav1">
+					<content>
+						<p>Средства остварена продајом капитала, након измирења трошкова у складу са <ref wId="ref22" href="akn/rs/act/2014/139-3/srp@/!main~art_243в__para_2" >чланом 243в став 2. овог</ref> закона и издвајања износа од 10 % од остварене купопродајне цене за потребе гарантног фонда осигурања, Агенција уплаћује на рачун буџета Републике Србије.**</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.д-stav2">
+					<content>
+						<p>Средства из <ref wId="ref23" href="akn/rs/act/2014/139-3/srp@/!main~art_243__para_1" >става 1. овог</ref> члана уплаћена на рачун буџета Републике Србије распоређују се сходно одговарајућим одредбама закона којим се уређује приватизација.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.д-stav3">
+					<content>
+						<p>*<ref wId="ref24" href="akn/rs/act/2005/61/srp@">Службени гласник РС, број 61/2005</ref></p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan243.ђ">
+				<num>243ђ</num>
+				<heading>**Службени гласник РС, број 101/2007</heading>
+				<paragraph wId="clan243.ђ-stav1">
+					<content>
+						<p>Агенција организује и спроводи и поступак продаје акција друштава за осигурање, које су у власништву Републике Србије, Фонда за развој Републике Србије и Републичког фонда за пензијско и инвалидско осигурање.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.ђ-stav2">
+					<content>
+						<p>Агенција организује и спроводи и поступак продаје других акција друштва за осигурање када су законити имаоци тих акција посебним уговором, који мора бити закључен у писменој форми, овластили Агенцију да у њихово име и за њихов рачун изврши продају таквих акција трећем лицу.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.ђ-stav3">
+					<content>
+						<p>Агенција закључује уговор о продаји акција из <ref wId="ref25" href="akn/rs/act/2014/139-3/srp@/!main~art_243__para_1->para_2" >ст. 1. и 2. овог</ref> члана. Уговор се сматра закљученим када га потпишу Агенција и купац акција.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.ђ-stav4">
+					<content>
+						<p>Акције из <ref wId="ref26" href="akn/rs/act/2014/139-3/srp@/!main~art_243__para_1->para_2" >ст. 1. и 2. овог</ref> члана продају се методом јавног тендера у складу са прописом из <ref wId="ref27" href="akn/rs/act/2014/139-3/srp@/!main~art_243а__para_5" >члана 243а став 5. овог</ref> закона.*</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan243.е">
+				<num>243е</num>
+				<heading>*Службени гласник РС, број 61/2005</heading>
+				<paragraph wId="clan243.е-stav1">
+					<content>
+						<p>Друштво за осигурање које послује друштвеним, односно државним капиталом не може, без претходне сагласности Агенције, да доноси одлуке о смањењу или повећању капитала, реорганизацији или реструктурирању, инвестиционом улагању, продаји дела имовине, оптерећивању имовине залагањем ствари или успостављањем хипотеке, дугорочном закупу, поравнању са повериоцима и узимању или одобравању кредита или издавању гаранција, ван тока редовног пословања.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.е-stav2">
+					<content>
+						<p>Одлуке донете супротно одредби <ref wId="ref28" href="akn/rs/act/2014/139-3/srp@/!main~art_243__para_1" >става 1. овог</ref> члана поништиће Агенција.*</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan243.ж">
+				<num>243ж</num>
+				<heading>*Службени гласник РС, број 61/2005</heading>
+				<paragraph wId="clan243.ж-stav1">
+					<content>
+						<p>На поступак приватизације капитала у друштвима за осигурање, ако овим законом није другачије одређено, примењују се одредбе закона којим се уређује приватизација друштвеног и државног капитала у предузећима и другим правним лицима*, **.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.ж-stav2">
+					<content>
+						<p>*<ref wId="ref29" href="akn/rs/act/2005/61/srp@">Службени гласник РС, број 61/2005</ref></p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan247">
+				<num>244-247.</num>
+				<heading>**Службени гласник РС, број 101/2007</heading>
+				<paragraph wId="clan247-stav1">
+					<content>
+						<p>Престали су да важе (види <ref wId="ref30" href="akn/rs/act/2015/139/srp@/!main~/art_280">члан 280. Закона - 139/2015-3</ref>)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan247-stav2">
+					<content>
+						<p>ЗАКОН</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan247-stav3">
+					<content>
+						<p>о осигурању</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan247-stav4">
+					<content>
+						<p>„Службени   гласник РС“, бр. 55 од 21. маја   2004, 70 од 18. јуна   2004  - испрaвка, 61 од 18. јула 2005,  61 од 18. јула 2005  - др. закон, 85 од 6. октобра 2005  - др. законик,  101 од 6.  новембра   2007,   63 од 7. августа 2009  -  УС,  107 од 23. децембра 2009,  99 од 27. децембра 2011, 119 од 17. децембра 2012,   116  од 26.  децембра 2013, 139 од 18.  децембра 2014 - др. закон</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan247-stav5">
+					<content>
+						<p>НАПОМЕНА ИЗДАВАЧА: Закон  је престао да важи даном почетка примене Закона о осигурању („<ref wId="ref33" href="akn/rs/act/2014/139/srp@">Службени гласник  РС”, број 139/2014</ref>), односно 27. јуна 2015. године, осим <ref wId="ref31" href="akn/rs/act/2014/139-3/srp@/!main~art_234" >члана 234. </ref>Закона који  је престао да важи 26. децембра 2014. године. Изузетно, одредбе чл. од 243. до  243в и чл. од 243д до 243ж примењују се на друштва за осигурање до окончања  поступка приватизације тих друштава (види члан 280. Закона – 139/2014-3).<ref wId="ref32" href="akn/rs/act/2014/139/srp@/!main~/art_280"></ref></p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan116">
+				<num>1-116.</num>
+				<paragraph wId="clan116-stav1">
+					<content>
+						<p>Престали су да важе (види члан  280.  Закона - 139/2014-3)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan116-stav2">
+					<content>
+						<p>Члан  117.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan116-stav3">
+					<content>
+						<p>Брисан је (види члан 19. Закона – 61/2005-15)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan116-stav4">
+					<content>
+						<p>Чл.118-203.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan116-stav5">
+					<content>
+						<p>Престали су да важе (види  члан 280.  Закона - 139/2014-3)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan116-stav6">
+					<content>
+						<p>Члан  203-207.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan116-stav7">
+					<content>
+						<p>Престали  су да важе (види члан 31. Закона – 61/2005-19)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan116-stav8">
+					<content>
+						<p>Члан 208-220</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan221">
+				<num>221.</num>
+				<heading>Престали  су да важе (види  члан 280.  Закона - 139/2014-3)</heading>
+				<paragraph wId="clan221-stav1">
+					<content>
+						<p>Престао је да важи  (види члан 431.   Законика – 85/2005-30)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan221-stav2">
+					<content>
+						<p>Чл.  222-242.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan221-stav3">
+					<content>
+						<p>Престали  су да важе (види  члан 280.  Закона - 139/2014-3)</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan243">
+				<num>243.</num>
+				<heading>Приватизација друштава за осигурање</heading>
+				<paragraph wId="clan243-stav1">
+					<content>
+						<p>Предмет приватизације је друштвени, односно државни капитал у друштвима за осигурање*  исказан у акцијама** (у даљем тексту: капитал).*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243-stav2">
+					<content>
+						<p>Друштва за осигурање дужна су да искажу капитал из става 1. овог члана у акцијама и упишу те акције у Централни регистар, депо и клиринг хартија од вредности.**</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243-stav3">
+					<content>
+						<p>У поступку приватизације може се продати имовина или део имовине друштва за осигурање, на начин и под условима прописаним овим законом.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243-stav4">
+					<content>
+						<p>Поступак приватизације капитала из става 1. овог члана решењем покреће Министарство.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243-stav5">
+					<content>
+						<p>Агенција за осигурање депозита основана посебним законом (у даљем тексту: Агенција) организује и спроводи поступак приватизације капитала из става 1. овог члана.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243-stav6">
+					<content>
+						<p>Министарство врши надзор над спровођењем поступка из става*  5**. овог члана.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243-stav7">
+					<content>
+						<p>*Службени гласник РС, број 61/2005</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan243.а">
+				<num>243а</num>
+				<heading>**Службени гласник РС, број 101/2007</heading>
+				<paragraph wId="clan243.а-stav1">
+					<content>
+						<p>У поступку приватизације продаје се*  70 % друштвеног капитала који се приватизује**   у друштву за осигурање (у даљем тексту: субјект приватизације).*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.а-stav2">
+					<content>
+						<p>Агенција је овлашћена да спроведе поступак продаје делова имовине друштва за осигурање које послује са друштвеним капиталом, ако процени да би се поступак приватизације на тај начин ефикасније спровео.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.а-stav3">
+					<content>
+						<p>Предмет продаје у смислу става 2. овог члана не могу бити непокретности или покретне ствари које непосредно служе обављању делатности субјекта приватизације.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.а-stav4">
+					<content>
+						<p>Продаја капитала, односно имовине или делова имовине из ст. 1. и 2. овог члана спроводи се методом јавног тендера.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.а-stav5">
+					<content>
+						<p>Влада прописује поступак продаје капитала и имовине из става 4. овог члана.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.а-stav6">
+					<content>
+						<p>*Службени гласник РС, број 61/2005</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan243.б">
+				<num>243б</num>
+				<heading>**Службени гласник РС, број 101/2007</heading>
+				<paragraph wId="clan243.б-stav1">
+					<content>
+						<p>Агенција закључује уговор о продаји капитала из члана 243а овог закона са купцем. Уговор се сматра закљученим када га потпишу Агенција и купац.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.б-stav2">
+					<content>
+						<p>Купац стиче власништво на капиталу из члана 243а став 1. овог закона у складу са одредбама уговора о продаји капитала.*</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan243.в">
+				<num>243в</num>
+				<heading>*Службени гласник РС, број 61/2005</heading>
+				<paragraph wId="clan243.в-stav1">
+					<content>
+						<p>Купопродајна цена из уговора о продаји капитала из члана 243б став 1. овог закона уплаћује се на рачун Агенције.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.в-stav2">
+					<content>
+						<p>Из средстава из става 1. овог члана измирују се трошкови продаје у поступку приватизације  и посебна накнада остварена закључењем уговора о продаји капитала, односно имовине (провизија).**</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.в-stav3">
+					<content>
+						<p>Трошковима продаје, у смислу става 2. овог члана, сматрају се издаци за ангажовање финансијских и правних саветника у поступку приватизације, накнаде за оглашавање јавних позива и других информација које су од значаја за спровођење поступка приватизације, као и други трошкови у поступку приватизације.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.в-stav4">
+					<content>
+						<p>Висину провизије из става 2. овог члана прописује министар надлежан за послове финансија.**</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.в-stav5">
+					<content>
+						<p>*Службени гласник РС, број 61/2005</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.в-stav6">
+					<content>
+						<p>**Службени гласник РС, број 101/2007</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.в-stav7">
+					<content>
+						<p>Члан  243г</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan243.д">
+				<num>243д</num>
+				<heading>Брисан је члан 243г  који је додат у броју 61/2005 (види члан 22. Закона – 101/2007-8)</heading>
+				<paragraph wId="clan243.д-stav1">
+					<content>
+						<p>Средства остварена продајом капитала, након измирења трошкова у складу са чланом 243в став 2. овог закона и издвајања износа од 10 % од остварене купопродајне цене за потребе гарантног фонда осигурања, Агенција уплаћује на рачун буџета Републике Србије.**</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.д-stav2">
+					<content>
+						<p>Средства из става 1. овог члана уплаћена на рачун буџета Републике Србије распоређују се сходно одговарајућим одредбама закона којим се уређује приватизација.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.д-stav3">
+					<content>
+						<p>*Службени гласник РС, број 61/2005</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan243.ђ">
+				<num>243ђ</num>
+				<heading>**Службени гласник РС, број 101/2007</heading>
+				<paragraph wId="clan243.ђ-stav1">
+					<content>
+						<p>Агенција организује и спроводи и поступак продаје акција друштава за осигурање, које су у власништву Републике Србије, Фонда за развој Републике Србије и Републичког фонда за пензијско и инвалидско осигурање.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.ђ-stav2">
+					<content>
+						<p>Агенција организује и спроводи и поступак продаје других акција друштва за осигурање када су законити имаоци тих акција посебним уговором, који мора бити закључен у писменој форми, овластили Агенцију да у њихово име и за њихов рачун изврши продају таквих акција трећем лицу.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.ђ-stav3">
+					<content>
+						<p>Агенција закључује уговор о продаји акција из ст. 1. и 2. овог члана. Уговор се сматра закљученим када га потпишу Агенција и купац акција.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.ђ-stav4">
+					<content>
+						<p>Акције из ст. 1. и 2. овог члана продају се методом јавног тендера у складу са прописом из члана 243а став 5. овог закона.*</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan243.е">
+				<num>243е</num>
+				<heading>*Службени гласник РС, број 61/2005</heading>
+				<paragraph wId="clan243.е-stav1">
+					<content>
+						<p>Друштво за осигурање које послује друштвеним, односно државним капиталом не може, без претходне сагласности Агенције, да доноси одлуке о смањењу или повећању капитала, реорганизацији или реструктурирању, инвестиционом улагању, продаји дела имовине, оптерећивању имовине залагањем ствари или успостављањем хипотеке, дугорочном закупу, поравнању са повериоцима и узимању или одобравању кредита или издавању гаранција, ван тока редовног пословања.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.е-stav2">
+					<content>
+						<p>Одлуке донете супротно одредби става 1. овог члана поништиће Агенција.*</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan243.ж">
+				<num>243ж</num>
+				<heading>*Службени гласник РС, број 61/2005</heading>
+				<paragraph wId="clan243.ж-stav1">
+					<content>
+						<p>На поступак приватизације капитала у друштвима за осигурање, ако овим законом није другачије одређено, примењују се одредбе закона којим се уређује приватизација друштвеног и државног капитала у предузећима и другим правним лицима*, **.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.ж-stav2">
+					<content>
+						<p>*Службени гласник РС, број 61/2005</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan247">
+				<num>244-247.</num>
+				<heading>**Службени гласник РС, број 101/2007</heading>
+				<paragraph wId="clan247-stav1">
+					<content>
+						<p>Престали су да важе (види члан 280. Закона - 139/2015-3)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan247-stav2">
+					<content>
+						<p>ЗАКОН</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan247-stav3">
+					<content>
+						<p>о осигурању</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan247-stav4">
+					<content>
+						<p>„Службени   гласник РС“, бр. 55 од 21. маја   2004, 70 од 18. јуна   2004  - испрaвка, 61 од 18. јула 2005,  61 од 18. јула 2005  - др. закон, 85 од 6. октобра 2005  - др. законик,  101 од 6.  новембра   2007,   63 од 7. августа 2009  -  УС,  107 од 23. децембра 2009,  99 од 27. децембра 2011, 119 од 17. децембра 2012,   116  од 26.  децембра 2013, 139 од 18.  децембра 2014 - др. закон</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan247-stav5">
+					<content>
+						<p>НАПОМЕНА ИЗДАВАЧА: Закон  је престао да важи даном почетка примене Закона о осигурању („Службени гласник  РС”, број 139/2014), односно 27. јуна 2015. године, осим члана 234. Закона који  је престао да важи 26. децембра 2014. године. Изузетно, одредбе чл. од 243. до  243в и чл. од 243д до 243ж примењују се на друштва за осигурање до окончања  поступка приватизације тих друштава (види члан 280. Закона – 139/2014-3).</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan116">
+				<num>1-116.</num>
+				<paragraph wId="clan116-stav1">
+					<content>
+						<p>Престали су да важе (види члан  280.  Закона - 139/2014-3)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan116-stav2">
+					<content>
+						<p>Члан  117.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan116-stav3">
+					<content>
+						<p>Брисан је (види члан 19. Закона – 61/2005-15)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan116-stav4">
+					<content>
+						<p>Чл.118-203.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan116-stav5">
+					<content>
+						<p>Престали су да важе (види  члан 280.  Закона - 139/2014-3)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan116-stav6">
+					<content>
+						<p>Члан  203-207.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan116-stav7">
+					<content>
+						<p>Престали  су да важе (види члан 31. Закона – 61/2005-19)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan116-stav8">
+					<content>
+						<p>Члан 208-220</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan221">
+				<num>221.</num>
+				<heading>Престали  су да важе (види  члан 280.  Закона - 139/2014-3)</heading>
+				<paragraph wId="clan221-stav1">
+					<content>
+						<p>Престао је да важи  (види члан 431.   Законика – 85/2005-30)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan221-stav2">
+					<content>
+						<p>Чл.  222-242.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan221-stav3">
+					<content>
+						<p>Престали  су да важе (види  члан 280.  Закона - 139/2014-3)</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan243">
+				<num>243.</num>
+				<heading>Приватизација друштава за осигурање</heading>
+				<paragraph wId="clan243-stav1">
+					<content>
+						<p>Предмет приватизације је друштвени, односно државни капитал у друштвима за осигурање*  исказан у акцијама** (у даљем тексту: капитал).*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243-stav2">
+					<content>
+						<p>Друштва за осигурање дужна су да искажу капитал из става 1. овог члана у акцијама и упишу те акције у Централни регистар, депо и клиринг хартија од вредности.**</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243-stav3">
+					<content>
+						<p>У поступку приватизације може се продати имовина или део имовине друштва за осигурање, на начин и под условима прописаним овим законом.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243-stav4">
+					<content>
+						<p>Поступак приватизације капитала из става 1. овог члана решењем покреће Министарство.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243-stav5">
+					<content>
+						<p>Агенција за осигурање депозита основана посебним законом (у даљем тексту: Агенција) организује и спроводи поступак приватизације капитала из става 1. овог члана.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243-stav6">
+					<content>
+						<p>Министарство врши надзор над спровођењем поступка из става*  5**. овог члана.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243-stav7">
+					<content>
+						<p>*Службени гласник РС, број 61/2005</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan243.а">
+				<num>243а</num>
+				<heading>**Службени гласник РС, број 101/2007</heading>
+				<paragraph wId="clan243.а-stav1">
+					<content>
+						<p>У поступку приватизације продаје се*  70 % друштвеног капитала који се приватизује**   у друштву за осигурање (у даљем тексту: субјект приватизације).*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.а-stav2">
+					<content>
+						<p>Агенција је овлашћена да спроведе поступак продаје делова имовине друштва за осигурање које послује са друштвеним капиталом, ако процени да би се поступак приватизације на тај начин ефикасније спровео.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.а-stav3">
+					<content>
+						<p>Предмет продаје у смислу става 2. овог члана не могу бити непокретности или покретне ствари које непосредно служе обављању делатности субјекта приватизације.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.а-stav4">
+					<content>
+						<p>Продаја капитала, односно имовине или делова имовине из ст. 1. и 2. овог члана спроводи се методом јавног тендера.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.а-stav5">
+					<content>
+						<p>Влада прописује поступак продаје капитала и имовине из става 4. овог члана.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.а-stav6">
+					<content>
+						<p>*Службени гласник РС, број 61/2005</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan243.б">
+				<num>243б</num>
+				<heading>**Службени гласник РС, број 101/2007</heading>
+				<paragraph wId="clan243.б-stav1">
+					<content>
+						<p>Агенција закључује уговор о продаји капитала из члана 243а овог закона са купцем. Уговор се сматра закљученим када га потпишу Агенција и купац.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.б-stav2">
+					<content>
+						<p>Купац стиче власништво на капиталу из члана 243а став 1. овог закона у складу са одредбама уговора о продаји капитала.*</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan243.в">
+				<num>243в</num>
+				<heading>*Службени гласник РС, број 61/2005</heading>
+				<paragraph wId="clan243.в-stav1">
+					<content>
+						<p>Купопродајна цена из уговора о продаји капитала из члана 243б став 1. овог закона уплаћује се на рачун Агенције.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.в-stav2">
+					<content>
+						<p>Из средстава из става 1. овог члана измирују се трошкови продаје у поступку приватизације  и посебна накнада остварена закључењем уговора о продаји капитала, односно имовине (провизија).**</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.в-stav3">
+					<content>
+						<p>Трошковима продаје, у смислу става 2. овог члана, сматрају се издаци за ангажовање финансијских и правних саветника у поступку приватизације, накнаде за оглашавање јавних позива и других информација које су од значаја за спровођење поступка приватизације, као и други трошкови у поступку приватизације.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.в-stav4">
+					<content>
+						<p>Висину провизије из става 2. овог члана прописује министар надлежан за послове финансија.**</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.в-stav5">
+					<content>
+						<p>*Службени гласник РС, број 61/2005</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.в-stav6">
+					<content>
+						<p>**Службени гласник РС, број 101/2007</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.в-stav7">
+					<content>
+						<p>Члан  243г</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan243.д">
+				<num>243д</num>
+				<heading>Брисан је члан 243г  који је додат у броју 61/2005 (види члан 22. Закона – 101/2007-8)</heading>
+				<paragraph wId="clan243.д-stav1">
+					<content>
+						<p>Средства остварена продајом капитала, након измирења трошкова у складу са чланом 243в став 2. овог закона и издвајања износа од 10 % од остварене купопродајне цене за потребе гарантног фонда осигурања, Агенција уплаћује на рачун буџета Републике Србије.**</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.д-stav2">
+					<content>
+						<p>Средства из става 1. овог члана уплаћена на рачун буџета Републике Србије распоређују се сходно одговарајућим одредбама закона којим се уређује приватизација.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.д-stav3">
+					<content>
+						<p>*Службени гласник РС, број 61/2005</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan243.ђ">
+				<num>243ђ</num>
+				<heading>**Службени гласник РС, број 101/2007</heading>
+				<paragraph wId="clan243.ђ-stav1">
+					<content>
+						<p>Агенција организује и спроводи и поступак продаје акција друштава за осигурање, које су у власништву Републике Србије, Фонда за развој Републике Србије и Републичког фонда за пензијско и инвалидско осигурање.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.ђ-stav2">
+					<content>
+						<p>Агенција организује и спроводи и поступак продаје других акција друштва за осигурање када су законити имаоци тих акција посебним уговором, који мора бити закључен у писменој форми, овластили Агенцију да у њихово име и за њихов рачун изврши продају таквих акција трећем лицу.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.ђ-stav3">
+					<content>
+						<p>Агенција закључује уговор о продаји акција из ст. 1. и 2. овог члана. Уговор се сматра закљученим када га потпишу Агенција и купац акција.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.ђ-stav4">
+					<content>
+						<p>Акције из ст. 1. и 2. овог члана продају се методом јавног тендера у складу са прописом из члана 243а став 5. овог закона.*</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan243.е">
+				<num>243е</num>
+				<heading>*Службени гласник РС, број 61/2005</heading>
+				<paragraph wId="clan243.е-stav1">
+					<content>
+						<p>Друштво за осигурање које послује друштвеним, односно државним капиталом не може, без претходне сагласности Агенције, да доноси одлуке о смањењу или повећању капитала, реорганизацији или реструктурирању, инвестиционом улагању, продаји дела имовине, оптерећивању имовине залагањем ствари или успостављањем хипотеке, дугорочном закупу, поравнању са повериоцима и узимању или одобравању кредита или издавању гаранција, ван тока редовног пословања.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.е-stav2">
+					<content>
+						<p>Одлуке донете супротно одредби става 1. овог члана поништиће Агенција.*</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan243.ж">
+				<num>243ж</num>
+				<heading>*Службени гласник РС, број 61/2005</heading>
+				<paragraph wId="clan243.ж-stav1">
+					<content>
+						<p>На поступак приватизације капитала у друштвима за осигурање, ако овим законом није другачије одређено, примењују се одредбе закона којим се уређује приватизација друштвеног и државног капитала у предузећима и другим правним лицима*, **.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.ж-stav2">
+					<content>
+						<p>*Службени гласник РС, број 61/2005</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan247">
+				<num>244-247.</num>
+				<heading>**Службени гласник РС, број 101/2007</heading>
+				<paragraph wId="clan247-stav1">
+					<content>
+						<p>Престали су да важе (види члан 280. Закона - 139/2015-3)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan247-stav2">
+					<content>
+						<p>ЗАКОН</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan247-stav3">
+					<content>
+						<p>о осигурању</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan247-stav4">
+					<content>
+						<p>„Службени   гласник РС“, бр. 55 од 21. маја   2004, 70 од 18. јуна   2004  - испрaвка, 61 од 18. јула 2005,  61 од 18. јула 2005  - др. закон, 85 од 6. октобра 2005  - др. законик,  101 од 6.  новембра   2007,   63 од 7. августа 2009  -  УС,  107 од 23. децембра 2009,  99 од 27. децембра 2011, 119 од 17. децембра 2012,   116  од 26.  децембра 2013, 139 од 18.  децембра 2014 - др. закон</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan247-stav5">
+					<content>
+						<p>НАПОМЕНА ИЗДАВАЧА: Закон  је престао да важи даном почетка примене Закона о осигурању („Службени гласник  РС”, број 139/2014), односно 27. јуна 2015. године, осим члана 234. Закона који  је престао да важи 26. децембра 2014. године. Изузетно, одредбе чл. од 243. до  243в и чл. од 243д до 243ж примењују се на друштва за осигурање до окончања  поступка приватизације тих друштава (види члан 280. Закона – 139/2014-3).</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan116">
+				<num>1-116.</num>
+				<paragraph wId="clan116-stav1">
+					<content>
+						<p>Престали су да важе (види члан  280.  Закона - 139/2014-3)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan116-stav2">
+					<content>
+						<p>Члан  117.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan116-stav3">
+					<content>
+						<p>Брисан је (види члан 19. Закона – 61/2005-15)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan116-stav4">
+					<content>
+						<p>Чл.118-203.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan116-stav5">
+					<content>
+						<p>Престали су да важе (види  члан 280.  Закона - 139/2014-3)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan116-stav6">
+					<content>
+						<p>Члан  203-207.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan116-stav7">
+					<content>
+						<p>Престали  су да важе (види члан 31. Закона – 61/2005-19)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan116-stav8">
+					<content>
+						<p>Члан 208-220</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan221">
+				<num>221.</num>
+				<heading>Престали  су да важе (види  члан 280.  Закона - 139/2014-3)</heading>
+				<paragraph wId="clan221-stav1">
+					<content>
+						<p>Престао је да важи  (види члан 431.   Законика – 85/2005-30)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan221-stav2">
+					<content>
+						<p>Чл.  222-242.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan221-stav3">
+					<content>
+						<p>Престали  су да важе (види  члан 280.  Закона - 139/2014-3)</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan243">
+				<num>243.</num>
+				<heading>Приватизација друштава за осигурање</heading>
+				<paragraph wId="clan243-stav1">
+					<content>
+						<p>Предмет приватизације је друштвени, односно државни капитал у друштвима за осигурање*  исказан у акцијама** (у даљем тексту: капитал).*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243-stav2">
+					<content>
+						<p>Друштва за осигурање дужна су да искажу капитал из става 1. овог члана у акцијама и упишу те акције у Централни регистар, депо и клиринг хартија од вредности.**</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243-stav3">
+					<content>
+						<p>У поступку приватизације може се продати имовина или део имовине друштва за осигурање, на начин и под условима прописаним овим законом.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243-stav4">
+					<content>
+						<p>Поступак приватизације капитала из става 1. овог члана решењем покреће Министарство.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243-stav5">
+					<content>
+						<p>Агенција за осигурање депозита основана посебним законом (у даљем тексту: Агенција) организује и спроводи поступак приватизације капитала из става 1. овог члана.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243-stav6">
+					<content>
+						<p>Министарство врши надзор над спровођењем поступка из става*  5**. овог члана.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243-stav7">
+					<content>
+						<p>*Службени гласник РС, број 61/2005</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan243.а">
+				<num>243а</num>
+				<heading>**Службени гласник РС, број 101/2007</heading>
+				<paragraph wId="clan243.а-stav1">
+					<content>
+						<p>У поступку приватизације продаје се*  70 % друштвеног капитала који се приватизује**   у друштву за осигурање (у даљем тексту: субјект приватизације).*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.а-stav2">
+					<content>
+						<p>Агенција је овлашћена да спроведе поступак продаје делова имовине друштва за осигурање које послује са друштвеним капиталом, ако процени да би се поступак приватизације на тај начин ефикасније спровео.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.а-stav3">
+					<content>
+						<p>Предмет продаје у смислу става 2. овог члана не могу бити непокретности или покретне ствари које непосредно служе обављању делатности субјекта приватизације.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.а-stav4">
+					<content>
+						<p>Продаја капитала, односно имовине или делова имовине из ст. 1. и 2. овог члана спроводи се методом јавног тендера.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.а-stav5">
+					<content>
+						<p>Влада прописује поступак продаје капитала и имовине из става 4. овог члана.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.а-stav6">
+					<content>
+						<p>*Службени гласник РС, број 61/2005</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan243.б">
+				<num>243б</num>
+				<heading>**Службени гласник РС, број 101/2007</heading>
+				<paragraph wId="clan243.б-stav1">
+					<content>
+						<p>Агенција закључује уговор о продаји капитала из члана 243а овог закона са купцем. Уговор се сматра закљученим када га потпишу Агенција и купац.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.б-stav2">
+					<content>
+						<p>Купац стиче власништво на капиталу из члана 243а став 1. овог закона у складу са одредбама уговора о продаји капитала.*</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan243.в">
+				<num>243в</num>
+				<heading>*Службени гласник РС, број 61/2005</heading>
+				<paragraph wId="clan243.в-stav1">
+					<content>
+						<p>Купопродајна цена из уговора о продаји капитала из члана 243б став 1. овог закона уплаћује се на рачун Агенције.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.в-stav2">
+					<content>
+						<p>Из средстава из става 1. овог члана измирују се трошкови продаје у поступку приватизације  и посебна накнада остварена закључењем уговора о продаји капитала, односно имовине (провизија).**</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.в-stav3">
+					<content>
+						<p>Трошковима продаје, у смислу става 2. овог члана, сматрају се издаци за ангажовање финансијских и правних саветника у поступку приватизације, накнаде за оглашавање јавних позива и других информација које су од значаја за спровођење поступка приватизације, као и други трошкови у поступку приватизације.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.в-stav4">
+					<content>
+						<p>Висину провизије из става 2. овог члана прописује министар надлежан за послове финансија.**</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.в-stav5">
+					<content>
+						<p>*Службени гласник РС, број 61/2005</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.в-stav6">
+					<content>
+						<p>**Службени гласник РС, број 101/2007</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.в-stav7">
+					<content>
+						<p>Члан  243г</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan243.д">
+				<num>243д</num>
+				<heading>Брисан је члан 243г  који је додат у броју 61/2005 (види члан 22. Закона – 101/2007-8)</heading>
+				<paragraph wId="clan243.д-stav1">
+					<content>
+						<p>Средства остварена продајом капитала, након измирења трошкова у складу са чланом 243в став 2. овог закона и издвајања износа од 10 % од остварене купопродајне цене за потребе гарантног фонда осигурања, Агенција уплаћује на рачун буџета Републике Србије.**</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.д-stav2">
+					<content>
+						<p>Средства из става 1. овог члана уплаћена на рачун буџета Републике Србије распоређују се сходно одговарајућим одредбама закона којим се уређује приватизација.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.д-stav3">
+					<content>
+						<p>*Службени гласник РС, број 61/2005</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan243.ђ">
+				<num>243ђ</num>
+				<heading>**Службени гласник РС, број 101/2007</heading>
+				<paragraph wId="clan243.ђ-stav1">
+					<content>
+						<p>Агенција организује и спроводи и поступак продаје акција друштава за осигурање, које су у власништву Републике Србије, Фонда за развој Републике Србије и Републичког фонда за пензијско и инвалидско осигурање.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.ђ-stav2">
+					<content>
+						<p>Агенција организује и спроводи и поступак продаје других акција друштва за осигурање када су законити имаоци тих акција посебним уговором, који мора бити закључен у писменој форми, овластили Агенцију да у њихово име и за њихов рачун изврши продају таквих акција трећем лицу.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.ђ-stav3">
+					<content>
+						<p>Агенција закључује уговор о продаји акција из ст. 1. и 2. овог члана. Уговор се сматра закљученим када га потпишу Агенција и купац акција.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.ђ-stav4">
+					<content>
+						<p>Акције из ст. 1. и 2. овог члана продају се методом јавног тендера у складу са прописом из члана 243а став 5. овог закона.*</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan243.е">
+				<num>243е</num>
+				<heading>*Службени гласник РС, број 61/2005</heading>
+				<paragraph wId="clan243.е-stav1">
+					<content>
+						<p>Друштво за осигурање које послује друштвеним, односно државним капиталом не може, без претходне сагласности Агенције, да доноси одлуке о смањењу или повећању капитала, реорганизацији или реструктурирању, инвестиционом улагању, продаји дела имовине, оптерећивању имовине залагањем ствари или успостављањем хипотеке, дугорочном закупу, поравнању са повериоцима и узимању или одобравању кредита или издавању гаранција, ван тока редовног пословања.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.е-stav2">
+					<content>
+						<p>Одлуке донете супротно одредби става 1. овог члана поништиће Агенција.*</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan243.ж">
+				<num>243ж</num>
+				<heading>*Службени гласник РС, број 61/2005</heading>
+				<paragraph wId="clan243.ж-stav1">
+					<content>
+						<p>На поступак приватизације капитала у друштвима за осигурање, ако овим законом није другачије одређено, примењују се одредбе закона којим се уређује приватизација друштвеног и државног капитала у предузећима и другим правним лицима*, **.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan243.ж-stav2">
+					<content>
+						<p>*Службени гласник РС, број 61/2005</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan247">
+				<num>244-247.</num>
+				<heading>**Службени гласник РС, број 101/2007</heading>
+			</article>
+		</body>
+	</act>
+</akomaNtoso>

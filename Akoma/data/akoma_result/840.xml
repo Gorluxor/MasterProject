@@ -1,0 +1,1703 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о потврђивању Споразума између Владе Републике Србије и Владе Румуније о отварању међународног граничног прелаза Јаша Томић (Република Србија) – Фењ (Румунија) на српско-румунској државној граници">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2015/3-13/main"/>
+					<FRBRuri value="/rs/act/2015/3-13"/>
+					<FRBRdate date="2015-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2015/3-13/srp@/main"/>
+					<FRBRuri value="/rs/act/2015/3-13/srp@"/>
+					<FRBRdate date="2015-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2015/3-13/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2015/3-13/srp@.akn"/>
+					<FRBRdate date="2015-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2015-02-24" name="службени гласник рс - међународни уговори" number="3" showAs="Службени гласник РС - Међународни уговори"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="II БЕЗБЕДНОСНА И ОДБРАМБЕНА ПОЛИТИКА" value="ii безбедносна и одбрамбена политика" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="5. Прелазак државне границе" value="5. прелазак државне границе" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2015-02-20" wId="usvajanje"/>
+				<step by="#TODO" date="2015-03-04" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2015-03-04" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Споразум између Владе Републике Србије и Владе Румуније о отварању међународног граничног прелаза Јаша Томић (Република Србија) – Фењ (Румунија), на српско-румунској државној граници ступио је на снагу 2. марта 2015. године (види Обавештење: Службени гласник РС - Међународни уговори, број 7/2015-2093).</p>
+				</note>
+				<note wId="not2">
+					<p>Споразум између Владе Републике Србије и Владе Румуније о отварању међународног граничног прелаза Јаша Томић (Република Србија) – Фењ (Румунија), на српско-румунској државној граници ступио је на снагу 2. марта 2015. године (види Обавештење: Службени гласник РС - Међународни уговори, број 7/2015-2093).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О потврђивању споразума између владе републике србије и владе румуније о отварању међународног граничног прелаза јаша томић (република србија) – фењ (румунија) на српско-румунској државној граници "Службени гласник РС - Међународни уговори", број 3 од 24. фебруара 2015.</p>
+			</longTitle>
+			<p>Томислав Николић, с.р.</p>
+		</preface>
+		<preamble>
+			<p>На основу члана 112. став 1. тачка 2. Устава Републике Србије, доносим</p>
+			<p>УКАЗ</p>
+			<p>о проглашењу Закона о потврђивању Споразума између Владе Републике Србије и Владе Румуније о отварању међународног граничног прелаза Јаша Томић (Република Србија) – Фењ (Румунија) на српско-румунској државној граници</p>
+			<p>Проглашава се Закон о потврђивању Споразума између Владе Републике Србије и Владе Румуније о отварању међународног граничног прелаза Јаша Томић (Република Србија) – Фењ (Румунија) на српско-румунској државној граници, који је донела Народна скупштина Републике Србије на седници Седмог ванредног заседања у 2015. години, 20. фебруара 2015. године.</p>
+			<p>ПР број 29</p>
+			<p>У Београду, 24. фебруара 2015. године</p>
+			<p>Председник Републике,</p>
+		</preamble>
+		<body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Потврђује се Споразум између Владе Републике Србије и Владе Румуније о отварању међународног граничног прелаза Јаша Томић (Република Србија) – Фењ (Румунија) на српско-румунској државној граници, закључен разменом нота дана 7. новембра 2014. године, у оригиналу на српском и румунском језику.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Текст Споразума у оригиналу гласи:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>РЕПУБЛИКА СРБИЈА</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav3">
+					<content>
+						<p>МИНИСТАРСТВО СПОЉНИХ ПОСЛОВА</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav4">
+					<content>
+						<p>Nо 211-16/2014</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav5">
+					<content>
+						<p>Министарство спољних послова Републике Србије изражава своје поштовање Амбасади Румуније у Београду и у вези са Нотом Министарства иностраних послова Румуније бр. H2-1/3701 од 21. октобра 2014. године, има част да обавести да је Влада Републике Србије прихватила предлог да се, разменом вербалних нота, закључи Споразум између Владе Републике Србије и Владе Румуније о отварању међународног граничног прелаза Јаша Томић (Република Србија) – Фењ (Румунија), на српско-румунској државној граници, који на српском језику гласи:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav6">
+					<content>
+						<p>Влада Републике Србије и Влада Румуније (у даљем тексту: Стране)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav7">
+					<content>
+						<p>Договориле су се о следећем:</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<hcontainer name="subpoint" wId="clan1-podtac1">
+					<num>(1)</num>
+					<content>
+						<p> Отвара се друмски гранични прелаз Јаша Томић – Фењ за међународни саобраћај лица и робе укупне масе до 3,5 тоне.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="clan1-podtac2">
+					<num>(2)</num>
+					<content>
+						<p> Друмски гранични прелаз Јаша Томић – Фењ биће отворен за саобраћај пешака, бициклиста, као и за возила до 3,5 тоне.</p>
+					</content>
+				</hcontainer>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<hcontainer name="subpoint" wId="clan2-podtac1">
+					<num>(1)</num>
+					<content>
+						<p> Гранични прелаз поменут у члану 1. овог споразума биће отворен сваког дана између 7,00 и 19,00 часова (време Републике Србије), односно између 8,00 и 20,00 часова (време Румуније).</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="clan2-podtac2">
+					<num>(2)</num>
+					<content>
+						<p> Стране се могу договорити да, на захтев било које од њих, гранични прелаз Јаша Томић – Фењ ради и дуже од времена предвиђеног тачком (1) овог члана.</p>
+					</content>
+				</hcontainer>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Преко граничног прелаза Јаша Томић – Фењ забрањен је прелаз возилима које превозе опасне материје, живу стоку и производе који подлежу фитосанитарној контроли.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan4">
+				<num>4.</num>
+				<paragraph wId="clan4-stav1">
+					<content>
+						<p>Гранични прелаз поменут у <ref wId="ref0" href="akn/rs/act/2015/3-13/srp@/!main~art_1" >члану 1. овог</ref> споразума биће отворен након што се обезбеди неопходна инфраструктура, у складу са важећим правилима и стандардима.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan5">
+				<num>5.</num>
+				<paragraph wId="clan5-stav1">
+					<content>
+						<p>Овај споразум се закључује на неодређено време и може бити измењен и допуњен, уз сагласност обеју Страна, разменом вербалних нота, а измене и допуне ће ступити на снагу у складу са <ref wId="ref1" href="akn/rs/act/2015/3-13/srp@/!main~art_7" >чланом 7. овог</ref> споразума.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan6">
+				<num>6.</num>
+				<paragraph wId="clan6-stav1">
+					<content>
+						<p>Овај споразум може бити отказан од било које Стране, уз писмено обавештење. Након 30 дана од добијања писменог обавештења друге Стране, Споразум ће бити укинут.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan7">
+				<num>7.</num>
+				<paragraph wId="clan7-stav1">
+					<content>
+						<p>Овај споразум ступа на снагу даном последњег писменог обавештења којим се Стране међусобно обавештавају о испуњеним неопходним унутрашњим процедурама за његово ступање на снагу.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav2">
+					<content>
+						<p>односно на румунском језику:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav3">
+					<content>
+						<p>Guvernul României şi Guvernul Republicii Serbia (în text în continuare: Părţi)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav4">
+					<content>
+						<p>Au convenit următoarele:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav5">
+					<intro>
+						<p>Articolul 1</p>
+					</intro>
+					<hcontainer name="subpoint" wId="clan7-stav5-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Se deschide punctul de trecere a frontierei rutier Foeni - Jasa Tomic, pentru traficul internaţional de călători şi de marfă cu masa de până la 3,5 tone.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="clan7-stav5-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Punctul de trecere a frontierei rutier Foeni - Jasa Tomic va fi deschis pentru traficul pietonal, cu biciclete, precum şi cu autovehicule de până la 3,5 t.</p>
+						</content>
+					</hcontainer>
+				</paragraph>
+				<paragraph wId="clan7-stav6">
+					<intro>
+						<p>Articolul 2</p>
+					</intro>
+					<hcontainer name="subpoint" wId="clan7-stav6-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Punctul de trecere a frontierei menţionat la articolul l al prezentului Acord va fi deschis zilnic, în intervalul orar de la 08.00 la 20.00 (ora României), respectiv de la 07.00 la 19.00 (ora Republicii Serbia).</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="clan7-stav6-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Părţiile pot conveni, la solicitarea oricăreia dintre ele, ca punctul de trecere a frontierei Foeni – Jasa Tomic să funcţioneze în afara orelor de program prevăzute la alineatul 1 al prezentului articol.</p>
+						</content>
+					</hcontainer>
+				</paragraph>
+				<paragraph wId="clan7-stav7">
+					<content>
+						<p>Articolul 3</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav8">
+					<content>
+						<p>Tranzitul vehiculelor care transportă mărfuri periculoase, animale vii şi produse supuse controlului fitosanitar este interzis prin punctul de trecere a frontierei Foeni – Jasa Tomic.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav9">
+					<content>
+						<p>Articolul 4</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav10">
+					<content>
+						<p>Punctul de trecere a frontierei menţionat la articolul 1 al prezentului Acord va fi deschis după asigurarea infrastructurii necesare, în conformitate cu normele şi standardele în vigoare.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav11">
+					<content>
+						<p>Articolul 5</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav12">
+					<content>
+						<p>Prezentul Acord se încheie pe o perioadă nedeterminată şi poate fi modificat sau completat, cu acordul celor două Părţi, prin schimb de note verbale, modificările sau completările urmând a intra în vigoare în conformitate cu prevederile Articolului 7 al prezentului Acord.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav13">
+					<content>
+						<p>Articolul 6</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav14">
+					<content>
+						<p>Prezentul Acord poate fi denunţat de oricare dintre Părţi, printr-o notificare scrisă. Notificarea va produce efecte la 30 de zile de la data primirii de către cealaltă Parte.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav15">
+					<content>
+						<p>Articolul 7</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav16">
+					<content>
+						<p>Prezentul Acord va intra în vigoare la data ultimei notificări prin care Părţile se informează despre îndeplinirea procedurilor interne necesare pentru intrarea în vigoare a Acordului.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav17">
+					<content>
+						<p>Министарство спољних послова користи и ову прилику да Амбасади Румуније у Београду понови изразе посебног поштовања.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav18">
+					<content>
+						<p>Београд, 7. новембар 2014. године.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav19">
+					<content>
+						<p>Сава Станковић</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav20">
+					<content>
+						<p>ROMANIA</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav21">
+					<content>
+						<p>Ministry of Foreign Affairs</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav22">
+					<content>
+						<p>Nr. H2-1/3701</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav23">
+					<content>
+						<p>Ministerul Afacerilor Extenie al României prezintă salutul său Ambasadei Republicii Serbia la Bucureşti şi are onoarea de a-i propune încheierea unui Acord între Guvernul României şi Guvernul Republicii Serbia, prin schimb de note verbale, privind înfiinţarea punctului internaţional de trecere a frontierei de stat româno-sârbe Foeni-Jasa Tomic, având următorul conţinut:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav24">
+					<content>
+						<p>Guvernul României şi Guvernul Republicii Serbia (în text în continuare: Părţi)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav25">
+					<content>
+						<p>Au convenit următoarele:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav26">
+					<intro>
+						<p>Articolul 1</p>
+					</intro>
+					<hcontainer name="subpoint" wId="clan7-stav26-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Se deschide punctul de trecere a frontierei rutier Foeni - Jasa Tomic, pentru traficul internaţional de călători şi de marfă cu masa de până la 3,5 tone.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="clan7-stav26-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Punctul de trecere a frontierei rutier Foeni - Jasa Tomic va fi deschis pentru traficul pietonal, cu biciclete, precum şi cu autovehicule de până la 3,5 t.</p>
+						</content>
+					</hcontainer>
+				</paragraph>
+				<paragraph wId="clan7-stav27">
+					<intro>
+						<p>Articolul 2</p>
+					</intro>
+					<hcontainer name="subpoint" wId="clan7-stav27-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Punctul de trecere a frontierei menţionat la articolul l al prezentului Acord va fi deschis zilnic, în intervalul orar de la 08.00 la 20.00 (ora României), respectiv de la 07.00 la 19.00 (ora Republicii Serbia).</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="clan7-stav27-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Părţiile pot conveni, la solicitarea oricăreia dintre ele, ca punctul de trecere a frontierei Foeni - Jasa Tomic să funcţioneze în afara orelor de program prevăzute la alineatul 1 al prezentului articol.</p>
+						</content>
+					</hcontainer>
+				</paragraph>
+				<paragraph wId="clan7-stav28">
+					<content>
+						<p>Articolul 3</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav29">
+					<content>
+						<p>Tranzitul vehiculelor care transportă mărfuri periculoase, animale vii şi produse supuse controlului fitosanitar este interzis prin punctul de trecere a frontierei Foeni – Jasa Tomic.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav30">
+					<content>
+						<p>Articolul 4</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav31">
+					<content>
+						<p>Punctul de trecere a frontierei menţionat la articolul 1 al prezentului Acord va fi deschis după asigurarea infrastructurii necesare, în conformitate cu normele şi standardele în vigoare.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav32">
+					<content>
+						<p>Articolul 5</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav33">
+					<content>
+						<p>Prezentul Acord se încheie pe o perioadă nedeterminată şi poate fi modificat sau completat, cu acordul celor două Părţi, prin schimb de note verbale, modificările sau completările urmând a intra în vigoare în conformitate cu prevederile Articolului 7 al prezentului Acord.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav34">
+					<content>
+						<p>Articolul 6</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav35">
+					<content>
+						<p>Prezentul Acord poate fi denunţat de oricare dintre Părţi, printr-o notificare scrisă. Notificarea va produce efecte la 30 de zile de la data primirii de către cealaltă Parte.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav36">
+					<content>
+						<p>Articolul 7</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav37">
+					<content>
+						<p>Prezentul Acord va intra în vigoare la data ultimei notificări prin care Părţile se informează despre îndeplinirea procedurilor interne necesare pentru intrarea în vigoare a Acordului.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav38">
+					<content>
+						<p>În măisura in care partea sârbă este de acord cu cele de mai sus, prezenta notă verbala împreună cu nota verbală de răspuns a părţii sârbe urmează sa constituie un acord între Guvernul României şi Guvernul Republicii Serbia, care ar urma să între in vigoare la data ultimei notificări privind îndeplinirea de către părţi a procedurilor interne necesare pentru intrarea în vigoare.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav39">
+					<content>
+						<p>Ministerul Afacerilor Efcterne al României foloseşte acest prilej pentru reînnoi Ambasadei Republicii Serbia la Bucureşti asigurarea înaltei sale cosideraţii.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav40">
+					<content>
+						<p>Bucureşti, 21 octombrie 2014.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<heading>Liviu Dumitru</heading>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије – Међународни уговори”.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav2">
+					<content>
+						<p>На основу члана 11<ref wId="ref2" href="akn/rs/act/2015/3-13/srp@/!main~art_112__para_1__point_2" >2</ref>. став 1. тачка 2. Устава Републике Србије, доносим</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav3">
+					<content>
+						<p>УКАЗ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav4">
+					<content>
+						<p>о проглашењу Закона о потврђивању Споразума између Владе Републике Србије и Владе Румуније о отварању међународног граничног прелаза Јаша Томић (Република Србија) – Фењ (Румунија) на српско-румунској државној граници</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav5">
+					<content>
+						<p>Проглашава се Закон о потврђивању Споразума између Владе Републике Србије и Владе Румуније о отварању међународног граничног прелаза Јаша Томић (Република Србија) – Фењ (Румунија) на српско-румунској државној граници, који је донела Народна скупштина Републике Србије на седници Седмог ванредног заседања у 2015. години, 20. фебруара 2015. године.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav6">
+					<content>
+						<p>ПР број 29</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav7">
+					<content>
+						<p>У Београду, 24. фебруара 2015. године</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav8">
+					<content>
+						<p>Председник Републике,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav9">
+					<content>
+						<p>Томислав Николић, с.р.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav10">
+					<content>
+						<p>ЗАКОН</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav11">
+					<content>
+						<p>о потврђивању Споразума између Владе Републике Србије и Владе Румуније о отварању међународног граничног прелаза Јаша Томић (Република Србија) – Фењ (Румунија) на српско-румунској државној граници</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav12">
+					<content>
+						<p>"Службени гласник РС - Међународни уговори",  број 3 од 24. фебруара 2015.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Потврђује се Споразум између Владе Републике Србије и Владе Румуније о отварању међународног граничног прелаза Јаша Томић (Република Србија) – Фењ (Румунија) на српско-румунској државној граници, закључен разменом нота дана 7. новембра 2014. године, у оригиналу на српском и румунском језику.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Текст Споразума у оригиналу гласи:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>РЕПУБЛИКА СРБИЈА</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav3">
+					<content>
+						<p>МИНИСТАРСТВО СПОЉНИХ ПОСЛОВА</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav4">
+					<content>
+						<p>Nо 211-16/2014</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav5">
+					<content>
+						<p>Министарство спољних послова Републике Србије изражава своје поштовање Амбасади Румуније у Београду и у вези са Нотом Министарства иностраних послова Румуније бр. H2-1/3701 од 21. октобра 2014. године, има част да обавести да је Влада Републике Србије прихватила предлог да се, разменом вербалних нота, закључи Споразум између Владе Републике Србије и Владе Румуније о отварању међународног граничног прелаза Јаша Томић (Република Србија) – Фењ (Румунија), на српско-румунској државној граници, који на српском језику гласи:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav6">
+					<content>
+						<p>Влада Републике Србије и Влада Румуније (у даљем тексту: Стране)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav7">
+					<content>
+						<p>Договориле су се о следећем:</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<hcontainer name="subpoint" wId="clan1-podtac1">
+					<num>(1)</num>
+					<content>
+						<p> Отвара се друмски гранични прелаз Јаша Томић – Фењ за међународни саобраћај лица и робе укупне масе до 3,5 тоне.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="clan1-podtac2">
+					<num>(2)</num>
+					<content>
+						<p> Друмски гранични прелаз Јаша Томић – Фењ биће отворен за саобраћај пешака, бициклиста, као и за возила до 3,5 тоне.</p>
+					</content>
+				</hcontainer>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<hcontainer name="subpoint" wId="clan2-podtac1">
+					<num>(1)</num>
+					<content>
+						<p> Гранични прелаз поменут у члану 1. овог споразума биће отворен сваког дана између 7,00 и 19,00 часова (време Републике Србије), односно између 8,00 и 20,00 часова (време Румуније).</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="clan2-podtac2">
+					<num>(2)</num>
+					<content>
+						<p> Стране се могу договорити да, на захтев било које од њих, гранични прелаз Јаша Томић – Фењ ради и дуже од времена предвиђеног тачком (1) овог члана.</p>
+					</content>
+				</hcontainer>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Преко граничног прелаза Јаша Томић – Фењ забрањен је прелаз возилима које превозе опасне материје, живу стоку и производе који подлежу фитосанитарној контроли.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan4">
+				<num>4.</num>
+				<paragraph wId="clan4-stav1">
+					<content>
+						<p>Гранични прелаз поменут у члану 1. овог споразума биће отворен након што се обезбеди неопходна инфраструктура, у складу са важећим правилима и стандардима.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan5">
+				<num>5.</num>
+				<paragraph wId="clan5-stav1">
+					<content>
+						<p>Овај споразум се закључује на неодређено време и може бити измењен и допуњен, уз сагласност обеју Страна, разменом вербалних нота, а измене и допуне ће ступити на снагу у складу са чланом 7. овог споразума.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan6">
+				<num>6.</num>
+				<paragraph wId="clan6-stav1">
+					<content>
+						<p>Овај споразум може бити отказан од било које Стране, уз писмено обавештење. Након 30 дана од добијања писменог обавештења друге Стране, Споразум ће бити укинут.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan7">
+				<num>7.</num>
+				<paragraph wId="clan7-stav1">
+					<content>
+						<p>Овај споразум ступа на снагу даном последњег писменог обавештења којим се Стране међусобно обавештавају о испуњеним неопходним унутрашњим процедурама за његово ступање на снагу.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav2">
+					<content>
+						<p>односно на румунском језику:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav3">
+					<content>
+						<p>Guvernul României şi Guvernul Republicii Serbia (în text în continuare: Părţi)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav4">
+					<content>
+						<p>Au convenit următoarele:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav5">
+					<intro>
+						<p>Articolul 1</p>
+					</intro>
+					<hcontainer name="subpoint" wId="clan7-stav5-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Se deschide punctul de trecere a frontierei rutier Foeni - Jasa Tomic, pentru traficul internaţional de călători şi de marfă cu masa de până la 3,5 tone.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="clan7-stav5-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Punctul de trecere a frontierei rutier Foeni - Jasa Tomic va fi deschis pentru traficul pietonal, cu biciclete, precum şi cu autovehicule de până la 3,5 t.</p>
+						</content>
+					</hcontainer>
+				</paragraph>
+				<paragraph wId="clan7-stav6">
+					<intro>
+						<p>Articolul 2</p>
+					</intro>
+					<hcontainer name="subpoint" wId="clan7-stav6-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Punctul de trecere a frontierei menţionat la articolul l al prezentului Acord va fi deschis zilnic, în intervalul orar de la 08.00 la 20.00 (ora României), respectiv de la 07.00 la 19.00 (ora Republicii Serbia).</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="clan7-stav6-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Părţiile pot conveni, la solicitarea oricăreia dintre ele, ca punctul de trecere a frontierei Foeni – Jasa Tomic să funcţioneze în afara orelor de program prevăzute la alineatul 1 al prezentului articol.</p>
+						</content>
+					</hcontainer>
+				</paragraph>
+				<paragraph wId="clan7-stav7">
+					<content>
+						<p>Articolul 3</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav8">
+					<content>
+						<p>Tranzitul vehiculelor care transportă mărfuri periculoase, animale vii şi produse supuse controlului fitosanitar este interzis prin punctul de trecere a frontierei Foeni – Jasa Tomic.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav9">
+					<content>
+						<p>Articolul 4</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav10">
+					<content>
+						<p>Punctul de trecere a frontierei menţionat la articolul 1 al prezentului Acord va fi deschis după asigurarea infrastructurii necesare, în conformitate cu normele şi standardele în vigoare.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav11">
+					<content>
+						<p>Articolul 5</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav12">
+					<content>
+						<p>Prezentul Acord se încheie pe o perioadă nedeterminată şi poate fi modificat sau completat, cu acordul celor două Părţi, prin schimb de note verbale, modificările sau completările urmând a intra în vigoare în conformitate cu prevederile Articolului 7 al prezentului Acord.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav13">
+					<content>
+						<p>Articolul 6</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav14">
+					<content>
+						<p>Prezentul Acord poate fi denunţat de oricare dintre Părţi, printr-o notificare scrisă. Notificarea va produce efecte la 30 de zile de la data primirii de către cealaltă Parte.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav15">
+					<content>
+						<p>Articolul 7</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav16">
+					<content>
+						<p>Prezentul Acord va intra în vigoare la data ultimei notificări prin care Părţile se informează despre îndeplinirea procedurilor interne necesare pentru intrarea în vigoare a Acordului.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav17">
+					<content>
+						<p>Министарство спољних послова користи и ову прилику да Амбасади Румуније у Београду понови изразе посебног поштовања.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav18">
+					<content>
+						<p>Београд, 7. новембар 2014. године.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav19">
+					<content>
+						<p>Сава Станковић</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav20">
+					<content>
+						<p>ROMANIA</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav21">
+					<content>
+						<p>Ministry of Foreign Affairs</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav22">
+					<content>
+						<p>Nr. H2-1/3701</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav23">
+					<content>
+						<p>Ministerul Afacerilor Extenie al României prezintă salutul său Ambasadei Republicii Serbia la Bucureşti şi are onoarea de a-i propune încheierea unui Acord între Guvernul României şi Guvernul Republicii Serbia, prin schimb de note verbale, privind înfiinţarea punctului internaţional de trecere a frontierei de stat româno-sârbe Foeni-Jasa Tomic, având următorul conţinut:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav24">
+					<content>
+						<p>Guvernul României şi Guvernul Republicii Serbia (în text în continuare: Părţi)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav25">
+					<content>
+						<p>Au convenit următoarele:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav26">
+					<intro>
+						<p>Articolul 1</p>
+					</intro>
+					<hcontainer name="subpoint" wId="clan7-stav26-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Se deschide punctul de trecere a frontierei rutier Foeni - Jasa Tomic, pentru traficul internaţional de călători şi de marfă cu masa de până la 3,5 tone.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="clan7-stav26-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Punctul de trecere a frontierei rutier Foeni - Jasa Tomic va fi deschis pentru traficul pietonal, cu biciclete, precum şi cu autovehicule de până la 3,5 t.</p>
+						</content>
+					</hcontainer>
+				</paragraph>
+				<paragraph wId="clan7-stav27">
+					<intro>
+						<p>Articolul 2</p>
+					</intro>
+					<hcontainer name="subpoint" wId="clan7-stav27-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Punctul de trecere a frontierei menţionat la articolul l al prezentului Acord va fi deschis zilnic, în intervalul orar de la 08.00 la 20.00 (ora României), respectiv de la 07.00 la 19.00 (ora Republicii Serbia).</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="clan7-stav27-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Părţiile pot conveni, la solicitarea oricăreia dintre ele, ca punctul de trecere a frontierei Foeni - Jasa Tomic să funcţioneze în afara orelor de program prevăzute la alineatul 1 al prezentului articol.</p>
+						</content>
+					</hcontainer>
+				</paragraph>
+				<paragraph wId="clan7-stav28">
+					<content>
+						<p>Articolul 3</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav29">
+					<content>
+						<p>Tranzitul vehiculelor care transportă mărfuri periculoase, animale vii şi produse supuse controlului fitosanitar este interzis prin punctul de trecere a frontierei Foeni – Jasa Tomic.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav30">
+					<content>
+						<p>Articolul 4</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav31">
+					<content>
+						<p>Punctul de trecere a frontierei menţionat la articolul 1 al prezentului Acord va fi deschis după asigurarea infrastructurii necesare, în conformitate cu normele şi standardele în vigoare.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav32">
+					<content>
+						<p>Articolul 5</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav33">
+					<content>
+						<p>Prezentul Acord se încheie pe o perioadă nedeterminată şi poate fi modificat sau completat, cu acordul celor două Părţi, prin schimb de note verbale, modificările sau completările urmând a intra în vigoare în conformitate cu prevederile Articolului 7 al prezentului Acord.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav34">
+					<content>
+						<p>Articolul 6</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav35">
+					<content>
+						<p>Prezentul Acord poate fi denunţat de oricare dintre Părţi, printr-o notificare scrisă. Notificarea va produce efecte la 30 de zile de la data primirii de către cealaltă Parte.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav36">
+					<content>
+						<p>Articolul 7</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav37">
+					<content>
+						<p>Prezentul Acord va intra în vigoare la data ultimei notificări prin care Părţile se informează despre îndeplinirea procedurilor interne necesare pentru intrarea în vigoare a Acordului.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav38">
+					<content>
+						<p>În măisura in care partea sârbă este de acord cu cele de mai sus, prezenta notă verbala împreună cu nota verbală de răspuns a părţii sârbe urmează sa constituie un acord între Guvernul României şi Guvernul Republicii Serbia, care ar urma să între in vigoare la data ultimei notificări privind îndeplinirea de către părţi a procedurilor interne necesare pentru intrarea în vigoare.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav39">
+					<content>
+						<p>Ministerul Afacerilor Efcterne al României foloseşte acest prilej pentru reînnoi Ambasadei Republicii Serbia la Bucureşti asigurarea înaltei sale cosideraţii.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav40">
+					<content>
+						<p>Bucureşti, 21 octombrie 2014.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<heading>Liviu Dumitru</heading>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије – Међународни уговори”.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav2">
+					<content>
+						<p>На основу члана 112. став 1. тачка 2. Устава Републике Србије, доносим</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav3">
+					<content>
+						<p>УКАЗ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav4">
+					<content>
+						<p>о проглашењу Закона о потврђивању Споразума између Владе Републике Србије и Владе Румуније о отварању међународног граничног прелаза Јаша Томић (Република Србија) – Фењ (Румунија) на српско-румунској државној граници</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav5">
+					<content>
+						<p>Проглашава се Закон о потврђивању Споразума између Владе Републике Србије и Владе Румуније о отварању међународног граничног прелаза Јаша Томић (Република Србија) – Фењ (Румунија) на српско-румунској државној граници, који је донела Народна скупштина Републике Србије на седници Седмог ванредног заседања у 2015. години, 20. фебруара 2015. године.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav6">
+					<content>
+						<p>ПР број 29</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav7">
+					<content>
+						<p>У Београду, 24. фебруара 2015. године</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav8">
+					<content>
+						<p>Председник Републике,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav9">
+					<content>
+						<p>Томислав Николић, с.р.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav10">
+					<content>
+						<p>ЗАКОН</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav11">
+					<content>
+						<p>о потврђивању Споразума између Владе Републике Србије и Владе Румуније о отварању међународног граничног прелаза Јаша Томић (Република Србија) – Фењ (Румунија) на српско-румунској државној граници</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav12">
+					<content>
+						<p>"Службени гласник РС - Међународни уговори",  број 3 од 24. фебруара 2015.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Потврђује се Споразум између Владе Републике Србије и Владе Румуније о отварању међународног граничног прелаза Јаша Томић (Република Србија) – Фењ (Румунија) на српско-румунској државној граници, закључен разменом нота дана 7. новембра 2014. године, у оригиналу на српском и румунском језику.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Текст Споразума у оригиналу гласи:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>РЕПУБЛИКА СРБИЈА</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav3">
+					<content>
+						<p>МИНИСТАРСТВО СПОЉНИХ ПОСЛОВА</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav4">
+					<content>
+						<p>Nо 211-16/2014</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav5">
+					<content>
+						<p>Министарство спољних послова Републике Србије изражава своје поштовање Амбасади Румуније у Београду и у вези са Нотом Министарства иностраних послова Румуније бр. H2-1/3701 од 21. октобра 2014. године, има част да обавести да је Влада Републике Србије прихватила предлог да се, разменом вербалних нота, закључи Споразум између Владе Републике Србије и Владе Румуније о отварању међународног граничног прелаза Јаша Томић (Република Србија) – Фењ (Румунија), на српско-румунској државној граници, који на српском језику гласи:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav6">
+					<content>
+						<p>Влада Републике Србије и Влада Румуније (у даљем тексту: Стране)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav7">
+					<content>
+						<p>Договориле су се о следећем:</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<hcontainer name="subpoint" wId="clan1-podtac1">
+					<num>(1)</num>
+					<content>
+						<p> Отвара се друмски гранични прелаз Јаша Томић – Фењ за међународни саобраћај лица и робе укупне масе до 3,5 тоне.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="clan1-podtac2">
+					<num>(2)</num>
+					<content>
+						<p> Друмски гранични прелаз Јаша Томић – Фењ биће отворен за саобраћај пешака, бициклиста, као и за возила до 3,5 тоне.</p>
+					</content>
+				</hcontainer>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<hcontainer name="subpoint" wId="clan2-podtac1">
+					<num>(1)</num>
+					<content>
+						<p> Гранични прелаз поменут у члану 1. овог споразума биће отворен сваког дана између 7,00 и 19,00 часова (време Републике Србије), односно између 8,00 и 20,00 часова (време Румуније).</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="clan2-podtac2">
+					<num>(2)</num>
+					<content>
+						<p> Стране се могу договорити да, на захтев било које од њих, гранични прелаз Јаша Томић – Фењ ради и дуже од времена предвиђеног тачком (1) овог члана.</p>
+					</content>
+				</hcontainer>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Преко граничног прелаза Јаша Томић – Фењ забрањен је прелаз возилима које превозе опасне материје, живу стоку и производе који подлежу фитосанитарној контроли.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan4">
+				<num>4.</num>
+				<paragraph wId="clan4-stav1">
+					<content>
+						<p>Гранични прелаз поменут у члану 1. овог споразума биће отворен након што се обезбеди неопходна инфраструктура, у складу са важећим правилима и стандардима.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan5">
+				<num>5.</num>
+				<paragraph wId="clan5-stav1">
+					<content>
+						<p>Овај споразум се закључује на неодређено време и може бити измењен и допуњен, уз сагласност обеју Страна, разменом вербалних нота, а измене и допуне ће ступити на снагу у складу са чланом 7. овог споразума.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan6">
+				<num>6.</num>
+				<paragraph wId="clan6-stav1">
+					<content>
+						<p>Овај споразум може бити отказан од било које Стране, уз писмено обавештење. Након 30 дана од добијања писменог обавештења друге Стране, Споразум ће бити укинут.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan7">
+				<num>7.</num>
+				<paragraph wId="clan7-stav1">
+					<content>
+						<p>Овај споразум ступа на снагу даном последњег писменог обавештења којим се Стране међусобно обавештавају о испуњеним неопходним унутрашњим процедурама за његово ступање на снагу.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav2">
+					<content>
+						<p>односно на румунском језику:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav3">
+					<content>
+						<p>Guvernul României şi Guvernul Republicii Serbia (în text în continuare: Părţi)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav4">
+					<content>
+						<p>Au convenit următoarele:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav5">
+					<intro>
+						<p>Articolul 1</p>
+					</intro>
+					<hcontainer name="subpoint" wId="clan7-stav5-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Se deschide punctul de trecere a frontierei rutier Foeni - Jasa Tomic, pentru traficul internaţional de călători şi de marfă cu masa de până la 3,5 tone.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="clan7-stav5-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Punctul de trecere a frontierei rutier Foeni - Jasa Tomic va fi deschis pentru traficul pietonal, cu biciclete, precum şi cu autovehicule de până la 3,5 t.</p>
+						</content>
+					</hcontainer>
+				</paragraph>
+				<paragraph wId="clan7-stav6">
+					<intro>
+						<p>Articolul 2</p>
+					</intro>
+					<hcontainer name="subpoint" wId="clan7-stav6-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Punctul de trecere a frontierei menţionat la articolul l al prezentului Acord va fi deschis zilnic, în intervalul orar de la 08.00 la 20.00 (ora României), respectiv de la 07.00 la 19.00 (ora Republicii Serbia).</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="clan7-stav6-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Părţiile pot conveni, la solicitarea oricăreia dintre ele, ca punctul de trecere a frontierei Foeni – Jasa Tomic să funcţioneze în afara orelor de program prevăzute la alineatul 1 al prezentului articol.</p>
+						</content>
+					</hcontainer>
+				</paragraph>
+				<paragraph wId="clan7-stav7">
+					<content>
+						<p>Articolul 3</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav8">
+					<content>
+						<p>Tranzitul vehiculelor care transportă mărfuri periculoase, animale vii şi produse supuse controlului fitosanitar este interzis prin punctul de trecere a frontierei Foeni – Jasa Tomic.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav9">
+					<content>
+						<p>Articolul 4</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav10">
+					<content>
+						<p>Punctul de trecere a frontierei menţionat la articolul 1 al prezentului Acord va fi deschis după asigurarea infrastructurii necesare, în conformitate cu normele şi standardele în vigoare.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav11">
+					<content>
+						<p>Articolul 5</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav12">
+					<content>
+						<p>Prezentul Acord se încheie pe o perioadă nedeterminată şi poate fi modificat sau completat, cu acordul celor două Părţi, prin schimb de note verbale, modificările sau completările urmând a intra în vigoare în conformitate cu prevederile Articolului 7 al prezentului Acord.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav13">
+					<content>
+						<p>Articolul 6</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav14">
+					<content>
+						<p>Prezentul Acord poate fi denunţat de oricare dintre Părţi, printr-o notificare scrisă. Notificarea va produce efecte la 30 de zile de la data primirii de către cealaltă Parte.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav15">
+					<content>
+						<p>Articolul 7</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav16">
+					<content>
+						<p>Prezentul Acord va intra în vigoare la data ultimei notificări prin care Părţile se informează despre îndeplinirea procedurilor interne necesare pentru intrarea în vigoare a Acordului.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav17">
+					<content>
+						<p>Министарство спољних послова користи и ову прилику да Амбасади Румуније у Београду понови изразе посебног поштовања.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav18">
+					<content>
+						<p>Београд, 7. новембар 2014. године.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav19">
+					<content>
+						<p>Сава Станковић</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav20">
+					<content>
+						<p>ROMANIA</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav21">
+					<content>
+						<p>Ministry of Foreign Affairs</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav22">
+					<content>
+						<p>Nr. H2-1/3701</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav23">
+					<content>
+						<p>Ministerul Afacerilor Extenie al României prezintă salutul său Ambasadei Republicii Serbia la Bucureşti şi are onoarea de a-i propune încheierea unui Acord între Guvernul României şi Guvernul Republicii Serbia, prin schimb de note verbale, privind înfiinţarea punctului internaţional de trecere a frontierei de stat româno-sârbe Foeni-Jasa Tomic, având următorul conţinut:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav24">
+					<content>
+						<p>Guvernul României şi Guvernul Republicii Serbia (în text în continuare: Părţi)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav25">
+					<content>
+						<p>Au convenit următoarele:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav26">
+					<intro>
+						<p>Articolul 1</p>
+					</intro>
+					<hcontainer name="subpoint" wId="clan7-stav26-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Se deschide punctul de trecere a frontierei rutier Foeni - Jasa Tomic, pentru traficul internaţional de călători şi de marfă cu masa de până la 3,5 tone.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="clan7-stav26-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Punctul de trecere a frontierei rutier Foeni - Jasa Tomic va fi deschis pentru traficul pietonal, cu biciclete, precum şi cu autovehicule de până la 3,5 t.</p>
+						</content>
+					</hcontainer>
+				</paragraph>
+				<paragraph wId="clan7-stav27">
+					<intro>
+						<p>Articolul 2</p>
+					</intro>
+					<hcontainer name="subpoint" wId="clan7-stav27-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Punctul de trecere a frontierei menţionat la articolul l al prezentului Acord va fi deschis zilnic, în intervalul orar de la 08.00 la 20.00 (ora României), respectiv de la 07.00 la 19.00 (ora Republicii Serbia).</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="clan7-stav27-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Părţiile pot conveni, la solicitarea oricăreia dintre ele, ca punctul de trecere a frontierei Foeni - Jasa Tomic să funcţioneze în afara orelor de program prevăzute la alineatul 1 al prezentului articol.</p>
+						</content>
+					</hcontainer>
+				</paragraph>
+				<paragraph wId="clan7-stav28">
+					<content>
+						<p>Articolul 3</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav29">
+					<content>
+						<p>Tranzitul vehiculelor care transportă mărfuri periculoase, animale vii şi produse supuse controlului fitosanitar este interzis prin punctul de trecere a frontierei Foeni – Jasa Tomic.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav30">
+					<content>
+						<p>Articolul 4</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav31">
+					<content>
+						<p>Punctul de trecere a frontierei menţionat la articolul 1 al prezentului Acord va fi deschis după asigurarea infrastructurii necesare, în conformitate cu normele şi standardele în vigoare.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav32">
+					<content>
+						<p>Articolul 5</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav33">
+					<content>
+						<p>Prezentul Acord se încheie pe o perioadă nedeterminată şi poate fi modificat sau completat, cu acordul celor două Părţi, prin schimb de note verbale, modificările sau completările urmând a intra în vigoare în conformitate cu prevederile Articolului 7 al prezentului Acord.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav34">
+					<content>
+						<p>Articolul 6</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav35">
+					<content>
+						<p>Prezentul Acord poate fi denunţat de oricare dintre Părţi, printr-o notificare scrisă. Notificarea va produce efecte la 30 de zile de la data primirii de către cealaltă Parte.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav36">
+					<content>
+						<p>Articolul 7</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav37">
+					<content>
+						<p>Prezentul Acord va intra în vigoare la data ultimei notificări prin care Părţile se informează despre îndeplinirea procedurilor interne necesare pentru intrarea în vigoare a Acordului.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav38">
+					<content>
+						<p>În măisura in care partea sârbă este de acord cu cele de mai sus, prezenta notă verbala împreună cu nota verbală de răspuns a părţii sârbe urmează sa constituie un acord între Guvernul României şi Guvernul Republicii Serbia, care ar urma să între in vigoare la data ultimei notificări privind îndeplinirea de către părţi a procedurilor interne necesare pentru intrarea în vigoare.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav39">
+					<content>
+						<p>Ministerul Afacerilor Efcterne al României foloseşte acest prilej pentru reînnoi Ambasadei Republicii Serbia la Bucureşti asigurarea înaltei sale cosideraţii.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav40">
+					<content>
+						<p>Bucureşti, 21 octombrie 2014.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<heading>Liviu Dumitru</heading>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије – Међународни уговори”.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav2">
+					<content>
+						<p>На основу члана 112. став 1. тачка 2. Устава Републике Србије, доносим</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav3">
+					<content>
+						<p>УКАЗ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav4">
+					<content>
+						<p>о проглашењу Закона о потврђивању Споразума између Владе Републике Србије и Владе Румуније о отварању међународног граничног прелаза Јаша Томић (Република Србија) – Фењ (Румунија) на српско-румунској државној граници</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav5">
+					<content>
+						<p>Проглашава се Закон о потврђивању Споразума између Владе Републике Србије и Владе Румуније о отварању међународног граничног прелаза Јаша Томић (Република Србија) – Фењ (Румунија) на српско-румунској државној граници, који је донела Народна скупштина Републике Србије на седници Седмог ванредног заседања у 2015. години, 20. фебруара 2015. године.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav6">
+					<content>
+						<p>ПР број 29</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav7">
+					<content>
+						<p>У Београду, 24. фебруара 2015. године</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav8">
+					<content>
+						<p>Председник Републике,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav9">
+					<content>
+						<p>Томислав Николић, с.р.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav10">
+					<content>
+						<p>ЗАКОН</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav11">
+					<content>
+						<p>о потврђивању Споразума између Владе Републике Србије и Владе Румуније о отварању међународног граничног прелаза Јаша Томић (Република Србија) – Фењ (Румунија) на српско-румунској државној граници</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav12">
+					<content>
+						<p>"Службени гласник РС - Међународни уговори",  број 3 од 24. фебруара 2015.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Потврђује се Споразум између Владе Републике Србије и Владе Румуније о отварању међународног граничног прелаза Јаша Томић (Република Србија) – Фењ (Румунија) на српско-румунској државној граници, закључен разменом нота дана 7. новембра 2014. године, у оригиналу на српском и румунском језику.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Текст Споразума у оригиналу гласи:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>РЕПУБЛИКА СРБИЈА</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav3">
+					<content>
+						<p>МИНИСТАРСТВО СПОЉНИХ ПОСЛОВА</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav4">
+					<content>
+						<p>Nо 211-16/2014</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav5">
+					<content>
+						<p>Министарство спољних послова Републике Србије изражава своје поштовање Амбасади Румуније у Београду и у вези са Нотом Министарства иностраних послова Румуније бр. H2-1/3701 од 21. октобра 2014. године, има част да обавести да је Влада Републике Србије прихватила предлог да се, разменом вербалних нота, закључи Споразум између Владе Републике Србије и Владе Румуније о отварању међународног граничног прелаза Јаша Томић (Република Србија) – Фењ (Румунија), на српско-румунској државној граници, који на српском језику гласи:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav6">
+					<content>
+						<p>Влада Републике Србије и Влада Румуније (у даљем тексту: Стране)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav7">
+					<content>
+						<p>Договориле су се о следећем:</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<hcontainer name="subpoint" wId="clan1-podtac1">
+					<num>(1)</num>
+					<content>
+						<p> Отвара се друмски гранични прелаз Јаша Томић – Фењ за међународни саобраћај лица и робе укупне масе до 3,5 тоне.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="clan1-podtac2">
+					<num>(2)</num>
+					<content>
+						<p> Друмски гранични прелаз Јаша Томић – Фењ биће отворен за саобраћај пешака, бициклиста, као и за возила до 3,5 тоне.</p>
+					</content>
+				</hcontainer>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<hcontainer name="subpoint" wId="clan2-podtac1">
+					<num>(1)</num>
+					<content>
+						<p> Гранични прелаз поменут у члану 1. овог споразума биће отворен сваког дана између 7,00 и 19,00 часова (време Републике Србије), односно између 8,00 и 20,00 часова (време Румуније).</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="clan2-podtac2">
+					<num>(2)</num>
+					<content>
+						<p> Стране се могу договорити да, на захтев било које од њих, гранични прелаз Јаша Томић – Фењ ради и дуже од времена предвиђеног тачком (1) овог члана.</p>
+					</content>
+				</hcontainer>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Преко граничног прелаза Јаша Томић – Фењ забрањен је прелаз возилима које превозе опасне материје, живу стоку и производе који подлежу фитосанитарној контроли.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan4">
+				<num>4.</num>
+				<paragraph wId="clan4-stav1">
+					<content>
+						<p>Гранични прелаз поменут у члану 1. овог споразума биће отворен након што се обезбеди неопходна инфраструктура, у складу са важећим правилима и стандардима.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan5">
+				<num>5.</num>
+				<paragraph wId="clan5-stav1">
+					<content>
+						<p>Овај споразум се закључује на неодређено време и може бити измењен и допуњен, уз сагласност обеју Страна, разменом вербалних нота, а измене и допуне ће ступити на снагу у складу са чланом 7. овог споразума.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan6">
+				<num>6.</num>
+				<paragraph wId="clan6-stav1">
+					<content>
+						<p>Овај споразум може бити отказан од било које Стране, уз писмено обавештење. Након 30 дана од добијања писменог обавештења друге Стране, Споразум ће бити укинут.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan7">
+				<num>7.</num>
+				<paragraph wId="clan7-stav1">
+					<content>
+						<p>Овај споразум ступа на снагу даном последњег писменог обавештења којим се Стране међусобно обавештавају о испуњеним неопходним унутрашњим процедурама за његово ступање на снагу.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav2">
+					<content>
+						<p>односно на румунском језику:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav3">
+					<content>
+						<p>Guvernul României şi Guvernul Republicii Serbia (în text în continuare: Părţi)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav4">
+					<content>
+						<p>Au convenit următoarele:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav5">
+					<intro>
+						<p>Articolul 1</p>
+					</intro>
+					<hcontainer name="subpoint" wId="clan7-stav5-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Se deschide punctul de trecere a frontierei rutier Foeni - Jasa Tomic, pentru traficul internaţional de călători şi de marfă cu masa de până la 3,5 tone.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="clan7-stav5-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Punctul de trecere a frontierei rutier Foeni - Jasa Tomic va fi deschis pentru traficul pietonal, cu biciclete, precum şi cu autovehicule de până la 3,5 t.</p>
+						</content>
+					</hcontainer>
+				</paragraph>
+				<paragraph wId="clan7-stav6">
+					<intro>
+						<p>Articolul 2</p>
+					</intro>
+					<hcontainer name="subpoint" wId="clan7-stav6-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Punctul de trecere a frontierei menţionat la articolul l al prezentului Acord va fi deschis zilnic, în intervalul orar de la 08.00 la 20.00 (ora României), respectiv de la 07.00 la 19.00 (ora Republicii Serbia).</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="clan7-stav6-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Părţiile pot conveni, la solicitarea oricăreia dintre ele, ca punctul de trecere a frontierei Foeni – Jasa Tomic să funcţioneze în afara orelor de program prevăzute la alineatul 1 al prezentului articol.</p>
+						</content>
+					</hcontainer>
+				</paragraph>
+				<paragraph wId="clan7-stav7">
+					<content>
+						<p>Articolul 3</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav8">
+					<content>
+						<p>Tranzitul vehiculelor care transportă mărfuri periculoase, animale vii şi produse supuse controlului fitosanitar este interzis prin punctul de trecere a frontierei Foeni – Jasa Tomic.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav9">
+					<content>
+						<p>Articolul 4</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav10">
+					<content>
+						<p>Punctul de trecere a frontierei menţionat la articolul 1 al prezentului Acord va fi deschis după asigurarea infrastructurii necesare, în conformitate cu normele şi standardele în vigoare.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav11">
+					<content>
+						<p>Articolul 5</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav12">
+					<content>
+						<p>Prezentul Acord se încheie pe o perioadă nedeterminată şi poate fi modificat sau completat, cu acordul celor două Părţi, prin schimb de note verbale, modificările sau completările urmând a intra în vigoare în conformitate cu prevederile Articolului 7 al prezentului Acord.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav13">
+					<content>
+						<p>Articolul 6</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav14">
+					<content>
+						<p>Prezentul Acord poate fi denunţat de oricare dintre Părţi, printr-o notificare scrisă. Notificarea va produce efecte la 30 de zile de la data primirii de către cealaltă Parte.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav15">
+					<content>
+						<p>Articolul 7</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav16">
+					<content>
+						<p>Prezentul Acord va intra în vigoare la data ultimei notificări prin care Părţile se informează despre îndeplinirea procedurilor interne necesare pentru intrarea în vigoare a Acordului.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav17">
+					<content>
+						<p>Министарство спољних послова користи и ову прилику да Амбасади Румуније у Београду понови изразе посебног поштовања.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav18">
+					<content>
+						<p>Београд, 7. новембар 2014. године.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav19">
+					<content>
+						<p>Сава Станковић</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav20">
+					<content>
+						<p>ROMANIA</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav21">
+					<content>
+						<p>Ministry of Foreign Affairs</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav22">
+					<content>
+						<p>Nr. H2-1/3701</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav23">
+					<content>
+						<p>Ministerul Afacerilor Extenie al României prezintă salutul său Ambasadei Republicii Serbia la Bucureşti şi are onoarea de a-i propune încheierea unui Acord între Guvernul României şi Guvernul Republicii Serbia, prin schimb de note verbale, privind înfiinţarea punctului internaţional de trecere a frontierei de stat româno-sârbe Foeni-Jasa Tomic, având următorul conţinut:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav24">
+					<content>
+						<p>Guvernul României şi Guvernul Republicii Serbia (în text în continuare: Părţi)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav25">
+					<content>
+						<p>Au convenit următoarele:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav26">
+					<intro>
+						<p>Articolul 1</p>
+					</intro>
+					<hcontainer name="subpoint" wId="clan7-stav26-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Se deschide punctul de trecere a frontierei rutier Foeni - Jasa Tomic, pentru traficul internaţional de călători şi de marfă cu masa de până la 3,5 tone.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="clan7-stav26-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Punctul de trecere a frontierei rutier Foeni - Jasa Tomic va fi deschis pentru traficul pietonal, cu biciclete, precum şi cu autovehicule de până la 3,5 t.</p>
+						</content>
+					</hcontainer>
+				</paragraph>
+				<paragraph wId="clan7-stav27">
+					<intro>
+						<p>Articolul 2</p>
+					</intro>
+					<hcontainer name="subpoint" wId="clan7-stav27-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Punctul de trecere a frontierei menţionat la articolul l al prezentului Acord va fi deschis zilnic, în intervalul orar de la 08.00 la 20.00 (ora României), respectiv de la 07.00 la 19.00 (ora Republicii Serbia).</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="clan7-stav27-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Părţiile pot conveni, la solicitarea oricăreia dintre ele, ca punctul de trecere a frontierei Foeni - Jasa Tomic să funcţioneze în afara orelor de program prevăzute la alineatul 1 al prezentului articol.</p>
+						</content>
+					</hcontainer>
+				</paragraph>
+				<paragraph wId="clan7-stav28">
+					<content>
+						<p>Articolul 3</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav29">
+					<content>
+						<p>Tranzitul vehiculelor care transportă mărfuri periculoase, animale vii şi produse supuse controlului fitosanitar este interzis prin punctul de trecere a frontierei Foeni – Jasa Tomic.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav30">
+					<content>
+						<p>Articolul 4</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav31">
+					<content>
+						<p>Punctul de trecere a frontierei menţionat la articolul 1 al prezentului Acord va fi deschis după asigurarea infrastructurii necesare, în conformitate cu normele şi standardele în vigoare.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav32">
+					<content>
+						<p>Articolul 5</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav33">
+					<content>
+						<p>Prezentul Acord se încheie pe o perioadă nedeterminată şi poate fi modificat sau completat, cu acordul celor două Părţi, prin schimb de note verbale, modificările sau completările urmând a intra în vigoare în conformitate cu prevederile Articolului 7 al prezentului Acord.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav34">
+					<content>
+						<p>Articolul 6</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav35">
+					<content>
+						<p>Prezentul Acord poate fi denunţat de oricare dintre Părţi, printr-o notificare scrisă. Notificarea va produce efecte la 30 de zile de la data primirii de către cealaltă Parte.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav36">
+					<content>
+						<p>Articolul 7</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav37">
+					<content>
+						<p>Prezentul Acord va intra în vigoare la data ultimei notificări prin care Părţile se informează despre îndeplinirea procedurilor interne necesare pentru intrarea în vigoare a Acordului.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav38">
+					<content>
+						<p>În măisura in care partea sârbă este de acord cu cele de mai sus, prezenta notă verbala împreună cu nota verbală de răspuns a părţii sârbe urmează sa constituie un acord între Guvernul României şi Guvernul Republicii Serbia, care ar urma să între in vigoare la data ultimei notificări privind îndeplinirea de către părţi a procedurilor interne necesare pentru intrarea în vigoare.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav39">
+					<content>
+						<p>Ministerul Afacerilor Efcterne al României foloseşte acest prilej pentru reînnoi Ambasadei Republicii Serbia la Bucureşti asigurarea înaltei sale cosideraţii.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav40">
+					<content>
+						<p>Bucureşti, 21 octombrie 2014.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<heading>Liviu Dumitru</heading>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије – Међународни уговори”.</p>
+					</content>
+				</paragraph>
+			</article>
+		</body>
+	</act>
+</akomaNtoso>

@@ -1,0 +1,1022 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о потврђивању Уговора између Републике Србије и Републике Македоније о међусобном извршавању судских одлука у кривичним стварима">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2012/5-6/main"/>
+					<FRBRuri value="/rs/act/2012/5-6"/>
+					<FRBRdate date="2012-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2012/5-6/srp@/main"/>
+					<FRBRuri value="/rs/act/2012/5-6/srp@"/>
+					<FRBRdate date="2012-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2012/5-6/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2012/5-6/srp@.akn"/>
+					<FRBRdate date="2012-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2012-11-22" name="службени гласник рс - међународни уговори" number="5" showAs="Службени гласник РС - Међународни уговори"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="III ПРАВОСУЂЕ, КАЗНЕНО ЗАКОНОДАВСТВО И МЕЂУНАРОДНА ПРАВНА ПОМОЋ" value="iii правосуђе, казнено законодавство и међународна правна помоћ" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="5. Извршење казни" value="5. извршење казни" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2012-11-22" wId="usvajanje"/>
+				<step by="#TODO" date="2012-11-30" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2012-11-30" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p/>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О потврђивању уговора између републике србије и републике македоније о међусобном извршавању судских одлука у кривичним стварима "Службени гласник РС - Међународни уговори", број 5 од 22. новембра 2012.</p>
+			</longTitle>
+			<p>Томислав Николић, с.р.</p>
+		</preface>
+		<preamble>
+			<p>На основу члана 112. став 1. тачка 2. Устава Републике Србије, доносим</p>
+			<p>УКАЗ</p>
+			<p>о проглашењу Закона о потврђивању Уговора између Републике Србије и Републике Македоније о међусобном извршавању судских одлука у кривичним стварима</p>
+			<p>Проглашава се Закон о потврђивању Уговора између Републике Србије и Републике Македоније о међусобном извршавању судских одлука у кривичним стварима, који је донела Народна скупштина Републике Србије на Шестој седници Другог редовног заседања у 2012. години, 22. новембра 2012. године.</p>
+			<p>ПР број 84</p>
+			<p>У Београду, 22. новембра 2012. године</p>
+			<p>Председник Републике,</p>
+		</preamble>
+		<body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Потврђује се Уговор између Републике Србије и Републике Македоније о међусобном извршавању судских одлука у кривичним стварима, потписан 29. новембра 2011. године у Београду, у оригиналу на српском и македонском језику.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Текст Уговора у оригиналну на српском језику гласи:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>УГОВОР</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav3">
+					<content>
+						<p>ИЗМЕЂУ РЕПУБЛИКЕ СРБИЈЕ И РЕПУБЛИКЕ МАКЕДОНИЈЕ О МЕЂУСОБНОМ ИЗВРШАВАЊУ СУДСКИХ ОДЛУКА У КРИВИЧНИМ СТВАРИМА</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav4">
+					<content>
+						<p>Република Србија и Република Македонија (у даљем тексту: државе уговорнице),</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav5">
+					<content>
+						<p>у жељи да развијају односе узајамног поверења и сарадње у области правног саобраћаја у кривичним предметима,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav6">
+					<content>
+						<p>узимајући у обзир да би извршење кривичних санкција у држави чији су држављани осуђена лица или у којој имају пребивалиште, допринело ефикаснијој и потпунијој ресоцијализацији извршилаца кривичних дела и полазећи од принципа хуманости,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav7">
+					<content>
+						<p>договориле су се следеће:</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<heading>Део првиОпште одредбе</heading>
+				<hcontainer name="subpoint" wId="clan1-podtac1">
+					<num>(1)</num>
+					<content>
+						<p> Државе уговорнице обавезују се да ће, на основу замолнице, у складу са условима прописаним овим уговором, међусобно извршавати правноснажне судске одлуке у кривичним стварима које је донео суд једне државе уговорнице против држављана друге државе уговорнице или против лица која на њеној територији имају пребивалиште, тако што ће:</p>
+					</content>
+				</hcontainer>
+				<point wId="clan1-tac1">
+					<num>1)</num>
+					<content>
+						<p> извршавати казне затвора и друге мере које укључују одузимање слободе;</p>
+					</content>
+				</point>
+				<point wId="clan1-tac2">
+					<num>2)</num>
+					<content>
+						<p> извршавати казне затвора и друге мере које укључују одузимање слободе уз премештај (трансфер) осуђених лица;</p>
+					</content>
+				</point>
+				<point wId="clan1-tac3">
+					<num>3)</num>
+					<intro>
+						<p> вршити надзор над лицима којима је изречена условна осуда у току времена проверавања.</p>
+					</intro>
+					<hcontainer name="subpoint" wId="clan1-tac3-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Држављанином државе уговорнице сматра се лице које према праву те државе има њено држављанство.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="clan1-tac3-podtac3">
+						<num>(3)</num>
+						<content>
+							<p> Уколико је лице држављанин обе државе уговорнице, то није препрека за преузимање надзора или извршења, ако су испуњени услови прописани овим уговором и уколико би се тиме остварила сврха овог уговора.</p>
+						</content>
+					</hcontainer>
+				</point>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<hcontainer name="subpoint" wId="clan2-podtac1">
+					<num>(1)</num>
+					<content>
+						<p> У смислу овог уговора:</p>
+					</content>
+				</hcontainer>
+				<point wId="clan2-tac1">
+					<num>1)</num>
+					<content>
+						<p> „држава изрицања” означава државу уговорницу у којој је донета судска одлука чије се извршење или надзор захтева;</p>
+					</content>
+				</point>
+				<point wId="clan2-tac2">
+					<num>2)</num>
+					<intro>
+						<p> „држава извршења” означава државу уговорницу у којој се извршава правноснажна судска одлука донета у другој држави уговорници.</p>
+					</intro>
+					<hcontainer name="subpoint" wId="clan2-tac2-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> У смислу овог уговора, под „друге мере које укључују одузимање слободе”, подразумева се:</p>
+						</content>
+					</hcontainer>
+				</point>
+				<point wId="clan2-tac1">
+					<num>1)</num>
+					<content>
+						<p> за Републику Србију – мере безбедности и васпитне мере прописане кривичним законодавством Републике Србије, које изриче суд и које имају за последицу одузимање слободе;</p>
+					</content>
+				</point>
+				<point wId="clan2-tac2">
+					<num>2)</num>
+					<intro>
+						<p> за Републику Македонију – мере безбедности и васпитне мере прописане кривичним законодавством Републике Македоније, које изриче суд и које имају за последицу одузимање слободе.</p>
+					</intro>
+					<hcontainer name="subpoint" wId="clan2-tac2-podtac3">
+						<num>(3)</num>
+						<content>
+							<p> Ако је трајање извршења ових мера неодређено, при оцени да ли то трајање износи најмање шест месеци (члан 13. став 1. тачка 2), меродаван је тренутак у коме мера најкасније мора да се укине према праву државе изрицања.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="clan2-tac2-podtac4">
+						<num>(4)</num>
+						<content>
+							<p> У смислу овог уговора под „условна осуда”, подразумева се:</p>
+						</content>
+					</hcontainer>
+				</point>
+				<point wId="clan2-tac1">
+					<num>1)</num>
+					<content>
+						<p> за Републику Србију – условна осуда и условна осуда са заштитним надзором прописане кривичним законодавством Републике Србије;</p>
+					</content>
+				</point>
+				<point wId="clan2-tac2">
+					<num>2)</num>
+					<content>
+						<p> за Републику Македонију – условна осуда и условна осуда са заштитним надзором прописане кривичним законодавством Републике Македоније.</p>
+					</content>
+				</point>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<paragraph wId="clan3-stav1">
+					<intro>
+						<p>Извршење или надзор, према одредбама овог уговора, преузеће се ако су испуњене следеће претпоставке:</p>
+					</intro>
+					<point wId="clan3-stav1-tac1">
+						<num>1)</num>
+						<content>
+							<p> да је осуђено лице држављанин државе извршења или у њој има пребивалиште;</p>
+						</content>
+					</point>
+					<point wId="clan3-stav1-tac2">
+						<num>2)</num>
+						<content>
+							<p> да је судска одлука правноснажна и извршна;</p>
+						</content>
+					</point>
+					<point wId="clan3-stav1-tac3">
+						<num>3)</num>
+						<content>
+							<p> да је дело на коме се заснива судска одлука кривично дело према праву обе државе уговорнице;</p>
+						</content>
+					</point>
+					<point wId="clan3-stav1-tac4">
+						<num>4)</num>
+						<content>
+							<p> да дело на коме се заснива судска одлука, по мишљењу државе извршења, није политичке или војне природе;</p>
+						</content>
+					</point>
+					<point wId="clan3-stav1-tac5">
+						<num>5)</num>
+						<content>
+							<p> да извршење или надзор нису у супротности са основним начелима правног поретка државе извршења;</p>
+						</content>
+					</point>
+					<point wId="clan3-stav1-tac6">
+						<num>6)</num>
+						<content>
+							<p> да извршење или надзор нису у супротности са другим обавезама државе извршења из мултилатералних конвенција;</p>
+						</content>
+					</point>
+					<point wId="clan3-stav1-tac7">
+						<num>7)</num>
+						<content>
+							<p> да се у држави извршења против осуђеног лица не води кривични поступак због кривичног дела за које се тражи пренос извршења или надзора;</p>
+						</content>
+					</point>
+					<point wId="clan3-stav1-tac8">
+						<num>8)</num>
+						<content>
+							<p> да осуђено лице у држави извршења није већ правноснажно осуђено за исто кривично дело или ослобођено од оптужбе;</p>
+						</content>
+					</point>
+					<point wId="clan3-stav1-tac9">
+						<num>9)</num>
+						<content>
+							<p> да извршење кривичне санкције није застарело према праву једне од држава уговорница;</p>
+						</content>
+					</point>
+					<point wId="clan3-stav1-tac10">
+						<num>10)</num>
+						<content>
+							<p> да судска одлука није донета у одсуству осуђеног;</p>
+						</content>
+					</point>
+					<point wId="clan3-stav1-tac11">
+						<num>11)</num>
+						<content>
+							<p> да осуђено лице не ужива право азила у држави изрицања.</p>
+						</content>
+					</point>
+				</paragraph>
+			</article>
+			<article wId="clan4">
+				<num>4.</num>
+				<hcontainer name="subpoint" wId="clan4-podtac1">
+					<num>(1)</num>
+					<content>
+						<p> Замољена држава је дужна да без одлагања обавести државу молиљу да ли прихвата или одбија захтев за преузимање извршења или надзора.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="clan4-podtac2">
+					<num>(2)</num>
+					<content>
+						<p> У случају потпуног или делимичног одбијања преузимања извршења или надзора, замољена држава дужна је да наведе разлоге одбијања.</p>
+					</content>
+				</hcontainer>
+			</article>
+			<article wId="clan5">
+				<num>5.</num>
+				<hcontainer name="subpoint" wId="clan5-podtac1">
+					<num>(1)</num>
+					<content>
+						<p> Свака држава уговорница може амнестирати или дати помиловање осуђеном лицу или му ублажити казну поводом захтева за ванредно ублажавање казне, у складу са својим законодавством.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="clan5-podtac2">
+					<num>(2)</num>
+					<content>
+						<p> Држава изрицања одлучује о ванредним правним средствима поднетим против судске одлуке.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="clan5-podtac3">
+					<num>(3)</num>
+					<content>
+						<p> Државе уговорнице се међусобно обавештавају о одлукама из ст. (1) и (2) овог члана.</p>
+					</content>
+				</hcontainer>
+			</article>
+			<article wId="clan6">
+				<num>6.</num>
+				<paragraph wId="clan6-stav1">
+					<content>
+						<p>Место, време и начин предаје и преузимања осуђеног лица утврђује се договором надлежних органа држава уговорница.</p>
+					</content>
+				</paragraph>
+			</article>
+			<part wId="deo2">
+				<num>Део други</num>
+				<section wId="deo2-od1">
+					<num>1.</num>
+					<heading> Извршење</heading>
+					<article wId="deo2-od1-clan7">
+						<num>7.</num>
+						<hcontainer name="subpoint" wId="deo2-od1-clan7-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> Ако је лице које је држављанин једне од држава уговорница или лице које на њеној територији има пребивалиште, у другој држави уговорници правноснажно осуђено за кривично дело на казну затвора или му је изречена друга мера која укључује одузимање слободе, свака од држава уговорница може да замоли да се казна затвора или друга мера која укључује одузимање слободе изврши у оној држави чији је осуђено лице држављанин или у којој има пребивалиште.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="deo2-od1-clan7-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Само држава изрицања може да затражи извршење казне затвора или друге мере која укључује oдузимање слободе, ако се не ради о преносу извршења кривичне санкције премештајем осуђеног лица.</p>
+							</content>
+						</hcontainer>
+					</article>
+					<article wId="deo2-od1-clan8">
+						<num>8.</num>
+						<hcontainer name="subpoint" wId="deo2-od1-clan8-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> Ако се извршење преузме, суд државе извршења изриче, према свом праву, казну затвора или другу меру која укључује одузимање слободе коју треба извршити, узимајући у обзир казну затвора или другу меру која укључује одузимање слободе изречену у држави изрицања. Тако изречена кривична санкција не може бити строжија од кривичне санкције коју је изрекла држава изрицања.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="deo2-od1-clan8-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> У случају преузимања извршења, држава извршења везана је за утврђено чињенично стање на коме је заснована судска одлука државе изрицања.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="deo2-od1-clan8-podtac3">
+							<num>(3)</num>
+							<content>
+								<p> Време одузимање слободе у држави изрицања урачунаће се у потпуности у казну затвора или другу меру која укључује одузимање слободе која треба да се изврши у држави извршења.</p>
+							</content>
+						</hcontainer>
+					</article>
+					<article wId="deo2-od1-clan9">
+						<num>9.</num>
+						<paragraph wId="deo2-od1-clan9-stav1">
+							<content>
+								<p>Извршење се спроводи искључиво према праву државе извршења.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo2-od1-clan10">
+						<num>10.</num>
+						<paragraph wId="deo2-od1-clan10-stav1">
+							<content>
+								<p>Ако се судска одлука на којој се заснива молба за извршење накнадно укине или измени у држави изрицања, та држава је дужна да о томе одмах обавести државу извршења. На основу нове одлуке суд државе извршења ће одлучити о даљем издржавању казне затвора или друге мере која укључује одузимање слободе према одредбама овог уговора.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo2-od1-clan11">
+						<num>11.</num>
+						<hcontainer name="subpoint" wId="deo2-od1-clan11-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> Ако се судска одлука чије се извршење тражи односи на више кривичних дела, извршење може да се пренесе и само за део казне који се односи на поједина од тих дела. У том случају, држава изрицања одредиће део казне који се односи на та дела. Држава извршења одредиће држави изрицања примерен рок за доношење такве одлуке.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="deo2-od1-clan11-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Ако држава изрицања не донесе одлуку у року из става (1) овог члана, држава извршења ће донети одлуку према свом праву и одредити део казне који треба извршити.</p>
+							</content>
+						</hcontainer>
+					</article>
+					<article wId="deo2-od1-clan12">
+						<num>12.</num>
+						<hcontainer name="subpoint" wId="deo2-od1-clan12-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> Ако је извршење преузето, привремено престаје право на даље извршење у држави изрицања.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="deo2-od1-clan12-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Право државе изрицања на извршење коначно престаје кад осуђено лице издржи казну затвора или другу меру која укључује одузимање слободе у држави извршења или кад му је она коначно опроштена.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="deo2-od1-clan12-podtac3">
+							<num>(3)</num>
+							<content>
+								<p> Ако осуђено лице избегне извршење кривичне санкције у држави извршења, држава изрицања поново стиче право на извршење. Држава извршења дужна је да о таквим околностима одмах обавести државу изрицања.</p>
+							</content>
+						</hcontainer>
+						<point wId="deo2-od1-clan12-tac2">
+							<num>2.</num>
+							<content>
+								<p> Извршење уз премештај (трансфер)</p>
+							</content>
+						</point>
+					</article>
+					<article wId="deo2-od1-clan13">
+						<num>13.</num>
+						<hcontainer name="subpoint" wId="deo2-od1-clan13-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> Извршење судске одлуке уз премештај (трансфер) осуђеног лица преузеће се, ако су, поред претпоставки из члана 3. овог уговора, испуњене и следеће претпоставке:</p>
+							</content>
+						</hcontainer>
+						<point wId="deo2-od1-clan13-tac1">
+							<num>1)</num>
+							<content>
+								<p> да је осуђено лице дало сагласност;</p>
+							</content>
+						</point>
+						<point wId="deo2-od1-clan13-tac2">
+							<num>2)</num>
+							<content>
+								<p> да осуђено лице у време подношења замолнице, треба да издржи још најмање шест месеци од изречене кривичне санкције;</p>
+							</content>
+						</point>
+						<point wId="deo2-od1-clan13-tac3">
+							<num>3)</num>
+							<content>
+								<p> да ће извршење кривичне санкције у другој држави уговорници побољшати изгледе за друштвену рехабилитацију осуђеног;</p>
+							</content>
+						</point>
+						<point wId="deo2-od1-clan13-tac4">
+							<num>4)</num>
+							<intro>
+								<p> да су држава изрицања и држава извршења постигле сагласност о извршењу уз премештај (трансфер).</p>
+							</intro>
+							<hcontainer name="subpoint" wId="deo2-od1-clan13-tac4-podtac2">
+								<num>(2)</num>
+								<content>
+									<p> Ако осуђено лице не може да дâ правно ваљану сагласност из става (1) тачке 1) овог члана, сагласност даје његов законски заступник по праву државе у којој осуђено лице има пребивалиште.</p>
+								</content>
+							</hcontainer>
+						</point>
+					</article>
+					<article wId="deo2-od1-clan14">
+						<num>14.</num>
+						<hcontainer name="subpoint" wId="deo2-od1-clan14-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> Овај уговор не искључује право осуђеног лица, његовог законског заступника, брачног друга, сродника у правој линији, брата или сестре, да поднесе молбу за пренос извршења суду који је донео одлуку или надлежном органу, како државе изрицања, тако и државе чији је осуђено лице држављанин или у којој има пребивалиште.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="deo2-od1-clan14-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Надлежни орган државе изрицања обавестиће осуђено лице, што пре, о могућностима издржавања казне затвора или друге мере која укључује одузимање слободе у држави чији је држављанин или на чијој територији има пребивалиште.</p>
+							</content>
+						</hcontainer>
+					</article>
+					<article wId="deo2-od1-clan15">
+						<num>15.</num>
+						<paragraph wId="deo2-od1-clan15-stav1">
+							<content>
+								<p>Држава изрицања уз замолницу за извршење судске одлуке уз премештај (трансфер), поред документације предвиђене у <ref wId="ref0" href="akn/rs/act/2012/5-6/srp@/!main~art_24" >члану 24. </ref>став (1) овог уговора, доставља и записник са изјавом осуђеног лица датом пред судом, којом се даје сагласност за премештај (трансфер) у државу извршења ради даљег издржавања кривичне санкције.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo2-od1-clan16">
+						<num>16.</num>
+						<paragraph wId="deo2-od1-clan16-stav1">
+							<content>
+								<p>Одредбе <ref wId="ref1" href="akn/rs/act/2012/5-6/srp@/!main~art_7->12" >чл. 7. </ref>до 12. овог уговора, сходно се примењују и на поступак извршења судске одлуке уз премештај (трансфер).</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo2-od1-clan17">
+						<num>17.</num>
+						<heading>Део трећиНадзор</heading>
+						<hcontainer name="subpoint" wId="deo2-od1-clan17-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> Државе уговорнице ће на основу замолнице и под условима утврђеним овим уговором, међусобно вршити надзор у току времена проверавања над лицима којима је суд у једној држави уговорници правноснажно изрекао условну осуду.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="deo2-od1-clan17-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Надзор ће се вршити у држави чији је осуђено лице држављанин или у којој има пребивалиште.</p>
+							</content>
+						</hcontainer>
+					</article>
+					<article wId="deo2-od1-clan18">
+						<num>18.</num>
+						<hcontainer name="subpoint" wId="deo2-od1-clan18-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> Надзор се врши према праву државе извршења.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="deo2-od1-clan18-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Мере надзора одређене у држави извршења не могу бити строжије од мера одређених у држави изрицања.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="deo2-od1-clan18-podtac3">
+							<num>(3)</num>
+							<content>
+								<p> Приликом одређивања мера надзора у држави извршења, настојаће се да се што више примене мере одређене у држави изрицања.</p>
+							</content>
+						</hcontainer>
+					</article>
+					<article wId="deo2-od1-clan19">
+						<num>19.</num>
+						<paragraph wId="deo2-od1-clan19-stav1">
+							<content>
+								<p>За опозивање условне осуде искључиво је надлежна држава изрицања.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo2-od1-clan20">
+						<num>20.</num>
+						<hcontainer name="subpoint" wId="deo2-od1-clan20-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> Ако је надзор преузет, даље мере у вези извршења у држави која је донела судску одлуку, привремено се обустављају.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="deo2-od1-clan20-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Држава извршења обавестиће државу изрицања о мерама надзора и о свим околностима које би могле да доведу до опозивања условне осуде, као и о истеку времена проверавања.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="deo2-od1-clan20-podtac3">
+							<num>(3)</num>
+							<content>
+								<p> Право државе изрицања судске одлуке на извршење коначно престаје ако у току времена проверавања није наступила ни једна околност због које према њеном праву треба опозвати условну осуду.</p>
+							</content>
+						</hcontainer>
+					</article>
+					<article wId="deo2-od1-clan21">
+						<num>21.</num>
+						<hcontainer name="subpoint" wId="deo2-od1-clan21-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> Држава изрицања без одлагања обавештава државу извршења о опозиву условне осуде.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="deo2-od1-clan21-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Ако држава изрицања опозове условну осуду она може да замоли државу извршења да, на основу овог уговора, преузме извршење казне.</p>
+							</content>
+						</hcontainer>
+					</article>
+					<article wId="deo2-od1-clan22">
+						<num>22.</num>
+						<heading>Део четвртиЗаједничке одредбе о поступку</heading>
+						<hcontainer name="subpoint" wId="deo2-od1-clan22-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> Писмена комуникација, према овом уговору, вршиће се преко министарстава надлежних за послове правосуђа држава уговорница.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="deo2-od1-clan22-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Дипломатски пут општења овим није искључен, ако за то постоје оправдани разлози.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="deo2-od1-clan22-podtac3">
+							<num>(3)</num>
+							<content>
+								<p> У хитним случајевима, замолнице и обавештења, према овом уговору, могу се достављати преко Међународне организације криминалистичке полиције (ИНТЕРПОЛ).</p>
+							</content>
+						</hcontainer>
+					</article>
+					<article wId="deo2-od1-clan23">
+						<num>23.</num>
+						<hcontainer name="subpoint" wId="deo2-od1-clan23-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> Замолнице и документација која се доставља уз замолницу, према одредбама овог уговора, састављају се на језику државе молиље.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="deo2-od1-clan23-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Легализација исправа из става 1. овог члана није потребна.</p>
+							</content>
+						</hcontainer>
+					</article>
+					<article wId="deo2-od1-clan24">
+						<num>24.</num>
+						<hcontainer name="subpoint" wId="deo2-od1-clan24-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> Ако држава изрицања поднесе замолницу, према овом уговору, уз замолницу треба да приложи:</p>
+							</content>
+						</hcontainer>
+						<point wId="deo2-od1-clan24-tac1">
+							<num>1)</num>
+							<content>
+								<p> оригинал или оверен препис судске одлуке са потврдом правноснажности, а по потреби и извршности;</p>
+							</content>
+						</point>
+						<point wId="deo2-od1-clan24-tac2">
+							<num>2)</num>
+							<content>
+								<p> препис одредаба кривичног закона на којима се заснива судска одлука;</p>
+							</content>
+						</point>
+						<point wId="deo2-od1-clan24-tac3">
+							<num>3)</num>
+							<content>
+								<p> личне податке о осуђеном лицу, о његовом држављанству и пребивалишту;</p>
+							</content>
+						</point>
+						<point wId="deo2-od1-clan24-tac4">
+							<num>4)</num>
+							<content>
+								<p> потврду о времену проведеном на издржавању казне затвора или друге мере која укључује одузимање слободе које треба урачунати;</p>
+							</content>
+						</point>
+						<point wId="deo2-od1-clan24-tac5">
+							<num>5)</num>
+							<intro>
+								<p> друге документе и податке који могу бити од значаја за одлучивање по замолници.</p>
+							</intro>
+							<hcontainer name="subpoint" wId="deo2-od1-clan24-tac5-podtac2">
+								<num>(2)</num>
+								<content>
+									<p> Ако држава извршења поднесе замолницу, уз исту треба да приложи:</p>
+								</content>
+							</hcontainer>
+						</point>
+						<point wId="deo2-od1-clan24-tac1">
+							<num>1)</num>
+							<content>
+								<p> личне податке о осуђеном лицу, о његовом држављанству и месту пребивалишта;</p>
+							</content>
+						</point>
+						<point wId="deo2-od1-clan24-tac2">
+							<num>2)</num>
+							<content>
+								<p> препис одредаба кривичног закона које треба применити;</p>
+							</content>
+						</point>
+						<point wId="deo2-od1-clan24-tac3">
+							<num>3)</num>
+							<intro>
+								<p> друге документе и податке који могу бити од значаја за одлучивање по замолници.</p>
+							</intro>
+							<hcontainer name="subpoint" wId="deo2-od1-clan24-tac3-podtac3">
+								<num>(3)</num>
+								<content>
+									<p> У случају из става (2) овог члана, држава изрицања, уз обавештење о одобрењу захтева, доставља и оригинал или оверени препис (копију) судске одлуке на којој се налази потврда о правноснажности, по потреби и извршности, препис примењених законских одредаба, као и потврду о времену проведеном на издржавању кривичне санкције које треба урачунати.</p>
+								</content>
+							</hcontainer>
+						</point>
+					</article>
+					<article wId="deo2-od1-clan25">
+						<num>25.</num>
+						<hcontainer name="subpoint" wId="deo2-od1-clan25-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> Ако држава извршења сматра да подаци и документација који су јој достављени нису потпуни, затражиће њихову допуну и одредити примерен рок који може да се продужи на образложену молбу државе изрицања.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="deo2-od1-clan25-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Ако се захтеву за допуну документације у одређеном року не удовољи, одлука о замолници за пренос извршења донеће се на основу постојећих података и документације.</p>
+							</content>
+						</hcontainer>
+					</article>
+					<article wId="deo2-od1-clan26">
+						<num>26.</num>
+						<hcontainer name="subpoint" wId="deo2-od1-clan26-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> У хитним случајевима, држава молиља може поднети захтев за притварање пре подношења замолнице.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="deo2-od1-clan26-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Захтев садржи:</p>
+							</content>
+						</hcontainer>
+						<point wId="deo2-od1-clan26-tac1">
+							<num>1)</num>
+							<content>
+								<p> податке потребне за утврђивање истоветности осуђеног лица;</p>
+							</content>
+						</point>
+						<point wId="deo2-od1-clan26-tac2">
+							<num>2)</num>
+							<content>
+								<p> чињенични опис и законску квалификацију кривичног дела;</p>
+							</content>
+						</point>
+						<point wId="deo2-od1-clan26-tac3">
+							<num>3)</num>
+							<content>
+								<p> податке о постојању правноснажне осуђујуће судске одлуке;</p>
+							</content>
+						</point>
+						<point wId="deo2-od1-clan26-tac4">
+							<num>4)</num>
+							<intro>
+								<p> изјаву да ће бити поднета замолница.</p>
+							</intro>
+							<hcontainer name="subpoint" wId="deo2-od1-clan26-tac4-podtac3">
+								<num>(3)</num>
+								<content>
+									<p> Захтев се подноси на начин утврђен у члану 23. овог уговора.</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="deo2-od1-clan26-tac4-podtac4">
+								<num>(4)</num>
+								<content>
+									<p> Ако држава молиља у року од 18 дана од дана притварања лица не достави замолницу за извршење, притворено лице ће бити пуштено на слободу. На образложен захтев државе молиље овај рок може да се продужи до 40 дана од дана притварања.</p>
+								</content>
+							</hcontainer>
+						</point>
+					</article>
+					<article wId="deo2-od1-clan27">
+						<num>27.</num>
+						<hcontainer name="subpoint" wId="deo2-od1-clan27-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> Држава уговорница ће, на молбу друге државе уговорнице, дозволити транзит преко своје територије осуђеног лица које трећа држава предаје држави уговорници која тражи транзит. Замољена држава није обавезна да дозволи транзит лица које се, према овом уговору, не би могло предати ради извршења.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="deo2-od1-clan27-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Услови и начин транзита, као и питања трошкова, уређују се договором између надлежних органа држава уговорница.</p>
+							</content>
+						</hcontainer>
+					</article>
+					<article wId="deo2-od1-clan28">
+						<num>28.</num>
+						<hcontainer name="subpoint" wId="deo2-od1-clan28-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> Трошкове настале у вези са предајом осуђеног лица ради извршења кривичне санкције сноси држава извршења, изузев трошкова насталих на територији државе изрицања.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="deo2-od1-clan28-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Држава која захтева да се превоз осуђеног лица ради предаје обави ваздушним путем, сноси трошкове који настану у вези са том предајом.</p>
+							</content>
+						</hcontainer>
+					</article>
+					<article wId="deo2-od1-clan29">
+						<num>29.</num>
+						<paragraph wId="deo2-od1-clan29-stav1">
+							<intro>
+								<p>Држава извршења обавестиће државу изрицања о извршењу кривичне санкције, и то:</p>
+							</intro>
+							<point wId="deo2-od1-clan29-stav1-tac1">
+								<num>1)</num>
+								<content>
+									<p> кад се кривична санкција изврши;</p>
+								</content>
+							</point>
+							<point wId="deo2-od1-clan29-stav1-tac2">
+								<num>2)</num>
+								<content>
+									<p> кад осуђено лице избегне извршење;</p>
+								</content>
+							</point>
+							<point wId="deo2-od1-clan29-stav1-tac3">
+								<num>3)</num>
+								<content>
+									<p> кад држава изрицања затражи посебан извештај.</p>
+								</content>
+							</point>
+						</paragraph>
+					</article>
+					<article wId="deo2-od1-clan30">
+						<num>30.</num>
+						<paragraph wId="deo2-od1-clan30-stav1">
+							<content>
+								<p>Овај уговор ће се примењивати и на правноснажне судске одлуке донесене пре његовог ступања на снагу.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo2-od1-clan31">
+						<num>31.</num>
+						<heading>Део петиЗавршне одредбе</heading>
+						<paragraph wId="deo2-od1-clan31-stav1">
+							<content>
+								<p>Спорна питања у вези са применом овог уговора државе уговорнице решаваће дипломатским путем.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo2-od1-clan32">
+						<num>32.</num>
+						<hcontainer name="subpoint" wId="deo2-od1-clan32-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> Овај уговор подлеже потврђивању.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="deo2-od1-clan32-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Уговор ступа на снагу даном пријема последње ноте дипломатским путем којима се државе уговорнице узајамно обавештавају о спроведеном поступку потврђивања у складу са њиховим законодавством.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="deo2-od1-clan32-podtac3">
+							<num>(3)</num>
+							<content>
+								<p> Уговор се закључује на неодређено време. Свака држава уговорница може Уговор отказати писмено дипломатским путем и у том случају Уговор престаје да важи након истека шест месеци од дана пријема обавештења о отказивању.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="deo2-od1-clan32-podtac4">
+							<num>(4)</num>
+							<content>
+								<p> У случају отказивања Уговор ће се примењивати на започета извршења кривичних санкција над лицима која су предата на основу одредаба овог уговора.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="deo2-od1-clan32-podtac5">
+							<num>(5)</num>
+							<content>
+								<p> Ступањем на снагу овог уговора престаје да важи Уговор између Србије и Црне Горе и Републике Македоније о правној помоћи у грађанским и кривичним стварима, сачињен у Скопљу 6. јула 2004. године.</p>
+							</content>
+						</hcontainer>
+						<paragraph wId="deo2-od1-clan32-stav1">
+							<content>
+								<p>Овај уговор сачињен је у Београду, дана 29. новембра 2011. године, у два оригинална примерка, сваки на српском и македонском језику, с тим да су оба текста подједнако веродостојна.</p>
+							</content>
+						</paragraph>
+						<paragraph class="special" wId="deo2-od1-clan32-stav2">
+							<content>
+								<table>
+									
+
+
+									<tr>
+										
+
+										<td>
+											
+
+											<p>ЗА РЕПУБЛИКУ СРБИЈУ</p>
+											
+
+											<p>Снежана Маловић, с.р.</p>
+											
+
+										</td>
+										
+
+										<td>
+											
+
+											<p>ЗА РЕПУБЛИКУ МАКЕДОНИЈУ</p>
+											
+
+											<p>Блерим Беџети, с.р.</p>
+											
+
+										</td>
+										
+
+									</tr>
+									
+
+
+								</table>
+								
+
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo2-od1-clan3">
+						<num>3.</num>
+						<paragraph wId="deo2-od1-clan3-stav1">
+							<content>
+								<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије – Међународни уговори”.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo2-od1-clan3-stav2">
+							<content>
+								<p>На основу члана 11<ref wId="ref2" href="akn/rs/act/2012/5-6/srp@/!main~art_112__para_1__point_2" >2</ref>. став 1. тачка 2. Устава Републике Србије, доносим</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo2-od1-clan3-stav3">
+							<content>
+								<p>УКАЗ</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo2-od1-clan3-stav4">
+							<content>
+								<p>о проглашењу Закона о потврђивању Уговора између Републике Србије и Републике Македоније о међусобном извршавању судских одлука у кривичним стварима</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo2-od1-clan3-stav5">
+							<content>
+								<p>Проглашава се Закон о потврђивању Уговора између Републике Србије и Републике Македоније о међусобном извршавању судских одлука у кривичним стварима, који је донела Народна скупштина Републике Србије на Шестој седници Другог редовног заседања у 2012. години, 22. новембра 2012. године.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo2-od1-clan3-stav6">
+							<content>
+								<p>ПР број 84</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo2-od1-clan3-stav7">
+							<content>
+								<p>У Београду, 22. новембра 2012. године</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo2-od1-clan3-stav8">
+							<content>
+								<p>Председник Републике,</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo2-od1-clan3-stav9">
+							<content>
+								<p>Томислав Николић, с.р.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo2-od1-clan3-stav10">
+							<content>
+								<p>ЗАКОН</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo2-od1-clan3-stav11">
+							<content>
+								<p>о потврђивању Уговора између Републике Србије и Републике Македоније о међусобном извршавању судских одлука у кривичним стварима</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo2-od1-clan3-stav12">
+							<content>
+								<p>"Службени гласник РС - Међународни уговори",  број 5 од 22. новембра 2012.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo2-od1-clan1">
+						<num>1.</num>
+						<paragraph wId="deo2-od1-clan1-stav1">
+							<content>
+								<p>Потврђује се Уговор између Републике Србије и Републике Македоније о међусобном извршавању судских одлука у кривичним стварима, потписан 29. новембра 2011. године у Београду, у оригиналу на српском и македонском језику.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo2-od1-clan2">
+						<num>2.</num>
+						<paragraph wId="deo2-od1-clan2-stav1">
+							<intro>
+								<p>Текст Уговора у оригиналну на српском језику гласи:</p>
+							</intro>
+							<point wId="deo2-od1-clan2-stav1-tac1">
+								<num>1.</num>
+								<content>
+									<p> Извршење</p>
+								</content>
+							</point>
+							<point wId="deo2-od1-clan2-stav1-tac2">
+								<num>2.</num>
+								<content>
+									<p> Извршење уз премештај (трансфер)</p>
+								</content>
+							</point>
+							<point wId="deo2-od1-clan2-stav1-tac1">
+								<num>1.</num>
+								<content>
+									<p> Извршење</p>
+								</content>
+							</point>
+							<point wId="deo2-od1-clan2-stav1-tac2">
+								<num>2.</num>
+								<content>
+									<p> Извршење уз премештај (трансфер)</p>
+								</content>
+							</point>
+							<point wId="deo2-od1-clan2-stav1-tac1">
+								<num>1.</num>
+								<content>
+									<p> Извршење</p>
+								</content>
+							</point>
+							<point wId="deo2-od1-clan2-stav1-tac2">
+								<num>2.</num>
+								<content>
+									<p> Извршење уз премештај (трансфер)</p>
+								</content>
+							</point>
+						</paragraph>
+					</article>
+				</section>
+			</part>
+		</body>
+	</act>
+</akomaNtoso>

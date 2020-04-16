@@ -1,0 +1,1406 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о потврђивању Конвенцијe Савета Европе о кинематографској копродукцији (ревидирана)">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2018/12-235/main"/>
+					<FRBRuri value="/rs/act/2018/12-235"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2018/12-235/srp@/main"/>
+					<FRBRuri value="/rs/act/2018/12-235/srp@"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2018/12-235/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2018/12-235/srp@.akn"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2018-09-27" name="службени гласник рс - међународни уговори" number="12" showAs="Службени гласник РС - Међународни уговори"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="XV ОБРАЗОВАЊЕ, КУЛТУРА, НАУКА, ИНФОРМИСАЊЕ И СПОРТ" value="xv образовање, култура, наука, информисање и спорт" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="2. Култура, наука, омладина, спорт" value="2. култура, наука, омладина, спорт" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2018-09-25" wId="usvajanje"/>
+				<step by="#TODO" date="2018-10-05" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2018-10-05" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Конвенција Сaвета Европе о кинематографској копродукцији (ревидирана), ступила је на снагу за Републику Србију, 1. марта 2019. године (види Обавештење: Службени гласник РС - Међународни уговори, број 15/2018-51).</p>
+				</note>
+				<note wId="not2">
+					<p>Конвенција Сaвета Европе о кинематографској копродукцији (ревидирана), ступила је на снагу за Републику Србију, 1. марта 2019. године (види Обавештење: Службени гласник РС - Међународни уговори, број 15/2018-51).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О потврђивању конвенцијe савета европе о кинематографској копродукцији (ревидирана) "Службени гласник РС - Међународни уговори", број 12 од 27. септембра 2018.</p>
+			</longTitle>
+			<p>Александар Вучић, с.р.</p>
+		</preface>
+		<preamble>
+			<p>На основу члана 112. став 1. тачка 2. Устава Републике Србије, доносим</p>
+			<p>УКАЗ</p>
+			<p>о проглашењу Закона о потврђивању Конвенцијe Савета Европе о кинематографској копродукцији (ревидирана)</p>
+			<p>Проглашава се Закон о потврђивању Конвенцијe Савета Европе о кинематографској копродукцији (ревидирана), који је донела Народна скупштина Републике Србије, на седници Десетог ванредног заседања у Једанаестом сазиву, 25. септембра 2018. године.</p>
+			<p>ПР број 126</p>
+			<p>У Београду, 26. септембра 2018. године</p>
+			<p>Председник Републике,</p>
+		</preamble>
+		<body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Потврђује се Конвенција Савета Европе о кинематографској копродукцији (ревидирана), сачињена у Ротердаму, 30. јануара 2017. године, у оригиналу на енглеском и француском језику.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Текст Конвенције Савета Европе о кинематографској копродукцији (ревидирана), у оригиналу на енглеском језику и са преводом на српски језик гласи:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>COUNCIL OF EUROPE CONVENTION ON CINEMATOGRAPHIC CO-PRODUCTION (REVISED)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav3">
+					<content>
+						<p>Preamble</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav4">
+					<content>
+						<p>The member States of the Council of Europe and the other States Parties to the European Cultural Convention (ETS No. 18), signatory hereto,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav5">
+					<content>
+						<p>Considering that the aim of the Council of Europe is to achieve greater unity between its members in order, in particular, to safeguard and promote the ideals and principles which form their common heritage;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav6">
+					<content>
+						<p>Considering that freedom of creation and freedom of expression constitute fundamental elements of these principles;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav7">
+					<content>
+						<p>Considering that fostering the cultural diversity of the various European countries is one of the aims of the European Cultural Convention;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav8">
+					<content>
+						<p>Having regard to the UNESCO Convention on the Protection and Promotion of the Diversity of Cultural Expressions (Paris, 20 October 2005), which recognises cultural diversity as a defining characteristic of humanity and strives to strengthen the creation, production, dissemination, distribution and enjoyment of cultural expressions;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav9">
+					<content>
+						<p>Considering that cinematographic co-production, as an instrument of creation and expression of cultural diversity on a global scale, should be reinforced;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav10">
+					<content>
+						<p>Aware that film is an important means of cultural and artistic expression with an essential role in upholding the freedom of expression, diversity and creativity, as well as democratic citizenship;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav11">
+					<content>
+						<p>Determined to develop these principles and recalling the recommendations of the Committee of Ministers to member States on the cinema and the audiovisual field, and particularly Recommendation Rec(86)3 on the promotion of audiovisual production in Europe and Recommendation CM/Rec(2009)7 on national film policies and the diversity of cultural expressions;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav12">
+					<content>
+						<p>Acknowledging that Resolution Res(88)15 setting up a European Support Fund for the Co- production and Distribution of Creative Cinematographic and Audiovisual Works “Eurimages” has been amended to allow the accession of non-European States;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav13">
+					<content>
+						<p>Resolved to achieve these objectives thanks to a common effort to foster co-operation and define rules which adapt themselves to cinematographic co-productions as a whole;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav14">
+					<content>
+						<p>Considering that the adoption of common rules tends to decrease restrictions and encourage co-operation in the field of cinematographic co-production;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav15">
+					<content>
+						<p>Considering the technological, economic and financial evolution of the film industry since the opening for signature of the European Convention on Cinematographic Co-production (ETS No. 147) in 1992;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav16">
+					<content>
+						<p>Believing that this development necessitates a revision of the 1992 Convention in order to ensure the continued relevance and effectiveness of this framework for cinematographic co- production;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav17">
+					<content>
+						<p>Acknowledging that the present Convention is intended to replace the European Convention on Cinematographic Co-production,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav18">
+					<content>
+						<p>Have agreed as follows:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav19">
+					<content>
+						<p>Chapter I – General provisions</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav20">
+					<content>
+						<p>Article 1 – Aim of the Convention</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav21">
+					<content>
+						<p>The Parties to this Convention undertake to promote the development of international cinematographic co-production in accordance with the following provisions.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav22">
+					<content>
+						<p>Article 2 – Scope</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav23">
+					<content>
+						<p>1 This Convention shall govern relations between the Parties in the field of multilateral co- productions originating in the territory of the Parties.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav24">
+					<content>
+						<p>2 This Convention shall apply:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav25">
+					<content>
+						<p>a to co-productions involving at least three co-producers, established in three different Parties to the Convention; and</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav26">
+					<content>
+						<p>b to co-productions involving at least three co-producers established in three different Parties to the Convention and one or more co-producers that are not established in such Parties. The total contribution of the co-producers who are not established in the Parties to the Convention may not, however, exceed 30% of the total cost of the production.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav27">
+					<content>
+						<p>In all cases, this Convention shall only apply on condition that the work meets the definition of an officially co-produced cinematographic work as defined in Article 3, sub-paragraph c, below.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav28">
+					<content>
+						<p>3 The provisions of bilateral agreements concluded between the Parties to this Convention shall continue to apply to bilateral co-productions.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav29">
+					<content>
+						<p>In the case of multilateral co-productions, the provisions of this Convention shall override those of bilateral agreements between Parties to the Convention. The provisions concerning bilateral co-productions shall remain in force if they do not contravene the provisions of this Convention.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav30">
+					<content>
+						<p>4 In the absence of any agreement governing bilateral co-production relations between two Parties to this Convention, the Convention shall also apply to bilateral co-productions, unless a reservation has been made by one of the Parties involved under the terms of Article 22.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav31">
+					<content>
+						<p>Article 3 – Definitions</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav32">
+					<content>
+						<p>For the purposes of this Convention:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav33">
+					<content>
+						<p>a the term “cinematographic work” shall mean a work of any length or medium, in particular cinematographic works of fiction, animation and documentaries, which complies with the provisions governing the film industry in force in each of the Parties concerned and is intended to be shown in cinemas;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav34">
+					<content>
+						<p>b the term “co-producers” shall mean cinematographic production companies or producers established in the Parties to this Convention and bound by a co-production contract;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav35">
+					<content>
+						<p>c the term “officially co-produced cinematographic work” (hereafter “the film”) shall mean a cinematographic work which meets the conditions laid down in Appendix II, which is an integral part of this Convention;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav36">
+					<content>
+						<p>d the term “multilateral co-production” shall mean a cinematographic work produced by at least three co-producers as defined in Article 2, paragraph 2, above.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav37">
+					<content>
+						<p>Chapter II – Rules applicable to co-productions</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav38">
+					<content>
+						<p>Article 4 – Assimilation to national films</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav39">
+					<content>
+						<p>1 Cinematographic works made as multilateral co-productions and falling within the scope of this Convention shall be entitled to the benefits granted to national films by the legislative and regulatory provisions in force in each of the Parties to this Convention participating in the co- production concerned.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav40">
+					<content>
+						<p>2 The benefits shall be granted to each co-producer by the Party in which the co-producer is established, under the conditions and limits provided for by the legislative and regulatory provisions in force in that Party and in accordance with the provisions of this Convention.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav41">
+					<content>
+						<p>Article 5 – Conditions for obtaining co-production status</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav42">
+					<content>
+						<p>1 Any co-production of cinematographic works shall be subject to the approval of the competent authorities of the Parties in which the co-producers are established, after consultation between the competent authorities and in accordance with the procedures laid down in Appendix I. This appendix shall form an integral part of this Convention.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav43">
+					<content>
+						<p>2 Applications for co-production status shall be submitted for approval to the competent authorities according to the application procedure laid down in Appendix I. This approval shall be final except in the case of failure to comply with the initial undertakings concerning artistic, financial or technical matters.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav44">
+					<content>
+						<p>3 Projects of a blatantly pornographic nature or those that advocate discrimination, hate or violence or openly offend human dignity cannot be accorded co-production status.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav45">
+					<content>
+						<p>4 The benefits provided by co-production status shall be granted to co-producers who are deemed to possess adequate technical and financial means, and sufficient professional qualifications.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav46">
+					<content>
+						<p>5 Each Contracting State shall designate the competent authorities mentioned in paragraph 2 above by means of a declaration made at the time of signature or when depositing its instrument of ratification, acceptance, approval or accession. This declaration may be modified at any time afterwards.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav47">
+					<content>
+						<p>Article 6 – Proportions of contributions from each co-producer</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav48">
+					<content>
+						<p>1 In the case of multilateral co-production, the minimum contribution may not be less than 5% and the maximum contribution may not exceed 80% of the total production cost of the cinematographic work. When the minimum contribution is less than 20% or the co-production is financial only, the Party concerned may take steps to reduce or bar access to national production support schemes.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav49">
+					<content>
+						<p>2 When this Convention takes the place of a bilateral agreement between two Parties under the provisions of Article 2, paragraph 4, the minimum contribution may not be less than 10% and the largest contribution may not exceed 90% of the total production cost of the cinematographic work. When the minimum contribution is less than 20% or the co-production is financial only, the Party concerned may take steps to reduce or bar access to national production support schemes.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav50">
+					<content>
+						<p>Article 7 – Rights of co-producers to the cinematographic work</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav51">
+					<content>
+						<p>1 The co-production contract must guarantee to each co-producer joint ownership of the tangible and intangible property rights of the film. The contract shall include the provision that the film master (first completed version) shall be kept in a place mutually agreed by the co- producers, and shall guarantee them free access to it.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav52">
+					<content>
+						<p>2 The co-production contract must also guarantee to each co-producer the right to access the material and the film master for use as a medium of duplication.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav53">
+					<content>
+						<p>Article 8 – Technical and artistic participation</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav54">
+					<content>
+						<p>1 The contribution of each of the co-producers shall include effective technical and artistic participation. In principle, and in accordance with international obligations binding the Parties, the contribution of the co-producers relating to creative, technical and artistic personnel, cast and facilities, must be proportional to their investment.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav55">
+					<content>
+						<p>2 Subject to the international obligations binding the Parties and to the demands of the screenplay, the crew involved in filming the work must be made up of nationals of the States which are partners in the co-production, and post-production shall normally be carried out in those States.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav56">
+					<content>
+						<p>Article 9 – Financial co-productions</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav57">
+					<content>
+						<p>1 Notwithstanding the provisions of Article 8, and subject to the specific conditions and limits laid down in the laws and regulations in force in the Parties, co-productions may be granted co-production status under the provisions of this Convention if they meet the following conditions:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav58">
+					<content>
+						<p>a include one or more minority contributions which may be financial only, in accordance with the co-production contract, provided that each national share is neither less than 10% nor more than 25% of the production costs;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav59">
+					<content>
+						<p>b include a majority co-producer who makes an effective technical and artistic contribution and satisfies the conditions for the cinematographic work to be recognised as a national work in his or her country;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav60">
+					<content>
+						<p>c help to promote cultural diversity and intercultural dialogue; and</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav61">
+					<content>
+						<p>d are embodied in co-production contracts which include provisions for the distribution of receipts.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav62">
+					<content>
+						<p>2 Financial co-productions shall only qualify for co-production status once the competent authorities have given their approval in each individual case, in particular taking into account the provisions of Article 10 below.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav63">
+					<content>
+						<p>Article 10 – General balance</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav64">
+					<content>
+						<p>1 A general balance must be maintained in the cinematographic relations of the Parties, with regard both to the total amount invested and the artistic and technical participation in co- production cinematographic works.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav65">
+					<content>
+						<p>2 A Party which, over a reasonable period, observes a deficit in its co-production relations with one or more other Parties may withhold its approval of a subsequent co-production until balanced cinematographic relations with that or those Parties have been restored.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav66">
+					<content>
+						<p>Article 11 – Entry and residence</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav67">
+					<content>
+						<p>In accordance with the laws and regulations and international obligations in force, each Party shall facilitate entry and residence, as well as the granting of work permits in its territory, of technical and artistic personnel from other Parties participating in a co-production. Similarly, each Party shall permit the temporary import and re-export of equipment necessary to the production and distribution of cinematographic works falling within the scope of this Convention.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav68">
+					<content>
+						<p>Article 12 – Credits of co-producing countries</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav69">
+					<content>
+						<p>1 Co-producing countries shall be credited in co-produced cinematographic works.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav70">
+					<content>
+						<p>2 The names of these countries shall be clearly mentioned in the credit titles, in all publicity and promotion material and when the cinematographic works are being shown.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav71">
+					<content>
+						<p>Article 13 – Export</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav72">
+					<content>
+						<p>When a co-produced cinematographic work is exported to a country where imports of cinematographic works are subject to quotas and one of the co-producing Parties does not have the right of free entry for its cinematographic works to the importing country:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav73">
+					<content>
+						<p>a the cinematographic work shall normally be added to the quota of the country which has the majority participation;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav74">
+					<content>
+						<p>b in the case of a cinematographic work which comprises an equal participation from different countries, the cinematographic work shall be added to the quota of the country which has the best opportunities for exporting to the importing country;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav75">
+					<content>
+						<p>c when the provisions of sub-paragraphs a and b above cannot be applied, the cinematographic work shall be entered in the quota of the Party which provides the director.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav76">
+					<content>
+						<p>Article 14 – Languages</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav77">
+					<content>
+						<p>When according co-production status, the competent authority of a Party may demand from the co-producer established therein a final version of the cinematographic work in one of the languages of that Party.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav78">
+					<content>
+						<p>Article 15 – Festivals</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav79">
+					<content>
+						<p>Unless the co-producers decide otherwise, co-produced cinematographic works shall be shown at international festivals by the Party where the majority co-producer is established, or, in the case of equal financial participation, by the Party which provides the director.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav80">
+					<content>
+						<p>Chapter III – Final provisions</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav81">
+					<content>
+						<p>Article 16 – Effects of the Convention</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav82">
+					<content>
+						<p>1 This Convention shall replace, as regards its States Parties, the European Convention on Cinematographic Co-production, which was opened for signature on 2 October 1992.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav83">
+					<content>
+						<p>2 In relations between a Party to the present Convention and a Party to the 1992 Convention which has not ratified the present Convention, the 1992 Convention shall continue to apply.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav84">
+					<content>
+						<p>Article 17 – Follow-up of the Convention and amendments to Appendices I and II</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav85">
+					<content>
+						<p>1 The Board of Management of the European Support Fund for the Co-production and Distribution of Creative Cinematographic and Audiovisual Works “Eurimages” shall be responsible for the follow-up of this Convention.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav86">
+					<content>
+						<p>2 Any Party to this Convention which is not a member of “Eurimages” may be represented and have one vote in the Board of Management of “Eurimages” when the Board carries out the tasks assigned to it by this Convention.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav87">
+					<content>
+						<p>3 In order to promote the effective application of the Convention, the Board of Management of “Eurimages” may:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav88">
+					<content>
+						<p>a make proposals to facilitate the exchange between Parties of experience and good practice;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav89">
+					<content>
+						<p>b formulate its opinion on any question concerning the application and the implementation of this Convention and make specific recommendations to Parties in this respect.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav90">
+					<content>
+						<p>4 In order to update the provisions of Appendices I and II of this Convention to ensure their continuing relevance to common practices in the cinematographic industry, amendments may be proposed by any Party, by the Committee of Ministers or by the Board of Management of the European Support Fund for the Co-production and Distribution of Creative Cinematographic and Audiovisual Works “Eurimages”. They shall be communicated by the Secretary General of the Council of Europe to the Parties.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav91">
+					<content>
+						<p>5 After having consulted the Parties, the Committee of Ministers may adopt an amendment proposed in accordance with paragraph 4 by the majority provided for in Article 20.d, of the Statute of the Council of Europe. The amendment shall enter into force following the expiry of a period of one year after the date on which it has been forwarded to the Parties. During this period, any Party may notify the Secretary General of any objection to the entry into force of the amendment in its respect.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav92">
+					<content>
+						<p>6 If one third of the Parties notifies the Secretary General of the Council of Europe of an objection to the entry into force of the amendment, the amendment shall not enter into force.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav93">
+					<content>
+						<p>7 If less than one third of the Parties notifies an objection, the amendment shall enter into force for those Parties which have not notified an objection.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav94">
+					<content>
+						<p>8 Once an amendment has entered into force in accordance with paragraphs 5 and 7 of this article and a Party has notified an objection to it, this amendment shall come into force in respect of the Party concerned on the first day of the month following the date on which the Party has notified the Secretary General of the Council of Europe of its acceptance of the amendment. A Party which has made an objection may withdraw it at any time by notifying the Secretary General of the Council of Europe.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav95">
+					<content>
+						<p>9 If the Committee of Ministers adopts an amendment, a State or the European Union may not express its consent to be bound by the Convention without accepting at the same time the amendment.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav96">
+					<content>
+						<p>Article 18 – Signature, ratification, acceptance, approval</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav97">
+					<content>
+						<p>1 This Convention shall be open for signature by the member States of the Council of Europe and the other States Parties to the European Cultural Convention which may express their consent to be bound by:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav98">
+					<content>
+						<p>a signature without reservation as to ratification, acceptance or approval; or</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav99">
+					<content>
+						<p>b signature subject to ratification, acceptance or approval, followed by ratification, acceptance or approval.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav100">
+					<content>
+						<p>2 Instruments of ratification, acceptance or approval shall be deposited with the Secretary General of the Council of Europe.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav101">
+					<content>
+						<p>Article 19 – Entry into force</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav102">
+					<content>
+						<p>1 The Convention shall enter into force on the first day of the month following the expiration of a period of three months after the date on which three States, including at least two member States of the Council of Europe, have expressed their consent to be bound by the Convention in accordance with the provisions of Article 18.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav103">
+					<content>
+						<p>2 In respect of any signatory State which subsequently expresses its consent to be bound by it, the Convention shall enter into force on the first day of the month following the expiration of a period of three months after the date of signature or of the deposit of the instrument of ratification, acceptance or approval.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav104">
+					<content>
+						<p>Article 20 – Accession of non-member States</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav105">
+					<content>
+						<p>1 After the entry into force of this Convention, the Committee of Ministers of the Council of Europe may, after consultation of the Parties, invite any State not a member of the Council of Europe, as well as the European Union, to accede to this Convention, by a decision taken by the majority provided for in Article 20.d, of the Statute of the Council of Europe, and by the unanimous vote of the representatives of the Contracting States entitled to sit on the Committee of Ministers.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav106">
+					<content>
+						<p>2 In respect of any acceding State or of the European Union, in the event of its accession, the Convention shall enter into force on the first day of the month following the expiration of a period of three months after the date of deposit of the instrument of accession with the Secretary General of the Council of Europe.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav107">
+					<content>
+						<p>Article 21 – Territorial clause</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav108">
+					<content>
+						<p>1 Any State may, at the time of signature or when depositing its instrument of ratification, acceptance, approval or accession, specify the territory or territories to which this Convention shall apply.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav109">
+					<content>
+						<p>2 Any Party may, at any later date, by a declaration addressed to the Secretary General of the Council of Europe, extend the application of this Convention to any other territory specified in the declaration. In respect of such territory, the Convention shall enter into force on the first day of the month following the expiration of a period of three months after the date of receipt of the declaration by the Secretary General.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav110">
+					<content>
+						<p>3 Any declaration made under the two preceding paragraphs may, in respect of any territory specified in such a declaration, be withdrawn by a notification addressed to the Secretary General. The withdrawal shall become effective on the first day of the month following the expiration of a period of three months after the date of receipt of such notification by the Secretary General.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav111">
+					<content>
+						<p>Article 22 – Reservations</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav112">
+					<content>
+						<p>1 Any State may, at the time of signature or when depositing its instrument of ratification, acceptance, approval or accession, declare that Article 2, paragraph 4, does not apply to its bilateral co-production relations with one or more Parties. Moreover, it may reserve the right to fix a maximum participation share different from that laid down in Article 9, paragraph 1.a. No other reservation may be made.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav113">
+					<content>
+						<p>2 Any Party which has made a reservation under the preceding paragraph may wholly or partly withdraw it by means of a notification addressed to the Secretary General of the Council of Europe. The withdrawal shall take effect on the date of receipt of such notification by the Secretary General.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav114">
+					<content>
+						<p>Article 23 – Denunciation</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav115">
+					<content>
+						<p>1 Any Party may, at any time, denounce this Convention by means of a notification addressed to the Secretary General of the Council of Europe.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav116">
+					<content>
+						<p>2 Such denunciation shall become effective on the first day of the month following the expiration of a period of six months after the date of receipt of the notification by the Secretary General.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav117">
+					<content>
+						<p>Article 24 – Notifications</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav118">
+					<content>
+						<p>The Secretary General of the Council of Europe shall notify the member States of the Council of Europe, as well as the European Union and any State which has acceded to this Convention or has been invited to do so, of:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav119">
+					<content>
+						<p>a any signature;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav120">
+					<content>
+						<p>b the deposit of any instrument of ratification, acceptance, approval or accession;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav121">
+					<content>
+						<p>c any date of entry into force of this Convention in accordance with Articles 19, 20 and 21;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav122">
+					<content>
+						<p>d any reservation and withdrawal of reservation made in pursuance of Article 22;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav123">
+					<content>
+						<p>e any declaration made in accordance with Article 5, paragraph 5;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav124">
+					<content>
+						<p>f any denunciation notified in accordance with Article 23;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav125">
+					<content>
+						<p>g any other act, notification or communication relating to this Convention.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav126">
+					<content>
+						<p>In witness whereof the undersigned, being duly authorised thereto, have signed this Convention.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav127">
+					<content>
+						<p>Done at Rotterdam, this 30th day of January 2017, in English and French, both texts being equally authentic, in a single copy which shall be deposited in the archives of the Council of Europe. The Secretary General of the Council of Europe shall transmit certified copies to the States mentioned in Article 18, paragraph 1, as well as to the European Union and any State which has been invited to accede to this Convention.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav128">
+					<content>
+						<p>Appendix I – Application</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav129">
+					<intro>
+						<p>In order to benefit from the provisions of this Convention, the co-producers established in the Parties must, in due time before principal photography or principal animation commences, submit an application for provisional co production status and attach the documents listed below. These documents must reach the competent authorities in sufficient number for them to be communicated to the authorities of the other Parties at the latest one month before shooting commences:</p>
+					</intro>
+					<alinea wId="clan2-stav129-ali1">
+						<content>
+							<p> declaration of the situation of the authors’ rights;</p>
+						</content>
+					</alinea>
+					<alinea wId="clan2-stav129-ali2">
+						<content>
+							<p> synopsis of the film;</p>
+						</content>
+					</alinea>
+					<alinea wId="clan2-stav129-ali3">
+						<content>
+							<p> provisional list of the technical and artistic contributions from each of the countries involved;</p>
+						</content>
+					</alinea>
+					<alinea wId="clan2-stav129-ali4">
+						<content>
+							<p> budget and a provisional financing plan;</p>
+						</content>
+					</alinea>
+					<alinea wId="clan2-stav129-ali5">
+						<content>
+							<p> provisional production schedule;</p>
+						</content>
+					</alinea>
+					<alinea wId="clan2-stav129-ali6">
+						<content>
+							<p>he co-production contract or a short-form agreement (“deal memo”) made between the co-producers. This document must include clauses providing for the distribution of receipts or territories between the co-producers.</p>
+						</content>
+					</alinea>
+				</paragraph>
+				<paragraph wId="clan2-stav130">
+					<intro>
+						<p>Final co-production status is granted on completion of the film and after examination of the following definitive production documents by the national authorities:</p>
+					</intro>
+					<alinea wId="clan2-stav130-ali1">
+						<content>
+							<p> complete chain of title;</p>
+						</content>
+					</alinea>
+					<alinea wId="clan2-stav130-ali2">
+						<content>
+							<p> final script;</p>
+						</content>
+					</alinea>
+					<alinea wId="clan2-stav130-ali3">
+						<content>
+							<p> definitive list of the technical and artistic contributions from each of the countries involved;</p>
+						</content>
+					</alinea>
+					<alinea wId="clan2-stav130-ali4">
+						<content>
+							<p> final cost report;</p>
+						</content>
+					</alinea>
+					<alinea wId="clan2-stav130-ali5">
+						<content>
+							<p> definitive financing plan;</p>
+						</content>
+					</alinea>
+					<alinea wId="clan2-stav130-ali6">
+						<content>
+							<p>he co-production contract made between the co-producers. This contract must include clauses providing for the distribution of receipts or territories between the co-producers.</p>
+						</content>
+					</alinea>
+				</paragraph>
+				<paragraph wId="clan2-stav131">
+					<content>
+						<p>National authorities can request any other document necessary for the evaluation of the application in accordance with national legislation.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav132">
+					<content>
+						<p>The application and other documents shall be presented, if possible, in the language of the competent authorities to which they are submitted</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav133">
+					<content>
+						<p>The competent national authorities shall send each other the application and attached documentation once they have been received. The competent authority of the Party with the minority financial participation shall not give its approval until the opinion of the Party with the majority financial participation has been received.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav134">
+					<content>
+						<p>Appendix II – Definition of a qualifying cinematographic work</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav135">
+					<content>
+						<p>1 A cinematographic work of fiction qualifies as an official co-production in the sense of Article 3, sub-paragraph c, if with regard to the elements originating in the States Parties to the Convention, it obtains at least 16 points out of a possible total of 21, according to the list of elements set out below.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav136">
+					<content>
+						<p>2 Having regard to the characteristics of the co-production, the competent authorities may, after consulting each other, grant co-production status to a work with a number of points that is less than the normally required 16 points.</p>
+					</content>
+				</paragraph>
+				<paragraph class="special" wId="clan2-stav137">
+					<content>
+						<table>
+							
+
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>Elements originating in States Parties to the Convention</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>Weighting points</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>Director </p>
+									
+
+									<p>Scriptwriter </p>
+									
+
+									<p>Composer </p>
+									
+
+									<p>First role </p>
+									
+
+									<p>Second role </p>
+									
+
+									<p>Third role </p>
+									
+
+									<p>Head of Department – cinematography </p>
+									
+
+									<p>Head of Department – sound</p>
+									
+
+									<p>Head of Department – picture editing</p>
+									
+
+									<p>Head of Department – production or costume design</p>
+									
+
+									<p>Studio or shooting location</p>
+									
+
+									<p>Visual effects (VFX) or Computer-generated imagery (CGI)</p>
+									
+
+									<p>Post-production location</p>
+									
+
+									<p>N.B.</p>
+									
+
+									<p>First, second and third roles are determined by number</p>
+									
+
+									<p>of days worked.</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>4</p>
+									
+
+									<p>3</p>
+									
+
+									<p>1</p>
+									
+
+									<p>3</p>
+									
+
+									<p>2</p>
+									
+
+									<p>1</p>
+									
+
+									<p>1</p>
+									
+
+									<p>1</p>
+									
+
+									<p>1</p>
+									
+
+									<p>1</p>
+									
+
+									<p>1</p>
+									
+
+									<p>1</p>
+									
+
+									<p>1</p>
+									
+
+									<p>_____</p>
+									
+
+									<p>21</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+
+						</table>
+						
+
+					</content>
+				</paragraph>
+				<paragraph class="special" wId="clan2-stav138">
+					<content>
+						<table>
+							
+
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>Elements originating in States Parties to the Convention</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>Weighting points</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>Conception</p>
+									
+
+									<p>Script</p>
+									
+
+									<p>Character design</p>
+									
+
+									<p>Music composition</p>
+									
+
+									<p>Directing</p>
+									
+
+									<p>Storyboard</p>
+									
+
+									<p>Chief decorator</p>
+									
+
+									<p>Computer backgrounds</p>
+									
+
+									<p>Layout (2D) or layout and camera blocks (3D)</p>
+									
+
+									<p>75% of expenses for animation in States Parties to the Convention</p>
+									
+
+									<p>75% of the cleaning, inter-betweening nad colouring in States Parties to the Convention (2D) </p>
+									
+
+									<p>or</p>
+									
+
+									<p>75% of the colouring, lighting, rigging, modeling and texturing States Parties to the Convention (3D)</p>
+									
+
+									<p>Compositing or camera</p>
+									
+
+									<p>Editing</p>
+									
+
+									<p>Sound</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>1</p>
+									
+
+									<p>2</p>
+									
+
+									<p>2</p>
+									
+
+									<p>1</p>
+									
+
+									<p>2</p>
+									
+
+									<p>2</p>
+									
+
+									<p>1</p>
+									
+
+									<p>1</p>
+									
+
+									<p>2</p>
+									
+
+									<p>3</p>
+									
+
+									<p>3</p>
+									
+
+									<p>1</p>
+									
+
+									<p>1</p>
+									
+
+									<p>1</p>
+									
+
+									<p>_____</p>
+									
+
+									<p>23</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+
+						</table>
+						
+
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav139">
+					<content>
+						<p>3 A cinematographic animation work qualifies as an official co-production in the sense of Article 3, sub-paragraph c, if it obtains at least 15 points out of a possible total of 23, according to the list of elements set out below.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav140">
+					<content>
+						<p>4 Having regard to the characteristics of the co-production, the competent authorities may, after consulting each other, grant co-production status to a work with a number of points that is less than the normally required 15 points.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav141">
+					<content>
+						<p>5 A cinematographic documentary work qualifies as an official co-production in the sense of Article 3, sub-paragraph c, if it obtains at least 50% of the total applicable points according to the list of elements set out below.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav142">
+					<content>
+						<p>6 Having regard to the characteristics of the co-production, the competent authorities may, after consulting each other, grant co-production status to the work with less than the normally required 50% of the total applicable points.</p>
+					</content>
+				</paragraph>
+				<paragraph class="special" wId="clan2-stav143">
+					<content>
+						<table>
+							
+
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>Elements originating in States Parties to the Convention</p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>Weighting points</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>Director </p>
+									
+
+									<p>Scriptwriter </p>
+									
+
+									<p>Camera</p>
+									
+
+									<p>Editor</p>
+									
+
+									<p>Researcher </p>
+									
+
+									<p>Composer </p>
+									
+
+									<p>Sound </p>
+									
+
+									<p>Shooting location </p>
+									
+
+									<p>Post-production location </p>
+									
+
+									<p>Visual effects (VFX) or Computer-generated imagery (CGI) location </p>
+									
+
+								</td>
+								
+
+								<td>
+									
+
+									<p>4</p>
+									
+
+									<p>1</p>
+									
+
+									<p>2</p>
+									
+
+									<p>2</p>
+									
+
+									<p>1</p>
+									
+
+									<p>1</p>
+									
+
+									<p>1</p>
+									
+
+									<p>1</p>
+									
+
+									<p>2</p>
+									
+
+									<p>1</p>
+									
+
+									<p>_____</p>
+									
+
+									<p>16</p>
+									
+
+								</td>
+								
+
+							</tr>
+							
+
+
+						</table>
+						
+
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav144">
+					<content>
+						<p>КОНВЕНЦИЈА САВЕТА ЕВРОПЕ О КИНЕМАТОГРАФСКОЈ КОПРОДУКЦИЈИ (РЕВИДИРАНА)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav145">
+					<content>
+						<p>Преамбула</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav146">
+					<content>
+						<p>Државе чланице Савета Европе и остале државе потписнице Европске конвенције o култури (ETS број 18), доле потписане,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav147">
+					<content>
+						<p>с обзиром на то да је циљ Савета Европе постизање већег јединства међу његовим чланицама, посебно да би се сачували и унапредили идеали и принципи који чине њихово заједничко наслеђе;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav148">
+					<content>
+						<p>с обзиром на то да слобода стваралаштва и слобода изражавања чине темељне елементе ових принципа;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav149">
+					<content>
+						<p>с обзиром на то да је подстицање културне разноликости европских земаља један од циљева Европске конвенције о култури;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav150">
+					<content>
+						<p>имајући у виду Конвенцију Унеска о заштити и унапређењу разноликости културних израза (Париз, 20. октобар 2005.), којом је културна разноликост призната као једна од главних одлика које дефинишу човечанство и која тежи да ојача стваралаштво, продукцију, дифузију, дистрибуцију и уживање у културним изразима;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav151">
+					<content>
+						<p>с обзиром на то да кинематографска копродукција, као инструмент стваралаштва и израз културне разноликости на европском нивоу, треба да се ојача;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav152">
+					<content>
+						<p>свесне да филм представља важно средство културног и уметничког израза које има суштински значајну улогу у очувању слободе изражавања, разноликости и креативности, као и демократских принципа;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav153">
+					<content>
+						<p>одлучне да развијају ове принципе, позивајући се на препоруке Комитета министара држава чланица о кинематографији и аудиовизуелној области, а посебно Препоруку Rec(86)3 о унапређењу аудиовизуелне продукције у Европи и Препоруку CM/Rec(2009)7 о националним филмским политикама и разноликости културних израза;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav154">
+					<content>
+						<p>имајући у виду да је Резолуција Res(88)15 о оснивању Европског фонда за подршку копродукцијама и дистрибуцији креативних кинематографских и аудиовизуелних дела „Еуримаж“ измењена да би се омогућило приступање неевропских држава;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav155">
+					<content>
+						<p>решене да постигну ове циљеве захваљујући заједничком напору да повећају продукцију и дефинишу правила којима се прилагођавају кинематографској копродукцији као целини;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav156">
+					<content>
+						<p>с обзиром на то да се усвајањем заједничких правила обично смањују ограничења и подстиче сарадња у области кинематографске копродукције;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav157">
+					<content>
+						<p>узимајући у обзир технолошки, економски и финансијски развој филмске индустрије од отварања Европске конвенције о кинематографској копродукцији (ETS број 147) за потписивање 1992. године;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav158">
+					<content>
+						<p>у уверењу да тај развој условљава потребу за ревизијом Конвенције из 1992. године да би се обезбедило да овај оквир за кинематографску копродукцију и даље остане релевантан и делотворан;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav159">
+					<content>
+						<p>потврђујући да је сврха ове конвенције да замени Европску конвенцију о кинематографској копродукцији,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav160">
+					<content>
+						<p>споразумеле су се о следећем:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav161">
+					<content>
+						<p>Поглавље I – ОПШТЕ ОДРЕДБЕ</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<heading>Циљ Конвенције</heading>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Потписнице ове конвенције се обавезују да унапређују развој међународне кинематографске копродукције у складу са следећим одредбама.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<heading>Област примене</heading>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>1 Ова конвенција уређује односе између држава потписница у области мултилатералних копродукција насталих на територији држава потписница.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>2 Ова конвенција се примењује на:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav3">
+					<content>
+						<p>а. копродукције у које су укључена најмање три копродуцента из три различите државе потписнице конвенције; и</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav4">
+					<content>
+						<p>б. копродукције у које су укључена најмање три копродуцента из три различите државе потписнице Конвенције и један или више копродуцената који нису из тих држава потписница. Међутим, укупно учешће копродуцената који нису основани у државама потписницама Конвенције не може прелазити 30% укупних трошкова продукције.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav5">
+					<content>
+						<p>У свим случајевима, ова конвенција се примењује само под условом да копродукционо дело одговара дефиницији званично копродуцираног кинематографског дела из члана 3, тачка в. доле.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav6">
+					<content>
+						<p>3 Одредбе билатералних уговора закључених између држава потписница ове конвенције настављају да се примењују на билатералне копродукције.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav7">
+					<content>
+						<p>У случају мултилатералних копродукција, одредбе ове конвенције имају предност над одредбама билатералних уговора између држава потписница Конвенције. Одредбе које се односе на билатералне копродукције остају на снази уколико нису у супротности с одредбама ове конвенције.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav8">
+					<content>
+						<p>4 Уколико не постоји никакав уговор који уређује билатералне копродукционе односе између држава потписница ове конвенције, Конвенција се такође примењује на билатералне копродукције, осим у случају да нека од страна стави резерву сагласно условима из члана 22.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<heading>Дефиниције</heading>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>У смислу ове конвенције:</p>
+					</content>
+				</paragraph>
+			</article>
+		</body>
+	</act>
+</akomaNtoso>

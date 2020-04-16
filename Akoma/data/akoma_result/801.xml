@@ -1,0 +1,245 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о потврђивању Споразумa између Владе Републике Србије и Владе Руске Федерације о војно-техничкој сарадњи">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2015/12-1/main"/>
+					<FRBRuri value="/rs/act/2015/12-1"/>
+					<FRBRdate date="2015-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2015/12-1/srp@/main"/>
+					<FRBRuri value="/rs/act/2015/12-1/srp@"/>
+					<FRBRdate date="2015-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2015/12-1/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2015/12-1/srp@.akn"/>
+					<FRBRdate date="2015-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2015-06-22" name="службени гласник рс - међународни уговори" number="12" showAs="Службени гласник РС - Међународни уговори"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="II БЕЗБЕДНОСНА И ОДБРАМБЕНА ПОЛИТИКА" value="ii безбедносна и одбрамбена политика" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="2. Војска" value="2. војска" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2015-06-19" wId="usvajanje"/>
+				<step by="#TODO" date="2015-06-30" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2015-06-30" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Споразум између Владе Републике Србије и Владе Руске Федерације о војно-техничкој сарадњи ступио је на снагу 2. јула 2015. године (види: Обавештење: Службени гласник РС - Међународни уговори - 15/2015-19).</p>
+				</note>
+				<note wId="not2">
+					<p>Споразум између Владе Републике Србије и Владе Руске Федерације о војно-техничкој сарадњи ступио је на снагу 2. јула 2015. године (види: Обавештење: Службени гласник РС - Међународни уговори - 15/2015-19).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О потврђивању споразумa између владе републике србије и владе руске федерације о војно-техничкој сарадњи "Службени гласник РС - Међународни уговори", број 12 од 22. јуна 2015.</p>
+			</longTitle>
+			<p>Томислав Николић, с.р.</p>
+		</preface>
+		<preamble>
+			<p>На основу члана 112. став 1. тачка 2. Устава Републике Србије, доносим</p>
+			<p>УКАЗ</p>
+			<p>о проглашењу Закона о потврђивању Споразумa између Владе Републике Србије и Владе Руске Федерације о војно-техничкој сарадњи</p>
+			<p>Проглашава се Закон о потврђивању Споразумa између Владе Републике Србије и Владе Руске Федерације о војно-техничкој сарадњи, који је донела Народна скупштина Републике Србије на седници Деветог ванредног заседања у 2015. години, 19. јуна 2015. године.</p>
+			<p>ПР број 76</p>
+			<p>У Београду, 22. јуна 2015. године</p>
+			<p>Председник Републике,</p>
+		</preamble>
+		<body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Потврђује се Споразум између Владе Републике Србије и Владе Руске Федерације о војно-техничкој сарадњи, који је потписан у Београду, 16. октобра 2014. године, у оригиналу на српском и руском језику.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Текст Споразума у оригиналу на српском језику гласи:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>СПОРАЗУМ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav3">
+					<content>
+						<p>ИЗМЕЂУ ВЛАДЕ РЕПУБЛИКЕ СРБИЈЕ И ВЛАДЕ РУСКЕ ФЕДЕРАЦИЈЕ О ВОЈНО-ТЕХНИЧКОЈ САРАДЊИ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav4">
+					<content>
+						<p>Влада Републике Србије и Влада Руске Федерације (у даљем тексту: Стране),</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav5">
+					<content>
+						<p>Руководећи се општепризнатим начелима и нормама међународног права, као и узајамном тежњом за развојем и јачањем пријатељских односа између Републике Србије и Руске Федерације,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav6">
+					<content>
+						<p>Изражавајући спремност за сарадњу у војно-техничкој области, засновану на узајамном поштовању, поверењу и уважавању интереса сваке Стране,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav7">
+					<content>
+						<p>Споразумеле су се о следећем:</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<intro>
+						<p>Стране развијају војно-техничку сарадњу у следећим областима:</p>
+					</intro>
+					<alinea wId="clan1-stav1-ali1">
+						<content>
+							<p>споруке наоружања и војне технике, друге робе војне намене за потребе одбране и безбедности држава Страна;</p>
+						</content>
+					</alinea>
+					<alinea wId="clan1-stav1-ali2">
+						<content>
+							<p>безбеђења експлоатације, ремонта и модернизације робе војне намене;</p>
+						</content>
+					</alinea>
+					<alinea wId="clan1-stav1-ali3">
+						<content>
+							<p>споруке резервних делова, агрегата, склопова, уређаја, специјалне, наставне и помоћне имовине, комплетних делова за робу војне намене;</p>
+						</content>
+					</alinea>
+					<alinea wId="clan1-stav1-ali4">
+						<content>
+							<p>ружања услуга у области војно-техничке сарадње;</p>
+						</content>
+					</alinea>
+					<alinea wId="clan1-stav1-ali5">
+						<content>
+							<p>азвоја односа сарадње током поступка пројектовања и производње робе војне намене;</p>
+						</content>
+					</alinea>
+					<alinea wId="clan1-stav1-ali6">
+						<content>
+							<p>азмене стручњака ради пружања техничке помоћи приликом реализације заједничких програма у области војно-техничке сарадње;</p>
+						</content>
+					</alinea>
+					<alinea wId="clan1-stav1-ali7">
+						<content>
+							<p>буке кадрова у одговарајућим образовним установама у складу с потребама и могућностима Страна;</p>
+						</content>
+					</alinea>
+					<alinea wId="clan1-stav1-ali8">
+						<content>
+							<p>онсултативне помоћи у борбеној примени наоружања и војне технике, као и по другим питањима војно-техничке сарадње;</p>
+						</content>
+					</alinea>
+					<alinea wId="clan1-stav1-ali9">
+						<content>
+							<p>ругим областима војно-техничке сарадње о којима се постигне споразум између Страна.</p>
+						</content>
+					</alinea>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<intro>
+						<p>Овлашћени органи Страна за реализацију овог споразума су:</p>
+					</intro>
+					<alinea wId="clan2-stav1-ali1">
+						<content>
+							<p>а српске стране – Министарство одбране Републике Србије;</p>
+						</content>
+					</alinea>
+					<alinea wId="clan2-stav1-ali2">
+						<content>
+							<p>а руске стране – Федерална служба за војно-техничку сарадњу.</p>
+						</content>
+					</alinea>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>Стране без одлагања у писаном облику, дипломатским путем, се узајамно информишу о променама својих овлашћених органа.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav3">
+					<content>
+						<p>Овлашћене организације Страна су организације које су, у складу са својим националним законодавством, стекле право на обављање спољнотрговинске делатности у погледу робе војне намене.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>У циљу реализације овог споразума, Стране и/или овлашћени органи могу по потреби закључити посебне споразуме, а овлашћене организације држава Страна посебне уговоре у односу на конкретна питања сарадње, према областима предвиђеним <ref wId="ref0" href="akn/rs/act/2015/12-1/srp@/!main~art_1" >чланом 1. овог</ref> споразума.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav2">
+					<content>
+						<p>Спецификација и обим испоруке робе војне намене укључујући пружање услуга, услове и облике обрачуна, који су у складу са међународном праксом, одређују се у наведеним споразумима, уговорима и другим документима који се закључују на основу овог споразума.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav3">
+					<content>
+						<p>Сарадња Страна на основу овог споразума развија се у складу са законодавством држава Страна.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan4">
+				<num>4.</num>
+				<paragraph wId="clan4-stav1">
+					<content>
+						<p>У циљу реализације овог споразума и посебних договора у области војно-техничке сарадње, Стране ће формирати међувладину комисију за војно-техничку сарадњу, која ће бити састављена од представника српског и руског дела, чији састав одређују Стране.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan4-stav2">
+					<content>
+						<p>Начин рада међувладине комисије за војно-техничку сарадњу одређују председници њених националних делова.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan5">
+				<num>5.</num>
+				<paragraph wId="clan5-stav1">
+					<content>
+						<p>Свака од Страна користи робу војне намене коју је добила или набавила сагласно овом споразуму, само у сврхе које су означене приликом добијања или набавке. Није дозвољен реекспорт или предаја такве робе трећој страни без претходне писане сагласности Стране која је ту робу испоручила.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan5-stav2">
+					<content>
+						<p>Информације које је једна од Страна добила током сарадње сагласно овом споразуму, не могу да се користе на штету друге Стране.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan6">
+				<num>6.</num>
+				<paragraph wId="clan6-stav1">
+					<content>
+						<p>У случају извођења заједничких радова, Стране самостално или заједно одређују тајност података који се предају у складу са овим споразумом или су резултат његове реализације. На носиоце таквих података ставља се ознака:</p>
+					</content>
+				</paragraph>
+			</article>
+		</body>
+	</act>
+</akomaNtoso>

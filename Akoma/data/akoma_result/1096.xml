@@ -1,0 +1,428 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о допуни Закона о потврђивању Конвенције Међународне организације рада о раду помораца, 2006">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2013/1-68/main"/>
+					<FRBRuri value="/rs/act/2013/1-68"/>
+					<FRBRdate date="2013-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2013/1-68/srp@/main"/>
+					<FRBRuri value="/rs/act/2013/1-68/srp@"/>
+					<FRBRdate date="2013-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2013/1-68/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2013/1-68/srp@.akn"/>
+					<FRBRdate date="2013-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2013-01-30" name="службени гласник рс – међународни уговори" number="1" showAs="Службени гласник РС – Међународни уговори"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="VII РАД И ЗАПОШЉАВАЊЕ" value="vii рад и запошљавање" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="2. Акти Међународне организације рада (МОР)" value="2. акти међународне организације рада (мор)" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2013-01-30" wId="usvajanje"/>
+				<step by="#TODO" date="2013-02-07" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2013-02-07" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p/>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О допуни закона о потврђивању конвенције међународне организације рада о раду помораца, 2006 "Службени гласник РС – Међународни уговори", број 1 од 30. јануара 2013.</p>
+			</longTitle>
+			<p>Томислав Николић, с.р.</p>
+		</preface>
+		<preamble>
+			<p>На основу члана 112. став 1. тачка 2. Устава Републике Србије, доносим</p>
+			<p>УКАЗ</p>
+			<p>о проглашењу Закона о допуни Закона о потврђивању Конвенције Међународне организације рада о раду помораца, 2006</p>
+			<p>Проглашава се Закон о допуни Закона о потврђивању Конвенције Међународне организације рада о раду помораца, 2006, који је донела Народна скупштина Републике Србије на седници Другог ванредног заседања у 2013. години, 30. јануара 2013. године.</p>
+			<p>ПР број 16</p>
+			<p>У Београду, 30. јануара 2013. године</p>
+			<p>Председник Републике,</p>
+		</preamble>
+		<body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>У Закону о потврђивању Конвенције Међународне организације рада о раду помораца, 2006 („<ref wId="ref2" href="akn/rs/act/11/8/srp@">Службени гласник – Међународни уговори”, број 8/11</ref>), после <ref wId="ref0" href="akn/rs/act/2013/1-68/srp@/!main~art_2" >члана 2. </ref>додаје се <ref wId="ref1" href="akn/rs/act/2013/1-68/srp@/!main~art_2а" >члан 2а </ref>који гласи:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan1-stav2">
+					<content>
+						<p>„Члан 2а</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan1-stav3">
+					<intro>
+						<p>Подручја делатности у којима Република Србија обезбеђује заштиту социјалног осигурања помораца, у складу са ст. <ref wId="ref3" href="akn/rs/act/2013/1-68/srp@/!main~art_1__para_2" >2</ref>. и <ref wId="ref4" href="akn/rs/act/2013/1-68/srp@/!main~art_1__para_10" >10</ref>. Стандарда А 4.5. Конвенције Међународне организације рада о раду помораца, 2006, су следећа:</p>
+					</intro>
+					<point wId="clan1-stav3-tac1">
+						<num>1)</num>
+						<content>
+							<p> здравствена нега;</p>
+						</content>
+					</point>
+					<point wId="clan1-stav3-tac2">
+						<num>2)</num>
+						<content>
+							<p> накнаде у случају болести;</p>
+						</content>
+					</point>
+					<point wId="clan1-stav3-tac3">
+						<num>3)</num>
+						<content>
+							<p> накнаде у случају незапослености;</p>
+						</content>
+					</point>
+					<point wId="clan1-stav3-tac4">
+						<num>4)</num>
+						<content>
+							<p> накнаде у случају повреде на раду.”</p>
+						</content>
+					</point>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије – Међународни уговори”.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>На основу члана 11<ref wId="ref5" href="akn/rs/act/2013/1-68/srp@/!main~art_112__para_1__point_2" >2</ref>. став 1. тачка 2. Устава Републике Србије, доносим</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav3">
+					<content>
+						<p>УКАЗ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav4">
+					<content>
+						<p>о проглашењу Закона о допуни Закона о потврђивању Конвенције Међународне организације рада о раду помораца, 2006</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav5">
+					<content>
+						<p>Проглашава се Закон о допуни Закона о потврђивању Конвенције Међународне организације рада о раду помораца, 2006, који је донела Народна скупштина Републике Србије на седници Другог ванредног заседања у 2013. години, 30. јануара 2013. године.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav6">
+					<content>
+						<p>ПР број 16</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav7">
+					<content>
+						<p>У Београду, 30. јануара 2013. године</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav8">
+					<content>
+						<p>Председник Републике,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav9">
+					<content>
+						<p>Томислав Николић, с.р.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav10">
+					<content>
+						<p>ЗАКОН</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav11">
+					<content>
+						<p>о допуни Закона о потврђивању Конвенције Међународне организације рада о раду помораца, 2006</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav12">
+					<content>
+						<p>"Службени гласник РС – Међународни  уговори", број 1 од 30. јануара 2013.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>У Закону о потврђивању Конвенције Међународне организације рада о раду помораца, 2006 („Службени гласник – Међународни уговори”, број 8/11), после члана 2. додаје се члан 2а који гласи:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan1-stav2">
+					<content>
+						<p>„Члан 2а</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan1-stav3">
+					<intro>
+						<p>Подручја делатности у којима Република Србија обезбеђује заштиту социјалног осигурања помораца, у складу са ст. 2. и 10. Стандарда А 4.5. Конвенције Међународне организације рада о раду помораца, 2006, су следећа:</p>
+					</intro>
+					<point wId="clan1-stav3-tac1">
+						<num>1)</num>
+						<content>
+							<p> здравствена нега;</p>
+						</content>
+					</point>
+					<point wId="clan1-stav3-tac2">
+						<num>2)</num>
+						<content>
+							<p> накнаде у случају болести;</p>
+						</content>
+					</point>
+					<point wId="clan1-stav3-tac3">
+						<num>3)</num>
+						<content>
+							<p> накнаде у случају незапослености;</p>
+						</content>
+					</point>
+					<point wId="clan1-stav3-tac4">
+						<num>4)</num>
+						<content>
+							<p> накнаде у случају повреде на раду.”</p>
+						</content>
+					</point>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије – Међународни уговори”.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>На основу члана 112. став 1. тачка 2. Устава Републике Србије, доносим</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav3">
+					<content>
+						<p>УКАЗ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav4">
+					<content>
+						<p>о проглашењу Закона о допуни Закона о потврђивању Конвенције Међународне организације рада о раду помораца, 2006</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav5">
+					<content>
+						<p>Проглашава се Закон о допуни Закона о потврђивању Конвенције Међународне организације рада о раду помораца, 2006, који је донела Народна скупштина Републике Србије на седници Другог ванредног заседања у 2013. години, 30. јануара 2013. године.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav6">
+					<content>
+						<p>ПР број 16</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav7">
+					<content>
+						<p>У Београду, 30. јануара 2013. године</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav8">
+					<content>
+						<p>Председник Републике,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav9">
+					<content>
+						<p>Томислав Николић, с.р.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav10">
+					<content>
+						<p>ЗАКОН</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav11">
+					<content>
+						<p>о допуни Закона о потврђивању Конвенције Међународне организације рада о раду помораца, 2006</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav12">
+					<content>
+						<p>"Службени гласник РС – Међународни  уговори", број 1 од 30. јануара 2013.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>У Закону о потврђивању Конвенције Међународне организације рада о раду помораца, 2006 („Службени гласник – Међународни уговори”, број 8/11), после члана 2. додаје се члан 2а који гласи:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan1-stav2">
+					<content>
+						<p>„Члан 2а</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan1-stav3">
+					<intro>
+						<p>Подручја делатности у којима Република Србија обезбеђује заштиту социјалног осигурања помораца, у складу са ст. 2. и 10. Стандарда А 4.5. Конвенције Међународне организације рада о раду помораца, 2006, су следећа:</p>
+					</intro>
+					<point wId="clan1-stav3-tac1">
+						<num>1)</num>
+						<content>
+							<p> здравствена нега;</p>
+						</content>
+					</point>
+					<point wId="clan1-stav3-tac2">
+						<num>2)</num>
+						<content>
+							<p> накнаде у случају болести;</p>
+						</content>
+					</point>
+					<point wId="clan1-stav3-tac3">
+						<num>3)</num>
+						<content>
+							<p> накнаде у случају незапослености;</p>
+						</content>
+					</point>
+					<point wId="clan1-stav3-tac4">
+						<num>4)</num>
+						<content>
+							<p> накнаде у случају повреде на раду.”</p>
+						</content>
+					</point>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије – Међународни уговори”.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>На основу члана 112. став 1. тачка 2. Устава Републике Србије, доносим</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav3">
+					<content>
+						<p>УКАЗ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav4">
+					<content>
+						<p>о проглашењу Закона о допуни Закона о потврђивању Конвенције Међународне организације рада о раду помораца, 2006</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav5">
+					<content>
+						<p>Проглашава се Закон о допуни Закона о потврђивању Конвенције Међународне организације рада о раду помораца, 2006, који је донела Народна скупштина Републике Србије на седници Другог ванредног заседања у 2013. години, 30. јануара 2013. године.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav6">
+					<content>
+						<p>ПР број 16</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav7">
+					<content>
+						<p>У Београду, 30. јануара 2013. године</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav8">
+					<content>
+						<p>Председник Републике,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav9">
+					<content>
+						<p>Томислав Николић, с.р.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav10">
+					<content>
+						<p>ЗАКОН</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav11">
+					<content>
+						<p>о допуни Закона о потврђивању Конвенције Међународне организације рада о раду помораца, 2006</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav12">
+					<content>
+						<p>"Службени гласник РС – Међународни  уговори", број 1 од 30. јануара 2013.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>У Закону о потврђивању Конвенције Међународне организације рада о раду помораца, 2006 („Службени гласник – Међународни уговори”, број 8/11), после члана 2. додаје се члан 2а који гласи:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan1-stav2">
+					<content>
+						<p>„Члан 2а</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan1-stav3">
+					<intro>
+						<p>Подручја делатности у којима Република Србија обезбеђује заштиту социјалног осигурања помораца, у складу са ст. 2. и 10. Стандарда А 4.5. Конвенције Међународне организације рада о раду помораца, 2006, су следећа:</p>
+					</intro>
+					<point wId="clan1-stav3-tac1">
+						<num>1)</num>
+						<content>
+							<p> здравствена нега;</p>
+						</content>
+					</point>
+					<point wId="clan1-stav3-tac2">
+						<num>2)</num>
+						<content>
+							<p> накнаде у случају болести;</p>
+						</content>
+					</point>
+					<point wId="clan1-stav3-tac3">
+						<num>3)</num>
+						<content>
+							<p> накнаде у случају незапослености;</p>
+						</content>
+					</point>
+					<point wId="clan1-stav3-tac4">
+						<num>4)</num>
+						<content>
+							<p> накнаде у случају повреде на раду.”</p>
+						</content>
+					</point>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије – Међународни уговори”.</p>
+					</content>
+				</paragraph>
+			</article>
+		</body>
+	</act>
+</akomaNtoso>

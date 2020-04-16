@@ -1,0 +1,162 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о престанку важења   Закона  о задужењу државне заједнице   Србија  и   Црна  Гора  код немачке финансијске институције KFW по   Уговору  о зајму и финансирању између   ЈП  “Електропривреда  Србије”,  Београд,  и KFW,   Франкфурт  на   Мајни,  закљученог 24. децембра 2003. године">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2005/44-21/main"/>
+					<FRBRuri value="/rs/act/2005/44-21"/>
+					<FRBRdate date="2005-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2005/44-21/srp@/main"/>
+					<FRBRuri value="/rs/act/2005/44-21/srp@"/>
+					<FRBRdate date="2005-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2005/44-21/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2005/44-21/srp@.akn"/>
+					<FRBRdate date="2005-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2005-10-22" name="службени лист сцг" number="44" showAs="Службени лист СЦГ"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="V МОНЕТАРНИ СИСТЕМ, ФИНАНСИЈСКЕ ОРГАНИЗАЦИЈЕ И ФИНАНСИЈСКО ПОСЛОВАЊЕ" value="v монетарни систем, финансијске организације и финансијско пословање" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="9. Задуживање и гаранције" value="9. задуживање и гаранције" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2005-10-22" wId="usvajanje"/>
+				<step by="#TODO" date="2005-10-23" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2005-10-23" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу наредног дана од дана објављивања у “Службеном листу СЦГ”, односно 23. октобра 2005. године (види члан 2. Закона).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О престанку важења   закона  о задужењу државне заједнице   србија  и   црна  гора  код немачке финансијске институције kfw по   уговору  о зајму и финансирању између   јп  “електропривреда  србије”,  београд,  и kfw,   франкфурт  на   мајни,  закљученог 24. децембра 2003. године "Службени лист СЦГ", број 44 од 22. октобра 2005.</p>
+			</longTitle>
+		</preface>
+		<body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Закон о задужењу државне заједнице Србија и Црна Гора код немачке финансијске институције KFW по Уговору о зајму и финансирању између ЈП “Електропривреда Србије”, Београд, и KFW, Франкфурт на Мајни, закљученог 24. децембра 2003. године (“<ref wId="ref0" href="akn/rs/act/2005/7/srp@">Службени лист СЦГ”, бр. 7/2005</ref>), престаје да важи.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Овај закон ступа на снагу наредног дана од дана објављивања у “Службеном листу СЦГ”.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>ЗАКОН</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav3">
+					<content>
+						<p>о престанку важења   Закона  о задужењу државне заједнице   Србија  и   Црна  Гора  код немачке финансијске институције KFW по   Уговору  о зајму и финансирању између   ЈП  “Електропривреда  Србије”,  Београд,  и KFW,   Франкфурт  на   Мајни,  закљученог 24. децембра 2003. године</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav4">
+					<content>
+						<p>"Службени лист   СЦГ", број 44 од 22. октобра 2005.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Закон о задужењу државне заједнице Србија и Црна Гора код немачке финансијске институције KFW по Уговору о зајму и финансирању између ЈП “Електропривреда Србије”, Београд, и KFW, Франкфурт на Мајни, закљученог 24. децембра 2003. године (“Службени лист СЦГ”, бр. 7/2005), престаје да важи.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Овај закон ступа на снагу наредног дана од дана објављивања у “Службеном листу СЦГ”.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>ЗАКОН</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav3">
+					<content>
+						<p>о престанку важења   Закона  о задужењу државне заједнице   Србија  и   Црна  Гора  код немачке финансијске институције KFW по   Уговору  о зајму и финансирању између   ЈП  “Електропривреда  Србије”,  Београд,  и KFW,   Франкфурт  на   Мајни,  закљученог 24. децембра 2003. године</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav4">
+					<content>
+						<p>"Службени лист   СЦГ", број 44 од 22. октобра 2005.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Закон о задужењу државне заједнице Србија и Црна Гора код немачке финансијске институције KFW по Уговору о зајму и финансирању између ЈП “Електропривреда Србије”, Београд, и KFW, Франкфурт на Мајни, закљученог 24. децембра 2003. године (“Службени лист СЦГ”, бр. 7/2005), престаје да важи.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Овај закон ступа на снагу наредног дана од дана објављивања у “Службеном листу СЦГ”.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>ЗАКОН</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav3">
+					<content>
+						<p>о престанку важења   Закона  о задужењу државне заједнице   Србија  и   Црна  Гора  код немачке финансијске институције KFW по   Уговору  о зајму и финансирању између   ЈП  “Електропривреда  Србије”,  Београд,  и KFW,   Франкфурт  на   Мајни,  закљученог 24. децембра 2003. године</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav4">
+					<content>
+						<p>"Службени лист   СЦГ", број 44 од 22. октобра 2005.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Закон о задужењу државне заједнице Србија и Црна Гора код немачке финансијске институције KFW по Уговору о зајму и финансирању између ЈП “Електропривреда Србије”, Београд, и KFW, Франкфурт на Мајни, закљученог 24. децембра 2003. године (“Службени лист СЦГ”, бр. 7/2005), престаје да важи.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Овај закон ступа на снагу наредног дана од дана објављивања у “Службеном листу СЦГ”.</p>
+					</content>
+				</paragraph>
+			</article>
+		</body>
+	</act>
+</akomaNtoso>

@@ -1,0 +1,1020 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о потврђивању Споразума између Владе Републике Србије и Владе Републике Француске о социјалној сигурности">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2015/6-24/main"/>
+					<FRBRuri value="/rs/act/2015/6-24"/>
+					<FRBRdate date="2015-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2015/6-24/srp@/main"/>
+					<FRBRuri value="/rs/act/2015/6-24/srp@"/>
+					<FRBRdate date="2015-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2015/6-24/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2015/6-24/srp@.akn"/>
+					<FRBRdate date="2015-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2015-03-23" name="службени гласник рс - међународни уговори" number="6" showAs="Службени гласник РС - Међународни уговори"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="XVI СОЦИЈАЛНА ПОЛИТИКА И ЗАШТИТА ЗДРАВЉА" value="xvi социјална политика и заштита здравља" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="3. Социјална заштита и друштвена брига о деци" value="3. социјална заштита и друштвена брига о деци" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2015-03-20" wId="usvajanje"/>
+				<step by="#TODO" date="2015-03-31" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2015-03-31" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p/>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О потврђивању споразума између владе републике србије и владе републике француске о социјалној сигурности "Службени гласник РС - Међународни уговори", број 6 од 23. марта 2015.</p>
+			</longTitle>
+			<p>Томислав Николић, с.р.</p>
+		</preface>
+		<preamble>
+			<p>На основу члана 112. став 1. тачка 2. Устава Републике Србије, доносим</p>
+			<p>УКАЗ</p>
+			<p>о проглашењу Закона о потврђивању Споразума између Владе Републике Србије и Владе Републике Француске о социјалној сигурности</p>
+			<p>Проглашава се Закон о потврђивању Споразума између Владе Републике Србије и Владе Републике Француске о социјалној сигурности, који је донела Народна скупштина Републике Србије на Другој седници Првог редовног заседања у 2015. години, 20. марта 2015. године.</p>
+			<p>ПР број 46</p>
+			<p>У Београду, 23. марта 2015. године</p>
+			<p>Председник Републике,</p>
+		</preamble>
+		<body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Потврђује се Споразум између Владе Републике Србије и Владе Републике Француске о социјалној сигурности, који је потписан у Београду, 6. новембра 2014. године, у оригиналу на српском и француском језику.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Текст Споразума између Владе Републике Србије и Владе Републике Француске о социјалној сигурности у оригиналу на српском језику гласи:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>СПОРАЗУМ ИЗМЕЂУВЛАДЕ РЕПУБЛИКЕ СРБИЈЕ И ВЛАДЕ РЕПУБЛИКЕ ФРАНЦУСКЕ О СОЦИЈАЛНОЈ СИГУРНОСТИ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav3">
+					<content>
+						<p>Влада Републике Србије и Влада Републике Францускеу даљем тексту: „стране уговорнице”у жељи да уреде међусобне односе у области социјалне сигурности,договориле су следеће:</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<heading>Део IОПШТЕ ОДРЕДБЕ</heading>
+				<hcontainer name="subpoint" wId="clan1-podtac1">
+					<num>(1)</num>
+					<content>
+						<p> У овом споразуму следећи изрази значе:</p>
+					</content>
+				</hcontainer>
+				<point wId="clan1-tac1">
+					<num>1.</num>
+					<content>
+						<p> „Србија” – Република Србија;</p>
+					</content>
+				</point>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>„Француска” – Република Француска;</p>
+					</content>
+				</paragraph>
+			</article>
+			<section wId="od2">
+				<num>2.</num>
+				<heading> „територија”</heading>
+				<paragraph wId="od2-clan1-stav1">
+					<content>
+						<p>у односу на Србију – државна територија Србије;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od2-clan1-stav2">
+					<content>
+						<p>у односу на Француску – територија европских и прекоморских департмана Републике Француске укључујући територијално море и преко њега зоне у којима, према међународном праву Република Француска ужива суверена права и спроводи свој правни систем;</p>
+					</content>
+				</paragraph>
+			</section>
+			<section wId="od3">
+				<num>3.</num>
+				<heading> „правни прописи”</heading>
+				<paragraph wId="od3-clan1-stav1">
+					<content>
+						<p>закони, подзаконски и други општи акти, који се односе на области социјалне сигурности из члана 2. овог споразума;</p>
+					</content>
+				</paragraph>
+			</section>
+			<section wId="od4">
+				<num>4.</num>
+				<heading> „надлежни орган”</heading>
+				<paragraph wId="od4-clan1-stav1">
+					<content>
+						<p>у односу на Србију: министарства надлежна за спровођење правних прописа Србије из члана 2. овог споразума;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od4-clan1-stav2">
+					<content>
+						<p>у односу на Француску: министарства надлежна за спровођење правних прописа Француске из члана 2. овог споразума;</p>
+					</content>
+				</paragraph>
+			</section>
+			<section wId="od5">
+				<num>5.</num>
+				<heading> „надлежни носилац”</heading>
+				<paragraph wId="od5-clan1-stav1">
+					<content>
+						<p>носилац који примењује правне прописе на основу којих се стичу права на давања у натури или новчана давања;</p>
+					</content>
+				</paragraph>
+			</section>
+			<section wId="od6">
+				<num>6.</num>
+				<heading> „носилац”</heading>
+				<paragraph wId="od6-clan1-stav1">
+					<content>
+						<p>институција или орган надлежан за спровођење правних прописа из члана 2. овог споразума;</p>
+					</content>
+				</paragraph>
+			</section>
+			<section wId="od7">
+				<num>7.</num>
+				<heading> „органи за везу”</heading>
+				<paragraph wId="od7-clan1-stav1">
+					<content>
+						<p>орган или органи надлежни за ефикасно спровођење овог споразума;</p>
+					</content>
+				</paragraph>
+			</section>
+			<section wId="od8">
+				<num>8.</num>
+				<heading> „осигураник”</heading>
+				<paragraph wId="od8-clan1-stav1">
+					<content>
+						<p>лице које је осигурано или је било осигурано према правним прописима из члана 2. овог споразума;</p>
+					</content>
+				</paragraph>
+			</section>
+			<section wId="od9">
+				<num>9.</num>
+				<heading> „лице које обавља делатност”</heading>
+				<paragraph wId="od9-clan1-stav1">
+					<content>
+						<p>у Србији: запослена лица, лица која обављају самосталну или пољопривредну делатност;</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od9-clan1-stav2">
+					<content>
+						<p>у Француској: запослена лица укључујући и службенике и лица која обављају самосталну делатност;</p>
+					</content>
+				</paragraph>
+			</section>
+			<section wId="od10">
+				<num>10.</num>
+				<heading> „лице које изводи право”</heading>
+				<paragraph wId="od10-clan1-stav1">
+					<content>
+						<p>свако лице које је одређено, или се сматра лицем које изводи право или чланом породице осигураника у складу са правним прописима који се примењују уколико овим споразумом није другачије предвиђено;</p>
+					</content>
+				</paragraph>
+			</section>
+			<section wId="od11">
+				<num>11.</num>
+				<heading> „пребивалиште”</heading>
+				<paragraph wId="od11-clan1-stav1">
+					<content>
+						<p>место сталног боравка;</p>
+					</content>
+				</paragraph>
+			</section>
+			<section wId="od12">
+				<num>12.</num>
+				<heading> „боравиште“</heading>
+				<paragraph wId="od12-clan1-stav1">
+					<content>
+						<p>место привременог боравка;</p>
+					</content>
+				</paragraph>
+			</section>
+			<section wId="od13">
+				<num>13.</num>
+				<heading> „период осигурања”</heading>
+				<paragraph wId="od13-clan1-stav1">
+					<content>
+						<p>период за који је плаћен допринос, период признат као такав и са њим изједначени периоди;</p>
+					</content>
+				</paragraph>
+			</section>
+			<section wId="od14">
+				<num>14.</num>
+				<heading> „давање”</heading>
+				<paragraph wId="od14-clan1-stav1">
+					<content>
+						<p>давање у натури и новчано давање;</p>
+					</content>
+				</paragraph>
+			</section>
+			<section wId="od15">
+				<num>15.</num>
+				<heading> „давање у натури”</heading>
+				<paragraph wId="od15-clan1-stav1">
+					<content>
+						<p>здравствена заштита и друга давања, осим новчаних;</p>
+					</content>
+				</paragraph>
+			</section>
+			<section wId="od16">
+				<num>16.</num>
+				<heading> „новчано давање”</heading>
+				<paragraph wId="od16-clan1-stav1">
+					<intro>
+						<p>пензија, новчана накнада и друга новчана давања.</p>
+					</intro>
+					<hcontainer name="subpoint" wId="od16-clan1-stav1-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> У овом споразуму остали изрази имају значење које им припада према правним прописима који се примењују.</p>
+						</content>
+					</hcontainer>
+				</paragraph>
+				<article wId="od16-clan2">
+					<num>2.</num>
+					<hcontainer name="subpoint" wId="od16-clan2-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Овај споразум се односи на правне прописе:</p>
+						</content>
+					</hcontainer>
+					<paragraph wId="od16-clan2-stav1">
+						<intro>
+							<p>у Србији о:</p>
+						</intro>
+						<point wId="od16-clan2-stav1-tac1">
+							<num>1.</num>
+							<content>
+								<p> здравственом осигурању, здравственој заштити и материнству,</p>
+							</content>
+						</point>
+						<point wId="od16-clan2-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> пензијском и инвалидском осигурању,</p>
+							</content>
+						</point>
+						<point wId="od16-clan2-stav1-tac3">
+							<num>3.</num>
+							<content>
+								<p> осигурању за случај повреде на раду и професионалне болести и</p>
+							</content>
+						</point>
+						<point wId="od16-clan2-stav1-tac4">
+							<num>4.</num>
+							<content>
+								<p> додатку за децу;</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="od16-clan2-stav2">
+						<intro>
+							<p>у Француској:</p>
+						</intro>
+						<point wId="od16-clan2-stav2-tac1">
+							<num>1.</num>
+							<intro>
+								<p> за лица из члана 3. тачка <ref wId="ref0" href="akn/rs/act/2015/6-24/srp@/!main~art_3__para_2__point_1" >1</ref>) овог споразума,</p>
+							</intro>
+							<alinea wId="od16-clan2-stav2-tac1-ali1">
+								<content>
+									<p>равне прописе којима је одређена организација социјалне сигурности;</p>
+								</content>
+							</alinea>
+							<alinea wId="od16-clan2-stav2-tac1-ali2">
+								<content>
+									<p>равне прописе o социјалној сигурности који се примењују на:</p>
+								</content>
+							</alinea>
+							<alinea wId="od16-clan2-stav2-tac1-ali3">
+								<content>
+									<p>апослене ван пољопривредних занимања,</p>
+								</content>
+							</alinea>
+							<alinea wId="od16-clan2-stav2-tac1-ali4">
+								<content>
+									<p>апослене у пољопривредним занимањима;</p>
+								</content>
+							</alinea>
+							<alinea wId="od16-clan2-stav2-tac1-ali5">
+								<content>
+									<p>равне прописе којима је регулисана област социјалне сигурности који се примењују на:</p>
+								</content>
+							</alinea>
+							<alinea wId="od16-clan2-stav2-tac1-ali6">
+								<content>
+									<p>апослене у самосталној делатности ван пољопривредних занимања, изузев оних правних прописа који се односе на инвалидско-смртно осигурање слободних професија и допунске системе старосног осигурања,</p>
+								</content>
+							</alinea>
+							<alinea wId="od16-clan2-stav2-tac1-ali7">
+								<content>
+									<p>апослене у самосталној делатности у пољопривредним занимањима, изузев оних одредаба којима се лицима запосленим или са пребивалиштем ван територије Републике Француске пружа могућност добровољног учлањивања у осигурање које им одговара;</p>
+								</content>
+							</alinea>
+							<alinea wId="od16-clan2-stav2-tac1-ali8">
+								<content>
+									<p>равне прописе о добровољном продужењу старосног и инвалидског осигурања;</p>
+								</content>
+							</alinea>
+							<alinea wId="od16-clan2-stav2-tac1-ali9">
+								<content>
+									<p>равне прописе о спречавању и накнади у случају повреде на раду и професионалних болести и на правне прописе о добровољном осигурању за случај повреде на раду и професионалних болести;</p>
+								</content>
+							</alinea>
+							<alinea wId="od16-clan2-stav2-tac1-ali10">
+								<content>
+									<p>равне прописе о дечијем додатку;</p>
+								</content>
+							</alinea>
+							<alinea wId="od16-clan2-stav2-tac1-ali11">
+								<content>
+									<p>равне прописе о разноврсним осигурањима запослених и са њима изједначених лица у самосталној делатности;</p>
+								</content>
+							</alinea>
+							<alinea wId="od16-clan2-stav2-tac1-ali12">
+								<content>
+									<p>равне прописе о посебним системима социјалне сигурности;</p>
+								</content>
+							</alinea>
+						</point>
+						<point wId="od16-clan2-stav2-tac2">
+							<num>2.</num>
+							<intro>
+								<p> за лица из члана 3. тачка <ref wId="ref1" href="akn/rs/act/2015/6-24/srp@/!main~art_3__para_2__point_2" >2</ref>) овог споразума,</p>
+							</intro>
+							<alinea wId="od16-clan2-stav2-tac2-ali1">
+								<content>
+									<p>равне прописе о давањима у натури из здравственог осигурања и материнства;</p>
+								</content>
+							</alinea>
+							<alinea wId="od16-clan2-stav2-tac2-ali2">
+								<content>
+									<p>равне прописе о дечијем додатку;</p>
+								</content>
+							</alinea>
+						</point>
+						<point wId="od16-clan2-stav2-tac3">
+							<num>3.</num>
+							<intro>
+								<p> за лица из члана <ref wId="ref2" href="akn/rs/act/2015/6-24/srp@/!main~art_3__para_2__point_3" >3</ref>. тачка 3) овог споразума,</p>
+							</intro>
+							<alinea wId="od16-clan2-stav2-tac3-ali1">
+								<content>
+									<p>равне прописе о давањима у натури из здравственог осигурања и материнства;</p>
+								</content>
+							</alinea>
+							<alinea wId="od16-clan2-stav2-tac3-ali2">
+								<content>
+									<p>равне прописе о добровољном продужењу старосног-инвалидског осигурања.</p>
+								</content>
+							</alinea>
+							<hcontainer name="subpoint" wId="od16-clan2-stav2-tac3-podtac2">
+								<num>(2)</num>
+								<content>
+									<p> Овај споразум се односи и на све правне прописе којима се мењају, допуњују, обједињавају или замењују правни прописи из <ref wId="ref3" href="akn/rs/act/2015/6-24/srp@/!main~art_2__para_1" >става 1. овог</ref> члана.</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="od16-clan2-stav2-tac3-podtac3">
+								<num>(3)</num>
+								<content>
+									<p> Овај споразум се односи и на проширења правних прописа једне стране уговорнице на нове категорије корисника или нова давања изузев, ако та страна уговорница не обавести другу страну уговорницу, у року од шест месеци од дана ступања на снагу тих правних прописа, да се овај споразум не односи на нове категорије корисника или нова давања.</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="od16-clan2-stav2-tac3-podtac4">
+								<num>(4)</num>
+								<content>
+									<p> Овај споразум се не примењује на правне прописе којима се уводи нова област социјалне сигурности, осим ако надлежни органи држава уговорница постигну сагласност о њиховој примени.</p>
+								</content>
+							</hcontainer>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="od16-clan3">
+					<num>3.</num>
+					<paragraph wId="od16-clan3-stav1">
+						<content>
+							<p>Овај споразум се примењује на:</p>
+						</content>
+					</paragraph>
+					<paragraph wId="od16-clan3-stav2">
+						<intro>
+							<p>У Србији:</p>
+						</intro>
+						<point wId="od16-clan3-stav2-tac1">
+							<num>1.</num>
+							<content>
+								<p> давања у натури која за рачун надлежног носиоца пружа носилац места пребивалишта према правним прописима које примењује, као да је лице код њега осигурано.</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac2">
+							<num>2.</num>
+							<content>
+								<p> новчана давања која пружа надлежни носилац према правним прописима које примењује.</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac1">
+							<num>1.</num>
+							<content>
+								<p> обрачунава теоријски износ давања, који би припадао да је укупан период осигурања, који се узима у обзир за обрачун давања, навршен према правним прописима које он примењује. Износ давања који не зависи од дужине периода осигурања узима се као теоријски износ;</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac2">
+							<num>2.</num>
+							<content>
+								<p> на основу тако обрачунатог износа, утврђује износ давања сразмеран односу између периода осигурања навршеног пре наступања осигураног случаја искључиво према правним прописима које он примењује и укупног периода осигурања навршеног пре наступања осигураног случаја, узимајући у обзир одредбе <ref wId="ref4" href="akn/rs/act/2015/6-24/srp@/!main~art_18" >члана 18. овог</ref> споразума;</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac3">
+							<num>3.</num>
+							<content>
+								<p> Овај укупан период осигурања је ограничен на максимално трајање које је предвиђено правним прописима који се примењују, за стицање права на давање у пуном износу.</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac1">
+							<num>1.</num>
+							<content>
+								<p> ако то лице није обављало у држави свог новог пребивалишта посао који може да погорша професионалну болест за коју се прима накнада, надлежни носилац прве државе преузима на себе терет погоршања болести према правним прописима које он примењује;</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac2">
+							<num>2.</num>
+							<content>
+								<p> ако је то лице обављало у држави свог новог пребивалишта посао који може да погорша ту професионалну болест за коју се прима накнада:</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac1">
+							<num>1.</num>
+							<content>
+								<p> „Србија” – Република Србија;</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac2">
+							<num>2.</num>
+							<content>
+								<p> „територија”</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac3">
+							<num>3.</num>
+							<content>
+								<p> „правни прописи”</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac4">
+							<num>4.</num>
+							<content>
+								<p> „надлежни орган”</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac5">
+							<num>5.</num>
+							<content>
+								<p> „надлежни носилац”</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac6">
+							<num>6.</num>
+							<content>
+								<p> „носилац”</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac7">
+							<num>7.</num>
+							<content>
+								<p> „органи за везу”</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac8">
+							<num>8.</num>
+							<content>
+								<p> „осигураник”</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac9">
+							<num>9.</num>
+							<content>
+								<p> „лице које обавља делатност”</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac10">
+							<num>10.</num>
+							<content>
+								<p> „лице које изводи право”</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac11">
+							<num>11.</num>
+							<content>
+								<p> „пребивалиште”</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac12">
+							<num>12.</num>
+							<content>
+								<p> „боравиште“</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac13">
+							<num>13.</num>
+							<content>
+								<p> „период осигурања”</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac14">
+							<num>14.</num>
+							<content>
+								<p> „давање”</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac15">
+							<num>15.</num>
+							<content>
+								<p> „давање у натури”</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac16">
+							<num>16.</num>
+							<content>
+								<p> „новчано давање”</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac1">
+							<num>1.</num>
+							<content>
+								<p> здравственом осигурању, здравственој заштити и материнству,</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac2">
+							<num>2.</num>
+							<content>
+								<p> пензијском и инвалидском осигурању,</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac3">
+							<num>3.</num>
+							<content>
+								<p> осигурању за случај повреде на раду и професионалне болести и</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac4">
+							<num>4.</num>
+							<content>
+								<p> додатку за децу;</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac1">
+							<num>1.</num>
+							<content>
+								<p> за лица из члана 3. тачка <ref wId="ref5" href="akn/rs/act/2015/6-24/srp@/!main~art_3__para_2__point_1" >1</ref>) овог споразума,</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac2">
+							<num>2.</num>
+							<content>
+								<p> за лица из члана 3. тачка <ref wId="ref6" href="akn/rs/act/2015/6-24/srp@/!main~art_3__para_2__point_2" >2</ref>) овог споразума,</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac3">
+							<num>3.</num>
+							<content>
+								<p> за лица из члана <ref wId="ref7" href="akn/rs/act/2015/6-24/srp@/!main~art_3__para_2__point_3" >3</ref>. тачка 3) овог споразума,</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac1">
+							<num>1.</num>
+							<content>
+								<p> давања у натури која за рачун надлежног носиоца пружа носилац места пребивалишта према правним прописима које примењује, као да је лице код њега осигурано.</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac2">
+							<num>2.</num>
+							<content>
+								<p> новчана давања која пружа надлежни носилац према правним прописима које примењује.</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac1">
+							<num>1.</num>
+							<content>
+								<p> обрачунава теоријски износ давања, који би припадао да је укупан период осигурања, који се узима у обзир за обрачун давања, навршен према правним прописима које он примењује. Износ давања који не зависи од дужине периода осигурања узима се као теоријски износ;</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac2">
+							<num>2.</num>
+							<content>
+								<p> на основу тако обрачунатог износа, утврђује износ давања сразмеран односу између периода осигурања навршеног пре наступања осигураног случаја искључиво према правним прописима које он примењује и укупног периода осигурања навршеног пре наступања осигураног случаја, узимајући у обзир одредбе <ref wId="ref8" href="akn/rs/act/2015/6-24/srp@/!main~art_18" >члана 18. овог</ref> споразума;</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac3">
+							<num>3.</num>
+							<content>
+								<p> Овај укупан период осигурања је ограничен на максимално трајање које је предвиђено правним прописима који се примењују, за стицање права на давање у пуном износу.</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac1">
+							<num>1.</num>
+							<content>
+								<p> ако то лице није обављало у држави свог новог пребивалишта посао који може да погорша професионалну болест за коју се прима накнада, надлежни носилац прве државе преузима на себе терет погоршања болести према правним прописима које он примењује;</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac2">
+							<num>2.</num>
+							<content>
+								<p> ако је то лице обављало у држави свог новог пребивалишта посао који може да погорша ту професионалну болест за коју се прима накнада:</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac1">
+							<num>1.</num>
+							<content>
+								<p> „Србија” – Република Србија;</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac2">
+							<num>2.</num>
+							<content>
+								<p> „територија”</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac3">
+							<num>3.</num>
+							<content>
+								<p> „правни прописи”</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac4">
+							<num>4.</num>
+							<content>
+								<p> „надлежни орган”</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac5">
+							<num>5.</num>
+							<content>
+								<p> „надлежни носилац”</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac6">
+							<num>6.</num>
+							<content>
+								<p> „носилац”</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac7">
+							<num>7.</num>
+							<content>
+								<p> „органи за везу”</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac8">
+							<num>8.</num>
+							<content>
+								<p> „осигураник”</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac9">
+							<num>9.</num>
+							<content>
+								<p> „лице које обавља делатност”</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac10">
+							<num>10.</num>
+							<content>
+								<p> „лице које изводи право”</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac11">
+							<num>11.</num>
+							<content>
+								<p> „пребивалиште”</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac12">
+							<num>12.</num>
+							<content>
+								<p> „боравиште“</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac13">
+							<num>13.</num>
+							<content>
+								<p> „период осигурања”</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac14">
+							<num>14.</num>
+							<content>
+								<p> „давање”</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac15">
+							<num>15.</num>
+							<content>
+								<p> „давање у натури”</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac16">
+							<num>16.</num>
+							<content>
+								<p> „новчано давање”</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac1">
+							<num>1.</num>
+							<content>
+								<p> здравственом осигурању, здравственој заштити и материнству,</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac2">
+							<num>2.</num>
+							<content>
+								<p> пензијском и инвалидском осигурању,</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac3">
+							<num>3.</num>
+							<content>
+								<p> осигурању за случај повреде на раду и професионалне болести и</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac4">
+							<num>4.</num>
+							<content>
+								<p> додатку за децу;</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac1">
+							<num>1.</num>
+							<content>
+								<p> за лица из члана 3. тачка <ref wId="ref9" href="akn/rs/act/2015/6-24/srp@/!main~art_3__para_2__point_1" >1</ref>) овог споразума,</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac2">
+							<num>2.</num>
+							<content>
+								<p> за лица из члана 3. тачка <ref wId="ref10" href="akn/rs/act/2015/6-24/srp@/!main~art_3__para_2__point_2" >2</ref>) овог споразума,</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac3">
+							<num>3.</num>
+							<content>
+								<p> за лица из члана <ref wId="ref11" href="akn/rs/act/2015/6-24/srp@/!main~art_3__para_2__point_3" >3</ref>. тачка 3) овог споразума,</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac1">
+							<num>1.</num>
+							<content>
+								<p> давања у натури која за рачун надлежног носиоца пружа носилац места пребивалишта према правним прописима које примењује, као да је лице код њега осигурано.</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac2">
+							<num>2.</num>
+							<content>
+								<p> новчана давања која пружа надлежни носилац према правним прописима које примењује.</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac1">
+							<num>1.</num>
+							<content>
+								<p> обрачунава теоријски износ давања, који би припадао да је укупан период осигурања, који се узима у обзир за обрачун давања, навршен према правним прописима које он примењује. Износ давања који не зависи од дужине периода осигурања узима се као теоријски износ;</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac2">
+							<num>2.</num>
+							<content>
+								<p> на основу тако обрачунатог износа, утврђује износ давања сразмеран односу између периода осигурања навршеног пре наступања осигураног случаја искључиво према правним прописима које он примењује и укупног периода осигурања навршеног пре наступања осигураног случаја, узимајући у обзир одредбе <ref wId="ref12" href="akn/rs/act/2015/6-24/srp@/!main~art_18" >члана 18. овог</ref> споразума;</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac3">
+							<num>3.</num>
+							<content>
+								<p> Овај укупан период осигурања је ограничен на максимално трајање које је предвиђено правним прописима који се примењују, за стицање права на давање у пуном износу.</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac1">
+							<num>1.</num>
+							<content>
+								<p> ако то лице није обављало у држави свог новог пребивалишта посао који може да погорша професионалну болест за коју се прима накнада, надлежни носилац прве државе преузима на себе терет погоршања болести према правним прописима које он примењује;</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac2">
+							<num>2.</num>
+							<content>
+								<p> ако је то лице обављало у држави свог новог пребивалишта посао који може да погорша ту професионалну болест за коју се прима накнада:</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac1">
+							<num>1.</num>
+							<content>
+								<p> „Србија” – Република Србија;</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac2">
+							<num>2.</num>
+							<content>
+								<p> „територија”</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac3">
+							<num>3.</num>
+							<content>
+								<p> „правни прописи”</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac4">
+							<num>4.</num>
+							<content>
+								<p> „надлежни орган”</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac5">
+							<num>5.</num>
+							<content>
+								<p> „надлежни носилац”</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac6">
+							<num>6.</num>
+							<content>
+								<p> „носилац”</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac7">
+							<num>7.</num>
+							<content>
+								<p> „органи за везу”</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac8">
+							<num>8.</num>
+							<content>
+								<p> „осигураник”</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac9">
+							<num>9.</num>
+							<content>
+								<p> „лице које обавља делатност”</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac10">
+							<num>10.</num>
+							<content>
+								<p> „лице које изводи право”</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac11">
+							<num>11.</num>
+							<content>
+								<p> „пребивалиште”</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac12">
+							<num>12.</num>
+							<content>
+								<p> „боравиште“</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac13">
+							<num>13.</num>
+							<content>
+								<p> „период осигурања”</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac14">
+							<num>14.</num>
+							<content>
+								<p> „давање”</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac15">
+							<num>15.</num>
+							<content>
+								<p> „давање у натури”</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac16">
+							<num>16.</num>
+							<content>
+								<p> „новчано давање”</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac1">
+							<num>1.</num>
+							<content>
+								<p> здравственом осигурању, здравственој заштити и материнству,</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac2">
+							<num>2.</num>
+							<content>
+								<p> пензијском и инвалидском осигурању,</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac3">
+							<num>3.</num>
+							<content>
+								<p> осигурању за случај повреде на раду и професионалне болести и</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac4">
+							<num>4.</num>
+							<content>
+								<p> додатку за децу;</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac1">
+							<num>1.</num>
+							<content>
+								<p> за лица из члана 3. тачка <ref wId="ref13" href="akn/rs/act/2015/6-24/srp@/!main~art_3__para_2__point_1" >1</ref>) овог споразума,</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac2">
+							<num>2.</num>
+							<content>
+								<p> за лица из члана 3. тачка <ref wId="ref14" href="akn/rs/act/2015/6-24/srp@/!main~art_3__para_2__point_2" >2</ref>) овог споразума,</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac3">
+							<num>3.</num>
+							<content>
+								<p> за лица из члана <ref wId="ref15" href="akn/rs/act/2015/6-24/srp@/!main~art_3__para_2__point_3" >3</ref>. тачка 3) овог споразума,</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac1">
+							<num>1.</num>
+							<content>
+								<p> давања у натури која за рачун надлежног носиоца пружа носилац места пребивалишта према правним прописима које примењује, као да је лице код њега осигурано.</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac2">
+							<num>2.</num>
+							<content>
+								<p> новчана давања која пружа надлежни носилац према правним прописима које примењује.</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac1">
+							<num>1.</num>
+							<content>
+								<p> обрачунава теоријски износ давања, који би припадао да је укупан период осигурања, који се узима у обзир за обрачун давања, навршен према правним прописима које он примењује. Износ давања који не зависи од дужине периода осигурања узима се као теоријски износ;</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac2">
+							<num>2.</num>
+							<content>
+								<p> на основу тако обрачунатог износа, утврђује износ давања сразмеран односу између периода осигурања навршеног пре наступања осигураног случаја искључиво према правним прописима које он примењује и укупног периода осигурања навршеног пре наступања осигураног случаја, узимајући у обзир одредбе <ref wId="ref16" href="akn/rs/act/2015/6-24/srp@/!main~art_18" >члана 18. овог</ref> споразума;</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac3">
+							<num>3.</num>
+							<content>
+								<p> Овај укупан период осигурања је ограничен на максимално трајање које је предвиђено правним прописима који се примењују, за стицање права на давање у пуном износу.</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac1">
+							<num>1.</num>
+							<content>
+								<p> ако то лице није обављало у држави свог новог пребивалишта посао који може да погорша професионалну болест за коју се прима накнада, надлежни носилац прве државе преузима на себе терет погоршања болести према правним прописима које он примењује;</p>
+							</content>
+						</point>
+						<point wId="od16-clan3-stav2-tac2">
+							<num>2.</num>
+							<content>
+								<p> ако је то лице обављало у држави свог новог пребивалишта посао који може да погорша ту професионалну болест за коју се прима накнада:</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+			</section>
+		</body>
+	</act>
+</akomaNtoso>

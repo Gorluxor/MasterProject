@@ -1,0 +1,258 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о привременом изузимању од опорезивања порезом на доходак грађана одређених врста прихода">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2009/5-43/main"/>
+					<FRBRuri value="/rs/act/2009/5-43"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2009/5-43/srp@/main"/>
+					<FRBRuri value="/rs/act/2009/5-43/srp@"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2009/5-43/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2009/5-43/srp@.akn"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2009-01-22" name="“службени гласник рс" number="5" showAs="“Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="IV ЈАВНИ ПРИХОДИ" value="iv јавни приходи" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="2. Порези и акцизе" value="2. порези и акцизе" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2009-01-21" wId="usvajanje"/>
+				<step by="#TODO" date="2009-01-30" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2009-01-30" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 30. јануара 2009. године (види члан 5. Закона).Закон формалноправно није стављен ван снаге, а уређивао је привремено изузимање од опорезивања до 31.12.2009. године.</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О привременом изузимању од опорезивања порезом на доходак грађана одређених врста прихода “Службени гласник РС”, број 5 од 22. јануара 2009.</p>
+			</longTitle>
+		</preface>
+		<body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Овим законом уређује се привремено изузимање од опорезивања порезом на доходак грађана прихода од капитала по основу камате на девизне штедне и друге депозите грађана, капиталних добитака по основу прихода од преноса уз накнаду хартија од вредности и удела у имовини правних лица и прихода од пољопривреде и шумарства на катастарски приход, чије је опорезивање као врсте прихода физичких лица прописано Законом о порезу на доходак грађана („<ref wId="ref0" href="akn/rs/act/01/24/srp@">Службени гласник РС”, бр. 24/01, 80/02, 80/02</ref> – др. закон, 135/04, 62/06 и 65/06 – исправка).</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Не утврђује се и не плаћа порез на приходе од капитала по основу камате на девизне штедне и друге депозите грађана, која је остварена од дана ступања на снагу овог закона до 31. децембра 2009. године.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Не утврђује се и не плаћа порез на капиталне добитке на приход који је остварен по основу преноса уз накнаду хартија од вредности и удела у имовини правних лица, од дана ступања на снагу овог закона до 31. децембра 2009. године, за преносе који су извршени у том периоду.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan4">
+				<num>4.</num>
+				<paragraph wId="clan4-stav1">
+					<content>
+						<p>Не утврђује се и не плаћа порез на приходе од пољопривреде и шумарства на катастарски приход за 2008. и 2009. годину.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan5">
+				<num>5.</num>
+				<paragraph wId="clan5-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan5-stav2">
+					<content>
+						<p>ЗАКОН</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan5-stav3">
+					<content>
+						<p>о привременом изузимању од опорезивања порезом на доходак грађана одређених врста прихода</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan5-stav4">
+					<content>
+						<p>“Службени гласник РС”, број 5 од 22. јануара 2009.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Овим законом уређује се привремено изузимање од опорезивања порезом на доходак грађана прихода од капитала по основу камате на девизне штедне и друге депозите грађана, капиталних добитака по основу прихода од преноса уз накнаду хартија од вредности и удела у имовини правних лица и прихода од пољопривреде и шумарства на катастарски приход, чије је опорезивање као врсте прихода физичких лица прописано Законом о порезу на доходак грађана („Службени гласник РС”, бр. 24/01, 80/02, 80/02 – др. закон, 135/04, 62/06 и 65/06 – исправка).</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Не утврђује се и не плаћа порез на приходе од капитала по основу камате на девизне штедне и друге депозите грађана, која је остварена од дана ступања на снагу овог закона до 31. децембра 2009. године.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Не утврђује се и не плаћа порез на капиталне добитке на приход који је остварен по основу преноса уз накнаду хартија од вредности и удела у имовини правних лица, од дана ступања на снагу овог закона до 31. децембра 2009. године, за преносе који су извршени у том периоду.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan4">
+				<num>4.</num>
+				<paragraph wId="clan4-stav1">
+					<content>
+						<p>Не утврђује се и не плаћа порез на приходе од пољопривреде и шумарства на катастарски приход за 2008. и 2009. годину.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan5">
+				<num>5.</num>
+				<paragraph wId="clan5-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan5-stav2">
+					<content>
+						<p>ЗАКОН</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan5-stav3">
+					<content>
+						<p>о привременом изузимању од опорезивања порезом на доходак грађана одређених врста прихода</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan5-stav4">
+					<content>
+						<p>“Службени гласник РС”, број 5 од 22. јануара 2009.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Овим законом уређује се привремено изузимање од опорезивања порезом на доходак грађана прихода од капитала по основу камате на девизне штедне и друге депозите грађана, капиталних добитака по основу прихода од преноса уз накнаду хартија од вредности и удела у имовини правних лица и прихода од пољопривреде и шумарства на катастарски приход, чије је опорезивање као врсте прихода физичких лица прописано Законом о порезу на доходак грађана („Службени гласник РС”, бр. 24/01, 80/02, 80/02 – др. закон, 135/04, 62/06 и 65/06 – исправка).</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Не утврђује се и не плаћа порез на приходе од капитала по основу камате на девизне штедне и друге депозите грађана, која је остварена од дана ступања на снагу овог закона до 31. децембра 2009. године.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Не утврђује се и не плаћа порез на капиталне добитке на приход који је остварен по основу преноса уз накнаду хартија од вредности и удела у имовини правних лица, од дана ступања на снагу овог закона до 31. децембра 2009. године, за преносе који су извршени у том периоду.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan4">
+				<num>4.</num>
+				<paragraph wId="clan4-stav1">
+					<content>
+						<p>Не утврђује се и не плаћа порез на приходе од пољопривреде и шумарства на катастарски приход за 2008. и 2009. годину.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan5">
+				<num>5.</num>
+				<paragraph wId="clan5-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan5-stav2">
+					<content>
+						<p>ЗАКОН</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan5-stav3">
+					<content>
+						<p>о привременом изузимању од опорезивања порезом на доходак грађана одређених врста прихода</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan5-stav4">
+					<content>
+						<p>“Службени гласник РС”, број 5 од 22. јануара 2009.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Овим законом уређује се привремено изузимање од опорезивања порезом на доходак грађана прихода од капитала по основу камате на девизне штедне и друге депозите грађана, капиталних добитака по основу прихода од преноса уз накнаду хартија од вредности и удела у имовини правних лица и прихода од пољопривреде и шумарства на катастарски приход, чије је опорезивање као врсте прихода физичких лица прописано Законом о порезу на доходак грађана („Службени гласник РС”, бр. 24/01, 80/02, 80/02 – др. закон, 135/04, 62/06 и 65/06 – исправка).</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Не утврђује се и не плаћа порез на приходе од капитала по основу камате на девизне штедне и друге депозите грађана, која је остварена од дана ступања на снагу овог закона до 31. децембра 2009. године.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Не утврђује се и не плаћа порез на капиталне добитке на приход који је остварен по основу преноса уз накнаду хартија од вредности и удела у имовини правних лица, од дана ступања на снагу овог закона до 31. децембра 2009. године, за преносе који су извршени у том периоду.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan4">
+				<num>4.</num>
+				<paragraph wId="clan4-stav1">
+					<content>
+						<p>Не утврђује се и не плаћа порез на приходе од пољопривреде и шумарства на катастарски приход за 2008. и 2009. годину.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan5">
+				<num>5.</num>
+				<paragraph wId="clan5-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+					</content>
+				</paragraph>
+			</article>
+		</body>
+	</act>
+</akomaNtoso>
