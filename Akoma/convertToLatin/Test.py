@@ -11,7 +11,8 @@ except ModuleNotFoundError:
 
 import xmlschema
 
-schema = xmlschema.XMLSchema11('../schema/akn3.0_schema1.1_Republic_Serbia.xsd')
+# schema = xmlschema.XMLSchema11('../schema/akn3.0_schema1.1_Republic_Serbia.xsd')
+schema = xmlschema.XMLSchema11('../schema/akoma30.xsd')
 
 fajls = utilities.sort_file_names(os.listdir("../data/akoma_result"))
 f = open("../data/za_andriju.txt", mode="a+", encoding="UTF-8")

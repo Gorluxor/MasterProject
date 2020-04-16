@@ -130,6 +130,8 @@ class AkomaBuilder():
         return el
 
     def current_parent(self, identification, no_content=False):
+        if "gla1-clan44.г-tac1" == identification:
+            print("JEJ")
         for i in range(len(self.stack) - 1, -1, -1):
             node = self.stack[i]
             # print(i, self.stack)
@@ -140,15 +142,16 @@ class AkomaBuilder():
             check = re.search("[0-9]+(?=\.)",identification)
 
             if id in identification:
+                if no_content:
+                    self.change(node)
+                    return node
                 if check is not None: #TODO QUICKFIX FOR .a
+
                     if 'stav' in identification:
                         return node
                     else:
                         return self.stack[i-1]
 
-                if no_content:
-                    self.change(node)
-                    return node
                 content = node.find("content")
                 # print('TEXT', list(node))
                 if content is not None:

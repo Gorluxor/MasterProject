@@ -11,6 +11,8 @@ def clean_nl(text: str):
     while re.search("(\n\n\n|  )", text) is not None:
         text = text.replace("\n\n\n", "\n\n")
         text = text.replace("  ", " ")
+    text = text.replace("</thead>", "")
+    text = text.replace("<thead>", "")
     return text
 
 

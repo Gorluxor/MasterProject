@@ -2,7 +2,7 @@ import io
 import os
 import xml.etree.ElementTree as ET
 from bs4 import BeautifulSoup
-
+import sys
 try:
     import Akoma
     from Akoma.convertToLatin import regex_patterns
@@ -34,6 +34,7 @@ except ModuleNotFoundError as sureError:
             print("Error")
             exit(-1)
 
+sys.setrecursionlimit(10000000)
 
 def repair_mode(act: str):
     import re
@@ -151,7 +152,7 @@ def convert_html(source, destination):
 
 
 if __name__ == "__main__":
-    nastavi = "151.html"  # ""651.html"
+    nastavi = "329.html"  # ""651.html"
     idemo = False
     stani = [
         "1005.html", "980.html", "986.html", "981.html", "210.html", "1033.html", "1204.html"  # problematicni PROVERITI 176
