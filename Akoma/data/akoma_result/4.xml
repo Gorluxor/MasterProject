@@ -1,0 +1,757 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о држављанству Републике Србије">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/rs/act/2004/135-10/main"/>
+					<FRBRuri value="/rs/act/2004/135-10"/>
+					<FRBRdate date="2004-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/rs/act/2018/24-70/srp@/main"/>
+					<FRBRuri value="/rs/act/2018/24-70/srp@"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/rs/act/2018/24-70/srp@/main.xml"/>
+					<FRBRuri value="/rs/act/2018/24-70/srp@.akn"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2004-12-21" name="службени гласник рс“" number="135" showAs="Службени гласник РС“"/>
+			<classification source="#somebody">
+				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="TODO" showAs="I ДРЖАВНО УРЕЂЕЊЕ" value="i државно уређење" wId="oblast"/>
+				<keyword dictionary="TODO" showAs="3. Држављанство" value="3. држављанство" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2004-01-01" refersTo="135/2004-10" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2007-01-01" refersTo="90/2007-3" source="#somebody" type="amendment" wId="e2"/>
+				<eventRef date="2018-01-01" refersTo="24/2018-70" source="#somebody" type="amendment" wId="e3"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="#TODO" date="2004-12-14" wId="usvajanje"/>
+				<step by="#TODO" date="2004-12-29" wId="stupanje_na_snagu"/>
+				<step by="#TODO" date="2005-02-28" wId="primena"/>
+			</workflow>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 29. децембра 2004. године, а примењује се по истеку 60 дана од дана његовог ступања на снагу, односно од 28. фебруара 2005. године (види члан 56. Закона).Закон о допунама Закона о држављанству („Службени гласник РС“, број 24/2018) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 3. априла 2018. године (види члан 6. Закона – 24/2018-70).</p>
+				</note>
+				<note wId="not2">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 29. децембра 2004. године, а примењује се по истеку 60 дана од дана његовог ступања на снагу, односно од 28. фебруара 2005. године (види члан 56. Закона).Закон о допунама Закона о држављанству („Службени гласник РС“, број 24/2018) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 3. априла 2018. године (види члан 6. Закона – 24/2018-70).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О држављанству републике србије „Службени гласник РС“, бр. 135 од 21. децембра 2004, 90 од 1. октобра 2007, 24 од 26. марта 2018.</p>
+			</longTitle>
+			<p>Редакцијски пречишћен текст</p>
+		</preface>
+		<preamble>
+			<p>﻿</p>
+		</preamble>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Грађани Републике Србије имају држављанство Републике Србије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Држављанство Републике Србије стиче се и престаје на начин утврђен овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<heading>Брисан је (види члан 1. Закона – 90/2007-3)</heading>
+				</article>
+				<article wId="gla1-clan5">
+					<num>5.</num>
+					<heading>Брисан је (види члан 1. Закона – 90/2007-3)</heading>
+					<paragraph wId="gla1-clan5-stav1">
+						<content>
+							<p>Држављанин Републике Србије који има и држављанство стране државе сматра се држављанином Републике Србије кад се налази на територији Републике Србије.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>СТИЦАЊЕ ДРЖАВЉАНСТВА РЕПУБЛИКЕ СРБИЈЕ</heading>
+				<article wId="gla2-clan6">
+					<num>6.</num>
+					<paragraph wId="gla2-clan6-stav1">
+						<intro>
+							<p>Држављанство Републике Србије стиче се:</p>
+						</intro>
+						<point wId="gla2-clan6-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> пореклом;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> рођењем на територији Републике Србије;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> пријемом;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> по међународним уговорима.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav2">
+						<content>
+							<p>Пореклом и рођењем на територији Републике Србије држављанство Републике Србије стиче се на основу уписа чињенице држављанства у матичну књигу рођених.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav3">
+						<intro>
+							<p>Пријемом држављанство Републике Србије стиче се на основу правоснажног решења које министарство надлежно за унутрашње послове доноси након спроведеног поступка предвиђеног овим законом.</p>
+						</intro>
+						<point wId="gla2-clan6-stav3-tac1">
+							<num>1.</num>
+							<content>
+								<p> Стицање држављанства пореклом</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan7">
+					<num>7.</num>
+					<paragraph wId="gla2-clan7-stav1">
+						<intro>
+							<p>Држављанство Републике Србије пореклом стиче дете:</p>
+						</intro>
+						<point wId="gla2-clan7-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> чија су оба родитеља у тренутку његовог рођења држављани Републике Србије;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> чији је један од родитеља у тренутку његовог рођења држављанин Републике Србије а дете је рођено на територији Републике Србије;</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav2">
+						<intro>
+							<p>Брисане су раније<ref wId="ref1" href="akn/rs/act/2018/24-70/srp@/!main~art_7__para_2__point_3->point_5" > тач. 3), 4) и 5)  </ref>(види <ref wId="ref0" href="akn/rs/act/2018/24-70/srp@/!main~art_2" >члан 2. </ref>Закона – 90/2007-3)</p>
+						</intro>
+						<point wId="gla2-clan7-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> рођено у иностранству, чији је један од родитеља у тренутку његовог рођења држављанин Републике Србије а други је непознат или непознатог држављанства или без држављанства.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan8">
+					<num>8.</num>
+					<heading>*Службени гласник РС, број 90/2007</heading>
+				</article>
+				<article wId="gla2-clan9">
+					<num>9.</num>
+					<heading>Брисан је (види члан 3. Закона – 90/2007-3)</heading>
+					<paragraph wId="gla2-clan9-stav1">
+						<content>
+							<p>Држављанство Републике Србије пореклом стиче дете рођено у иностранству, чији је један од родитеља у тренутку његовог рођења држављанин Републике Србије а други је страни држављанин, ако га родитељ који је држављанин  Републике Србије пријави до навршене 18. године живота код надлежног дипломатског или конзуларног представништва  Републике Србије као држављанина Републике Србије и ако поднесе захтев за упис детета у евиденцију држављана надлежном органу у Републици Србији. Ако је дете под старатељством, пријаву и захтев подноси старалац.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav2">
+						<content>
+							<p>Дете рођено у иностранству, чији је један од родитеља у тренутку његовог рођења држављанин Републике Србије, стиче пореклом држављанство Републике Србије ако би остало без држављанства чак и ако нису испуњени услови из <ref wId="ref2" href="akn/rs/act/2018/24-70/srp@/!main~art_9__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav3">
+						<content>
+							<p>Ако је дете старије од 14 година, за стицање држављанства у смислу <ref wId="ref3" href="akn/rs/act/2018/24-70/srp@/!main~art_9__para_1->para_2" >ст. 1. и 2. овог</ref> члана потребна је и његова сагласност.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan10">
+					<num>10.</num>
+					<heading>*Службени гласник РС, број 90/2007</heading>
+					<paragraph wId="gla2-clan10-stav1">
+						<content>
+							<p>Лице старије од 18 година живота рођено у иностранству чији је један од родитеља у тренутку његовог рођења био држављанин Републике Србије а други страни држављанин стиче пореклом држављанство Републике Србије ако до навршене 23. године живота поднесе захтев за упис у евиденцију држављана надлежном органу у Републици Србији, под условом да није стекло држављанство Републике Србије на начин предвиђен <ref wId="ref4" href="akn/rs/act/2018/24-70/srp@/!main~art_9__para_1" >чланом 9. став 1. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan11">
+					<num>11.</num>
+					<paragraph wId="gla2-clan11-stav1">
+						<content>
+							<p>Под условима из <ref wId="ref5" href="akn/rs/act/2018/24-70/srp@/!main~art_7->10" >чл. 7. </ref>до 10. овог закона, држављанство Републике Србије стиче пореклом и усвојеник-странац, односно усвојеник без држављанства, у случају потпуног усвојења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav2">
+						<content>
+							<p>Захтев за упис усвојеника из <ref wId="ref6" href="akn/rs/act/2018/24-70/srp@/!main~art_11__para_1" >става 1. овог</ref> члана у евиденцију држављана подноси усвојилац – држављанин Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav3">
+						<content>
+							<p>Захтев из <ref wId="ref7" href="akn/rs/act/2018/24-70/srp@/!main~art_11__para_2" >става 2. овог</ref> члана подноси усвојеник старији од 18 година до навршене 23. године живота.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan12">
+					<num>12.</num>
+					<paragraph wId="gla2-clan12-stav1">
+						<intro>
+							<p>Дете, односно лице из <ref wId="ref8" href="akn/rs/act/2018/24-70/srp@/!main~art_7->11" >чл. 7. </ref>до 11. овог закона, које стиче држављанство пореклом, сматра се држављанином Републике Србије од рођења.</p>
+						</intro>
+						<point wId="gla2-clan12-stav1-tac2">
+							<num>2.</num>
+							<content>
+								<p> Стицање држављанства рођењем на територији Републике Србије</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan13">
+					<num>13.</num>
+					<paragraph wId="gla2-clan13-stav1">
+						<content>
+							<p>Дете рођено или нађено на територији Републике Србије (нахоче) држављанство Републике Србије рођењем стиче ако су му оба родитеља непозната или непознатог држављанства или без држављанства или ако је дете без држављанства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan13-stav2">
+						<content>
+							<p>Дете које је на основу <ref wId="ref9" href="akn/rs/act/2018/24-70/srp@/!main~art_13__para_1" >става 1. овог</ref> члана стекло држављанство Републике Србије сматра се држављанином Републике Србије од рођења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan13-stav3">
+						<content>
+							<p>Детету из <ref wId="ref10" href="akn/rs/act/2018/24-70/srp@/!main~art_13__para_1" >става 1. овог</ref> члана може престати држављанство Републике Србије ако се до навршене 18. године утврди да су му оба родитеља   страни држављани. Држављанство му престаје на захтев родитеља даном достављања решења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan13-stav4">
+						<content>
+							<p>Ако је дете старије од 14 година, за престанак држављанства Републике Србије потребна је и његова сагласност.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan13-stav5">
+						<content>
+							<p>*<ref wId="ref11" href="akn/rs/act/2007/90/srp@">Службени гласник РС, број 90/2007</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<section wId="gla2-od3">
+					<num>3.</num>
+					<heading> Стицање држављанства пријемом</heading>
+					<article wId="gla2-od3-clan14">
+						<num>14.</num>
+						<paragraph wId="gla2-od3-clan14-stav1">
+							<intro>
+								<p>Странац коме је сходно прописима о кретању и боравку странаца одобрено стално настањење у Републици Србији може бити, на свој захтев, примљен у држављанство Републике Србије, под условом:</p>
+							</intro>
+							<point wId="gla2-od3-clan14-stav1-tac1">
+								<num>1)</num>
+								<content>
+									<p> да је навршио 18 година живота и да му није одузета пословна способност;</p>
+								</content>
+							</point>
+							<point wId="gla2-od3-clan14-stav1-tac2">
+								<num>2)</num>
+								<content>
+									<p> да има отпуст из страног држављанства или да поднесе доказ да ће отпуст добити ако буде примљен у држављанство Републике Србије;</p>
+								</content>
+							</point>
+							<point wId="gla2-od3-clan14-stav1-tac3">
+								<num>3)</num>
+								<content>
+									<p> да је до подношења захтева најмање три године непрекидно имао пријављено пребивалиште на територији Републике Србије ;</p>
+								</content>
+							</point>
+							<point wId="gla2-od3-clan14-stav1-tac4">
+								<num>4)</num>
+								<content>
+									<p> да поднесе писмену изјаву да Републику Србију сматра својом државом.</p>
+								</content>
+							</point>
+						</paragraph>
+						<paragraph wId="gla2-od3-clan14-stav2">
+							<content>
+								<p>Услов из<ref wId="ref12" href="akn/rs/act/2018/24-70/srp@/!main~art_14__para_2__point_2" > тачке 2. </ref><ref wId="ref13" href="akn/rs/act/2018/24-70/srp@/!main~art_14__para_1" >става 1. овог</ref> члана испуњен је ако је захтев поднело лице без држављанства или лице које пружи доказ да ће по закону земље чији је држављанин изгубити држављанство пријемом у држављанство Републике Србије.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla2-od3-clan14-stav3">
+							<content>
+								<p>Ако страна држава не дозвољава отпуст из држављанства или за отпуст поставља услове које странац не може испунити, испуњеност услова из<ref wId="ref14" href="akn/rs/act/2018/24-70/srp@/!main~art_14__para_3__point_2" > тачке 2. </ref><ref wId="ref15" href="akn/rs/act/2018/24-70/srp@/!main~art_14__para_1" >става 1. овог</ref> члана не тражи се ако подносилац захтева поднесе изјаву да се одриче страног држављанства у случају стицања држављанства Републике Србије.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla2-od3-clan14-stav4">
+							<content>
+								<p>Одрицање или губитак ранијег држављанства неће се захтевати ако то није могуће или се не може разумно очекивати.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla2-od3-clan14-stav5">
+							<content>
+								<p>Образац писмене изјаве из <ref wId="ref16" href="akn/rs/act/2018/24-70/srp@/!main~art_14__para_1__point_4" >става 1. тачка 4. овог</ref> члана прописаће министар надлежан за унутрашње послове.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="gla2-od3-clan15">
+						<num>15.</num>
+						<heading>*Службени гласник РС, број 90/2007</heading>
+						<paragraph wId="gla2-od3-clan15-stav1">
+							<content>
+								<p>Странцу који је поднео захтев за пријем у држављанство Републике Србије а нема отпуст из страног држављанства или доказ да ће отпуст добити ако буде примљен у држављанство Републике Србије може се, на његов захтев, издати потврда да ће бити примљен у држављанство Републике Србије ако испуњава остале услове из <ref wId="ref17" href="akn/rs/act/2018/24-70/srp@/!main~art_14__para_1" >члана 14. став 1. овог</ref> закона.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla2-od3-clan15-stav2">
+							<content>
+								<p>Потврда из <ref wId="ref18" href="akn/rs/act/2018/24-70/srp@/!main~art_15__para_1" >става 1. овог</ref> члана издаје се са роком важења од две године и служи за добијање отпуста из страног држављанства.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="gla2-od3-clan16">
+						<num>16.</num>
+						<paragraph wId="gla2-od3-clan16-stav1">
+							<content>
+								<p>Лице које је рођено на територији Републике Србије може бити примљено у држављанство Републике Србије ако је до подношења захтева за пријем најмање две године непрекидно боравило на територији Републике Србије и ако поднесе писмену изјаву да Републику Србију сматра својом државом.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="gla2-od3-clan17">
+						<num>17.</num>
+						<paragraph wId="gla2-od3-clan17-stav1">
+							<content>
+								<p>Странац који је најмање три године у брачној заједници са држављанином Републике Србије и коме је одобрено стално настањење у Републици Србији може бити примљен у држављанство Републике Србије ако поднесе писмену изјаву да Републику Србију сматра својом државом.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="gla2-od3-clan18">
+						<num>18.</num>
+						<paragraph wId="gla2-od3-clan18-stav1">
+							<content>
+								<p>Исељеник и његов потомак могу бити примљени у држављанство Републике Србије ако су навршили 18 година живота и није им одузета пословна способност и ако поднесу писмену изјаву да Републику Србију сматрају својом државом.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla2-od3-clan18-stav2">
+							<content>
+								<p>Брачни друг лица из <ref wId="ref19" href="akn/rs/act/2018/24-70/srp@/!main~art_18__para_1" >става 1. овог</ref> члана које је стекло држављанство Републике Србије може бити примљен у држављанство Републике Србије ако поднесе писмену изјаву да Републику Србију сматра својом државом.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla2-od3-clan18-stav3">
+							<content>
+								<p>Под исељеником, у смислу <ref wId="ref20" href="akn/rs/act/2018/24-70/srp@/!main~art_18__para_1" >става 1. овог</ref> члана, сматра се лице које се иселило из Републике Србије са намером да стално живи у иностранству.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="gla2-od3-clan19">
+						<num>19.</num>
+						<paragraph wId="gla2-od3-clan19-stav1">
+							<content>
+								<p>Независно од услова из <ref wId="ref21" href="akn/rs/act/2018/24-70/srp@/!main~art_14__para_1__point_2->point_4" >члана 14. став 1. тач. 2. </ref>до 4. овог закона, у држављанство Републике Србије може бити примљен и странац чији би пријем у држављанство Републике Србије представљао интерес за Републику Србију.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla2-od3-clan19-stav2">
+							<content>
+								<p>Брачни друг лица које је под условима из <ref wId="ref23" href="akn/rs/act/2018/24-70/srp@/!main~art_19__para_1" >става 1. овог</ref> члана стекло држављанство Републике Србије може бити примљен у држављанство Републике Србије и ако не испуњава услове из <ref wId="ref22" href="akn/rs/act/2018/24-70/srp@/!main~art_14__para_1__point_2->point_4" >члана 14. став 1. тач. 2. </ref>до 4. овог закона.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla2-od3-clan19-stav3">
+							<content>
+								<p>О пријему у држављанство Републике Србије из <ref wId="ref24" href="akn/rs/act/2018/24-70/srp@/!main~art_19__para_1" >става 1. овог</ref> члана, на предлог надлежног министарства, одлучује Влада Републике Србије.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="gla2-od3-clan20">
+						<num>20.</num>
+						<paragraph wId="gla2-od3-clan20-stav1">
+							<content>
+								<p>Ако су оба родитеља пријемом стекла држављанство Републике Србије, држављанство Републике Србије стиче и њихово дете млађе од 18 година живота.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla2-od3-clan20-stav2">
+							<content>
+								<p>На захтев родитеља који је пријемом стекао држављанство Републике Србије, држављанство Републике Србије пријемом стиче и његово дете млађе од 18 година живота, ако се други родитељ са тим сагласи и ако дете живи у Републици Србији.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla2-od3-clan20-stav3">
+							<content>
+								<p>На захтев родитеља који је пријемом стекао држављанство Републике Србије, држављанство Републике Србије стиче и његово дете млађе од 18 година живота, ако се други родитељ са тим сагласи и ако дете живи у иностранству.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla2-od3-clan20-stav4">
+							<content>
+								<p>Ако је дете старије од 14 година живота, за пријем у држављанство у смислу <ref wId="ref25" href="akn/rs/act/2018/24-70/srp@/!main~art_20__para_1->para_3" >ст. 1. </ref>до 3. овог члана потребна је и његова сагласност.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="gla2-od3-clan21">
+						<num>21.</num>
+						<paragraph wId="gla2-od3-clan21-stav1">
+							<content>
+								<p>У случају непотпуног усвојења, усвојеник-странац који није навршио 18 година живота, на захтев усвојиоца који је држављанин Републике Србије, може стећи држављанство Републике Србије ако са усвојиоцем живи у Републици Србији.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla2-od3-clan21-stav2">
+							<content>
+								<p>Ако је усвојеник старији од 14 година живота, за пријем у држављанство Републике Србије потребна је и његова сагласност.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="gla2-od3-clan22">
+						<num>22.</num>
+					</article>
+					<article wId="gla2-od3-clan23">
+						<num>23.</num>
+						<heading>Брисан   је   (види члан 7. Закона – 90/2007-3)</heading>
+						<paragraph wId="gla2-od3-clan23-stav1">
+							<content>
+								<p>Припадник српског народа који нема пребивалиште на  територији Републике Србије има право да буде примљен у држављанство Републике  Србије без отпуста из страног држављанства, ако је навршио 18 година живота и  није му одузета пословна способност и ако поднесе писмену изјаву да Републику  Србију сматра својом државом.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla2-od3-clan23-stav2">
+							<content>
+								<p>Под условима из <ref wId="ref26" href="akn/rs/act/2018/24-70/srp@/!main~art_23__para_1" >става 1. овог</ref> члана, у држављанство Републике Србије може бити примљено и лице рођено у другој републици раније СФРЈ које је имало држављанство те републике или је држављанин друге државе настале на територији раније СФРЈ, које као избегло, прогнано или расељено лице борави на територији Републике Србије или је избегло у иностранство.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla2-od3-clan23-stav3">
+							<content>
+								<p>Под условима из <ref wId="ref27" href="akn/rs/act/2018/24-70/srp@/!main~art_23__para_1" >става 1. овог</ref> члана у држављанство  Републике Србије може бити примљен припадник другог народа или етничке заједнице  са територије Републике Србије.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="gla2-od3-clan24">
+						<num>24.</num>
+						<heading>*Службени гласник РС,   број 90/2007</heading>
+						<paragraph wId="gla2-od3-clan24-stav1">
+							<content>
+								<p>Писмена изјава којом се признаје Република Србија за своју државу предаје се заједно са захтевом за пријем у држављанство Републике Србије министарству надлежном за унутрашње послове или надлежном дипломатском или конзуларном представништву  Републике Србије, на начин предвиђен овим законом.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla2-od3-clan24-stav2">
+							<content>
+								<p>*<ref wId="ref28" href="akn/rs/act/2007/90/srp@">Службени гласник РС,   број 90/2007</ref></p>
+							</content>
+						</paragraph>
+					</article>
+				</section>
+				<section wId="gla2-od4">
+					<num>4.</num>
+					<heading> Дан стицања држављанства пријемом</heading>
+					<article wId="gla2-od4-clan25">
+						<num>25.</num>
+						<paragraph wId="gla2-od4-clan25-stav1">
+							<content>
+								<p>Држављанство Републике Србије стиче се пријемом даном достављања решења о пријему у држављанство Републике Србије.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla2-od4-clan25-stav2">
+							<intro>
+								<p>Кад је за стицање држављанства Републике Србије пријемом услов само давање изјаве о признавању Републике Србије за своју државу држављанство Републике Србије стиче се даном давања изјаве.</p>
+							</intro>
+							<point wId="gla2-od4-clan25-stav2-tac5">
+								<num>5.</num>
+								<content>
+									<p> Стицање држављанства по међународним уговорима</p>
+								</content>
+							</point>
+						</paragraph>
+					</article>
+					<article wId="gla2-od4-clan26">
+						<num>26.</num>
+						<paragraph wId="gla2-od4-clan26-stav1">
+							<content>
+								<p>Држављанство Републике Србије може се стећи на основу ратификованог међународног уговора, под условом узајамности.</p>
+							</content>
+						</paragraph>
+					</article>
+				</section>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>ПРЕСТАНАК ДРЖАВЉАНСТВА РЕПУБЛИКЕ СРБИЈЕ</heading>
+				<article wId="gla3-clan27">
+					<num>27.</num>
+					<paragraph wId="gla3-clan27-stav1">
+						<intro>
+							<p>Држављанство Републике Србије престаје:</p>
+						</intro>
+						<point wId="gla3-clan27-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> отпустом;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan27-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> одрицањем;</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan27-stav2">
+						<intro>
+							<p>Брисана је   ранија<ref wId="ref30" href="akn/rs/act/2018/24-70/srp@/!main~art_27__para_2__point_3" >  тачка 3)   </ref>(види <ref wId="ref29" href="akn/rs/act/2018/24-70/srp@/!main~art_10" >члан 10. </ref>Закона – 90/2007-3)</p>
+						</intro>
+						<point wId="gla3-clan27-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> по међународним уговорима.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan27-stav3">
+						<content>
+							<p>*<ref wId="ref31" href="akn/rs/act/2007/90/srp@">Службени гласник РС, број 90/2007</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<section wId="gla3-od1">
+					<num>1.</num>
+					<heading> Престанак држављанства отпустом</heading>
+					<article wId="gla3-od1-clan28">
+						<num>28.</num>
+						<paragraph wId="gla3-od1-clan28-stav1">
+							<intro>
+								<p>Држављанину Републике Србије држављанство Републике Србије престаје отпустом ако поднесе захтев за отпуст и ако испуњава следеће услове:</p>
+							</intro>
+							<point wId="gla3-od1-clan28-stav1-tac2">
+								<num>2.</num>
+								<content>
+									<p> Престанак држављанства одрицањем</p>
+								</content>
+							</point>
+							<point wId="gla3-od1-clan28-stav1-tac3">
+								<num>3.</num>
+								<content>
+									<p> Поновно стицање држављанства Републике Србије</p>
+								</content>
+							</point>
+							<point wId="gla3-od1-clan28-stav1-tac5">
+								<num>5.</num>
+								<content>
+									<p> Престанак држављанства по међународним уговорима</p>
+								</content>
+							</point>
+							<point wId="gla3-od1-clan28-stav1-tac6">
+								<num>6.</num>
+								<content>
+									<p> Дан престанка држављанства</p>
+								</content>
+							</point>
+							<point wId="gla3-od1-clan28-stav1-tac1">
+								<num>1.</num>
+								<content>
+									<p> Стицање држављанства пореклом</p>
+								</content>
+							</point>
+							<point wId="gla3-od1-clan28-stav1-tac2">
+								<num>2.</num>
+								<content>
+									<p> Стицање држављанства рођењем на територији Републике Србије</p>
+								</content>
+							</point>
+							<point wId="gla3-od1-clan28-stav1-tac3">
+								<num>3.</num>
+								<content>
+									<p> Стицање држављанства пријемом</p>
+								</content>
+							</point>
+							<point wId="gla3-od1-clan28-stav1-tac4">
+								<num>4.</num>
+								<content>
+									<p> Дан стицања држављанства пријемом</p>
+								</content>
+							</point>
+							<point wId="gla3-od1-clan28-stav1-tac5">
+								<num>5.</num>
+								<content>
+									<p> Стицање држављанства по међународним уговорима</p>
+								</content>
+							</point>
+							<point wId="gla3-od1-clan28-stav1-tac1">
+								<num>1.</num>
+								<content>
+									<p> Престанак држављанства отпустом</p>
+								</content>
+							</point>
+							<point wId="gla3-od1-clan28-stav1-tac2">
+								<num>2.</num>
+								<content>
+									<p> Престанак држављанства одрицањем</p>
+								</content>
+							</point>
+							<point wId="gla3-od1-clan28-stav1-tac3">
+								<num>3.</num>
+								<content>
+									<p> Поновно стицање држављанства Републике Србије</p>
+								</content>
+							</point>
+							<point wId="gla3-od1-clan28-stav1-tac5">
+								<num>5.</num>
+								<content>
+									<p> Престанак држављанства по међународним уговорима</p>
+								</content>
+							</point>
+							<point wId="gla3-od1-clan28-stav1-tac6">
+								<num>6.</num>
+								<content>
+									<p> Дан престанка држављанства</p>
+								</content>
+							</point>
+							<point wId="gla3-od1-clan28-stav1-tac1">
+								<num>1.</num>
+								<content>
+									<p> Стицање држављанства пореклом</p>
+								</content>
+							</point>
+							<point wId="gla3-od1-clan28-stav1-tac2">
+								<num>2.</num>
+								<content>
+									<p> Стицање држављанства рођењем на територији Републике Србије</p>
+								</content>
+							</point>
+							<point wId="gla3-od1-clan28-stav1-tac3">
+								<num>3.</num>
+								<content>
+									<p> Стицање држављанства пријемом</p>
+								</content>
+							</point>
+							<point wId="gla3-od1-clan28-stav1-tac4">
+								<num>4.</num>
+								<content>
+									<p> Дан стицања држављанства пријемом</p>
+								</content>
+							</point>
+							<point wId="gla3-od1-clan28-stav1-tac5">
+								<num>5.</num>
+								<content>
+									<p> Стицање држављанства по међународним уговорима</p>
+								</content>
+							</point>
+							<point wId="gla3-od1-clan28-stav1-tac1">
+								<num>1.</num>
+								<content>
+									<p> Престанак држављанства отпустом</p>
+								</content>
+							</point>
+							<point wId="gla3-od1-clan28-stav1-tac2">
+								<num>2.</num>
+								<content>
+									<p> Престанак држављанства одрицањем</p>
+								</content>
+							</point>
+							<point wId="gla3-od1-clan28-stav1-tac3">
+								<num>3.</num>
+								<content>
+									<p> Поновно стицање држављанства Републике Србије</p>
+								</content>
+							</point>
+							<point wId="gla3-od1-clan28-stav1-tac5">
+								<num>5.</num>
+								<content>
+									<p> Престанак држављанства по међународним уговорима</p>
+								</content>
+							</point>
+							<point wId="gla3-od1-clan28-stav1-tac6">
+								<num>6.</num>
+								<content>
+									<p> Дан престанка држављанства</p>
+								</content>
+							</point>
+							<point wId="gla3-od1-clan28-stav1-tac1">
+								<num>1.</num>
+								<content>
+									<p> Стицање држављанства пореклом</p>
+								</content>
+							</point>
+							<point wId="gla3-od1-clan28-stav1-tac2">
+								<num>2.</num>
+								<content>
+									<p> Стицање држављанства рођењем на територији Републике Србије</p>
+								</content>
+							</point>
+							<point wId="gla3-od1-clan28-stav1-tac3">
+								<num>3.</num>
+								<content>
+									<p> Стицање држављанства пријемом</p>
+								</content>
+							</point>
+							<point wId="gla3-od1-clan28-stav1-tac4">
+								<num>4.</num>
+								<content>
+									<p> Дан стицања држављанства пријемом</p>
+								</content>
+							</point>
+							<point wId="gla3-od1-clan28-stav1-tac5">
+								<num>5.</num>
+								<content>
+									<p> Стицање држављанства по међународним уговорима</p>
+								</content>
+							</point>
+							<point wId="gla3-od1-clan28-stav1-tac1">
+								<num>1.</num>
+								<content>
+									<p> Престанак држављанства отпустом</p>
+								</content>
+							</point>
+							<point wId="gla3-od1-clan28-stav1-tac2">
+								<num>2.</num>
+								<content>
+									<p> Престанак држављанства одрицањем</p>
+								</content>
+							</point>
+							<point wId="gla3-od1-clan28-stav1-tac3">
+								<num>3.</num>
+								<content>
+									<p> Поновно стицање држављанства Републике Србије</p>
+								</content>
+							</point>
+							<point wId="gla3-od1-clan28-stav1-tac5">
+								<num>5.</num>
+								<content>
+									<p> Престанак држављанства по међународним уговорима</p>
+								</content>
+							</point>
+							<point wId="gla3-od1-clan28-stav1-tac6">
+								<num>6.</num>
+								<content>
+									<p> Дан престанка држављанства</p>
+								</content>
+							</point>
+						</paragraph>
+					</article>
+				</section>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>
