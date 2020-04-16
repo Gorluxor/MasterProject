@@ -1,15 +1,15 @@
 from keras.models import load_model
-
+import pickle
 import pandas as pd
 import numpy as np
 from keras.preprocessing.sequence import pad_sequences
 from sklearn.model_selection import train_test_split
 try:
     import Akoma
-    from Akoma.named_enitity_recognition.readutils import SentenceGetter, word2features, read_and_prepare_csv
+    from Akoma.named_enitity_recognition.readutils import SentenceGetter, word2features, read_and_prepare_csv, sent2features, sent2labels, sent2tokens
 except ModuleNotFoundError as sureError:
     try:
-        from named_enitity_recognition.readutils import SentenceGetter, word2features, read_and_prepare_csv
+        from named_enitity_recognition.readutils import SentenceGetter, word2features, read_and_prepare_csv, sent2features, sent2labels, sent2tokens
     except ModuleNotFoundError as newError:
         if not sureError.name.__eq__("Akoma") or not newError.name.__eq__("Akoma"):
             print(newError)
@@ -36,13 +36,16 @@ sentences = getter.sentences
 max_len = 75
 max_len_char = 10
 
-word2idx = {w: i + 2 for i, w in enumerate(words)}
-word2idx["UNK"] = 1
-word2idx["PAD"] = 0
+file1 = open("../data/ner/word_to_index.pickle", "rb")
+file2 = open("../data/ner/tag_to_index.pickle", "rb")
+word2idx = pickle.load(file1)
+tag2idx = pickle.load(file2)
+
 idx2word = {i: w for w, i in word2idx.items()}
-tag2idx = {t: i + 1 for i, t in enumerate(tags)}
-tag2idx["PAD"] = 0
 idx2tag = {i: w for w, i in tag2idx.items()}
+
+file1.close()
+file2.close()
 
 X_word = [[word2idx[w[0]] for w in s] for s in sentences]
 

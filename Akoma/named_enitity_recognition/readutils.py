@@ -1,6 +1,8 @@
 import pandas as pd
 import numpy as np
 
+import csv
+
 
 class SentenceGetter(object):
 
@@ -67,7 +69,7 @@ def word2features(sent, i):
 
 
 def read_and_prepare_csv(filename, verbose=0):
-    df = pd.read_csv(filename, encoding="utf-8", sep="\t")
+    df = pd.read_csv(filename, encoding="utf-8", sep="\t", quoting=csv.QUOTE_NONE)
     if verbose:
         print(df.head())
         print(df.isnull().sum())
@@ -79,3 +81,14 @@ def read_and_prepare_csv(filename, verbose=0):
 
     return df
 
+
+def sent2features(sent):
+    return [word2features(sent, i) for i in range(len(sent))]
+
+
+def sent2labels(sent):
+    return [label for token, postag, label in sent]
+
+
+def sent2tokens(sent):
+    return [token for token, postag, label in sent]
