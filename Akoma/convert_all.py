@@ -163,10 +163,10 @@ def convert_html(source, destination):
 
 
 if __name__ == "__main__":
-    nastavi = "705.html"  # ""651.html"
+    nastavi = "1205.html"  # ""651.html"
     idemo = False
     stani = [
-        "1005.html", "980.html", "986.html"  # problematicni PROVERITI 176
+        "1005.html", "980.html", "986.html", "981.html", "210.html", "1033", "1204"  # problematicni PROVERITI 176
         , "180.html"]  # Veliki fajlovi
     location_source = "data/acts"
     fajls = utilities.sort_file_names(os.listdir(location_source))

@@ -45,7 +45,7 @@ class BasicReasoner():
         if self.current_token is None:
             return
         if self.current_token.type == TokenType.DEO and self.current_token.value == None:
-            self.deo_glava_find_title()
+            self.deo_glava_find_title(0)
         elif self.current_token.type == TokenType.GLAVA and self.current_token.value == None:
             self.deo_glava_find_title(sanity + 1)
         elif self.current_token.type == TokenType.STAV and self.current_token.value[-1:] != "." and self.current_token.value[-1:] != ":"and self.current_token.value[-1:] != "," and sanity < 10:
