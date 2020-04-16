@@ -20,9 +20,9 @@ for i in range(0, len(fajls)):
         try:
             schema.validate('../data/akoma_result/' + fajls[i])
         except Exception as e1:
-            print("Schema validation error :" + fajls[i]  + "MES:" + e1.message)
-            f.write(fajls[i] + " : Not valid with schema + \n")
+            print("Schema validation error :" + fajls[i] + " MES:" + e1.message)
+            f.write(fajls[i] + " : Not valid with schema " + e1.message + "\n")
     except Exception as e:
         print("Not well formed " + fajls[i])
-        f.write(fajls[i] + " : Not well formed xml document +\n")
+        f.write(fajls[i] + " : Not well formed xml document " + "\n")
 f.close()
