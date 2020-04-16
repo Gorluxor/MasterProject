@@ -28,10 +28,12 @@ class BasicReasoner():
         body = False
         preface = []
         while self.current_token is not None:
+
             self.current_token = self.tokenizer.get_next_token()
 
-            if(self.current_token is None):
+            if self.current_token is None:
                 break
+
             if body is False and self.current_token.type <= TokenType.CLAN :
                 body = True
                 self.akomabuilder.build_preface(preface)
@@ -40,12 +42,12 @@ class BasicReasoner():
             if body:
                 self.reason(0)
 
-    def reason(self,sanity):
+    def reason(self,sanity): #TODO FIX ERROR (QUICKFIX FOR INFI LOOP)
 
         if self.current_token is None:
             return
         if self.current_token.type == TokenType.DEO and self.current_token.value == None:
-            self.deo_glava_find_title()
+            self.deo_glava_find_title(0)
         elif self.current_token.type == TokenType.GLAVA and self.current_token.value == None:
             self.deo_glava_find_title(sanity + 1)
         elif self.current_token.type == TokenType.STAV and self.current_token.value[-1:] != "." and self.current_token.value[-1:] != ":"and self.current_token.value[-1:] != "," and sanity < 10:
@@ -55,18 +57,17 @@ class BasicReasoner():
             if self.current_token.type == TokenType.STAV and self.current_token.value[-1:] == ":" and sanity < 10:
                 sanity = sanity + 2
                 self.expect_tacke(sanity)
-            # elif sanity >= 10:
-                # print(str(self.current_token.type) + "ID=" + str(self.current_token.numberstr)  +"  VREDNOST:" +  str(self.current_token.value)) #TODO FIX ERROR (QUICKFIX FOR INFI LOOP)
+
 
     def deo_glava_find_title(self,sanity):
         glava = self.current_token
         self.current_token = self.tokenizer.get_next_token()
         if (self.current_token.type != TokenType.STAV):
-            print("WARNING - GLAVA NEMA NASLOV")
+            # print("WARNING - GLAVA NEMA NASLOV")
             self.akomabuilder.add_token(glava, self.get_identification(glava))
             self.reason(sanity)
         elif (self.current_token.value[-1:] == "."):
-            print("WARNING - NASLOV GLAVE NE SME DA IMA TACKU NA KRAJU")
+            # print("WARNING - NASLOV GLAVE NE SME DA IMA TACKU NA KRAJU")
             self.akomabuilder.add_token(glava, self.get_identification(glava))
             self.reason(sanity)
         else:
@@ -80,11 +81,11 @@ class BasicReasoner():
         if self.current_token is None:
             return
         if self.current_token.type != TokenType.CLAN:
-            print("WARNING - NEMA CLANA ISPOD NASLOVA")
+            # print("WARNING - NEMA CLANA ISPOD NASLOVA")
             self.akomabuilder.add_token(naslov, self.get_identification(naslov))
             self.reason(0) # deal with this unknown element
-            print(self.current_hierarchy)
-            print(naslov.value)
+            # print(self.current_hierarchy)
+            # print(naslov.value)
         else:
             self.current_token.value = naslov.value
             self.akomabuilder.add_token(self.current_token, self.get_identification(self.current_token))

@@ -1,3 +1,5 @@
+import re
+
 try:
     from Akoma.tokenizer.patterns import is_vrsta_akta, eng_tags
     from Akoma.tokenizer.TokenType import TokenType
@@ -15,7 +17,6 @@ PREFIX = "{http://docs.oasis-open.org/legaldocml/ns/akn/3.0}"
 
 
 def remove_double_space(string_input: str):
-    import re
     return re.sub(' +', ' ', string_input)
 
 
@@ -82,6 +83,7 @@ class AkomaBuilder():
         parent.append(token)
 
     def add_token(self, token, identification):
+
         # print(token.name, identification, token.value)
         if token.type == TokenType.TACKA and token.name == 'тачка':  # QUICK FIX
             token.name = eng_tags[TokenType.TACKA]
@@ -92,7 +94,20 @@ class AkomaBuilder():
             no_content = False
 
         parent = self.current_parent(identification, no_content)
-
+        # if identification == "gla2-clan7-stav1":
+            # ff = 5
+            # print("token")
+        # from tokenizer import patterns # TODO MAIN FUNCTION ADD TOKEN, TO FIX wrong hir adding ANDRIJA 8.xml proba
+        # new_token = None
+        # new_parent = None
+        # for token, name in patterns.eng_tags.items():  # for name, age in dictionary.iteritems():  (for Python 2.x)
+        #     if name == novi.tag:
+        #         new_token = token
+        #     if name == parent.tag:
+        #         new_parent = token
+        # if new_parent and new_token:
+        #     raz = new_token - new_parent
+        #if token.type - parent.type
         parent.append(novi)
         self.stack.append(novi)
 
@@ -122,7 +137,15 @@ class AkomaBuilder():
                 return node
 
             id = node.attrib["wId"]
+            check = re.search("[0-9]+(?=\.)",identification)
+
             if id in identification:
+                if check is not None: #TODO QUICKFIX FOR .a
+                    if 'stav' in identification:
+                        return node
+                    else:
+                        return self.stack[i-1]
+
                 if no_content:
                     self.change(node)
                     return node
