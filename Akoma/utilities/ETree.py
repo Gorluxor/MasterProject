@@ -45,7 +45,7 @@ def get_elements(root, name, namespace=CNS):
     if len(ret) == 0:
         ret = [iter_chapter for iter_chapter in root.iter(tag=name)]
     if len(ret) == 0:
-        text_error = ">>Error in parsing ElementTree in utilities.Etree"
+        text_error = ">>ElementTree no " + name + " found using get_elements in utilities.Etree"
         print(colored(text_error, 'red'))
     return ret
 

@@ -11,14 +11,14 @@ import pandas as pd
 try:
     from Akoma.connector import connector
     from Akoma.convertToLatin import Convert
-    from Akoma.preprocessing import remove_html
+    from Akoma.convertToLatin import regex_patterns
     from Akoma.utilities import utilities
 except ModuleNotFoundError as e1:
     print(e1)
     try:
+        from convertToLatin import regex_patterns
         from connector import connector
         from convertToLatin import Convert
-        from preprocessing import remove_html
         from utilities import utilities
     except ModuleNotFoundError as e2:
         print(e2)
@@ -74,7 +74,7 @@ def get_tf_idf_values_from_text(text: str, return_just_words=True, threshold=0.0
     act_array = []
 
     if text.find("<p") != -1:
-        text = remove_html.preprocessing_text(text, True)
+        text = regex_patterns.strip_html_tags(text)
 
     if re.search(tag_clan + " [0-9]*\.", text) is None:  # Deprecated. if someone misses latin parameter
         text = Convert.convert_string(text)

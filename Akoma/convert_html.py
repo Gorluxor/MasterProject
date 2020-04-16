@@ -1,8 +1,9 @@
 import io
 import xml.etree.ElementTree as ET
+from bs4 import BeautifulSoup
 
 try:
-    from Akoma.preprocessing import remove_html
+    from utilities import ETree
     from Akoma.preprocessing import init_akoma
     from Akoma.tokenizer.HTMLTokenizer import HTMLTokenizer
     from Akoma.form_akoma.AkomaBuilder import AkomaBuilder
@@ -12,7 +13,7 @@ try:
     from Akoma.named_enitity_recognition.references import add_refs
 except ModuleNotFoundError:
     try:
-        from preprocessing import remove_html
+        from utilities import ETree
         from preprocessing import init_akoma
         from tokenizer.HTMLTokenizer import HTMLTokenizer
         from form_akoma.AkomaBuilder import AkomaBuilder
@@ -20,6 +21,7 @@ except ModuleNotFoundError:
         from reasoner.OdlukaReasoner import OdlukaReasoner
         from form_akoma.MetadataBuilder import MetadataBuilder
         from named_enitity_recognition.pattern_recognition import add_refs
+        from convertToLatin import regex_patterns
     except ModuleNotFoundError:
         print("Error in convert_html.py importing modules")
         exit(-1)
@@ -31,11 +33,20 @@ except ModuleNotFoundError:
 
 
 def convert_html(source, destination):
-    stringo = remove_html.preprocessing(source)
+    try:
+        f = open(source, mode="r", encoding="UTF-8")
+    except FileNotFoundError as error:
+        print(error)
+    text = "".join(f.readlines())
+    text = regex_patterns.strip_html_tags_exept(text)
     fajl = source.split("/")[-1]
     akoma_root = init_akoma.init_xml("act")
-
-    html_root = ET.fromstring("<article>" + stringo + "</article>")
+    try:
+        html_root = ET.fromstring("<article>" + text + "</article>")
+    except Exception as e:
+        got = BeautifulSoup(text, "lxml")
+        text = got.prettify().replace("<html>", "").replace("</html>", "").replace("<body>", "").replace("</body", "")
+        html_root = ET.fromstring("<article>" + text + "</article>")
 
     metabuilder = MetadataBuilder("data/meta/allmeta.csv")
     metabuilder.build(fajl, akoma_root)
@@ -53,7 +64,9 @@ def convert_html(source, destination):
         reasoner.start()
 
     result_str = builder.result_str()
-    result_str = add_refs(result_str, metabuilder.expressionuri)
+    result_stablo = add_refs(akoma_root, result_str, metabuilder.expressionuri)
+    result_str = ETree.prettify(result_stablo).replace("&lt;", "<").replace("&gt;", ">").replace("&quot;",                                                                                                 "\"").replace(
+        '<references source="#somebody"/>', "")
     f = io.open(destination, mode="w", encoding="utf-8")
     f.write(result_str)
     f.close()
@@ -65,4 +78,4 @@ if __name__ == "__main__":
     if len(sys.argv) >= 3:
         convert_html(sys.argv[1], sys.argv[2])
     else:
-        convert_html("data/acts/1.html", "data/ustav.xml")
+        convert_html("data/acts/1.html", "data/akoma_result/ustav.xml")
