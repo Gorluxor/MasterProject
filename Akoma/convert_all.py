@@ -94,7 +94,7 @@ def apply_akn_tags(text: str, meta_name: str, skip_tfidf=False):
             html_root = ET.fromstring("<article>" + text + "</article>")
         except Exception as e:
             got = BeautifulSoup(text, "lxml")
-            text = got.prettify().replace("<html>", "").replace("</html>", "").replace("<body>", "").replace("</body",
+            text = got.prettify().replace("<html>", "").replace("</html>", "").replace("<body>", "").replace("</body>",
                                                                                                              "")
             html_root = ET.fromstring("<article>" + text + "</article>")
     # elif repaired:
@@ -151,10 +151,11 @@ def convert_html(source, destination):
 
 
 if __name__ == "__main__":
+
     nastavi = "150.html"  # ""651.html"
     idemo = False
     stani = [
-        "1005.html", "980.html", "986.html", "981.html", "210.html", "1033", "1204"  # problematicni PROVERITI 176
+        "1005.html", "980.html", "986.html", "981.html", "210.html", "1033.html", "1204.html"  # problematicni PROVERITI 176
         , "180.html"]  # Veliki fajlovi
     location_source = "data/acts"
     fajls = utilities.sort_file_names(os.listdir(location_source))
