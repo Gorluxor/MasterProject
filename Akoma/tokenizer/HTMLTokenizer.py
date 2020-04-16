@@ -39,5 +39,5 @@ class HTMLTokenizer(BasicTokenizer):
 
     def handle_table_img(self, el):
         retval = FoundToken(TokenType.STAV, "став", "Special value.", None, special=el) #TODO ANDRIJA OVDE SE DODAJE 'STAV' na srpskom
-        print(el.tag)
+        # print(el.tag)
         return retval
