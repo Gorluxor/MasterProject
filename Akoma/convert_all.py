@@ -3,6 +3,7 @@ import os
 import xml.etree.ElementTree as ET
 from bs4 import BeautifulSoup
 import sys
+
 try:
     import Akoma
     from Akoma.convertToLatin import regex_patterns
@@ -38,6 +39,7 @@ sys.setrecursionlimit(10000000)
 
 
 def repair_mode(act: str):
+    """@Deprecated"""
     import re
     while re.search("(\n\n\n|  )", act) is not None:
         act = act.replace("\n\n\n", "\n\n")
@@ -100,8 +102,7 @@ def apply_akn_tags(text: str, meta_name: str, skip_tfidf=False):
                                                                                                              "")
             html_root = ET.fromstring("<article>" + text + "</article>")
     # elif repaired:
-        # html_root = new_html_root
-
+    # html_root = new_html_root
 
     metabuilder = MetadataBuilder("data/meta/allmeta.csv")
     metabuilder.build(meta_name, akoma_root, skip_tfidf)
@@ -126,14 +127,15 @@ def apply_akn_tags(text: str, meta_name: str, skip_tfidf=False):
         reasoner.start()
 
     result_str = builder.result_str().replace("&lt;", "~vece;").replace("&gt;", "~manje;").replace("&quot;", "~navod;")
-    # try:
-    result_stablo = add_refs(akoma_root, result_str, metabuilder.expressionuri)
-    # except Exception as e:
-    #     file_ref_exeption = open(utilities.get_root_dir() + "/data/" + "za_ninu.txt", mode="a+")
-    #     file_ref_exeption.write(meta_name + ":" + str(e) + "\n")
-    #     file_ref_exeption.close()
-    #     return result_str
-    result_str = ETree.prettify(result_stablo).replace("&lt;", "<").replace("&gt;", ">").replace("&quot;", "\"").replace(
+    try:
+        result_stablo = add_refs(akoma_root, result_str, metabuilder.expressionuri)
+    except Exception as e:
+        file_ref_exeption = open(utilities.get_root_dir() + "/data/" + "za_ninu.txt", mode="a+")
+        file_ref_exeption.write(meta_name + ":" + str(e) + "\n")
+        file_ref_exeption.close()
+        return result_str
+    result_str = ETree.prettify(result_stablo).replace("&lt;", "<").replace("&gt;", ">").replace("&quot;",
+                                                                                                 "\"").replace(
         '<references source="#somebody"/>', "")
     result_str = result_str.replace("~vece;", "&gt;").replace("~manje;", "&lt;").replace("~navod;", "&quot;")
     return result_str
@@ -155,10 +157,8 @@ def convert_html(source, destination):
 
 if __name__ == "__main__":
 
-    """
-"""
+    nastavi = "1.html"  # ""651.html"
 
-    nastavi = "626.html"  # ""651.html"
     idemo = False
     stani = [
         "1005.html", "980.html", "986.html", "981.html", "210.html", "1033.html"  # problematicni PROVERITI 176
