@@ -24,8 +24,13 @@ class BasicReasoner():
             TokenType.PODTACKA: 0,
             TokenType.ALINEJA: 0}
         self.processed = []
+        self.preface = []
+        self.stop = False
 
     def sanity(self, identification):
+        if identification == 'gla2-clan6-stav3':
+            print("GOT HERE")
+
         if identification in self.processed:
             return "!STOP!"
         else:
@@ -34,7 +39,7 @@ class BasicReasoner():
 
     def start(self):
         body = False
-        preface = []
+        self.preface = []
 
         while self.current_token is not None:
 
@@ -46,17 +51,29 @@ class BasicReasoner():
 
             if body is False and self.current_token.type <= TokenType.CLAN:
                 body = True
-                self.akomabuilder.build_preface(preface)
+                self.akomabuilder.build_preface(self.preface)
             else:
-                preface.append(self.current_token)
+                self.preface.append(self.current_token)
             if body:
                 self.reason()
+
+    def add_odeljak(self):
+        wid = self.sanity(self.get_identification(self.current_token))
+        self.akomabuilder.add_token(self.current_token,wid)
+        self.current_token = self.tokenizer.get_next_token()
+        self.reason()
 
     def reason(self):
         if self.current_token is None:
             return
+        if self.current_token in self.preface[1::-1]:
+             self.stop = True
         if self.current_token.type == TokenType.DEO and self.current_token.value is None:
             self.deo_glava_find_title()
+        elif self.current_token.type == TokenType.ODELJAK:
+            self.add_odeljak()
+        elif self.current_token.type == TokenType.PODODELJAK:
+            self.add_odeljak()
         elif self.current_token.type == TokenType.GLAVA and self.current_token.value is None:
             self.deo_glava_find_title()
         elif self.current_token.type == TokenType.STAV and self.current_token.value[-1:] != "." and self.current_token.value[-1:] != ":" and self.current_token.value[-1:] != ",":
@@ -103,12 +120,12 @@ class BasicReasoner():
         # print("TACKA?")
         while self.current_token is not None:
             self.current_token = self.tokenizer.get_next_token()
-            if self.current_token is None:
+            if self.current_token is None or self.stop:
                 break
             elif self.current_token.type == TokenType.ODELJAK:
-                if self.current_token.type == TokenType.ODELJAK:
-                    self.current_token.type = TokenType.TACKA
-                    self.current_token.name = "тачка"
+                #if self.current_token.type == TokenType.ODELJAK:
+                    #self.current_token.type = TokenType.TACKA
+                    #self.current_token.name = "тачка"
                 self.reason()
             # elif self.current_token.type <= TokenType.STAV:
             #     self.reason()

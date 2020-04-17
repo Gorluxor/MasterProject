@@ -1,0 +1,40 @@
+61.xml : Not valid with schema failed validating <Element '{http://docs.oasis-open.org/legaldocml/ns/akn/3.0}td' at 0x0000022C6A97C9A8> with Xsd11Group(model='sequence', occurs=[1, 1])
+76.xml : Not valid with schema failed validating '' with Xsd11Union(member_types=[Xsd11AtomicRestriction(primitive_type='date'), Xsd11AtomicRestriction(primitive_type='dateTime')])
+98.xml : Not well formed xml document 
+122.xml : Not valid with schema failed validating '' with Xsd11Union(member_types=[Xsd11AtomicRestriction(primitive_type='date'), Xsd11AtomicRestriction(primitive_type='dateTime')])
+150.xml : Not well formed xml document 
+195.xml : Not well formed xml document 
+196.xml : Not valid with schema failed validating <Element '{http://docs.oasis-open.org/legaldocml/ns/akn/3.0}content' at 0x0000022C68CAB408> with Xsd11Group(model='sequence', occurs=[0, None])
+437.xml : Not well formed xml document 
+448.xml : Not well formed xml document 
+562.xml : Not well formed xml document 
+575.xml : Not valid with schema failed validating '2005-06-31' with Xsd11Union(member_types=[Xsd11AtomicRestriction(primitive_type='date'), Xsd11AtomicRestriction(primitive_type='dateTime')])
+601.xml : Not well formed xml document 
+626.xml : Not valid with schema failed validating '' with Xsd11Union(member_types=[Xsd11AtomicRestriction(primitive_type='date'), Xsd11AtomicRestriction(primitive_type='dateTime')])
+628.xml : Not valid with schema failed validating <Element '{http://docs.oasis-open.org/legaldocml/ns/akn/3.0}content' at 0x0000022C68F50278> with Xsd11Group(model='sequence', occurs=[0, None])
+706.xml : Not well formed xml document 
+707.xml : Not well formed xml document 
+708.xml : Not well formed xml document 
+710.xml : Not well formed xml document 
+799.xml : Not valid with schema failed validating '' with Xsd11Union(member_types=[Xsd11AtomicRestriction(primitive_type='date'), Xsd11AtomicRestriction(primitive_type='dateTime')])
+820.xml : Not valid with schema failed validating <Element '{http://docs.oasis-open.org/legaldocml/ns/akn/3.0}content' at 0x0000022C68427EF8> with Xsd11Group(model='sequence', occurs=[0, None])
+860.xml : Not valid with schema failed validating '' with Xsd11Union(member_types=[Xsd11AtomicRestriction(primitive_type='date'), Xsd11AtomicRestriction(primitive_type='dateTime')])
+953.xml : Not well formed xml document 
+954.xml : Not valid with schema failed validating '' with Xsd11Union(member_types=[Xsd11AtomicRestriction(primitive_type='date'), Xsd11AtomicRestriction(primitive_type='dateTime')])
+955.xml : Not valid with schema failed validating '' with Xsd11Union(member_types=[Xsd11AtomicRestriction(primitive_type='date'), Xsd11AtomicRestriction(primitive_type='dateTime')])
+997.xml : Not well formed xml document 
+1002.xml : Not valid with schema failed validating '' with Xsd11Union(member_types=[Xsd11AtomicRestriction(primitive_type='date'), Xsd11AtomicRestriction(primitive_type='dateTime')])
+1009.xml : Not valid with schema failed validating '' with Xsd11Union(member_types=[Xsd11AtomicRestriction(primitive_type='date'), Xsd11AtomicRestriction(primitive_type='dateTime')])
+1010.xml : Not valid with schema failed validating '' with Xsd11Union(member_types=[Xsd11AtomicRestriction(primitive_type='date'), Xsd11AtomicRestriction(primitive_type='dateTime')])
+1011.xml : Not valid with schema failed validating '' with Xsd11Union(member_types=[Xsd11AtomicRestriction(primitive_type='date'), Xsd11AtomicRestriction(primitive_type='dateTime')])
+1016.xml : Not well formed xml document 
+1017.xml : Not well formed xml document 
+1133.xml : Not valid with schema failed validating <Element '{http://docs.oasis-open.org/legaldocml/ns/akn/3.0}content' at 0x0000022C681A75E8> with Xsd11Group(model='sequence', occurs=[0, None])
+1137.xml : Not valid with schema failed validating '' with Xsd11Union(member_types=[Xsd11AtomicRestriction(primitive_type='date'), Xsd11AtomicRestriction(primitive_type='dateTime')])
+1201.xml : Not valid with schema failed validating '' with Xsd11Union(member_types=[Xsd11AtomicRestriction(primitive_type='date'), Xsd11AtomicRestriction(primitive_type='dateTime')])
+1219.xml : Not valid with schema failed validating '' with Xsd11Union(member_types=[Xsd11AtomicRestriction(primitive_type='date'), Xsd11AtomicRestriction(primitive_type='dateTime')])
+1234.xml : Not valid with schema failed validating '' with Xsd11Union(member_types=[Xsd11AtomicRestriction(primitive_type='date'), Xsd11AtomicRestriction(primitive_type='dateTime')])
+1246.xml : Not valid with schema failed validating '' with Xsd11Union(member_types=[Xsd11AtomicRestriction(primitive_type='date'), Xsd11AtomicRestriction(primitive_type='dateTime')])
+1249.xml : Not valid with schema failed validating <Element '{http://docs.oasis-open.org/legaldocml/ns/akn/3.0}content' at 0x0000022C6823FE58> with Xsd11Group(model='sequence', occurs=[0, None])
+1267.xml : Not valid with schema failed validating '' with Xsd11Union(member_types=[Xsd11AtomicRestriction(primitive_type='date'), Xsd11AtomicRestriction(primitive_type='dateTime')])
+1301.xml : Not well formed xml document 
