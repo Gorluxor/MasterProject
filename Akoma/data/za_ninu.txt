@@ -4,3 +4,19 @@
 981.html:list index out of range
 981.html:list index out of range
 981.html:list index out of range
+78.html:'NoneType' object has no attribute 'regs'
+113.html:'NoneType' object has no attribute 'regs'
+192.html:'NoneType' object has no attribute 'regs'
+223.html:'NoneType' object has no attribute 'regs'
+241.html:'NoneType' object has no attribute 'regs'
+244.html:'NoneType' object has no attribute 'regs'
+252.html:'NoneType' object has no attribute 'regs'
+406.html:'NoneType' object has no attribute 'regs'
+443.html:'NoneType' object has no attribute 'regs'
+465.html:'NoneType' object has no attribute 'regs'
+625.html:'NoneType' object has no attribute 'regs'
+638.html:'NoneType' object has no attribute 'regs'
+642.html:'NoneType' object has no attribute 'regs'
+649.html:'NoneType' object has no attribute 'regs'
+655.html:'NoneType' object has no attribute 'regs'
+1250.html:'NoneType' object has no attribute 'regs'
