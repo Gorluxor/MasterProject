@@ -158,7 +158,7 @@ if __name__ == "__main__":
     """
 """
 
-    nastavi = "651.html"  # ""651.html"
+    nastavi = "626.html"  # ""651.html"
     idemo = False
     stani = [
         "1005.html", "980.html", "986.html", "981.html", "210.html", "1033.html"  # problematicni PROVERITI 176

@@ -47,18 +47,18 @@ further = "(\\.?\\s?,?\\s?)"
 azbuka_pattern = '[a-zA-Zабвгдђежзијклљмнњопрстћуфхцчџш]?'
 regexBroj = '[0-9]+'
 regexBrojSlovo = '[0-9]+[a-zA-Zабвгдђежзијклљмнњопрстћуфхцчџш]?'
-nabrajanje = '(члан.?.?\\s*[0-9]+' + azbuka_pattern + ')' + further + '(став.?\\s*[0-9]+' + azbuka_pattern + ')?' + further + '(тач.?.?.?\.?.?\\s*[0-9]+(?!(°|.°|..°))' + azbuka_pattern + '\)?)?'
+nabrajanje = '(члан.?.?\\s*[0-9]+' + azbuka_pattern + ')' + further + '(став.?\\s*[0-9]+' + azbuka_pattern + ')?' + further + '(тач(ка|ки|ке|ку|ком)?\.?\\s*[0-9]+(?!(°|.°|..°))' + azbuka_pattern + '\)?)?'
 nabrajanjeCl = '(чл.\\s*[0-9]+' + azbuka_pattern + '\.?)(((,)|(.?\\s*и)|(\\s*или\\s*))(\\s*[0-9]+' + azbuka_pattern + '\.?))*'
 nabrajanjeClDoCl = '(чл.\\s*[0-9]+' + azbuka_pattern + '\.)(\\s*до\\s*)((чл.\\s*)?[0-9]+' + azbuka_pattern + '(\.|,))'
 nabrajanjeClCrtaClan = '(чл.\\s*[0-9]+' + azbuka_pattern + '\.?)\\s*(–|-|−|‒)\\s*((чл.\\s*)?[0-9]+' + azbuka_pattern + '\.?)'
-nabrajanje2 = '(члан.?.?\\s*[0-9]+' + azbuka_pattern + ')?' + further + '(став.?.?\\s*[0-9]+)?' + further + '(тач.?.?.?\.?.?\\s*[0-9]+(?!(°|.°|..°))' + azbuka_pattern + ')?'
-nabrajanjeStavTacka = '(став(ом|а|у)?\\s*[0-9]+' + azbuka_pattern + '\.?)\\s*(тач.?.?.?\.?\.?\\s*([0-9]+(?!(°|.°|..°))' + azbuka_pattern + ')\)?)?'
-nabrajanjeTacka = '(члан.?.?\\s*[0-9]+' + azbuka_pattern + ')?\\s*(став.?.?\\s*[0-9]+' + azbuka_pattern + ')?\\s*(тач.?.?.?\.?\\s*[0-9]+(?!(°|.°|..°))' + azbuka_pattern + ')'
+nabrajanje2 = '(члан.?.?\\s*[0-9]+' + azbuka_pattern + ')?' + further + '(став.?.?\\s*[0-9]+)?' + further + '(тач(ка|ки|ке|ку|ком)?\.?\\s*[0-9]+(?!(°|.°|..°))' + azbuka_pattern + ')?'
+nabrajanjeStavTacka = '(став(ом|а|у)?\\s*[0-9]+' + azbuka_pattern + '\.?)\\s*(тач(ка|ки|ке|ку|ком)?\.?\\s*([0-9]+(?!(°|.°|..°))' + azbuka_pattern + ')\)?)?'
+nabrajanjeTacka = '(члан.?.?\\s*[0-9]+' + azbuka_pattern + ')?\\s*(став.?.?\\s*[0-9]+' + azbuka_pattern + ')?\\s*(тач(ка|ки|ке|ку|ком)?\.?\\s*[0-9]+(?!(°|.°|..°))' + azbuka_pattern + ')'
 nabrajanjeClZakon = '(члан.?\\s*([0-9]+' + azbuka_pattern + ').?)(\\s*)(Закона\\s*(–|-|−|‒)\\s*([0-9]+)\/([0-9]+)-[0-9]+)'
 nabrajanjeStavUzastopno = '(чл.?.?.?.?\.?\\s*[0-9]+' + azbuka_pattern + '.?\\s*)?(ст.(?<=[ ,.])\\s*[0-9]+' + azbuka_pattern + '\.?)((\\s*до\\s*)|(\\s*–\\s*|\\s*-\\s*|\\s*−\\s*))((ст.\\s*)?[0-9]+' + azbuka_pattern + '(\.|,)?)'
 nabrajanjeStav = '(чл.?.?.?.?\.?\\s*[0-9]+' + azbuka_pattern + '.?\\s*)?(ст.(?<=[ ,.])\\s*[0-9]+' + azbuka_pattern + '\.?)(((,)|(.?\\s*и)|(\\s*или\\s*))(\\s*[0-9]+' + azbuka_pattern + '\.?))*'
-nabrajanjeTacakaUzastopno = '(чл.?.?.?.?\.?\\s*[0-9]+' + azbuka_pattern + '.?\\s*)?(ст.?.?.?.?\.?(?<=[ ,.])\\s*[0-9]+' + azbuka_pattern + '\.?)?\\s*(тач.?.?.?.?\.?[0-9]+(?!(°|.°|..°))' + azbuka_pattern + '(\.|\))?)((\\s*до\\s*)|(\\s*–\\s*|\\s*-\\s*|\\s*−\\s*))((тач.?.?.?.?\.?\\s*)?[0-9]+' + azbuka_pattern + '(\.|,|\))?)'
-nabrajanjeTackaNeuzastopno = '(чл.?.?.?.?\.?\\s*[0-9]+' + azbuka_pattern + '.?\\s*)?(ст.?.?.?.?\.?(?<=[ ,.])\\s*[0-9]+' + azbuka_pattern + '\.?)?\\s*(тач.?.?.?.?\.?[0-9]+(?!(°|.°|..°))' + azbuka_pattern + '(\.|\))?)(((,)|(.?\\s*и)|(\\s*или\\s*))(\\s*[0-9]+' + azbuka_pattern + '(\)|\.)?))*'
+nabrajanjeTacakaUzastopno = '(чл.?.?.?.?\.?\\s*[0-9]+' + azbuka_pattern + '.?\\s*)?(ст.?.?.?.?\.?(?<=[ ,.])\\s*[0-9]+' + azbuka_pattern + '\.?)?\\s*(тач(ка|ки|ке|ку|ком)?\.?\\s*[0-9]+(?!(°|.°|..°))' + azbuka_pattern + '(\.|\))?)((\\s*до\\s*)|(\\s*–\\s*|\\s*-\\s*|\\s*−\\s*))((тач(ка|ки|ке|ку|ком)?\.?\\s*)?[0-9]+' + azbuka_pattern + '(\.|,|\))?)'
+nabrajanjeTackaNeuzastopno = '(чл.?.?.?.?\.?\\s*[0-9]+' + azbuka_pattern + '.?\\s*)?(ст.?.?.?.?\.?(?<=[ ,.])\\s*[0-9]+' + azbuka_pattern + '\.?)?\\s*(тач(ка|ки|ке|ку|ком)?\.?\\s*[0-9]+(?!(°|.°|..°))' + azbuka_pattern + '(\.|\))?)(((,)|(.?\\s*и)|(\\s*или\\s*))(\\s*[0-9]+' + azbuka_pattern + '(\)|\.)?))*'
 nabrajanjeDrZakon = '([0-9]+)\/([0-9]+) – др\. закон'
 nabrajanjeSluzbeniGlasnikDatum = '([0-9]+)(\s*од\s*[0-9]+.*?)([0-9]+)'
 nabrajanjeDrZakonDatum = '([0-9]+\.?)(\\s*од\\s*[0-9]+.*?)([0-9]+)(\\s*-\\s*др\.?\\s*закон)'
@@ -533,7 +533,7 @@ def add_refs(stablo, stringo, this_id):
 
     for el_clan in listaClanova:  # Primer pristupa svakom članu
         clan_id = el_clan.attrib['wId']
-        if ("deo8-clan192" in clan_id):
+        if ("deo6-gla1-od2-clan613" in clan_id):
             print("")
         for el_stav in el_clan.iter('paragraph'):
             stav_id = el_stav.attrib['wId']
