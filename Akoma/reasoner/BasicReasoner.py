@@ -1,7 +1,9 @@
 try:
     from Akoma.tokenizer.TokenType import TokenType
+    # from Akoma.tokenizer import patterns
 except ModuleNotFoundError:
     try:
+        # from tokenizer import patterns
         from tokenizer.TokenType import TokenType
     except ModuleNotFoundError:
         print("Error")
@@ -55,7 +57,10 @@ class BasicReasoner():
             else:
                 self.preface.append(self.current_token)
             if body:
-                self.reason()
+                try:
+                    self.reason()
+                except NameError as e:
+                    break
 
     def add_odeljak(self):
         wid = self.sanity(self.get_identification(self.current_token))
@@ -67,7 +72,10 @@ class BasicReasoner():
         if self.current_token is None:
             return
         if self.current_token in self.preface[1::-1]:
-             self.stop = True
+            self.stop = True
+        if self.current_token.value is not None:
+            if self.current_token.value == self.preface[0].value:
+                raise NameError("Preface repeating itself")
         if self.current_token.type == TokenType.DEO and self.current_token.value is None:
             self.deo_glava_find_title()
         elif self.current_token.type == TokenType.ODELJAK:
