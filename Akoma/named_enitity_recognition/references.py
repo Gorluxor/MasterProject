@@ -58,9 +58,10 @@ nabrajanjeClZakon = '(члан.?\\s*([0-9]+' + azbuka_pattern + ').?)(\\s*)(За
 nabrajanjeStavUzastopno = '(чл.?.?.?.?\.?\\s*[0-9]+' + azbuka_pattern + '.?\\s*)?(ст.(?<=[ ,.])\\s*[0-9]+' + azbuka_pattern + '\.?)((\\s*до\\s*)|(\\s*–\\s*|\\s*-\\s*|\\s*−\\s*))((ст.\\s*)?[0-9]+' + azbuka_pattern + '(\.|,)?)'
 nabrajanjeStav = '(чл.?.?.?.?\.?\\s*[0-9]+' + azbuka_pattern + '.?\\s*)?(ст.(?<=[ ,.])\\s*[0-9]+' + azbuka_pattern + '\.?)(((,)|(.?\\s*и)|(\\s*или\\s*))(\\s*[0-9]+' + azbuka_pattern + '\.?))+'
 nabrajanjeTacakaUzastopno = '(чл.?.?.?.?\.?\\s*[0-9]+' + azbuka_pattern + '.?\\s*)?(ст.?.?.?.?\.?(?<=[ ,.])\\s*[0-9]+' + azbuka_pattern + '\.?)?\\s*(тач.?.?.?.?\.?[0-9]+(?!(°|.°|..°))' + azbuka_pattern + '(\.|\))?)((\\s*до\\s*)|(\\s*–\\s*|\\s*-\\s*|\\s*−\\s*))((тач.?.?.?.?\.?\\s*)?[0-9]+' + azbuka_pattern + '(\.|,|\))?)'
-nabrajanjeTackaNeuzastopno = '(чл.?.?.?.?\.?\\s*[0-9]+' + azbuka_pattern + '.?\\s*)?(ст.?.?.?.?\.?(?<=[ ,.])\\s*[0-9]+' + azbuka_pattern + '\.?)?\\s*(тач.?.?.?.?\.?[0-9]+(?!(°|.°|..°))' + azbuka_pattern + '(\.|\))?)(((,)|(.?\\s*и)|(\\s*или\\s*))(\\s*[0-9]+' + azbuka_pattern + '(\)|\.)?))+'
+nabrajanjeTackaNeuzastopno = '(чл.?.?.?.?\.?\\s*[0-9]+' + azbuka_pattern + '.?\\s*)?(ст.?.?.?.?\.?(?<=[ ,.])\\s*[0-9]+' + azbuka_pattern + '\.?)?\\s*(тач.?.?.?.?\.?[0-9]+(?!(°|.°|..°))' + azbuka_pattern + '(\.|\))?)(((,)|(.?\\s*и)|(\\s*или\\s*))(\\s*[0-9]+' + azbuka_pattern + '(\)|\.)?))*'
 nabrajanjeDrZakon = '([0-9]+)\/([0-9]+) – др\. закон'
-nabrajanjeSluzbeniGlasnikDatum = '(Службени.*?)([0-9]+)(\\s*од\\s*[0-9]+.*?)([0-9]+)(\\s*([,и])\\s*([0-9]+)(\\s*од\\s*[0-9]+.*?)([0-9]+))*'
+nabrajanjeSluzbeniGlasnikDatum = '([0-9]+)(\s*од\s*[0-9]+.*?)([0-9]+)'
+nabrajanjeDrZakonDatum = '([0-9]+\.?)(\\s*од\\s*[0-9]+.*?)([0-9]+)(\\s*-\\s*др\.?\\s*закон)'
 
 def make_reference(cnt, this_id, start, end, ending, stringo, longer, useLonger=True):
     open = "<ref " + "wId=\"ref" + str(cnt) + "\" href=\"akn" + this_id + "/!main~" + ending + "\" >"
@@ -196,6 +197,10 @@ def get_reference_for_tacka_nabrajanje(m, stringo, clan_id="", stav_id = ""):
         m2 = re.search("([0-9]+" + azbuka_pattern + ")", m.group(8))
         if m2:
             retval += "point_" + m2.group(0) + "_"
+    elif m.group(9):
+        m2 = re.search("([0-9]+" + azbuka_pattern + ")", m.group(9))
+        if m2:
+            retval += "point_" + m2.group(0) + "_"
     return retval[:-1]
 
 def get_reference_for_clan_stav_tacka(m):
@@ -234,6 +239,7 @@ def get_ending2(m, clan_id):
 
 
 def get_ending_clan_nabrajanje(stringo, m, cnt=0, this_id="", longer=0):
+    beginLonger = longer
     stringStart = m.regs[0][0] + longer
     stringEnd = m.regs[0][1] + longer
     stringToScan = stringo[stringStart:stringEnd]
@@ -241,9 +247,11 @@ def get_ending_clan_nabrajanje(stringo, m, cnt=0, this_id="", longer=0):
     matches = re.findall(regexBrojSlovo, stringToScan)
     for i in matches:
         ending = "art_" + str(i)
-        start = re.search(" " + i, stringo).regs[0][0]
-        end = start + len(" " + i)
+        match = re.search(i, stringToScan)
+        start = match.regs[0][0] + m.regs[0][0] + beginLonger
+        end = start + len(match.group(0))
         stringo, longer, cnt = make_reference(cnt, this_id, start, end, ending, stringo, longer, False)
+        beginLonger = beginLonger + (longer - beginLonger)
     retval = (stringo, longer, cnt)
     return retval
 
@@ -287,9 +295,13 @@ def get_ending_tacka_nabrajanje(stringo, m, cnt=0, this_id="", longer=0, clan_id
         pom_string += "para_" + pomBroj[0] + "__"
     for i in matches:
         ending = pom_string + "point_" + str(i)
-        start = re.search(" " + i, stringo).regs[0][0]
-        end = start + len(" " + i)
-        stringo, longer, cnt = make_reference(cnt, this_id, start, end, ending, stringo, longer, False)
+        match = re.search("[ (]" + i, stringo)
+        if match:
+            start = match.regs[0][0]
+            end = start + len(match.group(0))
+            stringo, longer, cnt = make_reference(cnt, this_id, start, end, ending, stringo, longer, False)
+        else:
+            print(m.group(0))
     retval = (stringo, longer, cnt)
     return retval
 
@@ -321,8 +333,9 @@ def add_refs1(stringo, cnt, this_id):
     for m in re.finditer(nabrajanje + '\\s*(овог)?', stringo):
         foundStNabrajanje = re.search(nabrajanjeStav, stringo[m.regs[0][0] + longer: m.regs[0][1] + longer + 20])
         foundTackaNabrajanje = re.search(nabrajanjeTackaNeuzastopno, stringo[m.regs[0][0] + longer: m.regs[0][1] + longer + 20])
+        foundTackaNabrajanjeUzastopno = re.search(nabrajanjeTacakaUzastopno,stringo[m.regs[0][0] + longer: m.regs[0][1] + longer + 20])
         if not re.search(nabrajanjeClZakon,
-                         stringo[m.regs[0][0] + longer: m.regs[0][1] + longer + 20]) and not foundStNabrajanje and not foundTackaNabrajanje:
+                         stringo[m.regs[0][0] + longer: m.regs[0][1] + longer + 20]) and not foundStNabrajanje and not foundTackaNabrajanje and not foundTackaNabrajanjeUzastopno:
             ending = get_ending(m)
             stringo, longer, cnt = make_reference(cnt, this_id, m.start(), m.end(), ending, stringo, longer)
     longer = 0
@@ -353,7 +366,7 @@ def add_refsCl(stringo, cnt, this_id):
 
 
 def add_refs_sluzbeni_glasnik(stringo, cnt):
-    for m in re.finditer(nabrajanje2 + '(Службени.*?)([0-9]+\/[0-9]+)(\s*([,и])\s*([0-9]+\/[0-9]+))*', stringo):
+    for m in re.finditer(nabrajanje2 + '(Службени.{0,25}?)([0-9]+\/[0-9]+)(\s*([,и])\s*([0-9]+\/[0-9]+))*', stringo):
         matches = re.findall("([0-9]+)\/([0-9]+)", m.group(0))
         for i in matches:
             longer = 0
@@ -376,9 +389,9 @@ def add_refs_sluzbeni_glasnik(stringo, cnt):
 def add_refs3(stringo, cnt, this_id, clan_id):
     longer = 0
     for m in re.finditer(nabrajanjeStavTacka + '\\s*(овог)?', stringo, re.IGNORECASE):
-        foundTackaNabrajanje = re.search(nabrajanjeTackaNeuzastopno,
-                                         stringo[m.regs[0][0] + longer: m.regs[0][1] + longer + 20])
-        if not re.search(nabrajanje + '\\s*(овог)?', stringo[m.regs[0][0] + longer - 40: m.regs[0][1] + longer]) and not foundTackaNabrajanje:
+        foundTackaNabrajanje = re.search(nabrajanjeTackaNeuzastopno, stringo[m.regs[0][0] + longer: m.regs[0][1] + longer + 20])
+        foundTackaNabrajanjeUzastopno = re.search(nabrajanjeTacakaUzastopno, stringo[m.regs[0][0] + longer: m.regs[0][1] + longer + 20])
+        if not re.search(nabrajanje + '\\s*(овог)?', stringo[m.regs[0][0] + longer - 40: m.regs[0][1] + longer]) and not foundTackaNabrajanje and not foundTackaNabrajanjeUzastopno:
             ending = get_ending2(m, clan_id)
 
             stringo, longer, cnt = make_reference(cnt, this_id, m.start(), m.end(), ending, stringo, longer)
@@ -429,15 +442,6 @@ def add_refs_tacka(stringo, cnt, this_id, clan_id, stav_id):
 def add_refs_tackaNabrajanje(stringo, cnt, this_id, clan_id, stav_id):
     longer = 0
     for m in re.finditer(nabrajanjeTackaNeuzastopno + '\\s*(овог)?', stringo):
-        pomString = stringo[m.regs[0][0] + longer - 40: m.regs[0][1] + longer]
-        if pomString == "":
-            pomString = stringo[m.regs[0][0] + longer - 30: m.regs[0][1] + longer]
-            if pomString == "":
-                pomString = stringo[m.regs[0][0] + longer - 20: m.regs[0][1] + longer]
-                if pomString == "":
-                    pomString = stringo[m.regs[0][0] + longer - 10: m.regs[0][1] + longer]
-        if not re.search(nabrajanje + '\\s*(овог)?', pomString) and not re.search(nabrajanjeStavTacka + '\\s*(овог)?',
-                                                                                  pomString):
             clan_id = m.group(1) if m.group(1) else clan_id
             stav_id = m.group(2) if m.group(2) else stav_id
             findPattern = re.match(nabrajanjeTacakaUzastopno, stringo[m.regs[0][0]:m.regs[0][1] + 20])
@@ -464,23 +468,29 @@ def add_refs_dr_zakon(stringo, cnt, this_id):
     return stringo, cnt
 
 def add_refs_sluzbeni_glasnik_datum(stringo, cnt):
-    for m in re.finditer(nabrajanjeSluzbeniGlasnikDatum, stringo):
-        matches = re.findall("([0-9]+)(\s*од\s*[0-9]+.*?)([0-9]+)", m.group(0))
-        for i in matches:
-            longer = 0
-            m1 = re.search("(" + i[0] + ")" + "(" + i[1] + ")" + "(" + i[2] + ")", stringo)
-            if m1:
-                open = "<ref " + "wId=\"ref" + str(cnt) + "\" href=\"akn/rs/act/" + m1.group(3) + "/" + m1.group(
-                    1) + "/srp@\">"
-            else:
-                open = "<ref " + "wId=\"ref" + str(cnt) + "\">"
-            stringo = stringo[:m1.start()] + open + stringo[m1.start():]
-            longer += len(open)
+    longer = 0
+    for m1 in re.finditer(nabrajanjeSluzbeniGlasnikDatum, stringo):
+        open = "<ref " + "wId=\"ref" + str(cnt) + "\" href=\"akn/rs/act/" + m1.group(3) + "/" + m1.group(
+                1) + "/srp@\">"
+        stringo = stringo[:m1.start() + longer] + open + stringo[m1.start() + longer:]
+        longer += len(open)
 
-            stringo = stringo[:m1.end() + longer] + "</ref>" + stringo[m1.end() + longer:]
-            longer += len("</ref>")
-            cnt += 1
+        stringo = stringo[:m1.end() + longer] + "</ref>" + stringo[m1.end() + longer:]
+        longer += len("</ref>")
+        cnt += 1
+    return stringo, cnt
 
+def add_refs_dr_zakon_datum(stringo, cnt):
+    longer = 0
+    for m in re.finditer(nabrajanjeDrZakonDatum, stringo):
+        open = "<ref " + "wId=\"ref" + str(cnt) + "\" href=\"akn/rs/act/" + m.group(3) + "/" + m.group(
+                1) + "/srp@\">"
+        stringo = stringo[:m.start()] + open + stringo[m.start():]
+        longer += len(open)
+
+        stringo = stringo[:m.end() + longer] + "</ref>" + stringo[m.end() + longer:]
+        longer += len("</ref>")
+        cnt += 1
     return stringo, cnt
 
 def add_refs(stablo, stringo, this_id):
@@ -490,20 +500,21 @@ def add_refs(stablo, stringo, this_id):
 
     for el_clan in listaClanova:  # Primer pristupa svakom članu
         clan_id = el_clan.attrib['wId']
-        if ("clan7" in clan_id):
+        if ("clan1" in clan_id):
             print("")
         for el_stav in el_clan.iter('paragraph'):
             stav_id = el_stav.attrib['wId']
             if stav_id not in listaObradjenihParagrafa:
                 if el_stav.attrib.get('class') is not 'special':
                     for el_content_p_tag in el_stav.iter('p'):
-                        stav_text = el_content_p_tag.text.replace(">", "~vece;").replace("<", "~manje;").replace("\"", "~navod;")
+                        stav_text = el_content_p_tag.text.replace(">", "~vece;").replace("<", "~manje;").replace("\"", "~navod;").replace("&gt;", "~vece;").replace("&lt;", "~manje;").replace("\"", "~navod;")
                         stringoRet, cnt = add_refs1(stav_text, cnt, this_id)
                         stringoRet, cnt = add_refsCl(stringoRet, cnt, this_id)
                         # print("PHASE 2")
                         stringoRet, cnt = add_refs_sluzbeni_glasnik(stringoRet, cnt)
                         stringoRet, cnt = add_refs_sluzbeni_glasnik_datum(stringoRet, cnt)
                         stringoRet, cnt = add_refs_dr_zakon(stringoRet, cnt, this_id)
+                        # stringoRet, cnt = add_refs_dr_zakon_datum(stringoRet, cnt)
                         stringoRet, cnt = add_refs3(stringoRet, cnt, this_id, clan_id)
                         stringoRet, cnt = add_refs_stavNabrajanje(stringoRet, cnt, this_id, clan_id)
                         stringoRet, cnt = add_refs_tacka(stringoRet, cnt, this_id, clan_id, stav_id)
