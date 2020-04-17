@@ -85,6 +85,9 @@ class AkomaBuilder():
     def add_token(self, token, identification):
         if identification == STOPWORD:
             return
+        if token.special is not None:
+            token.special.tail = ""
+            token.special.text = ""
         # print(token.name, identification, token.value)
         if token.type == TokenType.TACKA and token.name == 'тачка':  # QUICK FIX
             token.name = eng_tags[TokenType.TACKA]
