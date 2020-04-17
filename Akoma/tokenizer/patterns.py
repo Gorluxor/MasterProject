@@ -123,8 +123,7 @@ def is_glava(text):
             num = Convert.convert_serbian_number(m.group(2))
         return FoundToken(TokenType.GLAVA, eng_tags[TokenType.GLAVA], None, num,
                           numberstr=m.group(2))
-
-    m = re.match("(" + ROMAN_NUMERAL + ")(\.) (.*)", text)
+    m = re.match("(" + ROMAN_NUMERAL + ")(\. | )(.*)", text)
     if m:
         return FoundToken(TokenType.GLAVA, eng_tags[TokenType.GLAVA], m.group(3), roman_to_int(m.group(1)),
                           numberstr=m.group(1))
