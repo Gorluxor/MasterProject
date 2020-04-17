@@ -45,9 +45,18 @@ class Metadata():
         self.lifecycle = self.parse_lifecycle(list[0])
 
     def convert_date(self, date):
+        unknown = "0001-01-01"
+        if date is None:
+            return unknown
         if date == "":
-            return ""
+            return unknown
+        if date == unknown:
+            return unknown
         els = date.split(".")
+        if len(els) == 1:
+            els = date.split("-")
+        if len(els[0]) == 4:
+            return date
         return els[2]+"-"+els[1]+"-"+els[0]
 
     def parse_lifecycle(self, title):
@@ -78,12 +87,13 @@ class Metadata():
 
     def parse_workflow(self, usvajanje, stupanje, primena):
         retval = []
+
         if usvajanje != "":
-            retval.append({"id": "usvajanje", "date": usvajanje})
+            retval.append({"id": "usvajanje", "date":  self.convert_date(usvajanje)})
         if usvajanje != "":
-            retval.append({"id": "stupanje_na_snagu", "date": stupanje})
+            retval.append({"id": "stupanje_na_snagu", "date":  self.convert_date(stupanje)})
         if usvajanje != "":
-            retval.append({"id": "primena", "date": primena})
+            retval.append({"id": "primena", "date":  self.convert_date(primena)})
         return retval
 
     def parse_classifications(self, vrsta, oblast, grupa):
