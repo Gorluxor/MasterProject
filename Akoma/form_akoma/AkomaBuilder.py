@@ -190,7 +190,7 @@ class AkomaBuilder():
                 content.append(block)
         elif token.value is not None:
             p = ET.Element("p")
-            p.text = token.value
+            p.text = token.value.replace(">", "~vece;").replace("<", "~manje;").replace("\"", "~navod;").replace("&gt;", "~vece;").replace("&lt;", "~manje;").replace("\"", "~navod;")
             content.append(p)
             base.append(content)
 
