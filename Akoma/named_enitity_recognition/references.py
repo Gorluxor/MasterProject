@@ -549,8 +549,8 @@ def add_refs(stablo, stringo, this_id):
                 stringoRet, cnt = add_refs_dr_zakon(stringoRet, cnt, this_id)
                 stringoRet, cnt = add_refs3(stringoRet, cnt, this_id, clan_id)
                 stringoRet, cnt = add_refs_stavNabrajanje(stringoRet, cnt, this_id, clan_id)
-                stringoRet, cnt = add_refs_tacka(stringoRet, cnt, this_id, clan_id, stav_id)
-                stringoRet, cnt = add_refs_tackaNabrajanje(stringoRet, cnt, this_id, clan_id, stav_id)
+                stringoRet, cnt = add_refs_tacka(stringoRet, cnt, this_id, clan_id, "")
+                stringoRet, cnt = add_refs_tackaNabrajanje(stringoRet, cnt, this_id, clan_id, "")
                 el_heading.text = stringoRet
 
     return stablo
