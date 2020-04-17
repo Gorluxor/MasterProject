@@ -237,7 +237,9 @@ def get_ending2(m, clan_id):
     # print(retval[:-1])
     pomLista = clan_id.split('-')
     pomBroj = re.findall(regexBroj, pomLista[len(pomLista) - 1])
-    pom_string = "art_" + pomBroj[0] + "__"
+    pom_string = ""
+    if len(pomBroj) != 0:
+        pom_string = "art_" + pomBroj[0] + "__"
     retval = pom_string + retval
     return retval[:-1]
 
@@ -547,7 +549,7 @@ def add_refs(stablo, stringo, this_id):
         for el_heading in el_clan.iter('heading'):
             if el_heading.text:
                 heading_text = el_heading.text
-                stringoRet, cnt = add_all_references(heading_text, cnt, this_id, "", "")
+                stringoRet, cnt = add_all_references(heading_text, cnt, this_id, clan_id, "")
                 el_heading.text = stringoRet
 
     for elem in stablo.iter(tag='longTitle'):
