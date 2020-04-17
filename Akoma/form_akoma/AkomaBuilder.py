@@ -127,12 +127,14 @@ class AkomaBuilder():
                 p = element.find('p')
                 if p is None:
                     new_el = ET.Element('p')
-                    new_el.text = element.text.replace("<", "&lt;").replace("\"", "").replace(">", "&gt;")
+                    if element.text is not None:
+                        new_el.text = element.text.replace("<", "&lt;").replace("\"", "").replace(">", "&gt;")
                     element.text = ""
                     element.append(new_el)
                 else:
                     for p in element.iter(tag="p"):
-                        p.text = p.text.replace("<", "&lt;").replace("\"", "").replace(">", "&gt;")
+                        if p.text is not None:
+                            p.text = p.text.replace("<", "&lt;").replace("\"", "").replace(">", "&gt;")
             element.attrib = dict()
         return el
 
