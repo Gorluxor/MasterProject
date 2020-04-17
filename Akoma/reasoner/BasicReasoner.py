@@ -64,8 +64,12 @@ class BasicReasoner():
 
     def add_odeljak(self):
         wid = self.sanity(self.get_identification(self.current_token))
-        self.akomabuilder.add_token(self.current_token,wid)
-        self.current_token = self.tokenizer.get_next_token()
+        next_token = self.tokenizer.get_next_token()
+        if next_token.type == TokenType.TACKA:
+            self.current_token.type = TokenType.TACKA
+            self.current_token.name = "point"
+            self.akomabuilder.add_token(self.current_token, wid)
+        self.current_token = next_token
         self.reason()
 
     def reason(self):
