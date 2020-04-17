@@ -74,8 +74,9 @@ class BasicReasoner():
         if self.current_token in self.preface[1::-1]:
             self.stop = True
         if self.current_token.value is not None:
-            if self.current_token.value == self.preface[0].value:
-                raise NameError("Preface repeating itself")
+            if len(self.preface)>0:
+                if self.current_token.value == self.preface[0].value:
+                    raise NameError("Preface repeating itself")
         if self.current_token.type == TokenType.DEO and self.current_token.value is None:
             self.deo_glava_find_title()
         elif self.current_token.type == TokenType.ODELJAK:

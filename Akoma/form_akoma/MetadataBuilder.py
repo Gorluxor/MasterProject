@@ -5,13 +5,13 @@ try:
     from Akoma.utilities import utilities
     from Akoma.form_akoma.Metadata import Metadata
     from Akoma.preprocessing import init_akoma
-    from Akoma.tfidf.tfidf import get_tf_idf_values_document,get_tf_idf_values_from_text
+    from Akoma.tfidf.tfidf import get_tf_idf_values_document, get_tf_idf_values_from_text
 except ModuleNotFoundError:
     try:
         from utilities import utilities
         from form_akoma.Metadata import Metadata
         from preprocessing import init_akoma
-        from tfidf.tfidf import get_tf_idf_values_document,get_tf_idf_values_from_text
+        from tfidf.tfidf import get_tf_idf_values_document, get_tf_idf_values_from_text
     except ModuleNotFoundError:
         print("Error")
         exit(-1)
@@ -22,7 +22,44 @@ SOURCE = "#somebody"  # "#pravno-informacioni-sistem"
 ADDED_DATE = "-01-01"
 
 
-def fix_date(before):
+def valid_date(date,reduce=0):
+    import datetime
+    day, month, year = date.split('-')
+    is_valid_date = True
+    try:
+        datetime.datetime(int(year), int(month), int(day))
+    except ValueError:
+        is_valid_date = False
+    return is_valid_date
+
+
+def extra_fix(check):
+    yy, mm, dd = check.split('-')
+    dd = int(dd)
+    mm = int(mm)
+    yy = int(yy)
+    if mm == 1 or mm == 3 or mm == 5 or mm == 7 or mm == 8 or mm == 10 or mm == 12:
+        max1 = 31
+    elif mm == 4 or mm == 6 or mm == 9 or mm == 11:
+        max1 = 30
+    elif yy % 4 == 0 and yy % 100 != 0 or yy % 400 == 0:
+        max1 = 29
+    else:
+        max1 = 28
+
+    if mm < 1:
+        mm = 1
+    elif mm > 12:
+        mm = 12
+    if dd < 1:
+        dd = 1
+    elif dd > max1:
+        dd = max1
+    ret = str(yy)+"-"+str(mm)+"-"+str(dd)
+    return fix_date(ret, False)
+
+
+def fix_date(before,use_extra=True):
     a = before.split("-")
     if len(a) == 1:
         return before + ADDED_DATE;
@@ -30,6 +67,8 @@ def fix_date(before):
         if len(a[i]) < 2:
             a[i] = "0" + a[i]
     after = "-".join(a)
+    if use_extra:
+        return extra_fix(after)
     return after
 
 
@@ -97,7 +136,8 @@ class MetadataBuilder():
         return base
 
     def publication(self, publication):
-        base = ET.Element("publication", {"date": fix_date(publication["date"]), "name": publication["journal"].lower(),
+        date = fix_date(publication["date"])
+        base = ET.Element("publication", {"date": date, "name": publication["journal"].lower(),
                                           "showAs": publication["journal"], "number": publication["number"]})
         return base
 
