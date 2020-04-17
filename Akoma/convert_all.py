@@ -162,7 +162,7 @@ if __name__ == "__main__":
 452.xml (linija 2760) ref in ref od3-clan58-stav2-tac2"
 481.xml (linija 9526) ref in ref, deo3-gla4-od5-clan285-stav6"""
 
-    nastavi = "481.html"  # ""651.html"
+    nastavi = "8.html"  # ""651.html"
     idemo = False
     stani = [
         "1005.html", "980.html", "986.html", "981.html", "210.html", "1033.html"  # problematicni PROVERITI 176

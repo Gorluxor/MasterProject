@@ -529,11 +529,6 @@ def add_refs(stablo, stringo, this_id):
     listaClanova = get_elements(stablo, 'article', namespace="")
     listaObradjenihParagrafa = []
 
-    for elem in stablo.iter(tag='longTitle'):
-        p_text = elem[0].text
-        stringoRet, cnt = add_all_references(p_text, cnt, this_id, "", "")
-        elem[0].text = stringoRet
-
     for el_clan in listaClanova:  # Primer pristupa svakom članu
         clan_id = el_clan.attrib['wId']
         if ("deo8-clan192" in clan_id):
@@ -554,5 +549,10 @@ def add_refs(stablo, stringo, this_id):
                 heading_text = el_heading.text
                 stringoRet, cnt = add_all_references(heading_text, cnt, this_id, "", "")
                 el_heading.text = stringoRet
+
+    for elem in stablo.iter(tag='longTitle'):
+        p_text = elem[0].text
+        stringoRet, cnt = add_all_references(p_text, cnt, this_id, "", "")
+        elem[0].text = stringoRet
 
     return stablo
