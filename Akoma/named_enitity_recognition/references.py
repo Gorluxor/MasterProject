@@ -275,10 +275,14 @@ def get_ending_stav_nabrajanje(stringo, m, cnt=0, this_id="", longer=0, clan_id=
     return retval
 
 def get_ending_tacka_nabrajanje(stringo, m, cnt=0, this_id="", longer=0, clan_id="", stav_id = ""):
+    beginLonger = longer
     stringStart = m.regs[0][0] + longer
+    dodatniLonger = 0
     if clan_id != "" and m.group(1):
+        dodatniLonger = m.regs[0][0] - m.regs[1][1]
         stringStart = m.regs[1][1] + longer
     if stav_id != "" and m.group(2):
+        dodatniLonger = m.regs[2][1] - m.regs[0][0]
         stringStart = m.regs[2][1] + longer
     stringEnd = m.regs[0][1] + longer
     stringToScan = stringo[stringStart:stringEnd]
@@ -295,13 +299,11 @@ def get_ending_tacka_nabrajanje(stringo, m, cnt=0, this_id="", longer=0, clan_id
         pom_string += "para_" + pomBroj[0] + "__"
     for i in matches:
         ending = pom_string + "point_" + str(i)
-        match = re.search("[ (]" + i, stringo)
-        if match:
-            start = match.regs[0][0]
-            end = start + len(match.group(0))
-            stringo, longer, cnt = make_reference(cnt, this_id, start, end, ending, stringo, longer, False)
-        else:
-            print(m.group(0))
+        match = re.search(i, stringToScan)
+        start = match.regs[0][0] + m.regs[0][0] + beginLonger + dodatniLonger
+        end = start + len(match.group(0))
+        stringo, longer, cnt = make_reference(cnt, this_id, start, end, ending, stringo, longer, False)
+        beginLonger = beginLonger + (longer - beginLonger)
     retval = (stringo, longer, cnt)
     return retval
 
@@ -500,7 +502,7 @@ def add_refs(stablo, stringo, this_id):
 
     for el_clan in listaClanova:  # Primer pristupa svakom članu
         clan_id = el_clan.attrib['wId']
-        if ("clan1" in clan_id):
+        if ("clan13" in clan_id):
             print("")
         for el_stav in el_clan.iter('paragraph'):
             stav_id = el_stav.attrib['wId']
