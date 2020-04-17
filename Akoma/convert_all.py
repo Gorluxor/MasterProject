@@ -36,6 +36,7 @@ except ModuleNotFoundError as sureError:
 
 sys.setrecursionlimit(10000000)
 
+
 def repair_mode(act: str):
     import re
     while re.search("(\n\n\n|  )", act) is not None:
