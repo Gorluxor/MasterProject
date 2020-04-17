@@ -1,5 +1,5 @@
 import re
-
+import numpy as np
 try:
     from Akoma.utilities.utilities import *
     from Akoma.utilities.ETree import *
@@ -249,6 +249,8 @@ def get_ending_clan_nabrajanje(stringo, m, cnt=0, this_id="", longer=0):
     stringToScan = stringo[stringStart:stringEnd]
     stringToScan = stringToScan + " "
     matches = re.findall(regexBrojSlovo, stringToScan)
+    if '27ј' in matches:
+        matches.remove('27ј')
     for i in matches:
         ending = "art_" + str(i)
         match = re.search(i, stringToScan)
@@ -284,7 +286,7 @@ def get_ending_tacka_nabrajanje(stringo, m, cnt=0, this_id="", longer=0, clan_id
     stringStart = m.regs[0][0] + longer
     dodatniLonger = 0
     if clan_id != "" and m.group(1):
-        dodatniLonger = m.regs[0][0] - m.regs[1][1]
+        dodatniLonger = m.regs[1][1] - m.regs[0][0]
         stringStart = m.regs[1][1] + longer
     if stav_id != "" and m.group(2):
         dodatniLonger = m.regs[2][1] - m.regs[0][0]
@@ -458,7 +460,7 @@ def add_refs_tackaNabrajanje(stringo, cnt, this_id, clan_id, stav_id):
     for m in re.finditer(nabrajanjeTackaNeuzastopno + '\\s*(овог)?', stringo):
         clan_id = m.group(1) if m.group(1) else clan_id
         stav_id = m.group(2) if m.group(2) else stav_id
-        findPattern = re.match(nabrajanjeTacakaUzastopno, stringo[m.regs[0][0]:m.regs[0][1] + 20])
+        findPattern = re.match(nabrajanjeTacakaUzastopno, stringo[m.regs[0][0] + longer:m.regs[0][1] + 20 + longer])
         if findPattern:
             firstIndex = findPattern.regs[0][0] + m.regs[0][0] + longer
             lastIndex = findPattern.regs[0][1] + m.regs[0][0] + longer
@@ -510,15 +512,31 @@ def add_refs_dr_zakon_datum(stringo, cnt):
         cnt += 1
     return stringo, cnt
 
+def add_all_references(stav_text, cnt, this_id, clan_id, stav_id):
+    stringoRet, cnt = add_refs1(stav_text, cnt, this_id)
+    stringoRet, cnt = add_refsCl(stringoRet, cnt, this_id)
+    stringoRet, cnt = add_refs_sluzbeni_glasnik(stringoRet, cnt)
+    stringoRet, cnt = add_refs_sluzbeni_glasnik_datum(stringoRet, cnt)
+    stringoRet, cnt = add_refs_dr_zakon(stringoRet, cnt, this_id)
+    stringoRet, cnt = add_refs3(stringoRet, cnt, this_id, clan_id)
+    stringoRet, cnt = add_refs_stavNabrajanje(stringoRet, cnt, this_id, clan_id)
+    stringoRet, cnt = add_refs_tacka(stringoRet, cnt, this_id, clan_id, stav_id)
+    stringoRet, cnt = add_refs_tackaNabrajanje(stringoRet, cnt, this_id, clan_id, stav_id)
+    return stringoRet, cnt
 
 def add_refs(stablo, stringo, this_id):
     cnt = 0
     listaClanova = get_elements(stablo, 'article', namespace="")
     listaObradjenihParagrafa = []
 
+    for elem in stablo.iter(tag='longTitle'):
+        p_text = elem[0].text
+        stringoRet, cnt = add_all_references(p_text, cnt, this_id, "", "")
+        elem[0].text = stringoRet
+
     for el_clan in listaClanova:  # Primer pristupa svakom članu
         clan_id = el_clan.attrib['wId']
-        if ("gla3-clan20" in clan_id):
+        if ("deo8-clan192" in clan_id):
             print("")
         for el_stav in el_clan.iter('paragraph'):
             stav_id = el_stav.attrib['wId']
@@ -528,29 +546,13 @@ def add_refs(stablo, stringo, this_id):
                         stav_text = el_content_p_tag.text.replace(">", "~vece;").replace("<", "~manje;").replace("\"",
                                                                                                                  "~navod;").replace(
                             "&gt;", "~vece;").replace("&lt;", "~manje;").replace("\"", "~navod;")
-                        stringoRet, cnt = add_refs1(stav_text, cnt, this_id)
-                        stringoRet, cnt = add_refsCl(stringoRet, cnt, this_id)
-                        stringoRet, cnt = add_refs_sluzbeni_glasnik(stringoRet, cnt)
-                        stringoRet, cnt = add_refs_sluzbeni_glasnik_datum(stringoRet, cnt)
-                        stringoRet, cnt = add_refs_dr_zakon(stringoRet, cnt, this_id)
-                        stringoRet, cnt = add_refs3(stringoRet, cnt, this_id, clan_id)
-                        stringoRet, cnt = add_refs_stavNabrajanje(stringoRet, cnt, this_id, clan_id)
-                        stringoRet, cnt = add_refs_tacka(stringoRet, cnt, this_id, clan_id, stav_id)
-                        stringoRet, cnt = add_refs_tackaNabrajanje(stringoRet, cnt, this_id, clan_id, stav_id)
+                        stringoRet, cnt = add_all_references(stav_text, cnt, this_id, clan_id, stav_id)
                         el_content_p_tag.text = stringoRet
                 listaObradjenihParagrafa.append(el_stav.attrib['wId'])
         for el_heading in el_clan.iter('heading'):
             if el_heading.text:
                 heading_text = el_heading.text
-                stringoRet, cnt = add_refs1(heading_text, cnt, this_id)
-                stringoRet, cnt = add_refsCl(stringoRet, cnt, this_id)
-                stringoRet, cnt = add_refs_sluzbeni_glasnik(stringoRet, cnt)
-                stringoRet, cnt = add_refs_sluzbeni_glasnik_datum(stringoRet, cnt)
-                stringoRet, cnt = add_refs_dr_zakon(stringoRet, cnt, this_id)
-                stringoRet, cnt = add_refs3(stringoRet, cnt, this_id, clan_id)
-                stringoRet, cnt = add_refs_stavNabrajanje(stringoRet, cnt, this_id, clan_id)
-                stringoRet, cnt = add_refs_tacka(stringoRet, cnt, this_id, clan_id, "")
-                stringoRet, cnt = add_refs_tackaNabrajanje(stringoRet, cnt, this_id, clan_id, "")
+                stringoRet, cnt = add_all_references(heading_text, cnt, this_id, "", "")
                 el_heading.text = stringoRet
 
     return stablo

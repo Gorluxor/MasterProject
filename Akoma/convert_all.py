@@ -155,7 +155,14 @@ def convert_html(source, destination):
 
 if __name__ == "__main__":
 
-    nastavi = "92.html"  # ""651.html"
+    """148.xml (linija 2475) ref pocetni tag nema pika? gla8-clan64-stav16"
+192.xml (linija 12398) ref in ref, deo8-clan192-stav1-tac4"
+195 andrija < znak
+430.xml (linija 2546) ref in ref gla8-od1-clan105-stav3
+452.xml (linija 2760) ref in ref od3-clan58-stav2-tac2"
+481.xml (linija 9526) ref in ref, deo3-gla4-od5-clan285-stav6"""
+
+    nastavi = "481.html"  # ""651.html"
     idemo = False
     stani = [
         "1005.html", "980.html", "986.html", "981.html", "210.html", "1033.html"  # problematicni PROVERITI 176
