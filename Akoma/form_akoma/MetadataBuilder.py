@@ -62,7 +62,7 @@ def extra_fix(check):
 def fix_date(before,use_extra=True):
     a = before.split("-")
     if len(a) == 1:
-        return before + ADDED_DATE;
+        return before.replace(".","") + ADDED_DATE;
     for i in range(0, len(a)):
         if len(a[i]) < 2:
             a[i] = "0" + a[i]

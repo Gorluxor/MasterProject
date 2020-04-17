@@ -127,14 +127,17 @@ class AkomaBuilder():
                 p = element.find('p')
                 if p is None:
                     new_el = ET.Element('p')
-                    new_el.text = element.text
+                    new_el.text = element.text.replace("<", "&lt;").replace("\"", "").replace(">", "&gt;")
                     element.text = ""
                     element.append(new_el)
+                else:
+                    for p in element.iter(tag="p"):
+                        p.text = p.text.replace("<", "&lt;").replace("\"", "").replace(">", "&gt;")
             element.attrib = dict()
         return el
 
     def current_parent(self, identification, no_content=False):
-        if "gla1-clan44.г-tac1" == identification:
+        if "od2-clan13-stav1" == identification:
             print("JEJ")
         for i in range(len(self.stack) - 1, -1, -1):
             node = self.stack[i]

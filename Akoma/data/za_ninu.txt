@@ -1,6 +1,0 @@
-8.html: ref in ref
-12.html: ref in ref
-55.html ref in ref 1632 linija, wId = ref26
-981.html:list index out of range
-981.html:list index out of range
-981.html:list index out of range
