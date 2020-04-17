@@ -30,7 +30,7 @@ class BasicReasoner():
         self.stop = False
 
     def sanity(self, identification):
-        if identification == 'gla2-clan6-stav3':
+        if identification == 'gla10-clan72-stav6':
             print("GOT HERE")
 
         if identification in self.processed:
