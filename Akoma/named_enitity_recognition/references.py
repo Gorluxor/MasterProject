@@ -57,8 +57,8 @@ nabrajanjeTacka = '(члан.?.?\\s*[0-9]+' + azbuka_pattern + ')?\\s*(став.
 nabrajanjeClZakon = '(члан.?\\s*([0-9]+' + azbuka_pattern + ').?)(\\s*)(Закона\\s*(–|-|−|‒)\\s*([0-9]+)\/([0-9]+)-[0-9]+)'
 nabrajanjeStavUzastopno = '(чл.?.?.?.?\.?\\s*[0-9]+' + azbuka_pattern + '.?\\s*)?(ст.(?<=[ ,.])\\s*[0-9]+' + azbuka_pattern + '\.?)((\\s*до\\s*)|(\\s*–\\s*|\\s*-\\s*|\\s*−\\s*))((ст.\\s*)?[0-9]+' + azbuka_pattern + '(\.|,)?)'
 nabrajanjeStav = '(чл.?.?.?.?\.?\\s*[0-9]+' + azbuka_pattern + '.?\\s*)?(ст.(?<=[ ,.])\\s*[0-9]+' + azbuka_pattern + '\.?)(((,)|(.?\\s*и)|(\\s*или\\s*))(\\s*[0-9]+' + azbuka_pattern + '\.?))*'
-nabrajanjeTacakaUzastopno = '(чл.?.?.?.?\.?\\s*[0-9]+' + azbuka_pattern + '.?\\s*)?(ст.?.?.?.?\.?(?<=[ ,.])\\s*[0-9]+' + azbuka_pattern + '\.?)?\\s*(тач(ка|ки|ке|ку|ком)?\.?\\s*[0-9]+(?!(°|.°|..°))' + azbuka_pattern + '(\.|\))?)((\\s*до\\s*)|(\\s*–\\s*|\\s*-\\s*|\\s*−\\s*))((тач(ка|ки|ке|ку|ком)?\.?\\s*)?[0-9]+' + azbuka_pattern + '(\.|,|\))?)'
-nabrajanjeTackaNeuzastopno = '(чл.?.?.?.?\.?\\s*[0-9]+' + azbuka_pattern + '.?\\s*)?(ст.?.?.?.?\.?(?<=[ ,.])\\s*[0-9]+' + azbuka_pattern + '\.?)?\\s*(тач(ка|ки|ке|ку|ком)?\.?\\s*[0-9]+(?!(°|.°|..°))' + azbuka_pattern + '(\.|\))?)(((,)|(.?\\s*и)|(\\s*или\\s*))(\\s*[0-9]+' + azbuka_pattern + '(\)|\.)?))*'
+nabrajanjeTacakaUzastopno = '(чл.?.?.?.?\.?\\s*[0-9]+' + azbuka_pattern + '.?\\s*)?(ст(ав|аву|авом|ава)?\.?\\s*[0-9]+' + azbuka_pattern + '\.?)?\\s*(тач(ка|ки|ке|ку|ком)?\.?\\s*[0-9]+(?!(°|.°|..°))' + azbuka_pattern + '(\.|\))?)((\\s*до\\s*)|(\\s*–\\s*|\\s*-\\s*|\\s*−\\s*))((тач(ка|ки|ке|ку|ком)?\.?\\s*)?[0-9]+' + azbuka_pattern + '(\.|,|\))?)'
+nabrajanjeTackaNeuzastopno = '(чл.?.?.?.?\.?\\s*[0-9]+' + azbuka_pattern + '.?\\s*)?(ст(ав|аву|авом|ава)?\.?\\s*[0-9]+' + azbuka_pattern + '\.?)?\\s*(тач(ка|ки|ке|ку|ком)?\.?\\s*[0-9]+(?!(°|.°|..°))' + azbuka_pattern + '(\.|\))?)(((,)|(.?\\s*и)|(\\s*или\\s*))(\\s*[0-9]+' + azbuka_pattern + '(\)|\.)?))*'
 nabrajanjeDrZakon = '([0-9]+)\/([0-9]+) – др\. закон'
 nabrajanjeSluzbeniGlasnikDatum = '([0-9]+)(\s*од\s*[0-9]+.*?)([0-9]+)'
 nabrajanjeDrZakonDatum = '([0-9]+\.?)(\\s*од\\s*[0-9]+.*?)([0-9]+)(\\s*-\\s*др\.?\\s*закон)'
@@ -204,6 +204,10 @@ def get_reference_for_tacka_nabrajanje(m, stringo, clan_id="", stav_id=""):
         m2 = re.search("([0-9]+" + azbuka_pattern + ")", m.group(9))
         if m2:
             retval += "point_" + m2.group(0) + "_"
+        elif m.group(10):
+            m2 = re.search("([0-9]+" + azbuka_pattern + ")", m.group(10))
+            if m2:
+                retval += "point_" + m2.group(0) + "_"
     return retval[:-1]
 
 
@@ -533,7 +537,7 @@ def add_refs(stablo, stringo, this_id):
 
     for el_clan in listaClanova:  # Primer pristupa svakom članu
         clan_id = el_clan.attrib['wId']
-        if ("deo6-gla1-od2-clan613" in clan_id):
+        if ("gla4-clan37" in clan_id):
             print("")
         for el_stav in el_clan.iter('paragraph'):
             stav_id = el_stav.attrib['wId']
