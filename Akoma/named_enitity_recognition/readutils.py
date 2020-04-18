@@ -92,3 +92,5 @@ def sent2labels(sent):
 
 def sent2tokens(sent):
     return [token for token, postag, label in sent]
+
+

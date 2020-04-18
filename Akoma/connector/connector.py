@@ -2,16 +2,24 @@ import subprocess
 from os import path
 
 debug = False
-path_base = path.dirname(__file__).replace("\\","/")
+path_base = path.dirname(__file__).replace("\\", "/")
+mac_variable = False  # TODO: Change this if your a mac user
+
+command_string = "python2 "
+if mac_variable:
+    command_string = "python "
 
 
 def tokenize(string_data):  # Only to tokenize data
     # noinspection SpellCheckingInspection,SpellCheckingInspection
-    python2_command_token = "python2 " + path_base + "/../../reldi-tagger/tokeniser/tokeniser.py sr --file " + path_base +"/../connector/tokenize.txt"
+
+    python2_command_token = command_string + path_base + "/../../reldi-tagger/tokeniser/tokeniser.py sr --file " + \
+                            path_base + "/../connector/tokenize.txt"
 
     to_file(path_base + "/tokenize.txt", string_data)
 
-    process = subprocess.Popen(python2_command_token.split(), stdout=subprocess.PIPE, bufsize=1, universal_newlines=True, encoding='utf-8')
+    process = subprocess.Popen(python2_command_token.split(), stdout=subprocess.PIPE, bufsize=1,
+                               universal_newlines=True, encoding='utf-8')
 
     output, error = process.communicate()
 
@@ -28,8 +36,9 @@ def pos_lem(data_file):  # POS and Lam
     relative_file = "-f " + path_base + "/../connector/" + data_file
     # noinspection SpellCheckingInspection
 
-    python2_command = "python2 " + path_base + "/../../reldi-tagger/tagger.py sr -l " + relative_file
-    print(python2_command)
+    python2_command = command_string + path_base + "/../../reldi-tagger/tagger.py sr -l " + relative_file
+    if debug:
+        print(python2_command)
     process = subprocess.Popen(python2_command.split(), stdout=subprocess.PIPE, bufsize=1, universal_newlines=True,
                                encoding='utf-8')
 
@@ -47,7 +56,13 @@ def pos_lem(data_file):  # POS and Lam
 
 def to_file(filename, content):
     f = open(filename, "w+", encoding='utf-8')
-    f.write(content)
+    # for a in content:
+    #     f.write(a[0] + "\n")
+    if type(content) is list:
+        for a in content:
+            f.write(a[0] + "\n")
+    else:
+        f.write(content)
     f.write("\n\n")
     f.flush()
     f.close()
@@ -75,11 +90,11 @@ def listToString(s):
         if s[i] == ".":
             str1 += s[i] + "\n"
         else:
-            if (s[i] == "član" or s[i] == "члан") and '.' in s[i+1]:
-              str1 += "\n" + s[i] + " "
+            if (s[i] == "član" or s[i] == "члан") and '.' in s[i + 1]:
+                str1 += "\n" + s[i] + " "
             else:
                 if "." in s[i]:
-                    if checkIfRomanNumeral(s[i].replace('.','')):
+                    if checkIfRomanNumeral(s[i].replace('.', '')):
                         str1 += "\n" + s[i] + " "
                     else:
                         str1 += s[i] + " "
@@ -97,7 +112,6 @@ def checkIfRomanNumeral(numeral):
 
 # noinspection SpellCheckingInspection,SpellCheckingInspection,SpellCheckingInspection,SpellCheckingInspection,SpellCheckingInspection,SpellCheckingInspection,SpellCheckingInspection
 if __name__ == "__main__":
-
     sanityCheck = only_lam('студената и игара \n')
     sanityCheckLat = only_lam("studenata i igara \n")
 

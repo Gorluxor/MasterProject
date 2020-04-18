@@ -1,10 +1,17 @@
+
+
 try:
     from Akoma.tokenizer.TokenType import TokenType
     # from Akoma.tokenizer import patterns
+    from Akoma.named_enitity_recognition.ner import do_ner_on_sentence
+    from Akoma.convertToLatin.Convert import convert
 except ModuleNotFoundError:
     try:
         # from tokenizer import patterns
         from tokenizer.TokenType import TokenType
+        from named_enitity_recognition.ner import do_ner_on_sentence
+        from convertToLatin.Convert import convert
+
     except ModuleNotFoundError:
         print("Error")
         exit(-1)
@@ -50,7 +57,13 @@ class BasicReasoner():
             if self.current_token is None:
                 self.processed = []
                 break
-
+            if body and self.current_token is not None and self.current_token.value is not None and len(
+                    self.current_token.value) > 10:
+                val = "".join([convert(s) for s in self.current_token.value])
+                ner = do_ner_on_sentence(val)
+                print(val)
+                print()
+                print(ner)
             if body is False and self.current_token.type <= TokenType.CLAN:
                 body = True
                 self.akomabuilder.build_preface(self.preface)
