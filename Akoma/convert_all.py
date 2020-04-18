@@ -16,6 +16,8 @@ try:
     from Akoma.form_akoma.MetadataBuilder import MetadataBuilder
     from Akoma.named_enitity_recognition.references import add_refs
     from Akoma.tokenizer.BasicTokenizer import BasicTokenizer
+    from Akoma.named_enitity_recognition.ner import do_ner_on_sentence
+    from Akoma.convertToLatin.Convert import convert
 except ModuleNotFoundError as sureError:
     try:
         from utilities import ETree, utilities
@@ -29,6 +31,8 @@ except ModuleNotFoundError as sureError:
         from reasoner.OdlukaReasoner import OdlukaReasoner
         from form_akoma.MetadataBuilder import MetadataBuilder
         from named_enitity_recognition.references import add_refs
+        from named_enitity_recognition.ner import do_ner_on_sentence
+        from convertToLatin.Convert import convert
     except ModuleNotFoundError as newError:
         if not sureError.name.__eq__("Akoma") or not newError.name.__eq__("Akoma"):
             print(newError)
@@ -78,7 +82,24 @@ def repair_mode(act: str):
     return root_art
 
 
-def apply_akn_tags(text: str, meta_name: str, skip_tfidf=False):
+def get_ner_occurences(list_el):
+    pass
+
+map_of_unique_elements = []
+
+def send_to_NER(stablo):
+    for el in stablo.iter(tag="paragraph"):
+        for elem in el.iter(tag="p"):
+            val = "".join([convert(s) for s in elem.text])
+            RES = do_ner_on_sentence(val)
+            if "LOC" or "ORG" in RES:
+                print(elem)
+                print(RES)
+
+                #ET.Element("TLC",{"href":"ontologyREF","showAs":RES.value})
+
+
+def apply_akn_tags(text: str, meta_name: str, skip_tfidf=False, skip_ner=False):
     """
     Applies to text Akoma Ntoso 3.0 tags for Republic of Serbia regulations
     :param text: HTML or plain text
@@ -134,9 +155,13 @@ def apply_akn_tags(text: str, meta_name: str, skip_tfidf=False):
         file_ref_exeption.write(meta_name + ":" + str(e) + "\n")
         file_ref_exeption.close()
         return result_str
+    if not skip_ner:
+        send_to_NER(result_stablo)
     result_str = ETree.prettify(result_stablo).replace("&lt;", "<").replace("&gt;", ">").replace("&quot;",
                                                                                                  "\"").replace(
         '<references source="#somebody"/>', "")
+
+
     result_str = result_str.replace("~vece;", "&gt;").replace("~manje;", "&lt;").replace("~navod;", "&quot;")
     return result_str
 
@@ -149,7 +174,7 @@ def convert_html(source, destination):
     text = "".join(opened.readlines())
     full_strip = regex_patterns.strip_html_tags_exept(text)  #
     meta_file_name = source.split("/")[-1]
-    result_str = apply_akn_tags(full_strip, meta_file_name, skip_tfidf=True)
+    result_str = apply_akn_tags(full_strip, meta_file_name, skip_tfidf=True, skip_ner=True)
     f = io.open(destination, mode="w", encoding="utf-8")
     f.write(result_str)
     f.close()

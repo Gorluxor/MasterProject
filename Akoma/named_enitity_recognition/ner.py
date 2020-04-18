@@ -21,6 +21,9 @@ except ModuleNotFoundError as sureError:
 
 import  os
 
+filename = 'data/ner/modelReldiD.sav'
+crf = pickle.load(open(filename, 'rb'))
+
 def do_ner_on_sentence(sentence):
     # sentence = tokenize_pos("Престали су да важе (види члан 80. Закона - 104/2016-34)")
     w = tokenize_pos(sentence)
@@ -29,11 +32,11 @@ def do_ner_on_sentence(sentence):
     X = [sent2features(df)]
     X_test = X
 
-    filename = 'data/ner/modelReldiD.sav'
+
     #ROOT_DIR = os.path.dirname(os.path.basename(__file__))
     #filename = ROOT_DIR + "/data/ner/modelReldiD.sav"
 
-    crf = loaded_model = pickle.load(open(filename, 'rb'))
+
     y_pred = crf.predict(X_test)
 
     # print("Overall: ", str(y_pred))
