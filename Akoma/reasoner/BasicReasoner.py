@@ -3,7 +3,7 @@
 try:
     from Akoma.tokenizer.TokenType import TokenType
     # from Akoma.tokenizer import patterns
-    from Akoma.named_enitity_recognition.ner import do_ner_on_sentence
+    from Akoma.named_enitity_recognition.ner import do_ner_on_sentences
     from Akoma.convertToLatin.Convert import convert
 except ModuleNotFoundError:
     try:

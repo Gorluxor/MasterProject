@@ -16,7 +16,7 @@ try:
     from Akoma.form_akoma.MetadataBuilder import MetadataBuilder
     from Akoma.named_enitity_recognition.references import add_refs
     from Akoma.tokenizer.BasicTokenizer import BasicTokenizer
-    from Akoma.named_enitity_recognition.ner import do_ner_on_sentence
+    from Akoma.named_enitity_recognition.ner import do_ner_on_sentences
     from Akoma.convertToLatin.Convert import convert
 except ModuleNotFoundError as sureError:
     try:
@@ -82,29 +82,37 @@ def repair_mode(act: str):
     return root_art
 
 
-def get_ner_occurences(list_el):
-    pass
-
-map_of_unique_elements = []
-
 def send_to_NER(stablo):
     for el in stablo.iter(tag="paragraph"):
         for elem in el.iter(tag="p"):
             val = "".join([convert(s) for s in elem.text])
-            RES = do_ner_on_sentence(val)
-            if "LOC" or "ORG" in RES:
-                print(elem)
-                print(RES)
-
-                #ET.Element("TLC",{"href":"ontologyREF","showAs":RES.value})
+            ner_list.append(val)
 
 
-def apply_akn_tags(text: str, meta_name: str, skip_tfidf=False, skip_ner=False):
+def add_ner_tags(map_of_values, stablo):
+    # Misc values are ignored, as they don't have a representation in the FRBR ontology
+    ref = ETree.get_elements(stablo, "references")[0]
+    for key in map_of_values:
+        if key == "deriv" or key == "per":
+            for element in map_of_values[key]:
+                ref.append(ET.Element("TLCPerson", {"href": "http://purl.org/vocab/frbr/core#Person", "showAs": element}))
+        elif key == "loc":
+            for element in map_of_values[key]:
+                ref.append(ET.Element("TLCLocation", {"href": "http://purl.org/vocab/frbr/core#Place", "showAs": element}))
+        elif key == "org":
+            for element in map_of_values[key]:
+                ref.append(ET.Element("TLCOrganization", {"href": "http://purl.org/vocab/frbr/core#CorporateBody", "showAs": element}))
+        elif key == "date":
+            for element in map_of_values[key]:
+                ref.append(ET.Element("TLCEvent", {"href": "http://purl.org/vocab/frbr/core#Event", "showAs": element}))
+
+
+def apply_akn_tags(text: str, meta_name: str, skip_tfidf_ner=False):
     """
     Applies to text Akoma Ntoso 3.0 tags for Republic of Serbia regulations
     :param text: HTML or plain text
     :param meta_name: name which was meta added 15 tag in meta
-    :param skip_tfidf: Don't add references> TLCconcept for document
+    :param skip_tfidf_ner: Don't add references> TLCconcept for document and TLC for ner
     :return: Labeled xml string
     """
     akoma_root = init_akoma.init_xml("act")
@@ -126,7 +134,7 @@ def apply_akn_tags(text: str, meta_name: str, skip_tfidf=False, skip_ner=False):
     # html_root = new_html_root
 
     metabuilder = MetadataBuilder("data/meta/allmeta.csv")
-    metabuilder.build(meta_name, akoma_root, skip_tfidf)
+    metabuilder.build(meta_name, akoma_root, skip_tfidf_ner)
     print(ETree.prettify(akoma_root))
     builder = AkomaBuilder(akoma_root)
     if not repaired:
@@ -138,7 +146,7 @@ def apply_akn_tags(text: str, meta_name: str, skip_tfidf=False, skip_ner=False):
     if reasoner.current_hierarchy[4] == 0:
         akoma_root = init_akoma.init_xml("act")
         metabuilder = MetadataBuilder("data/meta/allmeta.csv")
-        metabuilder.build(fajl, akoma_root, skip_tfidf=skip_tfidf)
+        metabuilder.build(fajl, akoma_root, skip_tfidf=skip_tfidf_ner)
 
         builder = AkomaBuilder(akoma_root)
         if not repaired:
@@ -155,15 +163,18 @@ def apply_akn_tags(text: str, meta_name: str, skip_tfidf=False, skip_ner=False):
         file_ref_exeption.write(meta_name + ":" + str(e) + "\n")
         file_ref_exeption.close()
         return result_str
-    if not skip_ner:
+    if not skip_tfidf_ner:
         send_to_NER(result_stablo)
-    result_str = ETree.prettify(result_stablo).replace("&lt;", "<").replace("&gt;", ">").replace("&quot;",
-                                                                                                 "\"").replace(
-        '<references source="#somebody"/>', "")
-
+        ret = do_ner_on_sentences(ner_list)
+        add_ner_tags(ret, result_stablo)  # print(ret)
+    result_str = ETree.prettify(result_stablo).replace("&lt;", "<") \
+        .replace("&gt;", ">").replace("&quot;", "\"").replace('<references source="#somebody"/>', "")
 
     result_str = result_str.replace("~vece;", "&gt;").replace("~manje;", "&lt;").replace("~navod;", "&quot;")
     return result_str
+
+
+ner_list = []
 
 
 def convert_html(source, destination):
@@ -174,7 +185,8 @@ def convert_html(source, destination):
     text = "".join(opened.readlines())
     full_strip = regex_patterns.strip_html_tags_exept(text)  #
     meta_file_name = source.split("/")[-1]
-    result_str = apply_akn_tags(full_strip, meta_file_name, skip_tfidf=True, skip_ner=True)
+    result_str = apply_akn_tags(full_strip, meta_file_name, skip_tfidf_ner=False)
+
     f = io.open(destination, mode="w", encoding="utf-8")
     f.write(result_str)
     f.close()
