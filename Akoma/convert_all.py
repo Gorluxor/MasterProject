@@ -149,7 +149,7 @@ def convert_html(source, destination):
     text = "".join(opened.readlines())
     full_strip = regex_patterns.strip_html_tags_exept(text)  #
     meta_file_name = source.split("/")[-1]
-    result_str = apply_akn_tags(full_strip, meta_file_name, skip_tfidf=True)
+    result_str = apply_akn_tags(full_strip, meta_file_name, skip_tfidf=False)
     f = io.open(destination, mode="w", encoding="utf-8")
     f.write(result_str)
     f.close()
