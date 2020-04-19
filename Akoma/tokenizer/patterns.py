@@ -6,6 +6,7 @@ except ModuleNotFoundError:
     from tokenizer.TokenType import TokenType
 import re
 
+compact = "[а-шђјљћџА-ШЂЈЉЊЋЏ][a-zA-ZĐŽĆČŠđžćčš]"
 ROMAN_NUMERAL = "[MDCLXVI]+"
 AZBUKA = "АБВГДЂЕЖЗИЈКЛЉМНЊОПРСТЋУФХЦЧЏШабвгдђежзијклљмнопрстћуфхцчшџ"
 LAT_AZBUKA = "ABVGDĐEŽZIJKLMNJOPRSTĆUFHCČDžŠabvgdđežzijklmnoprstćufhcčš"
@@ -147,15 +148,15 @@ def is_pododeljak(text):
 
 
 def is_clan(text):
-    m = re.match("(Члан) ([0-9]+)(\.)", text)
+    m = re.match("(Члан|Član) ([0-9]+)(\.)", text)
     if m:
         return FoundToken(TokenType.CLAN, eng_tags[TokenType.CLAN], None, int(m.group(2)), numberstr=m.group(2) + ".")
-    m = re.match("(Чл\.) ([0-9]+\-[0-9]+)(\.)", text)
+    m = re.match("(Чл\.|Čl\.) ([0-9]+\-[0-9]+)(\.)", text)
     if m:
         br1 = int(m.group(2).split("-")[0])
         br2 = int(m.group(2).split("-")[1])
         return FoundToken(TokenType.CLAN, eng_tags[TokenType.CLAN], None, br1, br2, numberstr=m.group(2) + ".")
-    m = re.match("(Члан) ([0-9]+)(" + slova + ")(\*)?", text)
+    m = re.match("(Члан|Član) ([0-9]+)(" + slova + ")(\*)?", text)
     if m:
         return FoundToken(TokenType.CLAN, eng_tags[TokenType.CLAN], None, int(m.group(2)),
                           m.group(2) + "." + m.group(3), numberstr=m.group(2) + m.group(3))

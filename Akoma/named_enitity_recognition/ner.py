@@ -1,4 +1,7 @@
 import pickle
+import numpy as np
+from itertools import groupby
+
 try:
     import Akoma
     from Akoma.named_enitity_recognition.readutils import SentenceGetter, word2features, read_and_prepare_csv, \
@@ -19,22 +22,72 @@ except ModuleNotFoundError as sureError:
             print("Error")
             exit(-1)
 
-import  os
+filename = 'data/ner/modelReldiD.sav'
+crf = pickle.load(open(filename, 'rb'))
 
-def do_ner_on_sentence(sentence):
-    # sentence = tokenize_pos("Престали су да важе (види члан 80. Закона - 104/2016-34)")
-    w = tokenize_pos(sentence)
-    df = [(x, y) for x, y, z in tokenize_pos(w)]
+deriv_elements = []
+loc_elements = []
+org_elements = []
+per_elements = []
+misc_elements = []
+date_elements = []
 
-    X = [sent2features(df)]
-    X_test = X
+map_of_lists = {'deriv': deriv_elements, 'loc': loc_elements, 'org': org_elements, 'per': per_elements,
+                'misc': misc_elements, 'date': date_elements}
+"""
+O
+B-deriv-per
 
-    filename = 'data/ner/modelReldiD.sav'
-    #ROOT_DIR = os.path.dirname(os.path.basename(__file__))
-    #filename = ROOT_DIR + "/data/ner/modelReldiD.sav"
+B-loc
+I-loc
 
-    crf = loaded_model = pickle.load(open(filename, 'rb'))
-    y_pred = crf.predict(X_test)
+B-org
+I-org
 
-    # print("Overall: ", str(y_pred))
-    return y_pred
+B-per
+I-per
+
+B-misc
+I-misc
+
+B-date
+I-date
+"""
+
+
+def find_elements(element, res_list):
+    res_list = res_list[0]
+    last = None
+    continuous = ""
+    for x in range(len(res_list)):
+        if res_list[x] != 'O':
+            tag = res_list[x].split('-')
+            if tag[0] == 'B':
+                if last is not None:
+                    map_of_lists[last].append(continuous)
+                last = tag[1]
+                continuous = element[x]
+            elif last == tag[1]:
+                continuous = continuous + ' ' + element[x]
+            else:
+                last = None
+    if continuous != "":
+        map_of_lists[last].append(continuous)
+
+
+def do_ner_on_sentences(sentences):
+    merged_sentences = "`".join(sentences)
+    w = tokenize_pos(merged_sentences)
+
+    df = [(x, y) for x, y, z in w]
+    separated_list = [list(group) for key, group in groupby(df, key=lambda t: t[0] != '`') if key]
+
+    for tw in separated_list:
+        el = [x for x, y in tw]
+        y_pred = crf.predict([sent2features(tw)])
+        find_elements(el, y_pred)
+
+    for key in map_of_lists:
+        map_of_lists[key] = list(np.unique(map_of_lists[key]))
+
+    return map_of_lists
