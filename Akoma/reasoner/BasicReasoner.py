@@ -9,7 +9,7 @@ except ModuleNotFoundError:
     try:
         # from tokenizer import patterns
         from tokenizer.TokenType import TokenType
-        from named_enitity_recognition.ner import do_ner_on_sentence
+        from named_enitity_recognition.ner import do_ner_on_sentences
         from convertToLatin.Convert import convert
 
     except ModuleNotFoundError:

@@ -31,7 +31,7 @@ except ModuleNotFoundError as sureError:
         from reasoner.OdlukaReasoner import OdlukaReasoner
         from form_akoma.MetadataBuilder import MetadataBuilder
         from named_enitity_recognition.references import add_refs
-        from named_enitity_recognition.ner import do_ner_on_sentence
+        from named_enitity_recognition.ner import do_ner_on_sentences
         from convertToLatin.Convert import convert
     except ModuleNotFoundError as newError:
         if not sureError.name.__eq__("Akoma") or not newError.name.__eq__("Akoma"):
