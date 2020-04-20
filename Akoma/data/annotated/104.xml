@@ -36,6 +36,9 @@
 				<step by="#TODO" date="1986-05-10" wId="stupanje_na_snagu"/>
 				<step by="#TODO" date="1986-05-10" wId="primena"/>
 			</workflow>
+			<references source="#somebody">
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SFRJ"/>
+			</references>
 			<notes source="#somebody">
 				<note wId="not1">
 					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном литу СФРЈ”, односно 10. маја 1986. године (види члан 9. Закона).</p>

@@ -470,10 +470,10 @@
 				<article wId="gla5-clan16">
 					<num>16.</num>
 					<heading>Одређивање јединственог матичног броја грађана у случају  кад тај број није одређен</heading>
-					<authorialNote placement="bottom" marker="6" placementBase="#gla5-clan16-stav2">
+					<heading><authorialNote placement="bottom" marker="6" placementBase="#gla5-clan16-stav2">
 						<p>*Службени гласник РС, број <ref wId="ref12" href="akn/rs/act/2011/36/srp@">36/2011</ref>
 						</p>
-					</authorialNote>
+				</authorialNote></heading>
 					<paragraph wId="gla5-clan16-stav1">
 						<content>
 							<p>Ако се у поступку издавања личне карте утврди да  држављанину који није рођен на територији Републике Србије и на тој територији  нема пријављено пребивалиште није одређен јединствени матични број грађана,  надлежни орган је дужан да приликом издавања личне карте држављанину одреди тај  број, у складу са законом.</p>
@@ -562,10 +562,10 @@
 				</article>
 				<article wId="gla6-clan19.а">
 					<num>19а</num>
-					<authorialNote placement="bottom" marker="7" placementBase="#gla6-clan19.а-stav3">
+					<heading><authorialNote placement="bottom" marker="7" placementBase="#gla6-clan19.а-stav3">
 						<p>*Службени гласник РС, број <ref wId="ref19" href="akn/rs/act/2011/36/srp@">36/2011</ref>
 						</p>
-					</authorialNote>
+					</authorialNote></heading>
 					<paragraph wId="gla6-clan19.а-stav1">
 						<content>
 							<p>Изузетно од <ref wId="ref15" href="akn/rs/act/2011/36-94/srp@/!main~art_1__para_3" >члана 1. став 3. овог</ref> закона, лична карта  не може да служи као путна исправа и да се њеном употребом замењује коришћење  путне исправе и прелази државна граница ако су испуњени услови за одузимање  путне исправе – утврђени законом којим се уређују путне исправе за путовање  држављана Републике Србије у иностранство.</p>
@@ -650,10 +650,10 @@
 				<article wId="gla6-clan23">
 					<num>23.</num>
 					<heading>Неважећа лична карта</heading>
-					<authorialNote placement="bottom" marker="8" placementBase="#gla6-clan23-stav4">
+					<heading><authorialNote placement="bottom" marker="8" placementBase="#gla6-clan23-stav4">
 						<p>*Службени гласник РС, број <ref wId="ref27" href="akn/rs/act/2011/36/srp@">36/2011</ref>
 						</p>
-					</authorialNote>
+					</authorialNote></heading>
 					<paragraph wId="gla6-clan23-stav1">
 						<content>
 							<p>Несталу личну карту надлежни орган решењем проглашава  неважећом.</p>

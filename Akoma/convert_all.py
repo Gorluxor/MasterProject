@@ -85,8 +85,18 @@ def repair_mode(act: str):
 def send_to_NER(stablo):
     for el in stablo.iter(tag="paragraph"):
         for elem in el.iter(tag="p"):
-            val = "".join([convert(s) for s in elem.text])
-            ner_list.append(val)
+            if elem.text is not None:
+                if len(elem.text) > 10:
+                    val = "".join([convert(s) for s in elem.text])
+                    ner_list.append(val)
+
+
+def not_invalid(text):
+    if "<" in text:
+        return False
+    if ">" in text:
+        return False
+    return True
 
 
 def add_ner_tags(map_of_values, stablo):
@@ -95,16 +105,20 @@ def add_ner_tags(map_of_values, stablo):
     for key in map_of_values:
         if key == "deriv" or key == "per":
             for element in map_of_values[key]:
-                ref.append(ET.Element("TLCPerson", {"href": "http://purl.org/vocab/frbr/core#Person", "showAs": element}))
+                if not_invalid(element):
+                    ref.append(ET.Element("TLCPerson", {"href": "http://purl.org/vocab/frbr/core#Person", "showAs": element}))
         elif key == "loc":
             for element in map_of_values[key]:
-                ref.append(ET.Element("TLCLocation", {"href": "http://purl.org/vocab/frbr/core#Place", "showAs": element}))
+                if not_invalid(element):
+                    ref.append(ET.Element("TLCLocation", {"href": "http://purl.org/vocab/frbr/core#Place", "showAs": element}))
         elif key == "org":
             for element in map_of_values[key]:
-                ref.append(ET.Element("TLCOrganization", {"href": "http://purl.org/vocab/frbr/core#CorporateBody", "showAs": element}))
+                if not_invalid(element):
+                    ref.append(ET.Element("TLCOrganization", {"href": "http://purl.org/vocab/frbr/core#CorporateBody", "showAs": element}))
         elif key == "date":
             for element in map_of_values[key]:
-                ref.append(ET.Element("TLCEvent", {"href": "http://purl.org/vocab/frbr/core#Event", "showAs": element}))
+                if not_invalid(element):
+                    ref.append(ET.Element("TLCEvent", {"href": "http://purl.org/vocab/frbr/core#Event", "showAs": element}))
 
 
 def apply_akn_tags(text: str, meta_name: str, skip_tfidf_ner=False):
@@ -135,7 +149,7 @@ def apply_akn_tags(text: str, meta_name: str, skip_tfidf_ner=False):
 
     metabuilder = MetadataBuilder("data/meta/allmeta.csv")
     metabuilder.build(meta_name, akoma_root, skip_tfidf_ner)
-    print(ETree.prettify(akoma_root))
+    # print(ETree.prettify(akoma_root))
     builder = AkomaBuilder(akoma_root)
     if not repaired:
         reasoner = BasicReasoner(HTMLTokenizer(html_root), builder)
@@ -156,6 +170,12 @@ def apply_akn_tags(text: str, meta_name: str, skip_tfidf_ner=False):
         reasoner.start()
 
     result_str = builder.result_str().replace("&lt;", "~vece;").replace("&gt;", "~manje;").replace("&quot;", "~navod;")
+    if not skip_tfidf_ner:
+        send_to_NER(akoma_root)
+        map_ret = do_ner_on_sentences(ner_list)
+        add_ner_tags(map_ret, akoma_root)  # print(ret)
+        ner_list.clear()
+
     try:
         result_stablo = add_refs(akoma_root, result_str, metabuilder.expressionuri)
     except Exception as e:
@@ -163,10 +183,6 @@ def apply_akn_tags(text: str, meta_name: str, skip_tfidf_ner=False):
         file_ref_exeption.write(meta_name + ":" + str(e) + "\n")
         file_ref_exeption.close()
         return result_str
-    if not skip_tfidf_ner:
-        send_to_NER(result_stablo)
-        ret = do_ner_on_sentences(ner_list)
-        add_ner_tags(ret, result_stablo)  # print(ret)
     result_str = ETree.prettify(result_stablo).replace("&lt;", "<") \
         .replace("&gt;", ">").replace("&quot;", "\"").replace('<references source="#somebody"/>', "")
 
@@ -186,7 +202,6 @@ def convert_html(source, destination):
     full_strip = regex_patterns.strip_html_tags_exept(text)  #
     meta_file_name = source.split("/")[-1]
     result_str = apply_akn_tags(full_strip, meta_file_name, skip_tfidf_ner=False)
-
     f = io.open(destination, mode="w", encoding="utf-8")
     f.write(result_str)
     f.close()

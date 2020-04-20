@@ -87,6 +87,13 @@ def convert_serbian_number(serbian_number: str):
     return func
 
 
+def cap(rez):
+    while rez > 1:
+        rez = rez - 1
+    if rez < 0:
+        rez = abs(rez)
+    return rez
+
 def convert(char):
     switcher = {
         'А': "A",

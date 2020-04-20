@@ -46,6 +46,48 @@
 				<step by="#TODO" date="1991-08-04" wId="stupanje_na_snagu"/>
 				<step by="#TODO" date="1991-08-04" wId="primena"/>
 			</workflow>
+						<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="републици"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="србији"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="начин"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="утврђен"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="писмо"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="употреби"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="службеној"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="законом"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="националних"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="мањина"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="ћириличко"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="латинично"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="српским"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="српски"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="језиком"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="живе"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="истовремено"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="писма"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="припадници"/>
+				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="републике"/>
+				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="србије"/>
+				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="подручјима"/>
+				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="језици"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Ispravku Zakona"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republici Srbiji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodne skupštine"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Poslovnikom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SAP Kosovu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SAPK"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SAPV"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SRS"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ustavnog suda"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Postupak"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. januara 1992."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1992."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2. Zakona"/>
+			</references>
 			<notes source="#somebody">
 				<note wId="not1">
 					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 4. августа 1991. године (види члан 31. Закона).Промењене су висине новчаних казни (види члан 75. Закона – 53/1993-2467, члан 2. Закона – 67/1993-3111 и члан 59. Закона – 48/1994-1497).Промењене су висине новчаних казни (види члан 113. Закона – 101/2005-28).Закон о изменама и допунама Закона о службеној употреби језика и писама (Службени гласник РС, број 47/2018) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 28. јуна 2018. године (види члан 3. Закона - 47/2018-26).</p>
@@ -54,7 +96,7 @@
 		</meta>
 		<preface>
 			<longTitle>
-				<p>Закон О  службеној употреби језика и писама „Службени гласник РС”, бр. 45 од 27. јула 1991, 53. од 16. јула 1993 - др. закон, 67 од 30. августа 1993 - др. закон, 48 од 20. јула 1994 - др. закон, 101 од 21. новембра 2005 - др. закон, 30 од 7. маја 2010, 47 од 20. јуна 2018, 48 од 22. јуна 2018 - исправка</p>
+				<p>Закон О  службеној употреби језика и писама „Службени гласник РС”, бр. <ref wId="ref50" href="akn/rs/act/1991/45/srp@">45 од 27. јула 1991</ref>, 53. од 16. јула 1993 - др. закон, <ref wId="ref51" href="akn/rs/act/1993/67/srp@">67 од 30. августа 1993</ref> - др. закон, <ref wId="ref52" href="akn/rs/act/1994/48/srp@">48 од 20. јула 1994</ref> - др. закон, <ref wId="ref53" href="akn/rs/act/2005/101/srp@">101 од 21. новембра 2005</ref> - др. закон, <ref wId="ref54" href="akn/rs/act/2010/30/srp@">30 од 7. маја 2010</ref>, <ref wId="ref55" href="akn/rs/act/2018/47/srp@">47 од 20. јуна 2018</ref>, <ref wId="ref56" href="akn/rs/act/2018/48/srp@">48 од 22. јуна 2018</ref> - исправка</p>
 			</longTitle>
 			<p>пречишћен текст</p>
 		</preface>

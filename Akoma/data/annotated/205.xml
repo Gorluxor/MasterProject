@@ -36,6 +36,39 @@
 				<step by="#TODO" date="2004-04-28" wId="stupanje_na_snagu"/>
 				<step by="#TODO" date="2004-04-28" wId="primena"/>
 			</workflow>
+			<references source="#somebody">
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Uslove"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Centralnom registru"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Socijalističkoj Republici Srbiji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vlada"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Zakona"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Zakonu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="AD Beograd"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Centralni registar"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Centralnog registra"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo nadležno za poslove finansija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo u skladu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvu dokumentaciju"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodne banke Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodnom fondu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republika"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SRS"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vlada Republike Srbije"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. avgusta 2004."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. avgusta 2005."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. avgusta 2006."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. jula 1999."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1999."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="20. aprila 2004."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2007."/>
+			</references>
 			<notes source="#somebody">
 				<note wId="not1">
 					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије, односно 28. априла 2004. године (види члан 17. Закона).</p>
@@ -51,7 +84,7 @@
 			</longTitle>
 		</preface>
 		<preamble>
-			<p></p>
+			<p> </p>
 		</preamble>
 		<body>
 			<article wId="clan1">

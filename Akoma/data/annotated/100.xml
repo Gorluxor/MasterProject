@@ -36,6 +36,90 @@
 				<step by="#TODO" date="2018-04-03" wId="stupanje_na_snagu"/>
 				<step by="#TODO" date="2018-06-02" wId="primena"/>
 			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="привремену"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="основни"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="појмови"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="заштиту"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="права"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="начела"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="азил"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="друга"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређују"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="обавезе"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="статус"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="значаја"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="престанак"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="услови"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="одобрење"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="питања"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="тражилаца"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="привремена"/>
+				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="законом"/>
+				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="поступак"/>
+				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="одобрено"/>
+				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="заштита"/>
+				<TLCConcept eId="cocnept23" href="http://purl.org/vocab/frbr/core#Concept" showAs="азила"/>
+				<TLCConcept eId="cocnept24" href="http://purl.org/vocab/frbr/core#Concept" showAs="лица"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Brajevom"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Kancelarije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Komesarijat"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Komesarijata"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Komisiji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republici Srbiji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republika Srbija"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republiku Srbiju"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Srbija"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Srbiji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vlada"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="EASO"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Evropska kancelarija za podršku azilu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Evropske konvencije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Kancelarija za azil"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Kancelarije za azil"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Kancelarijom Visokog komesarijata Ujedinjenih nacija za izbeglice"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Kancelarijom za azil"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Kancelariju za azil"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Komesarijat"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Komesarijata"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Komesarijata za plaćanje troškova smeštaja"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Komesarijatu za izbeglice"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Komisija za azil"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Komisije za azil"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Komisiji za azil"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Konvencijom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Konvencijom Ujedinjenih nacija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstva"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstva unutrašnjih poslova"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo , ministarstvo nadležno za poslove socijalne politike i Komesarijat"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo licu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Nacionalne službe za zapošljavanje"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republici Srbiji Kancelarija za azil"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SRJ"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SUS"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Saveta Evrope"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="UNHCR"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="UNHCR-a"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="UNHCR-u"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ujedinjenih nacija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vlada"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vlade"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="nevažećom"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Komesarijat"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Komesarijata"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Propise"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Rok"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Tražilac"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Tražiocu"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1951."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="26. marta 2018."/>
+			</references>
 			<notes source="#somebody">
 				<note wId="not1">
 					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 3. априла 2018. године, а примењиваће се истеком рока од 60 дана од дана ступања на снагу овог закона односно 3. јуна 2018. године (види члан 104. Закона).Прописи донети на основу Закона о азилу („Службени гласник РС”, број 109/07) остају на снази до доношења прописа којим се стављају ван снаге ако нису у супротности са одредбама овог закона (види члан 102. Закона).Поступци азила започети пре ступања на снагу овог закона окончавају се према одредбама Закона о азилу („Службени гласник РС”, број 109/07), осим ако су одредбе овог закона повољније за тражиоце азила (види члан 103. Закона).</p>
@@ -3043,7 +3127,8 @@
 					<heading>Неважећа путна исправа</heading>
 					<paragraph wId="gla10-clan94-stav1">
 						<content>
-							<p>Несталу путну исправу из <ref wId="ref152" href="akn/rs/act/2018/24-23/srp@/!main~art_87__para_1__point_6" >члана 87. став 1. тачка 6</ref>) надлежни орган за издавање путне исправе решењем проглашава неважећом.</p>
+							<p>Несталу путну исправу из <ref wId="ref152" href="akn/rs/act/2018/24-23/srp@/!main~art_87__para_1__point_6" >
+																												члана 87. став 1. тачка 6</ref>) надлежни орган за издавање путне исправе решењем проглашава неважећом.</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla10-clan94-stav2">

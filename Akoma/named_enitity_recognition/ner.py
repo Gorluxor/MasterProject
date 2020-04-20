@@ -25,15 +25,14 @@ except ModuleNotFoundError as sureError:
 filename = 'data/ner/modelReldiD.sav'
 crf = pickle.load(open(filename, 'rb'))
 
-deriv_elements = []
-loc_elements = []
-org_elements = []
-per_elements = []
-misc_elements = []
-date_elements = []
+# deriv_elements = []
+# loc_elements = []
+# org_elements = []
+# per_elements = []
+# misc_elements = []
+# date_elements = []
 
-map_of_lists = {'deriv': deriv_elements, 'loc': loc_elements, 'org': org_elements, 'per': per_elements,
-                'misc': misc_elements, 'date': date_elements}
+
 """
 O
 B-deriv-per
@@ -55,7 +54,7 @@ I-date
 """
 
 
-def find_elements(element, res_list):
+def find_elements(element, res_list, map_of_lists):
     res_list = res_list[0]
     last = None
     continuous = ""
@@ -76,6 +75,9 @@ def find_elements(element, res_list):
 
 
 def do_ner_on_sentences(sentences):
+    map_of_lists = {'deriv': [], 'loc': [], 'org': [], 'per': [],
+                    'misc': [], 'date': []}
+
     merged_sentences = "`".join(sentences)
     w = tokenize_pos(merged_sentences)
 
@@ -85,7 +87,7 @@ def do_ner_on_sentences(sentences):
     for tw in separated_list:
         el = [x for x, y in tw]
         y_pred = crf.predict([sent2features(tw)])
-        find_elements(el, y_pred)
+        find_elements(el, y_pred, map_of_lists)
 
     for key in map_of_lists:
         map_of_lists[key] = list(np.unique(map_of_lists[key]))

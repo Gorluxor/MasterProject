@@ -161,10 +161,10 @@ def get_ending_for_clan_do_clan(m):
     if m.group(3):
         m1 = re.search("([0-9]+" + azbuka_pattern + ")", m.group(3))
         if m1:
-            retval += m1.group(0)
+            retval += "art_" + m1.group(0)
         else:
             m1 = re.search("([0-9]+" + azbuka_pattern + ")", m.group(4))
-            retval += m1.group(0)
+            retval += "art_" + m1.group(0)
     return retval
 
 
