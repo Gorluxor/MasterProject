@@ -22,6 +22,7 @@ if __name__ == "__main__":
         try:
             try:
                 schema.validate('../data/akoma_result/' + fajls[i])
+                print(fajls[i]+";",end="")
             except Exception as e1:
                 print("Schema validation error :" + fajls[i] + " MES:" + e1.message)
                 f.write(fajls[i] + " : Not valid with schema " + e1.message + "\n")

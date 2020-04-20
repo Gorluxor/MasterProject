@@ -96,7 +96,7 @@ def recognize_pattern(text):
 
 brojevi = ["ПРВИ", "ДРУГИ", "ТРЕЋИ", "ЧЕТВРТИ", "ПЕТИ", "ШЕСТИ", "СЕДМИ", "ОСМИ", "ДЕВЕТИ", "ДЕСЕТИ", "ЈЕДАНАЕСТИ",
            "ДВАНАЕСТИ"]
-slova = "[џцвбнмасдфгхјклчћшђжпоиузтрењљђ]+"
+slova = "[џцвбнмасдфгхјклчћшђжпоиузтрењљђ]+[a-zđžćčš]+"
 
 
 def is_deo(text):
@@ -141,7 +141,7 @@ def is_odeljak(text):
 
 
 def is_pododeljak(text):
-    m = re.match("(" + slova + ")(\))(.*)", text)  # TODO: fix
+    m = re.match("([а-шђјљћџ]|[a-zđžćčš])(\))(.*)", text)
     if m:
         return FoundToken(TokenType.PODODELJAK, eng_tags[TokenType.PODODELJAK], m.group(3), None, numberstr=m.group(1))
     return False

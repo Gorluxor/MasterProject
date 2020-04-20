@@ -4,22 +4,22 @@
 		<meta>
 			<identification source="#somebody">
 				<FRBRWork>
-					<FRBRthis value="/rs/act/2001/43-1/main"/>
-					<FRBRuri value="/rs/act/2001/43-1"/>
+					<FRBRthis value="akn/rs/act/2001/43-1/main"/>
+					<FRBRuri value="akn/rs/act/2001/43-1"/>
 					<FRBRdate date="2001-01-01" name="Generation"/>
 					<FRBRauthor as="#author" href="#somebody"/>
 					<FRBRcountry value="rs"/>
 				</FRBRWork>
 				<FRBRExpression>
-					<FRBRthis value="/rs/act/2011/92-12/srp@/main"/>
-					<FRBRuri value="/rs/act/2011/92-12/srp@"/>
+					<FRBRthis value="akn/rs/act/2011/92-12/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2011/92-12/srp@"/>
 					<FRBRdate date="2011-01-01" name="Generation"/>
 					<FRBRauthor as="#editor" href="#somebody"/>
 					<FRBRlanguage language="srp"/>
 				</FRBRExpression>
 				<FRBRManifestation>
-					<FRBRthis value="/rs/act/2011/92-12/srp@/main.xml"/>
-					<FRBRuri value="/rs/act/2011/92-12/srp@.akn"/>
+					<FRBRthis value="akn/rs/act/2011/92-12/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2011/92-12/srp@.akn"/>
 					<FRBRdate date="2011-01-01" name="Generation"/>
 					<FRBRauthor as="#editor" href="#somebody"/>
 					<FRBRformat value="xml"/>
@@ -84,6 +84,7 @@
 				<TLCConcept eId="cocnept39" href="http://purl.org/vocab/frbr/core#Concept" showAs="збору"/>
 				<TLCConcept eId="cocnept40" href="http://purl.org/vocab/frbr/core#Concept" showAs="заклетвом"/>
 				<TLCConcept eId="cocnept41" href="http://purl.org/vocab/frbr/core#Concept" showAs="15"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Nova"/>
 				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Kosovsku bitku"/>
 				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Kragujevcu"/>
 				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Orašcu"/>
@@ -141,29 +142,35 @@
 						<p>Сретење – Дан државности Србије празнује се  15. и 16. фебруара.</p>
 					</content>
 				</paragraph>
-			</article>
-			<article wId="clan1.а">
-				<num>1а</num>
-				<heading>*Службени гласник РС, број 92/2011</heading>
-				<paragraph wId="clan1.а-stav1">
+				<paragraph wId="clan1-stav3">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref0" href="akn/rs/act/2011/92/srp@">92/2011</ref></p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan1-stav4">
+					<content>
+						<p>Члан 1а.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan1-stav5">
 					<content>
 						<p>Државни празници Републике Србије јесу и Нова година, Празник рада, Дан победе и Дан примирја у  Првом светском рату.</p>
 					</content>
 				</paragraph>
-				<paragraph wId="clan1.а-stav2">
+				<paragraph wId="clan1-stav6">
 					<content>
 						<p>Нова година празнује се 1. и 2. јануара, Празник  рада – 1. и 2. маја, Дан  победе 9. маја а Дан примирја у Првом  светском рату 11. новембра.</p>
 					</content>
 				</paragraph>
-				<paragraph wId="clan1.а-stav3">
+				<paragraph wId="clan1-stav7">
 					<content>
-						<p>*Службени гласник РС, број <ref wId="ref0" href="akn/rs/act/2007/101/srp@">101/2007</ref></p>
+						<p>*Службени гласник РС, број <ref wId="ref1" href="akn/rs/act/2007/101/srp@">101/2007</ref></p>
 					</content>
 				</paragraph>
 			</article>
 			<article wId="clan2">
 				<num>2.</num>
-				<heading>**<ref wId="ref1" href="akn/rs/act/2011/92/srp@">Службени гласник РС, број 92/2011</ref></heading>
+				<heading>**Службени гласник РС, број <ref wId="ref2" href="akn/rs/act/2011/92/srp@">92/2011</ref></heading>
 				<paragraph wId="clan2-stav1">
 					<intro>
 						<p>У Републици Србији празнују се верски празници:</p>
@@ -199,11 +206,17 @@
 						<p>Привредна друштва и други облици организовања за обављање делатности или услуга чија природа делатности, односно технологија процеса рада захтева непрекидан рад, могу да раде и у дане државних и верских празника који се празнују у Републици Србији.</p>
 					</content>
 				</paragraph>
-			</article>
-			<article wId="clan3.а">
-				<num>3а</num>
-				<heading>*<ref wId="ref2" href="akn/rs/act/2011/92/srp@">Службени гласник РС, број 101/2007</ref></heading>
-				<paragraph wId="clan3.а-stav1">
+				<paragraph wId="clan3-stav4">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref3" href="akn/rs/act/2007/101/srp@">101/2007</ref></p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav5">
+					<content>
+						<p>Члан 3а.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav6">
 					<content>
 						<p>Ако један од датума када се празнују државни празници Републике Србије падне у  недељу, не ради се првог наредног радног дана.</p>
 					</content>
@@ -211,7 +224,7 @@
 			</article>
 			<article wId="clan4">
 				<num>4.</num>
-				<heading>*<ref wId="ref3" href="akn/rs/act/2011/92/srp@">Службени гласник РС, број 101/2007</ref></heading>
+				<heading>*Службени гласник РС, број <ref wId="ref4" href="akn/rs/act/2007/101/srp@">101/2007</ref></heading>
 				<paragraph wId="clan4-stav1">
 					<intro>
 						<p>Запослени имају право да не раде у дане следећих верских празника, и то:</p>
@@ -257,7 +270,7 @@
 			</article>
 			<article wId="clan6">
 				<num>6.</num>
-				<heading>*Службени гласник РС,  <ref wId="ref4" href="akn/rs/act/2011/92/srp@" >број 92/2011</ref></heading>
+				<heading>*Службени гласник РС, број <ref wId="ref12" href="akn/rs/act/2011/92/srp@">92/2011</ref></heading>
 				<paragraph wId="clan6-stav1">
 					<intro>
 						<p>Даном ступања на снагу овог закона престају да важе:</p>
@@ -271,7 +284,7 @@
 					<point wId="clan6-stav1-tac2">
 						<num>2)</num>
 						<content>
-							<p> <ref wId="ref9" href="akn/rs/act/2011/92-12/srp@/!main~art_60" >члан 60. </ref>Закона о радним односима („Службени гласник РС&quot;, бр. <ref wId="ref10" href="akn/rs/act/96/55/srp@">55/96</ref> и <ref wId="ref11" href="akn/rs/act/2001/28/srp@">28/2001</ref>).</p>
+							<p> <ref wId="ref9" href="aknakn/rs/act/2011/92-12/srp@/!main~art_60" >члан 60. </ref>Закона о радним односима („Службени гласник РС&quot;, бр. <ref wId="ref10" href="akn/rs/act/96/55/srp@">55/96</ref> и <ref wId="ref11" href="akn/rs/act/2001/28/srp@">28/2001</ref>).</p>
 						</content>
 					</point>
 				</paragraph>
@@ -283,22 +296,9 @@
 						<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије&quot;.</p>
 					</content>
 				</paragraph>
-			</article>
-			<article wId="clan4">
-				<num>4.</num>
-				<heading>ОДРЕДБЕ КОЈЕ НИСУ УНЕТЕ У &quot;ПРЕЧИШЋЕН ТЕКСТ&quot; ЗАКОНА</heading>
-				<heading>Закона о изменама и допунама Закона о државним и другим празницима у Републици Србији: <ref wId="ref12" href="akn/rs/act/2007-5/101/srp@" >"Службени гласник РС", број 101/2007-5</ref></heading>
-				<paragraph wId="clan4-stav1">
+				<paragraph wId="clan7-stav2">
 					<content>
-						<p>Престаје да важи Закон о државним празницима Савезне Републике Југославије („Службени лист СРЈ”, <ref wId="ref13" href="akn/rs/act/97/29/srp@" >бр. 29/97 </ref> и <ref wId="ref14" href="akn/rs/act/02/63/srp@" >63/02 </ref>).</p>
-					</content>
-				</paragraph>
-			</article>
-			<article wId="clan5">
-				<num>5.</num>
-				<paragraph wId="clan5-stav1">
-					<content>
-						<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+						<p>ОДРЕДБЕ КОЈЕ НИСУ УНЕТЕ У &quot;ПРЕЧИШЋЕН ТЕКСТ&quot; ЗАКОНА</p>
 					</content>
 				</paragraph>
 			</article>

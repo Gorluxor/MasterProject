@@ -509,3 +509,7 @@ SRB_SCHEMA
 953.xml : Not well formed xml document 
 997.xml : Not well formed xml document 
 1296.xml : Not valid with schema failed validating <Element '{http://docs.oasis-open.org/legaldocml/ns/akn/3.0}content' at 0x0000012526EDE5E8> with Xsd11Group(model='sequence', occurs=[0, None])
+195.xml : Not well formed xml document 
+743.xml : Not valid with schema failed validating <Element '{http://docs.oasis-open.org/legaldocml/ns/akn/3.0}content' at 0x000001C6E8FD0188> with Xsd11Group(model='sequence', occurs=[0, None])
+953.xml : Not valid with schema failed validating <Element '{http://docs.oasis-open.org/legaldocml/ns/akn/3.0}content' at 0x000001C6E8F7A6D8> with Xsd11Group(model='sequence', occurs=[0, None])
+1296.xml : Not valid with schema failed validating <Element '{http://docs.oasis-open.org/legaldocml/ns/akn/3.0}content' at 0x000001C6E91821D8> with Xsd11Group(model='sequence', occurs=[0, None])

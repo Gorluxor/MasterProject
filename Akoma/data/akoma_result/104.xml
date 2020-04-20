@@ -4,22 +4,22 @@
 		<meta>
 			<identification source="#somebody">
 				<FRBRWork>
-					<FRBRthis value="/rs/act/1986/24-758/main"/>
-					<FRBRuri value="/rs/act/1986/24-758"/>
+					<FRBRthis value="akn/rs/act/1986/24-758/main"/>
+					<FRBRuri value="akn/rs/act/1986/24-758"/>
 					<FRBRdate date="1986-01-01" name="Generation"/>
 					<FRBRauthor as="#author" href="#somebody"/>
 					<FRBRcountry value="rs"/>
 				</FRBRWork>
 				<FRBRExpression>
-					<FRBRthis value="/rs/act/1986/24-758/srp@/main"/>
-					<FRBRuri value="/rs/act/1986/24-758/srp@"/>
+					<FRBRthis value="akn/rs/act/1986/24-758/srp@/main"/>
+					<FRBRuri value="akn/rs/act/1986/24-758/srp@"/>
 					<FRBRdate date="1986-01-01" name="Generation"/>
 					<FRBRauthor as="#editor" href="#somebody"/>
 					<FRBRlanguage language="srp"/>
 				</FRBRExpression>
 				<FRBRManifestation>
-					<FRBRthis value="/rs/act/1986/24-758/srp@/main.xml"/>
-					<FRBRuri value="/rs/act/1986/24-758/srp@.akn"/>
+					<FRBRthis value="akn/rs/act/1986/24-758/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/1986/24-758/srp@.akn"/>
 					<FRBRdate date="1986-01-01" name="Generation"/>
 					<FRBRauthor as="#editor" href="#somebody"/>
 					<FRBRformat value="xml"/>
@@ -119,7 +119,7 @@
 				</paragraph>
 				<paragraph wId="clan4-stav2">
 					<content>
-						<p>Ако се приликом промене пребивалишта промени надлежни орган или организација који води регистар, орган или организација на чијем подручју је ново пребивалиште грађанима, по службеној дужности, прибавља податке из <ref wId="ref0" href="akn/rs/act/1986/24-758/srp@/!main~art_2" >члана 2. овог</ref> закона од органа или организације која је раније евидентирала податке о том грађанину, ако те податке не може обезбедити на основу извештаја за упис у регистар.</p>
+						<p>Ако се приликом промене пребивалишта промени надлежни орган или организација који води регистар, орган или организација на чијем подручју је ново пребивалиште грађанима, по службеној дужности, прибавља податке из <ref wId="ref0" href="aknakn/rs/act/1986/24-758/srp@/!main~art_2" >члана 2. овог</ref> закона од органа или организације која је раније евидентирала податке о том грађанину, ако те податке не може обезбедити на основу извештаја за упис у регистар.</p>
 					</content>
 				</paragraph>
 				<paragraph wId="clan4-stav3">
