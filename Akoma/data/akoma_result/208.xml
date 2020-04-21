@@ -60,6 +60,18 @@
 				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="србије"/>
 				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="републике"/>
 				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="обвезнице"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Jugoslavije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republika Srbija"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo finansija Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodne banke Jugoslavije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodnoj banci Jugoslavije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1997."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. decembar 1996."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. decembar 1997."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="6. i 8."/>
 			</references>
 			<notes source="#somebody">
 				<note wId="not1">
@@ -171,7 +183,7 @@
 				</paragraph>
 				<paragraph wId="clan9-stav2">
 					<content>
-						<p>Средства за  покриће трошкова из <ref wId="ref0" href="aknakn/rs/act/1996/54-1322/srp@/!main~art_9__para_1" >става 1. овог</ref> члана обезбеђују се у буџету Републике Србије  за 1997. годину.</p>
+						<p>Средства за  покриће трошкова из <ref wId="ref0" href="akn/rs/act/1996/54-1322/srp@/!main~art_9__para_1" >става 1. овог</ref> члана обезбеђују се у буџету Републике Србије  за 1997. годину.</p>
 					</content>
 				</paragraph>
 			</article>
@@ -179,7 +191,7 @@
 				<num>10.</num>
 				<paragraph wId="clan10-stav1">
 					<content>
-						<p>Овлашћује се  министар финансија да, по потреби, ближе пропише начин примене одредаба чл. <ref wId="ref1" href="aknakn/rs/act/1996/54-1322/srp@/!main~art_5" >5</ref>,  <ref wId="ref2" href="aknakn/rs/act/1996/54-1322/srp@/!main~art_6" >6</ref>. и <ref wId="ref3" href="aknakn/rs/act/1996/54-1322/srp@/!main~art_8" >8</ref>. овог закона.</p>
+						<p>Овлашћује се  министар финансија да, по потреби, ближе пропише начин примене одредаба чл. <ref wId="ref1" href="akn/rs/act/1996/54-1322/srp@/!main~art_5" >5</ref>,  <ref wId="ref2" href="akn/rs/act/1996/54-1322/srp@/!main~art_6" >6</ref>. и <ref wId="ref3" href="akn/rs/act/1996/54-1322/srp@/!main~art_8" >8</ref>. овог закона.</p>
 					</content>
 				</paragraph>
 			</article>

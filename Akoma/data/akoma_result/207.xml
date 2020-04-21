@@ -85,6 +85,30 @@
 				<TLCConcept eId="cocnept45" href="http://purl.org/vocab/frbr/core#Concept" showAs="износу"/>
 				<TLCConcept eId="cocnept46" href="http://purl.org/vocab/frbr/core#Concept" showAs="укупан"/>
 				<TLCConcept eId="cocnept47" href="http://purl.org/vocab/frbr/core#Concept" showAs="доспелих"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Beogradskom bankom"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Obveznice"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Srbija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="A"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="B"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Beogradska banka"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Fonda za razvoj Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="G."/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodne banke Jugoslavije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="PTT"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. januara"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. januara 2001."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. jula"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. jula 2000."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. juli 2000."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="17. jula 2000."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="30. juna 2000."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. decembra 2000."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. marta 1999."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="7. st. 4. i 5."/>
 			</references>
 			<notes source="#somebody">
 				<note wId="not1">
@@ -107,7 +131,7 @@
 				</paragraph>
 				<paragraph wId="clan1-stav2">
 					<content>
-						<p>Обвезнице из <ref wId="ref8" href="aknakn/rs/act/2000/25-666/srp@/!main~art_1__para_1" >става 1. овог</ref> члана се емитују када је укупан износ по једном кориснику већи од 1.000,00 нових динара, са стањем на дан 30. јуна 2000. године.</p>
+						<p>Обвезнице из <ref wId="ref8" href="akn/rs/act/2000/25-666/srp@/!main~art_1__para_1" >става 1. овог</ref> члана се емитују када је укупан износ по једном кориснику већи од 1.000,00 нових динара, са стањем на дан 30. јуна 2000. године.</p>
 					</content>
 				</paragraph>
 			</article>
@@ -115,7 +139,7 @@
 				<num>2.</num>
 				<paragraph wId="clan2-stav1">
 					<content>
-						<p>Обвезнице из <ref wId="ref9" href="aknakn/rs/act/2000/25-666/srp@/!main~art_1" >члана 1. овог</ref> закона гласе на доносиоца.</p>
+						<p>Обвезнице из <ref wId="ref9" href="akn/rs/act/2000/25-666/srp@/!main~art_1" >члана 1. овог</ref> закона гласе на доносиоца.</p>
 					</content>
 				</paragraph>
 			</article>
@@ -123,7 +147,7 @@
 				<num>3.</num>
 				<paragraph wId="clan3-stav1">
 					<content>
-						<p>Обвезнице из <ref wId="ref10" href="aknakn/rs/act/2000/25-666/srp@/!main~art_1" >члана 1. овог</ref> закона емитују се у новим динарима у апоенима од: 120,00 серија А, 1.200,00 серија Б и 4.000,00 серија Г.</p>
+						<p>Обвезнице из <ref wId="ref10" href="akn/rs/act/2000/25-666/srp@/!main~art_1" >члана 1. овог</ref> закона емитују се у новим динарима у апоенима од: 120,00 серија А, 1.200,00 серија Б и 4.000,00 серија Г.</p>
 					</content>
 				</paragraph>
 			</article>
@@ -131,7 +155,7 @@
 				<num>4.</num>
 				<paragraph wId="clan4-stav1">
 					<content>
-						<p>Обвезнице из <ref wId="ref11" href="aknakn/rs/act/2000/25-666/srp@/!main~art_1" >члана 1. овог</ref> закона емитују се са датумом 1. јули 2000. године.</p>
+						<p>Обвезнице из <ref wId="ref11" href="akn/rs/act/2000/25-666/srp@/!main~art_1" >члана 1. овог</ref> закона емитују се са датумом 1. јули 2000. године.</p>
 					</content>
 				</paragraph>
 				<paragraph wId="clan4-stav2">
@@ -192,7 +216,7 @@
 				</paragraph>
 				<paragraph wId="clan7-stav2">
 					<content>
-						<p>Обавезе из <ref wId="ref12" href="aknakn/rs/act/2000/25-666/srp@/!main~art_7__para_1" >става 1. овог</ref> члана могу се измиривати у двоструком износу и недоспелим купонима који гласе на номиналну вредност, уз предају каматних купона истих доспећа.</p>
+						<p>Обавезе из <ref wId="ref12" href="akn/rs/act/2000/25-666/srp@/!main~art_7__para_1" >става 1. овог</ref> члана могу се измиривати у двоструком износу и недоспелим купонима који гласе на номиналну вредност, уз предају каматних купона истих доспећа.</p>
 					</content>
 				</paragraph>
 				<paragraph wId="clan7-stav3">
@@ -202,12 +226,12 @@
 				</paragraph>
 				<paragraph wId="clan7-stav4">
 					<content>
-						<p>Правна лица и предузетници који врше промет роба и услуга, непосредно или преко трећих лица, а имају неизмирене обавезе из <ref wId="ref13" href="aknakn/rs/act/2000/25-666/srp@/!main~art_7__para_1" >става 1. овог</ref> члана, дужни су да приме купоне који садрже номиналну вредност уз предају каматних купона истог доспећа на име цене за испоручену робу, односно извршену услугу, у вредности од најмање 20% од износа свог дуга из <ref wId="ref14" href="aknakn/rs/act/2000/25-666/srp@/!main~art_7__para_1" >става 1. овог</ref> члана, и то до 31. децембра 2000. године.</p>
+						<p>Правна лица и предузетници који врше промет роба и услуга, непосредно или преко трећих лица, а имају неизмирене обавезе из <ref wId="ref13" href="akn/rs/act/2000/25-666/srp@/!main~art_7__para_1" >става 1. овог</ref> члана, дужни су да приме купоне који садрже номиналну вредност уз предају каматних купона истог доспећа на име цене за испоручену робу, односно извршену услугу, у вредности од најмање 20% од износа свог дуга из <ref wId="ref14" href="akn/rs/act/2000/25-666/srp@/!main~art_7__para_1" >става 1. овог</ref> члана, и то до 31. децембра 2000. године.</p>
 					</content>
 				</paragraph>
 				<paragraph wId="clan7-stav5">
 					<content>
-						<p>Правна лица и предузетници који врше промет роба и услуга преко трећих лица, а имају неизмирене обавезе из <ref wId="ref15" href="aknakn/rs/act/2000/25-666/srp@/!main~art_7__para_1" >става 1. овог</ref> члана, дужни су да у уговору са трећим лицем уреде да наплату својих роба или услуга врше у складу са <ref wId="ref16" href="aknakn/rs/act/2000/25-666/srp@/!main~art_7__para_4" >ставом 4. овог</ref> члана.</p>
+						<p>Правна лица и предузетници који врше промет роба и услуга преко трећих лица, а имају неизмирене обавезе из <ref wId="ref15" href="akn/rs/act/2000/25-666/srp@/!main~art_7__para_1" >става 1. овог</ref> члана, дужни су да у уговору са трећим лицем уреде да наплату својих роба или услуга врше у складу са <ref wId="ref16" href="akn/rs/act/2000/25-666/srp@/!main~art_7__para_4" >ставом 4. овог</ref> члана.</p>
 					</content>
 				</paragraph>
 			</article>
@@ -262,12 +286,12 @@
 				</paragraph>
 				<paragraph wId="clan8-stav2">
 					<content>
-						<p>Обавезе из <ref wId="ref17" href="aknakn/rs/act/2000/25-666/srp@/!main~art_8__para_1" >става 1. овог</ref> члана могу се измиривати и недоспелим купонима који гласе на номиналну вредност, уз предају каматних купона истих доспећа.</p>
+						<p>Обавезе из <ref wId="ref17" href="akn/rs/act/2000/25-666/srp@/!main~art_8__para_1" >става 1. овог</ref> члана могу се измиривати и недоспелим купонима који гласе на номиналну вредност, уз предају каматних купона истих доспећа.</p>
 					</content>
 				</paragraph>
 				<paragraph wId="clan8-stav3">
 					<content>
-						<p>Имаоци купона који гласе на номиналну вредност и каматних купона из става 1. тач. <ref wId="ref18" href="aknakn/rs/act/2000/25-666/srp@/!main~art_8__para_1__point_5" >5</ref>), <ref wId="ref19" href="aknakn/rs/act/2000/25-666/srp@/!main~art_8__para_1__point_6" >6</ref>) и <ref wId="ref20" href="aknakn/rs/act/2000/25-666/srp@/!main~art_8__para_1__point_7" >7</ref>) овог члана наплаћиваће се од емитента о роковима њихових доспећа.</p>
+						<p>Имаоци купона који гласе на номиналну вредност и каматних купона из става 1. тач. <ref wId="ref18" href="akn/rs/act/2000/25-666/srp@/!main~art_8__para_1__point_5" >5</ref>), <ref wId="ref19" href="akn/rs/act/2000/25-666/srp@/!main~art_8__para_1__point_6" >6</ref>) и <ref wId="ref20" href="akn/rs/act/2000/25-666/srp@/!main~art_8__para_1__point_7" >7</ref>) овог члана наплаћиваће се од емитента о роковима њихових доспећа.</p>
 					</content>
 				</paragraph>
 			</article>
@@ -291,12 +315,12 @@
 				<num>11.</num>
 				<paragraph wId="clan11-stav1">
 					<content>
-						<p>Све послове око издавања и утврђивања броја појединих апоена из <ref wId="ref21" href="aknakn/rs/act/2000/25-666/srp@/!main~art_3" >члана 3. овог</ref> закона, штампање и друге административно-техничке послове, као и вођење депо рачуна у име и за рачун Републике Србије обављаће Београдска банка А.Д. Београд.</p>
+						<p>Све послове око издавања и утврђивања броја појединих апоена из <ref wId="ref21" href="akn/rs/act/2000/25-666/srp@/!main~art_3" >члана 3. овог</ref> закона, штампање и друге административно-техничке послове, као и вођење депо рачуна у име и за рачун Републике Србије обављаће Београдска банка А.Д. Београд.</p>
 					</content>
 				</paragraph>
 				<paragraph wId="clan11-stav2">
 					<content>
-						<p>Овлашћује се министар надлежан за послове финансија да за обављање послова из <ref wId="ref22" href="aknakn/rs/act/2000/25-666/srp@/!main~art_11__para_1" >става 1. овог</ref> члана закључи уговор са Београдском банком А.Д. Београд.</p>
+						<p>Овлашћује се министар надлежан за послове финансија да за обављање послова из <ref wId="ref22" href="akn/rs/act/2000/25-666/srp@/!main~art_11__para_1" >става 1. овог</ref> члана закључи уговор са Београдском банком А.Д. Београд.</p>
 					</content>
 				</paragraph>
 			</article>
@@ -328,7 +352,7 @@
 				<num>15.</num>
 				<paragraph wId="clan15-stav1">
 					<content>
-						<p>Правно лице које не поступи у складу са <ref wId="ref23" href="aknakn/rs/act/2000/25-666/srp@/!main~art_7__para_4->para_5" >чланом 7. ст. 4. и 5. овог</ref> закона казниће се за прекршај од 150.000,00 до 200.000,00 нових динара.</p>
+						<p>Правно лице које не поступи у складу са <ref wId="ref23" href="akn/rs/act/2000/25-666/srp@/!main~art_7__para_4->para_5" >чланом 7. ст. 4. и 5. овог</ref> закона казниће се за прекршај од 150.000,00 до 200.000,00 нових динара.</p>
 					</content>
 				</paragraph>
 			</article>
@@ -336,7 +360,7 @@
 				<num>16.</num>
 				<paragraph wId="clan16-stav1">
 					<content>
-						<p>Предузетник који не поступи у складу са <ref wId="ref24" href="aknakn/rs/act/2000/25-666/srp@/!main~art_7__para_4->para_5" >чланом 7. ст. 4. и 5. овог</ref> закона казниће се за прекршај од 80.000,00 до 100.000,00 нових динара.</p>
+						<p>Предузетник који не поступи у складу са <ref wId="ref24" href="akn/rs/act/2000/25-666/srp@/!main~art_7__para_4->para_5" >чланом 7. ст. 4. и 5. овог</ref> закона казниће се за прекршај од 80.000,00 до 100.000,00 нових динара.</p>
 					</content>
 				</paragraph>
 			</article>
@@ -344,7 +368,7 @@
 				<num>17.</num>
 				<paragraph wId="clan17-stav1">
 					<content>
-						<p>Одговорно лице у правном лицу које не поступи у складу са <ref wId="ref25" href="aknakn/rs/act/2000/25-666/srp@/!main~art_7__para_4->para_5" >чланом 7. ст. 4. и 5. </ref>казниће се за прекршај од 8.000,00 до 10.000,00 нових динара.</p>
+						<p>Одговорно лице у правном лицу које не поступи у складу са <ref wId="ref25" href="akn/rs/act/2000/25-666/srp@/!main~art_7__para_4->para_5" >чланом 7. ст. 4. и 5. </ref>казниће се за прекршај од 8.000,00 до 10.000,00 нових динара.</p>
 					</content>
 				</paragraph>
 			</article>
