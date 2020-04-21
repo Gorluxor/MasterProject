@@ -1,25 +1,25 @@
 <?xml version="1.0" ?>
 <akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
-	<act name="Закон „Службени гласник РС“, број 17 од 14. марта 2019.">
+	<act name="Закон о Централном регистру становништва">
 		<meta>
 			<identification source="#somebody">
 				<FRBRWork>
-					<FRBRthis value="/rs/act/2019/17-3/main"/>
-					<FRBRuri value="/rs/act/2019/17-3"/>
+					<FRBRthis value="akn/rs/act/2019/17-3/main"/>
+					<FRBRuri value="akn/rs/act/2019/17-3"/>
 					<FRBRdate date="2019-01-01" name="Generation"/>
 					<FRBRauthor as="#author" href="#somebody"/>
 					<FRBRcountry value="rs"/>
 				</FRBRWork>
 				<FRBRExpression>
-					<FRBRthis value="/rs/act/2019/17-3/srp@/main"/>
-					<FRBRuri value="/rs/act/2019/17-3/srp@"/>
+					<FRBRthis value="akn/rs/act/2019/17-3/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2019/17-3/srp@"/>
 					<FRBRdate date="2019-01-01" name="Generation"/>
 					<FRBRauthor as="#editor" href="#somebody"/>
 					<FRBRlanguage language="srp"/>
 				</FRBRExpression>
 				<FRBRManifestation>
-					<FRBRthis value="/rs/act/2019/17-3/srp@/main.xml"/>
-					<FRBRuri value="/rs/act/2019/17-3/srp@.akn"/>
+					<FRBRthis value="akn/rs/act/2019/17-3/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2019/17-3/srp@.akn"/>
 					<FRBRdate date="2019-01-01" name="Generation"/>
 					<FRBRauthor as="#editor" href="#somebody"/>
 					<FRBRformat value="xml"/>

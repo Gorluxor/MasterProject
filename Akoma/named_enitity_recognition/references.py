@@ -65,7 +65,7 @@ nabrajanjeDrZakonDatum = '([0-9]+\.?)(\\s*од\\s*[0-9]+.*?)([0-9]+)(\\s*-\\s*д
 
 
 def make_reference(cnt, this_id, start, end, ending, stringo, longer, useLonger=True):
-    open = "<ref " + "wId=\"ref" + str(cnt) + "\" href=\"akn" + this_id + "/!main~" + ending + "\" >"
+    open = "<ref " + "wId=\"ref" + str(cnt) + "\" href=\"" + this_id + "/!main~" + ending + "\" >"
 
     if useLonger:
         start = start + longer
@@ -537,7 +537,7 @@ def add_refs(stablo, stringo, this_id):
 
     for el_clan in listaClanova:  # Primer pristupa svakom članu
         clan_id = el_clan.attrib['wId']
-        if ("gla4-clan37" in clan_id):
+        if ("gla6-clan42" in clan_id):
             print("")
         for el_stav in el_clan.iter('paragraph'):
             stav_id = el_stav.attrib['wId']

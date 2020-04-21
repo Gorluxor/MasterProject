@@ -4,15 +4,15 @@
 		<meta>
 			<identification source="#somebody">
 				<FRBRWork>
-					<FRBRthis value="/rs/act/2018/24-68/main"/>
-					<FRBRuri value="/rs/act/2018/24-68"/>
+					<FRBRthis value="akn/rs/act/2018/24-68/main"/>
+					<FRBRuri value="akn/rs/act/2018/24-68"/>
 					<FRBRdate date="2018-01-01" name="Generation"/>
 					<FRBRauthor as="#author" href="#somebody"/>
 					<FRBRcountry value="rs"/>
 				</FRBRWork>
 				<FRBRExpression>
-					<FRBRthis value="/rs/act/2018/24-68/srp@/main"/>
-					<FRBRuri value="/rs/act/2018/24-68/srp@"/>
+					<FRBRthis value="akn/rs/act/2018/24-68/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2018/24-68/srp@"/>
 					<FRBRdate date="2018-01-01" name="Generation"/>
 					<FRBRauthor as="#editor" href="#somebody"/>
 					<FRBRlanguage language="srp"/>

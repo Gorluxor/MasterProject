@@ -77,14 +77,13 @@ def add_new_meta(meta: Metadata):
     If file to added meta
     Назив прописа  # ELI#Напомена издавача#Додатне информације#Врста прописа#Доносилац#Област#Група#Датум усвајања#Гласило и датум објављивања#Датум ступања на снагу основног текста#Датум примене#Правни претходник#Издавач#filename
     :param meta:
-    :return:
+    :return: None, writes in file meta
     """
     file_meta = open(utilities.get_root_dir() + "/data/meta/allmeta.csv", mode="a")
     deli = "#"
-    new_line = meta.act_name + deli + meta.eli + deli + meta.napomena_izdavaca + deli + meta.dodatne_informacije + deli + meta.vrsta_propisa + deli + meta.donosilac + deli + meta.oblast + deli + meta.grupa + deli + meta.datum_usvajanja + deli + meta.glasilo_i_datum + deli + meta.datum_stupanja + deli + meta.pravni_prethodnik + deli + meta.izdavac + deli + meta.filename
-    file_meta.write()
-
-    pass
+    new_line = meta.act_name + deli + meta.eli + deli + meta.napomena_izdavaca + deli + meta.dodatne_informacije + deli + meta.vrsta_propisa + deli + meta.donosilac + deli + meta.oblast + deli + meta.grupa + deli + meta.datum_usvajanja + deli + meta.glasilo_i_datum + deli + meta.datum_stupanja + deli + meta.pravni_prethodnik + deli + meta.izdavac + deli + meta.filename + "\n"
+    file_meta.write(new_line)
+    file_meta.close()
 
 
 class MetadataBuilder():

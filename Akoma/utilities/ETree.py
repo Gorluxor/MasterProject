@@ -40,13 +40,14 @@ def append_to_element_by_id(root, name, id, new_element, namespace=CNS):
     ret[0].append(new_element)
 
 
-def get_elements(root, name, namespace=CNS):
+def get_elements(root, name, namespace=CNS,debug=False):
     ret = [iter_chapter for iter_chapter in root.iter(tag=namespace + name)]
     if len(ret) == 0:
         ret = [iter_chapter for iter_chapter in root.iter(tag=name)]
     if len(ret) == 0:
-        text_error = ">>ElementTree no " + name + " found using get_elements in utilities.Etree"
-        print(colored(text_error, 'red'))
+        if debug:
+            text_error = ">>ElementTree no " + name + " found using get_elements in utilities.Etree"
+            print(colored(text_error, 'red'))
     return ret
 
 

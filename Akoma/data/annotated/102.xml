@@ -4,22 +4,22 @@
 		<meta>
 			<identification source="#somebody">
 				<FRBRWork>
-					<FRBRthis value="/rs/act/2006/62-19/main"/>
-					<FRBRuri value="/rs/act/2006/62-19"/>
+					<FRBRthis value="akn/rs/act/2006/62-19/main"/>
+					<FRBRuri value="akn/rs/act/2006/62-19"/>
 					<FRBRdate date="2006-01-01" name="Generation"/>
 					<FRBRauthor as="#author" href="#somebody"/>
 					<FRBRcountry value="rs"/>
 				</FRBRWork>
 				<FRBRExpression>
-					<FRBRthis value="/rs/act/2011/36-94/srp@/main"/>
-					<FRBRuri value="/rs/act/2011/36-94/srp@"/>
+					<FRBRthis value="akn/rs/act/2011/36-94/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2011/36-94/srp@"/>
 					<FRBRdate date="2011-01-01" name="Generation"/>
 					<FRBRauthor as="#editor" href="#somebody"/>
 					<FRBRlanguage language="srp"/>
 				</FRBRExpression>
 				<FRBRManifestation>
-					<FRBRthis value="/rs/act/2011/36-94/srp@/main.xml"/>
-					<FRBRuri value="/rs/act/2011/36-94/srp@.akn"/>
+					<FRBRthis value="akn/rs/act/2011/36-94/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2011/36-94/srp@.akn"/>
 					<FRBRdate date="2011-01-01" name="Generation"/>
 					<FRBRauthor as="#editor" href="#somebody"/>
 					<FRBRformat value="xml"/>
@@ -829,10 +829,10 @@
 				</article>
 				<article wId="gla8-clan30">
 					<num>30.</num>
-					<authorialNote placement="bottom" marker="9" placementBase="#gla8-clan30-stav2">
+					<heading><authorialNote placement="bottom" marker="9" placementBase="#gla8-clan30-stav2">
 						<p>*Службени гласник РС, број <ref wId="ref43" href="akn/rs/act/2011/36/srp@">36/2011</ref>
 						</p>
-					</authorialNote>
+					</authorialNote></heading>
 					<paragraph wId="gla8-clan30-stav1">
 						<intro>
 							<p>Новчаном казном до 5.000 динара казниће се за прекршај  лице:</p>

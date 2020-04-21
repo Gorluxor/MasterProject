@@ -2,16 +2,64 @@ import difflib
 import os
 import re
 import statistics
+import xml.etree.ElementTree as ET
 
 try:
     from Akoma.utilities import utilities
+    from Akoma.utilities import ETree
     from Akoma.convertToLatin.Convert import top
 except ModuleNotFoundError:
     try:
         from utilities import utilities
+        from utilities import ETree
         from convertToLatin.Convert import top
     except ModuleNotFoundError:
         print("Import error")
+
+map_found_org = {
+    ETree.get_akoma_tag("deo"): 0,
+    ETree.get_akoma_tag("glava"): 0,
+    ETree.get_akoma_tag("odeljak"): 0,
+    ETree.get_akoma_tag("pododeljak"): 0,
+    ETree.get_akoma_tag("clan"): 0,
+    ETree.get_akoma_tag("stav"): 0,
+    ETree.get_akoma_tag("tacka"): 0,
+    ETree.get_akoma_tag("podtacka"): 0,
+    ETree.get_akoma_tag("alinea"): 0}
+
+map_found_new = {
+    ETree.get_akoma_tag("deo"): 0,
+    ETree.get_akoma_tag("glava"): 0,
+    ETree.get_akoma_tag("odeljak"): 0,
+    ETree.get_akoma_tag("pododeljak"): 0,
+    ETree.get_akoma_tag("clan"): 0,
+    ETree.get_akoma_tag("stav"): 0,
+    ETree.get_akoma_tag("tacka"): 0,
+    ETree.get_akoma_tag("podtacka"): 0,
+    ETree.get_akoma_tag("alinea"): 0}
+
+
+def find_structure_sim(got_text_new, got_text_org):
+    tree_new = ET.fromstring(got_text_new)
+    tree_org = ET.fromstring(got_text_org)
+    for key in map_found_org:
+        found = ETree.get_elements(tree_org, key)
+        map_found_org[key] = found
+    for key in map_found_new:
+        found = ETree.get_elements(tree_new, key)
+        map_found_new[key] = found
+    has = 0
+    fp = 0
+    total_org = sum([len(map_found_org[el]) for el in map_found_org])
+    for key in map_found_new:
+        new_ids = [el.attrib['wId'] for el in map_found_new[key]]
+        org_ids = [el.attrib['wId'] for el in map_found_org[key]]
+        for new_wid in new_ids:
+            if new_wid in org_ids:
+                has = has + 1
+            else:
+                fp = fp + 1
+    return has / has + fp, has / total_org
 
 
 def find_ref_similarity(text_new, text_org):
@@ -60,15 +108,31 @@ def find_ref_similarity(text_new, text_org):
     return has / has + fp, has / len(org_refs)
 
 
-def find_file_f1score_ref_similarity(source_new, source_annotated):
-    new = open(source_new, mode="r", encoding="UTF-8")
-    annotated = open(source_annotated, mode="r", encoding="UTF-8")
+def load_data(source_new, source_annotated):
+    try:
+        new = open(source_new, mode="r", encoding="UTF-8")
+        annotated = open(source_annotated, mode="r", encoding="UTF-8")
+    except FileNotFoundError:
+        exit(-1)
     new_text = "".join(new.readlines())
     annotated_text = "".join(annotated.readlines())
-    sim = find_similarity(new_text, annotated_text)
+    new.close()
+    annotated.close()
+    return new_text, annotated_text
+
+
+def find_fscore(precision, recall):
+    return top(2 * ((precision * recall) / (precision + recall)))
+
+
+def find_f1score_ref_similarity(new_text, annotated_text):
     f_prec, f_rec = find_ref_similarity(new_text, annotated_text)
-    f1_score = 2 * ((f_prec * f_rec) / (f_prec + f_rec))
-    return top(f1_score), sim, f_prec,f_rec
+    return top(find_fscore(f_prec,f_rec))
+
+
+def find_f1score_hir_structure_similarity(new_text, annotated_text):
+    structure_pres, structure_recall = find_structure_sim(new_text, annotated_text)
+    return find_fscore(structure_pres, structure_recall)
 
 
 def find_similarity(text, text2):
@@ -82,12 +146,20 @@ if __name__ == "__main__":
     annotated_files = utilities.sort_file_names(os.listdir(location_annotated))
     f1_list = []
     sim_list = []
+    f1_struct_list = []
     for i in range(0, len(annotated_files)):
-        f1, similarity, prec,rec = find_file_f1score_ref_similarity(location_data + annotated_files[i],location_annotated + annotated_files[i])
-        f1_list.append(f1)
+        text_new, text_ann = load_data(location_data + annotated_files[i], location_annotated + annotated_files[i])
+        similarity = find_similarity(text_new, text_ann)
+        f1_ref = find_f1score_ref_similarity(text_new, text_ann)
+        f1_struct = find_f1score_hir_structure_similarity(text_new,text_ann)
+        f1_struct_list.append(f1_struct)
+        f1_list.append(f1_ref)
         sim_list.append(similarity)
         print(annotated_files[i])
-        # print("F1=" + str(f1))
-        # print("SIM=" + str(similarity))
-    print("F1_AVG :" + str(statistics.mean(f1_list)))
+        print("F1 ref=" + str(f1_ref))
+        print("F1 struct=" + str(f1_struct))
+        print("SIM=" + str(similarity))
+
+    print("F1_REF_AVG :" + str(statistics.mean(f1_list)))
+    print("F1_STRUCT_AVG=" + str(statistics.mean(f1_struct_list)))
     print("SIM_AVG :" + str(statistics.mean(sim_list)))

@@ -1,25 +1,25 @@
 <?xml version="1.0" ?>
 <akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
-	<act name="Закон „Службени гласник РС”, број 43 од 20.  априла 2004.">
+	<act name="Закон о регулисању обавеза   Републике  Србије  по основу зајма за привредни развој">
 		<meta>
 			<identification source="#somebody">
 				<FRBRWork>
-					<FRBRthis value="/rs/act/2004/43-4/main"/>
-					<FRBRuri value="/rs/act/2004/43-4"/>
+					<FRBRthis value="akn/rs/act/2004/43-4/main"/>
+					<FRBRuri value="akn/rs/act/2004/43-4"/>
 					<FRBRdate date="2004-01-01" name="Generation"/>
 					<FRBRauthor as="#author" href="#somebody"/>
 					<FRBRcountry value="rs"/>
 				</FRBRWork>
 				<FRBRExpression>
-					<FRBRthis value="/rs/act/2004/43-4/srp@/main"/>
-					<FRBRuri value="/rs/act/2004/43-4/srp@"/>
+					<FRBRthis value="akn/rs/act/2004/43-4/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2004/43-4/srp@"/>
 					<FRBRdate date="2004-01-01" name="Generation"/>
 					<FRBRauthor as="#editor" href="#somebody"/>
 					<FRBRlanguage language="srp"/>
 				</FRBRExpression>
 				<FRBRManifestation>
-					<FRBRthis value="/rs/act/2004/43-4/srp@/main.xml"/>
-					<FRBRuri value="/rs/act/2004/43-4/srp@.akn"/>
+					<FRBRthis value="akn/rs/act/2004/43-4/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2004/43-4/srp@.akn"/>
 					<FRBRdate date="2004-01-01" name="Generation"/>
 					<FRBRauthor as="#editor" href="#somebody"/>
 					<FRBRformat value="xml"/>
