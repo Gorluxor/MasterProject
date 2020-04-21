@@ -8,10 +8,10 @@ Projekat se bavi automatskim anotiranjem pravnih propisa Republike Srbije u Akom
 Propisi su skinuti sa [pravno informacionog sistema Srbije](http://www.pravno-informacioni-sistem.rs/reg-search)
 
 ### Uputsva za nameštanje okruženja
-Potrebne su 2 verzije pythona da su instalirane: [3.7 ili novija](https://www.python.org/downloads/release/python-370/) i [2.7.16](https://www.python.org/downloads/release/python-2716/). 
+Potrebne su 2 verzije pythona da budu instalirane: [3.7 ili novija](https://www.python.org/downloads/release/python-370/) i [2.7.16](https://www.python.org/downloads/release/python-2716/). 
 Preporuka je instaliranje pomoću [anaconde](https://www.anaconda.com/distribution/) za python 3.
 
-Sledeći potprojekat koriste odgovarajuće verzije:
+Sledeći potprojekti koriste odgovarajuće verzije:
 ```
 Akoma = python 3.7 intrepreter
 reldi-tagger = python 2.7 intrepreter
@@ -25,7 +25,7 @@ python2 -m pip install scikit-learn==0.20.4
 ```
 Potrebno je instalirati [_Microsoft Visual C++ Compiler for Python 2.7_](https://www.microsoft.com/en-us/download/details.aspx?id=44266)
 
-[ReLDI taggeru](https://github.com/clarinsi/reldi-tagger) je potrebno skinuti [srpski lexicon (1.2 GB)](http://nlp.ffzg.hr/data/reldi/sr.lexicon.guesser), nakon čega se pozicionira kao na sledećem primeru:
+[ReLDI taggeru](https://github.com/clarinsi/reldi-tagger) je potrebno skinuti [srpski lexicon (1.2 GB)](http://nlp.ffzg.hr/data/reldi/sr.lexicon.guesser), nakon čega je neophodno pozicionirati ga kao na sledećem primeru:
 ```
 project_root_dir/reldi-tagger/sr.lexicon.guesser
 ```
@@ -54,7 +54,7 @@ Kod python27 Preimenovati "python.exe" u "python2.exe" i "pythonw.exe" u "python
 
 ## Upustva za pokretanje
 
-Za pokretanje samo već skinutih podataka koji se nalaze u projektu može da se koristi iz [convert_all.py]( https://github.com/Gorluxor/MasterProject/blob/master/converting_rs_legal_acts_to_akoma_ntoso/convert_all.py) sa pronemom nastavi varijable. 
+Za pokretanje samo već skinutih podataka koji se nalaze u projektu može da se koristi [convert_all.py]( https://github.com/Gorluxor/MasterProject/blob/master/converting_rs_legal_acts_to_akoma_ntoso/convert_all.py) sa promenom _nastavi_ varijable. 
 
 ### Pozivanje metode za konvertovanje
 ```python
