@@ -54,6 +54,18 @@ classes = classes.tolist()
 #
 # print(classification_report(y_pred=sgd.predict(X_test), y_true=y_test, labels=new_classes))
 
+from sklearn.model_selection import train_test_split
+import matplotlib.pyplot as plt
+import seaborn as sns
+sns.set(color_codes=True)
+sns.set(font_scale=1)
+
+# plt.rcParams['figure.figsize'] = (20.0, 10.0)
+# plt.figure(figsize=(10, 5))
+# ax = sns.countplot('Tag', data=df.loc[df['Tag'] != 'O'])
+# ax.set_xticklabels(ax.get_xticklabels(), rotation=90, ha="center")
+# plt.tight_layout()
+# plt.show()
 
 import sklearn_crfsuite
 from sklearn_crfsuite import scorers
@@ -76,14 +88,14 @@ crf = sklearn_crfsuite.CRF(
     max_iterations=100,
     all_possible_transitions=True
 )
-crf.fit(X_train, y_train)
-
+#crf.fit(X_train, y_train)
+from sklearn.model_selection import cross_val_predict, cross_val_score
 new_classes = classes.copy()
 new_classes.pop()
 print(new_classes)
-
-y_pred = crf.predict(X_test)
-print(metrics.flat_classification_report(y_test, y_pred, labels=new_classes))
+y_pred = cross_val_predict(estimator=crf, X=X, y=y, cv=5)
+#y_pred = crf.predict(X_test)
+print(metrics.flat_classification_report(y, y_pred, labels=new_classes))
 
 # def print_transitions(trans_features):
 #     for (label_from, label_to), weight in trans_features:

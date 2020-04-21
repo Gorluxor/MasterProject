@@ -1,3 +1,5 @@
+#Deprecated, use nerNeural.py
+
 import pandas as pd
 import numpy as np
 
@@ -11,8 +13,6 @@ from keras.callbacks import ModelCheckpoint
 import warnings
 warnings.filterwarnings("ignore")
 
-from sklearn.model_selection import train_test_split
-import matplotlib.pyplot as plt
 
 
 from sklearn_crfsuite.metrics import flat_classification_report
@@ -82,8 +82,8 @@ tag_to_index["PAD"] = 0
 idx2word = {i: w for w, i in word_to_index.items()}
 idx2tag = {i: w for w, i in tag_to_index.items()}
 
-print("The word India is identified by the index: {}".format(word_to_index["India"]))
-print("The label B-org for the organization is identified by the index: {}".format(tag_to_index["B-org"]))
+# print("The word India is identified by the index: {}".format(word_to_index["India"]))
+# print("The label B-org for the organization is identified by the index: {}".format(tag_to_index["B-org"]))
 
 
 # Converting each sentence into list of index from list of tokens
