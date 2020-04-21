@@ -151,7 +151,7 @@ class MetadataBuilder():
         base = ET.Element("classification", {"source": SOURCE})
         for dict in clssifications:
             newk = ET.Element("keyword", {"wId": dict["id"], "value": dict["value"].lower(), "showAs": dict["value"],
-                                          "dictionary": "TODO"})  # TODO Andrija Popraviti dictionary
+                                          "dictionary": "/akn/rs/srp@ontology"})  # TODO Andrija Popraviti dictionary
             base.append(newk)
         return base
 
@@ -166,7 +166,7 @@ class MetadataBuilder():
         base = ET.Element("workflow", {"source": SOURCE})
         for dict in workflows:
             newk = ET.Element("step", {"wId": dict["id"], "date": dict["date"],
-                                       "by": "#TODO"})  # TODO Andrija TLC Person or TLC Organization reference
+                                       "by": "/akn/rs/srp@ontology"})  # TODO Andrija TLC Person or TLC Organization reference
             base.append(newk)
         return base
 

@@ -71,7 +71,8 @@ def find_elements(element, res_list, map_of_lists):
             else:
                 last = None
     if continuous != "":
-        map_of_lists[last].append(continuous)
+        if last is not None:
+            map_of_lists[last].append(continuous)
 
 
 def do_ner_on_sentences(sentences):

@@ -150,13 +150,13 @@ if __name__ == "__main__":
     for i in range(0, len(annotated_files)):
         text_new, text_ann = load_data(location_data + annotated_files[i], location_annotated + annotated_files[i])
         similarity = find_similarity(text_new, text_ann)
-        f1_ref = find_f1score_ref_similarity(text_new, text_ann)
+        f1 = find_f1score_ref_similarity(text_new, text_ann)
         f1_struct = find_f1score_hir_structure_similarity(text_new,text_ann)
         f1_struct_list.append(f1_struct)
-        f1_list.append(f1_ref)
+        f1_list.append(f1)
         sim_list.append(similarity)
         print(annotated_files[i])
-        print("F1 ref=" + str(f1_ref))
+        print("F1 ref=" + str(f1))
         print("F1 struct=" + str(f1_struct))
         print("SIM=" + str(similarity))
 

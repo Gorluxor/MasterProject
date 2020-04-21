@@ -171,7 +171,7 @@ def convert_html(source, destination, skip_tfidf_ner=False):
 
 if __name__ == "__main__":
 
-    nastavi = "205.html"
+    nastavi = "51.html"
 
     idemo = False
     stani = [
