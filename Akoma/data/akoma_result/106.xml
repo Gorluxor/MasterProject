@@ -27,9 +27,9 @@
 			</identification>
 			<publication date="1992-04-04" name="службени гласник рс" number="18" showAs="Службени гласник РС"/>
 			<classification source="#somebody">
-				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
-				<keyword dictionary="TODO" showAs="II ОДБРАНА, ВОЈСКА И УНУТРАШЊИ ПОСЛОВИ" value="ii одбрана, војска и унутрашњи послови" wId="oblast"/>
-				<keyword dictionary="TODO" showAs="11. Миграције, избеглице и расељена лица" value="11. миграције, избеглице и расељена лица" wId="grupa"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="II ОДБРАНА, ВОЈСКА И УНУТРАШЊИ ПОСЛОВИ" value="ii одбрана, војска и унутрашњи послови" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="11. Миграције, избеглице и расељена лица" value="11. миграције, избеглице и расељена лица" wId="grupa"/>
 			</classification>
 			<lifecycle source="#somebody">
 				<eventRef date="1992-01-01" refersTo="18/1992-593" source="#somebody" type="generation" wId="e1"/>
@@ -38,9 +38,9 @@
 				<eventRef date="2012-01-01" refersTo="107/2012-4" source="#somebody" type="amendment" wId="e4"/>
 			</lifecycle>
 			<workflow source="#somebody">
-				<step by="#TODO" date="1992-04-01" wId="usvajanje"/>
-				<step by="#TODO" date="1992-04-05" wId="stupanje_na_snagu"/>
-				<step by="#TODO" date="1992-04-05" wId="primena"/>
+				<step by="#/akn/rs/srp@ontology" date="1992-04-01" wId="usvajanje"/>
+				<step by="#/akn/rs/srp@ontology" date="1992-04-05" wId="stupanje_na_snagu"/>
+				<step by="#/akn/rs/srp@ontology" date="1992-04-05" wId="primena"/>
 			</workflow>
 			<references source="#somebody">
 				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="њихових"/>

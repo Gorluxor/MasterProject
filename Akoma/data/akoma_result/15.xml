@@ -27,9 +27,9 @@
 			</identification>
 			<publication date="2014-04-26" name="службени гласник рс" number="44" showAs="Службени гласник РС"/>
 			<classification source="#somebody">
-				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
-				<keyword dictionary="TODO" showAs="I ДРЖАВНО УРЕЂЕЊЕ" value="i државно уређење" wId="oblast"/>
-				<keyword dictionary="TODO" showAs="11. Државна управа, управна инспекција и инспекцијски надзор" value="11. државна управа, управна инспекција и инспекцијски надзор" wId="grupa"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="I ДРЖАВНО УРЕЂЕЊЕ" value="i државно уређење" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="11. Државна управа, управна инспекција и инспекцијски надзор" value="11. државна управа, управна инспекција и инспекцијски надзор" wId="grupa"/>
 			</classification>
 			<lifecycle source="#somebody">
 				<eventRef date="2014-01-01" refersTo="44/2014-3" source="#somebody" type="generation" wId="e1"/>
@@ -39,9 +39,9 @@
 				<eventRef date="2017-01-01" refersTo="62/2017-3" source="#somebody" type="amendment" wId="e5"/>
 			</lifecycle>
 			<workflow source="#somebody">
-				<step by="#TODO" date="2014-04-26" wId="usvajanje"/>
-				<step by="#TODO" date="2014-04-26" wId="stupanje_na_snagu"/>
-				<step by="#TODO" date="2014-04-26" wId="primena"/>
+				<step by="#/akn/rs/srp@ontology" date="2014-04-26" wId="usvajanje"/>
+				<step by="#/akn/rs/srp@ontology" date="2014-04-26" wId="stupanje_na_snagu"/>
+				<step by="#/akn/rs/srp@ontology" date="2014-04-26" wId="primena"/>
 			</workflow>
 			<references source="#somebody">
 				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="делокруг"/>

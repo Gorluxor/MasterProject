@@ -27,18 +27,18 @@
 			</identification>
 			<publication date="1990-12-28" name="службени гласник рс" number="20" showAs="Службени гласник РС"/>
 			<classification source="#somebody">
-				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
-				<keyword dictionary="TODO" showAs="IV ЈАВНИ ПРИХОДИ" value="iv јавни приходи" wId="oblast"/>
-				<keyword dictionary="TODO" showAs="4. Јавни зајмови" value="4. јавни зајмови" wId="grupa"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="IV ЈАВНИ ПРИХОДИ" value="iv јавни приходи" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="4. Јавни зајмови" value="4. јавни зајмови" wId="grupa"/>
 			</classification>
 			<lifecycle source="#somebody">
 				<eventRef date="1990-01-01" refersTo="20/1990-653" source="#somebody" type="generation" wId="e1"/>
 				<eventRef date="1991-01-01" refersTo="66/1991-2756" source="#somebody" type="amendment" wId="e2"/>
 			</lifecycle>
 			<workflow source="#somebody">
-				<step by="#TODO" date="1990-12-28" wId="usvajanje"/>
-				<step by="#TODO" date="1991-01-05" wId="stupanje_na_snagu"/>
-				<step by="#TODO" date="1991-01-05" wId="primena"/>
+				<step by="#/akn/rs/srp@ontology" date="1990-12-28" wId="usvajanje"/>
+				<step by="#/akn/rs/srp@ontology" date="1991-01-05" wId="stupanje_na_snagu"/>
+				<step by="#/akn/rs/srp@ontology" date="1991-01-05" wId="primena"/>
 			</workflow>
 			<references source="#somebody">
 				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="република"/>

@@ -27,14 +27,14 @@
 			</identification>
 			<publication date="1996-12-26" name="службени гласник рс" number="54" showAs="Службени гласник РС"/>
 			<classification source="#somebody">
-				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
-				<keyword dictionary="TODO" showAs="IV ЈАВНИ ПРИХОДИ" value="iv јавни приходи" wId="oblast"/>
-				<keyword dictionary="TODO" showAs="4. Јавни зајмови" value="4. јавни зајмови" wId="grupa"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="IV ЈАВНИ ПРИХОДИ" value="iv јавни приходи" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="4. Јавни зајмови" value="4. јавни зајмови" wId="grupa"/>
 			</classification>
 			<workflow source="#somebody">
-				<step by="#TODO" date="1996-12-25" wId="usvajanje"/>
-				<step by="#TODO" date="1996-12-27" wId="stupanje_na_snagu"/>
-				<step by="#TODO" date="1996-12-27" wId="primena"/>
+				<step by="#/akn/rs/srp@ontology" date="1996-12-25" wId="usvajanje"/>
+				<step by="#/akn/rs/srp@ontology" date="1996-12-27" wId="stupanje_na_snagu"/>
+				<step by="#/akn/rs/srp@ontology" date="1996-12-27" wId="primena"/>
 			</workflow>
 			<references source="#somebody">
 				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="000"/>

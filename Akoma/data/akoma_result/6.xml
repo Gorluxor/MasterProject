@@ -27,9 +27,9 @@
 			</identification>
 			<publication date="2001-07-17" name="службени гласник рс“" number="43" showAs="Службени гласник РС“"/>
 			<classification source="#somebody">
-				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
-				<keyword dictionary="TODO" showAs="I ДРЖАВНО УРЕЂЕЊЕ" value="i државно уређење" wId="oblast"/>
-				<keyword dictionary="TODO" showAs="4. Државни и други празници, годишњице и дани који се посебно обележавају" value="4. државни и други празници, годишњице и дани који се посебно обележавају" wId="grupa"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="I ДРЖАВНО УРЕЂЕЊЕ" value="i државно уређење" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="4. Државни и други празници, годишњице и дани који се посебно обележавају" value="4. државни и други празници, годишњице и дани који се посебно обележавају" wId="grupa"/>
 			</classification>
 			<lifecycle source="#somebody">
 				<eventRef date="2001-01-01" refersTo="43/2001-1" source="#somebody" type="generation" wId="e1"/>
@@ -37,9 +37,9 @@
 				<eventRef date="2011-01-01" refersTo="92/2011-12" source="#somebody" type="amendment" wId="e3"/>
 			</lifecycle>
 			<workflow source="#somebody">
-				<step by="#TODO" date="2001-07-10" wId="usvajanje"/>
-				<step by="#TODO" date="2001-07-25" wId="stupanje_na_snagu"/>
-				<step by="#TODO" date="2001-07-25" wId="primena"/>
+				<step by="#/akn/rs/srp@ontology" date="2001-07-10" wId="usvajanje"/>
+				<step by="#/akn/rs/srp@ontology" date="2001-07-25" wId="stupanje_na_snagu"/>
+				<step by="#/akn/rs/srp@ontology" date="2001-07-25" wId="primena"/>
 			</workflow>
 			<references source="#somebody">
 				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="дан"/>

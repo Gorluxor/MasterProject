@@ -27,9 +27,9 @@
 			</identification>
 			<publication date="2009-07-17" name="“службени гласник рс" number="54" showAs="“Службени гласник РС"/>
 			<classification source="#somebody">
-				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
-				<keyword dictionary="TODO" showAs="IV ЈАВНИ ПРИХОДИ" value="iv јавни приходи" wId="oblast"/>
-				<keyword dictionary="TODO" showAs="6. Финансирање надлежности државе и територијалних јединица" value="6. финансирање надлежности државе и територијалних јединица" wId="grupa"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="IV ЈАВНИ ПРИХОДИ" value="iv јавни приходи" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="6. Финансирање надлежности државе и територијалних јединица" value="6. финансирање надлежности државе и територијалних јединица" wId="grupa"/>
 			</classification>
 			<lifecycle source="#somebody">
 				<eventRef date="2009-01-01" refersTo="54/2009-3" source="#somebody" type="generation" wId="e1"/>
@@ -50,9 +50,9 @@
 				<eventRef date="2019-01-01" refersTo="72/2019-185" source="#somebody" type="amendment" wId="e16"/>
 			</lifecycle>
 			<workflow source="#somebody">
-				<step by="#TODO" date="2009-07-16" wId="usvajanje"/>
-				<step by="#TODO" date="2009-07-25" wId="stupanje_na_snagu"/>
-				<step by="#TODO" date="2009-07-25" wId="primena"/>
+				<step by="#/akn/rs/srp@ontology" date="2009-07-16" wId="usvajanje"/>
+				<step by="#/akn/rs/srp@ontology" date="2009-07-25" wId="stupanje_na_snagu"/>
+				<step by="#/akn/rs/srp@ontology" date="2009-07-25" wId="primena"/>
 			</workflow>
 			<references source="#somebody">
 				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>

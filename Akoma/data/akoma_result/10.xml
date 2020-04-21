@@ -27,9 +27,9 @@
 			</identification>
 			<publication date="1946-10-25" name="службени лист фнрј" number="86" showAs="Службени лист ФНРЈ"/>
 			<classification source="#somebody">
-				<keyword dictionary="TODO" showAs="Закон" value="закон" wId="vrsta"/>
-				<keyword dictionary="TODO" showAs="I ДРЖАВНО УРЕЂЕЊЕ" value="i државно уређење" wId="oblast"/>
-				<keyword dictionary="TODO" showAs="6. Народна скупштина" value="6. народна скупштина" wId="grupa"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="I ДРЖАВНО УРЕЂЕЊЕ" value="i државно уређење" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="6. Народна скупштина" value="6. народна скупштина" wId="grupa"/>
 			</classification>
 			<lifecycle source="#somebody">
 				<eventRef date="1946-01-01" refersTo="86/1946-1078" source="#somebody" type="generation" wId="e1"/>
@@ -37,9 +37,9 @@
 				<eventRef date="1947-01-01" refersTo="96/1947-1345" source="#somebody" type="amendment" wId="e3"/>
 			</lifecycle>
 			<workflow source="#somebody">
-				<step by="#TODO" date="1946-10-23" wId="usvajanje"/>
-				<step by="#TODO" date="1946-11-02" wId="stupanje_na_snagu"/>
-				<step by="#TODO" date="1946-11-02" wId="primena"/>
+				<step by="#/akn/rs/srp@ontology" date="1946-10-23" wId="usvajanje"/>
+				<step by="#/akn/rs/srp@ontology" date="1946-11-02" wId="stupanje_na_snagu"/>
+				<step by="#/akn/rs/srp@ontology" date="1946-11-02" wId="primena"/>
 			</workflow>
 			<references source="#somebody">
 				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="проглашују"/>
