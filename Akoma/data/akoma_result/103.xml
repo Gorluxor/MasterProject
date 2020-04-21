@@ -32,9 +32,9 @@
 				<keyword dictionary="/akn/rs/srp@ontology" showAs="10. Лично име, лична карта, матични број грађана" value="10. лично име, лична карта, матични број грађана" wId="grupa"/>
 			</classification>
 			<workflow source="#somebody">
-				<step by="#/akn/rs/srp@ontology" date="2018-03-22" wId="usvajanje"/>
-				<step by="#/akn/rs/srp@ontology" date="2018-04-03" wId="stupanje_na_snagu"/>
-				<step by="#/akn/rs/srp@ontology" date="2018-04-03" wId="primena"/>
+				<step by="/akn/rs/srp@ontology" date="2018-03-22" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="2018-04-03" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2018-04-03" wId="primena"/>
 			</workflow>
 			<references source="#somebody">
 				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="непоновљива"/>

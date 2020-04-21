@@ -36,9 +36,9 @@
 				<eventRef date="1991-01-01" refersTo="66/1991-2756" source="#somebody" type="amendment" wId="e2"/>
 			</lifecycle>
 			<workflow source="#somebody">
-				<step by="#/akn/rs/srp@ontology" date="1990-12-28" wId="usvajanje"/>
-				<step by="#/akn/rs/srp@ontology" date="1991-01-05" wId="stupanje_na_snagu"/>
-				<step by="#/akn/rs/srp@ontology" date="1991-01-05" wId="primena"/>
+				<step by="/akn/rs/srp@ontology" date="1990-12-28" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="1991-01-05" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="1991-01-05" wId="primena"/>
 			</workflow>
 			<references source="#somebody">
 				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="република"/>

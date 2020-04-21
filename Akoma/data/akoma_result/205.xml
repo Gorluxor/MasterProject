@@ -32,9 +32,9 @@
 				<keyword dictionary="/akn/rs/srp@ontology" showAs="4. Јавни зајмови" value="4. јавни зајмови" wId="grupa"/>
 			</classification>
 			<workflow source="#somebody">
-				<step by="#/akn/rs/srp@ontology" date="2004-04-19" wId="usvajanje"/>
-				<step by="#/akn/rs/srp@ontology" date="2004-04-28" wId="stupanje_na_snagu"/>
-				<step by="#/akn/rs/srp@ontology" date="2004-04-28" wId="primena"/>
+				<step by="/akn/rs/srp@ontology" date="2004-04-19" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="2004-04-28" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2004-04-28" wId="primena"/>
 			</workflow>
 			<references source="#somebody">
 				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Uslove"/>

@@ -32,9 +32,9 @@
 				<keyword dictionary="/akn/rs/srp@ontology" showAs="9. Задуживање и гаранције" value="9. задуживање и гаранције" wId="grupa"/>
 			</classification>
 			<workflow source="#somebody">
-				<step by="#/akn/rs/srp@ontology" date="2006-04-17" wId="usvajanje"/>
-				<step by="#/akn/rs/srp@ontology" date="2006-04-26" wId="stupanje_na_snagu"/>
-				<step by="#/akn/rs/srp@ontology" date="2006-04-26" wId="primena"/>
+				<step by="/akn/rs/srp@ontology" date="2006-04-17" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="2006-04-26" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2006-04-26" wId="primena"/>
 			</workflow>
 			<references source="#somebody">
 				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="између"/>

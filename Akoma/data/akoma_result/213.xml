@@ -32,11 +32,31 @@
 				<keyword dictionary="/akn/rs/srp@ontology" showAs="4. Јавни зајмови" value="4. јавни зајмови" wId="grupa"/>
 			</classification>
 			<workflow source="#somebody">
-				<step by="#/akn/rs/srp@ontology" date="1998-03-04" wId="usvajanje"/>
-				<step by="#/akn/rs/srp@ontology" date="1998-03-14" wId="stupanje_na_snagu"/>
-				<step by="#/akn/rs/srp@ontology" date="1998-03-14" wId="primena"/>
+				<step by="/akn/rs/srp@ontology" date="1998-03-04" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="1998-03-14" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="1998-03-14" wId="primena"/>
 			</workflow>
-			
+			<references source="#somebody">
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodna banka Jugoslavije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Saveznoj skupštini SRJ"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. januara"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. januara 1998."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. januara 2001."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3. i 4."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3. st. 1. i 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="30. juna"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="30. juna 1998."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="30. juna 2001."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. decembra"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. decembra 1997."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. decembra 2000."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. decembrom 1997."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="4. stava 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5. jula 1998."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="9."/>
+			</references>
 			<notes source="#somebody">
 				<note wId="not1">
 					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном листу СРЈ”. односно 14. марта 1998. године (види члан 14. Закона).Претварање кредита у јавни дуг по основу чл. 3. и 4. овог закона, извршиће се на рок од 10 година, уз период мировања од три године (види члан 5. Закона).</p>

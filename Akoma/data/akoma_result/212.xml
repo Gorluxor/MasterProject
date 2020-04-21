@@ -36,11 +36,75 @@
 				<eventRef date="2005-01-01" refersTo="101/2005-28" source="#somebody" type="amendment" wId="e2"/>
 			</lifecycle>
 			<workflow source="#somebody">
-				<step by="#/akn/rs/srp@ontology" date="2002-07-02" wId="usvajanje"/>
-				<step by="#/akn/rs/srp@ontology" date="2002-07-04" wId="stupanje_na_snagu"/>
-				<step by="#/akn/rs/srp@ontology" date="2002-07-04" wId="primena"/>
+				<step by="/akn/rs/srp@ontology" date="2002-07-02" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="2002-07-04" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2002-07-04" wId="primena"/>
 			</workflow>
-			
+			<references source="#somebody">
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Beograd"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Centralnom registru"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Crne Gore"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republici Crnoj Gori"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republika"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republika Crna Gora"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republika Srbija"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Crne Gore"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Savezne Republike Jugoslavije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Srbija"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Srbiji i Republici Crnoj Gori"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="17."/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="AD"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Banka privatne privrede"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Centralni registar"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Centralnog registra"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Dafiment"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodna banka Jugoslavije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodne banke Jugoslavije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republika Srbija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republika Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SRJ"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Savezne Republike Jugoslavije"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Crna Gora"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Jugoskandik"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Podgorica"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Republici Srbjiji"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="0,13342120."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. i 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. maja 2003."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. maja 2004."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="10. stav 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="10. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="11."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="15. oktobra 1988."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="18. marta 1995."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2002."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2004."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2005."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2005. do 2016."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2006."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2007."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2008."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2009."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2010."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2011."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2012."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2013."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2014."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2015."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2016."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="21. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. maja"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="4. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="4. do 13."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="9. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="90."/>
+			</references>
 			<notes source="#somebody">
 				<note wId="not1">
 					<p>Закон је ступио на снагу наредног дана од дана објављивања у „Службеном листу СРЈ”, односно 4. јула 2002. године (види члан 25. Закона).Промењене су висине новчаних казни (види члан 29. Закона – РС 101/2005-28).</p>

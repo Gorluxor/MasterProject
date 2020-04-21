@@ -38,9 +38,9 @@
 				<eventRef date="2012-01-01" refersTo="107/2012-4" source="#somebody" type="amendment" wId="e4"/>
 			</lifecycle>
 			<workflow source="#somebody">
-				<step by="#/akn/rs/srp@ontology" date="1992-04-01" wId="usvajanje"/>
-				<step by="#/akn/rs/srp@ontology" date="1992-04-05" wId="stupanje_na_snagu"/>
-				<step by="#/akn/rs/srp@ontology" date="1992-04-05" wId="primena"/>
+				<step by="/akn/rs/srp@ontology" date="1992-04-01" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="1992-04-05" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="1992-04-05" wId="primena"/>
 			</workflow>
 			<references source="#somebody">
 				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="њихових"/>

@@ -32,9 +32,9 @@
 				<keyword dictionary="/akn/rs/srp@ontology" showAs="11. Миграције, избеглице и расељена лица" value="11. миграције, избеглице и расељена лица" wId="grupa"/>
 			</classification>
 			<workflow source="#somebody">
-				<step by="#/akn/rs/srp@ontology" date="2012-11-08" wId="usvajanje"/>
-				<step by="#/akn/rs/srp@ontology" date="2012-11-17" wId="stupanje_na_snagu"/>
-				<step by="#/akn/rs/srp@ontology" date="2012-11-17" wId="primena"/>
+				<step by="/akn/rs/srp@ontology" date="2012-11-08" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="2012-11-17" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2012-11-17" wId="primena"/>
 			</workflow>
 			<references source="#somebody">
 				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="миграцијама"/>
