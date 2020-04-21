@@ -5,11 +5,11 @@ import statistics
 
 try:
     from Akoma.utilities import utilities
-    from Akoma.convertToLatin.Convert import cap
+    from Akoma.convertToLatin.Convert import top
 except ModuleNotFoundError:
     try:
         from utilities import utilities
-        from convertToLatin.Convert import cap
+        from convertToLatin.Convert import top
     except ModuleNotFoundError:
         print("Import error")
 
@@ -68,7 +68,7 @@ def find_file_f1score_ref_similarity(source_new, source_annotated):
     sim = find_similarity(new_text, annotated_text)
     f_prec, f_rec = find_ref_similarity(new_text, annotated_text)
     f1_score = 2 * ((f_prec * f_rec) / (f_prec + f_rec))
-    return cap(f1_score), sim, f_prec,f_rec
+    return top(f1_score), sim, f_prec,f_rec
 
 
 def find_similarity(text, text2):

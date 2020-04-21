@@ -87,6 +87,13 @@ def convert_serbian_number(serbian_number: str):
     return func
 
 
+def top(rez):
+    if rez > 1:
+        return 1
+    else:
+        return rez
+
+
 def cap(rez):
     while rez > 1:
         rez = rez - 1
