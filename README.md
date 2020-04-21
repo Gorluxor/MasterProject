@@ -72,5 +72,3 @@ def apply_akn_tags(text: str, meta_name: str, skip_tfidf_ner=False):
     """
 ```
 
-Napomena: Potprojekti project_root/connector i converting_rs_legal_acts_to_akoma_ntoso su zastarele verzije projekta.
-
