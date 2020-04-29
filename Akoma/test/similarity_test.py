@@ -39,6 +39,28 @@ map_found_new = {
     ETree.get_akoma_tag("alinea"): 0}
 
 
+def get_id(tlc_text):
+    got = re.search('showAs=".*?"', tlc_text)
+    ref = re.search('TLC.*? ', tlc_text)
+    return tlc_text[ref.span(0)[0]:ref.span(0)[1]-1] + ":" + tlc_text[got.span(0)[0] + 8:got.span(0)[1] - 1]
+
+
+def find_tlc_sim(got_text_new, got_text_org):
+    new_refs = re.findall('<TLC.*?>', got_text_new)
+    org_refs = re.findall("<TLC.*?>", got_text_org)
+    has = 0
+    fp = 0
+    new_ids = [get_id(el) for el in new_refs]
+    org_ids = [get_id(el) for el in org_refs]
+    total = len(org_ids)
+    for new_values in new_ids:
+        if new_values in org_ids:
+            has = has + 1
+        else:
+            fp = fp + 1
+    return has / (has + fp), has / total
+
+
 def find_structure_sim(got_text_new, got_text_org):
     tree_new = ET.fromstring(got_text_new)
     tree_org = ET.fromstring(got_text_org)
@@ -59,7 +81,7 @@ def find_structure_sim(got_text_new, got_text_org):
                 has = has + 1
             else:
                 fp = fp + 1
-    return has / has + fp, has / total_org
+    return has / (has + fp), has / total_org
 
 
 def find_ref_similarity(text_new, text_org):
@@ -90,22 +112,22 @@ def find_ref_similarity(text_new, text_org):
         if not not_fp:
             false_positive.append(el)
         not_fp = False
-    for elem in org_refs:
-        href = re.findall('href=".*"', elem)
-        if len(href) == 0:
-            false_negative.append(elem)
-            break
-        else:
-            href = href[0]
-        for check in org_refs:
-            if href in check:
-                not_fp = True
-        if not not_fp:
-            false_negative.append(elem)
-        not_fp = True
-    fn = len(false_negative)
+    # for elem in org_refs:
+    #     href = re.findall('href=".*"', elem)
+    #     if len(href) == 0:
+    #         false_negative.append(elem)
+    #         break
+    #     else:
+    #         href = href[0]
+    #     for check in org_refs:
+    #         if href in check:
+    #             not_fp = True
+    #     if not not_fp:
+    #         false_negative.append(elem)
+    #     not_fp = True
+    # fn = len(false_negative)
     fp = len(false_positive)
-    return has / has + fp, has / len(org_refs)
+    return has / (has + fp), has / len(org_refs)
 
 
 def load_data(source_new, source_annotated):
@@ -122,12 +144,17 @@ def load_data(source_new, source_annotated):
 
 
 def find_fscore(precision, recall):
-    return top(2 * ((precision * recall) / (precision + recall)))
+    return 2 * ((precision * recall) / (precision + recall))
+
+
+def find_f1score_tlc_similarity(new_text, annotated_text):
+    f_pre, f_rec = find_tlc_sim(new_text, annotated_text)
+    return find_fscore(f_pre, f_rec)
 
 
 def find_f1score_ref_similarity(new_text, annotated_text):
     f_prec, f_rec = find_ref_similarity(new_text, annotated_text)
-    return top(find_fscore(f_prec,f_rec))
+    return find_fscore(f_prec, f_rec)
 
 
 def find_f1score_hir_structure_similarity(new_text, annotated_text):
@@ -141,25 +168,32 @@ def find_similarity(text, text2):
 
 
 if __name__ == "__main__":
+    debug = True
     location_annotated = "../data/annotated/"
     location_data = "../data/akoma_result/"
     annotated_files = utilities.sort_file_names(os.listdir(location_annotated))
     f1_list = []
     sim_list = []
     f1_struct_list = []
+    f1_tlc_list = []
     for i in range(0, len(annotated_files)):
         text_new, text_ann = load_data(location_data + annotated_files[i], location_annotated + annotated_files[i])
         similarity = find_similarity(text_new, text_ann)
         f1 = find_f1score_ref_similarity(text_new, text_ann)
-        f1_struct = find_f1score_hir_structure_similarity(text_new,text_ann)
+        f1_struct = find_f1score_hir_structure_similarity(text_new, text_ann)
+        f1_tlc = find_f1score_tlc_similarity(text_new, text_ann)
+        f1_tlc_list.append(f1_tlc)
         f1_struct_list.append(f1_struct)
         f1_list.append(f1)
         sim_list.append(similarity)
         print(annotated_files[i])
-        print("F1 ref=" + str(f1))
-        print("F1 struct=" + str(f1_struct))
-        print("SIM=" + str(similarity))
+        if debug:
+            print("F1 ref=" + str(f1))
+            print("F1 TLC_ref=" + str(f1_tlc))
+            print("F1 struct=" + str(f1_struct))
+            print("SIM=" + str(similarity))
 
     print("F1_REF_AVG :" + str(statistics.mean(f1_list)))
+    print("F1_TLC_REF_AVG :" + str(statistics.mean(f1_tlc_list)))
     print("F1_STRUCT_AVG=" + str(statistics.mean(f1_struct_list)))
     print("SIM_AVG :" + str(statistics.mean(sim_list)))
