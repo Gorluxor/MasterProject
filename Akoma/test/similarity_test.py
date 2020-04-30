@@ -7,12 +7,10 @@ import xml.etree.ElementTree as ET
 try:
     from Akoma.utilities import utilities
     from Akoma.utilities import ETree
-    from Akoma.convertToLatin.Convert import top
 except ModuleNotFoundError:
     try:
         from utilities import utilities
         from utilities import ETree
-        from convertToLatin.Convert import top
     except ModuleNotFoundError:
         print("Import error")
 
@@ -50,8 +48,8 @@ def find_tlc_sim(got_text_new, got_text_org):
     org_refs = re.findall("<TLC.*?>", got_text_org)
     has = 0
     fp = 0
-    new_ids = [get_id(el) for el in new_refs]
-    org_ids = [get_id(el) for el in org_refs]
+    new_ids = [get_id(el) for el in new_refs if "TLCConcept" not in el]
+    org_ids = [get_id(el) for el in org_refs if "TLCConcept" not in el]
     total = len(org_ids)
     for new_values in new_ids:
         if new_values in org_ids:
