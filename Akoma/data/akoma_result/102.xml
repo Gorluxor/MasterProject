@@ -65,44 +65,47 @@
 				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="законом"/>
 				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="републике"/>
 				<TLCConcept eId="cocnept23" href="http://purl.org/vocab/frbr/core#Concept" showAs="србије"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Beogradu"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Crne Gore"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Srbije"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike Srbije"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SFRJ"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SRS"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="ZAKONA"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="ministarstvo nadležno za unutrašnje poslove"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Državljanin"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Propis"/>
 				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. stav 3."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. stava 1."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="10."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="10. Zakona"/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="11."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="14. stav 2"/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="18."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. stav"/>
 				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="19. jula"/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="20. stav 2"/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="20. stav 3"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2. stava"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="20."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="20. stav"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2006"/>
 				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2011."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="21. stav 1"/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="21. stav 2"/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="24. stav 2."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="25. stav 3."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27. maja 2011."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3. stava 1."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. decembra 2016."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="6. stav 2."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="7."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="7. stav 2."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="70."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="8. stav 2"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2016."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27. juli"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27. maja"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3. stava"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. decembra"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="6. stav"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="7. maramom"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="7. stav"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs=";. ;."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs=";. stav"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="br. 15/74"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="dr. zakon"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="stav"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="zakon"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Crne"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Gore"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Srbije i"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="&quot;PREČIŠĆEN TEKST"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Prilikom podnošenja"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Prilikom uručenja"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Stranim državljanima"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="* Službeni"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Biometrijski"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Lica"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Podnosilac"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="RS ”"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="~ navod"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="„ Službeni"/>
 			</references>
 			<notes source="#somebody">
 				<note wId="not1">

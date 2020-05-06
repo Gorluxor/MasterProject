@@ -37,44 +37,60 @@
 				<step by="/akn/rs/srp@ontology" date="2004-04-28" wId="primena"/>
 			</workflow>
 			<references source="#somebody">
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Uslove"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Centralnom registru"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Socijalističkoj Republici Srbiji"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vlada"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Zakona"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Zakonu"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="AD Beograd"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Centralni registar"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Centralnog registra"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo nadležno za poslove finansija"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo u skladu"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvu dokumentaciju"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodne banke Srbije"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodnom fondu"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republika"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike Srbije"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SRS"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vlada Republike Srbije"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1"/>
 				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. avgusta 2004."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. avgusta 2005."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. avgusta 2006."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. jula 1999."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. jula"/>
 				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1999."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="20. aprila 2004."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="20. aprila"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2004."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2005."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2006."/>
 				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2007."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="4. stav 1."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5. stav 1."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="8. stav 2."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="9. stav 1."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="9. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3. tač."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="30. junom"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="4. stav"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5. stav"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="6. 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="8. stav"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="9. stav"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs=":. 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs=";. 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="avgusta"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="br. 25/89"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="br. 40/89"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="stav"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Danom"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Obaveza Republike"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Prava"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republici .."/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republika će"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike .."/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Danom"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Socijalističkoj Republici"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Srbiji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Zakonu .."/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="37/90"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Centralnog registra"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo .."/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo nadležno"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodne banke"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Utvrđivanje"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vlada .."/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vlada Republike"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="i"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Bliže"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Devize"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Izvršavanje"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Obveznice"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Prijavu"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="”"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="„ Službeni"/>
 			</references>
 			<notes source="#somebody">
 				<note wId="not1">

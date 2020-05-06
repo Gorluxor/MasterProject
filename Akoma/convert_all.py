@@ -16,7 +16,7 @@ try:
     from Akoma.form_akoma.MetadataBuilder import MetadataBuilder
     from Akoma.named_enitity_recognition.references import add_refs
     from Akoma.tokenizer.BasicTokenizer import BasicTokenizer
-    from Akoma.named_enitity_recognition.ner import do_ner_on_sentences
+    from Akoma.named_enitity_recognition.ner import do_ner_on_sentences, do_spacy_ner
     from Akoma.convertToLatin.Convert import convert
 except ModuleNotFoundError as sureError:
     try:
@@ -31,7 +31,7 @@ except ModuleNotFoundError as sureError:
         from reasoner.OdlukaReasoner import OdlukaReasoner
         from form_akoma.MetadataBuilder import MetadataBuilder
         from named_enitity_recognition.references import add_refs
-        from named_enitity_recognition.ner import do_ner_on_sentences
+        from named_enitity_recognition.ner import do_ner_on_sentences, do_spacy_ner
         from convertToLatin.Convert import convert
     except ModuleNotFoundError as newError:
         if not sureError.name.__eq__("Akoma") or not newError.name.__eq__("Akoma"):
@@ -40,9 +40,11 @@ except ModuleNotFoundError as sureError:
             exit(-1)
 
 sys.setrecursionlimit(10000000)
+ner_list = []
 
 
 def send_to_NER(stablo):
+    global ner_list
     for el in stablo.iter(tag="paragraph"):
         for elem in el.iter(tag="p"):
             if elem.text is not None:
@@ -85,18 +87,20 @@ def add_ner_tags(map_of_values, stablo):
                         ET.Element("TLCEvent", {"href": "http://purl.org/vocab/frbr/core#Event", "showAs": element}))
 
 
-def apply_akn_tags(text: str, meta_name: str, skip_tfidf_ner=False):
+def apply_akn_tags(text: str, meta_name: str, skip_tfidf_ner=False, ner="crf"):
     """
     Applies to text Akoma Ntoso 3.0 tags for Republic of Serbia regulations
     :param text: HTML or plain text
     :param meta_name: name which was meta added in file, 15 tag in meta, use function in MetadataBuilder.add_new_meta or
     add manually in Akoma/data/meta/allmeta.csv
     :param skip_tfidf_ner: Don't add references> TLCconcept for document and TLC for ner, if true speeds up execution by a lot
+    :param ner: chooses model which will be used, can be one of values: 'crf','spacy','spacy_default','reldi', crf best so far but slowest
     :return: Labeled xml string
     """
+    global ner_list
     akoma_root = init_akoma.init_xml("act")
     repaired = False
-    if text.find("<p") == -1:
+    if text.find("<") == -1:
         repaired = True
     else:
         text = regex_patterns.strip_html_tags_exept(text)
@@ -134,8 +138,16 @@ def apply_akn_tags(text: str, meta_name: str, skip_tfidf_ner=False):
     result_str = builder.result_str().replace("&lt;", "~vece;").replace("&gt;", "~manje;").replace("&quot;", "~navod;")
     if not skip_tfidf_ner:
         send_to_NER(akoma_root)
-        map_ret = do_ner_on_sentences(ner_list)
-        add_ner_tags(map_ret, akoma_root)  # print(ret)
+        if ner == "crf":
+            map_ret = do_ner_on_sentences(ner_list)
+        elif ner == "spacy":
+            map_ret = do_spacy_ner(ner_list, custom=True)
+        elif ner == "spacy_default":
+            map_ret = do_spacy_ner(ner_list, custom=False)
+        elif ner == "reldi":
+            print("TODO")
+        if ner == "crf" or ner == "spacy" or ner == "spacy_default" or ner == "reldi":
+            add_ner_tags(map_ret, akoma_root)  # print(ret)
         ner_list.clear()
 
     try:
@@ -152,18 +164,14 @@ def apply_akn_tags(text: str, meta_name: str, skip_tfidf_ner=False):
     return result_str
 
 
-ner_list = []
-
-
-def convert_html(source, destination, skip_tfidf_ner=False):
+def convert_html(source, destination, skip_tfidf_ner=False, ner="crf"):
     try:
         opened = io.open(source, mode="r", encoding="utf-8")
     except FileNotFoundError:
         raise FileNotFoundError("File not exist")
     text = "".join(opened.readlines())
-    full_strip = regex_patterns.strip_html_tags_exept(text)  #
     meta_file_name = source.split("/")[-1]
-    result_str = apply_akn_tags(full_strip, meta_file_name, skip_tfidf_ner=skip_tfidf_ner)
+    result_str = apply_akn_tags(text, meta_file_name, skip_tfidf_ner=skip_tfidf_ner, ner=ner)
     f = io.open(destination, mode="w", encoding="utf-8")
     f.write(result_str)
     f.close()
@@ -171,14 +179,19 @@ def convert_html(source, destination, skip_tfidf_ner=False):
 
 if __name__ == "__main__":
 
-    nastavi = "51.html"
-
+    nastavi = "1.html"
+    only_annotated = True  # just do annotated files
     idemo = False
     stani = [
         "1005.html", "980.html", "986.html", "981.html", "210.html", "1033.html"  # problematicni PROVERITI 176
         , "180.html"]  # Veliki fajlovi
-    location_source = "data/acts"
+    location_source = utilities.get_root_dir() + "/data/acts"
+    annotated_source = utilities.get_root_dir() + "/data/annotated"
     fajls = utilities.sort_file_names(os.listdir(location_source))
+    if only_annotated is True:
+        fajls = utilities.sort_file_names(os.listdir(annotated_source))
+        fajls = [el.replace(".xml", ".html") for el in fajls]
+        idemo = True
 
     for fajl in fajls:
         if fajl == nastavi:
@@ -189,7 +202,8 @@ if __name__ == "__main__":
             continue
         print(fajl)
         # try:
-        convert_html(location_source + '/' + fajl, 'data/akoma_result/' + fajl[:-5] + ".xml", skip_tfidf_ner=False)
+        convert_html(location_source + '/' + fajl, 'data/akoma_result/' + fajl[:-5] + ".xml", skip_tfidf_ner=False,
+                     ner="spacy_default")
         # except Exception as e:
         #     file_exeption = open(utilities.get_root_dir() + "/data/" + "za_andriju.txt", mode="a+")
         #     file_exeption.write(fajl + ":" + str(e) + "\n")

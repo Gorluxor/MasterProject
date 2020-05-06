@@ -3,6 +3,7 @@ import os
 import re
 import statistics
 import xml.etree.ElementTree as ET
+from functools import reduce
 
 try:
     from Akoma.utilities import utilities
@@ -13,6 +14,7 @@ except ModuleNotFoundError:
         from utilities import ETree
     except ModuleNotFoundError:
         print("Import error")
+        exit(-1)
 
 map_found_org = {
     ETree.get_akoma_tag("deo"): 0,
@@ -40,7 +42,7 @@ map_found_new = {
 def get_id(tlc_text):
     got = re.search('showAs=".*?"', tlc_text)
     ref = re.search('TLC.*? ', tlc_text)
-    return tlc_text[ref.span(0)[0]:ref.span(0)[1]-1] + ":" + tlc_text[got.span(0)[0] + 8:got.span(0)[1] - 1]
+    return tlc_text[ref.span(0)[0]:ref.span(0)[1] - 1] + ":" + tlc_text[got.span(0)[0] + 8:got.span(0)[1] - 1]
 
 
 def find_tlc_sim(got_text_new, got_text_org):
@@ -145,19 +147,26 @@ def find_fscore(precision, recall):
     return 2 * ((precision * recall) / (precision + recall))
 
 
-def find_f1score_tlc_similarity(new_text, annotated_text):
-    f_pre, f_rec = find_tlc_sim(new_text, annotated_text)
-    return find_fscore(f_pre, f_rec)
-
-
-def find_f1score_ref_similarity(new_text, annotated_text):
-    f_prec, f_rec = find_ref_similarity(new_text, annotated_text)
-    return find_fscore(f_prec, f_rec)
-
-
-def find_f1score_hir_structure_similarity(new_text, annotated_text):
-    structure_pres, structure_recall = find_structure_sim(new_text, annotated_text)
-    return find_fscore(structure_pres, structure_recall)
+def call_scores(new_text, annotated_text, which):
+    """
+    :param new_text: New text
+    :param annotated_text: Annotated same files
+    :param which: values = 'hir', 'tlc', 'ref', (structure, tlc references,
+    :return: f1,precision,recall
+    """
+    if which == "hir":
+        f_pre, f_rec = find_structure_sim(new_text, annotated_text)
+    elif which == "ref":
+        f_pre, f_rec = find_ref_similarity(new_text, annotated_text)
+    elif which == "tlc":
+        f_pre, f_rec = find_tlc_sim(new_text, annotated_text)
+    else:
+        return None
+    if f_pre + f_rec == 0:
+        f1_score = 0
+    else:
+        f1_score = find_fscore(f_pre, f_rec)
+    return f1_score, f_pre, f_rec
 
 
 def find_similarity(text, text2):
@@ -165,33 +174,49 @@ def find_similarity(text, text2):
     return similarity
 
 
+def print_res(res, text) -> None:
+    decs = 2
+    output = text + " F1: {:>7} Precision: {:>7} Recall: {:>7}".format(str(round(float(res[0]), decs)),
+                                                                       str(round(float(res[1]), decs)),
+                                                                       str(round(float(res[2]), decs)))
+    print(output)
+
+
+def average(lst):
+    return reduce(lambda a, b: a + b, lst) / len(lst)
+
+
+def list_mean(scores: list) -> list:
+    return [str(average(scores[0])), str(average(scores[1])), str(average(scores[1]))]
+
+
 if __name__ == "__main__":
     debug = True
     location_annotated = "../data/annotated/"
     location_data = "../data/akoma_result/"
     annotated_files = utilities.sort_file_names(os.listdir(location_annotated))
-    f1_list = []
-    sim_list = []
-    f1_struct_list = []
-    f1_tlc_list = []
+    list_scores_ref = []
+    list_score_sim = []
+    list_scores_hir = []
+    list_scores_tlc = []
     for i in range(0, len(annotated_files)):
         text_new, text_ann = load_data(location_data + annotated_files[i], location_annotated + annotated_files[i])
         similarity = find_similarity(text_new, text_ann)
-        f1 = find_f1score_ref_similarity(text_new, text_ann)
-        f1_struct = find_f1score_hir_structure_similarity(text_new, text_ann)
-        f1_tlc = find_f1score_tlc_similarity(text_new, text_ann)
-        f1_tlc_list.append(f1_tlc)
-        f1_struct_list.append(f1_struct)
-        f1_list.append(f1)
-        sim_list.append(similarity)
-        print(annotated_files[i])
+        scores_ref = call_scores(text_new, text_ann, "ref")
+        scores_hir = call_scores(text_new, text_ann, "hir")
+        scores_tlc = call_scores(text_new, text_ann, 'tlc')
+        list_scores_tlc.append(scores_tlc)
+        list_scores_hir.append(scores_hir)
+        list_scores_ref.append(scores_ref)
+        list_score_sim.append(similarity)
+        print("{:>22}".format(annotated_files[i]))
         if debug:
-            print("F1 ref=" + str(f1))
-            print("F1 TLC_ref=" + str(f1_tlc))
-            print("F1 struct=" + str(f1_struct))
-            print("SIM=" + str(similarity))
+            print_res(scores_ref, "REF")
+            print_res(scores_tlc, "TLC")
+            print_res(scores_hir, "HIR")
+            print("SIM : " + str(similarity))
 
-    print("F1_REF_AVG :" + str(statistics.mean(f1_list)))
-    print("F1_TLC_REF_AVG :" + str(statistics.mean(f1_tlc_list)))
-    print("F1_STRUCT_AVG=" + str(statistics.mean(f1_struct_list)))
-    print("SIM_AVG :" + str(statistics.mean(sim_list)))
+    print_res(list_mean(list_scores_ref), "AVG_REF")
+    print_res(list_mean(list_scores_tlc), "AVG_TLC")
+    print_res(list_mean(list_scores_hir), "AVG_HIR")
+    print("SIM_AVG :" + str(statistics.mean(list_score_sim)))

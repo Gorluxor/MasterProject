@@ -36,6 +36,31 @@ def compare_file_names(item1: str, item2: str):
     return num1 - num2
 
 
+def find_clan_text(text):
+    from convertToLatin import regex_patterns
+    import re
+    tag_clan = "Član"
+    if "Član" not in text:
+        tag_clan = "Члан"
+    act_array = []
+    if text.find("<") != -1:
+        text = regex_patterns.strip_html_tags(text)
+
+    list_to_str = text + tag_clan + " 0."
+    found = re.finditer(tag_clan + " [0-9]*\.", list_to_str)
+    start_from = 0
+    ends_to = 0
+    for m in found:
+        if start_from == ends_to:
+            ends_to = 0
+        else:
+            ends_to = m.start()
+        if ends_to != 0:
+            insert_string = list_to_str[start_from:ends_to]
+            act_array.append(insert_string)
+        start_from = m.end()
+    return act_array
+
 def get_root_dir():
     from os import path
     pather = path.dirname(__file__)
@@ -44,7 +69,7 @@ def get_root_dir():
     if i == -1:  # MAC FIND
         i = pather.rfind('/')
     b = path_this[:i]
-    return b
+    return b.replace("\\","/")
 
 
 if __name__ == "__main__":

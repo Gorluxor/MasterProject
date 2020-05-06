@@ -1,6 +1,7 @@
 import pickle
 import numpy as np
 from itertools import groupby
+import spacy
 
 try:
     import Akoma
@@ -9,6 +10,8 @@ try:
     from Akoma.connector.connector import tokenize_pos
     from Akoma.named_enitity_recognition.readutils import SentenceGetter, word2features, read_and_prepare_csv, \
         sent2features, sent2labels, sent2tokens
+    from Akoma.spacy_ner import UseSpacy
+    from Akoma.utilites import utilities
 except ModuleNotFoundError as sureError:
     try:
         from named_enitity_recognition.readutils import SentenceGetter, word2features, read_and_prepare_csv, \
@@ -16,6 +19,8 @@ except ModuleNotFoundError as sureError:
         from connector.connector import tokenize_pos
         from named_enitity_recognition.readutils import SentenceGetter, word2features, read_and_prepare_csv, \
             sent2features, sent2labels, sent2tokens
+        from spacy_ner import UseSpacy
+        from utilities import utilities
     except ModuleNotFoundError as newError:
         if not sureError.name == "Akoma" or not newError.name == "Akoma":
             print(newError)
@@ -24,7 +29,7 @@ except ModuleNotFoundError as sureError:
 
 filename = 'data/ner/modelReldiD.sav'
 crf = pickle.load(open(filename, 'rb'))
-
+NER_OBJ = None
 # deriv_elements = []
 # loc_elements = []
 # org_elements = []
@@ -73,6 +78,65 @@ def find_elements(element, res_list, map_of_lists):
     if continuous != "":
         if last is not None:
             map_of_lists[last].append(continuous)
+
+
+def sort_got_data(doc, map_of_lists, keys) -> None:
+    continuous = ""
+    last = None
+    old = None
+    for index, token in enumerate(doc):
+        if token.ent_type_ == "":
+            tag = ["O", "O"]
+        else:
+            tag = token.ent_type_.split("-")
+        if "B" == tag[0]:
+            if len(doc) == index + 1:
+                map_of_lists[tag[1]].append(continuous)
+                continuous = ""
+                continue
+            if last is None and old is not None:
+                map_of_lists[old].append(continuous)
+                continuous = ""
+            last = tag[1]
+            continuous = continuous + " " + token.text
+            continuous = continuous.strip()
+        elif last == tag[1]:
+            continuous = continuous + ' ' + token.text
+            continuous = continuous.strip()
+        else:
+            if last is not None:
+                old = last
+            last = None
+
+    for key in keys:
+        map_of_lists[key] = list(np.unique(map_of_lists[key]))
+        # print("How are we here? Text: " + token.text + " LABEL" + token.label_)
+
+
+def do_spacy_ner(sentences, model="xx_ent_wiki_sm", custom=True):
+    global NER_OBJ
+    if NER_OBJ is None:
+        if custom:
+            NER_OBJ = spacy.load(utilities.get_root_dir() + "/data/spacy/model")
+        else:
+            NER_OBJ = spacy.load(model)
+    text = ".\n".join(sentences)
+    doc2 = NER_OBJ(text)
+    ents = doc2.ents
+    new_ents = [[el.label_, el.text] for el in ents]
+    keys = (np.unique(
+        [str.lower(el[0]).replace("b-", "").replace("i-", "") for el in new_ents]))  # ["PER","ORG","MISC","LOC"]
+    map_of_lists = dict()
+    for key in keys:
+        map_of_lists[key] = []
+    if not custom:
+        for entries in new_ents:
+            map_of_lists[str.lower(entries[0])].append(entries[1])
+        for key in keys:
+            map_of_lists[key] = list(np.unique(map_of_lists[key]))
+    else:
+        sort_got_data(doc2, map_of_lists, keys)
+    return map_of_lists
 
 
 def do_ner_on_sentences(sentences):
