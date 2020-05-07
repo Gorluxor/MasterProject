@@ -5,8 +5,8 @@ from named_enitity_recognition import readutils
 
 def convert_to_tsv(input_file, output_file):
     df = readutils.read_and_prepare_csv(input_file)
-    df = df.drop(axis=1, labels=["Sentence #", "Pos"])
-    df.to_csv(output_file, index=False, encoding="utf-8", sep="\t",header=False)
+    df = df.drop(axis=1, labels=["Sentence #"])
+    df.to_csv(output_file, index=False, encoding="utf-8", sep="\t", header=False)
 
 
 def tsv_to_json_format(input_path, output_path, unknown_label):
@@ -16,11 +16,15 @@ def tsv_to_json_format(input_path, output_path, unknown_label):
     data_dict = {}
     annotations = []
     label_dict = {}
+    pos_dict = []
     s = ''
     start = 0
     for line in f:
-        if line[0:len(line) - 1] != '.\tO':
-            word, entity = line.split('\t')
+        word, pos, entity = line.split('\t')
+        if word == '""""': # Decoding from pandas encoding
+            word = '"'
+        if '.\t' not in line:
+            pos_dict.append(pos)
             s += word + " "
             entity = entity[:len(entity) - 1]
             if entity != unknown_label:
@@ -39,6 +43,8 @@ def tsv_to_json_format(input_path, output_path, unknown_label):
                         label_dict[entity].append(d)
             start += len(word) + 1
         else:
+            s += word
+            pos_dict.append(pos)
             data_dict['content'] = s
             s = ''
             label_list = []
@@ -62,8 +68,10 @@ def tsv_to_json_format(input_path, output_path, unknown_label):
                 label['points'] = entities[1:]
                 annotations.append(label)
             data_dict['annotation'] = annotations
+            data_dict['tags'] = pos_dict
+            pos_dict = []
             annotations = []
-            json.dump(data_dict, fp)
+            json.dump(data_dict, fp, ensure_ascii=False)
             fp.write('\n')
             data_dict = {}
             start = 0
@@ -109,7 +117,7 @@ def json_to_spacy(input_file=None, output_file=None):
 if __name__ == '__main__':
     dir = utilities.get_root_dir()
     file = dir + "/data/ner/datasetReldiSDCopy.csv"
-    convert_to_tsv(file, output_file=dir + "/data/spacy/reldi.tsv")
+    # convert_to_tsv(file, output_file=dir + "/data/spacy/reldi.tsv") # No need to do more than once
     tsv_to_json_format(dir + "/data/spacy/reldi.tsv", dir + "/data/spacy/reldiD.json", "abc")
     json_to_spacy(dir + "/data/spacy/reldiD.json", dir + "/data/spacy/reldiD_spacy.json")
     # main(file_from2,file_to)

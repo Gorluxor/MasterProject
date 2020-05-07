@@ -7,6 +7,7 @@ from pathlib import Path
 import spacy
 from spacy.util import minibatch, compounding
 import re
+
 # New entity labels
 LABEL = ['I-loc', 'B-loc', 'I-date', 'B-date', 'B-deriv-per', 'I-per', 'B-per', 'I-org', 'B-org', "I-misc", "B-misc"]
 
@@ -42,10 +43,10 @@ def trim_entity_spans(data: list) -> list:
             valid_start = start
             valid_end = end
             while valid_start < len(text) and invalid_span_tokens.match(
-                    text[valid_start]):
+                text[valid_start]):
                 valid_start += 1
             while valid_end > 1 and invalid_span_tokens.match(
-                    text[valid_end - 1]):
+                text[valid_end - 1]):
                 valid_end -= 1
             valid_entities.append([valid_start, valid_end, label])
         cleaned_data.append([text, {'entities': valid_entities}])
@@ -71,7 +72,7 @@ def main(path, model=None, new_model_name='new_model', output_dir=None, n_iter=1
     else:
         ner = nlp.get_pipe('ner')
 
-    #for i in LABEL:
+    # for i in LABEL:
     #    ner.add_label(i)  # Add new entity labels to entity recognizer
 
     for _, annotations in train_data:
@@ -94,10 +95,10 @@ def main(path, model=None, new_model_name='new_model', output_dir=None, n_iter=1
                 texts, annotations = zip(*batch)
                 texts = [str.strip(text) for text in texts]
                 try:
-                    nlp.update(texts, annotations, sgd=optimizer, drop=0.35,  losses=losses)
+                    nlp.update(texts, annotations, sgd=optimizer, drop=0.35, losses=losses)
                 except Exception as e:
                     print(e)
-            if losses['ner'] < 500:
+            if losses['ner'] < 20:
                 break
             print('Losses', losses)
 
@@ -126,4 +127,4 @@ def main(path, model=None, new_model_name='new_model', output_dir=None, n_iter=1
 
 
 if __name__ == '__main__':
-    main('../data/spacy/reldiD_spacy.json', None, "model",output_dir="../data/spacy/model",n_iter=100)
+    main('../data/spacy/reldiD_spacy.json', None, "model", output_dir="../data/spacy/model2", n_iter=50)
