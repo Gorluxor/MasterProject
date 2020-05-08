@@ -83,33 +83,23 @@
 				<TLCConcept eId="cocnept43" href="http://purl.org/vocab/frbr/core#Concept" showAs="лист"/>
 				<TLCConcept eId="cocnept44" href="http://purl.org/vocab/frbr/core#Concept" showAs="република"/>
 				<TLCConcept eId="cocnept45" href="http://purl.org/vocab/frbr/core#Concept" showAs="србија"/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="18. aprila"/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2005."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2006."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="22. juna"/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="br. 44/05"/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="br. 8/05"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Crne"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Crnoj"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Gore"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Gori"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="juna"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="8/05"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Kontragarancija"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Međunarodni"/>
 				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republika Srbija"/>
 				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Srbije i"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije Srbiji i Crnoj Gori"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Srbije i Crne Gore"/>
 				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Srbiji"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Srbiji )"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Srbiji i"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="i"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodne banke"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Projekat konsolidacije"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Srbije"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="naplate"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="razvoj"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="za"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="SCG ”"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="~ navod"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Srbiji i Crnoj Gori"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Zakona"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Međunarodnog udruženja za razvoj"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodne banke Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SCG"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službeni"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Korisnik"/>
 			</references>
 			<notes source="#somebody">
 				<note wId="not1">

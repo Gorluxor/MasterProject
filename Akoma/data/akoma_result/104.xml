@@ -37,9 +37,9 @@
 				<step by="/akn/rs/srp@ontology" date="1986-05-10" wId="primena"/>
 			</workflow>
 			<references source="#somebody">
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="”."/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom listu"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="SFRJ –"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SFRJ"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Organi"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Podatke"/>
 				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Savezno"/>
 			</references>
 			<notes source="#somebody">

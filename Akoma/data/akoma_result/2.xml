@@ -50,9 +50,17 @@
 				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="републике"/>
 				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="државни"/>
 				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="печат"/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="Izgled mm . Republike Srbije . Republike Srbije REPUBLIKA SRBIJA Narodne skupštine Republike i Vlade Lica 1 . „ Službenom glasniku Republike Srbije ”"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodna skupština Ustava Republike Republike Srbije Republike Srbije Vlade Vlade Republike"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike Srbije Narodne skupštine Ustava Republike"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Državni"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Generalni"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Izgled"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Lica"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="SRBIJA"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Ustava Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodne skupštine"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="REPUBLIKA"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vlade"/>
 			</references>
 			<notes source="#somebody">
 				<note wId="not1">

@@ -68,20 +68,20 @@
 				<TLCConcept eId="cocnept28" href="http://purl.org/vocab/frbr/core#Concept" showAs="војвођанске"/>
 				<TLCConcept eId="cocnept29" href="http://purl.org/vocab/frbr/core#Concept" showAs="београд"/>
 				<TLCConcept eId="cocnept30" href="http://purl.org/vocab/frbr/core#Concept" showAs="агентом"/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="”."/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs=".."/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Amsterdam"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Beograd"/>
 				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Novi Sad"/>
 				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republika Srbija"/>
 				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Sad"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije . Republika Srbija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="EURIBOR"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Erste Bank"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Erste GCIB"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Marfin Bank"/>
 				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodnoj skupštini"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Novi"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Sredstva"/>
 				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vojvođanske banke"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="a.d."/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Erste Bank"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Marfin Bank"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Erste GCIB Finance"/>
 			</references>
 			<notes source="#somebody">
 				<note wId="not1">

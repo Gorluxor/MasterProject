@@ -49,58 +49,192 @@
 				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="грађанину"/>
 				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="грађана"/>
 				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="података"/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3. stav"/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="br. 53/78"/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="dr. zakon"/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="”."/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs=".."/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="70."/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Aleksinac"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Aranđelovac"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Bač"/>
 				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Bačka Palanka"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Bačka Topola"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Bašta"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Beograd"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Bečej"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Blace"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Bojnik"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Bor"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Bosilegrad"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Bujanovac"/>
 				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Crna Trava"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Državljaninu"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Državljaninu Republike"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Dimitrovgrad"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Doljevac"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Državljaninu Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Glogovac"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Gora"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Inđija"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Irig"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Istok"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Kladovo"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Klina"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Knjaževac"/>
 				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Kosovo Polje"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Kovin"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Krupanj"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Kula"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="LJubovija"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Lajkovac"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Lapovo"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Lebane"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Leposavić"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Leskovac"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Lipljan"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Mališevo"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Mionica"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Mlavi"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Niš"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Niška Banja"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Novi Bečej"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Novi Kneževac"/>
 				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Novi Pazar"/>
 				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Novi Sad"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Pogrešno"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Novo"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Opolje"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Opovo"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Osečina"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Pančevo"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Paraćin"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Pirot"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Požarevac"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Preševo"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Prijepolje"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Priština"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Prokuplje"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Rača"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Raška"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Registraciono"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Rekovac"/>
 				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republici Srbiji"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike"/>
 				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Senta i"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Srbije"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Subotica"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Rešenje"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Senta"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Sečanj"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Smederevska Palanka"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Srbica"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Surdulica"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Suva Reka"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Titel"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Trgovište"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Trstenik"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Uroševac"/>
 				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Velika Plana"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vitina"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vladičin"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vrbas"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vučitrn"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Đakovica"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Šabac"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Šid"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Štimlje"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Štrpce"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Žabalj"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="3."/>
 				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Bela Crkva"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Niška Banja"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Palanka"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Soko Banja"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vrnjačka Banja"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Bela Palanka"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Deo"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Golubac"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="I grupa"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="II"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="II grupa"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="III"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="IV grupa"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Kosovska Mitrovica"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Odžaci"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Plandište"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Podujevo"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Prizren"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Registraciono"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SFRJ"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SRS"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službeni list SFRJ"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Sombor"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Užice"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="VI"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Veliko Gradište"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Zvečan"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Ada"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Aleksandrovac"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Apatin"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Arilje"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Babušnica"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Bajina Bašta"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Batočina"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Bačka Topola"/>
 				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Bački Petrovac"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Beočin"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Bogatić"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Boljevac"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Brus"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Despotovac"/>
 				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Gadžin Han"/>
 				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Gornji Milanovac"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Han"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Kosovska Kamenica"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Kosovska Mitrovica"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Građanin"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Jagodina"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Jedinstveni"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Kanjiža"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Kikinda"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Knić"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Kosjerić"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Kosovska"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Kovačica"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Kragujevac"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Kraljevo"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Kruševac"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Kuršumlija"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Kučevo"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Loznica"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Lučani"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Majdanpek"/>
 				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Mali Iđoš"/>
 				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Mali Zvornik"/>
 				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Malo Crniće"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Matični"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Medveđa"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Negotin"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Nova Crnja"/>
 				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Nova Varoš"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Novi Kneževac"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Novo Brdo"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="SCG ”"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="SFRJ ”"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Orahovac"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Petrovac"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Peć"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Pećinci"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Požega"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Priboj"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Ražanj"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Ruma"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Sjenica"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Smederevo"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Soko"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Srbobran"/>
 				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Sremska Mitrovica"/>
 				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Sremski Karlovci"/>
 				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Stara Pazova"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Suva Reka"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Svilajnac"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Svrljig"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Temerin"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Topola"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Tutin"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Valjevo"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Varvarin"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Vladimirci"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Vlasotince"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Vranje"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Vrnjačka Banja"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Zrenjanin"/>
 				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Zubin Potok"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="”"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="„ Službeni"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Ćićevac"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Ćuprija"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Čajetina"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Čoka"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Žabari"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Žagubica"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Žitište"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Žitorađa"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Obilić"/>
 			</references>
 			<notes source="#somebody">
 				<note wId="not1">

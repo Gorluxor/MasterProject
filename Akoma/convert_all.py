@@ -203,7 +203,7 @@ if __name__ == "__main__":
         print(fajl)
         # try:
         convert_html(location_source + '/' + fajl, 'data/akoma_result/' + fajl[:-5] + ".xml", skip_tfidf_ner=False,
-                     ner="spacy_default")
+                     ner="spacy")
         # except Exception as e:
         #     file_exeption = open(utilities.get_root_dir() + "/data/" + "za_andriju.txt", mode="a+")
         #     file_exeption.write(fajl + ":" + str(e) + "\n")

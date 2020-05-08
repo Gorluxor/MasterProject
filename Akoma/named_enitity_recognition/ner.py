@@ -2,6 +2,7 @@ import pickle
 import numpy as np
 from itertools import groupby
 import spacy
+import numpy
 
 try:
     import Akoma
@@ -19,7 +20,6 @@ except ModuleNotFoundError as sureError:
         from connector.connector import tokenize_pos
         from named_enitity_recognition.readutils import SentenceGetter, word2features, read_and_prepare_csv, \
             sent2features, sent2labels, sent2tokens
-        from spacy_ner import UseSpacy
         from utilities import utilities
     except ModuleNotFoundError as newError:
         if not sureError.name == "Akoma" or not newError.name == "Akoma":
@@ -30,6 +30,8 @@ except ModuleNotFoundError as sureError:
 filename = 'data/ner/modelReldiD.sav'
 crf = pickle.load(open(filename, 'rb'))
 NER_OBJ = None
+TAGS = None
+CALL = 0
 # deriv_elements = []
 # loc_elements = []
 # org_elements = []
@@ -85,6 +87,9 @@ def sort_got_data(doc, map_of_lists, keys) -> None:
     last = None
     old = None
     for index, token in enumerate(doc):
+        check = token.text.replace("*", "").replace("~","").replace("„", "").replace("”", "")
+        if check == "":
+            continue
         if token.ent_type_ == "":
             tag = ["O", "O"]
         else:
@@ -98,6 +103,9 @@ def sort_got_data(doc, map_of_lists, keys) -> None:
                 map_of_lists[old].append(continuous)
                 continuous = ""
             last = tag[1]
+            if last is not None:
+                if map_of_lists.get(last) is None:
+                    map_of_lists[last] = []
             continuous = continuous + " " + token.text
             continuous = continuous.strip()
         elif last == tag[1]:
@@ -113,14 +121,40 @@ def sort_got_data(doc, map_of_lists, keys) -> None:
         # print("How are we here? Text: " + token.text + " LABEL" + token.label_)
 
 
+def my_component_pipe(doc):
+    """ Add POS tag from reldi and lemma to tokens in document, for now passed by global param TAGS
+    :param doc:
+    :return:
+    """
+    from spacy.symbols import TAG, LEMMA
+    from spacy.tokens import Doc
+    global TAGS
+    pos = [doc.vocab.strings.add(el[1]) for el in TAGS if el[0] != '`']
+    lemma = [doc.vocab.strings.add(el[2]) for el in TAGS if el[0] != '`']
+    words = [el[0] for el in TAGS if el[0] != '`']
+    attrs = [TAG, LEMMA]
+    arr = numpy.array(list(zip(pos, lemma)), dtype="uint64")
+    doc.from_array(attrs, arr)
+    new_doc = Doc(doc.vocab, words=words).from_array(attrs, arr)
+    # for tok in new_doc:
+    #     print(tok.tag_ + " " + tok.lemma_)
+    return new_doc
+
+
 def do_spacy_ner(sentences, model="xx_ent_wiki_sm", custom=True):
     global NER_OBJ
+    global TAGS
     if NER_OBJ is None:
         if custom:
             NER_OBJ = spacy.load(utilities.get_root_dir() + "/data/spacy/model")
         else:
             NER_OBJ = spacy.load(model)
-    text = ".\n".join(sentences)
+    merged_sentences = "`".join(sentences)
+    w = tokenize_pos(merged_sentences)
+    TAGS = w
+    if 'my_pos' not in NER_OBJ.pipe_names:
+        NER_OBJ.add_pipe(my_component_pipe, name="my_pos", first=True)
+    text = " ".join(sentences)
     doc2 = NER_OBJ(text)
     ents = doc2.ents
     new_ents = [[el.label_, el.text] for el in ents]
@@ -136,6 +170,9 @@ def do_spacy_ner(sentences, model="xx_ent_wiki_sm", custom=True):
             map_of_lists[key] = list(np.unique(map_of_lists[key]))
     else:
         sort_got_data(doc2, map_of_lists, keys)
+    for i in map_of_lists:
+        print(len(map_of_lists[i]))
+        print(map_of_lists[i])
     return map_of_lists
 
 

@@ -45,26 +45,20 @@
 				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="године"/>
 				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="народне"/>
 				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="александру"/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. avgusta"/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1947."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="8. marta"/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs=";."/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Jugoslavije"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodne skupštine"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Aleksandra Karađorđevića"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Aleksandru Pavla"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Aleksandru Petra"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Arsena Karađorđevića"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Federativne Narodne"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Karađorđevića"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Pavla Karađorđevića"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Tomislavu Aleksandra"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Ukaz Predsedništva"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="~ navod"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Pavla Karađorđevića"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Pavla Karađorđevića"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="~ navod"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="avgusta"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="marta"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Ukaz Predsedništva"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodne skupštine Federativne Narodne Republike Jugoslavije"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Aleksandru Pavla Karađorđevića"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Aleksandru Petra Karađorđevića"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Andreju Aleksandra Karađorđevića"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Jelisaveti Pavla Karađorđevića"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Mariji Aleksandra Karađorđevića"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Nikoli Pavla Karađorđevića"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Olgi Pavla Karađorđevića"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Pavlu Arsena Karađorđevića"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Petru Aleksandra Karađorđevića"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Tomislavu Aleksandra Karađorđevića"/>
 			</references>
 			<notes source="#somebody">
 				<note wId="not1">
