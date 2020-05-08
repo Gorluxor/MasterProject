@@ -3,7 +3,8 @@ try:
 except ModuleNotFoundError:
     try:
         from form_akoma.Metadata import Metadata
-    except ModuleNotFoundError:
+    except ModuleNotFoundError as e:
+        print(e)
         print("Error")
         exit()
 
