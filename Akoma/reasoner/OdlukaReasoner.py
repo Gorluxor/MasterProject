@@ -5,7 +5,8 @@ except ModuleNotFoundError:
     try:
         from reasoner.BasicReasoner import BasicReasoner
         from tokenizer.TokenType import TokenType
-    except ModuleNotFoundError:
+    except ModuleNotFoundError as e:
+        print(e)
         print("error")
         exit(-1)
 

@@ -74,8 +74,9 @@ def read_and_prepare_csv(filename, verbose=0):
         print(df.head())
         print(df.isnull().sum())
     df = df.fillna(method='ffill')  # fills the NaN's
-    df['Sentence #'].nunique(), df.Word.nunique(), df.Tag.nunique()
-
+    x,y,z = df['Sentence #'].nunique(), df.Word.nunique(), df.Tag.nunique()
+    if verbose:
+        print("{0} Sentences, {1} Words, {2} Tags".format(x, y, z))
     if verbose:
         print(df.groupby('Tag').size().reset_index(name='counts'))  # distribution of tags
 
@@ -92,5 +93,6 @@ def sent2labels(sent):
 
 def sent2tokens(sent):
     return [token for token, postag, label in sent]
+
 
 

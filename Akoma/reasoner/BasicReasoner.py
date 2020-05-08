@@ -12,7 +12,8 @@ except ModuleNotFoundError:
         from named_enitity_recognition.ner import do_ner_on_sentences
         from convertToLatin.Convert import convert
 
-    except ModuleNotFoundError:
+    except ModuleNotFoundError as e:
+        print(e)
         print("Error")
         exit(-1)
 
