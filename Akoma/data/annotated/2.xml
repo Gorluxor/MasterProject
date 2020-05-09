@@ -59,6 +59,8 @@
 				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike Srbije"/>
 				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SRBIJA"/>
 				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vlade"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="6. novembra  2007."/>
 			</references>
 			<notes source="#somebody">
 				<note wId="not1">

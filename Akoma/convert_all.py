@@ -16,7 +16,7 @@ try:
     from Akoma.form_akoma.MetadataBuilder import MetadataBuilder
     from Akoma.named_enitity_recognition.references import add_refs
     from Akoma.tokenizer.BasicTokenizer import BasicTokenizer
-    from Akoma.named_enitity_recognition.ner import do_ner_on_sentences, do_spacy_ner
+    from Akoma.named_enitity_recognition.ner import do_ner_on_sentences, do_spacy_ner, fix_dates
     from Akoma.convertToLatin.Convert import convert
 except ModuleNotFoundError as sureError:
     try:
@@ -31,7 +31,7 @@ except ModuleNotFoundError as sureError:
         from reasoner.OdlukaReasoner import OdlukaReasoner
         from form_akoma.MetadataBuilder import MetadataBuilder
         from named_enitity_recognition.references import add_refs
-        from named_enitity_recognition.ner import do_ner_on_sentences, do_spacy_ner
+        from named_enitity_recognition.ner import do_ner_on_sentences, do_spacy_ner, fix_dates
         from convertToLatin.Convert import convert
     except ModuleNotFoundError as newError:
         if not sureError.name.__eq__("Akoma") or not newError.name.__eq__("Akoma"):
@@ -112,7 +112,6 @@ def apply_akn_tags(text: str, meta_name: str, skip_tfidf_ner=False, ner="crf"):
             text = got.prettify().replace("<html>", "").replace("</html>", "").replace("<body>", "").replace("</body>",
                                                                                                              "")
             html_root = ET.fromstring("<article>" + text + "</article>")
-
     metabuilder = MetadataBuilder("data/meta/allmeta.csv")
     metabuilder.build(meta_name, akoma_root, skip_tfidf_ner)
     # print(ETree.prettify(akoma_root))
@@ -145,9 +144,13 @@ def apply_akn_tags(text: str, meta_name: str, skip_tfidf_ner=False, ner="crf"):
         elif ner == "spacy_default":
             map_ret = do_spacy_ner(ner_list, custom=False)
         elif ner == "reldi":
-            print("TODO")
+            map_ret = {}
+            print("Waiting for access to reldi NER from devs, TODO for future")
         if ner == "crf" or ner == "spacy" or ner == "spacy_default" or ner == "reldi":
-            add_ner_tags(map_ret, akoma_root)  # print(ret)
+            fix_dates(map_ret)
+            events = utilities.regex_events(regex_patterns.strip_html_tags(text))
+            utilities.entities_add_date(map_ret, events)  # Regex adding dates
+            add_ner_tags(map_ret, akoma_root)
         ner_list.clear()
 
     try:
@@ -203,7 +206,7 @@ if __name__ == "__main__":
         print(fajl)
         # try:
         convert_html(location_source + '/' + fajl, 'data/akoma_result/' + fajl[:-5] + ".xml", skip_tfidf_ner=False,
-                     ner="spacy")
+                     ner="crf")
         # except Exception as e:
         #     file_exeption = open(utilities.get_root_dir() + "/data/" + "za_andriju.txt", mode="a+")
         #     file_exeption.write(fajl + ":" + str(e) + "\n")

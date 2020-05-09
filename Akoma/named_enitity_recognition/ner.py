@@ -74,7 +74,8 @@ def find_elements(element, res_list, map_of_lists):
                 last = tag[1]
                 continuous = element[x]
             elif last == tag[1]:
-                continuous = continuous + ' ' + element[x]
+                continuous = continuous + ' ' + replace_junk(element[x])
+                continuous = continuous.strip()
             else:
                 last = None
     if continuous != "":
@@ -82,13 +83,42 @@ def find_elements(element, res_list, map_of_lists):
             map_of_lists[last].append(continuous)
 
 
+def fix_dates(map_of_entities: dict):
+    if map_of_entities.get('date') is None:
+        return
+    list_dates = map_of_entities['date']
+    saving = []
+    for date in list_dates:
+        date = date.strip()
+        month = utilities.month_in(date)
+        has_year_and_day = utilities.number_in(date)
+        has_year = utilities.number_in(date, just_year=True)
+        has_day = utilities.number_in(date, just_day=True)
+        special_date = utilities.special_date(date)
+        if (month and has_year_and_day) or special_date or has_year or (has_day and month):
+            saving.append(date)
+    map_of_entities['date'] = saving
+
+
+def replace_junk(text: str, strict=False) -> str:
+    val = text.replace("*", "").replace("~", "").replace("„", "").replace("”", "").replace(")", "").replace(
+        "(", "").replace("“", "").replace("–", "").replace("’", "").strip()
+    if strict:
+        val = val.replace(".", '').replace(",", "")
+    return val
+
+
 def sort_got_data(doc, map_of_lists, keys) -> None:
     continuous = ""
     last = None
     old = None
     for index, token in enumerate(doc):
-        check = token.text.replace("*", "").replace("~","").replace("„", "").replace("”", "")
-        if check == "":
+        if 'date' in token.ent_type_:
+            strict = False
+        else:
+            strict = True
+        check = replace_junk(token.text, strict)
+        if len(check) < 2:
             continue
         if token.ent_type_ == "":
             tag = ["O", "O"]
@@ -106,10 +136,10 @@ def sort_got_data(doc, map_of_lists, keys) -> None:
             if last is not None:
                 if map_of_lists.get(last) is None:
                     map_of_lists[last] = []
-            continuous = continuous + " " + token.text
+            continuous = continuous + " " + replace_junk(token.text, strict)
             continuous = continuous.strip()
         elif last == tag[1]:
-            continuous = continuous + ' ' + token.text
+            continuous = continuous + ' ' + replace_junk(token.text, strict)
             continuous = continuous.strip()
         else:
             if last is not None:
@@ -165,13 +195,16 @@ def do_spacy_ner(sentences, model="xx_ent_wiki_sm", custom=True):
         map_of_lists[key] = []
     if not custom:
         for entries in new_ents:
+            entries[1] = replace_junk(entries[1], True)
+            if len(entries[1]) < 2:
+                continue
             map_of_lists[str.lower(entries[0])].append(entries[1])
         for key in keys:
             map_of_lists[key] = list(np.unique(map_of_lists[key]))
     else:
         sort_got_data(doc2, map_of_lists, keys)
     for i in map_of_lists:
-        print(len(map_of_lists[i]))
+        print(i + ":" + str(len(map_of_lists[i])))
         print(map_of_lists[i])
     return map_of_lists
 

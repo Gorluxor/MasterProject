@@ -77,6 +77,7 @@
 				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="ministarstvo nadležno za unutrašnje poslove"/>
 				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Državljanin"/>
 				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="19. jula"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2011."/>
 				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27. maja 2011."/>
 				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. decembra 2016."/>
 				</references>

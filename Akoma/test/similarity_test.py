@@ -16,6 +16,8 @@ except ModuleNotFoundError:
         print("Import error")
         exit(-1)
 
+SUPPORTED = ['Location', 'Organization', 'Event', 'Person']  # , 'Concept']
+
 map_found_org = {
     ETree.get_akoma_tag("deo"): 0,
     ETree.get_akoma_tag("glava"): 0,
@@ -43,6 +45,38 @@ def get_id(tlc_text):
     got = re.search('showAs=".*?"', tlc_text)
     ref = re.search('TLC.*? ', tlc_text)
     return tlc_text[ref.span(0)[0]:ref.span(0)[1] - 1] + ":" + tlc_text[got.span(0)[0] + 8:got.span(0)[1] - 1]
+
+
+def find_tlc_sim_by_kat(got_text_new, got_text_org, elem):
+    global SUPPORTED
+    if elem not in SUPPORTED:
+        print("Only supports")
+        print(SUPPORTED)
+        return None
+    new_refs = re.findall('<TLC' + elem + ' .*?>', got_text_new)
+    org_refs = re.findall("<TLC" + elem + ".*?>", got_text_org)
+    has = 0
+    fp = 0
+    new_ids = [get_id(el) for el in new_refs]
+    org_ids = [get_id(el) for el in org_refs]
+    total = len(org_ids)
+
+    if total == 0 and len(new_ids) == 0:
+        return 1, 1
+    elif total == 0:
+        return 1 / len(new_ids), 1
+    for new_values in new_ids:
+        if new_values in org_ids:
+            has = has + 1
+        else:
+            fp = fp + 1
+
+    if has is 0 and len(org_ids) > 0:
+        prec = 0
+    else:
+        prec = has / (has + fp)
+    recall = has / total
+    return prec, recall
 
 
 def find_tlc_sim(got_text_new, got_text_org):
@@ -112,20 +146,6 @@ def find_ref_similarity(text_new, text_org):
         if not not_fp:
             false_positive.append(el)
         not_fp = False
-    # for elem in org_refs:
-    #     href = re.findall('href=".*"', elem)
-    #     if len(href) == 0:
-    #         false_negative.append(elem)
-    #         break
-    #     else:
-    #         href = href[0]
-    #     for check in org_refs:
-    #         if href in check:
-    #             not_fp = True
-    #     if not not_fp:
-    #         false_negative.append(elem)
-    #     not_fp = True
-    # fn = len(false_negative)
     fp = len(false_positive)
     return has / (has + fp), has / len(org_refs)
 
@@ -147,19 +167,23 @@ def find_fscore(precision, recall):
     return 2 * ((precision * recall) / (precision + recall))
 
 
-def call_scores(new_text, annotated_text, which):
+def call_scores(new_text, annotated_text, which, kat=None):
     """
     :param new_text: New text
     :param annotated_text: Annotated same files
     :param which: values = 'hir', 'tlc', 'ref', (structure, tlc references,
+    :param kat: if tlc_kat used add which categories to search for
     :return: f1,precision,recall
     """
+    global SUPPORTED
     if which == "hir":
         f_pre, f_rec = find_structure_sim(new_text, annotated_text)
     elif which == "ref":
         f_pre, f_rec = find_ref_similarity(new_text, annotated_text)
     elif which == "tlc":
         f_pre, f_rec = find_tlc_sim(new_text, annotated_text)
+    elif which == "tlc_kat":
+        f_pre, f_rec = find_tlc_sim_by_kat(new_text, annotated_text, kat)
     else:
         return None
     if f_pre + f_rec == 0:
@@ -176,9 +200,9 @@ def find_similarity(text, text2):
 
 def print_res(res, text) -> None:
     decs = 2
-    output = text + " F1: {:>7} Precision: {:>7} Recall: {:>7}".format(str(round(float(res[0]), decs)),
-                                                                       str(round(float(res[1]), decs)),
-                                                                       str(round(float(res[2]), decs)))
+    output = "{:>12}".format(text) + " F1: {:>7} Precision: {:>7} Recall: {:>7}".format(str(round(float(res[0]), decs)),
+                                                                                        str(round(float(res[1]), decs)),
+                                                                                        str(round(float(res[2]), decs)))
     print(output)
 
 
@@ -186,8 +210,18 @@ def average(lst):
     return reduce(lambda a, b: a + b, lst) / len(lst)
 
 
+def nth_element(scores: list, pos):
+    if len(scores[0]) - 1 < pos:
+        return None
+    return [el[pos] for el in scores]
+
+
 def list_mean(scores: list) -> list:
-    return [str(average(scores[0])), str(average(scores[1])), str(average(scores[1]))]
+    val_f1 = nth_element(scores, 0)
+    val_p = nth_element(scores, 1)
+    val_r = nth_element(scores, 2)
+    ret = [str(average(val_f1)), str(average(val_p)), str(average(val_r))]
+    return ret
 
 
 if __name__ == "__main__":
@@ -199,24 +233,36 @@ if __name__ == "__main__":
     list_score_sim = []
     list_scores_hir = []
     list_scores_tlc = []
+    by_cat = {}
+    for elem in SUPPORTED:
+        by_cat[elem] = []
+
     for i in range(0, len(annotated_files)):
         text_new, text_ann = load_data(location_data + annotated_files[i], location_annotated + annotated_files[i])
-        similarity = find_similarity(text_new, text_ann)
+        # similarity = find_similarity(text_new, text_ann)
         scores_ref = call_scores(text_new, text_ann, "ref")
         scores_hir = call_scores(text_new, text_ann, "hir")
         scores_tlc = call_scores(text_new, text_ann, 'tlc')
+        for elem in SUPPORTED:
+            scores_tlc_kat = call_scores(text_new, text_ann, 'tlc_kat', elem)
+            by_cat[elem].append(scores_tlc_kat)
         list_scores_tlc.append(scores_tlc)
         list_scores_hir.append(scores_hir)
         list_scores_ref.append(scores_ref)
-        list_score_sim.append(similarity)
-        print("{:>22}".format(annotated_files[i]))
+        # list_score_sim.append(similarity)
+        print("{:>35}".format(annotated_files[i]))
         if debug:
             print_res(scores_ref, "REF")
             print_res(scores_tlc, "TLC")
             print_res(scores_hir, "HIR")
-            print("SIM : " + str(similarity))
-
+            # print("SIM : " + str(similarity))
+    print("                ## Average  ##")
     print_res(list_mean(list_scores_ref), "AVG_REF")
     print_res(list_mean(list_scores_tlc), "AVG_TLC")
     print_res(list_mean(list_scores_hir), "AVG_HIR")
-    print("SIM_AVG :" + str(statistics.mean(list_score_sim)))
+    # print("SIM_AVG :" + str(statistics.mean(list_score_sim)))
+    print()
+    print("            ## Average TLC BY CATEGORY ##")
+    for elem in SUPPORTED:
+        list_to_print = by_cat[elem]
+        print_res(list_mean(list_to_print), elem)

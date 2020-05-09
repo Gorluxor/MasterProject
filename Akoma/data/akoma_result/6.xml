@@ -84,40 +84,35 @@
 				<TLCConcept eId="cocnept39" href="http://purl.org/vocab/frbr/core#Concept" showAs="збору"/>
 				<TLCConcept eId="cocnept40" href="http://purl.org/vocab/frbr/core#Concept" showAs="заклетвом"/>
 				<TLCConcept eId="cocnept41" href="http://purl.org/vocab/frbr/core#Concept" showAs="15"/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="21. oktobra"/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="22. aprila"/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27. januara"/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="7. januar"/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="januara"/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="juna"/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="maja"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Drugom"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Državni"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Nova"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Kosovsku bitku"/>
 				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Kragujevcu"/>
 				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Orašcu"/>
 				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
 				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republici Srbiji"/>
 				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
 				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Srbije"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Drugom"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Kurbanskog"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="ODREDBE KOJE"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="PREČIŠĆEN"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Privredna društva"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Prvi srpski"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ramazanskog bajrama"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Sveti Sava"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vidovdan"/>
 				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SRS"/>
 				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Sretenje"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="UNETE"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Uskrsa"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Uskršnjih"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Državni"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Jom"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Sveti Sava"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Ustav Knjaževstva"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Vaskršnji"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="ZAKONA"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Jom Kipura"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Kurbanskog bajrama"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Sretenje"/>
 				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Vidovdan"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. i 2. januara"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. i 2. maja"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="11. novembra"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1804."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1835."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1941."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="22. aprila"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27. januara"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="28. juna"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="7. januar"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="7. decembra 2011."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="21. oktobar 1941."/>
 			</references>
 			<notes source="#somebody">
 				<note wId="not1">
