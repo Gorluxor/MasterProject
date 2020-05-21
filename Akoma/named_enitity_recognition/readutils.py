@@ -24,6 +24,15 @@ class SentenceGetter(object):
         except:
             return None
 
+    def get_docs(self):
+        docs = []
+        for s in self.sentences:
+            sentence = ""
+            for word in s:
+                sentence = sentence + word[0] + " "
+            docs.append(sentence)
+        return docs
+
 
 def word2features(sent, i):
     word = sent[i][0]
