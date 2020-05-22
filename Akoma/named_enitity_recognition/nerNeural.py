@@ -60,11 +60,11 @@ tag2idx = {t: i + 1 for i, t in enumerate(tags)}
 tag2idx["PAD"] = 0
 idx2tag = {i: w for w, i in tag2idx.items()}
 
-embedding_type = "Elmo"  # GloVe, Elmo, Bert
+embedding_type = "GloVe"  # GloVe, Elmo, Bert
 padded_docs = []
 vocab_size = 0
 embedding_matrix = []
-
+bert_size = 0
 if embedding_type == "GloVe":
     embedding_matrix, padded_docs, vocab_size = glove_embedding(docs, max_len)
     path = "../data/ner/neuralNetworkModelGloVe.h5"
@@ -75,6 +75,8 @@ elif embedding_type == "Bert":
     padded_docs = bert_embedding(docs, max_len)
     bert_size = len(padded_docs[0][0])
     path = "../data/ner/neuralNetworkModelBert.h5"
+else:
+    raise ValueError("Embedded type not supported")
 
 y = [[tag2idx[w[2]] for w in s] for s in sentences]
 
@@ -117,8 +119,8 @@ checkpointer = ModelCheckpoint(filepath=path,
                                save_best_only=True,
                                monitor='val_loss')
 batch_size = 32
-X_tr, X_val = X_word_tr[:1213 * batch_size], X_word_tr[-135 * batch_size:]
-y_tr, y_val = y_tr[:1213 * batch_size], y_tr[-135 * batch_size:]
+X_tr, X_val = X_word_tr[:1792], X_word_tr[1792:3488]
+y_tr, y_val = y_tr[:1792], y_tr[1792:3488]
 y_tr = y_tr.reshape(y_tr.shape[0], y_tr.shape[1], 1)
 y_val = y_val.reshape(y_val.shape[0], y_val.shape[1], 1)
 history = model.fit(np.array(X_tr), y_tr, validation_data=(np.array(X_val), y_val), batch_size=batch_size, epochs=8,
