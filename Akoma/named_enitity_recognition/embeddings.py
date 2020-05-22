@@ -21,7 +21,7 @@ def glove_embedding(docs, max_length):
     encoded_docs = t.texts_to_sequences(docs)
     padded_docs = pad_sequences(encoded_docs, maxlen=max_length, padding='post')
     embeddings_index = dict()
-    f = open('glove.6B/glove.6B.100d.txt')
+    f = open('glove.6B/glove.6B.100d.txt', encoding="utf-8")
     for line in f:
         values = line.split()
         word = values[0]
