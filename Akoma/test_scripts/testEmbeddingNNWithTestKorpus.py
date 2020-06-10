@@ -7,36 +7,19 @@ from keras.models import Model, Input
 from keras.layers import LSTM, Embedding, Dense, TimeDistributed
 from keras.layers import Bidirectional, Lambda
 from keras.layers.merge import add
-from keras.callbacks import ModelCheckpoint
 import keras.backend as K
 from keras_contrib.layers import CRF
 import tensorflow as tf
 from keras import models
 import pickle
 import nltk
-from sklearn_crfsuite.metrics import flat_classification_report
-from sklearn.metrics import f1_score
 from seqeval.metrics import precision_score, recall_score, f1_score, classification_report
 from keras.preprocessing.text import text_to_word_sequence
 import pickle
-
-try:
-    import Akoma
-    from Akoma.named_enitity_recognition.readutils import SentenceGetter, word2features, read_and_prepare_csv
-    from Akoma.named_enitity_recognition.embeddings import glove_embedding, bert_embedding, elmo_embedding, \
-        create_data_for_elmo
-    from Akoma.named_enitity_recognition import embeddings
-except ModuleNotFoundError as sureError:
-    try:
-        from named_enitity_recognition import embeddings
-        from named_enitity_recognition.readutils import SentenceGetter, word2features, read_and_prepare_csv
-        from named_enitity_recognition.embeddings import glove_embedding, bert_embedding, elmo_embedding, \
-            create_data_for_elmo
-    except ModuleNotFoundError as newError:
-        if not newError.name.__eq__("Akoma") or not newError.name.__eq__("Akoma"):
-            print(newError)
-            print("Error")
-            exit(-1)
+from named_enitity_recognition import embeddings
+from named_enitity_recognition.readutils import SentenceGetter, word2features, read_and_prepare_csv
+from named_enitity_recognition.embeddings import glove_embedding, bert_embedding, elmo_embedding, \
+    create_data_for_elmo
 
 
 def load_model(embedding_type: str, max_len=75):  # GloVe, Elmo, Bert
@@ -251,7 +234,7 @@ def load_model_by_type(emb_type, max_len=75):
         # if emb_type.lower() == "GloVe".lower():
         #     path = "../data/ner/neuralNetworkModelGloVe_old.h5"
         if emb_type.lower() == "Bert".lower():
-            path = "../data/ner/neuralNetworkModelBert_old.h5"
+            path = "../data/ner/neuralNetworkModelBert.h5"
         else:
             quit(-1)
         model = models.load_model(path)
@@ -285,6 +268,7 @@ if __name__ == "__main__":
     print("Done Loading model")
     if embedding_type.lower() == 'bert':
         sentences = load_data("../data/ner/datasetTestNer.csv")
+        sentences = sentences[:30]
         list_words, list_vals = bert_prepare_sentences(sentences)
         print("Start Embedding")
         embedded = embeddings.bert_embedding_sentence(list_words)

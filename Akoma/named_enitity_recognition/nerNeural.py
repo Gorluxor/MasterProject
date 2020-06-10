@@ -4,29 +4,17 @@ from sklearn.model_selection import train_test_split
 from keras.models import Model, Input
 from keras.layers import LSTM, Embedding, Dense, TimeDistributed
 from keras.layers import Bidirectional, Lambda
-from keras.layers.merge import add
 from keras.callbacks import ModelCheckpoint
 import keras.backend as K
 import tensorflow as tf
 import pickle
 from keras_contrib.layers import CRF
-from keras_contrib import losses
-
-try:
-    import Akoma
-    from Akoma.named_enitity_recognition.readutils import SentenceGetter, word2features, read_and_prepare_csv
-    from Akoma.named_enitity_recognition.embeddings import glove_embedding, bert_embedding, elmo_embedding, \
-        create_data_for_elmo
-except ModuleNotFoundError as sureError:
-    try:
-        from named_enitity_recognition.readutils import SentenceGetter, word2features, read_and_prepare_csv
-        from named_enitity_recognition.embeddings import glove_embedding, bert_embedding, elmo_embedding, \
-            create_data_for_elmo
-    except ModuleNotFoundError as newError:
-        if not newError.name.__eq__("Akoma") or not newError.name.__eq__("Akoma"):
-            print(newError)
-            print("Error")
-            exit(-1)
+from named_enitity_recognition.readutils import SentenceGetter, read_and_prepare_csv
+from named_enitity_recognition.embeddings import glove_embedding, bert_embedding, elmo_embedding, \
+    create_data_for_elmo
+from test_scripts import testEmbeddingNNWithTestKorpus
+from named_enitity_recognition import embeddings
+from os import path
 
 
 def sparse_loss(y_true, y_pred):
@@ -52,10 +40,7 @@ def custom_loss(y_true, y_pred):
 
 if __name__ == "__main__":
     embedding_type = "Bert"  # GloVe, Elmo, Bert
-    # path = str(pathlib.Path(__file__).parent.absolute()) + "/neuralNetworkModel1.h5"
-    path = "../data/ner/neuralNetworkModel1.h5"
-    print(path)
-
+    max_len = 75
     data = read_and_prepare_csv("../data/ner/datasetReldiSD.csv")
 
     data.tail(10)
@@ -76,15 +61,20 @@ if __name__ == "__main__":
     largest_sen = max(len(sen) for sen in sentences)
     print('biggest sentence has {} words'.format(largest_sen))
 
-    max_len = 255
-
     word2idx = {w: i + 2 for i, w in enumerate(words)}
     word2idx["UNK"] = 1
     word2idx["PAD"] = 0
     idx2word = {i: w for w, i in word2idx.items()}
-    tag2idx = {t: i + 1 for i, t in enumerate(tags)}
-    tag2idx["PAD"] = 0
-    idx2tag = {i: w for w, i in tag2idx.items()}
+
+    if path.exists(path='../data/ner/bert_idx2tag.csv'):
+        idx2tag = testEmbeddingNNWithTestKorpus.bert_load_index2tag()
+        tag2idx = {value: key for key, value in idx2tag.items()}
+        saving = False
+    else:
+        tag2idx = {t: i + 1 for i, t in enumerate(tags)}
+        tag2idx["PAD"] = 0
+        idx2tag = {i: w for w, i in tag2idx.items()}
+        saving = True
 
     padded_docs = []
     vocab_size = 0
@@ -92,14 +82,14 @@ if __name__ == "__main__":
     bert_size = 0
     if embedding_type == "GloVe":
         embedding_matrix, padded_docs, vocab_size = glove_embedding(docs, max_len)
-        path = "../data/ner/neuralNetworkModelGloVe.h5"
+        file_path = "../data/ner/neuralNetworkModelGloVe.h5"
     elif embedding_type == "Elmo":
         padded_docs = create_data_for_elmo(sentences, max_len)
-        path = "../data/ner/neuralNetworkModelElmo.h5"
+        file_path = "../data/ner/neuralNetworkModelElmo.h5"
     elif embedding_type == "Bert":
         padded_docs = bert_embedding(docs, max_len)  # "hr500k"
         bert_size = len(padded_docs[0][0])
-        path = "../data/ner/neuralNetworkModelBert.h5"
+        file_path = "../data/ner/neuralNetworkModelBert.h5"
     else:
         raise ValueError("Embedded type not supported")
 
@@ -128,7 +118,7 @@ if __name__ == "__main__":
     # out = TimeDistributed(Dense(n_tags + 1, activation="softmax"))(x)
     x2 = TimeDistributed(Dense(256, activation="relu"))(x)
 
-    crf = CRF(n_tags + 1,sparse_target=True)  # CRF layer
+    crf = CRF(n_tags + 1, sparse_target=True)  # CRF layer
     out = crf(x2)  # output
 
     if embedding_type == "Bert":
@@ -140,7 +130,7 @@ if __name__ == "__main__":
     # adam # loss=sparse_categorical_crossentropy # metrics=['categorical_accuracy'] # #loss=custom_loss
     model.summary()
 
-    checkpointer = ModelCheckpoint(filepath=path,
+    checkpointer = ModelCheckpoint(filepath=file_path,
                                    verbose=0,
                                    mode='auto',
                                    save_best_only=True,
@@ -151,36 +141,33 @@ if __name__ == "__main__":
     y_tr = y_tr.reshape(y_tr.shape[0], y_tr.shape[1], 1)
     y_val = y_val.reshape(y_val.shape[0], y_val.shape[1], 1)
     history = model.fit(np.array(X_tr), y_tr, validation_data=(np.array(X_val), y_val), batch_size=batch_size,
-                        epochs=3,
+                        epochs=1,
                         verbose=1)
 
     y_pred = model.predict(np.array(X_word_te))
 
-    # model.save_weights(filepath=path)
+    # model.save_weights(filepath=file_path)
 
     if embedding_type == 'GloVe' or embedding_type == "Bert":
-        model.save(filepath=path)
+        model.save(filepath=file_path)
 
     if embedding_type == 'Elmo':
-        model.save_weights(filepath=path)
+        model.save_weights(filepath=file_path)
 
     i = 100
     p = np.argmax(y_pred[i], axis=-1)
     print("{:15}||{:5}||{}".format("Word", "True", "Pred"))
     print(30 * "=")
+    if saving:
+        with open('../data/ner/bert_idx2tag.csv', 'w') as f:
+            writing = [str(key) + "," + str(value) + "\n" for key, value in idx2tag.items()]
+            f.writelines(writing)
 
-    with open('../data/ner/bert_idx2tag.csv', 'w') as f:
-        writing = [str(key) + "," + str(value) + "\n" for key, value in idx2tag.items()]
-        f.writelines(writing)
-
-    checking = False  # To check if saving is the problem with NN
+    checking = True  # To check if saving is the problem with NN
     if checking:
         print("START CHECKING")
-        from test_scripts import testEmbeddingNNWithTestKorpus
-        from named_enitity_recognition import embeddings
-
         sentences = testEmbeddingNNWithTestKorpus.load_data("../data/ner/datasetTestNer.csv")
-        sentences = sentences[:20]
+        # sentences = sentences[:20]
         list_words, list_vals = testEmbeddingNNWithTestKorpus.bert_prepare_sentences(sentences)
         embedded = embeddings.bert_embedding_sentence(list_words)
         embedded = testEmbeddingNNWithTestKorpus.padding_adv(embedded)
@@ -189,7 +176,9 @@ if __name__ == "__main__":
         print("Done Predicting")
         labels = testEmbeddingNNWithTestKorpus.bert_get_tag(got, list_words, list_vals, idx2tag)
         try:
-            testEmbeddingNNWithTestKorpus.accuracy_recall(labels)
+            list_kategories = testEmbeddingNNWithTestKorpus.accuracy_recall(labels)
+            results = testEmbeddingNNWithTestKorpus.avg_metrics_from_kategories(list_kategories)
+            testEmbeddingNNWithTestKorpus.avg_metrics_from_kategories(list_kategories, with_other=True)
         except ZeroDivisionError:
             print("DIV BY ZERO")
 
