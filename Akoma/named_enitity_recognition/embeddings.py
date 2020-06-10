@@ -69,10 +69,15 @@ def bert_embedding(sentences, max_length):
     if path.exists('bert/bert_embeddings.csv'):
         embeddings = read_from_bert_txt(max_length)
     else:
-        bert_embedding_model = BertEmbedding(model='bert_12_768_12', dataset_name='wiki_multilingual')
-        result = bert_embedding_model(sentences)
-        embeddings = [[word for word in sentence[1]] for sentence in result]
+        embeddings = bert_embedding_sentence(sentences)
         save_bert_to_txt(embeddings)
+    return embeddings
+
+
+def bert_embedding_sentence(sentences):
+    bert_embedding_model = BertEmbedding(model='bert_12_768_12', dataset_name='wiki_multilingual')
+    result = bert_embedding_model(sentences)
+    embeddings = [[word for word in sentence[1]] for sentence in result]
     return embeddings
 
 
