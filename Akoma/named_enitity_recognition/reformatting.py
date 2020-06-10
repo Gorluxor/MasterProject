@@ -1,7 +1,7 @@
 # data_selected = "reldi"
 # data_selected = "drugi"
 # data_selected = "hr500k"
-data_selected = "test_ner"
+data_selected = "hr500k"
 
 if data_selected == "reldi":
     data_file = open("../data/ner/set.sr.conll", "r", encoding="utf-8")
@@ -53,7 +53,7 @@ if data_selected == "reldi":
 elif data_selected == "drugi":
     new_file_name = "../data/ner/datasetDrugi.csv"
 elif data_selected == "hr500k":
-    new_file_name = "../data/ner/datasetHr.csv"
+    new_file_name = "../data/ner/datasetHr500k.csv"
 elif data_selected == "test_ner":
     new_file_name = "../data/ner/datasetTestNer.csv"
 

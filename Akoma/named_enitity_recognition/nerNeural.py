@@ -9,8 +9,9 @@ from keras.callbacks import ModelCheckpoint
 import keras.backend as K
 import tensorflow as tf
 import pickle
+from keras_contrib.layers import CRF
+from keras_contrib import losses
 
-# from keras_contrib.layers import CRF
 try:
     import Akoma
     from Akoma.named_enitity_recognition.readutils import SentenceGetter, word2features, read_and_prepare_csv
@@ -50,7 +51,7 @@ def custom_loss(y_true, y_pred):
 
 
 if __name__ == "__main__":
-
+    embedding_type = "Bert"  # GloVe, Elmo, Bert
     # path = str(pathlib.Path(__file__).parent.absolute()) + "/neuralNetworkModel1.h5"
     path = "../data/ner/neuralNetworkModel1.h5"
     print(path)
@@ -75,8 +76,7 @@ if __name__ == "__main__":
     largest_sen = max(len(sen) for sen in sentences)
     print('biggest sentence has {} words'.format(largest_sen))
 
-    max_len = 75
-    max_len_char = 10
+    max_len = 255
 
     word2idx = {w: i + 2 for i, w in enumerate(words)}
     word2idx["UNK"] = 1
@@ -86,7 +86,6 @@ if __name__ == "__main__":
     tag2idx["PAD"] = 0
     idx2tag = {i: w for w, i in tag2idx.items()}
 
-    embedding_type = "Bert"  # GloVe, Elmo, Bert
     padded_docs = []
     vocab_size = 0
     embedding_matrix = []
@@ -98,7 +97,7 @@ if __name__ == "__main__":
         padded_docs = create_data_for_elmo(sentences, max_len)
         path = "../data/ner/neuralNetworkModelElmo.h5"
     elif embedding_type == "Bert":
-        padded_docs = bert_embedding(docs, max_len)
+        padded_docs = bert_embedding(docs, max_len)  # "hr500k"
         bert_size = len(padded_docs[0][0])
         path = "../data/ner/neuralNetworkModelBert.h5"
     else:
@@ -109,6 +108,7 @@ if __name__ == "__main__":
     y = pad_sequences(maxlen=max_len, sequences=y, value=tag2idx["PAD"], padding='post', truncating='post')
 
     X_word_tr, X_word_te, y_tr, y_te = train_test_split(padded_docs, y, test_size=0.1, random_state=2018)
+
     X_word_te = X_word_te[:384]
     y_te = y_te[:384]
     # input and embedding for words
@@ -125,20 +125,19 @@ if __name__ == "__main__":
         emb_word = Input(shape=(max_len, bert_size))
     x = Bidirectional(LSTM(units=512, return_sequences=True,
                            recurrent_dropout=0.2, dropout=0.2))(emb_word)
-    x_rnn = Bidirectional(LSTM(units=512, return_sequences=True,
-                               recurrent_dropout=0.2, dropout=0.2))(x)
-    x = add([x, x_rnn])
-    # main LSTM
-    out = TimeDistributed(Dense(n_tags + 1, activation="softmax"))(x)
+    # out = TimeDistributed(Dense(n_tags + 1, activation="softmax"))(x)
+    x2 = TimeDistributed(Dense(256, activation="relu"))(x)
+
+    crf = CRF(n_tags + 1,sparse_target=True)  # CRF layer
+    out = crf(x2)  # output
 
     if embedding_type == "Bert":
         model = Model(emb_word, out)
     else:
         model = Model(word_in, out)
 
-    model.compile(optimizer="adam", loss="sparse_categorical_crossentropy",
-                  metrics=["categorical_accuracy"])  # #loss=custom_loss
-    # model.outputs[0]._uses_learning_phase = True
+    model.compile(optimizer="adam", loss=crf.loss_function, metrics=[crf.accuracy])
+    # adam # loss=sparse_categorical_crossentropy # metrics=['categorical_accuracy'] # #loss=custom_loss
     model.summary()
 
     checkpointer = ModelCheckpoint(filepath=path,
@@ -152,7 +151,7 @@ if __name__ == "__main__":
     y_tr = y_tr.reshape(y_tr.shape[0], y_tr.shape[1], 1)
     y_val = y_val.reshape(y_val.shape[0], y_val.shape[1], 1)
     history = model.fit(np.array(X_tr), y_tr, validation_data=(np.array(X_val), y_val), batch_size=batch_size,
-                        epochs=500,
+                        epochs=3,
                         verbose=1)
 
     y_pred = model.predict(np.array(X_word_te))
@@ -177,7 +176,7 @@ if __name__ == "__main__":
     checking = False  # To check if saving is the problem with NN
     if checking:
         print("START CHECKING")
-        from test import testEmbeddingNNWithTestKorpus
+        from test_scripts import testEmbeddingNNWithTestKorpus
         from named_enitity_recognition import embeddings
 
         sentences = testEmbeddingNNWithTestKorpus.load_data("../data/ner/datasetTestNer.csv")

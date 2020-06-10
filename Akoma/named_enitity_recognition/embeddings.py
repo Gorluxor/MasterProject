@@ -16,12 +16,12 @@ def tokenize(docs):
     return t, vocab_size
 
 
-def glove_embedding(docs, max_length):
+def glove_embedding(docs, max_length,file_path='glove.6B/glove.6B.100d.txt'):
     t, vocab_size = tokenize(docs)
     encoded_docs = t.texts_to_sequences(docs)
     padded_docs = pad_sequences(encoded_docs, maxlen=max_length, padding='post')
     embeddings_index = dict()
-    f = open('glove.6B/glove.6B.100d.txt', encoding="utf-8")
+    f = open(file_path, encoding="utf-8")
     for line in f:
         values = line.split()
         word = values[0]
@@ -65,12 +65,18 @@ def elmo_embedding(x):
         "elmo"]
 
 
-def bert_embedding(sentences, max_length):
-    if path.exists('bert/bert_embeddings.csv'):
+def bert_embedding(sentences, max_length, model='reldi'):
+    if model.lower() == "reldi":
+        path_str = 'bert/bert_embeddings.csv'
+    elif model.lower() == "hr500k":
+        path_str = 'bert/bert_embeddings.csv'
+    else:
+        exit(-100)
+    if path.exists(path_str):
         embeddings = read_from_bert_txt(max_length)
     else:
         embeddings = bert_embedding_sentence(sentences)
-        save_bert_to_txt(embeddings)
+        save_bert_to_txt(embeddings, path_str)
     return embeddings
 
 
@@ -81,8 +87,8 @@ def bert_embedding_sentence(sentences):
     return embeddings
 
 
-def save_bert_to_txt(embeddings):
-    with open("bert/bert_embeddings.csv", "w") as file:
+def save_bert_to_txt(embeddings, path_file="bert/bert_embeddings.csv"):
+    with open(path_file, "w") as file:
         for sentence in embeddings:
             for word in sentence:
                 for i in word:
