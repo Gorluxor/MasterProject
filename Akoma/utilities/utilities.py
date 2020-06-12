@@ -15,9 +15,52 @@ except ModuleNotFoundError:
         exit()
 
 
+DOC_TYPE = "NONE"
+
 def get_doc_type(text:str):
-    # TODO ACA IMPLEMENT proveru nad tekstom
-    pass
+    if "ZAKON" in text or "ЗАКОН" in text:
+        return "zakon"
+    elif "USTAV" in text or "УСТАВ" in text:
+        return "ustav"
+    elif "UKAZ" in text or "УКАЗ" in text:
+        return "ukaz"
+    elif "UREDB" in text or "УРЕДБ" in text:
+        return "uredba"
+    elif "PLAN" in text or "ПЛАН" in text:
+        return "plan"
+    elif "ODLUK" in text or "ОДЛУК" in text:
+        return "odluka"
+    elif "MEMORANDUM" in text or "МЕМОРАНДУМ" in text:
+        return "memorandum"
+    elif "REZOLUCIJ" in text or "РЕЗОЛУЦИЈ" in text:
+        return "rezolucija"
+    elif "STRATEGIJ" in text or "СТРАТЕГИЈ" in text:
+        return "strategija"
+    elif "REŠENJ" in text or "РЕШЕЊ" in text:
+        return "resenje"
+    elif "STATUT" in text or "СТАТУТ" in text:
+        return "statut"
+    elif "PRAVILNIK" in text or "ПРАВИЛНИК" in text:
+        return "pravilnik"
+    elif "PROGRAM" in text or "ПРОГРАМ" in text:
+        return "program"
+    elif "PODATAK" in text or "ПОДАТАК" in text:
+        return "podatak"
+    elif "INDEKS" in text or "ИНДЕКС" in text:
+        return "indeks"
+    elif "IZNOS" in text or "ИЗНОС" or "KOEFICIJENT" in text or "КОЕФИЦИЈЕНТ" in text:
+        return "iznos"
+    elif "NAREDBA" in text or "НАРЕДБА" in text:
+        return "naredba"
+    elif "ZAKLJUČAK" in text or "ЗАКЛЈУЧАК" in text:
+        return "zakljucak"
+    elif "IZVEŠTAJ" in text or "ИЗВЕШТАЈ" in text:
+        return "izvestaj"
+    elif "Kodeks" in text or "КОДЕКС" in text:
+        return "kodeks"
+    else:
+        return "zakon"
+
 
 def get_meta(filename: str, path: str = "..//data/meta/allmeta.csv"):
     """

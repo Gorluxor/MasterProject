@@ -18,6 +18,7 @@ try:
     from Akoma.tokenizer.BasicTokenizer import BasicTokenizer
     from Akoma.named_enitity_recognition.ner import do_ner_on_sentences, do_spacy_ner, fix_dates
     from Akoma.convertToLatin.Convert import convert
+    from Akoma.utilities.utilities import DOC_TYPE
 except ModuleNotFoundError as sureError:
     try:
         from utilities import ETree, utilities
@@ -33,6 +34,7 @@ except ModuleNotFoundError as sureError:
         from named_enitity_recognition.references import add_refs
         from named_enitity_recognition.ner import do_ner_on_sentences, do_spacy_ner, fix_dates
         from convertToLatin.Convert import convert
+        from utilities.utilities import DOC_TYPE
     except ModuleNotFoundError as newError:
         if not sureError.name.__eq__("Akoma") or not newError.name.__eq__("Akoma"):
             print(newError)
@@ -41,7 +43,7 @@ except ModuleNotFoundError as sureError:
 
 sys.setrecursionlimit(10000000)
 ner_list = []
-DOC_TYPE = "ZAKON"
+#
 
 def send_to_NER(stablo):
     global ner_list

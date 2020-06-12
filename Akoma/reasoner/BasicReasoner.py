@@ -5,13 +5,15 @@ try:
     # from Akoma.tokenizer import patterns
     from Akoma.named_enitity_recognition.ner import do_ner_on_sentences
     from Akoma.convertToLatin.Convert import convert
+    from Akoma.utilities.utilities import DOC_TYPE
 except ModuleNotFoundError:
     try:
         # from tokenizer import patterns
         from tokenizer.TokenType import TokenType
         from named_enitity_recognition.ner import do_ner_on_sentences
         from convertToLatin.Convert import convert
-        from convert_all import DOC_TYPE
+        from utilities.utilities import DOC_TYPE
+        from utilities.utilities import get_doc_type
     except ModuleNotFoundError as e:
         print(e)
         print("Error")
@@ -68,10 +70,13 @@ class BasicReasoner():
             #     print(ner)
             if body is False and self.current_token.type <= TokenType.CLAN:
                 body = True
+                DOC_TYPE = get_doc_type("".join([s.value for s in self.preface]))
+                print(DOC_TYPE)
                 self.akomabuilder.build_preface(self.preface)
+
                 #TODO ACA pozvati utilities.get_doc_type koji vraca za sve ZAKON
                 #TODO postaviti DOC_TYPE
-                DOC_TYPE = "ACA"
+
             else:
                 self.preface.append(self.current_token)
             if body:
