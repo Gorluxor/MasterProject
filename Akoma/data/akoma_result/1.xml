@@ -4,18 +4,21 @@
 		<meta>
 			<identification source="#somebody">
 				<FRBRWork>
-					<FRBRthis value="akn/rs/act/2009/36-3/main"/>
-					<FRBRuri value="akn/rs/act/2009/36-3"/>
+					<FRBRthis value="akn/rs/act/zakon/narodna_skupština/2009-05-11/2009-05-nn/!main"/>
+					<FRBRuri value="akn/rs/act/zakon/narodna_skupština/2009-05-11/2009-05-nn"/>
 					<FRBRdate date="2009-01-01" name="Generation"/>
 					<FRBRauthor as="#author" href="#somebody"/>
-					<FRBRcountry value="rs"/>
+					<FRBRcountry refersTo="http://dbpedia.org/page/Serbia" value="rs"/>
+					<FRBRsubtype refersTo="ontology.link.subtype.individua" showAs="05" value="05"/>
+					<FRBRnumber value="2009-05-nn"/>
+					<FRBRname value="Закон о изгледу и употреби грба, заставе и химне Републике Србије: 36/2009-3"/>
 				</FRBRWork>
 				<FRBRExpression>
-					<FRBRthis value="akn/rs/act/2009/36-3/srp@/main"/>
-					<FRBRuri value="akn/rs/act/2009/36-3/srp@"/>
+					<FRBRthis value="akn/rs/act/zakon/narodna_skupština/2009-05-11/2009-05-nn/srp@/!main"/>
+					<FRBRuri value="akn/rs/act/zakon/narodna_skupština/2009-05-11/2009-05-nn/srp@"/>
 					<FRBRdate date="2009-01-01" name="Generation"/>
 					<FRBRauthor as="#editor" href="#somebody"/>
-					<FRBRlanguage language="srp"/>
+					<FRBRlanguage language="srp" wId="http://dbpedia.org/page/Serbian_language"/>
 				</FRBRExpression>
 				<FRBRManifestation>
 					<FRBRthis value="akn/rs/act/2009/36-3/srp@/main.xml"/>
@@ -104,7 +107,7 @@
 		</meta>
 		<preface>
 			<longTitle>
-				<p>Закон О изгледу и употреби грба, заставе и химне републике србије “Службени гласник РС”, број <ref wId="ref14" href="akn/rs/act/2009/36/srp@">36 од 15. маја 2009</ref>.</p>
+				<p>Закон О изгледу и употреби грба, заставе и химне републике србије “Службени гласник РС”, број <ref wId="ref14" href=" akn/rs/act/zakon/narodna_skupština/2009-05-11/2009-05-nn/srp@  ">36 од 15. маја 2009</ref>.</p>
 			</longTitle>
 		</preface>
 		<body>
@@ -964,7 +967,7 @@
 					</paragraph>
 					<paragraph wId="gla4-clan37-stav3">
 						<content>
-							<p>Изузетно, могу се изводити само прве две строфе химне Републике Србије, у складу са прописом Владе из <ref wId="ref0" href="akn/rs/act/2009/36-3/srp@/!main~art_39" >члана 39. овог</ref> закона.</p>
+							<p>Изузетно, могу се изводити само прве две строфе химне Републике Србије, у складу са прописом Владе из <ref wId="ref0" href="akn/rs/act/zakon/narodna_skupština/2009-05-11/2009-05-nn/srp@/!main~art_39" >члана 39. овог</ref> закона.</p>
 						</content>
 					</paragraph>
 				</article>
@@ -1041,25 +1044,25 @@
 						<point wId="gla6-clan41-stav1-tac1">
 							<num>1)</num>
 							<content>
-								<p> ако употреби заставу, химну или грб Републике Србије у облику или са садржином или мелодијом који нису утврђени Уставом Републике Србије или законом (<ref wId="ref1" href="akn/rs/act/2009/36-3/srp@/!main~art_2__para_2" >члан 2. став 2. овог</ref> закона);</p>
+								<p> ако употреби заставу, химну или грб Републике Србије у облику или са садржином или мелодијом који нису утврђени Уставом Републике Србије или законом (<ref wId="ref1" href="akn/rs/act/zakon/narodna_skupština/2009-05-11/2009-05-nn/srp@/!main~art_2__para_2" >члан 2. став 2. овог</ref> закона);</p>
 							</content>
 						</point>
 						<point wId="gla6-clan41-stav1-tac2">
 							<num>2)</num>
 							<content>
-								<p> ако заставу или грб Републике Србије употреби као робни или услужни жиг, узорак, модел или било који други знак за обележавање робе или услуга (<ref wId="ref2" href="akn/rs/act/2009/36-3/srp@/!main~art_5" >члан 5. овог</ref> закона);</p>
+								<p> ако заставу или грб Републике Србије употреби као робни или услужни жиг, узорак, модел или било који други знак за обележавање робе или услуга (<ref wId="ref2" href="akn/rs/act/zakon/narodna_skupština/2009-05-11/2009-05-nn/srp@/!main~art_5" >члан 5. овог</ref> закона);</p>
 							</content>
 						</point>
 						<point wId="gla6-clan41-stav1-tac3">
 							<num>3)</num>
 							<content>
-								<p> ако истакне грб или заставу стране државе у Републици Србији без истицања грба, односно заставе Републике Србије, осим ако потврђеним међународним уговором није друкчије одређено (<ref wId="ref3" href="akn/rs/act/2009/36-3/srp@/!main~art_8" >члан 8. овог</ref> закона).</p>
+								<p> ако истакне грб или заставу стране државе у Републици Србији без истицања грба, односно заставе Републике Србије, осим ако потврђеним међународним уговором није друкчије одређено (<ref wId="ref3" href="akn/rs/act/zakon/narodna_skupština/2009-05-11/2009-05-nn/srp@/!main~art_8" >члан 8. овог</ref> закона).</p>
 							</content>
 						</point>
 					</paragraph>
 					<paragraph wId="gla6-clan41-stav2">
 						<content>
-							<p>За радњу из <ref wId="ref4" href="akn/rs/act/2009/36-3/srp@/!main~art_41__para_1" >става 1. овог</ref> члана казниће се за прекршај и одговорно лице у правном лицу новчаном казном од 5.000 до 25.000 динара.</p>
+							<p>За радњу из <ref wId="ref4" href="akn/rs/act/zakon/narodna_skupština/2009-05-11/2009-05-nn/srp@/!main~art_41__para_1" >става 1. овог</ref> члана казниће се за прекршај и одговорно лице у правном лицу новчаном казном од 5.000 до 25.000 динара.</p>
 						</content>
 					</paragraph>
 				</article>
@@ -1067,17 +1070,17 @@
 					<num>42.</num>
 					<paragraph wId="gla6-clan42-stav1">
 						<content>
-							<p>Новчаном казном од 40.000 до 400.000 динара казниће се за прекршај правно лице ако истакне заставу или грб Републике Србије који су оштећени или неподобни за употребу (<ref wId="ref5" href="akn/rs/act/2009/36-3/srp@/!main~art_6" >члан 6. овог</ref> закона).</p>
+							<p>Новчаном казном од 40.000 до 400.000 динара казниће се за прекршај правно лице ако истакне заставу или грб Републике Србије који су оштећени или неподобни за употребу (<ref wId="ref5" href="akn/rs/act/zakon/narodna_skupština/2009-05-11/2009-05-nn/srp@/!main~art_6" >члан 6. овог</ref> закона).</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla6-clan42-stav2">
 						<content>
-							<p>За радњу из <ref wId="ref6" href="akn/rs/act/2009/36-3/srp@/!main~art_42__para_1" >става 1. овог</ref> члана казниће се за прекршај и одговорно лице у правном лицу новчаном казном од 5.000 до 20.000 динара.</p>
+							<p>За радњу из <ref wId="ref6" href="akn/rs/act/zakon/narodna_skupština/2009-05-11/2009-05-nn/srp@/!main~art_42__para_1" >става 1. овог</ref> члана казниће се за прекршај и одговорно лице у правном лицу новчаном казном од 5.000 до 20.000 динара.</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla6-clan42-stav3">
 						<content>
-							<p>Новчаном казном од 5.000 до 20.000 динара казниће се за прекршај физичко лице ако истакне заставу или грб Републике Србије који су оштећени или неподобни за употребу (<ref wId="ref7" href="akn/rs/act/2009/36-3/srp@/!main~art_6" >члан 6. овог</ref> закона).</p>
+							<p>Новчаном казном од 5.000 до 20.000 динара казниће се за прекршај физичко лице ако истакне заставу или грб Републике Србије који су оштећени или неподобни за употребу (<ref wId="ref7" href="akn/rs/act/zakon/narodna_skupština/2009-05-11/2009-05-nn/srp@/!main~art_6" >члан 6. овог</ref> закона).</p>
 						</content>
 					</paragraph>
 				</article>
@@ -1086,7 +1089,7 @@
 					<heading>Заштитна мера</heading>
 					<paragraph wId="gla6-clan43-stav1">
 						<content>
-							<p>Учиниоцима прекршаја из чл. <ref wId="ref8" href="akn/rs/act/2009/36-3/srp@/!main~art_41" >41</ref>. и <ref wId="ref9" href="akn/rs/act/2009/36-3/srp@/!main~art_42" >42</ref>. овог закона може се уз казну изрећи заштитна мера одузимања предмета којима је извршен прекршај.</p>
+							<p>Учиниоцима прекршаја из чл. <ref wId="ref8" href="akn/rs/act/zakon/narodna_skupština/2009-05-11/2009-05-nn/srp@/!main~art_41" >41</ref>. и <ref wId="ref9" href="akn/rs/act/zakon/narodna_skupština/2009-05-11/2009-05-nn/srp@/!main~art_42" >42</ref>. овог закона може се уз казну изрећи заштитна мера одузимања предмета којима је извршен прекршај.</p>
 						</content>
 					</paragraph>
 				</article>
@@ -1099,7 +1102,7 @@
 					<heading>Доношење подзаконских прописа</heading>
 					<paragraph wId="gla7-clan44-stav1">
 						<content>
-							<p>Влада и надлежни министри из <ref wId="ref10" href="akn/rs/act/2009/36-3/srp@/!main~art_40" >члана 40. овог</ref> закона донеће подзаконске акте за спровођење овог закона у року од 90 дана од дана његовог ступања на снагу.</p>
+							<p>Влада и надлежни министри из <ref wId="ref10" href="akn/rs/act/zakon/narodna_skupština/2009-05-11/2009-05-nn/srp@/!main~art_40" >члана 40. овог</ref> закона донеће подзаконске акте за спровођење овог закона у року од 90 дана од дана његовог ступања на снагу.</p>
 						</content>
 					</paragraph>
 				</article>
@@ -1113,13 +1116,13 @@
 						<point wId="gla7-clan45-stav1-tac1">
 							<num>1)</num>
 							<content>
-								<p> Закон о употреби заставе, химне и грба Савезне Републике Југославије („Службени лист СРЈ”, бр. <ref wId="ref11" href="akn/rs/act/93/66/srp@">66/93</ref> и <ref wId="ref12" href="akn/rs/act/94/24/srp@">24/94</ref>);</p>
+								<p> Закон о употреби заставе, химне и грба Савезне Републике Југославије („Службени лист СРЈ”, бр. <ref wId="ref11" href="akn/rs/act/zakon/narodna_skupština/2009-05-11/2009-05-nn/srp@ ">66/93</ref> и <ref wId="ref12" href="akn/rs/act/zakon/narodna_skupština/2009-05-11/2009-05-nn/srp@ ">24/94</ref>);</p>
 							</content>
 						</point>
 						<point wId="gla7-clan45-stav1-tac2">
 							<num>2)</num>
 							<content>
-								<p> Закон о употреби грба Социјалистичке Републике Србије („Службени гласник СРС”, број <ref wId="ref13" href="akn/rs/act/85/6/srp@">6/85</ref>).</p>
+								<p> Закон о употреби грба Социјалистичке Републике Србије („Службени гласник СРС”, број <ref wId="ref13" href="akn/rs/act/zakon/narodna_skupština/2009-05-11/2009-05-nn/srp@ ">6/85</ref>).</p>
 							</content>
 						</point>
 					</paragraph>

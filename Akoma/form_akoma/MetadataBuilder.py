@@ -94,6 +94,9 @@ class MetadataBuilder():
         self.expressionuri = ""
         self.uri_expression = ""
         self.uri_work = ""
+        self.uri_manifestation = ""
+        self.number = ""
+        self.meta = None
 
     def identification(self, metadata):
         base = ET.Element("identification", {"source": SOURCE})
@@ -104,37 +107,41 @@ class MetadataBuilder():
             self.frbrmanifestation(metadata["manifest"]["date"], metadata["manifest"]["version"], metadata["editor"]))
         return base
 
-    def frbrwork(self, date, version, author):
+    def frbrwork(self, date, version, author, country="Serbia"):
         base = ET.Element("FRBRWork")
-        base.append(ET.Element("FRBRthis", {"value": "akn/rs/act/" + date + "/" + version + "/main"}))
-        base.append(ET.Element("FRBRuri", {"value": "akn/rs/act/" + date + "/" + version}))
+        base.append(ET.Element("FRBRthis", {"value": self.uri_work + "/!main"}))
+        base.append(ET.Element("FRBRuri", {"value": self.uri_work}))
         base.append(ET.Element("FRBRdate", {"date": fix_date(date), "name": "Generation"}))
         base.append(ET.Element("FRBRauthor", {"href": "#" + author, "as": "#author"}))
-        base.append(ET.Element("FRBRcountry", {"value": "rs"}))
+
+        base.append(ET.Element("FRBRcountry", {"value": "rs", "refersTo": "http://dbpedia.org/page/" + country}))
+        base.append(ET.Element("FRBRsubtype",
+                               {"value": self.uri_work.split("-")[3], "refersTo": "ontology.link.subtype.individua",
+                                "showAs": self.uri_work.split("-")[3]}))
+        base.append(ET.Element("FRBRnumber", {"value": self.number}))
+        base.append(ET.Element("FRBRname", {"value": self.meta.act_name}))
+
         return base
 
-    def frbrexpression(self, date, version, editor):
+    def frbrexpression(self, date, version, editor, lang="Serbian"):
         base = ET.Element("FRBRExpression")
 
-        base.append(ET.Element("FRBRthis", {"value": "akn/rs/act/" + date + "/" + version + "/srp@/main"}))
-        base.append(ET.Element("FRBRuri", {"value": "akn/rs/act/" + date + "/" + version + "/srp@"}))
-        self.expressionuri = "akn/rs/act/" + date + "/" + version + "/srp@"
+        base.append(ET.Element("FRBRthis", {"value": self.uri_expression + "/!main"}))
+        base.append(ET.Element("FRBRuri", {"value": self.uri_expression}))
         base.append(ET.Element("FRBRdate", {"date": fix_date(date), "name": "Generation"}))
         base.append(ET.Element("FRBRauthor", {"href": "#" + editor, "as": "#editor"}))
-        base.append(ET.Element("FRBRlanguage", {"language": "srp"}))
-
+        base.append(ET.Element("FRBRlanguage",
+                               {"language": "srp", "wId": "http://dbpedia.org/page/" + lang + "_language"}))
+        self.expressionuri = "akn/rs/act/" + date + "/" + version + "/srp@"
         return base
 
     def frbrmanifestation(self, date, version, editor):
         base = ET.Element("FRBRManifestation")
-
-        base.append(ET.Element("FRBRthis", {"value": "akn/rs/act/" + date + "/" + version + "/srp@/main.xml"}))
-        base.append(ET.Element("FRBRuri", {"value": "akn/rs/act/" + date + "/" + version + "/srp@.akn"}))
-
+        base.append(ET.Element("FRBRthis", {"value": self.uri_manifestation + "/!main"}))
+        base.append(ET.Element("FRBRuri", {"value": self.uri_manifestation}))
         base.append(ET.Element("FRBRdate", {"date": fix_date(date), "name": "Generation"}))
-        base.append(ET.Element("FRBRauthor", {"href": "#" + editor, "as": "#editor"}))
+        base.append(ET.Element("FRBRauthor", {"href": "#lexpert_student_project" + editor, "as": "#editor"}))
         base.append(ET.Element("FRBRformat", {"value": "xml"}))
-
         return base
 
     def publication(self, publication):
@@ -223,26 +230,42 @@ class MetadataBuilder():
             base.append(newk)
         return base
 
-    def change_subtype_url(self, subtype):
-        temp = self.uri_expression.split("/")
-        temp[3] = subtype
+    def change_element_by_id(self, uri, i, value):
+        temp = uri.split("/")
+        temp[i] = value
         temp = "/".join(temp)
-        self.uri_expression = temp
-        work = self.uri_work.split("/")
-        work[3] = subtype
-        work = "/".join(work)
-        self.uri_work = work
+        return temp
 
-    def make_urls(self, meta, country_code="rs", lang_code="srp", subtype="zakon", type_act="act"):
+    def change_subtype_url(self, subtype):
+        if len(subtype) < 3:
+            return
+        subtype_id = 3
+        self.uri_expression = self.change_element_by_id(self.uri_expression, subtype_id, subtype)
+        self.uri_work = self.change_element_by_id(self.uri_work, subtype_id, subtype)
+        self.uri_manifestation = self.change_element_by_id(self.uri_manifestation, subtype_id, subtype)
+
+    def make_urls(self, meta, country_code="rs", lang_code="srp", subtype=None, type_act="act", doc_type="xml"):
         number_act = "nn"  # TODO ANDRIJA get broj akta iz PDF
         if hasattr(meta, 'datum_usvajanja'):
             version = meta.datum_usvajanja[:meta.datum_usvajanja.rfind('-') + 1] + number_act
         else:
             exit("No meta info to make url, need: [datum usvajanja]")
-        self.uri_work = "akn/" + country_code + "/" + type_act + "/" + subtype + "/" + Convert.convert_string(
-            meta.donosilac).replace(" ", "_").lower() + "/" + meta.datum_usvajanja + "/" + version
-        self.uri_expression = self.uri_work + "/" + lang_code + "@"
+        if subtype is None:
+            try:
+                subtype = Convert.convert_string(meta.vrsta_propisa).lower()
+            except:
+                subtype = "zakon"  # WIll be changed later anywas
+        if meta.verzija_na_snagu_od is not None:
+            current_version = meta.verzija_na_snagu_od
+        else:
+            current_version = meta.datum_usvajanja
 
+        date_got = fix_date(meta.datum_usvajanja)
+        self.uri_work = "akn/" + country_code + "/" + type_act + "/" + subtype + "/" + Convert.convert_string(
+            meta.donosilac).replace(" ", "_").lower() + "/" + date_got + "/" + version
+        self.uri_expression = self.uri_work + "/" + lang_code + "@" + current_version
+        self.number = version
+        self.uri_manifestation = self.uri_expression + "/!main." + doc_type
 
     def build(self, filename, akomaroot, skip_tfidf=False, country_code="rs", lang_code="srp"):
         meta = list(akomaroot)[0].find(PREFIX + "meta")
@@ -260,6 +283,7 @@ class MetadataBuilder():
             print(filename)
             print("Fajl nije pronadjen u metadata.csv")
             return
+        self.meta = metainfo
         self.make_urls(metainfo, country_code, lang_code)
         try:
             _ = metainfo.work

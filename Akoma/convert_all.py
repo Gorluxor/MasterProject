@@ -134,7 +134,7 @@ def apply_akn_tags(text: str, meta_name: str, skip_tfidf_ner=False, ner="crf"):
             reasoner = OdlukaReasoner(HTMLTokenizer(html_root), builder)
         else:
             reasoner = OdlukaReasoner(BasicTokenizer(text), builder)
-        reasoner.start()
+        reasoner.start(metabuilder)
 
     result_str = builder.result_str().replace("&lt;", "~vece;").replace("&gt;", "~manje;").replace("&quot;", "~navod;")
     if not skip_tfidf_ner:
@@ -206,6 +206,8 @@ if __name__ == "__main__":
             continue
         if fajl in stani:
             continue
+        # if fajl != "8.html":
+        #     continue
         print(fajl)
         # try:
         convert_html(location_source + '/' + fajl, 'data/akoma_result/' + fajl[:-5] + ".xml", skip_tfidf_ner=False,
