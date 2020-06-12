@@ -15,6 +15,10 @@ except ModuleNotFoundError:
         exit()
 
 
+def get_doc_type(text:str):
+    # TODO ACA IMPLEMENT proveru nad tekstom
+    pass
+
 def get_meta(filename: str, path: str = "..//data/meta/allmeta.csv"):
     """
 

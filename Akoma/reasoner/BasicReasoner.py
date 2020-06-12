@@ -11,7 +11,7 @@ except ModuleNotFoundError:
         from tokenizer.TokenType import TokenType
         from named_enitity_recognition.ner import do_ner_on_sentences
         from convertToLatin.Convert import convert
-
+        from convert_all import DOC_TYPE
     except ModuleNotFoundError as e:
         print(e)
         print("Error")
@@ -48,6 +48,7 @@ class BasicReasoner():
             return identification
 
     def start(self):
+        global DOC_TYPE
         body = False
         self.preface = []
 
@@ -68,6 +69,9 @@ class BasicReasoner():
             if body is False and self.current_token.type <= TokenType.CLAN:
                 body = True
                 self.akomabuilder.build_preface(self.preface)
+                #TODO ACA pozvati utilities.get_doc_type koji vraca za sve ZAKON
+                #TODO postaviti DOC_TYPE
+                DOC_TYPE = "ACA"
             else:
                 self.preface.append(self.current_token)
             if body:

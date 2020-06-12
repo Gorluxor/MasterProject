@@ -241,25 +241,39 @@ def load_model_by_type(emb_type, max_len=75):
     return model
 
 
-def test_model(model):
+def test_model(model, emb_type='bert', max_len=75, fast=False):
     # TODO finish
-    if embedding_type.lower() == 'bert':
-        sentences = load_data("../data/ner/datasetTestNer.csv")
-        list_words, list_vals = bert_prepare_sentences(sentences)
-        embedded = embeddings.bert_embedding_sentence(list_words)
-        embedded = padding_adv(embedded)
-        got = model.predict(embedded)
-        labels = bert_get_tag(got, list_words, list_vals)
-        list_kategories = accuracy_recall(labels)
-        results = avg_metrics_from_kategories(list_kategories)
-        avg_metrics_from_kategories(list_kategories, with_other=True)
-    elif embedding_type.lower() == 'elmo':
-        print("A")
-    elif embedding_type.lower() == 'glove':
+    idx2tag = bert_load_index2tag('../data/ner/bert_idx2tag.csv')
+    if emb_type.lower() == 'bert':
+        print("START CHECKING")
+        new_sentences = load_data("../data/ner/datasetTestNer.csv")
+        if fast is True:
+            new_sentences = new_sentences[:30]
+        new_list_words, new_list_vals = bert_prepare_sentences(new_sentences)
+        print("START EMBEDDING")
+        words_embedded = embeddings.bert_embedding_sentence(list_words)
+        words_embedded = padding_adv(words_embedded)
+        print("START PREDICITING")
+        got = model.predict(words_embedded)
+        print("Done Predicting")
+        list_labels = bert_get_tag(got, new_list_words, new_list_vals, idx2tag)
+        got_list_kategories = accuracy_recall(list_labels)
+        avg_metrics_from_kategories(got_list_kategories)
+        avg_metrics_from_kategories(got_list_kategories, with_other=True)
+    elif emb_type.lower() == 'elmo':
+        print("TODO")
+    elif emb_type.lower() == 'glove':
         sentences, docs = load_data("../data/ner/datasetTestNer.csv", docs=True)
-        model.predict(docs)
+        _, padded_docs, _ = glove_embedding(docs, max_len, "../named_enitity_recognition/glove.6B/glove.6B.100d.txt")
+        got = model.predict(padded_docs)
+        list_labels = bert_get_tag(got, new_list_words, new_list_vals, idx2tag)
+        got_list_kategories = accuracy_recall(list_labels)
+        avg_metrics_from_kategories(got_list_kategories)
+        avg_metrics_from_kategories(got_list_kategories, with_other=True)
         print("A")
 
+
+test_model(None, 'glove')
 
 if __name__ == "__main__":
     embedding_type = "Bert"  # Elmo Bert Glove

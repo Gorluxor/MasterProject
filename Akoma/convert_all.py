@@ -41,7 +41,7 @@ except ModuleNotFoundError as sureError:
 
 sys.setrecursionlimit(10000000)
 ner_list = []
-
+DOC_TYPE = "ZAKON"
 
 def send_to_NER(stablo):
     global ner_list
@@ -146,6 +146,7 @@ def apply_akn_tags(text: str, meta_name: str, skip_tfidf_ner=False, ner="crf"):
         elif ner == "reldi":
             map_ret = {}
             print("Waiting for access to reldi NER from devs, TODO for future")
+            exit(-1)
         if ner == "crf" or ner == "spacy" or ner == "spacy_default" or ner == "reldi":
             fix_dates(map_ret)
             events = utilities.regex_events(regex_patterns.strip_html_tags(text))
