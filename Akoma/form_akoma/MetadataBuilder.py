@@ -12,6 +12,7 @@ except ModuleNotFoundError:
         from form_akoma.Metadata import Metadata
         from preprocessing import init_akoma
         from tfidf.tfidf import get_tf_idf_values_document, get_tf_idf_values_from_text
+        from convertToLatin import Convert
     except ModuleNotFoundError:
         print("Error")
         exit(-1)
@@ -22,7 +23,7 @@ SOURCE = "#somebody"  # "#pravno-informacioni-sistem"
 ADDED_DATE = "-01-01"
 
 
-def valid_date(date,reduce=0):
+def valid_date(date, reduce=0):
     import datetime
     day, month, year = date.split('-')
     is_valid_date = True
@@ -55,14 +56,14 @@ def extra_fix(check):
         dd = 1
     elif dd > max1:
         dd = max1
-    ret = str(yy)+"-"+str(mm)+"-"+str(dd)
+    ret = str(yy) + "-" + str(mm) + "-" + str(dd)
     return fix_date(ret, False)
 
 
-def fix_date(before,use_extra=True):
+def fix_date(before, use_extra=True):
     a = before.split("-")
     if len(a) == 1:
-        return before.replace(".","") + ADDED_DATE;
+        return before.replace(".", "") + ADDED_DATE;
     for i in range(0, len(a)):
         if len(a[i]) < 2:
             a[i] = "0" + a[i]
@@ -91,6 +92,8 @@ class MetadataBuilder():
     def __init__(self, csv_file):
         self.csv = io.open(csv_file, mode="r", encoding="utf-8")
         self.expressionuri = ""
+        self.uri_expression = ""
+        self.uri_work = ""
 
     def identification(self, metadata):
         base = ET.Element("identification", {"source": SOURCE})
@@ -220,8 +223,28 @@ class MetadataBuilder():
             base.append(newk)
         return base
 
-    # SUMA = []
-    def build(self, filename, akomaroot, skip_tfidf=False):
+    def change_subtype_url(self, subtype):
+        temp = self.uri_expression.split("/")
+        temp[3] = subtype
+        temp = "/".join(temp)
+        self.uri_expression = temp
+        work = self.uri_work.split("/")
+        work[3] = subtype
+        work = "/".join(work)
+        self.uri_work = work
+
+    def make_urls(self, meta, country_code="rs", lang_code="srp", subtype="zakon", type_act="act"):
+        number_act = "nn"  # TODO ANDRIJA get broj akta iz PDF
+        if hasattr(meta, 'datum_usvajanja'):
+            version = meta.datum_usvajanja[:meta.datum_usvajanja.rfind('-') + 1] + number_act
+        else:
+            exit("No meta info to make url, need: [datum usvajanja]")
+        self.uri_work = "akn/" + country_code + "/" + type_act + "/" + subtype + "/" + Convert.convert_string(
+            meta.donosilac).replace(" ", "_").lower() + "/" + meta.datum_usvajanja + "/" + version
+        self.uri_expression = self.uri_work + "/" + lang_code + "@"
+
+
+    def build(self, filename, akomaroot, skip_tfidf=False, country_code="rs", lang_code="srp"):
         meta = list(akomaroot)[0].find(PREFIX + "meta")
         if meta is None:
             meta = list(akomaroot)[0].find("meta")
@@ -237,6 +260,7 @@ class MetadataBuilder():
             print(filename)
             print("Fajl nije pronadjen u metadata.csv")
             return
+        self.make_urls(metainfo, country_code, lang_code)
         try:
             _ = metainfo.work
             has_work = True

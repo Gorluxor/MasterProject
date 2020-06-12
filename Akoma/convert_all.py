@@ -122,7 +122,7 @@ def apply_akn_tags(text: str, meta_name: str, skip_tfidf_ner=False, ner="crf"):
         reasoner = BasicReasoner(HTMLTokenizer(html_root), builder)
     else:
         reasoner = BasicReasoner(BasicTokenizer(text), builder)
-    reasoner.start()
+    reasoner.start(metabuilder)
 
     if reasoner.current_hierarchy[4] == 0:
         akoma_root = init_akoma.init_xml("act")
@@ -157,7 +157,7 @@ def apply_akn_tags(text: str, meta_name: str, skip_tfidf_ner=False, ner="crf"):
         ner_list.clear()
 
     try:
-        result_stablo = add_refs(akoma_root, result_str, metabuilder.expressionuri)
+        result_stablo = add_refs(akoma_root, result_str, metabuilder.uri_expression)
     except Exception as e:
         file_ref_exeption = open(utilities.get_root_dir() + "/data/" + "za_ninu.txt", mode="a+")
         file_ref_exeption.write(meta_name + ":" + str(e) + "\n")

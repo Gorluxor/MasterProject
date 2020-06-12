@@ -1,5 +1,3 @@
-
-
 try:
     from Akoma.tokenizer.TokenType import TokenType
     # from Akoma.tokenizer import patterns
@@ -49,7 +47,7 @@ class BasicReasoner():
             self.processed.append(identification)
             return identification
 
-    def start(self):
+    def start(self, meta):
         global DOC_TYPE
         body = False
         self.preface = []
@@ -71,11 +69,9 @@ class BasicReasoner():
             if body is False and self.current_token.type <= TokenType.CLAN:
                 body = True
                 DOC_TYPE = get_doc_type("".join([s.value for s in self.preface]))
-                print(DOC_TYPE)
+                if meta is not None:
+                    meta.change_subtype_url(DOC_TYPE)
                 self.akomabuilder.build_preface(self.preface)
-
-                #TODO ACA pozvati utilities.get_doc_type koji vraca za sve ZAKON
-                #TODO postaviti DOC_TYPE
 
             else:
                 self.preface.append(self.current_token)
@@ -101,7 +97,7 @@ class BasicReasoner():
         if self.current_token in self.preface[1::-1]:
             self.stop = True
         if self.current_token.value is not None:
-            if len(self.preface)>0:
+            if len(self.preface) > 0:
                 if self.current_token.value == self.preface[0].value:
                     raise NameError("Preface repeating itself")
         if self.current_token.type == TokenType.DEO and self.current_token.value is None:
@@ -112,7 +108,10 @@ class BasicReasoner():
             self.add_odeljak()
         elif self.current_token.type == TokenType.GLAVA and self.current_token.value is None:
             self.deo_glava_find_title()
-        elif self.current_token.type == TokenType.STAV and self.current_token.value[-1:] != "." and self.current_token.value[-1:] != ":" and self.current_token.value[-1:] != ",":
+        elif self.current_token.type == TokenType.STAV and self.current_token.value[
+                                                           -1:] != "." and self.current_token.value[
+                                                                           -1:] != ":" and self.current_token.value[
+                                                                                           -1:] != ",":
             self.title_find_clan()
         else:
             self.akomabuilder.add_token(self.current_token, self.sanity(self.get_identification(self.current_token)))
@@ -159,9 +158,9 @@ class BasicReasoner():
             if self.current_token is None or self.stop:
                 break
             elif self.current_token.type == TokenType.ODELJAK:
-                #if self.current_token.type == TokenType.ODELJAK:
-                    #self.current_token.type = TokenType.TACKA
-                    #self.current_token.name = "тачка"
+                # if self.current_token.type == TokenType.ODELJAK:
+                # self.current_token.type = TokenType.TACKA
+                # self.current_token.name = "тачка"
                 self.reason()
             # elif self.current_token.type <= TokenType.STAV:
             #     self.reason()
