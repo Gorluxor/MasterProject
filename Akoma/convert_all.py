@@ -43,6 +43,8 @@ except ModuleNotFoundError as sureError:
 
 sys.setrecursionlimit(10000000)
 ner_list = []
+
+
 #
 
 def send_to_NER(stablo):
@@ -66,27 +68,32 @@ def not_invalid(text):
 def add_ner_tags(map_of_values, stablo):
     # Misc values are ignored, as they don't have a representation in the FRBR ontology
     ref = ETree.get_elements(stablo, "references")[0]
+
     for key in map_of_values:
         if key == "deriv" or key == "per":
             for element in map_of_values[key]:
                 if not_invalid(element):
                     ref.append(
-                        ET.Element("TLCPerson", {"href": "http://purl.org/vocab/frbr/core#Person", "showAs": element}))
+                        ET.Element("TLCPerson", {"href": "ontology.link.person.individua",
+                                                 "showAs": element}))  # http://purl.org/vocab/frbr/core#Person"
         elif key == "loc":
             for element in map_of_values[key]:
                 if not_invalid(element):
                     ref.append(
-                        ET.Element("TLCLocation", {"href": "http://purl.org/vocab/frbr/core#Place", "showAs": element}))
+                        ET.Element("TLCLocation", {"href": "ontology.link.person.individua",
+                                                   "showAs": element}))  # "http://purl.org/vocab/frbr/core#Place"
         elif key == "org":
             for element in map_of_values[key]:
                 if not_invalid(element):
                     ref.append(ET.Element("TLCOrganization",
-                                          {"href": "http://purl.org/vocab/frbr/core#CorporateBody", "showAs": element}))
+                                          {"href": "ontology.link.person.individua",
+                                           "showAs": element}))  # "http://purl.org/vocab/frbr/core#CorporateBody"
         elif key == "date":
             for element in map_of_values[key]:
                 if not_invalid(element):
                     ref.append(
-                        ET.Element("TLCEvent", {"href": "http://purl.org/vocab/frbr/core#Event", "showAs": element}))
+                        ET.Element("TLCEvent", {"href": "ontology.link.person.individua",
+                                                "showAs": element}))  # "http://purl.org/vocab/frbr/core#Event"
 
 
 def apply_akn_tags(text: str, meta_name: str, skip_tfidf_ner=False, ner="crf"):

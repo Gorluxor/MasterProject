@@ -14,10 +14,10 @@ except ModuleNotFoundError:
         print("Error")
         exit()
 
-
 DOC_TYPE = "NONE"
 
-def get_doc_type(text:str):
+
+def get_doc_type(text: str):
     if "ZAKON" in text or "ЗАКОН" in text:
         return "zakon"
     elif "USTAV" in text or "УСТАВ" in text:
@@ -60,6 +60,15 @@ def get_doc_type(text:str):
         return "kodeks"
     else:
         return "zakon"
+
+
+def swap_date(date):
+    got = date.split(".")
+    if len(got) == 3:
+        ret = got[2] + "." + got[1] + "." + got[0]
+    else:
+        return None
+    return ret
 
 
 def get_meta(filename: str, path: str = "..//data/meta/allmeta.csv"):

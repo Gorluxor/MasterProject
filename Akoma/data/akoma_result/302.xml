@@ -4,32 +4,35 @@
 		<meta>
 			<identification source="#somebody">
 				<FRBRWork>
-					<FRBRthis value="akn/rs/act/2006/34-26/main"/>
-					<FRBRuri value="akn/rs/act/2006/34-26"/>
+					<FRBRthis value="akn/rs/act/zakon/skupština_(arhivska)/2006-04-17/2006-04-nn/!main"/>
+					<FRBRuri value="akn/rs/act/zakon/skupština_(arhivska)/2006-04-17/2006-04-nn"/>
 					<FRBRdate date="2006-01-01" name="Generation"/>
 					<FRBRauthor as="#author" href="#somebody"/>
-					<FRBRcountry value="rs"/>
+					<FRBRcountry refersTo="http://dbpedia.org/page/Serbia" value="rs"/>
+					<FRBRsubtype refersTo="ontology.link.subtype.individua" showAs="04" value="04"/>
+					<FRBRnumber value="2006-04-nn"/>
+					<FRBRname value="Закон о давању контрагаранције Републике Србије Србији и Црној Гори по кредиту Међународног удружења за развој (Пројекат консолидације наплате и реформе пензијске админитрације у Србији): 34/2006-26"/>
 				</FRBRWork>
 				<FRBRExpression>
-					<FRBRthis value="akn/rs/act/2006/34-26/srp@/main"/>
-					<FRBRuri value="akn/rs/act/2006/34-26/srp@"/>
+					<FRBRthis value="akn/rs/act/zakon/skupština_(arhivska)/2006-04-17/2006-04-nn/srp@2006-04-17/!main"/>
+					<FRBRuri value="akn/rs/act/zakon/skupština_(arhivska)/2006-04-17/2006-04-nn/srp@2006-04-17"/>
 					<FRBRdate date="2006-01-01" name="Generation"/>
 					<FRBRauthor as="#editor" href="#somebody"/>
-					<FRBRlanguage language="srp"/>
+					<FRBRlanguage language="srp" wId="http://dbpedia.org/page/Serbian_language"/>
 				</FRBRExpression>
 				<FRBRManifestation>
-					<FRBRthis value="akn/rs/act/2006/34-26/srp@/main.xml"/>
-					<FRBRuri value="akn/rs/act/2006/34-26/srp@.akn"/>
+					<FRBRthis value="akn/rs/act/zakon/skupština_(arhivska)/2006-04-17/2006-04-nn/srp@2006-04-17/!main.xml/!main"/>
+					<FRBRuri value="akn/rs/act/zakon/skupština_(arhivska)/2006-04-17/2006-04-nn/srp@2006-04-17/!main.xml"/>
 					<FRBRdate date="2006-01-01" name="Generation"/>
-					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRauthor as="#editor" href="#lexpert_student_project"/>
 					<FRBRformat value="xml"/>
 				</FRBRManifestation>
 			</identification>
 			<publication date="2006-04-18" name="службени гласник рс" number="34" showAs="Службени гласник РС"/>
 			<classification source="#somebody">
-				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
-				<keyword dictionary="/akn/rs/srp@ontology" showAs="V МОНЕТАРНИ СИСТЕМ, ФИНАНСИЈСКЕ ОРГАНИЗАЦИЈЕ И ФИНАНСИЈСКО ПОСЛОВАЊЕ" value="v монетарни систем, финансијске организације и финансијско пословање" wId="oblast"/>
-				<keyword dictionary="/akn/rs/srp@ontology" showAs="9. Задуживање и гаранције" value="9. задуживање и гаранције" wId="grupa"/>
+				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="V МОНЕТАРНИ СИСТЕМ, ФИНАНСИЈСКЕ ОРГАНИЗАЦИЈЕ И ФИНАНСИЈСКО ПОСЛОВАЊЕ" value="v монетарни систем, финансијске организације и финансијско пословање" wId="oblast"/>
+				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="9. Задуживање и гаранције" value="9. задуживање и гаранције" wId="grupa"/>
 			</classification>
 			<workflow source="#somebody">
 				<step by="/akn/rs/srp@ontology" date="2006-04-17" wId="usvajanje"/>
@@ -83,24 +86,24 @@
 				<TLCConcept eId="cocnept43" href="http://purl.org/vocab/frbr/core#Concept" showAs="лист"/>
 				<TLCConcept eId="cocnept44" href="http://purl.org/vocab/frbr/core#Concept" showAs="република"/>
 				<TLCConcept eId="cocnept45" href="http://purl.org/vocab/frbr/core#Concept" showAs="србија"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Crne Gore"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Crnoj Gori"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Srbija"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Srbije"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Srbije i Crne Gore"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Srbiji"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Crnoj Gori po kreditu Međunarodnog udruženja za razvoj"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Međunarodnog udruženja za razvoj"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodne banke Srbije"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike Srbije Srbiji"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SCG"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Sporazuma o kreditu za razvoj"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Republika Srbija"/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="18. aprila 2006."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="22. juna 2005."/>
+				<TLCLocation href="ontology.link.person.individua" showAs="Crne Gore"/>
+				<TLCLocation href="ontology.link.person.individua" showAs="Crnoj Gori"/>
+				<TLCLocation href="ontology.link.person.individua" showAs="RS"/>
+				<TLCLocation href="ontology.link.person.individua" showAs="Republike Srbije"/>
+				<TLCLocation href="ontology.link.person.individua" showAs="Srbija"/>
+				<TLCLocation href="ontology.link.person.individua" showAs="Srbije"/>
+				<TLCLocation href="ontology.link.person.individua" showAs="Srbije i Crne Gore"/>
+				<TLCLocation href="ontology.link.person.individua" showAs="Srbiji"/>
+				<TLCOrganization href="ontology.link.person.individua" showAs="Crnoj Gori po kreditu Međunarodnog udruženja za razvoj"/>
+				<TLCOrganization href="ontology.link.person.individua" showAs="Međunarodnog udruženja za razvoj"/>
+				<TLCOrganization href="ontology.link.person.individua" showAs="Narodne banke Srbije"/>
+				<TLCOrganization href="ontology.link.person.individua" showAs="Republike Srbije Srbiji"/>
+				<TLCOrganization href="ontology.link.person.individua" showAs="SCG"/>
+				<TLCOrganization href="ontology.link.person.individua" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="ontology.link.person.individua" showAs="Sporazuma o kreditu za razvoj"/>
+				<TLCPerson href="ontology.link.person.individua" showAs="Republika Srbija"/>
+				<TLCEvent href="ontology.link.person.individua" showAs="18. aprila 2006."/>
+				<TLCEvent href="ontology.link.person.individua" showAs="22. juna 2005."/>
 			</references>
 			<notes source="#somebody">
 				<note wId="not1">
@@ -110,7 +113,7 @@
 		</meta>
 		<preface>
 			<longTitle>
-				<p>Закон О давању контрагаранције републике србије србији и црној гори по кредиту међународног удружења за развој (пројекат консолидације наплате и реформе пензијске администрације у србији) "Службени гласник РС", број <ref wId="ref6" href="akn/rs/act/2006/34/srp@">34 од 18. априла 2006</ref>.</p>
+				<p>Закон О давању контрагаранције републике србије србији и црној гори по кредиту међународног удружења за развој (пројекат консолидације наплате и реформе пензијске администрације у србији) "Службени гласник РС", број <ref wId="ref6" href=" akn/rs/act/zakon/skupština_(arhivska)/2006-04-17/2006-04-nn/srp@2006-04-17  ">34 од 18. априла 2006</ref>.</p>
 			</longTitle>
 		</preface>
 		<body>
@@ -126,7 +129,7 @@
 				<num>2.</num>
 				<paragraph wId="clan2-stav1">
 					<content>
-						<p>Контрагаранција из <ref wId="ref0" href="akn/rs/act/2006/34-26/srp@/!main~art_1" >члана 1. овог</ref> закона даје се Србији и Црној Гори, на име обавезе из Закона о задужењу Србије и Црне Горе код Међународног удружења за развој (Пројекат консолидације наплате и реформе пензијске администрације у Србији) („Службени лист СЦГ”, бр. <ref wId="ref1" href="akn/rs/act/05/44/srp@">44/05</ref> и <ref wId="ref2" href="akn/rs/act/05/53/srp@">53/05</ref>).</p>
+						<p>Контрагаранција из <ref wId="ref0" href="akn/rs/act/zakon/skupština_(arhivska)/2006-04-17/2006-04-nn/srp@2006-04-17/!main~art_1" >члана 1. овог</ref> закона даје се Србији и Црној Гори, на име обавезе из Закона о задужењу Србије и Црне Горе код Међународног удружења за развој (Пројекат консолидације наплате и реформе пензијске администрације у Србији) („Службени лист СЦГ”, бр. <ref wId="ref1" href="akn/rs/act/zakon/skupština_(arhivska)/2006-04-17/2006-04-nn/srp@2006-04-17 ">44/05</ref> и <ref wId="ref2" href="akn/rs/act/zakon/skupština_(arhivska)/2006-04-17/2006-04-nn/srp@2006-04-17 ">53/05</ref>).</p>
 					</content>
 				</paragraph>
 			</article>
@@ -134,7 +137,7 @@
 				<num>3.</num>
 				<paragraph wId="clan3-stav1">
 					<content>
-						<p>Корисник кредита по основу Споразума о кредиту за развој из <ref wId="ref3" href="akn/rs/act/2006/34-26/srp@/!main~art_1" >члана 1. овог</ref> закона је Република Србија (у даљем тексту: Корисник кредита).</p>
+						<p>Корисник кредита по основу Споразума о кредиту за развој из <ref wId="ref3" href="akn/rs/act/zakon/skupština_(arhivska)/2006-04-17/2006-04-nn/srp@2006-04-17/!main~art_1" >члана 1. овог</ref> закона је Република Србија (у даљем тексту: Корисник кредита).</p>
 					</content>
 				</paragraph>
 			</article>
@@ -142,7 +145,7 @@
 				<num>4.</num>
 				<paragraph wId="clan4-stav1">
 					<content>
-						<p>Средства за отплату кредита по основу Споразума о кредиту за развој из <ref wId="ref4" href="akn/rs/act/2006/34-26/srp@/!main~art_1" >члана 1. овог</ref> закона, обезбедиће Корисник кредита.</p>
+						<p>Средства за отплату кредита по основу Споразума о кредиту за развој из <ref wId="ref4" href="akn/rs/act/zakon/skupština_(arhivska)/2006-04-17/2006-04-nn/srp@2006-04-17/!main~art_1" >члана 1. овог</ref> закона, обезбедиће Корисник кредита.</p>
 					</content>
 				</paragraph>
 				<paragraph wId="clan4-stav2">
@@ -170,7 +173,7 @@
 				</paragraph>
 				<paragraph wId="clan5-stav3">
 					<content>
-						<p>&quot;Службени гласник РС&quot;, број <ref wId="ref5" href="akn/rs/act/2006/34/srp@">34 од 18. априла 2006</ref>.</p>
+						<p>&quot;Службени гласник РС&quot;, број <ref wId="ref5" href=" akn/rs/act/zakon/skupština_(arhivska)/2006-04-17/2006-04-nn/srp@2006-04-17  ">34 од 18. априла 2006</ref>.</p>
 					</content>
 				</paragraph>
 			</article>

@@ -4,32 +4,35 @@
 		<meta>
 			<identification source="#somebody">
 				<FRBRWork>
-					<FRBRthis value="akn/rs/act/1946/86-1078/main"/>
-					<FRBRuri value="akn/rs/act/1946/86-1078"/>
+					<FRBRthis value="akn/rs/act/zakon/skupština_(arhivska)/1946-10-23/1946-10-nn/!main"/>
+					<FRBRuri value="akn/rs/act/zakon/skupština_(arhivska)/1946-10-23/1946-10-nn"/>
 					<FRBRdate date="1946-01-01" name="Generation"/>
 					<FRBRauthor as="#author" href="#somebody"/>
-					<FRBRcountry value="rs"/>
+					<FRBRcountry refersTo="http://dbpedia.org/page/Serbia" value="rs"/>
+					<FRBRsubtype refersTo="ontology.link.subtype.individua" showAs="10" value="10"/>
+					<FRBRnumber value="1946-10-nn"/>
+					<FRBRname value="Закон о неважности правних прописа донетих пре 6. априла 1941. године и за време непријатељске окупације (са Грађанским закоником за Књажевство Србију): ФНРЈ 86/1946-1078, 105/1946-1401, 96/1947-1345 (обавезно тумачење)"/>
 				</FRBRWork>
 				<FRBRExpression>
-					<FRBRthis value="akn/rs/act/1947/96-1345/srp@/main"/>
-					<FRBRuri value="akn/rs/act/1947/96-1345/srp@"/>
+					<FRBRthis value="akn/rs/act/zakon/skupština_(arhivska)/1946-10-23/1946-10-nn/srp@1946-10-23/!main"/>
+					<FRBRuri value="akn/rs/act/zakon/skupština_(arhivska)/1946-10-23/1946-10-nn/srp@1946-10-23"/>
 					<FRBRdate date="1947-01-01" name="Generation"/>
 					<FRBRauthor as="#editor" href="#somebody"/>
-					<FRBRlanguage language="srp"/>
+					<FRBRlanguage language="srp" wId="http://dbpedia.org/page/Serbian_language"/>
 				</FRBRExpression>
 				<FRBRManifestation>
-					<FRBRthis value="akn/rs/act/1947/96-1345/srp@/main.xml"/>
-					<FRBRuri value="akn/rs/act/1947/96-1345/srp@.akn"/>
+					<FRBRthis value="akn/rs/act/zakon/skupština_(arhivska)/1946-10-23/1946-10-nn/srp@1946-10-23/!main.xml/!main"/>
+					<FRBRuri value="akn/rs/act/zakon/skupština_(arhivska)/1946-10-23/1946-10-nn/srp@1946-10-23/!main.xml"/>
 					<FRBRdate date="1947-01-01" name="Generation"/>
-					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRauthor as="#editor" href="#lexpert_student_project"/>
 					<FRBRformat value="xml"/>
 				</FRBRManifestation>
 			</identification>
 			<publication date="1946-10-25" name="службени лист фнрј" number="86" showAs="Службени лист ФНРЈ"/>
 			<classification source="#somebody">
-				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
-				<keyword dictionary="/akn/rs/srp@ontology" showAs="I ДРЖАВНО УРЕЂЕЊЕ" value="i државно уређење" wId="oblast"/>
-				<keyword dictionary="/akn/rs/srp@ontology" showAs="6. Народна скупштина" value="6. народна скупштина" wId="grupa"/>
+				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="I ДРЖАВНО УРЕЂЕЊЕ" value="i државно уређење" wId="oblast"/>
+				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="6. Народна скупштина" value="6. народна скупштина" wId="grupa"/>
 			</classification>
 			<lifecycle source="#somebody">
 				<eventRef date="1946-01-01" refersTo="86/1946-1078" source="#somebody" type="generation" wId="e1"/>
@@ -65,18 +68,18 @@
 				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="југославије"/>
 				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="правни"/>
 				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="др"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Federativne Narodne Republike Jugoslavije"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Jugoslavije"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Knjaževstvo Srbiju"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Prezidijum Narodne skupštine"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Prezidijum Narodne skupštine FNRJ"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom listu Federativne Narodne Republike Jugoslavije"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ustava FNRJ"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ustavom FNRJ"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Ivan Ribar"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Mile Peruničić"/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="6. aprila 1941."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="23. oktobra 1946."/>
+				<TLCLocation href="ontology.link.person.individua" showAs="Federativne Narodne Republike Jugoslavije"/>
+				<TLCLocation href="ontology.link.person.individua" showAs="Jugoslavije"/>
+				<TLCLocation href="ontology.link.person.individua" showAs="Knjaževstvo Srbiju"/>
+				<TLCOrganization href="ontology.link.person.individua" showAs="Prezidijum Narodne skupštine"/>
+				<TLCOrganization href="ontology.link.person.individua" showAs="Prezidijum Narodne skupštine FNRJ"/>
+				<TLCOrganization href="ontology.link.person.individua" showAs="Službenom listu Federativne Narodne Republike Jugoslavije"/>
+				<TLCOrganization href="ontology.link.person.individua" showAs="Ustava FNRJ"/>
+				<TLCOrganization href="ontology.link.person.individua" showAs="Ustavom FNRJ"/>
+				<TLCPerson href="ontology.link.person.individua" showAs="Ivan Ribar"/>
+				<TLCPerson href="ontology.link.person.individua" showAs="Mile Peruničić"/>
+				<TLCEvent href="ontology.link.person.individua" showAs="6. aprila 1941."/>
+				<TLCEvent href="ontology.link.person.individua" showAs="23. oktobra 1946."/>
 			</references>
 			<notes source="#somebody">
 				<note wId="not1">
@@ -86,7 +89,7 @@
 		</meta>
 		<preface>
 			<longTitle>
-				<p>Закон О неважности правних прописа донетих пре 6. априла 1941. године и за време  непријатељске окупације "Службени лист ФНРЈ", бр. <ref wId="ref16" href="akn/rs/act/1946/86/srp@">86 од 25. октобра 1946</ref>, <ref wId="ref17" href="akn/rs/act/1946/105/srp@">105 од 27. децембра 1946</ref>, <ref wId="ref18" href="akn/rs/act/1947/96/srp@">96 од 12. новембра 1947</ref> - обавезно тумачење</p>
+				<p>Закон О неважности правних прописа донетих пре 6. априла 1941. године и за време  непријатељске окупације "Службени лист ФНРЈ", бр. <ref wId="ref16" href=" akn/rs/act/zakon/skupština_(arhivska)/1946-10-23/1946-10-nn/srp@1946-10-23  ">86 од 25. октобра 1946</ref>, <ref wId="ref17" href=" akn/rs/act/zakon/skupština_(arhivska)/1946-10-23/1946-10-nn/srp@1946-10-23  ">105 од 27. децембра 1946</ref>, <ref wId="ref18" href=" akn/rs/act/zakon/skupština_(arhivska)/1946-10-23/1946-10-nn/srp@1946-10-23  ">96 од 12. новембра 1947</ref> - обавезно тумачење</p>
 			</longTitle>
 		</preface>
 		<body>
@@ -110,7 +113,7 @@
 				<num>3.</num>
 				<paragraph wId="clan3-stav1">
 					<content>
-						<p>Президијум Народне скупштине ФНРЈ може одредити да се поједина правила садржана  у законима и другим правним прописима поменутим у чл. <ref wId="ref0" href="akn/rs/act/1947/96-1345/srp@/!main~art_2" >2</ref> овог закона примењују,  одређујући при том потребне измене и допуне.</p>
+						<p>Президијум Народне скупштине ФНРЈ може одредити да се поједина правила садржана  у законима и другим правним прописима поменутим у чл. <ref wId="ref0" href="akn/rs/act/zakon/skupština_(arhivska)/1946-10-23/1946-10-nn/srp@1946-10-23/!main~art_2" >2</ref> овог закона примењују,  одређујући при том потребне измене и допуне.</p>
 					</content>
 				</paragraph>
 				<paragraph wId="clan3-stav2">
@@ -123,7 +126,7 @@
 				<num>4.</num>
 				<paragraph wId="clan4-stav1">
 					<content>
-						<p>Правна правила садржана у законима и другим правним прописима поменутим у чл. <ref wId="ref1" href="akn/rs/act/1947/96-1345/srp@/!main~art_2" >2</ref>  овог закона, која у смислу чл. <ref wId="ref2" href="akn/rs/act/1947/96-1345/srp@/!main~art_3" >3</ref> овог закона нису проглашена обавезним, могу се  по овом закону примењивати на односе који нису уређени важећим прописима, и то  само уколико нису у супротности са Уставом ФНРЈ, уставима народних република,  законима и осталим важећим прописима донетим од надлежних органа нове државе, као  и са начелима уставног поретка Федеративне Народне Републике Југославије и њених република.</p>
+						<p>Правна правила садржана у законима и другим правним прописима поменутим у чл. <ref wId="ref1" href="akn/rs/act/zakon/skupština_(arhivska)/1946-10-23/1946-10-nn/srp@1946-10-23/!main~art_2" >2</ref>  овог закона, која у смислу чл. <ref wId="ref2" href="akn/rs/act/zakon/skupština_(arhivska)/1946-10-23/1946-10-nn/srp@1946-10-23/!main~art_3" >3</ref> овог закона нису проглашена обавезним, могу се  по овом закону примењивати на односе који нису уређени важећим прописима, и то  само уколико нису у супротности са Уставом ФНРЈ, уставима народних република,  законима и осталим важећим прописима донетим од надлежних органа нове државе, као  и са начелима уставног поретка Федеративне Народне Републике Југославије и њених република.</p>
 					</content>
 				</paragraph>
 				<paragraph wId="clan4-stav2">
@@ -141,17 +144,17 @@
 				<num>5.</num>
 				<paragraph wId="clan5-stav1">
 					<content>
-						<p>Правна правила поменута у чл. <ref wId="ref3" href="akn/rs/act/1947/96-1345/srp@/!main~art_3" >3</ref> и <ref wId="ref4" href="akn/rs/act/1947/96-1345/srp@/!main~art_4" >4</ref> овог закона не могу се примењивати у погледу  организације државне власти, државних установа и државних предузећа.</p>
+						<p>Правна правила поменута у чл. <ref wId="ref3" href="akn/rs/act/zakon/skupština_(arhivska)/1946-10-23/1946-10-nn/srp@1946-10-23/!main~art_3" >3</ref> и <ref wId="ref4" href="akn/rs/act/zakon/skupština_(arhivska)/1946-10-23/1946-10-nn/srp@1946-10-23/!main~art_4" >4</ref> овог закона не могу се примењивати у погледу  организације државне власти, државних установа и државних предузећа.</p>
 					</content>
 				</paragraph>
 				<paragraph wId="clan5-stav2">
 					<content>
-						<p>Правна правила садржана у правним прописима који су на основу чл. <ref wId="ref5" href="akn/rs/act/1947/96-1345/srp@/!main~art_2" >2</ref> овог закона  изгубили правну снагу не могу бити основ за доношење нових прописа.</p>
+						<p>Правна правила садржана у правним прописима који су на основу чл. <ref wId="ref5" href="akn/rs/act/zakon/skupština_(arhivska)/1946-10-23/1946-10-nn/srp@1946-10-23/!main~art_2" >2</ref> овог закона  изгубили правну снагу не могу бити основ за доношење нових прописа.</p>
 					</content>
 				</paragraph>
 				<paragraph wId="clan5-stav3">
 					<content>
-						<p>Пракса и правна схватања судова и других државних органа бивше Југославије не  могу бити подлога за тумачење и примену правних правила из чл. <ref wId="ref6" href="akn/rs/act/1947/96-1345/srp@/!main~art_3" >3</ref> и <ref wId="ref7" href="akn/rs/act/1947/96-1345/srp@/!main~art_4" >4</ref> овог  закона.</p>
+						<p>Пракса и правна схватања судова и других државних органа бивше Југославије не  могу бити подлога за тумачење и примену правних правила из чл. <ref wId="ref6" href="akn/rs/act/zakon/skupština_(arhivska)/1946-10-23/1946-10-nn/srp@1946-10-23/!main~art_3" >3</ref> и <ref wId="ref7" href="akn/rs/act/zakon/skupština_(arhivska)/1946-10-23/1946-10-nn/srp@1946-10-23/!main~art_4" >4</ref> овог  закона.</p>
 					</content>
 				</paragraph>
 			</article>
@@ -172,7 +175,7 @@
 				</paragraph>
 				<paragraph wId="clan7-stav2">
 					<content>
-						<p>Ако је одлука суда о таквом односу заснована на правним прописима донетим од  стране окупатора и њихових помагача или на прописима из чл. <ref wId="ref8" href="akn/rs/act/1947/96-1345/srp@/!main~art_2" >2</ref> овог закона који  су у супротности с важећим прописима, лице које се сматра оштећеним таквом  судском одлуком може у року од године дана од дана ступања на снагу овог закона  покренути поступак са захтевом да надлежни суд расправи правни однос и донесе  одлуку на основу важећих прописа.</p>
+						<p>Ако је одлука суда о таквом односу заснована на правним прописима донетим од  стране окупатора и њихових помагача или на прописима из чл. <ref wId="ref8" href="akn/rs/act/zakon/skupština_(arhivska)/1946-10-23/1946-10-nn/srp@1946-10-23/!main~art_2" >2</ref> овог закона који  су у супротности с важећим прописима, лице које се сматра оштећеним таквом  судском одлуком може у року од године дана од дана ступања на снагу овог закона  покренути поступак са захтевом да надлежни суд расправи правни однос и донесе  одлуку на основу важећих прописа.</p>
 					</content>
 				</paragraph>
 				<paragraph wId="clan7-stav3">
@@ -185,7 +188,7 @@
 				<num>8.</num>
 				<paragraph wId="clan8-stav1">
 					<content>
-						<p>Од тренутка покретања поступка по чл. <ref wId="ref9" href="akn/rs/act/1947/96-1345/srp@/!main~art_7" >7</ref> овог закона не могу се остваривати права  која проистичу из судске одлуке чији се поништај или измена тражи.</p>
+						<p>Од тренутка покретања поступка по чл. <ref wId="ref9" href="akn/rs/act/zakon/skupština_(arhivska)/1946-10-23/1946-10-nn/srp@1946-10-23/!main~art_7" >7</ref> овог закона не могу се остваривати права  која проистичу из судске одлуке чији се поништај или измена тражи.</p>
 					</content>
 				</paragraph>
 				<paragraph wId="clan8-stav2">
@@ -198,7 +201,7 @@
 				<num>9.</num>
 				<paragraph wId="clan9-stav1">
 					<content>
-						<p>Земљишно-књижна стања заснована на одлукама из чл. <ref wId="ref10" href="akn/rs/act/1947/96-1345/srp@/!main~art_7" >7</ref> овог закона остају на  снази. Странка или надлежни државни орган, који је покренуо поступак пред судом  у смислу чл. <ref wId="ref11" href="akn/rs/act/1947/96-1345/srp@/!main~art_7" >7</ref> овог закона, може тражити да се у јавним књигама (земљишним,  рударским, задружним и др.) забележи да су та земљишно-књижна стања спорна.</p>
+						<p>Земљишно-књижна стања заснована на одлукама из чл. <ref wId="ref10" href="akn/rs/act/zakon/skupština_(arhivska)/1946-10-23/1946-10-nn/srp@1946-10-23/!main~art_7" >7</ref> овог закона остају на  снази. Странка или надлежни државни орган, који је покренуо поступак пред судом  у смислу чл. <ref wId="ref11" href="akn/rs/act/zakon/skupština_(arhivska)/1946-10-23/1946-10-nn/srp@1946-10-23/!main~art_7" >7</ref> овог закона, може тражити да се у јавним књигама (земљишним,  рударским, задружним и др.) забележи да су та земљишно-књижна стања спорна.</p>
 					</content>
 				</paragraph>
 			</article>
@@ -219,7 +222,7 @@
 				<num>11.</num>
 				<paragraph wId="clan11-stav1">
 					<content>
-						<p>У погледу одлука донетих од стране извршних и управних органа окупатора и  њихових помагача и одлука управних судова за време непријатељске окупације  којима се решавају грађанско-правни односи важе сходно одредбе чл. <ref wId="ref12" href="akn/rs/act/1947/96-1345/srp@/!main~art_7" >7</ref>, <ref wId="ref13" href="akn/rs/act/1947/96-1345/srp@/!main~art_8" >8</ref> и <ref wId="ref14" href="akn/rs/act/1947/96-1345/srp@/!main~art_9" >9</ref> овог  закона.*</p>
+						<p>У погледу одлука донетих од стране извршних и управних органа окупатора и  њихових помагача и одлука управних судова за време непријатељске окупације  којима се решавају грађанско-правни односи важе сходно одредбе чл. <ref wId="ref12" href="akn/rs/act/zakon/skupština_(arhivska)/1946-10-23/1946-10-nn/srp@1946-10-23/!main~art_7" >7</ref>, <ref wId="ref13" href="akn/rs/act/zakon/skupština_(arhivska)/1946-10-23/1946-10-nn/srp@1946-10-23/!main~art_8" >8</ref> и <ref wId="ref14" href="akn/rs/act/zakon/skupština_(arhivska)/1946-10-23/1946-10-nn/srp@1946-10-23/!main~art_9" >9</ref> овог  закона.*</p>
 					</content>
 				</paragraph>
 				<paragraph wId="clan11-stav2">
@@ -235,7 +238,7 @@
 			</article>
 			<article wId="clan12">
 				<num>12.</num>
-				<heading>*Службени  лист ФНРЈ, број  <ref wId="ref15" href="akn/rs/act/1946/105/srp@">105/1946</ref></heading>
+				<heading>*Службени  лист ФНРЈ, број  <ref wId="ref15" href="akn/rs/act/zakon/skupština_(arhivska)/1946-10-23/1946-10-nn/srp@1946-10-23 ">105/1946</ref></heading>
 				<paragraph wId="clan12-stav1">
 					<content>
 						<p>Овај закон ступа на снагу осмог дана по објављивању у &quot;Службеном листу  Федеративне Народне Републике Југославије&quot;.</p>

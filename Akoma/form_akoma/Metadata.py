@@ -20,6 +20,7 @@ class Metadata():
         14 filename
         15 Верзија на снази од
         16 Почетак примене верзије
+        17 Број акта
     """
 
     def __init__(self, list):
@@ -44,6 +45,10 @@ class Metadata():
         except:
             self.verzija_na_snagu_od = None
             self.pocetak_primene_verzije = None
+        try:
+            self.broj_akta = list[17]
+        except:
+            self.broj_akta = None
         try:
             self.publication = self.parse_publication(list[9])
         except:

@@ -140,7 +140,7 @@ class MetadataBuilder():
         base.append(ET.Element("FRBRthis", {"value": self.uri_manifestation + "/!main"}))
         base.append(ET.Element("FRBRuri", {"value": self.uri_manifestation}))
         base.append(ET.Element("FRBRdate", {"date": fix_date(date), "name": "Generation"}))
-        base.append(ET.Element("FRBRauthor", {"href": "#lexpert_student_project" + editor, "as": "#editor"}))
+        base.append(ET.Element("FRBRauthor", {"href": "#lexpert_student_project", "as": "#editor"}))
         base.append(ET.Element("FRBRformat", {"value": "xml"}))
         return base
 
@@ -161,7 +161,8 @@ class MetadataBuilder():
         base = ET.Element("classification", {"source": SOURCE})
         for dict in clssifications:
             newk = ET.Element("keyword", {"wId": dict["id"], "value": dict["value"].lower(), "showAs": dict["value"],
-                                          "dictionary": "/akn/rs/srp@ontology"})  # TODO Andrija Popraviti dictionary
+                                          "href": "ontology.link.oblast.individua",
+                                          "dictionary": "RS"})  # TODO Andrija Popraviti dictionary
             base.append(newk)
         return base
 
@@ -240,12 +241,16 @@ class MetadataBuilder():
         if len(subtype) < 3:
             return
         subtype_id = 3
-        self.uri_expression = self.change_element_by_id(self.uri_expression, subtype_id, subtype)
-        self.uri_work = self.change_element_by_id(self.uri_work, subtype_id, subtype)
-        self.uri_manifestation = self.change_element_by_id(self.uri_manifestation, subtype_id, subtype)
+        self.uri_expression = self.change_element_by_id(self.uri_expression, subtype_id, subtype).strip()
+        self.uri_work = self.change_element_by_id(self.uri_work, subtype_id, subtype).strip()
+        self.uri_manifestation = self.change_element_by_id(self.uri_manifestation, subtype_id, subtype).strip()
 
     def make_urls(self, meta, country_code="rs", lang_code="srp", subtype=None, type_act="act", doc_type="xml"):
-        number_act = "nn"  # TODO ANDRIJA get broj akta iz PDF
+        # TODO try automatic
+        if meta.broj_akta is None:
+            number_act = "nn"
+        else:
+            number_act = meta.broj_akta
         if hasattr(meta, 'datum_usvajanja'):
             version = meta.datum_usvajanja[:meta.datum_usvajanja.rfind('-') + 1] + number_act
         else:
@@ -255,17 +260,19 @@ class MetadataBuilder():
                 subtype = Convert.convert_string(meta.vrsta_propisa).lower()
             except:
                 subtype = "zakon"  # WIll be changed later anywas
-        if meta.verzija_na_snagu_od is not None:
-            current_version = meta.verzija_na_snagu_od
+        if meta.verzija_na_snagu_od is not '' and meta.verzija_na_snagu_od is not None:
+            current_version = utilities.swap_date(meta.verzija_na_snagu_od)
+            if current_version is None:
+                current_version = fix_date(meta.datum_usvajanja)
         else:
-            current_version = meta.datum_usvajanja
+            current_version = fix_date(meta.datum_usvajanja)
 
         date_got = fix_date(meta.datum_usvajanja)
-        self.uri_work = "akn/" + country_code + "/" + type_act + "/" + subtype + "/" + Convert.convert_string(
-            meta.donosilac).replace(" ", "_").lower() + "/" + date_got + "/" + version
-        self.uri_expression = self.uri_work + "/" + lang_code + "@" + current_version
+        self.uri_work = ("akn/" + country_code + "/" + type_act + "/" + subtype + "/" + Convert.convert_string(
+            meta.donosilac).replace(" ", "_").lower() + "/" + date_got + "/" + version).strip()
+        self.uri_expression = (self.uri_work + "/" + lang_code + "@" + current_version).strip()
         self.number = version
-        self.uri_manifestation = self.uri_expression + "/!main." + doc_type
+        self.uri_manifestation = (self.uri_expression + "/!main." + doc_type).strip()
 
     def build(self, filename, akomaroot, skip_tfidf=False, country_code="rs", lang_code="srp"):
         meta = list(akomaroot)[0].find(PREFIX + "meta")
