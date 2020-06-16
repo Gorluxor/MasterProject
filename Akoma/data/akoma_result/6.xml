@@ -4,28 +4,28 @@
 		<meta>
 			<identification source="#somebody">
 				<FRBRWork>
-					<FRBRthis value="akn/rs/act/zakon/skupština_(arhivska)/2001-07-10/2001-07-nn/!main"/>
-					<FRBRuri value="akn/rs/act/zakon/skupština_(arhivska)/2001-07-10/2001-07-nn"/>
+					<FRBRthis value="akn/rs/act/zakon/skupština/2001-07-10/2001-07-nn/!main"/>
+					<FRBRuri value="akn/rs/act/zakon/skupština/2001-07-10/2001-07-nn"/>
 					<FRBRdate date="2001-01-01" name="Generation"/>
-					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRauthor as="#author" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#Author"/>
 					<FRBRcountry refersTo="http://dbpedia.org/page/Serbia" value="rs"/>
-					<FRBRsubtype refersTo="ontology.link.subtype.individua" showAs="07" value="07"/>
+					<FRBRsubtype refersTo="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#Zakon" showAs="Zakon" value="zakon"/>
 					<FRBRnumber value="2001-07-nn"/>
 					<FRBRname value="Закон о државним и другим празницима у Републици Србији: 43/2001-1, 101/2007-5, 92/2011-12"/>
 				</FRBRWork>
 				<FRBRExpression>
-					<FRBRthis value="akn/rs/act/zakon/skupština_(arhivska)/2001-07-10/2001-07-nn/srp@2011.12.15/!main"/>
-					<FRBRuri value="akn/rs/act/zakon/skupština_(arhivska)/2001-07-10/2001-07-nn/srp@2011.12.15"/>
+					<FRBRthis value="akn/rs/act/zakon/skupština/2001-07-10/2001-07-nn/srp@2011.12.15/!main"/>
+					<FRBRuri value="akn/rs/act/zakon/skupština/2001-07-10/2001-07-nn/srp@2011.12.15"/>
 					<FRBRdate date="2011-01-01" name="Generation"/>
-					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRauthor as="#editor" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#Editor"/>
 					<FRBRlanguage language="srp" wId="http://dbpedia.org/page/Serbian_language"/>
 				</FRBRExpression>
 				<FRBRManifestation>
-					<FRBRthis value="akn/rs/act/zakon/skupština_(arhivska)/2001-07-10/2001-07-nn/srp@2011.12.15/!main.xml/!main"/>
-					<FRBRuri value="akn/rs/act/zakon/skupština_(arhivska)/2001-07-10/2001-07-nn/srp@2011.12.15/!main.xml"/>
+					<FRBRthis value="akn/rs/act/zakon/skupština/2001-07-10/2001-07-nn/srp@2011.12.15/!main.xml/!main"/>
+					<FRBRuri value="akn/rs/act/zakon/skupština/2001-07-10/2001-07-nn/srp@2011.12.15/!main.xml"/>
 					<FRBRdate date="2011-01-01" name="Generation"/>
 					<FRBRauthor as="#editor" href="#lexpert_student_project"/>
-					<FRBRformat value="xml"/>
+					<FRBRformat refersTo="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#xml" value="xml"/>
 				</FRBRManifestation>
 			</identification>
 			<publication date="2001-07-17" name="службени гласник рс“" number="43" showAs="Службени гласник РС“"/>
@@ -34,10 +34,10 @@
 				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="I ДРЖАВНО УРЕЂЕЊЕ" value="i државно уређење" wId="oblast"/>
 				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="4. Државни и други празници, годишњице и дани који се посебно обележавају" value="4. државни и други празници, годишњице и дани који се посебно обележавају" wId="grupa"/>
 			</classification>
-			<lifecycle source="#somebody">
-				<eventRef date="2001-01-01" refersTo="43/2001-1" source="#somebody" type="generation" wId="e1"/>
-				<eventRef date="2007-01-01" refersTo="101/2007-5" source="#somebody" type="amendment" wId="e2"/>
-				<eventRef date="2011-01-01" refersTo="92/2011-12" source="#somebody" type="amendment" wId="e3"/>
+			<lifecycle source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2001/43/1/reg/20111215">
+				<eventRef date="2001-07-10" href="#datum_usvajanja" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2001/43/1/reg/20111215" type="generation"/>
+				<eventRef date="2001-07-25" href="#datum_pocetak_primene" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2001/43/1/reg/20111215" type="generation"/>
+				<eventRef date="2001-07-25" href="#datum_stupanja_na_snagu" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2001/43/1/reg/20111215" type="generation"/>
 			</lifecycle>
 			<workflow source="#somebody">
 				<step by="/akn/rs/srp@ontology" date="2001-07-10" wId="usvajanje"/>
@@ -45,48 +45,48 @@
 				<step by="/akn/rs/srp@ontology" date="2001-07-25" wId="primena"/>
 			</workflow>
 			<references source="#somebody">
-				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="дан"/>
-				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="празник"/>
-				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="србије"/>
-				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="нова"/>
-				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="маја"/>
-				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="првом"/>
-				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="примирја"/>
-				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="државности"/>
-				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="година"/>
-				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="сретење"/>
-				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="број"/>
-				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="победе"/>
-				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="рада"/>
-				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="рату"/>
-				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="државни"/>
-				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="године"/>
-				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="светском"/>
-				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="гласник"/>
-				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="рс"/>
-				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="2011"/>
-				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="92"/>
-				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="празнује"/>
-				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="први"/>
-				<TLCConcept eId="cocnept23" href="http://purl.org/vocab/frbr/core#Concept" showAs="службени"/>
-				<TLCConcept eId="cocnept24" href="http://purl.org/vocab/frbr/core#Concept" showAs="републике"/>
-				<TLCConcept eId="cocnept25" href="http://purl.org/vocab/frbr/core#Concept" showAs="1835"/>
-				<TLCConcept eId="cocnept26" href="http://purl.org/vocab/frbr/core#Concept" showAs="1804"/>
-				<TLCConcept eId="cocnept27" href="http://purl.org/vocab/frbr/core#Concept" showAs="српски"/>
-				<TLCConcept eId="cocnept28" href="http://purl.org/vocab/frbr/core#Concept" showAs="књажевства"/>
-				<TLCConcept eId="cocnept29" href="http://purl.org/vocab/frbr/core#Concept" showAs="потврђен"/>
-				<TLCConcept eId="cocnept30" href="http://purl.org/vocab/frbr/core#Concept" showAs="11"/>
-				<TLCConcept eId="cocnept31" href="http://purl.org/vocab/frbr/core#Concept" showAs="дигнут"/>
-				<TLCConcept eId="cocnept32" href="http://purl.org/vocab/frbr/core#Concept" showAs="сербије"/>
-				<TLCConcept eId="cocnept33" href="http://purl.org/vocab/frbr/core#Concept" showAs="устав"/>
-				<TLCConcept eId="cocnept34" href="http://purl.org/vocab/frbr/core#Concept" showAs="устанак"/>
-				<TLCConcept eId="cocnept35" href="http://purl.org/vocab/frbr/core#Concept" showAs="16"/>
-				<TLCConcept eId="cocnept36" href="http://purl.org/vocab/frbr/core#Concept" showAs="фебруара"/>
-				<TLCConcept eId="cocnept37" href="http://purl.org/vocab/frbr/core#Concept" showAs="издан"/>
-				<TLCConcept eId="cocnept38" href="http://purl.org/vocab/frbr/core#Concept" showAs="орашцу"/>
-				<TLCConcept eId="cocnept39" href="http://purl.org/vocab/frbr/core#Concept" showAs="збору"/>
-				<TLCConcept eId="cocnept40" href="http://purl.org/vocab/frbr/core#Concept" showAs="заклетвом"/>
-				<TLCConcept eId="cocnept41" href="http://purl.org/vocab/frbr/core#Concept" showAs="15"/>
+				<TLCConcept eId="cocnept0" href="ontology.link.grupa.individua" showAs="дан"/>
+				<TLCConcept eId="cocnept1" href="ontology.link.grupa.individua" showAs="празник"/>
+				<TLCConcept eId="cocnept2" href="ontology.link.grupa.individua" showAs="србије"/>
+				<TLCConcept eId="cocnept3" href="ontology.link.grupa.individua" showAs="нова"/>
+				<TLCConcept eId="cocnept4" href="ontology.link.grupa.individua" showAs="маја"/>
+				<TLCConcept eId="cocnept5" href="ontology.link.grupa.individua" showAs="првом"/>
+				<TLCConcept eId="cocnept6" href="ontology.link.grupa.individua" showAs="примирја"/>
+				<TLCConcept eId="cocnept7" href="ontology.link.grupa.individua" showAs="државности"/>
+				<TLCConcept eId="cocnept8" href="ontology.link.grupa.individua" showAs="година"/>
+				<TLCConcept eId="cocnept9" href="ontology.link.grupa.individua" showAs="сретење"/>
+				<TLCConcept eId="cocnept10" href="ontology.link.grupa.individua" showAs="број"/>
+				<TLCConcept eId="cocnept11" href="ontology.link.grupa.individua" showAs="победе"/>
+				<TLCConcept eId="cocnept12" href="ontology.link.grupa.individua" showAs="рада"/>
+				<TLCConcept eId="cocnept13" href="ontology.link.grupa.individua" showAs="рату"/>
+				<TLCConcept eId="cocnept14" href="ontology.link.grupa.individua" showAs="државни"/>
+				<TLCConcept eId="cocnept15" href="ontology.link.grupa.individua" showAs="године"/>
+				<TLCConcept eId="cocnept16" href="ontology.link.grupa.individua" showAs="светском"/>
+				<TLCConcept eId="cocnept17" href="ontology.link.grupa.individua" showAs="гласник"/>
+				<TLCConcept eId="cocnept18" href="ontology.link.grupa.individua" showAs="рс"/>
+				<TLCConcept eId="cocnept19" href="ontology.link.grupa.individua" showAs="2011"/>
+				<TLCConcept eId="cocnept20" href="ontology.link.grupa.individua" showAs="92"/>
+				<TLCConcept eId="cocnept21" href="ontology.link.grupa.individua" showAs="празнује"/>
+				<TLCConcept eId="cocnept22" href="ontology.link.grupa.individua" showAs="први"/>
+				<TLCConcept eId="cocnept23" href="ontology.link.grupa.individua" showAs="службени"/>
+				<TLCConcept eId="cocnept24" href="ontology.link.grupa.individua" showAs="републике"/>
+				<TLCConcept eId="cocnept25" href="ontology.link.grupa.individua" showAs="1835"/>
+				<TLCConcept eId="cocnept26" href="ontology.link.grupa.individua" showAs="1804"/>
+				<TLCConcept eId="cocnept27" href="ontology.link.grupa.individua" showAs="српски"/>
+				<TLCConcept eId="cocnept28" href="ontology.link.grupa.individua" showAs="књажевства"/>
+				<TLCConcept eId="cocnept29" href="ontology.link.grupa.individua" showAs="потврђен"/>
+				<TLCConcept eId="cocnept30" href="ontology.link.grupa.individua" showAs="11"/>
+				<TLCConcept eId="cocnept31" href="ontology.link.grupa.individua" showAs="дигнут"/>
+				<TLCConcept eId="cocnept32" href="ontology.link.grupa.individua" showAs="сербије"/>
+				<TLCConcept eId="cocnept33" href="ontology.link.grupa.individua" showAs="устав"/>
+				<TLCConcept eId="cocnept34" href="ontology.link.grupa.individua" showAs="устанак"/>
+				<TLCConcept eId="cocnept35" href="ontology.link.grupa.individua" showAs="16"/>
+				<TLCConcept eId="cocnept36" href="ontology.link.grupa.individua" showAs="фебруара"/>
+				<TLCConcept eId="cocnept37" href="ontology.link.grupa.individua" showAs="издан"/>
+				<TLCConcept eId="cocnept38" href="ontology.link.grupa.individua" showAs="орашцу"/>
+				<TLCConcept eId="cocnept39" href="ontology.link.grupa.individua" showAs="збору"/>
+				<TLCConcept eId="cocnept40" href="ontology.link.grupa.individua" showAs="заклетвом"/>
+				<TLCConcept eId="cocnept41" href="ontology.link.grupa.individua" showAs="15"/>
 				<TLCPerson href="ontology.link.person.individua" showAs="Nova"/>
 				<TLCLocation href="ontology.link.person.individua" showAs="Kosovsku bitku"/>
 				<TLCLocation href="ontology.link.person.individua" showAs="Kragujevcu"/>
@@ -128,7 +128,7 @@
 		</meta>
 		<preface>
 			<longTitle>
-				<p>Закон О  државним и другим празницима у републици србији „Службени гласник РС“, бр. <ref wId="ref13" href=" akn/rs/act/zakon/skupština_(arhivska)/2001-07-10/2001-07-nn/srp@2011.12.15  ">43 од 17. јула 2001</ref>, <ref wId="ref14" href=" akn/rs/act/zakon/skupština_(arhivska)/2001-07-10/2001-07-nn/srp@2011.12.15  ">101 од 6. новембра 2007</ref>, <ref wId="ref15" href=" akn/rs/act/zakon/skupština_(arhivska)/2001-07-10/2001-07-nn/srp@2011.12.15  ">92 од 7. децембра 2011</ref>.</p>
+				<p>Закон О  државним и другим празницима у републици србији „Службени гласник РС“, бр. <ref wId="ref13" href=" akn/rs/act/zakon/skupština/2001-07-10/2001-07-nn/srp@2011.12.15  ">43 од 17. јула 2001</ref>, <ref wId="ref14" href=" akn/rs/act/zakon/skupština/2001-07-10/2001-07-nn/srp@2011.12.15  ">101 од 6. новембра 2007</ref>, <ref wId="ref15" href=" akn/rs/act/zakon/skupština/2001-07-10/2001-07-nn/srp@2011.12.15  ">92 од 7. децембра 2011</ref>.</p>
 			</longTitle>
 		</preface>
 		<body>
@@ -146,7 +146,7 @@
 				</paragraph>
 				<paragraph wId="clan1-stav3">
 					<content>
-						<p>*Службени гласник РС, број <ref wId="ref0" href="akn/rs/act/zakon/skupština_(arhivska)/2001-07-10/2001-07-nn/srp@2011.12.15 ">92/2011</ref></p>
+						<p>*Службени гласник РС, број <ref wId="ref0" href="akn/rs/act/zakon/skupština/2001-07-10/2001-07-nn/srp@2011.12.15 ">92/2011</ref></p>
 					</content>
 				</paragraph>
 				<paragraph wId="clan1-stav4">
@@ -166,13 +166,13 @@
 				</paragraph>
 				<paragraph wId="clan1-stav7">
 					<content>
-						<p>*Службени гласник РС, број <ref wId="ref1" href="akn/rs/act/zakon/skupština_(arhivska)/2001-07-10/2001-07-nn/srp@2011.12.15 ">101/2007</ref></p>
+						<p>*Службени гласник РС, број <ref wId="ref1" href="akn/rs/act/zakon/skupština/2001-07-10/2001-07-nn/srp@2011.12.15 ">101/2007</ref></p>
 					</content>
 				</paragraph>
 			</article>
 			<article wId="clan2">
 				<num>2.</num>
-				<heading>**Службени гласник РС, број <ref wId="ref2" href="akn/rs/act/zakon/skupština_(arhivska)/2001-07-10/2001-07-nn/srp@2011.12.15 ">92/2011</ref></heading>
+				<heading>**Службени гласник РС, број <ref wId="ref2" href="akn/rs/act/zakon/skupština/2001-07-10/2001-07-nn/srp@2011.12.15 ">92/2011</ref></heading>
 				<paragraph wId="clan2-stav1">
 					<intro>
 						<p>У Републици Србији празнују се верски празници:</p>
@@ -210,7 +210,7 @@
 				</paragraph>
 				<paragraph wId="clan3-stav4">
 					<content>
-						<p>*Службени гласник РС, број <ref wId="ref3" href="akn/rs/act/zakon/skupština_(arhivska)/2001-07-10/2001-07-nn/srp@2011.12.15 ">101/2007</ref></p>
+						<p>*Службени гласник РС, број <ref wId="ref3" href="akn/rs/act/zakon/skupština/2001-07-10/2001-07-nn/srp@2011.12.15 ">101/2007</ref></p>
 					</content>
 				</paragraph>
 				<paragraph wId="clan3-stav5">
@@ -226,7 +226,7 @@
 			</article>
 			<article wId="clan4">
 				<num>4.</num>
-				<heading>*Службени гласник РС, број <ref wId="ref4" href="akn/rs/act/zakon/skupština_(arhivska)/2001-07-10/2001-07-nn/srp@2011.12.15 ">101/2007</ref></heading>
+				<heading>*Службени гласник РС, број <ref wId="ref4" href="akn/rs/act/zakon/skupština/2001-07-10/2001-07-nn/srp@2011.12.15 ">101/2007</ref></heading>
 				<paragraph wId="clan4-stav1">
 					<intro>
 						<p>Запослени имају право да не раде у дане следећих верских празника, и то:</p>
@@ -272,7 +272,7 @@
 			</article>
 			<article wId="clan6">
 				<num>6.</num>
-				<heading>*Службени гласник РС, број <ref wId="ref12" href="akn/rs/act/zakon/skupština_(arhivska)/2001-07-10/2001-07-nn/srp@2011.12.15 ">92/2011</ref></heading>
+				<heading>*Службени гласник РС, број <ref wId="ref12" href="akn/rs/act/zakon/skupština/2001-07-10/2001-07-nn/srp@2011.12.15 ">92/2011</ref></heading>
 				<paragraph wId="clan6-stav1">
 					<intro>
 						<p>Даном ступања на снагу овог закона престају да важе:</p>
@@ -280,13 +280,13 @@
 					<point wId="clan6-stav1-tac1">
 						<num>1)</num>
 						<content>
-							<p> Закон о државним и другим празницима у Републици Србији („Службени гласник СРС&quot;, бр. <ref wId="ref5" href="akn/rs/act/zakon/skupština_(arhivska)/2001-07-10/2001-07-nn/srp@2011.12.15 ">23/77</ref> и <ref wId="ref6" href="akn/rs/act/zakon/skupština_(arhivska)/2001-07-10/2001-07-nn/srp@2011.12.15 ">13/90</ref> и „Службени гласник РС&quot;, бр. <ref wId="ref7" href="akn/rs/act/zakon/skupština_(arhivska)/2001-07-10/2001-07-nn/srp@2011.12.15 ">78/91</ref> и <ref wId="ref8" href="akn/rs/act/zakon/skupština_(arhivska)/2001-07-10/2001-07-nn/srp@2011.12.15 ">55/96</ref>),</p>
+							<p> Закон о државним и другим празницима у Републици Србији („Службени гласник СРС&quot;, бр. <ref wId="ref5" href="akn/rs/act/zakon/skupština/2001-07-10/2001-07-nn/srp@2011.12.15 ">23/77</ref> и <ref wId="ref6" href="akn/rs/act/zakon/skupština/2001-07-10/2001-07-nn/srp@2011.12.15 ">13/90</ref> и „Службени гласник РС&quot;, бр. <ref wId="ref7" href="akn/rs/act/zakon/skupština/2001-07-10/2001-07-nn/srp@2011.12.15 ">78/91</ref> и <ref wId="ref8" href="akn/rs/act/zakon/skupština/2001-07-10/2001-07-nn/srp@2011.12.15 ">55/96</ref>),</p>
 						</content>
 					</point>
 					<point wId="clan6-stav1-tac2">
 						<num>2)</num>
 						<content>
-							<p> <ref wId="ref9" href="akn/rs/act/zakon/skupština_(arhivska)/2001-07-10/2001-07-nn/srp@2011.12.15/!main~art_60" >члан 60. </ref>Закона о радним односима („Службени гласник РС&quot;, бр. <ref wId="ref10" href="akn/rs/act/zakon/skupština_(arhivska)/2001-07-10/2001-07-nn/srp@2011.12.15 ">55/96</ref> и <ref wId="ref11" href="akn/rs/act/zakon/skupština_(arhivska)/2001-07-10/2001-07-nn/srp@2011.12.15 ">28/2001</ref>).</p>
+							<p> <ref wId="ref9" href="akn/rs/act/zakon/skupština/2001-07-10/2001-07-nn/srp@2011.12.15/!main~art_60" >члан 60. </ref>Закона о радним односима („Службени гласник РС&quot;, бр. <ref wId="ref10" href="akn/rs/act/zakon/skupština/2001-07-10/2001-07-nn/srp@2011.12.15 ">55/96</ref> и <ref wId="ref11" href="akn/rs/act/zakon/skupština/2001-07-10/2001-07-nn/srp@2011.12.15 ">28/2001</ref>).</p>
 						</content>
 					</point>
 				</paragraph>

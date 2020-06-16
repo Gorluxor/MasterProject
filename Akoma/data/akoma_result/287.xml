@@ -7,9 +7,9 @@
 					<FRBRthis value="akn/rs/act/zakon/narodna_skupština/2010-03-23/2010-03-nn/!main"/>
 					<FRBRuri value="akn/rs/act/zakon/narodna_skupština/2010-03-23/2010-03-nn"/>
 					<FRBRdate date="2010-01-01" name="Generation"/>
-					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRauthor as="#author" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#Author"/>
 					<FRBRcountry refersTo="http://dbpedia.org/page/Serbia" value="rs"/>
-					<FRBRsubtype refersTo="ontology.link.subtype.individua" showAs="03" value="03"/>
+					<FRBRsubtype refersTo="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#Zakon" showAs="Zakon" value="zakon"/>
 					<FRBRnumber value="2010-03-nn"/>
 					<FRBRname value="Закон о задуживању Републике Србије код Erste GCIB Finance I.B.V. Amsterdam, са Erste Bank а.д. Нови Сад као агентом, Marfin Bank а.д. Београд и Војвођанске банке а.д. Нови Сад: 18/2010-47"/>
 				</FRBRWork>
@@ -17,7 +17,7 @@
 					<FRBRthis value="akn/rs/act/zakon/narodna_skupština/2010-03-23/2010-03-nn/srp@2010-03-23/!main"/>
 					<FRBRuri value="akn/rs/act/zakon/narodna_skupština/2010-03-23/2010-03-nn/srp@2010-03-23"/>
 					<FRBRdate date="2010-01-01" name="Generation"/>
-					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRauthor as="#editor" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#Editor"/>
 					<FRBRlanguage language="srp" wId="http://dbpedia.org/page/Serbian_language"/>
 				</FRBRExpression>
 				<FRBRManifestation>
@@ -25,7 +25,7 @@
 					<FRBRuri value="akn/rs/act/zakon/narodna_skupština/2010-03-23/2010-03-nn/srp@2010-03-23/!main.xml"/>
 					<FRBRdate date="2010-01-01" name="Generation"/>
 					<FRBRauthor as="#editor" href="#lexpert_student_project"/>
-					<FRBRformat value="xml"/>
+					<FRBRformat refersTo="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#xml" value="xml"/>
 				</FRBRManifestation>
 			</identification>
 			<publication date="2010-03-26" name="службени гласник рс“" number="18" showAs="Службени гласник РС“"/>
@@ -34,43 +34,48 @@
 				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="V МОНЕТАРНИ СИСТЕМ, ФИНАНСИЈСКЕ ОРГАНИЗАЦИЈЕ И ФИНАНСИЈСКО ПОСЛОВАЊЕ" value="v монетарни систем, финансијске организације и финансијско пословање" wId="oblast"/>
 				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="9. Задуживање и гаранције" value="9. задуживање и гаранције" wId="grupa"/>
 			</classification>
+			<lifecycle source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2010/18/4/reg/">
+				<eventRef date="2010-03-23" href="#datum_usvajanja" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2010/18/4/reg/" type="generation"/>
+				<eventRef date="2010-03-27" href="#datum_pocetak_primene" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2010/18/4/reg/" type="generation"/>
+				<eventRef date="2010-03-27" href="#datum_stupanja_na_snagu" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2010/18/4/reg/" type="generation"/>
+			</lifecycle>
 			<workflow source="#somebody">
 				<step by="/akn/rs/srp@ontology" date="2010-03-23" wId="usvajanje"/>
 				<step by="/akn/rs/srp@ontology" date="2010-03-27" wId="stupanje_na_snagu"/>
 				<step by="/akn/rs/srp@ontology" date="2010-03-27" wId="primena"/>
 			</workflow>
 			<references source="#somebody">
-				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="милиона"/>
-				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="евра"/>
-				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="нови"/>
-				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="erste"/>
-				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="банке"/>
-				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="сад"/>
-				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="bank"/>
-				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="задужиће"/>
-				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="16"/>
-				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="160"/>
-				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="тексту"/>
-				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="подељено"/>
-				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="даљем"/>
-				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="србија"/>
-				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="10"/>
-				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="дефицита"/>
-				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="рефинансирање"/>
-				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="република"/>
-				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="износу"/>
-				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="буџетског"/>
-				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="дуга"/>
-				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="финансирање"/>
-				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="код"/>
-				<TLCConcept eId="cocnept23" href="http://purl.org/vocab/frbr/core#Concept" showAs="marfin"/>
-				<TLCConcept eId="cocnept24" href="http://purl.org/vocab/frbr/core#Concept" showAs="партија"/>
-				<TLCConcept eId="cocnept25" href="http://purl.org/vocab/frbr/core#Concept" showAs="gcib"/>
-				<TLCConcept eId="cocnept26" href="http://purl.org/vocab/frbr/core#Concept" showAs="amsterdam"/>
-				<TLCConcept eId="cocnept27" href="http://purl.org/vocab/frbr/core#Concept" showAs="finance"/>
-				<TLCConcept eId="cocnept28" href="http://purl.org/vocab/frbr/core#Concept" showAs="војвођанске"/>
-				<TLCConcept eId="cocnept29" href="http://purl.org/vocab/frbr/core#Concept" showAs="београд"/>
-				<TLCConcept eId="cocnept30" href="http://purl.org/vocab/frbr/core#Concept" showAs="агентом"/>
+				<TLCConcept eId="cocnept0" href="ontology.link.grupa.individua" showAs="милиона"/>
+				<TLCConcept eId="cocnept1" href="ontology.link.grupa.individua" showAs="евра"/>
+				<TLCConcept eId="cocnept2" href="ontology.link.grupa.individua" showAs="нови"/>
+				<TLCConcept eId="cocnept3" href="ontology.link.grupa.individua" showAs="erste"/>
+				<TLCConcept eId="cocnept4" href="ontology.link.grupa.individua" showAs="банке"/>
+				<TLCConcept eId="cocnept5" href="ontology.link.grupa.individua" showAs="сад"/>
+				<TLCConcept eId="cocnept6" href="ontology.link.grupa.individua" showAs="bank"/>
+				<TLCConcept eId="cocnept7" href="ontology.link.grupa.individua" showAs="задужиће"/>
+				<TLCConcept eId="cocnept8" href="ontology.link.grupa.individua" showAs="16"/>
+				<TLCConcept eId="cocnept9" href="ontology.link.grupa.individua" showAs="160"/>
+				<TLCConcept eId="cocnept10" href="ontology.link.grupa.individua" showAs="тексту"/>
+				<TLCConcept eId="cocnept11" href="ontology.link.grupa.individua" showAs="подељено"/>
+				<TLCConcept eId="cocnept12" href="ontology.link.grupa.individua" showAs="даљем"/>
+				<TLCConcept eId="cocnept13" href="ontology.link.grupa.individua" showAs="србија"/>
+				<TLCConcept eId="cocnept14" href="ontology.link.grupa.individua" showAs="10"/>
+				<TLCConcept eId="cocnept15" href="ontology.link.grupa.individua" showAs="дефицита"/>
+				<TLCConcept eId="cocnept16" href="ontology.link.grupa.individua" showAs="рефинансирање"/>
+				<TLCConcept eId="cocnept17" href="ontology.link.grupa.individua" showAs="република"/>
+				<TLCConcept eId="cocnept18" href="ontology.link.grupa.individua" showAs="износу"/>
+				<TLCConcept eId="cocnept19" href="ontology.link.grupa.individua" showAs="буџетског"/>
+				<TLCConcept eId="cocnept20" href="ontology.link.grupa.individua" showAs="дуга"/>
+				<TLCConcept eId="cocnept21" href="ontology.link.grupa.individua" showAs="финансирање"/>
+				<TLCConcept eId="cocnept22" href="ontology.link.grupa.individua" showAs="код"/>
+				<TLCConcept eId="cocnept23" href="ontology.link.grupa.individua" showAs="marfin"/>
+				<TLCConcept eId="cocnept24" href="ontology.link.grupa.individua" showAs="партија"/>
+				<TLCConcept eId="cocnept25" href="ontology.link.grupa.individua" showAs="gcib"/>
+				<TLCConcept eId="cocnept26" href="ontology.link.grupa.individua" showAs="amsterdam"/>
+				<TLCConcept eId="cocnept27" href="ontology.link.grupa.individua" showAs="finance"/>
+				<TLCConcept eId="cocnept28" href="ontology.link.grupa.individua" showAs="војвођанске"/>
+				<TLCConcept eId="cocnept29" href="ontology.link.grupa.individua" showAs="београд"/>
+				<TLCConcept eId="cocnept30" href="ontology.link.grupa.individua" showAs="агентом"/>
 				<TLCLocation href="ontology.link.person.individua" showAs="Beograd"/>
 				<TLCLocation href="ontology.link.person.individua" showAs="Novi Sad"/>
 				<TLCLocation href="ontology.link.person.individua" showAs="Republike Srbije"/>

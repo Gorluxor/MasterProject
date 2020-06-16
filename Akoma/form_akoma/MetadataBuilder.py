@@ -76,7 +76,7 @@ def fix_date(before, use_extra=True):
 def add_new_meta(meta: Metadata):
     """
     If file to added meta
-    Назив прописа  # ELI#Напомена издавача#Додатне информације#Врста прописа#Доносилац#Област#Група#Датум усвајања#Гласило и датум објављивања#Датум ступања на снагу основног текста#Датум примене#Правни претходник#Издавач#filename
+    Назив прописа  # ELI#Напомена издавача#Додатне информације#Врста прописа#Доносилац#Област#Група#Датум усвајања#Гласило и датум објављивања#Датум ступања на снагу основног текста#Датум примене#Правни претходник#Издавач#filename#Верзија на снази од#Почетак примене верзије#Број акта
     :param meta:
     :return: None, writes in file meta
     """
@@ -97,6 +97,7 @@ class MetadataBuilder():
         self.uri_manifestation = ""
         self.number = ""
         self.meta = None
+        self.classification = None
 
     def identification(self, metadata):
         base = ET.Element("identification", {"source": SOURCE})
@@ -112,12 +113,14 @@ class MetadataBuilder():
         base.append(ET.Element("FRBRthis", {"value": self.uri_work + "/!main"}))
         base.append(ET.Element("FRBRuri", {"value": self.uri_work}))
         base.append(ET.Element("FRBRdate", {"date": fix_date(date), "name": "Generation"}))
-        base.append(ET.Element("FRBRauthor", {"href": "#" + author, "as": "#author"}))
+        base.append(ET.Element("FRBRauthor", {"href": author, "as": "#author"}))
 
         base.append(ET.Element("FRBRcountry", {"value": "rs", "refersTo": "http://dbpedia.org/page/" + country}))
+        subtype = Convert.convert_string(self.meta.vrsta_propisa)
         base.append(ET.Element("FRBRsubtype",
-                               {"value": self.uri_work.split("-")[3], "refersTo": "ontology.link.subtype.individua",
-                                "showAs": self.uri_work.split("-")[3]}))
+                               {"value": subtype.lower(),
+                                "refersTo": "https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#" \
+                                            + subtype, "showAs": subtype}))
         base.append(ET.Element("FRBRnumber", {"value": self.number}))
         base.append(ET.Element("FRBRname", {"value": self.meta.act_name}))
 
@@ -129,7 +132,9 @@ class MetadataBuilder():
         base.append(ET.Element("FRBRthis", {"value": self.uri_expression + "/!main"}))
         base.append(ET.Element("FRBRuri", {"value": self.uri_expression}))
         base.append(ET.Element("FRBRdate", {"date": fix_date(date), "name": "Generation"}))
-        base.append(ET.Element("FRBRauthor", {"href": "#" + editor, "as": "#editor"}))
+        base.append(ET.Element("FRBRauthor", {
+            "href": "https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#Editor",
+            "as": "#editor"}))
         base.append(ET.Element("FRBRlanguage",
                                {"language": "srp", "wId": "http://dbpedia.org/page/" + lang + "_language"}))
         self.expressionuri = "akn/rs/act/" + date + "/" + version + "/srp@"
@@ -141,7 +146,8 @@ class MetadataBuilder():
         base.append(ET.Element("FRBRuri", {"value": self.uri_manifestation}))
         base.append(ET.Element("FRBRdate", {"date": fix_date(date), "name": "Generation"}))
         base.append(ET.Element("FRBRauthor", {"href": "#lexpert_student_project", "as": "#editor"}))
-        base.append(ET.Element("FRBRformat", {"value": "xml"}))
+        base.append(ET.Element("FRBRformat", {"value": "xml",
+                                              "refersTo": "https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#xml"}))
         return base
 
     def publication(self, publication):
@@ -159,10 +165,11 @@ class MetadataBuilder():
 
     def clssification(self, clssifications):
         base = ET.Element("classification", {"source": SOURCE})
+        self.classification = base
         for dict in clssifications:
             newk = ET.Element("keyword", {"wId": dict["id"], "value": dict["value"].lower(), "showAs": dict["value"],
                                           "href": "ontology.link.oblast.individua",
-                                          "dictionary": "RS"})  # TODO Andrija Popraviti dictionary
+                                          "dictionary": "RS"})
             base.append(newk)
         return base
 
@@ -182,34 +189,57 @@ class MetadataBuilder():
         return base
 
     def lifecycle(self, lifecycles):
-        base = ET.Element("lifecycle", {"source": SOURCE})
-        cnt = 1
-        for date in lifecycles:
-            found_i = date.find("/") + 1
-            if cnt == 1:
-                newk = ET.Element("eventRef",
-                                  {"wId": "e" + str(cnt), "refersTo": date, "date": fix_date(date[found_i:found_i + 4]),
-                                   "type": "generation", "source": SOURCE})
-            else:
-                newk = ET.Element("eventRef",
-                                  {"wId": "e" + str(cnt), "refersTo": date, "date": fix_date(date[found_i:found_i + 4]),
-                                   "type": "amendment", "source": SOURCE})
-            base.append(newk)
-            cnt += 1
+        base = ET.Element("lifecycle", {"source": self.meta.eli})
+        link = self.meta.eli
+        base.append(
+            ET.Element("eventRef",
+                       {"source": link,
+                        "href": "#datum_usvajanja", "date": self.meta.datum_usvajanja, "type": "generation"}))
+        base.append(
+            ET.Element("eventRef",
+                       {"source": link, "href": "#datum_pocetak_primene",
+                        "date": self.meta.datum_primene, "type": "generation"}))
+        base.append(
+            ET.Element("eventRef",
+                       {"source": link, "href": "#datum_stupanja_na_snagu",
+                        "date": self.meta.datum_stupanja, "type": "generation"}))
+        naziv = self.meta.act_name.split(":")[1]
+        # for date in lifecycles:
+        #     found_i = date.find("/") + 1
+        # if cnt == 1:
+        #     newk = ET.Element("eventRef",
+        #                       {"wId": "e" + str(cnt), "refersTo": date, "date": fix_date(date[found_i:found_i + 4]),
+        #                        "type": "generation", "source": SOURCE})
+        # else:
+        #     newk = ET.Element("eventRef",
+        #                       {"wId": "e" + str(cnt), "refersTo": date, "date": fix_date(date[found_i:found_i + 4]),
+        #                        "type": "amendment", "source": SOURCE})
+        # base.append(newk)
+        # cnt += 1
+
         return base
 
-    def references(self, filename):
+    def references(self, filename, list_of_concepts: list):
         cnt_concept = 0
-        conceptIri = "http://purl.org/vocab/frbr/core#Concept"
+        conceptIri = "ontology.link.grupa.individua"  # "http://purl.org/vocab/frbr/core#Concept"
         base = ET.Element("references", {"source": SOURCE})
-        list_of_concept = get_tf_idf_values_document("data/acts", filenames=filename, latin=False,
-                                                     with_file_names=False)
-        if len(list_of_concept) > 0:
-            for concept in list_of_concept[0]:
+
+        if len(list_of_concepts) > 0:
+            for concept in list_of_concepts[0]:
                 concept_ref = ET.Element("TLCConcept",
                                          {"eId": "cocnept" + str(cnt_concept), "href": conceptIri, "showAs": concept})
                 base.append(concept_ref)
                 cnt_concept = cnt_concept + 1
+        return base
+
+    def keywords_za_marka(self, list_of_concepts: list):
+        conceptIri = "ontology.link.grupa.individua"
+        base = self.classification
+        if len(list_of_concepts) > 0:
+            for concept in list_of_concepts[0]:
+                concept_ref = ET.Element("keyword",
+                                         {"href": conceptIri, "showAs": concept, "dictionary": "RS"})
+                base.append(concept_ref)
         return base
 
     def notes(self, notes1, notes2):
@@ -266,10 +296,14 @@ class MetadataBuilder():
                 current_version = fix_date(meta.datum_usvajanja)
         else:
             current_version = fix_date(meta.datum_usvajanja)
-
+        text_s: str = meta.donosilac
+        to = text_s.find("(")
+        if to is not -1:
+            text_s = text_s[:to]
+        actor = Convert.convert_string(text_s.strip()).replace(" ", "_").lower()
         date_got = fix_date(meta.datum_usvajanja)
-        self.uri_work = ("akn/" + country_code + "/" + type_act + "/" + subtype + "/" + Convert.convert_string(
-            meta.donosilac).replace(" ", "_").lower() + "/" + date_got + "/" + version).strip()
+        self.uri_work = (
+            "akn/" + country_code + "/" + type_act + "/" + subtype + "/" + actor + "/" + date_got + "/" + version).strip()
         self.uri_expression = (self.uri_work + "/" + lang_code + "@" + current_version).strip()
         self.number = version
         self.uri_manifestation = (self.uri_expression + "/!main." + doc_type).strip()
@@ -299,12 +333,14 @@ class MetadataBuilder():
             has_work = False
         if has_work and metainfo.work is not None:
             meta.append(self.identification({"work": metainfo.work, "manifest": metainfo.manifest,
-                                             "author": "somebody", "editor": "somebody"}))
+                                             "author": "https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#Author",
+                                             "editor": "somebody"}))
         else:
             print(filename, metainfo.act_name)
             dict = {"date": metainfo.datum_usvajanja, "version": metainfo.version}
             meta.append(self.identification({"work": dict, "manifest": dict,
-                                             "author": "somebody", "editor": "somebody"}))
+                                             "author": "https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#Author",
+                                             "editor": "somebody"}))
 
         if metainfo.publication != False and metainfo.publication != None:
             meta.append(self.publication(metainfo.publication))
@@ -316,14 +352,17 @@ class MetadataBuilder():
         if len(metainfo.classifications) > 0:
             meta.append(self.clssification(metainfo.classifications))
 
-        if metainfo.lifecycle is not None and len(metainfo.lifecycle) > 1:
+        if metainfo.lifecycle is not None:
             meta.append(self.lifecycle(metainfo.lifecycle))
 
         if len(metainfo.workflow) > 0:
             meta.append(self.workflow(metainfo.workflow))
 
         if not skip_tfidf:
-            references = self.references(filename)
+            list_of_concept = get_tf_idf_values_document("data/acts", filenames=filename, latin=False,
+                                                         with_file_names=False)
+            references = self.references(filename, list_of_concepts=list_of_concept)
+
             meta.append(references)
 
         if metainfo.napomena_izdavaca != "" or metainfo.dodatne_informacije != "":

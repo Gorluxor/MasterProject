@@ -7,9 +7,9 @@
 					<FRBRthis value="akn/rs/act/zakon/narodna_skupština/2010-02-26/2010-02-nn/!main"/>
 					<FRBRuri value="akn/rs/act/zakon/narodna_skupština/2010-02-26/2010-02-nn"/>
 					<FRBRdate date="2010-01-01" name="Generation"/>
-					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRauthor as="#author" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#Author"/>
 					<FRBRcountry refersTo="http://dbpedia.org/page/Serbia" value="rs"/>
-					<FRBRsubtype refersTo="ontology.link.subtype.individua" showAs="02" value="02"/>
+					<FRBRsubtype refersTo="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#Zakon" showAs="Zakon" value="zakon"/>
 					<FRBRnumber value="2010-02-nn"/>
 					<FRBRname value="Закон о Народној скупштини: 9/2010-3"/>
 				</FRBRWork>
@@ -17,7 +17,7 @@
 					<FRBRthis value="akn/rs/act/zakon/narodna_skupština/2010-02-26/2010-02-nn/srp@2010-02-26/!main"/>
 					<FRBRuri value="akn/rs/act/zakon/narodna_skupština/2010-02-26/2010-02-nn/srp@2010-02-26"/>
 					<FRBRdate date="2010-01-01" name="Generation"/>
-					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRauthor as="#editor" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#Editor"/>
 					<FRBRlanguage language="srp" wId="http://dbpedia.org/page/Serbian_language"/>
 				</FRBRExpression>
 				<FRBRManifestation>
@@ -25,7 +25,7 @@
 					<FRBRuri value="akn/rs/act/zakon/narodna_skupština/2010-02-26/2010-02-nn/srp@2010-02-26/!main.xml"/>
 					<FRBRdate date="2010-01-01" name="Generation"/>
 					<FRBRauthor as="#editor" href="#lexpert_student_project"/>
-					<FRBRformat value="xml"/>
+					<FRBRformat refersTo="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#xml" value="xml"/>
 				</FRBRManifestation>
 			</identification>
 			<publication date="2010-02-26" name="службени гласник рс“" number="9" showAs="Службени гласник РС“"/>
@@ -34,48 +34,53 @@
 				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="I ДРЖАВНО УРЕЂЕЊЕ" value="i државно уређење" wId="oblast"/>
 				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="6. Народна скупштина" value="6. народна скупштина" wId="grupa"/>
 			</classification>
+			<lifecycle source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2010/9/1/reg/">
+				<eventRef date="2010-02-26" href="#datum_usvajanja" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2010/9/1/reg/" type="generation"/>
+				<eventRef date="2010-02-27" href="#datum_pocetak_primene" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2010/9/1/reg/" type="generation"/>
+				<eventRef date="2010-02-27" href="#datum_stupanja_na_snagu" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2010/9/1/reg/" type="generation"/>
+			</lifecycle>
 			<workflow source="#somebody">
 				<step by="/akn/rs/srp@ontology" date="2010-02-26" wId="usvajanje"/>
 				<step by="/akn/rs/srp@ontology" date="2010-02-27" wId="stupanje_na_snagu"/>
 				<step by="/akn/rs/srp@ontology" date="2010-02-27" wId="primena"/>
 			</workflow>
 			<references source="#somebody">
-				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="положај"/>
-				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="скупштине"/>
-				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="народне"/>
-				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="поступцима"/>
-				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="другим"/>
-				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="питања"/>
-				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="даљем"/>
-				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="тексту"/>
-				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="друга"/>
-				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="рада"/>
-				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="амблеми"/>
-				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="актима"/>
-				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="симболи"/>
-				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="организацијом"/>
-				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>
-				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="начином"/>
-				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="сарадња"/>
-				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="утврђују"/>
-				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="међународна"/>
-				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="према"/>
-				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређена"/>
-				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="надлежност"/>
-				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="управљање"/>
-				<TLCConcept eId="cocnept23" href="http://purl.org/vocab/frbr/core#Concept" showAs="законом"/>
-				<TLCConcept eId="cocnept24" href="http://purl.org/vocab/frbr/core#Concept" showAs="имовином"/>
-				<TLCConcept eId="cocnept25" href="http://purl.org/vocab/frbr/core#Concept" showAs="служба"/>
-				<TLCConcept eId="cocnept26" href="http://purl.org/vocab/frbr/core#Concept" showAs="пословник"/>
-				<TLCConcept eId="cocnept27" href="http://purl.org/vocab/frbr/core#Concept" showAs="вези"/>
-				<TLCConcept eId="cocnept28" href="http://purl.org/vocab/frbr/core#Concept" showAs="доношење"/>
-				<TLCConcept eId="cocnept29" href="http://purl.org/vocab/frbr/core#Concept" showAs="органима"/>
-				<TLCConcept eId="cocnept30" href="http://purl.org/vocab/frbr/core#Concept" showAs="користи"/>
-				<TLCConcept eId="cocnept31" href="http://purl.org/vocab/frbr/core#Concept" showAs="финансирање"/>
-				<TLCConcept eId="cocnept32" href="http://purl.org/vocab/frbr/core#Concept" showAs="одлучивања"/>
-				<TLCConcept eId="cocnept33" href="http://purl.org/vocab/frbr/core#Concept" showAs="обележја"/>
-				<TLCConcept eId="cocnept34" href="http://purl.org/vocab/frbr/core#Concept" showAs="значаја"/>
-				<TLCConcept eId="cocnept35" href="http://purl.org/vocab/frbr/core#Concept" showAs="државним"/>
+				<TLCConcept eId="cocnept0" href="ontology.link.grupa.individua" showAs="положај"/>
+				<TLCConcept eId="cocnept1" href="ontology.link.grupa.individua" showAs="скупштине"/>
+				<TLCConcept eId="cocnept2" href="ontology.link.grupa.individua" showAs="народне"/>
+				<TLCConcept eId="cocnept3" href="ontology.link.grupa.individua" showAs="поступцима"/>
+				<TLCConcept eId="cocnept4" href="ontology.link.grupa.individua" showAs="другим"/>
+				<TLCConcept eId="cocnept5" href="ontology.link.grupa.individua" showAs="питања"/>
+				<TLCConcept eId="cocnept6" href="ontology.link.grupa.individua" showAs="даљем"/>
+				<TLCConcept eId="cocnept7" href="ontology.link.grupa.individua" showAs="тексту"/>
+				<TLCConcept eId="cocnept8" href="ontology.link.grupa.individua" showAs="друга"/>
+				<TLCConcept eId="cocnept9" href="ontology.link.grupa.individua" showAs="рада"/>
+				<TLCConcept eId="cocnept10" href="ontology.link.grupa.individua" showAs="амблеми"/>
+				<TLCConcept eId="cocnept11" href="ontology.link.grupa.individua" showAs="актима"/>
+				<TLCConcept eId="cocnept12" href="ontology.link.grupa.individua" showAs="симболи"/>
+				<TLCConcept eId="cocnept13" href="ontology.link.grupa.individua" showAs="организацијом"/>
+				<TLCConcept eId="cocnept14" href="ontology.link.grupa.individua" showAs="овим"/>
+				<TLCConcept eId="cocnept15" href="ontology.link.grupa.individua" showAs="начином"/>
+				<TLCConcept eId="cocnept16" href="ontology.link.grupa.individua" showAs="сарадња"/>
+				<TLCConcept eId="cocnept17" href="ontology.link.grupa.individua" showAs="утврђују"/>
+				<TLCConcept eId="cocnept18" href="ontology.link.grupa.individua" showAs="међународна"/>
+				<TLCConcept eId="cocnept19" href="ontology.link.grupa.individua" showAs="према"/>
+				<TLCConcept eId="cocnept20" href="ontology.link.grupa.individua" showAs="уређена"/>
+				<TLCConcept eId="cocnept21" href="ontology.link.grupa.individua" showAs="надлежност"/>
+				<TLCConcept eId="cocnept22" href="ontology.link.grupa.individua" showAs="управљање"/>
+				<TLCConcept eId="cocnept23" href="ontology.link.grupa.individua" showAs="законом"/>
+				<TLCConcept eId="cocnept24" href="ontology.link.grupa.individua" showAs="имовином"/>
+				<TLCConcept eId="cocnept25" href="ontology.link.grupa.individua" showAs="служба"/>
+				<TLCConcept eId="cocnept26" href="ontology.link.grupa.individua" showAs="пословник"/>
+				<TLCConcept eId="cocnept27" href="ontology.link.grupa.individua" showAs="вези"/>
+				<TLCConcept eId="cocnept28" href="ontology.link.grupa.individua" showAs="доношење"/>
+				<TLCConcept eId="cocnept29" href="ontology.link.grupa.individua" showAs="органима"/>
+				<TLCConcept eId="cocnept30" href="ontology.link.grupa.individua" showAs="користи"/>
+				<TLCConcept eId="cocnept31" href="ontology.link.grupa.individua" showAs="финансирање"/>
+				<TLCConcept eId="cocnept32" href="ontology.link.grupa.individua" showAs="одлучивања"/>
+				<TLCConcept eId="cocnept33" href="ontology.link.grupa.individua" showAs="обележја"/>
+				<TLCConcept eId="cocnept34" href="ontology.link.grupa.individua" showAs="значаја"/>
+				<TLCConcept eId="cocnept35" href="ontology.link.grupa.individua" showAs="државним"/>
 				<TLCLocation href="ontology.link.person.individua" showAs="Beogradu"/>
 				<TLCLocation href="ontology.link.person.individua" showAs="Republici Srbiji"/>
 				<TLCLocation href="ontology.link.person.individua" showAs="Republike"/>

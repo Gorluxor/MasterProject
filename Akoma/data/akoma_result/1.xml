@@ -7,9 +7,9 @@
 					<FRBRthis value="akn/rs/act/zakon/narodna_skupština/2009-05-11/2009-05-1212/!main"/>
 					<FRBRuri value="akn/rs/act/zakon/narodna_skupština/2009-05-11/2009-05-1212"/>
 					<FRBRdate date="2009-01-01" name="Generation"/>
-					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRauthor as="#author" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#Author"/>
 					<FRBRcountry refersTo="http://dbpedia.org/page/Serbia" value="rs"/>
-					<FRBRsubtype refersTo="ontology.link.subtype.individua" showAs="05" value="05"/>
+					<FRBRsubtype refersTo="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#Zakon" showAs="Zakon" value="zakon"/>
 					<FRBRnumber value="2009-05-1212"/>
 					<FRBRname value="Закон о изгледу и употреби грба, заставе и химне Републике Србије: 36/2009-3"/>
 				</FRBRWork>
@@ -17,7 +17,7 @@
 					<FRBRthis value="akn/rs/act/zakon/narodna_skupština/2009-05-11/2009-05-1212/srp@2009-05-11/!main"/>
 					<FRBRuri value="akn/rs/act/zakon/narodna_skupština/2009-05-11/2009-05-1212/srp@2009-05-11"/>
 					<FRBRdate date="2009-01-01" name="Generation"/>
-					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRauthor as="#editor" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#Editor"/>
 					<FRBRlanguage language="srp" wId="http://dbpedia.org/page/Serbian_language"/>
 				</FRBRExpression>
 				<FRBRManifestation>
@@ -25,7 +25,7 @@
 					<FRBRuri value="akn/rs/act/zakon/narodna_skupština/2009-05-11/2009-05-1212/srp@2009-05-11/!main.xml"/>
 					<FRBRdate date="2009-01-01" name="Generation"/>
 					<FRBRauthor as="#editor" href="#lexpert_student_project"/>
-					<FRBRformat value="xml"/>
+					<FRBRformat refersTo="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#xml" value="xml"/>
 				</FRBRManifestation>
 			</identification>
 			<publication date="2009-05-15" name="“службени гласник рс" number="36" showAs="“Службени гласник РС"/>
@@ -34,23 +34,28 @@
 				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="I ДРЖАВНО УРЕЂЕЊЕ" value="i државно уређење" wId="oblast"/>
 				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="2. Грб, застава, химна и печат" value="2. грб, застава, химна и печат" wId="grupa"/>
 			</classification>
+			<lifecycle source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2009/36/1/reg/">
+				<eventRef date="2009-05-11" href="#datum_usvajanja" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2009/36/1/reg/" type="generation"/>
+				<eventRef date="2009-05-23" href="#datum_pocetak_primene" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2009/36/1/reg/" type="generation"/>
+				<eventRef date="2009-05-23" href="#datum_stupanja_na_snagu" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2009/36/1/reg/" type="generation"/>
+			</lifecycle>
 			<workflow source="#somebody">
 				<step by="/akn/rs/srp@ontology" date="2009-05-11" wId="usvajanje"/>
 				<step by="/akn/rs/srp@ontology" date="2009-05-23" wId="stupanje_na_snagu"/>
 				<step by="/akn/rs/srp@ontology" date="2009-05-23" wId="primena"/>
 			</workflow>
 			<references source="#somebody">
-				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="представљање"/>
-				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређују"/>
-				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>
-				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="изглед"/>
-				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="србије"/>
-				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="химне"/>
-				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="републике"/>
-				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="употреба"/>
-				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="законом"/>
-				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="грба"/>
-				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="заставе"/>
+				<TLCConcept eId="cocnept0" href="ontology.link.grupa.individua" showAs="представљање"/>
+				<TLCConcept eId="cocnept1" href="ontology.link.grupa.individua" showAs="уређују"/>
+				<TLCConcept eId="cocnept2" href="ontology.link.grupa.individua" showAs="овим"/>
+				<TLCConcept eId="cocnept3" href="ontology.link.grupa.individua" showAs="изглед"/>
+				<TLCConcept eId="cocnept4" href="ontology.link.grupa.individua" showAs="србије"/>
+				<TLCConcept eId="cocnept5" href="ontology.link.grupa.individua" showAs="химне"/>
+				<TLCConcept eId="cocnept6" href="ontology.link.grupa.individua" showAs="републике"/>
+				<TLCConcept eId="cocnept7" href="ontology.link.grupa.individua" showAs="употреба"/>
+				<TLCConcept eId="cocnept8" href="ontology.link.grupa.individua" showAs="законом"/>
+				<TLCConcept eId="cocnept9" href="ontology.link.grupa.individua" showAs="грба"/>
+				<TLCConcept eId="cocnept10" href="ontology.link.grupa.individua" showAs="заставе"/>
 				<TLCLocation href="ontology.link.person.individua" showAs="Avali"/>
 				<TLCLocation href="ontology.link.person.individua" showAs="Bože"/>
 				<TLCLocation href="ontology.link.person.individua" showAs="Republici Srbiji"/>

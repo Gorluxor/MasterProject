@@ -4,28 +4,28 @@
 		<meta>
 			<identification source="#somebody">
 				<FRBRWork>
-					<FRBRthis value="akn/rs/act/zakon/skupština_(arhivska)/2001-02-27/2001-02-nn/!main"/>
-					<FRBRuri value="akn/rs/act/zakon/skupština_(arhivska)/2001-02-27/2001-02-nn"/>
+					<FRBRthis value="akn/rs/act/zakon/skupština/2001-02-27/2001-02-nn/!main"/>
+					<FRBRuri value="akn/rs/act/zakon/skupština/2001-02-27/2001-02-nn"/>
 					<FRBRdate date="2001-01-01" name="Generation"/>
-					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRauthor as="#author" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#Author"/>
 					<FRBRcountry refersTo="http://dbpedia.org/page/Serbia" value="rs"/>
-					<FRBRsubtype refersTo="ontology.link.subtype.individua" showAs="02" value="02"/>
+					<FRBRsubtype refersTo="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#Zakon" showAs="Zakon" value="zakon"/>
 					<FRBRnumber value="2001-02-nn"/>
 					<FRBRname value="Закон о укидању Указа о одузимању држављанства и имовине породици Карађорђевић: 9/2001-4"/>
 				</FRBRWork>
 				<FRBRExpression>
-					<FRBRthis value="akn/rs/act/zakon/skupština_(arhivska)/2001-02-27/2001-02-nn/srp@2001-02-27/!main"/>
-					<FRBRuri value="akn/rs/act/zakon/skupština_(arhivska)/2001-02-27/2001-02-nn/srp@2001-02-27"/>
+					<FRBRthis value="akn/rs/act/zakon/skupština/2001-02-27/2001-02-nn/srp@2001-02-27/!main"/>
+					<FRBRuri value="akn/rs/act/zakon/skupština/2001-02-27/2001-02-nn/srp@2001-02-27"/>
 					<FRBRdate date="2001-01-01" name="Generation"/>
-					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRauthor as="#editor" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#Editor"/>
 					<FRBRlanguage language="srp" wId="http://dbpedia.org/page/Serbian_language"/>
 				</FRBRExpression>
 				<FRBRManifestation>
-					<FRBRthis value="akn/rs/act/zakon/skupština_(arhivska)/2001-02-27/2001-02-nn/srp@2001-02-27/!main.xml/!main"/>
-					<FRBRuri value="akn/rs/act/zakon/skupština_(arhivska)/2001-02-27/2001-02-nn/srp@2001-02-27/!main.xml"/>
+					<FRBRthis value="akn/rs/act/zakon/skupština/2001-02-27/2001-02-nn/srp@2001-02-27/!main.xml/!main"/>
+					<FRBRuri value="akn/rs/act/zakon/skupština/2001-02-27/2001-02-nn/srp@2001-02-27/!main.xml"/>
 					<FRBRdate date="2001-01-01" name="Generation"/>
 					<FRBRauthor as="#editor" href="#lexpert_student_project"/>
-					<FRBRformat value="xml"/>
+					<FRBRformat refersTo="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#xml" value="xml"/>
 				</FRBRManifestation>
 			</identification>
 			<publication date="2001-03-02" name="службени лист срј“" number="9" showAs="Службени лист СРЈ“"/>
@@ -34,20 +34,25 @@
 				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="I ДРЖАВНО УРЕЂЕЊЕ" value="i државно уређење" wId="oblast"/>
 				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="3. Држављанство" value="3. држављанство" wId="grupa"/>
 			</classification>
+			<lifecycle source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/slsrj/skupstina/zakon/2001/9/4/reg/">
+				<eventRef date="2001-02-27" href="#datum_usvajanja" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/slsrj/skupstina/zakon/2001/9/4/reg/" type="generation"/>
+				<eventRef date="2001-03-10" href="#datum_pocetak_primene" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/slsrj/skupstina/zakon/2001/9/4/reg/" type="generation"/>
+				<eventRef date="2001-03-10" href="#datum_stupanja_na_snagu" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/slsrj/skupstina/zakon/2001/9/4/reg/" type="generation"/>
+			</lifecycle>
 			<workflow source="#somebody">
 				<step by="/akn/rs/srp@ontology" date="2001-02-27" wId="usvajanje"/>
 				<step by="/akn/rs/srp@ontology" date="2001-03-10" wId="stupanje_na_snagu"/>
 				<step by="/akn/rs/srp@ontology" date="2001-03-10" wId="primena"/>
 			</workflow>
 			<references source="#somebody">
-				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="карађорђевића"/>
-				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="павла"/>
-				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="александра"/>
-				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="1947"/>
-				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="бр"/>
-				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="године"/>
-				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="народне"/>
-				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="александру"/>
+				<TLCConcept eId="cocnept0" href="ontology.link.grupa.individua" showAs="карађорђевића"/>
+				<TLCConcept eId="cocnept1" href="ontology.link.grupa.individua" showAs="павла"/>
+				<TLCConcept eId="cocnept2" href="ontology.link.grupa.individua" showAs="александра"/>
+				<TLCConcept eId="cocnept3" href="ontology.link.grupa.individua" showAs="1947"/>
+				<TLCConcept eId="cocnept4" href="ontology.link.grupa.individua" showAs="бр"/>
+				<TLCConcept eId="cocnept5" href="ontology.link.grupa.individua" showAs="године"/>
+				<TLCConcept eId="cocnept6" href="ontology.link.grupa.individua" showAs="народне"/>
+				<TLCConcept eId="cocnept7" href="ontology.link.grupa.individua" showAs="александру"/>
 				<TLCLocation href="ontology.link.person.individua" showAs="Mariji"/>
 				<TLCLocation href="ontology.link.person.individua" showAs="Pavlu"/>
 				<TLCOrganization href="ontology.link.person.individua" showAs="FNRJ"/>
@@ -74,7 +79,7 @@
 		</meta>
 		<preface>
 			<longTitle>
-				<p>Закон О укидању  указа о  одузимању држављанства и имовине породици   карађорђевић „Службени лист СРЈ“, број <ref wId="ref3" href=" akn/rs/act/zakon/skupština_(arhivska)/2001-02-27/2001-02-nn/srp@2001-02-27  ">9 од 2. марта 2001</ref>.</p>
+				<p>Закон О укидању  указа о  одузимању држављанства и имовине породици   карађорђевић „Службени лист СРЈ“, број <ref wId="ref3" href=" akn/rs/act/zakon/skupština/2001-02-27/2001-02-nn/srp@2001-02-27  ">9 од 2. марта 2001</ref>.</p>
 			</longTitle>
 		</preface>
 		<body>
@@ -82,7 +87,7 @@
 				<num>1.</num>
 				<paragraph wId="clan1-stav1">
 					<content>
-						<p>Овим законом укида се Указ Председништва Президијума Народне скупштине Федеративне Народне Републике Југославије У. бр. <ref wId="ref0" href=" akn/rs/act/zakon/skupština_(arhivska)/2001-02-27/2001-02-nn/srp@2001-02-27  ">392 од 8. марта 1947</ref>. године (&quot;Службени лист ФНРЈ&quot;, бр.   <ref wId="ref1" href=" akn/rs/act/zakon/skupština_(arhivska)/2001-02-27/2001-02-nn/srp@2001-02-27  ">64 од 1. августа 1947</ref>. године) којим је одузето држављанство и конфискована целокупна имовина:</p>
+						<p>Овим законом укида се Указ Председништва Президијума Народне скупштине Федеративне Народне Републике Југославије У. бр. <ref wId="ref0" href=" akn/rs/act/zakon/skupština/2001-02-27/2001-02-nn/srp@2001-02-27  ">392 од 8. марта 1947</ref>. године (&quot;Службени лист ФНРЈ&quot;, бр.   <ref wId="ref1" href=" akn/rs/act/zakon/skupština/2001-02-27/2001-02-nn/srp@2001-02-27  ">64 од 1. августа 1947</ref>. године) којим је одузето држављанство и конфискована целокупна имовина:</p>
 					</content>
 				</paragraph>
 				<paragraph wId="clan1-stav2">
@@ -140,7 +145,7 @@
 				<num>2.</num>
 				<paragraph wId="clan2-stav1">
 					<content>
-						<p>Услови за повраћај конфисковане имовине из <ref wId="ref2" href="akn/rs/act/zakon/skupština_(arhivska)/2001-02-27/2001-02-nn/srp@2001-02-27/!main~art_1" >члана 1. овог</ref> закона биће уређени посебним законом.</p>
+						<p>Услови за повраћај конфисковане имовине из <ref wId="ref2" href="akn/rs/act/zakon/skupština/2001-02-27/2001-02-nn/srp@2001-02-27/!main~art_1" >члана 1. овог</ref> закона биће уређени посебним законом.</p>
 					</content>
 				</paragraph>
 			</article>

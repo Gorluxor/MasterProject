@@ -1,6 +1,7 @@
+import xml.etree.ElementTree as ET
+
 try:
     from Akoma.tokenizer.TokenType import TokenType
-    # from Akoma.tokenizer import patterns
     from Akoma.named_enitity_recognition.ner import do_ner_on_sentences
     from Akoma.convertToLatin.Convert import convert
     from Akoma.utilities.utilities import DOC_TYPE
@@ -69,6 +70,12 @@ class BasicReasoner():
             if body is False and self.current_token.type <= TokenType.CLAN:
                 body = True
                 DOC_TYPE = get_doc_type("".join([s.value for s in self.preface]))
+                aca_uradio = False
+                if aca_uradio is True:  # TODO ACA pronadje u tekstu
+                    found_date = "2300-01-01"
+                    new_change = ET.Element("eventRef", {"source": meta.eli, "href": "#izmena",
+                                                         "date": found_date, "type": "amendment"})
+                    meta.classification.append(new_change)
                 if meta is not None:
                     meta.change_subtype_url(DOC_TYPE)
                 self.akomabuilder.build_preface(self.preface)

@@ -4,28 +4,28 @@
 		<meta>
 			<identification source="#somebody">
 				<FRBRWork>
-					<FRBRthis value="akn/rs/act/zakon/skupština_(arhivska)/2006-04-17/2006-04-nn/!main"/>
-					<FRBRuri value="akn/rs/act/zakon/skupština_(arhivska)/2006-04-17/2006-04-nn"/>
+					<FRBRthis value="akn/rs/act/zakon/skupština/2006-04-17/2006-04-nn/!main"/>
+					<FRBRuri value="akn/rs/act/zakon/skupština/2006-04-17/2006-04-nn"/>
 					<FRBRdate date="2006-01-01" name="Generation"/>
-					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRauthor as="#author" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#Author"/>
 					<FRBRcountry refersTo="http://dbpedia.org/page/Serbia" value="rs"/>
-					<FRBRsubtype refersTo="ontology.link.subtype.individua" showAs="04" value="04"/>
+					<FRBRsubtype refersTo="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#Zakon" showAs="Zakon" value="zakon"/>
 					<FRBRnumber value="2006-04-nn"/>
 					<FRBRname value="Закон о давању контрагаранције Републике Србије Србији и Црној Гори по кредиту Међународног удружења за развој (Пројекат консолидације наплате и реформе пензијске админитрације у Србији): 34/2006-26"/>
 				</FRBRWork>
 				<FRBRExpression>
-					<FRBRthis value="akn/rs/act/zakon/skupština_(arhivska)/2006-04-17/2006-04-nn/srp@2006-04-17/!main"/>
-					<FRBRuri value="akn/rs/act/zakon/skupština_(arhivska)/2006-04-17/2006-04-nn/srp@2006-04-17"/>
+					<FRBRthis value="akn/rs/act/zakon/skupština/2006-04-17/2006-04-nn/srp@2006-04-17/!main"/>
+					<FRBRuri value="akn/rs/act/zakon/skupština/2006-04-17/2006-04-nn/srp@2006-04-17"/>
 					<FRBRdate date="2006-01-01" name="Generation"/>
-					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRauthor as="#editor" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#Editor"/>
 					<FRBRlanguage language="srp" wId="http://dbpedia.org/page/Serbian_language"/>
 				</FRBRExpression>
 				<FRBRManifestation>
-					<FRBRthis value="akn/rs/act/zakon/skupština_(arhivska)/2006-04-17/2006-04-nn/srp@2006-04-17/!main.xml/!main"/>
-					<FRBRuri value="akn/rs/act/zakon/skupština_(arhivska)/2006-04-17/2006-04-nn/srp@2006-04-17/!main.xml"/>
+					<FRBRthis value="akn/rs/act/zakon/skupština/2006-04-17/2006-04-nn/srp@2006-04-17/!main.xml/!main"/>
+					<FRBRuri value="akn/rs/act/zakon/skupština/2006-04-17/2006-04-nn/srp@2006-04-17/!main.xml"/>
 					<FRBRdate date="2006-01-01" name="Generation"/>
 					<FRBRauthor as="#editor" href="#lexpert_student_project"/>
-					<FRBRformat value="xml"/>
+					<FRBRformat refersTo="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#xml" value="xml"/>
 				</FRBRManifestation>
 			</identification>
 			<publication date="2006-04-18" name="службени гласник рс" number="34" showAs="Службени гласник РС"/>
@@ -34,58 +34,63 @@
 				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="V МОНЕТАРНИ СИСТЕМ, ФИНАНСИЈСКЕ ОРГАНИЗАЦИЈЕ И ФИНАНСИЈСКО ПОСЛОВАЊЕ" value="v монетарни систем, финансијске организације и финансијско пословање" wId="oblast"/>
 				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="9. Задуживање и гаранције" value="9. задуживање и гаранције" wId="grupa"/>
 			</classification>
+			<lifecycle source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2006/34/8/reg/">
+				<eventRef date="2006-04-17" href="#datum_usvajanja" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2006/34/8/reg/" type="generation"/>
+				<eventRef date="2006-04-26" href="#datum_pocetak_primene" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2006/34/8/reg/" type="generation"/>
+				<eventRef date="2006-04-26" href="#datum_stupanja_na_snagu" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2006/34/8/reg/" type="generation"/>
+			</lifecycle>
 			<workflow source="#somebody">
 				<step by="/akn/rs/srp@ontology" date="2006-04-17" wId="usvajanje"/>
 				<step by="/akn/rs/srp@ontology" date="2006-04-26" wId="stupanje_na_snagu"/>
 				<step by="/akn/rs/srp@ontology" date="2006-04-26" wId="primena"/>
 			</workflow>
 			<references source="#somebody">
-				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="између"/>
-				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="развој"/>
-				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="црне"/>
-				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="горе"/>
-				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="србије"/>
-				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="05"/>
-				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="консолидације"/>
-				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="администрације"/>
-				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="међународног"/>
-				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="пензијске"/>
-				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="пројекат"/>
-				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="наплате"/>
-				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="реформе"/>
-				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="србији"/>
-				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="удружења"/>
-				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="споразума"/>
-				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="кредиту"/>
-				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="контрагарант"/>
-				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="измири"/>
-				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="међународни"/>
-				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="000"/>
-				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="преузима"/>
-				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="обавезу"/>
-				<TLCConcept eId="cocnept23" href="http://purl.org/vocab/frbr/core#Concept" showAs="потписаног"/>
-				<TLCConcept eId="cocnept24" href="http://purl.org/vocab/frbr/core#Concept" showAs="права"/>
-				<TLCConcept eId="cocnept25" href="http://purl.org/vocab/frbr/core#Concept" showAs="додацима"/>
-				<TLCConcept eId="cocnept26" href="http://purl.org/vocab/frbr/core#Concept" showAs="ратификацији"/>
-				<TLCConcept eId="cocnept27" href="http://purl.org/vocab/frbr/core#Concept" showAs="ратификован"/>
-				<TLCConcept eId="cocnept28" href="http://purl.org/vocab/frbr/core#Concept" showAs="специјалних"/>
-				<TLCConcept eId="cocnept29" href="http://purl.org/vocab/frbr/core#Concept" showAs="уговори"/>
-				<TLCConcept eId="cocnept30" href="http://purl.org/vocab/frbr/core#Concept" showAs="законом"/>
-				<TLCConcept eId="cocnept31" href="http://purl.org/vocab/frbr/core#Concept" showAs="јун"/>
-				<TLCConcept eId="cocnept32" href="http://purl.org/vocab/frbr/core#Concept" showAs="600"/>
-				<TLCConcept eId="cocnept33" href="http://purl.org/vocab/frbr/core#Concept" showAs="17"/>
-				<TLCConcept eId="cocnept34" href="http://purl.org/vocab/frbr/core#Concept" showAs="22"/>
-				<TLCConcept eId="cocnept35" href="http://purl.org/vocab/frbr/core#Concept" showAs="године"/>
-				<TLCConcept eId="cocnept36" href="http://purl.org/vocab/frbr/core#Concept" showAs="2005"/>
-				<TLCConcept eId="cocnept37" href="http://purl.org/vocab/frbr/core#Concept" showAs="вучења"/>
-				<TLCConcept eId="cocnept38" href="http://purl.org/vocab/frbr/core#Concept" showAs="16"/>
-				<TLCConcept eId="cocnept39" href="http://purl.org/vocab/frbr/core#Concept" showAs="бр"/>
-				<TLCConcept eId="cocnept40" href="http://purl.org/vocab/frbr/core#Concept" showAs="износу"/>
-				<TLCConcept eId="cocnept41" href="http://purl.org/vocab/frbr/core#Concept" showAs="обавезе"/>
-				<TLCConcept eId="cocnept42" href="http://purl.org/vocab/frbr/core#Concept" showAs="сцг"/>
-				<TLCConcept eId="cocnept43" href="http://purl.org/vocab/frbr/core#Concept" showAs="лист"/>
-				<TLCConcept eId="cocnept44" href="http://purl.org/vocab/frbr/core#Concept" showAs="република"/>
-				<TLCConcept eId="cocnept45" href="http://purl.org/vocab/frbr/core#Concept" showAs="србија"/>
+				<TLCConcept eId="cocnept0" href="ontology.link.grupa.individua" showAs="између"/>
+				<TLCConcept eId="cocnept1" href="ontology.link.grupa.individua" showAs="развој"/>
+				<TLCConcept eId="cocnept2" href="ontology.link.grupa.individua" showAs="црне"/>
+				<TLCConcept eId="cocnept3" href="ontology.link.grupa.individua" showAs="горе"/>
+				<TLCConcept eId="cocnept4" href="ontology.link.grupa.individua" showAs="србије"/>
+				<TLCConcept eId="cocnept5" href="ontology.link.grupa.individua" showAs="05"/>
+				<TLCConcept eId="cocnept6" href="ontology.link.grupa.individua" showAs="консолидације"/>
+				<TLCConcept eId="cocnept7" href="ontology.link.grupa.individua" showAs="администрације"/>
+				<TLCConcept eId="cocnept8" href="ontology.link.grupa.individua" showAs="међународног"/>
+				<TLCConcept eId="cocnept9" href="ontology.link.grupa.individua" showAs="пензијске"/>
+				<TLCConcept eId="cocnept10" href="ontology.link.grupa.individua" showAs="пројекат"/>
+				<TLCConcept eId="cocnept11" href="ontology.link.grupa.individua" showAs="наплате"/>
+				<TLCConcept eId="cocnept12" href="ontology.link.grupa.individua" showAs="реформе"/>
+				<TLCConcept eId="cocnept13" href="ontology.link.grupa.individua" showAs="србији"/>
+				<TLCConcept eId="cocnept14" href="ontology.link.grupa.individua" showAs="удружења"/>
+				<TLCConcept eId="cocnept15" href="ontology.link.grupa.individua" showAs="споразума"/>
+				<TLCConcept eId="cocnept16" href="ontology.link.grupa.individua" showAs="кредиту"/>
+				<TLCConcept eId="cocnept17" href="ontology.link.grupa.individua" showAs="контрагарант"/>
+				<TLCConcept eId="cocnept18" href="ontology.link.grupa.individua" showAs="измири"/>
+				<TLCConcept eId="cocnept19" href="ontology.link.grupa.individua" showAs="међународни"/>
+				<TLCConcept eId="cocnept20" href="ontology.link.grupa.individua" showAs="000"/>
+				<TLCConcept eId="cocnept21" href="ontology.link.grupa.individua" showAs="преузима"/>
+				<TLCConcept eId="cocnept22" href="ontology.link.grupa.individua" showAs="обавезу"/>
+				<TLCConcept eId="cocnept23" href="ontology.link.grupa.individua" showAs="потписаног"/>
+				<TLCConcept eId="cocnept24" href="ontology.link.grupa.individua" showAs="права"/>
+				<TLCConcept eId="cocnept25" href="ontology.link.grupa.individua" showAs="додацима"/>
+				<TLCConcept eId="cocnept26" href="ontology.link.grupa.individua" showAs="ратификацији"/>
+				<TLCConcept eId="cocnept27" href="ontology.link.grupa.individua" showAs="ратификован"/>
+				<TLCConcept eId="cocnept28" href="ontology.link.grupa.individua" showAs="специјалних"/>
+				<TLCConcept eId="cocnept29" href="ontology.link.grupa.individua" showAs="уговори"/>
+				<TLCConcept eId="cocnept30" href="ontology.link.grupa.individua" showAs="законом"/>
+				<TLCConcept eId="cocnept31" href="ontology.link.grupa.individua" showAs="јун"/>
+				<TLCConcept eId="cocnept32" href="ontology.link.grupa.individua" showAs="600"/>
+				<TLCConcept eId="cocnept33" href="ontology.link.grupa.individua" showAs="17"/>
+				<TLCConcept eId="cocnept34" href="ontology.link.grupa.individua" showAs="22"/>
+				<TLCConcept eId="cocnept35" href="ontology.link.grupa.individua" showAs="године"/>
+				<TLCConcept eId="cocnept36" href="ontology.link.grupa.individua" showAs="2005"/>
+				<TLCConcept eId="cocnept37" href="ontology.link.grupa.individua" showAs="вучења"/>
+				<TLCConcept eId="cocnept38" href="ontology.link.grupa.individua" showAs="16"/>
+				<TLCConcept eId="cocnept39" href="ontology.link.grupa.individua" showAs="бр"/>
+				<TLCConcept eId="cocnept40" href="ontology.link.grupa.individua" showAs="износу"/>
+				<TLCConcept eId="cocnept41" href="ontology.link.grupa.individua" showAs="обавезе"/>
+				<TLCConcept eId="cocnept42" href="ontology.link.grupa.individua" showAs="сцг"/>
+				<TLCConcept eId="cocnept43" href="ontology.link.grupa.individua" showAs="лист"/>
+				<TLCConcept eId="cocnept44" href="ontology.link.grupa.individua" showAs="република"/>
+				<TLCConcept eId="cocnept45" href="ontology.link.grupa.individua" showAs="србија"/>
 				<TLCLocation href="ontology.link.person.individua" showAs="Crne Gore"/>
 				<TLCLocation href="ontology.link.person.individua" showAs="Crnoj Gori"/>
 				<TLCLocation href="ontology.link.person.individua" showAs="RS"/>
@@ -113,7 +118,7 @@
 		</meta>
 		<preface>
 			<longTitle>
-				<p>Закон О давању контрагаранције републике србије србији и црној гори по кредиту међународног удружења за развој (пројекат консолидације наплате и реформе пензијске администрације у србији) "Службени гласник РС", број <ref wId="ref6" href=" akn/rs/act/zakon/skupština_(arhivska)/2006-04-17/2006-04-nn/srp@2006-04-17  ">34 од 18. априла 2006</ref>.</p>
+				<p>Закон О давању контрагаранције републике србије србији и црној гори по кредиту међународног удружења за развој (пројекат консолидације наплате и реформе пензијске администрације у србији) "Службени гласник РС", број <ref wId="ref6" href=" akn/rs/act/zakon/skupština/2006-04-17/2006-04-nn/srp@2006-04-17  ">34 од 18. априла 2006</ref>.</p>
 			</longTitle>
 		</preface>
 		<body>
@@ -129,7 +134,7 @@
 				<num>2.</num>
 				<paragraph wId="clan2-stav1">
 					<content>
-						<p>Контрагаранција из <ref wId="ref0" href="akn/rs/act/zakon/skupština_(arhivska)/2006-04-17/2006-04-nn/srp@2006-04-17/!main~art_1" >члана 1. овог</ref> закона даје се Србији и Црној Гори, на име обавезе из Закона о задужењу Србије и Црне Горе код Међународног удружења за развој (Пројекат консолидације наплате и реформе пензијске администрације у Србији) („Службени лист СЦГ”, бр. <ref wId="ref1" href="akn/rs/act/zakon/skupština_(arhivska)/2006-04-17/2006-04-nn/srp@2006-04-17 ">44/05</ref> и <ref wId="ref2" href="akn/rs/act/zakon/skupština_(arhivska)/2006-04-17/2006-04-nn/srp@2006-04-17 ">53/05</ref>).</p>
+						<p>Контрагаранција из <ref wId="ref0" href="akn/rs/act/zakon/skupština/2006-04-17/2006-04-nn/srp@2006-04-17/!main~art_1" >члана 1. овог</ref> закона даје се Србији и Црној Гори, на име обавезе из Закона о задужењу Србије и Црне Горе код Међународног удружења за развој (Пројекат консолидације наплате и реформе пензијске администрације у Србији) („Службени лист СЦГ”, бр. <ref wId="ref1" href="akn/rs/act/zakon/skupština/2006-04-17/2006-04-nn/srp@2006-04-17 ">44/05</ref> и <ref wId="ref2" href="akn/rs/act/zakon/skupština/2006-04-17/2006-04-nn/srp@2006-04-17 ">53/05</ref>).</p>
 					</content>
 				</paragraph>
 			</article>
@@ -137,7 +142,7 @@
 				<num>3.</num>
 				<paragraph wId="clan3-stav1">
 					<content>
-						<p>Корисник кредита по основу Споразума о кредиту за развој из <ref wId="ref3" href="akn/rs/act/zakon/skupština_(arhivska)/2006-04-17/2006-04-nn/srp@2006-04-17/!main~art_1" >члана 1. овог</ref> закона је Република Србија (у даљем тексту: Корисник кредита).</p>
+						<p>Корисник кредита по основу Споразума о кредиту за развој из <ref wId="ref3" href="akn/rs/act/zakon/skupština/2006-04-17/2006-04-nn/srp@2006-04-17/!main~art_1" >члана 1. овог</ref> закона је Република Србија (у даљем тексту: Корисник кредита).</p>
 					</content>
 				</paragraph>
 			</article>
@@ -145,7 +150,7 @@
 				<num>4.</num>
 				<paragraph wId="clan4-stav1">
 					<content>
-						<p>Средства за отплату кредита по основу Споразума о кредиту за развој из <ref wId="ref4" href="akn/rs/act/zakon/skupština_(arhivska)/2006-04-17/2006-04-nn/srp@2006-04-17/!main~art_1" >члана 1. овог</ref> закона, обезбедиће Корисник кредита.</p>
+						<p>Средства за отплату кредита по основу Споразума о кредиту за развој из <ref wId="ref4" href="akn/rs/act/zakon/skupština/2006-04-17/2006-04-nn/srp@2006-04-17/!main~art_1" >члана 1. овог</ref> закона, обезбедиће Корисник кредита.</p>
 					</content>
 				</paragraph>
 				<paragraph wId="clan4-stav2">
@@ -173,7 +178,7 @@
 				</paragraph>
 				<paragraph wId="clan5-stav3">
 					<content>
-						<p>&quot;Службени гласник РС&quot;, број <ref wId="ref5" href=" akn/rs/act/zakon/skupština_(arhivska)/2006-04-17/2006-04-nn/srp@2006-04-17  ">34 од 18. априла 2006</ref>.</p>
+						<p>&quot;Службени гласник РС&quot;, број <ref wId="ref5" href=" akn/rs/act/zakon/skupština/2006-04-17/2006-04-nn/srp@2006-04-17  ">34 од 18. априла 2006</ref>.</p>
 					</content>
 				</paragraph>
 			</article>
