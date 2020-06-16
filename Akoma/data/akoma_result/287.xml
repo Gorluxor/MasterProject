@@ -33,6 +33,37 @@
 				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="Закон" value="закон" wId="vrsta"/>
 				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="V МОНЕТАРНИ СИСТЕМ, ФИНАНСИЈСКЕ ОРГАНИЗАЦИЈЕ И ФИНАНСИЈСКО ПОСЛОВАЊЕ" value="v монетарни систем, финансијске организације и финансијско пословање" wId="oblast"/>
 				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="9. Задуживање и гаранције" value="9. задуживање и гаранције" wId="grupa"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Miliona" value="miliona"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Evra" value="evra"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Novi" value="novi"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Erste" value="erste"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Banke" value="banke"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Sad" value="sad"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Bank" value="bank"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Zadužiće" value="zadužiće"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="16" value="16"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="160" value="160"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Tekstu" value="tekstu"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Podeljeno" value="podeljeno"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Daljem" value="daljem"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Srbija" value="srbija"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="10" value="10"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Deficita" value="deficita"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Refinansiranje" value="refinansiranje"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Republika" value="republika"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Iznosu" value="iznosu"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Budžetskog" value="budžetskog"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Duga" value="duga"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Finansiranje" value="finansiranje"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Kod" value="kod"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Marfin" value="marfin"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Partija" value="partija"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Gcib" value="gcib"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Amsterdam" value="amsterdam"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Finance" value="finance"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Vojvođanske" value="vojvođanske"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Beograd" value="beograd"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Agentom" value="agentom"/>
 			</classification>
 			<lifecycle source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2010/18/4/reg/">
 				<eventRef date="2010-03-23" href="#datum_usvajanja" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2010/18/4/reg/" type="generation"/>
@@ -45,37 +76,37 @@
 				<step by="/akn/rs/srp@ontology" date="2010-03-27" wId="primena"/>
 			</workflow>
 			<references source="#somebody">
-				<TLCConcept eId="cocnept0" href="ontology.link.grupa.individua" showAs="милиона"/>
-				<TLCConcept eId="cocnept1" href="ontology.link.grupa.individua" showAs="евра"/>
-				<TLCConcept eId="cocnept2" href="ontology.link.grupa.individua" showAs="нови"/>
-				<TLCConcept eId="cocnept3" href="ontology.link.grupa.individua" showAs="erste"/>
-				<TLCConcept eId="cocnept4" href="ontology.link.grupa.individua" showAs="банке"/>
-				<TLCConcept eId="cocnept5" href="ontology.link.grupa.individua" showAs="сад"/>
-				<TLCConcept eId="cocnept6" href="ontology.link.grupa.individua" showAs="bank"/>
-				<TLCConcept eId="cocnept7" href="ontology.link.grupa.individua" showAs="задужиће"/>
+				<TLCConcept eId="cocnept0" href="ontology.link.grupa.individua" showAs="Miliona"/>
+				<TLCConcept eId="cocnept1" href="ontology.link.grupa.individua" showAs="Evra"/>
+				<TLCConcept eId="cocnept2" href="ontology.link.grupa.individua" showAs="Novi"/>
+				<TLCConcept eId="cocnept3" href="ontology.link.grupa.individua" showAs="Erste"/>
+				<TLCConcept eId="cocnept4" href="ontology.link.grupa.individua" showAs="Banke"/>
+				<TLCConcept eId="cocnept5" href="ontology.link.grupa.individua" showAs="Sad"/>
+				<TLCConcept eId="cocnept6" href="ontology.link.grupa.individua" showAs="Bank"/>
+				<TLCConcept eId="cocnept7" href="ontology.link.grupa.individua" showAs="Zadužiće"/>
 				<TLCConcept eId="cocnept8" href="ontology.link.grupa.individua" showAs="16"/>
 				<TLCConcept eId="cocnept9" href="ontology.link.grupa.individua" showAs="160"/>
-				<TLCConcept eId="cocnept10" href="ontology.link.grupa.individua" showAs="тексту"/>
-				<TLCConcept eId="cocnept11" href="ontology.link.grupa.individua" showAs="подељено"/>
-				<TLCConcept eId="cocnept12" href="ontology.link.grupa.individua" showAs="даљем"/>
-				<TLCConcept eId="cocnept13" href="ontology.link.grupa.individua" showAs="србија"/>
+				<TLCConcept eId="cocnept10" href="ontology.link.grupa.individua" showAs="Tekstu"/>
+				<TLCConcept eId="cocnept11" href="ontology.link.grupa.individua" showAs="Podeljeno"/>
+				<TLCConcept eId="cocnept12" href="ontology.link.grupa.individua" showAs="Daljem"/>
+				<TLCConcept eId="cocnept13" href="ontology.link.grupa.individua" showAs="Srbija"/>
 				<TLCConcept eId="cocnept14" href="ontology.link.grupa.individua" showAs="10"/>
-				<TLCConcept eId="cocnept15" href="ontology.link.grupa.individua" showAs="дефицита"/>
-				<TLCConcept eId="cocnept16" href="ontology.link.grupa.individua" showAs="рефинансирање"/>
-				<TLCConcept eId="cocnept17" href="ontology.link.grupa.individua" showAs="република"/>
-				<TLCConcept eId="cocnept18" href="ontology.link.grupa.individua" showAs="износу"/>
-				<TLCConcept eId="cocnept19" href="ontology.link.grupa.individua" showAs="буџетског"/>
-				<TLCConcept eId="cocnept20" href="ontology.link.grupa.individua" showAs="дуга"/>
-				<TLCConcept eId="cocnept21" href="ontology.link.grupa.individua" showAs="финансирање"/>
-				<TLCConcept eId="cocnept22" href="ontology.link.grupa.individua" showAs="код"/>
-				<TLCConcept eId="cocnept23" href="ontology.link.grupa.individua" showAs="marfin"/>
-				<TLCConcept eId="cocnept24" href="ontology.link.grupa.individua" showAs="партија"/>
-				<TLCConcept eId="cocnept25" href="ontology.link.grupa.individua" showAs="gcib"/>
-				<TLCConcept eId="cocnept26" href="ontology.link.grupa.individua" showAs="amsterdam"/>
-				<TLCConcept eId="cocnept27" href="ontology.link.grupa.individua" showAs="finance"/>
-				<TLCConcept eId="cocnept28" href="ontology.link.grupa.individua" showAs="војвођанске"/>
-				<TLCConcept eId="cocnept29" href="ontology.link.grupa.individua" showAs="београд"/>
-				<TLCConcept eId="cocnept30" href="ontology.link.grupa.individua" showAs="агентом"/>
+				<TLCConcept eId="cocnept15" href="ontology.link.grupa.individua" showAs="Deficita"/>
+				<TLCConcept eId="cocnept16" href="ontology.link.grupa.individua" showAs="Refinansiranje"/>
+				<TLCConcept eId="cocnept17" href="ontology.link.grupa.individua" showAs="Republika"/>
+				<TLCConcept eId="cocnept18" href="ontology.link.grupa.individua" showAs="Iznosu"/>
+				<TLCConcept eId="cocnept19" href="ontology.link.grupa.individua" showAs="Budžetskog"/>
+				<TLCConcept eId="cocnept20" href="ontology.link.grupa.individua" showAs="Duga"/>
+				<TLCConcept eId="cocnept21" href="ontology.link.grupa.individua" showAs="Finansiranje"/>
+				<TLCConcept eId="cocnept22" href="ontology.link.grupa.individua" showAs="Kod"/>
+				<TLCConcept eId="cocnept23" href="ontology.link.grupa.individua" showAs="Marfin"/>
+				<TLCConcept eId="cocnept24" href="ontology.link.grupa.individua" showAs="Partija"/>
+				<TLCConcept eId="cocnept25" href="ontology.link.grupa.individua" showAs="Gcib"/>
+				<TLCConcept eId="cocnept26" href="ontology.link.grupa.individua" showAs="Amsterdam"/>
+				<TLCConcept eId="cocnept27" href="ontology.link.grupa.individua" showAs="Finance"/>
+				<TLCConcept eId="cocnept28" href="ontology.link.grupa.individua" showAs="Vojvođanske"/>
+				<TLCConcept eId="cocnept29" href="ontology.link.grupa.individua" showAs="Beograd"/>
+				<TLCConcept eId="cocnept30" href="ontology.link.grupa.individua" showAs="Agentom"/>
 				<TLCLocation href="ontology.link.person.individua" showAs="Beograd"/>
 				<TLCLocation href="ontology.link.person.individua" showAs="Novi Sad"/>
 				<TLCLocation href="ontology.link.person.individua" showAs="Republike Srbije"/>

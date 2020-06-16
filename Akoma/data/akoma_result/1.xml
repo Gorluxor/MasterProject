@@ -33,6 +33,17 @@
 				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="Закон" value="закон" wId="vrsta"/>
 				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="I ДРЖАВНО УРЕЂЕЊЕ" value="i државно уређење" wId="oblast"/>
 				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="2. Грб, застава, химна и печат" value="2. грб, застава, химна и печат" wId="grupa"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Predstavljanje" value="predstavljanje"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Uređuju" value="uređuju"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Ovim" value="ovim"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Izgled" value="izgled"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Srbije" value="srbije"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Himne" value="himne"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Republike" value="republike"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Upotreba" value="upotreba"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Zakonom" value="zakonom"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Grba" value="grba"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Zastave" value="zastave"/>
 			</classification>
 			<lifecycle source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2009/36/1/reg/">
 				<eventRef date="2009-05-11" href="#datum_usvajanja" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2009/36/1/reg/" type="generation"/>
@@ -45,17 +56,17 @@
 				<step by="/akn/rs/srp@ontology" date="2009-05-23" wId="primena"/>
 			</workflow>
 			<references source="#somebody">
-				<TLCConcept eId="cocnept0" href="ontology.link.grupa.individua" showAs="представљање"/>
-				<TLCConcept eId="cocnept1" href="ontology.link.grupa.individua" showAs="уређују"/>
-				<TLCConcept eId="cocnept2" href="ontology.link.grupa.individua" showAs="овим"/>
-				<TLCConcept eId="cocnept3" href="ontology.link.grupa.individua" showAs="изглед"/>
-				<TLCConcept eId="cocnept4" href="ontology.link.grupa.individua" showAs="србије"/>
-				<TLCConcept eId="cocnept5" href="ontology.link.grupa.individua" showAs="химне"/>
-				<TLCConcept eId="cocnept6" href="ontology.link.grupa.individua" showAs="републике"/>
-				<TLCConcept eId="cocnept7" href="ontology.link.grupa.individua" showAs="употреба"/>
-				<TLCConcept eId="cocnept8" href="ontology.link.grupa.individua" showAs="законом"/>
-				<TLCConcept eId="cocnept9" href="ontology.link.grupa.individua" showAs="грба"/>
-				<TLCConcept eId="cocnept10" href="ontology.link.grupa.individua" showAs="заставе"/>
+				<TLCConcept eId="cocnept0" href="ontology.link.grupa.individua" showAs="Predstavljanje"/>
+				<TLCConcept eId="cocnept1" href="ontology.link.grupa.individua" showAs="Uređuju"/>
+				<TLCConcept eId="cocnept2" href="ontology.link.grupa.individua" showAs="Ovim"/>
+				<TLCConcept eId="cocnept3" href="ontology.link.grupa.individua" showAs="Izgled"/>
+				<TLCConcept eId="cocnept4" href="ontology.link.grupa.individua" showAs="Srbije"/>
+				<TLCConcept eId="cocnept5" href="ontology.link.grupa.individua" showAs="Himne"/>
+				<TLCConcept eId="cocnept6" href="ontology.link.grupa.individua" showAs="Republike"/>
+				<TLCConcept eId="cocnept7" href="ontology.link.grupa.individua" showAs="Upotreba"/>
+				<TLCConcept eId="cocnept8" href="ontology.link.grupa.individua" showAs="Zakonom"/>
+				<TLCConcept eId="cocnept9" href="ontology.link.grupa.individua" showAs="Grba"/>
+				<TLCConcept eId="cocnept10" href="ontology.link.grupa.individua" showAs="Zastave"/>
 				<TLCLocation href="ontology.link.person.individua" showAs="Avali"/>
 				<TLCLocation href="ontology.link.person.individua" showAs="Bože"/>
 				<TLCLocation href="ontology.link.person.individua" showAs="Republici Srbiji"/>

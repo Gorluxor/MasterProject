@@ -33,6 +33,18 @@
 				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="Закон" value="закон" wId="vrsta"/>
 				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="II ОДБРАНА, ВОЈСКА И УНУТРАШЊИ ПОСЛОВИ" value="ii одбрана, војска и унутрашњи послови" wId="oblast"/>
 				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="10. Лично име, лична карта, матични број грађана" value="10. лично име, лична карта, матични број грађана" wId="grupa"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Neponovljiva" value="neponovljiva"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Identifikacionih" value="identifikacionih"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Individualna" value="individualna"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Oznaka" value="oznaka"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Jedinstveni" value="jedinstveni"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Matični" value="matični"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Daljem" value="daljem"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Tekstu" value="tekstu"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Broj" value="broj"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Građaninu" value="građaninu"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Građana" value="građana"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Podataka" value="podataka"/>
 			</classification>
 			<lifecycle source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2018/24/6/reg/">
 				<eventRef date="2018-03-22" href="#datum_usvajanja" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2018/24/6/reg/" type="generation"/>
@@ -45,18 +57,18 @@
 				<step by="/akn/rs/srp@ontology" date="2018-04-03" wId="primena"/>
 			</workflow>
 			<references source="#somebody">
-				<TLCConcept eId="cocnept0" href="ontology.link.grupa.individua" showAs="непоновљива"/>
-				<TLCConcept eId="cocnept1" href="ontology.link.grupa.individua" showAs="идентификационих"/>
-				<TLCConcept eId="cocnept2" href="ontology.link.grupa.individua" showAs="индивидуална"/>
-				<TLCConcept eId="cocnept3" href="ontology.link.grupa.individua" showAs="ознака"/>
-				<TLCConcept eId="cocnept4" href="ontology.link.grupa.individua" showAs="јединствени"/>
-				<TLCConcept eId="cocnept5" href="ontology.link.grupa.individua" showAs="матични"/>
-				<TLCConcept eId="cocnept6" href="ontology.link.grupa.individua" showAs="даљем"/>
-				<TLCConcept eId="cocnept7" href="ontology.link.grupa.individua" showAs="тексту"/>
-				<TLCConcept eId="cocnept8" href="ontology.link.grupa.individua" showAs="број"/>
-				<TLCConcept eId="cocnept9" href="ontology.link.grupa.individua" showAs="грађанину"/>
-				<TLCConcept eId="cocnept10" href="ontology.link.grupa.individua" showAs="грађана"/>
-				<TLCConcept eId="cocnept11" href="ontology.link.grupa.individua" showAs="података"/>
+				<TLCConcept eId="cocnept0" href="ontology.link.grupa.individua" showAs="Neponovljiva"/>
+				<TLCConcept eId="cocnept1" href="ontology.link.grupa.individua" showAs="Identifikacionih"/>
+				<TLCConcept eId="cocnept2" href="ontology.link.grupa.individua" showAs="Individualna"/>
+				<TLCConcept eId="cocnept3" href="ontology.link.grupa.individua" showAs="Oznaka"/>
+				<TLCConcept eId="cocnept4" href="ontology.link.grupa.individua" showAs="Jedinstveni"/>
+				<TLCConcept eId="cocnept5" href="ontology.link.grupa.individua" showAs="Matični"/>
+				<TLCConcept eId="cocnept6" href="ontology.link.grupa.individua" showAs="Daljem"/>
+				<TLCConcept eId="cocnept7" href="ontology.link.grupa.individua" showAs="Tekstu"/>
+				<TLCConcept eId="cocnept8" href="ontology.link.grupa.individua" showAs="Broj"/>
+				<TLCConcept eId="cocnept9" href="ontology.link.grupa.individua" showAs="Građaninu"/>
+				<TLCConcept eId="cocnept10" href="ontology.link.grupa.individua" showAs="Građana"/>
+				<TLCConcept eId="cocnept11" href="ontology.link.grupa.individua" showAs="Podataka"/>
 				<TLCPerson href="ontology.link.person.individua" showAs="Koceljeva"/>
 				<TLCLocation href="ontology.link.person.individua" showAs="Aleksandrovac"/>
 				<TLCLocation href="ontology.link.person.individua" showAs="Alibunar"/>

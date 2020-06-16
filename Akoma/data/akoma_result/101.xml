@@ -33,6 +33,32 @@
 				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="Закон" value="закон" wId="vrsta"/>
 				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="II ОДБРАНА, ВОЈСКА И УНУТРАШЊИ ПОСЛОВИ" value="ii одбрана, војска и унутрашњи послови" wId="oblast"/>
 				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="10. Лично име, лична карта, матични број грађана" value="10. лично име, лична карта, матични број грађана" wId="grupa"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Rodu" value="rodu"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Uspostavljanje" value="uspostavljanje"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Vođenje" value="vođenje"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Korišćenja" value="korišćenja"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Pojedinih" value="pojedinih"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Izraza" value="izraza"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Iste" value="iste"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Pojmovi" value="pojmovi"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Ovim" value="ovim"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Muškom" value="muškom"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Pojmove" value="pojmove"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Ženskom" value="ženskom"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Obuhvataju" value="obuhvataju"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Sadržina" value="sadržina"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Ovom" value="ovom"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Značenje" value="značenje"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Pitanja" value="pitanja"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Druga" value="druga"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Zakonu" value="zakonu"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Značaja" value="značaja"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Način" value="način"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Stanovništva" value="stanovništva"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Koriste" value="koriste"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Uređuje" value="uređuje"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Republike" value="republike"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Srbije" value="srbije"/>
 			</classification>
 			<lifecycle source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2019/17/1/reg/">
 				<eventRef date="2019-03-14" href="#datum_usvajanja" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2019/17/1/reg/" type="generation"/>
@@ -45,32 +71,32 @@
 				<step by="/akn/rs/srp@ontology" date="2020-09-01" wId="primena"/>
 			</workflow>
 			<references source="#somebody">
-				<TLCConcept eId="cocnept0" href="ontology.link.grupa.individua" showAs="роду"/>
-				<TLCConcept eId="cocnept1" href="ontology.link.grupa.individua" showAs="успостављање"/>
-				<TLCConcept eId="cocnept2" href="ontology.link.grupa.individua" showAs="вођење"/>
-				<TLCConcept eId="cocnept3" href="ontology.link.grupa.individua" showAs="коришћења"/>
-				<TLCConcept eId="cocnept4" href="ontology.link.grupa.individua" showAs="појединих"/>
-				<TLCConcept eId="cocnept5" href="ontology.link.grupa.individua" showAs="израза"/>
-				<TLCConcept eId="cocnept6" href="ontology.link.grupa.individua" showAs="исте"/>
-				<TLCConcept eId="cocnept7" href="ontology.link.grupa.individua" showAs="појмови"/>
-				<TLCConcept eId="cocnept8" href="ontology.link.grupa.individua" showAs="овим"/>
-				<TLCConcept eId="cocnept9" href="ontology.link.grupa.individua" showAs="мушком"/>
-				<TLCConcept eId="cocnept10" href="ontology.link.grupa.individua" showAs="појмове"/>
-				<TLCConcept eId="cocnept11" href="ontology.link.grupa.individua" showAs="женском"/>
-				<TLCConcept eId="cocnept12" href="ontology.link.grupa.individua" showAs="обухватају"/>
-				<TLCConcept eId="cocnept13" href="ontology.link.grupa.individua" showAs="садржина"/>
-				<TLCConcept eId="cocnept14" href="ontology.link.grupa.individua" showAs="овом"/>
-				<TLCConcept eId="cocnept15" href="ontology.link.grupa.individua" showAs="значење"/>
-				<TLCConcept eId="cocnept16" href="ontology.link.grupa.individua" showAs="питања"/>
-				<TLCConcept eId="cocnept17" href="ontology.link.grupa.individua" showAs="друга"/>
-				<TLCConcept eId="cocnept18" href="ontology.link.grupa.individua" showAs="закону"/>
-				<TLCConcept eId="cocnept19" href="ontology.link.grupa.individua" showAs="значаја"/>
-				<TLCConcept eId="cocnept20" href="ontology.link.grupa.individua" showAs="начин"/>
-				<TLCConcept eId="cocnept21" href="ontology.link.grupa.individua" showAs="становништва"/>
-				<TLCConcept eId="cocnept22" href="ontology.link.grupa.individua" showAs="користе"/>
-				<TLCConcept eId="cocnept23" href="ontology.link.grupa.individua" showAs="уређује"/>
-				<TLCConcept eId="cocnept24" href="ontology.link.grupa.individua" showAs="републике"/>
-				<TLCConcept eId="cocnept25" href="ontology.link.grupa.individua" showAs="србије"/>
+				<TLCConcept eId="cocnept0" href="ontology.link.grupa.individua" showAs="Rodu"/>
+				<TLCConcept eId="cocnept1" href="ontology.link.grupa.individua" showAs="Uspostavljanje"/>
+				<TLCConcept eId="cocnept2" href="ontology.link.grupa.individua" showAs="Vođenje"/>
+				<TLCConcept eId="cocnept3" href="ontology.link.grupa.individua" showAs="Korišćenja"/>
+				<TLCConcept eId="cocnept4" href="ontology.link.grupa.individua" showAs="Pojedinih"/>
+				<TLCConcept eId="cocnept5" href="ontology.link.grupa.individua" showAs="Izraza"/>
+				<TLCConcept eId="cocnept6" href="ontology.link.grupa.individua" showAs="Iste"/>
+				<TLCConcept eId="cocnept7" href="ontology.link.grupa.individua" showAs="Pojmovi"/>
+				<TLCConcept eId="cocnept8" href="ontology.link.grupa.individua" showAs="Ovim"/>
+				<TLCConcept eId="cocnept9" href="ontology.link.grupa.individua" showAs="Muškom"/>
+				<TLCConcept eId="cocnept10" href="ontology.link.grupa.individua" showAs="Pojmove"/>
+				<TLCConcept eId="cocnept11" href="ontology.link.grupa.individua" showAs="Ženskom"/>
+				<TLCConcept eId="cocnept12" href="ontology.link.grupa.individua" showAs="Obuhvataju"/>
+				<TLCConcept eId="cocnept13" href="ontology.link.grupa.individua" showAs="Sadržina"/>
+				<TLCConcept eId="cocnept14" href="ontology.link.grupa.individua" showAs="Ovom"/>
+				<TLCConcept eId="cocnept15" href="ontology.link.grupa.individua" showAs="Značenje"/>
+				<TLCConcept eId="cocnept16" href="ontology.link.grupa.individua" showAs="Pitanja"/>
+				<TLCConcept eId="cocnept17" href="ontology.link.grupa.individua" showAs="Druga"/>
+				<TLCConcept eId="cocnept18" href="ontology.link.grupa.individua" showAs="Zakonu"/>
+				<TLCConcept eId="cocnept19" href="ontology.link.grupa.individua" showAs="Značaja"/>
+				<TLCConcept eId="cocnept20" href="ontology.link.grupa.individua" showAs="Način"/>
+				<TLCConcept eId="cocnept21" href="ontology.link.grupa.individua" showAs="Stanovništva"/>
+				<TLCConcept eId="cocnept22" href="ontology.link.grupa.individua" showAs="Koriste"/>
+				<TLCConcept eId="cocnept23" href="ontology.link.grupa.individua" showAs="Uređuje"/>
+				<TLCConcept eId="cocnept24" href="ontology.link.grupa.individua" showAs="Republike"/>
+				<TLCConcept eId="cocnept25" href="ontology.link.grupa.individua" showAs="Srbije"/>
 				<TLCLocation href="ontology.link.person.individua" showAs="Centralni registar"/>
 				<TLCLocation href="ontology.link.person.individua" showAs="Centralnim registrom"/>
 				<TLCLocation href="ontology.link.person.individua" showAs="Centralnog registra"/>

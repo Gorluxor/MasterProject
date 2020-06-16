@@ -33,6 +33,19 @@
 				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="Закон" value="закон" wId="vrsta"/>
 				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="I ДРЖАВНО УРЕЂЕЊЕ" value="i државно уређење" wId="oblast"/>
 				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="2. Грб, застава, химна и печат" value="2. грб, застава, химна и печат" wId="grupa"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Upotreba" value="upotreba"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Uređuju" value="uređuju"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Ovim" value="ovim"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Državnog" value="državnog"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Pečata" value="pečata"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Izgled" value="izgled"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Daljem" value="daljem"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Tekstu" value="tekstu"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Zakonom" value="zakonom"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Srbije" value="srbije"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Republike" value="republike"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Državni" value="državni"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Pečat" value="pečat"/>
 			</classification>
 			<lifecycle source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2007/101/5/reg/">
 				<eventRef date="2007-11-05" href="#datum_usvajanja" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2007/101/5/reg/" type="generation"/>
@@ -45,19 +58,19 @@
 				<step by="/akn/rs/srp@ontology" date="2007-11-14" wId="primena"/>
 			</workflow>
 			<references source="#somebody">
-				<TLCConcept eId="cocnept0" href="ontology.link.grupa.individua" showAs="употреба"/>
-				<TLCConcept eId="cocnept1" href="ontology.link.grupa.individua" showAs="уређују"/>
-				<TLCConcept eId="cocnept2" href="ontology.link.grupa.individua" showAs="овим"/>
-				<TLCConcept eId="cocnept3" href="ontology.link.grupa.individua" showAs="државног"/>
-				<TLCConcept eId="cocnept4" href="ontology.link.grupa.individua" showAs="печата"/>
-				<TLCConcept eId="cocnept5" href="ontology.link.grupa.individua" showAs="изглед"/>
-				<TLCConcept eId="cocnept6" href="ontology.link.grupa.individua" showAs="даљем"/>
-				<TLCConcept eId="cocnept7" href="ontology.link.grupa.individua" showAs="тексту"/>
-				<TLCConcept eId="cocnept8" href="ontology.link.grupa.individua" showAs="законом"/>
-				<TLCConcept eId="cocnept9" href="ontology.link.grupa.individua" showAs="србије"/>
-				<TLCConcept eId="cocnept10" href="ontology.link.grupa.individua" showAs="републике"/>
-				<TLCConcept eId="cocnept11" href="ontology.link.grupa.individua" showAs="државни"/>
-				<TLCConcept eId="cocnept12" href="ontology.link.grupa.individua" showAs="печат"/>
+				<TLCConcept eId="cocnept0" href="ontology.link.grupa.individua" showAs="Upotreba"/>
+				<TLCConcept eId="cocnept1" href="ontology.link.grupa.individua" showAs="Uređuju"/>
+				<TLCConcept eId="cocnept2" href="ontology.link.grupa.individua" showAs="Ovim"/>
+				<TLCConcept eId="cocnept3" href="ontology.link.grupa.individua" showAs="Državnog"/>
+				<TLCConcept eId="cocnept4" href="ontology.link.grupa.individua" showAs="Pečata"/>
+				<TLCConcept eId="cocnept5" href="ontology.link.grupa.individua" showAs="Izgled"/>
+				<TLCConcept eId="cocnept6" href="ontology.link.grupa.individua" showAs="Daljem"/>
+				<TLCConcept eId="cocnept7" href="ontology.link.grupa.individua" showAs="Tekstu"/>
+				<TLCConcept eId="cocnept8" href="ontology.link.grupa.individua" showAs="Zakonom"/>
+				<TLCConcept eId="cocnept9" href="ontology.link.grupa.individua" showAs="Srbije"/>
+				<TLCConcept eId="cocnept10" href="ontology.link.grupa.individua" showAs="Republike"/>
+				<TLCConcept eId="cocnept11" href="ontology.link.grupa.individua" showAs="Državni"/>
+				<TLCConcept eId="cocnept12" href="ontology.link.grupa.individua" showAs="Pečat"/>
 				<TLCLocation href="ontology.link.person.individua" showAs="Republike"/>
 				<TLCLocation href="ontology.link.person.individua" showAs="Republike Srbije"/>
 				<TLCOrganization href="ontology.link.person.individua" showAs="Generalni sekretar predsednika Republike i Generalni sekretar Vlade"/>

@@ -227,18 +227,20 @@ class MetadataBuilder():
         if len(list_of_concepts) > 0:
             for concept in list_of_concepts[0]:
                 concept_ref = ET.Element("TLCConcept",
-                                         {"eId": "cocnept" + str(cnt_concept), "href": conceptIri, "showAs": concept})
+                                         {"eId": "cocnept" + str(cnt_concept), "href": conceptIri, "showAs": Convert.convert_string(concept).capitalize()})
                 base.append(concept_ref)
                 cnt_concept = cnt_concept + 1
         return base
 
-    def keywords_za_marka(self, list_of_concepts: list):
-        conceptIri = "ontology.link.grupa.individua"
+    def keywords_za_marka(self, list_of_concepts: list, uri="ontology.link.grupa.individua"):
+        conceptIri = uri
         base = self.classification
         if len(list_of_concepts) > 0:
             for concept in list_of_concepts[0]:
+                lat_con = Convert.convert_string(concept)
                 concept_ref = ET.Element("keyword",
-                                         {"href": conceptIri, "showAs": concept, "dictionary": "RS"})
+                                         {"href": conceptIri, "showAs": lat_con.capitalize(), "value": lat_con.lower(),
+                                          "dictionary": "RS"})
                 base.append(concept_ref)
         return base
 
@@ -362,7 +364,7 @@ class MetadataBuilder():
             list_of_concept = get_tf_idf_values_document("data/acts", filenames=filename, latin=False,
                                                          with_file_names=False)
             references = self.references(filename, list_of_concepts=list_of_concept)
-
+            self.keywords_za_marka(list_of_concept)
             meta.append(references)
 
         if metainfo.napomena_izdavaca != "" or metainfo.dodatne_informacije != "":

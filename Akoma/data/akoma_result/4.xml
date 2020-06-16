@@ -33,6 +33,11 @@
 				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="Закон" value="закон" wId="vrsta"/>
 				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="I ДРЖАВНО УРЕЂЕЊЕ" value="i државно уређење" wId="oblast"/>
 				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="3. Држављанство" value="3. држављанство" wId="grupa"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Građani" value="građani"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Imaju" value="imaju"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Republike" value="republike"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Srbije" value="srbije"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Državljanstvo" value="državljanstvo"/>
 			</classification>
 			<lifecycle source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2004/135/4/reg/20180403">
 				<eventRef date="2004-12-14" href="#datum_usvajanja" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2004/135/4/reg/20180403" type="generation"/>
@@ -45,11 +50,11 @@
 				<step by="/akn/rs/srp@ontology" date="2005-02-28" wId="primena"/>
 			</workflow>
 			<references source="#somebody">
-				<TLCConcept eId="cocnept0" href="ontology.link.grupa.individua" showAs="грађани"/>
-				<TLCConcept eId="cocnept1" href="ontology.link.grupa.individua" showAs="имају"/>
-				<TLCConcept eId="cocnept2" href="ontology.link.grupa.individua" showAs="републике"/>
-				<TLCConcept eId="cocnept3" href="ontology.link.grupa.individua" showAs="србије"/>
-				<TLCConcept eId="cocnept4" href="ontology.link.grupa.individua" showAs="држављанство"/>
+				<TLCConcept eId="cocnept0" href="ontology.link.grupa.individua" showAs="Građani"/>
+				<TLCConcept eId="cocnept1" href="ontology.link.grupa.individua" showAs="Imaju"/>
+				<TLCConcept eId="cocnept2" href="ontology.link.grupa.individua" showAs="Republike"/>
+				<TLCConcept eId="cocnept3" href="ontology.link.grupa.individua" showAs="Srbije"/>
+				<TLCConcept eId="cocnept4" href="ontology.link.grupa.individua" showAs="Državljanstvo"/>
 				<TLCPerson href="ontology.link.person.individua" showAs="Uslov"/>
 				<TLCLocation href="ontology.link.person.individua" showAs="Beograda"/>
 				<TLCLocation href="ontology.link.person.individua" showAs="RS"/>

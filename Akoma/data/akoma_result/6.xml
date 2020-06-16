@@ -33,6 +33,48 @@
 				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="Закон" value="закон" wId="vrsta"/>
 				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="I ДРЖАВНО УРЕЂЕЊЕ" value="i државно уређење" wId="oblast"/>
 				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="4. Државни и други празници, годишњице и дани који се посебно обележавају" value="4. државни и други празници, годишњице и дани који се посебно обележавају" wId="grupa"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Dan" value="dan"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Praznik" value="praznik"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Srbije" value="srbije"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Nova" value="nova"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Maja" value="maja"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Prvom" value="prvom"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Primirja" value="primirja"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Državnosti" value="državnosti"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Godina" value="godina"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Sretenje" value="sretenje"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Broj" value="broj"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Pobede" value="pobede"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Rada" value="rada"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Ratu" value="ratu"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Državni" value="državni"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Godine" value="godine"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Svetskom" value="svetskom"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Glasnik" value="glasnik"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Rs" value="rs"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="2011" value="2011"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="92" value="92"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Praznuje" value="praznuje"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Prvi" value="prvi"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Službeni" value="službeni"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Republike" value="republike"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="1835" value="1835"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="1804" value="1804"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Srpski" value="srpski"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Knjaževstva" value="knjaževstva"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Potvrđen" value="potvrđen"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="11" value="11"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Dignut" value="dignut"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Serbije" value="serbije"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Ustav" value="ustav"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Ustanak" value="ustanak"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="16" value="16"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Februara" value="februara"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Izdan" value="izdan"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Orašcu" value="orašcu"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Zboru" value="zboru"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Zakletvom" value="zakletvom"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="15" value="15"/>
 			</classification>
 			<lifecycle source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2001/43/1/reg/20111215">
 				<eventRef date="2001-07-10" href="#datum_usvajanja" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2001/43/1/reg/20111215" type="generation"/>
@@ -45,47 +87,47 @@
 				<step by="/akn/rs/srp@ontology" date="2001-07-25" wId="primena"/>
 			</workflow>
 			<references source="#somebody">
-				<TLCConcept eId="cocnept0" href="ontology.link.grupa.individua" showAs="дан"/>
-				<TLCConcept eId="cocnept1" href="ontology.link.grupa.individua" showAs="празник"/>
-				<TLCConcept eId="cocnept2" href="ontology.link.grupa.individua" showAs="србије"/>
-				<TLCConcept eId="cocnept3" href="ontology.link.grupa.individua" showAs="нова"/>
-				<TLCConcept eId="cocnept4" href="ontology.link.grupa.individua" showAs="маја"/>
-				<TLCConcept eId="cocnept5" href="ontology.link.grupa.individua" showAs="првом"/>
-				<TLCConcept eId="cocnept6" href="ontology.link.grupa.individua" showAs="примирја"/>
-				<TLCConcept eId="cocnept7" href="ontology.link.grupa.individua" showAs="државности"/>
-				<TLCConcept eId="cocnept8" href="ontology.link.grupa.individua" showAs="година"/>
-				<TLCConcept eId="cocnept9" href="ontology.link.grupa.individua" showAs="сретење"/>
-				<TLCConcept eId="cocnept10" href="ontology.link.grupa.individua" showAs="број"/>
-				<TLCConcept eId="cocnept11" href="ontology.link.grupa.individua" showAs="победе"/>
-				<TLCConcept eId="cocnept12" href="ontology.link.grupa.individua" showAs="рада"/>
-				<TLCConcept eId="cocnept13" href="ontology.link.grupa.individua" showAs="рату"/>
-				<TLCConcept eId="cocnept14" href="ontology.link.grupa.individua" showAs="државни"/>
-				<TLCConcept eId="cocnept15" href="ontology.link.grupa.individua" showAs="године"/>
-				<TLCConcept eId="cocnept16" href="ontology.link.grupa.individua" showAs="светском"/>
-				<TLCConcept eId="cocnept17" href="ontology.link.grupa.individua" showAs="гласник"/>
-				<TLCConcept eId="cocnept18" href="ontology.link.grupa.individua" showAs="рс"/>
+				<TLCConcept eId="cocnept0" href="ontology.link.grupa.individua" showAs="Dan"/>
+				<TLCConcept eId="cocnept1" href="ontology.link.grupa.individua" showAs="Praznik"/>
+				<TLCConcept eId="cocnept2" href="ontology.link.grupa.individua" showAs="Srbije"/>
+				<TLCConcept eId="cocnept3" href="ontology.link.grupa.individua" showAs="Nova"/>
+				<TLCConcept eId="cocnept4" href="ontology.link.grupa.individua" showAs="Maja"/>
+				<TLCConcept eId="cocnept5" href="ontology.link.grupa.individua" showAs="Prvom"/>
+				<TLCConcept eId="cocnept6" href="ontology.link.grupa.individua" showAs="Primirja"/>
+				<TLCConcept eId="cocnept7" href="ontology.link.grupa.individua" showAs="Državnosti"/>
+				<TLCConcept eId="cocnept8" href="ontology.link.grupa.individua" showAs="Godina"/>
+				<TLCConcept eId="cocnept9" href="ontology.link.grupa.individua" showAs="Sretenje"/>
+				<TLCConcept eId="cocnept10" href="ontology.link.grupa.individua" showAs="Broj"/>
+				<TLCConcept eId="cocnept11" href="ontology.link.grupa.individua" showAs="Pobede"/>
+				<TLCConcept eId="cocnept12" href="ontology.link.grupa.individua" showAs="Rada"/>
+				<TLCConcept eId="cocnept13" href="ontology.link.grupa.individua" showAs="Ratu"/>
+				<TLCConcept eId="cocnept14" href="ontology.link.grupa.individua" showAs="Državni"/>
+				<TLCConcept eId="cocnept15" href="ontology.link.grupa.individua" showAs="Godine"/>
+				<TLCConcept eId="cocnept16" href="ontology.link.grupa.individua" showAs="Svetskom"/>
+				<TLCConcept eId="cocnept17" href="ontology.link.grupa.individua" showAs="Glasnik"/>
+				<TLCConcept eId="cocnept18" href="ontology.link.grupa.individua" showAs="Rs"/>
 				<TLCConcept eId="cocnept19" href="ontology.link.grupa.individua" showAs="2011"/>
 				<TLCConcept eId="cocnept20" href="ontology.link.grupa.individua" showAs="92"/>
-				<TLCConcept eId="cocnept21" href="ontology.link.grupa.individua" showAs="празнује"/>
-				<TLCConcept eId="cocnept22" href="ontology.link.grupa.individua" showAs="први"/>
-				<TLCConcept eId="cocnept23" href="ontology.link.grupa.individua" showAs="службени"/>
-				<TLCConcept eId="cocnept24" href="ontology.link.grupa.individua" showAs="републике"/>
+				<TLCConcept eId="cocnept21" href="ontology.link.grupa.individua" showAs="Praznuje"/>
+				<TLCConcept eId="cocnept22" href="ontology.link.grupa.individua" showAs="Prvi"/>
+				<TLCConcept eId="cocnept23" href="ontology.link.grupa.individua" showAs="Službeni"/>
+				<TLCConcept eId="cocnept24" href="ontology.link.grupa.individua" showAs="Republike"/>
 				<TLCConcept eId="cocnept25" href="ontology.link.grupa.individua" showAs="1835"/>
 				<TLCConcept eId="cocnept26" href="ontology.link.grupa.individua" showAs="1804"/>
-				<TLCConcept eId="cocnept27" href="ontology.link.grupa.individua" showAs="српски"/>
-				<TLCConcept eId="cocnept28" href="ontology.link.grupa.individua" showAs="књажевства"/>
-				<TLCConcept eId="cocnept29" href="ontology.link.grupa.individua" showAs="потврђен"/>
+				<TLCConcept eId="cocnept27" href="ontology.link.grupa.individua" showAs="Srpski"/>
+				<TLCConcept eId="cocnept28" href="ontology.link.grupa.individua" showAs="Knjaževstva"/>
+				<TLCConcept eId="cocnept29" href="ontology.link.grupa.individua" showAs="Potvrđen"/>
 				<TLCConcept eId="cocnept30" href="ontology.link.grupa.individua" showAs="11"/>
-				<TLCConcept eId="cocnept31" href="ontology.link.grupa.individua" showAs="дигнут"/>
-				<TLCConcept eId="cocnept32" href="ontology.link.grupa.individua" showAs="сербије"/>
-				<TLCConcept eId="cocnept33" href="ontology.link.grupa.individua" showAs="устав"/>
-				<TLCConcept eId="cocnept34" href="ontology.link.grupa.individua" showAs="устанак"/>
+				<TLCConcept eId="cocnept31" href="ontology.link.grupa.individua" showAs="Dignut"/>
+				<TLCConcept eId="cocnept32" href="ontology.link.grupa.individua" showAs="Serbije"/>
+				<TLCConcept eId="cocnept33" href="ontology.link.grupa.individua" showAs="Ustav"/>
+				<TLCConcept eId="cocnept34" href="ontology.link.grupa.individua" showAs="Ustanak"/>
 				<TLCConcept eId="cocnept35" href="ontology.link.grupa.individua" showAs="16"/>
-				<TLCConcept eId="cocnept36" href="ontology.link.grupa.individua" showAs="фебруара"/>
-				<TLCConcept eId="cocnept37" href="ontology.link.grupa.individua" showAs="издан"/>
-				<TLCConcept eId="cocnept38" href="ontology.link.grupa.individua" showAs="орашцу"/>
-				<TLCConcept eId="cocnept39" href="ontology.link.grupa.individua" showAs="збору"/>
-				<TLCConcept eId="cocnept40" href="ontology.link.grupa.individua" showAs="заклетвом"/>
+				<TLCConcept eId="cocnept36" href="ontology.link.grupa.individua" showAs="Februara"/>
+				<TLCConcept eId="cocnept37" href="ontology.link.grupa.individua" showAs="Izdan"/>
+				<TLCConcept eId="cocnept38" href="ontology.link.grupa.individua" showAs="Orašcu"/>
+				<TLCConcept eId="cocnept39" href="ontology.link.grupa.individua" showAs="Zboru"/>
+				<TLCConcept eId="cocnept40" href="ontology.link.grupa.individua" showAs="Zakletvom"/>
 				<TLCConcept eId="cocnept41" href="ontology.link.grupa.individua" showAs="15"/>
 				<TLCPerson href="ontology.link.person.individua" showAs="Nova"/>
 				<TLCLocation href="ontology.link.person.individua" showAs="Kosovsku bitku"/>

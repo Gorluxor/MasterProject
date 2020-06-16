@@ -33,6 +33,52 @@
 				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="Закон" value="закон" wId="vrsta"/>
 				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="V МОНЕТАРНИ СИСТЕМ, ФИНАНСИЈСКЕ ОРГАНИЗАЦИЈЕ И ФИНАНСИЈСКО ПОСЛОВАЊЕ" value="v монетарни систем, финансијске организације и финансијско пословање" wId="oblast"/>
 				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="9. Задуживање и гаранције" value="9. задуживање и гаранције" wId="grupa"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Između" value="između"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Razvoj" value="razvoj"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Crne" value="crne"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Gore" value="gore"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Srbije" value="srbije"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="05" value="05"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Konsolidacije" value="konsolidacije"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Administracije" value="administracije"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Međunarodnog" value="međunarodnog"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Penzijske" value="penzijske"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Projekat" value="projekat"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Naplate" value="naplate"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Reforme" value="reforme"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Srbiji" value="srbiji"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Udruženja" value="udruženja"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Sporazuma" value="sporazuma"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Kreditu" value="kreditu"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Kontragarant" value="kontragarant"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Izmiri" value="izmiri"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Međunarodni" value="međunarodni"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="000" value="000"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Preuzima" value="preuzima"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Obavezu" value="obavezu"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Potpisanog" value="potpisanog"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Prava" value="prava"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Dodacima" value="dodacima"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Ratifikaciji" value="ratifikaciji"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Ratifikovan" value="ratifikovan"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Specijalnih" value="specijalnih"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Ugovori" value="ugovori"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Zakonom" value="zakonom"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Jun" value="jun"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="600" value="600"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="17" value="17"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="22" value="22"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Godine" value="godine"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="2005" value="2005"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Vučenja" value="vučenja"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="16" value="16"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Br" value="br"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Iznosu" value="iznosu"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Obaveze" value="obaveze"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Scg" value="scg"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="List" value="list"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Republika" value="republika"/>
+				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Srbija" value="srbija"/>
 			</classification>
 			<lifecycle source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2006/34/8/reg/">
 				<eventRef date="2006-04-17" href="#datum_usvajanja" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2006/34/8/reg/" type="generation"/>
@@ -45,52 +91,52 @@
 				<step by="/akn/rs/srp@ontology" date="2006-04-26" wId="primena"/>
 			</workflow>
 			<references source="#somebody">
-				<TLCConcept eId="cocnept0" href="ontology.link.grupa.individua" showAs="између"/>
-				<TLCConcept eId="cocnept1" href="ontology.link.grupa.individua" showAs="развој"/>
-				<TLCConcept eId="cocnept2" href="ontology.link.grupa.individua" showAs="црне"/>
-				<TLCConcept eId="cocnept3" href="ontology.link.grupa.individua" showAs="горе"/>
-				<TLCConcept eId="cocnept4" href="ontology.link.grupa.individua" showAs="србије"/>
+				<TLCConcept eId="cocnept0" href="ontology.link.grupa.individua" showAs="Između"/>
+				<TLCConcept eId="cocnept1" href="ontology.link.grupa.individua" showAs="Razvoj"/>
+				<TLCConcept eId="cocnept2" href="ontology.link.grupa.individua" showAs="Crne"/>
+				<TLCConcept eId="cocnept3" href="ontology.link.grupa.individua" showAs="Gore"/>
+				<TLCConcept eId="cocnept4" href="ontology.link.grupa.individua" showAs="Srbije"/>
 				<TLCConcept eId="cocnept5" href="ontology.link.grupa.individua" showAs="05"/>
-				<TLCConcept eId="cocnept6" href="ontology.link.grupa.individua" showAs="консолидације"/>
-				<TLCConcept eId="cocnept7" href="ontology.link.grupa.individua" showAs="администрације"/>
-				<TLCConcept eId="cocnept8" href="ontology.link.grupa.individua" showAs="међународног"/>
-				<TLCConcept eId="cocnept9" href="ontology.link.grupa.individua" showAs="пензијске"/>
-				<TLCConcept eId="cocnept10" href="ontology.link.grupa.individua" showAs="пројекат"/>
-				<TLCConcept eId="cocnept11" href="ontology.link.grupa.individua" showAs="наплате"/>
-				<TLCConcept eId="cocnept12" href="ontology.link.grupa.individua" showAs="реформе"/>
-				<TLCConcept eId="cocnept13" href="ontology.link.grupa.individua" showAs="србији"/>
-				<TLCConcept eId="cocnept14" href="ontology.link.grupa.individua" showAs="удружења"/>
-				<TLCConcept eId="cocnept15" href="ontology.link.grupa.individua" showAs="споразума"/>
-				<TLCConcept eId="cocnept16" href="ontology.link.grupa.individua" showAs="кредиту"/>
-				<TLCConcept eId="cocnept17" href="ontology.link.grupa.individua" showAs="контрагарант"/>
-				<TLCConcept eId="cocnept18" href="ontology.link.grupa.individua" showAs="измири"/>
-				<TLCConcept eId="cocnept19" href="ontology.link.grupa.individua" showAs="међународни"/>
+				<TLCConcept eId="cocnept6" href="ontology.link.grupa.individua" showAs="Konsolidacije"/>
+				<TLCConcept eId="cocnept7" href="ontology.link.grupa.individua" showAs="Administracije"/>
+				<TLCConcept eId="cocnept8" href="ontology.link.grupa.individua" showAs="Međunarodnog"/>
+				<TLCConcept eId="cocnept9" href="ontology.link.grupa.individua" showAs="Penzijske"/>
+				<TLCConcept eId="cocnept10" href="ontology.link.grupa.individua" showAs="Projekat"/>
+				<TLCConcept eId="cocnept11" href="ontology.link.grupa.individua" showAs="Naplate"/>
+				<TLCConcept eId="cocnept12" href="ontology.link.grupa.individua" showAs="Reforme"/>
+				<TLCConcept eId="cocnept13" href="ontology.link.grupa.individua" showAs="Srbiji"/>
+				<TLCConcept eId="cocnept14" href="ontology.link.grupa.individua" showAs="Udruženja"/>
+				<TLCConcept eId="cocnept15" href="ontology.link.grupa.individua" showAs="Sporazuma"/>
+				<TLCConcept eId="cocnept16" href="ontology.link.grupa.individua" showAs="Kreditu"/>
+				<TLCConcept eId="cocnept17" href="ontology.link.grupa.individua" showAs="Kontragarant"/>
+				<TLCConcept eId="cocnept18" href="ontology.link.grupa.individua" showAs="Izmiri"/>
+				<TLCConcept eId="cocnept19" href="ontology.link.grupa.individua" showAs="Međunarodni"/>
 				<TLCConcept eId="cocnept20" href="ontology.link.grupa.individua" showAs="000"/>
-				<TLCConcept eId="cocnept21" href="ontology.link.grupa.individua" showAs="преузима"/>
-				<TLCConcept eId="cocnept22" href="ontology.link.grupa.individua" showAs="обавезу"/>
-				<TLCConcept eId="cocnept23" href="ontology.link.grupa.individua" showAs="потписаног"/>
-				<TLCConcept eId="cocnept24" href="ontology.link.grupa.individua" showAs="права"/>
-				<TLCConcept eId="cocnept25" href="ontology.link.grupa.individua" showAs="додацима"/>
-				<TLCConcept eId="cocnept26" href="ontology.link.grupa.individua" showAs="ратификацији"/>
-				<TLCConcept eId="cocnept27" href="ontology.link.grupa.individua" showAs="ратификован"/>
-				<TLCConcept eId="cocnept28" href="ontology.link.grupa.individua" showAs="специјалних"/>
-				<TLCConcept eId="cocnept29" href="ontology.link.grupa.individua" showAs="уговори"/>
-				<TLCConcept eId="cocnept30" href="ontology.link.grupa.individua" showAs="законом"/>
-				<TLCConcept eId="cocnept31" href="ontology.link.grupa.individua" showAs="јун"/>
+				<TLCConcept eId="cocnept21" href="ontology.link.grupa.individua" showAs="Preuzima"/>
+				<TLCConcept eId="cocnept22" href="ontology.link.grupa.individua" showAs="Obavezu"/>
+				<TLCConcept eId="cocnept23" href="ontology.link.grupa.individua" showAs="Potpisanog"/>
+				<TLCConcept eId="cocnept24" href="ontology.link.grupa.individua" showAs="Prava"/>
+				<TLCConcept eId="cocnept25" href="ontology.link.grupa.individua" showAs="Dodacima"/>
+				<TLCConcept eId="cocnept26" href="ontology.link.grupa.individua" showAs="Ratifikaciji"/>
+				<TLCConcept eId="cocnept27" href="ontology.link.grupa.individua" showAs="Ratifikovan"/>
+				<TLCConcept eId="cocnept28" href="ontology.link.grupa.individua" showAs="Specijalnih"/>
+				<TLCConcept eId="cocnept29" href="ontology.link.grupa.individua" showAs="Ugovori"/>
+				<TLCConcept eId="cocnept30" href="ontology.link.grupa.individua" showAs="Zakonom"/>
+				<TLCConcept eId="cocnept31" href="ontology.link.grupa.individua" showAs="Jun"/>
 				<TLCConcept eId="cocnept32" href="ontology.link.grupa.individua" showAs="600"/>
 				<TLCConcept eId="cocnept33" href="ontology.link.grupa.individua" showAs="17"/>
 				<TLCConcept eId="cocnept34" href="ontology.link.grupa.individua" showAs="22"/>
-				<TLCConcept eId="cocnept35" href="ontology.link.grupa.individua" showAs="године"/>
+				<TLCConcept eId="cocnept35" href="ontology.link.grupa.individua" showAs="Godine"/>
 				<TLCConcept eId="cocnept36" href="ontology.link.grupa.individua" showAs="2005"/>
-				<TLCConcept eId="cocnept37" href="ontology.link.grupa.individua" showAs="вучења"/>
+				<TLCConcept eId="cocnept37" href="ontology.link.grupa.individua" showAs="Vučenja"/>
 				<TLCConcept eId="cocnept38" href="ontology.link.grupa.individua" showAs="16"/>
-				<TLCConcept eId="cocnept39" href="ontology.link.grupa.individua" showAs="бр"/>
-				<TLCConcept eId="cocnept40" href="ontology.link.grupa.individua" showAs="износу"/>
-				<TLCConcept eId="cocnept41" href="ontology.link.grupa.individua" showAs="обавезе"/>
-				<TLCConcept eId="cocnept42" href="ontology.link.grupa.individua" showAs="сцг"/>
-				<TLCConcept eId="cocnept43" href="ontology.link.grupa.individua" showAs="лист"/>
-				<TLCConcept eId="cocnept44" href="ontology.link.grupa.individua" showAs="република"/>
-				<TLCConcept eId="cocnept45" href="ontology.link.grupa.individua" showAs="србија"/>
+				<TLCConcept eId="cocnept39" href="ontology.link.grupa.individua" showAs="Br"/>
+				<TLCConcept eId="cocnept40" href="ontology.link.grupa.individua" showAs="Iznosu"/>
+				<TLCConcept eId="cocnept41" href="ontology.link.grupa.individua" showAs="Obaveze"/>
+				<TLCConcept eId="cocnept42" href="ontology.link.grupa.individua" showAs="Scg"/>
+				<TLCConcept eId="cocnept43" href="ontology.link.grupa.individua" showAs="List"/>
+				<TLCConcept eId="cocnept44" href="ontology.link.grupa.individua" showAs="Republika"/>
+				<TLCConcept eId="cocnept45" href="ontology.link.grupa.individua" showAs="Srbija"/>
 				<TLCLocation href="ontology.link.person.individua" showAs="Crne Gore"/>
 				<TLCLocation href="ontology.link.person.individua" showAs="Crnoj Gori"/>
 				<TLCLocation href="ontology.link.person.individua" showAs="RS"/>
