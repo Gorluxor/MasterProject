@@ -61,6 +61,14 @@
 				<eventRef date="1991-07-23" href="#datum_usvajanja" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/1991/45/5/reg/20180628" type="generation"/>
 				<eventRef date="1991-08-04" href="#datum_pocetak_primene" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/1991/45/5/reg/20180628" type="generation"/>
 				<eventRef date="1991-08-04" href="#datum_stupanja_na_snagu" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/1991/45/5/reg/20180628" type="generation"/>
+				<eventRef date="1991-07-27" href="#izmena" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/1991/45/5/reg/20180628" type="amendment"/>
+				<eventRef date="1993-07-16" href="#izmena" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/1991/45/5/reg/20180628" type="amendment"/>
+				<eventRef date="1993-08-30" href="#izmena" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/1991/45/5/reg/20180628" type="amendment"/>
+				<eventRef date="1994-07-20" href="#izmena" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/1991/45/5/reg/20180628" type="amendment"/>
+				<eventRef date="2005-11-21" href="#izmena" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/1991/45/5/reg/20180628" type="amendment"/>
+				<eventRef date="2010-05-07" href="#izmena" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/1991/45/5/reg/20180628" type="amendment"/>
+				<eventRef date="2018-06-20" href="#izmena" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/1991/45/5/reg/20180628" type="amendment"/>
+				<eventRef date="2018-06-22" href="#izmena" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/1991/45/5/reg/20180628" type="amendment"/>
 			</lifecycle>
 			<workflow source="#somebody">
 				<step by="/akn/rs/srp@ontology" date="1991-07-23" wId="usvajanje"/>

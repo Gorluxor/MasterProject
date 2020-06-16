@@ -10,9 +10,12 @@ except ModuleNotFoundError:
         # from tokenizer import patterns
         from tokenizer.TokenType import TokenType
         from named_enitity_recognition.ner import do_ner_on_sentences
+        from form_akoma import MetadataBuilder
         from convertToLatin.Convert import convert
-        from utilities.utilities import DOC_TYPE
+        from utilities.utilities import DOC_TYPE, convert_to_date, find_dates_in_text
         from utilities.utilities import get_doc_type
+        import re
+        from utilities.utilities import regex_events
     except ModuleNotFoundError as e:
         print(e)
         print("Error")
@@ -69,13 +72,15 @@ class BasicReasoner():
             #     print(ner)
             if body is False and self.current_token.type <= TokenType.CLAN:
                 body = True
-                DOC_TYPE = get_doc_type("".join([s.value for s in self.preface]))
-                aca_uradio = False
-                if aca_uradio is True:  # TODO ACA pronadje u tekstu
-                    found_date = "2300-01-01"
-                    new_change = ET.Element("eventRef", {"source": meta.eli, "href": "#izmena",
-                                                         "date": found_date, "type": "amendment"})
-                    meta.classification.append(new_change)
+                preface_combined = " ".join([s.value for s in self.preface])
+                DOC_TYPE = get_doc_type(preface_combined)
+                found_list = find_dates_in_text(preface_combined)
+                converted_dates = convert_to_date(found_list)
+                for one_date in converted_dates:
+                    new_change = ET.Element("eventRef", {"source": meta.meta.eli, "href": "#izmena",
+                                                         "date": MetadataBuilder.fix_date(one_date), "type": "amendment"})
+                    meta.lifecycle_node.append(new_change)
+
                 if meta is not None:
                     meta.change_subtype_url(DOC_TYPE)
                 self.akomabuilder.build_preface(self.preface)

@@ -98,6 +98,7 @@ class MetadataBuilder():
         self.number = ""
         self.meta = None
         self.classification = None
+        self.lifecycle_node = None
 
     def identification(self, metadata):
         base = ET.Element("identification", {"source": SOURCE})
@@ -190,6 +191,7 @@ class MetadataBuilder():
 
     def lifecycle(self, lifecycles):
         base = ET.Element("lifecycle", {"source": self.meta.eli})
+        self.lifecycle_node = base
         link = self.meta.eli
         base.append(
             ET.Element("eventRef",
