@@ -36,6 +36,8 @@ def valid_date(date, reduce=0):
 
 def extra_fix(check):
     yy, mm, dd = check.split('-')
+    if len(check.split('-')) != 3:
+        return check
     dd = int(dd)
     mm = int(mm)
     yy = int(yy)
@@ -90,7 +92,10 @@ def add_new_meta(meta: Metadata):
 class MetadataBuilder():
 
     def __init__(self, csv_file):
-        self.csv = io.open(csv_file, mode="r", encoding="utf-8")
+        if csv_file is not None:
+            self.csv = io.open(csv_file, mode="r", encoding="utf-8")
+        else:
+            self.csv = None
         self.expressionuri = ""
         self.uri_expression = ""
         self.uri_work = ""
@@ -205,7 +210,6 @@ class MetadataBuilder():
             ET.Element("eventRef",
                        {"source": link, "href": "#datum_stupanja_na_snagu",
                         "date": self.meta.datum_stupanja, "type": "generation"}))
-        naziv = self.meta.act_name.split(":")[1]
         # for date in lifecycles:
         #     found_i = date.find("/") + 1
         # if cnt == 1:
@@ -229,7 +233,8 @@ class MetadataBuilder():
         if len(list_of_concepts) > 0:
             for concept in list_of_concepts[0]:
                 concept_ref = ET.Element("TLCConcept",
-                                         {"eId": "cocnept" + str(cnt_concept), "href": conceptIri, "showAs": Convert.convert_string(concept).capitalize()})
+                                         {"eId": "cocnept" + str(cnt_concept), "href": conceptIri,
+                                          "showAs": Convert.convert_string(concept).capitalize()})
                 base.append(concept_ref)
                 cnt_concept = cnt_concept + 1
         return base
@@ -312,18 +317,30 @@ class MetadataBuilder():
         self.number = version
         self.uri_manifestation = (self.uri_expression + "/!main." + doc_type).strip()
 
-    def build(self, filename, akomaroot, skip_tfidf=False, country_code="rs", lang_code="srp"):
+    def build(self, filename, akomaroot, skip_tfidf=False, country_code="rs", lang_code="srp", passed_meta=None):
+        """
+        :param filename: Name which was written in Akoma/data/meta/allmeta.csv when it was scraped
+        :param akomaroot: root of new akoma ntoso document
+        :param skip_tfidf: boolean if TLCconcepts should be searched for
+        :param country_code: which country is this for by ISO 3166-1 standard
+        :param lang_code: languge used in document by ISO_639-1 standard
+        :param passed_meta: if metainfo is not read from file its should be passed here, type Metadata class from form_akoma/Metadata.py
+        :return:
+        """
         meta = list(akomaroot)[0].find(PREFIX + "meta")
         if meta is None:
             meta = list(akomaroot)[0].find("meta")
 
         metainfo = None
         # print(csv.read())
-        for line in self.csv.readlines():
-            values = line.strip().split("#")
-            if filename == values[14]:
-                metainfo = Metadata(values)
-                break
+        if passed_meta is None and len(filename) > 2:
+            for line in self.csv.readlines():
+                values = line.strip().split("#")
+                if filename == values[14]:
+                    metainfo = Metadata(values)
+                    break
+        else:
+            metainfo = passed_meta
         if metainfo is None:
             print(filename)
             print("Fajl nije pronadjen u metadata.csv")

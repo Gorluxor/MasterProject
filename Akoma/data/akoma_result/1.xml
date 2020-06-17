@@ -49,6 +49,7 @@
 				<eventRef date="2009-05-11" href="#datum_usvajanja" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2009/36/1/reg/" type="generation"/>
 				<eventRef date="2009-05-23" href="#datum_pocetak_primene" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2009/36/1/reg/" type="generation"/>
 				<eventRef date="2009-05-23" href="#datum_stupanja_na_snagu" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2009/36/1/reg/" type="generation"/>
+				<eventRef date="2009-05-15" href="#izmena" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2009/36/1/reg/" type="amendment"/>
 			</lifecycle>
 			<workflow source="#somebody">
 				<step by="/akn/rs/srp@ontology" date="2009-05-11" wId="usvajanje"/>

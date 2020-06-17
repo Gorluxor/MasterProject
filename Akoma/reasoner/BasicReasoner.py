@@ -77,6 +77,7 @@ class BasicReasoner():
                 found_list = find_dates_in_text(preface_combined)
                 converted_dates = convert_to_date(found_list)
                 for one_date in converted_dates:
+
                     new_change = ET.Element("eventRef", {"source": meta.meta.eli, "href": "#izmena",
                                                          "date": MetadataBuilder.fix_date(one_date), "type": "amendment"})
                     meta.lifecycle_node.append(new_change)

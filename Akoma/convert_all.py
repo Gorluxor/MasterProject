@@ -19,6 +19,7 @@ try:
     from Akoma.named_enitity_recognition.ner import do_ner_on_sentences, do_spacy_ner, fix_dates
     from Akoma.convertToLatin.Convert import convert
     from Akoma.utilities.utilities import DOC_TYPE
+    from Akoma.form_akoma import Metadata
 except ModuleNotFoundError as sureError:
     try:
         from utilities import ETree, utilities
@@ -31,6 +32,7 @@ except ModuleNotFoundError as sureError:
         from reasoner.BasicReasoner import BasicReasoner
         from reasoner.OdlukaReasoner import OdlukaReasoner
         from form_akoma.MetadataBuilder import MetadataBuilder
+        from form_akoma import Metadata
         from named_enitity_recognition.references import add_refs
         from named_enitity_recognition.ner import do_ner_on_sentences, do_spacy_ner, fix_dates
         from convertToLatin.Convert import convert
@@ -96,7 +98,7 @@ def add_ner_tags(map_of_values, stablo):
                                                 "showAs": element}))  # "http://purl.org/vocab/frbr/core#Event"
 
 
-def apply_akn_tags(text: str, meta_name: str, skip_tfidf_ner=False, ner="crf"):
+def apply_akn_tags(text: str, meta_name: str, skip_tfidf_ner=False, ner="crf", meta_data=None):
     """
     Applies to text Akoma Ntoso 3.0 tags for Republic of Serbia regulations
     :param text: HTML or plain text
@@ -104,6 +106,7 @@ def apply_akn_tags(text: str, meta_name: str, skip_tfidf_ner=False, ner="crf"):
     add manually in Akoma/data/meta/allmeta.csv
     :param skip_tfidf_ner: Don't add references> TLCconcept for document and TLC for ner, if true speeds up execution by a lot
     :param ner: chooses model which will be used, can be one of values: 'crf','spacy','spacy_default','reldi', crf best so far but slowest
+    :param meta_data: type form_akoma/Metadata.py, if this is passed meta_name is not important, because file allmeta.csv is not searched and all data passed in meta_data is used for meta_data
     :return: Labeled xml string
     """
     global ner_list
@@ -134,7 +137,10 @@ def apply_akn_tags(text: str, meta_name: str, skip_tfidf_ner=False, ner="crf"):
     if reasoner.current_hierarchy[4] == 0:
         akoma_root = init_akoma.init_xml("act")
         metabuilder = MetadataBuilder("data/meta/allmeta.csv")
-        metabuilder.build(fajl, akoma_root, skip_tfidf=skip_tfidf_ner)
+        if meta_data is None:
+            metabuilder.build(fajl, akoma_root, skip_tfidf=skip_tfidf_ner)
+        else:
+            metabuilder.build(fajl, akoma_root, skip_tfidf=skip_tfidf_ner, passed_meta=meta_data)
 
         builder = AkomaBuilder(akoma_root)
         if not repaired:
@@ -213,7 +219,7 @@ if __name__ == "__main__":
             continue
         if fajl in stani:
             continue
-        # if fajl != "8.html":
+        # if fajl != "2.html":
         #     continue
         print(fajl)
         # try:

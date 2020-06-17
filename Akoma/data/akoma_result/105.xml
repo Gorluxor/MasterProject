@@ -55,6 +55,7 @@
 				<eventRef date="2012-11-08" href="#datum_usvajanja" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2012/107/3/reg/" type="generation"/>
 				<eventRef date="2012-11-17" href="#datum_pocetak_primene" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2012/107/3/reg/" type="generation"/>
 				<eventRef date="2012-11-17" href="#datum_stupanja_na_snagu" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2012/107/3/reg/" type="generation"/>
+				<eventRef date="2012-11-09" href="#izmena" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2012/107/3/reg/" type="amendment"/>
 			</lifecycle>
 			<workflow source="#somebody">
 				<step by="/akn/rs/srp@ontology" date="2012-11-08" wId="usvajanje"/>

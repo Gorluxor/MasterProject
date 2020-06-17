@@ -84,6 +84,7 @@
 				<eventRef date="2006-04-17" href="#datum_usvajanja" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2006/34/8/reg/" type="generation"/>
 				<eventRef date="2006-04-26" href="#datum_pocetak_primene" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2006/34/8/reg/" type="generation"/>
 				<eventRef date="2006-04-26" href="#datum_stupanja_na_snagu" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2006/34/8/reg/" type="generation"/>
+				<eventRef date="2006-04-18" href="#izmena" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2006/34/8/reg/" type="amendment"/>
 			</lifecycle>
 			<workflow source="#somebody">
 				<step by="/akn/rs/srp@ontology" date="2006-04-17" wId="usvajanje"/>

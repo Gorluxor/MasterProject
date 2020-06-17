@@ -50,6 +50,7 @@
 				<eventRef date="2018-03-22" href="#datum_usvajanja" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2018/24/6/reg/" type="generation"/>
 				<eventRef date="2018-04-03" href="#datum_pocetak_primene" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2018/24/6/reg/" type="generation"/>
 				<eventRef date="2018-04-03" href="#datum_stupanja_na_snagu" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2018/24/6/reg/" type="generation"/>
+				<eventRef date="2018-03-26" href="#izmena" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2018/24/6/reg/" type="amendment"/>
 			</lifecycle>
 			<workflow source="#somebody">
 				<step by="/akn/rs/srp@ontology" date="2018-03-22" wId="usvajanje"/>

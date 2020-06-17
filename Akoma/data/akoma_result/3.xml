@@ -89,6 +89,7 @@
 				<eventRef date="2007-11-05" href="#datum_usvajanja" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2007/101/6/reg/" type="generation"/>
 				<eventRef date="2007-11-14" href="#datum_pocetak_primene" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2007/101/6/reg/" type="generation"/>
 				<eventRef date="2007-11-14" href="#datum_stupanja_na_snagu" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2007/101/6/reg/" type="generation"/>
+				<eventRef date="2007-11-06" href="#izmena" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2007/101/6/reg/" type="amendment"/>
 			</lifecycle>
 			<workflow source="#somebody">
 				<step by="/akn/rs/srp@ontology" date="2007-11-05" wId="usvajanje"/>
