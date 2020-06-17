@@ -64,6 +64,7 @@
 				<eventRef date="2019-03-14" href="#datum_usvajanja" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2019/17/1/reg/" type="generation"/>
 				<eventRef date="2020-09-01" href="#datum_pocetak_primene" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2019/17/1/reg/" type="generation"/>
 				<eventRef date="2019-03-22" href="#datum_stupanja_na_snagu" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2019/17/1/reg/" type="generation"/>
+				<eventRef date="2019-03-14" href="#izmena" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2019/17/1/reg/" type="amendment"/>
 			</lifecycle>
 			<workflow source="#somebody">
 				<step by="/akn/rs/srp@ontology" date="2019-03-14" wId="usvajanje"/>

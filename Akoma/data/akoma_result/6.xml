@@ -80,6 +80,9 @@
 				<eventRef date="2001-07-10" href="#datum_usvajanja" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2001/43/1/reg/20111215" type="generation"/>
 				<eventRef date="2001-07-25" href="#datum_pocetak_primene" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2001/43/1/reg/20111215" type="generation"/>
 				<eventRef date="2001-07-25" href="#datum_stupanja_na_snagu" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2001/43/1/reg/20111215" type="generation"/>
+				<eventRef date="2001-07-17" href="#izmena" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2001/43/1/reg/20111215" type="amendment"/>
+				<eventRef date="2007-11-06" href="#izmena" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2001/43/1/reg/20111215" type="amendment"/>
+				<eventRef date="2011-02-07" href="#izmena" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2001/43/1/reg/20111215" type="amendment"/>
 			</lifecycle>
 			<workflow source="#somebody">
 				<step by="/akn/rs/srp@ontology" date="2001-07-10" wId="usvajanje"/>
@@ -149,9 +152,11 @@
 				<TLCEvent href="ontology.link.person.individua" showAs="1. i 2. januara"/>
 				<TLCEvent href="ontology.link.person.individua" showAs="1. i 2. maja"/>
 				<TLCEvent href="ontology.link.person.individua" showAs="11. novembra"/>
+				<TLCEvent href="ontology.link.person.individua" showAs="15. i 16. februara"/>
 				<TLCEvent href="ontology.link.person.individua" showAs="1804."/>
 				<TLCEvent href="ontology.link.person.individua" showAs="1835."/>
 				<TLCEvent href="ontology.link.person.individua" showAs="1941."/>
+				<TLCEvent href="ontology.link.person.individua" showAs="21. oktobra"/>
 				<TLCEvent href="ontology.link.person.individua" showAs="22. aprila"/>
 				<TLCEvent href="ontology.link.person.individua" showAs="27. januara"/>
 				<TLCEvent href="ontology.link.person.individua" showAs="28. juna"/>

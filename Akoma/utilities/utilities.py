@@ -102,7 +102,7 @@ def compare_file_names(item1: str, item2: str):
 def convert_to_date(date_string: list) -> list:
     result = []
     for one_string in date_string:
-        part_1 = one_string.strip().split(" ")
+        part_1 = (' '.join(one_string.split())).split(" ")
         only_year = part_1[2]
         only_date = part_1[0].split(".")[0]
         only_month = month_text_to_date(part_1[1])
@@ -150,7 +150,7 @@ def entities_add_date(map_ner: dict, events: list):
 def month_in(text) -> bool:
     if 'januar' in text or 'јануар' in text:
         return True
-    elif "febuar" in text or 'фебуар' in text:
+    elif "februar" in text or 'фебруар' in text:
         return True
     elif "mart" in text or 'март' in text:
         return True
@@ -166,7 +166,7 @@ def month_in(text) -> bool:
         return True
     elif "septemb" in text or 'септемб' in text:
         return True
-    elif "octob" in text or 'оцтоб' in text:
+    elif "oktob" in text or 'октоб' in text:
         return True
     elif "novemb" in text or 'новемб' in text:
         return True
@@ -177,7 +177,7 @@ def month_in(text) -> bool:
 def month_text_to_date(text) -> int:
     if 'januar' in text or 'јануар' in text:
         return 1
-    elif "febuar" in text or 'фебуар' in text:
+    elif "februar" in text or 'фебруар' in text:
         return 2
     elif "mart" in text or 'март' in text:
         return 3
@@ -193,7 +193,7 @@ def month_text_to_date(text) -> int:
         return 8
     elif "septemb" in text or 'септемб' in text:
         return 9
-    elif "octob" in text or 'оцтоб' in text:
+    elif "oktob" in text or 'октоб' in text:
         return 10
     elif "novemb" in text or 'новемб' in text:
         return 11

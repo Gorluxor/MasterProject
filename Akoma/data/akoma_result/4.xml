@@ -43,6 +43,9 @@
 				<eventRef date="2004-12-14" href="#datum_usvajanja" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2004/135/4/reg/20180403" type="generation"/>
 				<eventRef date="2005-02-28" href="#datum_pocetak_primene" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2004/135/4/reg/20180403" type="generation"/>
 				<eventRef date="2004-12-29" href="#datum_stupanja_na_snagu" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2004/135/4/reg/20180403" type="generation"/>
+				<eventRef date="2004-02-21" href="#izmena" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2004/135/4/reg/20180403" type="amendment"/>
+				<eventRef date="2007-10-01" href="#izmena" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2004/135/4/reg/20180403" type="amendment"/>
+				<eventRef date="2018-03-26" href="#izmena" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2004/135/4/reg/20180403" type="amendment"/>
 			</lifecycle>
 			<workflow source="#somebody">
 				<step by="/akn/rs/srp@ontology" date="2004-12-14" wId="usvajanje"/>
@@ -78,6 +81,7 @@
 				<TLCPerson href="ontology.link.person.individua" showAs="Propise"/>
 				<TLCPerson href="ontology.link.person.individua" showAs="Topčider"/>
 				<TLCEvent href="ontology.link.person.individua" showAs="1. januara 2019."/>
+				<TLCEvent href="ontology.link.person.individua" showAs="1. oktobra"/>
 				<TLCEvent href="ontology.link.person.individua" showAs="21. decembra"/>
 				<TLCEvent href="ontology.link.person.individua" showAs="26. marta 2018."/>
 				<TLCEvent href="ontology.link.person.individua" showAs="27. februara 2005."/>
