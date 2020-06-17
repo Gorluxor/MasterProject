@@ -13,6 +13,7 @@ except ModuleNotFoundError:
         from preprocessing import init_akoma
         from tfidf.tfidf import get_tf_idf_values_document, get_tf_idf_values_from_text
         from convertToLatin import Convert
+        from utilities.markoSemanticki import MarkovaIngenioznost
     except ModuleNotFoundError:
         print("Error")
         exit(-1)
@@ -104,6 +105,8 @@ class MetadataBuilder():
         self.meta = None
         self.classification = None
         self.lifecycle_node = None
+        self.translator = MarkovaIngenioznost()
+
 
     def identification(self, metadata):
         base = ET.Element("identification", {"source": SOURCE})
@@ -174,7 +177,7 @@ class MetadataBuilder():
         self.classification = base
         for dict in clssifications:
             newk = ET.Element("keyword", {"wId": dict["id"], "value": dict["value"].lower(), "showAs": dict["value"],
-                                          "href": "ontology.link.oblast.individua",
+                                          "href": "https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm",
                                           "dictionary": "RS"})
             base.append(newk)
         return base
@@ -227,19 +230,25 @@ class MetadataBuilder():
 
     def references(self, filename, list_of_concepts: list):
         cnt_concept = 0
-        conceptIri = "ontology.link.grupa.individua"  # "http://purl.org/vocab/frbr/core#Concept"
+        # link ="http://purl.org/vocab/frbr/core#Concept"
+
         base = ET.Element("references", {"source": SOURCE})
 
         if len(list_of_concepts) > 0:
             for concept in list_of_concepts[0]:
+                concept = Convert.convert_string(concept)
+                link = self.translator[concept]
+                if '#' not in link:
+                    link = 'https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCConcept'
                 concept_ref = ET.Element("TLCConcept",
-                                         {"eId": "cocnept" + str(cnt_concept), "href": conceptIri,
-                                          "showAs": Convert.convert_string(concept).capitalize()})
+                                         {"eId": "cocnept" + str(cnt_concept), "href": link,
+                                          "showAs": concept.capitalize()})
                 base.append(concept_ref)
                 cnt_concept = cnt_concept + 1
         return base
 
-    def keywords_za_marka(self, list_of_concepts: list, uri="ontology.link.grupa.individua"):
+    def keywords_za_marka(self, list_of_concepts: list,
+                          uri="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm"):
         conceptIri = uri
         base = self.classification
         if len(list_of_concepts) > 0:

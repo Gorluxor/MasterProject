@@ -30,17 +30,17 @@
 			</identification>
 			<publication date="2001-03-02" name="службени лист срј“" number="9" showAs="Службени лист СРЈ“"/>
 			<classification source="#somebody">
-				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="Закон" value="закон" wId="vrsta"/>
-				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="I ДРЖАВНО УРЕЂЕЊЕ" value="i државно уређење" wId="oblast"/>
-				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="3. Држављанство" value="3. држављанство" wId="grupa"/>
-				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Karađorđevića" value="karađorđevića"/>
-				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Pavla" value="pavla"/>
-				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Aleksandra" value="aleksandra"/>
-				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="1947" value="1947"/>
-				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Br" value="br"/>
-				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Godine" value="godine"/>
-				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Narodne" value="narodne"/>
-				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Aleksandru" value="aleksandru"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="I ДРЖАВНО УРЕЂЕЊЕ" value="i државно уређење" wId="oblast"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="3. Држављанство" value="3. држављанство" wId="grupa"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Karađorđevića" value="karađorđevića"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Pavla" value="pavla"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Aleksandra" value="aleksandra"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="1947" value="1947"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Br" value="br"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Godine" value="godine"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Narodne" value="narodne"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Aleksandru" value="aleksandru"/>
 			</classification>
 			<lifecycle source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/slsrj/skupstina/zakon/2001/9/4/reg/">
 				<eventRef date="2001-02-27" href="#datum_usvajanja" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/slsrj/skupstina/zakon/2001/9/4/reg/" type="generation"/>
@@ -53,31 +53,31 @@
 				<step by="/akn/rs/srp@ontology" date="2001-03-10" wId="primena"/>
 			</workflow>
 			<references source="#somebody">
-				<TLCConcept eId="cocnept0" href="ontology.link.grupa.individua" showAs="Karađorđevića"/>
-				<TLCConcept eId="cocnept1" href="ontology.link.grupa.individua" showAs="Pavla"/>
-				<TLCConcept eId="cocnept2" href="ontology.link.grupa.individua" showAs="Aleksandra"/>
-				<TLCConcept eId="cocnept3" href="ontology.link.grupa.individua" showAs="1947"/>
-				<TLCConcept eId="cocnept4" href="ontology.link.grupa.individua" showAs="Br"/>
-				<TLCConcept eId="cocnept5" href="ontology.link.grupa.individua" showAs="Godine"/>
-				<TLCConcept eId="cocnept6" href="ontology.link.grupa.individua" showAs="Narodne"/>
-				<TLCConcept eId="cocnept7" href="ontology.link.grupa.individua" showAs="Aleksandru"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Mariji"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Pavlu"/>
-				<TLCOrganization href="ontology.link.person.individua" showAs="FNRJ"/>
-				<TLCOrganization href="ontology.link.person.individua" showAs="Predsedništva Prezidijuma Narodne skupštine Federativne Narodne Republike Jugoslavije U."/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Aleksandra Karađorđevića"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Aleksandru Pavla Karađorđevića"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Aleksandru Petra Karađorđevića"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Andreju Aleksandra Karađorđevića"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Arsena Karađorđevića"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Nikoli Pavla Karađorđevića"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Olgi Pavla Karađorđevića"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Pavla Karađorđevića"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Petru Aleksandra Karađorđevića"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Tomislavu Aleksandra Karađorđevića"/>
-				<TLCEvent href="ontology.link.person.individua" showAs="1. avgusta 1947."/>
-				<TLCEvent href="ontology.link.person.individua" showAs="8. marta 1947."/>
-				<TLCEvent href="ontology.link.person.individua" showAs="2. marta 2001."/>
+				<TLCConcept eId="cocnept0" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCConcept" showAs="Karađorđevića"/>
+				<TLCConcept eId="cocnept1" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCConcept" showAs="Pavla"/>
+				<TLCConcept eId="cocnept2" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#assembly_143" showAs="Aleksandra"/>
+				<TLCConcept eId="cocnept3" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCConcept" showAs="1947"/>
+				<TLCConcept eId="cocnept4" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Br"/>
+				<TLCConcept eId="cocnept5" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_015" showAs="Godine"/>
+				<TLCConcept eId="cocnept6" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_002" showAs="Narodne"/>
+				<TLCConcept eId="cocnept7" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#assembly_143" showAs="Aleksandru"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCLocation" showAs="Mariji"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCLocation" showAs="Pavlu"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCOrganization" showAs="FNRJ"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Predsedništva Prezidijuma Narodne skupštine Federativne Narodne Republike Jugoslavije U."/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#assembly_143" showAs="Aleksandra Karađorđevića"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#assembly_143" showAs="Aleksandru Pavla Karađorđevića"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_045" showAs="Aleksandru Petra Karađorđevića"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#assembly_143" showAs="Andreju Aleksandra Karađorđevića"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCPerson" showAs="Arsena Karađorđevića"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCPerson" showAs="Nikoli Pavla Karađorđevića"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCPerson" showAs="Olgi Pavla Karađorđevića"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCPerson" showAs="Pavla Karađorđevića"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_045" showAs="Petru Aleksandra Karađorđevića"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#assembly_143" showAs="Tomislavu Aleksandra Karađorđevića"/>
+				<TLCEvent href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCEvent" showAs="1. avgusta 1947."/>
+				<TLCEvent href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCEvent" showAs="8. marta 1947."/>
+				<TLCEvent href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCEvent" showAs="2. marta 2001."/>
 			</references>
 			<notes source="#somebody">
 				<note wId="not1">

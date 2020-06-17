@@ -30,9 +30,9 @@
 			</identification>
 			<publication date="2004-04-20" name="службени гласник рс" number="43" showAs="Службени гласник РС"/>
 			<classification source="#somebody">
-				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="Закон" value="закон" wId="vrsta"/>
-				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="IV ЈАВНИ ПРИХОДИ" value="iv јавни приходи" wId="oblast"/>
-				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="4. Јавни зајмови" value="4. јавни зајмови" wId="grupa"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="IV ЈАВНИ ПРИХОДИ" value="iv јавни приходи" wId="oblast"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="4. Јавни зајмови" value="4. јавни зајмови" wId="grupa"/>
 			</classification>
 			<lifecycle source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2004/43/2/reg/">
 				<eventRef date="2004-04-19" href="#datum_usvajanja" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2004/43/2/reg/" type="generation"/>
@@ -45,41 +45,41 @@
 				<step by="/akn/rs/srp@ontology" date="2004-04-28" wId="primena"/>
 			</workflow>
 			<references source="#somebody">
-				<TLCPerson href="ontology.link.person.individua" showAs="Uslove"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Centralnom registru"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="RS"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Republike"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Republike Srbije"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Socijalističkoj Republici Srbiji"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Vlada"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Zakona"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Zakonu"/>
-				<TLCOrganization href="ontology.link.person.individua" showAs="AD Beograd"/>
-				<TLCOrganization href="ontology.link.person.individua" showAs="Centralni registar"/>
-				<TLCOrganization href="ontology.link.person.individua" showAs="Centralnog registra"/>
-				<TLCOrganization href="ontology.link.person.individua" showAs="Ministarstvo"/>
-				<TLCOrganization href="ontology.link.person.individua" showAs="Ministarstvo nadležno za poslove finansija"/>
-				<TLCOrganization href="ontology.link.person.individua" showAs="Ministarstvo u skladu"/>
-				<TLCOrganization href="ontology.link.person.individua" showAs="Ministarstvu dokumentaciju"/>
-				<TLCOrganization href="ontology.link.person.individua" showAs="Narodne banke Srbije"/>
-				<TLCOrganization href="ontology.link.person.individua" showAs="Narodnom fondu"/>
-				<TLCOrganization href="ontology.link.person.individua" showAs="Republika"/>
-				<TLCOrganization href="ontology.link.person.individua" showAs="Republike"/>
-				<TLCOrganization href="ontology.link.person.individua" showAs="Republike Srbije"/>
-				<TLCOrganization href="ontology.link.person.individua" showAs="SRS"/>
-				<TLCOrganization href="ontology.link.person.individua" showAs="Službenom glasniku Republike Srbije"/>
-				<TLCOrganization href="ontology.link.person.individua" showAs="Vlada Republike Srbije"/>
-				<TLCEvent href="ontology.link.person.individua" showAs="1. avgusta 2004."/>
-				<TLCEvent href="ontology.link.person.individua" showAs="1. avgusta 2005."/>
-				<TLCEvent href="ontology.link.person.individua" showAs="1. avgusta 2006."/>
-				<TLCEvent href="ontology.link.person.individua" showAs="1. jula 1999."/>
-				<TLCEvent href="ontology.link.person.individua" showAs="1999."/>
-				<TLCEvent href="ontology.link.person.individua" showAs="20. aprila 2004."/>
-				<TLCEvent href="ontology.link.person.individua" showAs="2007."/>
-				<TLCEvent href="ontology.link.person.individua" showAs="31. avgusta 2004."/>
-				<TLCEvent href="ontology.link.person.individua" showAs="31. avgusta 2005."/>
-				<TLCEvent href="ontology.link.person.individua" showAs="31. avgusta 2006."/>
-				<TLCEvent href="ontology.link.person.individua" showAs="31. avgusta 2007."/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCPerson" showAs="Uslove"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#s01_g09_a11" showAs="Centralnom registru"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="RS"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Republike"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Republike Srbije"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Socijalističkoj Republici Srbiji"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_031" showAs="Vlada"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#s01_g03" showAs="Zakona"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#s01_g03" showAs="Zakonu"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="AD Beograd"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCOrganization" showAs="Centralni registar"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#s01_g09_a11" showAs="Centralnog registra"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCOrganization" showAs="Ministarstvo"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_013" showAs="Ministarstvo nadležno za poslove finansija"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Ministarstvo u skladu"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#s01_g16_a05" showAs="Ministarstvu dokumentaciju"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Narodne banke Srbije"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#s01_g03_a12" showAs="Narodnom fondu"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Republika"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Republike"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Republike Srbije"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="SRS"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Vlada Republike Srbije"/>
+				<TLCEvent href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCEvent" showAs="1. avgusta 2004."/>
+				<TLCEvent href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCEvent" showAs="1. avgusta 2005."/>
+				<TLCEvent href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCEvent" showAs="1. avgusta 2006."/>
+				<TLCEvent href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCEvent" showAs="1. jula 1999."/>
+				<TLCEvent href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCEvent" showAs="1999."/>
+				<TLCEvent href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCEvent" showAs="20. aprila 2004."/>
+				<TLCEvent href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCEvent" showAs="2007."/>
+				<TLCEvent href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCEvent" showAs="31. avgusta 2004."/>
+				<TLCEvent href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCEvent" showAs="31. avgusta 2005."/>
+				<TLCEvent href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCEvent" showAs="31. avgusta 2006."/>
+				<TLCEvent href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCEvent" showAs="31. avgusta 2007."/>
 			</references>
 			<notes source="#somebody">
 				<note wId="not1">

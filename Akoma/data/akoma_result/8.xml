@@ -30,32 +30,32 @@
 			</identification>
 			<publication date="1991-07-27" name="службени гласник рс" number="45" showAs="Службени гласник РС"/>
 			<classification source="#somebody">
-				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="Закон" value="закон" wId="vrsta"/>
-				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="I ДРЖАВНО УРЕЂЕЊЕ" value="i државно уређење" wId="oblast"/>
-				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="5. Службена употреба језика и писама" value="5. службена употреба језика и писама" wId="grupa"/>
-				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Republici" value="republici"/>
-				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Srbiji" value="srbiji"/>
-				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Način" value="način"/>
-				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Utvrđen" value="utvrđen"/>
-				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Pismo" value="pismo"/>
-				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Upotrebi" value="upotrebi"/>
-				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Službenoj" value="službenoj"/>
-				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Zakonom" value="zakonom"/>
-				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Nacionalnih" value="nacionalnih"/>
-				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Manjina" value="manjina"/>
-				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Ćiriličko" value="ćiriličko"/>
-				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Latinično" value="latinično"/>
-				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Srpskim" value="srpskim"/>
-				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Srpski" value="srpski"/>
-				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Jezikom" value="jezikom"/>
-				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Žive" value="žive"/>
-				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Istovremeno" value="istovremeno"/>
-				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Pisma" value="pisma"/>
-				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Pripadnici" value="pripadnici"/>
-				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Republike" value="republike"/>
-				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Srbije" value="srbije"/>
-				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Područjima" value="područjima"/>
-				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Jezici" value="jezici"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="I ДРЖАВНО УРЕЂЕЊЕ" value="i државно уређење" wId="oblast"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="5. Службена употреба језика и писама" value="5. службена употреба језика и писама" wId="grupa"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Republici" value="republici"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Srbiji" value="srbiji"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Način" value="način"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Utvrđen" value="utvrđen"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Pismo" value="pismo"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Upotrebi" value="upotrebi"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Službenoj" value="službenoj"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Zakonom" value="zakonom"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Nacionalnih" value="nacionalnih"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Manjina" value="manjina"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Ćiriličko" value="ćiriličko"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Latinično" value="latinično"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Srpskim" value="srpskim"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Srpski" value="srpski"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Jezikom" value="jezikom"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Žive" value="žive"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Istovremeno" value="istovremeno"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Pisma" value="pisma"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Pripadnici" value="pripadnici"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Republike" value="republike"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Srbije" value="srbije"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Područjima" value="područjima"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Jezici" value="jezici"/>
 			</classification>
 			<lifecycle source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/1991/45/5/reg/20180628">
 				<eventRef date="1991-07-23" href="#datum_usvajanja" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/1991/45/5/reg/20180628" type="generation"/>
@@ -76,45 +76,45 @@
 				<step by="/akn/rs/srp@ontology" date="1991-08-04" wId="primena"/>
 			</workflow>
 			<references source="#somebody">
-				<TLCConcept eId="cocnept0" href="ontology.link.grupa.individua" showAs="Republici"/>
-				<TLCConcept eId="cocnept1" href="ontology.link.grupa.individua" showAs="Srbiji"/>
-				<TLCConcept eId="cocnept2" href="ontology.link.grupa.individua" showAs="Način"/>
-				<TLCConcept eId="cocnept3" href="ontology.link.grupa.individua" showAs="Utvrđen"/>
-				<TLCConcept eId="cocnept4" href="ontology.link.grupa.individua" showAs="Pismo"/>
-				<TLCConcept eId="cocnept5" href="ontology.link.grupa.individua" showAs="Upotrebi"/>
-				<TLCConcept eId="cocnept6" href="ontology.link.grupa.individua" showAs="Službenoj"/>
-				<TLCConcept eId="cocnept7" href="ontology.link.grupa.individua" showAs="Zakonom"/>
-				<TLCConcept eId="cocnept8" href="ontology.link.grupa.individua" showAs="Nacionalnih"/>
-				<TLCConcept eId="cocnept9" href="ontology.link.grupa.individua" showAs="Manjina"/>
-				<TLCConcept eId="cocnept10" href="ontology.link.grupa.individua" showAs="Ćiriličko"/>
-				<TLCConcept eId="cocnept11" href="ontology.link.grupa.individua" showAs="Latinično"/>
-				<TLCConcept eId="cocnept12" href="ontology.link.grupa.individua" showAs="Srpskim"/>
-				<TLCConcept eId="cocnept13" href="ontology.link.grupa.individua" showAs="Srpski"/>
-				<TLCConcept eId="cocnept14" href="ontology.link.grupa.individua" showAs="Jezikom"/>
-				<TLCConcept eId="cocnept15" href="ontology.link.grupa.individua" showAs="Žive"/>
-				<TLCConcept eId="cocnept16" href="ontology.link.grupa.individua" showAs="Istovremeno"/>
-				<TLCConcept eId="cocnept17" href="ontology.link.grupa.individua" showAs="Pisma"/>
-				<TLCConcept eId="cocnept18" href="ontology.link.grupa.individua" showAs="Pripadnici"/>
-				<TLCConcept eId="cocnept19" href="ontology.link.grupa.individua" showAs="Republike"/>
-				<TLCConcept eId="cocnept20" href="ontology.link.grupa.individua" showAs="Srbije"/>
-				<TLCConcept eId="cocnept21" href="ontology.link.grupa.individua" showAs="Područjima"/>
-				<TLCConcept eId="cocnept22" href="ontology.link.grupa.individua" showAs="Jezici"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Ispravku Zakona"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="RS"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Republici Srbiji"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Republike Srbije"/>
-				<TLCOrganization href="ontology.link.person.individua" showAs="Narodne skupštine"/>
-				<TLCOrganization href="ontology.link.person.individua" showAs="Poslovnikom"/>
-				<TLCOrganization href="ontology.link.person.individua" showAs="Republike Srbije"/>
-				<TLCOrganization href="ontology.link.person.individua" showAs="SAP Kosovu"/>
-				<TLCOrganization href="ontology.link.person.individua" showAs="SAPK"/>
-				<TLCOrganization href="ontology.link.person.individua" showAs="SAPV"/>
-				<TLCOrganization href="ontology.link.person.individua" showAs="SRS"/>
-				<TLCOrganization href="ontology.link.person.individua" showAs="Službenom glasniku Republike Srbije"/>
-				<TLCOrganization href="ontology.link.person.individua" showAs="Ustavnog suda"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Postupak"/>
-				<TLCEvent href="ontology.link.person.individua" showAs="1. januara 1992."/>
-				<TLCEvent href="ontology.link.person.individua" showAs="1992."/>
+				<TLCConcept eId="cocnept0" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCConcept" showAs="Republici"/>
+				<TLCConcept eId="cocnept1" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Srbiji"/>
+				<TLCConcept eId="cocnept2" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCConcept" showAs="Način"/>
+				<TLCConcept eId="cocnept3" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCConcept" showAs="Utvrđen"/>
+				<TLCConcept eId="cocnept4" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCConcept" showAs="Pismo"/>
+				<TLCConcept eId="cocnept5" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#s01_g01_a05" showAs="Upotrebi"/>
+				<TLCConcept eId="cocnept6" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCConcept" showAs="Službenoj"/>
+				<TLCConcept eId="cocnept7" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#s01_g03" showAs="Zakonom"/>
+				<TLCConcept eId="cocnept8" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#s03_g01_a01" showAs="Nacionalnih"/>
+				<TLCConcept eId="cocnept9" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#s03_g01_a01" showAs="Manjina"/>
+				<TLCConcept eId="cocnept10" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCConcept" showAs="Ćiriličko"/>
+				<TLCConcept eId="cocnept11" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCConcept" showAs="Latinično"/>
+				<TLCConcept eId="cocnept12" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCConcept" showAs="Srpskim"/>
+				<TLCConcept eId="cocnept13" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#s01_g15_a03" showAs="Srpski"/>
+				<TLCConcept eId="cocnept14" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCConcept" showAs="Jezikom"/>
+				<TLCConcept eId="cocnept15" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#s03_g10" showAs="Žive"/>
+				<TLCConcept eId="cocnept16" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCConcept" showAs="Istovremeno"/>
+				<TLCConcept eId="cocnept17" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCConcept" showAs="Pisma"/>
+				<TLCConcept eId="cocnept18" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCConcept" showAs="Pripadnici"/>
+				<TLCConcept eId="cocnept19" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Republike"/>
+				<TLCConcept eId="cocnept20" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Srbije"/>
+				<TLCConcept eId="cocnept21" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCConcept" showAs="Područjima"/>
+				<TLCConcept eId="cocnept22" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCConcept" showAs="Jezici"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#s01_g03" showAs="Ispravku Zakona"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="RS"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Republici Srbiji"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Republike Srbije"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_002" showAs="Narodne skupštine"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCOrganization" showAs="Poslovnikom"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Republike Srbije"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_006" showAs="SAP Kosovu"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCOrganization" showAs="SAPK"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCOrganization" showAs="SAPV"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="SRS"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#s01_g01_a09" showAs="Ustavnog suda"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#s01_g03_a07" showAs="Postupak"/>
+				<TLCEvent href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCEvent" showAs="1. januara 1992."/>
+				<TLCEvent href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCEvent" showAs="1992."/>
 			</references>
 			<notes source="#somebody">
 				<note wId="not1">

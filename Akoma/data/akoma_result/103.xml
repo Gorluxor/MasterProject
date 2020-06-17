@@ -30,21 +30,21 @@
 			</identification>
 			<publication date="2018-03-26" name="службени гласник рс" number="24" showAs="Службени гласник РС"/>
 			<classification source="#somebody">
-				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="Закон" value="закон" wId="vrsta"/>
-				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="II ОДБРАНА, ВОЈСКА И УНУТРАШЊИ ПОСЛОВИ" value="ii одбрана, војска и унутрашњи послови" wId="oblast"/>
-				<keyword dictionary="RS" href="ontology.link.oblast.individua" showAs="10. Лично име, лична карта, матични број грађана" value="10. лично име, лична карта, матични број грађана" wId="grupa"/>
-				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Neponovljiva" value="neponovljiva"/>
-				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Identifikacionih" value="identifikacionih"/>
-				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Individualna" value="individualna"/>
-				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Oznaka" value="oznaka"/>
-				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Jedinstveni" value="jedinstveni"/>
-				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Matični" value="matični"/>
-				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Daljem" value="daljem"/>
-				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Tekstu" value="tekstu"/>
-				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Broj" value="broj"/>
-				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Građaninu" value="građaninu"/>
-				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Građana" value="građana"/>
-				<keyword dictionary="RS" href="ontology.link.grupa.individua" showAs="Podataka" value="podataka"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="II ОДБРАНА, ВОЈСКА И УНУТРАШЊИ ПОСЛОВИ" value="ii одбрана, војска и унутрашњи послови" wId="oblast"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="10. Лично име, лична карта, матични број грађана" value="10. лично име, лична карта, матични број грађана" wId="grupa"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Neponovljiva" value="neponovljiva"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Identifikacionih" value="identifikacionih"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Individualna" value="individualna"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Oznaka" value="oznaka"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Jedinstveni" value="jedinstveni"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Matični" value="matični"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Daljem" value="daljem"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Tekstu" value="tekstu"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Broj" value="broj"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Građaninu" value="građaninu"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Građana" value="građana"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Podataka" value="podataka"/>
 			</classification>
 			<lifecycle source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2018/24/6/reg/">
 				<eventRef date="2018-03-22" href="#datum_usvajanja" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2018/24/6/reg/" type="generation"/>
@@ -58,197 +58,197 @@
 				<step by="/akn/rs/srp@ontology" date="2018-04-03" wId="primena"/>
 			</workflow>
 			<references source="#somebody">
-				<TLCConcept eId="cocnept0" href="ontology.link.grupa.individua" showAs="Neponovljiva"/>
-				<TLCConcept eId="cocnept1" href="ontology.link.grupa.individua" showAs="Identifikacionih"/>
-				<TLCConcept eId="cocnept2" href="ontology.link.grupa.individua" showAs="Individualna"/>
-				<TLCConcept eId="cocnept3" href="ontology.link.grupa.individua" showAs="Oznaka"/>
-				<TLCConcept eId="cocnept4" href="ontology.link.grupa.individua" showAs="Jedinstveni"/>
-				<TLCConcept eId="cocnept5" href="ontology.link.grupa.individua" showAs="Matični"/>
-				<TLCConcept eId="cocnept6" href="ontology.link.grupa.individua" showAs="Daljem"/>
-				<TLCConcept eId="cocnept7" href="ontology.link.grupa.individua" showAs="Tekstu"/>
-				<TLCConcept eId="cocnept8" href="ontology.link.grupa.individua" showAs="Broj"/>
-				<TLCConcept eId="cocnept9" href="ontology.link.grupa.individua" showAs="Građaninu"/>
-				<TLCConcept eId="cocnept10" href="ontology.link.grupa.individua" showAs="Građana"/>
-				<TLCConcept eId="cocnept11" href="ontology.link.grupa.individua" showAs="Podataka"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Koceljeva"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Aleksandrovac"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Alibunar"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Aranđelovac"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Arilje"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Babušnica"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Batočina"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Bačka Palanka"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Bačka Topola"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Bački Petrovac"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Beograd"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Blace"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Boljevac"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Bosilegrad"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Bujanovac"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Crna Trava"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Despotovac"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Dečani"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Dimitrovgrad"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Doljevac"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Dragaš"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Glogovac"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Golubac"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Gora"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Gornji Milanovac"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Inđija"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Ivanjica"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Jagodina"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Kanjiža"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Kačanik"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Kikinda"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Kladovo"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Klina"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Knjaževac"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Kosovo Polje"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Kosovska Kamenica i Vitina"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Kovačica"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Kragujevac"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Kraljevo"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Kruševac"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Kuršumlija"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Kučevo"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="LJubovija"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Lajkovac"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Lapovo"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Lebane"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Leskovac"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Loznica"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Lučani"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Mali Iđoš"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Mali Zvornik"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Mališevo"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Medveđa"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Merošina"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Mionica"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Mlavi"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Nova Crnja"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Novi Pazar"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Novo Brdo"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Opolje"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Opovo"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Osečina"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Pančevo"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Petrovac"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Plandište"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Podujevo"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Požarevac"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Požega"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Preševo"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Priboj"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Prijepolje"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Priština"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Prokuplje"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="RS"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Rača"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Raška"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Rekovac"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Republici Srbiji"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Republike Srbije"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Senta"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Smederevo"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Smederevska Palanka"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Srbica"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Srbobran"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Sremska Mitrovica"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Suva Reka"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Titel"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Topola"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Trstenik"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Uroševac"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Užice"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Valjevo"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Veliko Gradište"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Vlasotince"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Zaječar"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Ćićevac"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Ćuprija"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Čajetina"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Čoka"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Đakovica"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Šid"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Štimlje"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Štrpce"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Žagubica"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Žitište"/>
-				<TLCLocation href="ontology.link.person.individua" showAs="Žitorađa"/>
-				<TLCOrganization href="ontology.link.person.individua" showAs="Bela Crkva"/>
-				<TLCOrganization href="ontology.link.person.individua" showAs="Bela Palanka"/>
-				<TLCOrganization href="ontology.link.person.individua" showAs="Bečej"/>
-				<TLCOrganization href="ontology.link.person.individua" showAs="I"/>
-				<TLCOrganization href="ontology.link.person.individua" showAs="I grupa"/>
-				<TLCOrganization href="ontology.link.person.individua" showAs="III grupa"/>
-				<TLCOrganization href="ontology.link.person.individua" showAs="Kula"/>
-				<TLCOrganization href="ontology.link.person.individua" showAs="Nova Varoš"/>
-				<TLCOrganization href="ontology.link.person.individua" showAs="Novi Bečej"/>
-				<TLCOrganization href="ontology.link.person.individua" showAs="Novi Kneževac"/>
-				<TLCOrganization href="ontology.link.person.individua" showAs="Novi Sad"/>
-				<TLCOrganization href="ontology.link.person.individua" showAs="Republike Srbije"/>
-				<TLCOrganization href="ontology.link.person.individua" showAs="SCG"/>
-				<TLCOrganization href="ontology.link.person.individua" showAs="SFRJ"/>
-				<TLCOrganization href="ontology.link.person.individua" showAs="SRS"/>
-				<TLCOrganization href="ontology.link.person.individua" showAs="Službenom glasniku Republike Srbije"/>
-				<TLCOrganization href="ontology.link.person.individua" showAs="Sremski Karlovci"/>
-				<TLCOrganization href="ontology.link.person.individua" showAs="Ustavna povelja"/>
-				<TLCOrganization href="ontology.link.person.individua" showAs="V"/>
-				<TLCOrganization href="ontology.link.person.individua" showAs="V grupa"/>
-				<TLCOrganization href="ontology.link.person.individua" showAs="Vranje"/>
-				<TLCOrganization href="ontology.link.person.individua" showAs="ministarstvo nadležno za unutrašnje poslove"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Aleksinac"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Apatin"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Bajina Bašta"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Bač"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Beočin"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Bogatić"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Gadžin Han"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Gnjilane"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Irig"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Knić"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Kosjerić"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Kosovska Mitrovica"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Kovin"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Krupanj"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Leposavić"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Lipljan"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Majdanpek"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Negotin"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Niš"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Niška Banja"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Obilić"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Odžaci"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Paraćin"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Peć"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Pećinci"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Pirot"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Prizren"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Sečanj"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Soko Banja"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Sombor"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Stara Pazova"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Subotica"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Surdulica"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Svilajnac"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Svrljig"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Temerin"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Tutin"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Velika Plana"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Vladimirci"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Vladičin Han"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Vrbas"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Vrnjačka Banja"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Vršac"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Vučitrn"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Zrenjanin"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Zubin Potok"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Zvečan"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Čačak"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Šabac"/>
-				<TLCPerson href="ontology.link.person.individua" showAs="Žabalj"/>
-				<TLCEvent href="ontology.link.person.individua" showAs="26. marta 2018."/>
+				<TLCConcept eId="cocnept0" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCConcept" showAs="Neponovljiva"/>
+				<TLCConcept eId="cocnept1" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCConcept" showAs="Identifikacionih"/>
+				<TLCConcept eId="cocnept2" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCConcept" showAs="Individualna"/>
+				<TLCConcept eId="cocnept3" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCConcept" showAs="Oznaka"/>
+				<TLCConcept eId="cocnept4" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCConcept" showAs="Jedinstveni"/>
+				<TLCConcept eId="cocnept5" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#s03_g02_a09" showAs="Matični"/>
+				<TLCConcept eId="cocnept6" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCConcept" showAs="Daljem"/>
+				<TLCConcept eId="cocnept7" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCConcept" showAs="Tekstu"/>
+				<TLCConcept eId="cocnept8" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#s01_g02_a10" showAs="Broj"/>
+				<TLCConcept eId="cocnept9" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCConcept" showAs="Građaninu"/>
+				<TLCConcept eId="cocnept10" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#s01_g01_a10" showAs="Građana"/>
+				<TLCConcept eId="cocnept11" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#podatak" showAs="Podataka"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_031" showAs="Koceljeva"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#assembly_143" showAs="Aleksandrovac"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_038" showAs="Alibunar"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_040" showAs="Aranđelovac"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_041" showAs="Arilje"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#assembly_157" showAs="Babušnica"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_047" showAs="Batočina"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_043" showAs="Bačka Palanka"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_043" showAs="Bačka Topola"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_043" showAs="Bački Petrovac"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_005" showAs="Beograd"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_051" showAs="Blace"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_052" showAs="Boljevac"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#assembly_167" showAs="Bosilegrad"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_054" showAs="Bujanovac"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_082" showAs="Crna Trava"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_059" showAs="Despotovac"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCLocation" showAs="Dečani"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#assembly_158" showAs="Dimitrovgrad"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#assembly_149" showAs="Doljevac"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCLocation" showAs="Dragaš"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCLocation" showAs="Glogovac"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#assembly_092" showAs="Golubac"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_060" showAs="Gora"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_060" showAs="Gornji Milanovac"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_061" showAs="Inđija"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_062" showAs="Ivanjica"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_015" showAs="Jagodina"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_063" showAs="Kanjiža"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCLocation" showAs="Kačanik"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_016" showAs="Kikinda"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#assembly_112" showAs="Kladovo"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCLocation" showAs="Klina"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_065" showAs="Knjaževac"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_094" showAs="Kosovo Polje"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Kosovska Kamenica i Vitina"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_067" showAs="Kovačica"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCLocation" showAs="Kragujevac"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_017" showAs="Kraljevo"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCLocation" showAs="Kruševac"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_070" showAs="Kuršumlija"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#assembly_096" showAs="Kučevo"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#assembly_078" showAs="LJubovija"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_071" showAs="Lajkovac"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_072" showAs="Lapovo"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#assembly_161" showAs="Lebane"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCLocation" showAs="Leskovac"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_020" showAs="Loznica"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_075" showAs="Lučani"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_078" showAs="Mali Iđoš"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_078" showAs="Mali Zvornik"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCLocation" showAs="Mališevo"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#assembly_162" showAs="Medveđa"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#assembly_147" showAs="Merošina"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_080" showAs="Mionica"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_089" showAs="Mlavi"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_006" showAs="Nova Crnja"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_006" showAs="Novi Pazar"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_006" showAs="Novo Brdo"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCLocation" showAs="Opolje"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#assembly_022" showAs="Opovo"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_087" showAs="Osečina"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_022" showAs="Pančevo"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_045" showAs="Petrovac"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_090" showAs="Plandište"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCLocation" showAs="Podujevo"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCLocation" showAs="Požarevac"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_092" showAs="Požega"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#assembly_172" showAs="Preševo"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_093" showAs="Priboj"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_094" showAs="Prijepolje"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCLocation" showAs="Priština"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_024" showAs="Prokuplje"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="RS"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_095" showAs="Rača"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_096" showAs="Raška"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_097" showAs="Rekovac"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Republici Srbiji"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Republike Srbije"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_098" showAs="Senta"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_025" showAs="Smederevo"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_043" showAs="Smederevska Palanka"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCLocation" showAs="Srbica"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_101" showAs="Srbobran"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_027" showAs="Sremska Mitrovica"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_097" showAs="Suva Reka"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_106" showAs="Titel"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_044" showAs="Topola"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_108" showAs="Trstenik"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCLocation" showAs="Uroševac"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_029" showAs="Užice"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_010" showAs="Valjevo"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_113" showAs="Veliko Gradište"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#assembly_163" showAs="Vlasotince"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_013" showAs="Zaječar"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_057" showAs="Ćićevac"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_058" showAs="Ćuprija"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_055" showAs="Čajetina"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_056" showAs="Čoka"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCLocation" showAs="Đakovica"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_104" showAs="Šid"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCLocation" showAs="Štimlje"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCLocation" showAs="Štrpce"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_118" showAs="Žagubica"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_119" showAs="Žitište"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#assembly_154" showAs="Žitorađa"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_049" showAs="Bela Crkva"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_043" showAs="Bela Palanka"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_048" showAs="Bečej"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="I"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="I grupa"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCOrganization" showAs="III grupa"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_069" showAs="Kula"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_006" showAs="Nova Varoš"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_006" showAs="Novi Bečej"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_006" showAs="Novi Kneževac"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_006" showAs="Novi Sad"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Republike Srbije"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCOrganization" showAs="SCG"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCOrganization" showAs="SFRJ"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="SRS"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_027" showAs="Sremski Karlovci"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#s01_g01_a09" showAs="Ustavna povelja"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="V"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="V grupa"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_011" showAs="Vranje"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_013" showAs="ministarstvo nadležno za unutrašnje poslove"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_037" showAs="Aleksinac"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_039" showAs="Apatin"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_046" showAs="Bajina Bašta"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_042" showAs="Bač"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_050" showAs="Beočin"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_031" showAs="Bogatić"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#s01_g03_a10" showAs="Gadžin Han"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCPerson" showAs="Gnjilane"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#assembly_042" showAs="Irig"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_064" showAs="Knić"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_066" showAs="Kosjerić"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_027" showAs="Kosovska Mitrovica"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_068" showAs="Kovin"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#assembly_076" showAs="Krupanj"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_073" showAs="Leposavić"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCPerson" showAs="Lipljan"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_077" showAs="Majdanpek"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_081" showAs="Negotin"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Niš"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_100" showAs="Niška Banja"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCPerson" showAs="Obilić"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_086" showAs="Odžaci"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_088" showAs="Paraćin"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_045" showAs="Peć"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#assembly_043" showAs="Pećinci"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#assembly_156" showAs="Pirot"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCPerson" showAs="Prizren"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#assembly_010" showAs="Sečanj"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_100" showAs="Soko Banja"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_026" showAs="Sombor"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#s01_g06_a09" showAs="Stara Pazova"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_028" showAs="Subotica"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#assembly_166" showAs="Surdulica"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_103" showAs="Svilajnac"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#assembly_146" showAs="Svrljig"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_105" showAs="Temerin"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_109" showAs="Tutin"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_090" showAs="Velika Plana"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_031" showAs="Vladimirci"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#s01_g03_a10" showAs="Vladičin Han"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_115" showAs="Vrbas"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_100" showAs="Vrnjačka Banja"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_012" showAs="Vršac"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCPerson" showAs="Vučitrn"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_014" showAs="Zrenjanin"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_059" showAs="Zubin Potok"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCPerson" showAs="Zvečan"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCPerson" showAs="Čačak"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCPerson" showAs="Šabac"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_117" showAs="Žabalj"/>
+				<TLCEvent href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCEvent" showAs="26. marta 2018."/>
 			</references>
 			<notes source="#somebody">
 				<note wId="not1">

@@ -1,12 +1,10 @@
-
 import re
-
 
 from convertToLatin import Convert
 from tokenizer import patterns
 from form_akoma.Metadata import Metadata
 import os
-import utilities
+from utilities import utilities
 
 
 class MarkovaIngenioznost:
@@ -34,9 +32,10 @@ class MarkovaIngenioznost:
             for key in curr_dict:
                 items = [i[:-1] for i in item.split(" ")]
                 for char_item in items:
-                    if char_item in key:
+                    if char_item.lower() in key.lower():
                         return curr_dict[key]
         return "https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl"
+
 
 if __name__ == "__main__":
     ovaj = MarkovaIngenioznost()

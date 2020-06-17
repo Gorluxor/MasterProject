@@ -67,34 +67,45 @@ def not_invalid(text):
     return True
 
 
-def add_ner_tags(map_of_values, stablo):
+def add_ner_tags(map_of_values, stablo, metadata_builder):
     # Misc values are ignored, as they don't have a representation in the FRBR ontology
     ref = ETree.get_elements(stablo, "references")[0]
 
     for key in map_of_values:
+
         if key == "deriv" or key == "per":
             for element in map_of_values[key]:
+                link = metadata_builder.translator[element]
+                if '#' not in link:
+                    link = 'https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCPerson'
                 if not_invalid(element):
                     ref.append(
-                        ET.Element("TLCPerson", {"href": "ontology.link.person.individua",
+                        ET.Element("TLCPerson", {"href": link,
                                                  "showAs": element}))  # http://purl.org/vocab/frbr/core#Person"
         elif key == "loc":
             for element in map_of_values[key]:
+                link = metadata_builder.translator[element]
+                if '#' not in link:
+                    link = 'https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCLocation'
                 if not_invalid(element):
                     ref.append(
-                        ET.Element("TLCLocation", {"href": "ontology.link.person.individua",
+                        ET.Element("TLCLocation", {"href": link,
                                                    "showAs": element}))  # "http://purl.org/vocab/frbr/core#Place"
         elif key == "org":
             for element in map_of_values[key]:
+                link = metadata_builder.translator[element]
+                if '#' not in link:
+                    link = 'https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCOrganization'
                 if not_invalid(element):
                     ref.append(ET.Element("TLCOrganization",
-                                          {"href": "ontology.link.person.individua",
+                                          {"href": link,
                                            "showAs": element}))  # "http://purl.org/vocab/frbr/core#CorporateBody"
         elif key == "date":
             for element in map_of_values[key]:
                 if not_invalid(element):
+                    link = 'https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCEvent'
                     ref.append(
-                        ET.Element("TLCEvent", {"href": "ontology.link.person.individua",
+                        ET.Element("TLCEvent", {"href": link,
                                                 "showAs": element}))  # "http://purl.org/vocab/frbr/core#Event"
 
 
@@ -166,7 +177,7 @@ def apply_akn_tags(text: str, meta_name: str, skip_tfidf_ner=False, ner="crf", m
             fix_dates(map_ret)
             events = utilities.regex_events(regex_patterns.strip_html_tags(text))
             utilities.entities_add_date(map_ret, events)  # Regex adding dates
-            add_ner_tags(map_ret, akoma_root)
+            add_ner_tags(map_ret, akoma_root, metabuilder)
         ner_list.clear()
 
     try:
