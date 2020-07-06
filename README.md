@@ -40,6 +40,7 @@ pip install pandas
 pip install sklearn
 pip install sklearn_crfsuite
 pip install matplotlib
+pip install spacy
 ```
 __Napomena__: Možda bude potrebno instalirati dodatne biblioteke ukoliko nije kreirano okruženje za 3.7 verziju sa anacondom (`conda create -n myenv python=3.7`).
 
